@@ -3,7 +3,7 @@ description: 瞭解Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: 253cc73b4ee1cf4a11a82a5716611133d68d2031
+source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '26177'
 ht-degree: 0%
@@ -1345,7 +1345,7 @@ Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習�
 
 **公告**
 
-* 如果宣告包含標籤 `<a>`，公告未如預期建立。
+* 如果宣告包含標籤 <a>，公告未如預期建立。
 
 **帳戶**
 
