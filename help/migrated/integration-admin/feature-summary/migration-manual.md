@@ -2,9 +2,9 @@
 description: 整合管理員參考手冊，協助您將現有學習管理系統移轉至Learning Manager學習管理系統
 jcr-language: en_us
 title: 移轉手冊
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
 workflow-type: tm+mt
-source-wordcount: '3687'
+source-wordcount: '3628'
 ht-degree: 0%
 
 ---
@@ -419,11 +419,11 @@ Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果�
 
 規劃您的移轉專案非常重要。 建議您將專案分成多個衝刺，並清楚識別您要在每個衝刺中移轉的專案。 在每次衝刺後進行一些驗證，以對在那個衝刺中移轉的資料有信心，而不是在專案結束時進行一個宏大的驗證階段，可能也是個不錯的主意。 在移轉專案中啟動Sprint之前，您需要分別在FTP和Box伺服器上傳資料和內容CSV檔案。 如果您沒有自訂FTP和Box的帳戶，您可以建立它們。
 
-**建立FTP帳戶**
+<!--**Create FTP account**-->
 
-按一下 **[!UICONTROL Request for CSV FTP folder]**. 隨即顯示快顯對話方塊，提示您輸入電子郵件ID。 請詳閱線上指示，並建立FTP帳戶。 建立帳戶之後，您就可以在FTP中檢視移轉專案和Sprint專案資料夾。
+<!--Click **[!UICONTROL Request for CSV FTP folder]**. A pop-up dialog appears prompting you to enter your e-mail id. Go through online instructions and create an FTP account. As soon as you create your account, you can view your migration project and sprint project folders in FTP. 
 
-以下是專案檔案和FTP資料夾的範例快照，以供您參考。
+A sample snapshot of project files and folder of FTP is shown below for your reference. -->
 
 <!--![](assets/exavault-migration-upload-folders.png)-->
 
