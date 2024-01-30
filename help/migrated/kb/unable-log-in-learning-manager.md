@@ -26,7 +26,7 @@ ht-degree: 0%
 
 瀏覽器快取和Cookie可能會阻止您存取AdobeLearning Manager平台。
 
-## 解析度
+## 解決方法
 
 ## 清除瀏覽歷程記錄/快取
 

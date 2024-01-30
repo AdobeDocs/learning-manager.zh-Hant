@@ -301,7 +301,7 @@ Learning Manager會提示學習者提供有關行動應用程式體驗的反饋�
   </tr>
   <tr>
    <td>
-    <p>視訊</p></td>
+    <p>影片</p></td>
    <td>
     <p>wmv， f4v， asf， 3gp， 3g2， avi， mov， h264， m4v， mp4， MPEG， mpg</p></td>
   </tr>
@@ -460,7 +460,7 @@ linkedIn學習課程所花費的學習時間會由LinkedIn內容/LinkedIn平台�
   </tr>
   <tr>
    <td>
-    <p>視訊</p></td>
+    <p>影片</p></td>
    <td>
     <p>wmv， f4v， asf， 3gp， 3g2， avi， mov， h264， m4v， mp4， MPEG， mpg</p></td>
   </tr>

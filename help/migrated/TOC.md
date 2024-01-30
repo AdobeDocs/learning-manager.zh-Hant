@@ -67,7 +67,7 @@ ht-degree: 0%
    * [iPad與Android平板電腦使用者](administrators/feature-summary/ipad-android-tablet-users.md)
    * [管理員快速入門](administrators/feature-summary/getting-started.md)
    * [清除使用者](administrators/feature-summary/purge-users.md)
-   * [標籤](administrators/feature-summary/tags.md)
+   * [標記](administrators/feature-summary/tags.md)
    * [Learning Manager內容目錄](administrators/feature-summary/content-catalogs.md)
    * [自訂角色](administrators/feature-summary/custom-role.md)
    * [目錄標籤](administrators/feature-summary/catalog-labels.md)

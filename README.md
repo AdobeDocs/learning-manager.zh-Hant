@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '401'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 # Contribute文章
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ## Adobe開放原始碼行為準則
 
-本專案已採用 [Adobe開放原始碼行為準則](code-of-conduct.md) 或 [.NET Foundation行為準則](https://dotnetfoundation.org/code-of-conduct). 如需詳細資訊，請參閱 [投稿](contributing.md) 文章。
+本專案已採用 [Adobe 開放原始碼管理辦法](code-of-conduct.md)或 [.NET Foundation 管理辦法](https://dotnetfoundation.org/code-of-conduct)。如需詳細資訊，請參閱[貢獻](contributing.md)一文。
 
 ## 關於您對Adobe內容的貢獻
 

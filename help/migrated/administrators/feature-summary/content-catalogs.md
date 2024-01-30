@@ -3,7 +3,7 @@ description: Learning Manager推出內容目錄
 jcr-language: en_us
 title: Learning Manager內容目錄
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6ab762701908a280325fd6a60bf49f87a2a60da7
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 0%

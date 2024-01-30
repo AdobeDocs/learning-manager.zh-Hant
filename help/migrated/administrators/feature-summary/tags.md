@@ -1,7 +1,7 @@
 ---
 description: 瞭解如何管理Learning Manager上的標籤。
 jcr-language: en_us
-title: 標籤
+title: 標記
 contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 
 
-# 標籤
+# 標記
 
 管理員現在可以管理Learning Manager中的標籤。 使用更出色的標籤和可管理資料庫，協助學習者更輕鬆搜尋，並快速取得適當的搜尋結果。 您可以使用此功能管理冗餘、拼寫錯誤和不相關的標籤。 您也可以新增、編輯、刪除、附加或取代標籤。
 

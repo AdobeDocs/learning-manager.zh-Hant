@@ -34,7 +34,7 @@ ht-degree: 0%
 
 Adobe Learning Manager會拒絕這些導致錯誤的陳舊Cookie。
 
-## 解析度
+## 解決方法
 
 如果Adobe Learning Manager拒絕過時的Cookie，請嘗試下列選項：
 

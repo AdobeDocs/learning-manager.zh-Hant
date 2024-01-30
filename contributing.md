@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 # 投稿
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 行為準則
 
-此專案會遵守此Adobe [行為準則](code-of-conduct.md). 參與專案時，請遵守本准則。 如發現不良行為，請向
+此專案遵守 Adobe [行為準則](code-of-conduct.md)。參與專案時，請遵守本准則。 如發現不良行為，請向
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## 貢獻者指南檔案

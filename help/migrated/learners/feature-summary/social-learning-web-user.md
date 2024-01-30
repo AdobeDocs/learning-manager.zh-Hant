@@ -283,7 +283,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>
-    <p>視訊</p></td>
+    <p>影片</p></td>
    <td>
     <p>wmv， f4v， asf， 3gp， 3g2， avi， mov， h264， m4v， mp4， MPEG， mpg</p></td>
   </tr>

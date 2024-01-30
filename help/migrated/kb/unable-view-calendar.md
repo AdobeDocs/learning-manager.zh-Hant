@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 * 瀏覽器的縮放等級超過100%。
 * 顯示設定中的比例和版面配置超過100%。
 
-## 解析度
+## 解決方法
 
 ### 瀏覽器
 

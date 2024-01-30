@@ -43,7 +43,7 @@ ht-degree: 0%
 
    * 目錄
    * 報表
-   * 標籤
+   * 標記
 
    ![](assets/core-features.png)
 
