@@ -2,7 +2,7 @@
 description: 瞭解如何建立內容，以配合課程成為自訂進度內容。
 jcr-language: en_us
 title: 內容庫
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3105'
 ht-degree: 0%
@@ -147,7 +147,7 @@ ht-degree: 0%
 1. 在「描述」欄位中，輸入內容的描述。 請確定您要輸入的說明有意義。 字元限製為245個字元。
 1. 若要新增內容，請按一下「新增內容檔案」，然後上傳您的資源檔案。 當您新增多種語言的內容時，您無法將靜態和互動式內容結合在單一群組中。 您所有地區設定的所有內容都應是靜態的，或者所有內容都應是互動的。
 
-* [支援的檔案型別](content-library.md#supported)*
+* [支援的檔案型別](content-library.md#supported)
 
   互動式內容可以是SCORM、AICC或Captivate發佈的專案。 檔案必須是zip檔案。
 
