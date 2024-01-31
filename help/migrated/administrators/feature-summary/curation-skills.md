@@ -3,7 +3,7 @@ jcr-language: en_us
 title: 將技能與技能領域對應
 description: 若要自動組織使用者針對特定技能領域張貼的貼文（由啟用AI的組織引擎所提供），使用者的企業必須具備其自訂技能，才能對應至Learning Manager LMS中顯示的支援技能領域。
 contentowner: kuppan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
