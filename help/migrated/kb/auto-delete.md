@@ -3,7 +3,7 @@ jcr-language: en_us
 title: 使用者在Learning Manager中自動刪除
 description: 使用者會從Learning Manager中刪除，但管理員不會執行任何此類動作。
 contentowner: nluke
-source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
+source-git-commit: 99c4df44388667efdd162f74918bc3daf907a0f3
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 問題
 
-A **使用者** 會從Learning Manager中刪除，但管理員從未執行任何此類動作。
+使用者會從Learning Manager中刪除，但管理員不會執行任何此類動作。
 
 ## 原因
 
