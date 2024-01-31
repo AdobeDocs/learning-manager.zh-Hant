@@ -1,10 +1,10 @@
 ---
-user-guide-title: AdobeLearning Manager指南
+user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
-user-guide-description: Adobe學習管理員檔案
+user-guide-description: Adobe Learning Manager 文件
 source-git-commit: 4e36c95d9186e36746ca2aeaf09b9ac0336881f1
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
