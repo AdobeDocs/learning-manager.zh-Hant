@@ -3,9 +3,9 @@ description: 瞭解如何在Learning Manager應用程式中新增使用者或使
 jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
-source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
+source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
 workflow-type: tm+mt
-source-wordcount: '3832'
+source-wordcount: '3830'
 ht-degree: 0%
 
 ---
@@ -24,30 +24,7 @@ ht-degree: 0%
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
-   <button type="button">Launch培訓</button>
-</a>
-
-<br/>
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
 如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
@@ -70,30 +47,7 @@ button:hover {
 
 使用單一使用者選項將內部學習者新增至Adobe學習管理員。
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
-   <button type="button">Launch培訓</button>
-</a>
-
-<br/>
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
 如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
