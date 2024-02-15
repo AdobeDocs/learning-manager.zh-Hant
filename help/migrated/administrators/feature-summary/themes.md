@@ -3,9 +3,9 @@ description: Learning Manager中的色彩主題與品牌
 jcr-language: en_us
 title: 顏色主題
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 0%
 Learning Manager中的色彩主題與品牌
 
 Learning Manager可讓您變更應用程式的外觀，以符合貴組織的品牌需求。
+
+## 自訂您的使用者介面
+
+在本次訓練中，您將探索自訂介面外觀的方法，以符合組織的品牌需求。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 ## 品牌化 {#branding}
 
