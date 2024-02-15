@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 目錄
 description: 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2341'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 
 如果您想要讓帳戶中或帳戶間的不同學習者都能使用選擇性課程，身為管理員，您可以建立自訂目錄。
+
+## Catalogs簡介
+
+在本次訓練中，您將學習如何建立和管理目錄。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+
 
 ## 建立目錄 {#createacatalog}
 
