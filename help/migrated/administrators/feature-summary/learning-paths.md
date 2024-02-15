@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 學習路徑
 description: 在Learning Manager中為管理員建立學習計畫。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,14 @@ ht-degree: 0%
 這就是我們構想學習路徑的地方。 學習路徑是學習者必須經歷的歷程，以隨著時間掌握一些主題。 學習者可掌控其培訓體驗，並能以更有效率的方式自訂進度取得及保留知識。
 
 例如，新員工上線時，組織會進行有關政策和程式、文化、歷史等的培訓。 學習路徑會根據員工的需求設定課程，讓員工可以按照為其設定的學習路徑註冊課程。 您選擇後，您就可以在此路徑中註冊使用者，讓使用者在不同的課程中前進。
+
+## 建立及設定學習路徑
+
+在本訓練中，您將學習如何建立學習路徑、新增課程、發佈和淘汰學習路徑，以及設定學習路徑內的例項。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 ## 學習路徑的優勢
 
