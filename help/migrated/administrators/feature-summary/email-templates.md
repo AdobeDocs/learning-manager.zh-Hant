@@ -3,9 +3,9 @@ description: 您的培訓活動中的事件會觸發傳送給學習者的電子�
 jcr-language: en_us
 title: 電子郵件範本
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1383'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ Learning Manager應用程式會根據事件傳送電子郵件通知給使用者�
 身為管理員，您可以新增或修改內容，並針對學習者、管理員和作者觸發的各種事件傳送通知給使用者，以自訂電子郵件範本。
 
 管理員也可以選擇不傳送特定事件的電子郵件通知。
+
+## 電子郵件範本簡介
+
+在本訓練中，您將瞭解如何自訂個別電子郵件範本，以及自訂電子郵件範本的課程和帳戶層級設定。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 ## 設定電子郵件範本 {#configureemailtemplates}
 
