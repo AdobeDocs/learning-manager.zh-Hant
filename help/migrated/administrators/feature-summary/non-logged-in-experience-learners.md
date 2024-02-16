@@ -1,9 +1,9 @@
 ---
 title: 學習者的非登入體驗
 description: AdobeLearning Manager原生入口網站支援非記錄方式存取培訓網站。 啟用此模式後，學習者即可探索及存取培訓網站，並檢視各種可用的課程和內容。 非登入體驗可讓學習者在不登入入口網站的情況下瀏覽課程。
-source-git-commit: aef2dfe9d6f49dcccaf1f71b57ffa25a3075efe8
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,11 @@ AdobeLearning Manager原生入口網站支援非記錄方式存取培訓網站�
 >確認已選取「原生學習管理員」選項。
 
 管理員可以修改和設定首頁，適用於未登入的使用者。
+
+>[!IMPORTANT]
+>
+>AdobeLearning Manager學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。 不應依原樣將其用於任何型別的資料擷取，以支援任何非登入的使用者/共用使用者或任何其他此類情況。 非登入使用案例需要特殊處理。 若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確保解決方案架構師已在您部署解決方案之前對其進行稽核。
+
 
 ## 啟動首頁選項
 

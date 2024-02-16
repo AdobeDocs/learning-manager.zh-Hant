@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 應用程式開發人員手冊
 description: Learning Manager V1 API現已棄用。 V1 API將於2021年2月28日起停止運作。 建議您使用V2 API與Learning Manager互動。
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3380'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,10 @@ ht-degree: 0%
 
 # 應用程式開發人員手冊
 
-Learning Manager V1 API現已棄用。 V1 API將於2021年2月28日起停止運作。 建議您使用V2 API與Learning Manager互動。
+>[!NOTE]
+>
+>Learning Manager V1 API現已棄用。 建議您使用V2 API與Learning Manager互動。
+
 
 ## 概觀 {#overview}
 
@@ -29,6 +32,10 @@ Learning Manager V1 API現已棄用。 V1 API將於2021年2月28日起停止運�
 Learning Manager API以REST原則為基礎，並透過HTTP向應用程式開發人員公開Learning Manager物件模型的關鍵元素。 在瞭解API端點和HTTP方法的詳細資訊之前，開發人員可以熟悉各種Learning Manager物件、其屬性和相互關係。 瞭解模型後，大致瞭解API要求和回應的結構，以及在API中普遍使用的幾個常用程式設計術語會很有用。
 
 如需各種API端點與方法的詳細資訊，請參閱  [Learning Manager API檔案](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>AdobeLearning Manager學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。 不應依原樣將其用於任何型別的資料擷取，以支援任何非登入的使用者/共用使用者或任何其他此類情況。 非登入使用案例需要特殊處理。 若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確保解決方案架構師已在您部署解決方案之前對其進行稽核。
 
 ## API驗證 {#apiauthentication}
 
