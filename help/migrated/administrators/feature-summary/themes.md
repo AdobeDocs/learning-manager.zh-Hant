@@ -3,9 +3,9 @@ description: Learning Manager中的色彩主題與品牌
 jcr-language: en_us
 title: 顏色主題
 contentowner: jayakarr
-source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
+source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '868'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,11 @@ Learning Manager應用程式為其使用者提供五個顏色主題選項：
 * 秋季
 * 冬天
 * 生動
+
+>[!NOTE]
+>
+>生動的主題符合協助工具標準。
+
 
 ![](assets/prime-customize-theme.png)
 
