@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 應用程式開發人員手冊
 description: Learning Manager V1 API現已棄用。 V1 API將於2021年2月28日起停止運作。 建議您使用V2 API與Learning Manager互動。
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3380'
+source-wordcount: '3382'
 ht-degree: 0%
 
 ---
@@ -33,9 +33,17 @@ Learning Manager API以REST原則為基礎，並透過HTTP向應用程式開發�
 
 如需各種API端點與方法的詳細資訊，請參閱  [Learning Manager API檔案](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## 學習者API
+
+Adobe學習管理員 — 學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。
+
 >[!IMPORTANT]
 >
->AdobeLearning Manager學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。 不應依原樣將其用於任何型別的資料擷取，以支援任何非登入的使用者/共用使用者或任何其他此類情況。 非登入使用案例需要特殊處理。 若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確保解決方案架構師已在您部署解決方案之前對其進行稽核。
+>不應依原樣將其用於任何型別的資料擷取，以支援任何非登入的使用者/共用使用者或任何其他此類情況。
+
+非登入使用案例需要特殊處理。
+
+**若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確保解決方案架構師已在您部署解決方案前先行審查解決方案**.
 
 ## API驗證 {#apiauthentication}
 
