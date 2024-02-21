@@ -3,9 +3,9 @@ description: 瞭解如何在Learning Manager中整合各種聯結器
 jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15680'
+source-wordcount: '15698'
 ht-degree: 0%
 
 ---
@@ -2112,6 +2112,11 @@ Adobe Commerce管理員會將Learning Manager設定為整合。
 ### 將課程匯出至Adobe Commerce
 
 作者設定好各種課程、學習路徑或認證的價格後，您身為整合管理員，會將課程、學習路徑或認證匯出至Adobe Commerce。
+
+>[!NOTE]
+>
+>在2024年3月發行的Adobe Learning Manager中，我們引進了對 [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. 按一下 **[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**.
 
