@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 自訂學習者首頁
 description: 管理員可以自訂學習者的首頁，並使其更現代、內容導向且對學習者進行個人化。
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,17 @@ ht-degree: 0%
 
 管理員可以自訂學習者的首頁，並使其更現代、內容導向且對學習者進行個人化。
 
-個人化方法提供建立學習者首頁的廣泛方式，組織管理員可在管理員使用者介面中以WYSIWYG方式進行設定。
+個人化方法提供以Widget為基礎的方式，建立學習者首頁，組織的管理員可在管理員使用者介面中以WYSIWYG方式進行設定。
 
 該體驗是由AI驅動演演算法的個人化培訓建議所驅動，該演演算法會分析業界技能的第三方內容、合併同儕活動以及使用明確和隱含資料的學習者興趣區域。
+
+### 自訂學習者首頁
+
+在本次訓練中，您將探索自訂學習者首頁的方法。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 ## 設定學習者首頁 {#configurethelearnerhomepage}
 

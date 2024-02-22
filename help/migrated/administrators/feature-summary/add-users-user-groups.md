@@ -3,9 +3,9 @@ description: 瞭解如何在Learning Manager應用程式中新增使用者或使
 jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3830'
+source-wordcount: '3848'
 ht-degree: 0%
 
 ---
@@ -155,13 +155,21 @@ ht-degree: 0%
 ![](assets/edit-user.png)
 *編輯使用者對話方塊*
 
-## 作用中欄位和作用中欄位值的工作流程會保留區分大小寫
+## 作用中的欄位
 
-在此版本中，Learning Manager會保留使用者屬性及其值區分大小寫。 **例如**，使用者屬性的區分大小寫為「location」，其值將保留並以相同方式顯示。 如果有任何問題，管理員現在可以編輯屬性名稱和值，以更正任何區分大小寫的錯誤。
+### 管理使用者屬性
+
+在本次訓練中，您將瞭解如何新增、自訂及設定作用中欄位。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+
+Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例如**，使用者屬性的區分大小寫為「location」，其值將保留並以相同方式顯示。 如果有任何問題，管理員現在可以編輯屬性名稱和值，以更正任何區分大小寫的錯誤。
 
 管理員可透過造訪來達成此目的 **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** 並按一下群組名稱。
 
-管理員可以透過UI為學習者新增和更新允許的屬性值。
+管理員可以透過UI為學習者新增及更新允許的屬性值。
 
 作用中欄位的型別：
 

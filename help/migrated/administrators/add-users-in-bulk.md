@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 大量新增使用者
 description: 瞭解如何一次新增多個使用者。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,15 @@ ht-degree: 0%
 
 # 大量新增使用者
 
-可以，您可以按照以下步驟同時新增多個使用者：
+在本次訓練中，您將瞭解如何透過CSV大量新增使用者。
+
+[![按鈕](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+
+## 如何新增多個使用者
+
+您可以按照以下步驟同時新增多個使用者：
 
 1. 按一下 **[!UICONTROL Users]** 管理員登入中的左窗格，然後按一下 **[!UICONTROL Add]** > **[!UICONTROL Upload a csv]**. 隨即顯示快顯對話方塊。
 

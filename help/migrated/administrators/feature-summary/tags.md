@@ -3,9 +3,9 @@ description: 瞭解如何管理Learning Manager上的標籤。
 jcr-language: en_us
 title: 標記
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '731'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,14 @@ ht-degree: 0%
 按一下每個標籤旁提供的計數，即可檢視與該標籤相關聯的學習物件清單。 此清單會顯示課程、學習計畫、憑證、工作輔助和內容群組的數量。 按一下這些選項中的任何一個，即可檢視清單。
 
 您可以使用來根據使用情形或字母順序來排序標籤 **[!UICONTROL Sort By]** 選項。
+
+## 標籤簡介
+
+此培訓會教您如何新增、編輯、取代、附加和刪除標籤。 您也會瞭解如何變更許可權設定及使用標籤篩選器。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 ## 新增/刪除/編輯標籤 {#adddeleteedittags}
 

@@ -3,9 +3,9 @@ description: 進一步瞭解在Learning Manager中清除使用者資料。
 jcr-language: en_us
 title: 清除使用者
 contentowner: dvenkate
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,16 @@ ht-degree: 0%
 * 如果清除講師，則會從工作階段中將其移除。 管理員必須更換/新增這類工作階段的講師。
 * 在Learning Manager中清除使用者不會移除任何外部應用程式（第三方系統或您編寫的其他應用程式）中的使用者。 請聯絡外部應用程式擁有者，將使用者從這類應用程式中移除。
 * 如果在聯結器的組態設定中參照了已清除的使用者，則聯結器會停用。 管理員需要重新設定聯結器才能繼續。
+
+### 管理使用者
+
+在本訓練中，您將學習如何指派和移除角色、傳送歡迎電子郵件，以及刪除和清除使用者。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+
+## 如何清除使用者
 
 若要永久刪除使用者，請執行下列步驟：
 
