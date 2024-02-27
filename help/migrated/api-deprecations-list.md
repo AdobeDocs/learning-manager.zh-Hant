@@ -3,54 +3,55 @@ jcr-language: en_us
 title: Adobe Learning Manager中的API淘汰
 description: 隨著Adobe Learning Manager中API的發展，API會定期重新組織或升級。 API進化後，舊的API會遭到取代並最終移除。 本頁包含從已棄用的API版本移轉至較新且較穩定的API版本時，您必須知道的資訊。
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
 
 
-# Adobe Learning Manager中的API淘汰
+# Adobe Learning Manager中的API淘汰與變更
 
 ## 2024年3月版AdobeLearning Manager中的API淘汰
 
-### 速率限制的變更
+<!-- ### Changes in Rate Limits
 
-在下一版Adobe學習管理器中，我們將重新調整新帳戶的API速率限制。 對於現有帳戶，只有管理員API會設有速率限制。 90天（大約3個月）後，我們將重新建構所有API的速率限制，但現有帳戶將根據目前使用情況列入白名單。 現有帳戶需要重新造訪其學習者API使用情況。
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-若是新客戶，如果他們想要提高費率限制，必須聯絡ALM的客戶成功團隊。
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### 哪些API會受到限制
+#### Which APIs will be rate limited 
 
-對於新帳戶，所有管理員、學習者和搜尋API將強制使用速率限制和高載。
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-API高載率或高載限制是指在有限時間範圍內允許以短高載向API提出的最大請求數。
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-下表列出API的速率與高載限制。
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>要求 — RPM的數量</th>
-        <th>高載要求數量</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>管理員</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>學習者</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>搜尋</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### 位移限制的變更
 
