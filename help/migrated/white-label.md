@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的API淘汰
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以在行動應用程式上套用白色標籤，這樣就能重新命名應用程式，並且讓使用者能在自己的品牌下使用應用程式。
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 32b45c5f0781e959e39128284d56f93b32b600d7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
   <td>
 
-  <p>應用程式圖示為png。 此圖示會顯示在您的應用程式上。 名稱的格式為'<account-id>'_appIcon.png.</p></td>
+  <p>應用程式圖示為png。 此圖示會顯示在您的應用程式上。 名稱的格式為account-id_appIcon.png。</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
   <td>
 
-  <p>針對應用程式的空白熒幕，提供使用者啟動應用程式時顯示的影像(png)。 名稱的格式為'<account-id>'_splashIcon.png.</p></td>
+  <p>針對應用程式的啟動畫面，提供使用者啟動應用程式時顯示的影像(png)。 名稱的格式為account-id_splashIcon.png。</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
   <td>
 
-  <p>註冊應用程式時，您帳戶的整合管理員會提供詳細資訊。 整合管理員必須使用下列專案：<ul><li>"learner：read，learner：write"作為角色。</li><li>『<internal app name>'：//redirect為重新導向URL。 </li></ul> </p></td>
+  <p>註冊應用程式時，您帳戶的整合管理員會提供詳細資訊。 整合管理員必須使用以下專案： *學習者：read，學習者：write as role *內部應用程式name://redirect作為重新導向URL
+
+  </p></td>
 
   </tr>
 
