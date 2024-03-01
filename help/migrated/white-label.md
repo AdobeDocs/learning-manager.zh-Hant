@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的API淘汰
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以在行動應用程式上套用白色標籤，這樣就能重新命名應用程式，並且讓使用者能在自己的品牌下使用應用程式。
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 ## 如何套用變更
 
-客戶將所需的資產和檔案傳送到CSM團隊。 然後CSM團隊會填寫 [表單](https://forms.office.com/r/bJRRaRBvSh) 進行必要的變更，然後附加必要的資產。 然後團隊將稽核並通知工程團隊相關變更。 工程團隊將隨即產生組建並與CSM團隊共用。
+將所需的資產和檔案傳送到CSM團隊。 然後CSM團隊會填寫 [表單](https://forms.office.com/r/bJRRaRBvSh) 進行必要的變更，然後附加必要的資產。 然後團隊將稽核並通知工程團隊相關變更。 工程團隊將隨即產生組建並與CSM團隊共用。
 
 CSM團隊將與客戶共用組建。
 
