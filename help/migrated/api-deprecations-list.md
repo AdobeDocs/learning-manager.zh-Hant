@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的API淘汰
 description: 隨著Adobe Learning Manager中API的發展，API會定期重新組織或升級。 API進化後，舊的API會遭到取代並最終移除。 本頁包含從已棄用的API版本移轉至較新且較穩定的API版本時，您必須知道的資訊。
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ The following table lists the rate and burst limits for the APIs.
 
 下列學習者API日後將停止運作，因為有覆寫標幟。
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users？page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### 技能型新建議的API變更
 
