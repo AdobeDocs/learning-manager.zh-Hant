@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '592'
 ht-degree: 2%
 
 ---
@@ -55,6 +55,7 @@ ht-degree: 2%
    * [對等帳戶](administrators/feature-summary/peer-account.md)
    * [建立和修改技能與層級](administrators/feature-summary/skills-levels.md)
    * [以AI為基礎的課程推薦](ai-based-recommendations.md)
+   * [匯入技能](administrators/feature-summary/import-skills-external-sources.md)
    * [遊戲](administrators/feature-summary/gamification.md)
    * [自訂學習者首頁](administrators/feature-summary/customize-learner-homepage.md)
    * [徽章](administrators/feature-summary/badges.md)
