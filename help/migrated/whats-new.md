@@ -3,9 +3,9 @@ description: 瞭解關於2024年3月tne日發行的Adobe Learning Manager的新�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### 管理員 — 課程或學習路徑頁面
 
-如果大量學習者註冊了課程（例如，超過50,000個），則不會顯示學習者清單。 您可以在「 」中搜尋學習者 *搜尋學習者* 搜尋列或選取 **下載** 搜尋列上方的連結以下載學習者清單。
+如果大量學習者註冊了課程（例如，超過50,000個），則不會顯示學習者清單。 您可以在「 」中搜尋學習者 *搜尋學習者* 搜尋列或選取 **下載** 搜尋列頂端的連結，用來下載學習者清單。
 
 ### 管理員 — 學習者頁面
 
