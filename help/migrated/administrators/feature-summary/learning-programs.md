@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 學習計畫
 contentowner: manochan
 preview: true
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1456'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,11 @@ ht-degree: 0%
 
 
 # 學習計畫
+
+>[!WARNING]
+>
+>Adobe Learning Manager已棄用學習計畫。
+
 
 閱讀本文章，瞭解如何在Learning Manager中建立和管理學習計畫
 
