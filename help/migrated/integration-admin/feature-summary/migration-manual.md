@@ -2,9 +2,9 @@
 description: 整合管理員參考手冊，協助您將現有學習管理系統移轉至Learning Manager學習管理系統
 jcr-language: en_us
 title: 移轉手冊
-source-git-commit: 76eae1c8bc6f2afde9ea6c9433300e8af9cfdda8
+source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
 workflow-type: tm+mt
-source-wordcount: '3628'
+source-wordcount: '3601'
 ht-degree: 0%
 
 ---
@@ -15,19 +15,9 @@ ht-degree: 0%
 
 整合管理員參考手冊，協助您將現有學習管理系統移轉至Learning Manager學習管理系統
 
-## 概觀 {#overview}
+<!-- ## Overview {#overview} -->
 
-<table>
- <tbody>
-  <tr>
-   <td><img src="assets/migration.jpg"></td>
-   <td>
-    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">AdobeLearning Manager</a> 是雲端託管、以學習者為中心的自助學習管理解決方案。 Adobe可讓擁有現有學習管理系統(LMS)的企業將組織的訓練資料和訓練內容移轉至Learning Manager LMS應用程式。 </p></td>
-  </tr>
- </tbody>
-</table>
-
-### 使用案例 {#usagescenario}
+## 使用案例 {#usagescenario}
 
 一般而言，大型企業會有其內部學習管理系統或任何供應商提供的舊版學習管理系統。 LMS包含企業培訓內容和培訓資料。 作為企業，購買Learning Manager時，您可能會想要將現有的LMS內容和資料移至Learning Manager，以便運用現代且直覺式LMS的優勢，而不會遺失組織的任何舊資料。
 
@@ -388,7 +378,11 @@ Learning Manager可讓您上傳不含內容的模組。 Adobe Systems將其視�
 </table>
 
 Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果您在日期超出範圍的CSV檔案中提及日期2038-07-17T08，則在移轉期間可能會收到錯誤:53:21.000Z或1980-04-17T08:13:25.322赫
-[sample-csvs.zip](assets/sample-csvs.zip) [csv_specifications.zip](assets/csv-specifications.zip)在匯入期間，您必須注意下列CSV檔案的相依性：
+
+* [sample-csvs.zip](assets/sample-csvs.zip)
+* [csv_specifications.zip](assets/csv-specifications.zip)
+
+在匯入期間，您必須注意下列CSV檔案的相依性：
 
 * module_version.csv依存於module.csv
 * course_instance.csv依存於course.csv
@@ -536,6 +530,11 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 4-user_course_grades.xlsx — 包含retrofit_user_course_grades.csv檔案所需中繼資料的說明。
 [csv-specifications.zip](assets/csv-specifications.zip)
+
+>[!NOTE]
+>
+>UUID （通用唯一識別碼）也是移轉csv中的一欄。
+
 
 ## 疑難排解移轉問題 {#troubleshootingmigrationissues}
 
