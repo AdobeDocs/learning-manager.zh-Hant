@@ -3,9 +3,9 @@ description: 瞭解關於2024年3月tne日發行的Adobe Learning Manager的新�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 0%
 
 ---
@@ -425,6 +425,10 @@ learningObjectResource中的新屬性isExpiredSubmission，可顯示資源中的
 ```
 
 如果您嘗試下載 **登入存取權** 超過五個季度的報告會顯示錯誤訊息。 如果您嘗試下載 **使用者稽核** 超過六個月的報告。
+
+### 已過時的API
+
+檢視 [Adobe Learning Manager中的API淘汰](api-deprecations-list.md) 以取得產品中所有已棄用API的累積清單。
 
 ## 此更新中修正的錯誤 {#bug-fixes}
 
