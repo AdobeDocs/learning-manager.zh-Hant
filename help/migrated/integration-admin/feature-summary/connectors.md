@@ -3,9 +3,9 @@ description: 瞭解如何在Learning Manager中整合各種聯結器
 jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
-source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
+source-git-commit: c48b620ad075708d1e85fe49ed16bb4805bfbbc0
 workflow-type: tm+mt
-source-wordcount: '15698'
+source-wordcount: '14885'
 ht-degree: 0%
 
 ---
@@ -964,50 +964,50 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 若要刪除已建立的miniOrange連線，請按照下列步驟操作。
 
-## 視訊會議聯結器(Bluejeans Meetings and Zoom) {#bluejeansconnector}
+<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
 
-您現在可以將Learning Manager與BlueJeans和Zoom聯結器整合，並使用它們來託管課程。  聯結器可讓您與學習者設定視訊會議會議/課程。
+You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
 
-若要設定及使用聯結器，請遵循下列步驟。
+To set up and use the connector, follow these steps.
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在BlueJeans/縮放縮圖上。 選單出現。 按一下  **[!UICONTROL Connect]** 選單中的選項。
+1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
 
    ![](assets/connectors.png)
 
-   *縮放聯結器圖磚*
+   *Zoom connector tile*
 
-1. BlueJeans/縮放聯結器頁面隨即開啟。 在個別欄位中輸入帳戶的詳細資料，以整合及同步使用者摘要。 您可以從聯結器帳戶的系統管理員取得詳細資料。
+1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
 
    ![](assets/bluejeans-connecotrpage.png)
-   *連線到BlueJeans/縮放*
+   *Connect to BlueJeans/ Zoom*
 
    >[!NOTE]
    >
-   >作為學習者，在啟用聯結器時，請使用與您的Learning Manager帳戶相同的電子郵件ID來啟用使用者傳回Learning Manager的資訊。
+   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
 
-1. 建立連線後，以Author身分，以BlueJeans/ Zoom作為會議系統來建立VC課程。
+1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
 
    ![](assets/vc.jpg)
+   
+   *Create a VC course*
 
-   *建立VC課程*
-
-1. 管理員、經理和學習者可將學習者註冊到建立的課程。 註冊後，學習者會收到電子郵件。 學習者可登入其Learning Manager帳戶以檢視方案詳細資料並參加課程。
-1. 完成課程後，完成報告會傳送至Learning Manager。 管理員可檢視完成報告，以檢查學習者的出席情況及分數。
+1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
+1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
 
    ![](assets/attendence-and-scoringreport.png)
-   *出席與評分報告*
+   *Attendance and scoring report*
 
-### 建立縮放伺服器對伺服器OAuth應用程式
+### Create a zoom server-to-server OAuth app
 
-建立用於Adobe Learning Manager的Zoom伺服器對伺服器OAuth應用程式時，您必須在建立連線時新增AdobeLearning Manager所需的範圍。
+When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
 
-AdobeLearning Manager需要下列範圍，且必須在OAuth應用程式中選取範圍。
+Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
 
-* 檢視所有使用者會議/會議:read:管理員
-* 檢視及管理所有使用者會議/會議:write:管理員
-* 檢視報表資料/report:read:管理員
-* 檢視所有使用者資訊/user:read:管理員
-* 檢視使用者的資訊並管理使用者/user:write:管理員
+* View all user meetings /meeting:read:admin
+* View and manage all user meetings /meeting:write:admin
+* View report data /report:read:admin
+* View all user information /user:read:admin
+* View users' information and manage users /user:write:admin-->
 
 ## 方塊聯結器 {#boxconnector}
 
@@ -1918,56 +1918,56 @@ Marketo中有兩種型別的資料庫：
 * 自助註冊
 * 技能完成
 
-## BlueJeans Events {#bj-events}
+<!--## BlueJeans Events {#bj-events}
 
-BlueJeans事件聯結器會連線Learning Manager和BlueJeans系統，以自動化資料同步。 使用此聯結器，您可以：
+BlueJeans Events connector connects Learning Manager and BlueJeans systems to automate data synchronization. Using this connector, you can:
 
-* **使用BlueJeans事件設定虛擬工作階段：** 在BlueJeans中設定新事件，並透過選取適當的BlueJeans事件在Learning Manager中設定VC工作階段。 從BlueJeans事件自動挑選日期和時間詳細資訊。
-* **自動使用者完成同步：** 自動使用者完成同步程式可讓Learning Manager管理員自動擷取BlueJeans事件的完成記錄。
+* **Set up virtual sessions using BlueJeans Events:** Configure a new event in BlueJeans and setup a VC session in Learning Manager by selecting the appropriate BlueJeans event. Date and time details are picked automatically from the BlueJeans events.
+* **Automated User Completion Syncing:** An Automated user completion syncing process allows the Learning Manager Administrator to fetch completion records for BlueJeans events automatically.
 
-此新聯結器需要一組單獨的認證才能設定聯結器。 現有的BlueJeans會議聯結器的認證無法用於BlueJeans事件聯結器。
+This new connector requires a separate set of credentials to configure the connector. The credentials of the existing BlueJeans Meetings connector will not work for BlueJeans Events connector.
 
-![](assets/bj-event-connector.png)
-*BlueJeans事件聯結器的認證*
+![](assets/bj-event-connector.png) 
+*Credentials for BlueJeans Event Connector*
 
-### 工作流程 {#workflow}
+### Workflow {#workflow}
 
-1. BlueJeans事件版主會從BlueJeans中建立事件。
-1. 作者會使用在未來日期建立的BlueJeans事件URL來建立BlueJeans事件課程。
-1. 由於BlueJeans事件的標題與多個事件類似，因此作者必須將事件出席者url附加至會議室名稱，才能選擇適當的事件。
+1. The BlueJeans Event moderator creates an event from within BlueJeans.
+1. The author creates BlueJeans event course using the BlueJeans event url, which is created in future dates.
+1. Since BlueJeans events have a similar title for multiple events, the author must append the event attendee url to the room name, so that he/she can choose the appropriate event.
 
-   輸入事件URL的格式： ***事件名稱 — 事件出席者url***
+   The format to enter event url: ***event name--event attendee url***
 
-   對於動態會議室，其行為類似於Adobe Connect的行為。
+   For Dynamic rooms, the behavior is similar to that of Adobe Connect.
 
    ![](assets/bj-eventname.png)
-   *BlueJeans事件設定*
+   *BlueJeans Events configuration*
 
-1. 一旦作者進入BlueJeans事件URL，日期與時間就會自動填入。
-1. 新增講師至活動。 講師現在將擁有在BlueJeans事件中擔任簡報者的更高許可權。
+1. Once the author enters the BlueJeans event url, the date and time will be auto populated.
+1. Add an instructor to the event. The instructor will now have elevated privileges as a Presenter in a BlueJeans event.
 
-管理員、經理和學習者可將學習者註冊到建立的課程。 註冊後，學習者會收到電子郵件。 學習者可登入其Learning Manager帳戶以檢視方案詳細資料並參加課程。
+Administrators, managers, and learners can enroll learners to the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
 
-當課程完成時，完成報告會在排定的期間後觸發。 管理員可檢視完成報告，以檢查學習者的出席情況及分數。
+When the course is complete, the completion report gets triggered after a scheduled duration. The administrator can see the completion report to check the attendance and score of the learners.
 
-如果BlueJeans事件版主在工作階段期間啟用錄製，則工作階段結束後，可在學習者應用程式中使用錄製。
+If the BlueJeans Event moderator enables the recording during the session, after session ends, the recording is available in the learner app.
 
 ![](assets/bluejeans-event-configure.png)
-*BlueJeans事件設定*
+*BlueJeans Events configuration*
 
-當您啟用核取方塊時 **擷取其他使用者建立的事件**&#x200B;之後，您就可以將BlueJeans事件建立者的清單新增至 **其他事件建立者** 欄位。 在作者應用程式中，只有這些使用者建立的事件可透過預先輸入欄位進行搜尋。
+When you enable the check-box **Fetch Events created by the other users**, you can then add the list of BlueJeans event creators in the **Additional Event Creators** field. In the Author app, only events created by these users are searchable via the type-ahead field.
 
-如果 **其他事件建立者** 欄位保留為空白，所有在BlueJeans中建立的事件都可在作者應用程式中搜尋。
+If the **Additional Event Creators** field is left blank, all events created in BlueJeans will be available for searching in the Author App.
 
-然後，作者在作者應用程式中，從可用事件清單中選取事件。 此外，作者可以向事件新增講師。 Learning Manager中的這些講師將成為BlueJeans活動中的主持人。
-
->[!NOTE]
->
->所有使用者都必須屬於BlueJeans事件應用程式中的相同企業。
+The Author, in the Author app, then selects an event from the list of available events. In addition, the Author can add instructors to the event. These instructors in Learning Manager would become the presenters within BlueJeans events.
 
 >[!NOTE]
 >
->我們新增了快取機制，以改善整體使用者體驗。 當您選取其他事件建立者時，此選項即適用。 在此模式中，當作者搜尋事件時，會首次擷取事件。 快取會保留30分鐘，讓作者知道擷取新事件必須等候多久。
+>All users must belong to the same enterprise in BlueJeans Events App.
+
+>[!NOTE]
+>
+>We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
 ## Microsoft Teams聯結器
 
