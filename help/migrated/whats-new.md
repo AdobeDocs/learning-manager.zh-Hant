@@ -3,9 +3,9 @@ description: 瞭解關於2024年3月tne日發行的Adobe Learning Manager的新�
 jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
-source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
+source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
 workflow-type: tm+mt
-source-wordcount: '3261'
+source-wordcount: '3332'
 ht-degree: 0%
 
 ---
@@ -351,6 +351,12 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 ### 應用程式評等
 
 學習者可針對AdobeLearning Manager應用程式提供意見回饋，進一步提升應用程式體驗。 如果學習者給四顆星或更多顆星評分，則會顯示快顯視窗，要求學習者在Play Store或App Store上給應用程式評分。
+
+### Bluejeans的生命週期已於2024年2月結束(EOL)
+
+我們在此通知您，Bluejeans已於2024年2月終止服務(EOL)。 2024年2月後，Bluejeans將不再接收更新或支援。 我們的CSAM和支援團隊將協助您解決在此過渡期間可能遇到的任何問題或顧慮。
+
+檢視 [Adobe Learning Manager中的聯結器](integration-admin/feature-summary/connectors.md) 有關設定聯結器的詳細資訊。
 
 ## 此版本中的API變更
 
