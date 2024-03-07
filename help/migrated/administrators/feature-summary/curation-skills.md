@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 將技能與技能領域對應
 description: 若要自動組織使用者針對特定技能領域張貼的貼文（由啟用AI的組織引擎所提供），使用者的企業必須具備其自訂技能，才能對應至Learning Manager LMS中顯示的支援技能領域。
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '366'
 ht-degree: 0%
 
 ---
@@ -43,6 +43,11 @@ ht-degree: 0%
 * 設計
 * Analytics
 * 銷售
+
+>[!NOTE]
+>
+>根據演演算法，如果信賴分數小於50%，則內容會標示為手動組織。
+
 
 若要新增技能領域，請遵循下列步驟：
 
