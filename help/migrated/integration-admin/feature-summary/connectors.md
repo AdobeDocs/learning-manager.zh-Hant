@@ -3,7 +3,7 @@ description: 瞭解如何在Learning Manager中整合各種聯結器
 jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
-source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
+source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
 workflow-type: tm+mt
 source-wordcount: '14984'
 ht-degree: 0%
@@ -774,7 +774,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 >[!NOTE]
 >
->   Learning Manager使用Workday API 28.1版。
+>   Learning Manager使用Workday API 40.1版。
 
 
 ![](assets/configure-connector.png)
