@@ -3,14 +3,13 @@ description: 瞭解您可以設定為管理員的Learning Manager帳戶設定。
 jcr-language: en_us
 title: 設定
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3762'
+source-wordcount: '3927'
 ht-degree: 0%
 
 ---
-
-
 
 # 設定
 
@@ -421,10 +420,26 @@ ht-degree: 0%
    <td>
     <p>講師管理<br></p></td>
    <td>
-    <p>啟用此設定可限制在建立教室/虛擬教室工作階段時可選取的講師清單。 所有擁有講師許可權的使用者只能被指派為任何工作階段的講師。 此限制不適用於移轉工作流程。<br></p></td>
+    <p>啟用此設定可限制在建立教室/虛擬教室工作階段時可選取的講師清單。 所有擁有講師許可權的使用者只能被指派為任何工作階段的講師。 此限制不適用於移轉工作流程。<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>技能匯入</p>
+    </td>
+    <td>
+      <p>如果啟用，您可以選擇外部來源來匯入技能。 現有學習資源的技能將在初次執行期間匯入一次技能存放庫。 對於所有後續的學習資源匯入，技能將僅針對新匯入的專案匯入技能存放庫。
+      啟用選項後，動作即不可逆。 您稍後無法停用或變更為其他來源。
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>一旦啟用技能匯入設定，帳戶配置就無法切換到Classic。 即啟用技能匯入後，會停用切換到傳統帳戶。
+
 
 ## AI型建議
 
@@ -578,6 +593,13 @@ Learning Manager支援私人內容資料夾。 管理員可以使用「自訂角
 * 區域
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### 設定 {#admin-classroom-settings}
+
+選取 **編輯** 若要變更下列專案：
+
+* **允許作者建立位置**：啟用後，作者建立的所有位置都會列在「所有位置」索引標籤下。 學習者也會在目錄和行事曆篩選器下看到這些位置。
+* **允許作者修改和刪除位置**：啟用後，作者將能夠修改和刪除所有教室位置。 作者的修改會反映在整個平台中，包括報表。
 
 ## 常見問題 {#frequentlyaskedquestions}
 
