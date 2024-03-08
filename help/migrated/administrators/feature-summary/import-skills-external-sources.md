@@ -4,7 +4,7 @@ title: 從外部來源匯入技能
 description: 使用各自的聯結器從內容提供者(例如LinkedIn和Go1)匯入技能。  匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 1. 在 **技能匯入** 區段，選取 **啟用**. 如果已啟用，您可以選擇要匯入的外部來源 **技能**. 現有學習資源的技能將在初次執行期間匯入一次技能存放庫。 對於所有後續的學習資源匯入，技能將僅針對新匯入的專案匯入技能存放庫。
 1. 從下拉式清單中選取內容提供者。
 
-身為管理員，您只能將一項技能匯入為「來源」。
+身為管理員，您只能匯入一項技能作為來源。
 
 ### 預設技能等級
 

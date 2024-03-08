@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
+source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
 workflow-type: tm+mt
-source-wordcount: '3930'
+source-wordcount: '3932'
 ht-degree: 0%
 
 ---
@@ -438,7 +438,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->一旦啟用技能匯入設定，帳戶配置將無法切換到Classic，即切換到Classic帳戶將在 **技能匯入** 選項已啟用。
+>啟用技能匯入設定後，帳戶配置將無法切換到「傳統」檢視，即切換到「傳統」帳戶將在 **技能匯入** 選項已啟用。
 
 
 ## AI型建議
