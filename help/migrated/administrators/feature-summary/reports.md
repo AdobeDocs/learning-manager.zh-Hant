@@ -3,14 +3,13 @@ description: 瞭解與Learning Manager應用程式中的管理員角色相關聯
 jcr-language: en_us
 title: 報表
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6286'
+source-wordcount: '6408'
 ht-degree: 0%
 
 ---
-
-
 
 # 報表
 
@@ -580,6 +579,14 @@ Adobe Learning Manager支援四種主要型別的報表，例如完成、逗留�
 
 訂閱報告即可以電子郵件取得您最愛的報告。
 
+### 設定電子郵件訂閱
+
+在此培訓中，您將瞭解如何設定控制面板報告的電子郵件訂閱。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+
 在 **[!UICONTROL Reports]** 頁面，按一下  **[!UICONTROL Subscription]** 標籤。 報表訂閱頁面隨即顯示。
 
 若要從下拉式清單中選取報表名稱，請開始在報表欄位中輸入報表名稱。 從下拉式清單中選擇電子郵件的頻率。 您可以新增電子郵件的主旨，並提供備用電子郵件ID。
@@ -600,6 +607,7 @@ Adobe Learning Manager支援四種主要型別的報表，例如完成、逗留�
 * 使用者稽核軌跡
 * 登入/存取報告
 * 遊戲成績單
+* 遊戲化稽核軌跡
 
 ## 學習者成績單 {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Adobe學習管理員可讓組織的管理員產生與學習者相關的成績單
 
    當管理員重設遊戲化時，學習者的所有點會相應重設。
 
+## 遊戲化稽核軌跡報告 {#gamification-audit-trail}
+
+此報表含有學習者因每個規則而獲得的遊戲點數的歷程記錄及原因。
+
+### 下載報表
+
+1. 選取遊戲化稽核軌跡URL。
+1. 在 **遊戲化稽核軌跡** 快顯視窗，選取日期範圍。
+1. 選取 **產生**.
+
+報表會下載為CSV檔案。 檔案包含下列欄：
+
+* 名稱
+* 電子郵件/ UUID、
+* 狀態
+* 動作
+* 點，
+* 平衡點
+* 規則/任務
+* 規則/任務子任務，
+* 規則/任務詳細資訊
+* 型別，
+* 名稱，
+* 執行個體名稱獲得日期（UTC時區）
+* 規則/任務開始時間
+* 規則/任務結束時間
+
 ## 註冊和取消註冊報告 {#enrollmentandunenrollmentreport}
 
 管理員和經理可以擷取已註冊和已取消註冊學習者的報表。 身為管理員，您可以看到任何已註冊或取消註冊課程、學習計畫或認證執行個體的學習者、管理員或經理，並匯出報告。 身為經理，您只能擷取團隊成員的報表。 身為經理，您無法在經理應用程式中看到已刪除的學習者或您自己的名稱，因為您是已註冊或未註冊的學習者。
@@ -900,7 +935,7 @@ Learning Manager支援「培訓報表」，可讓管理員下載培訓詳細資�
 ![](assets/more-options.png)
 *其他選項*
 
-## 工作階段摘要報告
+## 工作階段摘要報告 {#session-summary-report}
 
 「工作階段摘要報告」包含學習者在指定日期內規劃的所有工作階段。
 
@@ -925,17 +960,17 @@ Learning Manager支援「培訓報表」，可讓管理員下載培訓詳細資�
 * 名額數
 * 位置
 * 執行個體名稱
-
 * 課程名稱
 * 課程ID
 * 講師姓名
 * 講師電子郵件
 * 註冊計數
-
 * 工作階段型別
 * 輪候表限制
 * 輪候表計數
 * 輪候表使用者電子郵件
+* 位置資訊
+* 位置區域
 
 ## 講師使用率報表
 

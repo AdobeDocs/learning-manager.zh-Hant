@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 目錄
 description: 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2373'
 ht-degree: 0%
 
 ---
-
-
 
 # 目錄
 
@@ -132,6 +131,14 @@ ht-degree: 0%
 管理員可與組織的內部使用者或任何外部使用者共用目錄。 但是，共用是專屬的。 換言之，內部共用目錄無法與外部群組共用，反之亦然。
 
 課程、學習計畫、工作輔助和認證是您想共用的目錄中的支援學習物件。
+
+### 共用目錄
+
+此培訓將教導您如何與內部使用者群組和外部AdobeLearning Manager帳戶共用目錄。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 ## 在內部共用目錄 {#int}
 
@@ -340,4 +347,3 @@ ht-degree: 0%
 停用預設目錄，並僅啟用已建立且已授予外部使用者存取權的目錄。
 
 +++
-

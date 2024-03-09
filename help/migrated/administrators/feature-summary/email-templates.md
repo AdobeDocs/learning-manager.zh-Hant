@@ -3,14 +3,13 @@ description: 您的培訓活動中的事件會觸發傳送給學習者的電子�
 jcr-language: en_us
 title: 電子郵件範本
 contentowner: manochan
-source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
+exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1461'
 ht-degree: 0%
 
 ---
-
-
 
 # 電子郵件範本
 
@@ -219,6 +218,14 @@ Learning Manager中的電子郵件範本現在包含完全可編輯的區段，�
 * 編輯電子郵件頁尾。 頁尾區域包含帳戶URL、簽名以及使用者新增的任何自由格式文字的預定義變數。
 
 範本也支援進階編輯功能，以便在內容複製並貼到Microsoft Word時保留格式。
+
+### 設定執行個體
+
+在本培訓中，您將瞭解如何設定執行個體預設值、新增執行個體、淘汰和重新開啟執行個體，以及設定執行個體的電子郵件範本。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 ## 內嵌邀請 {#inlineinvitations}
 
