@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '14984'
+source-wordcount: '15044'
 ht-degree: 0%
 
 ---
@@ -1946,15 +1946,22 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 
 ## 訓練資料存取
 
+
+>[!IMPORTANT]
+>
+>此特定功能僅在Adobe Learning Manager以Adobe Experience Manager附加元件的形式銷售時才能使用。 課程資料將在24小時內過時。
+
+
 >[!NOTE]
 >
->**此特定功能僅在Adobe Learning Manager以Adobe Experience Manager附加元件的形式銷售時才能使用。**
+>區段會強調基礎架構的運作方式，但若是建置Headless或AEM型非登入體驗，請聯絡我們。 我們會為您提供使用案例的正確方法依據。 此功能目前不是自助式。
+
 
 訓練資料存取聯結器可讓您的AEM Sites式自訂使用者介面擷取訓練資訊並將資訊呈現給學習者，並幫助輕鬆快速地搜尋。
 
 聯結器會將訓練中繼資料匯出至資料儲存和擷取解決方案。 接著，您可以設定AEM Sites介面，使用這兩項服務來擷取訓練資料、轉譯網頁，並為學習者提供最佳化的訓練搜尋功能。
 
-例如，未登入AEM Sites型介面可使用匯出的中繼資料，協助學習者搜尋、瀏覽及存取顯示訓練資訊的訓練頁面
+本文會重點說明基礎架構的運作方式，但若是建置Headless或AEM型非登入體驗，請聯絡我們。 我們會為您提供使用案例的正確方法依據。 此功能目前不是自助式。
 
 啟用此聯結器以建置及轉譯您的AEM Sites式網頁，並將自訂體驗從AEM提供給您的學習者，其中課程資訊是使用公用API (Headless LMS)擷取。
 
