@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15044'
+source-wordcount: '15135'
 ht-degree: 0%
 
 ---
@@ -745,6 +745,12 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 >[!NOTE]
 >
 >不能使用同一Workday帳戶同時匯出來自多個Learning Manager帳戶的技能。
+
+#### 要註記的點
+
+* 確認在多個Workday整合中，UUID、電子郵件地址和員工名稱都是唯一的。 不正確的值將導致連線失敗。
+* UUID欄位一經在透過Workday填入，便無法由任何面對LMS管理員的使用者端刪除。 如果您想要變更值，請聯絡Learning Manager上線或支援團隊的Adobe。
+* 由於「使用者清除」只支援每個執行清除50個使用者，因此「使用者清除」選項也可能無法運作。 透過UUID上傳使用者時，請格外小心。
 
 ### 正在排程 {#Scheduling-1}
 
