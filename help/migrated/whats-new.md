@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 0%
 
 ---
@@ -365,6 +365,23 @@ iOS上：按一下推播通知會將您導向應用程式的首頁。 這是iOS�
 Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表示您現在可以使用自己的品牌發佈應用程式。
 
 在中檢視白色標籤 [AdobeLearning Manager行動應用程式](white-label.md) 以取得詳細資訊。
+
+### 移轉CSV中的新欄
+
+在此版本中，下列移轉CSV包含新欄（選用） uniqueLoId 。
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+uniqueLoId欄不適用於「工作輔助」CSV。
+
+>[!IMPORTANT]
+>
+>該帳戶中的欄值必須是唯一的。 課程或認證不能使用相同的值。
+
+下載CSV，從 [移轉手冊](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### 應用程式評等
 
