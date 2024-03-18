@@ -1,11 +1,11 @@
 ---
-description: 整合管理員參考手冊，協助您將現有LMS移轉至Learning Manager LMS。
+description: 整合管理員參考手冊，協助您將現有LMS移轉至AdobeLearning Manager LMS。
 jcr-language: en_us
 title: 移轉手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0a5c51c6d56de2c9e2404ba6ddac5a82a62174a5
+source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
 workflow-type: tm+mt
-source-wordcount: '3601'
+source-wordcount: '3602'
 ht-degree: 0%
 
 ---
