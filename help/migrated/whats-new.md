@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
+source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
 workflow-type: tm+mt
 source-wordcount: '3661'
 ht-degree: 0%
@@ -368,7 +368,7 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
 ### 移轉CSV中的新欄
 
-在此版本中，下列移轉CSV包含新欄（選用） uniqueLoId 。
+在此版本中，下列移轉CSV會新增選用欄uniqueLoId 。
 
 * certification.csv
 * course.csv
