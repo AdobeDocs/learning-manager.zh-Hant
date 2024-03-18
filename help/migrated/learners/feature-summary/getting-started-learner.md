@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 學習者快速入門
 description: 使用快速入門頁面來周遊AdobeLearning Manager的關鍵學習路徑。
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 0%
 
 ---
-
-
 
 # 學習者快速入門
 
@@ -26,7 +25,7 @@ Learning Manager中的學習者應用程式完全以Widget為基礎，只要按�
 
 **我的學習**：您可以依型別和截止日期檢視及按一下學習物件。 按一下「我的學習」Widget中的圓形，直接前往學習物件型別，或依截止日期檢視學習物件。
 
-**我的技能**：您也可以在該頁面的右上角檢視技能圖。 參考  [技能圖](skills-levels.md)功能以取得詳細資訊。
+**我的技能**：您也可以在該頁面的右上角檢視技能圖。 參考  [技能圖](skills-levels.md) 功能以取得詳細資訊。
 
 **學習物件Widget**：此專案位於「我的學習」的正下方，顯示使用者的學習物件。 在「我的學習」下方可檢視所有  [課程](courses.md)，  [學習計畫](learning-programs.md) 和  [認證](certifications.md) 您所註冊或指派給您的活動。 您可以直接開始使用學習物件，或從此介面工具重新造訪學習物件。
 

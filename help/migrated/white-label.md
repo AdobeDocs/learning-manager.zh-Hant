@@ -4,7 +4,7 @@ title: Adobe Learning Manager行動應用程式中的白色標籤
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以在行動應用程式上套用白色標籤，這樣就能重新命名應用程式，並且讓使用者能在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
+source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
 workflow-type: tm+mt
 source-wordcount: '1051'
 ht-degree: 0%
@@ -145,9 +145,7 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
   <td>
 
-  <p>註冊應用程式時，您帳戶的整合管理員會提供詳細資訊。 整合管理員必須使用以下專案： *學習者：read，學習者：write as role *內部應用程式name://redirect作為重新導向URL
-
-  </p></td>
+  <p>註冊應用程式時，您帳戶的整合管理員會提供詳細資訊。 整合管理員必須使用下列專案：<ul><li>學習者：read，學習者：write as role</li><li>內部應用程式name://redirect作為重新導向URL</li></ul></p></td>
 
   </tr>
 
