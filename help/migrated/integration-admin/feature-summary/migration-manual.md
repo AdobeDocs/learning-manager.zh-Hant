@@ -1,15 +1,14 @@
 ---
-description: 整合管理員參考手冊，協助您將現有學習管理系統移轉至Learning Manager學習管理系統
+description: 整合管理員參考手冊，協助您將現有LMS移轉至Learning Manager LMS。
 jcr-language: en_us
 title: 移轉手冊
-source-git-commit: fc6ebb67037c5c75f1b3b66bcf5a23b08532b3bb
+exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
+source-git-commit: 0a5c51c6d56de2c9e2404ba6ddac5a82a62174a5
 workflow-type: tm+mt
 source-wordcount: '3601'
 ht-degree: 0%
 
 ---
-
-
 
 # 移轉手冊
 
@@ -576,4 +575,3 @@ Learning Manager可識別及記住單一使用者新增至其中的方法，例�
 
 * [上傳CSV常見問題集](/help/migrated/administrators/add-users-in-bulk.md)
 * [新增使用者的功能說明](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
-
