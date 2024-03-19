@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 898103cd6cda48bf4303c660b6c635d3208deca5
+source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
 workflow-type: tm+mt
 source-wordcount: '3666'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ### 從外部來源匯入技能
 
-使用各自的聯結器從內容提供者(例如LinkedIn和Go1)匯入技能。 此增強功能是Learning Manager整合外部技能雲端和人才管理系統的目標之一。 匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。 整個平台的技能搜尋功能也得到了增強，以便在客戶具有大量技能時提供更好的搜尋體驗。
+使用各自的聯結器，從內容提供者(例如LinkedIn和Go1)匯入技能。 此增強功能是Learning Manager整合外部技能雲端和人才管理系統的目標之一。 匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。 整個平台的技能搜尋功能也得到了增強，以便在客戶具有大量技能時提供更好的搜尋體驗。
 
 檢視 [匯入技能](administrators/feature-summary/import-skills-external-sources.md) 以進一步瞭解。
 
