@@ -4,14 +4,14 @@ jcr-language: en_us
 title: AdobeLearning Manager發行說明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aa4d1a41b08d90d04c780db62fabbfd428cae7d2
+source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
 workflow-type: tm+mt
-source-wordcount: '26202'
+source-wordcount: '26204'
 ht-degree: 0%
 
 ---
 
-# 新功能摘要
+# AdobeLearning Manager發行說明
 
 <!--<table>
  <tbody>
