@@ -1,16 +1,15 @@
 ---
-description: 瞭解Adobe Learning Manager中的新功能和增強功能
+description: AdobeLearning Manager發行說明
 jcr-language: en_us
-title: 新功能摘要
+title: AdobeLearning Manager發行說明
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: adf75b7f451e7977f6b5ccd3550dc26d33162d66
 workflow-type: tm+mt
-source-wordcount: '26177'
+source-wordcount: '26202'
 ht-degree: 0%
 
 ---
-
-
 
 # 新功能摘要
 
@@ -24,13 +23,22 @@ ht-degree: 0%
  </tbody>
 </table>-->
 
-+++更新95： 2023年11月發行的Adobe Learning Manager
++++更新96： 2024年3月發行的Adobe Learning Manager
 
 **發行日期：** 2023年11月18日
 
 ## 此版本的新增功能
 
 檢視 [Adobe Learning Manager新增功能](/help/migrated/whats-new.md) 以取得詳細資訊。
++++
+
++++更新95： 2023年11月發行的Adobe Learning Manager
+
+**發行日期：** 2023年11月18日
+
+## 此版本的新增功能
+
+檢視 [Adobe Learning Manager新增功能](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) 以取得詳細資訊。
 +++
 
 +++更新94
