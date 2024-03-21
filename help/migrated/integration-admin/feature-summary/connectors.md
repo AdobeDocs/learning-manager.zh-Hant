@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
+source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
 workflow-type: tm+mt
-source-wordcount: '15127'
+source-wordcount: '15103'
 ht-degree: 0%
 
 ---
@@ -1559,89 +1559,89 @@ Learning Manager提供連線至自訂FTP位置的功能。
 
 ## 註冊應用程式的步驟 {#stepstoregisteryourapplication}
 
-1. 按一下Azure Active Directory。 按一下 **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
+* 按一下Azure Active Directory。 按一下 **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
-   <!--![](assets/add-app-registration.png)-->
-   *新增應用程式註冊*
+  <!--![](assets/add-app-registration.png)-->
+  <!-- *Add app registration*-->
 
-1. 輸入應用程式的名稱。
+* 輸入應用程式的名稱。
 
-   <!--![](assets/register-app.png)-->
-   *輸入應用程式的名稱*
+  <!--![](assets/register-app.png)-->
+  <!--*Enter the name of the application*-->
 
-   按一下 **[!UICONTROL Register]**.
+  按一下 **[!UICONTROL Register]**.
 
-1. 在右窗格中，選取 **[!UICONTROL Certificates and Secrets]**.
+* 在右窗格中，選取 **[!UICONTROL Certificates and Secrets]**.
 
-   <!--![](assets/add-client-secret.png)-->
+  <!--![](assets/add-client-secret.png)-->
 
-   *選取憑證和密碼*
+  <!--*Select Certificates and Secrets*-->
 
-1. 新增使用者端密碼。
+* 新增使用者端密碼。
 
-   <!--![](assets/add-description.png)-->
+  <!--![](assets/add-description.png)-->
 
-   *新增使用者端密碼*
+  <!--*Add a client secret*-->
 
-1. 為密碼新增說明，並將到期日設為24個月。
+* 為密碼新增說明，並將到期日設為24個月。
 
-<!-- ![](assets/copy-values.png)-->
+  <!-- ![](assets/copy-values.png)-->
 
-*新增說明*
+  <!--*Add description*-->
 
-1. 將值和密碼複製到（例如記事本）。
+* 將值和密碼複製到（例如記事本）。
 
-<!-- ![](assets/copy-secret.png)-->
+  <!-- ![](assets/copy-secret.png)-->
 
-*複製值和秘密金鑰*
+  <!--*Copy value and secret key*-->
 
-1. 選取 **API許可權**.
+* 選取 **API許可權**.
 
-   <!--![](assets/click-api-permission.png)-->
+  <!--![](assets/click-api-permission.png)-->
 
-<!-- *Left pane containing API Permissions*-->
+  <!-- *Left pane containing API Permissions*-->
 
-1. 選取 **新增許可權**. 此外，啟用選項， **授予管理員同意**.
+* 選取 **新增許可權**. 此外，啟用選項， **授予管理員同意**.
 
-   ![](assets/add-permission.png)
+  ![](assets/add-permission.png)
 
-   *新增許可權*
+  *新增許可權*
 
-1. 選取 **Microsoft Graph**.
+* 選取 **Microsoft Graph**.
 
-   <!--![](assets/ms-graph.png)-->
+  <!--![](assets/ms-graph.png)-->
 
-   <!--*Select Microsoft Graph*-->
+  <!--*Select Microsoft Graph*-->
 
-1. 選取 **應用程式許可權**.
+* 選取 **應用程式許可權**.
 
-   ![](assets/request-api-permission.png)
+  ![](assets/request-api-permission.png)
 
-   *選取應用程式許可權*
+  *選取應用程式許可權*
 
-1. 搜尋 *目錄* 並選取 **讀取目錄資料**.
+* 搜尋 *目錄* 並選取 **讀取目錄資料**.
 
-   ![](assets/read-directory-data.png)
+  ![](assets/read-directory-data.png)
 
-   *選取讀取目錄資料*
+  *選取讀取目錄資料*
 
-1. 輸入 *使用者* 作為搜尋字詞。
+* 輸入 *使用者* 作為搜尋字詞。
 
-   ![](assets/search-user.png)
+  ![](assets/search-user.png)
 
-   *輸入搜尋字詞*
+  *輸入搜尋字詞*
 
-1. 選取 **讀取所有使用者的完整設定檔**.
+* 選取 **讀取所有使用者的完整設定檔**.
 
-   ![](assets/select-read-all.png)
+  ![](assets/select-read-all.png)
 
-   *選取讀取所有使用者的完整設定檔*
+  *選取讀取所有使用者的完整設定檔*
 
-1. 選取 **新增許可權**.
+* 選取 **新增許可權**.
 
-   <!--![](assets/select-add-permission.png)-->
+  <!--![](assets/select-add-permission.png)-->
 
-<!-- *Select Add Permissions*-->
+  <!-- *Select Add Permissions*-->
 
 ### ADFS設定頁面
 
