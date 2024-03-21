@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 59d5e166747b332833ca68344691008670219366
+source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
 workflow-type: tm+mt
-source-wordcount: '15135'
+source-wordcount: '15127'
 ht-degree: 0%
 
 ---
@@ -1561,45 +1561,45 @@ Learning Manager提供連線至自訂FTP位置的功能。
 
 1. 按一下Azure Active Directory。 按一下 **[!UICONTROL Add]** > **[!UICONTROL App registration]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *新增應用程式註冊*
 
 1. 輸入應用程式的名稱。
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *輸入應用程式的名稱*
 
    按一下 **[!UICONTROL Register]**.
 
 1. 在右窗格中，選取 **[!UICONTROL Certificates and Secrets]**.
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *選取憑證和密碼*
 
 1. 新增使用者端密碼。
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *新增使用者端密碼*
 
 1. 為密碼新增說明，並將到期日設為24個月。
 
-   ![](assets/copy-values.png)
+<!-- ![](assets/copy-values.png)-->
 
-   *新增說明*
+*新增說明*
 
 1. 將值和密碼複製到（例如記事本）。
 
-   ![](assets/copy-secret.png)
+<!-- ![](assets/copy-secret.png)-->
 
-   *複製值和秘密金鑰*
+*複製值和秘密金鑰*
 
 1. 選取 **API許可權**.
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
-   *包含API許可權的左側窗格*
+<!-- *Left pane containing API Permissions*-->
 
 1. 選取 **新增許可權**. 此外，啟用選項， **授予管理員同意**.
 
@@ -1609,9 +1609,9 @@ Learning Manager提供連線至自訂FTP位置的功能。
 
 1. 選取 **Microsoft Graph**.
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
-   *選取Microsoft Graph*
+   <!--*Select Microsoft Graph*-->
 
 1. 選取 **應用程式許可權**.
 
@@ -1639,9 +1639,11 @@ Learning Manager提供連線至自訂FTP位置的功能。
 
 1. 選取 **新增許可權**.
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
-   *選取新增許可權*
+<!-- *Select Add Permissions*-->
+
+### ADFS設定頁面
 
 1. 在Adobe Learning Manager的ADFS設定頁面中，輸入您先前取得的使用者端ID和使用者端密碼。
 
