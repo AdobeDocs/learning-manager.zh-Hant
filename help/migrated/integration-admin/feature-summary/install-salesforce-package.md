@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 安裝Salesforce套件
 description: Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站中執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議並加以使用。 使用者也可以直接在SFDC入口網站的應用程式中，取得管理員以刊頭形式傳送的公告。
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
+source-git-commit: 970c5f46d6af49bfcca09f88f3d0ece1168fe442
 workflow-type: tm+mt
 source-wordcount: '946'
 ht-degree: 0%
 
 ---
-
-
 
 # 安裝Salesforce套件
 
@@ -48,7 +47,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 >
 >Adobe Learning Manager應用程式僅在Salesforce閃電檢視中受支援。
 
-1. 啟動  [Learning Manager套件url](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Ftest.salesforce.com%2Fpackaging%2FinstallPackage.apexp%3Fp0%3D04t1k0000008YWn&amp;data=04%7C01%7Ckillamse%40adobe.com%7Cf588f553fc694d2edee108d9a5c74711%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C637723097572585825%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C1000&amp;sdata=mhYKVdwvS4F7WPruy0Kvw%2FsqgWxzTQpaZJyEACu8CNw%3D&amp;reserved=0).
+1. 啟動  [Learning Manager套件url](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP).
 1. 在 **登入** 頁面，按一下 **[!UICONTROL Use Custom Domain]**.
 
 1. 輸入封裝URL並按一下 **[!UICONTROL Continue]**. 安裝頁面必須選取僅供管理員安裝的選項。 請勿變更此選項。
