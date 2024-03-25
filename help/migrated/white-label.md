@@ -4,7 +4,7 @@ title: Adobe Learning Manager行動應用程式中的白色標籤
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以在行動應用程式上套用白色標籤，這樣就能重新命名應用程式，並且讓使用者能在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
+source-git-commit: b649255ce7b3f3e0676f785003d3af60c50520a0
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -292,7 +292,7 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
