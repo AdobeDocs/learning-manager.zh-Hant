@@ -4,9 +4,9 @@ title: Adobe Learning Manager行動應用程式中的白色標籤
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以在行動應用程式上套用白色標籤，這樣就能重新命名應用程式，並且讓使用者能在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,20 +201,35 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
 </table>
 
+>[!NOTE]
+>
+>將資料提供給您的CSAM，讓CSAM可以將其新增至您的自訂應用程式二進位檔。
 
-#### 更新網站關聯
+
+#### 更新網站關聯以處理自訂深層連結
 
 如果您使用自訂網域或learningmanager\*.adobe.com作為主機，則不需要採取任何動作。 不過，如果您使用自訂解決方案或URL的特定主機名稱，請新增網站關聯檔案。
 
+>[!CAUTION]
+>
+>如果檔案不存在，深層連結將無法運作。 確認檔案存在。
+
+
 如需詳細資訊，請參閱下列連結：
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+## 產生推播通知
 
-## 產生推播通知憑證
+將推播通知傳送至Android和iOS應用程式需要兩種不同的機制。
 
-### iOS上的推播通知憑證
+* 針對iOS，產生推播通知憑證。
+* 對於Android，請提供從Firebase專案產生的伺服器金鑰。
+
+請依照下列指示，在Firebase中設定專案：
+
+### iOS上的推播通知
 
 在iOS應用程式開發中，推播通知憑證是Apple所核發的密碼編譯認證，可讓伺服器透過Apple的推播通知服務(APN)安全地傳送推播通知至iOS裝置。
 
@@ -244,16 +259,22 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 
 如果您可以連線到伺服器，則您已建立的憑證有效。 從myapnappkey.pem檔案中，複製憑證和私密金鑰值。
 
-1. 聯絡CSM團隊並取得新增到AWS上SNS服務的檔案。 使用者必須在SNS服務中針對推播通知註冊專案，這將要求他們共用上述產生以供驗證的憑證。
+### Android上的推播通知
+
+在Firebase中設定專案，並與CSAM共用伺服器金鑰。
+
+聯絡CSM團隊並取得新增到AWS上SNS服務的檔案。 使用者必須在SNS服務中針對推播通知註冊專案，這將要求他們共用上述產生以供驗證的憑證。
 
 >[!NOTE]
 >
 >對於Android，使用者需要提供他們為Android建立的Firebase專案中的伺服器金鑰，以便在SNS服務中新增專案。
 
 
-## 將專案新增至Firebase
+## 在Firebase中建立專案
 
 ### Android
+
+針對推播通知，重複使用您在上述步驟中建立的相同專案。
 
 [新增專案](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) 在Firebase中擷取 ***google-services.json*** 檔案。
 
@@ -261,19 +282,24 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 
 [新增專案](https://firebase.google.com/docs/ios/setup) 到Firebase並擷取 ***GoogleService-Info.plist*** 檔案。
 
+>[!IMPORTANT]
+>
+>將檔案傳送至AdobeLearning Manager CSAM團隊，以納入應用程式二進位檔案的建置中。
+
+
 ## 產生已簽署的二進位檔案
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->您需要有XCode 14.2或更新版本才能建置已簽署的二進位檔。
+>您需要有XCode 15.2或更新版本才能建置已簽署的二進位檔。
 
 
 ## Android
@@ -298,5 +324,5 @@ CSM團隊將與客戶共用組建。
 
 ## 無法自訂的專案
 
-- 更新密碼畫面
-- 建立帳戶畫面
+* 更新密碼畫面
+* 建立帳戶畫面
