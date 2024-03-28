@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 0%
@@ -245,7 +245,7 @@ ht-degree: 0%
 
 ### 使用者群組
 
-#### 管理員 — 學習者頁面
+#### 管理員：學習者頁面
 
 搜尋任何使用者時， **下載學習者** 和 **匯出** 選項下載相同的報表。 同時，在搜尋使用者群組時，您現在可以從該使用者群組下載經過篩選的使用者。 搜尋使用者群組時， **下載學習者清單** 變更為 **下載使用者群組的學習者清單** 此 **匯出** 選項會再次下載整個清單。
 
