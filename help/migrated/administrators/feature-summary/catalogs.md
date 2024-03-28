@@ -4,7 +4,7 @@ title: 目錄
 description: 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 0%
@@ -226,19 +226,19 @@ ht-degree: 0%
    <td>
     <p><strong>認證</strong></p></td>
    <td>
-    <p>憑證物件的所有屬性，但badgeId除外，憑證已棄用</p></td>
+    <p>憑證物件的所有屬性，badgeId除外，憑證已棄用</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>徽章</strong></p></td>
    <td>
-    <p>徽章的名稱與棄用</p></td>
+    <p>徽章的名稱與處分</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>類別 </strong></p></td>
    <td>
-    <p>名稱、說明、顏色和類別淘汰、新增層級</p></td>
+    <p>名稱、說明、顏色和類別淘汰，新增層級</p></td>
   </tr>
   <tr>
    <td>

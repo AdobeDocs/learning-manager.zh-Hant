@@ -3,14 +3,13 @@ description: 瞭解如何在Learning Manager應用程式中新增使用者或使
 jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 0%
 
 ---
-
-
 
 # 新增使用者並建立使用者群組
 
@@ -610,7 +609,7 @@ CSV包含欄位：
 
 +++如何建立自訂使用者群組？
 
-按一下 **[!UICONTROL Users]** > **[!UICONTROL User Groups]** 而在使用者群組頁面上，按一下 **[!UICONTROL Add]**. 在「新增使用者群組」對話方塊中，將使用者新增為個人使用者或團隊使用者。
+按一下 **[!UICONTROL Users]** > **[!UICONTROL User Groups]** 而在使用者群組頁面上，按一下 **[!UICONTROL Add]**. 在「新增使用者群組」對話方塊中，將使用者個別新增為團隊新增使用者。
 
 ![](assets/custom-user-group.png)
 

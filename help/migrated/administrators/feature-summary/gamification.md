@@ -3,14 +3,13 @@ description: 遊戲化是指在非遊戲情境下使用遊戲思維和遊戲機�
 jcr-language: en_us
 title: 遊戲
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 0%
 
 ---
-
-
 
 # 遊戲
 
@@ -76,7 +75,7 @@ Learning Manager可讓您將結構遊戲層套用至內容，以吸引學習者�
 
 ## 停用遊戲 {#disablegamification}
 
-按一下 [!UICONTROL **遊戲**] > [!UICONTROL **遊戲功能**]. 這可讓您為學習者分別啟用遊戲化功能和排行榜。 視需要在「內部學習者啟用」和「外部學習者啟用」之間選取，並按一下「確定」。 當您再次啟用遊戲化時，會保留所有點。
+按一下 [!UICONTROL **遊戲**] > **[!UICONTROL Settings]** > [!UICONTROL **遊戲功能**]. 這可讓您為學習者分別啟用遊戲化功能和排行榜。 視需要在「內部學習者啟用」和「外部學習者啟用」之間選取，並按一下「確定」。 當您再次啟用遊戲化時，會保留所有點。
 
 ![](assets/gamification-feature.png)
 

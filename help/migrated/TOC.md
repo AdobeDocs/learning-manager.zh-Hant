@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 2%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 2%
    * [設定](administrators/feature-summary/settings.md)
    * [通知](administrators/feature-summary/user-notifications.md)
    * [iPad與Android平板電腦使用者](administrators/feature-summary/ipad-android-tablet-users.md)
-   * [管理員快速入門](administrators/feature-summary/getting-started.md)
    * [清除使用者](administrators/feature-summary/purge-users.md)
    * [標記](administrators/feature-summary/tags.md)
    * [Learning Manager內容目錄](administrators/feature-summary/content-catalogs.md)

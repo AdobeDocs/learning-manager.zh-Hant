@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 0%
@@ -261,6 +261,7 @@ ht-degree: 0%
 ## 教室建立的變更
 
 根據 [管理員設定](administrators/feature-summary/classroom.md#classroom-settings)，身為作者，您可以 [建立、修改和刪除位置](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >新增位置和目錄標籤時，作者（在課程建立頁面中）和管理員（在執行個體頁面）將分別看到自動填入的位置和目錄標籤清單。

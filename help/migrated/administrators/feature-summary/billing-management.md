@@ -3,14 +3,13 @@ description: 管理Learning Manager帳單、使用信用卡下訂單、使用採
 jcr-language: en_us
 title: 管理Learning Manager訂單和帳單
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 0%
 
 ---
-
-
 
 # 管理Learning Manager訂單和帳單
 
@@ -199,7 +198,7 @@ Learning Manager帳戶。 所有其他使用者無法存取該帳戶。
 
 ![](assets/generate-report-request.png)
 
-*下載即時使用報告*
+*下載作用中使用情況報表*
 
 如果關閉瀏覽器視窗，則會在您下次造訪Learning Manager時開始下載。
 

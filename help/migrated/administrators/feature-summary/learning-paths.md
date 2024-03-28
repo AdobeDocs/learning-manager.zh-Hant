@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 學習路徑
 description: 在Learning Manager中為管理員建立學習計畫。
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 0%
 
 ---
-
-
 
 # 學習路徑
 
@@ -132,9 +131,9 @@ ht-degree: 0%
 
 有三個選項：
 
-1. **[!UICONTROL All Levels Courses and Learning Paths (selected by default)]：** 學習者會收到任何未完成課程的通知，無論學習路徑內的層級為何。
+1. **[!UICONTROL All Skill Levels Courses and Learning Paths (selected by default)]：** 學習者會收到任何未完成課程的通知，無論學習路徑內的層級為何。
 1. **[!UICONTROL Root Learning Path]：** 學習者會收到屬於父級學習路徑之任何未完成課程的通知。
-1. **[!UICONTROL Learning Path and first level child only]：** 學習者會收到任何不完整課程的通知，這些課程為父級學習路徑的第一子級。
+1. **[!UICONTROL Learning Path + first Skill Level children only]：** 學習者會收到任何不完整課程的通知，這些課程為父級學習路徑的第一子級。
 
 通知提醒會根據選項觸發。 依預設，選項 **[!UICONTROL All Levels Courses and Learning Paths]** 已為執行個體啟用。
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程模組、例項和學習計畫
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4475'
+source-wordcount: '4478'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 0%
    * 按一下 **[!UICONTROL Show More Options]** 以顯示其他截止日期選項。
    * **[!UICONTROL Enrollment Deadline]：** 若為自助註冊，此日期為學習者註冊學習物件的日期。
    * **[!UICONTROL Unenrollment Deadline]：** 您可以選擇透過具有取消註冊截止日期來限制學習者自己的取消註冊。
+   * **[!UICONTROL Timezone]：** 搜尋，然後選取 **[!UICONTROL Timezone]** 下拉式清單中的。
 
    管理員可以根據需求決定課程或學習計畫的完成截止日期。 不過，建議您將它用於教室/虛擬教室式培訓。
 
@@ -99,13 +100,13 @@ ht-degree: 0%
 
 若要傳送執行個體層級的電子郵件給已註冊的學習者：
 
-1. 在「執行處理」頁面上，選取任何執行處理上的選項，然後按一下 **[!UICONTROL Email Enrolled Learners]**.
+1. 在 **[!UICONTROL Instances]** 頁面上，選取任一執行個體上的選項，然後按一下 **[!UICONTROL Email Enrolled Learners]**.
 
 ![執行個體層級的電子郵件](assets/adhoc-email.png)
 
 *傳送電子郵件給已註冊執行個體的學習者*
 
-1. 在「建立公告」對話方塊中，選取「型別」作為電子郵件。 指定主旨、輸入訊息，然後按一下「儲存」。 系統會自動選取訓練。
+1. 在 **[!UICONTROL Create Announcement]** 對話方塊中，選取鍵入作為電子郵件。 指定主旨、輸入訊息，然後按一下 **[!UICONTROL Save]**. 系統會自動選取訓練。
 
    ![將宣告建立為電子郵件](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 >[!NOTE]
 >
->備註：啟用「多重註冊」後，每個課程的「學習者成績單報表」都會新增多列（每個例項各一列）。
+>啟用多註冊後，每個課程的「學習者成績單」報表會新增多列（每個例項各一列）。
 >
 >若您已將報表自動化設定為每門課程僅預期一列，則您必須對報表自動化進行必要的調整，才能啟用「多重註冊」功能。
 
@@ -317,7 +318,7 @@ Learning Manager目前協助您以13種介面語言和32種內容語言進行學
 
 ![](assets/l1-feedback-desc-questions.png)
 
-*新增L1和L3回饋的描述性問題*
+*為L1和L3意見回饋新增描述性問題*
 
 如果您希望課程完成後，立即向學習者顯示問卷，則可相應地選擇選項。
 

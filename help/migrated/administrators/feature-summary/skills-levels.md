@@ -3,14 +3,13 @@ description: 建立、指派及修改技能與層級。
 jcr-language: en_us
 title: 建立和修改技能與層級
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 0%
 
 ---
-
-
 
 # 建立和修改技能與層級
 
@@ -32,7 +31,7 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 若要新增技能，請遵循下列步驟：
 
-1. 在左窗格中，按一下 **[!UICONTROL Skills]**. 為技能提供名稱和說明。
+1. 在左窗格中，選取 **[!UICONTROL Skills]** > **[!UICONTROL Add]** > **[!UICONTROL Add SKills]**. 為技能提供名稱和說明。
 
    ![](assets/add-skill-name-anddescription.png)
 

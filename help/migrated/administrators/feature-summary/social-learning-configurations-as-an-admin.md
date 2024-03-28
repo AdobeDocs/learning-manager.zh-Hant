@@ -3,14 +3,13 @@ description: 身為管理員，您可以啟用、停用及監視在社交學習�
 jcr-language: en_us
 title: 以管理員身分監控及調節社交學習
 contentowner: kuppan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
 source-wordcount: '3512'
 ht-degree: 0%
 
 ---
-
-
 
 # 以管理員身分監控及調節社交學習
 
@@ -265,9 +264,9 @@ SME是根據技能（而非技能等級）新增/指派。 一切如期進行。
 * **[!UICONTROL Replicate]：** 按一下此按鈕，即可復寫所有語言的標題和副標題。
 * **[!UICONTROL Reset]：** 按一下此按鈕以恢復為原始標題和副標題。
 
-在社交學習首頁上，管理員提供的資訊會顯示為頁首。
+  在社交學習首頁上，管理員提供的資訊會顯示為頁首。
 
-<!--![](assets/banner-learner.png)-->
+  <!--![](assets/banner-learner.png)-->
 
 ## 趨勢 {#trends}
 

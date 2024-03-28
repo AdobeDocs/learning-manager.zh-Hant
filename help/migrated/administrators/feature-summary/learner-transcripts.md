@@ -3,14 +3,13 @@ description: 下載學習者成績單並使用Learning Manager管理報告。
 jcr-language: en_us
 title: 學習者成績單
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1826'
+source-wordcount: '1824'
 ht-degree: 0%
 
 ---
-
-
 
 # 學習者成績單
 
@@ -22,7 +21,7 @@ Adobe學習管理員可讓組織的管理員產生與學習者相關的成績單
 
 1. 若要產生學習者成績單，請按一下 **[!UICONTROL Reports]** 管理員登入中的左窗格。
 
-   管理員會導覽至「 」內的「Excel報表」標籤。 **[!UICONTROL Reports]** 頁面。
+   管理員會導覽至 **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** 索引標籤在裡面 **[!UICONTROL Reports]** 頁面。
 
 1. 按一下連結 **[!UICONTROL Learner Transcripts]**.
 

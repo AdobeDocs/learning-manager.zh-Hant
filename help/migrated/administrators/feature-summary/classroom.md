@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 新增教室位置
 description: 管理員現在可以設定教室位置的資料庫。 管理員可針對每個教室位置設定中繼資料，包括位置名稱、座位限制以及位置URL等其他資訊。 作者與管理員隨後可使用這些預先設定的教室位置，設定由講師授課的訓練活動（教室模組）。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1174'
 ht-degree: 0%
 
 ---
-
-
 
 # 教室
 
@@ -26,13 +25,14 @@ ht-degree: 0%
 
 1. 在管理員應用程式（管理員角色的UI）中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**.
 
-1. 按一下 **[!UICONTROL Add More]** 按鈕。
+1. 按一下 **[!UICONTROL Add]** > **[!UICONTROL New Location]**.
 
 1. 在 **[!UICONTROL Classroom Location]** 對話方塊中，輸入下列詳細資料：
 
-   * 輸入 **[!UICONTROL Classroom Location Name]**. 使用唯一的名稱。 否則，Learning Manager會顯示錯誤訊息。
+   * 輸入 **[!UICONTROL Location Name]**. 使用唯一的名稱。 否則，Learning Manager會顯示錯誤訊息。
    * 在「 」中輸入位置說明 **[!UICONTROL Location Information]** 欄位。 此欄位為選用。
    * 輸入 **[!UICONTROL Location URL]**. 學習者可在教室詳細資訊中檢視此資訊。 如果需要，該URL也可以是地圖位置URL。 此為選用欄位。
+   * 輸入並選取 **[!UICONTROL Location Region]**. 此欄位是選用欄位。
    * 輸入中的可用座位數 **[!UICONTROL Seat Limit]** 欄位。 這表示教室座位容量。 此值可在建立實際的由講師授課的訓練活動時變更。
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ ht-degree: 0%
 
 此 **[!UICONTROL Future Sessions]** 欄位顯示 **零** 教室未用於任何工作階段或教室與過去的工作階段相關聯時。
 
+**[!UICONTROL Seat Limit]**  — 顯示教室座位容量。
+
 **位置URL**  — 您建立教室位置時提供的URL。
 
 **位置資訊**  — 您在建立教室時提供的教室資訊。
@@ -67,7 +69,7 @@ ht-degree: 0%
 
 或者，您可以匯入包含教室資訊的CSV來新增一或多個教室位置。
 
-在 **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]**，按一下 **[!UICONTROL Import Locations CSV]** 按鈕。 瀏覽至包含CSV檔案的位置，然後選取檔案。
+在 **[!UICONTROL Admin app]** > **[!UICONTROL Settings]** > **[!UICONTROL Classroom Locations]** > **[!UICONTROL Add]**，按一下 **[!UICONTROL Bulk import locations]** 按鈕。 瀏覽至包含CSV檔案的位置，然後選取檔案。
 
 CSV檔案使用這些欄位來儲存一或多個教室位置的詳細資訊：
 
