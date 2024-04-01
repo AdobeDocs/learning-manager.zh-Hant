@@ -4,7 +4,7 @@ title: 自訂角色
 description: 「學習路徑」功能可協助您定義自訂角色，並將特定責任指派給一組使用者。 此功能可讓您指派個人現有角色許可權以外的職責。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2155'
 ht-degree: 0%
@@ -221,6 +221,7 @@ ht-degree: 0%
      </tr>
     </tbody>
    </table>
+
 1. **使用者：** 使用此選項可決定哪些使用者被指派此角色。 您可以使用搜尋方塊選擇一或多個使用者。
 
    **新增使用者至自訂角色CSV上傳：** 若要透過CSV更新新增使用者，請新增CustomRole欄至.csv檔案（管理員用來匯入使用者）。 在您要指派自訂角色的使用者的CustomRole欄位下，輸入使用者的角色。 若要上傳CSV檔案，請按一下  **[!UICONTROL Add > Upload a CSV]**.

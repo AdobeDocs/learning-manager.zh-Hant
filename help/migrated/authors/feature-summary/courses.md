@@ -3,14 +3,13 @@ description: 若要瞭解如何在Learning Manager中建立課程、認證和學
 jcr-language: en_us
 title: 建立、修改和發佈課程
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6741'
 ht-degree: 0%
 
 ---
-
-
 
 # 建立、修改和發佈課程
 
@@ -70,6 +69,7 @@ Adobe Learning Manager可讓作者使用一或多個與虛擬訓練、自訂進�
    注意：只有在已設定Adobe Commerce聯結器時，才會啟用此功能。
 
 1. 如果您想讓學習者能夠自行取消課程註冊，請啟用核取方塊 **學習者可自行取消註冊**.
+
 1. **執行個體設定**
 
    如果您啟用此選項，處於進行中狀態的學習者可以造訪其他例項並在那裡註冊。 學習者接著可以保留上一個執行個體的進度。
@@ -898,4 +898,3 @@ AdobeLearning Manager可讓您更輕鬆快速地找到所選擇的課程。 您�
 否，上傳至Learning Manager的內容為已發佈的zip檔案，而非來源檔案。 因此，即使下載了內容，也無法在編寫工具中編輯內容。 您需要來源檔案才能編輯內容。
 
 +++
-

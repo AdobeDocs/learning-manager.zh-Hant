@@ -1,7 +1,8 @@
 ---
 title: 此版本的新增功能
 description: 瞭解關於2023年11月版Adobe Learning Manager的新功能和增強功能。
-source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
@@ -168,11 +169,48 @@ Adobe Learning Manager能改善客戶和合作夥伴啟用帳戶的建議。 隨
 
 自訂管理員可依據定義的範圍存取下列報表：
 
-| 報告 | 可用 | 範圍 |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>報告</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>可用</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>範圍</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>內容稽核軌跡</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整目錄</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>使用者稽核軌跡</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整使用者</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>登入存取權</p></td>
+   <td>
+    <p>是</p></td>
+   <td>
+    <p>完整使用者</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| 內容稽核軌跡 | 是 | 完整目錄 |
-| 使用者稽核軌跡 | 是 | 完整使用者 |
-| 登入存取權 | 是 | 完整使用者 |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## 增強型連線整合
 

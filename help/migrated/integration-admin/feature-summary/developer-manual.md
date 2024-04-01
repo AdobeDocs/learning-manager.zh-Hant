@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 應用程式開發人員手冊
 description: Learning Manager V1 API現已棄用。 V1 API將於2021年2月28日起停止運作。 建議您使用V2 API與Learning Manager互動。
 contentowner: jayakarr
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '3382'
 ht-degree: 0%
 
 ---
-
-
 
 # 應用程式開發人員手冊
 

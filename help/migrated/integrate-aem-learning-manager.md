@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 將Learning Manager與AEM整合
 description: Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、課程分配、定義學習者的可見度，以及追蹤消耗並回報給管理員。
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
-
-
 
 # 將Learning Manager與AEM整合
 
@@ -136,7 +135,7 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 
 * **[!UICONTROL Catalog ids]：** 需要顯示培訓的逗號分隔目錄ID。
 * **[!UICONTROL Sort]：** 訓練的排序順序。 選項包括 — name、date、dateCreated、dateRegistered等。
-* **[!UICONTROL Learner State]：** 傳回使用下列作為篩選器的所有訓練 — 已註冊、已開始、已完成和已註冊。 如果排序選項是dateRegistered、dueDate或dateRegistered，將不會顯示搜尋結果。
+* **[!UICONTROL Learner State]：** 傳回所有使用下列作為篩選器的訓練 — 已註冊、已開始、已完成和未註冊。 如果排序選項是dateRegistered、dueDate或dateRegistered，將不會顯示搜尋結果。
 * **[!UICONTROL Skill name]：** 用來篩選確切訓練的技能。
 * **[!UICONTROL Tag name]：** 用來篩選精確結果的標籤。
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '15103'
 ht-degree: 0%
@@ -897,7 +897,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
    *建立連線*
 
-1. 如果您想要直接將miniOrnage使用者匯入為Learning Manager內部使用者，請使用 **[!UICONTROL Import Internal Users]** 選項。
+1. 如果您想要直接將miniOrange使用者匯入為Learning Manager內部使用者，請使用 **[!UICONTROL Import Internal Users]** 選項。
 
    ![](assets/import-users.png)
 
