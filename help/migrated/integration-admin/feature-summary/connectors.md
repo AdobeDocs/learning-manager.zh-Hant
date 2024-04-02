@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: ec8d204ba7d85fab84c7d1db4a1ba741f363566c
 workflow-type: tm+mt
-source-wordcount: '15103'
+source-wordcount: '15372'
 ht-degree: 0%
 
 ---
@@ -919,54 +919,54 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 1. 匯入完成後，您會收到通知。 若要檢視或編輯匯入記錄，請按一下 **[!UICONTROL Users > Import log.]**
 
-#### 刪除連線 {#deleteaconnection}
+<!-- #### Delete a connection {#deleteaconnection}
 
-若要刪除已建立的miniOrange連線，請按照下列步驟操作。
+To delete an established  miniOrange  connection, follow these steps. -->
 
-<!---## Video conferencing connectors (Bluejeans Meetings and Zoom) {#bluejeansconnector}
+## 縮放聯結器 {#zoom-connector}
 
-You can now integrate Learning Manager with BlueJeans and Zoom connectors and use them to host classes.  The connector enables you to set up video conferencing meetings/classes with the learners.
+您可以整合Learning Manager與Zoom聯結器，並使用它們來託管課程。  聯結器可讓您與學習者設定視訊會議會議/課程。
 
-To set up and use the connector, follow these steps.
+若要設定及使用聯結器，請遵循下列步驟。
 
-1. In Learning Manager  home page , hover the mouse over the BlueJeans/Zoom thumbnail. A menu appears. Click  **[!UICONTROL Connect]** option from the menu.
+1. 在Learning Manager首頁中，將滑鼠停留在縮放縮圖上。 選單出現。 按一下  **[!UICONTROL Connect]** 選單中的選項。
 
-   ![](assets/connectors.png)
+   <!-- ![](assets/connectors.png)
 
-   *Zoom connector tile*
+   *Zoom connector tile* -->
 
-1. The BlueJeans/ Zoom connector page opens. Enter the details of your account into respective fields to integrate and synchronize the user feed. You can get the details from the administrator of your connector account.
+1. 「縮放聯結器」頁面隨即開啟。 在個別欄位中輸入帳戶的詳細資料，以整合及同步使用者摘要。 您可以從聯結器帳戶的系統管理員取得詳細資料。
 
-   ![](assets/bluejeans-connecotrpage.png)
-   *Connect to BlueJeans/ Zoom*
+   <!-- ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* -->
 
    >[!NOTE]
    >
-   >As a learner, while enabling the connector, use the same email id used for your Learning Manager account to enable user feeds back into Learning Manager.
+   >作為學習者，在啟用聯結器時，請使用與您的Learning Manager帳戶相同的電子郵件ID來啟用使用者傳回Learning Manager的資訊。
 
-1. Once the connection is established, as an Author, create a VC course with BlueJeans/ Zoom as the conferencing system.
+1. 建立連線後，以Author身分，以Zoom作為會議系統來建立VC課程。
 
-   ![](assets/vc.jpg)
+   <!-- ![](assets/vc.jpg)
    
-   *Create a VC course*
+   *Create a VC course* -->
 
-1. Administrators, managers, and learners can enroll learners  to  the created course. Upon enrollment, the learner receives an email. The learner can sign in to their Learning Manager account to view the program details and take the course.
-1. When the course is complete, the completion report is sent to Learning Manager. The administrator can see the completion report to check the attendance and score of the learners.
+1. 管理員、經理和學習者可將學習者註冊到建立的課程。 註冊後，學習者會收到電子郵件。 學習者可登入其Learning Manager帳戶以檢視方案詳細資料並參加課程。
+1. 完成課程後，完成報告會傳送至Learning Manager。 管理員可檢視完成報告，以檢查學習者的出席情況及分數。
 
    ![](assets/attendence-and-scoringreport.png)
-   *Attendance and scoring report*
+   *出席與評分報告*
 
-### Create a zoom server-to-server OAuth app
+### 建立縮放伺服器對伺服器OAuth應用程式
 
-When you create a Zoom Server-to-Server OAuth app to be used in Adobe Learning Manager, you must add scopes required by Adobe Learning Manager while creating the connection.
+建立用於Adobe Learning Manager的Zoom伺服器對伺服器OAuth應用程式時，您必須在建立連線時新增AdobeLearning Manager所需的範圍。
 
-Adobe Learning Manager requires the scopes below and the scopes must be selected in the OAuth app.
+AdobeLearning Manager需要下列範圍，且必須在OAuth應用程式中選取範圍。
 
-* View all user meetings `/meeting:read:admin`
-* View and manage all user meetings `/meeting:write:admin`
-* View report data `/report:read:admin`
-* View all user information `/user:read:admin`
-* View users' information and manage users `/user:write:admin`-->
+* 檢視所有使用者會議 `/meeting:read:admin`
+* 檢視及管理所有使用者會議 `/meeting:write:admin`
+* 檢視報表資料 `/report:read:admin`
+* 檢視所有使用者資訊 `/user:read:admin`
+* 檢視使用者資訊並管理使用者 `/user:write:admin`
 
 ## 方塊聯結器 {#boxconnector}
 
