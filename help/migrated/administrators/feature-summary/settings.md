@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
+source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
 workflow-type: tm+mt
-source-wordcount: '3939'
+source-wordcount: '3932'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,6 @@ ht-degree: 0%
 此培訓會擷取帳戶層級設定的基本知識。
 
 [![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
-
->[!NOTE]
->
->這是範例按鈕 <br>[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
-
 
 
 如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
