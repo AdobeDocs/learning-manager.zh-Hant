@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
 workflow-type: tm+mt
-source-wordcount: '3932'
+source-wordcount: '3939'
 ht-degree: 0%
 
 ---
@@ -17,11 +17,16 @@ ht-degree: 0%
 
 您可以變更管理員設定檔設定，並更新帳戶設定。 檢視您的設定檔資訊、新增/變更設定檔像片，以及修改 **[!UICONTROL About me]** 內容。 更新您的公司資訊、設定使用者的登入方法，以及透過帳戶設定設定設定連線整合。
 
-## 設定您的AdobeLearning Manager
+## 設定您的Adobe Learning Manager
 
 此培訓會擷取帳戶層級設定的基本知識。
 
 [![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+>[!NOTE]
+>
+>這是範例按鈕 <br>[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
+
 
 
 如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
