@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 18feaeb3a5d1995385a792696cdc536afaceac41
+source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
 workflow-type: tm+mt
-source-wordcount: '3826'
+source-wordcount: '3864'
 ht-degree: 0%
 
 ---
@@ -20,12 +20,10 @@ ht-degree: 0%
 
 ## 管理使用者群組
 
-<!-- >[!INFO]
+>[!INFO]
 >
->In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.
-[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694) -->
+>在本訓練中，您將瞭解如何依名稱、電子郵件ID以及結合多個自動產生的使用者群組來建立使用者群組。<br><br>[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)</br></br>
 
-[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 <!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
@@ -53,7 +51,10 @@ ht-degree: 0%
 
 使用單一使用者選項將內部學習者新增至Adobe Learning Manager。
 
-[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
+>[!INFO]
+>
+>在本次訓練中，您將瞭解如何將內部學習者新增至Adobe Learning Manager。<br><br>[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)</br></br>
+
 
 如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
@@ -165,9 +166,9 @@ ht-degree: 0%
 
 ### 管理使用者屬性
 
-在本次訓練中，您將瞭解如何新增、自訂及設定作用中欄位。
-
-[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+>[!INFO]
+>
+>在本次訓練中，您將瞭解如何新增、自訂及設定作用中欄位。<br><br>[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)</br></br>
 
 如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
