@@ -2,9 +2,10 @@
 title: 此版本的新增功能（2023年7月）
 description: 瞭解Adobe Learning Manager中的新功能和增強功能
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2057'
 ht-degree: 0%
 
 ---
@@ -13,13 +14,13 @@ ht-degree: 0%
 
 ## 改善的建議
 
-Adobe Learning Manager已推出全新及改版的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
+Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
 
 如需詳細資訊，請參閱 [Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md).
 
 ## 多重註冊
 
-在此版本的Adobe Learning Manager中，我們將為學習者引入多註冊功能，學習者可於一個或多個時段註冊多個課程例項。
+在此版本的Adobe Learning Manager中，我們將為學習者推出多重註冊，允許學習者在一個或不同時段註冊多個課程例項。
 
 如需詳細資訊，請參閱 [多個註冊](/help/migrated/authors/feature-summary/courses.md).
 
@@ -53,13 +54,13 @@ argument_object=
 
 ## 棄用Exavault聯結器
 
-此版本的Adobe Learning Manager將包含新的聯結器，將使用AWS傳輸系列的SFTP通訊協定。
+此版本的Adobe Learning Manager將包含新的聯結器，該聯結器將使用AWS傳輸系列的SFTP通訊協定。
 
 此變更也會取代ExaVault聯結器，新使用者將無法再使用它。 您可以使用任何開放原始碼FTP使用者端來取代ExaVault。 如需詳細資訊，請參閱 [從Adobe FTP管理員轉換](transition-from-ftp-manager.md).
 
 ## Outlook中教室和虛擬工作階段的提醒
 
-從AdobeLearning Manager建立的教室和虛擬教室工作階段（已新增至學習者的Outlook行事曆）現在會一致支援Outlook的提醒（類似於Outlook中的會議提醒）。
+從Adobe Learning Manager建立的教室和虛擬教室工作階段已新增至學習者的Outlook行事曆，現在可一致支援Outlook的提醒（類似於Outlook中的會議提醒）。
 
 ## 增強指派技能給課程
 
@@ -170,7 +171,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 ## API變更
 
-如需API變更的詳細資訊，請參閱 [AdobeLearning Manager API參考](https://captivateprime.adobe.com/docs/primeapi/v2/).
+如需API變更的詳細資訊，請參閱 [Adobe Learning Manager API參考](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
 ### 新建議的API支援
 
@@ -530,7 +531,11 @@ Ids =要刪除的ID清單
 
 在此版本中，我們新增了英文語言環境的詞幹，其中包括以下變體 — en_US、en_AU、en_GB。
 
-如果搜尋結果中需要字乾屬性，則字乾屬性會提及。 這預設為False
+如果搜尋結果中需要字乾屬性，則字乾屬性會提及。 此設定預設為False。
+
+API查詢引數：
+
+matchType=phrase_and_match stemmed=true
 
 ### 移除V1端點
 
