@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 工作輔助
 description: 工作輔助是訓練內容的存放庫，可供沒有任何註冊或完成條件的學習者存取。 學習者可以參考這些工作輔助，以獲得在組織中執行任何活動或任務的協助。
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '588'
 ht-degree: 0%
 
 ---
-
-
 
 # 工作輔助
 
@@ -35,6 +34,19 @@ ht-degree: 0%
 1. 按一下 **[!UICONTROL Save]**.
 
    工作輔助已發佈。
+
+## 新增不同語言的工作輔助 {#addcontentfordifferentlanguages}
+
+1. 若要新增不同語言的工作輔助，請選取 **新增語言** 標籤，然後選擇所需的語言。 使用此方法，您可以為內容新增多語言支援。
+
+   ![](assets/add-new-languagetab.png)
+
+   *為內容新增語言*
+
+1. 針對新語言重複工作輔助上傳程式。
+1. 如果要移除語言，請選取「新增語言」標籤，然後清除選取的專案。
+
+   完成變更後，選取「儲存」。
 
 ## 支援的工作輔助型別 {#typesofsupportedjobaids}
 
