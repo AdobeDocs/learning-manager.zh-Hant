@@ -3,7 +3,7 @@ title: 此版本的新增功能（2023年7月）
 description: 瞭解Adobe Learning Manager中的新功能和增強功能
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
+source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 0%
@@ -535,7 +535,8 @@ Ids =要刪除的ID清單
 
 API查詢引數：
 
-matchType=phrase_and_match stemmed=true
+* matchType=phrase_and_match
+* Stemmed=true
 
 ### 移除V1端點
 
