@@ -3,13 +3,13 @@ description: 在Learning Manager中為管理員建立學習計畫。
 jcr-language: en_us
 title: 學習方案
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '1400'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
-
 
 # 學習方案
 
@@ -36,35 +36,47 @@ ht-degree: 0%
 
 1. 在 **[!UICONTROL Occurs when]** 從下拉式清單中選擇所需的事件。 這些選項決定學習者何時參加課程。 選取活動型別後，請選取適當的培訓、課程、學習計畫或認證。
 
-   **注意：** 管理員和作者都可以建立自動註冊事件。
+>[!NOTE]
+>
+> 管理員和作者都可以建立自動註冊事件。
 
-   事件包括：
 
-   **1 — 新增學習者：** 當新使用者或員工加入組織時。
+事件包括：
 
-   ![](assets/new-learner-is-added.png)
+**1 — 新增學習者：** 當新使用者或員工加入組織時。
 
-   **2 — 學習者新增至群組：** 當新使用者或員工加入群組時。  輸入並從下拉式清單中選取此事件適用的使用者群組。 您可以選擇多個群組。 您也可以選取選項，將此事件指派給這些群組的所有現有成員。
+![](assets/new-learner-is-added.png)
 
-   ![](assets/learner-gets-addedtoagroup.png)
+**2 — 學習者新增至群組：** 當新使用者或員工加入群組時。  輸入並從下拉式清單中選取此事件適用的使用者群組。 您可以選擇多個群組。 您也可以選取選項，將此事件指派給這些群組的所有現有成員。
 
-   此學習方案是專為下列用途而設計： ***自訂 — 群組*** 使用者。 在欄位中輸入群組的名稱，然後使用預先輸入搜尋來選擇一個或多個群組。
+![](assets/learner-gets-addedtoagroup.png)
 
-   **3 — 學習者完成學習物件：** 當學習者完成任何學習物件（例如課程、學習計畫等）時，事件會觸發。 選取此事件適用的學習物件。 選取事件的完成狀態。 或者，您也可以選擇此學習者所屬的使用者群組。 輸入天數，完成學習物件後，此事件即會觸發。 如果您想要將此事件指派給已完成此學習物件的現有使用者，請選取選項。
+此學習方案是專為下列用途而設計： ***自訂 — 群組*** 使用者。 在欄位中輸入群組的名稱，然後使用預先輸入搜尋來選擇一個或多個群組。
 
-   ![](assets/learner-completealearningobject.png)
+**3 — 學習者從群組中移除：** 使用者或學習者從群組移除時，就會觸發此事件。 輸入並從下拉式清單中選取此事件適用的使用者群組。 您可以選擇多個群組。
 
-   **4 — 學習者達到技能等級：** 輸入技能名稱並選取技能等級。 您也可以選擇此學習者所屬的使用者群組。 這是選擇性的。 輸入天數，在達到技能後，此事件就會觸發。 如果您想要將此事件指派給已習得此技能的現有學習者，請選取選項。
+![](assets/learner-removed-from-group.png)
 
-   ![](assets/learner-achievesaskilllevel.png)
 
-   此外，設定必須於幾天後將「學習計畫」指派給學習者。
+**4 — 學習者完成課程/學習路徑/認證：** 當學習者完成任何學習物件（例如課程、學習計畫等）時，就會觸發事件。 選取此事件適用的學習物件。 選取事件的完成狀態。 或者，您也可以選擇此學習者所屬的使用者群組。 輸入天數，完成學習物件後，此事件即會觸發。 如果您想要將此事件指派給已完成此學習物件的現有使用者，請選取選項。
 
-   ![](assets/assign-learning.png)
+![](assets/learner-completealearningobject.png)
 
-   **5 — 在特定日期：** 事件必須在特定日期發生的時間。 選取必須指派事件的日期。 選取需要自動指派事件的使用者群組。 選取需要指派的執行個體，並選擇性地在需要觸發事件多少天後輸入。
+**5 — 學習者未通過課程模組：** 當學習者未能通過任何學習物件（例如課程、學習計畫等）時，就會觸發事件。 選取此事件適用的學習物件。 您也可以選擇此學習者所屬的使用者群組。
 
-   ![](assets/on-a-specific-date.png)
+![](assets/learner-fails-module.png)
+
+**4 — 學習者達到技能等級：** 輸入技能名稱並選取技能等級。 您也可以選擇此學習者所屬的使用者群組。 這是選擇性的。 輸入天數，在達到技能後，此事件就會觸發。 如果您想要將此事件指派給已習得此技能的現有學習者，請選取選項。
+
+![](assets/learner-achievesaskilllevel.png)
+
+此外，設定必須於幾天後將「學習計畫」指派給學習者。
+
+![](assets/assign-learning.png)
+
+**5 — 在特定日期：** 事件必須在特定日期發生的時間。 選取必須指派事件的日期。 選取需要自動指派事件的使用者群組。 選取需要指派的執行個體，並選擇性地在需要觸發事件多少天後輸入。
+
+![](assets/on-a-specific-date.png)
 
 1. 對於所有事件，您可從以下專案選取執行個體： **[!UICONTROL Instance]** 下拉式清單。 您也可以為任何活動選取已指派學習專案的例項。
 
@@ -83,6 +95,8 @@ ht-degree: 0%
 在管理員應用程式上，按一下 **[!UICONTROL Learning Plans]** > **[!UICONTROL Add]**.
 
 下一節代表選項的觸發程式 **[!UICONTROL Unenroll from Training]** 已新增。
+
+![](assets/unenroll-courses.png)
 
 ## 學習者從群組中移除 {#learnergetsremovedfromagroup}
 
@@ -103,6 +117,14 @@ ht-degree: 0%
    1. 執行個體和完成日期將不適用於這種情況。
 
 ![](assets/image040.png)
+
+## 學習者未通過課程模組
+
+1. 新增一或多個使用者群組。 如果選取了多個群組，則當學習者未能通過指定的培訓時會觸發計畫。
+1. 選擇動作為 **[!UICONTROL Unenroll from training]**.
+
+   1. 管理員可選擇在使用者新增至使用者群組時，使用者會從中取消註冊的培訓。
+   1. 執行個體和完成日期將不適用於這種情況。
 
 ## 學習者已新增至群組 {#learnergetsaddedtoagroup}
 
@@ -134,7 +156,12 @@ ht-degree: 0%
 
 ## 編輯學習方案 {#editalearningplan}
 
-建立學習計畫後，管理員可隨時編輯/更新學習計畫。 若要編輯，請按一下學習計畫的名稱，並修改 **[!UICONTROL Edit Learning Plan]** 隨即出現的快顯對話方塊。 按一下 **[!UICONTROL Save]**.
+建立學習計畫後，管理員可隨時編輯/更新學習計畫。 若要編輯，請選取學習計畫名稱，並修改下列檔案中的值： **[!UICONTROL Edit Learning Plan]** 隨即出現的快顯對話方塊。  選取 **[!UICONTROL Save]**.
+
+>[!NOTE]
+>
+>您無法修改 **[!UICONTROL Occurs when]** 中的選項 **[!UICONTROL Edit Learning Plan]** 快顯視窗。
+
 
 ## 啟用學習方案 {#enablealearningplan}
 

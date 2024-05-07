@@ -3,14 +3,13 @@ description: 瞭解如何使用Learning Manager中的目錄來檢視合格的學
 jcr-language: en_us
 title: 目錄
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
-
-
 
 # 目錄
 
@@ -22,7 +21,7 @@ ht-degree: 0%
 
 您可以透過使用學習物件的技能和型別來篩選學習物件清單（自定步調、混合、教室、虛擬教室、活動）。 您也可以使用左窗格中的選項進行篩選：依學習物件、技能及完成狀態。
 
-使用頁面頂端的搜尋列，輸入您熟悉的學習物件名稱。
+使用頁面頂端的搜尋列，輸入您熟悉的學習物件名稱。 學習者可以選取此項，在格線與清單檢視之間切換 ![](assets/icon-list.png) 圖示。
 
 ![](assets/catalogs.png)
 *檢視目錄*
