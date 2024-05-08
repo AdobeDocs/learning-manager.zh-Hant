@@ -3,14 +3,13 @@ description: 瞭解如何建立認證、註冊學習者及編輯已發佈的認�
 jcr-language: en_us
 title: 認證
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
-
-
 
 # 認證
 
@@ -103,6 +102,10 @@ ht-degree: 0%
  </tbody>
 </table>
 
+從以下位置選取產品、角色和角色等級： **[!UICONTROL Recommend for]** 區段，向對這些產品和角色感興趣的使用者建議此學習路徑。
+
+![](assets/recommend-for.png)
+
 選擇要新增至認證的課程 **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** 標籤。
 
 將滑鼠停留在每個課程圖磚上，按一下「+」以將它們新增至認證。 按一下 **[!UICONTROL Preview]** 新增課程前，以學習者身分檢視課程。
@@ -165,6 +168,8 @@ ht-degree: 0%
 若要編輯已發佈的認證，請按一下認證卡，然後按一下 **[!UICONTROL Edit]** 位於頁面的右上角。
 
 編輯認證的區段時，如果您必須移出頁面，則需要重新發佈認證。 您會收到要求您重新發佈憑證的對話方塊確認。
+
+![](assets/edit-a-certificate.png)
 
 ## 訂閱 {#subscription}
 

@@ -4,9 +4,9 @@ title: 學習路徑
 description: 在Learning Manager中為管理員建立學習計畫。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -56,6 +56,10 @@ ht-degree: 0%
 ![](assets/add-skills.png)
 
 為學習路徑指派徽章。 從可用徽章清單中挑選徽章。
+
+從以下位置選取產品、角色和角色等級： **[!UICONTROL Recommend for]** 區段，向對這些產品和角色感興趣的使用者建議此學習路徑。
+
+![](assets/recommend-for.png)
 
 根據您的偏好，選擇區段和培訓的順序型別，即「已訂購」或「未訂購」。
 
