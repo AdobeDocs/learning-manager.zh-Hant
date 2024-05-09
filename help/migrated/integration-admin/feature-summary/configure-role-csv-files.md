@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 透過CSV檔案管理自訂角色
 description: 整合管理員可以透過CSV大量新增自訂角色至其帳戶，也可以將相同角色指派給各種使用者。 此方法可自動建立自訂角色。
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
-
-
 
 # 透過CSV檔案管理自訂角色
 
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 您可以透過Learning Manager FTP和Box聯結器設定角色。
 
-登入Box或ExaVault儲存帳戶後，整合管理員即可在帳戶中新增下列csv：
+登入Box儲存體帳戶後，整合管理員即可在帳戶中新增下列csv：
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ ht-degree: 0%
 若要開始使用，請下載csv並根據您的要求變更值。
 
 **role.csv**
-[範例檔案 — role.csv](assets/role.csv) [範例檔案 — user_role.csv](assets/user-role.csv)
+* 範例檔案： [role.csv](assets/role.csv)
+* 範例檔案： [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
