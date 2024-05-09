@@ -4,9 +4,9 @@ title: 目錄
 description: 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2373'
+source-wordcount: '2397'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ht-degree: 0%
    *建立目錄*
 
    您可以將多個課程新增至目錄。
-
+1. 您可以依技能、角色和語言來篩選課程。 選中的課程會推薦給對這些技能和角色感興趣的學習者。
 1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
 1. 在新目錄的頁面中，在左窗格中，按一下 **[!UICONTROL Content]**.
 
@@ -134,7 +134,7 @@ ht-degree: 0%
 
 ### 共用目錄
 
-此培訓將教導您如何與內部使用者群組和外部AdobeLearning Manager帳戶共用目錄。
+此培訓會教導您如何與內部使用者群組和外部Adobe Learning Manager帳戶共用目錄。
 
 [![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 

@@ -3,59 +3,15 @@ jcr-language: en_us
 title: 系統需求
 description: Adobe Learning Manager的系統需求
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Learning Manager的系統需求
-
-## Windows {#windows}
-
-Microsoft Windows 7、8、10 （僅限64位元版本）。
-
-## macOS {#macos}
-
-macOS X 10.12、10.13、10.14、10.15
-
-## RAM
-
-8 GB的RAM。
-
-## 顯示
-
-最低支援解析度 — 1024 x 720。
-
-## 磁碟空間
-
-最少5 GB的可用硬碟空間。
-
-## 錄製
-
-* 音訊錄製需要麥克風。
-* 視訊錄製需要網路攝影機。
-
-## 其他
-
-使用應用程式所需的作用中網際網路連線和AdobeLearning Manager學習者帳戶。
-
-## 瀏覽器規格
-
-IE 11瀏覽器不支援沈浸式版面首頁。
-
-* Google Chrome 43版和更新版本。
-* 最新版本的Edge、Safari （第13版及更新版本）及Firefox。
-* Internet Explorer 11版及更新版本
-
-## 建議的影像大小 {#recommendedsizeofimages}
-
-* 刊頭： 1280 x 360畫素。
-* 目錄卡上的影像： 280 x 100畫素
-* 訓練卡的大小：300 x 240畫素
-* 社交橫幅：1600 x 240畫素
 
 ## 案頭
 
@@ -114,6 +70,25 @@ Intel® CoreTM i5或更新版本。
 >[!NOTE]
 >
 >Learning Manager行動應用程式僅支援學習者角色。
+
+## 其他
+
+使用應用程式所需的作用中網際網路連線和Adobe Learning Manager學習者帳戶。
+
+## 瀏覽器規格
+
+IE 11瀏覽器不支援沈浸式版面首頁。
+
+* Google Chrome 43版和更新版本。
+* 最新版本的Edge、Safari （第13版及更新版本）及Firefox。
+* Internet Explorer 11版及更新版本
+
+## 建議的影像大小 {#recommendedsizeofimages}
+
+* 刊頭： 1280 x 360畫素。
+* 目錄卡上的影像： 280 x 100畫素
+* 訓練卡的大小：300 x 240畫素
+* 社交橫幅：1600 x 240畫素
 
 ## 內容大小上限 {#maximumcontentsize}
 
