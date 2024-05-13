@@ -1,25 +1,24 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager的協助工具
+title: Adobe Learning Manager中的協助工具
 description: 本檔案概述Learning Manager學習管理系統為身心障礙學習者提供的協助工具支援。 它也會提供使用者有關平台的導覽選項和協助工具功能。
 contentowner: saghosh
 preview: true
-source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
+exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
+source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 0%
 
 ---
 
-
-
-# Adobe Learning Manager的協助工具
+# Adobe Learning Manager中的協助工具
 
 本檔案概述Learning Manager學習管理系統為身心障礙學習者提供的協助工具支援。 它也會提供使用者有關平台的導覽選項和協助工具功能。
 
 Learning Manager在此平台上遵循W3C的WCAG 2.1 A級和AA無障礙標準。
 
-AdobeLearning Manager學習者角色可讓學習者透過平台導覽，並運用下列重要協助工具功能：
+Adobe Learning Manager學習者角色可讓學習者導覽整個平台，並運用下列重要的協助工具功能：
 
 * 熒幕Reader
 * 鍵盤
@@ -28,7 +27,7 @@ AdobeLearning Manager學習者角色可讓學習者透過平台導覽，並運�
 
 ## 支援熒幕Reader {#supportforscreenreaders}
 
-Adobe Learning Manager支援熒幕助讀程式，例如NVDA、JAWS，以及桌上型電腦的語音解說、行動裝置上的回話和語音解說，讓學習者可以在Learning Manager平台上閱讀文字並據此導覽。
+Adobe Learning Manager支援案頭版NVDA、JAWS和畫外音、行動版回話和畫外音等熒幕助讀程式，讓學習者可以在Learning Manager平台上閱讀文字並據此導覽。
 
 以下是我們在桌上型電腦上支援的熒幕助讀程式和瀏覽器組合：
 
@@ -151,8 +150,8 @@ Learning Manager學習者角色支援多種其他協助工具功能，其中包�
 
 如需詳細資訊，請參閱：
 
-* [學習者的協助工具符合性報表](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-learner-portal-acr.html)
-* [所有角色的協助工具符合性報告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2019-acr.html)
+* [學習者的協助工具符合性報表](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [所有角色的協助工具符合性報告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Manager熱門工作流程（學習者角色） {#captivateprimetopworkflowslearnerrole}
 
@@ -168,7 +167,7 @@ Learning Manager學習者角色支援多種其他協助工具功能，其中包�
 
 1. 在識別培訓後，點選 `kbd ENTER`以導覽至訓練頁面。
 
-## 使用Adobe Learning Manager中的訓練 {#consumeatraininginadobecaptivateprime}
+## 在Adobe Learning Manager中使用訓練 {#consumeatraininginadobecaptivateprime}
 
 1. 在識別培訓後，使用 `kbd Tab`或 `kbd Shift + Tab` 瀏覽至「註冊/開始」按鈕。 按鈕狀態取決於您對該訓練的註冊狀態。
 
@@ -211,13 +210,13 @@ Learning Manager學習者角色支援多種其他協助工具功能，其中包�
 
 ### 色彩不佳的使用者
 
-Adobe學習管理員學習者角色致力於為使用者提供清晰易讀的使用者介面，符合WCAG 2.1標準。
+Adobe Learning Manager學習者角色致力於為使用者提供清晰易讀的使用者介面，符合WCAG 2.1標準。
 
 為了在學習者頁面上獲得更好的體驗，請使用 [生動的主題](/help/migrated/administrators/feature-summary/themes.md).
 
 ### 行動力與觸角受限的使用者
 
-Adobe Learning Manager持續專注於協助工具，並計畫改善目前功能，讓系統的學習者更能瀏覽「學習者」角色。
+Adobe Learning Manager持續注重協助工具，並計畫改善目前功能，讓系統的學習者更能瀏覽「學習者」角色。
 
 ### 影片的隱藏式字幕支援
 

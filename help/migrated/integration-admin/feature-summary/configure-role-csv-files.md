@@ -4,7 +4,7 @@ title: 透過CSV檔案管理自訂角色
 description: 整合管理員可以透過CSV大量新增自訂角色至其帳戶，也可以將相同角色指派給各種使用者。 此方法可自動建立自訂角色。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
+source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 0%

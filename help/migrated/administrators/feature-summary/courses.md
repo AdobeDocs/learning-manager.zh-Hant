@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 建立課程模組、例項和學習計畫
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4478'
 ht-degree: 0%
@@ -25,9 +25,10 @@ ht-degree: 0%
 
 ### 管理執行個體
 
-在本次訓練中，您將瞭解如何編輯執行個體詳細資訊和執行個體屬性。
+>[!INFO]
+>
+>在本次訓練中，您將瞭解如何編輯執行個體詳細資訊和執行個體屬性。<br><br>[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
@@ -496,7 +497,7 @@ CSV報表包含以下欄位：
 
 ## 搜尋課程和學習計畫 {#searchingcoursesandlearningprograms}
 
-AdobeLearning Manager讓您更輕鬆地快速找到您選擇的課程/學習計畫。 搜尋課程有兩種方式：
+Adobe Learning Manager讓您更容易快速找到您選擇的課程/學習計畫。 搜尋課程有兩種方式：
 
 1. 使用搜尋欄位。 按一下右上角顯示的搜尋圖示。 搜尋欄位隨即顯示。 輸入課程名稱或與課程相關聯的任何關鍵字，以找出您的課程/學習計畫。 您也可以使用預先定義的標籤(如Captivate、C、Java和HTML)進行搜尋。 標籤可在「搜尋」欄位內搜尋，這表示當您輸入時，標籤會顯示在搜尋欄位中。
 1. 使用篩選器篩選課程/學習計劃清單。 您可以依狀態篩選課程，例如「全部」、「已發佈」、「草稿」和「已淘汰」。 在管理員模式中，草稿篩選器未出現。
@@ -612,7 +613,7 @@ AdobeLearning Manager讓您更輕鬆地快速找到您選擇的課程/學習計�
 
 Adobe Learning Manager的管理員可與學習者共用二維碼，以便快速註冊課程。 這三個不同的QR碼可用來標示課程的「註冊」、「完成」或「註冊與完成」。
 
-學習者只需使用AdobeLearning Manager裝置應用程式掃描個別二維碼即可。
+學習者只需使用Adobe Learning Manager裝置應用程式掃描個別二維碼即可。
 
 **若要下載二維碼，請執行以下作業**：
 
@@ -638,7 +639,7 @@ Adobe Learning Manager的管理員可與學習者共用二維碼，以便快速�
 
 **已淘汰**  — 發佈課程後，如果作者不希望課程出現在學習者的課程目錄中，可以將課程移至已淘汰狀態。 您可以在此狀態下重新發佈或刪除課程。
 
-**已刪除**  — 處於已刪除狀態的課程是從AdobeLearning Manager應用程式中完全移除時。 課程只有在處於草稿狀態時才能由作者刪除。 您也可以從已淘汰狀態刪除課程。
+**已刪除**  — 處於已刪除狀態的課程會從Adobe Learning Manager應用程式中完全移除。 課程只有在處於草稿狀態時才能由作者刪除。 您也可以從已淘汰狀態刪除課程。
 
 ![](assets/lifecycle-03.png)
 
