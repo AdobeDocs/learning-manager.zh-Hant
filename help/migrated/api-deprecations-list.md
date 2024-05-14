@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager中的API淘汰
+title: Adobe Learning Manager不再使用API
 description: 隨著Adobe Learning Manager中API的發展，API會定期重新組織或升級。 API進化後，舊的API會遭到取代並最終移除。 本頁包含從已棄用的API版本移轉至較新且較穩定的API版本時，您必須知道的資訊。
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
 
-
 # Adobe Learning Manager中的API淘汰與變更
 
-## 2024年3月版AdobeLearning Manager中的API淘汰
+## 2024年3月發行的Adobe Learning Manager中API的淘汰
 
 <!-- ### Changes in Rate Limits
 
@@ -105,7 +105,7 @@ The following table lists the rate and burst limits for the APIs.
 
 擷取完成與註冊計數的程式在計算上非常昂貴，因此計算是以請求為基礎進行的。 如果資料不存在快取中，則會重新載入資料，這將會耗費大量計算時間。 如果有許多使用者註冊課程，則次數會很大，並有效影響CPU效能。
 
-在AdobeLearning Manager的下一個版本中，在LO執行個體摘要端點中，會快取completionCount、enrollmentCount、seatLimit和waitlistCount。 快取的資訊會持續存在，直到註冊或取消註冊發生變更為止。 對於超過1000個註冊的計數，我們會假設預估計數，並讓所有現有帳戶和新帳戶的結果失效。
+在Adobe Learning Manager的下一個版本中，在LO執行個體摘要端點中，會快取completionCount、enrollmentCount、seatLimit和waitlistCount。 快取的資訊會持續存在，直到註冊或取消註冊發生變更為止。 對於超過1000個註冊的計數，我們會假設預估計數，並讓所有現有帳戶和新帳戶的結果失效。
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ The following table lists the rate and burst limits for the APIs.
 
 ### 依名稱排序
 
-在下一版AdobeLearning Manager中，以下API的排序欄位中不建議使用名稱和 — name：
+在下一個版本的Adobe Learning Manager中，下列API的排序欄位中將不使用name和 — name：
 
 * GET/userGroups/{userGroupId}/users
 * GET/users
@@ -123,7 +123,7 @@ The following table lists the rate and burst limits for the APIs.
 >對於所有現有帳戶與新帳戶，將停止依名稱與名稱排序。
 
 
-## 2023年11月發行的Adobe Learning Manager中API淘汰
+## Adobe Learning Manager 2023年11月版本中的API淘汰
 
 ### 覆寫旗標
 
@@ -137,14 +137,19 @@ _/primeapi/v2/users？page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override
 
 ### 技能型新建議的API變更
 
-Adobe Learning Manager能改善客戶和合作夥伴啟用帳戶的建議。 隨著課程、學習路徑和認證的排名演演算法發生變更，建議演演算法的這項改善為內容探索提供了更好的使用者體驗。
+Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建議。 隨著課程、學習路徑和認證的排名演演算法發生變更，建議演演算法的這項改善為內容探索提供了更好的使用者體驗。
 
-演演算法將不再允許對等式建議。 此變更不會影響現有的使用者，但「產業調整」選項將繼續存在。 在「自訂」選項中，AdobeLearning Manager將不再允許自訂對等選取。
+演演算法將不再允許對等式建議。 此變更不會影響現有的使用者，但「產業調整」選項將繼續存在。 在「自訂」選項中，Adobe Learning Manager不再允許以自訂對等專案為基礎的選取。
 
 對等群組現在會變成帳戶，而學習者會看到顯示群組中趨勢主題的字串。 所有建議都可解釋。 例如，如果您檢視的是主旨的某件事，分段上的卡片就會顯示課程的原因。
 
 ### 通知宣告報告的變更
 
-在舊版AdobeLearning Manager中，通知宣告報告沒有任何篩選器。 Adobe Learning Manager已下載帳戶中的所有通知。
+在舊版Adobe Learning Manager中，「通知公告」報告沒有任何篩選器。 Adobe Learning Manager已下載帳戶中的所有通知。
 
 在2023年11月版本中，我們已新增日期篩選器，讓您在指定期間內下載通知。  不過，您只能下載過去六個月的報表。
+
+### 淘汰GET/使用者端點中的高位移值
+
+為了改善系統效能並更有效地管理資源使用率，Adobe已同時棄用GET/使用者端點中的高位移值 **管理員** 和 **學習者** 範圍。 我們建議使用 **工作API** 以擷取含有位移值的記錄。
+
