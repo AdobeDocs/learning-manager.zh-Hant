@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 公告
 description: 宣告是管理員廣播給已定義使用者集合的多媒體訊息（文字、影像或視訊）。
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
-
-
 
 # 公告
 
@@ -29,6 +28,11 @@ ht-degree: 0%
 1. 以管理員使用者身分，按一下左窗格中的公告。
 1. 按一下頁面右上角的「新增」 。
 1. 從「型別」下拉式清單中，選取選項 **作為通知**.
+
+![](assets/as-notofocation.png)
+
+*自訂通知*
+
 1. 在「訊息」欄位中，新增宣告的訊息。 您也可以在這裡新增公告的URL。 不過，您必須以HTML表單新增URL。
 
    例如，  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

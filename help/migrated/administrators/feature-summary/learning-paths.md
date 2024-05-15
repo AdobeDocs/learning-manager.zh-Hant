@@ -4,9 +4,9 @@ title: 學習路徑
 description: 在Learning Manager中為管理員建立學習計畫。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1916'
+source-wordcount: '1275'
 ht-degree: 0%
 
 ---
@@ -49,17 +49,27 @@ ht-degree: 0%
 
 *新增學習路徑*
 
+在 **註冊型別** 選項，選取 **自行註冊** 或 **管理員註冊**.
+
+>[!NOTE]
+>
+>如果您選取 **管理員註冊** 選項，學習者僅會看到經理指派或經理核准的課程。 學習者將無法在「建議」區段中看到學習路徑。
+
 建立學習路徑後，選取新建立的學習路徑，並在路徑中新增課程。
 
 您可以新增技能並指派徽章至學習路徑。 若要新增技能，請從以下位置選取所需技能： **[!UICONTROL Pick a Skill]** 下拉式清單。 同時選取技能或技能的層級。
 
 ![](assets/add-skills.png)
 
+*新增技能*
+
 為學習路徑指派徽章。 從可用徽章清單中挑選徽章。
 
 從以下位置選取產品、角色和角色等級： **[!UICONTROL Recommend for]** 區段，向對這些產品和角色感興趣的使用者建議此學習路徑。
 
 ![](assets/recommend-for.png)
+
+*建議*
 
 根據您的偏好，選擇區段和培訓的順序型別，即「已訂購」或「未訂購」。
 
@@ -141,6 +151,20 @@ ht-degree: 0%
 
 通知提醒會根據選項觸發。 依預設，選項 **[!UICONTROL All Levels Courses and Learning Paths]** 已為執行個體啟用。
 
+## 訂閱
+
+您可以訂閱個別學習路徑，以直接在收件匣中接收完整資料，包括測驗分數和學習者狀態。
+
+請遵循下列步驟：
+
+1. 前往任一學習路徑>訂閱。
+1. 選取「新增更多」。
+1. 選取詳細資料並輸入電子郵件ID以接收報表。
+
+![](assets/subscriptions.png)
+
+*訂閱個人學習路徑*
+
 ## 重要注意事項
 
 請注意，學習計畫的現有功能將會在發行後立即重新命名為學習路徑。 如果您希望繼續將其稱為「學習計畫」，我們建議您使用「術語」功能來套用所需的術語。 如此一來，您就能使用到「學習計畫」這個字。
@@ -151,76 +175,76 @@ ht-degree: 0%
 
 此 **[!UICONTROL Settings]** > **[!UICONTROL General]** 頁面有一個新選項可啟用學習路徑。 如果已啟用此選項，您可以在學習路徑中新增課程和學習計畫。 選項一經啟用即無法變更。
 
-## 其他學習路徑相關詳細資訊
+<!-- ## Other Learning Path-related details 
 
-### 「管理設定」中的「學習路徑」選項已停用/取消勾選
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**使用原生Web應用程式的帳戶**
+**Accounts using Native Web apps**
 
-**學習者**
+**Learners**
 
-* 依預設，學習者會注意到術語從「學習計畫」變更為「學習路徑」。 這麼做可讓介面更直覺。 如果您不想進行此變更，請參閱下列要點。
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* 不過，如果您已使用「自訂術語」功能將術語「學習計畫」取代為某些自訂文字，此變更將不會反映在UI中。
-* 如果您尚未使用「自訂術語」功能，但現在希望保留「學習計畫」作為術語，您可以透過發行後的「自訂術語」功能這樣做。
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* 舊版「學習計畫」的整體外觀和手感將更新為視覺效果更豐富的外觀和手感。
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**作者與管理員**
+**Authors and Admins**
 
-* 管理員/作者應用程式內的術語與學習者相同。
-* 作者和管理員用以建立、更新舊版「學習計畫」物件的UI現在將更新至新UI。 功能不會遺失，只是使用者介面執行的操作會更直覺。 即使您選擇不啟用「學習路徑的延伸功能」，這些UI變更仍會反映在您的帳戶中，不會損失任何功能。
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* 請注意，任何現有的學習計畫物件都不會變更，因此對學習者不會造成影響（上述術語點除外）。 作者/管理員可能會在其現有物件中注意到名為「Section」的預設群組，就功能而言，這不會產生任何重大影響。 作者/管理員也會看到新增的功能，例如技能、工作輔助等。 但由於您尚未使用過此工具，因此在您實際開始使用它之前，不會對學習者產生任何影響。
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**報告**
+**Reporting**
 
-* 如果您未啟用學習路徑選項，學習者成績單報告結構不會因為學習路徑而發生變更。 但如先前通知所述（請參考先前通知中所共用的表格）；在發佈後，學習者成績單的最右邊將立即新增一欄。
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**使用Headless LMS的帳戶**
+**Accounts using Headless LMS**
 
-**學習者**
+**Learners**
 
-* Headless介面中的學習者沒有變更。 用於產生報表的API也不會立即變更。
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**作者與管理員**
+**Authors and Admins**
 
-* 與上述作者/管理員的變更相同。
+* Same changes as that of Authors/Admins stated above.
 
-**報告**
+**Reporting**
 
-* 與上述報告功能相同的變更。
+* Same changes as that of Reporting stated above.
 
-### 學習路徑選項已在「管理員設定」中啟用/勾選
+### Learning Paths option is enabled/checked in Admin Settings
 
-**使用原生Web應用程式的帳戶**
+**Accounts using Native Web apps**
 
-**學習者**
+**Learners**
 
-* 與停用選項時的學習者變更相同。
-* 當您開始使用「學習路徑」的擴充功能時，學習者將可受益於顯示更精細的路徑，其中包含內嵌的路徑和區段、完成路徑時所獲得的技能與徽章、路徑層級的資源及其他好處。
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**作者與管理員**
+**Authors and Admins**
 
-* 與停用選項時「作者」和「管理員」的變更相同。
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* 使用者將獲得製作複雜路徑的更多功能。 您可以定義學習者完成路徑後自動達成的技能等級（不必聚焦於等級的積分算術）。 資源可在路徑層級新增（目前尚無法新增）。 可以使用每個具有X個Y選項能力的區段來建立區段。 使用者可將學習路徑內嵌於其他學習路徑（支援一層階層）
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**報告**
+**Reporting**
 
-* 「學習者成績單」和「內容報表」結構新增了幾欄，整合了路徑內嵌的新功能。 這可能會影響您為了匯出此資料至Learning Manager外部的自訂資料倉儲/資料庫而編寫的整合程式碼。 此資訊在之前的通訊中所提供的表格中傳達。
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**使用Headless LMS的帳戶**
+**Accounts using Headless LMS**
 
-**學習者**
+**Learners**
 
-* 除非您變更Headless LMS實作，否則您的學習者不會有任何變更，因為您建置Headless介面的API不會變更。
-* 如果您是透過建立新學習路徑來開始使用「學習路徑」的延伸功能，不過您必須變更Headless LMS實作，以反映學習者應用程式上的那些專案。 Learning Manager API可讓您這麼做。
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**作者與管理員**
+**Authors and Admins**
 
-* 與上述作者/管理員的變更相同。
+* Same changes as that of Authors/Admins stated above.
 
-**報告**
+**Reporting**
 
-* 與上述報告功能相同的變更。
+* Same changes as that of Reporting stated above. -->

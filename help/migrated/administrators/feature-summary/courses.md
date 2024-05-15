@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程模組、例項和學習計畫
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4478'
+source-wordcount: '4524'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,18 @@ ht-degree: 0%
    *還原執行個體*
 
 1. 執行個體現在會還原為作用中模式。
+
+## 刪除執行個體
+
+管理員可以使用以下專案刪除例項： **刪除此執行個體** 選項建立後立即生效。 如果有工作階段連結至執行個體，或任何學習者已註冊該執行個體，您就無法刪除。
+
+![](assets/delete-this-instance.png)
+
+*刪除執行個體*
+
+>[!NOTE]
+>
+>您無法刪除預設的執行個體。
 
 ## 傳送執行個體層級的電子郵件
 

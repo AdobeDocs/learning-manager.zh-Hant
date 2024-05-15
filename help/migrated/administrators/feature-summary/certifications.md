@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 認證
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '998'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,8 @@ ht-degree: 0%
 
 ![](assets/recommend-for.png)
 
+*建議*
+
 選擇要新增至認證的課程 **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** 標籤。
 
 將滑鼠停留在每個課程圖磚上，按一下「+」以將它們新增至認證。 按一下 **[!UICONTROL Preview]** 新增課程前，以學習者身分檢視課程。
@@ -170,6 +172,8 @@ ht-degree: 0%
 編輯認證的區段時，如果您必須移出頁面，則需要重新發佈認證。 您會收到要求您重新發佈憑證的對話方塊確認。
 
 ![](assets/edit-a-certificate.png)
+
+*編輯憑證*
 
 ## 訂閱 {#subscription}
 

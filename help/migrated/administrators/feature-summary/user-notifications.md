@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 通知
 description: 通知功能適用於Adobe Learning Manager的所有使用者。 但是，每個使用者根據其角色在不同情況下會獲得不同種類的通知。
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
-
-
 
 # 通知
 
@@ -42,7 +41,11 @@ ht-degree: 0%
 
 此快顯視窗會顯示所有通知的醒目提示，以及發生時間和卷軸。 您可以根據通知圖示上方醒目提示的數字來瞭解最新通知的數量。 例如，如果您上次登入後有五個最新的通知，您會看到通知圖示上方顯示數字5。 讀取所有最新通知後，這些數字就會消失。
 
-按一下 **[!UICONTROL Show all notifications]** 通知快顯視窗底部的連結，可在個別頁面中檢視所有通知。
+按一下 **[!UICONTROL Show all notifications]** 通知快顯視窗底部的連結，可在個別頁面中檢視所有通知。 在通知頁面上，您可以看到下列內容：
+
+* **所有通知**：在這裡檢視所有通知
+* **擱置中**：在這裡檢視擱置中的通知
+* **討論**：搜尋課程以檢視正在進行的討論。
 
 ## 設定多重層級提升通知 {#setupmultilevelescalationnotifications}
 
