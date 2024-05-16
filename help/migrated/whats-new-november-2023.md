@@ -2,7 +2,7 @@
 title: 此版本的新增功能
 description: 瞭解2023年11月發行的Adobe Learning Manager中的新功能和增強功能。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
+source-git-commit: eed6dd4d31a62d10a6b2901c48f14e3f4fe571d8
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
@@ -324,5 +324,3 @@ Adobe Learning Manager將於2024年2月終止BlueJeans服務。 2024年2月後�
 * [2023年7月發行版本](whats-new-2023-july.md)
 * [2023年4月發行版本](whats-new-2023-april.md)
 * [2022年11月發行版本](whats-new-2022-november.md)
-
-<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->

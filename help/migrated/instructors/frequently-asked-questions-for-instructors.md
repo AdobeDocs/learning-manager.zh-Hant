@@ -3,14 +3,13 @@ description: 請閱讀並瞭解Learning Manager講師的常見問題集。
 jcr-language: en_us
 title: 講師常見問題
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 0%
 
 ---
-
-
 
 # 講師常見問題
 
@@ -49,4 +48,3 @@ ht-degree: 0%
 身為講師，您只能檢視和編輯那些已指派給您之工作階段的詳細資訊。 您無法修改任何其他工作階段的工作階段或與會者清單。
 
 +++
-

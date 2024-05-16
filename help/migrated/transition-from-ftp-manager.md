@@ -1,17 +1,17 @@
 ---
 title: 從Adobe FTP管理員轉換
-description: Adobe Learning Manager支援使用AWS Transfer系列的SFTP通訊協定的新聯結器。 您可以使用AdobeFTP管理員取代任何開放原始碼FTP使用者端。
-source-git-commit: aa8030e7e1d0ad72b76fb48a34e7b15ddf178a0b
+description: Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結器。 您可以使用AdobeFTP管理員取代任何開放原始碼FTP使用者端。
+exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
+source-git-commit: 521b71f87545c513f844b6e216fa3ffc1fac95a0
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
 
 ---
 
-
 # 從Adobe FTP管理員轉換
 
-Adobe Learning Manager支援使用AWS Transfer系列的SFTP通訊協定的新聯結器。
+Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結器。
 
 您可以使用AdobeFTP管理員取代任何開放原始碼FTP使用者端。
 
@@ -170,5 +170,7 @@ Adobe Learning Manager支援使用AWS Transfer系列的SFTP通訊協定的新聯
 
 **移轉專案無法關閉的情況**
 
-* 課程ID對應是在目前專案中針對從外部舊系統移轉至AdobeLearning Manager的課程完成的。 若要更新相同專案中的相同課程，您只能這麼做。 關閉專案後，您就無法修改其詳細資訊。
+* 課程ID對應是在從外部舊式系統移轉至Adobe Learning Manager的課程的目前專案中完成。 若要更新相同專案中的相同課程，您只能這麼做。 關閉專案後，您就無法修改其詳細資訊。
 * 針對以API為基礎的移轉專案，您不得關閉專案。
+
+<!--[ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
