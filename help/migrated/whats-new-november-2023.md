@@ -1,8 +1,8 @@
 ---
 title: 此版本的新增功能
-description: 瞭解關於2023年11月版Adobe Learning Manager的新功能和增強功能。
+description: 瞭解2023年11月發行的Adobe Learning Manager中的新功能和增強功能。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
 workflow-type: tm+mt
 source-wordcount: '2365'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ## 改版的使用者介面
 
-AdobeLearning Manager使用者介面已進行一些更新，以提供更乾淨且更現代的體驗。 管理員和作者角色的登陸頁面已改版，並且所有角色的UI主題已更新。 不過，選單、按鈕或連結的位置尚未變更，您將能夠準確地找到這些專案。
+Adobe Learning Manager使用者介面已進行一些更新，以提供更乾淨且更現代的體驗。 管理員和作者角色的登陸頁面已改版，並且所有角色的UI主題已更新。 不過，選單、按鈕或連結的位置尚未變更，您將能夠準確地找到這些專案。
 
 主題更新會自動套用至使用預設主題的帳戶。 UI主題更新不會影響已修改使用自訂主題的帳戶。 這類帳戶需要切換回預設主題，才能取得新的主題更新。
 
@@ -44,7 +44,7 @@ AdobeLearning Manager使用者介面已進行一些更新，以提供更乾淨�
 
 ## 原生擴充性
 
-在AdobeLearning Manager的原生版本中設定自訂體驗，可讓您在不太複雜的案例中使用Headless。 您也可以建立自訂應用程式，並將其放置在學習者、經理、管理員、作者或講師工作流程的原生版本中的不同位置。
+在Adobe Learning Manager的原生版本中設定自訂體驗，可讓您在不太複雜的案例中使用Headless。 您也可以建立自訂應用程式，並將其放置在學習者、經理、管理員、作者或講師工作流程的原生版本中的不同位置。
 
 學習者可使用管理員已建立的自訂應用程式或擴充功能。
 
@@ -66,7 +66,7 @@ AdobeLearning Manager使用者介面已進行一些更新，以提供更乾淨�
 
 ### 通知宣告報告的變更
 
-在舊版AdobeLearning Manager中，通知宣告報告沒有任何篩選器。 Adobe Learning Manager已下載帳戶中的所有通知。
+在舊版Adobe Learning Manager中，「通知公告」報告沒有任何篩選器。 Adobe Learning Manager已下載帳戶中的所有通知。
 
 在此版本中，我們已新增日期篩選器，您可使用此篩選器在指定期間內下載通知。  不過，您只能下載過去六個月的報表。
 
@@ -84,7 +84,7 @@ AdobeLearning Manager使用者介面已進行一些更新，以提供更乾淨�
 
 「管理員」應用程式中「課程」出勤頁面及用來同步下載之「講師」應用程式中「工作階段學習者」頁面的「出勤率」報表。 在此版本中，此報表將透過通知非同步下載。
 
-如需報告的詳細資訊，請參閱 [報表](/help/migrated/administrators/feature-summary/reports.md) 在Learning ManagerAdobe中。
+如需報告的詳細資訊，請參閱 [報表](/help/migrated/administrators/feature-summary/reports.md) 在Adobe Learning Manager中。
 
 ## 停止支援Content Marketplace
 
@@ -92,9 +92,9 @@ AdobeLearning Manager使用者介面已進行一些更新，以提供更乾淨�
 
 ## 以技能為基礎的新建議
 
-Adobe Learning Manager能改善客戶和合作夥伴啟用帳戶的建議。 隨著課程、學習路徑和認證的排名演演算法發生變更，建議演演算法的這項改善為內容探索提供了更好的使用者體驗。
+Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建議。 隨著課程、學習路徑和認證的排名演演算法發生變更，建議演演算法的這項改善為內容探索提供了更好的使用者體驗。
 
-演演算法將不再允許對等式建議。 此變更不會影響現有的使用者，但「產業調整」選項將繼續存在。 在「自訂」選項中，AdobeLearning Manager將不再允許自訂對等選取。
+演演算法將不再允許對等式建議。 此變更不會影響現有的使用者，但「產業調整」選項將繼續存在。 在「自訂」選項中，Adobe Learning Manager不再允許以自訂對等專案為基礎的選取。
 
 對等群組現在會變成帳戶，而學習者會看到顯示群組中趨勢主題的字串。 所有建議都可解釋。 例如，如果您檢視的是主旨的某件事，分段上的卡片就會顯示課程的原因。
 
@@ -230,7 +230,7 @@ Adobe Learning Manager能改善客戶和合作夥伴啟用帳戶的建議。 隨
 
 ## 限制舊版控制面板報表處理
 
-當管理員嘗試繪圖儀表板報告，且報告繪圖時間過長（超過2.5分鐘）時，AdobeLearning Manager會顯示以下訊息：
+當管理員嘗試繪製儀表板報告，而報告繪製時間過長（超過2.5分鐘）時，Adobe Learning Manager會顯示以下訊息：
 
 ![舊版報表影像](assets/error-message.png)
 *報告耗時過長時的錯誤訊息*
@@ -253,13 +253,13 @@ Adobe Learning Manager能改善客戶和合作夥伴啟用帳戶的建議。 隨
 
 ### 已刪除貼文的通知
 
-在AdobeLearning Manager的舊版中，如果有任何課程、認證或學習計畫遭刪除且有通知存在，您仍可透過其通知存取課程、認證或學習計畫。
+在舊版Adobe Learning Manager中，如果刪除了任何課程、認證或學習計畫並出現其通知，則您仍可透過其通知存取課程、認證或學習計畫。
 
 在此版本中，我們將確保已刪除的貼文無法再存取。 如果您在/posts/中指定ID{id} API而且貼文的ID已無法使用，則API會顯示訊息「指定資源找不到貼文」。
 
 ### 學習者API完成期限
 
-在舊版中，Adobe Learning Manager會從登錄檔格中擷取截止日期。 在此版本中，AdobeLearning Manager會從課程例項表格計算截止日期。 如果截止日期無法取得，則會退回登錄檔格。
+在舊版中，Adobe Learning Manager會從登錄檔格中擷取截止日期。 在此版本中，Adobe Learning Manager會從課程例項表格計算截止日期。 如果截止日期無法取得，則會退回登錄檔格。
 
 ### 覆寫旗標
 
@@ -273,7 +273,7 @@ Adobe Learning Manager能改善客戶和合作夥伴啟用帳戶的建議。 隨
 
 ### 反白顯示結果
 
-在即將發行的Adobe學習管理器中，例如在/search API中，我們將highlightResults的預設值變更為false。
+在即將發行的Adobe Learning Manager版本中，例如在/search API中，我們將highlightResults的預設值變更為false。
 
 此外，我們也會將snippetTypes的預設值變更為courseName。 如果highlightResults為True，則這樣做只會反白搜尋中的課程名稱。
 
@@ -305,7 +305,7 @@ Adobe Learning Manager將於2024年2月終止BlueJeans服務。 2024年2月後�
 * 學習者無法在MS Teams應用程式上播放LinkedIn課程。
 * 註冊API沒有如預期傳回Flex學習計畫或內嵌學習計畫的註冊。
 * 在行動應用程式中，課程、認證或學習計畫的名稱會以小寫顯示。
-* 在AdobeLearning Manager的舊版中，如果有任何課程、認證或學習計畫遭刪除且有通知存在，您仍可透過其通知存取課程、認證或學習計畫。 在此版本中，我們將確保已刪除的貼文無法再存取。 如果您在/posts/中指定ID{id} API而且貼文的ID已無法使用，則API會顯示訊息「指定資源找不到貼文」。
+* 在舊版Adobe Learning Manager中，如果刪除了任何課程、認證或學習計畫並出現其通知，則您仍可透過其通知存取課程、認證或學習計畫。 在此版本中，我們將確保已刪除的貼文無法再存取。 如果您在/posts/中指定ID{id} API而且貼文的ID已無法使用，則API會顯示訊息「指定資源找不到貼文」。
 * 在學習者API中，完成截止日期欄位不會顯示在註冊API的回應中。
 * 在學習者的「取得註冊API」中，即使您指定的執行個體ID不正確，也會顯示註冊詳細資料。
 
@@ -319,8 +319,10 @@ Adobe Learning Manager將於2024年2月終止BlueJeans服務。 2024年2月後�
 
 [Learning Manager系統需求](system-requirements.md)
 
-## 舊版Adobe學習管理員
+## Adobe Learning Manager舊版
 
 * [2023年7月發行版本](whats-new-2023-july.md)
 * [2023年4月發行版本](whats-new-2023-april.md)
 * [2022年11月發行版本](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
