@@ -4,9 +4,9 @@ title: 系統需求
 description: Adobe Learning Manager的系統需求
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: 566716404c1cff34108e39014e14416d65088a80
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -337,3 +337,7 @@ IE 11瀏覽器不支援沈浸式版面首頁。
 ## 技術概覽 {#technicaloverview}
 
 [Learning Manager技術概覽](assets/learning-manager-technicaloverview.pdf)
+
+## ALM安全性白皮書
+
+[ALM白皮書](assets/alm-security-whitepaper.pdf)
