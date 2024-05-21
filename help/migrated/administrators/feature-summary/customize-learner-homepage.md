@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 自訂學習者首頁
 description: 管理員可以自訂學習者的首頁，並使其更現代、內容導向且對學習者進行個人化。
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 0%
 
 ---
-
-
 
 # 自訂學習者首頁
 
@@ -85,7 +84,7 @@ ht-degree: 0%
 
 ![](assets/option-immersive.png)
 
-*傳統體驗的選擇*
+*學習者首頁設定*
 
 沈浸式版面配置是所有新帳戶的預設設定。 版面配置是由管理員可啟用或停用的Widget所控制。 根據Widget的定位方式，學習者首頁上也會顯示相同資訊。
 

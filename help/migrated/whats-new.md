@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 0%
 # 新功能摘要 {#new-features-summary}
 
 瞭解2024年3月發行的Adobe Learning Manager中的新功能和增強功能。
+
+探索幾項最新的Adobe Learning Manager功能，例如：
+
+1. 從外部來源匯入技能
+1. 多品牌支援
+1. 檢查清單重新評估活動模組
+1. 白色標籤的行動學習應用程式
+
+>[!NOTE]
+>
+>看看這個 [網路研討會](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) 以進一步瞭解此版本的新功能。
+
 
 ## 此版本的新增功能 {#whatsnewandchanged}
 
@@ -423,7 +435,7 @@ Adobe Learning Manager行動應用程式現在支援貼上白色標籤，這表�
 
 ### 登入存取權報表的變更
 
-「登入存取」報表僅提供過去五個季度的資料。 如果任何整合管理員提出隨選下載整合匯出請求， **登入存取權** 如果勾選，AdobeLearning Manager會顯示錯誤訊息。 不過，對其他報表沒有影響。
+「登入存取」報表僅提供過去五個季度的資料。 如果任何整合管理員提出隨選下載整合匯出請求， **登入存取權** 勾選後，Adobe Learning Manager會顯示錯誤訊息。 不過，對其他報表沒有影響。
 
 ### ADFS變更
 

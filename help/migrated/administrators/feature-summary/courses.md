@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程模組、例項和學習計畫
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4524'
+source-wordcount: '4611'
 ht-degree: 0%
 
 ---
@@ -206,6 +206,14 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 ![](assets/escalation-notification.png)
 
 *設定向上呈報級別*
+
+## 輪候表
+
+當名額有限時，輪候表區段可讓學習者根據其註冊順序輪候教室課程。 管理員可以透過選擇輪候學習者並分配超過初始限制的名額來管理此專案。 管理員分配名額後，學習者會立即註冊課程。
+
+## 討論區
+
+「討論區」功能可讓學習者檢視課程討論。 身為管理員，您可以視需要刪除任何評論。 管理員可在課程設定下啟用此選項。
 
 ## 課程稽核 {#coursemoderation}
 
