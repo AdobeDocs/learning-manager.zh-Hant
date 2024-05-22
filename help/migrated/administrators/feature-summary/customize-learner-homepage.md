@@ -4,9 +4,9 @@ title: 自訂學習者首頁
 description: 管理員可以自訂學習者的首頁，並使其更現代、內容導向且對學習者進行個人化。
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 0%
 
 ---
@@ -137,6 +137,12 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>
+    <p>顯示截止日期的註冊</p></td>
+   <td>
+    <p>顯示已逾期、臨近截止日期或正在追蹤的註冊。 </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>遊戲</p></td>
    <td>
     <p>根據學習活動顯示排行榜。</p></td>
@@ -159,24 +165,24 @@ ht-degree: 0%
       <p>第二，管理員也可以決定建議是立即生效還是在指定日期生效。</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>根據興趣區域的建議</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>根據學習者選擇的興趣區域顯示學習物件。 建議由機器學習演演算法驅動。</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>依目錄瀏覽<br></p></td>
    <td>
     <p>將目錄顯示為首頁上的圖磚。 </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>根據同儕節點活動提出的建議<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>根據學習者的同業所參加的內容顯示培訓。 這同樣是由機器學習演演算法所驅動。</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>若為新帳戶，學習者首頁、訓練型別和建議範圍設定將不可見。
+
