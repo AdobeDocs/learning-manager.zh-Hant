@@ -4,9 +4,9 @@ title: Adobe Learning Manager不再使用API
 description: 隨著Adobe Learning Manager中API的發展，API會定期重新組織或升級。 API進化後，舊的API會遭到取代並最終移除。 本頁包含從已棄用的API版本移轉至較新且較穩定的API版本時，您必須知道的資訊。
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
+source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -59,15 +59,13 @@ The following table lists the rate and burst limits for the APIs.
 
 如果您需要擷取更多記錄，請使用 **GET工作** API。
 
-位移限制的變更適用於所有新客戶。 若為現有客戶，則適用90天規則。
+<!--### Exclude paths 
 
-### 排除路徑
+At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
-目前，Learning Manager API會遵循圖表資料結構，可讓您透過include遍歷API模型來擷取資料。 即使您最多可周遊7個層級的API，使用單一API呼叫擷取資料的計算成本很高。
+We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-我們建議所有現有客戶和新客戶進行多次小型通話，而非一次大型通話。 此方法可防止在呼叫中載入不需要的資料。
-
-我們想要對新帳戶強制執行這些限制，並維護現有帳戶的白名單。
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
 
 #### 哪些路徑已過時
 
@@ -99,17 +97,17 @@ The following table lists the rate and burst limits for the APIs.
    * 新路徑：
       * instance.subLoInstances
 
-### 執行個體摘要計數變更
+<!--### Instance summary count changes 
 
-目前，在LO摘要端點中，您會擷取所有可能例項的數目。 例如，對於課程，您可以在回應中檢視註冊和輪候表的數目 **GET/learningObjects/{loId}/instances/{loInstanceId}/摘要**. 然後，您可以在回應中檢視completionCount和enrollmentCount。 如果課程是虛擬教室或教室，您也可以檢視其名額限制和輪候表限制。
+Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
-擷取完成與註冊計數的程式在計算上非常昂貴，因此計算是以請求為基礎進行的。 如果資料不存在快取中，則會重新載入資料，這將會耗費大量計算時間。 如果有許多使用者註冊課程，則次數會很大，並有效影響CPU效能。
+The process of retrieving the completion and enrollment counts is computationally expensive, therefore the calculation is done on a request basis. If the data is not present in the cache, the data is reloaded, which is computationally intensive. If there are many users enrolling in a course, the counts will be large, and effectively impacts CPU performance. 
 
-在Adobe Learning Manager的下一個版本中，在LO執行個體摘要端點中，會快取completionCount、enrollmentCount、seatLimit和waitlistCount。 快取的資訊會持續存在，直到註冊或取消註冊發生變更為止。 對於超過1000個註冊的計數，我們會假設預估計數，並讓所有現有帳戶和新帳戶的結果失效。
+In the next release of Adobe Learning Manager, in the LO Instance summary endpoint, the completionCount, enrollmentCount, seatLimit, and waitlistCount are cached. The cached information persists till there are changes in enrollments or unenrollments. For counts exceeding 1000 enrollments, we'll assume the estimated counts, and invalidate the results for all existing and new accounts.
 
 >[!NOTE]
 >
->對於超過1000的計數（例如completionCount、enrollmentCount、seatLimit和waitlistCount），建議將其解譯為預估值，而非精確的數字，因為這些將會從快取中擷取。
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
 
 ### 依名稱排序
 
