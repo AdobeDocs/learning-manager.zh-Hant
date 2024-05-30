@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager行動應用程式中的白色標籤
-description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以在行動應用程式上套用白色標籤，這樣就能重新命名應用程式，並且讓使用者能在自己的品牌下使用應用程式。
+description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以將白色標籤套用至行動應用程式，藉此重新命名應用程式，並讓您的使用者在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Manager行動應用程式中的白色標籤
 
-Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表示您現在可以使用自己的品牌發佈應用程式。
+Adobe Learning Manager行動應用程式現在支援貼上白色標籤，這表示您現在可以使用自己的品牌發佈應用程式。
 
 ## 開始準備啟動標示為白色的應用程式的方法
 
@@ -29,7 +29,7 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
 ## 概觀
 
-使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以在行動應用程式上套用白色標籤，這樣就能重新命名應用程式，並且讓使用者能在自己的品牌下使用應用程式。
+使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以將白色標籤套用至行動應用程式，藉此重新命名應用程式，並讓您的使用者在自己的品牌下使用應用程式。
 
 ## 可自訂的專案
 
@@ -121,7 +121,7 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
   <td>
 
-  <p>應用程式圖示為png。 此圖示會顯示在您的應用程式上。 名稱的格式為account-id_appIcon.png。</p></td>
+  <p>應用程式圖示為png。 此圖示會顯示在您的應用程式上。 名稱的格式為account-id_appIcon.png。 應用程式圖示的尺寸為512 × 512畫素。</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Adobe Learning Manager行動應用程式現在支援使用白色標籤，這表�
 
   <td>
 
-  <p>針對應用程式的啟動畫面，提供使用者啟動應用程式時顯示的影像(png)。 名稱的格式為account-id_splashIcon.png。</p></td>
+  <p>針對應用程式的啟動畫面，提供使用者啟動應用程式時顯示的影像(png)。 名稱的格式為account-id_splashIcon.png。 方形啟動顯示熒幕的尺寸為1052 × 1052畫素，圓形啟動顯示熒幕的尺寸為768 x 768畫素。</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 
 >[!IMPORTANT]
 >
->將檔案傳送至AdobeLearning Manager CSAM團隊，以納入應用程式二進位檔案的建置中。
+>將檔案傳送至Adobe Learning Manager CSAM團隊，以納入應用程式二進位檔案的建置。
 
 
 ## 產生已簽署的二進位檔案
