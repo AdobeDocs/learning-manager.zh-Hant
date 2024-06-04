@@ -4,7 +4,7 @@ title: 自訂角色
 description: 「學習路徑」功能可協助您定義自訂角色，並將特定責任指派給一組使用者。 此功能可讓您指派個人現有角色許可權以外的職責。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
 source-wordcount: '2155'
 ht-degree: 0%
@@ -224,7 +224,7 @@ ht-degree: 0%
 
 1. **使用者：** 使用此選項可決定哪些使用者被指派此角色。 您可以使用搜尋方塊選擇一或多個使用者。
 
-   **新增使用者至自訂角色CSV上傳：** 若要透過CSV上傳新增使用者，請新增CustomRole欄至.csv檔案（管理員用來匯入使用者）。 在要指派自訂角色的使用者的CustomRole欄下，輸入使用者的角色。 若要上傳CSV檔案，請按一下  **[!UICONTROL Add > Upload a CSV]**.
+   **新增使用者至自訂角色CSV上傳：** 若要透過CSV更新新增使用者，請新增CustomRole欄至.csv檔案（管理員用來匯入使用者）。 在您要指派自訂角色的使用者的CustomRole欄位下，輸入使用者的角色。 若要上傳CSV檔案，請按一下  **[!UICONTROL Add > Upload a CSV]**.
 
    CustomRole欄注意：
 
@@ -483,3 +483,4 @@ Learning Manager已支援使用自訂角色授予內容資料庫存取權的功�
 
 按一下 **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**. 在「自訂角色」頁面中，按一下 **[!UICONTROL Create Role]**. 輸入自訂角色的名稱並設定角色的許可權。 如需詳細資訊，請參閱 [建立自訂角色](custom-role.md#create-role).
 +++
+

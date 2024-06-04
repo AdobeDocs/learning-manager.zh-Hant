@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 06b75b0ab591b7045ec3cc7e8b1c20b36e3de649
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '3864'
+source-wordcount: '3898'
 ht-degree: 0%
 
 ---
@@ -78,6 +78,14 @@ ht-degree: 0%
 1. 若要新增學習管理員使用者，請按一下「 」 **[!UICONTROL Add]**. 新增使用者後，使用者會收到驗證郵件。 學習者接著會啟動帳戶並開始使用Learning Manager。 如果您需要新增有限數量的學習者至Learning Manager帳戶，此工作流程將有所幫助。 但是，如果您計畫註冊大型組織的所有員工，則可以在單次嘗試中新增他們。 如需詳細資訊，請參閱下一節。
 
 ## 大量新增使用者 {#addusersinbulk}
+
+### 管理使用者
+
+在本訓練中，您將學習如何指派和移除角色、傳送歡迎電子郵件，以及刪除和清除使用者。
+
+[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
 
 通常，大多陣列織都使用HR管理系統(HRMS)，HRMS會維護所有的員工記錄，例如，指定、地點、加入日期或員工階層。 您可以將此資料匯出為CSV格式。 若要匯入CSV，請遵循下列步驟：
 

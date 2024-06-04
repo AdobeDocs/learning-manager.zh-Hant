@@ -3,14 +3,13 @@ description: 進一步瞭解在Learning Manager中清除使用者資料。
 jcr-language: en_us
 title: 清除使用者
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
-
-
 
 # 清除使用者
 
@@ -28,13 +27,13 @@ ht-degree: 0%
 * 在Learning Manager中清除使用者不會移除任何外部應用程式（第三方系統或您編寫的其他應用程式）中的使用者。 請聯絡外部應用程式擁有者，將使用者從這類應用程式中移除。
 * 如果在聯結器的組態設定中參照了已清除的使用者，則聯結器會停用。 管理員需要重新設定聯結器才能繼續。
 
-### 管理使用者
+<!---### Manage users
 
-在本訓練中，您將學習如何指派和移除角色、傳送歡迎電子郵件，以及刪除和清除使用者。
+In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
-[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 ## 如何清除使用者
 
