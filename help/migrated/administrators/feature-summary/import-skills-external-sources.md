@@ -4,9 +4,9 @@ title: 從外部來源匯入技能
 description: 使用各自的聯結器從內容提供者(例如LinkedIn和Go1)匯入技能。  匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 ### 預設課程技能與學分
 
-匯入技能後，這些技能會新增至從選取為技能來源的來源匯入的學習資源。 例如，如果您的技能來源為LinkedIn Learning，則從LinkedIn Learning匯入的所有學習資源都會具備其所提供的技能。 匯入學習資源時，每個學習資源都會提供10個學分的預設值。 如果您想要變更此專案，請聯絡您的CSM。
+匯入技能後，這些技能會新增至從選取為技能來源的來源匯入的學習資源。 例如，如果您的技能來源為LinkedIn Learning，則從LinkedIn Learning匯入的所有學習資源都會具備其所提供的技能。 匯入學習資源時，每個學習資源都會提供10個學分的預設值。
 
 #### 報告
 
