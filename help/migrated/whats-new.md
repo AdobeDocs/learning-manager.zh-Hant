@@ -1,577 +1,340 @@
 ---
-description: 瞭解Adobe Learning Manager 2024年3月發行版本的新功能與增強功能
+description: 瞭解 2024 年 7 月版 Adobe Systems 學習管理器中的新功能和增強功能
 jcr-language: en_us
-title: 新功能摘要
-contentowner: jayakarr
-exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+title: 此版本中的新功能
+source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '2148'
 ht-degree: 0%
 
 ---
 
-# 新功能摘要 {#new-features-summary}
 
-瞭解2024年3月發行的Adobe Learning Manager中的新功能和增強功能。
+# 此版本中的新功能 {#whatsnewandchanged}
 
-探索幾項最新的Adobe Learning Manager功能，例如：
+瞭解 Adobe Systems 學習管理員 2024 年 7 月版中的新功能和增強功能。
 
-1. 從外部來源匯入技能
-1. 多品牌支援
-1. 檢查清單重新評估活動模組
-1. 白色標籤的行動學習應用程式
+## 合規性儀錶板中的增強功能
 
->[!NOTE]
->
->看看這個 [網路研討會](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) 以進一步瞭解此版本的新功能。
+### 什麼是合規性儀錶板？ {#whatiscompliancedashboard}
 
+**[!UICONTROL Compliance Dashboard]** In **Adobe Systems 學習管理員**&#x200B;允許管理人員監視和監視學習者實現學習目標的進度。他們可以檢查團隊成員是否滿足最後期限並跟上他們的學習過程，這有助於確保合規性。 管理員可以設置合規性儀錶板並與經理共用。
 
-## 此版本的新增功能 {#whatsnewandchanged}
+若要在「管理」應用中訪問合規性儀錶板，請選擇 **[!UICONTROL Reports]** “> **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**”。
 
-### 從外部來源匯入技能
+### 版本中的更改
 
-使用各自的聯結器，從內容提供者(例如LinkedIn和Go1)匯入技能。 此增強功能是Learning Manager整合外部技能雲端和人才管理系統的目標之一。 匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。 整個平台的技能搜尋功能也得到了增強，以便在客戶具有大量技能時提供更好的搜尋體驗。
+借助增強的合規性儀錶板，管理員和經理可以視圖與其特定類別（例如，銷售、市場行銷和法律）相關的合規性類型課程、學習路徑或認證。 管理員可以將自定義合規性課程分類為特定類別。 自定義合規性類別由目錄標籤提供支援。  管理員可以創建課程儀錶板並與管理員共用。 然後，經理可以在各自的實例上視圖相同的儀錶板。 還增強了合規性儀錶板和合規性電子郵件通知的用戶介面。![](assets/compliance-dashboard-admin.png)
 
-檢視 [匯入技能](administrators/feature-summary/import-skills-external-sources.md) 以進一步瞭解。
+#### 工作流程
 
-### 自訂品牌
+以下是使用增強的合規性儀錶板的步驟：
 
-您現在可以根據帳戶中可用的使用者群組來自訂特定UI元素 — 組織名稱、標誌和UI主題。 例如，具有多個部門的組織可以設定自訂標誌和UI主題，以便為每個部門顯示。
+| 角色 | 任務 | 其他資訊 |
+|---|---|---|
+| 管理 | 建立自定義合規性標籤 | 有關詳細資訊，請參閱本文[建立自定義合規性標籤](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) |
+| 作者 | 將這些標籤添加到課程中 | 有關詳細資訊，請參閱將合規性標籤添加到課程/學習路徑/認證](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)一文[。 |
+| 管理 | 建立包含合規性課程的儀錶板並與經理共用 | 有關詳細資訊，請參閱本文 [建立並共用合規性儀錶板](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) 。 |
+| 經理 | 檢視合規性儀錶板 | 有關詳細資訊，請參閱本文[合規性狀態](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) |
 
->[!NOTE]
->
->這個多重品牌功能不適用於管理員的檢視。 他們永遠都會在帳戶中看到組織層級的品牌。 這是因為這是學習者面臨功能，管理員可能不希望此功能存在於其帳戶中。
-
-檢視 [多個自訂品牌](administrators/feature-summary/themes.md#multiple-branding) 以取得詳細資訊。
-
-
-## 擁有大量使用者基礎的帳戶的變更
-
-### 管理員 — 課程或學習路徑頁面
-
-如果大量學習者註冊了課程（例如，超過50,000個），則不會顯示學習者清單。 您可以在「 」中搜尋學習者 *搜尋學習者* 搜尋列或選取 **下載** 搜尋列頂端的連結，用來下載學習者清單。
-
-### 管理員 — 學習者頁面
-
-搜尋任何使用者時， **下載學習者** 和 **匯出** 選項下載相同的報表。 同時，在搜尋使用者群組時，您現在可以從該使用者群組下載經過篩選的使用者。 搜尋使用者群組時， **下載學習者清單** 變更為 **下載使用者群組的學習者清單** 此 **匯出** 選項會再次下載整個清單。
-
-### 管理員 — 使用者頁面
-
-#### 內部使用者
-
-如果使用者人數超過（例如50,000），則會出現訊息，要求您下載資料，以便稍後進行更詳細的分析。 搜尋列現在顯眼並以格式顯示使用者 *名稱，電子郵件 | UUID*.
-
->[!NOTE]
->
->只有在為帳戶啟用UUID時，才會顯示UUID。
-
-#### 外部使用者
-
-對於外部使用者，也會套用相同行為。 如果使用者人數龐大，您可以下載使用者，也可以在搜尋後以格式擷取使用者的詳細資訊 *名稱，電子郵件 | UUID*.
-
-#### 使用者清理頁面
-
-在使用者清理頁面上，對於已刪除的使用者，我們已移除排序功能： **刪除日期**. 您只能對UUID排序。
-
-### 管理員 — 執行個體頁面
-
-#### 課程或學習路徑
-
-如果註冊人數很多，Adobe Learning Manager將不會顯示學習者人數。 相反地，會出現圖示，您可以選取並檢視學習者人數，以及導覽至學習者頁面。
-
-學習者人數會顯示為近似值。 例如，如果學習者人數超過50,000，則會顯示該值50K+。
-
-### 管理員 — L1/L3頁面
-
-在L1回饋頁面上，如果課程註冊人數很多，則不會顯示學習者清單。 而是可以匯出使用者清單，以便稍後進行更詳細的分析。
-
-搜尋支援預先輸入，結果僅限於選取的執行個體。
-
-#### 出席與評分頁面
-
-在頁面上，當您搜尋使用者時，搜尋會在所有可用的執行個體中執行。 但是，結果適用於所選例證。
-
-在「出席」頁面上，若您搜尋「使用者群組」，且無論註冊為何，「使用者群組」中的使用者數目都超過10,000，則您只能執行大量層級的動作。 您將無法檢視使用者清單。
-
-如果「使用者群組」中的使用者數少於10,000，則您可執行個別使用者層級的動作以及大量層級的動作。 在此情況下，不會停用使用者清單。
-
-### 管理員 — 認證頁面
-
-在目前版本的Adobe Learning Manager中，如果大量使用者註冊了認證，則您將無法檢視這些未註冊的學習者，因為 **狀態** 下拉式清單已停用。
-
-在此版本的Adobe Learning Manager中，如果註冊的使用者人數很多， **狀態** 下拉式清單只會顯示兩個選項 —  **已註冊** 和 **已取消註冊**. 選項 **已註冊** 預設為選取。 如果您選取 **已取消註冊**，則會顯示取消註冊的學習者清單。
-
-#### 使用者群組變更
-
-在使用者群組的情況下，如果使用者群組中的使用者數少於例如50,000，則 **狀態** 下拉式清單會顯示所有選項 — 「已認證」、「已指派」及「即將到期」。
-
-如果使用者群組中的使用者人數很多，則 **狀態** 下拉式清單只會顯示兩個選項 —  **已註冊** 和 **已取消註冊**，根據新設計。
-
-### 比較表
-
-<table>
-    <tbody>
-        <tr>
-            <td><b>頁面</b></td>
-            <td><b>臨界值變更前</b></td>
-            <td><b>在臨界值變更之後</b></td>
-        </tr>
-        <tr>
-            <td>管理員 — 課程例項</td>
-            <td>執行個體會依照設計以下列專案顯示：
-            <ul>
-                <li>模組</li>
-                <li>已註冊的學習者</li>
-                <li>工作階段</li>
-                <li>徽章</li>
-                <li>L1回饋已啟用</li>
-                <li>通知警示</li>
-                <li>遊戲點數</li>
-                <li>QR碼</li>
-                <li>學習路徑擴充功能</li>
-            </ul>
-            <td>
-                <ul>
-                    <li>如果註冊數量超過預先定義的臨界值，ALM將不會顯示計數；它將會以圖示取代計數，當按一下圖示時，會顯示實際的學習者數量以及帶您前往學習者頁面的連結。</li>
-                    <li>註冊數目將會以近似格式顯示。 例如，如果數字超過50,000，則課程層級會顯示為50K+。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理員 — 學習者頁面</td>
-            <td>
-                    <ul>
-                        <li>每個執行個體會顯示學習者清單。</li>
-                        <li>您可以搜尋已註冊課程的使用者或使用者群組。</li>
-                        <li>匯出的報告不包含使用者群組的任何篩選器。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>已停用選取執行個體。</li>
-                    <li>下載學習者清單也會下載相同的資料，但單一案例除外。 如果您搜尋使用者群組然後選取「下載學習者清單」，系統會下載該使用者群組資料。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理員 — L1/L3意見頁面</td>
-            <td>
-                <p>現有行為未發生變更</p>
-            </td>
-            <td>
-                <ul>
-                    <li>已停用選取執行個體。</li>
-                    <li>如果課程註冊人數超過50K，ALM不會列出學習者，而只會顯示搜尋列。 如果註冊少於50K，ALM會顯示學習者清單和搜尋列。</li>
-                    <li>清單預設為停用。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理 — 出席情況及評分頁面</td>
-            <td>
-                <p>現有行為未發生變更</p>
-            </td>
-            <td>
-                <ul>
-                    <li>搜尋使用者時會停用選取執行個體。</li>
-                    <li>如果使用者人數超過（例如50,000），則會出現其他訊息來下載資料，以供日後進行更詳細的分析。 搜尋列現在顯眼，並以名稱、電子郵件格式顯示使用者 | UUID。</li>
-                    <li>如果無論註冊為何，使用者群組中的使用者數少於10,000，則您可執行個別使用者層級的動作以及大量層級的動作。 在此情況下，不會停用使用者清單。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理員 — L2測驗分數頁面</td>
-            <td>
-                    <ul>
-                        <li>也會實施使用者搜尋。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>也會實施使用者搜尋。 在LO層級進行預先輸入搜尋時，清單會篩選為目前選取的執行個體。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>管理員 — 使用者頁面（內部、外部）</td>
-            <td>
-                    <ul>
-                        <li>在搜尋使用者時會顯示電子郵件ID。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>如果使用者人數超過（例如50,000），則會出現其他訊息來下載資料，以供日後進行更詳細的分析。 搜尋列現在顯眼，並以名稱、電子郵件格式顯示使用者 | UUID。</li>
-                    <li>在「使用者清理」頁面上，對於已刪除的使用者，我們已在**刪除日期**移除排序功能。 您只能對UUID排序。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>講師 — 提交</td>
-            <td>
-                    <ul>
-                        <li>要提交的模組分頁。</li>
-                        <li>身為講師，您現在可以根據狀態、結束檢閱、擱置提交、通過和失敗，篩選學習者的檔案提交。 </li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>您只能搜尋使用者，在該執行個體中不能搜尋使用者群組。</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>計入學習者頁面預覽</td>
-            <td>
-                    <ul>
-                        <li>計數包括來自較高訂單註冊的資料。</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>計數會排除較高順序註冊的資料。</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-## 進階搜尋功能
-
-在此版本中，我們已增強搜尋體驗。 搜尋結果不僅會根據中繼資料擷取，還會根據語意和內容內搜尋擷取，以根據精確度、造訪間隔和相關內容得出結果。
-
-此變更反映以下內容：
-
-* 目錄與我的學習頁面：課程、學習路徑和認證的暫留動作已移除。
-* 搜尋列的外觀。
-* 在學習應用程式中新增篩選標籤。
-
-若要啟用搜尋功能，請聯絡Adobe Learning Manager的CSAM團隊。
-
-## 使用者介面變更 {#ui-changes}
-
-### 課程建立頁面
-
-將課程對應至技能等級時，技能清單會先搜尋。 換言之，搜尋技能，您會看到符合搜尋字詞的技能清單。
-
-### 使用者群組
-
-#### 管理員：學習者頁面
-
-搜尋任何使用者時， **下載學習者** 和 **匯出** 選項下載相同的報表。 同時，在搜尋使用者群組時，您現在可以從該使用者群組下載經過篩選的使用者。 搜尋使用者群組時， **下載學習者清單** 變更為 **下載使用者群組的學習者清單** 此 **匯出** 選項會再次下載整個清單。
-
-## 報表的變更
-
-* 「培訓報告」中的「標籤」和「技能」欄已變更為「標籤」和「技能」。
-* 已新增報告 [遊戲化稽核軌跡](administrators/feature-summary/reports.md#gamification-audit-trail).
-* 如果帳戶包含超過280000名指定技能的學習者，則技能學習者報告會下載為壓縮的csv檔。
-如果帳戶的學習者少於250000名，則會將相同的報表下載為CSV檔。
-在管理頁面上，選取 **管理員** > **技能** > **技能** > **學習者**. 報表會下載為CSV檔。
-* 此 [工作階段摘要報告](administrators/feature-summary/reports.md#session-summary-report) 有兩個新欄 — 「位置資訊」和「位置」區域。
-
-## 教室建立的變更
-
-根據 [管理員設定](administrators/feature-summary/classroom.md#classroom-settings)，身為作者，您可以 [建立、修改和刪除位置](administrators/feature-summary/classroom.md#add-classroom-location).
-
->[!NOTE]
->
->新增位置和目錄標籤時，作者（在課程建立頁面中）和管理員（在執行個體頁面）將分別看到自動填入的位置和目錄標籤清單。
-
-作為管理員，您可以對作者強制執行限制以修改或刪除教室位置。 檢視 [教室設定](administrators/feature-summary/classroom.md#classroom-settings) 以取得詳細資訊。
-
-## 彈性學習路徑的變更
-
-中的所有帳戶（舊帳戶和新帳戶）開始包括彈性學習路徑的學習者應用程式中的註冊截止日期、取消註冊截止日期和名額限制。
-學習者現在無需選取任何課程例項，即可註冊彈性學習路徑。
-
-## 學習方案的新觸發器
-
-「學習方案設定」頁面已新增觸發器。 當學習者未能通過課程模組時，作者和管理員將能夠觸發動作。
-
-檢視 [學習方案](administrators/feature-summary/learning-plans.md) 以取得詳細資訊。
-
-## 新提交狀態
-
-身為講師，您現在可以根據狀態、結束檢閱、擱置提交、通過和失敗，篩選學習者的檔案提交。
-
-檢視 [提交狀態](instructors/feature-summary/learners.md#filter-file-submissions) 以取得詳細資訊。
-
-## 檢查清單增強功能
-
-在2024年3月發行的Adobe Learning Manager中，對檢查清單工作流程所進行的增強功能如下：
-
-### 不允許檢查清單失敗時的進度
-
-建立檢查清單時，作者可以選取 **啟用** （在強制檢查清單區段中）。 如此一來，若學習者未通過檢查清單，即無法在單元中繼續。 只有在通過檢查清單後，他們才能繼續。
-
-檢查清單檢閱者（即講師或管理者）可接著檢查檢查清單的狀態。 稽核者也可以不按順序稽核學習者的檢查清單。
-
-### 重新評估檢查清單
-
-建立檢查清單時，作者可以選取 **啟用** 在重新評估區段中。 如此可讓經理或講師重新評估學習者，直到他們通過檢查清單為止。
-
-如果模組為強制性，則重新評估核取方塊預設為選取。
-
-啟用重新評估時，講師或管理員也可以將檢查清單的狀態從「失敗」變更為「通過」。
-
-在「檢查清單」頁面上，講師可檢視處於擱置狀態的學習者人數。 身為講師，您可以評估學習者，並讓他們通過或失敗。 如果學習者處於失敗狀態，您只能在未啟用重新評估時檢視檢查清單。
-
-這表示 **啟用** 建立檢查清單時，未在「重新評估」區段中選取核取方塊。 如果選取此核取方塊，您將會在「教師檢查清單」頁面上看到「檢視/重新評估」按鈕。
-
-選取按鈕可讓您重新評估學習者，並將其標籤為通過或失敗。
-
->[!NOTE]
->
->這兩項功能（重新評估和將檢查清單設為必要）僅適用於新建立的模組。 發佈課程後，即無法將其開啟/關閉。
-
-
-檢視 [建立檢查清單](authors/feature-summary/courses.md#checklist-fail) 以取得詳細資訊。
-
-## 其他增強功能
-
-### 工作階段相關的電子郵件通知
-
-在舊版的Adobe Learning Manager中，學習者在以下情況下未收到工作階段相關的電子郵件、工作階段詳細資訊更新、工作階段邀請和工作階段提醒：
-
-* 學習者已完成課程，
-* 新工作階段已新增至課程，或
-* 現有工作階段有所變更。
-
-在2024年3月發行的Adobe Learning Manager中，新變更如下：
-
-* 已更新工作階段詳細資訊和工作階段邀請（適用於學習者和講師）
-   * 對於未來的工作階段，電子郵件用於 **工作階段詳細資訊已更新**， **工作階段邀請** 對於已註冊的學習者和目前的講師，這個選項將不再使用。 對於過去的工作階段，電子郵件為 **工作階段詳細資訊已更新** 和 **工作階段邀請** 已註冊學習者和目前講師將保持不變。
-* 提醒電子郵件（適用於管理員和學習者）
-   * 僅供未來工作階段使用 **工作階段提醒** 將會傳送電子郵件。
-
->[!NOTE]
->
->這些郵件不取決於工作階段和課程完成。
-
-
-### AEM參考網站變更
-
-在AEM參考網站中，我們已新增對新增管理員重新整理權杖到學習者存取權杖的支援。
-
-### 隱藏講師的提交內容
-
-學習者使用檔案提交工作流程上傳其檔案後，如果講師未對提交採取任何動作（核准或拒絕），在預先定義的天數後，提交URL會隱藏在檢視中。 請聯絡Adobe Learning Manager的CSAM團隊以設定或變更天數。
-
-### 產品術語變更
-
-我們已新增欄 *例項* 和 *學習者* 至產品術語辭彙表。
-
-### 行動應用程式變更
-
-在此行動應用程式版本中，學習者可以排程及管理逾期課程提醒。 按一下逾期提醒通知可讓您存取下列選項：
-
-* 取消
-* 前往課程
-* 3天後再提醒我
-* 一週後再提醒我
-
-在Android上：按一下推播通知會將您導向 **課程總覽** 頁面。
-iOS上：按一下推播通知會將您導向應用程式的首頁。 這是iOS中的已知限制。
-
-### Salesforce上學習者應用程式中的檢查清單變更
-
-如果學習者未通過檢查清單，則無法繼續下一單元或課程。 若勾選「強制檢查清單」核取方塊，若學習者未通過檢查清單，則無法在課程中繼續進行。
-
-和網頁應用程式一樣，如果學習者未通過Salesforce應用程式上的檢查清單，他們會看到訊息，不會前進。
-
-### Connect VC中的變更
-
-在目前版本的Adobe Learning Manager中，學習者會標籤為 **未出席** 當他們註冊Connect VC工作階段，但不符合完成條件時。
-
-在此版本中，狀態會變更為 **尚未標籤**.
-
-### Adobe Learning Manager中的白色標籤
-
-Adobe Learning Manager行動應用程式現在支援貼上白色標籤，這表示您現在可以使用自己的品牌發佈應用程式。
-
-在中檢視白色標籤 [Adobe Learning Manager行動應用程式](white-label.md) 以取得詳細資訊。
-
-### 移轉CSV中的新欄
-
-在此版本中，下列移轉CSV會新增選用欄uniqueLoId 。
-
-* certification.csv
-* course.csv
-* learning_program.csv
-
->[!NOTE]
->
->此 **uniqueLoId** 欄是選用的。
-
-
-如果您執行移轉以更新現有的課程或學習計畫或認證，課程或學習計畫或認證將使用 **uniqueLOId** s會新增至作者應用程式。
-
-移轉時，您必須更新 **uniqueLOId** CSV中的課程值、學習計畫值或認證值，即使此欄為選擇性欄。
-
-如果 **uniqueLoId** 更新現有課程或學習計畫或認證時，在執行移轉之前沒有新增欄， **uniqueLOId** s，然後在移轉之後 **uniqueLOId** 值將以NULL值覆寫。
-
->[!NOTE]
->
->欄， **uniqueLoId**，不適用於「工作輔助CSV」。
-
+## 學習者用戶介面改造
 
 >[!IMPORTANT]
 >
->該帳戶中的欄值必須是唯一的。 課程或認證不能使用相同的值。
+>新的學習者UI將分階段發佈。
 
-下載CSV，從 [移轉手冊](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+**學習者UI**&#x200B;已更新為更加優雅和現代的設計。、**[!UICONTROL My Learning]**、、**[!UICONTROL Catalog]**&#x200B;和&#x200B;**[!UICONTROL Course Overview]**&#x200B;著陸頁面煥&#x200B;**[!UICONTROL Learner Home]**&#x200B;然一新。課程卡還具有新設計，以現代方式顯示詳細資訊。 將滑鼠懸停在課程卡片上會顯示課程描述和發佈日期。
 
+>[!NOTE]
+>
+>改進后的用戶介面僅適用於沉浸式佈局。 這些變更在行動網站或應用程式上尚不受支援，並將在未來的版本中更新。
 
-### 應用程式評等
+![](assets/old-ui.png)
+_舊用戶介面_
 
-學習者可針對Adobe Learning Manager應用程式提供意見回饋，以進一步增強應用程式體驗。 如果學習者給四顆星或更多顆星評分，則會顯示快顯視窗，要求學習者在Play Store或App Store上給應用程式評分。
+![](assets/new-ui.png)
+_新 用戶介面_
 
-### Bluejeans的生命週期已於2024年2月結束(EOL)
+### 此版本中的更改
 
-我們在此通知您，Bluejeans已於2024年2月終止服務(EOL)。 2024年2月後，Bluejeans將不再接收更新或支援。 我們的CSAM和支援團隊將協助您解決在此過渡期間可能遇到的任何問題或顧慮。
+**實現外觀現代化**
 
-檢視 [Adobe Learning Manager中的聯結器](integration-admin/feature-summary/connectors.md) 有關設定聯結器的詳細資訊。
+全新更新的視覺元素與現代設計趨勢保持一致，使產品看起來直觀而吸引人。 這包括新的刊頭、側面板和外觀現代的小部件。
 
-### 登入存取權報表的變更
+**增強使用者體驗**
 
-「登入存取」報表僅提供過去五個季度的資料。 如果任何整合管理員提出隨選下載整合匯出請求， **登入存取權** 勾選後，Adobe Learning Manager會顯示錯誤訊息。 不過，對其他報表沒有影響。
+學習者現在將在以下页面上視圖類似的卡片 視圖：主页、目錄、我的學習和課程概述頁面，提供統一的體驗。
 
-### ADFS變更
+[檢視學習者首頁](/help/migrated/learners/feature-summary/learner-home-page.md)了解更多信息。
 
-根據對應，現在可在Adobe Learning Manager上使用ADFS中的員工型別和員工ID欄位。
+**課程發佈日期的更改**
 
-## 此版本中的API變更
+通過此增強功能，導入學習管理器Adobe Systems LinkedIn 和 Go1 課程的發佈日期將是 LinkedIn 和 Go1 上的實際發佈日期。 您也可以在用戶介面上視圖 LinkedIn 和 Go1 課程的實際發佈日期。 [檢視 課程卡](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards)了解更多信息。
 
-### 學習者API
+## 非登入體驗的更新
 
-在此版本中，我們新增了學習者的API支援，以在使用者群組層級檢視品牌標誌和個人化主題。
+非登入體驗可讓您為未登入的客户建立即時體驗。 這可以作為其行銷廣告系列的登陸頁面，提供足夠的信息來鼓勵註冊。
 
-API /account和/user？include=account會傳回四個欄位，這些欄位會覆寫為使用者屬於logoUrl、logoStyling和themeData的活動欄位。
+### 此版本中的變更
 
-### 新屬性
+客戶可以購買高級計劃來版本編號這種高度可擴展的非登錄體驗。 這個非登錄體驗由培訓數據訪問](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)提供支持[，使用Adobe Systems學習管理器 API 提供有關授權限制、佔用的座位、候補名單限制和候補名單計數的實時數據。客戶可以使用這些 API 優惠方案未登錄的學習者搜尋和篩選功能以及完整的課程摘要。
 
-learningObjectResource中的新屬性isExpiredSubmission，可顯示資源中的提交是否已過期。
+>[!NOTE]
+>
+>請聯繫支持團隊或CSAM購買高級計劃。
 
-* GET/account API：傳回新屬性 **expireSubmissionDuration** X，其中X是設定的天數。 若未設定，將會傳回0
-* 含資源的GET/LO API包含新屬性 **isExpiredSubmission**&quot; True或False.
-   * 如果提交已過期且未顯示「submissionUrl」，則為True。
-   * 如果為False，則提交不會過期，且會擷取「submissionUrl」。
+## 支援多個Stock保持單位 （SKU）
 
-### 檢查清單中的API變更
+學習者現在可以向購物車添加多個課程、學習路徑或認證，並一起購買。
 
-課程可包含數個模組，其中檢查清單是一種模組。 此檢查清單模組由講師評估，可根據評估標籤為失敗或成功。
+### 版本中的更改
 
-但在這兩種情況下，檢查清單狀態都會標示為「已完成」，如此一來，課程會標示為「已完成」。
+以前，學習者一次只能購買一門課程。 在此版本的 **Adobe Systems 學習管理器**&#x200B;中，他們可以使用 購物車 一次購買多個課程、學習路徑或認證。
 
-在此版本中，LO API包含引數 *isChecklistMandatory*. 如果值為True，則檢查清單為必填。
+此功能僅在學習者應用（現有UI、新學習者UI和移動沉浸式應用）中可用。
 
-### 支援多種地區設定
+[檢視 ALM 中的多專案購物車](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-管理員現在可以使用他們選擇的語言下載L1意見反應報表。 不過，您尚無法下載L1意見反應報表以進行Power BI。 在API請求中，使用引數preferredLocale指定您選擇的地區設定。
+## Fluidic Player 支持 HTML5 內容
 
-### 執行個體摘要計數的變更
+**Adobe Systems學習管理器** 現在支持將 HTML5 內容 作為.zip文件上傳到 內容 資料庫。 上傳后，這些檔可以作為模組包含在課程中。 此外，作者可以為自定進度的 HTML5 模組定義完成條件，允許學習者標記完成或在啟動時自動完成。
 
-這適用於教室或VC課程註冊人數超過1000人的客戶。
+### 此版本中的變更
 
-如果數字小於1000，註冊會使快取失效，並在GET摘要API呼叫中傳回更新的值，例如，註冊數、完成和名額限制。
+Adobe Systems 學習管理器現在在自定進度課程中支援 HTML5 的內容。 作者可以將 HTML5 內容以.zip檔案的形式新增至自定進度的內容。 學習者可以在 Fluidic Player 中視圖 HTML5 內容。 借助新功能，學習者現在可以直接在自定進度課程的 Fluidic Player 中將課程標記為已完成。 [檢視內容 資料庫](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library)中添加 HTML5 文件類型以獲取更多信息。
 
-如果帳戶已針對此功能啟用，而且註冊次數超過1000，則會從快取中擷取值。
+借助新的增強功能，只要作者已將完成條件設置為新選項 **[!UICONTROL On Launching content]**，在訪問URL時，具有外部連結的課程將自動標記為完成。 活動模組頁面中添加了新選項 **[!UICONTROL Completion Criteria]** ，作者可以在其中設置外部連結的完成條件。 [檢視在活動 模組](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module)中添加 HTML 連結以獲取更多信息。
 
-### 已棄用的路徑
+![](assets/completion-criteria-activity-module.png)
+_完成條件選項-活動模組_
 
-目前，Learning Manager API會遵循圖表資料結構，可讓您透過include遍歷API模型來擷取資料。 即使您最多可周遊7個層級的API，使用單一API呼叫擷取資料的計算成本很高。
+## 移動應用程式上的課程過期推送通知
 
-我們建議所有現有客戶和新客戶進行多次小型通話，而非一次大型通話。 此方法可防止在呼叫中載入不需要的資料。
+每當學習者錯過課程截止日期時，他們都會收到推送通知。 借助此新的增強功能，學習者現在可以選擇將提醒暫停 24 小時，或者在下周收到每個過期提醒時收到提醒。 這僅適用於截止日期逾期通知。 [檢視 排程推送通知](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
-#### 哪些路徑已過時
+## 此版本中的 API 變更
 
-已棄用下列路徑：
+### Search API
 
-* /learningObject
-   * 已棄用的路徑：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 現有路徑：
-      * enrollment.loInstance
-      * instances.loResources
-* /learningObject/{id}
-   * 已棄用的路徑：
-      * enrollment.instances.subLoInstances.learningObject
-   * 現有路徑：
-      * enrollment.instances.subLoInstances
-* /enrollings
-   * 已棄用的路徑：
-      * loInstance.learningObject.enrollment
-   * 新路徑：
-      * loInstance.learningObject
-* /learningObject/{id}
-   * 已棄用的路徑：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 新路徑：
-      * instance.subLoInstances
+Search API 包含下列變更：
 
-### 工作API的登入存取權和使用者稽核報告封存變更
+學習者可以使用 API 搜尋 ```GET /search``` 目錄篩選器中的標籤。 學習者可以通過選擇 ```tag``` 參數值 ```filter.loTypes``` 來搜尋標籤。
 
-在此版本中，工作API將保留「登入存取報告」最多五個季度和「使用者稽核報告」六個月。 如果您想要下載早於此時段的資料，您必須傳送封存引數，指定季度和年份。 請參閱範例裝載。
+**示例捲曲**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+```
+
+新的篩選器、可用授權、可用候補名單和時間範圍篩選器已添加到以下 API： ```GET /search``` 和 `GET /learningObjects`。
+
+新篩選器 `filter.session.includeEnrollmentDeadline` 已新增至下列 API ```GET /search```。
+
+### 帳戶 API
+
+已在 API 中添加```GET /account```了新列 `custom_injections`、 `showComplianceLabel`和`complianceLabelDefaultID`，以獲取用戶終結點帳戶數據。
+
+### 學習物件 API
+
+以下是此更新中對學習物件 API 所做的變更：
+
+在 API 下方`authorDetails``GET /learningObjects`新增的新回應舊版作者 ID 和其他詳細數據。此外，還添加了新篩選器 ， `filter.authors`用於篩選舊作者及其課程。
+
+調用 `effectivenessIndex` 的新屬性將幫助您獲取課程效果數據。
+
+**示例捲曲**
+
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+```
+
+新的回應 `whoShouldTake`，提供了有關誰應該參加本課程的詳細資訊，已添加到以下 API： `POST /learningObjects/query`、 `GET /learningObjects/{id}`和 `GET /learningObjects`。
+
+**示例捲曲**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+```
+
+新的回應 `waitlistLimit`，提供有關候補名單限制的詳細資訊，已添加到 API 中 `GET /learningObjects` 。
+
+提供學習物件總數的新回應 `count` 已新增到 API `GET/ learningObjects` 和 `POST/ learningObjects/query`.
+
+新的回應， `catalogFieldId` `fieldValueId`並已新增到 API 中`catalogLabels``GET/ learningObjects`。
+
+學習者可以在 API `GET /preview/learningObjects`中獲取目錄標籤值。
+
+### 新 API 來獲取市場數量
+
+在此版本中， `GET /search/marketplace/count` 添加了一個新的 API。 這有助於獲取內容市場中可用學習物件的計數。
+
+**示例捲曲**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+```
+
+**範例回應**
 
 ```
 {
-    "data": {
-        "type": "job",
-        "attributes": {
-            "description": "description of your choice",
-            "jobType": "generateLoginAccessReport",
-            "payload": {
-                "fromDate": "2023-04-01T18:30:00.000Z",
-                "toDate": "2023-04-30T18:30:00.000Z",
-                "archive": {
-                    "quarter": "4",
-                    "year": "2021"
-                }
-            }
-        }
-    }
+  "count": 54910
 }
 ```
 
-如果您嘗試下載 **登入存取權** 超過五個季度的報告會顯示錯誤訊息。 如果您嘗試下載 **使用者稽核** 超過六個月的報告。
+### API 執行個體學習物件
 
-### 已過時的API
+以下是此更新中對學習物件執行個體 API 所做的更改：
 
-檢視 [Adobe Learning Manager不再使用API](api-deprecations-list.md) 以取得產品中所有已棄用API的累積清單。
+在此版本中，名為 `gamificationEnabled` 的新密鑰已添加到學習物件 執行個體 API `GET /learningObjects/{loId}/instances/{loInstanceId}`中。
 
-## 此更新中修正的錯誤 {#bug-fixes}
+**示例捲曲**
 
-* 當學習者註冊課程然後嘗試註冊另一個課程時，會顯示警告訊息。
-* 使用者群組（即使刪除後）會顯示在搜尋中。
-* 當使用者觸發大量具有大量資料的學習者成績單時，學習者成績單佇列會遭到封鎖，並防止出現新請求。
-* 如果子帳戶請求其父帳戶共用報表，則父帳戶無法這麼做。
-* 課程和學習路徑的URL會重新導向至不正確的位置。
-* 學習者按一下目錄頁面上的課程連結時，會間歇性地檢視不同課程的課程例項。
-* 此 **取消註冊** 按鈕在第一次註冊後未如預期顯示，但在重新整理後按鈕顯示。
-* 您無法儲存「內容」或其名稱有空白字元的測驗。
-* 在經理核准的課程中，您可將學習者重新註冊至使用者群組。
-* 在某些情況下，如果您嘗試新增其他作用中欄位，則會顯示錯誤訊息「無法儲存作用中欄位」。
-* 在「相關課程」區段的課程卡中，課程名稱中的文字溢位。
-* 切換執行個體並將學習者註冊到執行個體後，舊執行個體仍存在於Outlook行事曆中。
-* 當學習者從對等帳戶嘗試選取課程縮圖時，會顯示錯誤訊息。
-* 學習者註冊課程時，會收到多個註冊通知。
-* 如果使用者手動變更聯結器中所建立的目錄名稱，則會建立新目錄，且課程會發佈到不正確的目錄。
-* 屬於非作用中帳戶的使用者仍會收到訂閱電子郵件。
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
+```
 
-### API相關錯誤修正
+`gamificationSettings`上述 API 的新屬性，用於獲取遊戲化設置的詳細資訊。例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
 
-* APIGET/使用者不會擷取管理員的詳細資訊。
-* 在帳戶中，使用者是在排程停機期間透過排程的FTP使用者匯入建立的。
-* 在行動應用程式或沈浸式模式中，刪除或棄用課程例項並選取下一個作用中例項後， **報名興趣** 按鈕顯示，而不是 **註冊**.
-* 當來自同儕節點帳戶的學習者嘗試使用學習物件API選取課程縮圖時，會顯示錯誤403 「禁止」。
+**示例捲曲**
+
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
+```
+
+`leaderboard`上述 API 的新屬性，用於獲取遊戲化設置的詳細資訊。例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+
+**示例捲曲**
+
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+```
+
+### 偏移限制的變更
+
+為了更有效地提高系統性能和管理資源利用率，Adobe Systems 已棄用 ADMIN 和 LEARNER 作用域的 GET/users 終結點中的高偏移值。 我們建議使用作業 API 檢索具有偏移值的記錄。
+
+### 已棄用的 API
+
+[Adobe Systems學習管理器](/help/migrated/api-deprecations-list.md)中檢視 API 已棄用，以累積清單產品中所有已棄用的 API。
+
+## 報告的變更
+
+### 合規性儀錶板
+
+在此版本中，「合規性儀錶板」報告有兩個新列：
+
+* 地位
+* 合規性類型
+
+這是對現有欄的補充：
+
+* 使用者名
+* 用戶電子郵件
+* LP/認證/課程
+* 類型
+* 註冊日期（UTC 時區）
+* 截止日期（UTC 時區）
+* 完成日期 （UTC 時區）
+* 進度 %
+
+### 培訓報告
+
+「管理員>報表」>**「自定義報表**」中的&#x200B;**「培訓報表」和**「作業 API **」過去具有稱為**「技能」**和**「標記&#x200B;**」的欄。** ****&#x200B;這些列現在已重命名為&#x200B;**「技能和****標記**」。。
+
+### 內容稽核報表
+
+在此版本中， **[!UICONTROL Content Audit Trail]** 報表現在在「修改類型」欄包含下列新屬性：
+
+* 使用者群組新增
+* 使用者群組移除
+* 自定義加標籤新增
+* 自定義加標籤 移除
+* 共用目錄新增
+* 共用目錄移除
+* 共用目錄更新
+
+## 此更新中的錯誤已修復
+
+**活動提交**
+
+* 嘗試將文件重新上傳到 活動 提交模組失敗，網路調用中出現 錯誤 500。
+
+**應用程式介面**
+
+* 如果多個講師具有相同的電子郵件位址，則創建 Connect VC 會議將失敗。
+* 註冊到學習路徑后，MS Teams VC 在概述頁面上顯示不正確的URL。
+* 作為作業 API 回應的一部分提供的預簽名URL用戶報告將在六小時後過期。
+* 生成課程註冊報告時，課程名稱列顯示的課程名稱不正確。
+* 當然，遷移工作者在調用批量 API 時無法發送唯一的lo id，但該 id 被刪除。
+* 當課程包含在用戶可以訪問的特定目錄中時（同時禁用預設目錄），儘管設置阻止未註冊的學習者查看課程，您仍可以通過 learningobject/id 端點檢索課程的中繼資料。
+* 當 skillname 在 GET /learningObject API 的名稱中包含逗號時，技能篩選器不會按預期工作。
+* SFTP 的數據保留工作者中檔案的時間戳中繼資料不一致。
+* 如果刪除並重新配置任何連接器，則專案遷移狀態顯示為已關閉。
+* 培訓報表含有「標記」作為欄標題，而非「標記」。
+* 如果目錄被禁用，並且任何導出的課程只是禁用目錄的一部分，則商務連接器匯出將失敗。
+
+**認證**
+
+* 有時，重新註冊定期認證的用戶會失敗。
+
+**自訂角色**
+
+* 在某些情況下，當自定義管理員嘗試切換到教師角色時，會顯示錯誤 403 禁止。
+
+**電子郵件範本和通知**
+
+* 取消課程后，當從課程中刪除講師時，電子郵件通知不會發送給最後一組講師。
+* 創建虛擬講師指導培訓后，召集人不會收到 MS Teams 的電子郵件通知。 只有在發佈課程並啟用電子郵件範本後，才會觸發電子郵件。
+* 有時，電子郵件範本包含不正確的日期格式和翻譯。
+
+**學習者**
+
+* 當學習者註冊了課程的多個實例，並且您下載出勤報告時，該報告包含不正確的資訊。
+* 如果將用戶添加到公開故事中，則可以視圖其他用戶的私人帖子。
+* 在某些情況下，您無法從認證中取消註冊學習者。 嘗試取消註冊時顯示錯誤消息。
+* 認證在管理員僅在選擇一門課程后將其標記為已完成平均。
+* 如果會話的結束時間更改為以前的日期，則管理員無法將 VC 標記為完成。
+* 對於候補名單上的學習者，“會話出勤”報告顯示為“未參加”。
+
+**學習者應用**
+
+* 將課程筆記下載為 PDF 后，筆記會隨機顯示。 他們不追隨順序。
+
+**學習路徑**
+
+* 在學習路徑中選擇技能后，當您選擇文字欄位時，下拉清單不會按預期顯示。
+* 在某些情況下，您無法移除學習路徑中的技能。
+
+**學習計劃**
+
+* 如果彈性學習計劃包含許多課程，則平均管理員將其標記為完成後，學習計劃不會完成。
+* 當學習者更改實例時，註冊報告中的列last_modified_by不會更新。
+
+**報告**
+
+* 在某些情況下，管理員無法匯出培訓報表。
+* 當 SCORM 內容包含超過 32,767 個字符的問題或答案時，您無法在 Excel 中下載課程測驗報告。
+* 選擇重設遊戲化“後，不會重置達到等級的日期。
+
+**搜索**
+
+* 目前，匯出所有使用者組后，輸出中也會顯示已刪除的使用者組。
+* 由於間歇性搜尋問題，無法搜尋認證。
+
+## 此版本中的已知問題
+
+行動離線播放器不會載入 HTML5 內容。
 
 ## 系統需求
 
-檢視 [Adobe Learning Manager系統需求](system-requirements.md).
+[檢視Adobe Systems學習管理器系統要求](/help/migrated/system-requirements.md)。
 
-## Adobe Learning Manager舊版
+## Adobe Systems 學習管理器的上一個版本
 
-* [2023年11月發行版本](whats-new-november-2023.md)
-* [2023年7月發行版本](whats-new-2023-july.md)
+* [2024年3月版](/help/migrated/whats-new-march-2024.md)
+* [2024年11月版](/help/migrated/whats-new-november-2023.md)
