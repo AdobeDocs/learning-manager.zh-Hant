@@ -4,9 +4,9 @@ title: 安裝 Salesforce 套裝
 description: Learning Manager 提供 Salesforce 應用程式 套裝。 在 SFDC 中安裝和配置后，銷售員工可以在 SFDC 門戶中執行其培訓活動。 此應用程式允許 SFDC 使用者探索新的培訓、視圖建議並直接在 SFDC 門戶中使用它們。 使用者還可以在 SFDC 門戶內的應用程式內以刊頭的形式接收管理員發送的通知。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Learning Manager 提供 Salesforce 應用程式 套裝。 在 SFDC 中安裝和�
 1. 在 Salesforce 控制台中，轉至 **[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**。
 1. Search 並選擇 **[!UICONTROL Trusted URLs]** **[!UICONTROL New Trusted URL]**。
 1. 在 **[!UICONTROL API Name]** 欄位中鍵入名稱。
-1. 將該URL新增為 `{}.adobe.com{*}`。
+1. `*.adobe.com`鍵入URL欄位。
 1. 選取 CSP 指令&#x200B;**中的所有**&#x200B;複選框並儲存變更。
 1. 編輯 Salesforce 應用程式的重新整理標記並儲存。
 1. 重新啟動 Salesforce 應用程式。
