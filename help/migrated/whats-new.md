@@ -1,16 +1,16 @@
 ---
 description: 瞭解 2024 年 7 月版 Adobe Systems 學習管理器中的新功能和增強功能
 jcr-language: en_us
-title: 此版本中的新功能
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+title: 新功能摘要
+source-git-commit: 7e3b19d29b9de23ea489c5651ef0aef1d4ec3005
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2156'
 ht-degree: 0%
 
 ---
 
 
-# 此版本中的新功能 {#whatsnewandchanged}
+# 新功能摘要 {#new-features-summary}
 
 瞭解 Adobe Systems 學習管理員 2024 年 7 月版中的新功能和增強功能。
 
@@ -77,7 +77,7 @@ _新 用戶介面_
 
 ### 此版本中的變更
 
-客戶可以購買高級計劃來版本編號這種高度可擴展的非登錄體驗。 這個非登錄體驗由培訓數據訪問](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)提供支持[，使用Adobe Systems學習管理器 API 提供有關授權限制、佔用的座位、候補名單限制和候補名單計數的實時數據。客戶可以使用這些 API 優惠方案未登錄的學習者搜尋和篩選功能以及完整的課程摘要。
+客戶可以購買高級計劃來版本編號這種高度可擴展的非登錄體驗。 這個非登錄體驗由培訓數據訪問](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)提供支持[，使用Adobe Systems學習管理器 API 提供有關授權限制、佔用的座位、候補名單限制和候補名單計數的實時數據。客戶可以使用這些 API 優惠方案未登錄的學習者搜尋和篩選功能以及完整的課程摘要。 有關 API 的詳細資訊，請參閱本文 [非登錄 API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) 。
 
 >[!NOTE]
 >
@@ -337,4 +337,4 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 ## Adobe Systems 學習管理器的上一個版本
 
 * [2024年3月版](/help/migrated/whats-new-march-2024.md)
-* [2024年11月版](/help/migrated/whats-new-november-2023.md)
+* [2023 年 11 月版本：](/help/migrated/whats-new-november-2023.md)
