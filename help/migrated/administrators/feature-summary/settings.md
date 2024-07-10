@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3932'
+source-wordcount: '3793'
 ht-degree: 0%
 
 ---
@@ -483,24 +483,6 @@ Testout\
 教室\
 虛擬教室\
 活動
-
-若要重新命名術語，請遵循下列步驟。
-
-1. 以管理員身分，按一下 **[!UICONTROL Settings]** > **[!UICONTROL General]** > **[!UICONTROL Product Terminology]**. 產品術語選項隨即開啟。
-
-   ![](assets/product-terminology.png)
-
-   *重新命名產品術語*
-
-1. 您可以下載範例CSV檔案，上傳已修改的產品術語範本，以進行變更。 若要下載範例CSV檔案，請按一下 **[!UICONTROL Download here]** 選項。
-1. 下載的CSV檔案包含座標A中的物件名稱。在欄B中，選擇要指定給個別物件的名稱。 請注意，您需要更新以(|)分隔的單數及複數名稱形式。
-1. 您可以選擇修改一或多個列。 您可以保留未修改的列，或在上傳它們之前將其從CSV檔案中移除。
-1. 上傳修改過的CSV檔案並按一下 **[!UICONTROL Save]**. Learning Manager會重新整理以反映您的變更。
-1. 若要重設為預設術語，請按一下 **[!UICONTROL Reset Product Terminology]**.
-
-   ![](assets/with-reset-option.png)
-
-   *重設產品術語*
 
 ## 設定檔設定 {#profilesettings}
 

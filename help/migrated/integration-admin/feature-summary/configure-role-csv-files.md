@@ -4,9 +4,9 @@ title: 透過CSV檔案管理自訂角色
 description: 整合管理員可以透過CSV大量新增自訂角色至其帳戶，也可以將相同角色指派給各種使用者。 此方法可自動建立自訂角色。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '897'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,16 @@ ht-degree: 0%
 
 登入Box儲存體帳戶後，整合管理員即可在帳戶中新增下列csv：
 
+* user.csv
 * role.csv
 * user_role.csv
 
 若要開始使用，請下載csv並根據您的要求變更值。
 
-**role.csv**
 * 範例檔案： [role.csv](assets/role.csv)
 * 範例檔案： [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ ht-degree: 0%
 
 在您的Box帳戶中，選擇 **匯入>使用者>內部**，並上傳檔案 — role.csv和user_role.csv。
 
-* 自訂角色CSV必須複製到「匯入 — >使用者 — >內部 — >使用者_角色」資料夾中
-* 使用者CSV必須複製到「匯入 — >使用者 — >內部」資料夾中
+* role.csv和user_role.csv必須複製到資料夾中 **匯入** > **使用者** > **內部** > **user_role**.
+* 必須在資料夾中複製user.csv **匯入** > **使用者** > **內部**.
 
-這兩個CSV都必須僅透過Box或FTP上傳，且無法透過UI上傳。
+這兩個CSV都必須僅透過Box上傳，且無法透過UI上傳。
 
 >[!NOTE]
 >
