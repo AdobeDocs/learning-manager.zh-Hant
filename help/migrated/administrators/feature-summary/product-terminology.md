@@ -1,11 +1,11 @@
 ---
-description: 閱讀本文章，瞭解如何在使用者介面上設定術語。
+description: Adobe Learning Manager在使用者介面上使用一組標準術語。 身為管理員，您可以修改術語以符合組織的需求。
 jcr-language: en_us
 title: 產品術語
 contentowner: chandrum
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '260'
 ht-degree: 0%
 
 ---
@@ -80,6 +80,5 @@ _確認提示_
 術語變更不適用於：
 
 * 電子郵件範本(**[!UICONTROL Admin]** > **[!UICONTROL Email Templates]**)
-
 * 報表(**[!UICONTROL Admin]** > **[!UICONTROL Reports]**)
 
