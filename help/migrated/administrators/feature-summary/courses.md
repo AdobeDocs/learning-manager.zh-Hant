@@ -4,14 +4,14 @@ jcr-language: en_us
 title: 建立課程模組、例項和學習計畫
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
 source-wordcount: '4717'
 ht-degree: 0%
 
 ---
 
-# 建立課程模組、例項和學習計畫
+# 建立課程模組、例項和學習路徑
 
 本檔案包含建立課程模組、例項及管理員角色課程的說明。
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 >在本次訓練中，您將瞭解如何編輯執行個體詳細資訊和執行個體屬性。<br><br>[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
 
-如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 ### 如何建立執行個體
 
@@ -38,23 +38,23 @@ ht-degree: 0%
 
 若要建立例項，
 
-1. 在管理員網頁應用程式上，按一下 **[!UICONTROL Courses]** 在左窗格中。
-1. 在課程清單中，選擇所需課程，然後按一下 **[!UICONTROL View Course]**.
+1. 在管理員網頁應用程式上，按一下左窗格上的&#x200B;**[!UICONTROL Courses]**。
+1. 在課程清單中，選擇所需課程，然後按一下&#x200B;**[!UICONTROL View Course]**。
 
    ![](assets/view-course.png)
 
    *檢視課程*
 
-1. 若要建立例項，請按一下 **[!UICONTROL Instances]** 在左窗格中。 依預設，每個課程都有一個例項。 您可以修改預設例證或新增例證。 您無法刪除此課程例項。
-1. 若要建立例證，請按一下 **[!UICONTROL Add New Instance]** 課程資訊右上角。 隨即顯示課程的新例項。
+1. 若要建立執行個體，請按一下左窗格上的&#x200B;**[!UICONTROL Instances]**。 依預設，每個課程都有一個例項。 您可以修改預設例證或新增例證。 您無法刪除此課程例項。
+1. 若要建立執行個體，請按一下課程資訊右上角的&#x200B;**[!UICONTROL Add New Instance]**。 隨即顯示課程的新例項。
 1. 輸入執行個體的屬性：
 
-   * 在 **[!UICONTROL Instance Name]** 欄位，輸入您要與課程關聯的例項名稱。 請確定您為執行個體使用唯一名稱。
+   * 在&#x200B;**[!UICONTROL Instance Name]**&#x200B;欄位中，輸入您要與課程建立關聯的執行個體名稱。 請確定您為執行個體使用唯一名稱。
    * 指定執行個體的完成期限。 學習者必須在此日期前達到課程完成狀態。
-   * 按一下 **[!UICONTROL Show More Options]** 以顯示其他截止日期選項。
-   * **[!UICONTROL Enrollment Deadline]：** 若為自助註冊，此日期為學習者註冊學習物件的日期。
-   * **[!UICONTROL Unenrollment Deadline]：** 您可以選擇透過具有取消註冊截止日期來限制學習者自己的取消註冊。
-   * **[!UICONTROL Timezone]：** 搜尋，然後選取 **[!UICONTROL Timezone]** 下拉式清單中的。
+   * 按一下&#x200B;**[!UICONTROL Show More Options]**&#x200B;以顯示其他截止日期選項。
+   * **[!UICONTROL Enrollment Deadline]：**&#x200B;這是預期學習者註冊學習物件的日期，以備自助註冊。
+   * **[!UICONTROL Unenrollment Deadline]：**&#x200B;您可以選擇透過取消註冊截止日期限制學習者自行取消註冊。
+   * **[!UICONTROL Timezone]：**&#x200B;搜尋，然後從下拉式清單中選取&#x200B;**[!UICONTROL Timezone]**。
 
    管理員可以根據需求決定課程或學習計畫的完成截止日期。 不過，建議您將它用於教室/虛擬教室式培訓。
 
@@ -68,10 +68,10 @@ ht-degree: 0%
 
 *檢視執行個體的屬性*
 
-1. **模組：** 課程作者建立的模組數
-1. **已註冊的學習者：** 管理員已註冊課程的學習者數。
-1. **工作階段：** 課程中的虛擬教室和教室模組數量。
-1. **啟用意見回饋：** 顯示是否為此課程啟用L1、L2及L3回饋。
+1. **模組：**&#x200B;課程作者建立的模組數目
+1. **已註冊的學習者：**&#x200B;管理員已註冊課程的學習者數。
+1. **工作階段：**&#x200B;課程中的虛擬教室和教室模組數目。
+1. **已啟用意見回應：**&#x200B;顯示是否為此課程啟用L1、L2和L3意見回應。
 
 >[!NOTE]
 >
@@ -81,19 +81,19 @@ ht-degree: 0%
 
 若要淘汰執行個體，請執行下列步驟：
 
-1. 在執行個體上，按一下下拉式功能表並選擇選項 **[!UICONTROL Retire instance]**.
+1. 在執行個體上，按一下下拉式功能表，然後選擇選項&#x200B;**[!UICONTROL Retire instance]**。
 
    ![](assets/retire-an-instance.png)
 
    *淘汰執行個體*
 
-1. 若要搜尋所有已淘汰的執行個體，請按一下索引標籤 **[!UICONTROL Retired]** （在執行個體頁面上）。
+1. 若要搜尋所有淘汰的執行個體，請按一下[執行個體]頁面上的&#x200B;**[!UICONTROL Retired]**&#x200B;索引標籤。
 
 ### 還原執行個體 {#restoreaninstance}
 
 若要將已淘汰的執行個體還原為啟動狀態，請執行下列步驟：
 
-1. 在執行個體上，按一下下拉式功能表並選擇選項 **[!UICONTROL Reopen instance]**.
+1. 在執行個體上，按一下下拉式功能表，然後選擇選項&#x200B;**[!UICONTROL Reopen instance]**。
 
    ![](assets/restore-an-instance.png)
 
@@ -103,7 +103,7 @@ ht-degree: 0%
 
 ### 刪除執行個體
 
-管理員可以使用以下專案刪除例項： **刪除此執行個體** 選項建立後立即生效。 如果有工作階段連結至執行個體，或任何學習者已註冊該執行個體，您就無法刪除。
+管理員可以在建立後立即使用&#x200B;**刪除此執行個體**&#x200B;選項來刪除執行個體。 如果有工作階段連結至執行個體，或任何學習者已註冊該執行個體，您就無法刪除。
 
 ![](assets/delete-this-instance.png)
 
@@ -117,19 +117,19 @@ ht-degree: 0%
 
 若要傳送執行個體層級的電子郵件給已註冊的學習者：
 
-1. 在 **[!UICONTROL Instances]** 頁面上，選取任一執行個體上的選項，然後按一下 **[!UICONTROL Email Enrolled Learners]**.
+1. 在&#x200B;**[!UICONTROL Instances]**&#x200B;頁面上，選取任何執行個體上的選項，然後按一下&#x200B;**[!UICONTROL Email Enrolled Learners]**。
 
 ![執行個體層級的電子郵件](assets/adhoc-email.png)
 
-*傳送電子郵件給已註冊執行個體的學習者*
+*電子郵件學習者已註冊執行個體*
 
-1. 在 **[!UICONTROL Create Announcement]** 對話方塊中，選取鍵入作為電子郵件。 指定主旨、輸入訊息，然後按一下 **[!UICONTROL Save]**. 系統會自動選取訓練。
+1. 在&#x200B;**[!UICONTROL Create Announcement]**&#x200B;對話方塊中，選取[型別]作為電子郵件。 指定主旨、輸入郵件，然後按一下&#x200B;**[!UICONTROL Save]**。 系統會自動選取訓練。
 
    ![將宣告建立為電子郵件](assets/email-announcement.png)
 
    *將宣告建立為電子郵件*
 
-1. 在您按一下 **[!UICONTROL Save]**，您會看到成功建立佈告的確認訊息。 若要發佈宣告，請按一下 **[!UICONTROL Publish Now]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;後，您會看到成功建立宣告的確認訊息。 若要發佈宣告，請按一下&#x200B;**[!UICONTROL Publish Now]**。
 
    ![宣告已成功建立](assets/announcement-successful.png)
 
@@ -139,26 +139,26 @@ ht-degree: 0%
 
 [![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
 
-如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 ### 為學習者註冊各種例項
 
 1. 從課程清單中選取課程。
-1. 選取 **[!UICONTROL Learners]** 位於左側面板。
-1. 選取 **[!UICONTROL Enroll]**.
+1. 在左側面板上選取&#x200B;**[!UICONTROL Learners]**。
+1. 選取&#x200B;**[!UICONTROL Enroll]**。
 
    ![註冊學習者](assets/enroll-learners-new.png)
 
    *Publish課程*
 
-1. 在 [!UICONTROL **註冊學習者**] 對話方塊中，您可以：
+1. 在&#x200B;[!UICONTROL **註冊學習者**]&#x200B;對話方塊中，您可以：
 
    * 從「選取執行個體」下拉式清單中選取要註冊學習者的執行個體。
    * 在「包含學習者」欄位中選取使用者或使用者群組，或兩者同時選取。
    * 在排除學習者欄位中，選取您要從例項中排除的學習者。
    * 如果您要讓學習者註冊所選例項，請在對話方塊底部選取「是」。
 
-1. 選取 **[!UICONTROL Proceed]**.
+1. 選取&#x200B;**[!UICONTROL Proceed]**。
 
    ![繼續](assets/proceed.png)
 
@@ -167,8 +167,8 @@ ht-degree: 0%
 ### 檢視執行個體的註冊報告
 
 1. 從課程清單中選取課程。
-1. 選取 **[!UICONTROL Learners]** 位於左側面板。
-1. 選取 **[!UICONTROL Actions]** > **[!UICONTROL Export]**.
+1. 在左側面板上選取&#x200B;**[!UICONTROL Learners]**。
+1. 選取&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Export]**。
 
 Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
@@ -203,7 +203,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 ### 管理課程的學習者清單 {#managelearnerslistforacourse}
 
 1. 按一下課程縮圖上的課程名稱。
-1. 從左窗格，按一下 **[!UICONTROL Learners]**.
+1. 從左窗格，按一下&#x200B;**[!UICONTROL Learners]**。
 
 ![](assets/courses-learners.png)
 
@@ -211,20 +211,20 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 您可以從學習者頁面執行下列動作：
 
-* 選取您要移除的學習者，然後按一下 [!UICONTROL **動作**] > [!UICONTROL **移除**].
-* 選取您要標示其出勤情況的學習者，然後按一下 [!UICONTROL **動作**] > [!UICONTROL **標籤完成**].
+* 選取您要移除的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **移除**]。
+* 選取您要標示出席的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **標示完成**]。
 
-若要允許學習者重設模組並再次使用模組，請按一下 [!UICONTROL **重設**]. 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
+若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL ****] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
 
-您也可以匯出Excel工作表中的學習者清單。 若要匯出學習者清單，請按一下 [!UICONTROL **動作**] > [!UICONTROL **匯出**].
+您也可以匯出Excel工作表中的學習者清單。 若要匯出學習者清單，請按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **匯出**]。
 
 >[!NOTE]
 >
->如果課程有多個例項，每個標籤會個別提供Excel中的學習者清單。 學習者清單包含學習者名稱、狀態和選取條件。 學習者狀態可以是 **尚未開始**，或 **進行中**，或 **已完成**.
+>如果課程有多個例項，每個標籤會個別提供Excel中的學習者清單。 學習者清單包含學習者名稱、狀態和選取條件。 學習者狀態可以是&#x200B;**未開始**、**進行中**&#x200B;或&#x200B;**已完成**。
 
 ### 匯出處於未決核准狀態的學習者
 
-管理員、經理或自訂管理員可匯出處於未決核准註冊狀態的學習者資料。 您可以透過以下方式匯出資料： **課程>學習者** 標籤，然後按一下「動作」下拉式清單。
+管理員、經理或自訂管理員可匯出處於未決核准註冊狀態的學習者資料。 您可以透過&#x200B;**課程>學習者**&#x200B;索引標籤，然後按一下「動作」下拉式清單來匯出資料。
 
 如果沒有學習者註冊/未決核准經理核准的課程，則會顯示選項，並產生空白報表。 學習者處於未決核准狀態、已註冊狀態、未決狀態和已取消註冊狀態時，您也可以匯出。
 
@@ -240,9 +240,9 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 任何教室和VC課程，您都可以下載已參加此課程的學習者清單（任何例項）。
 
-在課程詳細資訊頁面上，按一下 **[!UICONTROL Attendance and Scoring]** 在右窗格中。
+在課程詳細資訊頁面上，按一下右窗格上的&#x200B;**[!UICONTROL Attendance and Scoring]**。
 
-在頁面的右上角，按一下 **[!UICONTROL Actions]** 下拉式清單。 然後按一下選項 **[!UICONTROL Export Learner List (PDF)]**.
+在頁面的右上角，按一下&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式清單。 然後按一下選項&#x200B;**[!UICONTROL Export Learner List (PDF)]**。
 
 ![](assets/export-list-of-learners.png)
 
@@ -257,7 +257,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 建立課程時，您可以新增L1和L3意見回饋選項：
 
 1. 以管理員身分登入後，請按一下左窗格中的「課程」 。 所有課程的清單會顯示在右側頁面。
-1. 按一下您要新增L1或L3意見回饋的課程圖磚
+1. 按一下您要新增L1或L3意見回饋的課程圖磚。
 1. 按一下左窗格中的執行個體預設值。
 1. 按一下L1或L3意見旁的圓切換按鈕以啟用它。
 1. 在L3問題下方的文字區域中新增L3意見問題。
@@ -268,7 +268,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 ![](assets/make-all-questionsmandatory.png)
 
-*在L1回饋意見中，將所有問題或第一個問題設為必答問題*
+*在L1意見反應中將所有問題或第一個問題設為必答問題*
 
 現在，您可以建立問題，這些問題現在成為強制問題。
 
@@ -282,11 +282,11 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 >
 >您在學習計畫執行個體啟用這些設定還不夠。 您也必須針對學習計畫中的每門課程，在課程例項層級啟用這些設定。
 
-在「執行處理預設值」頁面中，如果啟用 **[!UICONTROL Make All Questions Mandatory]**，則其後建立的所有新執行個體都將繼承這些設定。
+在「執行個體預設值」頁面中，如果您啟用&#x200B;**[!UICONTROL Make All Questions Mandatory]**，則之後建立的所有新執行個體都將繼承這些設定。
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
-*檢視執行處理預設值頁面*
+*檢視執行個體預設值頁面*
 
 ### 課程層級的L1意見反應 {#l1-feedback-course-level}
 
@@ -294,11 +294,11 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 在此版本的Learning Manager中，管理員可傳送學習計畫中所有課程的L1意見回饋。 管理員必須確保在課程執行個體層級的所有課程啟用L1意見回饋。
 
-1. 若要針對每個課程啟用L1意見回饋，請在「管理員」應用程式中按一下 **[!UICONTROL Learning Programs]** > **[!UICONTROL View Learning Program]**.
+1. 若要針對每個課程啟用L1意見回饋，請在Admin App中按一下&#x200B;**[!UICONTROL Learning Programs]** > **[!UICONTROL View Learning Program]**。
 
-1. 按一下 **[!UICONTROL Instances]** > **[!UICONTROL L1 Feedback Enabled]**.
+1. 按一下&#x200B;**[!UICONTROL Instances]** > **[!UICONTROL L1 Feedback Enabled]**。
 
-1. 啟用選項 **[!UICONTROL Enable for Each Course]**.
+1. 啟用選項&#x200B;**[!UICONTROL Enable for Each Course]**。
 
    ![](assets/enable-l1-feedbackforcourse.png)
 
@@ -308,7 +308,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
    ![](assets/l1-reaction-feedback.png)
 
-   *啟用每個課程的L1意見回饋*
+   *為每個課程啟用L1意見回饋*
 
    如果所有課程已啟用L1意見回饋，但在學習計畫例項中停用，則不會觸發課程的L1意見回饋。
 
@@ -318,35 +318,35 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 Learning Manager目前協助您以13種介面語言和32種內容語言進行學習。 雖然此選項不僅適合學習者，也方便支援全球學習者，但管理員仍需在各種區域設定擷取報表。
 
-測驗報告，以不同語言顯示資料，前提是課程提供多種語言版本。 到目前為止，管理員產生的報告只顯示一個答案，而不管測試使用何種語言。 **例如**，如果使用者已使用荷蘭文參加測驗，管理員一次只能檢視使用者嘗試使用的荷蘭文測驗報告。 選擇英文作為介面語言的管理員無法一次檢視所有使用者的報告，無論嘗試在哪個地區設定。
+測驗報告，以不同語言顯示資料，前提是課程提供多種語言版本。 到目前為止，管理員產生的報告只顯示一個答案，而不管測試使用何種語言。 **例如**，如果使用者以荷蘭文參加測驗，管理員一次只能檢視使用者嘗試的測驗報告。 選擇英文作為介面語言的管理員無法一次檢視所有使用者的報告，無論嘗試在哪個地區設定。
 
 現在已修正此問題，因為管理員現在能夠以學習者一次嘗試的個別語言檢視所有報告，而無論選擇的內容地區設定為何。 嘗試不同語言的測驗將作為其他欄新增到測驗報告中。
 
 ### 啟用帳戶層級的L1意見回饋 {#l1-feedback-account-level}
 
-*啟用帳戶層級的L1意見回饋*
+*啟用帳戶層級*&#x200B;的L1意見回應
 
 管理員可在帳戶層級開啟此設定，為新建立的課程和學習計畫啟用L1意見回饋。 但是，開啟此設定不會影響現有的課程和學習計畫
 
 如已啟用，所有新培訓與新執行個體預設都會啟用意見回饋。 如果作者/管理員造訪執行個體，執行個體會預設並手動將其關閉，然後才會接受。
 
-若要啟用L1意見回饋，請在「管理員」應用程式中按一下 **[!UICONTROL Settings]** > **[!UICONTROL Feedback]**.
+若要啟用L1意見回饋，請在Admin App中按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Feedback]**。
 
 ![](assets/l1-feedback-settings.png)
 
-*檢視「意見回饋設定」頁面*
+*檢視意見設定頁面*
 
-按一下 **[!UICONTROL Edit]** 並切換選項以啟用L1意見回饋。
+按一下右上角的&#x200B;**[!UICONTROL Edit]**&#x200B;並切換啟用L1意見回饋的選項。
 
-作者建立課程時，在管理員應用程式的執行個體頁面上， **[!UICONTROL L1 feedback]** 已為新課程自動啟用。
+當作者建立課程時，在管理員應用程式的執行個體頁面上，**[!UICONTROL L1 feedback]**&#x200B;會自動為新課程啟用。
 
 <!--![](assets/l1-feedback-enabled.png)-->
 
-您也可以切換「 」，以停用L1意見回饋 **[!UICONTROL Enable]** 選項，如下所示：
+您也可以切換&#x200B;**[!UICONTROL Enable]**&#x200B;選項以停用L1意見回饋，如下所示：
 
 ![](assets/disable-l1-feedback.png)
 
-*啟用或停用L1意見反應*
+*啟用或停用L1意見回應*
 
 ### 新增L1和L3回饋的描述性問題 {#descriptive}
 
@@ -358,7 +358,7 @@ Learning Manager目前協助您以13種介面語言和32種內容語言進行學
 
 ![](assets/l1-feedback-desc-questions.png)
 
-*為L1和L3意見回饋新增描述性問題*
+*新增L1與L3意見回饋的描述性問題*
 
 如果您希望課程完成後，立即向學習者顯示問卷，則可相應地選擇選項。
 
@@ -372,7 +372,7 @@ Learning Manager目前協助您以13種介面語言和32種內容語言進行學
 
 ![](assets/l3-feedback-desc-questions.png)
 
-*啟用L3意見回饋*
+*啟用L3意見反應*
 
 問題2是L3回饋意見的描述性問題。 您可以按一下問題下方的相應選項，使其成為強制性的。
 
@@ -386,16 +386,16 @@ Learning Manager目前協助您以13種介面語言和32種內容語言進行學
 
 您可以設定L1與L3意見調查表，也可以在帳戶層級設定提醒。
 
-1. 按一下 **[!UICONTROL Settings]** 然後 **[!UICONTROL Feedback]** 以管理員身分登入後，便會顯示在左窗格中。\
-   回饋設定頁面會出現，其中包含兩個索引標籤： **[!UICONTROL L1 Feedback]** 和 **[!UICONTROL L3 Feedback]**.\
-   **[!UICONTROL L1 Feedback]** 索引標籤由預設清單組成 **[!UICONTROL L1 feedback]** 教室和自訂進度課程的問卷調查以及提醒設定。 在 **[!UICONTROL L3 Feedback]** 索引標籤上，您可以檢視L3回饋預設陳述和提醒設定。
+1. 以系統管理員身分登入後，按一下&#x200B;**[!UICONTROL Settings]**，然後在左窗格上按一下&#x200B;**[!UICONTROL Feedback]**。\
+   意見設定頁面會顯示兩個索引標籤： **[!UICONTROL L1 Feedback]**&#x200B;和&#x200B;**[!UICONTROL L3 Feedback]**。\
+   **[!UICONTROL L1 Feedback]**&#x200B;索引標籤包含教室和自訂進度課程的預設&#x200B;**[!UICONTROL L1 feedback]**&#x200B;問卷清單以及提醒設定。 在&#x200B;**[!UICONTROL L3 Feedback]**&#x200B;索引標籤中，您可以檢視L3回饋預設陳述和提醒設定。
 
 1. 按一下頁面右上角的「編輯」 ，修改現有的問卷。\
-   在 **[!UICONTROL L1 Feedback]** 索引標籤上，您可以按一下「是/否」切換按鈕來啟用/停用每個問題。\
-   在 **[!UICONTROL L3 Feedback]** 索引標籤上，您可以修改預設意見反應宣告。\
-   按一下 **[!UICONTROL Add New Reminder]** ，並選擇何時傳送提醒。
+   在&#x200B;**[!UICONTROL L1 Feedback]**&#x200B;索引標籤中，您可以按一下[是/否]切換按鈕來啟用/停用每個問題。\
+   在&#x200B;**[!UICONTROL L3 Feedback]**&#x200B;索引標籤中，您可以修改預設意見反應宣告。\
+   按一下頁面底部的&#x200B;**[!UICONTROL Add New Reminder]**，然後選擇何時傳送提醒。
 
-1. 按一下 **[!UICONTROL Save]** 位於頁面的右上角。
+1. 按一下頁面右上角的&#x200B;**[!UICONTROL Save]**。
 
 在L1意見反應中，您可以看到兩組問卷以及一個預設問題。 第一組問卷是指自學課程，也可用於活動型課程。 第二組問卷可用於教室和虛擬教室型別的課程。
 
@@ -415,7 +415,7 @@ Learning Manager目前協助您以13種介面語言和32種內容語言進行學
 
 每當作者新增、更新或刪除模組並重新發佈課程時，所有管理員都會收到通知。 身為管理員，您可以檢視變更、透過按一下連結來比較舊內容與新內容，並據此核准或拒絕變更。
 
-若要啟用課程稽核，請按一下 **[!UICONTROL Settings]** > **[!UICONTROL General]**. 選取 **[!UICONTROL Course Moderation]** 核取方塊以啟用此功能。
+若要啟用課程稽核，請按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL General]**。 選取&#x200B;**[!UICONTROL Course Moderation]**&#x200B;核取方塊以啟用此功能。
 
 ![](assets/2.png)
 
@@ -425,13 +425,13 @@ Learning Manager目前協助您以13種介面語言和32種內容語言進行學
 
 ![](assets/1.png)
 
-*作者課程更新請求*
+*課程更新的作者請求*
 
 如果有多位作者正在更新同一個課程，則最新或上次執行的變更將會反映在管理員的通知中。 然後您可以核准或拒絕最新變更。
 
 ## 匯出檢查清單資料 {#export-checklist-data}
 
-從課程清單中，開啟包含檢查清單的課程。 在左窗格中，您會看到一個選項 **[!UICONTROL Checklist]**.
+從課程清單中，開啟包含檢查清單的課程。 在左窗格中，您會看到選項&#x200B;**[!UICONTROL Checklist]**。
 
 ![](assets/export-checklist.png)
 
@@ -440,9 +440,9 @@ Learning Manager目前協助您以13種介面語言和32種內容語言進行學
 按一下選項，然後在課程頁面上，執行下列動作：
 
 1. 選取執行個體和模組。
-1. 按一下 **[!UICONTROL Actions]** > **[!UICONTROL Export]**，然後匯出學習者檢查清單報告。
+1. 按一下「**[!UICONTROL Actions]** > **[!UICONTROL Export]**」，然後匯出學習者檢查清單報告。
 
-在 **[!UICONTROL Checklist]** 第頁，講師可從以下匯出檢查清單報告： **[!UICONTROL Actions]** 下拉式清單。
+在&#x200B;**[!UICONTROL Checklist]**&#x200B;頁面上，講師可以從&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式清單匯出檢查清單報告。
 
 CSV報表包含以下欄位：
 
@@ -463,11 +463,11 @@ CSV報表包含以下欄位：
 
 ## 檢視課程 {#viewingcourses}
 
-身為管理員，您可以檢視所有可用課程的清單。   按一下 **[!UICONTROL Courses]** ，以檢視具有搜尋和篩選選項的課程清單。 您也可以在課程縮圖上檢視每個課程的課程效果百分比。
+身為管理員，您可以檢視所有可用課程的清單。   按一下左窗格上的&#x200B;**[!UICONTROL Courses]**&#x200B;以檢視包含搜尋和篩選選項的課程清單。 您也可以在課程縮圖上檢視每個課程的課程效果百分比。
 
 >[!NOTE]
 >
->當課程被學習者使用後，或發佈後想要保留任何特定課程時，您可以停用課程。 您只能在課程處於已發佈狀態時將其淘汰。 按一下「 」以檢視所有已淘汰課程的清單 **[!UICONTROL Retired]** 標籤。
+>當課程被學習者使用後，或發佈後想要保留任何特定課程時，您可以停用課程。 您只能在課程處於已發佈狀態時將其淘汰。 按一下&#x200B;**[!UICONTROL Retired]**&#x200B;標籤，即可檢視所有已淘汰課程的清單。
 
 ## 檢視測驗分數 {#viewquizscores}
 
@@ -480,13 +480,13 @@ CSV報表包含以下欄位：
 
 ## 預設例項
 
-管理員可以在以下位置設定預設徽章、遊戲化設定和提醒： **[!UICONTROL Default Instance]** 頁面。 若要修改預設的執行處理設定，請選取 **[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**.
+管理員可以在&#x200B;**[!UICONTROL Default Instance]**&#x200B;頁面中設定預設徽章、遊戲化設定和提醒。 若要修改預設的執行個體設定，請選取&#x200B;**[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**。
 
 * **[!UICONTROL Badge]**：從下拉式選單中選取預設徽章。
 * **[!UICONTROL Gamification]**：設定遊戲化設定，包括完成點、提早完成點和即時完成點。 管理員可選擇選取帳戶層級設定，或自訂此例項的遊戲點數。
-* **[!UICONTROL L1 Reaction Feedback]**：啟用預先定義的問題，以便在課程完成時提供學習者意見回饋，並附上讓問題成為必要問題的選項。
+* **[!UICONTROL L1 Reaction Feedback]**：在課程完成後，為學習者意見啟用預先定義的問題，並附上讓問題成為必要問題的選項。
 ***[!UICONTROL  L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
-***[!UICONTROL  Reminder Settings]**：設定及管理截止日期的提醒，並提供問題上報選項。
+***[!UICONTROL  Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
 
 ### 設定向上呈報級別 {#escalation}
 
@@ -497,13 +497,13 @@ CSV報表包含以下欄位：
 
 ![](assets/escalation-notification.png)
 
-*設定向上呈報級別*
+*設定提升層級*
 
 ## 預覽課程 {#previewcourses}
 
-管理員可以按一下 **[!UICONTROL Preview as learner]** 選項。
+管理員可以在檢視課程模組時按一下&#x200B;**[!UICONTROL Preview as learner]**&#x200B;選項以預覽課程。
 
-1. 按一下 **[!UICONTROL Courses]** 管理員身分登入後，便會顯示在左窗格中。
+1. 以系統管理員身分登入後，請按一下左窗格上的&#x200B;**[!UICONTROL Courses]**。
 1. 從頁面上的課程清單按一下任何課程圖磚。
 1. 從左窗格中按一下學習者身分預覽，然後按一下頁面上的模組名稱，即可在播放器中預覽課程模組。
 
@@ -519,7 +519,7 @@ CSV報表包含以下欄位：
 
 ![](assets/course-effectiveness.png)
 
-*檢視L1、L2和L3意見回饋的課程成效*
+*檢視L1、L2和L3回饋意見的課程成效*
 
 在此範例快照中，每1位使用者會收到所有這三個回應，因此分數為100/100。 從這個表格中，您可以瞭解如果課程未提供這三個意見中的任何一個意見（L1、L2和L3），會對整體效益產生負面影響。 按一下快顯視窗右下角的向下箭頭，檢視課程效果計算的完成方式。
 
@@ -556,11 +556,11 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程/學習計畫
 
 >[!NOTE]
 >
->管理員可以按一下學習者頁面上的下拉式箭頭並按一下，移除課程的任何註冊學習者 **[!UICONTROL Actions]** > **[!UICONTROL Remove]**.
+>管理員可以按一下學習者頁面上的下拉式箭頭並按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Remove]**，移除任何已註冊的課程學習者。
 
 ![](assets/enroll-learners.png)
 
-*註冊學習者時新增註解*
+註冊學習者時&#x200B;*新增註解*
 
 *註冊學習者*
 
@@ -582,7 +582,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程/學習計畫
 
 +++電子郵件ID
 
-複製並貼上您想要註冊的學習者的電子郵件ID，以分號、逗號或行距分隔。 使用 **[!UICONTROL Validate Email Ids]** 驗證專案的選項。 所有無效的專案都會標示為紅色。 移除或修正這些專案，然後按一下 **[!UICONTROL Proceed.]**
+複製並貼上您想要註冊的學習者的電子郵件ID，以分號、逗號或行距分隔。 使用&#x200B;**[!UICONTROL Validate Email Ids]**&#x200B;選項來驗證專案。 所有無效的專案都會標示為紅色。 移除或修正這些專案，然後按一下&#x200B;**[!UICONTROL Proceed.]**&#x200B;以繼續
 
 ![](assets/email-id-option.png)
 
@@ -598,11 +598,11 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程/學習計畫
 
 身為管理員或經理，您可以在註冊課程學習者時新增註解。 您可以提及關於已註冊使用者同類群組的其他資訊。 此資料會匯出至課程報表。
 
-註解為 **非** 向學習者顯示。
+註解顯示給學習者&#x200B;**not**。
 
 當管理員產生學習者的課程報告時，任何註釋（如果新增）都會顯示在報告中。 「摘要」對話方塊隨即顯示，顯示包含集、排除集的使用者人數，以及已註冊課程例項的使用者人數。
 
-在 **[!UICONTROL Enroll Learners]** 對話方塊，展開選項 **[!UICONTROL Advanced Options]**. 在 **[!UICONTROL Additional Comment]** 欄位，輸入必要的註解。
+在&#x200B;**[!UICONTROL Enroll Learners]**&#x200B;對話方塊上，展開選項&#x200B;**[!UICONTROL Advanced Options]**。 在&#x200B;**[!UICONTROL Additional Comment]**&#x200B;欄位中輸入必要的註解。
 
 ![](assets/comment-for-learner.png)
 
@@ -622,7 +622,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程/學習計畫
 
 此程式可讓您以比連續執行數次搜尋更快且更輕鬆的方式找到所要尋找的內容。
 
-搜尋後會顯示所有執行個體的學習者或使用者群組。 對於每個學習者，學習者註冊的例項會顯示在 **[!UICONTROL Instance]** 欄。
+搜尋後會顯示所有執行個體的學習者或使用者群組。 對於每個學習者，學習者註冊的執行個體會顯示在&#x200B;**[!UICONTROL Instance]**&#x200B;欄中。
 
 ![](assets/search-result.png)
 
@@ -633,7 +633,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程/學習計畫
 * 檢視已註冊的所有使用者（無論執行個體為何）。
 * 檢視有一或多個已註冊使用者的所有使用者群組。
 
-執行搜尋後，您就無法依例項篩選學習者。 從中選取例項的選項 **[!UICONTROL Select Instance]** 下拉式清單已停用。
+執行搜尋後，您就無法依例項篩選學習者。 從&#x200B;**[!UICONTROL Select Instance]**&#x200B;下拉式清單中選取執行個體的選項已停用。
 
 此外，您也可以使用搜尋結果，選擇學習者或使用者群組，然後執行下列動作：
 
@@ -649,11 +649,11 @@ Adobe Learning Manager的管理員可與學習者共用二維碼，以便快速�
 
 學習者只需使用Adobe Learning Manager裝置應用程式掃描個別二維碼即可。
 
-**若要下載二維碼，請執行以下作業**：
+**若要下載QR碼，請執行下列動作**：
 
-1. 按一下 **[!UICONTROL Courses]** 從左側導覽面板中的學習區段。
-1. 選取課程> **[!UICONTROL View course]**.
-1. 按一下 **[!UICONTROL Instances]** > **[!UICONTROL More]** > **[!UICONTROL QR code]**.
+1. 按一下左側導覽面板中學習區段的&#x200B;**[!UICONTROL Courses]**。
+1. 選取課程> **[!UICONTROL View course]**。
+1. 按一下&#x200B;**[!UICONTROL Instances]** > **[!UICONTROL More]** > **[!UICONTROL QR code]**。
 
    <!--![](assets/admin-instance-edit.png)-->
 
@@ -661,19 +661,19 @@ Adobe Learning Manager的管理員可與學習者共用二維碼，以便快速�
 
    ![](assets/qr-code-download-01.png)
 
-   *與搜尋器共用QR碼*
+   *與階層連結共用QR碼*
 
 ## 課程生命週期 {#courselifecycle}
 
 典型的課程生命週期如下所示：
 
-**草稿**  — 當作者完成課程建立並儲存時。 在此狀態下，課程尚無法供學習者使用。 您可以刪除處於此狀態的課程。
+**草稿** — 作者完成建立課程並儲存時。 在此狀態下，課程尚無法供學習者使用。 您可以刪除處於此狀態的課程。
 
-**已發佈**  — 作者完成發佈課程時。 在此狀態，此課程可供學習者註冊。
+**已發佈** — 作者完成發佈課程時。 在此狀態，此課程可供學習者註冊。
 
-**已淘汰**  — 發佈課程後，如果作者不希望課程出現在學習者的課程目錄中，可以將課程移至已淘汰狀態。 您可以在此狀態下重新發佈或刪除課程。
+**已淘汰** — 發佈課程後，如果作者不希望課程出現在學習者的課程目錄中，可以將課程移至淘汰狀態。 您可以在此狀態下重新發佈或刪除課程。
 
-**已刪除**  — 處於已刪除狀態的課程會從Adobe Learning Manager應用程式中完全移除。 課程只有在處於草稿狀態時才能由作者刪除。 您也可以從已淘汰狀態刪除課程。
+**已刪除** — 處於已刪除狀態的課程是從Adobe Learning Manager應用程式中完全移除的課程。 課程只有在處於草稿狀態時才能由作者刪除。 您也可以從已淘汰狀態刪除課程。
 
 ![](assets/lifecycle-03.png)
 
@@ -681,13 +681,13 @@ Adobe Learning Manager的管理員可與學習者共用二維碼，以便快速�
 
 ## 通知設定 {#notificationsettings}
 
-作為管理員，您可以調整通知設定。 如需詳細資訊，請參閱 [通知。](user-notifications.md)
+作為管理員，您可以調整通知設定。 如需詳細資訊，請參閱[通知。](user-notifications.md)
 
 ## 常見問題 {#frequentlyaskedquestions}
 
 +++如何將模組重設為管理員？
 
-在課程的學習者頁面上，選擇學習者或學習者或群組，按一下 **[!UICONTROL Actions]** > **[!UICONTROL Reset Modules]**.
+在課程的學習者頁面上，選擇學習者或學習者或群組，按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Reset Modules]**。
 
 ![](assets/reset-modules.png)
 
@@ -699,12 +699,12 @@ Adobe Learning Manager的管理員可與學習者共用二維碼，以便快速�
 
 +++如何新增課程URL，讓學習者直接重新導向課程？
 
-將滑鼠移到課程卡上，然後按一下 **[!UICONTROL Copy URL]**. 在您複製URL後，學習者可以直接使用URL存取課程。
+將滑鼠移到課程卡上，然後按一下&#x200B;**[!UICONTROL Copy URL]**。 在您複製URL後，學習者可以直接使用URL存取課程。
 
 +++
 
 +++如何重新開啟執行個體？
 
-若要重新開啟已淘汰的執行個體，請按一下執行個體中的下拉式功能表，然後按一下 **[!UICONTROL Reopen instance]**.
+若要重新開啟已淘汰的執行個體，請按一下執行個體中的下拉式功能表，然後按一下&#x200B;**[!UICONTROL Reopen instance]**。
 
 +++
