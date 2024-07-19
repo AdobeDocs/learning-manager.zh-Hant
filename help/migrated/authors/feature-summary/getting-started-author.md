@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 作者快速入門
 description: 使用快速入門頁面來周遊Adobe Learning Manager的主要製作功能。
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 0%
 
 ---
-
-
 
 # 作者快速入門
 
@@ -36,4 +35,3 @@ ht-degree: 0%
 您也可以選擇檢視教學課程影片、說明內容並瞭解不同角色，以進一步瞭解Learning Manager應用程式。
 
 <!--![](assets/author-experienceprime.png)-->
-

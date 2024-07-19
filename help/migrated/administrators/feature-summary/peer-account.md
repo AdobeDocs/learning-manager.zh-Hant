@@ -3,14 +3,13 @@ description: 閱讀本文章，瞭解如何在Learning Manager中建立和管理
 jcr-language: en_us
 title: 對等帳戶
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 0%
 
 ---
-
-
 
 # 對等帳戶
 
@@ -20,14 +19,14 @@ Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透�
 
 ## 新增對等帳戶 {#addapeeraccount}
 
-1. 在管理員控制面板中，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Peer Accounts]**.
-1. 從右上角按一下 **[!UICONTROL Add]**.
+1. 在管理員儀表板中，按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Peer Accounts]**。
+1. 從右上角按一下&#x200B;**[!UICONTROL Add]**。
 
    ![](assets/peeraccount.png)
 
    *新增對等帳戶*
 
-1. 在 **[!UICONTROL Account Subdomain]** 欄位，指定您要建立對等帳戶的子網域。
+1. 在&#x200B;**[!UICONTROL Account Subdomain]**&#x200B;欄位中，指定您要建立配對帳戶的子網域。
 
    ![](assets/addpeer.png)
 
@@ -49,7 +48,7 @@ Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透�
 
 如果對等體也想要檢視管理員報告，則對等體必須傳送個別的對等體帳戶要求給管理員。
 
-若要瞭解如何產生和檢視對等帳戶的共用目錄，請參閱 [檢視對等報表](reports.md#main-pars_header_894271250).
+若要瞭解如何產生和檢視對等帳戶的共用目錄，請參閱[檢視對等報告](reports.md#main-pars_header_894271250)。
 
 ## 刪除對等帳戶 {#deletingpeeraccounts}
 
@@ -68,14 +67,14 @@ Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透�
 
 管理員可以檢視對等帳戶的使用者報告。 父級帳戶管理員可以請求存取報告，當對等帳戶管理員接受此請求後，父級管理員將能夠檢視對等帳戶中註冊的使用者數量，並能夠下載對等帳戶的使用者報告。
 
-1. 在[Peer Accounts]頁面上，按一下 **[!UICONTROL Add]**.
-1. 啟用選項， **[!UICONTROL Request permission to download user reports for entire account]**.
+1. 在[對等帳戶]頁面上，按一下&#x200B;**[!UICONTROL Add]**。
+1. 啟用選項&#x200B;**[!UICONTROL Request permission to download user reports for entire account]**。
 
 ![](assets/image034.png)
 
 *檢視對等帳戶的使用者報告*
 
-若要下載對等帳戶的報告，請按一下 **[!UICONTROL Download]**.
+若要下載對等帳戶的報告，請按一下&#x200B;**[!UICONTROL Download]**。
 
 ## 常見問題 {#frequentlyaskedquestions}
 
@@ -85,5 +84,5 @@ Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透�
 
 ![](assets/share-seats.png)
 
-*將名額從一個帳戶分享到另一個帳戶*
+*從一個帳戶共用名額到另一個帳戶*
 +++

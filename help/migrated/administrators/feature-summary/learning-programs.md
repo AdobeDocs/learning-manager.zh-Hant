@@ -4,14 +4,13 @@ jcr-language: en_us
 title: 學習計畫
 contentowner: manochan
 preview: true
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
 
 ---
-
-
 
 # 學習計畫
 
@@ -28,7 +27,7 @@ ht-degree: 0%
 
 管理員可以建立學習計畫。 若要建立學習計畫，請遵循下列步驟：
 
-1. 以管理員身分登入。 按一下 **[!UICONTROL Learning program]** 在左窗格中。 學習計畫頁面會顯示現有學習計畫的清單（如果已為您組織建立）。
+1. 以管理員身分登入。 按一下左窗格上的&#x200B;**[!UICONTROL Learning program]**。 學習計畫頁面會顯示現有學習計畫的清單（如果已為您組織建立）。
 1. 按一下頁面右上角的「新增」 。 新增學習計畫頁面隨即顯示。
 1. 輸入學習計畫名稱、概要，然後輸入計畫的權益。
 1. 若要在其他區域設定中建立學習計畫，請按一下頁面頂端的「新增語言」 。 選取您需要的語言，然後按一下「新增」。 您可能需要以所有選擇的語言新增所有學習計畫中繼資料。 否則，會針對其他語言環境顯示英文資訊。
@@ -37,30 +36,30 @@ ht-degree: 0%
 
    課程頁面會顯示以將課程新增至學習計畫。 您可在其中看到「課程」和「目錄」標籤。
 
-   **注意**
+   **附註**
 
    所有型別的課程均可新增至學習計畫。 這些包括教室和虛擬教室課程、活動、自控進度以及混合式課程。 經理指派和經理核准的課程未出現在課程選擇期間學習計畫中。
 
-1. 您必須先新增課程至學習計畫才能發佈。 按一下 **[!UICONTROL Catalog]** 索引標籤以將課程與學習計畫相關聯。 所有可用課程的清單隨即顯示。
+1. 您必須先新增課程至學習計畫才能發佈。 按一下「**[!UICONTROL Catalog]**」標籤，將課程與學習計畫建立關聯。 所有可用課程的清單隨即顯示。
 
 1. 將滑鼠指標暫留在任何課程卡上，並按一下滑鼠指標，以選擇要新增至學習計畫的課程。 如果課程尚未新增至學習計畫，您可以檢視該課程卡片中間的+符號。
 
    若要包含更多課程，請重複此步驟。
 
-   **注意**
+   **附註**
 
-   在中檢視您的學習計畫的所有新增課程清單 **[!UICONTROL Curriculum]** 標籤。 已新增的課程標籤可在的課程卡底部看到 **[!UICONTROL Catalog]** 標籤。
+   在&#x200B;**[!UICONTROL Curriculum]**&#x200B;索引標籤中檢視學習計畫的所有新增課程清單。 新增的課程標籤會顯示在&#x200B;**[!UICONTROL Catalog]**&#x200B;標籤中課程卡底部的新增標籤。
 
-1. 按一下 **[!UICONTROL Back to programs]** 在左窗格頂端檢視所有學習計畫的清單。 您可以看到這裡列出您新新增的學習計畫。
-1. 您可以按一下左窗格中的「概述」 ，然後選擇「動作>發佈」來發佈學習計畫。 您也可以按一下頁面右上角的「發佈」 ，以透過「課程與例項」檢視發佈學習計畫。
+1. 按一下左窗格頂端的&#x200B;**[!UICONTROL Back to programs]**&#x200B;以檢視所有學習計畫的清單。 您可以看到這裡列出您新新增的學習計畫。
+1. 您可以按一下左窗格中的「概述」 ，然後選擇「動作>Publish」來發佈學習計畫。 您也可以按一下頁面右上角的Publish ，透過「課程與例項」檢視發佈學習計畫。
 
 ## 將學習者新增至學習計畫 {#addlearnerstoalearningprogram}
 
-如需註冊學習者及遵循步驟的詳細資訊，請參閱  [註冊學習者。](courses.md#main-pars_header_1058138132)
+如需註冊學習者及遵循步驟的詳細資訊，請參閱[註冊學習者。](courses.md#main-pars_header_1058138132)
 
 ## 為學習計畫啟用完整目錄控制 {#catalog}
 
-喜歡授與完整許可權 [學習或模組的目錄控制項](shared-catalog-full-control.md)，您也可以為學習方案啟用完整的目錄控制項。
+就像授與學習或模組](shared-catalog-full-control.md)的完整[目錄控制項一樣，您也可以為學習方案啟用完整的目錄控制項。
 
 ## 重設課程
 
@@ -70,11 +69,11 @@ ht-degree: 0%
 
 若要重設課程，管理員必須從「課程」下拉式選單中選取課程。
 
-然後從 **[!UICONTROL Actions]** 下拉式清單，按一下 **[!UICONTROL Reset Course]**.
+然後從&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式清單中按一下&#x200B;**[!UICONTROL Reset Course]**。
 
 學習者現在可以從頭開始啟動所選課程的模組。
 
-**注意：只有失敗和未完成的課程模組才會重設。**
+**注意：只會重設課程中失敗和未完成的模組。**
 
 ## 建立多個學習計畫例項 {#createmultipleinstancesoflearningprograms}
 
@@ -139,13 +138,13 @@ ht-degree: 0%
 
 管理員可使用可用的選項將學習計畫標示為完成。 若要標籤學習計畫的完成狀態，請使用下列步驟。
 
-1. 開啟 **[!UICONTROL Learning Program]**.
-1. 開啟 **[!UICONTROL Learners]** 頁面。
+1. 開啟&#x200B;**[!UICONTROL Learning Program]**。
+1. 從左側功能表開啟&#x200B;**[!UICONTROL Learners]**&#x200B;頁面。
 
-   此 **[!UICONTROL Learners]** 頁面隨即開啟，內含已註冊學習者清單。
+   **[!UICONTROL Learners]**&#x200B;頁面隨即開啟，內含已註冊學習者清單。
 
 1. 使用每個學習者可用的核取方塊，選取一個/多個/所有學習者以標籤LP完成。
-1. 按一下 **[!UICONTROL Users]** > **[!UICONTROL Action]** > **[!UICONTROL Mark completion]**.
+1. 按一下&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Action]** > **[!UICONTROL Mark completion]**。
 
    如果LP有多個課程，則所有課程都會標示為完成。
 
@@ -155,16 +154,16 @@ ht-degree: 0%
 
 若要更新學習計畫中的課程順序，
 
-1. 按一下您選擇的學習計畫卡片，然後按一下 **[!UICONTROL Courses]** 在左窗格中。
+1. 按一下您選擇的學習計畫卡片，然後在左窗格上按一下&#x200B;**[!UICONTROL Courses]**。
 
-1. 隨即顯示與學習方案相關聯的課程卡片清單。 按一下 **[!UICONTROL Edit]** 位於頁面的右上角。
+1. 隨即顯示與學習方案相關聯的課程卡片清單。 按一下頁面右上角的&#x200B;**[!UICONTROL Edit]**。
 1. 您可以按一下並將每個課程卡拖曳至適當位置，以變更清單的順序。
-1. 按一下 **[!UICONTROL Republish]**.
+1. 按一下&#x200B;**[!UICONTROL Republish]**。
 
 ## 編輯已發佈的學習計畫 {#editingapublishedlearningprogram}
 
 管理員可以在已發佈狀態中編輯學習計畫。 在此狀態下，管理員可以編輯學習計畫的所有區段並重新發佈。
 
-若要編輯已發佈的學習計畫，請按一下學習計畫卡片，然後按一下 **[!UICONTROL Edit]** 位於頁面的右上角。
+若要編輯已發佈的學習計畫，請按一下學習計畫卡片，然後按一下頁面右上角的&#x200B;**[!UICONTROL Edit]**。
 
 編輯學習計畫的區段時，如果您必須移出頁面，則需要重新發佈學習計畫。 您會收到對話方塊確認，要求您重新發佈學習計畫。

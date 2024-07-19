@@ -15,7 +15,7 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
 
 您可以使用AdobeFTP管理員取代任何開放原始碼FTP使用者端。
 
-列出了AWS建議的部分FTP使用者端 [此處](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)：
+[這裡](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)列出了AWS建議的部分FTP使用者端：
 
 * FileZilla (Windows、macOS和Linux)
 * OpenSSH (macOS和Linux) — 注意：此使用者端僅適用於已啟用安全殼層(SSH)檔案傳輸通訊協定(SFTP)的伺服器。
@@ -31,8 +31,8 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
 
 連線之後，您會看到「連線詳細資訊」頁面。
 
-![連線詳細資訊頁面](assets/connection-name.png)
-*檢視「連線詳細資料」頁面*
+![連線詳細資料頁面](assets/connection-name.png)
+*檢視連線詳細資料頁面*
 
 有三個驗證選項：
 
@@ -46,14 +46,14 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
 
 ### 使用現有SSH金鑰建立驗證
 
-如果您已有SSH金鑰，請將公開金鑰貼入 **[!UICONTROL FTP Public Key]** 欄位，然後按一下「連線」。
+如果您已有SSH金鑰，請在&#x200B;**[!UICONTROL FTP Public Key]**&#x200B;欄位中貼上公開金鑰，然後按一下[連線]。
 
-![ssh金鑰](assets/ssh-keys.png)
-*貼上索引鍵*
+![SSH金鑰](assets/ssh-keys.png)
+*貼上金鑰*
 
 ### 使用密碼建立基本驗證
 
-這是基本的驗證機制。 選取第一個選項， **[!UICONTROL Create basic authentication using a password]**. 輸入密碼，然後按一下 **[!UICONTROL Connect]**.
+這是基本的驗證機制。 選取第一個選項&#x200B;**[!UICONTROL Create basic authentication using a password]**。 輸入密碼，然後按一下&#x200B;**[!UICONTROL Connect]**。
 
 這會建立連線。
 
@@ -65,8 +65,8 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
 
 ### 範例測試匯出
 
-* 在FTP使用者端中，將ExaVault FTP的位置變更為新的FTP位置。 新網域為 `http://almftp.adobelearningmanager.com/`.
-* 您也必須將IP列入白名單， `18.195.107.67`.
+* 在FTP使用者端中，將ExaVault FTP的位置變更為新的FTP位置。 新網域為`http://almftp.adobelearningmanager.com/`。
+* 您也必須將IP `18.195.107.67`加入白名單。
 * 驗證後，您必須使用外部FTP使用者端或自動化指令碼，上傳一些範例檔案到新的FTP位置或從新FTP位置下載一些範例檔案。
 * 您必須將資料從舊位置傳輸至新位置。
 * 聯結器的資料保留原則維持不變。 除了官方原則以外，ExaVault也支援一些資料保留原則。 新聯結器將無法使用這類資料保留原則。 檢查您的聯結器是否使用官方支援原則以外的任何資料保留。
@@ -84,7 +84,7 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
 1. 連線至新的ALM FTP聯結器。 按一下「連線」。
 
    ![連線影像](assets/connect-client.png)
-   *連線至新的ALM FTP聯結器*
+   *連線到新的ALM FTP聯結器*
 
 1. 若要透過基本密碼驗證連線，請輸入網域名稱、FTP使用者名稱，並設定符合密碼驗證條件的密碼。 按一下「連線」。 新的FTP連線將會建立，並可透過任何SFTP使用者端存取。
 
@@ -96,7 +96,7 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
    ![SFTP使用者端](assets/sftp-client-install.png)
    *透過SFTP使用者端連線*
 
-1. 按一下 **[!UICONTROL New site]** 以建立新網站。 視需要重新命名網站。
+1. 按一下&#x200B;**[!UICONTROL New site]**&#x200B;以建立新網站。 視需要重新命名網站。
 
    ![新網站](assets/new-site.png)
    *建立網站*
@@ -124,7 +124,7 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
    ![密碼](assets/password.png)
    *輸入密碼*
 
-   （可選）選取 **[!UICONTROL Always trust this host]** 核取方塊以信任主機。
+   （選擇性）選取&#x200B;**[!UICONTROL Always trust this host]**&#x200B;核取方塊以信任主機。
 
 1. 按一下「確定」。
 
@@ -149,14 +149,14 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
 
 將公開金鑰貼入文字方塊以使用現有的SSH金鑰。 按一下「連線/儲存」。
 
-若要產生新的SSH金鑰，請按一下「**[!UICONTROL Generate SSH Key]**&#39;按鈕。 將會下載私密金鑰。 按一下 **[!UICONTROL Connect/Save]**.
+若要產生新的SSH金鑰，請按一下&#39;**[!UICONTROL Generate SSH Key]**&#39;按鈕。 將會下載私密金鑰。 按一下&#x200B;**[!UICONTROL Connect/Save]**。
 
 ![產生ssh金鑰](assets/ssh-key.png)
 *產生SSH金鑰*
 
 對應詳細資料。 選取登入型別作為金鑰檔。 選取私密金鑰檔案。
 
-按一下 **[!UICONTROL Connect]**.
+按一下&#x200B;**[!UICONTROL Connect]**。
 
 ## 淘汰ExaVault後會發生什麼事
 

@@ -23,7 +23,7 @@ Learning Manager經理快速入門。
 
 瀏覽範例影片教學課程，以瞭解您身為經理角色的主要功能。 如果您不想在登入期間顯示此快顯視窗，您可以按一下快顯視窗右下角的「登入時不要顯示」選項來停用它。
 
-按一下 **[!UICONTROL Close Window]** 關閉快顯視窗。
+按一下&#x200B;**[!UICONTROL Close Window]**&#x200B;關閉快顯視窗。
 
 ![](assets/welcome-videos.png)
 

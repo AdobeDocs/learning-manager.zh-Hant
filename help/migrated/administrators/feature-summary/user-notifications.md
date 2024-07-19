@@ -37,11 +37,11 @@ ht-degree: 0%
 
 ![](assets/admin-notification.png)
 
-*檢視管理通知*
+*檢視管理員通知*
 
 此快顯視窗會顯示所有通知的醒目提示，以及發生時間和卷軸。 您可以根據通知圖示上方醒目提示的數字來瞭解最新通知的數量。 例如，如果您上次登入後有五個最新的通知，您會看到通知圖示上方顯示數字5。 讀取所有最新通知後，這些數字就會消失。
 
-按一下 **[!UICONTROL Show all notifications]** 通知快顯視窗底部的連結，可在個別頁面中檢視所有通知。 在通知頁面上，您可以看到下列內容：
+按一下通知快顯視窗底部的&#x200B;**[!UICONTROL Show all notifications]**&#x200B;連結，在個別頁面中檢視所有通知。 在通知頁面上，您可以看到下列內容：
 
 * **所有通知**：在這裡檢視所有通知
 * **擱置中**：在這裡檢視擱置中的通知
@@ -52,13 +52,13 @@ ht-degree: 0%
 當學習者錯過截止日期時，上報電子郵件可以傳送給經理和略過經理。 您可以在建立課程過程中，甚至是在建立課程之後，針對課程未完成設定多層次升級通知。 提升通知可以設定為以設定的頻率傳送，以傳送給經理或略過經理。
 
 1. 以管理員或作者身分登入，然後按一下「課程」。
-1. 選取您要修改提升通知的課程，然後按一下 **[!UICONTROL View Course]**.
+1. 選取您要修改提升通知的課程，然後按一下&#x200B;**[!UICONTROL View Course]**。
 
    ![](assets/view-courses.png)
 
    *選取檢視課程選項*
 
-1. 按一下 **[!UICONTROL Instances]** > **[!UICONTROL Notification Alerts]**.
+1. 按一下&#x200B;**[!UICONTROL Instances]** > **[!UICONTROL Notification Alerts]**。
 
    ![](assets/notification-alert.png)
 
@@ -74,15 +74,15 @@ ht-degree: 0%
 
    ![](assets/deadline-reminder.png)
 
-   *設定期限提醒日期*
+   *設定截止日期提醒日期*
 
 1. 選取截止日期之後的日期，以設定學習者的提醒排程和經理的上報通知。
 
    ![](assets/set-reminders-andescalation.png)
 
-   *設定提醒和向上呈報日期*
+   *設定提醒與向上呈報日期*
 
-1. 如果學習者即使在升級至經理後仍無法完成課程，設定可讓您升級至學習者的跳過經理。 按一下延長截止日期之後的日期，選取提醒的週期、排程的天數，然後選取 **經理與略過層級經理** 在 **提升** 下拉式清單。 按一下藍色核取記號以儲存通知設定。
+1. 如果學習者即使在升級至經理後仍無法完成課程，設定可讓您升級至學習者的跳過經理。 按一下延長截止日期之後的日期，選取提醒的週期、排程的天數，並在&#x200B;**提升**&#x200B;下拉式清單中選取&#x200B;**管理員與略過層級管理員**。 按一下藍色核取記號以儲存通知設定。
 
    ![](assets/reminder-to-managerandskipmanager.png)
 
@@ -92,5 +92,5 @@ ht-degree: 0%
 
 +++如何在執行個體上設定提醒通知？
 
-在執行個體上，按一下「通知警示」。 行事曆隨即開啟，以紅色反白顯示課程設定的截止日期。 按一下醒目提示的日期，檢視為學習者設定的提醒。 設定提醒，如本所述 [區段](user-notifications.md#Setupmultilevelescalationnotifications).
+在執行個體上，按一下「通知警示」。 行事曆隨即開啟，以紅色反白顯示課程設定的截止日期。 按一下醒目提示的日期，檢視為學習者設定的提醒。 設定提醒，如此[區段](user-notifications.md#Setupmultilevelescalationnotifications)所述。
 +++

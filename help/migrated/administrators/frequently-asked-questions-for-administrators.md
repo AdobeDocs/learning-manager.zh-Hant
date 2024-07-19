@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 管理員常見問題
-description: Adobe Learning Manager管理員常見問題集
+description: Adobe Learning Manager管理員的常見問題集
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2360'
 ht-degree: 0%
 
 ---
-
-
 
 # 管理員常見問題
 
@@ -26,7 +25,7 @@ ht-degree: 0%
 
 +++我可以大量新增使用者嗎？ 如何進行？
 
-可以，您可以使用CSV上傳功能大量新增使用者。 按一下  [此處](/help/migrated/administrators/add-users-in-bulk.md) 以取得詳細資訊。
+可以，您可以使用CSV上傳功能大量新增使用者。 如需詳細資訊，請按一下[這裡](/help/migrated/administrators/add-users-in-bulk.md)。
 
 +++
 
@@ -48,25 +47,25 @@ ht-degree: 0%
 
 +++如何設定警報？
 
-在Learning Manager 1.0版Adobe中，您可以建立通知。 參考  [通知問題](/help/migrated/administrators/feature-summary/user-notifications.md) 以取得詳細資訊。
+在Adobe Learning Manager 1.0版本中，您可以建立通知。 如需詳細資訊，請參閱[通知問題](/help/migrated/administrators/feature-summary/user-notifications.md)。
 
 +++
 
 +++如何為課程新增憑證？
 
-Adobe Learning Manager不提供課程憑證。 但是，管理員可以按一下左側面板中的「徽章」索引標籤，為每個課程建立徽章。 當管理員將學習者註冊到課程時，他還可以將徽章與課程相關聯。
+Adobe Learning Manager不提供課程的憑證。 但是，管理員可以按一下左側面板中的「徽章」索引標籤，為每個課程建立徽章。 當管理員將學習者註冊到課程時，他還可以將徽章與課程相關聯。
 
 +++
 
 +++如何匯入憑證的簽章？
 
-AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
+Adobe Learning Manager沒有匯入憑證或徽章簽章的功能。
 
 +++
 
 +++我可以設定課程的行事曆嗎？ 如何進行？
 
-在Adobe Learning Manager 1.0版中，我們沒有任何設定可設定課程行事曆。
+在Adobe Learning Manager 1.0版中，我們沒有任何布建可設定課程的行事曆。
 
 +++
 
@@ -79,7 +78,7 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 1. 按一下課程詳細資訊頁面左窗格中的「輪候表」。 頁面上會顯示等候中列出的學習者清單。
 1. 選取學習者並按一下「分配名額」 ，將學習者直接註冊至課程，取代名額限制。
 
-如需詳細資訊，請參閱  [輪候和出席](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) 功能。
+如需詳細資訊，請參閱[輪候和出席](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md)功能。
 
 +++
 
@@ -93,7 +92,7 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
 如果課程包含多個模組，且學習者僅完成其中一個，您可以選取單一模組並按一下「儲存」 ，標籤學習者的完成狀態。 如果學習者完成課程的所有模組，您可以按一下「全選」選項並按一下「儲存」。
 
-如需詳細資訊，請參閱  [輪候和出席](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md) 功能。
+如需詳細資訊，請參閱[輪候和出席](/help/migrated/administrators/feature-summary/waitlist-attendance-management.md)功能。
 
 +++
 
@@ -114,9 +113,9 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 身為管理員，您可以遵循下列步驟來尋求經理的課程指派：
 
 1. 按一下左窗格中的「課程」
-1. 將滑鼠停留在任何Manager指定的課程上，然後按一下 **[!UICONTROL Seek Manager Nomination]**.
+1. 將滑鼠停留在任何Manager指定的課程上，然後按一下&#x200B;**[!UICONTROL Seek Manager Nomination]**。
 
-1. 在執行個體清單中，按一下 **[!UICONTROL Managers nominated]** 連結後接 **[!UICONTROL Add Managers]** 連結。
+1. 在執行個體清單中，按一下&#x200B;**[!UICONTROL Managers nominated]**&#x200B;連結，然後按一下&#x200B;**[!UICONTROL Add Managers]**&#x200B;連結。
 
 1. 新增管理員名稱、分配的座位數，然後按一下勾號以儲存變更。
 
@@ -130,7 +129,7 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
 1. 以管理員身分登入後，請按一下左窗格中的「課程」 。 所有課程清單會顯示在右側頁面。
 1. 選擇您要新增學習者的課程，並將滑鼠游標停留在該課程上。
-1. 按一下「註冊學習者」並新增學習者名稱。 **注意：** 您可以一次新增一或多個學習者。
+1. 按一下「註冊學習者」並新增學習者名稱。 **注意：**&#x200B;您可以一次新增一或多個學習者。
 
 +++
 
@@ -138,10 +137,10 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
 請依照下列步驟將學習者指派給能力：
 
-1. 按一下 **[!UICONTROL Skills]** 以管理員身分登入後，位於左窗格。
-1. 按一下每個能力的核取方塊，然後按一下 **[!UICONTROL Actions]** 下拉式清單（位於頁面的右上角）。
+1. 以系統管理員身分登入後，在左窗格按一下&#x200B;**[!UICONTROL Skills]**。
+1. 按一下每個能力的核取方塊，選取一或多個技能，然後按一下頁面右上角的&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式清單。
 1. 按一下「指派給使用者」。
-1. 開始輸入使用者的名稱，從下拉式清單中選擇，然後按一下 **[!UICONTROL Save]**.
+1. 開始輸入使用者的名稱，從下拉式清單中選擇，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    >[!NOTE]
    >
@@ -163,9 +162,9 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
    >
    >註冊學習者或執行個體前，您需要發佈學習計畫。
 
-1. 按一下左窗格中的執行處理，然後按一下 **[!UICONTROL Add new instances]** 在頁面的右角，加入執行個體的詳細資訊。
+1. 按一下左窗格上的[執行個體]，然後按一下頁面右角的&#x200B;**[!UICONTROL Add new instances]**&#x200B;以包含執行個體的詳細資訊。
 
-如需學習計畫的詳細資訊，請參閱  [學習方案功能。](/help/migrated/administrators/feature-summary/learning-programs.md)
+如需學習計畫的詳細資訊，請參閱[學習計畫功能。](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
@@ -177,9 +176,9 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
 +++如何修改課程、學習方案和公司設定檔？
 
-您可以在發佈課程或學習計畫後加以編輯。 如需詳細資訊，請參閱  [課程](/help/migrated/administrators/feature-summary/courses.md) 和  [學習計畫](/help/migrated/administrators/feature-summary/learning-programs.md) 說明內容。
+您可以在發佈課程或學習計畫後加以編輯。 如需詳細資訊，請參閱[課程](/help/migrated/administrators/feature-summary/courses.md)和[學習計畫](/help/migrated/administrators/feature-summary/learning-programs.md)說明內容。
 
-若要修改公司設定檔，請按一下 **[!UICONTROL Settings]** 在左窗格按一下 **[!UICONTROL Change]** 在頁面的右上角。
+若要修改公司設定檔，請按一下左窗格的&#x200B;**[!UICONTROL Settings]**，然後按一下頁面右上角的&#x200B;**[!UICONTROL Change]**。
 
 +++
 
@@ -202,9 +201,9 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
 可以，您可以根據組織的要求變更Learning Manager應用程式的主題和品牌。 提供一組五個代表性影像，用來在套用您的應用程式之前預覽您的顏色主題變更。 分別按一下影像左側和右側的&lt;和>符號來瀏覽這些影像以進行預覽。
 
-按一下 **[!UICONTROL Branding]** 在左窗格更新組織名稱，變更子網域、記錄樣式和主題。 按一下 **[!UICONTROL Edit]** ，並加以鄰近以修改內容。
+按一下左窗格上的&#x200B;**[!UICONTROL Branding]**&#x200B;以更新您的組織名稱、變更子網域、記錄樣式和主題。 按一下這些主題旁的&#x200B;**[!UICONTROL Edit]**&#x200B;以修改內容。
 
-請參閱  [色彩主題與品牌化說明](/help/migrated/administrators/feature-summary/themes.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[色彩主題與品牌說明](/help/migrated/administrators/feature-summary/themes.md)。
 
 +++
 
@@ -224,7 +223,7 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 1. 以管理員身分登入後，請按一下「遊戲化」 。 此時會出現一個頁面，內含銅、銀、金和白金等層級的清單，以及每個層級要達到的所需點數。 有任務和對應點清單可供使用。
 1. 按一下每個任務旁的「編輯」圖示以設定/修改點。
 
-參考  [遊戲功能](/help/migrated/administrators/feature-summary/gamification.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[遊戲化功能](/help/migrated/administrators/feature-summary/gamification.md)。
 
 +++
 
@@ -233,13 +232,13 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 您可以依照下列步驟建立報表：
 
 1. 按一下左窗格中的「報表」 。 報告摘要頁面隨即顯示。
-1. 在報表頁面上，按一下 **[!UICONTROL Add]** 位於右上角。
+1. 在「報表」頁面上，按一下右上角的&#x200B;**[!UICONTROL Add]**。
 
-   **[!UICONTROL Add Report]** 對話方塊隨即顯示。
+   **[!UICONTROL Add Report]**&#x200B;對話方塊出現。
 
 1. 填寫所有必填欄位，然後按一下「儲存」。
 
-只有管理員和管理員可以建立或檢視報表。 請參閱 [報表功能](/help/migrated/administrators/feature-summary/reports.md) 以取得詳細資訊。
+只有管理員和管理員可以建立或檢視報表。 如需詳細資訊，請參閱[報告功能](/help/migrated/administrators/feature-summary/reports.md)。
 
 +++
 
@@ -264,16 +263,16 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
 +++如何允許課程的外部註冊？
 
-「Adobe學習管理員」可讓您為應用程式註冊外部部門成員或組織的外部員工。
+Adobe Learning Manager提供將外部部門成員或組織的外部員工註冊到應用程式的功能。
 
-1. 按一下 **[!UICONTROL Users]** 在左窗格中。
-1. 按一下 **[!UICONTROL External]** 在左窗格中。
-1. 按一下 **[!UICONTROL Add]** 位於頁面的右上角。
+1. 按一下左窗格上的&#x200B;**[!UICONTROL Users]**。
+1. 按一下左窗格上的&#x200B;**[!UICONTROL External]**。
+1. 按一下頁面右上角的&#x200B;**[!UICONTROL Add]**。
 
    新增使用者對話方塊就會顯示。
 
 1. 新增設定檔名稱、經理電子郵件、分配的名額、到期資訊。 您也可以將影像新增至外部設定檔。
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 管理員可以複製註冊URL並將其傳送到外部註冊群組。 外部使用者可以註冊、登入Learning Manager應用程式並存取其課程。
 
@@ -284,7 +283,7 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 建立意見調查表，供學習者完成課程後使用。 依預設，有三種範例問題可供使用。 請依照下列步驟建立問卷。
 
 1. 按一下左窗格中的「意見回饋」 。 回饋意見調查表視窗隨即顯示。
-1. 按一下 **[!UICONTROL Edit]** 以新增/修改問卷。
+1. 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;以新增/修改問卷。
 
 您可以新增一組問卷，並在不需要時選擇不顯示。 按一下核取方塊以啟用/停用特定問題。
 
@@ -298,7 +297,7 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
    依預設，每個能力都可使用具有0個信用額的單一層次。
 
-1. 按一下 [!UICONTROL **新增層級**] 新增能力層級，然後按一下「儲存」。 您最多可以新增5個層級。
+1. 按一下&#x200B;[!UICONTROL **新增層級**]，為每個能力新增層級，然後按一下[儲存]。 您最多可以新增5個層級。
 
 儲存能力後，您便無法從能力中移除層次。 管理員也可以為學習者指派特定能力和層級。
 
@@ -306,39 +305,39 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 
 +++如何設定組織課程的計費系統？
 
-1. 按一下 [!UICONTROL **帳單**] 在左窗格。
+1. 在左窗格按一下&#x200B;[!UICONTROL **帳單**]。
 
    帳單資訊會顯示在頁面上。
 
-1. 按一下 [!UICONTROL **訂閱**] 標籤。
+1. 按一下「[!UICONTROL **訂閱**]」標籤。
 1. 在「學習者套裝」欄位中輸入您要訂購的套裝數量，然後按一下頁面右上角的「下訂單」 。
 
-   根據您組織中的學習者人數選擇套件數量，然後下訂單。 若為採購單導向的流程，請寫信給我們：  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+   根據您組織中的學習者人數選擇套件數量，然後下訂單。 若是採購單導向程式，請寄信至[learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com)。
 
 1. 輸入您的聯絡資訊、選擇信用卡型態、提供信用卡詳細資料，然後按一下「完成訂單」。
 
-參考 [計費管理](/help/migrated/administrators/feature-summary/billing-management.md) 功能以取得詳細資訊。
+如需詳細資訊，請參閱[帳單管理](/help/migrated/administrators/feature-summary/billing-management.md)功能。
 
 +++
 
 +++我可以自訂憑證設計嗎？ 如何進行？
 
-在Adobe Learning Manager中，您可以發行徽章來識別學習者。 如需詳細資訊，請參閱徽章功能。  另請參閱認證功能。
+在Adobe Learning Manager中，您可以發行徽章來辨識學習者。 如需詳細資訊，請參閱徽章功能。  另請參閱認證功能。
 
 +++
 
 +++如何設定我的公司設定檔？
 
-1. 以管理員身分登入後，按一下 **[!UICONTROL Company Info]** 在左窗格。
+1. 以系統管理員身分登入後，在左窗格按一下&#x200B;**[!UICONTROL Company Info]**。
 1. 按一下頁面中的各個選項，新增公司設定檔、子網域、標誌。
 
 +++
 
 +++如何新增課程？
 
-若要新增課程，您需要切換作者角色。 您只能根據其狀態檢視可用課程的清單 **[!UICONTROL Complete]**， **[!UICONTROL Published]**、和 **[!UICONTROL Retired]**.
+若要新增課程，您需要切換作者角色。 您只能根據狀態為&#x200B;**[!UICONTROL Complete]**、**[!UICONTROL Published]**&#x200B;和&#x200B;**[!UICONTROL Retired]**&#x200B;的課程來檢視可用課程清單。
 
-若要檢視課程，請按一下 **[!UICONTROL Courses]** 在左窗格中。 參考  [建立課程](/help/migrated/administrators/feature-summary/courses.md)以取得詳細資訊
+若要檢視課程，請按一下左窗格上的&#x200B;**[!UICONTROL Courses]**。 如需詳細資訊，請參閱[建立課程](/help/migrated/administrators/feature-summary/courses.md)
 
 +++
 
@@ -349,9 +348,9 @@ AdobeLearning Manager中沒有功能可匯入認證或徽章的簽名。
 1. 以管理員身分登入後，請按一下左窗格中的使用者。 您也可以按一下視窗左窗格中的「快速入門」並按一下「新增使用者」來新增使用者。
 1. 若要新增使用者，請按一下頁面右上角的「新增」 。
 
-依預設，所有新使用者都會獲指派學習者角色。 您可以按一下「 」，將管理員或作者角色指派給學習者 **[!UICONTROL Actions]** ，然後選擇 **[!UICONTROL Assign Role]** > **[!UICONTROL Make Author]** 或 **[!UICONTROL Make Admin]**.
+依預設，所有新使用者都會獲指派學習者角色。 您可以按一下頁面右上角的&#x200B;**[!UICONTROL Actions]**&#x200B;並選擇&#x200B;**[!UICONTROL Assign Role]** > **[!UICONTROL Make Author]**&#x200B;或&#x200B;**[!UICONTROL Make Admin]**，將管理員或作者角色指派給學習者。
 
-參考  [新增使用者](/help/migrated/administrators/feature-summary/add-users-user-groups.md) 功能，以取得新增學習者、作者和管理員的詳細資訊。
+如需新增學習者、作者及管理員的詳細資訊，請參閱[新增使用者](/help/migrated/administrators/feature-summary/add-users-user-groups.md)功能。
 
 +++
 

@@ -3,14 +3,13 @@ description: 瞭解如何使用Learning Manager學習者應用程式檢視和下
 jcr-language: en_us
 title: 徽章
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
 
 ---
-
-
 
 # 徽章
 
@@ -30,22 +29,22 @@ ht-degree: 0%
 
 按一下任何徽章以取得您取得的所有徽章清單。 您也可以檢視與個別課程對齊的所有可用徽章。 在尚未完成的徽章中，按一下課程名稱以檢視與徽章對齊的課程。 以下是範例快照集以供您參考。
 
-按一下 **[!UICONTROL Download All Badges]** 以zip格式下載所有已取得的徽章的連結。 您也可以按一下每個徽章名稱旁邊的多維資料庫圖示，來下載個別徽章。
+按一下&#x200B;**[!UICONTROL Download All Badges]**&#x200B;連結，以zip格式下載所有已取得的徽章。 您也可以按一下每個徽章名稱旁邊的多維資料庫圖示，來下載個別徽章。
 
 **將徽章下載為PDF**
 
 您也可以下載一組徽章或PDF格式的個別徽章。
 
-* 按一下 **[!UICONTROL Download All Badge Records]** 將您取得的徽章下載為PDF。
+* 按一下&#x200B;**[!UICONTROL Download All Badge Records]**&#x200B;下載您以PDF形式取得的徽章。
 * 若要下載個別徽章，請選取徽章並按一下徽章名稱旁邊的pdf圖示。
 
 ![](assets/badges.png)
 
-**對於具有到期日（即循環憑證）的憑證，Learning Manager會提及憑證的有效日期。 日期會顯示在UI和憑證PDF中。**
+**對於到期的憑證（即循環憑證），Learning Manager會提及憑證的有效日期。 日期將顯示在UI和憑證PDF中。**
 
 ## 開放徽章 {#openbadges}
 
-Learning Manager支援的Open Badges揹包平台正在運作 **已淘汰**. 目前Learning Manager不支援開放預算。
+Learning Manager支援的Open Badges揹包平台已&#x200B;**淘汰**。 目前Learning Manager不支援開放預算。
 
 開放徽章是辨識及驗證學習者學習內容的標準。 您可以使用這些徽章線上上展示您的成就。
 
@@ -57,7 +56,7 @@ Learning Manager為其學習者支援開放徽章概念。 您可以使用下載
 
 開放徽章是徽章，其中嵌入了一些中繼資料到徽章影像中。 此中繼資料提供有關簽發者、收件者、完成的工作、徽章有效性的資訊。 Badgr揹包可直接從Learning Manager存取，以便集中儲存所有徽章及共用這些徽章。 學習者可登入其Badgr帳戶並建立整合。 從那時起，Learning Manager中取得的徽章會自動上傳至Badgr帳戶。
 
-管理員啟用選項之後 **Badgr整合**，學習者隨後可以與Badgr整合併設定其徽章。 若要整合，學習者需要從Learning Manager登入Badgr帳戶。
+管理員啟用選項&#x200B;**Badgr整合**&#x200B;後，學習者就可以與Badgr整合併設定其徽章。 若要整合，學習者需要從Learning Manager登入Badgr帳戶。
 
 >[!NOTE]
 >
@@ -79,6 +78,6 @@ Learning Manager為其學習者支援開放徽章概念。 您可以使用下載
 
 ## 常見問題 {#frequentlyaskedquestions}
 
-**1. 如何以學習者身分下載Badge？**
+**1. 如何以學習者身分下載徽章？**
 
-在徽章頁面上，您可以將徽章下載為影像或PDF格式。 選擇技能或課程，然後按一下 **PDF** 或 **徽章**.
+在徽章頁面上，您可以將徽章下載為影像或PDF格式。 選擇技能或課程，然後按一下&#x200B;**PDF**&#x200B;或&#x200B;**徽章**。

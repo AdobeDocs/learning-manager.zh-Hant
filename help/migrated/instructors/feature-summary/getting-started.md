@@ -2,14 +2,13 @@
 description: 閱讀本文以瞭解如何開始使用Learning Manager的講師。
 jcr-language: en_us
 title: Learning Manager講師入門
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
 
 ---
-
-
 
 # Learning Manager講師入門
 

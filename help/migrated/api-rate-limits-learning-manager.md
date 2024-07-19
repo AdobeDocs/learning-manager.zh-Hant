@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ## 速率限制簡介 {#introductiontoratelimiting}
 
-Adobe Learning Manager公開豐富的REST API套件，可協助客戶建立與Learning Manager整合的應用程式，或甚至是自訂使用者體驗和工作流程擴充功能以協助其業務。
+Adobe Learning Manager公開豐富的REST API套件，可協助客戶建立與Learning Manager整合的應用程式，或甚至是自訂的使用者體驗和工作流程擴充功能以協助其業務。
 
 每當呼叫API時，Learning Manager伺服器就會使用共用的運算資源，因此我們必須謹慎行事，以確保應用程式能正常運作，不會危及平台的效能和可用性特徵。 這是透過引進對API使用者端進行呼叫的方式（頻率和速度）的限制來實現的。
 
@@ -108,9 +108,9 @@ x-burst: 2
 
 只要以低於5 RPM和高於5 RPM的速率達到此端點，您就可以輕鬆測試此結果。 撰寫程式碼以處理HTTPS狀態程式碼429並根據回應標頭中的資訊。
 
-為了方便您檢視，您可以檢視此範例JavaCript程式碼，其中說明這一點。 按一下此 [小提琴](https://jsfiddle.net/ACAPJS/9yv8zcmL/) 並檢視程式碼的實際運作情況。
+為了方便您檢視，您可以檢視此範例JavaCript程式碼，其中說明這一點。 按一下此[小提琴](https://jsfiddle.net/ACAPJS/9yv8zcmL/)，然後檢視程式碼的實際運作情況。
 
-此應用程式需要您提供帳戶的學習者角色應用程式權杖。 請參閱 [應用程式開發人員手冊](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)以取得API權杖的相關資訊，且您可以使用Learning Manager整合管理員應用程式之開發人員資源區段中的權杖協助程式來產生權杖。
+此應用程式需要您提供帳戶的學習者角色應用程式權杖。 如需API權杖的相關資訊，請參閱[應用程式開發人員手冊](https://captivateLearning Manager.adobe.com/docs/Learning Managerapi/v2/)，而您可以使用Learning Manager整合管理應用程式之開發人員資源區段中的權杖協助程式來產生權杖。
 
 此應用程式會一次對回圈中的虛擬API進行10次呼叫。 由於虛擬API的速率限製為(5， 2)；在Learning Manager收到的前5+2個呼叫將成功後，就會違反速率限制，因此您會看到這些呼叫的成功回應。
 

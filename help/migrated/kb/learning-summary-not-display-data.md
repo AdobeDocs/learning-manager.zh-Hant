@@ -1,22 +1,21 @@
 ---
 jcr-language: en_us
 title: 學習摘要不顯示目前的資料
-description: 學習摘要不會在Adobe學習管理員中顯示目前的資料
+description: 學習摘要不會在Adobe Learning Manager中顯示目前的資料
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 97a3435e-c447-41dd-b71f-46b58a7131ac
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%
 
 ---
 
-
-
 # 學習摘要不顯示目前的資料
 
 ## 問題
 
-在Adobe學習管理員中，學習摘要不會顯示註冊、完成或進度的最新資料。
+在Adobe Learning Manager中，「學習摘要」不會顯示註冊、完成或進度的最新資料。
 
 有些情況下學習者會完成課程。 不過，管理員或經理檢視時，資料不會顯示在「學習摘要」中。
 
@@ -28,9 +27,9 @@ ht-degree: 0%
 
 「學習摘要」資料會根據下列排程重新整理：
 
-1. **本月：** 資料每天都會重新整理。 您可以在頁面底部檢視上次重新整理時間。
-1. **過去3個月：** 此資料會每月重新整理一次。
-1. **過去12個月：** 此資料會每月重新整理一次。
+1. **本月：**&#x200B;資料每天都會重新整理。 您可以在頁面底部檢視上次重新整理時間。
+1. **過去3個月：**&#x200B;此資料每月重新整理一次。
+1. **過去12個月：**&#x200B;此資料每月重新整理一次。
 
 ![](assets/learning-summary.png)
 

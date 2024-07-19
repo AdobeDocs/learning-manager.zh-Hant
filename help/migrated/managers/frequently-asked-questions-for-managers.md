@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 經理常見問題
-description: Adobe Learning Manager經理常見問題集
+description: Adobe Learning Manager管理員的常見問題集
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 0%
 
 ---
-
-
 
 # 經理常見問題
 
@@ -71,7 +70,7 @@ ht-degree: 0%
 
 您可以為專案團隊成員建立報告，以檢視專案團隊成員所指派和習得的技能清單。 按一下左窗格中的報表，然後按一下「範例報表」標籤以檢視「技能與管理員」範例報表。
 
-如需詳細資訊，請參閱 [報表](feature-summary/reports.md) Learning Manager說明中的功能。
+如需詳細資訊，請參閱Learning Manager說明中的[報表](feature-summary/reports.md)功能。
 
 +++
 
@@ -95,7 +94,7 @@ ht-degree: 0%
 
 若要調整報表大小，請按一下「調整大小」 ，然後選擇下列兩個選項之一： 1×1代表小，1×2代表大。
 
-如需詳細資訊，請參閱  [「報表」功能。](feature-summary/reports.md)
+如需詳細資訊，請參閱[報告功能。](feature-summary/reports.md)
 
 +++
 
@@ -117,13 +116,13 @@ ht-degree: 0%
 
 +++我可以檢視所有可用的課程嗎？ 如何進行？
 
-您可以切換至學習者角色以檢視所有可用的課程。 請參閱  [課程](../learners/feature-summary/courses.md) 功能以取得詳細資訊
+您可以切換至學習者角色以檢視所有可用的課程。 如需詳細資訊，請參閱[課程](../learners/feature-summary/courses.md)功能
 
 +++
 
 +++如何取得管理員角色存取權？
 
-貴公司的管理員會根據貴組織的資格和指定，為您指派經理角色。 登入時，您會在AdobeLearning Manager中看到「經理」角色首頁。
+貴公司的管理員會根據貴組織的資格和指定，為您指派經理角色。 登入時，您會看到Adobe Learning Manager中的管理員角色首頁。
 
 +++
 

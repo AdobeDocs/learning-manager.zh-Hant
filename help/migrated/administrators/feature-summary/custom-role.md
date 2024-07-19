@@ -19,15 +19,15 @@ ht-degree: 0%
 
 ## 建立自訂角色 {#create-role}
 
-1. 以管理員身分登入。 開啟 **[!UICONTROL Users]** > **[!UICONTROL Custom Role]**.
-1. 選取 **[!UICONTROL Create Role]**. 此 **[!UICONTROL Create New Role]** 標籤開啟。
+1. 以管理員身分登入。 開啟&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Custom Role]**。
+1. 選取&#x200B;**[!UICONTROL Create Role]**。 **[!UICONTROL Create New Role]**&#x200B;索引標籤隨即開啟。
 
    ![](assets/create-new-role.png)
 
    *建立自訂角色*
 
-1. 輸入名稱，在 **[!UICONTROL Name of the Role]** 欄位。
-1. **[!UICONTROL Account privileges]**：這些許可權可讓角色擁有者存取特定系統設定方面，以及作用於整個帳戶的許可權。 選擇存取許可權。 使用者可完全控制指派的許可權。
+1. 在&#x200B;**[!UICONTROL Name of the Role]**&#x200B;欄位中輸入名稱。
+1. **[!UICONTROL Account privileges]**：這些許可權可讓角色擁有者存取特定系統組態方面，並作用於整個帳戶。 選擇存取許可權。 使用者可完全控制指派的許可權。
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 0%
 
    *設定目錄、報表和標籤的範圍*
 
-1. **功能許可權 — 學習物件：**  使用此選項可提供LO相關功能的存取權。 您可以提供下列LO的存取權。
+1. **功能許可權 — 學習物件：**&#x200B;使用此選項來存取學習對象的相關功能。 您可以提供下列LO的存取權。
 
    * 認證
    * 課程
@@ -64,13 +64,13 @@ ht-degree: 0%
 
    ![](assets/learning-objects.png)
 
-   *授予特定許可權*
+   *授與特定許可權*
 
-1. **功能許可權的範圍：** 配置給此角色的功能許可權範圍可以限製為特定使用者群組或一或多個目錄。
+1. **功能許可權的領域：**&#x200B;配置給此角色的功能許可權領域可以限製為特定使用者群組或一或多個目錄。
 
-   目錄：使用選項按鈕提供控制權 **[!UICONTROL All catalogs]** 或使用 **[!UICONTROL Set access per Catalog]** 提供特定目錄存取權的選項。 您也可以選取多個目錄。
+   目錄：使用選項按鈕提供對&#x200B;**[!UICONTROL All catalogs]**&#x200B;的控制，或使用&#x200B;**[!UICONTROL Set access per Catalog]**&#x200B;選項提供特定目錄的存取權。 您也可以選取多個目錄。
 
-   使用者群組：提供存取許可權 **[!UICONTROL All User Groups]** 或使用 **[!UICONTROL Set access per user group]** 提供特定使用者群組存取權的選項。 只能指定單一使用者群組。
+   使用者群組：提供&#x200B;**[!UICONTROL All User Groups]**&#x200B;的存取權或使用&#x200B;**[!UICONTROL Set access per user group]**&#x200B;選項提供特定使用者群組的存取權。 只能指定單一使用者群組。
 
    >[!NOTE]
    >
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 若要授與目錄的各種許可權，請遵循下列步驟：
 
-1. 按一下選項 **[!UICONTROL Set access per Catalog]**.
+1. 按一下選項&#x200B;**[!UICONTROL Set access per Catalog]**。
 1. 選擇目錄，您就能看到每個目錄的許可權層級。 許可權如下：
 
    <table>
@@ -128,7 +128,7 @@ ht-degree: 0%
       </table>
 
 1. 根據您的要求啟用或停用許可權。
-1. 若要儲存變更，請按一下 **[!UICONTROL OK]**. 然後，若要儲存自訂角色的變更，請按一下 **[!UICONTROL Save]**.
+1. 若要儲存變更，請按一下&#x200B;**[!UICONTROL OK]**。 然後，若要儲存自訂角色的變更，請按一下&#x200B;**[!UICONTROL Save]**。
 
 例如，請考量下列情況。
 
@@ -222,9 +222,9 @@ ht-degree: 0%
     </tbody>
    </table>
 
-1. **使用者：** 使用此選項可決定哪些使用者被指派此角色。 您可以使用搜尋方塊選擇一或多個使用者。
+1. **使用者：**&#x200B;使用此選項來決定哪些使用者被指派此角色。 您可以使用搜尋方塊選擇一或多個使用者。
 
-   **新增使用者至自訂角色CSV上傳：** 若要透過CSV更新新增使用者，請新增CustomRole欄至.csv檔案（管理員用來匯入使用者）。 在您要指派自訂角色的使用者的CustomRole欄位下，輸入使用者的角色。 若要上傳CSV檔案，請按一下  **[!UICONTROL Add > Upload a CSV]**.
+   **將使用者新增至自訂角色CSV上傳：**&#x200B;若要透過CSV上傳新增使用者，請將CustomRole欄新增至管理員用來匯入使用者的.csv檔案。 在您要指派自訂角色的使用者的CustomRole欄位下，輸入使用者的角色。 若要上傳CSV檔案，請按一下&#x200B;**[!UICONTROL Add > Upload a CSV]**。
 
    CustomRole欄注意：
 
@@ -247,7 +247,7 @@ Learning Manager已支援使用自訂角色授予內容資料庫存取權的功�
 
 *限制自訂作者的資料夾存取權*
 
-建立自訂作者時，您現在可以將內容資料夾指派給作者。 選擇選項 **選取的資料夾**.
+建立自訂作者時，您現在可以將內容資料夾指派給作者。 選擇選項&#x200B;**選取的資料夾**。
 
 按一下選項後，會開啟一個新對話方塊，您可以在其中將資料夾指派給自訂作者。
 
@@ -255,17 +255,17 @@ Learning Manager已支援使用自訂角色授予內容資料庫存取權的功�
 
 *選取自訂作者的資料夾*
 
-選擇資料夾並按一下 **[!UICONTROL OK]**.
+選擇資料夾並按一下&#x200B;**[!UICONTROL OK]**。
 
 ## 自訂管理員的學習摘要儀表板 {#custom-admin-dashboard}
 
-自訂管理員看到的檢視與管理員看到的相同。 自訂管理員可能會提供超出其範圍的資料。 這僅適用於自訂管理員具有完整範圍的情況。 若要在建立自訂管理員時授與完整範圍，請啟用選項 **[!UICONTROL Full Control]** 在帳戶摘要報表中。
+自訂管理員看到的檢視與管理員看到的相同。 自訂管理員可能會提供超出其範圍的資料。 這僅適用於自訂管理員具有完整範圍的情況。 若要在建立自訂管理員時授與完整範圍，請啟用[帳戶摘要報告]中的選項&#x200B;**[!UICONTROL Full Control]**。
 
 ![](assets/create-custom-role.png)
 
 *建立自訂角色*
 
-因此，選項 **[!UICONTROL All Catalogs]** 和 **[!UICONTROL All User Groups]** 將會被選取，而其餘的則會被停用。
+因此，將會選取選項&#x200B;**[!UICONTROL All Catalogs]**&#x200B;和&#x200B;**[!UICONTROL All User Groups]**，並停用其餘選項。
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -316,7 +316,7 @@ Learning Manager已支援使用自訂角色授予內容資料庫存取權的功�
   </tr>
   <tr>
    <td>建立</td>
-   <td>學習計畫<br>
+   <td>學習方案<br>
      認證<br></td>
    <td>課程<br>
      標籤<br>
@@ -409,7 +409,7 @@ Learning Manager已支援使用自訂角色授予內容資料庫存取權的功�
 
 管理員和完整範圍自訂管理員建立的學習計畫會照常建立，不受範圍限制。
 
-在區段中 **功能許可權範圍**，授與自訂角色的使用者群組和/或目錄的存取權。
+在&#x200B;**功能許可權範圍**&#x200B;區段中，授與使用者群組和/或自訂角色目錄的存取權。
 
 ![](assets/scope-for-featureprivileges.png)
 
@@ -441,35 +441,35 @@ Learning Manager已支援使用自訂角色授予內容資料庫存取權的功�
 
 ![](assets/change-scope.png)
 
-*範圍變更後的訊息*
+範圍變更後&#x200B;*訊息*
 
 自訂管理員現在必須將先前的範圍更新或重新整理到新範圍。
 
-按一下 **[!UICONTROL Refresh Scope]** 更新範圍。 系統會顯示警告訊息。
+按一下&#x200B;**[!UICONTROL Refresh Scope]**&#x200B;可更新範圍。 系統會顯示警告訊息。
 
 ![](assets/refresh-scope-message.png)
 
-*重新整理範圍後的警告訊息*
+重新整理領域後出現&#x200B;*警告訊息*
 
-按一下 **[!UICONTROL Yes]** 更新範圍。
+按一下&#x200B;**[!UICONTROL Yes]**&#x200B;可更新範圍。
 
 ## 新增遊戲化報表至自訂角色 {#gamification-custom}
 
 管理員可以為自訂使用者啟用遊戲化報表。
 
-1. 在 **[!UICONTROL Custom Roles]** 頁面，輸入自訂角色的名稱。
-1. 在 **[!UICONTROL Feature Privileges: Core Features]** 區段，啟用選項 **[!UICONTROL Full Control]** 類別 **[!UICONTROL Reports]**.
+1. 在&#x200B;**[!UICONTROL Custom Roles]**&#x200B;頁面中，輸入自訂角色的名稱。
+1. 在&#x200B;**[!UICONTROL Feature Privileges: Core Features]**&#x200B;區段中，啟用類別&#x200B;**[!UICONTROL Reports]**&#x200B;的選項&#x200B;**[!UICONTROL Full Control]**。
 
-1. 在區段中 **[!UICONTROL Users]**，選取將指派新建立之自訂角色的使用者。
-1. 按一下 **[!UICONTROL Save]**.
+1. 在&#x200B;**[!UICONTROL Users]**&#x200B;區段中，選取將指派新建立之自訂角色的使用者。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
-當使用者以自訂管理員身份登入並按一下 **[!UICONTROL Reports]** 成績單會顯示在左窗格中，如下所示：
+當使用者以自訂管理員身份登入並按一下左窗格上的&#x200B;**[!UICONTROL Reports]**&#x200B;時，成績單會出現，如下所示：
 
 ![](assets/download-gamificationtranscripts.png)
 
 *下載遊戲成績單*
 
-按一下 **[!UICONTROL Gamification Transcripts]**，選擇使用者並產生報表。
+按一下「**[!UICONTROL Gamification Transcripts]**」，選擇使用者並產生報表。
 
 如果管理員變更了層級點，報表會根據目前點顯示層級。
 
@@ -481,6 +481,6 @@ Learning Manager已支援使用自訂角色授予內容資料庫存取權的功�
 
 自訂角色就像作者或管理員角色的子集。 允許一或多個許可權、定義範圍，並將角色指派給使用者。
 
-按一下 **[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**. 在「自訂角色」頁面中，按一下 **[!UICONTROL Create Role]**. 輸入自訂角色的名稱並設定角色的許可權。 如需詳細資訊，請參閱 [建立自訂角色](custom-role.md#create-role).
+按一下&#x200B;**[!UICONTROL Users]** > **[!UICONTROL Custom Roles]**。 在[自訂角色]頁面中，按一下&#x200B;**[!UICONTROL Create Role]**。 輸入自訂角色的名稱並設定角色的許可權。 如需詳細資訊，請參閱[建立自訂角色](custom-role.md#create-role)。
 +++
 

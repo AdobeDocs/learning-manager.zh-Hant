@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 建立學習計畫時無法在目錄下檢視特定課程
 description: 搜尋特定課程以將其新增至學習計畫時，您無法在目錄下檢視課程。
 contentowner: saghosh
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 5920b4e4-f552-4b89-9126-2f1bbf5c8e9b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
 
 ---
-
-
 
 # 建立學習計畫時無法在目錄下檢視特定課程
 

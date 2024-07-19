@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Experience API (xAPI)是eLearning軟體規格，可讓學習內容和學習系統透過記錄和追蹤所有學習體驗的方式彼此交談。 學習體驗會記錄在學習記錄存放區(LRS)中。 LRSs可以存在於傳統學習管理系統(LMS)中或獨立存在。
 
-如需有關xAPI的詳細資訊，請參閱 [xAPIc規格](https://github.com/adlnet/xAPI-Spec).
+如需有關xAPI的詳細資訊，請參閱[xAPIc規格](https://github.com/adlnet/xAPI-Spec)。
 
 ## Learning Manager如何支援xAPI？ {#howdoeslearningmanagersupportxapi}
 
@@ -33,7 +33,7 @@ Learning Manager已內建學習記錄存放區。 此LRS可完全接受來自Lea
 
 ### 設定您的應用程式 {#setupyourapplication}
 
-1. 以整合管理員身分登入。 選取 **[!UICONTROL Applications > Register]**.
+1. 以整合管理員身分登入。 選取&#x200B;**[!UICONTROL Applications > Register]**。
 
    ![](assets/appregistration.png)
 
@@ -47,8 +47,8 @@ Learning Manager已內建學習記錄存放區。 此LRS可完全接受來自Lea
 
 1. 定義應用程式的範圍。
 
-   * 如果 **[!UICONTROL Admin role xAPI read and write access]** 啟用，管理員便能張貼及取得xAPI陳述和檔案。
-   * 如果 **[!UICONTROL Learner role xAPI read and write access]** 啟用，管理員便能張貼及取得xAPI陳述和檔案。
+   * 如果&#x200B;**[!UICONTROL Admin role xAPI read and write access]**&#x200B;已啟用，管理員便能張貼並取得xAPI陳述式與檔案。
+   * 如果&#x200B;**[!UICONTROL Learner role xAPI read and write access]**&#x200B;已啟用，管理員便能張貼並取得xAPI陳述式與檔案。
 
 1. 儲存變更。 您取得開發人員ID和密碼。
 
@@ -75,11 +75,11 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 身為作者，您現在可以在建立課程時選擇xAPI模組，以便在Learning Manager外部監控使用者體驗。 例如，您可以使用此功能來評估使用者在用於課程使用的協力廠商平台上的活動。
 
-1. 建立 **[!UICONTROL Activity Module]**，在**中[!UICONTROL Type]**選項，使用彈出式選單來選取  **[!UICONTROL xAPI-based Module.]**
+1. 建立&#x200B;**[!UICONTROL Activity Module]**&#x200B;時，在**[!UICONTROL Type]**選項中，使用彈出式選單來選取&#x200B;**[!UICONTROL xAPI-based Module.]**
 
    ![](assets/xapimodulecreation.png)
 
-   *選取「xAPI型模組」選項*
+   *選取選項xAPI型模組*
 
 1. 系統要求您提供IRI。 若未提供，Learning Manager會自動產生一個。
 
@@ -93,11 +93,11 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
    任何具有上述IRI的xAPI陳述式都會在上述模組中受到追蹤，並反映在Learning Manager報表中。
 
 1. 若要複製自動產生的IRI，請重新造訪「活動模組」頁面。
-1. 發佈模組。
+1. Publish模組。
 
-**需要注意的事項：**
+**點注意：**
 
-* Learning Manager目前僅支援mbox做為識別碼。 不支援其他識別碼，包括mboz_sha1、openid 、帳戶。
+* Learning Manager目前僅支援   mbox做為識別碼。 不支援其他識別碼，包括mboz_sha1、openid 、帳戶。
 
 * stateId和profileId在搭配Learning Manager使用時為UUID。
 * PUT請求不會覆寫xAPI代理/設定檔、活動/設定檔和活動/狀態的檔案
@@ -108,13 +108,13 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 ## 產生報表 {#generatereports}
 
-xAPI報表可產生為Excel報表。 以管理員身分，開啟 **[!UICONTROL Reports > Excel reports > xAPI activity report]**.
+xAPI報表可產生為Excel報表。 以系統管理員身分，開啟&#x200B;**[!UICONTROL Reports > Excel reports > xAPI activity report]**。
 
 下載的報表會擷取學習者和管理員針對任何陳述式所張貼的所有資訊。
 
 對於任何第三方整合，可以使用FTP和Box聯結器產生/排程相同的報表。 請依照下列步驟執行：
 
-登入身份 **整合管理員>開啟FTP/Box聯結器>選取xAPI活動報表** 從左側面板。 選擇以排程/產生報表。
+以&#x200B;**整合管理員>開啟FTP/Box聯結器>從左側面板選取xAPI活動報告**&#x200B;身分登入。 選擇以排程/產生報表。
 
 ![](assets/xapischedule.png)
 

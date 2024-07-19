@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 無法在Adobe Learning Manager中檢視檔案提交
 description: 講師無法檢視學習者已上傳至提交活動模組中的檔案。
 contentowner: nluke
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 0%
 
 ---
-
-
 
 # 無法在Adobe Learning Manager中檢視檔案提交
 
@@ -20,13 +19,13 @@ ht-degree: 0%
 
 ## 說明
 
-講師無法檢視學習者上傳到中的檔案 **提交活動模組**.
+講師無法檢視學習者已上傳至&#x200B;**提交活動模組**&#x200B;的檔案。
 
-例如，學習者已註冊了名為的執行個體， **測試執行個體** 的課程，如下所示：
+例如，學習者已註冊名為&#x200B;**Test執行個體**&#x200B;的課程，如下所示：
 
 ![](assets/test-instance.png)
 
-*檢視例項*
+*檢視執行個體*
 
 然後，學習者會開啟課程並在活動模組中上傳檔案。
 
@@ -45,19 +44,18 @@ ht-degree: 0%
 若要檢查課程執行個體是否新增了講師，請執行下列步驟：
 
 1. 瀏覽至課程設定。
-1. 在 **管理** 區段，按一下 **[!UICONTROL Instances].**
-1. 在學習者註冊的執行個體中，按一下 **[!UICONTROL Sessions]**.
+1. 在&#x200B;**管理**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Instances].**
+1. 在學習者註冊的執行個體中，按一下&#x200B;**[!UICONTROL Sessions]**。
 
    ![](assets/check-instructor.png)
 
-   *選取執行處理中的階段作業*
+   *選取執行個體中的工作階段*
 
    沒有指派給此工作階段的講師。
 
-1. 按一下 **[!UICONTROL Edit]**. 新增核准檔案提交的講師。
+1. 按一下&#x200B;**[!UICONTROL Edit]**。 新增核准檔案提交的講師。
 
    ![](assets/assign-instructor.png)
 
    *新增講師*
 1. 儲存變更。
-

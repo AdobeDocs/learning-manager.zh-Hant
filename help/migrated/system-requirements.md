@@ -65,7 +65,7 @@ Intel® CoreTM i5或更新版本。
 
 >[!NOTE]
 >
->行動瀏覽器僅支援中的學習者角色 **沈浸式版面**.
+>行動瀏覽器僅支援&#x200B;**沈浸式版面**&#x200B;中的學習者角色。
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Intel® CoreTM i5或更新版本。
 IE 11瀏覽器不支援沈浸式版面首頁。
 
 * Google Chrome 43版和更新版本。
-* 最新版本的Edge、Safari （第13版及更新版本）及Firefox。
+* 最新版本的Edge、Safari （版本13及更新版本）及Firefox。
 * Internet Explorer 11版及更新版本
 
 ## 建議的影像大小 {#recommendedsizeofimages}
@@ -96,9 +96,9 @@ IE 11瀏覽器不支援沈浸式版面首頁。
 
 >[!NOTE]
 >
->如果 *user.csv* 檔案超過100 MB，匯入此檔案可能會導致瀏覽器發生意外行為。 發生此問題的原因是瀏覽器的記憶體不足。
+>如果&#x200B;*user.csv*&#x200B;檔案的大小超過100 MB，匯入此檔案可能會導致瀏覽器發生意外行為。 發生此問題的原因是瀏覽器的記憶體不足。
 
-我們建議匯入大尺寸 *user.csv* 使用自動化Box/Exavault工作流程的檔案。 若要瞭解更多，請參閱 [正在移轉檔案](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+我們建議使用自動化的Box/Exavault工作流程匯入大型&#x200B;*user.csv*&#x200B;檔案。 如需詳細資訊，請參閱[移轉檔案](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
 
 
 ## 支援的內容格式
@@ -254,8 +254,8 @@ IE 11瀏覽器不支援沈浸式版面首頁。
 
 支援下列組合：
 
-* Chrome + NVDA
-* 邊緣+朗讀程式
+* CHROME + NVDA
+* Edge +朗讀程式
 * Mac Safari + VoiceOver
 
 ### 支援沈浸式行動裝置
@@ -309,7 +309,7 @@ IE 11瀏覽器不支援沈浸式版面首頁。
   </tr>
   <tr>
    <td>GetAbstracts聯結器</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>方塊聯結器</td>

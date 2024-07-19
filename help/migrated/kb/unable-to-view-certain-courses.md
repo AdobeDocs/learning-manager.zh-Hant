@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 建立認證時，無法在目錄下檢視某些課程
 description: 搜尋特定課程以將其新增至認證時，您無法在目錄下檢視課程。
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 0%
 
 ---
-
-
 
 # 建立認證時，無法在目錄下檢視某些課程
 
@@ -42,7 +41,7 @@ Learning Manager中有三種註冊型別：
 
 在認證中，您只能新增自助註冊的課程，而不能新增經理指派或經理核准的課程。
 
-* **永續認證：**  您可以在認證中新增CR或VC課程課程。
-* **週期性認證：** 您無法在認證中新增CR或VC工作階段課程。
+* **永久認證：**&#x200B;您可以在認證中新增CR或VC課程課程。
+* **循環認證：**&#x200B;您無法將CR或VC工作階段課程加入認證中。
 
 這是Learning Manager中的預設行為。

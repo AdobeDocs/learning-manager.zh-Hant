@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
 
-如需詳細資訊，請參閱 [Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md).
+如需詳細資訊，請參閱[Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md)。
 
 ## 多重註冊
 
 在此版本的Adobe Learning Manager中，我們將為學習者推出多重註冊，允許學習者在一個或不同時段註冊多個課程例項。
 
-如需詳細資訊，請參閱 [多個註冊](/help/migrated/authors/feature-summary/courses.md).
+如需詳細資訊，請參閱[多重註冊](/help/migrated/authors/feature-summary/courses.md)。
 
 ### 行動應用程式或沈浸式的多重註冊
 
@@ -36,7 +36,7 @@ Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建
 
 ### 多註冊例項中的徽章格式
 
-若要支援多重註冊例項中的徽章，徽章格式會變更為 `userId_badgeId_COURSE_courseId_courseInstanceId`.
+若要支援多重註冊執行個體中的徽章，徽章格式已變更為`userId_badgeId_COURSE_courseId_courseInstanceId`。
 
 ### 使用Headless模式的多重註冊中的Launch播放器
 
@@ -56,7 +56,7 @@ argument_object=
 
 此版本的Adobe Learning Manager將包含新的聯結器，該聯結器將使用AWS傳輸系列的SFTP通訊協定。
 
-此變更也會取代ExaVault聯結器，新使用者將無法再使用它。 您可以使用任何開放原始碼FTP使用者端來取代ExaVault。 如需詳細資訊，請參閱 [從Adobe FTP管理員轉換](transition-from-ftp-manager.md).
+此變更也會取代ExaVault聯結器，新使用者將無法再使用它。 您可以使用任何開放原始碼FTP使用者端來取代ExaVault。 如需詳細資訊，請參閱[從AdobeFTP管理員轉換](transition-from-ftp-manager.md)。
 
 ## Outlook中教室和虛擬工作階段的提醒
 
@@ -92,21 +92,21 @@ argument_object=
 
 Learning Manager中的電子郵件範本現在包含完全可編輯的區段，能根據訊息和品牌偏好設定提供更大的彈性來自訂電子郵件通訊。
 
-如需詳細資訊，請參閱 [自訂電子郵件範本](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates).
+如需詳細資訊，請參閱[自訂電子郵件範本](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates)。
 
 ## 排程助理的增強功能
 
 微調為教室或虛擬工作階段選取講師的程式。 「排程小幫手」的「講師」欄位已新增「使用者群組」篩選器。 作者現在可以根據「講師技能」和任何其他引數（例如位置、語言、指定等）來篩選講師。
 
-如需詳細資訊，請參閱 [排程助理員中的使用者群組篩選器](/help/migrated/authors/feature-summary/courses.md#user-group-filter).
+如需詳細資訊，請參閱排程小幫手](/help/migrated/authors/feature-summary/courses.md#user-group-filter)中的[使用者群組篩選器。
 
 ## 增強學習物件淘汰工作流程
 
-作者現在可以提供 **自動淘汰** 課程日期。 這有助於防止目錄隨時間膨脹，以及需要返回並手動淘汰課程。
+作者現在可以為課程提供&#x200B;**自動淘汰**&#x200B;日期。 這有助於防止目錄隨時間膨脹，以及需要返回並手動淘汰課程。
 
 管理員也可以在帳戶層級決定存取「淘汰」的學習物件的性質。
 
-培訓報表包含新欄、 **自動處分日期**，顯示每個學習物件的淘汰日期（若有設定）。
+訓練報表包含新欄&#x200B;**自動淘汰日期**，以顯示每個學習物件的淘汰日期（若有設定）。
 
 ## 依作者的目錄標籤值
 
@@ -134,7 +134,7 @@ Enrollment API已進行增強功能，以支援和最佳化大規模大量註冊
 
 學習者可以離線模式下載及使用內容。 離線檢視不支援巢狀和彈性的學習路徑。
 
-*在此版本中，僅支援英文內容離線檢視。*
+*在這個版本中，僅英文內容支援離線內容檢視。*
 
 ## 協助工具
 
@@ -148,9 +148,9 @@ Enrollment API已進行增強功能，以支援和最佳化大規模大量註冊
 
 linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入。 作為因應措施，請執行下列動作：
 
-1. 在裝置上，選取 **[!UICONTROL Settings]** > **[!UICONTROL Safari]**.
-1. 停用 **防止跨網站追蹤**.
-1. 停用 **封鎖所有Cookie**.
+1. 在裝置上，選取&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Safari]**。
+1. 停用&#x200B;**防止跨網站追蹤**。
+1. 停用&#x200B;**封鎖所有Cookie**。
 1. 登入沈浸式應用程式。
 1. 播放內容。
 1. 允許快顯。
@@ -171,7 +171,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 ## API變更
 
-如需API變更的詳細資訊，請參閱 [Adobe Learning Manager API參考](https://captivateprime.adobe.com/docs/primeapi/v2/).
+如需API變更的詳細資訊，請參閱[Adobe Learning Manager API參考](https://captivateprime.adobe.com/docs/primeapi/v2/)。
 
 ### 新建議的API支援
 
@@ -179,7 +179,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 如果啟用prlRecommendation，則會傳回。
 
-**請求**
+**要求**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/account`
 
@@ -187,7 +187,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 傳回產品/主題清單。 結果取決於帳戶設定，該設定會確認學習者是否可看見所有產品，或產品/主題是否可看見目錄。
 
-**請求**
+**要求**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=product&filter.showAllRecommenda`
 
@@ -195,7 +195,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 傳回建議的角色清單。
 
-**請求**
+**要求**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=role&filter.showAllRecommendationCriteria=false`
 
@@ -203,7 +203,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 傳回建議的角色清單。
 
-**請求**
+**要求**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
 
@@ -211,7 +211,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 搜尋也包含查詢中的產品和角色引數。 查詢和內文沒有變更。 我們將新增排序選項
 
-**請求**
+**要求**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
 
@@ -219,7 +219,7 @@ linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入
 
 如果PRL建議為即時，學習物件模型會傳回作者標籤的建議。
 
-**請求URL**
+**要求URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects?sort=recommendationScore&filter.recommendationProducts=...&filter.recommendationRoles=...&filter.excludeIgnoredRecommendations=true`
 
@@ -305,7 +305,7 @@ POST/learningObjects/query
 
 依recommendationProduct ID擷取PRL產品。
 
-**請求URL**
+**要求URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationProducts`
 
@@ -313,7 +313,7 @@ GET/recommendationRoles
 
 依recommendationProduct ID擷取PRL產品。 系統只會傳回（學習物件）的可見角色。
 
-**請求URL**
+**要求URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/prlRecommendations/roles`
 
@@ -369,7 +369,7 @@ GET/recommendationRoles
 
 **`GET /users/{id}/recommendationPreferences`**
 
-**請求URL**
+**要求URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2//users/123/recommendationPreferences`
 
@@ -377,7 +377,7 @@ GET/recommendationRoles
 
 刪除產品或角色的PRL建議使用者偏好設定。
 
-**請求URL**
+**要求URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
 
@@ -424,7 +424,7 @@ Ids =要刪除的ID清單
 
 將記錄檔案新增至封鎖的建議。
 
-**請求URL**
+**要求URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
@@ -432,7 +432,7 @@ Ids =要刪除的ID清單
 
 從封鎖的建議刪除記錄檔。
 
-**請求URL**
+**要求URL**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
@@ -473,11 +473,11 @@ Ids =要刪除的ID清單
 
 取消註冊特定學習物件例項。
 
-**POST/註冊**
+**POST/enrollments**
 
 支援不同執行個體的註冊。
 
-**GET/註冊**
+**GET/enrollments**
 
 取得學習物件的僅主要註冊。
 
@@ -511,7 +511,7 @@ Ids =要刪除的ID清單
 
 **管理API變更**
 
-* GET/users/{id}/enrollings
+* GET/users/{id}/註冊
 * POST/users/{id}/enrollings
 * DELETE/users/{id}/enrollments/{enrollmentId}
 * PATCH/users/{id}/enrollments/{enrollmentId}
@@ -522,8 +522,8 @@ Ids =要刪除的ID清單
 
 範例請求
 
-* GET `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
-* GET `https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
+* GET`https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
+* GET`https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
 
 ### 搜尋因實作而來的API變更（英文地區設定）
 
@@ -540,7 +540,7 @@ API查詢引數：
 
 ### 移除V1端點
 
-V1 API在此版本中將停止運作。 如需詳細資訊，請參閱 [開發人員手冊](/help/migrated/integration-admin/feature-summary/developer-manual.md).
+V1 API在此版本中將停止運作。 如需詳細資訊，請參閱[開發人員手冊](/help/migrated/integration-admin/feature-summary/developer-manual.md)。
 
 ### 課程註冊或取消註冊的通知
 
@@ -565,15 +565,15 @@ V1 API在此版本中將停止運作。 如需詳細資訊，請參閱 [開發�
 * 學習者API的覆寫標幟。
 * 我們將變更highlightResults=false的預設值。 此外，我們也會變更snippetType=courseName的預設值。
 * 我們將棄用搜尋端點中的matchType=bool。
-* autoCompleteMode [已棄用] 標籤並提供與autoCompleteMode =false相同的功能，我們新增了名為Match的matchType。
+* autoCompleteMode有[已棄用]標籤，為了提供與autoCompleteMode =false相同的功能，我們新增了一個名為Match的matchType。
 
 ### 多註冊之徽章ID格式
 
-為了支援多重註冊的執行個體預算，我們變更了課程預算的格式 `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` 以唯一識別徽章。
+為了支援多重註冊的執行個體徽章，我們將課程徽章的格式從`userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId`變更為唯一識別徽章。
 
 ## 發行說明
 
-如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱 [發行說明](/help/migrated/release-note/release-notes.md).
+如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱[發行說明](/help/migrated/release-note/release-notes.md)。
 
 ## 此版本中的已知問題或限制
 

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Connect整合
 description: 作者可在課程建立過程中使用Adobe Connect建立虛擬教室課程。 若要為Learning Manager帳戶啟用Adobe Connect，請聯絡組織的管理員。
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
 
 ---
-
-
 
 # Adobe Connect整合
 
@@ -18,7 +17,7 @@ ht-degree: 0%
 ## 使用Adobe Connect建立虛擬教室(VC)課程 {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. 在「我的課程」頁面中，按一下「新增模組」，然後選擇「虛擬教室空間」。 「建立虛擬教室」對話方塊隨即顯示。
-1. 在 **會議系統** 選項，選擇Adobe Connect。
+1. 在&#x200B;**會議系統**&#x200B;選項中，選擇Adobe Connect。
 
    ![](assets/create-vc-author.png)
 
@@ -36,7 +35,7 @@ ht-degree: 0%
    *從清單中選取講師*
 
 1. 提供VC課程的完成條件。 完成標準是學習者必須參加課程總時間的百分比，才能視為課程完成。 例如，課程的持續時間是1小時。 如果您提供50%作為完成條件，則如果學習者參加課程甚至30分鐘，則會視為學習者的課程完成。
-1. 按一下 **[!UICONTROL Done]**.
+1. 按一下&#x200B;**[!UICONTROL Done]**。
 
 ## 共用的Adobe Connect範本 {#sharedtemplatesofadobeconnect}
 

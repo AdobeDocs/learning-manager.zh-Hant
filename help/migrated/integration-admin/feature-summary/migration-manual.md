@@ -33,7 +33,7 @@ Learning Manager提供必要的工具和規格，好讓貴組織的整合管理�
 Learning Manager團隊期望貴組織的整合管理員在進行移轉程式前先執行下列工作：
 
 * 整合管理員會從現有的LMS中擷取資料和內容，並將資料轉換為Learning Manager定義的檔案格式。
-* Learning Manager不支援在移轉過程中匯入使用者，並期望組織使用聯結器匯入使用者。 Adobe Systems預計這些聯結器會在移轉程式之前設定。 請參閱 [Learning Manager聯結器說明](connectors.md) 以取得詳細資訊。
+* Learning Manager不支援在移轉過程中匯入使用者，並期望組織使用聯結器匯入使用者。 Adobe Systems預計這些聯結器會在移轉程式之前設定。 如需詳細資訊，請參閱[Learning Manager聯結器說明](connectors.md)。
 
 Learning Manager建議管理員在將資料和內容移轉至Learning Manager生產環境前，先在試用帳戶中嘗試移轉程式。
 
@@ -91,7 +91,7 @@ Learning Manager移轉程式的重要概念可簡單說明以供快速參考，�
 
 在Learning Manager中，移轉專案包含一或多個短跑。 您的帳戶也可以有多個移轉專案。 您在Learning Manager中的移轉程式會從建立移轉專案開始。
 
-**衝刺(sprint)**
+**衝刺**
 
 Learning Manager移轉程式中的Sprint會定義您選擇從現有LMS移轉的一組移轉專案。 移轉專案可以是課程模組、學習者記錄或一組課程。 衝刺中可以有多個學習資料專案。 您可以在每個衝刺中執行移轉工作。
 
@@ -105,7 +105,7 @@ Sprint Run是啟動Sprint移轉工作的程式。 您可以在「執行」的任
 
 **CSV規格**
 
-Learning Manager提供了一組 [標準CSV規格](migration-manual.md#main-pars_header_140933605). 最佳實務是在開始移轉程式前先通過這些CSV規格。 貴組織的整合管理員可以分析現有的資料格式，並對應這些格式以符合Learning Manager提供的CSV範本專案。
+Learning Manager提供了一組[標準CSV規格](migration-manual.md#main-pars_header_140933605)。 最佳實務是在開始移轉程式前先通過這些CSV規格。 貴組織的整合管理員可以分析現有的資料格式，並對應這些格式以符合Learning Manager提供的CSV範本專案。
 
 **移轉專案標籤**
 
@@ -385,7 +385,7 @@ Learning Manager可讓您上傳不含內容的模組。 Adobe Systems將其視�
  </tbody>
 </table>
 
-Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果您在日期超出範圍的CSV檔案中提及日期2038-07-17T08，則在移轉期間可能會收到錯誤:53:21.000Z或1980-04-17T08:13:25.322赫
+Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果您提到日期超出範圍的CSV檔案中的日期，例如2038-07-17T08:53:21.000Z或1980-04-17T08:13:25.322Z，則在移轉期間可能會發生錯誤。
 
 * [sample-csvs.zip](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
@@ -435,27 +435,27 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 您會收到來自Box的電子郵件，其中包含共用資料夾的連結。 如果您沒有Box帳戶，請按一下[註冊]並建立帳戶。 登入指示會傳送至整合管理員電子郵件ID。
 
-**將資料（.csv檔案）上傳至FTP資料夾或Box資料夾**
+**正在上傳資料（.csv檔案）至FTP資料夾或Box資料夾**
 
-建立FTP或Box帳戶是建立移轉專案的先決條件。 因此，在這個階段，您可以在Learning Manager應用程式中建立移轉專案和Sprint。  請參閱 **資料與內容移轉程式** 區段建立移轉專案。
+建立FTP或Box帳戶是建立移轉專案的先決條件。 因此，在這個階段，您可以在Learning Manager應用程式中建立移轉專案和Sprint。  請參閱此頁面中的&#x200B;**資料與內容移轉程式**&#x200B;區段，以建立移轉專案。
 
 在FTP或Box帳戶中，按一下您的專案資料夾名稱，然後按一下Sprint名稱。 在sprint資料夾中，您可以上傳要移轉的.csv資料檔案。 若要上傳，請按一下FTP或Box伺服器頂端的「上傳檔案」按鈕，並拖放.csv檔案。 上傳至FTP後的範例快照如下所示，以供您參考。
 
 <!--![](assets/exavault-upload.png)-->
 
-您可以回到學習管理器移轉專案，按一下 **[!UICONTROL Refresh]** 和檢視移轉Sprint中列出的所有.csv資料型別。
+您可以返回Learning Manager移轉專案，按一下「**[!UICONTROL Refresh]**」並檢視移轉Sprint中列出的所有.csv資料型別。
 
-**將培訓內容上傳至內容資料夾**
+**將訓練內容上傳至內容資料夾**
 
-將現有LMS的訓練內容上傳至您的Box帳戶。 如果您已建立移轉專案和衝刺，則Box帳戶會填入移轉專案和衝刺名稱。 您可以透過相同路徑上傳內容。 請參閱 **資料與內容移轉程式** 區段建立移轉專案。
+將現有LMS的訓練內容上傳至您的Box帳戶。 如果您已建立移轉專案和衝刺，則Box帳戶會填入移轉專案和衝刺名稱。 您可以透過相同路徑上傳內容。 請參閱此頁面中的&#x200B;**資料與內容移轉程式**&#x200B;區段，以建立移轉專案。
 
-您可以拖放內容檔案或按一下 **[!UICONTROL Upload]** 並從您的案頭選取檔案。 如果內容的檔案大小很大，上傳檔案時可能會遇到一些時間延遲。 根據檔案的大小，將檔案上傳至您的Box帳戶所花費的時間會有所不同。
+您可以拖放內容檔案，或按一下&#x200B;**[!UICONTROL Upload]**&#x200B;並從案頭選取檔案。 如果內容的檔案大小很大，上傳檔案時可能會遇到一些時間延遲。 根據檔案的大小，將檔案上傳至您的Box帳戶所花費的時間會有所不同。
 
 上傳內容至Box帳戶後的範例快照如下所示，以供您參考：
 
 ![](assets/box-account.png)
 
-*Box帳戶中的檔案*
+Box帳戶中的&#x200B;*檔案*
 
 檔案上傳至Box帳戶後，請務必在module_version.csv檔案中提及此Box內容檔案的相對路徑。 這是指示模組內容路徑的強制步驟。
 
@@ -463,44 +463,44 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 ![](assets/after-setup.jpg)
 
-*Box帳戶中的CSV位置*
+Box帳戶&#x200B;*中的* CSV位置
 
 ## 資料與內容移轉程式 {#dataandcontentmigrationprocedure}
 
 將企業LMS資料和內容移轉至Learning Manager的程式說明如下：
 
-開始移轉之前，請先詳閱移轉程式的先決條件。 請參閱 [CSV規格和範例CSV](migration-manual.md#main-pars_header_140933605) 以及準備CSV以移轉資料和內容。
+開始移轉之前，請先詳閱移轉程式的先決條件。 請參閱本頁的[CSV規格和範例CSV](migration-manual.md#main-pars_header_140933605)區段，並準備CSV以移轉資料和內容。
 
-1. 以整合管理員身分登入Learning Manager應用程式並按一下 **[!UICONTROL Migration]** 在左窗格中。
+1. 以整合管理員身分登入Learning Manager應用程式，然後按一下左窗格上的&#x200B;**[!UICONTROL Migration]**。
 
    移轉專案首頁即會顯示。 如果貴組織已建立移轉專案，您可以在此頁面檢視所有移轉專案的清單。
 
-1. 按一下 **[!UICONTROL New]** ，建立移轉專案。 或者，您可以按一下 **[!UICONTROL Create a migration project]** 頁面上的連結以建立移轉專案。 建立移轉專案頁面隨即顯示。
+1. 按一下頁面右上角的&#x200B;**[!UICONTROL New]**&#x200B;以建立移轉專案。 或者，您可以按一下頁面上的&#x200B;**[!UICONTROL Create a migration project]**&#x200B;連結以建立移轉專案。 建立移轉專案頁面隨即顯示。
 
    如果您尚未建立FTP資料夾，系統會提示您在該帳戶中建立FTP資料夾。 這是開始建立移轉專案之前的必要步驟。
 
    ![](assets/create-project.png)
    *建立FTP資料夾*
 
-   提供移轉專案的專案名稱、專案標籤、課程目錄及說明。 按一下 **[!UICONTROL Create]**.
+   提供移轉專案的專案名稱、專案標籤、課程目錄及說明。 按一下&#x200B;**[!UICONTROL Create]**。
 
    您的移轉資料專案會使用此移轉專案標籤識別。 如果您沒有任何特定的課程目錄，請從下拉式清單中選擇預設目錄。 您使用移轉專案移轉的所有課程都將包含在此階段選擇的目錄中。 如果您未選擇任何目錄，則所有移轉的課程都會成為預設目錄的一部分。
 
-1. 此時會顯示「衝刺」組態頁面，如下列快照中所示。 您必須建立快速衝刺作為移轉專案的一部分。 選擇「衝刺」名稱，並提供衝刺的簡短說明。 如果您要移轉內容作為此衝刺的一部分，可以選擇「是」。 按一下 **[!UICONTROL Next]**.
+1. 此時會顯示「衝刺」組態頁面，如下列快照中所示。 您必須建立快速衝刺作為移轉專案的一部分。 選擇「衝刺」名稱，並提供衝刺的簡短說明。 如果您要移轉內容作為此衝刺的一部分，可以選擇「是」。 按一下&#x200B;**[!UICONTROL Next]**。
 
    ![](assets/users-modified-sprint.png)
    *衝刺移轉*
 
-   選取具有標題的核取方塊 **自上次執行以來，已新增或修改使用者**，將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，則最佳實務是您選擇同步化使用者清單。 此步驟可讓Learning Manager資料庫與LMS使用者同步。
+   選取標題為&#x200B;**自從上次執行**&#x200B;後新增或修改的使用者核取方塊，以將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，則最佳實務是您選擇同步化使用者清單。 此步驟可讓Learning Manager資料庫與LMS使用者同步。
 
    移轉enrollment.csv和user_course_grade.csv時，建議執行此同步化步驟。 此步驟可讓Learning Manager資料庫與您的移轉資料庫保持同步，並確保所有要在Sprint中移轉記錄的使用者都可在移轉資料庫中使用。
 
-1. 您可以使用上傳的資料和內容開始Sprint移轉。 按一下 **[!UICONTROL Refresh]** 啟動「快速執行」之前的連結，以便將FTP和內容資料夾與Learning Manager應用程式同步。
+1. 您可以使用上傳的資料和內容開始Sprint移轉。 在啟動Sprint Run之前，請按一下「**[!UICONTROL Refresh]**」連結，將FTP和內容資料夾與Learning Manager應用程式同步。
 
    ![](assets/sprint1-filesupload.png)
    *開始衝刺移轉*
 
-   按一下 **[!UICONTROL Start]** 位於頁面的右上角。 您可以按一下 **[!UICONTROL Stop]** 在Sprint移轉程式期間的任何時間點，中止該sprint移轉。
+   按一下頁面右上角的&#x200B;**[!UICONTROL Start]**。 您可以在Sprint移轉程式期間的任何時間點按一下「**[!UICONTROL Stop]**」以中止該Sprint移轉。
 
    移轉狀態會顯示在每個衝刺資料專案與內容上。 檢查移轉衝刺執行中成功和失敗的專案數。
 
@@ -516,7 +516,7 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
    ![](assets/sprint-list.png)
    *檢視衝刺清單*
 
-1. 上傳最新更新的CSV後，您可以按一下頁面右上角的「重新執行」 。 重新執行會再次處理所有資料專案，忽略沒有任何變更的專案。 當您對快速載入中的資料專案移轉感到滿意後，可以按一下頁面頂端的按鈕，將快速載入的移轉標示為完成。 您稍後可以啟動含有更多資料專案的新衝刺。 一旦Sprint被標籤為完成，您就無法再重新執行。 同樣地，在移轉專案中，您可以有任意數目的衝刺。 在您滿意所有Sprint的移轉狀態後，您可以按一下「 」，將「移轉」專案標示為「完成」 **將專案標籤為完成** 連結（在「衝刺清單」頁面上）。
+1. 上傳最新更新的CSV後，您可以按一下頁面右上角的「重新執行」 。 重新執行會再次處理所有資料專案，忽略沒有任何變更的專案。 當您對快速載入中的資料專案移轉感到滿意後，可以按一下頁面頂端的按鈕，將快速載入的移轉標示為完成。 您稍後可以啟動含有更多資料專案的新衝刺。 一旦Sprint被標籤為完成，您就無法再重新執行。 同樣地，在移轉專案中，您可以有任意數目的衝刺。 在您滿意所有Sprint的移轉狀態後，您可以按一下[Sprint清單]頁面上的&#x200B;**將專案標籤為完成**&#x200B;連結，將[移轉]專案標籤為完成。
 
    將移轉專案標籤為完成之前，您必須確保專案的所有衝刺都已完成。 一旦您將移轉專案標籤為完成，您就無法返回在該專案中建立任何沖刺，或對該專案進行任何修改。 您必須建立另一個移轉專案，並新增衝刺。
 
@@ -546,7 +546,7 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 ## 疑難排解移轉問題 {#troubleshootingmigrationissues}
 
-[按一下這裡](../../kb/troubleshooting-migration.md) 瞭解整合管理員在將資料和內容從現有LMS移轉至Learning Manager應用程式時面臨問題的因應措施/解決方案。
+[按一下這裡](../../kb/troubleshooting-migration.md)以瞭解整合管理員在將資料和內容從現有LMS移轉至Learning Manager應用程式時面臨問題的因應措施/解決方案。
 
 ## 使用者管理提示 {#usermanagement}
 
@@ -563,7 +563,7 @@ Learning Manager支援UUID，讓組織可靈活控制使用者帳戶。 作為�
 
 **組織中UUID的使用案例**
 
-假設員工A加入名為Learning Manager的公司作為承包商。 合約期間，Learning Manager公司可能不會提供公司電子郵件ID，如 ```A@example.com```，而是公司可能只考慮員工的個人電子郵件帳戶，例如 ```A@gmail.com```. 完成6個月的合約期後，如果同一位員工A加入Learning Manager成為全職員工，則Learning Manager可能會想要將他的電子郵件ID變更為公司的電子郵件ID： ```A@example.com```.
+假設員工A加入名為Learning Manager的公司作為承包商。 合約期間，Learning Manager公司不得提供公司電子郵件識別碼為```A@example.com```，而公司可能只考慮員工的個人電子郵件帳戶，例如```A@gmail.com```。 完成6個月的合約期後，如果同一位員工A加入Learning Manager成為全職員工，則Learning Manager可能會想要將他的電子郵件ID變更為公司的電子郵件ID： ```A@example.com```。
 
 在上述案例中，擁有使用者帳戶的UUID存取權將使公司Learning Manager受益。 Learning Manager公司可輕鬆將員工A的個人電子郵件ID取代為正式電子郵件ID。 與此帳戶相關的員工記錄不會受此變更影響。
 

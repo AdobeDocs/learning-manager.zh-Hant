@@ -17,7 +17,7 @@ ht-degree: 0%
 
 技能圖是組織中員工技能組、知識和特徵的分組。 這些技能圖可協助公司/組織設定或提升員工的績效期望。 技能可讓員工調整其行為以符合組織的期望。
 
-Adobe學習管理員可讓您使用技能圖，根據學習者的技能組合來對應學習者的績效。 當學習者完成某些課程時，學習者可以透過檢視技能圖瞭解自己對於每項技能的優勢。
+Adobe Learning Manager可讓您使用技能圖，根據學習者的技能組合來對應學習者的績效。 當學習者完成某些課程時，學習者可以透過檢視技能圖瞭解自己對於每項技能的優勢。
 
 Learning Manager LMS中「技能」的基本用途是為管理員提供符合業務目標的學習工具。
 
@@ -31,13 +31,13 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 若要新增技能，請遵循下列步驟：
 
-1. 在左窗格中，選取 **[!UICONTROL Skills]** > **[!UICONTROL Add]** > **[!UICONTROL Add SKills]**. 為技能提供名稱和說明。
+1. 在左窗格中，選取&#x200B;**[!UICONTROL Skills]** > **[!UICONTROL Add]** > **[!UICONTROL Add SKills]**。 為技能提供名稱和說明。
 
    ![](assets/add-skill-name-anddescription.png)
 
-   *新增技能的名稱和說明*
+   *新增技能的名稱和描述*
 
-1. 將網域指派給技能。 建立技能時，您可以將其對應到Learning Manager支援的最相關技能領域。 如需詳細資訊，請參閱 [***將技能與網域對應***](/help/migrated/administrators/feature-summary/curation-skills.md).
+1. 將網域指派給技能。 建立技能時，您可以將其對應到Learning Manager支援的最相關技能領域。 如需詳細資訊，請參閱&#x200B;[***對應網域技能***](/help/migrated/administrators/feature-summary/curation-skills.md)。
 
    開始在欄位中輸入網域，您就能看到建議。 選擇與技能相關的一個或多個選項。
 
@@ -45,7 +45,7 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
    *新增網域*
 
-1. 指派技能的層級。 若要新增層級，請按一下 **[!UICONTROL Add]**.
+1. 指派技能的層級。 若要新增層級，請按一下&#x200B;**[!UICONTROL Add]**。
 
    您可以建立並指派技能給員工。 技能有各種層次，每個層次都需要獲得一定數量的學分。
 
@@ -61,14 +61,14 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
    小數點支援只有英文版。
 
-1. 選擇層級的徽章。 從 **[!UICONTROL Badge]** 從下拉式清單中，選取必須作為該層級徽章使用的影像。
-1. 若要儲存變更，請按一下 **[!UICONTROL Save]**.
+1. 選擇層級的徽章。 從&#x200B;**[!UICONTROL Badge]**&#x200B;下拉式清單中，選取必須作為該層級徽章的影像。
+1. 若要儲存變更，請按一下&#x200B;**[!UICONTROL Save]**。
 
-   建立技能後，您可以在以下位置找到新建立的技能： **[!UICONTROL Skill]** 頁面。 您也可以檢視網域和技能的簡短說明。 您也可以檢視已指定給每個層次的層次與銷退折讓。
+   建立技能後，您可以在&#x200B;**[!UICONTROL Skill]**&#x200B;頁面上找到新建立的技能。 您也可以檢視網域和技能的簡短說明。 您也可以檢視已指定給每個層次的層次與銷退折讓。
 
    ![](assets/list-of-skills.png)
 
-   *檢視技能清單*
+   *檢視OIF技能清單*
 
 ## 將技能指派給學習者 {#assigntheskilltolearners}
 
@@ -76,15 +76,15 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 建立您的技能並儲存後，這些技能會列在技能頁面中。 現在，您可以開始將這些技能指派給學習者，如下所示：
 
-1. 在 **[!UICONTROL Skill]** 頁面，按一下包含已註冊該技能的學習者人數的超連結。 若為新建立的技能，所有層級的學習者人數為零。
+1. 在&#x200B;**[!UICONTROL Skill]**&#x200B;頁面上，按一下包含已註冊該技能的學習者人數的超連結。 若為新建立的技能，所有層級的學習者人數為零。
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
-   *檢視指派給某個技能的學習者*
+   *檢視指派給某項技能的學習者*
 
    在此範例中，新增第1級的學習者。 按一下層級1旁的超連結。
 
-1. 在學習者對話方塊中，按一下 **[!UICONTROL Add Learners]**.
+1. 在學習者對話方塊中，按一下&#x200B;**[!UICONTROL Add Learners]**。
 
    ![](assets/add-learners.png)
 
@@ -96,9 +96,9 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
    *搜尋並新增學習者*
 
-1. 若要儲存變更，請按一下 **[!UICONTROL Save]**.
+1. 若要儲存變更，請按一下&#x200B;**[!UICONTROL Save]**。
 
-   在您指派學習者後，使用者群組中的所有學習者（如果有的話）都會預設自動註冊該技能。 您可以按一下 **[!UICONTROL Auto Enroll]** 按鈕。
+   在您指派學習者後，使用者群組中的所有學習者（如果有的話）都會預設自動註冊該技能。 您可以按一下&#x200B;**[!UICONTROL Auto Enroll]**&#x200B;按鈕，讓學習者選擇退出自動註冊。
 
    ![](assets/turn-off-auto-enrollment.png)
 
@@ -106,13 +106,13 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
    個別學習者可自動註冊，或由管理員註冊學習計畫。
 
-1. 在您按一下 **[!UICONTROL Close]**，即可檢視已指派至您已建立之技能的學習者總數。
+1. 按一下「**[!UICONTROL Close]**」後，您可以看到已指派給您已建立之技能的學習者總數。
 
    在此範例中，使用者群組中有兩個個別學習者和三個學習者。
 
    ![](assets/learners-assignedtoaskill.png)
 
-   *指派給技能的學習者數*
+   *指派給某項技能的學習者數*
 
 ## 將技能指派給課程 {#assignskilltocourse}
 
@@ -122,11 +122,11 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 *指派技能給課程*
 
-作者發佈課程後，在 **[!UICONTROL Skill]** 頁面中，您可以看到與技能等級相關聯的課程計數，當您指派技能給新課程時，此計數會增加。
+作者發佈課程後，您可以在&#x200B;**[!UICONTROL Skill]**&#x200B;頁面上看到與技能等級相關聯的課程計數，當您指派技能給新課程時，此計數會增加。
 
 ![](assets/skill-assigned-tothecourse.png)
 
-*與技能等級相關聯的課程數*
+*與技能等級相關的課程數目*
 
 ## 將工作輔助指派給技能 {#assignajobaidtotheskill}
 
@@ -138,34 +138,34 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 *建立工作輔助*
 
-在 **[!UICONTROL Skill]** 頁面中，您可以看到與該技能等級相關聯的工作輔助數目。
+在&#x200B;**[!UICONTROL Skill]**&#x200B;頁面上，您可以看到與該技能等級相關聯的工作輔助數目。
 
 ![](assets/job-aid-assignedtotheskill.png)
 
-*某項技能的工作輔助數目*
+*技能的工作輔助數目*
 
 ## 搜尋技能 {#searchskill}
 
 輸入技能的名稱並從顯示的選項中選擇技能，即可搜尋任何技能。 提前輸入搜尋也適用於此處。
 
-您可以搜尋以下兩個專案中的技能： **[!UICONTROL Active]** 和 **[!UICONTROL Retired]** 技能頁面的區段。
+您可以在「技能」頁面的&#x200B;**[!UICONTROL Active]**&#x200B;和&#x200B;**[!UICONTROL Retired]**&#x200B;區段中搜尋技能。
 
 ## 編輯技能 {#editaskill}
 
-在 **[!UICONTROL Skill]** 頁面上，按一下您要修改的技能。 在 **[!UICONTROL Edit Skill]** 對話方塊，進行必要的變更，例如
+在&#x200B;**[!UICONTROL Skill]**&#x200B;頁面上，按一下您要修改的技能。 在&#x200B;**[!UICONTROL Edit Skill]**&#x200B;對話方塊中進行必要的變更，例如
 
 * 新增或刪除技能領域。
 * 編輯技能的名稱和說明。
 * 新增技能等級或修改現有等級。
 * 新增或刪除技能的徽章。
 
-完成變更後，按一下 **[!UICONTROL Save]**.
+完成變更後，請按一下&#x200B;**[!UICONTROL Save]**。
 
 ## 淘汰技能 {#retireaskill}
 
-若要淘汰技能，請在 **[!UICONTROL Skill]** 頁面上，選取您要淘汰的技能。
+若要淘汰技能，請在&#x200B;**[!UICONTROL Skill]**&#x200B;頁面上選取您要淘汰的技能。
 
-從 **[!UICONTROL Actions]** 功能表，在頁面的右上角，按一下 **[!UICONTROL Retire]**.
+從&#x200B;**[!UICONTROL Actions]**&#x200B;功能表，按一下頁面右上角的&#x200B;**[!UICONTROL Retire]**。
 
 當您淘汰一項技能時，該技能將不再出現在課程中。
 
@@ -173,17 +173,17 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 ## 重新發佈技能 {#republishaskill}
 
-一旦您淘汰了一項技能，該已淘汰的技能便會出現在 **[!UICONTROL Retired]** 標籤。 此索引標籤會顯示所有已淘汰技能的清單。
+一旦您淘汰某項技能，該已淘汰的技能就會出現在&#x200B;**[!UICONTROL Retired]**&#x200B;標籤中。 此索引標籤會顯示所有已淘汰技能的清單。
 
-若要重新發佈已淘汰的技能，請選擇該技能，然後從 **[!UICONTROL Actions]** 功能表，按一下 **[!UICONTROL Republish]**.
+若要重新發佈已淘汰的技能，請選擇該技能，然後從&#x200B;**[!UICONTROL Actions]**&#x200B;功能表按一下&#x200B;**[!UICONTROL Republish]**。
 
-這樣會恢復技能，您就可以在以下位置再次看到技能： **[!UICONTROL Active]** 標籤。
+這會恢復技能，您可以在&#x200B;**[!UICONTROL Active]**&#x200B;索引標籤中再次看到技能。
 
 ## 刪除技能 {#deleteaskill}
 
 您只能刪除先前已淘汰的技能。
 
-在 **[!UICONTROL Retired]** 索引標籤中，選取您要刪除的技能，然後從 **[!UICONTROL Actions]** 功能表，按一下 **[!UICONTROL Delete]**.
+在&#x200B;**[!UICONTROL Retired]**&#x200B;索引標籤中，選取您要刪除的技能，然後從&#x200B;**[!UICONTROL Actions]**&#x200B;功能表按一下&#x200B;**[!UICONTROL Delete]**。
 
 僅當技能未與任何學習者、課程或工作輔助相關聯時，您才可以刪除技能。
 
@@ -191,7 +191,7 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 新增包含講師技能的CSV檔案。 然後，這些技能會新增至技能清單。
 
-1. 在畫面的右上角，選取 **[!UICONTROL Add]** > **[!UICONTROL Assign skills to instructor]**.
+1. 在熒幕的右上角，選取&#x200B;**[!UICONTROL Add]** > **[!UICONTROL Assign skills to instructor]**。
 1. 上傳csv。 CSV中的欄包括：
 
    * 技能名稱
@@ -210,9 +210,9 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
    注意：如果CSV包含不正確的欄位，則會彈出以下錯誤訊息。
 
-   ![如果CSV的欄位不正確，則出現錯誤訊息](assets/error-csv-upload.png)
+   ![如果CSV有不正確的欄位，則出現錯誤訊息](assets/error-csv-upload.png)
 
-   *不正確欄位的錯誤訊息*
+   不正確欄位的&#x200B;*錯誤訊息*
 
 ### 技能頁面
 
@@ -224,8 +224,8 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 ### 下載技能指派CSV
 
-1. 在「技能」頁面上，按一下 **[!UICONTROL Add]** > **[!UICONTROL Assign Skills to instructor]**.
-1. 在對話方塊中，按一下 **[!UICONTROL Previously Added Assignment]**.
+1. 在[技能]頁面上，按一下&#x200B;**[!UICONTROL Add]** > **[!UICONTROL Assign Skills to instructor]**。
+1. 在對話方塊中，按一下&#x200B;**[!UICONTROL Previously Added Assignment]**。
 1. 將會下載您上次上傳的CSV。
 
 >[!NOTE]
@@ -257,7 +257,7 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 +++如何將技能指派給課程？
 
-請參閱區段 [指派技能給課程](skills-levels.md#assignskilltocourse) 以取得程式的詳細資訊。
+如需程式的詳細資訊，請參閱[指派技能給課程](skills-levels.md#assignskilltocourse)一節。
 +++
 
 +++如何變更技能等級？
@@ -271,16 +271,16 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 ![](assets/course-skills.png)
 
-若要為課程完成啟用徽章，請在 **[!UICONTROL Instances]** 區段，啟用必要的徽章。
+若要啟用課程完成的徽章，請在作者應用程式的&#x200B;**[!UICONTROL Instances]**區段中，啟用必要的徽章。
 +++
 
 +++即使徽章顯示「進行中」，管理員是否仍可以將徽章標籤為完成？
 
-管理員可將學習物件標示為完成。 技能與徽章與學習物件相關聯，且無法加以標籤 **[!UICONTROL Complete]** 另外提供。
+管理員可將學習物件標示為完成。 技能與徽章與學習物件相關聯，且無法單獨標示&#x200B;**[!UICONTROL Complete]**。
 
-換句話說，要取得徽章， **您必須完成相關的學習物件**.
+換句話說，若要取得徽章，**必須完成相關的學習物件**。
 +++
 
 ### 更多相關資訊
 
-* [技能與Adobe學習管理員](https://elearning.adobe.com/2018/11/skills-captivate-prime/)
+* [技能和Adobe Learning Manager](https://elearning.adobe.com/2018/11/skills-captivate-prime/)

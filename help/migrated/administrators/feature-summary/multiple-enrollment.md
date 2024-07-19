@@ -1,7 +1,8 @@
 ---
 title: Adobe Learning Manager中的多重註冊
 description: 身為帳戶管理員，您的一項主要職責就是建立跨不同時區的不同VILT工作階段例項，並可能為特定使用者群組建立工作階段。
-source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
+exl-id: c430545d-b48e-432d-a278-658c9281818f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '550'
 ht-degree: 0%
@@ -14,13 +15,13 @@ ht-degree: 0%
 
 在2023年7月版本之前，當管理員註冊了學習者時，他們只能註冊一個例項。 如果學習者希望參加不同執行個體的課程，管理員會建立多個課程，每個執行個體各一個。
 
-AdobeLearning Manager的多重註冊功能可協助管理員避免此類情況。
+Adobe Learning Manager的多重註冊功能可協助管理員避免此類情況。
 
 ## 什麼是多重註冊
 
-透過各種可用例項，將學習者多重註冊為課程中的多次。  學習者可註冊多個課程例項，無論其已註冊、已完成或尚未開始的狀態為何。 當作者啟用 [!UICONTROL Multiple Enrollment] 在切換後，學習者即可註冊課程的多個例項。
+透過各種可用例項，將學習者多重註冊為課程中的多次。  學習者可註冊多個課程例項，無論其已註冊、已完成或尚未開始的狀態為何。 當作者啟用[!UICONTROL Multiple Enrollment]切換時，學習者可以註冊課程的多個執行個體。
 
-![多註冊影像](assets/multi-enrollment-author.png)
+![多重註冊影像](assets/multi-enrollment-author.png)
 *從設定啟動多重註冊*
 
 您可以個別追蹤每個執行個體的進度，也可以匯出報告來追蹤每個執行個體的進度。
@@ -33,11 +34,11 @@ AdobeLearning Manager的多重註冊功能可協助管理員避免此類情況�
 
 ## 如何啟用多重註冊
 
-1. 以作者身分登入您的AdobeLearning Manager帳戶。
+1. 以作者身分登入您的Adobe Learning Manager帳戶。
 1. 選取您想要學習者多次註冊的課程。
-1. 在左側面板中，選取 **[!UICONTROL Settings]** > **[!UICONTROL Edit]** > **[!UICONTROL Instance configuration]** > **[!UICONTROL Enable Multiple Enrollment]**.
+1. 在左側面板中，選取&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Edit]** > **[!UICONTROL Instance configuration]** > **[!UICONTROL Enable Multiple Enrollment]**。
 
-![多註冊影像](assets/multi-enrollment-author.png)
+![多重註冊影像](assets/multi-enrollment-author.png)
 *啟用多重註冊*
 
 >[!NOTE]
@@ -51,7 +52,7 @@ AdobeLearning Manager的多重註冊功能可協助管理員避免此類情況�
 對於未註冊的學習者，當他們選取課程時，將會檢視課程底下具有多個例項的畫面。 接著，他們便可以選取每個例項並註冊。
 
 ![學習者檢視影像](assets/learner-view.png)
-*檢視例項*
+*檢視執行個體*
 
 註冊一個執行個體後，他們可以在右側窗格中選取「檢視所有執行個體」選項，註冊其他執行個體。
 
@@ -69,10 +70,10 @@ AdobeLearning Manager的多重註冊功能可協助管理員避免此類情況�
 
 註冊學習者時，您可以啟用下列核取方塊：
 
-*「選取的學習者可能已註冊此課程的其他執行個體。 允許這些學習者也註冊執行個體……」*
+「*」選取的學習者可能已註冊此課程的其他執行個體。 允許這些學習者也在執行個體上註冊……&quot;*
 
 ![管理員變更](assets/admin-changes.png)
-*管理員的註冊選項*
+管理員的*註冊選項*
 
 如果學習者已註冊一個例項，而您身為管理員，嘗試將學習者註冊到其他課程例項，請選取「是」。
 

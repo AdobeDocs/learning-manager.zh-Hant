@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 啟用共用目錄的完整控制權
 description: 在Adobe Learning Manager中啟用共用目錄的完全控制權
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 0%
 
 ---
-
-
 
 # 啟用共用目錄的完整控制權
 
@@ -18,7 +17,7 @@ ht-degree: 0%
 
 身為管理員，您可以建立課程、學習計畫、工作輔助和認證的目錄。
 
-如需詳細資訊，請參閱 [目錄](/help/migrated/administrators/feature-summary/catalogs.md).
+如需詳細資訊，請參閱[目錄](/help/migrated/administrators/feature-summary/catalogs.md)。
 
 ## 共用目錄 {#sharecatalog}
 
@@ -26,7 +25,7 @@ ht-degree: 0%
 
 課程、學習計畫、工作輔助和認證是共用目錄支援的學習物件。
 
-如需詳細資訊，請參閱 [共用目錄](/help/migrated/administrators/feature-summary/catalogs.md).
+如需詳細資訊，請參閱[共用目錄](/help/migrated/administrators/feature-summary/catalogs.md)。
 
 ## 啟用共用目錄的完整控制權 {#fullcontrol}
 
@@ -59,7 +58,7 @@ ht-degree: 0%
 
    ![](assets/catalog-details.png)
 
-   *檢視目錄詳細資訊*
+   *檢視目錄詳細資料*
 
 1. 您可以修改目錄名稱和說明。
 
@@ -73,7 +72,7 @@ ht-degree: 0%
 
 ## 重設課程 {#resetcourse}
 
-1. 在連結中斷的目錄卡片上，按一下 **[!UICONTROL Reset Course]**.
+1. 在連結中斷的目錄卡上，按一下&#x200B;**[!UICONTROL Reset Course]**。
 
 <!-- ![](assets/reset-course.png)-->
 
@@ -86,7 +85,7 @@ ht-degree: 0%
    重設目錄是不可逆的。 您無法復原對目錄所做的變更。
 
 1. 若要接受變更，請按一下「是」。
-1. 在課程目錄上，您可以看到目錄沒有訊息 *連結中斷* 再也不用了。
+1. 在課程目錄上，您可以看到目錄不再有訊息&#x200B;*連結中斷*。
 
    當您檢視目錄詳細資訊時，您可以看到目錄現在已恢復其原始狀態。
 
@@ -109,15 +108,15 @@ ht-degree: 0%
 當外部帳戶管理員接受目錄後，作者現在可以新增課程和學習計畫。
 
 1. 身為使用者，您會收到通知，告知您的帳戶現在可以使用目錄。
-1. 若要檢視課程清單，請按一下 **[!UICONTROL Courses]** 位於左側導覽窗格。 您可以檢視所有由您建立並與您共用的課程。
-1. 若要檢視課程詳細資料，請按一下 **[!UICONTROL View Course]** 在課程卡上。
+1. 若要檢視課程清單，請按一下左側導覽窗格中的&#x200B;**[!UICONTROL Courses]**。 您可以檢視所有由您建立並與您共用的課程。
+1. 若要檢視課程詳細資料，請按一下課程卡上的&#x200B;**[!UICONTROL View Course]**。
 
    <!--![](assets/view-course.png)-->
 
 1. 在課程詳細資訊頁面中，您可以檢視有關課程和共用模組的資訊。 若要新增模組，請按一下新增模組。 將模組新增至現有模組時，新模組會出現在現有模組的末尾。 您可以隨時重新排列模組。
 1. 新增模組後，按一下「重新發佈」。
 
-   重新發佈模組後，您會在目錄卡上看到訊息 *連結中斷*.
+   重新發佈模組後，在目錄卡上，您會看到訊息&#x200B;*連結中斷*。
 
    由於您已使用新模組更新原始目錄，因此與所獲得課程的現有關係已不存在。
 

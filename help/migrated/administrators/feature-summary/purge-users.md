@@ -39,25 +39,25 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 若要永久刪除使用者，請執行下列步驟：
 
-1. 以管理員身分，選取 **[!UICONTROL Users]** 從左窗格。 此 **[!UICONTROL Internal Users]** 頁面隨即開啟。
-1. 刪除您要永久刪除的使用者。 若要刪除，請使用核取方塊選取一或多個使用者。 開啟 **[!UICONTROL Action]** 下拉式清單並選取 **[!UICONTROL Delete User.]**
-1. 在左窗格中，選取 **[!UICONTROL User Cleanup]**. 此 **[!UICONTROL User Cleanup]** 頁面中會顯示已刪除使用者的清單。 使用選項按鈕來選取要永久刪除的使用者。 您一次只能清除一個使用者。
+1. 以管理員身分，從左窗格選取&#x200B;**[!UICONTROL Users]**。 **[!UICONTROL Internal Users]**&#x200B;頁面隨即開啟。
+1. 刪除您要永久刪除的使用者。 若要刪除，請使用核取方塊選取一或多個使用者。 開啟&#x200B;**[!UICONTROL Action]**&#x200B;下拉式清單，然後選取&#x200B;**[!UICONTROL Delete User.]**
+1. 在左窗格中，選取&#x200B;**[!UICONTROL User Cleanup]**。 **[!UICONTROL User Cleanup]**&#x200B;頁面會與已刪除的使用者清單一起顯示。 使用選項按鈕來選取要永久刪除的使用者。 您一次只能清除一個使用者。
 
    ![](assets/purge-1.png)
 
-   *選取要永久刪除的使用者*
+   *選取要清除的使用者*
 
-1. 開啟 **[!UICONTROL Actions]** 下拉式功能表並選取 **[!UICONTROL Purge User]**.
+1. 開啟&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式功能表並選取&#x200B;**[!UICONTROL Purge User]**。
 
    ![](assets/purge-2.png)
 
-   *選取整個清除使用者選項*
+   *選取清除使用者選項*
 
-1. 會出現一個對話方塊，要求確認。 清除後，與所選使用者相關聯的所有使用者資料和學習記錄都會永久刪除。 清除後，動作將無法復原。 若要確認，請按一下 **[!UICONTROL Purge]**.
+1. 會出現一個對話方塊，要求確認。 清除後，與所選使用者相關聯的所有使用者資料和學習記錄都會永久刪除。 清除後，動作將無法復原。 若要確認，請按一下&#x200B;**[!UICONTROL Purge]**。
 
    ![](assets/purge-3.png)
 
-   *清除使用者後的確認訊息*
+   清除使用者後&#x200B;*確認訊息*
 
 1. 確認並按一下「永久刪除」後，即接受永久刪除請求。 動作完成後，您會收到通知。 此外，也提供清除請求ID。 您可以將此ID提供給CSM以追蹤請求。
 
@@ -138,7 +138,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
    <td>是</td>
   </tr>
   <tr>
-   <td><strong>清除</strong> <strong>其他使用者 — 非企業（不是內部或外部Learning Manager使用者的個人）</strong></td>
+   <td><strong>清除</strong> <strong>其他使用者 — 非企業（非內部或外部Learning Manager使用者的個人）</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 +++
 
-Learning Manager現已符合GDPR規定。 如需GDPR法規遵循的詳細資訊，請參閱  [Learning Manager法規遵循GDPR](../../kb/prime-gdpr.md).
+Learning Manager現已符合GDPR規定。 如需GDPR法規遵循的詳細資訊，請參閱[Learning Manager與GDPR的合規性](../../kb/prime-gdpr.md)。
 
 ## 常見問題 {#frequentlyaskedquestions}
 

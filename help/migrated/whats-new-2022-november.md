@@ -2,7 +2,8 @@
 title: 此版本的新增功能（2022年11月）
 description: 瞭解Adobe Learning Manager中的新功能和增強功能
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 0%
@@ -23,7 +24,7 @@ Adobe Learning Manager目前對內部使用者支援一種登入方法，對外�
 
 為了支援多種型別的使用者群組登入平台，Adobe Learning Manager現在透過多個SSO設定為內部和外部使用者支援多種登入方法。
 
-如需詳細資訊，請參閱 [多個SSO登入](/help/migrated/administrators/feature-summary/multiple-sso-logins.md).
+如需詳細資訊，請參閱[多個SSO登入](/help/migrated/administrators/feature-summary/multiple-sso-logins.md)。
 
 ## 非登入功能支援
 
@@ -33,7 +34,7 @@ Adobe Learning Manager的原生入口網站現在支援以非登入方式存取�
 
 此功能可讓您更輕鬆地建立面對客戶的學習入口網站，讓學習者無需先登入即可瀏覽各種課程。
 
-如需詳細資訊，請參閱 [學習者的非登入體驗](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md).
+如需詳細資訊，請參閱學習者的[非登入體驗](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md)。
 
 ## 訓練概觀頁面增強功能
 
@@ -89,7 +90,7 @@ Adobe Learning Manager的原生入口網站現在支援以非登入方式存取�
 
 管理員可以啟動模擬工作階段，他們可在其學習者和管理員角色中，代表其帳戶中的任何使用者登入。
 
-如需詳細資訊，請參閱 [學習者和經理的模擬](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md).
+如需詳細資訊，請參閱[學習者與經理的模擬](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md)。
 
 ## 其他增強功能
 
@@ -203,7 +204,7 @@ JWT應用程式型別將在2023年6月被取代。 建議您建立伺服器對�
 
 除了管理員以外，自訂管理員也可以匯出此報表。
 
-![語言報表](assets/language-report.png)
+![語言報告](assets/language-report.png)
 
 #### 對本地化的影響
 
@@ -252,7 +253,7 @@ JWT應用程式型別將在2023年6月被取代。 建議您建立伺服器對�
 
 #### CSV規格
 
-Adobe Learning Manager提供一組標準CSV規格，供您進行已啟用多重地區設定的移轉。 最佳實務是在開始移轉程式前先通過這些CSV規格。 貴組織的整合管理員可以分析現有的資料格式，並對應這些格式以符合Learning Manager提供的CSV範本專案。
+Adobe Learning Manager提供一組標準CSV規格，供啟用多地區設定的移轉之用。 最佳實務是在開始移轉程式前先通過這些CSV規格。 貴組織的整合管理員可以分析現有的資料格式，並對應這些格式以符合Learning Manager提供的CSV範本專案。
 
 #### 支援多地區設定的變更
 
@@ -275,8 +276,8 @@ Headless LMS應用程式在第一次登入時會保留refresh_token。 之後，
 
 **查詢引數**
 
-* `cookie=true|false`  — 表示需要撤銷Cookie
-* `refresh_token=true|false`  — 表示重新整理
+* `cookie=true|false` — 表示需要撤銷Cookie
+* `refresh_token=true|false` — 表示重新整理
 
 **要求內文**
 
@@ -303,8 +304,8 @@ Body required for revoking oauth cookie only
 | /social/search | GET | 在社交中搜尋。 |
 | /announcements | GET | 取得有關標題上指派給學習者的公告詳細資訊。 |
 | /announcements/`{id}` | GET | 取得有關標題上指派給學習者的公告詳細資訊。 |
-| /learningObject/`{id}`/loResources/{loResourcesId} | GET | 需要提交檔案的resourceType &#39;Activity&#39;的loResource的上傳URL。 |
-| /jobAid/`{jobAidId}`/jobaidDownloaded | GET | 設定工作輔助下載報告。 |
+| /learningObjects/`{id}`/loResources/{loResourcesId} | GET | 需要提交檔案的resourceType &#39;Activity&#39;的loResource的上傳URL。 |
+| /jobaid/`{jobAidId}`/jobAidDownloaded | GET | 設定工作輔助下載報告。 |
 | /bulkimport/startrun | POST | 執行大量匯入。 |
 | /bulkimport/cansync | GET | 同步處理大量匯入。 |
 | /search | GET | DELETEMEBOB |
@@ -315,7 +316,7 @@ Body required for revoking oauth cookie only
 
 ### Salesforce應用程式
 
-此 **忽略高階LO** 必須啟用Salesforce應用程式中的選項，才能同時檢視所有課程、學習計畫及憑證。
+必須在Salesforce應用程式中啟用&#x200B;**忽略更高階學習課程**&#x200B;選項，以便同時檢視所有課程、學習計畫及憑證。
 
 ### 用於播放器自訂的API
 
@@ -331,7 +332,7 @@ Body required for revoking oauth cookie only
 
 ### 顯示學習者的輪候表位置
 
-GET/enrollments/{id}LO API底下的/waitlistPosition API會擷取指定註冊的使用者的輪候表位置。
+LO API底下的GET/enrollments/{id}/waitlistPosition API會擷取指定註冊之使用者的輪候表位置。
 
 ### 外部認證中的完成日期提交
 
@@ -339,23 +340,23 @@ GET/enrollments/{id}LO API底下的/waitlistPosition API會擷取指定註冊的
 
 ### 取得學習對象預覽資料
 
-GET/preview/learningObjects/{id} 新增API以取得學習物件的預覽資訊。
+已新增GET/preview/learningObjects/{id} API以取得學習物件的預覽資訊。
 
 ### 在設定檔中移動外部使用者
 
-此 `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` 呼叫可指定新的externalProfile id，協助將使用者移動到另一個外部設定檔。
+`PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?`呼叫可指定新的externalProfile ID，協助將使用者移至另一個外部設定檔。
 
 ### 將使用者新增至外部設定檔
 
-此 `POST /externalProfiles/{id}/users` 將外部使用者新增至外部設定檔。
+`POST /externalProfiles/{id}/users`將外部使用者新增至外部設定檔。
 
 ## 發行說明
 
-如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱 [發行說明](/help/migrated/release-note/release-notes.md).
+如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱[發行說明](/help/migrated/release-note/release-notes.md)。
 
 ## 錯誤修正
 
-若要檢視此更新中已修正的錯誤，請參閱 [Bug固定清單](release-note/release-notes.md#bugs-fixed-in-this-release).
+若要檢視此更新中修正的錯誤，請參閱[錯誤修正清單](release-note/release-notes.md#bugs-fixed-in-this-release)。
 
 ## 系統需求
 

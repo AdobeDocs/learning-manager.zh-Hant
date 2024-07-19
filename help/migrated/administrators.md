@@ -59,4 +59,4 @@ ht-degree: 0%
 
 ## 技術參考 {#technicalreference}
 
-[您可以在此處下載AdobeLearning Manager技術參考指南。](assets/technicaloverview.pdf)
+[您可以在此處下載Adobe Learning Manager技術參考指南。](assets/technicaloverview.pdf)

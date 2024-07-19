@@ -48,13 +48,13 @@ Adobe Learning Manager使用者介面已進行一些更新，以提供更乾淨�
 
 學習者可使用管理員已建立的自訂應用程式或擴充功能。
 
-檢視 [原生擴充性](/help/migrated/administrators/feature-summary/native-extensibility.md) 以進一步瞭解。
+檢視[原生擴充性](/help/migrated/administrators/feature-summary/native-extensibility.md)以深入瞭解。
 
 ## 測驗建立工具
 
 您現在可以使用內容庫頁面上新的測驗建立工具，在Learning Manager中建立評估。 建立的評估會成為內容庫的一部分，並可新增到「公用」資料夾以進行課程重複使用。
 
-檢視 [建立測驗](/help/migrated/authors/feature-summary/content-library.md) 以進一步瞭解。
+檢視[建立測驗](/help/migrated/authors/feature-summary/content-library.md)以瞭解更多資訊。
 
 ## 在此版本中報告變更
 
@@ -74,7 +74,7 @@ Adobe Learning Manager使用者介面已進行一些更新，以提供更乾淨�
 
 在這個版本中，您可以指定時間，下載註冊報表中的課程重新造訪資訊。 註冊超過500萬的帳戶的下載期將限製為六個月。 對於所有其他帳戶，期間將為15個月。
 
-報表下載位置： **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]** > **[!UICONTROL Course Access Report]**.
+您可從&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]** > **[!UICONTROL Course Access Report]**&#x200B;下載報告。
 
 ### 學習者成績單中的變更
 
@@ -84,7 +84,7 @@ Adobe Learning Manager使用者介面已進行一些更新，以提供更乾淨�
 
 「管理員」應用程式中「課程」出勤頁面及用來同步下載之「講師」應用程式中「工作階段學習者」頁面的「出勤率」報表。 在此版本中，此報表將透過通知非同步下載。
 
-如需報告的詳細資訊，請參閱 [報表](/help/migrated/administrators/feature-summary/reports.md) 在Adobe Learning Manager中。
+如需報告的詳細資訊，請參閱Adobe Learning Manager中的[報告](/help/migrated/administrators/feature-summary/reports.md)。
 
 ## 停止支援Content Marketplace
 
@@ -141,7 +141,7 @@ Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建�
     </tbody>
 </table>
 
-**新增唯讀控制項**
+**新的唯讀控制項**
 
 在「自訂角色」頁面中，我們新增了下列「唯讀」選項，讓管理員能夠為「自訂管理員」提供更彈性的選項： 「自訂管理員」現在會為使用者、電子郵件範本和學習計畫提供額外的「唯讀」許可權。
 
@@ -255,7 +255,7 @@ Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建�
 
 在舊版Adobe Learning Manager中，如果刪除了任何課程、認證或學習計畫並出現其通知，則您仍可透過其通知存取課程、認證或學習計畫。
 
-在此版本中，我們將確保已刪除的貼文無法再存取。 如果您在/posts/中指定ID{id} API而且貼文的ID已無法使用，則API會顯示訊息「指定資源找不到貼文」。
+在此版本中，我們將確保已刪除的貼文無法再存取。 如果您在/posts/{id} API中指定ID，而貼文的ID已無法使用，則API會顯示訊息「找不到指定資源的貼文」。
 
 ### 學習者API完成期限
 
@@ -279,7 +279,7 @@ Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建�
 
 ### 測驗的新資源型別
 
-此 `instances.loResources.resources` 端點將傳回 `ResourceContentType` 含測驗。
+`instances.loResources.resources`端點將傳回`ResourceContentType`並進行測驗。
 
 ## 淘汰通知
 
@@ -288,7 +288,7 @@ Adobe Learning Manager將於2024年2月終止BlueJeans服務。 2024年2月後�
 
 ## 發行說明
 
-如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱 [發行說明](release-note/release-notes.md).
+如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱[發行說明](release-note/release-notes.md)。
 
 ## 此版本中修正的錯誤
 
@@ -305,7 +305,7 @@ Adobe Learning Manager將於2024年2月終止BlueJeans服務。 2024年2月後�
 * 學習者無法在MS Teams應用程式上播放LinkedIn課程。
 * 註冊API沒有如預期傳回Flex學習計畫或內嵌學習計畫的註冊。
 * 在行動應用程式中，課程、認證或學習計畫的名稱會以小寫顯示。
-* 在舊版Adobe Learning Manager中，如果刪除了任何課程、認證或學習計畫並出現其通知，則您仍可透過其通知存取課程、認證或學習計畫。 在此版本中，我們將確保已刪除的貼文無法再存取。 如果您在/posts/中指定ID{id} API而且貼文的ID已無法使用，則API會顯示訊息「指定資源找不到貼文」。
+* 在舊版Adobe Learning Manager中，如果刪除了任何課程、認證或學習計畫並出現其通知，則您仍可透過其通知存取課程、認證或學習計畫。 在此版本中，我們將確保已刪除的貼文無法再存取。 如果您在/posts/{id} API中指定ID，而貼文的ID已無法使用，則API會顯示訊息「找不到指定資源的貼文」。
 * 在學習者API中，完成截止日期欄位不會顯示在註冊API的回應中。
 * 在學習者的「取得註冊API」中，即使您指定的執行個體ID不正確，也會顯示註冊詳細資料。
 

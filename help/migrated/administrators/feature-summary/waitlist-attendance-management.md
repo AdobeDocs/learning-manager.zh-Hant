@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 輪候表與出勤管理
 description: 管理員可以管理學習者的出勤率和課程輪候表。
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 0%
 
 ---
-
-
 
 # 輪候表與出勤管理
 
@@ -20,15 +19,15 @@ ht-degree: 0%
 
 當名額有限時，學習者會根據其註冊順序輪候任何教室課程。 管理員可選取輪候學習者，並為任何教室課程分配名額限制以外的名額。 學習者會在管理員配置位子後立即註冊課程。
 
-1. 按一下 **[!UICONTROL Courses]** 以管理員身分登入後，便會顯示在左窗格中。
+1. 以系統管理員身分登入後，請按一下左窗格上的&#x200B;**[!UICONTROL Courses]**。
 1. 從可用課程清單中，按一下您選擇的任何教室課程的課程名稱。 新頁面隨即出現，內含課程的詳細資訊。
 
 ![](assets/waitlist-and-attendance-mgmnt.png)
 
 *選取輪候表選項*
 
-1. 按一下 **[!UICONTROL Waitlist]** 在課程詳細資訊頁面的左窗格中。 輪候學習者清單會顯示在頁面上。
-1. 選取學習者並按一下 **[!UICONTROL Allocate seats]** 將學習者直接註冊至課程以取代名額限制。
+1. 按一下課程詳細資訊頁面左窗格上的&#x200B;**[!UICONTROL Waitlist]**。 輪候學習者清單會顯示在頁面上。
+1. 選取學習者並按一下&#x200B;**[!UICONTROL Allocate seats]**，將學習者直接註冊至課程以取代名額限制。
 
 ## 出席管理 {#attendancemanagement}
 

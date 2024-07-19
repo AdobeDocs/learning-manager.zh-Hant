@@ -27,11 +27,11 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 預設樣式可能不符合每個人的需求。 自訂可藉由覆寫提供的CSS來完成。 所有樣式都會包裝在ql編輯器下，作為子系選取器。 使用下列類別：
 
-* **縮排**： li.ql-indent-$number. $number從1到9不等
-* **大小**：ql-size-small、ql-size-large、ql-size-great
-* **對齊方式**： ql-align-center、 ql-align-justify、 ql-align-right
-* **顏色**： ql-color-$color。 $color =白色，紅色，橙色，黃色，綠色，藍色，紫色
-* **背景**： ql-bg-$color. $color =黑色，紅色，橙色，黃色，綠色，藍色，紫色
-* **html標籤**：p， ol， ul， pre， blockquote， h1， h2， h3， h4， h5， h6
+* **縮排**： li.ql-indent-$number。 $number從1到9不等
+* **size**： ql-size-small， ql-size-large， ql-size-great
+* **alignment**： ql-align-center、ql-align-justify、ql-align-right
+* **color**： ql-color-$color。 $color =白色，紅色，橙色，黃色，綠色，藍色，紫色
+* **背景**： ql-bg-$color。 $color =黑色，紅色，橙色，黃色，綠色，藍色，紫色
+* **html標籤**： p， ol， ul， pre， blockquote， h1， h2， h3， h4， h5， h6
 
 [用於自訂的CSS檔案。](assets/ql-headless.css)

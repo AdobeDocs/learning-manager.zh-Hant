@@ -1,6 +1,6 @@
 ---
 title: 學習者的非登入體驗
-description: AdobeLearning Manager原生入口網站支援非記錄方式存取培訓網站。 啟用此模式後，學習者即可探索及存取培訓網站，並檢視各種可用的課程和內容。 非登入體驗可讓學習者在不登入入口網站的情況下瀏覽課程。
+description: Adobe Learning Manager原生入口網站支援非記錄方式存取培訓網站。 啟用此模式後，學習者即可探索及存取培訓網站，並檢視各種可用的課程和內容。 非登入體驗可讓學習者在不登入入口網站的情況下瀏覽課程。
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
 source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # 學習者的非登入體驗
 
-AdobeLearning Manager原生入口網站支援非記錄方式存取培訓網站。 啟用此模式後，學習者即可探索及存取培訓網站，並檢視各種可用的課程和內容。
+Adobe Learning Manager原生入口網站支援非記錄方式存取培訓網站。 啟用此模式後，學習者即可探索及存取培訓網站，並檢視各種可用的課程和內容。
 
 非登入體驗可讓學習者在不登入入口網站的情況下瀏覽課程。
 
-非登入首頁必須由整合管理員啟用並設定 [訓練資料聯結器](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access).
+若要啟用非登入首頁，整合管理員必須啟用並設定[訓練資料聯結器](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)。
 
 然後，即可從聯結器匯出培訓。
 
@@ -27,7 +27,7 @@ AdobeLearning Manager原生入口網站支援非記錄方式存取培訓網站�
 
 ## 學習者API
 
-Adobe學習管理員 — 學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。
+Adobe Learning Manager — 學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。
 
 >[!IMPORTANT]
 >
@@ -35,19 +35,19 @@ Adobe學習管理員 — 學習者API可讓您為使用者建立自訂學習體�
 
 非登入使用案例需要特殊處理。
 
-**若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確保解決方案架構師已在您部署解決方案前先行審查解決方案**.
+**若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確定解決方案架構師已在您部署解決方案之前對其進行稽核**。
 
 ## 啟動首頁選項
 
-在AdobeLearning Manager首頁上，選擇 **品牌化**. 然後，在左窗格中選取[Non-logged in Homepage]。
+在Adobe Learning Manager首頁上，選取&#x200B;**品牌**。 然後，在左窗格中選取[Non-logged in Homepage]。
 
-![homepage選項](assets/non-logged-in-homepage.png)
+![首頁選項](assets/non-logged-in-homepage.png)
 
-*選取「未登入首頁」選項*
+*選取[未登入首頁]選項*
 
 ## 新增橫幅
 
-新增任何行銷公告的橫幅，或包含當天的趨勢主題。 選取 **新增橫幅**.
+新增任何行銷公告的橫幅，或包含當天的趨勢主題。 選取&#x200B;**新增橫幅**。
 
 ![橫幅](assets/add-banner-image.png)
 
@@ -59,7 +59,7 @@ Adobe學習管理員 — 學習者API可讓您為使用者建立自訂學習體�
 
 此元件可用來依標籤、技能和目錄來篩選目錄。 本節包含每個類別的標題和說明。 按一下後，系統會將使用者重新導向至已套用篩選器的目錄頁面。
 
-選取 **[!UICONTROL Add category]**. 然後輸入分類的明細。
+選取&#x200B;**[!UICONTROL Add category]**。 然後輸入分類的明細。
 
 ![新增類別](assets/add-category.png)
 

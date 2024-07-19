@@ -22,30 +22,30 @@ ht-degree: 0%
 
 身為Admin Console的系統管理員，您的首要任務之一是定義並設定身分系統，以驗證您的使用者。 當貴組織購買Learning Manager的授權時，您需要將這些授權布建給一般使用者。 為此，您需要一種方法來驗證這些使用者。 執行以下程式，為您的使用者設定SSO。
 
-1. 從Learning Manager首頁，按一下 **[!UICONTROL **&#x200B;設定&#x200B;**>**&#x200B;登入方法&#x200B;**.]**
+1. 在Learning Manager首頁按一下&#x200B;**[!UICONTROL **&#x200B;設定&#x200B;**>**&#x200B;登入方法&#x200B;**。]**
 
    ![](assets/configure-sso-step1.png)
 
-1. 根據您的使用者型別，選取 **[!UICONTROL **&#x200B;內部使用者&#x200B;**或**&#x200B;外部使用者&#x200B;**.]**
+1. 根據您的使用者型別，選取&#x200B;**[!UICONTROL **&#x200B;內部使用者&#x200B;**或**&#x200B;外部使用者&#x200B;**。]**
 
 
 
-1. 從**[!UICONTROL **登入**]**下拉式欄位，選取 **[!UICONTROL **&#x200B;單一登入&#x200B;**.]**
+1. 從**[!UICONTROL **登入**]**下拉式欄位中，選取&#x200B;**[!UICONTROL **&#x200B;單一登入&#x200B;**。]**
 
    ![](assets/configure-sso-step3.png)
 
-1. 若要設定「單一登入」設定，請按一下 **[!UICONTROL **&#x200B;變更&#x200B;**.]**
+1. 若要設定「單一登入」設定，請按一下&#x200B;**[!UICONTROL **&#x200B;變更&#x200B;**。]**
 
    ![](assets/configure-sso-step4.png)
 
-1. 在 ****[!UICONTROL IDP-Initiated Authentication URL]**** 欄位，輸入服務提供者提供的驗證URL。
+1. 在&#x200B;****[!UICONTROL IDP-Initiated Authentication URL]****&#x200B;欄位中，輸入服務提供者提供的驗證URL。
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. 按一下**[!UICONTROL **上傳&#x200B;**]**在&#x200B;**[!UICONTROL  **IDP中繼資料XML檔案&#x200B;**]******欄位，並上傳您的XML檔案。
-1. 按一下 **[!UICONTROL **&#x200B;儲存&#x200B;**.]**
+1. 按一下&#x200B;**[!UICONTROL  ** IDP中繼資料XML檔案&#x200B;**]**** **欄位旁的**[!UICONTROL **上傳&#x200B;**]**，然後上傳您的XML檔案。
+1. 按一下&#x200B;**[!UICONTROL **&#x200B;儲存&#x200B;**。]**
 1. 已成功為您的帳戶設定SSO驗證。 您應能使用SSO登入您的Learning Manager帳戶。
 
    ***您在Learning Manager中設定的SSO應支援SAML 2.0。***
@@ -54,11 +54,11 @@ ht-degree: 0%
 
 作為管理員，當您的企業購買Learning Manager時，您需要執行的其中一個關鍵步驟是移轉。 您必須將現有的訓練內容和使用者資料移至Learning Manager。 下列移轉工作流程可協助您運用現代且直覺式LMS的優點，而不會遺失組織的任何舊有資料。
 
-Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS移轉。 您可完整掌握每個衝刺的狀態，以確保學習者在您將舊資料移轉至Adobe Learning Manager時，不會出現停機時間。
+Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS移轉。 您可以完整地檢視每個衝刺的狀態，以確保學習者在您將舊資料移轉至Adobe Learning Manager時，不會出現停機時間。
 
 若要執行移轉工作流程，您需要整合管理員許可權。 身為管理員，您可以擔任整合管理員的角色，或將此角色指派給其他使用者。
 
-**我們可以在這裡利用Shaleen的協助來建立視覺效果。**
+**我們可以在這裡接受Shaleen的協助來建立視覺效果。**
 
 1. 先決條件
 1. 評估現有內容和使用者資料
@@ -107,7 +107,7 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 
 
-評估現有資料後，您必須使用Learning Manager中的標準CSV規格對應此資料。 下載下列範例 ***csv-specifications.zip*** 此檔案包含此移轉所需的七份excel工作表。 這些Excel工作表包含的規格及說明，可讓您瞭解如何將現有資料與.csv檔案中的欄位對應。
+評估現有資料後，您必須使用Learning Manager中的標準CSV規格對應此資料。 下載下列範例&#x200B;***csv-specifications.zip***&#x200B;檔案，其中包含此移轉所需的七份Excel工作表。 這些Excel工作表包含的規格及說明，可讓您瞭解如何將現有資料與.csv檔案中的欄位對應。
 
 <!--
 <Download link to the zip file>
@@ -240,7 +240,7 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
  </tbody> 
 </table>
 
-***Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果您在日期超出範圍的CSV檔案（例如2038-07-17T08）中指定日期，則在移轉期間可能會收到錯誤:53:21.000Z或1980-04-17T08:13:25.322赫***
+***Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果您在超出日期範圍的CSV檔案中指定日期，例如2038-07-17T08:53:21.000Z或1980-04-17T08:13:25.322Z.***，則在移轉期間可能會發生錯誤
 
 ### 將資料匯入csv檔案時的相依性 {#dependencieswhileimportingdatatocsvfiles}
 
@@ -272,7 +272,7 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 ### 設定FTP帳戶 {#setupanftpaccount}
 
-在整合管理首頁中，按一下 **[!UICONTROL **&#x200B;請求CSV FTP資料夾&#x200B;**.]** 在出現的快顯對話方塊中，輸入您的電子郵件ID。 透過線上精靈建立Exavault FTP帳戶。 建立帳戶之後，您就可以在Exavault FTP中檢視移轉專案和Sprint專案資料夾。
+在整合管理首頁中，按一下&#x200B;**[!UICONTROL **&#x200B;要求CSV FTP資料夾&#x200B;**。]**&#x200B;在出現的快顯對話方塊中，輸入您的電子郵件識別碼。 透過線上精靈建立Exavault FTP帳戶。 建立帳戶之後，您就可以在Exavault FTP中檢視移轉專案和Sprint專案資料夾。
 
 請參閱ExaVault專案檔案和資料夾的範例快照，如下所示：
 
@@ -290,9 +290,9 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 ![](assets/set-up-a-box-account.png)
 
-在 ****[!UICONTROL Enter Email]**** 欄位，輸入您要接收連線至Box之登入指示的電子郵件ID。
+在&#x200B;****[!UICONTROL Enter Email]****&#x200B;欄位中，輸入您要接收連線至Box之登入指示的電子郵件ID。
 
-按一下 **[!UICONTROL **&#x200B;連線&#x200B;**.]**
+按一下&#x200B;**[!UICONTROL **&#x200B;連線&#x200B;**.]**
 
 您會收到來自Box的電子郵件，其中包含共用資料夾的連結。 如果您沒有Box帳戶，請按一下[註冊]並建立帳戶。 接著，系統會將登入指示傳送至整合管理員電子郵件ID。
 
@@ -309,21 +309,21 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 將培訓內容上傳至內容資料夾：
 
-在整合管理首頁中，按一下 **[!UICONTROL Migration.]**
+在整合管理首頁按一下&#x200B;**[!UICONTROL Migration.]**
 
 在移轉首頁中，系統會顯示組織中已建立的移轉專案。
 
-按一下**[!UICONTROL **新增**]**在頁面的右上角，建立移轉專案。
+按一下頁面右上角的**[!UICONTROL **新增**]**，以建立移轉專案。
 
 ***如果您尚未建立FTP資料夾，系統會提示您建立FTP資料夾Exavault帳戶。 這是開始建立移轉專案之前的必要步驟。 ***
 
-在 ****[!UICONTROL Create a New Migration Project]**** 頁面，指定專案名稱。
+在&#x200B;****[!UICONTROL Create a New Migration Project]****&#x200B;頁面中，指定專案名稱。
 
 ![](assets/migrating-the-content-1.png)
 
 指定專案的標籤和課程目錄，並提供移轉專案的說明。 您的移轉資料專案是使用移轉專案標籤來識別。 如果您沒有任何特定的課程目錄，請從下拉式選單中選擇預設目錄，則使用移轉專案移轉的所有課程將包含在此階段選擇的目錄中。 如果您未選擇任何目錄，則所有移轉的課程都會成為預設目錄的一部分。
 
-按一下 **[!UICONTROL Create.]**
+按一下&#x200B;**[!UICONTROL Create.]**
 
 在「衝刺(Sprint)設定」頁面中，為您的移轉專案建立衝刺。 Learning Manager移轉程式中的Sprint會定義您選擇從現有LMS移轉的一組移轉專案。
 
@@ -331,17 +331,17 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 指定衝刺的名稱，並提供衝刺的說明。
 
-選取 ****[!UICONTROL Users have been added or modified since the last run check box]****，將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，建議您選擇同步使用者清單。 此步驟可讓Learning Manager資料庫與LMS使用者同步。
+選取&#x200B;****[!UICONTROL Users have been added or modified since the last run check box]****&#x200B;以將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，建議您選擇同步使用者清單。 此步驟可讓Learning Manager資料庫與LMS使用者同步。
 
-***移轉enrollment.csv和user_course_grade.csv時，建議使用「同步」步驟。 此步驟可讓Learning Manager資料庫與您的移轉資料庫保持同步，並確保所有要在Sprint中移轉記錄的使用者都可在移轉資料庫中使用。***
+***建議在移轉enrollment.csv和user_course_grade.csv時執行同步化步驟。 此步驟可讓Learning Manager資料庫與您的移轉資料庫保持同步，並確保所有要在Sprint中移轉記錄的使用者都可在移轉資料庫中使用。***
 
-按一下 **[!UICONTROL **&#x200B;下一個&#x200B;**.]**
+按一下&#x200B;**[!UICONTROL **&#x200B;下一步&#x200B;**.]**
 
-按一下**[!UICONTROL **開始**]**使用您上傳的資料和內容開始Sprint移轉。 按一下 ****[!UICONTROL Refresh]**** 開始執行Sprint Run以與Learning Manager同步FTP和內容資料夾之前。
+按一下**[!UICONTROL **開始**]**以開始使用您上傳的資料和內容進行Sprint移轉。 在開始Sprint Run之前，請按一下「****[!UICONTROL Refresh]****」以與Learning Manager同步FTP和內容資料夾。
 
 ![](assets/migrating-the-content-3.png)
 
-您可以按一下****[!UICONTROL Stop]****在Sprint移轉程式期間的任何時間點，中止該Sprint移轉。
+您可以在Sprint移轉程式期間的任何時間點按一下****[!UICONTROL Stop]****以中止衝刺移轉。
 
 系統會針對每個衝刺資料專案和內容顯示移轉狀態。 檢查移轉衝刺執行中成功和失敗的專案數。
 
@@ -351,15 +351,15 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 ![](assets/migrating-the-content-4.png)
 
-若要檢視移轉專案的所有衝刺清單，請按一下**[!UICONTROL **衝刺(sprint)**]**在左側導覽窗格中。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
+若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
 
 ![](assets/migrating-the-content-5.png)
 
-若要檢視移轉專案的所有衝刺清單，請按一下**[!UICONTROL **衝刺(sprint)**]**在左側導覽窗格中。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
+若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
 
-若要檢視移轉專案的所有衝刺清單，請按一下**[!UICONTROL **衝刺(sprint)**]**在左側導覽窗格中。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
+若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
 
-***將移轉專案標籤為完成之前，請確定專案中的所有衝刺都已完成。 一旦您將移轉專案標籤為完成，您就無法返回在該專案中建立任何沖刺。 您無法對該專案進行任何修改。 您只能建立其他移轉專案並新增衝刺。***
+***將移轉專案標籤為完成之前，請確定專案中的所有衝刺都已完成。 一旦您將移轉專案標籤為完成，您就無法返回在該專案中建立任何沖刺。 您無法對該專案進行任何修改。 您只能建立另一個移轉專案並新增衝刺。***
 
 從組織的舊版LMS移轉學習資料和內容後，請確認資料和內容是否已正確匯入。 您可以以管理員身分登入並驗證匯入模組與課程資料與內容的可用性，以進行驗證
 

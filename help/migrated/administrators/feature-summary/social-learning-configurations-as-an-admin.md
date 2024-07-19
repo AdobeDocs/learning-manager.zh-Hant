@@ -21,8 +21,8 @@ ht-degree: 0%
 
 若要啟用並設定「社交學習」功能，請執行下列動作：
 
-1. 按一下 **[!UICONTROL Social Learning]** 從左側導覽面板。 系統會將您重新導向至活動頁面。
-1. 啟用 **[!UICONTROL Social Learning]** 功能使用 **[!UICONTROL Enable]** 按鈕（若您是第一次開啟）。 否則，可從以下位置啟用： **[!UICONTROL Settings]** 頁面。
+1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Social Learning]**。 系統會將您重新導向至活動頁面。
+1. 如果您是第一次開啟&#x200B;**[!UICONTROL Social Learning]**&#x200B;功能，請使用[活動]頁面中的&#x200B;**[!UICONTROL Enable]**&#x200B;按鈕來啟用它。 否則可從&#x200B;**[!UICONTROL Settings]**&#x200B;頁面啟用。
 
    快顯對話方塊會出現，如下面的熒幕擷圖所示。
 
@@ -32,21 +32,21 @@ ht-degree: 0%
 
 <!-- ![](assets/enable-social-learningfeatureinsettings.png) ![](assets/enable-social-learningdialog.png)-->
 
-管理員可以設定社交學習的設定。 設定包含的內容組織型別，例如 **[!UICONTROL Manual-Only Curation]** 和 **[!UICONTROL No Curation]**. 範圍設定可設為不同的範圍，例如使用者型別（內部/外部）或帳戶中存在的任何其他作用中欄位。 管理員可設定學習者下載Adobe Learning Manager案頭應用程式的URL路徑。
+管理員可以設定社交學習的設定。 設定包括&#x200B;**[!UICONTROL Manual-Only Curation]**&#x200B;和&#x200B;**[!UICONTROL No Curation]**&#x200B;之類的內容組織型別。 範圍設定可設為不同的範圍，例如使用者型別（內部/外部）或帳戶中存在的任何其他作用中欄位。 管理員可設定學習者下載Adobe Learning Manager案頭應用程式的URL路徑。
 
 ### 內容策劃 {#contentcuration}
 
 由於社交學習是非正式學習，因此其功能與其他社群媒體平台類似。 人們經常會發現社群媒體會讓人分心，因為他們經常消費不相關的內容，而這會影響他們的生產力。 此想法可透過內容協調和組織來滿足。
 
-**[!UICONTROL Manual-Only Curation]** 和 **[!UICONTROL No Curation]** 是管理員可選取的兩個組織選項。
+**[!UICONTROL Manual-Only Curation]**&#x200B;和&#x200B;**[!UICONTROL No Curation]**&#x200B;是管理員可以選取的兩個組織選項。
 
-**[!UICONTROL Auto-assisted Manual Curation]：** Learning Manager具備人工智慧式自動組織引擎，能聰明地找出任何格式內容的精髓，以便日後提供給所需學習者。 它也可以根據給定的信賴度分數，核准或拒絕內容發佈。
+**[!UICONTROL Auto-assisted Manual Curation]：** Learning Manager具有人工智慧式自動組織引擎，可以聰明地找出任何格式內容的精髓，以便稍後提供給想要的學習者。 它也可以根據給定的信賴度分數，核准或拒絕內容發佈。
 
 例如，Adarsh是學習者，他發現部落格很有趣，因此在Adobe Learning Manager的社交學習平台上發佈文章。 貼文接著會傳送至AI支援的內容組織引擎，由其預測內容中存在的技能，並將這些技能與相關展示板技能進行比較。 如果任何技能相符，則會張貼內容，否則僅會傳送以進行手動組織。
 
 張貼所需的最低信賴分數為50%。
 
-**[!UICONTROL Manual-Only Curation]：** 若要在內容上線之前檢查內容的真實性，管理員可以啟用僅限手動組織的設定。 啟用僅限手動管理的設定後，就會移至排名在前的SME （最多3個）進行組織。 根據平均回應，會據此核准/拒絕貼文。 如果回應大於等於50%，則貼文上線否則被拒絕。 如需SME的詳細資訊， [按一下這裡](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+**[!UICONTROL Manual-Only Curation]：**&#x200B;若要在內容上線之前檢查內容的真實性，系統管理員可以啟用僅手動組織設定。 啟用僅限手動管理的設定後，就會移至排名在前的SME （最多3個）進行組織。 根據平均回應，會據此核准/拒絕貼文。 如果回應大於等於50%，則貼文上線否則被拒絕。 如需SME的詳細資訊，[請按一下這裡](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs)。
 
 
 在新的範圍內，他/她可獲得各展示板活動的分數。
@@ -55,13 +55,13 @@ ht-degree: 0%
 
 如果您已獲得特殊使用者許可權，則無論使用者的範圍為何，您皆可在領導板上看到帳戶中的所有使用者。
 
-如果特殊使用者獲得足夠的點數而成為SME，則會出現在 **[!UICONTROL Top Subject Matter Experts]** 列在社交領導者面板中。
+如果特殊使用者獲得足夠的點數而成為SME，就會出現在社交領導者面板的&#x200B;**[!UICONTROL Top Subject Matter Experts]**&#x200B;清單中。
 
 任何變更要生效，請等待60分鐘。
 
 ### 範圍設定 {#scopesettings}
 
-在社交學習中，範圍會決定您所看到的面板，這會控制內容的可見度。 例如，如果使用者有範圍， ***Vendor_A***，他/她只能看到由屬於相同範圍的其他人建立的展示板和相關貼文 ***Vendor_A***.
+在社交學習中，範圍會決定您所看到的面板，這會控制內容的可見度。 如果使用者具有範圍，例如&#x200B;***Vendor_A***，他/她只能看到由屬於相同範圍&#x200B;***Vendor_A***&#x200B;的其他人建立的展示板和相關貼文。
 
 這可讓管理員維護單獨組織中的廠商、合作夥伴或部門等同類使用者。
 
@@ -71,15 +71,15 @@ ht-degree: 0%
 
 **為內部學習者啟用**
 
-在此區段中，您可以選擇使用者特性，以定義內部使用者的社交學習範圍。 具有相同特性的使用者 **值** 共用相同的社交學習空間。
+在此區段中，您可以選擇使用者特性，以定義內部使用者的社交學習範圍。 具有相同特性&#x200B;**值**&#x200B;的使用者共用相同的社交學習空間。
 
-從 **使用者特性** 從下拉式清單中選擇所需的選項。
+從&#x200B;**使用者特性**&#x200B;下拉式清單中選擇所需的選項。
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *選取使用者特性以定義範圍*
 
-依預設，選項 **[!UICONTROL All Internal Users]** 「使用者特性」下拉式清單選項一律選取。
+依預設，「使用者特性」下拉式清單選項中的選項&#x200B;**[!UICONTROL All Internal Users]**&#x200B;一律選取。
 
 您可以根據內部使用者的作用中欄位來限定其範圍。
 
@@ -93,21 +93,21 @@ ht-degree: 0%
 
 外部使用者根據其外部設定檔設定範圍。
 
-例如，從上方清單，如果您啟用 **[!UICONTROL Acme Corp]**，屬於Acme Corp的所有學習者都可以看見他們已建立的看板。 如果您停用選項 **亨利·卡維爾**，學習者無法看見Henry Cavill建立的任何展示板。
+例如，從上方清單中，如果您啟用&#x200B;**[!UICONTROL Acme Corp]**，屬於Acme Corp的所有學習者都可以看到他們已建立的看板。 如果您停用選項&#x200B;**Henry Cavill**，學習者將無法看到Henry Cavill建立的任何展示板。
 
-管理員可以根據 **[!UICONTROL User characteristic]** 欄位。
+管理員可以根據&#x200B;**[!UICONTROL User characteristic]**&#x200B;欄位中顯示的作用中欄位，來限定內容的可見度。
 
-例如，管理員可以將範圍設為 **[!UICONTROL User Type (Internal/External)]** 使用者。 將範圍設定為「使用者型別」時，任何內部學習者在Social Learning平台上共用的內容僅對組織中的其他內部學習者可見，對外部使用者不可見，反之亦然。
+例如，管理員可以將範圍設定為&#x200B;**[!UICONTROL User Type (Internal/External)]**&#x200B;位使用者。 將範圍設定為「使用者型別」時，任何內部學習者在Social Learning平台上共用的內容僅對組織中的其他內部學習者可見，對外部使用者不可見，反之亦然。
 
 管理員選取「使用者特性」後，即可選取「使用者特性」欄位下方的核取方塊，將「社交學習」功能限製為學習者和學習者群組。 按一下值欄位，以選取您要為其啟用社交學習功能的學習者或學習者群組。
 
-依預設，設定範圍的工具為 **[!UICONTROL User Type]** 即內部或外部學習者。
+根據預設，範圍是由&#x200B;**[!UICONTROL User Type]**&#x200B;所設定，該使用者為內部或外部學習者。
 
-如果作用中欄位不包含任何值，則 **[!UICONTROL Value]** 管理員看不到欄位下拉式清單。
+如果作用中欄位不包含任何值，則管理員不會看到&#x200B;**[!UICONTROL Value]**&#x200B;欄位下拉式清單。
 
 <!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
 
-使用者也可以使用Adobe Learning Manager案頭應用程式發佈其內容。 視您是Mac或Windows使用者而定，按一下指定的連結以下載案頭應用程式，然後依照指定的步驟將其安裝至您的系統。 如果您在安裝時遇到任何困難， [按一下這裡](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+使用者也可以使用Adobe Learning Manager案頭應用程式發佈其內容。 視您是Mac或Windows使用者而定，按一下指定的連結以下載案頭應用程式，然後依照指定的步驟將其安裝至您的系統。 如果您在安裝時遇到任何困難，請[按一下這裡](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md)。
 
 ### 下載設定 {#downloadconfigurations}
 
@@ -129,15 +129,15 @@ Enterprise Server URL必須公開託管。
 
 *設定建立展示板的許可權*
 
-依預設，選項 **[!UICONTROL All Learners]** 已啟用。
+預設會啟用選項&#x200B;**[!UICONTROL All Learners]**。
 
-**[!UICONTROL All Learners]：** 如果您選擇此選項，所有內部和外部使用者都可以建立面板。
+**[!UICONTROL All Learners]：**&#x200B;如果您選擇此選項，所有內部和外部使用者都可以建立面板。
 
-**學習者群組：** 如果選擇此選項，則只有擁有建立展示板許可權的使用者會看到 **[!UICONTROL Create New Board]** 社交學習中的連結。 選擇必須被授予建立展示板許可權的使用者群組。 您也可以新增自動產生的以及自訂的使用者群組。
+**學習者群組：**&#x200B;如果您選擇此選項，只有擁有建立展示板許可權的使用者會在社交學習中看到&#x200B;**[!UICONTROL Create New Board]**&#x200B;連結。 選擇必須被授予建立展示板許可權的使用者群組。 您也可以新增自動產生的以及自訂的使用者群組。
 
 <!--![](assets/grant-permissiontoausergroup.png)-->
 
-共用相同範圍的使用者只能看到展示板。 對於沒有許可權的使用者， **[!UICONTROL Create New Board]** 連結仍會保持隱藏。
+共用相同範圍的使用者只能看到展示板。 若使用者沒有許可權，**[!UICONTROL Create New Board]**&#x200B;連結仍會隱藏。
 
 任何變更要生效，請等待60分鐘。
 
@@ -147,11 +147,11 @@ Enterprise Server URL必須公開託管。
 
 使用者群組可以是自動產生或自訂。
 
-已授予此許可權的使用者可存取所有展示板，但 **私人看板**.
+已授與此許可權的使用者可存取所有展示板，但&#x200B;**私人展示板**&#x200B;除外。
 
 ![](assets/special-users.png)
 
-*授予特殊許可權*
+*授與特殊許可權*
 
 當管理員選取使用者群組時，預設情況下，群組中的所有使用者都可以存取所有展示板，無論使用者的範圍為何。 擁有這些提升許可權的任何使用者都可以檢視並參與所有內部和外部面板。
 
@@ -165,7 +165,7 @@ Enterprise Server URL必須公開託管。
 
 如果您已獲得特殊使用者許可權，則無論使用者的範圍為何，您皆可在領導板上看到帳戶中的所有使用者。
 
-如果特殊使用者獲得足夠的點數而成為SME，則會出現在 **[!UICONTROL Top Subject Matter Experts]** 列在社交領導者面板中。
+如果特殊使用者獲得足夠的點數而成為SME，就會出現在社交領導者面板的&#x200B;**[!UICONTROL Top Subject Matter Experts]**&#x200B;清單中。
 
 任何變更要生效，請等待60分鐘。
 
@@ -173,10 +173,10 @@ Enterprise Server URL必須公開託管。
 
 管理員可以自訂出現在Social Learning首頁頁頁首影像的標題和副標題。 無論管理員如何決定輸入作為標題和副標題，學習者社交學習首頁上的相同功能。
 
-1. 在管理員應用程式上，按一下 **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**.
-1. 按一下 **[!UICONTROL Customize]**.
-1. 變更橫幅影像。 影像的尺寸必須至少為 **1600畫素X 240畫素**.
-1. 切換選項以隱藏或顯示 **[!UICONTROL Know More]** 橫幅上的連結。
+1. 在管理員應用程式上，按一下&#x200B;**[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**。
+1. 按一下&#x200B;**[!UICONTROL Customize]**。
+1. 變更橫幅影像。 影像的尺寸必須至少為&#x200B;**1600 px X 240 px**。
+1. 切換在橫幅上隱藏或顯示&#x200B;**[!UICONTROL Know More]**&#x200B;連結的選項。
 1. 在下面指定的欄位中輸入標題和副標題：
 
    ![](assets/image012.png)
@@ -185,9 +185,9 @@ Enterprise Server URL必須公開託管。
 
 您有幾個其他選項：
 
-* **[!UICONTROL Language]：** 從下拉式清單中，選擇要翻譯標題和副標題的語言。 您也可以新增不同語言的自訂文字。
-* **[!UICONTROL Replicate]：** 按一下此按鈕，即可復寫所有語言的標題和副標題。
-* **[!UICONTROL Reset]：** 按一下此按鈕以恢復為原始標題和副標題。
+* **[!UICONTROL Language]：**&#x200B;從下拉式清單中，選擇要翻譯標題和副標題的語言。 您也可以新增不同語言的自訂文字。
+* **[!UICONTROL Replicate]：**&#x200B;按一下此按鈕，即可復寫所有語言的標題和副標題。
+* **[!UICONTROL Reset]：**&#x200B;按一下此按鈕以還原為原始標題和子標題。
 
   在社交學習首頁上，管理員提供的資訊會顯示為頁首。
 
@@ -204,7 +204,7 @@ Enterprise Server URL必須公開託管。
 
 手動仲裁內容通常容易發生錯誤並需要大量時間。 此外，該程式不可擴充，且不適合大量社交活動。 因此，在為許多活躍於社交活動的使用者提供服務時，自動組織內容就變得至關重要。
 
-在Learning Manager中，有一個選項可自動組織內容。 組織工作由啟用AI的引擎驅動，在管理員對應預先定義的技能與某項技能後，該引擎會對應與預先定義的技能搭配運作。 如需詳細資訊，請參閱 [技能領域對應](curation-skills.md).
+在Learning Manager中，有一個選項可自動組織內容。 組織工作由啟用AI的引擎驅動，在管理員對應預先定義的技能與某項技能後，該引擎會對應與預先定義的技能搭配運作。 如需詳細資訊，請參閱[技能網域對應](curation-skills.md)。
 
 在自動組織中，允許下列內容型別：
 
@@ -215,13 +215,13 @@ Enterprise Server URL必須公開託管。
 
 管理員可以啟用在管理員應用程式內自動組織內容的選項。
 
-1. 在管理員應用程式的左窗格中，按一下 **[!UICONTROL Social Learning]**.
-1. 在頁面上，按一下索引標籤 **[!UICONTROL Settings]**.
-1. 啟用選項 **[!UICONTROL Auto-assisted Manual Curation]**.
+1. 在管理員應用程式的左窗格中，按一下&#x200B;**[!UICONTROL Social Learning]**。
+1. 在頁面上，按一下索引標籤&#x200B;**[!UICONTROL Settings]**。
+1. 啟用選項&#x200B;**[!UICONTROL Auto-assisted Manual Curation]**。
 
    ![](assets/auto-curation.png)
 
-   *選取「自動輔助手動組織」選項*
+   *選取自動協助手動組織選項*
 
 當使用者上傳展示板中的內容時，AI型演演算法會從內容中清除文字，然後文字會傳遞至組織引擎。 組織引擎會嘗試尋找內容中存在的技能。
 
@@ -233,9 +233,9 @@ Enterprise Server URL必須公開託管。
 
 *組織設定的流程圖*
 
-如果僅手動組織開啟，建議管理員新增技能的SME。 管理員可以預先為具有某一技能專門知識的使用者提供SME分數，以新增SME。 若要進一步瞭解如何向SME提供點數，  [按一下這裡](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+如果僅手動組織開啟，建議管理員新增技能的SME。 管理員可以預先為具有某一技能專門知識的使用者提供SME分數，以新增SME。 若要進一步瞭解如何提供點數給SME，[請按一下這裡](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs)。
 
-**無組織：** 所有學習者的貼文都會自動發佈，無需任何內容稽核。
+**無組織：**&#x200B;所有學習者的貼文都會自動張貼，沒有任何內容稽核。
 
 <!--![](assets/artboard-6-2x.png)-->
 
@@ -286,9 +286,9 @@ SME是根據技能（而非技能等級）新增/指派。 一切如期進行。
 
 +++社交學習「版主」和社交學習「SME」有何不同？
 
-**版主：** 展示板的次要擁有者。 在電路板建立期間，它們由建立者加入，因此他們可以在沒有建立者的情況下控制電路板。 依預設，展示板的建立者為版主。
+**版主：**&#x200B;展示板的次要擁有者。 在電路板建立期間，它們由建立者加入，因此他們可以在沒有建立者的情況下控制電路板。 依預設，展示板的建立者為版主。
 
-**SME：** 主題專家是特定技能的專家。 管理員可以指派SME給特定技能，以組織該技能的內容。 SME會收到連結至其技能之展示板的組織請求。 學習者也可以藉由獲得SME點數而成為SME。
+**SME：**&#x200B;主題專家是特定技能的專家。 管理員可以指派SME給特定技能，以組織該技能的內容。 SME會收到連結至其技能之展示板的組織請求。 學習者也可以藉由獲得SME點數而成為SME。
 
 +++
 
@@ -312,15 +312,15 @@ SME是根據技能（而非技能等級）新增/指派。 一切如期進行。
 
 第一個視覺效果為管理員提供下列從日期篩選器選取之時段的資訊：
 
-1. **[!UICONTROL New Posts]**：顯示在該日期期間內建立的新貼文數。 也會顯示整個期間的貼文總數。
-1. **[!UICONTROL Percentage of Active users]**：顯示相較於帳戶中可用的使用者總數，社交學習中的作用中使用者總百分比。
-1. **[!UICONTROL New Boards]**：顯示已建立的新面板數量。 也會顯示整個期間面板的總數。
+1. **[!UICONTROL New Posts]**：顯示在該日期期間內建立的新貼文數目。 也會顯示整個期間的貼文總數。
+1. **[!UICONTROL Percentage of Active users]**：顯示與帳戶中可用的使用者總數相比，社交學習中的作用中使用者總百分比。
+1. **[!UICONTROL New Boards]**：顯示已建立的新面板數目。 也會顯示整個期間面板的總數。
 
 第二個視覺效果是折線圖，根據從日期篩選器選取的時段，顯示已建立的看板或貼文數量趨勢。 按一下篩選器以檢視不同的時間選項，例如過去七天、上個月、過去三個月和所有時間。
 
 ![](assets/trends.png)
 
-*顯示趨勢的線上圖表*
+顯示趨勢的&#x200B;*LIne圖表*
 
 ## 技能 {#skills}
 
@@ -395,7 +395,7 @@ SME是根據技能（而非技能等級）新增/指派。 一切如期進行。
 
 ## 技能領域 {#skilldomain}
 
-根據Learning Manager一般使用者最常使用的技能，Adobe Learning Manager已將自動組織系統用來組織內容的25個技能網域清單進行分類。 管理員必須將設定的企業技能對應至Prime提供的技能網域。 技能對應可在建立技能或修改現有技能時從管理員技能頁面完成。 如需如何對應或新增技能的詳細資訊， [按一下這裡](skills-levels.md#Createaskillandalevel).
+根據Learning Manager一般使用者最常使用的技能，Adobe Learning Manager已將自動組織系統用來組織內容的25個技能網域清單進行分類。 管理員必須將設定的企業技能對應至Prime提供的技能網域。 技能對應可在建立技能或修改現有技能時從管理員技能頁面完成。 如需如何對應或新增技能的詳細資訊，[按一下這裡](skills-levels.md#Createaskillandalevel)。
 
 +++Learning Manager的組織系統所使用的技能網域清單
 
@@ -429,7 +429,7 @@ SME是根據技能（而非技能等級）新增/指派。 一切如期進行。
 
 ## 主題專家(SME) {#subjectmatterexpertssmes}
 
-**主題專家** 在某項技能上擁有相當多的知識和專業知識的人。 一個 **SME** 在社交學習中，當管理員將組織設定設為手動，或自動組織方法無法組織內容時，就會扮演重要角色。 「SME」欄中只會顯示前三個SME。
+**主題專家**&#x200B;是指在技能方面擁有相當知識和專業知識的人。 管理員已將組織設定設為手動，或自動組織方法無法組織內容時，**SME**&#x200B;在社交學習中會扮演重要角色。 「SME」欄中只會顯示前三個SME。
 
 ## 成為SME的需求 {#requirementstobeansme}
 
@@ -439,19 +439,19 @@ SME地位只能透過在社交學習中的活動獲得SME點數來獲得。 管�
 
 若要將SME新增至技能，請遵循指定步驟：
 
-1. 按一下 **[!UICONTROL Add SMEs]** 或 **[!UICONTROL Modify SMEs]**.
+1. 按一下&#x200B;**[!UICONTROL Add SMEs]**&#x200B;或&#x200B;**[!UICONTROL Modify SMEs]**。
 
    ![](assets/add-smes-06.png)
 
    *新增或修改SME*
 
-1. 按一下 **[!UICONTROL Advanced Options]** 從快顯對話方塊中。
+1. 在快顯對話方塊中按一下&#x200B;**[!UICONTROL Advanced Options]**。
 
    ![](assets/advanced-optionssmes.png)
 
    *檢視進階選項對話方塊*
 
-1. 搜尋具備該技能專門知識的使用者。 找到使用者後，在「 」中輸入您要給予他的點數 **新增點** 輸入方塊。
+1. 搜尋具備該技能專門知識的使用者。 找到使用者後，請在&#x200B;**新增點**&#x200B;輸入方塊中輸入您要給予他的點數。
 
    如果使用者已經有點，則給予使用者的新點數會新增到目前的點數。
 
@@ -459,17 +459,17 @@ SME地位只能透過在社交學習中的活動獲得SME點數來獲得。 管�
 
    ![](assets/advanced-options.png)
 
-   *為使用者新增點*
+   *為使用者新增點數*
 
-1. 藉由選取 **[!UICONTROL Enable Minimum SME Points]** 核取方塊，您可以設定限制使用者在前SME清單中必須顯示為SME的最低點數。 設定臨界值後，點小於或等於所需最小點值的SME將不會列在SME清單中。
+1. 透過選取&#x200B;**[!UICONTROL Enable Minimum SME Points]**&#x200B;核取方塊，您可以設定使用者在「前幾名SME」清單中必須顯示為SME的最低點數限制。 設定臨界值後，點小於或等於所需最小點值的SME將不會列在SME清單中。
 
-   如果 **[!UICONTROL Enable Minimum SME Points]** 如果沒有選取核取方塊，則會將分數最高的前三名使用者視為該特定技能的SME。
+   如果未選取&#x200B;**[!UICONTROL Enable Minimum SME Points]**&#x200B;核取方塊，則分數最高的前三位使用者會被視為該特定技能的SME。
 
-1. 按一下 **[!UICONTROL Save]** 按鈕以顯示已進行的變更。
+1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;按鈕以顯示所做的變更。
 
 ## SME點系統 {#smepointsystem}
 
-**SME會根據下列專案獲得點數：**
+**SME根據下列專案獲得點數：**
 
 * 每次有使用者投票支援他/她所建立的貼文時，就會給他/她2點。
 * 每次有使用者投票贊成其評論時，就會給使用者2點。
@@ -484,15 +484,15 @@ SME地位只能透過在社交學習中的活動獲得SME點數來獲得。 管�
 
 ## 每月活躍使用者計費計畫的社交活動 {#socialactivitiesformonthlyactiveusersbillingplan}
 
-每次使用者建立新的社交展示板、社交貼文或社交評論時，都會計為有效活動，並依據 **每月啟用使用者**(MAU)計畫帳戶是否遵循MAU帳單模型。 如需詳細資訊，請參閱 [計費管理](billing-management.md).
+每次使用者建立新的社交留言板、社交貼文或社交評論時，如果帳戶遵循MAU計費模式，則會將其計為有效活動，以計入&#x200B;**每月啟用使用者** (MAU)計畫。 如需詳細資訊，請參閱[帳單管理](billing-management.md)。
 
 ## 常見問題 {#frequentlyaskedquestions}
 
 +++如何為外部學習者啟用社交學習？
 
-在 **[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**，在範圍設定區段中，啟用選項 **[!UICONTROL Enable for External learners]**. 從下拉式清單中選擇外部設定檔，並定義該設定檔的學習範圍。
+在&#x200B;**[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**&#x200B;的領域設定區段中，啟用選項&#x200B;**[!UICONTROL Enable for External learners]**。 從下拉式清單中選擇外部設定檔，並定義該設定檔的學習範圍。
 
 ![](assets/social-scope-external-users.png)
 
-*選取為外部學習者啟用選項*
+*選取[為外部學習者啟用]選項*
 +++

@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: 無法檢視課程中的學習者
-description: 課程的學習者索引標籤未顯示任何已註冊Adobe學習管理器的學習者。 不過，如果您產生報表，則可以在報表中檢視已註冊的學習者。
+description: 課程的學習者索引標籤未顯示任何已註冊Adobe Learning Manager的學習者。 不過，如果您產生報表，則可以在報表中檢視已註冊的學習者。
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
 
 ---
-
-
 
 # 無法檢視課程中的學習者
 
@@ -35,10 +34,10 @@ ht-degree: 0%
 您可以在學習成績單報告中檢視此資訊。 若要產生學習者成績單，請遵循下列步驟：
 
 1. 以管理員身分登入。
-1. 按一下 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Learner Transcript]**.
+1. 按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Learner Transcript]**。
 
-1. 輸入 **[!UICONTROL Learner]** 並指定 **[!UICONTROL Date]** 範圍。
-1. 展開區段 **[!UICONTROL Advanced Options]** 並選取選項 **[!UICONTROL Enable module level information]**.
-1. 按一下 **[!UICONTROL Generate]**.
+1. 輸入&#x200B;**[!UICONTROL Learner]**&#x200B;的名稱並指定&#x200B;**[!UICONTROL Date]**&#x200B;範圍。
+1. 展開區段&#x200B;**[!UICONTROL Advanced Options]**&#x200B;並選取選項&#x200B;**[!UICONTROL Enable module level information]**。
+1. 按一下&#x200B;**[!UICONTROL Generate]**。
 
    在學習者成績單上，您可以檢視學習者註冊的高等學習物件。

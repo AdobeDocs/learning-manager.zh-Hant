@@ -13,7 +13,7 @@ ht-degree: 2%
 # Learning Manager指南 {#using}
 
 * [Learning Manager使用手冊](user-guide.md)
-* 簡介 {#introduction}
+* 簡介{#introduction}
    * [新功能摘要](whats-new.md)
    * [新功能2024年3月](whats-new-march-2024.md)
    * [新功能2023年11月](whats-new-november-2023.md)
@@ -31,13 +31,13 @@ ht-degree: 2%
    * [從Adobe FTP管理員轉換](transition-from-ftp-manager.md)
    * [Adobe Learning Manager中的API淘汰與變更](api-deprecations-list.md)
    * [Adobe Learning Manager中的白標](white-label.md)
-* 開始使用 {#get-started}
+* 開始使用{#get-started}
    * [管理員快速入門](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入門](authors/feature-summary/getting-started-author.md)
    * [學習者快速入門](learners/feature-summary/getting-started-learner.md)
    * [管理員快速入門](managers/feature-summary/getting-started-manager.md)
    * [Learning Manager講師入門](instructors/feature-summary/getting-started.md)
-* 管理員 {#admin}
+* 管理員{#admin}
    * [使用者登入](administrators/feature-summary/user-login.md)
    * [新增使用者並建立使用者群組](administrators/feature-summary/add-users-user-groups.md)
    * [新增教室位置](administrators/feature-summary/classroom.md)
@@ -84,7 +84,7 @@ ht-degree: 2%
    * [學習者的非登入體驗](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [學習計畫](administrators/feature-summary/learning-programs.md)
    * [產品術語](administrators/feature-summary/product-terminology.md)
-* 整合管理員 {#integration}
+* 整合管理員{#integration}
    * [移轉手冊](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager聯結器](integration-admin/feature-summary/connectors.md)
    * [未登入的API](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -95,7 +95,7 @@ ht-degree: 2%
    * [適用於Salesforce的Learning Manager應用程式](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [透過CSV檔案管理自訂角色](integration-admin/feature-summary/configure-role-csv-files.md)
-* 作者 {#authors}
+* 作者{#authors}
    * [使用者登入](authors/feature-summary/user-login.md)
    * [內容庫](authors/feature-summary/content-library.md)
    * [建立、修改和發佈課程](authors/feature-summary/courses.md)
@@ -108,10 +108,10 @@ ht-degree: 2%
    * [如何選擇課程模組？](authors/how-to-choose-modules.md)
    * [學習者預覽](authors/feature-summary/fluidic-player.md)
    * [設定](authors/feature-summary/settings.md)
-* 講師 {#instructor}
+* 講師{#instructor}
    * [模組](instructors/feature-summary/modules.md)
    * [管理工作階段的學習者](instructors/feature-summary/learners.md)
-* 學習者 {#learner}
+* 學習者{#learner}
    * [登入](learners/feature-summary/user-login.md)
    * [設定檔設定](learners/feature-summary/settings.md)
    * [目錄](learners/feature-summary/catalogs.md)
@@ -135,7 +135,7 @@ ht-degree: 2%
    * [學習者首頁](learners/feature-summary/learner-home-page.md)
    * [分享至社交學習](learners/feature-summary/share-to-social.md)
    * [系統需求 | Adobe Learning Manager案頭應用程式](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
-* 經理 {#manager}
+* 經理{#manager}
    * [使用者登入](managers/feature-summary/user-login.md)
    * [管理員儀表板](managers/feature-summary/manager-dashboard.md)
    * [報表](managers/feature-summary/reports.md)
@@ -144,12 +144,12 @@ ht-degree: 2%
    * [學習者成績單](managers/feature-summary/learner-transcripts.md)
    * [設定](managers/feature-summary/settings.md)
    * [iPad與Android平板電腦使用者](managers/feature-summary/ipad-android-tablet-users.md)
-* 常見問題 {#faq}
+* 常見問題{#faq}
    * [管理員常見問題](administrators/frequently-asked-questions-for-administrators.md)
    * [作者的常見問題集](authors/frequently-asked-questions-for-authors.md)
    * [講師常見問題](instructors/frequently-asked-questions-for-instructors.md)
    * [經理常見問題](managers/frequently-asked-questions-for-managers.md)
-* 知識庫 {#knowledge-base}
+* 知識庫{#knowledge-base}
    * [無法登入Learning Manager](kb/unable-log-in-learning-manager.md)
    * [學習摘要不顯示目前的資料](kb/learning-summary-not-display-data.md)
    * [無法上傳CSV](kb/unable-to-upload-csv.md)

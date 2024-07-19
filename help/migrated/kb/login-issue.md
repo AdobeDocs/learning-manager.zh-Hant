@@ -3,24 +3,23 @@ jcr-language: en_us
 title: Learning Manager中的登入問題
 description: Adobe Learning Manager中的登入問題
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
 
 ---
 
-
-
 # Learning Manager中的登入問題
 
 ## 問題
 
-無法登入Adobe學習管理員。
+無法登入Adobe Learning Manager。
 
 ## 錯誤
 
-嘗試登入AdobeLearning Manager時，顯示如下所示的錯誤訊息：
+嘗試登入Adobe Learning Manager時，顯示如下所示的錯誤訊息：
 
 ![](assets/cp-error.png)
 
@@ -38,7 +37,7 @@ Adobe Learning Manager會拒絕這些導致錯誤的陳舊Cookie。
 
 如果Adobe Learning Manager拒絕過時的Cookie，請嘗試下列選項：
 
-1. 清除瀏覽器Cookie和快取。 如需詳細資訊，請參閱此 [檔案](unable-log-in-learning-manager.md).
+1. 清除瀏覽器Cookie和快取。 如需詳細資訊，請參閱此[檔案](unable-log-in-learning-manager.md)。
 
    或者，IDP管理員可以在特定設定時間後定義強制登出。 此步驟會再次驗證使用者，以開始新的工作階段。
 
@@ -46,4 +45,4 @@ Adobe Learning Manager會拒絕這些導致錯誤的陳舊Cookie。
 
 ## 參考連結：
 
-[Microsoft：期限內的條件式存取工作階段](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft：存留期內的條件式存取工作階段](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

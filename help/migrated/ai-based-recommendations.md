@@ -3,20 +3,19 @@ jcr-language: en_us
 title: AI型建議
 description: Learning Manager包括全新的學習者首頁，此首頁不但現代化、更具內容導向性，而且會根據學習者的偏好提供個人化內容。 以AI為基礎的學習建議旨在增強學習者的參與度，並找出和解決學習中的差距。
 contentowner: saghosh
-source-git-commit: fbba54fd99b5757f70011ec0b240abcb25042ec1
+exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
 
 ---
 
-
-
 # AI型建議
 
 ## 概觀 {#overview}
 
-Adobe Learning Manager提供學習者首頁，不但現代化、更具內容導向性，而且會根據學習者的偏好提供個人化內容。 以AI為基礎的學習建議旨在增強學習者的參與度，並找出和解決學習中的差距。
+Adobe Learning Manager包含學習者首頁，網頁不但現代化、更具內容導向性，而且會根據學習者的偏好提供個人化內容。 以AI為基礎的學習建議旨在增強學習者的參與度，並找出和解決學習中的差距。
 
 建議演演算法的設計目標是要納入多種輸入來源，包括Adobe從合作夥伴取得之職務角色、職稱和說明的產業資料。 然後，這些資料會用於訓練Adobe的AI演演算法，以便Learning Manager可以想出地圖，將業界公認的技能與職稱和/或職稱聯絡起來。 接著會成為建議演演算法的輸入之一
 

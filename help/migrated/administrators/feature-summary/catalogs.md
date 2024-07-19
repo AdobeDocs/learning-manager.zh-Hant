@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
 
-如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 
 ## 建立目錄 {#createacatalog}
@@ -31,12 +31,12 @@ ht-degree: 0%
 若要建立目錄，請執行下列步驟：
 
 1. 以管理員身分，在左窗格中按一下「目錄」。 此頁面會提供一個預設目錄，當您建立Learning Manager帳戶時會自動建立此目錄。 根據預設，目錄中的所有學習物件會與所有學習者共用。
-1. 若要建立目錄，在頁面的右上角，按一下 **[!UICONTROL Create]**. 或者，您也可以按一下 **[!UICONTROL Create Catalog]**，位於目錄清單下方。
-1. 在 **[!UICONTROL Create Catalog]** 頁面，輸入您要建立之目錄的名稱和描述。
+1. 若要建立目錄，請按一下頁面右上角的&#x200B;**[!UICONTROL Create]**。 您也可以選擇按一下位於目錄清單下方的&#x200B;**[!UICONTROL Create Catalog]**。
+1. 在&#x200B;**[!UICONTROL Create Catalog]**&#x200B;頁面上，輸入您要建立之目錄的名稱和描述。
 
    ![](assets/create-catalog.png)
 
-   若要繼續，請按一下 **[!UICONTROL Next]**.
+   若要繼續，請按一下&#x200B;**[!UICONTROL Next]**。
 
    縮圖只能在沈浸式UI中檢視，不能在Classic UI中檢視。
 
@@ -58,37 +58,37 @@ ht-degree: 0%
    您可以將多個課程新增至目錄。
 1. 您可以依技能、角色和語言來篩選課程。 選中的課程會推薦給對這些技能和角色感興趣的學習者。
 1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
-1. 在新目錄的頁面中，在左窗格中，按一下 **[!UICONTROL Content]**.
+1. 在新目錄的頁面中，在左窗格上按一下&#x200B;**[!UICONTROL Content]**。
 
    ![](assets/click-content-inthecatalog.png)
 
    *選取課程以新增至目錄*
 
-   您新增的課程會顯示在 **[!UICONTROL Courses]** 標籤。
+   您新增的課程會顯示在&#x200B;**[!UICONTROL Courses]**&#x200B;索引標籤中。
 
 ## 將學習計畫新增至目錄 {#lp}
 
 1. 從學習計劃清單中，選擇要新增至目錄的學習計畫。
 1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
-1. 在新目錄的頁面中，在左窗格中，按一下 **[!UICONTROL Content]**.
+1. 在新目錄的頁面中，在左窗格上按一下&#x200B;**[!UICONTROL Content]**。
 
-   您新增的學習計畫會顯示在 **[!UICONTROL Learning Programs]** 標籤。
+   您新增的學習計畫會顯示在&#x200B;**[!UICONTROL Learning Programs]**&#x200B;索引標籤中。
 
 ## 將認證新增至目錄 {#cert}
 
 1. 從「認證」清單中，選擇要新增至目錄的「認證」。
 1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
-1. 在新目錄的頁面中，在左窗格中，按一下 **[!UICONTROL Content]**.
+1. 在新目錄的頁面中，在左窗格上按一下&#x200B;**[!UICONTROL Content]**。
 
-   您新增的認證會顯示在 **[!UICONTROL Certifications]** 標籤。
+   您新增的認證會顯示在&#x200B;**[!UICONTROL Certifications]**&#x200B;標籤中。
 
 ## 將工作輔助新增至目錄 {#job}
 
 1. 從工作輔助清單中，選擇要新增至目錄的工作輔助。
 1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
-1. 在新目錄的頁面中，在左窗格中，按一下 **[!UICONTROL Content]**.
+1. 在新目錄的頁面中，在左窗格上按一下&#x200B;**[!UICONTROL Content]**。
 
-   您新增的工作輔助會顯示在 **[!UICONTROL Job Aids]** 標籤。
+   您新增的工作輔助會顯示在&#x200B;**[!UICONTROL Job Aids]**&#x200B;標籤中。
 
 如果帳戶中已提供內容，則會顯示在這兩個標籤中的每一個中。 否則，您需要先建立內容。 例如，如果您尚未在Learning Manager應用程式中新增任何課程或學習計畫，則必須先開始建立它們。
 
@@ -96,11 +96,11 @@ ht-degree: 0%
 
 管理員可以產生目錄的深層連結，將學習者帶往特定目錄頁面。
 
-在 **[!UICONTROL Catalogs]** 將滑鼠移至您要深層連結的目錄上，然後按一下醒目提示的圖示。
+在&#x200B;**[!UICONTROL Catalogs]**&#x200B;頁面上，將滑鼠移至您要深層連結的目錄上，然後按一下醒目提示的圖示。
 
 ![](assets/catalog-deep-link.png)
 
-*為學習者產生深層連結*
+*產生學習者的深層連結*
 
 ## 啟用目錄 {#enablethecatalog}
 
@@ -108,21 +108,21 @@ ht-degree: 0%
 
 若要啟用目錄，
 
-1. 在目錄清單中，切換要啟用的目錄附近的選項。 或者，您可以選取目錄附近的核取方塊，按一下 **[!UICONTROL Actions]** ，然後按一下 **[!UICONTROL Enable]**.
+1. 在目錄清單中，切換要啟用的目錄附近的選項。 或者，您可以選取目錄附近的核取方塊、按一下右上角的&#x200B;**[!UICONTROL Actions]**，然後按一下&#x200B;**[!UICONTROL Enable]**。
 
-1. 您也可以在清單中啟用多個目錄。 選取目錄，並從 **[!UICONTROL Action]** 功能表，選擇選項 **[!UICONTROL Enable]**.
+1. 您也可以在清單中啟用多個目錄。 選取目錄，然後從&#x200B;**[!UICONTROL Action]**&#x200B;功能表選擇選項&#x200B;**[!UICONTROL Enable]**。
 
 ## 停用目錄 {#disablethecatalog}
 
 若要停用目錄，請關閉目錄附近的選項。
 
-或者，您可以選取目錄附近的核取方塊，按一下右上角的「動作」，然後按一下 **[!UICONTROL Disable]**.
+或者，您可以選取目錄附近的核取方塊，按一下右上角的[動作]，然後按一下&#x200B;**[!UICONTROL Disable]**。
 
-您也可以停用清單中的多個目錄。 選取目錄，然後從「動作」功能表中選擇選項 **[!UICONTROL Disable]**.
+您也可以停用清單中的多個目錄。 選取目錄，然後從[動作]功能表選擇選項&#x200B;**[!UICONTROL Disable]**。
 
 ## 刪除目錄 {#deletethecatalog}
 
-若要刪除目錄，請在清單中選取目錄。 按一下目錄附近的「刪除」按鈕，或按一下 **[!UICONTROL Actions]** > **[!UICONTROL Delete]**.
+若要刪除目錄，請在清單中選取目錄。 按一下目錄附近的[刪除]按鈕，或按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Delete]**。
 
 您也可以刪除多個目錄。
 
@@ -138,43 +138,43 @@ ht-degree: 0%
 
 [![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
-如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 ## 在內部共用目錄 {#int}
 
 選擇您要內部共用的目錄。
 
-在左窗格中，按一下 **[!UICONTROL Share Internally]**.
+在左窗格中，按一下&#x200B;**[!UICONTROL Share Internally]**。
 
 如果沒有群組，您必須新增內部使用者群組。
 
-若要新增內部使用者群組，請按一下 **[!UICONTROL Add User Groups]**.
+若要新增內部使用者群組，請按一下&#x200B;**[!UICONTROL Add User Groups]**。
 
 ![](assets/internal-usergroups.png)
 
-*內部共用目錄*
+*在內部共用目錄*
 
 沒有啟用/停用共用使用者群組的可用選項。 若要停用，您必須刪除使用者群組。 若要刪除，請將滑鼠停留在三點上，然後按一下刪除圖示。 或者，按一下頁面右上角的動作下拉式清單，然後按一下刪除。
 
 ## 從外部共用目錄 {#ext}
 
-在「目錄」頁面中，按一下您要共用的目錄。 在左側面板中按一下 **[!UICONTROL Share Externally]**.
+在「目錄」頁面中，按一下您要共用的目錄。 在左側面板中按一下&#x200B;**[!UICONTROL Share Externally]**。
 
 ![](assets/shared-catalog-external.png)
 
-*在外部共用目錄*
+*從外部共用目錄*
 
-輸入與您的Learning Manager帳戶相關聯的子網域。 按一下 **[!UICONTROL How to get subdomain?]** 以瞭解子網域的使用情況。 您也可以按一下 **[!UICONTROL Branding]** 位於管理員首頁的左窗格，以檢視與組織帳戶相關聯的子網域。
+輸入與您的Learning Manager帳戶相關聯的子網域。 按一下&#x200B;**[!UICONTROL How to get subdomain?]**&#x200B;瞭解子網域使用情況。 您也可以按一下管理員首頁左窗格中的&#x200B;**[!UICONTROL Branding]**，以檢視與您的組織帳戶相關聯的子網域。
 
 **註冊限制**
 
-您可以新增以下專案的數目，以設定共用目錄上每門課程的註冊數限制： **允許註冊欄位**. 共用目錄的接收者無法使用學習計畫中擁有註冊限制的課程。
+您可以在&#x200B;**允許註冊欄位**&#x200B;中新增數字，以設定共用目錄上每個課程的註冊數限制。 共用目錄的接收者無法使用學習計畫中擁有註冊限制的課程。
 
 **到期**
 
-您可以透過以下設定到期日來設定共用目錄的有效性： **[!UICONTROL Expiry]** 欄位。 共用目錄到期日後，課程將不允許註冊。 現有學習者仍可存取內容。 學習物件已淘汰，但徽章和技能處於活動狀態。 在此狀態下，共用目錄接收者無法取消淘汰的學習物件。
+您可以在&#x200B;**[!UICONTROL Expiry]**&#x200B;欄位中設定到期日，以設定共用目錄的有效性。 共用目錄到期日後，課程將不允許註冊。 現有學習者仍可存取內容。 學習物件已淘汰，但徽章和技能處於活動狀態。 在此狀態下，共用目錄接收者無法取消淘汰的學習物件。
 
-按一下 **[!UICONTROL Save]** 新增所有必要資訊後。 按一下 **[!UICONTROL Actions]** 下拉式清單位於頁面的右上角，然後按一下 **[!UICONTROL Share]** 與外部帳戶共用目錄。
+新增所有必要資訊後，請按一下&#x200B;**[!UICONTROL Save]**。 按一下頁面右上角的&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式清單，然後按一下&#x200B;**[!UICONTROL Share]**&#x200B;以與外部帳戶共用目錄。
 
 共用帳戶擁有者擁有的目錄只允許與外部帳戶共用。 您無法共用其他帳戶已與您共用的目錄。
 
@@ -186,13 +186,13 @@ ht-degree: 0%
 
 **取消共用目錄**
 
-取消共用目錄會停用應用程式中的外部帳戶。 若要取消共用目錄，請按一下 **[!UICONTROL Actions]** ，然後按一下「 」 **[!UICONTROL Unshare]**. 您可以隨時取消共用目錄。 取消共用目錄時，該共用目錄中的所有學習物件都會移至已淘汰狀態。 停用的目錄會在接收者的應用程式中顯示為已淘汰。
+取消共用目錄會停用應用程式中的外部帳戶。 若要取消共用目錄，請按一下頁面右上角的&#x200B;**[!UICONTROL Actions]**&#x200B;並按一下&#x200B;**[!UICONTROL Unshare]**。 您可以隨時取消共用目錄。 取消共用目錄時，該共用目錄中的所有學習物件都會移至已淘汰狀態。 停用的目錄會在接收者的應用程式中顯示為已淘汰。
 
 您只能在接收者接受請求之前，從共用清單中移除外部帳戶。
 
 **刪除目錄**
 
-若要刪除共用目錄，請按一下 **[!UICONTROL Actions]** 下拉式清單，然後按一下 **[!UICONTROL Delete]**.
+若要刪除共用目錄，請按一下&#x200B;**[!UICONTROL Actions]**&#x200B;下拉式清單，然後按一下&#x200B;**[!UICONTROL Delete]**。
 
 * 您無法與外部帳戶共用預設目錄。
 * 您無法刪除已與您外部共用的目錄。
@@ -202,7 +202,7 @@ ht-degree: 0%
 
 您可以將目錄的完整存取權授與外部帳戶。 帳戶管理員可以接著接受目錄，並據此新增或刪除學習或模組。
 
-如需詳細資訊，請參閱 [完整控制共用目錄](shared-catalog-full-control.md).
+如需詳細資訊，請參閱[完全控制共用目錄](shared-catalog-full-control.md)。
 
 ## 共用目錄學習物件屬性 {#sharedcataloglearningobjectsproperties}
 
@@ -267,7 +267,7 @@ ht-degree: 0%
 * 接收者會自動看到共用目錄中新新增的資產。
 * 與「學習」物件關聯的技能會複製到共用的目錄接收者帳戶。
 
-* 如果共用的目錄接收者帳戶已有相同的技能名稱，則會建立新技能，並新增 &#42; 名稱之後。
+* 如果共用的目錄接收者帳戶已有相同的技能名稱，則會建立新技能，在名稱后面新增&#42;。
 * 課程和學習計畫預設執行個體中的資料（例如徽章、L1、L3、通知）也會連同課程和學習計畫複製到接收者的帳戶。
 
 循環認證不能是外部共用目錄的一部分。 如果目錄中已設定註冊限制或到期日期，接收者就無法在循環認證中使用已取得的學習物件。
@@ -293,7 +293,7 @@ ht-degree: 0%
 
 +++如何將課程、LP和認證新增至目錄？
 
-若要新增課程、認證和學習計畫至目錄，請參閱 [步驟](catalogs.md#q1) 以將這些專案包含在目錄中。
+若要新增課程、認證和學習計畫至目錄，請參閱[步驟](catalogs.md#q1)將這些專案納入目錄。
 
 +++
 
@@ -310,10 +310,10 @@ ht-degree: 0%
 
 您可以使用使用者群組，與組織內的學習者共用目錄。 若要讓學習者或學習者檢視所屬目錄，請遵循下列步驟：
 
-1. 開啟目錄並按一下 **[!UICONTROL Share Internally]**.
-1. 若要新增學習者，在頁面的右上角，按一下 **[!UICONTROL Add]**.
-1. 在 **[!UICONTROL User Groups]** 對話方塊，開始新增學習者。
-1. 按一下 **[!UICONTROL Save]**.
+1. 開啟目錄並按一下&#x200B;**[!UICONTROL Share Internally]**。
+1. 若要新增學習者，請按一下頁面右上角的&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;**[!UICONTROL User Groups]**&#x200B;對話方塊中，開始新增學習者。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
 當學習者登入Learning Manager時，他/她已檢視與其共用的目錄。
 
@@ -321,16 +321,16 @@ ht-degree: 0%
 
 +++如何建立和使用目錄標籤？
 
-目錄標籤可讓您將學習物件與相關的欄位值資訊建立關聯。 目錄標籤和值僅對管理員和作者可見。 如需詳細資訊，請參閱 [***目錄標籤***](/help/migrated/administrators/feature-summary/catalog-labels.md).
+目錄標籤可讓您將學習物件與相關的欄位值資訊建立關聯。 目錄標籤和值僅對管理員和作者可見。 如需詳細資訊，請參閱&#x200B;[***目錄標籤***](/help/migrated/administrators/feature-summary/catalog-labels.md)。
 
 建立目錄標籤後，您可以依照下列步驟將它們套用至特定目錄：
 
 1. 從左窗格開啟目錄。
 1. 選取「目錄」並套用至標籤。
 1. 從左窗格開啟目錄標籤。
-1. 按一下 **[!UICONTROL Edit]** 位於右上角。 此頁面會顯示可用目錄標籤的清單。
-1. 若要將標籤新增至目錄，請按一下 **[!UICONTROL Add to Catalog]**.
-1. 若要移除新增到目錄中的現有標籤，請按一下 **[!UICONTROL Remove]**.
+1. 按一下右上角的&#x200B;**[!UICONTROL Edit]**。 此頁面會顯示可用目錄標籤的清單。
+1. 若要新增標籤至目錄，請按一下&#x200B;**[!UICONTROL Add to Catalog]**。
+1. 若要移除新增到目錄中的現有標籤，請按一下&#x200B;**[!UICONTROL Remove]**。
 
 +++
 

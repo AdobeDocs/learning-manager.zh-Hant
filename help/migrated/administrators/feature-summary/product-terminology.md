@@ -26,13 +26,13 @@ Adobe Learning Manager在使用者介面上使用一組標準術語。 身為管
 
 若要變更術語，請遵循下列步驟：
 
-1. 以管理員身分，選取 **[!UICONTROL Settings]** > **[!UICONTROL General]**.
-1. 在 **[!UICONTROL Product Terminology]**，選取 **[!UICONTROL Edit]**.
+1. 以系統管理員身分，選取&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL General]**。
+1. 在&#x200B;**[!UICONTROL Product Terminology]**&#x200B;中，選取&#x200B;**[!UICONTROL Edit]**。
 
    ![](assets/product-terminology-settings.png)
    _產品術語_
 
-1. 選取 **[!UICONTROL Download Here]** 並下載術語的範本。
+1. 選取&#x200B;**[!UICONTROL Download Here]**&#x200B;並下載術語的範本。
 
    ![](assets/download-here-pt.png)
    _下載範本_
@@ -48,13 +48,13 @@ Adobe Learning Manager在使用者介面上使用一組標準術語。 身為管
 
 ## 上傳更新的CSV
 
-1. 在 **[!UICONTROL Product Terminology]** 區段，選取連結以上傳CSV。
+1. 在&#x200B;**[!UICONTROL Product Terminology]**&#x200B;區段中，選取連結以上傳CSV。
 
    ![](assets/update-the-csv.png)
    _上傳csv_
 
 1. 上傳更新的CSV。
-1. 選取 **[!UICONTROL Save]**.
+1. 選取&#x200B;**[!UICONTROL Save]**。
 
 術語的變更現在反映了該帳戶的作者、學習者、經理、講師或自訂管理員。
 
@@ -62,7 +62,7 @@ Adobe Learning Manager在使用者介面上使用一組標準術語。 身為管
 
 上傳含有新術語的CSV後，您可以重設為預設術語。
 
-選取 **[!UICONTROL Reset Product Terminology]**.
+選取&#x200B;**[!UICONTROL Reset Product Terminology]**。
 
 ![](assets/reset-the-terminology.png)
 
@@ -80,5 +80,5 @@ _確認提示_
 術語變更不適用於：
 
 * 電子郵件範本(**[!UICONTROL Admin]** > **[!UICONTROL Email Templates]**)
-* 報表(**[!UICONTROL Admin]** > **[!UICONTROL Reports]**)
+* 報告(**[!UICONTROL Admin]** > **[!UICONTROL Reports]**)
 

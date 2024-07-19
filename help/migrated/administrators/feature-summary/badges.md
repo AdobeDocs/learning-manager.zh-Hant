@@ -19,16 +19,16 @@ ht-degree: 0%
 
 管理員可為學習者建立徽章，如下所示：
 
-1. 以管理員身分登入，然後按一下 **[!UICONTROL Badges]** 在左窗格中。 學習者的徽章清單隨即顯示。
+1. 以系統管理員身分登入，然後按一下左窗格上的&#x200B;**[!UICONTROL Badges]**。 學習者的徽章清單隨即顯示。
 
    >[!NOTE]
    >
    >依預設，有幾個範例徽章清單可供使用。
 
-1. 按一下 **[!UICONTROL Add]** 位於頁面的右上角。 新增徽章對話方塊隨即顯示。
+1. 按一下頁面右上角的&#x200B;**[!UICONTROL Add]**。 新增徽章對話方塊隨即顯示。
 
    ![](assets/add-badge1.png)
 
    *新增徽章名稱及其影像*
 
-1. 輸入徽章名稱。 按一下以上傳徽章 **[!UICONTROL Upload Badge]** 並按一下 **[!UICONTROL Save]**.
+1. 輸入徽章名稱。 按一下&#x200B;**[!UICONTROL Upload Badge]**&#x200B;並按一下&#x200B;**[!UICONTROL Save]**&#x200B;以上傳徽章。

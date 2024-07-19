@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: 學習者
-description: Adobe學習管理程式的學習者
+description: Adobe Learning Manager的學習者
 contentowner: manochan
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f

@@ -3,14 +3,13 @@ description: 管理員可以啟動模擬工作階段，他們可在其學習者�
 jcr-language: en_us
 title: 學習者和經理的模擬
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 0%
 
 ---
-
-
 
 # 學習者和經理的模擬 {#impersonation-of-learner-and-manager}
 
@@ -77,7 +76,7 @@ ht-degree: 0%
 
 ## 常見問題
 
-+++即使有人模擬我，我仍可登入Adobe Learning Manager嗎？
++++即使我被模擬了，我是否仍可登入Adobe Learning Manager？
 
 是，使用者的登入與模擬無關。
 +++

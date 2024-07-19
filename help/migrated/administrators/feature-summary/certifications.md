@@ -17,21 +17,21 @@ ht-degree: 0%
 
 使用此功能以一次性或循環時間範圍來對學習者進行認證。 只有管理員可以為學習者定義認證。
 
-身為管理員，您可以建立內部託管或由第三方管理的認證計畫。 若為內部認證，請定義學習者需完成才能取得認證的課程。 發佈方案，然後將其指派給學習者。
+身為管理員，您可以建立內部託管或由第三方管理的認證計畫。 若為內部認證，請定義學習者需完成才能取得認證的課程。 Publish程式，然後將其指派給學習者。
 
 ## 建立認證 {#createacertification}
 
-1. 按一下 **[!UICONTROL Certification]** 在左窗格中。\
+1. 按一下左窗格上的&#x200B;**[!UICONTROL Certification]**。\
    此時會出現一個頁面，其中包含所有草稿和已發佈認證狀態的清單。
 
 1. 以各種模式檢視認證：
 
-   1. 按一下 **[!UICONTROL Draft]** 標籤以檢視所有處於草稿狀態的認證。 您需要完成建立。
-   1. 按一下 **[!UICONTROL Published]** 檢視您發佈的所有認證。
-   1. 按一下 **[!UICONTROL All]** 以檢視所有狀態的認證。
+   1. 按一下「**[!UICONTROL Draft]**」標籤，檢視所有處於草稿狀態的認證。 您需要完成建立。
+   1. 按一下&#x200B;**[!UICONTROL Published]**&#x200B;檢視您發佈的所有認證。
+   1. 按一下&#x200B;**[!UICONTROL All]**&#x200B;以檢視所有狀態的認證。
    1. 以遞增順序、遞減順序或根據更新日期來排序和檢視認證清單。
 
-1. 按一下 **[!UICONTROL Add]**.
+1. 按一下&#x200B;**[!UICONTROL Add]**。
 
    新憑證頁面隨即顯示。
 
@@ -79,13 +79,13 @@ ht-degree: 0%
   <tr>
    <td>憑證核發者<br></td>
    <td>
-    <p>選擇 <b>內部</b> 若其屬於您的組織，或選擇 <b>外部</b> 適用於外部組織證明。</p>
-    <p>當您選擇 <b>外部認證</b>，您會看到其他兩個選項 — </p>
+    <p>選擇<b>內部</b> （如果屬於您的組織），或選擇<b>外部</b>以取得外部組織認證。</p>
+    <p>當您選擇<b>外部認證</b>時，您會看到另外兩個選項 — </p>
     <ul>
      <li>與核准日期相同<br></li>
      <li>由學習者提交<br></li>
     </ul>
-    <p>學習者可指定外部認證的正確完成日期。 在舊版中，完成日期由Prime根據經理的核准日期預設設定。 學習者提供的完成日期應晚於憑證建立日期<span>.</span></p></td>
+    <p>學習者可指定外部認證的正確完成日期。 在舊版中，完成日期由Prime根據經理的核准日期預設設定。 學習者提供的完成日期應晚於憑證建立日期<span>。</span></p></td>
   </tr>
   <tr>
    <td>持續時間</td>
@@ -102,18 +102,18 @@ ht-degree: 0%
  </tbody>
 </table>
 
-從以下位置選取產品、角色和角色等級： **[!UICONTROL Recommend for]** 區段，向對這些產品和角色感興趣的使用者建議此學習路徑。
+從&#x200B;**[!UICONTROL Recommend for]**&#x200B;區段選取產品、角色和角色層級，將此學習路徑建議給對這些產品和角色表示感興趣的使用者。
 
 ![](assets/recommend-for.png)
 
 *建議*
 
-選擇要新增至認證的課程 **[!UICONTROL Courses]** > **[!UICONTROL Catalog]** 標籤。
+從&#x200B;**[!UICONTROL Courses]** > **[!UICONTROL Catalog]**&#x200B;標籤選擇要新增至認證的課程。
 
-將滑鼠停留在每個課程圖磚上，按一下「+」以將它們新增至認證。 按一下 **[!UICONTROL Preview]** 新增課程前，以學習者身分檢視課程。
+將滑鼠停留在每個課程圖磚上，按一下「+」以將它們新增至認證。 按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以學習者身分檢視課程後再新增它。
 
-1. 按一下 **[!UICONTROL Curriculum]** 標籤以檢視/驗證您新增的課程清單。
-1. 按一下 **[!UICONTROL Publish]**.
+1. 按一下&#x200B;**[!UICONTROL Curriculum]**&#x200B;標籤以檢視/驗證您新增的課程清單。
+1. 按一下&#x200B;**[!UICONTROL Publish]**。
 
 ## 認證的課程執行個體對應 {#courseinstancemappingforcertifications}
 
@@ -130,11 +130,11 @@ ht-degree: 0%
 
 ## 啟用完整的目錄控制項 {#catalog}
 
-喜歡授與完整許可權 [學習或模組的目錄控制項](shared-catalog-full-control.md)，您也可以啟用憑證的完整目錄控制項。
+就像授與學習或模組](shared-catalog-full-control.md)的完整[目錄控制項一樣，您也可以啟用認證的完整目錄控制項。
 
 ## 將學習者註冊或取消註冊至認證 {#enrollorunenrolllearnerstothecertification}
 
-如需註冊學習者及遵循步驟的詳細資訊，請參閱 [註冊學習者](courses.md#main-pars_header_1058138132).
+如需註冊學習者及遵循步驟的詳細資訊，請參閱[註冊學習者](courses.md#main-pars_header_1058138132)。
 
 ## 取消學習者註冊 {#unenrollmentforlearners}
 
@@ -148,12 +148,12 @@ ht-degree: 0%
 
 管理員可以使用他們可用的選項標籤憑證完成。 若要標示憑證已完成，請使用下列步驟。
 
-1. 開啟 **[!UICONTROL Certification]** > **[!UICONTROL Learners]**.
+1. 開啟&#x200B;**[!UICONTROL Certification]** > **[!UICONTROL Learners]**。
 
    「學習者」頁面隨即開啟，內含已註冊學習者清單。
 
 1. 使用每個學習者可用的核取方塊，選取一位/多位/所有學習者以標籤憑證完成。
-1. 按一下  **[!UICONTROL Action]** > **[!UICONTROL Mark completion.]**
+1. 按一下&#x200B;**[!UICONTROL Action]** > **[!UICONTROL Mark completion.]**
 
    請注意，如果認證包含多個課程，則所有課程都會標示完成。
 
@@ -161,13 +161,13 @@ ht-degree: 0%
 
 在舊版Learning Manager中，學習者在外部認證中完成課程並非必須完成認證。
 
-您現在可以啟用選項，讓課程成為必修課程 **[!UICONTROL Set required courses as Mandatory for Certificate Completion]** 在「課程」標籤中編輯認證時。
+您現在可以在編輯認證時，啟用[課程]索引標籤中的選項&#x200B;**[!UICONTROL Set required courses as Mandatory for Certificate Completion]**，讓課程成為必修課程。
 
 ## 編輯已發佈的認證 {#editingapublishedcertification}
 
 憑證可由處於已發佈狀態的管理員進行編輯。 在此狀態下，管理員可以編輯憑證的所有區段並重新發佈。
 
-若要編輯已發佈的認證，請按一下認證卡，然後按一下 **[!UICONTROL Edit]** 位於頁面的右上角。
+若要編輯已發佈的憑證，請按一下憑證卡並按一下頁面右上角的&#x200B;**[!UICONTROL Edit]**。
 
 編輯認證的區段時，如果您必須移出頁面，則需要重新發佈認證。 您會收到要求您重新發佈憑證的對話方塊確認。
 

@@ -3,14 +3,13 @@ description: 閱讀本文章，瞭解如何以講師身分管理Learning Manager
 jcr-language: en_us
 title: 模組
 contentowner: shhivkum
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 0%
 
 ---
-
-
 
 # 模組
 
@@ -33,7 +32,7 @@ ht-degree: 0%
 1. 按一下右上角的「編輯」 。
 
    ![](assets/sessiondetails.png)
-   *設定工作階段詳細資訊*
+   *設定工作階段詳細資料*
 
 1. 從「工作階段總覽」頁面，您可以編輯工作階段時間安排、日期、地點等。 您也可以編輯或新增下列工作階段詳細資訊：
 
@@ -42,7 +41,7 @@ ht-degree: 0%
    * 在「允許提交」欄位中選取「是」，讓學習者可以提交工作分派。 如果您選取「否」，學習者無法上傳工作階段的指派提交。
 
    ![](assets/editsessiondetails.png)
-   *編輯工作階段詳細資訊*
+   *編輯工作階段詳細資料*
 
 1. 按一下「儲存」。
 
@@ -70,7 +69,7 @@ ht-degree: 0%
 
 ## 活動模組的檔案提交 {#filesubmissionforactivitymodules}
 
-活動模組支援檔案提交工作流程。 以作者身分，建立活動模組並選取  **[!UICONTROL File Submission]** 選項。 這可讓學習者提交檔案。
+活動模組支援檔案提交工作流程。 以作者身分，建立活動模組並選取&#x200B;**[!UICONTROL File Submission]**&#x200B;選項。 這可讓學習者提交檔案。
 
 這些檔案可由模組講師核准/拒絕。 只有當講師核准提交後，模組才會完成。
 
@@ -79,14 +78,14 @@ ht-degree: 0%
 
 ## 評估檢查清單模組 {#evaluate-checklist-module}
 
-學習者參加課程後，講師會在「 」的「提交/檢查清單」頁面上看到檢查清單模組 **模組**&#x200B;區段。 此頁面包含所有活動檢查清單模組，以及應檢閱的活動提交模組。 針對每個模組，會顯示要評估對象的學習者人數。
+學習者參加課程後，講師會在&#x200B;**模組**&#x200B;區段的「提交/核對清單」頁面上看到核對清單模組。 此頁面包含所有活動檢查清單模組，以及應檢閱的活動提交模組。 針對每個模組，會顯示要評估對象的學習者人數。
 
-在下列頁面中，您可以檢視型別模組 **提交** 和 **檢查清單**. 在此範例中，我們將使用檢查清單模組。
+在下列頁面中，您可以檢視&#x200B;**提交**&#x200B;和&#x200B;**檢查清單**&#x200B;型別的模組。 在此範例中，我們將使用檢查清單模組。
 
 ![](assets/modules-list.png)
 *檢視模組清單*
 
-按一下檢查清單模組。 在 **檢查清單** 頁面中，您會看到下列內容：
+按一下檢查清單模組。 在&#x200B;**檢查清單**&#x200B;頁面上，您會看到下列專案：
 
 * 模組的名稱
 * 課程名稱
@@ -97,9 +96,9 @@ ht-degree: 0%
 ![](assets/checklist-page.png)
 *檢視檢查清單頁面*
 
-若要評估學習者，請按一下 **[!UICONTROL Evaluate]** 在 **[!UICONTROL Checklist]** 欄。 您還可以看到稽核的狀態為 **擱置中**.
+若要評估學習者，請按一下&#x200B;**[!UICONTROL Checklist]**&#x200B;欄中的&#x200B;**[!UICONTROL Evaluate]**。 您也可以看到檢閱的狀態是&#x200B;**擱置中**。
 
-評估學習者並按一下 **[!UICONTROL Submit]**. 身為講師，您必須回答所有評估問題。
+評估學習者並按一下&#x200B;**[!UICONTROL Submit]**。 身為講師，您必須回答所有評估問題。
 
 ![](assets/checklist-evaluation-screen.png)
 *評估檢查清單*
@@ -112,7 +111,7 @@ ht-degree: 0%
 
 您可以根據套用的搜尋篩選條件，將學習者匯出為csv。
 
-講師使用檢查清單評估課程後，學習者會看到模組狀態 **通過** 和課程狀態為 **已完成**，或模組狀態為 **失敗**，而課程狀態為 **已完成**.
+當講師使用檢查清單評估課程後，學習者看到模組狀態為&#x200B;**通過**，課程狀態為&#x200B;**已完成**，或模組狀態為&#x200B;**失敗**，課程狀態為&#x200B;**已完成**。
 
 ## 拒絕活動的講師註解 {#rejection-comments}
 
@@ -127,17 +126,17 @@ ht-degree: 0%
    ![](assets/proof-of-completion.png)
    *提交完成證明*
 
-1. 然後，講師會選取指派給他/她的活動模組。 在模組的「提交」頁面中，講師按一下 **編輯**. 然後他/她可以輸入要拒絕的註解，並啟用顯示註解選項，讓學習者可以在通知中檢視註解。
+1. 然後，講師會選取指派給他/她的活動模組。 在模組的[提交]頁面中，講師按一下&#x200B;**編輯**。 然後他/她可以輸入要拒絕的註解，並啟用顯示註解選項，讓學習者可以在通知中檢視註解。
 
    ![](assets/enter-comments.png)
    *輸入完成註解*
 
-1. 講師可按一下 **拒絕**. 提交作業的狀態會變更為 **已標籤為拒絕**.
+1. 講師可以按一下&#x200B;**拒絕**。 提交狀態變更為&#x200B;**標籤為拒絕**。
 
    ![](assets/marked-for-rejection.png)
    *拒絕提交*
 
-1. 提交後，狀態會變更為 **已拒絕**.
+1. 提交後，狀態變更為&#x200B;**已拒絕**。
 
    ![](assets/rejected-status.png)
    *檢視拒絕狀態*
@@ -147,18 +146,18 @@ ht-degree: 0%
    ![](assets/notification-of-rejection.png)
    *接收拒絕通知*
 
-為配合變更，Adobe已更新以下專案的電子郵件範本： **提交已拒絕**.
+為了配合變更，Adobe已更新&#x200B;**已拒絕的提交專案**&#x200B;的電子郵件範本。
 
 ## 新增活動模組的分數和評論 {#addscoresandcommentsforactivitymodules}
 
 若要針對已傳送提交之活動模組新增分數和註解，請遵循下列步驟：
 
-1. 從左窗格，按一下 **[!UICONTROL Learner]**.
+1. 從左窗格，按一下&#x200B;**[!UICONTROL Learner]**。
 
    ![](assets/learners.png)
    *選取學習者*
 
-1. 在學習者頁面中，按一下 **[!UICONTROL Actions]** > **[!UICONTROL Edit Scores & Comments]**.
+1. 從學習者頁面，按一下「**[!UICONTROL Actions]** > **[!UICONTROL Edit Scores & Comments]**」。
 
    ![](assets/edit-scores-comments.png)
    *新增註解*
@@ -168,4 +167,4 @@ ht-degree: 0%
    ![](assets/editing-scores-andcomments.png)
    *編輯分數和評論*
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**。

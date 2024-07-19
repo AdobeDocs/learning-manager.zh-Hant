@@ -1,22 +1,21 @@
 ---
 jcr-language: en_us
 title: 適用於Salesforce的Learning Manager應用程式
-description: Salesforce是銷售和行銷團隊中最受歡迎的CRM解決方案之一。 在Salesforce中使用AdobeLearning Manager應用程式時，您可以讓使用者直接從其Salesforce介面存取其所有學習內容。 使用者可以從Salesforce記憶體取其指派的學習內容，例如課程、學習方案、工作輔助等。 使用者也可以從管理員接收有關其註冊和公告的通知。
+description: Salesforce是銷售和行銷團隊中最受歡迎的CRM解決方案之一。 在Salesforce中使用Adobe Learning Manager應用程式時，您可以讓使用者直接從其Salesforce介面存取其所有學習內容。 使用者可以從Salesforce記憶體取其指派的學習內容，例如課程、學習方案、工作輔助等。 使用者也可以從管理員接收有關其註冊和公告的通知。
 contentowner: jayakarr
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
-
-
 # 適用於Salesforce的Learning Manager應用程式
 
 ## 概觀 {#overview}
 
-Salesforce™是銷售和行銷團隊中最受歡迎的CRM解決方案之一。 在Salesforce中使用AdobeLearning Manager應用程式時，您可以讓使用者直接從其Salesforce介面存取其所有學習內容。 使用者可以從Salesforce記憶體取其指派的學習內容，例如課程、學習方案、工作輔助等。 使用者也可以從管理員接收有關其註冊和公告的通知。
+Salesforce™是銷售和行銷團隊中最受歡迎的CRM解決方案之一。 在Salesforce中使用Adobe Learning Manager應用程式時，您可以讓使用者直接從其Salesforce介面存取其所有學習內容。 使用者可以從Salesforce記憶體取其指派的學習內容，例如課程、學習方案、工作輔助等。 使用者也可以從管理員接收有關其註冊和公告的通知。
 
 目前Salesforce應用程式無法使用，因為Salesforce應用程式交換正在等候核准。 如果您有興趣預覽測試版應用程式，請聯絡您的客戶經理或Learning Manager支援團隊。
 
@@ -37,17 +36,17 @@ Salesforce™是銷售和行銷團隊中最受歡迎的CRM解決方案之一。 
 
 1. 若要在Salesforce帳戶中安裝Learning Manager應用程式，請使用帳戶管理員或客戶成功經理提供的可安裝套件。 您必須擁有您要安裝此應用程式之Salesforce帳戶的管理員許可權。
 
-1. 選擇快照中所示的適當選項，然後按一下 **[!UICONTROL Install]**.
+1. 選擇快照中所示的適當選項，然後按一下&#x200B;**[!UICONTROL Install]**。
 
    ![](assets/install-options.png)
 
-   *選取僅供管理員安裝的選項*
+   *選取[僅供管理員安裝]選項*
 
-   如果您選擇加入 **為特定設定檔安裝**，從清單中選擇一或多個設定檔。
+   如果您選擇為特定設定檔安裝&#x200B;****，請從清單中選擇一或多個設定檔。
 
-1. 按一下 **[!UICONTROL Continue]** 在出現以確認協力廠商存取的快顯視窗上。
+1. 在顯示確認協力廠商存取的快顯視窗上按一下&#x200B;**[!UICONTROL Continue]**。
 
-   系統會顯示訊息，確認應用程式已成功安裝。 按一下 **完成**.
+   系統會顯示訊息，確認應用程式已成功安裝。 按一下&#x200B;**完成**。
 
 ## 新增通知元件至首頁 {#addnotificationcomponenttothehomepage}
 
@@ -55,14 +54,14 @@ Learning Manager團隊建議Salesforce管理員也將Learning Manager通知元�
 
 若要將Learning Manager通知元件新增至首頁版面配置，請依照下列步驟操作：
 
-1. 按一下 **[!UICONTROL Setup]** 位於右上角。 首頁版面配置選項會顯示在左窗格中，如下面的快照所示。
+1. 按一下右上角的&#x200B;**[!UICONTROL Setup]**。 首頁版面配置選項會顯示在左窗格中，如下面的快照所示。
 
    ![](assets/homepage-component.png)
 
-   *選取首頁配置*
+   *選取首頁版面配置*
 
-1. 選擇您選擇的版面配置，然後按一下 **[!UICONTROL Edit]**.
-1. 選取出現在頁面上的AdobeLearning Manager通知選項，然後按一下 **[!UICONTROL Next]**.
-1. 選擇元件在左窗格中的顯示順序、預覽，然後按一下 **[!UICONTROL Save]**.
+1. 選擇您選擇的版面配置並按一下&#x200B;**[!UICONTROL Edit]**。
+1. 選取出現在頁面上的Adobe Learning Manager通知選項，然後按一下&#x200B;**[!UICONTROL Next]**。
+1. 選擇元件在左窗格中的顯示順序、預覽，然後按一下&#x200B;**[!UICONTROL Save]**。
 
-若要瞭解如何登入Learning Manager應用程式並作為學習者用於Salesforce的說明，請參閱 [Salesforce應用程式說明內容](../../learners/feature-summary/sfdc-app.md).
+若要瞭解如何登入Learning Manager應用程式以及在Salesforce中以學習者身分使用應用程式的指示，請參閱[Salesforce應用程式說明內容](../../learners/feature-summary/sfdc-app.md)。

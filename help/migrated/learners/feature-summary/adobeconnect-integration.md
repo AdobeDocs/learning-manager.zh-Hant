@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Connect整合
 description: 如果您的公司已將Adobe Connect與Learning Manager帳戶整合，作為學習者，您可以使用Adobe Connect來使用虛擬教室課程。 如果您無法使用Adobe Connect，請聯絡貴公司的管理員。
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
 
 ---
-
-
 
 # Adobe Connect整合
 

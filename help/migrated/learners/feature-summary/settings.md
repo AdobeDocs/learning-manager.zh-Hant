@@ -39,7 +39,7 @@ ht-degree: 0%
 
 **1. 如何以學習者身分下載學習者成績單？**
 
-在右上角，按一下 **[!UICONTROL user profile]** > **[!UICONTROL Profile Settings]**. 在出現的對話方塊上，按一下 **下載我的學習成績單(XLS)**.
+在右上角，按一下您的&#x200B;**[!UICONTROL user profile]** > **[!UICONTROL Profile Settings]**。 在出現的對話方塊中，按一下&#x200B;**下載我的學習成績單(XLS)**。
 
 ![](assets/dowload-lt.png)
 *下載學習者成績單*

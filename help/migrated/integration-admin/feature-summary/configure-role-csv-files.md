@@ -50,7 +50,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>
-    <p>&lt;Entity&gt;</p></td>
+    <p>&lt;實體&gt;</p></td>
    <td>
     <p>識別每種實體型別（例如課程、目錄等）的存取型別（完整、寫入、註冊、報告、無）。</p></td>
    <td>
@@ -99,7 +99,7 @@ ht-degree: 0%
 * 自我註冊設定檔群組(self_registration=profilename)
 * 外部註冊設定檔群組(ext_registration=profilename)
 * 經理的直接下屬團隊(manager_direct=`<emailid>`)
-* 經理的完整組織(manager_org=`<emailid>`)
+* 管理員的完整組織(manager_org=`<emailid>`)
 
 **user_role.csv**
 
@@ -132,7 +132,7 @@ ht-degree: 0%
  </tbody>
 </table>
 
-**全範圍功能**
+**完整範圍功能**
 
 每當為下列任何功能（帳戶層級功能）指派完整許可權時，使用者群組範圍和目錄範圍會自動被視為「完整」，因為使用者無法有限地存取這些功能。
 
@@ -147,10 +147,10 @@ ht-degree: 0%
 
 ## 在帳戶中新增角色CSV {#addtherolecsvsintheaccount}
 
-在您的Box帳戶中，選擇 **匯入>使用者>內部**，並上傳檔案 — role.csv和user_role.csv。
+在您的Box帳戶中，選擇&#x200B;**匯入>使用者>內部**，然後上傳檔案 — role.csv和user_role.csv。
 
-* role.csv和user_role.csv必須複製到資料夾中 **匯入** > **使用者** > **內部** > **user_role**.
-* 必須在資料夾中複製user.csv **匯入** > **使用者** > **內部**.
+* role.csv和user_role.csv必須複製到資料夾&#x200B;**匯入** > **使用者** > **內部** > **使用者角色**。
+* 必須將user.csv複製到資料夾&#x200B;**匯入** > **使用者** > **內部**&#x200B;中。
 
 這兩個CSV都必須僅透過Box上傳，且無法透過UI上傳。
 
@@ -170,17 +170,17 @@ ht-degree: 0%
 
 在整合管理員上傳聯結器儲存體中的角色型CSV後，管理員可以啟用與CSV的同步。 每次在CSV中更新、新增或刪除自訂角色時，管理員都可以同步檔案中的資訊，並讓角色清單成為最新角色。
 
-在「管理員」面板的「快速入門」頁面上，按一下 **[!UICONTROL Settings]** > **[!UICONTROL Data Sources]**.
+在管理員面板上的快速入門頁面上，按一下&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Data Sources]**。
 
-在「同步設定」區段中，啟用選項 **[!UICONTROL Enable Auto Sync]**.
+在[同步設定]區段中，啟用選項&#x200B;**[!UICONTROL Enable Auto Sync]**。
 
 ![](assets/sync-settings.png)
 
-*選取啟用自動同步選項*
+*選取[啟用自動同步]選項*
 
 選擇此選項時，您可以在同步時間欄位中指定的確切時間排定同步時間。 如果您將同步時間指定為午夜12:00，則自訂角色會在每天的指定時間完全更新。
 
-如果您想要隨選同步資料，請按一下 **[!UICONTROL Sync Now]**.
+如果您要視需要同步處理資料，請按一下&#x200B;**[!UICONTROL Sync Now]**。
 
 ## 設定角色時的限制 {#constraintswhileconfiguringroles}
 

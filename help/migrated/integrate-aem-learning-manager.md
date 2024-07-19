@@ -21,7 +21,7 @@ Learning Manager是內建學習內容管理系統的學習管理系統。 使用
 
 ## 下載內容封裝 {#downloadthecontentpackage}
 
-安裝程式是以AEM內容套件的形式提供。 [***下載套件***](https://github.com/adobe/adobe-learning-manager-reference-site).
+安裝程式是以AEM內容套件的形式提供。 [***下載封裝***](https://github.com/adobe/adobe-learning-manager-reference-site)。
 
 內容套件以zip檔案形式提供，並與AEM 6.4和AEM 6.5相容。
 
@@ -31,13 +31,13 @@ Learning Manager是內建學習內容管理系統的學習管理系統。 使用
 
 >[!NOTE]
 >
->如需有關安裝套件的資訊，請參閱  [***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以AEM Author身分，開啟AEM Package Manager。
-1. 按一下按鈕 **[!UICONTROL Upload Package]**.
-1. 按一下 **[!UICONTROL Browse]** 並上傳內容套件。
-1. 按一下 **[!UICONTROL Upload]**.
-1. 套件上傳後，選取內容套件並按一下「 」以安裝內容套件 **[!UICONTROL Install]**.
+1. 按一下按鈕&#x200B;**[!UICONTROL Upload Package]**。
+1. 按一下&#x200B;**[!UICONTROL Browse]**&#x200B;並上傳內容封裝。
+1. 按一下&#x200B;**[!UICONTROL Upload]**。
+1. 上傳套件後，選取內容套件並按一下&#x200B;**[!UICONTROL Install]**&#x200B;以安裝內容套件。
 
    ![](assets/install-package.jpg)
 
@@ -49,17 +49,17 @@ AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manage
 
 1. 核准AEM Sites精選應用程式。
 
-   按一下 **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** > **[!UICONTROL Adobe Experience Manager - Sites]**.
+   按一下&#x200B;**[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]** > **[!UICONTROL Adobe Experience Manager - Sites]**。
 
    ![](assets/launch-aem.jpg)
 
    *核准應用程式*
 
-1. 按一下 **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**，然後開啟AEM網站應用程式。
+1. 按一下&#x200B;**[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**，然後開啟AEM網站應用程式。
 
    複製應用程式ID和說明。
 
-1. 按一下 **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens]**.
+1. 按一下&#x200B;**[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens]**。
 
    ![](assets/click-tokens.jpg)
 
@@ -71,7 +71,7 @@ AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manage
    * 使用者端密碼，顯示在說明中。
 
 1. 取得OAuth程式碼。 您必須在重新導向URI中使用v2 API。
-1. 按一下 **[!UICONTROL Submit]** 並取得重新整理權杖。
+1. 按一下&#x200B;**[!UICONTROL Submit]**&#x200B;並取得重新整理權杖。
 
 ## 在AEM中設定Widget {#configurethewidgetinaem}
 
@@ -79,8 +79,8 @@ AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manage
 
 您也可以在多個頁面中設定多個帳戶設定。
 
-1. 按一下 **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Learning Manager Widget Configuration]**.
-1. 按一下 **[!UICONTROL Create]**.
+1. 按一下&#x200B;**[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Learning Manager Widget Configuration]**。
+1. 按一下&#x200B;**[!UICONTROL Create]**。
 1. 在這裡輸入重新整理權杖。 設定其他設定。
 1. EU地區的主機名稱應該變更為「learningmanagereu」。
 1. 儲存並關閉設定。
@@ -90,15 +90,15 @@ AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manage
 
 AEM作者必須先在AEM範本中新增元件
 
-然後AEM作者將能夠拖放AdobeLearning Manager元件並進行相應設定。
+然後，AEM作者將能夠拖放Adobe Learning Manager元件並據此進行設定。
 
-Learning Manager元件需要將上步驟中建立的設定對應至頁面。  作者可以編輯下的頁面屬性來對應設定 **[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]** 並提供設定的路徑。 如此一來，作者就能建立多個Learning Manager帳戶的設定，並將每個帳戶對應至不同的Sites頁面。 如果組態未對應至頁面，元件會從父頁面遞回讀取組態，直到找到為止。
+Learning Manager元件需要將上步驟中建立的設定對應至頁面。  作者可以在&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]**&#x200B;下編輯頁面屬性來對應設定，並提供設定路徑。 如此一來，作者就能建立多個Learning Manager帳戶的設定，並將每個帳戶對應至不同的Sites頁面。 如果組態未對應至頁面，元件會從父頁面遞回讀取組態，直到找到為止。
 
 ## 學習者 {#learner}
 
 學習者可以從頁面內參加課程。
 
-若要存取Learning Manager Widget，學習者應為已登入AEM的使用者。 此外，屬性 **電子郵件** 應該出現在學習者的rep：User節點的「/profile」節點中。 此電子郵件應與Learning Manager帳戶中顯示的電子郵件完全相同。
+若要存取Learning Manager Widget，學習者應為已登入AEM的使用者。 此外，學習者的rep：User節點的&quot;/profile&quot;節點中應存在屬性&#x200B;**電子郵件**。 此電子郵件應與Learning Manager帳戶中顯示的電子郵件完全相同。
 
 學習者可以從頁面內參加課程。
 
@@ -123,7 +123,7 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 
 ### 部署Skyline
 
-有關設定Skyline的步驟，請參閱  [GitHub存放庫](https://github.com/adobe/captivate-prime-aem-components).
+設定Skyline的步驟已在[GitHub存放庫](https://github.com/adobe/captivate-prime-aem-components)中提及。
 
 ## 目錄Widget
 
@@ -133,15 +133,15 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 
 目錄Widget包含下列選項：
 
-* **[!UICONTROL Catalog ids]：** 需要顯示培訓的逗號分隔目錄ID。
-* **[!UICONTROL Sort]：** 訓練的排序順序。 選項包括 — name、date、dateCreated、dateRegistered等。
-* **[!UICONTROL Learner State]：** 傳回所有使用下列作為篩選器的訓練 — 已註冊、已開始、已完成和未註冊。 如果排序選項是dateRegistered、dueDate或dateRegistered，將不會顯示搜尋結果。
-* **[!UICONTROL Skill name]：** 用來篩選確切訓練的技能。
-* **[!UICONTROL Tag name]：** 用來篩選精確結果的標籤。
+* **[!UICONTROL Catalog ids]：**&#x200B;需要顯示培訓的逗號分隔目錄ID。
+* **[!UICONTROL Sort]：**&#x200B;訓練的排序順序。 選項包括 — name、date、dateCreated、dateRegistered等。
+* **[!UICONTROL Learner State]：**&#x200B;傳回所有使用下列作為篩選器的訓練 — 已註冊、已開始、已完成和未註冊。 如果排序選項是dateRegistered、dueDate或dateRegistered，將不會顯示搜尋結果。
+* **[!UICONTROL Skill name]：**&#x200B;用來篩選確切訓練的技能。
+* **[!UICONTROL Tag name]：**&#x200B;用來篩選確切結果的標籤。
 
 以下是一些您可以自訂的其他元件：
 
-**[!UICONTROL Learning Object Types]：** 根據學習物件的型別篩選。 支援的型別為course、certification、jobAid和learningProgram。
+**[!UICONTROL Learning Object Types]：**&#x200B;根據學習物件的型別篩選。 支援的型別為course、certification、jobAid和learningProgram。
 
 在AEM中，長條圖中的卡片標題最初會是空的。 在屬性中，輸入widgets.html中標題的名稱。
 
@@ -149,7 +149,7 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 
 您可以使用widgets.html來自訂版面外觀與風格。 您可以變更顯示的卡片外觀並自訂主題。
 
-在 **[!UICONTROL General Settings]** 區段，您可以選擇卡片的主要和次要顏色，並指定自訂佈景主題的屬性。
+在&#x200B;**[!UICONTROL General Settings]**&#x200B;區段中，您可以選擇卡片的主要和次要顏色，並指定自訂佈景主題的屬性。
 
 ```
 { 
@@ -174,7 +174,7 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 
 ### 忽略高階LO註冊
 
-如果 **忽略高階LO註冊** 核取方塊已啟用，且使用者已直接註冊學習計畫或認證，則該認證或學習計畫的課程將顯示在Widget中供使用者使用。
+如果已啟用&#x200B;**忽略高階LO註冊**&#x200B;核取方塊，且使用者已直接註冊學習計畫或認證，則該認證或學習計畫的課程將會顯示在Widget中供使用者使用。
 
 如果核取方塊已停用，使用者未直接註冊的學習計畫或認證中的課程將不會顯示。
 

@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 以管理員使用者身分，按一下左窗格中的公告。
 1. 按一下頁面右上角的「新增」 。
-1. 從「型別」下拉式清單中，選取選項 **作為通知**.
+1. 從「型別」下拉式清單中，選取選項&#x200B;**作為通知**。
 
 ![](assets/as-notofocation.png)
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 在「訊息」欄位中，新增宣告的訊息。 您也可以在這裡新增公告的URL。 不過，您必須以HTML表單新增URL。
 
-   例如，  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   例如，`code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    將目標指定為空白時，則當使用者按一下宣告URL時，連結會在新標籤中開啟。 如果您未指定目標，連結會在相同瀏覽器中開啟。
 
@@ -49,8 +49,8 @@ ht-degree: 0%
    * 選取啟用粘性宣告核取方塊，將此宣告設為粘性宣告。
    * 選取宣告的傳送時間。
 
-1. 選取 **[!UICONTROL On a date]** 如果您想要排程在稍後的日期宣告，請按一下旁邊的文字區域。 此時會出現一個日曆快顯視窗，您可以從中選擇開始日期。 請依照相同的步驟選擇結束日期。
-1. 按一下 **[!UICONTROL Save]**.
+1. 如果您想要排程在稍後日期宣告，請選取&#x200B;**[!UICONTROL On a date]**，然後按一下旁邊的文字區域。 此時會出現一個日曆快顯視窗，您可以從中選擇開始日期。 請依照相同的步驟選擇結束日期。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 1. 在「草稿」索引標籤中，按一下宣告旁的設定圖示，然後按一下「傳送」 。
 
 如果多媒體附件為大型附件，則可能需要時間上傳。 按一下「儲存」後，當處理上傳時，您會收到內含訊息的快顯視窗。 附件上傳成功後，您將會收到通知。
@@ -65,22 +65,22 @@ ht-degree: 0%
 
 1. 瀏覽並選擇代表刊頭的影像。 建議的大小為1280 x 360畫素。
 1. 選擇要新增刊頭的地區設定。 您必須針對每種語言選擇刊頭資產。
-1. 在 **[!UICONTROL Action Button]** 欄位，新增url以便當學習者按一下報頭上的按鈕時，他們被重新導向至該url。 此為選用欄位。
+1. 在&#x200B;**[!UICONTROL Action Button]**&#x200B;欄位中新增URL，讓學習者按一下刊頭上的按鈕時，就能重新導向至該URL。 此為選用欄位。
 1. 選擇目標使用者群組或目標學習物件。 您只能為宣告選擇其中之一。
 
    開始在文字方塊中輸入使用者群組名稱，然後從下拉式清單中選擇。 同樣地，在文字方塊中輸入物件名稱來選擇訓練。
 
-1. 在 **[!UICONTROL Advanced Settings]** 區段，您有以下選項：
+1. 在&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段中，您有以下選項：
 
-   * 按一下 **[!UICONTROL Immediately]** 如果您要立即張貼宣告。
-   * 按一下 **[!UICONTROL Never]** 如果您不希望宣告過期。
-   * 選取 **[!UICONTROL Start]** 和 **[!UICONTROL End]** 宣告日期。
+   * 若您想要立即張貼宣告，請按一下&#x200B;**[!UICONTROL Immediately]**。
+   * 如果您不希望宣告過期，請按一下&#x200B;**[!UICONTROL Never]**。
+   * 選取宣告的&#x200B;**[!UICONTROL Start]**&#x200B;和&#x200B;**[!UICONTROL End]**&#x200B;日期。
 
    ![](assets/advanced-settings.png)
 
    *設定刊頭顯示的時間*
 
-**即時刊頭公告的數量是否有限制？**
+**即時刊頭公告的數目是否有限制？**
 
 您只會看到最近10個刊頭公告。
 
@@ -102,13 +102,13 @@ ht-degree: 0%
 
 1. 在「進階設定」段落中，您有以下選項：
 
-   * 按一下 **[!UICONTROL Immediately]** 如果您要立即張貼宣告。
-   * 按一下 **[!UICONTROL Never]** 如果您不希望宣告過期。
-   * 選取 **[!UICONTROL Start]** 和 **[!UICONTROL End]** 宣告日期。
+   * 若您想要立即張貼宣告，請按一下&#x200B;**[!UICONTROL Immediately]**。
+   * 如果您不希望宣告過期，請按一下&#x200B;**[!UICONTROL Never]**。
+   * 選取宣告的&#x200B;**[!UICONTROL Start]**&#x200B;和&#x200B;**[!UICONTROL End]**&#x200B;日期。
 
    <!--![](assets/advanced-settings.png)-->
 
-當您按一下 **[!UICONTROL Save]**，您可以立即發佈公告或稍後發佈。 宣告屆時仍會處於草稿狀態。
+當您按一下&#x200B;**[!UICONTROL Save]**&#x200B;時，您可以立即發佈宣告或稍後發佈。 宣告屆時仍會處於草稿狀態。
 
 * 刊頭/Recommendations不會觸發任何通知。
 * 刊頭/Recommendations未出現在公告報表中。
@@ -139,15 +139,15 @@ ht-degree: 0%
 
 ![管理員建立電子郵件公告](assets/email-announcement-admin.png)
 
-*傳送目標定位的臨機電子郵件給學習者*
+*向學習者傳送目標性的臨機操作電子郵件*
 
 *管理員建立電子郵件公告*
 
-1. 選取 **[!UICONTROL Type as Email]**.
+1. 選取&#x200B;**[!UICONTROL Type as Email]**。
 1. 輸入電子郵件主旨和郵件內文。
 1. 在「目標」段落中，您可以：
 
    * 選取使用者群組或
    * 選取課程。 如果課程有多個例項，您可以選取所需的例項。
 
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下&#x200B;**[!UICONTROL Save]**。

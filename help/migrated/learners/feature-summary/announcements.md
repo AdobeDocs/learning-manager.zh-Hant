@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: 公告
 description: 宣告是管理員廣播給已定義使用者集合的多媒體訊息（文字、影像或視訊）。
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
 
 ---
-
-
 
 # 公告
 
@@ -37,5 +36,4 @@ ht-degree: 0%
 
 ![](assets/announcement-details.png)
 
-*檢視宣告的詳細資料*
-
+*檢視宣告詳細資料*

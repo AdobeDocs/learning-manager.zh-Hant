@@ -52,17 +52,17 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 ### 先決條件 {#prerequisites}
 
-確定您隨身帶著您的Salesforce組織URL。 例如，如果您的組織名稱為 **myorg**，則Salesforce URL可能是 [https://myorg.salesforce.com](https://myorg.salesforce.com/). 這是連線Salesforce帳戶與Learning Manager的唯一必要輸入。
+確定您隨身帶著您的Salesforce組織URL。 例如，如果您的組織名稱為&#x200B;**myorg**，則Salesforce URL可以是[https://myorg.salesforce.com](https://myorg.salesforce.com/)。 這是連線Salesforce帳戶與Learning Manager的唯一必要輸入。
 
 同時請確定您擁有適當的認證以登入帳戶。
 
 ## 建立連線 {#createaconnection}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在Salesforce卡片/縮圖上。 選單出現。 按一下 **[!UICONTROL Connect]** 功能表中的專案。
+1. 在Learning Manager首頁中，將滑鼠游標停留在Salesforce卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
 
    ![](assets/mouserover-salesforce.png)
 
-1. 會出現一個對話方塊，提示您輸入org-url。 按一下 **[!UICONTROL Connect]** 在提供URL之後。
+1. 會出現一個對話方塊，提示您輸入org-url。 提供URL後按一下&#x200B;**[!UICONTROL Connect]**。
 1. 成功連線後，就會顯示覆寫頁面。
 
 ## 對應屬性 {#mapattributes}
@@ -73,9 +73,9 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
    ![](assets/sfdc-map-columns.png)
 
-   左側顯示的Learning Manager欄資料是從作用中欄位擷取。 此 **經理** 欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有欄，才能使用聯結器。
+   左側顯示的Learning Manager欄資料是從作用中欄位擷取。 **管理員**&#x200B;欄位必須對應至電子郵件地址型別的欄位。 必須先對應所有欄，才能使用聯結器。
 
-1. 按一下 **[!UICONTROL Save]** 完成對應之後。
+1. 完成對應後，請按一下&#x200B;**[!UICONTROL Save]**。
 1. 聯結器現已準備就緒，可供使用。 現在已設定的帳戶會在管理員應用程式中顯示為資料來源，供管理員排程匯入或進行隨選同步。
 
 ## 使用Salesforce聯結器 {#usingsalesforceconnector}
@@ -86,7 +86,7 @@ Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，�
 
 使用FTP聯結器，您可以將Learning Manager與任意外部系統整合，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager FTP帳戶的適當資料夾中。 FTP聯結器功能如下：
 
-您也可以使用Box聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊，請參閱 [方塊聯結器。](third-party-connectors.md#main-pars_header_302653946)
+您也可以使用Box聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊，請參閱[Box聯結器。](third-party-connectors.md#main-pars_header_302653946)
 
 ## 資料匯入 {#dataimport}
 
@@ -110,11 +110,11 @@ Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，�
 
 ### 建立連線 {#Createaconnection-1}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在FTP卡片/縮圖上。 選單出現。 按一下 **[!UICONTROL Connect]** 功能表中的專案。
+1. 在Learning Manager首頁中，將滑鼠游標停留在FTP卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. 系統會顯示一個對話方塊，提示您輸入電子郵件ID。 提供組織內負責管理Learning Manager FTP帳戶人員的電子郵件ID。 按一下 **[!UICONTROL Connect]** 在提供電子郵件id之後。
+1. 系統會顯示一個對話方塊，提示您輸入電子郵件ID。 提供組織內負責管理Learning Manager FTP帳戶人員的電子郵件ID。 提供電子郵件識別碼後，請按一下&#x200B;**[!UICONTROL Connect]**。
 1. Learning Manager會傳送電子郵件給您，提示使用者在首次存取FTP前重設密碼。 使用者必須重設密碼，並使用此密碼存取Learning Manager FTP帳戶。
 
    只能為特定Learning Manager帳戶建立一個Learning Manager FTP帳戶。
@@ -139,12 +139,12 @@ Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，�
 
 成功建立連線後，您可以將放在FTP資料夾中的CSV檔案欄對應至Learning Manager的對應屬性。 此步驟為必要步驟。
 
-1. 在「對應屬性」頁面的左側，您可以看到Learning Manager的預期欄，而右側，您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下以匯入任何範本CSV **選擇檔案**.
+1. 在「對應屬性」頁面的左側，您可以看到Learning Manager的預期欄，而右側，您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下&#x200B;**選擇檔案**，匯入任何範本CSV。
 1. 上述步驟會在右側的「選取」下拉式清單中填入所有CSV欄名稱。 選取對應至Learning Manager欄名稱的適當欄名稱。
 
-   *[管理員]欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有欄，才能使用聯結器。*
+   *管理員欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有資料行，才能使用聯結器。*
 
-1. 按一下 **[!UICONTROL Save]** 完成對應之後。
+1. 完成對應後，請按一下&#x200B;**[!UICONTROL Save]**。
 
    聯結器現已準備就緒，可供使用。 剛設定的帳戶現在會在管理員應用程式中顯示為資料來源，供管理員排程匯入或隨選同步。
 
@@ -158,7 +158,7 @@ Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，�
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **注意：** 在2016年7月版本中，僅允許匯入使用者。 因此，若要使用FTP聯結器，您必須確保CSV檔案放置在下列資料夾中：
+   **注意：**&#x200B;在2016年7月的發行版本中，只允許匯入使用者。 因此，若要使用FTP聯結器，您必須確保CSV檔案放置在下列資料夾中：
 
    `code Home/import/user/internal/*.csv`
 
@@ -166,7 +166,7 @@ Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，�
 1. 所有CSV都應該包含對應中指定的欄。
 1. 在程式開始之前，所有必要的CSV都應該出現在資料夾中。
 
-將使用者匯入Learning Manager時，管理員還需要瞭解如何在Learning Manager中管理使用者。 請參閱 [使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement) 以瞭解更多資訊。
+將使用者匯入Learning Manager時，管理員還需要瞭解如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)。
 
 +++
 
@@ -190,9 +190,9 @@ Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，�
 
 ![](assets/ftp-folder.png)
 
-自動匯出的檔案會出現在位置中 **首頁/匯出/&#42;FTP位置&#42;**
+自動匯出的檔案會出現在位置&#x200B;**Home/export/&#42;FTP_location&#42;**
 
-自動匯出的檔案將以下列標題提供： **skill_achieves_&#42;起始日期&#x200B;&#42;_至_&#42;結束日期&#42;.csv**
+自動匯出的檔案標題為&#x200B;**skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png)
 
@@ -301,8 +301,8 @@ getAbstract.com的企業客戶可使用getAbstract聯結器，他們希望學習
 
    若要讓任何型別的同步作業運作，您必須確定使用者摘要出現在同步作業指定日期的getAbstract FTP資料夾中。
 
-   請參閱下列excel工作表，此工作表是來自getAbstract的使用者摘要檔案範例。 檔案名稱應遵循以下格式：** report_export_yyyy_MM_dd_HHmmss.xlsx**或 **report_export_yyyy_MM_dd.xlsx**.
-   [getAbstract使用者摘要範例excel工作表](assets/report-export-20170401175342.xlsx)
+   請參閱下列excel工作表，此工作表是來自getAbstract的使用者摘要檔案範例。 檔案名稱應遵循以下格式：** report_export_yyyy_MM_dd_HHmmss.xlsx**或&#x200B;**report_export_yyyy_MM_dd.xlsx**。
+   [getAbstract使用者摘要範例Excel工作表](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor聯結器 {#hmmconnector}
 
@@ -349,10 +349,10 @@ Harvard ManageMentor聯結器可供Harvard ManageMentor的企業客戶使用，�
 
    hmm12_metadata.xlsx：此檔案提供Harvard ManageMentor聯結器的課程中繼資料。 上傳檔案時，請務必遵循命名慣例。
 
-   client_hmm12_20150125.xlsx：這是Harvard ManageMentor聯結器的使用者摘要。 您必須遵循的檔案命名慣例是 **client_hmm12_yyyyMMdd.xlsx。**
+   client_hmm12_20150125.xlsx：這是Harvard ManageMentor聯結器的使用者摘要。 您必須遵循的檔案命名慣例是&#x200B;**client_hmm12_yyyyMMdd.xlsx.**
 
    請參閱此聯結器的以下兩個使用者資訊源範例和課程資訊源檔案：
-   [Harvard ManageMentor聯結器的課程中繼資料檔案](assets/hmm12-metadata.xlsx) [Harvard ManageMentor聯結器的使用者摘要](assets/client-hmm12-20170304.xlsx)
+   [ Harvard ManageMentor聯結器的課程中繼資料檔案](assets/hmm12-metadata.xlsx) [ Harvard ManageMentor聯結器的使用者摘要](assets/client-hmm12-20170304.xlsx)
 
 ## Workday聯結器 {#workdayconnector}
 
@@ -384,10 +384,10 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 ## 設定Workday聯結器 {#configureworkdayconnector}
 
-**先決條件**：請您組織的Workday管理員建立具有ISU_Permissions檔案中定義之許可權的整合系統使用者(ISU)。 從下列連結下載副本。
-[下載整合系統使用者(ISU)安全性的復本。](assets/isu-permissions-v1.pdf) 瞭解將Learning Manager與Workday聯結器整合的程式。
+**先決條件**：要求您組織的Workday管理員建立具有ISU_Permissions檔案中定義之許可權的整合系統使用者(ISU)。 從下列連結下載副本。
+[下載整合系統使用者(ISU)安全性的復本。](assets/isu-permissions-v1.pdf)瞭解將Learning Manager與Workday聯結器整合的程式。
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在Workday圖磚上。 選單出現。 按一下 **[!UICONTROL Connect]** 功能表中的專案。
+1. 在Learning Manager首頁中，將滑鼠游標停留在Workday圖磚上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
 
    ![](assets/workday-tile.png)
 
@@ -422,7 +422,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 匯入使用者之前，必須先對應Learning Manager和Workday的使用者屬性。 在「概觀」頁面中，使用「匯入」下的「內部使用者」選項來提供對映屬性。
 
-在「Learning Manager」欄下輸入Adobe的「Learning Manager」認證。Adobe 使用下拉式清單，為Workday下的欄選取正確的認證。
+在Adobe Learning Manager欄下輸入Adobe Learning Manager認證。 使用下拉式清單，為Workday下的欄選取正確的認證。
 
 目前，Learning Manager支援從Workday匯入44個使用者屬性。 使用Learning Manager中的作用中欄位來新增其他屬性。
 
@@ -528,11 +528,11 @@ wd：Management_Chain_Data.wd：Worker_Supervisory_Management_Chain_Data.wd：Ma
 
 Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
 
-若要設定miniOrange聯結器，請聯絡Learning Manager CSM團隊。
+若要設定   迷你橘色   聯結器，請聯絡Learning Manager CSM團隊。
 
 ## 設定miniOrange聯結器 {#configureminiorangeconnector}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在miniOrange卡/縮圖上。 選單出現。 按一下  **[!UICONTROL Connect]** 選單中的選項。
+1. 在Learning Manager首頁中，將滑鼠游標停留在miniOrange卡/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;選項。
 
    ![](assets/miniorange-tile.png)
 
@@ -540,21 +540,21 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
    ![](assets/establish-connection.png)
 
-1. 如果您想要直接將miniOrnage使用者匯入為Learning Manager內部使用者，請使用 **[!UICONTROL Import Internal Users]** 選項。
+1. 如果您想要直接將miniOrnage使用者匯入為Learning Manager內部使用者，請使用&#x200B;**[!UICONTROL Import Internal Users]**&#x200B;選項。
 
    ![](assets/import-users.png)
 
-1. 在對映頁面中，左側可看到Learning Manager的欄，右側可看到miniOrnage欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 在對映頁面中，左側   在右側，您可以看到Learning Manager的欄和欄   您可以看到miniOrnage欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
 
    ![](assets/map-attributes.png)
 
-1. 若要以管理員身分檢視和編輯資料來源，請按一下 **[!UICONTROL Settings > Data Source]**.
+1. 若要檢視及編輯資料來源，請以管理員身分按一下&#x200B;**[!UICONTROL Settings > Data Source]**。
 
-   將列出已建立的miniOrange來源。 如果您需要編輯篩選器，請按一下 **[!UICONTROL Edit]**.
+   將列出已建立的miniOrange來源。 如果您需要編輯篩選器，請按一下&#x200B;**[!UICONTROL Edit]**。
 
    ![](assets/data-source.png)
 
-1. 匯入完成後，您將會收到通知。 若要檢視或編輯匯入記錄，請按一下 **[!UICONTROL Users > Import log.]**
+1. 匯入完成後，您將會收到通知。 若要檢視或編輯匯入記錄，請按一下&#x200B;**[!UICONTROL Users > Import log.]**
 
 ### 刪除連線 {#deleteaconnection}
 
@@ -566,7 +566,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 請依照下列步驟設定並使用聯結器。
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在BlueJeans卡片/縮圖上。 選單出現。 按一下  **[!UICONTROL Connect]** 選單中的選項。
+1. 在Learning Manager首頁中，將滑鼠游標停留在BlueJeans卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;選項。
 
    ![](assets/miniorange.png)
 
@@ -589,7 +589,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 使用BOX聯結器，您可以將Learning Manager與任意外部系統整合，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager Box帳戶的適當資料夾中。 方塊聯結器功能如下：
 
-您也可以使用FTP聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊， [Learning Manager FTP聯結器](third-party-connectors.md#main-pars_header_1427405935)
+您也可以使用FTP聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊，[Learning Manager FTP聯結器。](third-party-connectors.md#main-pars_header_1427405935)
 
 ## 資料匯入 {#DataImport-1}
 
@@ -639,11 +639,11 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 成功建立連線後，您可以將放入Box資料夾的CSV檔案欄對應至Learning Manager的對應屬性。 此步驟為必要步驟。
 
-1. 在「對應屬性」頁面的左側，您可以看到Learning Manager的預期欄，而右側，您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下「選擇檔案」匯入任何範本CSV。
+1. 在「對應屬性」頁面的左側   在右側，您可以看到Learning Manager的預期欄   您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下「選擇檔案」匯入任何範本CSV。
 
 1. 上述步驟會在右側的「選取」下拉式清單中填入所有CSV欄名稱。 選取對應至Learning Manager欄名稱的適當欄名稱。
 
-   *[管理員]欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有欄，才能使用聯結器。*
+   *管理員欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有資料行，才能使用聯結器。*
 
 1. 完成對應後，按一下「儲存」 。
 
@@ -657,14 +657,14 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **注意：** 在2016年7月版本中，僅允許匯入使用者。 因此，若要使用「方塊」聯結器，您必須確定CSV檔案是放置在下列資料夾中：\
+   **注意：**&#x200B;在2016年7月的發行版本中，只允許匯入使用者。 因此，若要使用「方塊」聯結器，您必須確定CSV檔案是放置在下列資料夾中：\
    `code Home/import/user/internal/*.csv`
 
 1. Box聯結器會擷取CSV檔案中的所有列，因此重要的是，一個CSV中對應到使用者的列不會出現在任何其他CSV中。
 1. 所有CSV都應該包含對應中指定的欄。
 1. 在程式開始之前，所有必要的CSV都應該出現在資料夾中。
 
-將使用者匯入Learning Manager時，管理員還需要瞭解如何在Learning Manager中管理使用者。 請參閱 [使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement) 以瞭解更多資訊。
+將使用者匯入Learning Manager時，管理員還需要瞭解如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)。
 
 +++
 
@@ -682,9 +682,9 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 若要開啟Export資料夾（匯出的檔案將放置在Box位置中），請開啟「使用者技能」頁面中提供的Box資料夾連結，如下所示。
 
-自動匯出的檔案會出現在位置中 **首頁/匯出/&#42;Box_location&#42;**
+自動匯出的檔案會出現在位置&#x200B;**Home/export/&#42;Box_location&#42;**
 
-自動匯出的檔案將以下列標題提供： **skill_achieves_&#42;起始日期&#x200B;&#42;_至_&#42;結束日期&#42;.csv**
+自動匯出的檔案標題為&#x200B;**skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv**
 
 Learning Manager團隊共用的Box資料夾中的存取許可權和內容應由客戶管理。  另請注意，資料夾中的內容將會實際儲存在法蘭克福地區。
 

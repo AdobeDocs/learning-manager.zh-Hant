@@ -27,7 +27,7 @@ ht-degree: 0%
 
 [![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
 
-如果您無法啟動培訓，請寫信至 <almacademy@adobe.com>.
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 ## 學習路徑的優勢
 
@@ -41,23 +41,23 @@ ht-degree: 0%
 
 ## 在Learning Manager新增學習路徑
 
-在Learning Manager的管理程式中，按一下 **[!UICONTROL Learning Path]** 位於左側面板。
+在Learning Manager中的管理員應用程式中，按一下左側面板上的&#x200B;**[!UICONTROL Learning Path]**。
 
-在 **[!UICONTROL Learning Path]** 頁面，按一下 **[!UICONTROL Add]**. 輸入詳細資料。
+在&#x200B;**[!UICONTROL Learning Path]**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Add]**。 輸入詳細資料。
 
 ![](assets/add-learning-path.png)
 
 *新增學習路徑*
 
-在 **註冊型別** 選項，選取 **自行註冊** 或 **管理員註冊**.
+在&#x200B;**註冊型別**&#x200B;選項中，選取&#x200B;**自行註冊**&#x200B;或&#x200B;**管理員註冊**。
 
 >[!NOTE]
 >
->如果您選取 **管理員註冊** 選項，學習者僅會看到經理指派或經理核准的課程。 學習者將無法在「建議」區段中看到學習路徑。
+>如果您選取&#x200B;**管理員註冊**&#x200B;選項，學習者將只會看到經理指派或經理核准的課程。 學習者將無法在「建議」區段中看到學習路徑。
 
 建立學習路徑後，選取新建立的學習路徑，並在路徑中新增課程。
 
-您可以新增技能並指派徽章至學習路徑。 若要新增技能，請從以下位置選取所需技能： **[!UICONTROL Pick a Skill]** 下拉式清單。 同時選取技能或技能的層級。
+您可以新增技能並指派徽章至學習路徑。 若要新增技能，請從&#x200B;**[!UICONTROL Pick a Skill]**&#x200B;下拉式清單中選取所需技能。 同時選取技能或技能的層級。
 
 ![](assets/add-skills.png)
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 為學習路徑指派徽章。 從可用徽章清單中挑選徽章。
 
-從以下位置選取產品、角色和角色等級： **[!UICONTROL Recommend for]** 區段，向對這些產品和角色感興趣的使用者建議此學習路徑。
+從&#x200B;**[!UICONTROL Recommend for]**&#x200B;區段選取產品、角色和角色層級，將此學習路徑建議給對這些產品和角色表示感興趣的使用者。
 
 ![](assets/recommend-for.png)
 
@@ -75,7 +75,7 @@ ht-degree: 0%
 
 如果您選擇「已訂購」，課程會以您建立的相同順序顯示。 如果您選擇「未排序」，則課程不會排序。 學習者可依任何順序完成課程。
 
-若要在學習路徑中新增課程，請按一下 **[!UICONTROL Add Courses or Learning Paths]**.
+若要在學習路徑中新增課程，請按一下&#x200B;**[!UICONTROL Add Courses or Learning Paths]**。
 
 在出現的對話方塊中，選擇要新增至學習路徑的訓練。
 
@@ -85,31 +85,31 @@ ht-degree: 0%
 
 您可以根據指定的技能、修改日期和課程效果進一步排序課程。
 
-選取課程或學習路徑後，按一下 **[!UICONTROL Save]**.
+選取課程或學習路徑後，按一下&#x200B;**[!UICONTROL Save]**。
 
 在「學習路徑」中，您可以執行下列動作：
 
-**建立和設定區段：** 會建立區段，將多個訓練課程組成群組，以完成訓練的某個區域或重要部分。 每個區段都可以有標題。 每個區段也可以標示為具有特定完成需求的強制。
+**建立並設定區段：**&#x200B;建立區段以將多個訓練課程組成群組，完成訓練的某個區域或重要部分。 每個區段都可以有標題。 每個區段也可以標示為具有特定完成需求的強制。
 
-**讓課程成為每個區段中的必修課程：** 若您想要/不想在學習路徑內讓培訓成為強制性，請啟用或停用「強制」核取方塊。 如果您啟用核取方塊，您可以將所有培訓設為強制性，或部份培訓設為強制性。
+**讓課程成為每個區段的必修課程：**&#x200B;若您想要/不想讓課程成為學習路徑內的必修課程，請啟用或停用[必修]核取方塊。 如果您啟用核取方塊，您可以將所有培訓設為強制性，或部份培訓設為強制性。
 
 ![](assets/choose-mandatory.png)
 
-*讓課程成為每個區段中的必修課程*
+*讓課程成為每個區段的必修課程*
 
-**重新排列順序：** 您可以上下移動課程並變更其順序。
+**重新排列順序：**&#x200B;您可以上下移動課程並變更其順序。
 
 ![](assets/rearrange.png)
 
-*重新安排培訓的順序*
+*重新安排訓練的順序*
 
-**移除課程：** 在課程卡上，按一下X ，然後將課程從學習路徑中移除。
+**移除課程：**&#x200B;在課程卡上，按一下[X]，然後從學習路徑移除課程。
 
 ![](assets/remove-course.png)
 
 *從學習路徑移除課程*
 
-完成變更後，若要發佈學習路徑，請按一下「發佈」 。
+完成變更後，若要發佈學習路徑，請按一下「Publish」 。
 
 ## 巢狀傾斜路徑
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 ![](assets/nested-learning-path.png)
 
-*在學習路徑內新增學習路徑*
+*在學習路徑中新增學習路徑*
 
 ## 學習路徑設定
 
@@ -131,25 +131,25 @@ ht-degree: 0%
 
 ## 例項
 
-「學習路徑」執行個體會顯示額外的磚， **[!UICONTROL Learning Paths]**. 圖磚會顯示數字。 已新增至學習路徑的學習計畫數量。
+學習路徑執行個體會顯示額外的磚&#x200B;**[!UICONTROL Learning Paths]**。 圖磚會顯示數字。 已新增至學習路徑的學習計畫數量。
 
-在 **課程** 圖磚，您可看見已註冊此例項的學習者所看到的課程例項。
+在&#x200B;**課程**&#x200B;圖磚中，您可以看到已註冊此執行個體的學習者所看到的課程執行個體。
 
-此 **[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]** 核取方塊僅適用於課程。 所有子級學習路徑都會選擇將學習計畫例項與學習路徑對應。 依預設，對應會設定為「預設例項」。
+**[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]**&#x200B;核取方塊僅適用於課程。 所有子級學習路徑都會選擇將學習計畫例項與學習路徑對應。 依預設，對應會設定為「預設例項」。
 
 ![](assets/default-instance.png)
 
-*學習路徑例項*
+*學習路徑執行個體*
 
 ## 通知
 
 有三個選項：
 
-1. **[!UICONTROL All Skill Levels Courses and Learning Paths (selected by default)]：** 學習者會收到任何未完成課程的通知，無論學習路徑內的層級為何。
-1. **[!UICONTROL Root Learning Path]：** 學習者會收到屬於父級學習路徑之任何未完成課程的通知。
-1. **[!UICONTROL Learning Path + first Skill Level children only]：** 學習者會收到任何不完整課程的通知，這些課程為父級學習路徑的第一子級。
+1. **[!UICONTROL All Skill Levels Courses and Learning Paths (selected by default)]：**&#x200B;學習者會取得任何未完成課程的通知，無論學習路徑內的層級為何。
+1. **[!UICONTROL Root Learning Path]：**&#x200B;學習者會收到屬於父級學習路徑之任何未完成課程的通知。
+1. **[!UICONTROL Learning Path + first Skill Level children only]：**&#x200B;學習者會收到任何不完整課程的通知，這些課程是父級學習路徑的第一子級。
 
-通知提醒會根據選項觸發。 依預設，選項 **[!UICONTROL All Levels Courses and Learning Paths]** 已為執行個體啟用。
+通知提醒會根據選項觸發。 依預設，執行個體已啟用選項&#x200B;**[!UICONTROL All Levels Courses and Learning Paths]**。
 
 ## 訂閱
 
@@ -163,7 +163,7 @@ ht-degree: 0%
 
 ![](assets/subscriptions.png)
 
-*訂閱個人學習路徑*
+*訂閱個別學習路徑*
 
 ## 重要注意事項
 
@@ -173,7 +173,7 @@ ht-degree: 0%
 
 學習者可以繼續使用學習計畫（現在稱為學習路徑），作者/管理員也可以繼續建立學習計畫。 若要善用上述「學習路徑」的擴充功能，管理員應啟用下述設定。 啟用後，「學習路徑」的所有新擴充功能都將可供使用。
 
-此 **[!UICONTROL Settings]** > **[!UICONTROL General]** 頁面有一個新選項可啟用學習路徑。 如果已啟用此選項，您可以在學習路徑中新增課程和學習計畫。 選項一經啟用即無法變更。
+**[!UICONTROL Settings]** > **[!UICONTROL General]**&#x200B;頁面有啟用學習路徑的新選項。 如果已啟用此選項，您可以在學習路徑中新增課程和學習計畫。 選項一經啟用即無法變更。
 
 <!-- ## Other Learning Path-related details 
 

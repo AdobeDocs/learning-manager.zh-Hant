@@ -1,25 +1,25 @@
 ---
 jcr-language: en_us
-title: 適用於AEM Sites的AdobeLearning Manager參考網站（ALM參考網站）套件
-description: Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這可讓您建立自己的網站和回應式行動介面，以便最輕鬆地AdobeLearning Manager。 透過這項整合，您可以為使用者建立自訂的學習體驗。
+title: 適用於AEM Sites的Adobe Learning Manager參考站台（ALM參考站台）套件
+description: Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這可讓您以最少的編碼工作量，為Adobe Learning Manager建立自己的網站和回應式行動介面。 透過這項整合，您可以為使用者建立自訂的學習體驗。
 contentowner: saghosh
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2126'
 ht-degree: 0%
 
 ---
 
+# 適用於AEM Sites的Adobe Learning Manager參考站台（ALM參考站台）套件
 
-# 適用於AEM Sites的AdobeLearning Manager參考網站（ALM參考網站）套件
+Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這可讓您以最少的編碼工作量，為Adobe Learning Manager建立自己的網站和回應式行動介面。 透過這項整合，您可以為使用者建立自訂的學習體驗。
 
-Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這可讓您建立自己的網站和回應式行動介面，以便最輕鬆地AdobeLearning Manager。 透過這項整合，您可以為使用者建立自訂的學習體驗。
-
-Adobe為了建立這類體驗，ALM以ZIP檔案的形式提供AEM Sites的Learning Manager參考網站套件（ALM參考網站套件），您可以安裝在AEM Sites執行個體上。
+為了建立這樣的體驗，ALM以ZIP檔案的形式，提供適用於AEM Sites的Adobe Learning Manager參考站台套件（ALM參考站台套件），您可以安裝在您的AEM Sites執行個體上。
 
 此套件包含AEM Sites網頁範本和網站元件以及內嵌的Widget，例如學習目錄、內嵌的Widget、日曆等。
 
-安裝ALM參考網站套件後，您就可以開始建立AdobeLearning Manager的網站，並在AEM Sites執行個體上託管。 之後，您的使用者可以將元件拖放至網站上。
+安裝ALM參考站台套件後，您就可以開始建立Adobe Learning Manager的網站，以便在AEM Sites執行個體上託管。 之後，您的使用者可以將元件拖放至網站上。
 
 安裝ALM參照站台套件
 
@@ -31,20 +31,20 @@ Adobe為了建立這類體驗，ALM以ZIP檔案的形式提供AEM Sites的Learni
 
 保護AEM Sites環境後，您必須安裝ALM參考站台套件。 此套件包含協助建構學習平台的AEM網頁和網站元件。
 
-參考站台套件託管於 [**GitHub存放庫**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+參考站台封裝裝載於&#x200B;[**GitHub存放庫**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)。
 
 如需詳細資訊，請參閱README。
 
-## 在中建立應用程式 [!DNL Adobe Learning Manager]
+## 在[!DNL Adobe Learning Manager]中建立應用程式
 
 安裝AEM網站套件後，您必須設定ALM應用程式，將學習入口網站與AEM網站連線。
 
-此情境適用於AEM搭配使用時 [!DNL Adobe Learning Manager].
+此情境適用於AEM搭配[!DNL Adobe Learning Manager]使用時。
 
 請遵循下列步驟：
 
-1. 身為整合管理員，請按一下 **[!UICONTROL Applications]**.
-1. 若要建立新應用程式，請按一下頁面右上角的 **[!UICONTROL Register]**.
+1. 以整合管理員的身分，按一下&#x200B;**[!UICONTROL Applications]**。
+1. 若要建立新的應用程式，請按一下頁面右上角的&#x200B;**[!UICONTROL Register]**。
 1. 在註冊新應用程式畫面中，輸入下列詳細資訊：
 
    1. 應用程式名稱：您正在建立的應用程式名稱。
@@ -61,11 +61,11 @@ Adobe為了建立這類體驗，ALM以ZIP檔案的形式提供AEM Sites的Learni
 ![](assets/application-credentials.png)
 *應用程式認證*
 
-若要核准應用程式，請按一下 **[!UICONTROL Approve]**.
+若要核准應用程式，請按一下&#x200B;**[!UICONTROL Approve]**。
 
 ## 取得權杖
 
-1. 在開發人員資源索引標籤中，按一下 **[!UICONTROL Access Tokens for Testing and Development]**.
+1. 在[開發人員資源]索引標籤中，按一下&#x200B;**[!UICONTROL Access Tokens for Testing and Development]**。
 
    ![](assets/access-tokens.png)
 
@@ -87,10 +87,10 @@ Adobe為了建立這類體驗，ALM以ZIP檔案的形式提供AEM Sites的Learni
 
 1. 啟動您的AEM執行個體。
 1. 按一下「設定>Cloud Service」。
-1. 按一下AdobeLearning Manager設定。
+1. 按一下「Adobe Learning Manager設定」 。
 
    ![](assets/alm-configuration.png)
-   *選取AdobeLearning Manager設定*
+   *選取Adobe Learning Manager設定*
 
 1. 按一下「建立>組態資料夾」。 為資料夾命名。
 
@@ -104,19 +104,19 @@ Adobe為了建立這類體驗，ALM以ZIP檔案的形式提供AEM Sites的Learni
    ![](assets/account-congiguration.png)
    *建立設定資料夾*
 
-   1. Adobe學習管理員模式：選擇您希望登入和未登入學習者的學習體驗。
-   1. AdobeLearning Manager URL：輸入託管學習服務之ALM執行個體的URL。
+   1. Adobe Learning Manager模式：選擇您希望登入和未登入學習者的學習體驗。
+   1. Adobe Learning Manager URL：輸入託管學習服務之ALM執行個體的URL。
    1. 帳戶ID： ALM帳戶ID。
    1. 使用者端ID、使用者端密碼和作者重新整理權杖：輸入您在ALM中建立應用程式時獲得的認證。
-   1. Widget的自訂：如需詳細資訊，請參閱 [與AEM整合](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. 自訂Widget：如需詳細資訊，請參閱[與AEM整合](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. 儲存並關閉設定。
 
-### AEM +Adobe學習管理員（已登入/未登入的使用者）
+### AEM + Adobe Learning Manager （已登入/未登入的使用者）
 
 Adobe Learning Manager現在可讓您向現有和潛在客戶及合作夥伴展示您的產品和訓練，而不需要建立或登入帳戶。 此功能可為學習者提供訓練的快速輕鬆預覽，有助於強調和推廣產品功能，進而協助您促進產品和訓練的採用。 因此，您可以有效地展示您的產品和方案，尤其是向潛在客戶和合作夥伴展示，進而提升產品知名度。 輕鬆存取和更好的可及性帶來更高的興趣，有助於推動培訓註冊和學習採用。
 
-學習者使用此工作流程即可預覽訓練、存取訓練資訊，或搜尋訓練，而無需登入Adobe學習管理員。 此工作流程不適用於原生Learning Manager介面(僅適用於AEM Sites和其他Headless介面)。
+學習者使用此工作流程即可預覽訓練、存取訓練資訊，或搜尋訓練，而無需登入Adobe Learning Manager。 此工作流程不適用於原生Learning Manager介面(僅適用於AEM Sites和其他Headless介面)。
 
 **設定並啟用學習平台聯結器**
 
@@ -132,18 +132,18 @@ Adobe Learning Manager現在可讓您向現有和潛在客戶及合作夥伴展�
 
 啟用此聯結器可建置及轉譯您的AEM Sites網頁，並在登入前後為學習者提供自訂體驗。 啟用此聯結器可建置及轉譯您的AEM Sites網頁，並在登入前後為學習者提供自訂體驗。
 
-* AdobeLearning Manager CDN基本URL — 從「培訓資料存取」連線頁面輸入資料擷取CDN服務路徑的基本URL。
+* Adobe Learning Manager CDN基底URL — 從訓練資料存取連線頁面輸入資料擷取CDN服務路徑的基底URL。
 * 管理員重新整理Token — 輸入您在前一節中決定的重新整理Token。
 * 訓練中繼資料基底URL — 從「訓練資料存取」連線頁面，輸入搜尋啟用與搜尋資料擷取服務路徑的基底URL。
-* AdobeLearning Manager註冊URL — 輸入整合管理員為帳戶產生的自助註冊URL，學習者可使用此帳戶註冊培訓。
+* Adobe Learning Manager註冊URL — 輸入整合管理員為帳戶產生的自助註冊URL，學習者可使用此帳戶註冊培訓。
 
 ### AEM + Adobe Learning Manager + Adobe Commerce （已登入/未登入的使用者）
 
-Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adobe Commerce緊密整合。 此版本可讓您輕鬆地將原生、AEM網站型或其他Headlearning Manager介面連線到Adobe Commerce。 此整合可讓您在學習平台中實現電子商務功能。 您現在可以為客戶和業務合作夥伴提供付費培訓，並讓您在原生和非原生Learning Manager介面上輕鬆購買培訓。 學習者也可預覽訓練、存取訓練資訊，或搜尋訓練內容，而不需登入Adobe學習管理員。
+Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adobe Commerce緊密整合。 此版本可讓您輕鬆地將原生、AEM網站型或其他Headlearning Manager介面連線到Adobe Commerce。 此整合可讓您在學習平台中實現電子商務功能。 您現在可以為客戶和業務合作夥伴提供付費培訓，並讓您在原生和非原生Learning Manager介面上輕鬆購買培訓。 學習者也可預覽訓練、存取訓練資訊，或搜尋訓練，而不需要登入Adobe Learning Manager。
 
 使用者可以使用已經的AEM應用程式並核准它，而不是建立一個應用程式。
 
-* AdobeLearning Manager CDN基本URL — 從Adobe Commerce連線頁面輸入資料擷取CDN服務路徑的基本URL。
+* Adobe Learning Manager CDN基底URL — 輸入來自Adobe Commerce連線頁面之資料擷取CDN服務路徑的基底URL。
 * Adobe Commerce URL — 輸入您使用的Adobe Commerce執行個體的URL。
 * GraphQL Proxy路徑 — 使用者端Learning Manager元件會直接存取Adobe Commerce GraphQL端點，因此可能會發生CORS錯誤。 若要避免此錯誤，所有呼叫都必須從與AEM相同的端點提供服務，或是透過新增CORS標題的Proxy提供服務。
 * Adobe Commerce商店名稱 — 輸入您在前一節中判斷的Adobe Commerce商店名稱。
@@ -156,12 +156,12 @@ Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adob
 
 1. 啟動您的AEM執行個體。
 1. 按一下Sites並開啟設定頁面。
-1. 按一下 **[!UICONTROL Learning Site]** > **[!UICONTROL Language Masters]** > **[!UICONTROL English]**. 專案中的所有網頁都包含在資料夾中。
+1. 按一下&#x200B;**[!UICONTROL Learning Site]** > **[!UICONTROL Language Masters]** > **[!UICONTROL English]**。 專案中的所有網頁都包含在資料夾中。
 
    ![](assets/list-webpages.png)
    *檢視所有網頁*
 
-1. 選取任何範本並按一下 **[!UICONTROL Edit]**.
+1. 選取任何範本並按一下&#x200B;**[!UICONTROL Edit]**。
 
 1. 在頁面上，按一下元件設定按鈕並變更元件的屬性。
 
@@ -183,11 +183,11 @@ Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adob
    ![](assets/page-properties.png)
    *頁面屬性*
 
-1. 若要建立頁面，請按一下 **[!UICONTROL Create]**.
+1. 若要建立頁面，請按一下&#x200B;**[!UICONTROL Create]**。
 
-1. 選取新頁面，然後按一下 **[!UICONTROL Edit]**.
+1. 選取新頁面並按一下&#x200B;**[!UICONTROL Edit]**。
 
-1. 在頁面上插入元件，例如， **學習 — 內容**.
+1. 在頁面上插入元件，例如&#x200B;**學習 — 內容**。
 
    ![](assets/learning-content.png)
    *依網站篩選*
@@ -198,9 +198,9 @@ Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adob
 
 ALM參考網站套件提供「學習網站藍圖」，可讓您為學習平台建立網站。 AEM藍圖可讓您直接從AEM Sites元件建置網頁。 您不需要使用任何範本。
 
-1. 在AEM起始頁面上，按一下 **[!UICONTROL Sites]**.
+1. 在AEM起始頁上，按一下&#x200B;**[!UICONTROL Sites]**。
 
-1. 按一下 **[!UICONTROL Create]** > **[!UICONTROL Site]**.
+1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Site]**。
 
 1. 按一下學習網站Blueprint。
 
@@ -221,7 +221,7 @@ ALM參考網站套件提供「學習網站藍圖」，可讓您為學習平台�
 
 除了使用內建範本並使用WYSIWYG元件從頭開始建立您的網站外，您還可以撰寫程式碼並建置網站。
 
-程式碼位於 [參考網站GitHub存放庫](https://github.com/adobe/adobe-learning-manager-reference-site) 供您快速入門。
+程式碼位於[參考網站GitHub存放庫](https://github.com/adobe/adobe-learning-manager-reference-site)中，可供您開始使用。
 
 範本的主要部分為：
 
@@ -248,11 +248,11 @@ ALM參考網站套件提供「學習網站藍圖」，可讓您為學習平台�
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   上述程式碼會將對應的設定新增至頁面的meta標籤中，這是學習元件轉譯的必要條件。 如需詳細資訊，請參閱 [AdobeLearning Manager參考字元](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   上述程式碼會將對應的設定新增至頁面的meta標籤中，這是學習元件轉譯的必要條件。 如需詳細資訊，請參閱[Adobe Learning Manager參考字元](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)。
 
 1. 確認您已對應組態與Web專案。
 1. 開啟要匯入AEM Sites元件的Learning Manager範本。
-1. 在範本頁面編輯器上，導覽至「允許的元件」容器並選取「 」 **原則**.
+1. 在範本頁面編輯器上，瀏覽至「允許的元件」容器，並選取&#x200B;**原則**。
 1. 在「原則」頁面中，導覽至「屬性>允許的元件」，並選取下列元件「學習 — 內容」、「學習 — 表單」和「學習 — 結構」
 
 下列程式可讓範本完成匯入Learning Manager元件的使用者端資料庫相依性。

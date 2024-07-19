@@ -1,18 +1,17 @@
 ---
 title: Adobe Learning Manager中的Recommendations
 description: 建議引擎的核心是由Learning Manager的新課程排名演演算法所驅動。 演演算法會使用5000萬資料點以及跨越數百萬使用者的五年彙總學習資料，根據他們的註冊可能性來排名課程。 此排名可確保大部分可註冊的課程會先顯示給學習者。
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1411'
 ht-degree: 0%
 
 ---
 
-
-
 # Adobe Learning Manager中的Recommendations
 
-Adobe Learning Manager已推出全新及改版的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
+Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
 
 新的推薦系統可讓您建立自訂引數，讓學習者可選取這些引數以接收個人化推薦。 這些建議將顯示為課程、學習路徑和認證，以供學習者在其首頁資訊源中檢視。
 
@@ -22,24 +21,24 @@ Adobe Learning Manager已推出全新及改版的課程推薦系統。 此建議
 
 1. 上傳課程和使用者資料（選用）。
 1. 即時進行變更。
-1. 啟用並設定建議後，請將資料上傳至AdobeLearning Manager以供建議開始運作。 此資料包含：
+1. 啟用和設定建議後，請將資料上傳至Adobe Learning Manager以供建議開始運作。 此資料包含：
 
    * 課程資料
    * 使用者資料（選擇性）
 
 ## 課程排名演演算法
 
-建議引擎的核心是由Learning Manager的新功能所驅動 **[!UICONTROL Course Ranking Algorithm]**. 演演算法會使用5000萬資料點以及跨越數百萬使用者的五年彙總學習資料，根據他們的註冊可能性來排名課程。 此排名可確保大部分可註冊的課程會先顯示給學習者。
+建議引擎的核心是由Learning Manager的新&#x200B;**[!UICONTROL Course Ranking Algorithm]**&#x200B;所驅動。 演演算法會使用5000萬資料點以及跨越數百萬使用者的五年彙總學習資料，根據他們的註冊可能性來排名課程。 此排名可確保大部分可註冊的課程會先顯示給學習者。
 
 ## 主要條款
 
 Learning Manager的全新AI型推薦引擎為學習領導者提供可設定的引數型推薦系統，供學習者打造個人化體驗。
 
-引數為 —  **產品/主題**， **角色**、和 **層級**. 此外，這些引數可重新命名以符合您的需求。 因此，「產品」可以成為「主題」，「角色」可以成為「地區」。
+引數為 — **產品/主題**、**角色**&#x200B;和&#x200B;**層級**。 此外，這些引數可重新命名以符合您的需求。 因此，「產品」可以成為「主題」，「角色」可以成為「地區」。
 
 ## 設定建議系統
 
-Adobe Learning Manager的新推薦引擎簡化了設定個人化推薦所涉及的管理工作流程，因為管理員通常可以取得與客戶/合作夥伴相關聯的產品和角色相關資料（例如從購買記錄中取得）。
+Adobe Learning Manager的新建議引擎簡化了設定個人化建議所涉的管理員工作流程，因為管理員通常可以取得與客戶/合作夥伴相關聯的產品和角色相關資料（例如從購買記錄）。
 
 設定新建議引擎主要涉及三個工作流程：
 
@@ -51,29 +50,29 @@ Adobe Learning Manager的新推薦引擎簡化了設定個人化推薦所涉及�
 
 在Learning Manager中，管理員可獲得引導式工作流程，以便最佳地設定建議引擎，並根據帳戶的使用案例自訂引擎。 此外，管理員也可以選擇透過一次性CSV上傳設定PRL建議。
 
-1. 選取 **[!UICONTROL Recommendations]** 在「管理員」應用程式上。
+1. 在管理員應用程式上選取&#x200B;**[!UICONTROL Recommendations]**。
 
-   ![在管理員應用程式上選取Recommendations](assets/image831538.png)
+   在管理員應用程式上![選取Recommendations](assets/image831538.png)
 
    *選取Recommendations選項*
 
-1. 按一下 **[!UICONTROL Upgrade]**.
+1. 按一下&#x200B;**[!UICONTROL Upgrade]**。
 
    ![升級至新系統](assets/image784236.png)
 
    *選取升級選項*
 
-1. 按一下 **[!UICONTROL Proceed]** 升級至新的推薦系統。
+1. 按一下&#x200B;**[!UICONTROL Proceed]**&#x200B;以升級至新的建議系統。
 
    ![繼續使用新系統](assets/image521152.png)
-   *選取繼續按鈕*
+   *選取[繼續]按鈕*
 
 1. 建立「產品」和「角色」的建議引數。
 
    ![建立引數](assets/image43406.png)
-   *建立建議的引數*
+   *為建議*&#x200B;建立引數
 
-1. 按一下 **[!UICONTROL Add more values]**.
+1. 按一下&#x200B;**[!UICONTROL Add more values]**。
 1. 新增產品。 輸入產品名稱，然後按一下Enter。
 
    您必須至少新增兩個產品才能開始使用。
@@ -86,7 +85,7 @@ Adobe Learning Manager的新推薦引擎簡化了設定個人化推薦所涉及�
    ![新增角色](assets/image156786.png)
    *新增角色*
 
-1. 按一下 **[!UICONTROL Continue]**.
+1. 按一下&#x200B;**[!UICONTROL Continue]**。
 
    「產品」和「角色」現在會出現在引數清單中。
 
@@ -158,18 +157,18 @@ Recommendations功能可供設定。 因此，您可以使用主題/角色/層�
 
 ## 編輯引數
 
-1. 在引數清單中，選取三個點的圖示，然後選取 **[!UICONTROL Edit parameter name]**.
+1. 在引數清單中，選取三個點的圖示，然後選取&#x200B;**[!UICONTROL Edit parameter name]**。
 
    ![編輯引數](assets/edit-parameter.png)
 
-1. 變更引數名稱，然後按一下 **[!UICONTROL Save]**.
+1. 變更引數名稱，然後按一下&#x200B;**[!UICONTROL Save]**。
 
    ![個結果](assets/image688522.png)
    *編輯引數*
 
 ## 刪除引數
 
-1. 在引數清單中，選取三個點的圖示，然後選取 **[!UICONTROL Delete parameter]**.
+1. 在引數清單中，選取三個點的圖示，然後選取&#x200B;**[!UICONTROL Delete parameter]**。
 
 ![刪除引數](assets/delete-parameter.png)
 *刪除引數*
@@ -232,15 +231,15 @@ Recommendations功能可供設定。 因此，您可以使用主題/角色/層�
 
 ### 我的學習帶上的卡片
 
-![學習長條卡](assets/image770606.png)
-*學習帶上的卡片*
+![學習資料條卡](assets/image770606.png)
+*張學習帶上的卡片*
 
 每個卡片都有「評等」、「卡片影像」、「標題」、「技能」、「發佈日期」、「作者」、「持續時間」、「進度列」以及「繼續」或「探索」按鈕。
 
 ### 由我分段儲存的卡片
 
-![已儲存的卡片](assets/cards-saved-by-me.png)
-*已儲存的卡片*
+![儲存的卡片](assets/cards-saved-by-me.png)
+*儲存的卡片*
 
 每個卡片都有「評等」、「卡片影像」、「標題」、「技能」、「發佈日期」、「作者」、「持續時間」、「進度列」以及「開始」、「探索」、「繼續」或「重新造訪」按鈕。
 
@@ -248,11 +247,11 @@ Recommendations功能可供設定。 因此，您可以使用主題/角色/層�
 
 ### 超級相關區段上的卡片
 
-![超相關帶狀卡](assets/super-relevant-cards.png)
+![超相關帶狀卡片](assets/super-relevant-cards.png)
 *相關卡片*
 
 每個卡片都有「評等」、「卡片影像」、「標題」、「技能」、「發佈日期」、「作者」、「持續時間」、「進度列」以及「開始」、「探索」、「繼續」或「重新造訪」按鈕。
 
 學習者開始課程後，卡片上沒有進度列。
 
-功能表中有兩個選項， **[!UICONTROL Save]** 和 **[!UICONTROL Don't recommend this]**. 如果學習者點按 **[!UICONTROL Save]**，此課程會儲存至「由我儲存」區段。 如果學習者點按 **[!UICONTROL Don't recommend this]**，則建議的培訓會從清單中移除。
+功能表上有兩個選項，**[!UICONTROL Save]**&#x200B;和&#x200B;**[!UICONTROL Don't recommend this]**。 如果學習者按一下&#x200B;**[!UICONTROL Save]**，課程會儲存至「由我儲存」區段。 如果學習者按一下&#x200B;**[!UICONTROL Don't recommend this]**，建議的培訓就會從清單中移除。

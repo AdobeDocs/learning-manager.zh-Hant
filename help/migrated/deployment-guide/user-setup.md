@@ -26,30 +26,30 @@ ht-degree: 0%
 
 作為管理員，您可能會想要將外部使用者（例如合作夥伴組織的員工）新增到您的Learning Manager帳戶。 若要新增外部使用者：
 
-1. 從**[!UICONTROL **管理員**]**登入頁面，按一下**[!UICONTROL **使用者**]**在左側導覽窗格中。
-1. 在**中&#x200B;[!UICONTROL **使用者**]**page，按一下**[!UICONTROL **外部**]**在左側導覽窗格中。 系統會顯示「外部使用者」頁面，內含外部使用者清單（如果適用）。
-1. 按一下**[!UICONTROL **新增**]**位於頁面的右上角。
+1. 從**[!UICONTROL **管理員**]**登入頁面，按一下左側導覽窗格中的**[!UICONTROL **使用者**]**。
+1. 在**[!UICONTROL **使用者**]**頁面中，按一下左側導覽窗格中的**[!UICONTROL **外部**]**。 系統會顯示「外部使用者」頁面，內含外部使用者清單（如果適用）。
+1. 按一下頁面右上角的**[!UICONTROL **新增**]**。
 
    ![](assets/set-up-external-users-step3.png)
 
-1. 在**中&#x200B;[!UICONTROL **新增使用者**]**快顯對話方塊，下列欄位為必要欄位：
+1. 在**[!UICONTROL **新增使用者**]**快顯對話方塊中，下列欄位為必要欄位：
 
    * **[!UICONTROL **設定檔名稱**：]**指定您正在建立的外部設定檔名稱。
-   * **[!UICONTROL **&#x200B;經理電子郵件&#x200B;**：]** 指定外部使用者管理員的電子郵件地址。
-   * **[!UICONTROL **&#x200B;已分配的名額&#x200B;**：]** 指定可註冊課程的學習者人數。
-   * **[!UICONTROL **&#x200B;到期&#x200B;**：]** 指定到期日，超過該日期外部使用者將無法註冊或使用課程。
+   * **[!UICONTROL **&#x200B;管理員電子郵件&#x200B;**：]**&#x200B;指定外部使用者管理員的電子郵件地址。
+   * **[!UICONTROL **&#x200B;已分配的名額&#x200B;**：]**&#x200B;指定可註冊課程的學習者人數。
+   * **[!UICONTROL **&#x200B;到期&#x200B;**：]**&#x200B;指定到期日，超過該日期外部使用者將無法註冊或使用課程。
 
-1. 按一下 **[!UICONTROL **&#x200B;進階設定&#x200B;**.]**
+1. 按一下&#x200B;**[!UICONTROL **&#x200B;進階設定&#x200B;**.]**
 1. 建立外部設定檔時，可選擇設定下列選項：
 
-   * **[!UICONTROL **&#x200B;新增影像&#x200B;**：]** 拖放您想要的影像。 此影像會顯示在使用者的學習者頁面中。
-   * **[!UICONTROL **&#x200B;登入要求&#x200B;**：]** 指定使用者需要登入的天數。 如果外部使用者超過此登入期間，學習者將無法存取或使用學習物件。
-   * **[!UICONTROL **&#x200B;允許的網域&#x200B;**：]** 指定以逗號分隔的網域。 只有具有指定網域的使用者才能註冊該帳戶。
-   * **[!UICONTROL **&#x200B;需要電子郵件驗證&#x200B;**：]** 如果您想要將驗證電子郵件傳送給使用者，請選取此核取方塊
+   * **[!UICONTROL **&#x200B;新增影像&#x200B;**：]**&#x200B;拖放您想要的影像。 此影像會顯示在使用者的學習者頁面中。
+   * **[!UICONTROL **&#x200B;登入需求&#x200B;**：]**&#x200B;指定使用者需要登入的天數。 如果外部使用者超過此登入期間，學習者將無法存取或使用學習物件。
+   * **[!UICONTROL **&#x200B;允許的網域&#x200B;**：]**&#x200B;請指定以逗號分隔的網域。 只有具有指定網域的使用者才能註冊該帳戶。
+   * **[!UICONTROL **&#x200B;需要電子郵件驗證&#x200B;**：]**&#x200B;若要將驗證電子郵件傳送給使用者，請選取此核取方塊
 
 
 
-1. 按一下 **[!UICONTROL Save.]**
+1. 按一下&#x200B;**[!UICONTROL Save.]**
 
 
 
@@ -57,8 +57,8 @@ ht-degree: 0%
 
    隨即顯示包含URL的快顯對話方塊。 您可以複製此URL並傳送給外部使用者。 預設情況下，會向使用者傳送包含此URL的電子郵件。
 
-1. 當您新增外部設定檔時，它們會顯示在 **[!UICONTROL **&#x200B;外部使用者頁面&#x200B;**(**&#x200B;管理員&#x200B;**>**&#x200B;使用者&#x200B;**>**&#x200B;外部&#x200B;**)。]** 也會對這些使用者顯示名額限制、到期日和登入要求。
-1. 若要隨時編輯外部使用者的設定，請按一下使用者名稱。 此 **[!UICONTROL Edit External Enrollment]** 對話方塊隨即顯示。 修改設定，然後按一下 **[!UICONTROL **&#x200B;儲存&#x200B;**.]**
+1. 新增外部設定檔時，它們會顯示在&#x200B;**[!UICONTROL **&#x200B;外部使用者頁面&#x200B;**中（**&#x200B;管理員&#x200B;**>**&#x200B;使用者&#x200B;**>**&#x200B;外部&#x200B;**）。]**&#x200B;也會對這些使用者顯示名額限制、到期日和登入要求。
+1. 若要隨時編輯外部使用者的設定，請按一下使用者名稱。 **[!UICONTROL Edit External Enrollment]**&#x200B;對話方塊就會顯示。 修改設定，然後按一下&#x200B;**[!UICONTROL **&#x200B;儲存&#x200B;**。]**
 1. 您也可以按一下外部設定檔旁邊的電子郵件/複製URL圖示，重新傳送歡迎電子郵件或隨時複製URL。
 
    ![](assets/set-up-external-users-step10.png)
@@ -67,19 +67,19 @@ ht-degree: 0%
 
 將外部使用者群組新增至Learning Manager後，您也可以暫停外部使用者註冊程式。 當您暫停時，會封鎖外部使用者註冊程式。 不過，此程式只有在使用者尚未透過接受邀請註冊時才有效。
 
-若要暫停外部使用者群組，請按一下**[!UICONTROL **動作**]**從頁面的右上角，然後選擇 **[!UICONTROL Pause]**.
+若要暫停外部使用者群組，請從頁面的右上角按一下**[!UICONTROL **動作**]**，然後選擇&#x200B;**[!UICONTROL Pause]**。
 
 ## 繼續外部使用者設定檔 {#resumeexternaluserprofile}
 
-您可以隨時選擇「繼續」選項來撤銷封鎖（暫停）。 按一下**[!UICONTROL **動作**]**位於頁面的右上角，然後選擇 **[!UICONTROL Resume]**.
+您可以隨時選擇「繼續」選項來撤銷封鎖（暫停）。 按一下頁面右上角的**[!UICONTROL **動作**]**，然後選擇&#x200B;**[!UICONTROL Resume]**。
 
 **[!UICONTROL External user states]**
 
 在Learning Manager中，下列狀態適用於外部使用者：
 
-* **非使用中狀態**  — 在此狀態下，外部使用者註冊過期。 管理員透過新增使用者工作流程新增外部使用者時，可設定其到期日。
-* **作用中狀態**  — 在此狀態下，外部使用者可註冊Learning Manager應用程式，也可登入應用程式。
-* **暫停**  — 在此狀態下，會封鎖外部使用者的註冊程式。 但是，現有的使用者可以繼續登入。
+* **非使用中狀態** — 在此狀態下，外部使用者註冊已過期。 管理員透過新增使用者工作流程新增外部使用者時，可設定其到期日。
+* **作用中狀態** — 在此狀態下，外部使用者可以註冊Learning Manager應用程式，也可以登入應用程式。
+* **暫停** — 在此狀態下，外部使用者的註冊程式被封鎖。 但是，現有的使用者可以繼續登入。
 
 ## 設定內部使用者 {#setupinternalusers}
 
@@ -95,13 +95,13 @@ ht-degree: 0%
 
 如果使用者人數很多，您可以選擇此方法來新增內部使用者。 第一次使用CSV來新增使用者時，必須將csv資料內容對應至應用程式標籤。 隨後當您新增使用者或更新使用者資料時，相同的對應會保留。 大量新增內部使用者：
 
-1. 在 **[!UICONTROL Administrator Home]** 頁面，按一下**[!UICONTROL **使用者**]**在左側導覽窗格中。
-1. 按一下 **[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;上傳CSV **.]**
-1. 在快顯對話方塊中，按一下 **[!UICONTROL **&#x200B;匯入&#x200B;**.]**
-1. 瀏覽至儲存CSV檔案的位置。 按一下 **[!UICONTROL Open]**.
+1. 在&#x200B;**[!UICONTROL Administrator Home]**&#x200B;頁面上，按一下左側導覽窗格中的**[!UICONTROL **使用者**]**。
+1. 按一下&#x200B;**[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;上傳CSV **。]**
+1. 在快顯對話方塊中，按一下&#x200B;**[!UICONTROL **&#x200B;匯入&#x200B;**.]**
+1. 瀏覽至儲存CSV檔案的位置。 按一下&#x200B;**[!UICONTROL Open]**。
 1. 匯入CSV檔案，並將該CSV檔案的內容與應用程式標籤對應。 此步驟僅適用於第一次上傳CSV檔案時。
-1. 按一下**[!UICONTROL **儲存**]**儲存對應。
-1. 按一下**[!UICONTROL **新增**]**上傳已對應至應用程式資料的CSV檔案。
+1. 按一下**[!UICONTROL **儲存**]**以儲存對應。
+1. 按一下**[!UICONTROL **新增**]**以上傳已對應至應用程式資料的CSV檔案。
 
 ### 建立CSV檔案以供上傳時的注意事項： {#considerationswhencreatingthecsvfileforupload}
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 每個員工的姓名和電子郵件可直接對應至應用程式資料。 請注意，您必須指定CSV檔案中指定的電子郵件為「經理電子郵件」。 您可以在建立CSV檔案時定義Manager ID，也可以在上傳CSV檔案時指定與Manager ID對應的電子郵件ID。
 
-***在新增ID作為員工的經理ID之前，請確保將經理新增為CSV檔案中的員工。***
+***在您將ID新增為員工的經理ID之前，請確定已將經理新增為CSV檔案中的員工。***
 
 ***請確定專案之間沒有額外的空格，才能成功上傳CSV檔案。***
 
@@ -117,7 +117,7 @@ ht-degree: 0%
 
 ![](assets/considerations-whencreatingthecsvfileforupload.png)
 
-若要下載範例CSV檔案，請下載 `<give link to zip file>`.
+若要下載範例CSV檔案，請下載`<give link to zip file>`。
 
 <!--Zip file reference, no source file-->
 
@@ -129,15 +129,15 @@ ht-degree: 0%
 
 除了大量新增內部使用者外，您也可以透過自行註冊來新增使用者。 您可以透過自助註冊，讓員工在您的Learning Manager帳戶中註冊成為學習者。 當您建立自助註冊設定檔時，會建立唯一的URL。 與員工共用此URL，讓員工可在Learning Manager中註冊。
 
-1. 在 **[!UICONTROL Administrator Home]** 頁面，按一下 **[!UICONTROL Users]** 於左側導覽窗格中。
-1. 按一下 **[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;自助註冊&#x200B;**.]**
+1. 在&#x200B;**[!UICONTROL Administrator Home]**&#x200B;頁面上，按一下左側導覽窗格中的&#x200B;**[!UICONTROL Users]**。
+1. 按一下&#x200B;**[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;自我註冊&#x200B;**。]**
 
    ![](assets/adding-users-throughself-registration-step2.png)
 
-1. 在 **[!UICONTROL Add User]** 快顯對話方塊，在 **[!UICONTROL Profile Name]** 欄位。
-1. 在 **[!UICONTROL Manager's Name]** 欄位，輸入員工經理的名稱。
-1. 您可以選擇使用 **[!UICONTROL Add Image]** 欄位。
-1. 按一下 **[!UICONTROL Save]**.
+1. 在&#x200B;**[!UICONTROL Add User]**&#x200B;彈出式對話方塊中，於&#x200B;**[!UICONTROL Profile Name]**&#x200B;欄位中指定員工名稱。
+1. 在&#x200B;**[!UICONTROL Manager's Name]**&#x200B;欄位中，輸入員工經理的名稱。
+1. 您可以選擇使用&#x200B;**[!UICONTROL Add Image]**&#x200B;欄位新增員工的設定檔圖片。
+1. 按一下&#x200B;**[!UICONTROL Save]**。
 
    ![](assets/adding-users-throughself-registration-step6.png)
 
@@ -151,28 +151,28 @@ ht-degree: 0%
 
 新增單一使用者是您將內部使用者新增至帳戶的第三個方法。 如果您想要新增一些使用者，此程式是理想選擇。 若要新增單一使用者：
 
-1. 在 **[!UICONTROL Administrator Home]** 頁面，按一下 **[!UICONTROL Users]** 於左側導覽窗格中。
-1. 按一下 **[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;單一使用者&#x200B;**.]**
+1. 在&#x200B;**[!UICONTROL Administrator Home]**&#x200B;頁面上，按一下左側導覽窗格中的&#x200B;**[!UICONTROL Users]**。
+1. 按一下&#x200B;**[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;單一使用者&#x200B;**。]**
 
 
 
 1. 在「新增使用者」彈出式對話方塊中，指定使用者的下列詳細資料：
 
-   * **[!UICONTROL Name]** **[!UICONTROL :]** 指定員工或內部使用者的名稱。 此欄位為必填。
+   * **[!UICONTROL Name]** **[!UICONTROL :]**&#x200B;指定員工或內部使用者的名稱。 此欄位為必填。
 
-   * **[!UICONTROL Email]** **[!UICONTROL :]** 指定員工的電子郵件識別碼。 此欄位為必填。
+   * **[!UICONTROL Email]** **[!UICONTROL :]**&#x200B;指定員工的電子郵件識別碼。 此欄位為必填。
 
-   * **[!UICONTROL Profile]** **[!UICONTROL :]** 指定員工的指定或職稱。
+   * **[!UICONTROL Profile]** **[!UICONTROL :]**&#x200B;指定員工的指定或職稱。
 
-   * **[!UICONTROL **&#x200B;經理姓名&#x200B;**：]** 指定Manager的名稱。 管理員應該已經新增到要在此指定的資料庫中。
-   * **[!UICONTROL ** DOJ **：]** 指定員工加入的日期。
+   * **[!UICONTROL **&#x200B;管理員名稱&#x200B;**：]**&#x200B;指定管理員的名稱。 管理員應該已經新增到要在此指定的資料庫中。
+   * **[!UICONTROL ** DOJ **：]**&#x200B;指定員工加入的日期。
    * **[!UICONTROL **位置**：]**指定員工的位置。 例如，如果您的組織位於數個地理位置，請指定員工所在的位置。
 
 
 
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
-1. 按一下 **[!UICONTROL Add]**.
+1. 按一下&#x200B;**[!UICONTROL Add]**。
 1. 系統會顯示使用者已成功新增的訊息。 使用者會以指定的電子郵件ID收到驗證連結。 使用者可以按一下此連結來啟動其帳戶，並開始存取Learning Manager。
 
    ![](assets/add-single-usersincaptivateprime-step5.png)
@@ -183,23 +183,23 @@ ht-degree: 0%
 
 Learning Manager中有兩種型別的使用者群組：自訂和自動產生。 當您將學習者新增至您的帳戶時，系統會根據您帳戶中使用者的角色和屬性自動建立某些預設群組。 這些群組是自動產生的。 例如，含有所有學習者或所有作者的群組。
 
-***您無法編輯自動產生群組的名稱和說明。***
+***您無法編輯自動產生的群組的名稱和描述。***
 
-若要在Learning Manager中檢視自動產生的使用者群組，請在左窗格中按一下 **[!UICONTROL Auto-generated]**. 應用程式會顯示您的帳戶可用的所有自動產生使用者群組清單。
+若要在Learning Manager中檢視自動產生的使用者群組，請在左窗格中按一下「**[!UICONTROL Auto-generated]**」。 應用程式會顯示您的帳戶可用的所有自動產生使用者群組清單。
 
 您也可以在Learning Manager中建立具有選定使用者清單的自訂群組。 自訂群組可讓您指定使用者群組的名稱、說明和屬性。 您在Learning Manager中建立的自訂群組本質上為動態群組。 也就是說，如果新使用者新增了類似的屬性，就會自動新增到這些使用者群組中。
 
 ## 建立自訂使用者群組 {#createcustomusergroups}
 
-1. 在Learning Manager管理員首頁中，按一下 **[!UICONTROL Users]**.
-1. 在「自訂使用者群組」頁面中，按一下**[!UICONTROL **新增**]**從頁面的右上角。
+1. 在Learning Manager管理員首頁按一下&#x200B;**[!UICONTROL Users]**。
+1. 在「自訂使用者群組」頁面中，按一下頁面右上角的**[!UICONTROL **新增**]**。
 
-   系統會顯示 **[!UICONTROL Add User Group]** 對話方塊。
+   系統顯示&#x200B;**[!UICONTROL Add User Group]**&#x200B;對話方塊。
 
    ![](assets/creating-custom-usergroups.png)
 
 1. 指定使用者群組的名稱和說明。 例如，開發使用者，其中包含產品開發團隊的使用者。
-1. 若要將使用者新增至自訂使用者群組，請在以下位置輸入使用者名稱或使用者設定檔： **[!UICONTROL **&#x200B;新增使用者&#x200B;**欄位。]**
-1. 若要新增更多使用者至自訂群組，請按一下 **[!UICONTROL **&#x200B;新增更多使用者&#x200B;**.]**
-1. 新增所有使用者後，按一下「 **[!UICONTROL Save]**儲存自訂使用者群組。
+1. 在&#x200B;**[!UICONTROL **&#x200B;新增使用者&#x200B;**欄位中輸入使用者名稱或使用者的設定檔，即可將使用者新增至自訂使用者群組。]**
+1. 若要新增更多使用者到自訂群組，請按一下[新增更多使用者] **[!UICONTROL ****。]**
+1. 新增所有使用者後，按一下**[!UICONTROL Save]**以儲存自訂使用者群組。
 

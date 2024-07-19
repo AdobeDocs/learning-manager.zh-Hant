@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 將技能與技能領域對應
 description: 若要自動組織使用者針對特定技能領域張貼的貼文（由啟用AI的組織引擎所提供），使用者的企業必須具備其自訂技能，才能對應至Learning Manager LMS中顯示的支援技能領域。
 contentowner: kuppan
-source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 0%
 
 ---
-
-
 
 # 將技能與技能領域對應
 
@@ -51,16 +50,16 @@ ht-degree: 0%
 
 若要新增技能領域，請遵循下列步驟：
 
-1. 在管理員應用程式的左窗格中，按一下 **[!UICONTROL Skills]**.
-1. 若要新增技能，請按一下 **[!UICONTROL Add]** ，位於頁面右上方。
-1. 在 **[!UICONTROL Add Skill]** 對話方塊，新增技能及技能說明。
-1. 在 **[!UICONTROL Skill Domain]** 區段，新增技能網域。 當您輸入網域時，網域會被新增。 這些網域會從上述清單中填入。
+1. 在管理員應用程式的左窗格中，按一下&#x200B;**[!UICONTROL Skills]**。
+1. 若要新增技能，請按一下頁面右上角的&#x200B;**[!UICONTROL Add]**。
+1. 在&#x200B;**[!UICONTROL Add Skill]**&#x200B;對話方塊中，新增技能及技能說明。
+1. 在&#x200B;**[!UICONTROL Skill Domain]**&#x200B;區段中，新增技能網域。 當您輸入網域時，網域會被新增。 這些網域會從上述清單中填入。
 
    ![](assets/skill-domain-mapping.png)
 
    *在技能領域區段中新增技能領域*
 
-1. 若要儲存變更，請按一下 **[!UICONTROL Save]**.
+1. 若要儲存變更，請按一下&#x200B;**[!UICONTROL Save]**。
 
 當使用者在展示板上發佈內容時，內容會根據對應技能對展示板的信賴度分數，獲得監管，並被核准或拒絕。
 
@@ -70,5 +69,4 @@ ht-degree: 0%
 
 ![](assets/curation-notification.png)
 
-*根據可信度分數檢視通知*
-
+*根據信賴度分數檢視通知*

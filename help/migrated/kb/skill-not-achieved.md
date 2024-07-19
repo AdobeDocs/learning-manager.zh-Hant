@@ -3,38 +3,37 @@ jcr-language: en_us
 title: 完成課程後無法習得技能
 description: 學習者即使完成課程仍無法習得技能。 已指派給該課程的技能對學習者保持為「進行中」。
 contentowner: nluke
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: d9c1e2a2-351d-4d6f-b2e6-f9e9278e6523
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-
-
 # 完成課程後無法習得技能
 
 ## 問題
 
-學習者即使完成課程仍無法習得技能。 指派給該課程的技能保持為 **進行中** 適用於學習者。
+學習者即使完成課程仍無法習得技能。 學習者指派給該課程的技能仍為&#x200B;**進行中**。
 
 ## 原因
 
-此問題發生於 **需要積分** 要達到此技能，您必須先完成 **已獲取的積分** 由學習者完成課程後決定。
+如果完成此技能所需的&#x200B;**積分**&#x200B;大於學習者完成課程後獲得的&#x200B;**積分**，就會發生此問題。
 
 ## 解決方案
 
-檢查目前的 **技能積分** 和 **點** 獲得技能所需的資訊。 請遵循下列步驟：
+檢查目前的&#x200B;**技能積分**&#x200B;和&#x200B;**點**&#x200B;取得技能所需的資訊。 請遵循下列步驟：
 
-1. 對學習者產生 **學習者成績單** 報告。
-1. 產生學習者成績單時，按一下 **[!UICONTROL Advanced Options]**，並核取選項 **[!UICONTROL Include Skills data and summary sheets]**.
+1. 針對學習者，產生&#x200B;**學習者成績單**&#x200B;報告。
+1. 產生學習者成績單時，按一下「**[!UICONTROL Advanced Options]**」並核取選項&#x200B;**[!UICONTROL Include Skills data and summary sheets]**。
 
    ![](assets/advanced-options.png)
 
-   *選取包含技能資料和摘要表選項*
+   *選取[包含技能資料與摘要表]選項*
 
 1. 開啟下載的學習者成績單報表。
-1. 導覽至 **[!UICONTROL Skills transcript]** 工作表。 在這裡，您可以檢視 **[!UICONTROL Credits Required]** 和 **[!UICONTROL Credits Earned]** 由學習者決定。
+1. 導覽至&#x200B;**[!UICONTROL Skills transcript]**&#x200B;工作表。 在這裡，您可以由學習者檢視&#x200B;**[!UICONTROL Credits Required]**&#x200B;和&#x200B;**[!UICONTROL Credits Earned]**。
 
    例如，在以下範例中，完成課程的技能所需的學分為50。 但學習者僅獲得一個學分。
 
@@ -42,13 +41,13 @@ ht-degree: 0%
 
    *檢視必要的積分*
 
-1. 若要檢查指派給特定技能的學分，請以管理員身分登入，然後導覽至 **技能** 標籤，如下所示：
+1. 若要檢查指派給特定技能的學分，請以管理員身分登入，並導覽至&#x200B;**技能**&#x200B;標籤，如下所示：
 
    ![](assets/skill.png)
 
-   *啟動「技能」標籤*
+   *啟動技能標籤*
 
-1. 若要檢查指派給課程的學分數，請以作者身分登入，然後開啟課程。 按一下 **[!UICONTROL Settings]** > **課程技能** 如下所示：
+1. 若要檢查指派給課程的學分數，請以作者身分登入，然後開啟課程。 按一下&#x200B;**[!UICONTROL Settings]** > **課程技能**，如下所示：
 
    ![](assets/course-skills.png)
 

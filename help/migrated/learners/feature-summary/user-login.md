@@ -3,22 +3,21 @@ description: 以學習者身分登入Learning Manager。
 jcr-language: en_us
 title: 登入
 contentowner: manochan
-source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
+exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%
 
 ---
 
-
-
 # 登入
 
 以學習者身分登入Learning Manager。
 
-第一次使用Adobe學習管理員時，您需要依照下列步驟建立帳戶：
+第一次使用Adobe Learning Manager時，您需要依照下列步驟建立帳戶：
 
-1. 使用管理員寄送歡迎電子郵件時收到的安全連結啟動AdobeLearning Manager 。
+1. 使用您透過歡迎電子郵件從管理員那裡收到的安全連結來啟動Adobe Learning Manager。
 
    登入畫面隨即顯示。
 

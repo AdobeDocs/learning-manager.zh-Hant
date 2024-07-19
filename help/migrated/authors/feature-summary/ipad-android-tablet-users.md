@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # iPad與Android平板電腦使用者
 
-在iPad或Android平板電腦上的Learning Manager應用程式中，以學習者身分登入後，您會看到下列首頁：
+在iPad或Android Tablet上的Learning Manager應用程式中，以學習者身分登入後，您會看到下列首頁：
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-若要導覽至學習和目錄功能，請點選 **選單** 下拉式清單，然後選擇適當的選項。
+若要導覽至學習和目錄功能，請點選&#x200B;**功能表**&#x200B;下拉式清單，然後選擇適當的選項。
 
 ![](assets/menu-ipad.png)
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 您可以定期監視裝置儲存空間。
 
-點選應用程式右上角的設定檔圖示，然後點選 **裝置儲存** 功能表選項。
+點選應用程式右上角的設定檔圖示，然後點選「**裝置儲存空間**」功能表選項。
 
 ![](assets/app-device-storage.png)
 

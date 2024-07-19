@@ -18,20 +18,20 @@ ht-degree: 0%
 
 若要設定SSO驗證，請執行下列步驟：
 
-1. 開啟 **[!UICONTROL Settings]** > **[!UICONTROL Login Methods.]**
+1. 開啟&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Login Methods.]**
 
    ![](assets/login-methods.png)
 
-1. 選擇 **[!UICONTROL Internal Users]** 或 **[!UICONTROL External Users]** 視您的需求而定。
-1. 按一下旁邊的下拉式清單  **[!UICONTROL login]** 選項並選取 **[!UICONTROL Single Sign-On]**.
+1. 根據您的需求，選擇&#x200B;**[!UICONTROL Internal Users]**&#x200B;或&#x200B;**[!UICONTROL External Users]**。
+1. 按一下&#x200B;**[!UICONTROL login]**&#x200B;選項旁的下拉式清單，然後選取&#x200B;**[!UICONTROL Single Sign-On]**。
 
    ![](assets/single-sign-on.png)
 
-1. 若要調整單一登入(SSO)設定，請按一下  **[!UICONTROL Change.]**
+1. 若要調整單一登入(SSO)設定，請按一下&#x200B;**[!UICONTROL Change.]**
 
    ![](assets/change.png)
 
-1. 輸入  **[!UICONTROL IDP-initiated Authentication URL]** 由您的服務提供者提供，並透過按一下 **[!UICONTROL IDP Metadata XML File.]**
+1. 輸入服務提供者提供的&#x200B;**[!UICONTROL IDP-initiated Authentication URL]**，並按一下&#x200B;**[!UICONTROL IDP Metadata XML File.]**&#x200B;上傳您的XML檔案
 
    ![](assets/sso-configuration.png)
 

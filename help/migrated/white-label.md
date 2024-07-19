@@ -67,7 +67,7 @@ Adobe Learning Manager行動應用程式現在支援貼上白色標籤，這表�
 
    <td>
 
-    <p>您可視需要新增多個帳戶（子網域）。 將子網域新增為逗號分隔（不含空格）。 例如，acc01、acc02、acc03等。<br> <b>注意：</b> 指定子網域時，需要新增帳戶ID。</br> </p>
+    <p>您可視需要新增多個帳戶（子網域）。 將子網域新增為逗號分隔（不含空格）。 例如，acc01、acc02、acc03等。<br> <b>注意：</b>指定子網域時，您必須新增帳戶識別碼。</br> </p>
 
    </td>
 
@@ -287,11 +287,11 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 
 請遵循下列程式：
 
-1. 產生或下載 **推播通知憑證** 和私密金鑰(.p12)。 如需詳細資訊，請參閱 [Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. 產生或下載&#x200B;**推播通知憑證**&#x200B;和私密金鑰(.p12)。 如需詳細資訊，請參閱[Apple開發人員檔案](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns)。
 
-1. 在下載檔案之後安裝p12檔案。 使用密碼安裝在您的 **鑰匙圈存取**.
+1. 在下載檔案之後安裝p12檔案。 使用密碼以安裝在您的&#x200B;**鑰匙圈存取**&#x200B;中。
 
-1. 瀏覽至 **我的憑證** 並匯出憑證。 請務必選取mime型別.cer。
+1. 瀏覽至&#x200B;**我的憑證**&#x200B;並匯出憑證。 請務必選取mime型別.cer。
 
 1. 在擁有p12檔案和cer檔案之後，請執行以下命令：
 
@@ -307,25 +307,25 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 
 ### Android上的推播通知
 
-若是Android，使用者需要從Firebase專案提供services.json檔案，以便在SNS服務中新增專案。
+對於Android，使用者需要從Firebase專案提供services.json檔案，以便在SNS服務中新增專案。
 
-在Firebase中建立專案，並將services.json檔案共用給CSM團隊。 SNS中權杖型專案需要此檔案。 請注意，伺服器金鑰已不再使用。 另請參閱 [在Firebase中建立專案](#create-project-in-firebase).
+在Firebase中建立專案，並將services.json檔案共用給CSM團隊。 SNS中權杖型專案需要此檔案。 請注意，伺服器金鑰已不再使用。 請參閱[在Firebase](#create-project-in-firebase)中建立專案。
 
 若要下載services.json檔案，請遵循下列步驟：
 
-1. 登入 **Firebase** 主控台。
-1. 前往 **專案設定** 並選取 **雲端訊息**.
-1. 尋找 **Firebase雲端通訊API** 並選取 **管理服務帳戶**.
-1. 在 **服務帳戶** 頁面，選取 **服務帳戶** 在左側面板中。
-1. 尋找您的專案專案，然後選取 **管理詳細資料** 在「動作」底下。
+1. 登入&#x200B;**Firebase**&#x200B;主控台。
+1. 移至&#x200B;**專案設定**&#x200B;並選取&#x200B;**雲端訊息**。
+1. 尋找&#x200B;**Firebase Cloud Messaging API**&#x200B;並選取&#x200B;**管理服務帳戶**。
+1. 在&#x200B;**服務帳戶**&#x200B;頁面中，選取左側面板中的&#x200B;**服務帳戶**。
+1. 尋找您的專案專案，然後選取[動作]下的[管理詳細資料] ****。
 
    >[!NOTE]
    >
    >   專案專案格式將為&lt;-accountname->@appspot.gserviceaccount.com。
 
-1. 前往 **金鑰** 標籤並選取 **新增金鑰**.
-1. 如果沒有索引鍵，請選取 **建立新金鑰** 並選取 **JSON** 作為索引鍵型別。 如此將可產生並下載JSON檔案。
-1. 如果已經有索引鍵，請選取 **上傳現有金鑰**，貼上金鑰並上傳。 如此將可產生並下載JSON檔案。
+1. 移至&#x200B;**金鑰**&#x200B;索引標籤並選取&#x200B;**新增金鑰**。
+1. 如果沒有金鑰，請選取&#x200B;**建立新金鑰**&#x200B;並選取&#x200B;**JSON**&#x200B;作為金鑰型別。 如此將可產生並下載JSON檔案。
+1. 如果已經有金鑰，請選取&#x200B;**上傳現有的金鑰**，貼上金鑰並上傳。 如此將可產生並下載JSON檔案。
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
@@ -337,11 +337,11 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 
 針對推播通知，重複使用您在上述步驟中建立的相同專案。
 
-[新增專案](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) 在Firebase中擷取 ***google-services.json*** 檔案。
+[在Firebase中新增專案](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging)，並擷取&#x200B;***google-services.json***&#x200B;檔案。
 
 ### iOS
 
-[新增專案](https://firebase.google.com/docs/ios/setup) 到Firebase並擷取 ***GoogleService-Info.plist*** 檔案。
+[將專案](https://firebase.google.com/docs/ios/setup)新增至Firebase並擷取&#x200B;***GoogleService-Info.plist***&#x200B;檔案。
 
 >[!IMPORTANT]
 >
@@ -371,7 +371,7 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 >[!NOTE]
 >
->您需要有Android sdk建置工具，才能建置已簽署的二進位檔。
+>您需要Android sdk建置工具，才能建置已簽署的二進位檔。
 
 **下一步**
 
@@ -379,7 +379,7 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 ## 如何套用變更
 
-將所需的資產和檔案傳送到CSM團隊。 然後CSM團隊會填寫 [表單](https://forms.office.com/r/bJRRaRBvSh) 進行必要的變更，然後附加必要的資產。 然後團隊將稽核並通知工程團隊相關變更。 工程團隊將隨即產生組建並與CSM團隊共用。
+將所需的資產和檔案傳送到CSM團隊。 然後CSM團隊會以必要的變更填入[表單](https://forms.office.com/r/bJRRaRBvSh)並附加必要的資產。 然後團隊將稽核並通知工程團隊相關變更。 工程團隊將隨即產生組建並與CSM團隊共用。
 
 CSM團隊將與客戶共用組建。
 

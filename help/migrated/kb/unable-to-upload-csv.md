@@ -3,20 +3,19 @@ description: 上傳CSV時出現錯誤。 請閱讀下文，解決問題。
 jcr-language: en_us
 title: 無法上傳CSV
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 10458499-1038-4c62-971f-f950d383e970
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 0%
 
 ---
 
-
-
 # 無法上傳CSV
 
 ## 錯誤：資料截斷：資料太長而無法放入欄
 
-嘗試在Adobe Learning Manager中上傳CSV時，您會看到以下錯誤訊息。
+嘗試在Adobe Learning Manager中上傳CSV時，您會看到下列錯誤訊息。
 
 ![](assets/csv-upload-failed.png)
 
@@ -38,7 +37,7 @@ ht-degree: 0%
 
 ![](assets/csv-2.png)
 
-*名稱欄中的特殊字元*
+名稱資料行&#x200B;*中的*&#x200B;特殊字元
 
 ## 原因
 
@@ -46,12 +45,12 @@ ht-degree: 0%
 
 ## 解決方法
 
-* **答：** 透過Excel儲存：
+* **A：**&#x200B;透過Excel儲存：
 
    1. 在Excel中開啟CSV。
    1. 將檔案另存為一般的CSV檔案。
 
-* **B：** 透過記事本或記事本++儲存：
+* **B：**&#x200B;透過記事本或記事本儲存++：
 
    * 在「記事本」或「記事本++」中開啟CSV。
    * 以UTF-8格式儲存檔案。
@@ -62,7 +61,7 @@ ht-degree: 0%
 
 ![](assets/csv-3.png)
 
-*適用於重複使用者的Error訊息*
+重複資料集使用者的&#x200B;*錯誤訊息*
 
 ## 原因
 
@@ -76,7 +75,7 @@ ht-degree: 0%
 
 在此案例中，此錯誤有兩個原因：
 
-1. 您嘗試新增的使用者是外部設定檔的管理員。 若要解決此問題，請開啟使用者所屬的外部設定檔，選取使用者，然後按一下 **[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **[!UICONTROL Manager]**，並變更設定檔的管理員。
+1. 您嘗試新增的使用者是外部設定檔的管理員。 若要解決此問題，請開啟使用者所屬的外部設定檔、選取使用者、按一下「**[!UICONTROL Actions]** > **[!UICONTROL Assign Role]** > **[!UICONTROL Manager]**」，然後變更設定檔的管理員。
 1. 您嘗試新增的使用者已清除。 在此案例中，在清除程式完成之前，您將無法新增具有相同電子郵件地址的使用者。 解決方法是**新增具有次要電子郵件地址的使用者，以提供對平台的存取**。 整個清除程式完成後，請編輯使用者，並將電子郵件地址變更為正確的電子郵件地址。
 
 ### 案例2
@@ -85,11 +84,10 @@ ht-degree: 0%
 
 針對啟用UUID的帳戶，如果指派給使用者的UUID已由帳戶中的其他使用者使用，或使用者具有不同的電子郵件地址，則會發生此問題。
 
-例如，假設有兩個使用者A和B，其電子郵件地址為  <a@xyz.com> 和 <b@xyz.com> UUID 1及2的識別碼。
+例如，假設有兩個使用者A和B，其電子郵件地址分別為<a@xyz.com>和<b@xyz.com>，UUID分別為1和2。
 
 現在，如果您上傳使用者A的UUID為3，而使用者B的UUID為2的CSV，則會顯示錯誤。
 
 >[!TIP]
 >
->若要解決此問題， **CSV和系統中的使用者必須具有相同的電子郵件地址和UUID。**
-
+>若要解決此問題，**您必須在CSV和系統上擁有該使用者的相同電子郵件地址和UUID。**

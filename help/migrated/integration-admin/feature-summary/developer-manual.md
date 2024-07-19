@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## 概觀 {#overview}
 
-[AdobeLearning Manager](http://www.adobe.com/in/products/learningmanager.html) 是雲端託管、以學習者為中心的自助學習管理解決方案。 客戶可以使用Learning Manager API以程式設計方式存取Learning Manager資源，以便將其與其他企業應用程式整合。 Adobe合作夥伴也可以使用此API來增強Learning Manager的價值主張，方法是擴充其功能或將其與其他應用程式或服務整合。
+[Adobe Learning Manager](http://www.adobe.com/in/products/learningmanager.html)是雲端託管、以學習者為中心的自助式學習管理解決方案。 客戶可以使用Learning Manager API以程式設計方式存取Learning Manager資源，以便將其與其他企業應用程式整合。 Adobe合作夥伴也可以使用此API來增強Learning Manager的價值主張，方法是擴充其功能或將其與其他應用程式或服務整合。
 
 ### 使用案例 {#usagescenario}
 
@@ -30,11 +30,11 @@ ht-degree: 0%
 
 Learning Manager API以REST原則為基礎，並透過HTTP向應用程式開發人員公開Learning Manager物件模型的關鍵元素。 在瞭解API端點和HTTP方法的詳細資訊之前，開發人員可以熟悉各種Learning Manager物件、其屬性和相互關係。 瞭解模型後，大致瞭解API要求和回應的結構，以及在API中普遍使用的幾個常用程式設計術語會很有用。
 
-如需各種API端點與方法的詳細資訊，請參閱  [Learning Manager API檔案](https://learningmanager.adobe.com/docs/primeapi/v2/).
+如需各種API端點和方法的詳細資訊，請參閱[Learning Manager API檔案](https://learningmanager.adobe.com/docs/primeapi/v2/)。
 
 ## 學習者API
 
-Adobe學習管理員 — 學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。
+Adobe Learning Manager — 學習者API可讓您為使用者建立自訂學習體驗。 這些API的使用需要有效的使用者權杖，且僅能用於具有完全授權/註冊學習者的工作流程中。
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ Adobe學習管理員 — 學習者API可讓您為使用者建立自訂學習體�
 
 非登入使用案例需要特殊處理。
 
-**若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確保解決方案架構師已在您部署解決方案前先行審查解決方案**.
+**若您對這些API的適當使用有任何疑問，請洽詢解決方案架構團隊，並確定解決方案架構師已在您部署解決方案之前對其進行稽核**。
 
 ## API驗證 {#apiauthentication}
 
@@ -60,9 +60,9 @@ Learning Manager API使用OAuth 2.0架構來驗證及授權您的使用者端應
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE.
 ```
 
-成功驗證後，瀏覽器會重新導向至上述URL中提及的redirect_uri。 引數 **程式碼** 會與重新導向uri一起附加。
+成功驗證後，瀏覽器會重新導向至上述URL中提及的redirect_uri。 引數&#x200B;**代碼**&#x200B;會與重新導向URI一起附加。
 
-**2. 從程式碼取得重新整理Token**
+**2。 從程式碼**&#x200B;取得重新整理權杖
 
 `POST https://learningmanager.adobe.com/oauth/token Content-Type: application/x-www-form-urlencoded`
 
@@ -81,11 +81,11 @@ client_id:
 </enter>
 ```
 
-**3.** **從重新整理權杖取得存取權杖**
+**3。** **從重新整理權杖取得存取權杖**
 
 取得存取權杖的URL：
 
-POST [https://learningmanager.adobe.com/oauth/token/refresh](https://learningmanager.adobe.com/oauth/token/refresh) Content-Type： application/x-www-form-urlencoded
+POST[https://learningmanager.adobe.com/oauth/token/refresh](https://learningmanager.adobe.com/oauth/token/refresh)內容型別： application/x-www-form-urlencoded
 
 post要求內文：
 
@@ -104,7 +104,7 @@ client_id:
 </enter>
 ```
 
-**用於驗證存取權杖詳細資料的URL**
+**驗證存取權杖詳細資料的URL**
 
 `GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_token>`
 
@@ -116,23 +116,23 @@ client_id:
 
 **包含**
 
-開發人員可以存取單一API物件模型，也可以存取與該模型關聯的多個模型。 若要存取後續的相關模型，您需要瞭解每個模型與其他模型的關係。 **包含** 引數可讓開發人員存取相依模型。 您可以使用逗號分隔符號來存取多個模型。 有關範例使用方式和更多詳細資訊，請參閱 **包含**，請參閱本頁面的範例API模型區段。
+開發人員可以存取單一API物件模型，也可以存取與該模型關聯的多個模型。 若要存取後續的相關模型，您需要瞭解每個模型與其他模型的關係。 **Include**&#x200B;引數可讓開發人員存取相依模型。 您可以使用逗號分隔符號來存取多個模型。 如需&#x200B;**包含**&#x200B;的範例使用方式與詳細資訊，請參閱此頁面的範例API模型區段。
 
 **API要求**
 
-API要求可透過發出HTTP要求來進行。 根據端點和方法，開發人員可以選擇各種HTTP動詞，例如GET、PUT、POST、DELETE、PATCH等。 對於某些請求，可傳遞查詢引數。 請求特定資料模型時，使用者也可請求相關模型，如JSON API規格所述。 典型API要求的結構說明於 [範例模型使用](#main-pars_header_1415780624).
+API要求可透過發出HTTP要求來進行。 根據端點和方法，開發人員可以選擇各種HTTP動詞，例如GET、PUT、POST、DELETE、PATCH等。 對於某些請求，可傳遞查詢引數。 請求特定資料模型時，使用者也可請求相關模型，如JSON API規格所述。 典型API要求的結構在[範例模型用法](#main-pars_header_1415780624)中說明。
 
 **API回應**
 
-當使用者端提出API請求時，會根據JSON API規格取得SON檔案。 回應也包含HTTP狀態代碼，開發人員可驗證此代碼，以便在其應用程式邏輯中執行適當的後續步驟。 典型API回應的結構說明於  [範例模型使用](#main-pars_header_1415780624).
+當使用者端提出API請求時，會根據JSON API規格取得SON檔案。 回應也包含HTTP狀態代碼，開發人員可驗證此代碼，以便在其應用程式邏輯中執行適當的後續步驟。 典型API回應的結構在[範例模型用法](#main-pars_header_1415780624)中說明。
 
-**錯誤**
+**個錯誤**
 
 當API要求失敗時，會取得錯誤回應。 回應中傳回的HTTP狀態代碼表示錯誤的性質。 在API參考中，每個模式的錯誤代碼都會以數字表示。 200、204、400和404是API中表示的一些常見錯誤，指出HTTP存取問題。
 
 **欄位**
 
-API物件的屬性及其關系統稱為「欄位」。 請參閱 [JSON API以取得詳細資訊。](http://jsonapi.org/format/#document-resource-object-fields) 進行API呼叫時，您可以使用欄位做為引數，以從模型中擷取一或多個特定屬性。 在沒有Fields引數的情況下，API呼叫會從模型中擷取所有可用的屬性。 例如，在以下API呼叫中，欄位[技能]=name會單獨擷取您技能模型的名稱屬性。
+API物件的屬性及其關系統稱為「欄位」。 如需詳細資訊，請參閱[JSON API。](http://jsonapi.org/format/#document-resource-object-fields)您可在進行API呼叫以從模型中擷取一或多個特定屬性時，使用Fields作為引數。 在沒有Fields引數的情況下，API呼叫會從模型中擷取所有可用的屬性。 例如，在下列API呼叫中，欄位[skill]=name會單獨擷取技能模型的name屬性。
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
@@ -142,7 +142,7 @@ https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?inc
 
 **排序**
 
-API模型允許排序。 根據模型，選擇要套用至結果的排序型別。 排序可以遞增或遞減順序套用。 例如，如果您指定 `code sort=name`，接著會依名稱遞增排序。 如果您指定 `code sort=-name`，會依名稱遞減排序。 請參閱 [JSON API規格，以取得詳細資訊](http://jsonapi.org/format/#fetching-sorting).
+API模型允許排序。 根據模型，選擇要套用至結果的排序型別。 排序可以遞增或遞減順序套用。 例如，如果您指定`code sort=name`，則會依名稱遞增排序。 如果您指定`code sort=-name`，則會依名稱降序排序。 如需詳細資訊，請參閱[JSON API規格](http://jsonapi.org/format/#fetching-sorting)。
 
 ## API使用圖例 {#samplemodel}
 
@@ -150,7 +150,7 @@ API模型允許排序。 根據模型，選擇要套用至結果的排序型別�
 
 Learning Manager API中的userSkill模型包含id、型別、dateAchieved、dateCreated、pointsEarned等預設屬性。 因此，當開發人員使用GET方法取得userSkill模型的詳細資訊時，與預設屬性相關的目前資料會顯示在回應輸出中。
 
-但是，在此案例中，開發人員想要取得使用者的技能名稱和技能層級。 Learning Manager API可讓您使用關係欄位和包含引數來存取此相關資訊。 userSkill的相關模型可在關係標籤中取得。 您可以隨userSkill一起呼叫這些模型，以取得每個相關模型的詳細資訊。 若要取得此資訊，請使用 **`code include`** 以點（句點）分隔值代表每個關聯模型的引數。 您可以使用逗號作為分隔符號來請求另一個模型，例如user include=skillLevel.skill，course
+但是，在此案例中，開發人員想要取得使用者的技能名稱和技能層級。 Learning Manager API可讓您使用關係欄位和包含引數來存取此相關資訊。 userSkill的相關模型可在關係標籤中取得。 您可以隨userSkill一起呼叫這些模型，以取得每個相關模型的詳細資訊。 若要取得此資訊，請為每個關聯的模型使用具有點（句點）分隔值的&#x200B;**`code include`**&#x200B;引數。 您可以使用逗號作為分隔符號來請求另一個模型，例如user include=skillLevel.skill，course
 
 **API呼叫**
 
@@ -406,11 +406,11 @@ Learning Manager API可讓開發人員以RESTful資源的形式存取Learning Ma
   </tr>
   <tr>
    <td>resource</td>
-   <td>這可用來模型化模組要封裝的每個內容資源。 所有資源都封裝在中 <code>
+   <td>這可用來模型化模組要封裝的每個內容資源。 所有封裝在<code>
      an
     </code> <code>
      loResource
-    </code> 在學習目標方面是相等的，但在傳遞型別或內容地區設定方面則各有不同。<br></td>
+    </code>中的資源在學習目標方面是同等的，但在傳遞型別或內容地區設定方面則各有不同。<br></td>
   </tr>
   <tr>
    <td>userNotification</td>
@@ -422,11 +422,11 @@ Learning Manager API可讓開發人員以RESTful資源的形式存取Learning Ma
   </tr>
   <tr>
    <td>userBadge</td>
-   <td>UserBadge與單一徽章相關 <code>
+   <td>UserBadge將單一徽章<code>
      with
-    </code> 單一使用者。 它包含細節，例如何時達成， <code>
+    </code>與單一使用者建立關聯。 它包含詳細資料，例如何時達成、<code>
      assertionUrl
-    </code> 等等。 <br></td>
+    </code>等。 <br></td>
   </tr>
   <tr>
    <td>技能</td>
@@ -438,9 +438,9 @@ Learning Manager API可讓開發人員以RESTful資源的形式存取Learning Ma
   </tr>
   <tr>
    <td>學習物件</td>
-   <td>學習物件是使用者可註冊和學習的各種物件的抽象概念。 目前Learning Manager有四種型別的學習物件 — 課程、認證、學習計畫 <code>
+   <td>學習物件是使用者可註冊和學習的各種物件的抽象概念。 目前Learning Manager有四種型別的學習物件 — 課程、認證、學習計畫<code>
      and
-    </code> 工作輔助。<br></td>
+    </code>工作輔助。<br></td>
   </tr>
   <tr>
    <td>learningObjectInstance<br></td>
@@ -448,25 +448,25 @@ Learning Manager API可讓開發人員以RESTful資源的形式存取Learning Ma
   </tr>
   <tr>
    <td>learningObjectResource</td>
-   <td>這等同於 <code>
+   <td>這等同於<code>
      module
-    </code>. 課程由一節組成 <code>
+    </code>的概念。 課程由一個<code>
      of
-    </code> 更多模組。 在Learning Manager中，模組可以多種相同的方式提供。 因此， <code>
+    </code>以上的模組組成。 在Learning Manager中，模組可以多種相同的方式提供。 因此，<code>
      loResource
-    </code> 基本上會封裝所有這些對等資源。<br></td>
+    </code>基本上會封裝所有這些對等資源。<br></td>
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
-   <td>這會封裝使用者在其註冊的學習物件內容中使用特定資源的結果。 其中包含諸如逗留時間之類的資訊。 <code>
+   <td>這會封裝使用者在其註冊的學習物件內容中使用特定資源的結果。 它有資訊，例如<code>
      user
-    </code> 在資源中，使用者進度百分比、通過/失敗狀態以及使用者在任何相關測驗中的分數。<br></td>
+    </code>在資源中花費的持續時間、使用者進行的進度百分比、通過/失敗狀態以及使用者在任何相關測驗中取得的分數。<br></td>
   </tr>
   <tr>
    <td>行事曆<br></td>
-   <td>行事曆物件是 <code>
+   <td>行事曆物件是使用者可註冊的<code>
      upcoming classroom
-    </code> 或使用者可報名的虛擬教室課程。<br></td>
+    </code>或虛擬教室課程清單。<br></td>
   </tr>
   <tr>
    <td>l1FeedbackInfo<br></td>
@@ -825,13 +825,13 @@ user(user)
 
 ## 建立使用者端ID和密碼 {#createclientidandsecret}
 
-1. 在 **整合管理員** 登入，按一下 **[!UICONTROL Applications]** 在左窗格中。
+1. 在&#x200B;**整合管理員**&#x200B;登入中，按一下左窗格上的&#x200B;**[!UICONTROL Applications]**。
 
    ![](assets/application-development-menu.png)
 
-   *在整合管理上選取應用程式*
+   *在整合管理員上選取應用程式*
 
-1. 按一下 **[!UICONTROL Register]** 頁面右上角註冊您的應用程式詳細資訊。 註冊頁面就會顯示。
+1. 按一下頁面右上角的&#x200B;**[!UICONTROL Register]**&#x200B;以註冊您的應用程式詳細資料。 註冊頁面就會顯示。
 
    ![](assets/register-application.png)
 
@@ -841,21 +841,21 @@ user(user)
 
    **應用程式名稱**：輸入您的應用程式名稱。 不強制使用相同的應用程式名稱，可以是任何有效的名稱。
 
-   **URL**：如果您知道託管應用程式的確切URL，您可以提及它。 如果您不知道，則可以提及您的公司URL。 此欄位中必須輸入有效的URL名稱。
+   **URL**：如果您知道裝載應用程式的確切URL，可以提及它。 如果您不知道，則可以提及您的公司URL。 此欄位中必須輸入有效的URL名稱。
 
-   **重新導向網域**：輸入您希望Learning Manager應用程式在OAuth驗證後重新導向的應用程式網域名稱。 您可以在這裡提及多個URL，但您必須使用有效的URL，例如 `http://google.com`， `http://yahoo.com` 等等。
+   **重新導向網域**：輸入您希望Learning Manager應用程式在OAuth驗證後重新導向的應用程式網域名稱。 您可以在此提及多個URL，但必須使用有效的URL，例如`http://google.com`、`http://yahoo.com`等。
 
-   **說明：** 輸入應用程式的簡短說明。
+   **描述：**&#x200B;為您的應用程式輸入簡短描述。
 
-   **範圍：** 從四個可用選項中選擇一個來定義應用程式的範圍。 根據您在此處提及的選擇，您的應用程式可存取Learning Manager API端點。 例如，如果您選擇 **學習者角色讀取存取權**，則應用程式能以唯讀方式存取所有Learning Manager學習者API端點。
+   **範圍：**&#x200B;請選擇四個可用選項之一，以定義應用程式的範圍。 根據您在此處提及的選擇，您的應用程式可存取Learning Manager API端點。 例如，如果您選擇&#x200B;**學習者角色讀取存取權**，則應用程式可唯讀存取所有Learning Manager學習者API端點。
 
    **僅針對此帳戶？**\
-   **是**  — 如果選擇[是]，則其他帳戶管理員不會看見該應用程式。\
-   **否**  — 如果選擇[否]，其他帳戶管理員也可以存取此應用程式，但他們需要使用應用程式ID來存取此應用程式。 應用程式ID會產生，並以Learning Manager應用程式編輯模式顯示。
+   **是** — 如果您選擇[是]，則其他帳戶管理員看不到該應用程式。\
+   **否** — 如果您選擇[否]，其他帳戶管理員也可以存取此應用程式，但他們需要使用應用程式ID來存取此應用程式。 應用程式ID會產生，並以Learning Manager應用程式編輯模式顯示。
 
-   如果您選擇 **管理員角色讀取和寫入許可權** 註冊應用程式時作為範圍，並選擇 **管理員角色讀取許可權** 撰寫API時，您仍然可以擁有應用程式的寫入許可權，因為應用程式註冊範圍會取代授權工作流程。
+   如果您在註冊應用程式時選擇&#x200B;**管理員角色讀取和寫入存取權**&#x200B;作為範圍，並在編寫API時選擇&#x200B;**管理員角色讀取存取權**，則您仍然可以擁有應用程式的寫入存取權，因為應用程式註冊範圍會取代授權工作流程。
 
-1. 按一下 **[!UICONTROL Register]** 在註冊頁面填寫詳細資料後，於右上角顯示。
+1. 填寫註冊頁面的詳細資料後，按一下右上角的&#x200B;**[!UICONTROL Register]**。
 
 ## 應用程式開發與測試 {#applicationdevelopmentandtesting}
 
@@ -867,11 +867,11 @@ user(user)
 
 ## 外部應用程式核准 {#externalapplicationapproval}
 
-您可以按一下「 」，新增外部應用程式 **核准** 位於的右上角 **應用** 頁面。 提供外部應用程式ID，然後按一下 **儲存。**
+您可以在&#x200B;**應用程式**&#x200B;頁面的右上角按一下&#x200B;**核准**，以新增外部應用程式。 提供外部應用程式ID，然後按一下&#x200B;**儲存。**
 
 ![](assets/add-external-application.png)
 
-*新增及核准外部應用程式*
+*新增並核准外部應用程式*
 
 ## 常見問題
 

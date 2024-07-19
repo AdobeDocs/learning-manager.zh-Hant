@@ -3,14 +3,13 @@ jcr-language: en_us
 title: 作者的常見問題集
 description: Adobe Learning Manager作者的常見問題集
 contentowner: admin
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1650'
 ht-degree: 0%
 
 ---
-
-
 
 # 作者的常見問題集
 
@@ -28,32 +27,32 @@ ht-degree: 0%
 
 典型的課程生命週期如下所示：
 
-**草稿**  — 當作者完成課程建立並儲存時。 在此狀態下，課程尚無法供學習者使用。
+**草稿** — 作者完成建立課程並儲存時。 在此狀態下，課程尚無法供學習者使用。
 
-**已發佈**  — 作者完成發佈課程時。 在此狀態，此課程可供學習者註冊。
+**已發佈** — 作者完成發佈課程時。 在此狀態，此課程可供學習者註冊。
 
-**已淘汰**  — 發佈課程後，如果您不希望課程出現在學習者的課程目錄中，可將其移至已淘汰狀態。
+**已淘汰** — 發佈課程後，如果您不希望課程出現在學習者的課程目錄中，可以將其移至淘汰狀態。
 
-**已刪除**  — 處於已刪除狀態的課程是從AdobeLearning Manager應用程式中完全移除時。 作者只有在處於草稿或淘汰狀態時，才能刪除課程。
+**已刪除** — 處於已刪除狀態的課程是從Adobe Learning Manager應用程式中完全移除的課程。 作者只有在處於草稿或淘汰狀態時，才能刪除課程。
 
 +++
 
 +++如何將Captivate專案發佈至Learning Manager？
 
-您可以將已完成的Captivate9專案作為模組發佈至AdobeLearning Manager。 在開啟的Captivate9專案中，使用 **發佈** > **發佈至Adobe Learning Manager** 並依照指示發佈模組。
+您可以將已完成的Captivate9專案作為模組發佈到Adobe Learning Manager。 在開啟的Captivate9專案中，使用&#x200B;**Publish** > **Publish至Adobe Learning Manager**，然後依照指示發佈模組。
 
-請參閱  [Adobe Learning Manager：從Adobe Captivate 9發佈模組](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)視訊以取得詳細資訊。
+如需詳細資訊，請參閱[Adobe Learning Manager：Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)影片中的Publish模組。
 
-您也可以參考Adobe Captivate 9  [說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 以取得詳細程式。
+如需詳細程式，您也可以參閱Adobe Captivate 9 [說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)。
 
 注意\
-ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 是Learning Manager說明應用程式的外部元件。
+Adobe Captivate 9 [說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html)是Learning Manager說明應用程式的外部內容。
 
 +++
 
 +++如何在Learning Manager中選擇課程模組？
 
-按一下  [此處](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html) 以瞭解如何選擇課程模組。
+按一下[這裡](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html)瞭解如何選擇課程模組。
 
 +++
 
@@ -61,11 +60,11 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 
 建立課程時，您可以選擇「註冊」型別為自行註冊、經理提名或經理核准的課程：
 
-**指派的經理** 這些課程只能由經理指派。 學習者無法註冊這些型別的課程。
+**經理提名**&#x200B;這些課程只能由經理提名。 學習者無法註冊這些型別的課程。
 
-**需要經理核准** 這些課程應由經理核准。 學習者可以註冊這些課程，但若未經經理核准，他們不會直接註冊這些型別的課程。 學習者註冊這些型別的課程時，會向經理傳送通知請求。 經理核准後，這些課程將列為學習者的已註冊課程。
+**需要經理核准**&#x200B;這些課程應該由經理核准。 學習者可以註冊這些課程，但若未經經理核准，他們不會直接註冊這些型別的課程。 學習者註冊這些型別的課程時，會向經理傳送通知請求。 經理核准後，這些課程將列為學習者的已註冊課程。
 
-**自助註冊** 學習者可直接註冊這些型別的課程。
+**自助註冊**&#x200B;學習者可直接註冊這些型別的課程。
 
 +++
 
@@ -91,13 +90,13 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 
 典型的課程生命週期如下所示：
 
-**草稿**  — 當作者完成課程建立並儲存時。 在此狀態下，課程尚無法供學習者使用。
+**草稿** — 作者完成建立課程並儲存時。 在此狀態下，課程尚無法供學習者使用。
 
-**已發佈**  — 作者完成發佈課程時。 在此狀態，此課程可供學習者註冊。
+**已發佈** — 作者完成發佈課程時。 在此狀態，此課程可供學習者註冊。
 
-**已淘汰**  — 發佈課程後，如果您不希望課程出現在學習者的課程目錄中，可將其移至已淘汰狀態。
+**已淘汰** — 發佈課程後，如果您不希望課程出現在學習者的課程目錄中，可以將其移至淘汰狀態。
 
-**已刪除**  — 處於已刪除狀態的課程是從AdobeLearning Manager應用程式中完全移除時。 課程只有在處於草稿或淘汰狀態時，作者才能刪除課程。
+**已刪除** — 處於已刪除狀態的課程是從Adobe Learning Manager應用程式中完全移除的課程。 課程只有在處於草稿或淘汰狀態時，作者才能刪除課程。
 
 +++
 
@@ -108,7 +107,7 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 1. 以作者身分登入後，請按一下左窗格中的「模組程式庫」 。
 1. 按一下頁面右上角的「新增」 。
 1. 填寫模組名稱、說明、模組標籤。
-1. 選擇模組型別 **已共用** 如果您想要與所有作者共用模組。 否則請選擇私人。
+1. 如果要與所有作者共用模組，請選擇模組型別為&#x200B;**共用**。 否則請選擇私人。
 1. 按一下「上傳模組」圖示，然後上傳模組內容。
 1. 按一下「儲存」。
 
@@ -120,11 +119,11 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 
 作者在建立課程時會遇到這些詞語。
 
-**測試模組** 代表課程的核心模組。 如果學習者完成此重要模組，則可視為課程完成，即使學習者未完成課程的實際內容亦然。
+**測試模組**&#x200B;代表課程的核心模組。 如果學習者完成此重要模組，則可視為課程完成，即使學習者未完成課程的實際內容亦然。
 
-**內容模組** 代表實際的課程課程。 學習者透過瀏覽這些內容，更能瞭解課程的完整內容。
+**內容模組**&#x200B;代表實際的課程表。 學習者透過瀏覽這些內容，更能瞭解課程的完整內容。
 
-**準備工作模組** 協助學習者瞭解基本知識並準備好參加課程。
+**預先作業模組**&#x200B;可協助學習者瞭解基本知識，並為課程做好準備。
 
 +++
 
@@ -158,13 +157,13 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 
 +++我可以排序任何課程的模組嗎？ 如何進行？
 
-作者可以透過拖放至其他模組上來變更模組的順序。 他亦可透過選取「 」，迫使學習者依序參加單元 **已訂購** 課程建立期間模組順序中的選項。
+作者可以透過拖放至其他模組上來變更模組的順序。 他亦可於課程建立期間於模組順序中選取&#x200B;**Ordered**&#x200B;選項，迫使學習者依序上課。
 
 +++
 
 +++如何篩選以檢視特定課程集？
 
-您可以使用「依狀態篩選課程」選項來篩選課程。 如需詳細資訊，請參閱  [如何搜尋課程？](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+您可以使用「依狀態篩選課程」選項來篩選課程。 如需詳細資訊，請參閱[如何搜尋課程？](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
@@ -179,9 +178,9 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 搜尋課程有兩種方式：
 
 1. 使用右上角顯示的搜尋欄位。 輸入課程名稱或與課程相關的任何關鍵字，以尋找您的課程。
-1. 使用篩選器篩選課程清單。 您可以依州篩選課程，例如 **全部、已發佈、草稿** 和 **已淘汰** 按一下這些選項即可。
+1. 使用篩選器篩選課程清單。 您可以按一下&#x200B;**全部、已發佈、草稿**&#x200B;及&#x200B;**已淘汰**&#x200B;等狀態來篩選課程。
 
-   您也可以按一下「 」，根據技能集進行搜尋 **技能** 並逐一選擇。
+   您也可以按一下&#x200B;**技能**&#x200B;並選擇每一項技能，根據技能組合進行搜尋。
 
    根據您的選擇，您可以檢視經過篩選的課程清單，並做出相應選擇。
 
@@ -200,9 +199,9 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 
 +++如何將模組新增至課程？
 
-您可以將課程模組新增至新課程或現有草稿課程。 若要將模組新增至新課程，請參閱  [如何建立課程？](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
+您可以將課程模組新增至新課程或現有草稿課程。 若要新增模組至新課程，請參閱[如何建立課程？](http://primehelp.adobe.com/questions/how-do-i-create-a-new-course/)
 
-您可以按一下以將模組新增至模組程式庫 **模組程式庫** 然後 **新增**.
+您可以按一下&#x200B;**模組程式庫**，然後按&#x200B;**新增**，將模組新增至模組程式庫。
 
 若要將模組新增至已發佈的課程，您可以先複製該課程（儲存為草稿），然後新增模組。
 
@@ -216,7 +215,7 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 
 +++我可以建立課程報表嗎？ 如何進行？
 
-在Adobe Learning Manager 1.0版中，只有管理員和經理才能檢視/建立報告。
+在Adobe Learning Manager 1.0版本中，只有管理員和管理員可以檢視/建立報表。
 
 +++
 
@@ -238,21 +237,21 @@ ADOBE CAPTIVATE 9  [說明內容](http://helpx.adobe.com/captivate/using/publish
 
 若要建立課程，請遵循下列步驟：
 
-1. 以作者身分登入Adobe Learning Manager 。
-1. 按一下 **[!UICONTROL Create courses]** ，位於快速入門頁面。\
+1. 以作者身分登入Adobe Learning Manager。
+1. 按一下快速入門頁面中的&#x200B;**[!UICONTROL Create courses]**。\
    基本資訊頁面就會顯示。
 
 1. 提供課程所需的基本資訊。 請依照靜態說明中的指示操作。
-1. 按一下 **[!UICONTROL Add modules]** 進行課程並從四個模組的清單中選擇一個模組：提供每個模組所需的基本資訊，然後按一下 **[!UICONTROL Done]**.
+1. 按一下&#x200B;**[!UICONTROL Add modules]**&#x200B;進行課程並從四個模組的清單中選擇一個模組：提供每個模組所需的基本資訊，然後按一下&#x200B;**[!UICONTROL Done]**。
 
-完成課程建立後，按一下「儲存」。 您的課程預設會儲存為草稿。 按一下 **[!UICONTROL Publish]** 以發佈您的課程。
+完成課程建立後，按一下「儲存」。 您的課程預設會儲存為草稿。 按一下&#x200B;**[!UICONTROL Publish]**&#x200B;以發佈您的課程。
 
 若要讓您的課程準備好發佈，您需要新增課程名稱、至少一個模組、註冊型別、能力、能力等級和學分。
 
 您也可以按照下列步驟發佈列出的課程草稿：
 
 1. 按一下「我的課程>草稿」標籤
-1. 將滑鼠停留在課程上，然後按一下「發佈課程」。
+1. 將滑鼠停留在課程上，然後按一下「Publish課程」。
 
 +++
 

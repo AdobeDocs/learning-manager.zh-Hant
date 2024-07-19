@@ -1,18 +1,18 @@
 ---
-description: Adobe Learning Manager透過多個SSO設定為內部和外部使用者支援多種登入方法。
+description: Adobe Learning Manager透過多個SSO設定，為內部和外部使用者支援多種登入方法。
 title: 多個SSO登入
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
 
 ---
 
-
 # 多個SSO登入 {#multiple-sso-logins}
 
-管理員可為內部和外部使用者設定多種登入方法。 Adobe Learning Manager支援多個SSO登入，協助管理員根據需求和使用案例設定登入方法。
+管理員可為內部和外部使用者設定多種登入方法。 Adobe Learning Manager支援多個SSO登入，可協助管理員根據其需求和使用案例設定登入方法。
 
 目的是讓管理員根據其位置、組織等，為不同的使用者群組設定不同的SSO。
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 啟用多個SSO
 
-若要啟用多個SSO，請選取 **設定** > **登入方法**.
+若要啟用多個SSO，請選取&#x200B;**設定** > **登入方法**。
 
 在設定頁面上，選取核取方塊「啟用多個單一登入(SSO)」供內部或外部使用者使用。
 
@@ -39,8 +39,8 @@ ht-degree: 0%
    * 輸入SSO的名稱。
    * 選取SSO- IDP起始的型別或SP起始的型別。
 
-      * 如果您已選取IDP initiated，請輸入IDP URL。 這將是應用程式的唯一識別碼，也是由IDP服務提供者提供的資訊URL。 這是所有Learning ManagerAdobe使用者登入後會重新導向至的URL。
-      * 從您的IDP提供者上傳IDP中繼資料XML。 此檔案包含有關IdP的資訊，可讓Adobe Learning Manager從中接受SAML宣告
+      * 如果您已選取IDP initiated，請輸入IDP URL。 這將是應用程式的唯一識別碼，也是由IDP服務提供者提供的資訊URL。 這是所有Adobe Learning Manager使用者登入後會被重新導向的URL。
+      * 從您的IDP提供者上傳IDP中繼資料XML。 此檔案包含有關IdP的資訊，可讓Adobe Learning Manager接受來自它的SAML宣告
       * 如果您已選取SP，請輸入實體ID。 實體ID是服務提供者(SP)提供的URL。
       * 輸入SP登入URL。 使用者會使用此URL登入應用程式。
 

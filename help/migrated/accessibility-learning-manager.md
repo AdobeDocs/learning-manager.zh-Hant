@@ -40,7 +40,7 @@ Adobe Learning Manager支援案頭版NVDA、JAWS和畫外音、行動版回話�
   </tr> 
   <tr> 
    <td><p>Windows</p></td> 
-   <td><p>鉻黃</p></td> 
+   <td><p>Chrome</p></td> 
    <td><p>NVDA</p></td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ Adobe Learning Manager支援案頭版NVDA、JAWS和畫外音、行動版回話�
   </tr> 
   <tr> 
    <td><p>Android</p></td> 
-   <td><p>鉻黃</p></td> 
+   <td><p>Chrome</p></td> 
    <td><p>回話</p></td> 
   </tr> 
   <tr> 
@@ -145,33 +145,33 @@ Learning Manager學習者角色支援多種其他協助工具功能，其中包�
 
 1. 提供學習者角色頁面的語義結構，包括標題、清單標籤、描述性標題等。
 1. 透過學習者角色，可支援高達200%的瀏覽器縮放，且不會遺失內容或功能。
-1. 在學習者角色中會維持文字與非文字元素的顏色對比。 為獲得更好的體驗，請使用 [生動](/help/migrated/administrators/feature-summary/themes.md) 主題。
+1. 在學習者角色中會維持文字與非文字元素的顏色對比。 為獲得更好的體驗，請使用[鮮豔](/help/migrated/administrators/feature-summary/themes.md)主題。
 1. 支援W3C的WAI ARIA設計模式，以維持一致性和業界最佳實務。
 
 如需詳細資訊，請參閱：
 
-* [學習者的協助工具符合性報表](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* 學習者的[協助工具合規性報告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
 * [所有角色的協助工具符合性報告](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Learning Manager熱門工作流程（學習者角色） {#captivateprimetopworkflowslearnerrole}
 
 讓我們來看一看協助工具功能如何協助您瀏覽Learning Manager中學習者的部分重要功能。
 
-使用 `kbd Tab`鍵可瀏覽頁面上的元素。 使用 `kbd Shift + Tab` 鍵可反轉導覽方向。 在元素周圍顯示的藍色外框表示鍵盤焦點。 熒幕助讀程式應該朗讀焦點中元素的文字。
+使用`kbd Tab`鍵瀏覽頁面上的元素。 使用`kbd Shift + Tab`鍵來反轉導覽方向。 在元素周圍顯示的藍色外框表示鍵盤焦點。 熒幕助讀程式應該朗讀焦點中元素的文字。
 
 ## 在Learning Manager中搜尋訓練 {#searchforatrainingincaptivateprime}
 
 1. 使用這些提示來導覽並到達首頁右上角的搜尋方塊。
 1. 使用鍵盤輸入文字。 將會顯示搜尋結果。
-1. 使用鍵盤 `kbd Up/Down` 用於瀏覽結果或點選的箭頭 `kbd ENTER`以檢視所有結果。
+1. 使用鍵盤`kbd Up/Down`箭頭瀏覽結果，或按一下`kbd ENTER`檢視所有結果。
 
-1. 在識別培訓後，點選 `kbd ENTER`以導覽至訓練頁面。
+1. 識別訓練後，按一下`kbd ENTER`以導覽至訓練頁面。
 
 ## 在Adobe Learning Manager中使用訓練 {#consumeatraininginadobecaptivateprime}
 
-1. 在識別培訓後，使用 `kbd Tab`或 `kbd Shift + Tab` 瀏覽至「註冊/開始」按鈕。 按鈕狀態取決於您對該訓練的註冊狀態。
+1. 識別訓練後，使用`kbd Tab`或`kbd Shift + Tab`瀏覽至[註冊/開始]按鈕。 按鈕狀態取決於您對該訓練的註冊狀態。
 
-1. 點選 `kbd ENTER`以開始訓練。
+1. 按`kbd ENTER`開始訓練。
 1. 以下為無論內容型別為何而出現的控制項：
 
    * 目錄
@@ -188,9 +188,9 @@ Learning Manager學習者角色支援多種其他協助工具功能，其中包�
    * 檔案內容 — 頁碼、向上翻頁、向下翻頁、放大、縮小。
    * 數位學習 — 隱藏式字幕按鈕。
 
-1. 點選鍵盤控制項 `kbd Tab`或 `kbd Shift + Tab` 以瀏覽控制項和點選 `kbd ENTER`以啟用/停用任何控制項。
+1. 按一下鍵盤控制項`kbd Tab`或`kbd Shift + Tab`以瀏覽控制項，並按一下`kbd ENTER`以啟用/停用任何控制項。
 
-1. 對於DOCUMENT型別，使用箭頭控制項，如 `kbd UP/DOWN` 以捲動檔案。
+1. 對於DOCUMENT型別，使用箭頭控制項（如`kbd UP/DOWN`）捲動檔案。
 
 ## 針對特定需求的協助工具支援
 
@@ -200,7 +200,7 @@ Learning Manager學習者角色支援多種其他協助工具功能，其中包�
 
 * 使用隱藏式字幕，可在使用Adobe Captivate編寫工具建立的內容中使用。
 * 對於影片，作者可以使用隱藏式字幕文字來編碼影片。 這類影片會嵌入隱藏式字幕，且可供學習者使用。
-* Learning Manager可支援針對影片內容上傳隱藏式字幕WebVTT檔案。 如需詳細資訊，請參閱  [*上傳用於隱藏式字幕的WebVTT檔案*](/help/migrated/authors/feature-summary/content-library.md).
+* Learning Manager可支援針對影片內容上傳隱藏式字幕WebVTT檔案。 如需詳細資訊，請參閱&#x200B;[*上傳隱藏式字幕的WebVTT檔案*](/help/migrated/authors/feature-summary/content-library.md)。
 
 ### 失明或弱視的使用者
 
@@ -212,7 +212,7 @@ Learning Manager學習者角色支援多種其他協助工具功能，其中包�
 
 Adobe Learning Manager學習者角色致力於為使用者提供清晰易讀的使用者介面，符合WCAG 2.1標準。
 
-為了在學習者頁面上獲得更好的體驗，請使用 [生動的主題](/help/migrated/administrators/feature-summary/themes.md).
+若要在學習者頁面上獲得更好的體驗，請使用[生動的主題](/help/migrated/administrators/feature-summary/themes.md)。
 
 ### 行動力與觸角受限的使用者
 

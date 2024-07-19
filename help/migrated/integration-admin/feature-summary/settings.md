@@ -3,18 +3,17 @@ jcr-language: en_us
 title: 設定
 description: 帳戶設定
 contentowner: manochan
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: e93b580e-170c-40ea-99ef-d291852050bd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '55'
 ht-degree: 0%
 
 ---
 
-
-
 # 帳戶設定
 
-1. 按一下像片/帳戶旁右上角的下拉箭頭，然後選取 **[!UICONTROL Profile Settings]**.
-1. 在快顯對話方塊中，您可以透過將滑鼠懸停於上方並按一下滑鼠來新增/變更像片 **[!UICONTROL Edit]** 設定檔像片區域中。
-1. 新增/修改 **關於我** 按一下內容下方的文字區域。
-1. 按一下 **[!UICONTROL Save]**.
+1. 按一下您的像片/帳戶旁右上角的下拉箭頭，然後選取&#x200B;**[!UICONTROL Profile Settings]**。
+1. 在快顯對話方塊中，您可以在設定檔像片區域中將滑鼠游標停留並按一下「**[!UICONTROL Edit]**」來新增/變更像片。
+1. 按一下下方的文字區域，新增/修改&#x200B;**關於我**&#x200B;內容。
+1. 按一下&#x200B;**[!UICONTROL Save]**。

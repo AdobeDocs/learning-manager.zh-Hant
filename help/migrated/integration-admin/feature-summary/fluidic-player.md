@@ -23,11 +23,11 @@ ht-degree: 0%
 
 Fluidic播放器能以一致且直覺的方式播放幾乎任何型別的電子學習內容，無需使用任何外掛程式或下載。 學習者可以啟動內容，而且無論內容檔案型別為何，都會開始播放。
 
-**附註和書籤**
+**筆記與書籤**
 
 您可以記下筆記並將任何內容加入書籤，無論其檔案型別為何。 如果您想從長檔案或視訊中選取特定專案，您可以將找到所需相關資訊的那些點加入書籤。 附註和書籤可以電子郵件形式搜尋或傳送。 按一下註解可將您直接在視訊或檔案頁面所在的位置進入流體播放器。
 
-如需流體播放器的詳細資訊，請參閱 [流體播放器](../../learners/feature-summary/fluidic-player.md).
+如需流體播放器的詳細資訊，請參閱[流體播放器](../../learners/feature-summary/fluidic-player.md)。
 
 以下是一些使用內嵌式流體播放器的範例。
 
@@ -45,14 +45,14 @@ Fluidic播放器能以一致且直覺的方式播放幾乎任何型別的電子�
 
 ### 1.在整合管理中建立應用程式 {#1createanapplicationinintegrationadmin}
 
-此步驟需要建立應用程式/使用者端ID和應用程式/使用者端密碼，用於擷取重新整理權杖和存取權杖。 如需建立應用程式的詳細資訊，請參閱  [應用程式開發程式。](developer-manual.md#main-pars_header_994876235)
+此步驟需要建立應用程式/使用者端ID和應用程式/使用者端密碼，用於擷取重新整理權杖和存取權杖。 如需建立應用程式的詳細資訊，請參閱[應用程式開發程式。](developer-manual.md#main-pars_header_994876235)
 
-1. 前往 **[!UICONTROL IntegrationAdmin]** 應用程式並開啟 **[!UICONTROL Applications]**.
+1. 前往&#x200B;**[!UICONTROL IntegrationAdmin]**&#x200B;應用程式並開啟&#x200B;**[!UICONTROL Applications]**。
 
-1. 選取 **[!UICONTROL Register]** 從頁面的右上角。
-1. 此 **[!UICONTROL Register a new application]** 視窗會開啟。 填寫必填欄位。
-1. 如果需要跨多個帳戶共用自訂應用程式，請選取 **[!UICONTROL No]** 在選項欄位中  **[!UICONTROL For this account only?]**
-1. 若要儲存應用程式並產生您的應用程式ID和密碼，請按一下 **[!UICONTROL Save]**.
+1. 從頁面的右上角選取&#x200B;**[!UICONTROL Register]**。
+1. **[!UICONTROL Register a new application]**&#x200B;視窗隨即開啟。 填寫必填欄位。
+1. 如果自訂應用程式需要跨多個帳戶共用，請在選項欄位&#x200B;**[!UICONTROL For this account only?]**&#x200B;中選取&#x200B;**[!UICONTROL No]**
+1. 若要儲存應用程式並產生您的應用程式ID和密碼，請按一下&#x200B;**[!UICONTROL Save]**。
 
 ### 2.擷取存取權杖 {#2retrievingaccesstoken}
 
@@ -75,13 +75,13 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-此處， **[!UICONTROL client id]** 是在步驟1中取得的應用程式id。
-**[!UICONTROL redirect_url]** 是在步驟1中設定的redirect_url。
-**[!UICONTROL state]** 是任何虛擬資料，我們需要根據這些資料篩選重新導向URL以取得OAuth程式碼。 範圍是在步驟1中設定的學習者範圍。
-**[!UICONTROL response_typ]**e一律為「CODE」。\
+在此，**[!UICONTROL client id]**是在步驟1中取得的應用程式ID。
+**[!UICONTROL redirect_url]**是在步驟1中設定的redirect_url。
+**[!UICONTROL state]**是任何虛擬資料，我們需要根據這些資料篩選重新導向URL以取得OAuth程式碼。 範圍是在步驟1中設定的學習者範圍。
+**[!UICONTROL response_typ]**e一律為「代碼」。\
 **[!UICONTROL account]**是選用欄位\
-**[!UICONTROL email]** 是選用欄位\
-&#42; 如果同時提供帳戶ID和電子郵件，上述URL將允許使用者登入相同的帳戶。 此端點範例在範例應用程式的「index.html」檔案中描述。
+**[!UICONTROL email]**&#x200B;是選用欄位\
+&#42;如果同時提供帳戶ID和電子郵件，上述URL將允許使用者登入相同的帳戶。 此端點範例在範例應用程式的「index.html」檔案中描述。
 
 * 擷取重新整理Token
 
@@ -98,7 +98,7 @@ iv. expires_in\
 v. user_role\
 vi. account_id
 
-**2.2從重新整理權杖中擷取存取權杖**
+**2.2正在從重新整理權杖擷取存取權杖**
 
 若要擷取您的存取Token，請使用您的refresh_token、client_id和client_secret將另一個要求作為貼文本文傳送至以下URL：
 
@@ -142,7 +142,7 @@ vi. account_id
 
 1. 在iframe的「src」屬性中設定此URL。
 
-**關閉內嵌播放器**
+**正在關閉內嵌式播放器**
 
 ```
 code window.addEventListener("message", function closePlayer(){  
@@ -155,7 +155,7 @@ code window.addEventListener("message", function closePlayer(){
 ## 範例應用程式教學課程 {#sampleapplicationtutorial}
 
 附加的pdf檔案包含範例應用程式教學課程。
-[內嵌流體播放器的範例教學課程和教學課程來源。](assets/sample-applicationtutorial.zip) 替代內容
+[內嵌流體播放器的範例教學課程和教學課程來源。](assets/sample-applicationtutorial.zip)個替代內容
 
 如果您是管理員，您可以透過在流體播放器內為學習者提供替代內容的方式來設定課程材料。 例如，如果您的不同地理位置的學習者想使用多種語言，您可以用多種語言建立相同的內容。 流體播放器會向學習者提供設定語言，但學習者也可選擇從播放器內直接切換至替代語言。
 
@@ -167,7 +167,7 @@ Learning Manager流體播放器使用的串流技術可為其學習者提供視�
 
 1. 修改Learning Manager內嵌式播放器URL，使其包含指向需擷取的正確學習物件的引數。
 
-   URL：  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL： [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. 使用下列任一引數啟動課程：
 
@@ -179,7 +179,7 @@ Learning Manager流體播放器使用的串流技術可為其學習者提供視�
 
 1. 使用存取權杖作為必要引數。
 
-   * access_token ：這是安全性引數，請使用公開API Oauth存取權杖
+   * access_token ：這是安全性引數，請使用公開API oauth   存取權杖
 
    您可以在整合管理員中設定內嵌式流體播放器，取得您的Token。 您可以取得您的驗證Token，將其當作存取權杖使用。
 
@@ -213,7 +213,7 @@ Learning Manager流體播放器使用的串流技術可為其學習者提供視�
 
 修改Learning Manager內嵌式播放器URL，使其包含指向需擷取的正確學習物件的引數。
 
-URL：  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL： [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 下列任一引數都可用來啟動課程：
 
@@ -224,7 +224,7 @@ URL：  [https://learningmanager.adobe.com/app/player](https://learningmanager.a
 
 必要引數：
 
-* access_token ：這是安全性引數，請使用公開API Oauth存取權杖
+* access_token ：這是安全性引數，請使用公開API oauth   存取權杖
 
 發出Learning Manager API呼叫以擷取上述引數。 這些API呼叫將由您的IT團隊/顧問所撰寫並在您的網站上託管的應用程式進行。
 
@@ -234,6 +234,6 @@ Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
 
 
 
-Learning Manager V2 API -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
+Learning Manager V2 API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
 

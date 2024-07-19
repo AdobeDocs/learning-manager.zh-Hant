@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adobe Connect整合
 description: 作者可在課程建立過程中使用Adobe Connect建立虛擬教室課程。 若要為Learning Manager帳戶啟用Adobe Connect，請聯絡組織的管理員。
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 0%
 
 ---
-
-
 
 # Adobe Connect整合
 
@@ -18,13 +17,13 @@ ht-degree: 0%
 
 ## 設定Adobe Connect {#configureadobeconnect}
 
-1. 在管理員登入中，按一下 **[!UICONTROL Settings]** ，以檢視貴公司的基本資訊。 按一下 **[!UICONTROL Adobe Connect]** 在左窗格中。
+1. 在管理員登入中，按一下左窗格中的&#x200B;**[!UICONTROL Settings]**&#x200B;以檢視有關您公司的基本資訊。 按一下左窗格上的&#x200B;**[!UICONTROL Adobe Connect]**。
 
    ![](assets/left-pane.png)
 
    *在左窗格中選取Adobe Connect*
 
-1. 按一下 **[!UICONTROL Configure Now]** 中的連結 **[!UICONTROL Adobe Connect Configuration]** 區段。
+1. 按一下&#x200B;**[!UICONTROL Adobe Connect Configuration]**&#x200B;區段中的&#x200B;**[!UICONTROL Configure Now]**&#x200B;連結。
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -39,7 +38,7 @@ ht-degree: 0%
 
    Learning Manager僅支援Adobe代管的連線帳戶。 範例； &#39;.adobeconnect.com&#39;。
 
-1. 按一下 **[!UICONTROL Integrate].**
+1. 按一下&#x200B;**[!UICONTROL Integrate].**
 
    驗證電子郵件ID後，Learning Manager會在Connect成功整合時顯示訊息。 您可以開始使用Adobe Connect自動檢視您的虛擬教室課程。
 
@@ -51,7 +50,7 @@ ht-degree: 0%
 
 如果虛擬教室課程的作者未提供工作階段資訊，則管理員可包含工作階段詳細資訊。
 
-在管理員登入中，按一下VC課程名稱。 按一下 **[!UICONTROL Instances]** 在左窗格上並按一下 **[!UICONTROL Session Details]**.  按一下「階段作業詳細資訊」頁面右角的編輯圖示，以新增階段作業資訊。
+在管理員登入中，按一下VC課程名稱。 按一下左窗格上的&#x200B;**[!UICONTROL Instances]**，然後按一下&#x200B;**[!UICONTROL Session Details]**。  按一下「階段作業詳細資訊」頁面右角的編輯圖示，以新增階段作業資訊。
 
 ![](assets/session-creation-admin.png)
 
@@ -59,7 +58,7 @@ ht-degree: 0%
 
 透過整合Adobe Learning Manager和Adobe Connect來建立虛擬教室模組或工作階段，您的Connect帳戶應可支援會議室，且會議室數量足以提供您使用案例的並行使用者。 這些會議室用於託管Learning Manager虛擬教室模組。 Learning Manager會針對Learning Manager中的每個虛擬教室模組或工作階段，動態建立新的Connect會議室。
 
-除了Adobe Learning Manager，您還必須另外購買Adobe Connect。
+除了Adobe Learning Manager以外，您還必須另外購買Adobe Connect。
 
 ## 學習者出席率 {#learnersattendance}
 

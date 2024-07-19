@@ -30,9 +30,9 @@ ht-degree: 0%
 
 +++離線時可以使用課程嗎？
 
-可以，您可以透過IPad、Android分頁和智慧型手機存取離線內容。
+可以，您可以透過IPad、Android標籤和智慧型手機存取離線內容。
 
-如需離線存取的詳細資訊，請參閱  [iPad和Android平板電腦使用者](feature-summary/ipad-android-tablet-users.md) 功能。
+如需離線存取的詳細資訊，請參閱[iPad和Android平板電腦使用者](feature-summary/ipad-android-tablet-users.md)功能。
 
 +++
 
@@ -48,7 +48,7 @@ ht-degree: 0%
 
 是的，您可以與同儕比較學習點數。 將滑鼠停留在輪廓圓上。 您可以在這裡檢視自己的觀點。 若要檢視「排行榜」對話方塊，請按一下「前往排行榜」。 在此對話方塊中，您可以檢視與您排名類似的同事清單。
 
-如需詳細資訊，請參閱  [排行榜](feature-summary/gamification.md)功能。
+如需詳細資訊，請參閱[排行榜](feature-summary/gamification.md)功能。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 0%
 
 +++學習與目錄之間有何差異？
 
-在「學習」標籤中，您可以檢視  [課程](feature-summary/courses.md)，  [學習計畫](feature-summary/learning-programs.md) 和  [認證](feature-summary/certifications.md) 您所註冊或指派給您的活動。 您也可以按一下「前往學習」連結，移至「學習」標籤。
+在[學習]索引標籤中，您可以檢視您所註冊或指派給您的所有[課程](feature-summary/courses.md)、[學習計畫](feature-summary/learning-programs.md)和[認證](feature-summary/certifications.md)。 您也可以按一下「前往學習」連結，移至「學習」標籤。
 
 在目錄標籤中，您可以在公司帳戶中檢視您的角色可用的所有課程、學習計畫和認證。 您也可以按一下「移至目錄」連結，移至「目錄」標籤。
 
@@ -94,15 +94,15 @@ ht-degree: 0%
 
 若要檢視技能，請按一下登陸頁面右上角技能對應區域中的任何技能名稱。 技能及其旁邊層級會一併顯示。
 
-如需詳細資訊，請參閱  [技能與等級](feature-summary/skills-levels.md) 功能。
+如需詳細資訊，請參閱[技能與等級](feature-summary/skills-levels.md)功能。
 
 +++
 
 +++我可以使用智慧型手機存取Learning Manager嗎？
 
-可以，您可在智慧型手機、iPad或任何其他Android平板電腦上存取Learning Manager。
+是，您可以在智慧型手機、iPad或任何其他Android平板電腦上存取Learning Manager。
 
-如需有關此功能的詳細資訊，請參閱  [iPad和Android應用程式使用者](feature-summary/ipad-android-tablet-users.md) 功能。
+如需有關此功能的詳細資訊，請參閱[iPad和Android應用程式使用者](feature-summary/ipad-android-tablet-users.md)功能。
 
 +++
 
@@ -110,19 +110,19 @@ ht-degree: 0%
 
 可以，您可使用iPad存取Learning Manager。 您可以從應用程式商店或Google Play下載應用程式。
 
-只有學習者角色功能可使用iPad或任何Android平板電腦存取。 您也可以離線使用課程，並在重新上線時與應用程式同步。 如需詳細資訊，請參閱  [iPad和Android應用程式使用者](feature-summary/ipad-android-tablet-users.md) 功能
+使用iPad或任何Android平板電腦時，只能存取學習者角色功能。 您也可以離線使用課程，並在重新上線時與應用程式同步。 如需詳細資訊，請參閱[iPad和Android應用程式使用者](feature-summary/ipad-android-tablet-users.md)功能
 
 +++
 
 +++無法登入學習管理員。 該怎麼辦？
 
-如果您有AdobeID，可以登入Learning Manager。 請依照以下位置的指示操作：  [使用者登入](feature-summary/user-login.md) 功能，以取得有關如何登入應用程式的詳細資訊。 如果問題仍然存在，請聯絡我們的支援團隊。
+如果您有AdobeID，可以登入Learning Manager。 請依照[使用者登入](feature-summary/user-login.md)功能的指示操作，以取得如何登入應用程式的詳細資訊。 如果問題仍然存在，請聯絡我們的支援團隊。
 
 +++
 
 +++如何達到技能水準？
 
-每當您獲得新的技能水準時，就會獲得學分。 積分與技能層級相關聯。 如需技能與等級的詳細資訊，請參閱  [技能與等級](feature-summary/skills-levels.md) 功能。
+每當您獲得新的技能水準時，就會獲得學分。 積分與技能層級相關聯。 如需有關技能與層級的詳細資訊，請參閱[技能與層級](feature-summary/skills-levels.md)功能。
 
 +++
 
@@ -140,9 +140,9 @@ ht-degree: 0%
 
 +++積分和遊戲點數之間有何差異？
 
-每當您獲得新的技能水準時，就會獲得學分。 積分與技能層級相關聯。 如需學分、技能與等級的詳細資訊，請參閱  [技能與等級](feature-summary/skills-levels.md) 功能。
+每當您獲得新的技能水準時，就會獲得學分。 積分與技能層級相關聯。 如需學分、技能與等級的詳細資訊，請參閱[技能與等級](feature-summary/skills-levels.md)功能。
 
-每當您完成一項任務時，就會獲得遊戲化點數。 Learning Manager目前提供六個遊戲化工作。 完成每項工作後，您就會取得與該工作相關聯的特定點數。 如需詳細資訊，請參閱  [遊戲](feature-summary/gamification.md) 功能。
+每當您完成一項任務時，就會獲得遊戲化點數。 Learning Manager目前提供六個遊戲化工作。 完成每項工作後，您就會取得與該工作相關聯的特定點數。 如需詳細資訊，請參閱[遊戲化](feature-summary/gamification.md)功能。
 
 +++
 
@@ -154,7 +154,7 @@ Adobe Learning Manager匯入了名為徽章的最新電子學習概念之一。 
 
 徽章會根據貴組織定義的特定條件指派給學習者，這些條件通常是成功完成課程或任何學習物件。
 
-如需詳細資訊，請參閱  [徽章](feature-summary/badges.md) 功能。
+如需詳細資訊，請參閱[徽章](feature-summary/badges.md)功能。
 
 +++
 
@@ -164,7 +164,7 @@ Adobe Learning Manager匯入了名為徽章的最新電子學習概念之一。 
 
 若要開始參加學習計畫，請按一下指派給您的計畫。 您可以檢視該特定程式的詳細資訊。
 
-A **開始計畫** 按鈕會出現在學習計畫頁面的右上角。 按一下 **[!UICONTROL Start Program]** 以開始參加課程。
+學習計畫頁面的右上角顯示&#x200B;**開始計畫**&#x200B;按鈕。 按一下「**[!UICONTROL Start Program]**」開始參加課程。
 
 +++
 
@@ -181,7 +181,7 @@ A **開始計畫** 按鈕會出現在學習計畫頁面的右上角。 按一下
 
 您可以檢視設定檔中目前的層級點，並視需要設定目標以獲得更高的點。
 
-參考  [遊戲功能](feature-summary/gamification.md) 以取得詳細資訊。
+如需詳細資訊，請參閱[遊戲化功能](feature-summary/gamification.md)。
 
 +++
 
@@ -189,7 +189,7 @@ A **開始計畫** 按鈕會出現在學習計畫頁面的右上角。 按一下
 
 Learning Manager中的所有課程都會以瀏覽器播放。 您可以使用Learning Manager的流體播放器以全熒幕檢視課程。
 
-參考  [流體播放器功能](feature-summary/fluidic-player.md) 以取得播放器的詳細資訊。
+如需播放器的詳細資訊，請參閱[流體播放器功能](feature-summary/fluidic-player.md)。
 
 [我可以匯出我的個人筆記嗎？](frequently-asked-questions-for-learners.md)
 
@@ -220,15 +220,15 @@ Learning Manager中的所有課程都會以瀏覽器播放。 您可以使用Lea
 >
 >書籤功能僅支援Captivate9及更高版本、Presenter 11及更高版本的HTML輸出內容。
 
-**下載/透過電子郵件傳送課程備註**
+**下載/電子郵件課程備註**
 
 您可以選擇依照以下步驟下載課程附註或透過電子郵件傳送課程附註：
 
 1. 按一下您要檢視其附註的課程圖磚。
-1. 按一下 **附註** 標籤旁的 **模組** 標籤。
+1. 按一下&#x200B;**模組**&#x200B;標籤旁的&#x200B;**附註**&#x200B;標籤。
 
-1. 按一下 **[!UICONTROL Download Notes]** 下載為pdf。
-1. 按一下 **[!UICONTROL Email Notes]** 以電子郵件形式接收附註至您的電子郵件帳戶。
+1. 按一下「**[!UICONTROL Download Notes]**」以下載為pdf。
+1. 按一下&#x200B;**[!UICONTROL Email Notes]**&#x200B;以電子郵件形式接收附註至您的電子郵件帳戶。
 
 +++
 
@@ -259,7 +259,7 @@ Learning Manager中的所有課程都會以瀏覽器播放。 您可以使用Lea
 
 Learning Manager為學習者引入線上徽章，作為獎勵和表彰學習者成就的一部分。 徽章會根據設定條件授予，並顯示在學習者首頁的學習者個人資料上。
 
-參考  [認證功能](feature-summary/certifications.md) 以取得學習者認證的詳細資訊。
+如需學習者認證的詳細資訊，請參閱[認證功能](feature-summary/certifications.md)。
 
 +++
 
@@ -308,8 +308,8 @@ Learning Manager為學習者引入線上徽章，作為獎勵和表彰學習者�
 
 +++如何在Learning Manager中存取課程？
 
-1. 以學習者身分登入Learning Manager。 如果您忘記密碼，請按一下 **[!UICONTROL Forgot password]** 登入頁面中提供的連結，可將其取回您的電子郵件id。
-1. 登入後，您可在頂端看到「課程」標籤。 按一下 **[!UICONTROL COURSES]** 標籤以顯示指派給您的課程清單。
+1. 以學習者身分登入Learning Manager。 如果您忘記密碼，請按一下登入頁面中提供的&#x200B;**[!UICONTROL Forgot password]**&#x200B;連結，將其取回您的電子郵件ID。
+1. 登入後，您可在頂端看到「課程」標籤。 按一下「**[!UICONTROL COURSES]**」標籤以顯示指派給您的課程清單。
 
 +++
 
