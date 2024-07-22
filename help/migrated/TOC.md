@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '600'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 2%
    * [使用者登入](administrators/feature-summary/user-login.md)
    * [新增使用者並建立使用者群組](administrators/feature-summary/add-users-user-groups.md)
    * [新增教室位置](administrators/feature-summary/classroom.md)
-   * [建立課程模組、例項和學習計畫](administrators/feature-summary/courses.md)
+   * [建立課程例項和學習路徑](administrators/feature-summary/courses.md)
    * [內容市集](administrators/feature-summary/content-marketplace.md)
    * [報表](administrators/feature-summary/reports.md)
    * [學習路徑](administrators/feature-summary/learning-paths.md)
