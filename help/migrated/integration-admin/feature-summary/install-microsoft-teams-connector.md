@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中安裝Microsoft Teams聯結器
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 概觀
 
-Microsoft® Teams®是永續性的聊天式共同作業平台，可完全支援檔案共用、線上會議和其他商務通訊功能。
+Microsoft Teams®是一個持續的聊天式共同作業平台，可完全支援檔案共用、線上會議和其他商務通訊功能。
 
 Adobe Learning Manager使用虛擬教室聯結器，可將Microsoft Teams會議與Learning Manager整合。
 
@@ -51,8 +51,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 
 如果您有Office 365 E3或Office 365 E5，則可以存取Microsoft Teams聯結器。 建議的選項是Office 365 E5。
 
-* 造訪[Microsoft計畫頁面](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE) 。 在網頁上，您可以購買E3或E5帳戶，或按一下「免費試用」。
-
+* 造訪[Microsoft計畫頁面](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE)。 在網頁上，您可以購買E3或E5帳戶，或按一下「免費試用」。
 * 提供必要資訊並建立帳戶。
 
 >[!NOTE]
@@ -101,6 +100,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
    1. OnlineMeetings.Read.All
    1. OnlineMeetings.ReadWrite.All
    1. User.Read.All
+   1. OnlineMeetingRecording.Read.All
 
 1. 按一下&#x200B;**[!UICONTROL Grant admin access for Adobe]**。
 1. 按一下&#x200B;**[!UICONTROL App roles]** > **[!UICONTROL Create app role]**。
@@ -154,17 +154,17 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 1. 按一下&#x200B;**[!UICONTROL Manage Product Licenses]**。
 1. 啟用不透過音訊會議的Office 365 E5授權。
 
-## 錄製工作階段
+<!--## Record a session
 
-用於記錄工作階段的API是受保護的API。 若要存取API，您必須向Microsoft請求存取權。 如需詳細資訊，請參閱此[檔案](https://docs.microsoft.com/en-us/graph/teams-protected-apis)。
+The API used for recording a session is a protected API. To access the API, you must request access from Microsoft. For more information, see this  [document](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-在檔案中，
+In the document,
 
-*」若要要求存取這些受保護的API，請完成下列[要求表單](https://aka.ms/teamsgraph/requestaccess)。 我們每星期三審查存取請求，每星期五部署核准，除了美國的主要假日週期間。這些周內的提交將會在下個非假日周處理。 若要確認您的要求是否已核准，請在下一個適用的星期一測試您的應用程式存取權。&quot;*
+*"To request access to these protected APIs, complete the following  [request form](https://aka.ms/teamsgraph/requestaccess). We review access requests every Wednesday and deploy approvals every Friday, except during major holiday weeks in the U.S. Submissions during those weeks will be processed the following non-holiday week. To verify whether your request has been approved, test your application access on the next applicable Monday."*
 
-學習者錄製的URL會顯示在VC課程概觀頁面上。
+For learners, the recording URL is displayed on the VC course overview page.
 
-完成課程30分鐘後，系統會標籤學習者的出席情況。
+After 30 minutes of completing a course, the attendance for the learner gets marked. -->
 
 ## 常見問題
 
