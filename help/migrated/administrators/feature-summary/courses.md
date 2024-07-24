@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 建立課程例項和學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4715'
 ht-degree: 0%
@@ -81,7 +81,7 @@ ht-degree: 0%
 
 若要淘汰執行個體，請執行下列步驟：
 
-1. 在執行個體上，按一下下拉式功能表，然後選擇選項&#x200B;**[!UICONTROL Retire instance]**。
+1. 在執行個體上，選取下拉式功能表，然後選擇選項&#x200B;**[!UICONTROL Retire instance]**。
 
    ![](assets/retire-an-instance.png)
 
