@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '15682'
+source-wordcount: '15605'
 ht-degree: 0%
 
 ---
@@ -330,15 +330,16 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 **對應屬性**
 
-整合管理員可以選擇CSV欄，並將它們對應至Learning Manager的群組屬性。 此對應是一次性工作。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要擁有不同的對應來匯入使用者，可以重新設定對應。
+整合管理員可以選擇CSV欄，並將它們對應至Learning Manager的群組屬性。 此對應需要耗費大量時間。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要擁有不同的對應來匯入使用者，可以重新設定對應。
+
 
 #### 匯出資料 {#exportdata}
 
 「資料匯出」可讓使用者將使用者技能和學習者成績單匯出至FTP位置，以便與任何協力廠商系統整合。
 
-#### 正在排程 {#scheduling}
+#### 正在排程
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
+管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每日執行。
 
 ### 設定Learning Manager FTP聯結器 {#configurecaptivateprimeftpconnector}
 
@@ -346,30 +347,80 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 #### 建立連線 {#Createaconnection-1}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在FTP卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
+1. 在Learning Manager首頁上，將滑鼠游標停留在FTP卡片/縮圖上。 選單出現。 選取功能表中的「連線」專案。
 
    ![](assets/mouseover-ftpconnector.png)
 
    *連線選項*
 
-1. 系統會顯示一個對話方塊，提示您輸入電子郵件ID。 提供組織內負責管理Learning Manager FTP帳戶人員的電子郵件ID。 提供電子郵件識別碼後，請按一下&#x200B;**[!UICONTROL Connect]**。
-1. Learning Manager會傳送電子郵件給您，提示使用者在首次存取FTP前重設密碼。 使用者必須重設密碼，並使用它來存取Learning Manager FTP帳戶。
+若要使用FTP使用者端連線至任何FTP伺服器，您需要下列資訊：
+
+* **FTP網域**：這是您要連線的FTP伺服器位址。 例如， ftp.example.com
+* **連線埠**：預設FTP連線埠是21，但部分伺服器基於安全考量可能會使用不同的連線埠。 適用於Adobe Learning Manager — 連線埠22
+* **FTP使用者名稱**：您存取FTP伺服器所需的使用者名稱。
+* **FTP密碼**：與使用者名稱關聯的密碼。
+
+**FileZilla (Windows、macOS和Linux)**
+
+**步驟1：下載並安裝FileZilla**
+
+如果您尚未安裝FileZilla，請從官方網站下載： [下載](https://filezilla-project.org/)，然後在您的電腦上安裝。
+
+**步驟2：開啟FileZilla**
+
+安裝之後，請在電腦上啟動FileZilla。
+
+**步驟3：收集FTP伺服器資訊**
+
+**步驟4：在FileZilla**&#x200B;中輸入FTP伺服器資訊
+
+在頂端功能表中，選取&#x200B;**[!UICONTROL File]**，然後選取&#x200B;**[!UICONTROL Site Manager]** （或使用捷徑Ctrl+S）。
+
+**步驟5：新增新的FTP站台**
+
+在「網站管理員」中，選取&#x200B;**新增網站**&#x200B;並輸入名稱（例如「我的FTP伺服器」）。
+
+**步驟6：輸入FTP詳細資料**
+
+輸入下列資訊：
+
+* **主機**：輸入您的FTP伺服器位址。
+* **連線埠**：如果伺服器使用超過21的連線埠，請輸入正確的連線埠號碼。
+* **通訊協定**：選擇&#x200B;**[!UICONTROL SFTP – SSH File Transfer Protocol]**。
+* **登入型別**：選取&#x200B;**[!UICONTROL Normal]**。
+* **使用者**：輸入您的FTP使用者名稱。
+* **密碼**：輸入您的FTP密碼。
+
+**步驟7：連線至FTP伺服器**
+
+選取網站管理員中的&#x200B;**[!UICONTROL Connect]**&#x200B;按鈕。 如果所有資訊都正確，FileZilla會連線至FTP伺服器。
+
+**步驟8：導覽及傳輸檔案**
+
+連線後，您會在右側看到遠端檔案，並在左側看到本機檔案。 您可以在面板之間拖放目錄，以導覽目錄並傳輸檔案。
+
+>[!CAUTION]
+>
+>傳輸檔案時，請避免變更伺服器上的重要檔案。
+
+<!--1. A dialog appears prompting you to enter the email id. Provide the email id of the person responsible for managing the Learning Manager FTP account for the organization. Click **[!UICONTROL Connect]** after providing the email id. 
+1. Learning Manager sends you an email prompting the user to reset the password before accessing the FTP for the first time. The user must reset the password and use it for accessing the Learning Manager FTP account.
 
    >[!NOTE]
    >
-   >只能為特定Learning Manager帳戶建立一個Learning Manager FTP帳戶。
+   >Only one Learning Manager FTP account can be created for a given Learning Manager account.
 
-   在總覽頁面中，您可以指定整合的連線名稱。 從下列選項中選擇您要採取的動作：
+   In the overview page, you can specify the Connection Name for your integration. Choose what action you want to take  from  the following options:
 
-   * 匯入內部使用者
-   * 匯入xAPI
-   * 匯出使用者技能 — 設定排程
-   * 匯出使用者技能 — 隨選
-   * 匯出學習者成績單 — 設定排程
-   * 匯出學習者成績單 — 隨選
+   * Import Internal Users  
+   * Import xAPI
+   * Export User Skills - Configure a Schedule  
+   * Export User Skills - OnDemand  
+   * Export Learner Transcripts - Configure a Schedule
+   * Export Learner Transcripts - OnDemand
 
    ![](assets/ftp-connector-dashboard.png)
-   *匯出選項*
+   *Export options*-->
 
 ### 匯入
 
@@ -393,8 +444,6 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 1. 完成對應後，請按一下&#x200B;**[!UICONTROL Save]**。
 
    聯結器現已準備就緒，可供使用。 已設定的帳戶會在管理員應用程式中顯示為資料來源，供管理員排程匯入或進行隨選同步。
-
-
 
 +++
 
@@ -477,53 +526,51 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 +++
 
-### 匯出
+<!--### Export
 
 +++Skills
 
-匯出使用者技能報告有兩個選項。
+There are two options to export User skill reports.
 
-**[!UICONTROL User Skills - On Demand]**：您可以指定開始日期，並使用選項匯出報表。 報表會從輸入的日期擷取，直到現在為止。
+**[!UICONTROL User Skills - On Demand]**: You can specify the  start date and export the report using the option. The report is extracted from the date entered until present.
 
 ![](assets/export-on-demand2x.png)
-*隨選匯出選項*
+*On demand export option*
 
-**[!UICONTROL User Skills - Configure]**：此選項可讓您排程報表的擷取。 選取「啟用排程」核取方塊，並指定開始日期和時間。 您也可以指定產生和傳送報告的間隔。
+**[!UICONTROL User Skills - Configure]**: This option let's you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/user-skills-configure.png)
-*設定報表匯出*
+*Configure export of report*
 
 +++
 
-若要開啟存放匯出檔案的「匯出」資料夾，請開啟「使用者技能」頁面中提供的「FTP資料夾」連結，如下所示。
+To open the Export folder where the exported files are placed, open the link to FTP Folder provided in the User Skills page as shown below.
 
 ![](assets/ftp-folder.png)
-*要檢視檔案的FTP資料夾*
+*FTP folder to view files*
 
-自動匯出的檔案位於位置&#x200B;**Home/export/&#42;FTP_location&#42;**
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-自動匯出的檔案的標題為&#x200B;**skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv**
+The auto-exported files are available with the title, **skill_achievements_&#42;date from&#42;_to_&#42;date to&#42;.csv**
 
 ![](assets/exported-csvs.png)
-*已匯出的.csv檔案*
+*Exported .csv file*
 
-+++學習者成績單
++++Learner Transcript
 
 ![](assets/on-demand-report.png)
 
-**設定**：此選項可讓您排程報表的擷取。 選取「啟用排程」核取方塊，並指定開始日期和時間。 您也可以指定產生和傳送報告的間隔。
+**Configure**: This option  let's  you schedule the extraction of the report. Select the Enable Schedule check box and specify the start date and time. You can also specify the interval at which you want the report to be generated and sent.
 
 ![](assets/configure-report.png)
 
 +++
 
-若要開啟匯出檔案放置在FTP位置中的匯出資料夾，請開啟「學習者成績單」頁面上提供的FTP資料夾連結，如下所示
+To open the Export folder where the exported files are placed in your FTP location, open the link to FTP Folder provided on the Learner Transcript page as shown below
 
-自動匯出的檔案位於位置&#x200B;**Home/export/&#42;FTP_location&#42;**
+The auto-exported files are present in the location **Home/export/&#42;FTP_location&#42;**
 
-自動匯出的檔案的標題為&#x200B;**learner_transcript_&#42;日期從&#x200B;&#42;_到_&#42;日期到&#42;.csv**
-
-![](assets/exported-file.png)
+The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
 ### 支援手動csv欄位 {#supportformanualcsvfields}
 

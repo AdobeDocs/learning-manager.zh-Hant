@@ -2,9 +2,9 @@
 title: Adobe Learning Manager中的Recommendations
 description: 建議引擎的核心是由Learning Manager的新課程排名演演算法所驅動。 演演算法會使用5000萬資料點以及跨越數百萬使用者的五年彙總學習資料，根據他們的註冊可能性來排名課程。 此排名可確保大部分可註冊的課程會先顯示給學習者。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -64,8 +64,8 @@ Adobe Learning Manager的新建議引擎簡化了設定個人化建議所涉的�
 
 1. 按一下&#x200B;**[!UICONTROL Proceed]**&#x200B;以升級至新的建議系統。
 
-   ![繼續使用新系統](assets/image521152.png)
-   *選取[繼續]按鈕*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. 建立「產品」和「角色」的建議引數。
 
@@ -168,7 +168,7 @@ Recommendations功能可供設定。 因此，您可以使用主題/角色/層�
 
 ## 刪除引數
 
-1. 在引數清單中，選取三個點的圖示，然後選取&#x200B;**[!UICONTROL Delete parameter]**。
+管理員可以按一下三點圖示並選取&#x200B;**[!UICONTROL Delete Parameter]**&#x200B;來刪除引數。 如果引數未連結至學習物件，管理員可將其刪除。 如果已連結，則只能隱藏引數。 但是，它們無法隱藏最後兩個引數，因為至少需要兩個引數才能讓建議運作。
 
 ![刪除引數](assets/delete-parameter.png)
 *刪除引數*

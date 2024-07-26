@@ -1,17 +1,17 @@
 ---
 description: 閱讀本文章，瞭解如何在Learning Manager中檢視及使用課程。 參與討論並提供意見回饋。
 jcr-language: en_us
-title: 課程
+title: 我的學習
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2750'
+source-wordcount: '2753'
 ht-degree: 0%
 
 ---
 
-# 課程
+# 我的學習
 
 閱讀本文章，瞭解如何在Learning Manager中檢視及使用課程。 參與討論並提供意見回饋。
 
@@ -25,7 +25,7 @@ Adobe Learning Manager可讓學習者存取課程、學習計畫和認證。 學
 >
 >學習者也可從Apple Store安裝Learning Manager iPad應用程式，並從Google Play安裝Learning Manager Android應用程式，以及存取行動裝置上的課程。 應用程式中也提供所有學習者角色功能。 學習者也可以離線參加課程，並在上線後順暢存取。 如需詳細資訊，請參閱[iPad與Android平板電腦使用者](ipad-android-tablet-users.md)功能。
 
-## 檢視課程 {#viewingcourses}
+## 檢視學習物件 {#viewingcourses}
 
 您可以作為學習者檢視所有可用課程的清單。 按一下首頁或左窗格中的「我的學習」 ，以檢視您已註冊的所有課程。
 

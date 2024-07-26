@@ -4,9 +4,9 @@ title: 學習者常見問題集
 description: Adobe Learning Manager學習者的常見問題集
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2361'
 ht-degree: 0%
 
 ---
@@ -351,6 +351,18 @@ Learning Manager為學習者引入線上徽章，作為獎勵和表彰學習者�
 1. 按一下「附註」標籤。
 1. 若要將附註傳送至您註冊的電子郵件ID，請按一下「電子郵件附註」選項。
 1. 若要以pdf格式下載附註，請按一下「下載附註」。
+
++++
+
++++我可以在哪裡下載應用程式的案頭版本？
+
+請依照下列步驟下載案頭版本：
+
+1. 以學習者身分登入。
+2. 按一下&#x200B;**[!UICONTROL Social Learning]**。
+3. 按一下&#x200B;**[!UICONTROL New Post]**，然後按一下如下熒幕擷圖所示的任何圖示。
+
+這樣會開始下載應用程式。
 
 +++
 

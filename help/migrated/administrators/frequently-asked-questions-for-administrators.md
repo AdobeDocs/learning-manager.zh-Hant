@@ -4,9 +4,9 @@ title: 管理員常見問題
 description: Adobe Learning Manager管理員的常見問題集
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2360'
+source-wordcount: '2460'
 ht-degree: 0%
 
 ---
@@ -365,5 +365,26 @@ Adobe Learning Manager提供將外部部門成員或組織的外部員工註冊�
 您可從Learning Manager開啟的瀏覽器取得帳戶ID。
 
 */app/admin？i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++是否有我可以提取的報告，或某人可以為我提取的報告，為我顯示LMS中所有課程的清單？
+
+可以，您可以提取&#x200B;**[!UICONTROL Training Report]**，其中包含學習管理系統中的所有課程、學習計畫、認證。 若要下載報表，請遵循下列步驟：
+
+1. 以管理員身分登入。
+2. 按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**。
+3. 從下拉式清單中選取&#x200B;**[!UICONTROL All Trainings]**。
+4. 按一下&#x200B;**[!UICONTROL Download]**。
+
++++
+
++++我可以在哪裡下載應用程式的案頭版本？
+
+請依照下列步驟下載案頭版本：
+
+1. 以管理員身分登入。
+2. 按一下&#x200B;**[!UICONTROL Social Learning]** > **[!UICONTROL Settings]**。
+3. 在&#x200B;**[!UICONTROL Download Configuration]**&#x200B;下，根據您的作業系統按一下超連結。
 
 +++

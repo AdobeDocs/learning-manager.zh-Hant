@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 遊戲
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 0%
@@ -26,6 +26,8 @@ ht-degree: 0%
 ## 排行榜 {#leaderboard}
 
 排行榜是遊戲化功能，可作為計分板來顯示領先競爭對手的排名分數。 學習者可使用排行榜檢視其遊戲點數。
+
+![](assets/leaderboard.png)
 
 在學習者的首頁上，按一下左窗格中的&#x200B;**[!UICONTROL Gamification]**。 若要檢視排行榜，請按一下排行榜連結。 此功能可讓學習者瞭解他們如何面對特定團隊成員。 它也會顯示他們相對於團隊其他成員的排名位置。
 

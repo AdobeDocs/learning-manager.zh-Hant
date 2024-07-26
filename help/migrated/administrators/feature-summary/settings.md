@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3608'
 ht-degree: 0%
 
 ---
@@ -406,6 +406,10 @@ ht-degree: 0%
     <p>在所有其他應用程式（管理員、作者、管理員、自訂管理員、自訂作者）中，設定（星級評等/課程成效/停用顯示評等）的變更不會有任何影響。 </p>
     <p>對於新帳戶，<b>顯示評等</b>區段預設會啟用<b>星級評等</b>選項。</p>
     <p>對於現有帳戶，如果帳戶先前已啟用選項<b>課程成效</b>，則會在選取選項課程成效的情況下啟用<b>顯示評分</b>區段。 如果停用選項<b>課程效果</b>，則也會停用<b>顯示評等</b>區段。 啟用<b>顯示評等</b>區段時，預設會啟用<b>星級評等</b>選項。</p></td>
+  </tr>
+  <tr>
+   <td height="19">淘汰</td>
+   <td>從下列選項中選取任一淘汰選項：<li>淘汰後，已註冊的學習者將能夠檢視並執行動作，但尚未註冊的學習者將失去存取權。</li><li>淘汰後，已註冊和未註冊的學習者都將失去存取權。</li><div><b>備註：</b>您可以從課程總覽頁面淘汰課程、學習路徑或認證。</div> </td>
   </tr>
  </tbody>
 </table>

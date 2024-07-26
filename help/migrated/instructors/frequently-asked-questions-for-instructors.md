@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 講師常見問題
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '371'
 ht-degree: 0%
 
 ---
@@ -46,5 +46,12 @@ ht-degree: 0%
 +++講師可以修改任何工作階段嗎？
 
 身為講師，您只能檢視和編輯那些已指派給您之工作階段的詳細資訊。 您無法修改任何其他工作階段的工作階段或與會者清單。
+
++++
+
++++如何將講師角色指派給外部使用者？
+
+* 根據預設，**[!UICONTROL External User]**&#x200B;的&#x200B;**[!UICONTROL Assign]**&#x200B;區段中僅顯示&#x200B;**[!UICONTROL Make Manager]**&#x200B;或&#x200B;**[!UICONTROL Make Author]**。
+* 如果您想要將&#x200B;**講師**&#x200B;角色指派給LMS中的任何使用者，您可以將其新增為任何&#x200B;**[!UICONTROL Classroom]**&#x200B;或&#x200B;**[!UICONTROL Virtual Classroom]**&#x200B;模組的&#x200B;**講師**，而且LMS中會自動提供&#x200B;**講師**&#x200B;角色給使用者。
 
 +++

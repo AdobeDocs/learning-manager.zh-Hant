@@ -4,9 +4,9 @@ title: 目錄
 description: 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -57,6 +57,11 @@ ht-degree: 0%
 
    您可以將多個課程新增至目錄。
 1. 您可以依技能、角色和語言來篩選課程。 選中的課程會推薦給對這些技能和角色感興趣的學習者。
+
+   * **[!UICONTROL Skills]**：技能篩選器可讓使用者尋找專注於特定技能的課程。
+   * **[!UICONTROL Roles]**：角色篩選器可協助使用者存取針對不同角色的職責和需求量身打造的課程。
+   * **[!UICONTROL Language]**：語言篩選器可協助使用者選擇以其慣用或所需語言提供的課程
+
 1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
 1. 在新目錄的頁面中，在左窗格上按一下&#x200B;**[!UICONTROL Content]**。
 
