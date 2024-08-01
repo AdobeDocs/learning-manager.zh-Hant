@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 顏色主題
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -106,6 +106,11 @@ Learning Manager應用程式為其使用者提供五個顏色主題選項：
 >[!NOTE]
 >
 >內部使用者可以有作用中的欄位，例如外部使用者（例如，管理員必須透過分別選取作用中的欄位值，為內部使用者和外部使用者分別新增多品牌）。
+
+>[!INFO]
+>
+>如需詳細資訊，請參閱此[部落格](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/)。
+
 
 #### 要註記的點
 

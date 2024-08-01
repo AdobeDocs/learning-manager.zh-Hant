@@ -3,9 +3,9 @@ description: Adobe Learning Manager透過多個SSO設定，為內部和外部使
 title: 多個SSO登入
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '782'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 1. 匯入包含作用中欄位及其值的CSV。
 1. 按一下「設定>登入方法」。
-1. 啟用「啟用多個單一登入(SSO)」核取方塊。
+1. 選取&#x200B;**[!UICONTROL Enable Multiple Single Sign-On (SSO)]**&#x200B;登入核取方塊。
 1. 將SSO設定對應到作用中欄位的值。
 1. 儲存設定。 再次匯入CSV。
 
@@ -63,7 +63,7 @@ ht-degree: 0%
 請遵循下列步驟：
 
 1. 按一下「設定>登入方法」。
-1. 啟用「啟用多個單一登入(SSO)」核取方塊。
+1. 選取&#x200B;**[!UICONTROL Enable Multiple Single Sign-On (SSO)]**&#x200B;登入核取方塊。
 1. 選取SSO的有效欄位。
 1. 將SSO設定連結到欄位的值。
 1. 儲存設定。 新增單一使用者並指派使用中欄位的值。
@@ -73,7 +73,7 @@ ht-degree: 0%
 請遵循下列步驟：
 
 1. 按一下「設定>登入方法」。
-1. 啟用「啟用多個單一登入(SSO)」核取方塊。
+1. 選取&#x200B;**[!UICONTROL Enable Multiple Single Sign-On (SSO)]**&#x200B;登入核取方塊。
 1. 將SSO設定連結到欄位的值。
 1. 儲存設定。 新增單一使用者並指派使用中欄位的值。
 1. 新增自助註冊設定檔。
@@ -87,7 +87,7 @@ ht-degree: 0%
 
 1. 建立外部設定檔。
 1. 按一下「設定>登入方法」。
-1. 啟用「啟用多個單一登入(SSO)」核取方塊。
+1. 選取&#x200B;**[!UICONTROL Enable Multiple Single Sign-On (SSO)]**&#x200B;登入核取方塊。
 1. 將SSO設定連結到已建立的外部設定檔。
 1. 儲存設定。
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -762,14 +762,14 @@ Harvard ManageMentor聯結器是由Harvard ManageMentor的企業客戶所使用�
 
    若要同步成功，請確定Harvard ManageMentor FTP資料夾中至少有下列其中一個檔案：
 
-   hmm12_metadata.xlsx：此檔案提供Harvard ManageMentor聯結器的課程中繼資料。 上傳檔案時，請務必遵循命名慣例。
+   hmm12_metadata.csv：此檔案提供Harvard ManageMentor聯結器的課程中繼資料。 上傳檔案時，請務必遵循命名慣例。
 
-   client_hmm12_20150125.xlsx：這是Harvard ManageMentor聯結器的使用者摘要。 以下的檔案命名慣例是&#x200B;**client_hmm12_yyyyMMdd.xlsx.**
+   client_hmm12_20150125.csv：這是Harvard ManageMentor聯結器的使用者摘要。 以下的檔案命名慣例是&#x200B;**client_hmm12_yyyyMMdd.csv.**
 
    請參閱此聯結器的以下兩個使用者資訊源範例和課程資訊源檔案：
 
-   * Harvard ManageMentor聯結器的[課程中繼資料檔案](assets/hmm12-metadata.xlsx)
-   * [Harvard ManageMentor聯結器的使用者摘要](assets/client-hmm12-20170304.xlsx)
+   * Harvard ManageMentor聯結器的[課程中繼資料檔案](assets/hmm12-metadata.csv)
+   * [Harvard ManageMentor聯結器的使用者摘要](assets/client-hmm12-20170304.csv)
 
 ## Workday聯結器 {#workdayconnector}
 

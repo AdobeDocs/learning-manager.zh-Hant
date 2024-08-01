@@ -3,9 +3,9 @@ description: 瞭解如何建立內容，以配合課程成為自訂進度內容�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '3465'
+source-wordcount: '3496'
 ht-degree: 0%
 
 ---
@@ -503,6 +503,10 @@ WebVTT支援不適用於：
 1. 選取&#x200B;**動作** > **重新發佈**。
 
 內容現在會顯示在「已發佈」清單中。
+
+## 更新內容
+
+作者可更新已發佈課程的內容。 這可協助學習者取得最新版本的內容。 如需詳細資訊，請參閱此[部落格](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/)。
 
 ## 刪除內容 {#deletecontent}
 
