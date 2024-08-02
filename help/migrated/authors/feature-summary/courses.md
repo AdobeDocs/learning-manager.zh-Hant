@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立、修改和發佈課程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '6992'
+source-wordcount: '7012'
 ht-degree: 0%
 
 ---
@@ -120,6 +120,10 @@ Adobe Learning Manager可讓作者使用一或多個與虛擬訓練、自控進�
    >[!IMPORTANT]
    >
    >新增自訂合規性時，請務必設定課程的截止日期。
+
+   >[!NOTE]
+   >
+   >對於自訂合規性型別標籤，最多50個課程、學習路徑或認證可以有相同的值。
 
 1. 儲存並發佈課程/學習路徑/認證。
 現在，課程/學習路徑/認證被視為合規性型別。 管理員可以將此課程新增至合規性控制面板，並與管理員共用以追蹤進度
