@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '6861'
 ht-degree: 0%
@@ -256,7 +256,7 @@ _法規遵循儀表板 — 管理員檢視_
 
    >[!NOTE]
    >
-   >引入此新目錄標籤是為了將課程、學習路徑和認證歸類為合規性型別。 若要啟用&#x200B;**[!UICONTROL  Custom Compliance type]**&#x200B;選項，您必須先在同一頁面中啟用&#x200B;**[!UICONTROL Show Catalog Label]**&#x200B;選項。
+   >引入此新目錄標籤是為了將課程、學習路徑和認證歸類為合規性型別。 若要啟用&#x200B;**[!UICONTROL Custom Compliance type]**&#x200B;選項，您必須先在同一頁面中啟用&#x200B;**[!UICONTROL Show Catalog Label]**&#x200B;選項。
 
 1. 移至&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Catalog Label]**&#x200B;並選取&#x200B;**[!UICONTROL Compliance type]**。
 1. 在&#x200B;**[!UICONTROL Value]**&#x200B;文字方塊中輸入值（例如，Legal、Sales），然後選取&#x200B;**[!UICONTROL Add Value]**。
