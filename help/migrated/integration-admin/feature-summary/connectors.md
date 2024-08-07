@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -441,7 +441,7 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
    >
    >[管理員]欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有欄，才能使用聯結器。
 
-1. 完成對應後，請按一下&#x200B;**[!UICONTROL Save]**。
+1. 完成對應後選取&#x200B;**[!UICONTROL Save]**。
 
    聯結器現已準備就緒，可供使用。 已設定的帳戶會在管理員應用程式中顯示為資料來源，供管理員排程匯入或進行隨選同步。
 
@@ -2073,32 +2073,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 
 如需詳細資訊，請參閱&#x200B;[**在Adobe Learning Manager中安裝Microsoft Teams聯結器**](install-microsoft-teams-connector.md)。
 
-## 非登入體驗
-
-非登入體驗可讓您為非登入使用者建立即時體驗。 例如，非登入體驗可作為行銷活動的登陸頁面，以鼓勵註冊。
-
-Adobe Learning Manager中的非登入體驗可使用&#x200B;**[!UICONTROL Training Data Access]**&#x200B;聯結器進行設定。 聯結器提供下列方案：
-
-* 標準優惠方案
-* 進階優惠方案
-
-**標準方案**
-
-標準方案是建置原生Adobe Learning Manager版本。 使用者可以建立僅限示範、非登入的Headless體驗。 示範Headless體驗無法擴充，不應用於生產環境。
-
-**進階方案**
-
-進階方案可協助使用者建置由&#x200B;**[!UICONTROL Training Data Access]**&#x200B;聯結器設定的Headless介面。 這可讓使用者取得課程和學習路徑詳細資料的即時資料，例如名稱、說明、作者、技能、持續時間等。 對於混合式學習情境，您也會取得即時座位限制、已佔用座位、輪候表限制和輪候表數量。 客戶可使用這些API建立搜尋和篩選功能，以及為未登入的學習者提供完整的課程摘要。
-
-客戶可以購買進階計畫，以建立此高度可擴充的非登入體驗。
-
->[!NOTE]
->
->請聯絡支援團隊或CSM以購買優惠計畫。
-
-使用者購買計畫後，CSM團隊將為他們啟用進階計畫。 使用培訓資料存取聯結器，使用者可以使用先前提到的功能設定非登入體驗。
-
-### 訓練資料存取聯結器
+## 訓練資料存取聯結器 {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ Adobe Learning Manager中的非登入體驗可使用&#x200B;**[!UICONTROL Traini
 
 **[!UICONTROL Training Data Access]**&#x200B;聯結器可讓您建立Headless體驗。 此體驗可以是獨立的，或根據AEM Sites的自訂使用者介面。 它有助於擷取並顯示學習者的訓練資訊，並允許搜尋和篩選。 資料聯結器啟用後，即可使用一組公用API來建置介面，供學習者顯示課程/學習路徑資訊。
 
-#### 設定聯結器
+### 設定聯結器
 
 使用&#x200B;**[!UICONTROL Training Data Access]**&#x200B;聯結器將您的Adobe Learning Manager帳戶與資料儲存和搜尋系統整合。 這可協助您的AEM Sites式介面取得培訓資料、顯示網頁，並為學習者提供更好的搜尋選項。
 
@@ -2164,6 +2139,31 @@ Adobe Learning Manager中的非登入體驗可使用&#x200B;**[!UICONTROL Traini
 發佈的網站會顯示所有已移轉的課程、憑證和學習路徑的清單，這些是從Search Service擷取給未登入的學習者。
 
 當學習者按一下課程或憑證或學習路徑時，概觀頁面就會啟動。 在頁面上，學習者註冊時，必須先登入，然後才可參加課程。
+
+### 非登入體驗
+
+非登入體驗可讓您為非登入使用者建立即時體驗。 例如，非登入體驗可作為行銷活動的登陸頁面，以鼓勵註冊。
+
+Adobe Learning Manager中的非登入體驗可使用&#x200B;**[!UICONTROL Training Data Access]**&#x200B;聯結器進行設定。 聯結器提供下列方案：
+
+* 標準優惠方案
+* 進階優惠方案
+
+**標準方案**
+
+標準方案是建置原生Adobe Learning Manager版本。 使用者可以建立僅限示範、非登入的Headless體驗。 示範Headless體驗無法擴充，不應用於生產環境。
+
+**進階方案**
+
+進階方案可協助使用者建置由&#x200B;**[!UICONTROL Training Data Access]**&#x200B;聯結器設定的Headless介面。 這可讓使用者取得課程和學習路徑詳細資料的即時資料，例如名稱、說明、作者、技能、持續時間等。 對於混合式學習情境，您也會取得即時座位限制、已佔用座位、輪候表限制和輪候表數量。 客戶可使用這些API建立搜尋和篩選功能，以及為未登入的學習者提供完整的課程摘要。
+
+客戶可以購買進階計畫，以建立此高度可擴充的非登入體驗。
+
+>[!NOTE]
+>
+>請聯絡支援團隊或CSM以購買優惠計畫。
+
+使用者購買計畫後，CSM團隊將為他們啟用進階計畫。 使用培訓資料存取聯結器，使用者可以使用先前提到的功能設定非登入體驗。
 
 ## Adobe Commerce聯結器
 
