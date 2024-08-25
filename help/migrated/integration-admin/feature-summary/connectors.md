@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: fb887cdc26580cb0e56a80318276284724e4743a
+source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams聯結器 {#teams-connector}
+## Microsoft Teams聯結器 {#microsoft-teams-connector}
 
 Microsoft® Teams®是永續性的聊天式共同作業平台，可支援檔案共用、線上會議和其他商務通訊功能。
 
