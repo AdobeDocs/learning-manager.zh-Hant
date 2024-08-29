@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 設定
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3608'
+source-wordcount: '3626'
 ht-degree: 0%
 
 ---
@@ -165,7 +165,7 @@ ht-degree: 0%
   </tr>
   <tr>
    <td>顯示目錄標籤</td>
-   <td>啟用後，管理員和作者可以設定目錄標籤和值，並將其連結至學習物件。</td>
+   <td>啟用後，管理員和作者可以設定目錄標籤和值，並將其連結至學習物件。 選取此選項也可讓作者將課程、學習路徑、認證或工作輔助新增至目錄。</td>
   </tr>
   <tr>
    <td>學習者可檢視其分數</td>
