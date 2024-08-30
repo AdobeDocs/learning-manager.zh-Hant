@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 我的學習
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '2783'
 ht-degree: 0%
 
 ---
@@ -163,6 +163,10 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 **關閉課程**&#x200B;按一下播放器右上角的關閉(x)圖示以結束課程。
 
 *結束課程後，您可以按一下課程說明頁面上的[重新造訪]按鈕來重新造訪課程。*
+
+## 多個註冊例項
+
+如果課程有多個例項，學習者可選擇選擇並註冊特定例項。 如有需要，他們也可以切換執行個體。
 
 ## 星級評等
 
