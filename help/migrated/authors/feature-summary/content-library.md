@@ -3,9 +3,9 @@ description: 瞭解如何建立內容，以配合課程成為自訂進度內容�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3495'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 0%
    <td>
     <p>HTML</p></td>
    <td>
-    <p>html或htm</p></td>
+    <p>zip檔案</p></td>
   </tr>
  </tbody>
 </table>
