@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '3898'
+source-wordcount: '3909'
 ht-degree: 0%
 
 ---
@@ -235,7 +235,7 @@ Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例�
    <td>
     <p>遊戲化可供使用。</p></td>
    <td>
-    <p>遊戲無法使用。</p></td>
+    <p>遊戲化可供使用。 管理員必須在「遊戲化」設定中為外部學習者啟用遊戲化。</p></td>
   </tr>
   <tr>
    <td>
