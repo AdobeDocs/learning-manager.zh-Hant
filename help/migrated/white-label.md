@@ -4,9 +4,9 @@ title: Adobe Learning Manager行動應用程式中的白色標籤
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以將白色標籤套用至行動應用程式，藉此重新命名應用程式，並讓您的使用者在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+根資料夾包含&#x200B;**Runner.xcarchive.zip**&#x200B;檔案。 執行以下命令來產生已簽署的二進位檔案：
+
+1. 執行以下命令以解壓縮封存：
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. 導覽至應用程式目錄：
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. 複製行動布建檔案：
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. 返回根目錄（Runner.xcarchive.zip所在的位置）：
+
+   ```
+   cd <root>
+   ```
+
+5. 使用xcodebuild匯出封存：
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. 在ipa_path資料夾中找到.ipa檔案。
+7. 將.ipa檔案上傳至Diawi網站。
+8. 完全上傳後，選取&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
+9. 完成後，您將會收到QR碼和連結。
+10. 直接在Safari中開啟QR碼或連結。
+
+如果裝置包含在布建設定檔中，則應在裝置上繼續進行安裝。
 
 >[!NOTE]
 >
 >您需要有XCode 15.2或更新版本才能建置已簽署的二進位檔。
 
 
-## Android
+### Android
+
+**適用於apk檔案**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+適用於aab檔案&#x200B;**的**
 
 >[!NOTE]
 >
