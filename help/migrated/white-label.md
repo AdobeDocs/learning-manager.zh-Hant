@@ -4,9 +4,9 @@ title: Adobe Learning Manager行動應用程式中的白色標籤
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以將白色標籤套用至行動應用程式，藉此重新命名應用程式，並讓您的使用者在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    ```
 
 6. 在ipa_path資料夾中找到.ipa檔案。
-7. 將.ipa檔案上傳至Diawi網站。
+7. 將.ipa檔案上傳至`Diawi`網站。
 8. 完全上傳後，選取&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
 9. 完成後，您將會收到QR碼和連結。
 10. 直接在Safari中開啟QR碼或連結。

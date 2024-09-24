@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 建立和修改技能與層級
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
 source-wordcount: '1673'
 ht-degree: 0%
@@ -68,7 +68,7 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
    ![](assets/list-of-skills.png)
 
-   *檢視OIF技能清單*
+   *檢視技能清單*
 
 ## 將技能指派給學習者 {#assigntheskilltolearners}
 
