@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15605'
 ht-degree: 0%
@@ -58,11 +58,11 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 ### 設定Salesforce聯結器 {#configuresalesforceconnector}
 
-若要將Salesforce與Learning Manager整合，請瞭解此程式
+若要整合Salesforce與Learning Manager，請瞭解此程式
 
 #### 先決條件 {#prerequisites}
 
-確定您隨身帶著您的Salesforce組織URL。 例如，如果您的組織名稱為&#x200B;**myorg**，則Salesforce URL可以是`https://myorg.salesforce.com`。 這是連線Salesforce帳戶與Learning Manager的唯一必要輸入。
+確定您隨身有Salesforce組織URL。 例如，如果您的組織名稱為&#x200B;**myorg**，則Salesforce URL可以是`https://myorg.salesforce.com`。 這是連線Salesforce帳戶與Learning Manager的唯一必要輸入。
 
 同時請確定您擁有適當的認證以登入帳戶。
 
@@ -95,7 +95,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 ## 使用Salesforce聯結器 {#usingsalesforceconnector}
 
-Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，並將其新增至Learning Manager。
+Salesforce聯結器會連線至Salesforce.com ，以擷取設定中的使用者，並將其新增至Learning Manager。
 
 ### 從Salesforce聯絡人匯入使用者 {#import-salesforce-contacts}
 
@@ -132,14 +132,14 @@ Learning Manager增強了Salesforce聯結器，可擷取聯絡人和Salesforce�
 
 ## 匯出學習記錄 {#export-learning-records}
 
-Learning Manager可將學習記錄（如成績單、使用者報告、技能報告）匯出至Salesforce。 您可以決定匯出的資料是否應該連結至Salesforce中的「使用者」表格或「聯絡人」表格。
+Learning Manager可將學習記錄（如成績單、使用者報告、技能報告）匯出至Salesforce。 您可以決定匯出的資料應該連結至Salesforce中的「使用者」表格或「聯絡人」表格。
 
 ![](assets/export-events-new.png)
 *匯出學習記錄*
 
 ### Salesforce中的自訂物件 {#custom-objects-in-salesforce}
 
-從Learning Manager匯出學習記錄之前，您必須在Salesforce中建立自訂物件。 自訂物件是您建立的物件，用來儲存公司或產業的特定資訊。 如需詳細資訊，請參閱[Salesforce自訂物件](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro)。
+從Learning Manager匯出學習記錄前，您必須在Salesforce中建立自訂物件。 自訂物件是您建立的物件，用來儲存公司或產業的特定資訊。 如需詳細資訊，請參閱[Salesforce自訂物件](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro)。
 
 以下是建立物件的方式：
 
@@ -173,7 +173,7 @@ Learning Manager可將學習記錄（如成績單、使用者報告、技能報�
 
 ## 安裝Salesforce套件 {#install-salesforce-package}
 
-Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站中執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議並加以使用。 使用者也可以直接在SFDC入口網站的應用程式中，取得管理員以刊頭形式傳送的公告。
+Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以直接在SFDC入口網站的應用程式中，取得管理員以刊頭形式傳送的公告。
 
 ### 在Learning Manager應用程式中設定 {#setup-in-learning-manager-app}
 
@@ -191,7 +191,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 1. 在Salesforce註冊頁面上建立帳戶。 您必須在開發人員版或企業版中建立Salesforce帳戶。  [開發人員註冊網址](https://developer.salesforce.com/signup)。 請務必使用電子郵件ID註冊用於Learning Manager的Salesforce。
 1. 透過驗證電子郵件驗證您的帳戶。
 1. 建立密碼並登入Salesforce。
-1. 記下登入後的Salesforce URL (例如site.lightning.force.com)
+1. 請注意登入後的Salesforce URL (例如site.lightning.force.com)
 
 ### 安裝Learning Manager套件 {#install-learning-manager-package}
 
@@ -199,7 +199,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 
 >[!NOTE]
 >
->Adobe Learning Manager應用程式僅在Salesforce Lightning檢視中受支援。
+>Adobe Learning Manager應用程式僅在Salesforce閃電檢視中支援。
 
 1. 啟動[Learning Manager套件url](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ)。
 1. 在&#x200B;**登入**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Use Custom Domain]**。
@@ -2103,7 +2103,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 1. 從下列選項中選取&#x200B;**[!UICONTROL Type of interface]**：
 
    * **[!UICONTROL Native Learning Manager]**：這是標準產品，僅供原生介面使用。
-***[!UICONTROL  Headless interfaces]**：這是進階產品，會公開API以建置非登入體驗。
+   * **[!UICONTROL  Headless interfaces]**：這是進階產品，會公開API以建置非登入體驗。
 
    ![](assets/types-of-interface.png)
 介面型別

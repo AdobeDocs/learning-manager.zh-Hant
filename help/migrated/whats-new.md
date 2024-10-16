@@ -3,9 +3,9 @@ description: 瞭解2024年7月發行的Adobe Learning Manager中的新功能和�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2233'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -231,6 +231,12 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 ### 位移限制的變更
 
 為了改善系統效能並更有效地管理資源使用率，Adobe在ADMIN和LEARNER範圍的GET/users端點中已棄用高位移值。 我們建議使用工作API來擷取含有位移值的記錄。
+
+### RPM和成組分解限制的變更
+
+在此版本中，已針對所有API新增RPM （每分鐘要求數）和高載限制。 您可以在Swagger頁面上檢查每個API的RPM上限。
+
+RPM是一分鐘內可傳送至API伺服器的要求數目。 高載限制允許在短時間內傳送較多的要求，超出一般的速率限制。
 
 ### 已過時的API
 
