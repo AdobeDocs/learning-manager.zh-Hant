@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: Adobe Learning Manager中的AI支援搜尋
 description: 瞭解Adobe Learning Manager中的AI支援搜尋
-source-git-commit: c23a8f958910b130a1e8591c97d323523f864f1b
+source-git-commit: 9005b77444135c2709ca3fc68b9bdd725f521290
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -21,7 +21,7 @@ _以AI為依據的內容搜尋結果_
 
 在上面的熒幕擷圖中，當我們搜尋&#x200B;**photoshop快速入門**&#x200B;時，AI支援的搜尋會顯示該關鍵字的最精確結果。
 
-此功能會搜尋您的內容和協力廠商課程標題、說明、標籤、個人化附註及其他中繼資料。 演演算法會自動在成績單中轉錄和搜尋內容型別，例如影片、PDF，甚至是Adobe Connect工作階段的錄製。
+此功能會搜尋您的內容和協力廠商課程標題、說明、標籤、個人化附註及其他中繼資料。 演演算法會直接在成績單中自動轉錄和搜尋內容型別，例如影片、PDF，甚至是&#x200B;**Adobe Connect**&#x200B;工作階段的錄製。
 
 演演算法使用複雜的AI和NLP （自然語言處理）來瞭解搜尋查詢、標籤基本關鍵字，並從邏輯上展開搜尋查詢中的其他片語。 此查詢展開會提升相關辭彙和語義相關內容，以更聰明地擷取課程、憑證或學習路徑。 語意搜尋目前僅支援英文內容。
 
