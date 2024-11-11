@@ -2,9 +2,9 @@
 description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
 workflow-type: tm+mt
-source-wordcount: '2980'
+source-wordcount: '2979'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,7 @@ Adobe Learning Manager (ALM)現在可讓作者使用教室和虛擬教室模組�
 
 ## 完成註解
 
-管理員現在可以在課程、學習路徑或認證中將學習者標示為完成時新增註解。 管理員可以同時為一個或多個學習者新增註解，這些註解將會顯示在[學習者成績單](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)報告中。
+管理員現在可以在課程、學習路徑或認證中將學習者標示為完成時新增註解。 管理員可以同時為一個或多個學習者新增註解，且註解會顯示在[學習者成績單](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)報告中。
 
 如需詳細資訊，請參閱本文[完成註解](/help/migrated/administrators/feature-summary/courses.md#completion-comments)。
 
