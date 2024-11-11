@@ -2,9 +2,9 @@
 description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '2979'
+source-wordcount: '3052'
 ht-degree: 0%
 
 ---
@@ -494,17 +494,19 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 
 **[!UICONTROL Learning Transcripts]**&#x200B;報告將包含兩個新欄：
 
-* 模組識別碼
-* 課程例項ID
+* **[!UICONTROL Module ID]**：顯示每個模組的唯一識別碼。 此新欄已新增至現有&#x200B;**[!UICONTROL Module]**&#x200B;欄之後。
+* **[!UICONTROL Course Instance ID]**：顯示每個課程執行個體的唯一識別碼。此新欄已新增到現有&#x200B;**[!UICONTROL Instance]**&#x200B;欄之後。
+* **[!UICONTROL Completion Comment]**：此欄會擷取管理員在標示使用者完成時輸入的註解。 此新欄已在報告結尾新增。
+
 
 ### 工作階段摘要報告
 
 **[!UICONTROL Session Summary]**&#x200B;報告將包含三個新欄：
 
-* 模組識別碼
-* 工作階段ID
-* 課程例項ID
-* 完成計數
+* 已在&#x200B;**[!UICONTROL Session Name]**&#x200B;欄之前新增&#x200B;**[!UICONTROL Module ID]**&#x200B;欄。
+* 已在&#x200B;**[!UICONTROL Session Name]**&#x200B;欄之前新增&#x200B;**[!UICONTROL Session ID]**&#x200B;欄。
+* 已在&#x200B;**[!UICONTROL Instance Name]**&#x200B;欄之後新增&#x200B;**[!UICONTROL Course Instance ID]**&#x200B;欄。
+* 已在&#x200B;**[!UICONTROL Enrollment Count]**&#x200B;欄之後新增&#x200B;**[!UICONTROL Completion Count]**&#x200B;欄。
 
 ## 此更新中修正的錯誤
 
