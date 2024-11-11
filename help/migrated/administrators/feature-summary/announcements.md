@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 公告
 description: 宣告是管理員廣播給已定義使用者集合的多媒體訊息（文字、影像或視訊）。
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '1033'
 ht-degree: 0%
 
 ---
@@ -59,26 +59,32 @@ ht-degree: 0%
 
 當您選擇此選項時，您選擇功能的任何媒體檔案都會作為學習者首頁的刊頭。 刊頭可作為其適用學習者的行動號召。
 
-![](assets/masthead-announcement.png)
+管理員可為所有刊頭新增替代文字，以改善學習者的協助工具。 這項功能可讓有特殊需求的學習者使用熒幕助讀程式來閱讀替代文字及瞭解影像。 您可以選取多種語言，並為每種語言提供替代文字。 請確定在個別語言中新增替代文字。
 
-*自訂刊頭*
+若要新增刊頭，請執行下列步驟：
 
-1. 瀏覽並選擇代表刊頭的影像。 建議的大小為1280 x 360畫素。
-1. 選擇要新增刊頭的地區設定。 您必須針對每種語言選擇刊頭資產。
-1. 在&#x200B;**[!UICONTROL Action Button]**&#x200B;欄位中新增URL，讓學習者按一下刊頭上的按鈕時，就能重新導向至該URL。 此為選用欄位。
-1. 選擇目標使用者群組或目標學習物件。 您只能為宣告選擇其中之一。
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 選取&#x200B;**[!UICONTROL Announcements]** > **[!UICONTROL Add]**。
+3. 從「型別」下拉式功能表中選取&#x200B;**[!UICONTROL As Masthead]**。
 
-   開始在文字方塊中輸入使用者群組名稱，然後從下拉式清單中選擇。 同樣地，在文字方塊中輸入物件名稱來選擇訓練。
+   ![](assets/announcement.png)
+   _建立宣告_
 
-1. 在&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段中，您有以下選項：
+4. 選取語言並上傳影像。
 
-   * 若您想要立即張貼宣告，請按一下&#x200B;**[!UICONTROL Immediately]**。
-   * 如果您不希望宣告過期，請按一下&#x200B;**[!UICONTROL Never]**。
+   >[!NOTE]
+   >
+   >您可以選取多種語言，並為每種語言提供替代文字。 請確定在個別語言中新增替代文字。
+
+5. 在&#x200B;**[!UICONTROL Alt Text]**&#x200B;欄位中輸入適當的文字。
+6. 在&#x200B;**[!UICONTROL Action Button]**&#x200B;欄位中，新增URL以當學習者按一下標頭上的按鈕時重新導向。
+7. 選取目標使用者群組或目標學習物件。 您只能為宣告選擇其中之一。
+8. 在&#x200B;**[!UICONTROL Advanced Settings]**&#x200B;區段中，您有以下選項：
+
+   * 若要立即張貼宣告，請選取&#x200B;**[!UICONTROL Immediately]**。
+   * 如果您不希望宣告過期，請選取&#x200B;**[!UICONTROL Never]**。
    * 選取宣告的&#x200B;**[!UICONTROL Start]**&#x200B;和&#x200B;**[!UICONTROL End]**&#x200B;日期。
-
-   ![](assets/advanced-settings.png)
-
-   *設定刊頭顯示的時間*
+9. 選取儲存並發佈宣告。
 
 **即時刊頭公告的數目是否有限制？**
 

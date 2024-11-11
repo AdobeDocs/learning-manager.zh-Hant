@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 8c4d00ed9213c21463a046f74d1db17b331da85f
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 2%
+source-wordcount: '618'
+ht-degree: 3%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 2%
 * [Learning Manager使用手冊](user-guide.md)
 * 簡介{#introduction}
    * [新功能摘要](whats-new.md)
+   * [新功能摘要2024年7月](whats-new-july-2024.md)
    * [新功能2024年3月](whats-new-march-2024.md)
    * [新功能2023年11月](whats-new-november-2023.md)
    * [新功能2023年7月](whats-new-2023-july.md)
    * [新功能2023年4月](whats-new-2023-april.md)
-   * [新功能2022年11月](whats-new-2022-november.md)
    * [發行說明](release-note/release-notes.md)
    * [系統需求](system-requirements.md)
    * [適用於AEM Sites的ALM參照站台套件](adobe-learning-manager-integration-aem.md)
@@ -88,8 +88,11 @@ ht-degree: 2%
    * [移轉手冊](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager聯結器](integration-admin/feature-summary/connectors.md)
    * [未登入的API](integration-admin/feature-summary/non-logged-in-apis.md)
+   * [Webhooks](integration-admin/feature-summary/webhooks.md)
+   * [可信](integration-admin/feature-summary/credly-integration.md)
+   * [學習工具互通性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [將Learning Manager與AEM整合](integrate-aem-learning-manager.md)
-   * [在Learning Manager中安裝Salesforce套件](integration-admin/feature-summary/install-salesforce-package.md)
+   * [在Learning Manager安裝Salesforce套件](integration-admin/feature-summary/install-salesforce-package.md)
    * [安裝Microsoft Teams聯結器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [應用程式開發人員手冊](integration-admin/feature-summary/developer-manual.md)
    * [適用於Salesforce的Learning Manager應用程式](integration-admin/feature-summary/sfdc-app.md)
@@ -127,7 +130,8 @@ ht-degree: 2%
    * [使用者通知](learners/feature-summary/user-notifications.md)
    * [公告](learners/feature-summary/announcements.md)
    * [輪候表與出勤管理](learners/feature-summary/waitlist-attendance-management.md)
-   * [適用於Salesforce的Learning Manager應用程式](learners/feature-summary/sfdc-app.md)
+   * [Adobe Learning Manager中的AI支援搜尋](/help/migrated/learners/feature-summary/advanced-search.md)
+   * [Salesforce的Learning Manager應用程式](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect整合](learners/feature-summary/adobeconnect-integration.md)
    * [適用於行動裝置和平板電腦的學習者應用程式](learners/feature-summary/ipad-android-tablet-users.md)
    * [Learning Manager中的社交學習](learners/feature-summary/social-learning-web-user.md)

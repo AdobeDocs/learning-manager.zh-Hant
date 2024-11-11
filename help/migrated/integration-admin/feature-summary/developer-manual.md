@@ -4,9 +4,9 @@ title: 應用程式開發人員手冊
 description: Learning Manager V1 API現已棄用。 V1 API將於2021年2月28日起停止運作。 建議您使用V2 API與Learning Manager互動。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3382'
+source-wordcount: '3374'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ API要求可透過發出HTTP要求來進行。 根據端點和方法，開發人
 
 API物件的屬性及其關系統稱為「欄位」。 如需詳細資訊，請參閱[JSON API。](http://jsonapi.org/format/#document-resource-object-fields)您可在進行API呼叫以從模型中擷取一或多個特定屬性時，使用Fields作為引數。 在沒有Fields引數的情況下，API呼叫會從模型中擷取所有可用的屬性。 例如，在下列API呼叫中，欄位[skill]=name會單獨擷取技能模型的name屬性。
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **分頁**
 

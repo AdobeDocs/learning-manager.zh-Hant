@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager發行說明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26232'
+source-wordcount: '26218'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 此版本的新增功能
 
-檢視[Adobe Learning Manager的新功能](/help/migrated/whats-new.md)以取得詳細資訊。
+檢視[Adobe Learning Manager的新功能](/help/migrated/whats-new-july-2024.md)以取得詳細資訊。
 +++
 
 +++更新96： 2024年3月發行的Adobe Learning Manager
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 ## 此版本的新增功能
 
-檢視[Adobe Learning Manager的新功能](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023)以取得詳細資訊。
+檢視[Adobe Learning Manager的新功能](/help/migrated/whats-new-november-2023.md)以取得詳細資訊。
 +++
 
 +++更新94
@@ -396,8 +396,6 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 * 播放器自訂
 * 學習者和經理的模擬
 
-如需詳細資訊，請參閱[Adobe Learning Manager 2022年11月發行版本的新增功能](/help/migrated/whats-new-2022-november.md)。
-
 **注意：**&#x200B;在2022年11月發行的Adobe Learning Manager中，Zoom將在2023年6月前淘汰[JWT驗證](https://marketplace.zoom.us/docs/guides/auth/jwt/)。 因此，在提及日期之前，具有JWT的Zoom聯結器將繼續運作，但我們建議使用者建立伺服器對伺服器OAuth應用程式，以取代其帳戶中的功能。 依預設，任何新連線都會進行Zoom OAuth驗證。
 
 ### 此更新中修正的錯誤
@@ -710,7 +708,7 @@ Adobe Learning Manager **的** 2021年10月版本引進了學習路徑的概念�
 
 ### 其他變更
 
-* 新Salesforce應用程式
+* 新的Salesforce應用程式
 * Content Hub
 * 報告變更
 * 工作階段摘要報告
@@ -795,7 +793,7 @@ Adobe Learning Manager **的** 2021年8月&#x200B;****&#x200B;版本著重於改
 * **RTF格式：** Learning Manager現在提供RTF編輯功能，讓您編輯課程、方案、憑證和工作輔助的說明。 這可讓作者以RTF文字指定說明，包括超連結、影像和其他文字格式選項，而非純文字。
 * **星級評等：**&#x200B;學習者現在可以以5分評等為課程評分。 管理員可以在現有的有效性評等或5星級評等之間選取。
 * **Badgr整合：**&#x200B;學習者現在可以授權Learning Manager自動將其在Learning Manager中取得的徽章推送至其Badgr帳戶，以便透過社交網路分享其徽章。
-* **將學習事件匯出至Salesforce：** Learning Manager現在可讓您匯出Learning Manager中的一些特定事件，例如新使用者的加入、註冊和完成到Salesforce租使用者，並可將這些事件與Salesforce中的適當使用者物件或連絡人物件連結。
+* **將學習事件匯出至Salesforce：** Learning Manager現在可讓您匯出Learning Manager中的某些特定事件（例如新增、註冊和完成）至Salesforce租使用者，並可將這些事件與Salesforce中的適當使用者物件或連絡人物件連結。
 
 如需詳細資訊，請參閱&#x200B;[***Learning Manager 2021年8月版本的新增功能和變更***](../whats-new.md)。
 
@@ -1006,7 +1004,7 @@ Captivate Learning Manager Mobile應用程式更新3.3推出全新的首頁，�
 * 自訂社交橫幅。
 * 學習者應用程式中的目錄篩選器。
 * 取消訓練註冊。
-* 從Salesforce聯絡人匯入使用者。
+* 從Salesforce連絡人匯入使用者。
 * ...還有更多。
 
 如需詳細資訊，請參閱Learning Manager [ 2021年2月更新](../whats-new.md)的新增功能。
@@ -2788,7 +2786,7 @@ Learning Manager應用程式中已增強整合請求驗證/驗證流程。
 
 **Salesforce整合**
 
-* 建立Salesforce或FTP連線後，在對映屬性頁面中，欄位的下拉式箭頭未顯示在IE、Edge和Safari瀏覽器中。 此外，部分快顯訊息未顯示在工作流程中。 此問題已修正。
+* 建立Salesforce或FTP連線後，對應屬性頁面中的IE、Edge和Safari瀏覽器不會顯示欄位的下拉式箭頭。 此外，部分快顯訊息未顯示在工作流程中。 此問題已修正。
 * 在某些情況下，當管理員嘗試同步FTP聯結器中的.csv匯入資料時，同步會因復寫專案而失敗。 此問題已修正。
 
 **API層**
@@ -3037,7 +3035,7 @@ Learning Manager應用程式不允許外部學習者在帳戶過期後登入應�
 
 **建立技能**
 
-在學習者登入中，{技能圖{0**中的技能名稱工具提示為&#x200B;****未顯示****全名。**&#x200B;此問題已修正。
+在學習者登入中，「技能圖」中的技能名稱工具提示**{0**未顯示&#x200B;****全名。****&#x200B;此問題已修正。
 
 **新增外部合作夥伴**
 

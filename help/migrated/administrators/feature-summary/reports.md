@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '6861'
+source-wordcount: '7469'
 ht-degree: 0%
 
 ---
@@ -289,63 +289,107 @@ _法規遵循儀表板 — 管理員檢視_
 >
 >共用新儀表板將會覆寫所選管理員應用程式中的現有儀表板。 管理員將能夠檢視管理員新共用的儀表板。
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### 與管理員和自訂管理員共用法規遵循儀表板
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+管理員可以與其他管理員和自訂管理員共用控制面板，讓他們立即存取所有合規性控制面板。
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+請依照下列步驟，與管理員和自訂管理員共用控制面板：
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**。
+3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Admin View]**。
+4. 選取&#x200B;**[!UICONTROL Share Dashboard]**&#x200B;按鈕。
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _共用儀表板 — 管理員_
 
-You can also see the compliance status for each internal team.
+5. 從&#x200B;**[!UICONTROL Select Custom Compliance]**&#x200B;下拉式功能表中選取規範標籤。 此選項會選取所有具有所選相容性標籤的課程。
+6. 選取您想要與管理員分享的其他課程、學習路徑或認證。
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _共用法規遵循儀表板_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. 選取您要共用儀表板的使用者或使用者群組，然後選取&#x200B;**[!UICONTROL Share]**。
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### 檢視合規性儀表板 — 自訂管理員和其他管理員
 
-### Share training with managers
+來自所選使用者群組的所有自訂管理員和其他管理員都可以在他們的應用程式上看到合規性儀表板。
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+請依照下列步驟檢視法規遵循儀表板：
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+2. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Your View]**。
+3. 選取「**[!UICONTROL Go to Compliance Dashboard]**」選項，您就能看到管理員共用的新法規遵循儀表板。
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _檢視合規性儀表板 — 自訂管理員_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### 與商店管理員共用
 
-### Share training
+管理員可與商店管理員共用合規性儀表板，讓他們監控學習者的合規性進度。
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+請依照下列步驟，與商店管理員共用控制面板：
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Manager View]**。
+4. 選取&#x200B;**[!UICONTROL Share Dashboard]**&#x200B;按鈕。
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _與管理員共用合規性儀表板_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. 從&#x200B;**[!UICONTROL Select Custom Compliance]**下拉式功能表中選取規範標籤。
+此選項會選取所有具有所選相容性標籤的課程。
+6. 選取您想要與管理員分享的其他課程、學習路徑或認證。
+7. 選取您要共用儀表板的使用者或使用者群組，然後選取&#x200B;**[!UICONTROL Share]**。
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### 檢視合規性儀表板 — 管理員
 
-1. Click **[!UICONTROL Share]**.
+如需詳細資訊，請參閱本文[檢視合規性儀表板](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard)。
 
-The training is now shared with the specified manager.
+#### 編輯儀表板
 
-### View training
+請依照下列步驟編輯法規遵循儀表板：
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段上選取&#x200B;**[!UICONTROL Admin View]**&#x200B;或&#x200B;**[!UICONTROL Manager View]**。 您可以在此章節中檢視合規性儀表板。
+4. 在您要編輯的規範儀表板上選取&#x200B;**[!UICONTROL Edit]**。
 
-### Withdraw training
+   ![](assets/edit.png)
+   _編輯規範儀表板_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. 變更必要的詳細資料，並選取&#x200B;**[!UICONTROL Share]**。
+6. 合規性控制面板將與選取的管理者共用。
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### 撤銷控制面板 — 管理員
+
+請依照下列步驟撤銷法規遵循儀表板：
+
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段上選取&#x200B;**[!UICONTROL Admin View]**&#x200B;或&#x200B;**[!UICONTROL Manager View]**。 您可以在此章節中檢視合規性儀表板。
+4. 在您要移除的規範儀表板上選取&#x200B;**[!UICONTROL Withdraw]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+5. 此動作會從管理員的應用程式中移除共用的合規性控制面板。
+
+   ![](assets/manager-edit.png)
+   _撤銷規範儀表板_
+
+#### 為學習者設定預設合規性Widget
+
+請依照下列步驟，為學習者設定預設的合規性Widget：
+
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Learner View]**。
+4. 在&#x200B;**[!UICONTROL Learner View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Change]**。
+
+   ![](assets/learner-widget.png)
+   _設定學習者的預設合規性Widget_
+5. 從&#x200B;**[!UICONTROL Custom Compliance]**&#x200B;下拉式清單中選取規範標籤。 此選項會選取所有具有所選相容性標籤的課程。
+6. 選取&#x200B;**[!UICONTROL Proceed]**&#x200B;以設定預設的規範遵循Widget。
+
+學習者可在首頁上的合規性Widget上檢視所選課程或學習路徑。 如需詳細資訊，請參閱[法規遵循儀表板Widget](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget)。
 
 ## 自訂報表
 
@@ -533,7 +577,7 @@ Adobe Learning Manager可讓組織的管理員產生與學習者相關的成績�
 
 * 物件ID
 * 物件名稱
-* 物件型別
+* 物件類型
 * 修改型別
 * 說明
 * 參考物件ID
@@ -846,6 +890,34 @@ Learning Manager支援「培訓報表」，可讓管理員下載培訓詳細資�
 * 學習元素提醒
 * 領域 — 目錄
 * 範圍 — 使用者群組
+
+### 自訂角色的稽核軌跡
+
+管理員可以下載自訂角色稽核報告，以追蹤對自訂角色所做的所有變更，包括建立、修改和刪除自訂角色及其相關功能存取權。
+
+若要下載報表，請遵循下列步驟：
+
+1. 以管理員身分登入。
+2. 選取報表>自訂報表。
+3. 選取自訂角色稽核軌跡，並挑選日期範圍
+4. 選取「產生」以下載報表。
+
+「自訂角色稽核軌跡」報表包含下列欄位：
+
+* 角色ID
+* 角色名稱
+* 活動型別
+* 修改型別
+* 說明
+* 參考物件型別
+* 參考物件ID
+* 參考物件名稱
+* 參考物件電子郵件
+* 依使用者名稱修改
+* 依使用者UUID修改
+* 依使用者電子郵件修改
+* 修改日期（UTC時區）
+* Source
 
 ## 電子郵件訂閱 {#emailsubscriptions}
 

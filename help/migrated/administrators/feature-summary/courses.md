@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程例項和學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4715'
+source-wordcount: '4943'
 ht-degree: 0%
 
 ---
@@ -235,6 +235,35 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 ## 輪候表
 
 當名額有限時，輪候表區段可讓學習者根據其註冊順序輪候教室課程。 管理員可以透過選擇輪候學習者並分配超過初始限制的名額來管理此專案。 管理員分配名額後，學習者會立即註冊課程。
+
+### 輪候表報告
+
+Adobe Learning Manager可讓管理員下載課程所有執行個體的輪候學習者清單。 管理員可以從&#x200B;**[!UICONTROL Course Overview]**&#x200B;頁面上的輪候表區段存取此報告。
+
+依照輪候表報表中的可用欄執行：
+
+* 課程名稱
+* 執行個體名稱
+* 執行個體ID
+* 執行個體狀態
+* 使用者名稱
+* 電子郵件
+* 使用者唯一ID
+* 註冊日期（UTC時區）
+* 狀態
+* 輪候表編號
+* 輪候表限制
+* 名額限制
+
+若要從管理員區段下載報表：
+
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 前往&#x200B;**[!UICONTROL Course]**&#x200B;區段並選取必要的課程。
+3. 在&#x200B;**[!UICONTROL Course overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Waitlist]**&#x200B;選項。
+4. 選取&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Export Report]**&#x200B;以下載&#x200B;**[!UICONTROL Waitlist]**&#x200B;報告。
+
+   ![](assets/export-report-waitlist.png)
+   _匯出報告_
 
 ## 匯出學習者的出席情況 {#attendance}
 
@@ -498,6 +527,31 @@ CSV報表包含以下欄位：
 ![](assets/escalation-notification.png)
 
 *設定提升層級*
+
+## 完成註解
+
+當管理員將任何學習者標籤為完成課程、學習路徑或認證時，他們可能會留下註解。 這些註解有助於規範遵循與稽核目的。 管理員可輕鬆一次為一個或多個學習者新增註解。
+
+### 新增完成註解
+
+請依照下列步驟新增完成註解：
+
+1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
+2. 前往&#x200B;**[!UICONTROL Courses]**&#x200B;頁面並選取課程。
+3. 在課程頁面上選取&#x200B;**[!UICONTROL Learners]**。
+4. 選擇個別或多個學習者。
+5. 選取&#x200B;**[!UICONTROL Actions]**，然後選取**[!UICONTROL  Mark Completion]**。
+6. 在對話方塊中輸入完成註解。
+
+   ![](assets/comments.png)
+   _完成註解_
+
+此程式與學習路徑與認證程式相同。 對於學習路徑，您可以篩選以選取所有課程，或僅選取個別課程以標籤為完成。
+
+![](assets/learning-path.png)
+_選取多個課程以完成_
+
+註解將顯示在[學習者成績單](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)報告中。
 
 ## 預覽課程 {#previewcourses}
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 管理工作階段的學習者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -41,6 +41,32 @@ ht-degree: 0%
 
 ![](assets/unenroll-learners.png)
 *取消學習者註冊*
+
+### 輪候表報告
+
+Adobe Learning Manager的新&#x200B;**[!UICONTROL Waitlist Report]**&#x200B;可讓講師下載課程所有執行個體的輪候學習者清單。 講師可以從&#x200B;**[!UICONTROL Session Overview]**&#x200B;頁面上的&#x200B;**[!UICONTROL Waitlist]**&#x200B;區段存取此報告。
+
+依照輪候表報表中的可用欄執行：
+
+* 課程名稱
+* 執行個體名稱
+* 執行個體ID
+* 執行個體狀態
+* 使用者名稱
+* 電子郵件
+* 使用者唯一ID
+* 註冊日期（UTC時區）
+* 狀態
+* 輪候表編號
+* 輪候表限制
+* 名額限制
+
+若要從講師區段下載報表：
+
+1. 以&#x200B;**[!UICONTROL Instructor]**&#x200B;登入。
+2. 從首頁選取任何階段作業。
+3. 在&#x200B;**[!UICONTROL Session Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Waitlist]**&#x200B;選項。
+4. 選取&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Export Report]**&#x200B;以下載&#x200B;**[!UICONTROL Waitlist]**&#x200B;報告。
 
 ## 標籤工作階段的出席情況 {#markattendanceforyoursession}
 

@@ -4,9 +4,9 @@ title: 目錄
 description: 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2487'
 ht-degree: 0%
 
 ---
@@ -96,6 +96,10 @@ ht-degree: 0%
    您新增的工作輔助會顯示在&#x200B;**[!UICONTROL Job Aids]**&#x200B;標籤中。
 
 如果帳戶中已提供內容，則會顯示在這兩個標籤中的每一個中。 否則，您需要先建立內容。 例如，如果您尚未在Learning Manager應用程式中新增任何課程或學習計畫，則必須先開始建立它們。
+
+## 大量移除課程、學習路徑或工作輔助
+
+管理員或自訂管理員可以大量移除課程、學習路徑或工作輔助。 移至&#x200B;**[!UICONTROL Catalogs]**&#x200B;並選取目錄。 在&#x200B;**[!UICONTROL Content]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL Edit Content]**。 然後，選取課程、學習路徑或工作輔助旁的&#x200B;**[!UICONTROL Remove]**&#x200B;選項，並選取&#x200B;**[!UICONTROL Save]**。
 
 ## 學習者目錄的深層連結 {#deep-link}
 
