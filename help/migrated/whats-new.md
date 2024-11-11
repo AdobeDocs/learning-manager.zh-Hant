@@ -2,7 +2,7 @@
 description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '2979'
 ht-degree: 0%
@@ -223,7 +223,7 @@ Adobe Learning Manager現在會封鎖學習者應用程式中包含禁止字詞�
 3. `quizData`：
 
    * 資料型別應為字串值，且支援的值是`QUIZ_ATTEMPTED`、`QUIZ_PASSED`和`QUIZPASSED_OR_LIMITREACHED`。
-   * 當`completionCriteria`設定為`QUIZ`時，請在此欄中輸入適當的測驗值或將其留白。
+   * 當`completionCriteria`設定為`QUIZ`時，請在`quizData`欄中輸入適當的測驗值。
 
 如需詳細資訊，請參閱[module_version csv spec](assets/4-module_version.xlsx)檔案。
 
@@ -239,7 +239,7 @@ Adobe Learning Manager現在會封鎖學習者應用程式中包含禁止字詞�
 * 如果您將`completionCriteria`設為`SELECTEDMODULES`，則需要在[course_module.csv](assets/course_module.csv)檔案中標示必要的模組。
 * 在`optionalCriteria`欄中輸入`TRUE`或`FALSE`。 如果您將值設為`TRUE`，則會讓模組成為必要。
 
-如需詳細資訊，請參閱[課程csv規格](assets/3-course.xlsx)檔案。
+如需詳細資訊，請參閱[課程csv規格](assets/3-course.xlsx)和[課程_模組csv規格](assets/6-course_module.xlsx)檔案。
 
 ## API變更
 
