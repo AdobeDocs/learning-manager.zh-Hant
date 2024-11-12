@@ -3,14 +3,14 @@ description: 瞭解2024年7月發行的Adobe Learning Manager中的新功能和�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 685220000be6be524c0829fe400abec911cf067e
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2305'
 ht-degree: 0%
 
 ---
 
-# 新功能摘要 {#new-features-summary}
+# 新功能摘要2024年7月 {#new-features-summary-july-2024}
 
 瞭解2024年7月發行的Adobe Learning Manager中的新功能和增強功能。
 
