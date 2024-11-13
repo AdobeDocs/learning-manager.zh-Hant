@@ -2,9 +2,10 @@
 description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
+exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
+source-git-commit: dcfcb8d9c161eda83db966b93fad45f1430c47af
 workflow-type: tm+mt
-source-wordcount: '3052'
+source-wordcount: '3053'
 ht-degree: 0%
 
 ---
