@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: 學習工具互通性(LTI)
 description: 瞭解LTI整合ALM
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1782'
+source-wordcount: '1851'
 ht-degree: 0%
 
 ---
@@ -235,6 +236,16 @@ _匯出狀態_
 * LTI作用中欄位是單一值，不支援多個值。
 * 移轉沒有核心內容的課程期間，匯出失敗時，無法使用失敗原因。
 * 外部LTI課程成績未出現在學習者成績單中，並且L2測驗頁面上看不到分數，這會影響學習者的績效追蹤。
+
+## LTI啟動失敗案例
+
+以下是外部LTI播放器無法啟動的課程，因為在建立launch連結後，ALM最近曾進行過變更：
+
+* 執行個體已淘汰的課程。
+* 已淘汰且未註冊ALM的課程。
+* 已註冊ALM但已淘汰的課程。
+* 已在ALM中刪除的課程。
+* 已達到註冊限制的課程。
 
 ## 最佳實務
 

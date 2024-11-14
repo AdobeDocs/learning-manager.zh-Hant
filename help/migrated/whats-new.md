@@ -3,9 +3,9 @@ description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3053'
+source-wordcount: '3068'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL Waitlist Report]**&#x200B;可�
 * 輪候表限制
 * 名額限制
 
-請參閱此文章[輪候表報告](/help/migrated/administrators/feature-summary/courses.md#waitlist-report)和[輪候表報告](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)，以從管理員和講師區段下載報告。
+請參閱此文章[輪候表報告（管理員）](/help/migrated/administrators/feature-summary/courses.md#waitlist-report)和[輪候表報告（講師）](/help/migrated/instructors/feature-summary/learners.md#waitlist-report)，以從管理員和講師區段下載報告。
 
 ## 學習者首頁的協助工具
 
@@ -149,6 +149,10 @@ Adobe Learning Manager現在支援所有刊頭的替代文字，以改善學習�
 ## 支援北印度文
 
 Adobe Learning Manager現在推出印地語作為平台的介面語言之一，並支援平台在印度成長。 對印地語母語喇叭的支援可確保使用者完全存取所有功能、報告和整體使用者體驗。
+
+>[!NOTE]
+>
+>系統以PDF格式產生的徽章憑證將不支援北印度文。
 
 若要變更介面語言，請遵循下列步驟：
 
