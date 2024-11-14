@@ -3,7 +3,7 @@ description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 370cffa791fed463420658ef1f2079a0608e964b
+source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 0%
@@ -544,4 +544,3 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 
 * [2024年7月發行版本](/help/migrated/whats-new-july-2024.md)
 * [2024年3月發行版本](/help/migrated/whats-new-march-2024.md)
-
