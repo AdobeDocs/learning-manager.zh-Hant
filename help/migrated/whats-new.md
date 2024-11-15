@@ -3,9 +3,9 @@ description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '3068'
+source-wordcount: '3077'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,10 @@ ht-degree: 0%
 ## Adobe Learning Manager中的AI支援搜尋
 
 Adobe Learning Manager正在改寫學習者搜尋課程或訓練的方式。 它引入了AI支援的搜尋功能，結合了辭彙和語意搜尋。 搜尋現在變得更加聰明，因為它會尋找特定辭彙，並瞭解這些辭彙背後的語境和意圖。 進階搜尋可瞭解您查詢的意義，並提供相關結果。 它會識別搜尋的主要焦點，以提供您最完整的結果集。
+
+>[!NOTE]
+>
+>AI支援的搜尋僅適用於學習者。
 
 如需詳細資訊，請參閱本文[進階搜尋](/help/migrated/learners/feature-summary/advanced-search.md)。
 

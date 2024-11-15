@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支援搜尋
 description: 瞭解Adobe Learning Manager中的AI支援搜尋
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 ALM中的搜尋功能可讓使用者有效率地尋找相關內容，並幫助他們使用正確的內容，藉此增強使用者體驗。
 
 Adobe Learning Manager引進了AI支援的搜尋功能，結合了辭彙和語意搜尋。 搜尋會尋找特定辭彙，並瞭解其背後內容和意圖，因此更為聰明。 進階AI支援的搜尋可瞭解您查詢的涵義並提供相關結果。
+
+>[!NOTE]
+>
+>AI支援的搜尋僅適用於學習者。
 
 ## 為什麼搜尋很重要？
 
