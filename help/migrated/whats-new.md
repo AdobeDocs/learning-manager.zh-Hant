@@ -3,7 +3,7 @@ description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
 workflow-type: tm+mt
 source-wordcount: '3068'
 ht-degree: 0%
@@ -53,9 +53,9 @@ Adobe Learning Manager現在支援LTI，以增強Adobe Learning Manager與其他
 
 LTI （Learning Tools Interoperability，學習工具互通性）是一種標準，可讓協力廠商工具和內容提供者連線學習管理系統(Learning Management System，LMS)。 使用者可以直接在其LMS內從外部內容提供者存取外部學習內容，而無需登入或導覽至不同的LMS。
 
-LTI作為工具提供者： LTI作為工具提供者，可讓外部系統與LMS整合。 Adobe Learning Manager充當LTI工具提供者，可讓其他LMS平台直接在LMS內從Adobe Learning Manager存取課程、憑證或學習路徑。
+**LTI做為工具提供者**： LTI做為工具提供者，可讓外部系統與LMS整合。 Adobe Learning Manager充當LTI工具提供者，可讓其他LMS平台直接在LMS內從Adobe Learning Manager存取課程、憑證或學習路徑。
 
-LTI作為工具消費者： LTI作為工具消費者，可讓LMS透過學習工具互通性(LTI)整合外部工具。 在此案例中，LMS是外部工具所提供服務的消費者。 Adobe Learning Manager可充當LTI工具消費者，讓他們整合協力廠商學習工具。 這可讓Adobe Learning Manager學習者使用Adobe Learning Manager中協力廠商工具的課程、憑證或學習路徑。
+**LTI作為工具消費者**： LTI作為工具消費者，可讓LMS透過學習工具互通性(LTI)整合外部工具。 在此案例中，LMS是外部工具所提供服務的消費者。 Adobe Learning Manager可充當LTI工具消費者，讓他們整合協力廠商學習工具。 這可讓Adobe Learning Manager學習者使用Adobe Learning Manager中協力廠商工具的課程、憑證或學習路徑。
 
 如需詳細資訊，請參閱本文[學習工具互通性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)。
 

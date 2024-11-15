@@ -4,9 +4,9 @@ title: Webhooks使用指南
 description: 瞭解Webhook使用方式、最佳實務和限制
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3360'
 ht-degree: 0%
 
 ---
@@ -291,6 +291,8 @@ ALM的連線逾時設定為10秒，通訊端逾時設定為5秒。 預期使用�
 * 工作階段變更將會擷取為執行個體更新事件的一部分。 這僅適用於課程。 學習路徑例項或認證例項不會從較低層級實體向上傳播。
 * 如果學習路徑包含課程，且學習者透過學習路徑完成課程，則會產生兩個&#x200B;**LearnerProgress**&#x200B;事件 — 一個用於課程，一個用於學習路徑。
 * 某些工作流程會以非同步方式計算學習物件的屬性，例如持續時間和傳遞型別。 因此，當cron工作完成處理時，將會產生這些學習物件的事件。
+* 如果透過家長學習計畫或認證註冊了課程，則註冊、取消註冊和完成事件只會觸發家長學習計畫或認證。 由於註冊是間接發生，因此這些事件不會觸發子課程。
+* 只有&#x200B;**[!UICONTROL ACTIVE]**&#x200B;狀態的帳戶才支援Webhook。 **[!UICONTROL TRIAL]**&#x200B;或&#x200B;**[!UICONTROL INACTIVE]**&#x200B;帳戶無法使用。
 
 ## 事件的裝載範例
 
