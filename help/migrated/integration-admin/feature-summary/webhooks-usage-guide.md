@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Webhooks使用指南
 description: 瞭解Webhook使用方式、最佳實務和限制
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3371'
+source-wordcount: '3304'
 ht-degree: 0%
 
 ---
@@ -250,12 +251,6 @@ ALM的連線逾時設定為10秒，通訊端逾時設定為5秒。 預期使用�
 ### 重複事件
 
 如果訂閱者在處理事件後需要5秒以上的時間回應，系統可能會嘗試再次處理相同事件。 建議使用事件ID來追蹤哪些事件已處理。 此外，如果webhook在傳送事件後但在儲存之前因已處理而當機，則可能會重試相同的事件群組。 建議使用批次ID或個別事件ID來識別和忽略任何重複專案。
-
-### 順序錯亂事件
-
-ALM會嘗試將事件維持在正確的順序，但有時候，事件可能會傳送順序不對，尤其是在即時和非即時事件之間。
-
-如果管理員一次為多個學習者註冊了課程，則註冊事件會標籤為非即時。 但是，如果學習者快速完成課程，該完成事件會標示為即時，並可能在註冊事件之前傳遞。
 
 ### 容錯建議
 
