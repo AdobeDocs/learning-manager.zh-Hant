@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支援搜尋
 description: 瞭解Adobe Learning Manager中的AI支援搜尋
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
 workflow-type: tm+mt
-source-wordcount: '1120'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
@@ -101,3 +101,4 @@ Adobe Learning Manager的搜尋是業界領導者，運用一組獨特的進階�
 >
 >1. 使用Headless實作的客戶需要遵循API檔案來啟用進階搜尋
 >2. 進階搜尋目前無法用於Salesforce應用程式。
+>3. 客戶資料（包括內容和成績單）不會與任何外部服務共用，以進行AI支援的搜尋。 所有內容都會安全地儲存在現有的儲存系統中。
