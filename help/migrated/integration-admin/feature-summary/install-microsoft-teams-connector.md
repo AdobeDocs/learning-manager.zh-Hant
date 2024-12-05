@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中安裝Microsoft Teams聯結器
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: 6192559436074c3270644850b202589961e7b81b
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -130,7 +130,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 
 ## 在Learning Manager中設定Microsoft Teams聯結器
 
-1. 以整合管理員身分登入Learning Manager 。
+1. 以&#x200B;**整合管理員**&#x200B;身分登入Learning Manager。
 
 1. 在[聯結器]頁面中，選取[Microsoft Teams]聯結器，然後按一下&#x200B;**[!UICONTROL Connect]**。
 
