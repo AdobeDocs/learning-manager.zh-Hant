@@ -3,9 +3,9 @@ description: 瞭解2024年11月發行的Adobe Learning Manager中的新功能和
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3092'
 ht-degree: 0%
 
 ---
@@ -30,6 +30,10 @@ ht-degree: 0%
 * **電子郵件範本最佳化**：結合併最佳化講師指派和工作階段取消的電子郵件範本。
 * **MS團隊完成條件**：設定VILT工作階段的最短出席時間。
 * **新的移轉工作流程**：移轉變更包含課程與模組的完成條件，以及將模組移轉至資料夾。
+
+>[!NOTE]
+>
+>請參閱此[網路研討會](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course)，深入瞭解此版本的新功能。
 
 ## Adobe Learning Manager中的AI支援搜尋
 
