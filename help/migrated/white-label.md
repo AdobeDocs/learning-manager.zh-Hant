@@ -4,9 +4,9 @@ title: Adobe Learning Manager行動應用程式中的白色標籤
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以將白色標籤套用至行動應用程式，藉此重新命名應用程式，並讓您的使用者在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1866'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. 返回`<root>`資料夾（Runner.xcarchive.zip所在位置）：
+4. 執行以下命令，將您的簽署資訊更新至框架程式庫：
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. 返回`<root>`資料夾（Runner.xcarchive.zip所在位置）：
 
    ```
    cd <root>
    ```
 
-5. 使用xcodebuild匯出封存：
+6. 使用xcodebuild匯出封存：
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. 在ipa_path資料夾中找到.ipa檔案。
-7. 將.ipa檔案上傳至`Diawi`網站。
-8. 完全上傳後，選取&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
-9. 完成後，您將會收到QR碼和連結。
-10. 直接在Safari中開啟QR碼或連結。
+7. 在ipa_path資料夾中找到.ipa檔案。
+8. 將.ipa檔案上傳至`Diawi`網站。
+9. 完全上傳後，選取&#x200B;**[!UICONTROL Send]**&#x200B;按鈕。
+10. 完成後，您將會收到QR碼和連結。
+11. 直接在Safari中開啟QR碼或連結。
 
 如果裝置包含在布建設定檔中，則應在裝置上繼續進行安裝。
 
@@ -408,8 +414,12 @@ mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """
 **適用於apk檔案**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>`apksigner`工具的路徑通常如下所示： ~/Library/Android/sdk/build-tools/30.0.3/apksigner。
 
 適用於aab檔案&#x200B;**的**
 
@@ -464,6 +474,36 @@ unzip my_app.apks -d output_dir
 **下一步**
 
 產生二進位檔後，請將二進位檔推送到Play Store或App Store。
+
+### 正在推送應用程式至商店以供檢閱
+
+取得最終二進位檔後，您可以將其上傳至個別應用程式商店(iOS或Android)進行檢閱。 請依照下列步驟，將二進位檔上傳至應用程式商店。
+
+**iOS**
+
+1. 使用您的App Store憑證登入「傳輸程式」應用程式。
+2. 選取左上方的&#x200B;**+**&#x200B;按鈕並上傳生產憑證（.ipa檔案）。
+3. 如果.ipa檔案正確，系統會提示您上傳應用程式至App Store。
+4. 應用程式傳送後，請登入App Store。 幾小時後，二進位檔就會顯示在TestFlight區段中。 您可以在應用程式稽核前，先在TestFlight中啟用它以進行最終的健全度測試，並在提交新版本的應用程式時，使用此IPA作為二進位。
+
+**Android**
+
+1. 開啟Google Play Store Console。
+2. 前往&#x200B;**[!UICONTROL Dashboard]** > **[!UICONTROL View App Releases]** > **[!UICONTROL Release Dashboard]**，然後選取&#x200B;**[!UICONTROL Create New Release]**。
+3. 上傳產生的.aab檔案作為應用程式套件組合，並輸入版本詳細資料，例如版本號碼和新增功能資訊。
+4. 儲存您的變更並提交應用程式以供檢閱。
+5. 請務必將應用程式發佈設為100% (Google預設會將其設為20%)。
+
+#### 應用程式發佈的實用連結
+
+**Android**
+
+[建立並設定您的應用程式](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[準備您的應用程式以供檢閱](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[送出檢閱](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## 如何套用變更
 
