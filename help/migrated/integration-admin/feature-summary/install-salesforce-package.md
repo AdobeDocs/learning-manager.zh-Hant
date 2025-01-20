@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: 安裝Salesforce套件
-description: Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站中執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議並加以使用。 使用者也可以直接在SFDC入口網站的應用程式中，取得管理員以刊頭形式傳送的公告。
+description: Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以在SFDC入口網站的應用程式內，直接透過刊頭取得管理員傳送的公告。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1013'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## 概觀
 
-Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站中執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議並加以使用。 使用者也可以直接在SFDC入口網站的應用程式中，取得管理員以刊頭形式傳送的公告。
+Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以在SFDC入口網站的應用程式內，直接透過刊頭取得管理員傳送的公告。
 
 ### 在Learning Manager應用程式中設定
 
@@ -33,11 +33,11 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 1. 在Salesforce註冊頁面上建立帳戶。 您必須在開發人員版或企業版中建立Salesforce帳戶。  [開發人員註冊網址](https://developer.salesforce.com/signup)。 請務必使用電子郵件ID註冊用於Learning Manager的Salesforce。
 1. 透過驗證電子郵件驗證您的帳戶。
 1. 建立密碼並登入Salesforce。
-1. 記下登入後的Salesforce URL (例如site.lightning.force.com)
+1. 請注意登入後的Salesforce URL (例如site.lightning.force.com)
 
 ### 安裝Learning Manager套件
 
-如果要安裝套件，必須先刪除Salesforce中的現有套件。 在解除安裝之前，您必須啟用設定，如下所示。 必須套用這些設定，否則您將無法安裝套件。
+如果您想要安裝套件，必須先刪除Salesforce中的現有套件。 在解除安裝之前，您必須啟用設定，如下所示。 必須套用這些設定，否則您將無法安裝套件。
 
 ![](assets/uninstall-package.png)
 
@@ -45,13 +45,12 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 
 >[!NOTE]
 >
->Adobe Learning Manager應用程式僅在Salesforce Lightning檢視中受支援。
+>Adobe Learning Manager應用程式僅在Salesforce閃電檢視中支援。
 
-1. 啟動[Learning Manager套件url](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LRvP)。
+1. 啟動[Learning Manager套件URL （M42修補程式2）](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG)。
 1. 在&#x200B;**登入**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Use Custom Domain]**。
-
 1. 輸入封裝URL並按一下&#x200B;**[!UICONTROL Continue]**。 安裝頁面必須選取僅供管理員安裝的選項。 請勿變更此選項。
-1. 按一下&#x200B;**Install**。 安裝套件後，按一下&#x200B;**[!UICONTROL Done]**。 系統引導您前往已安裝的套件頁面，而您可以看到Adobe Learning Manager已安裝的套件。
+1. 按一下&#x200B;**[!UICONTROL Install]**。 安裝套件後，按一下&#x200B;**[!UICONTROL Done]**。 系統引導您前往已安裝的套件頁面，而您可以看到Adobe Learning Manager已安裝的套件。
 
 1. 前往應用程式啟動器（「設定」旁邊）並搜尋Adobe Learning Manager。
 1. 若要設定應用程式，請按一下&#x200B;**[!UICONTROL Configure]**。
@@ -84,13 +83,13 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 
 若要將Adobe網域新增至信任的URL，請遵循下列步驟：
 
-1. 在Salesforce主控台中，移至&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**。
+1. 在Salesforce主控台中，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**。
 1. 搜尋&#x200B;**[!UICONTROL Trusted URLs]**&#x200B;並選取&#x200B;**[!UICONTROL New Trusted URL]**。
 1. 在&#x200B;**[!UICONTROL API Name]**&#x200B;欄位中輸入名稱。
 1. 在URL欄位中輸入`*.adobe.com`。
 1. 選取&#x200B;**CSP指示**&#x200B;中的所有核取方塊並儲存變更。
 1. 編輯Salesforce應用程式的重新整理權杖並儲存。
-1. 重新啟動Salesforce應用程式。
+1. 重新啟動Salesforce App。
 
 ### 啟用Learning Manager應用程式通知
 
