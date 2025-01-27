@@ -3,9 +3,10 @@ jcr-language: en_us
 title: 可信
 description: 瞭解Credly與ALM的整合，以便跨各種社群媒體頻道管理和共用平台的外部徽章
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -41,8 +42,8 @@ ht-degree: 0%
 
 Adobe Learning Manager中的badge.csv可讓您從現有的LMS或外部系統移轉徽章。 badge.csv已更新為兩個新欄：
 
-* 外部徽章ID
-* 外部徽章提供者。
+* externalBadgeId
+* externalBadgeProvider
 
 外部徽章ID代表Credly平台中的徽章範本ID，而外部徽章提供者為Credly。 在badge.csv中新增這些值，並依照[移轉手冊](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中所述的步驟來移轉csv。
 
@@ -55,4 +56,3 @@ Adobe Learning Manager中的badge.csv可讓您從現有的LMS或外部系統移�
 作者/管理員可以將這些Credly匯入的ALM徽章指派給課程、學習路徑或認證（不僅僅是技能），而且在這些學習物件的消耗上，此徽章將會完成並可在Credly和ALM應用程式上檢視。
 
 學習者可以登入Credly並在Credly平台上檢視徽章。 來自Credly，他們可以在LinkedIn和其他社群媒體等外部平台上分享徽章。
-
