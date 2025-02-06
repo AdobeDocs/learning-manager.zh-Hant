@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager發行說明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26246'
+source-wordcount: '26445'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,26 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>-->
+
++++更新99： 2025年2月發行的Adobe Learning Manager
+
+## 透過SAML設定介面語言
+
+Adobe Learning Manager (ALM)現在接受語言的SAML屬性。 然後此屬性會對映至使用者的介面和內容語言設定，確保與LMS以他們偏好的語言順利互動。 這些語言設定的組態是透過Identity and Access Management (IAM)平台管理，並利用SAML進行單一登入(SSO)。 這同時支援服務提供者(SP)起始和身分提供者(IdP)起始的登入，讓使用者能夠檢視使用他們所選語言的介面和內容。
+
+如需詳細資訊，請參閱此[文章](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)。
+
+## 移轉API的增強功能
+
+先前，具有外部連結的活動模組已使用API （`GET /bulkimport/cansync`和`POST /bulkimport/startrun`）移轉，在存取連結後不會為學習者顯示&#x200B;**[!UICONTROL Mark as Complete]**&#x200B;選項。 此問題已解決。 現在，具有透過API移轉的外部連結的活動模組將為學習者正確顯示&#x200B;**[!UICONTROL Mark as Complete]**&#x200B;選項。
+
+## 學習者應用程式中的排序功能
+
+學習者應用程式中的排序功能可根據內容和介面語言提供個人化課程推薦。&#x200B;URL 此增強功能可簡化學習者以偏好語言尋找課程的程式，並運用更多智慧型排序選項。
+
+如需詳細資訊，請參閱此[文章](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)。
+
++++
 
 +++更新98： 2024年11月發行的Adobe Learning Manager
 

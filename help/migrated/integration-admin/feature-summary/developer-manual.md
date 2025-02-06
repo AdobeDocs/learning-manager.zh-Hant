@@ -4,7 +4,7 @@ title: 應用程式開發人員手冊
 description: Learning Manager V1 API現已棄用。 V1 API將於2021年2月28日起停止運作。 建議您使用V2 API與Learning Manager互動。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
 workflow-type: tm+mt
 source-wordcount: '3374'
 ht-degree: 0%
@@ -120,11 +120,11 @@ client_id:
 
 **API要求**
 
-API要求可透過發出HTTP要求來進行。 根據端點和方法，開發人員可以選擇各種HTTP動詞，例如GET、PUT、POST、DELETE、PATCH等。 對於某些請求，可傳遞查詢引數。 請求特定資料模型時，使用者也可請求相關模型，如JSON API規格所述。 典型API要求的結構在[範例模型用法](#main-pars_header_1415780624)中說明。
+API要求可透過發出HTTP要求來進行。 根據端點和方法，開發人員可以選擇各種HTTP動詞，例如GET、PUT、POST、DELETE、PATCH等。 對於某些請求，可傳遞查詢引數。 請求特定資料模型時，使用者也可請求相關模型，如JSON API規格所述。 典型API要求的結構在[範例模型用法](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration)中說明。
 
 **API回應**
 
-當使用者端提出API請求時，會根據JSON API規格取得SON檔案。 回應也包含HTTP狀態代碼，開發人員可驗證此代碼，以便在其應用程式邏輯中執行適當的後續步驟。 典型API回應的結構在[範例模型用法](#main-pars_header_1415780624)中說明。
+當使用者端提出API請求時，會根據JSON API規格取得SON檔案。 回應也包含HTTP狀態代碼，開發人員可驗證此代碼，以便在其應用程式邏輯中執行適當的後續步驟。 典型API回應的結構在[範例模型用法](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration)中說明。
 
 **個錯誤**
 
