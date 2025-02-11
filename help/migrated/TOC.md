@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '639'
 ht-degree: 3%
 
 ---
@@ -32,6 +32,7 @@ ht-degree: 3%
    * [Adobe Learning Manager支援的語言](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager中的API淘汰與變更](api-deprecations-list.md)
    * [Adobe Learning Manager中的白標](white-label.md)
+   * [內嵌式播放器互動API檔案](/help/migrated/embedded-player-interaction.md)
 * 開始使用{#get-started}
    * [管理員快速入門](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入門](authors/feature-summary/getting-started-author.md)
