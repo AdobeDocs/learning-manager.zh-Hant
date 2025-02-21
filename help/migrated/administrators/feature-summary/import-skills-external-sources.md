@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: 從外部來源匯入技能
-description: 使用各自的聯結器從內容提供者(例如LinkedIn和Go1)匯入技能。  匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。
+description: 使用各自的聯結器從內容提供者（例如LinkedIn和Go1）匯入技能。  匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # 從外部來源匯入技能
 
-使用各自的聯結器從內容提供者(例如LinkedIn和Go1)匯入技能。 此增強功能是Learning Manager整合外部技能雲端和人才管理系統的目標之一。 匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。 整個平台的技能搜尋功能也得到了增強，以便在客戶具有大量技能時提供更好的搜尋體驗。
+使用各自的聯結器從內容提供者（例如LinkedIn和Go1）匯入技能。 此增強功能是Learning Manager整合外部技能雲端和人才管理系統的目標之一。 匯入的技能會新增至Learning Manager中管理員定義的技能，並在課程建立工作流程期間提供給作者。 整個平台的技能搜尋功能也得到了增強，以便在客戶具有大量技能時提供更好的搜尋體驗。
 
 ## 設定技能匯入
 
@@ -28,13 +28,13 @@ ht-degree: 0%
 
 ### 預設技能等級
 
-預設技能層級為1，技能移轉後評分為10。 管理員稍後可以變更信用額度。
+預設技能層級為1，技能移轉後評分為10。
 
 您無法編輯技能的名稱、說明及新增層級到外部技能。 不過，您可以新增網域、徽章及編輯積分。
 
 ### 預設課程技能與學分
 
-匯入技能後，這些技能會新增至從選取為技能來源的來源匯入的學習資源。 例如，如果您的技能來源為LinkedIn Learning，則從LinkedIn Learning匯入的所有學習資源都會具備其所提供的技能。 匯入學習資源時，每個學習資源都會提供10個學分的預設值。
+匯入技能後，這些技能會新增至從選取為技能來源的來源匯入的學習資源。 例如，如果您的技能來源是LinkedIn Learning，則從LinkedIn Learning匯入的所有學習資源都會具備其所提供的技能。 匯入學習資源時，每個學習資源都會提供10個學分的預設值。
 
 #### 報告
 
