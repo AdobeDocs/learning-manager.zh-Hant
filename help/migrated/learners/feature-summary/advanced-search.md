@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Learning Manager中的AI支援搜尋
 description: 瞭解Adobe Learning Manager中的AI支援搜尋
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Adobe Learning Manager提供更聰明、更進階的搜尋體驗，不僅符合�
 
 * **AI支援**： Adobe Learning Manager使用進階AI技術來瞭解搜尋意圖背後的意義，而不只是字詞。 這有助於顯示真正符合使用者想要的結果，讓搜尋更準確。
 * **同儕節點驅動**： Adobe Learning Manager會使用一系列課程品質引數，將最有用的結果排名。 此排名演演算法是針對5,000萬個資料點進行訓練，這些資料點會定期對存放庫中的每個內容評分
-* **完整**： Adobe Learning Manager會搜尋整個資料庫，包括自己的內容、協力廠商課程標題、說明、標籤、個人化附註和其他中繼資料。 對於視訊和PDF等內容，會自動在成績單中進行成績單和搜尋。
+* **完整**： Adobe Learning Manager會搜尋整個資料庫，包括自己的內容、協力廠商課程標題、說明、標籤、個人化附註和其他中繼資料。 針對Video和PDF等內容，此功能會自動在成績單中進行成績單和搜尋。
 
 ## Adobe Learning Manager的AI支援搜尋
 
@@ -68,7 +68,7 @@ _正在展開查詢_
 
 ### 課程中繼資料搜尋
 
-Adobe Learning Manager的中繼資料搜尋涵蓋原生和匯入課程的中繼資料(例如來自LinkedIn Learning或Go1)。 此功能會搜尋您的課程標題、說明、標籤、個人化附註和其他中繼資料。 這有助於使用許多不同的中繼資料來尋找結果，讓結果更好也更準確。
+Adobe Learning Manager的中繼資料搜尋涵蓋原生和匯入課程的中繼資料（例如來自LinkedIn學習或Go1）。 此功能會搜尋您的課程標題、說明、標籤、個人化附註和其他中繼資料。 這有助於使用許多不同的中繼資料來尋找結果，讓結果更好也更準確。
 注意：客戶資料（包括內容和成績單）不會與任何外部服務共用，以進行AI支援的搜尋。 所有內容都儲存在目前的儲存系統中。
 
 ### 語意搜尋
@@ -84,11 +84,11 @@ _語意搜尋_
 
 ### 內容內搜尋
 
-Adobe Learning Manager的搜尋功能已增強，現在可搜尋實際內容。 它會自動轉譯視訊、音訊檔案和PDF，並將這些轉譯納入搜尋結果中。 此外，它利用Adobe Connect會議錄製來提供更全面且相關的結果。 此增強功能可確保納入包含影片和會議附註等豐富內容的課程，大幅提升搜尋正確性和成效。
+Adobe Learning Manager的搜尋功能已增強，現在可搜尋實際內容。 它會自動轉譯視訊、音訊檔案、PDF、檔案、ppt和xls，並將這些轉譯納入搜尋結果中。 此外，它利用Adobe Connect會議錄製來提供更全面且相關的結果。 此增強功能可確保納入包含影片和會議附註等豐富內容的課程，大幅提升搜尋正確性和成效。 內容內比對可提升透過傳統片語比對和語意比對所找到的結果，有助於改善搜尋結果的排名。
 
 >[!NOTE]
 >
->新新增的內容(例如影片或PDF)將在24小時的處理期間後可用於內容內搜尋。
+>新新增的內容（例如視訊或PDF）將在24小時的處理期間後可用於內容內搜尋。
 
 ### AI支援的搜尋和重新排名
 
