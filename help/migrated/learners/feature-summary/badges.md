@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 徽章
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '794'
 ht-degree: 0%
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 您也可以下載一組徽章或PDF格式的個別徽章。
 
-* 按一下&#x200B;**[!UICONTROL Download All Badge Records]**&#x200B;下載您以PDF形式取得的徽章。
+* 按一下&#x200B;**[!UICONTROL Download All Badge Records]**&#x200B;下載您以PDF格式取得的徽章。
 * 若要下載個別徽章，請選取徽章並按一下徽章名稱旁邊的pdf圖示。
 
 ![](assets/badges.png)
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 開放徽章 {#openbadges}
 
-Learning Manager支援的Open Badges揹包平台已&#x200B;**淘汰**。 目前Learning Manager不支援開放預算。
+Learning Manager支援的Open Badges揹包平台即將淘汰&#x200B;****。 目前Learning Manager不支援開放徽章。
 
 開放徽章是辨識及驗證學習者學習內容的標準。 您可以使用這些徽章線上上展示您的成就。
 
@@ -54,13 +54,13 @@ Learning Manager為其學習者支援開放徽章概念。 您可以使用下載
 
 學習者可將其學習平台帳戶與Badgr帳戶整合。 這可讓學習者透過其Badgr帳戶在社交網站分享徽章。 Badgr也根據揹包標準提供可驗證的徽章，這表示會驗證徽章。
 
-開放徽章是徽章，其中嵌入了一些中繼資料到徽章影像中。 此中繼資料提供有關簽發者、收件者、完成的工作、徽章有效性的資訊。 Badgr揹包可直接從Learning Manager存取，以便集中儲存所有徽章及共用這些徽章。 學習者可登入其Badgr帳戶並建立整合。 從那時起，Learning Manager中取得的徽章會自動上傳至Badgr帳戶。
+開放徽章是徽章，其中嵌入了一些中繼資料到徽章影像中。 此中繼資料提供有關簽發者、收件者、完成的工作、徽章有效性的資訊。 Badgr揹包可直接從Learning Manager存取，以便集中儲存所有徽章並共用。 學習者可登入其Badgr帳戶並建立整合。 從那時起，在Learning Manager中取得的徽章會自動上傳到Badgr帳戶。
 
 管理員啟用選項&#x200B;**Badgr整合**&#x200B;後，學習者就可以與Badgr整合併設定其徽章。 若要整合，學習者需要從Learning Manager登入Badgr帳戶。
 
 >[!NOTE]
 >
->Learning Manager不會在此整合中提供Badgr帳戶。 學習者應建立自己的帳戶，並與Learning Manager整合。
+>Learning Manager不在此整合中提供Badgr帳戶。 學習者應建立自己的帳戶，並與Learning Manager整合。
 
 學習者必須先建立Badgr帳戶，才能從Learning Manager建立連線。
 
@@ -70,7 +70,7 @@ Learning Manager為其學習者支援開放徽章概念。 您可以使用下載
 
 ## 徽章更新
 
-學習者可以選取徽章並按一下頁面右上角的**更新**，將其徽章更新為最新徽章。 如果管理員/作者對學習物件的徽章影像或徽章進行任何變更，則會進行徽章更新。
+學習者可以選取徽章並按一下頁面右上角的「**更新**」，將其徽章更新為最新徽章。 如果管理員/作者對學習物件的徽章影像或徽章進行任何變更，則會進行徽章更新。
 
 此更新頁面的程式稱為手動復原。 在這種情況下，即使徽章具有相同的徽章影像/名稱，烘烤完成之後也會將徽章重新上傳到Badgr揹包。 更新徽章後，學習者會收到更新完成的通知。
 
