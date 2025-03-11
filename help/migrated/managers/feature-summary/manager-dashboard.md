@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 管理員儀表板
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1438'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 0%
 管理員的&#x200B;*儀表板報告*
 
 若要檢檢視形的詳細資料，請按一下圖形或按一下&#x200B;**[!UICONTROL Details]**&#x200B;超連結。
+
+經理也可以檢視其下一級經理團隊的控制面板。 例如，使用者A是使用者B、使用者C、使用者D和使用者E的管理員。使用者B和使用者C是各自團隊的管理員。 使用者A可以檢視其直接報告（使用者B、使用者C、使用者D和使用者E）的報告，以及由使用者B和使用者C管理的團隊。
 
 ## 學習摘要 {#learningsummary}
 
@@ -84,10 +86,6 @@ ht-degree: 0%
 ## 合規狀態 {#compliancestatus}
 
 在合規性儀表板中，經理可以檢視團隊針對跨特定類別（例如銷售、行銷和法律）之已設定學習的整體合規性狀態。 管理員可以建立包含合規性課程、學習路徑或認證的控制面板，並與經理分享。 管理員可以在其執行個體中檢視管理員共用的控制面板。
-
-使用者A是使用者B、使用者C、使用者D和使用者E的管理者。使用者B和使用者C是其各自團隊的管理者。
-
-使用者A可以檢視其直接報告（使用者B、使用者C、使用者D和使用者E）的報告，以及由使用者B和使用者C管理的團隊。
 
 ### 檢視控制面板
 
