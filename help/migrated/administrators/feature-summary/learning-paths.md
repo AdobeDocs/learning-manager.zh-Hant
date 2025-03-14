@@ -4,7 +4,7 @@ title: 學習路徑
 description: 在Learning Manager中為管理員建立學習計畫。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 0%
@@ -39,9 +39,9 @@ ht-degree: 0%
 1. 建立區段的功能。 每個區段都可以有標題。
 1. 能夠將區段設為必要並設定完成條件。
 
-## 在Learning Manager新增學習路徑
+## 在Learning Manager中新增學習路徑
 
-在Learning Manager中的管理員應用程式中，按一下左側面板上的&#x200B;**[!UICONTROL Learning Path]**。
+在Learning Manager的Admin App中，按一下左側面板上的&#x200B;**[!UICONTROL Learning Path]**。
 
 在&#x200B;**[!UICONTROL Learning Path]**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Add]**。 輸入詳細資料。
 
@@ -109,9 +109,9 @@ ht-degree: 0%
 
 *從學習路徑移除課程*
 
-完成變更後，若要發佈學習路徑，請按一下「Publish」 。
+完成變更後，若要發佈學習路徑，請按一下「發佈」 。
 
-## 巢狀傾斜路徑
+## 巢狀學習路徑
 
 您可以在學習路徑中加入學習路徑，但最多可以在其中巢狀內嵌一個學習路徑。
 
