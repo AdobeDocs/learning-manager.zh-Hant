@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3986'
+source-wordcount: '4059'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 0%
    ![](assets/manager.png)
    *新增使用者對話方塊*
 
-1. 若要在Learning Manager中新增使用者，請按一下&#x200B;**[!UICONTROL Add]**。 新增使用者後，使用者會收到驗證郵件。 學習者接著會啟動帳戶並開始使用Learning Manager。 如果您需要新增有限數量的學習者至Learning Manager帳戶，此工作流程將有所幫助。 但是，如果您計畫註冊大型組織的所有員工，則可以在單次嘗試中新增他們。 如需詳細資訊，請參閱下一節。
+1. 若要在Learning Manager中新增使用者，請按一下&#x200B;**[!UICONTROL Add]**。 新增使用者後，使用者會收到驗證郵件。 學習者接著會啟用帳戶並開始使用Learning Manager。 如果您需要新增有限數量的學習者至Learning Manager帳戶，此工作流程將有所幫助。 但是，如果您計畫註冊大型組織的所有員工，則可以在單次嘗試中新增他們。 如需詳細資訊，請參閱下一節。
 
 ## 大量新增使用者 {#addusersinbulk}
 
@@ -194,7 +194,7 @@ Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例�
 
 ## 建立自助註冊連結 {#createaselfregistrationlink}
 
-您也可以讓組織中的員工向Adobe Learning Manager帳戶註冊成為學習者，不需您擔任管理員的相關協助。 管理員可建立自助註冊連結並與員工共用，員工可使用其Adobe憑證進一步註冊至Learning Manager。
+您也可以讓組織中的員工向Adobe Learning Manager帳戶註冊成為學習者，不需您擔任管理員的相關協助。 管理員可以建立自助註冊連結，並與員工共用，讓員工使用其Adobe憑證進一步註冊Learning Manager。
 
 在頁面的右上角，按一下&#x200B;**[!UICONTROL Add]**，然後選取&#x200B;**[!UICONTROL Self-Registration]**。
 
@@ -202,7 +202,7 @@ Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例�
 ![](assets/self-registration.png)
 *建立連結，以自我註冊為學習者*
 
-**[!UICONTROL Add Self-Registration Profile]**&#x200B;對話方塊隨即顯示。 為此設定檔命名。 然後新增經理的姓名。 請務必知道經理必須已在Learning Manager中註冊學習者。
+**[!UICONTROL Add Self-Registration Profile]**&#x200B;對話方塊隨即顯示。 為此設定檔命名。 然後新增經理的姓名。 請務必知道經理必須已為Learning Manager中的註冊學習者。
 
 ![](assets/add-self-registrationprofile.png)
 *新增自我註冊的設定檔*
@@ -289,7 +289,7 @@ Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例�
 
 這會啟用外部註冊連結。 歡迎電子郵件會自動傳送給合作夥伴。 您也可以複製連結，並透過按一下「複製URL」圖示()與他們共用，或透過按一下「郵件」圖示()將歡迎電子郵件重新傳送給合作夥伴組織。
 
-合作夥伴經理可與必須參加PrLearning Manager時間培訓的員工共用連結。 當他們按一下連結時，填寫一些詳細資料以在Learning Manager上建立設定檔後，即可自行註冊。 這些使用者不會與內部員工一起出現在學習者標籤上。 您可以在&#x200B;**[!UICONTROL External Learners]**&#x200B;標籤下看到他們的名稱。
+合作夥伴經理可與必須參加PrLearning Manager時間培訓的員工共用連結。 當他們按一下連結，填寫一些詳細資料以在Learning Manager上建立其設定檔後，可以自行註冊。 這些使用者不會與內部員工一起出現在學習者標籤上。 您可以在&#x200B;**[!UICONTROL External Learners]**&#x200B;標籤下看到他們的名稱。
 
 ## 暫停外部設定檔 {#pause}
 
@@ -304,7 +304,7 @@ Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例�
 下列狀態適用於外部使用者：
 
 * **非使用中狀態** — 在此狀態下，外部使用者的註冊已過期。 管理員透過新增使用者工作流程新增外部使用者時，可設定其到期日。
-* **作用中狀態** — 在此狀態下，外部使用者可以註冊Learning Manager應用程式，並登入應用程式。
+* **作用中狀態** — 在此狀態中，外部使用者可以註冊到Learning Manager應用程式，並登入應用程式。
 * **暫停** — 在此狀態下，外部使用者的註冊程式被封鎖。 但是，現有的使用者可以繼續登入。
 
 ## 檢查已使用的座位 {#checkusedseats}
@@ -359,9 +359,19 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 
 此自訂群組現在已建立並新增至設定檔。 您建立的使用者群組本質上為動態的。 如果新使用者新增了類似的屬性，則會自動新增到使用者群組。
 
+若要檢視使用者所屬的群組清單，請導覽至&#x200B;**[!UICONTROL User]** > **[!UICONTROL User Groups]**，搜尋使用者名稱並加以選取。 這會顯示使用者所屬的所有群組。
+
+![](assets/list-of-group.png)
+
+### 下載使用者群組中的使用者清單
+
+若要下載特定使用者群組中的使用者清單，請瀏覽至&#x200B;**[!UICONTROL User]** > **[!UICONTROL User Groups]**，選取群組旁的&#x200B;**[!UICONTROL Download icon]**。 這將產生一個包含該群組使用者清單的CSV檔案。
+
+![](assets/download-list-of-user.png)
+
 ## 排除使用者群組
 
-有時您會想要從大型使用者群組中排除一小部分使用者。 若要透過「學習計畫」將這組特定使用者註冊到培訓中，或設定正確的可見性目錄，則必須執行此操作。 在此版本的Learning Manager中，您可在建立自訂使用者群組時排除學習者或使用者群組。 在新增使用者群組對話方塊中，排除學習者區段可讓您達成此目的。
+有時您會想要從大型使用者群組中排除一小部分使用者。 若要透過「學習計畫」將這組特定使用者註冊到培訓中，或設定正確的可見性目錄，則必須執行此操作。 在此版本的Learning Manager中，您可以在建立自訂使用者群組時排除學習者或使用者群組。 在新增使用者群組對話方塊中，排除學習者區段可讓您達成此目的。
 
 ![](assets/exclude-user-groups.png)
 *排除使用者群組*
@@ -372,7 +382,7 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 
 ### 資料來源 {#datasources}
 
-當您想要將使用者或學習資料從您組織的資料庫匯入/同步至Learning Manager應用程式時，可使用此功能。 您也可以設定此同步的頻率。
+當您想要將使用者或從您組織的資料庫學習資料匯入/同步到Learning Manager應用程式中，可以使用此功能。 您也可以設定此同步的頻率。
 
 
 按一下&#x200B;**[!UICONTROL Advanced]**&#x200B;區段下左窗格上的&#x200B;**[!UICONTROL Data Sources]**。
@@ -467,7 +477,7 @@ Learning Manager 27.7為作用中欄位引進了兩個新選項 — **[!UICONTRO
 
 ## FTP和Box聯結器支援手動CSV欄位 {#import-connector}
 
-使用者通常會在學習者登入Learning Manager時手動提供作用中欄位。 目前在Learning Manager中可實現此功能，即使用者手動匯入CSV時。
+使用者通常希望在學習者登入Learning Manager時手動提供作用中欄位。 目前在Learning Manager中可以這樣做，當使用者手動匯入CSV時。
 
 CSV可能未包含所有作用中的欄位。 對於所有未在上傳CSV中更新的「作用中」欄位，使用者需要輸入此類「作用中」欄位的資料。
 
@@ -493,7 +503,7 @@ Learning Manager中作用中欄位的&#x200B;**值**
 
 >[!NOTE]
 >
->Learning Manager應用程式會自動根據這些中繼資料建立使用者群組。
+>Learning Manager應用程式會自動從這些中繼資料建立使用者群組。
 
 **新增自訂值**
 
@@ -607,7 +617,7 @@ _下載使用者群組報告_
 
 選取的使用者會收到歡迎電子郵件。 如果學習者已有的Adobe ID，可按一下此連結。 如果他們沒有現有的Adobe ID，他們可以繼續並按一下歡迎連結以建立Adobe ID並將其連結到他們的Learning Manager帳戶。
 
-按一下電子郵件中的任一連結對學習者而言是強制性的，因為這有助於Learning Manager驗證學習者的帳戶。
+學習者必須按一下電子郵件中的任一連結，因為Learning Manager可協助驗證學習者的帳戶。
 
 +++
 

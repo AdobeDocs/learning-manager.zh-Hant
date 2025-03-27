@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 登入
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
+source-wordcount: '196'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,14 @@ ht-degree: 0%
 
 以學習者身分登入Learning Manager。
 
-第一次使用Adobe Learning Manager時，您需要依照下列步驟建立帳戶：
+首次使用Adobe Learning Manager時，學習者需要建立帳戶。 您可以透過下列兩種方式之一進行此操作：
+
+* 自助註冊：使用歡迎電子郵件中提供的URL來建立您的帳戶。
+* 管理員建立的帳戶：管理員可以代表您建立帳戶。
+
+## 使用歡迎電子郵件URL建立帳戶
+
+請依照下列步驟，使用歡迎電子郵件中的URL建立您的帳戶：
 
 1. 使用您透過歡迎電子郵件從管理員那裡收到的安全連結來啟動Adobe Learning Manager。
 
@@ -35,7 +42,7 @@ ht-degree: 0%
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
 -->
 
-1. 或者，您也可以按一下「使用Enterprise ID連結登入」來使用Enterprise ID。
+1. 或者，您也可以按一下「使用Enterprise ID連結登入」 ，以使用Enterprise ID。
 
 >[!NOTE]
 >

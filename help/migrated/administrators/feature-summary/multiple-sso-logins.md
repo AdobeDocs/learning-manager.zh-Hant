@@ -3,9 +3,9 @@ description: Adobe Learning Manager透過多個SSO設定，為內部和外部使
 title: 多個SSO登入
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -26,14 +26,19 @@ ht-degree: 0%
 
 若要啟用多個SSO，請選取&#x200B;**設定** > **登入方法**。
 
-在設定頁面上，選取核取方塊「啟用多個單一登入(SSO)」供內部或外部使用者使用。
+在設定頁面上，選取內部或外部使用者的核取方塊&#39;**[!UICONTROL Enable Multiple Single Sign-On (SSO)]**&#39;。
 
 啟用多個SSO時，為「預設登入方法」選取的登入方法會成為未連結至任何SSO設定的使用者群組/設定檔的預設登入型別。 預設登入可以是Adobe ID、SSO或ALM ID （外部使用者）。
+
+>[!NOTE]
+>
+>具有必要許可權的管理員和自訂管理員可以執行這些步驟。
 
 若要設定SSO，請遵循下列步驟：
 
 1. 按一下設定單一登入(SSO)。
-1. 按一下新增SSO組態。
+1. 按一下新增SSO組態。\
+   ![](assets/sso.png)
 1. 在SSO設定對話方塊中，新增下列專案：
 
    * 輸入SSO的名稱。

@@ -4,9 +4,9 @@ title: Okta Active Directory與Adobe Learning Manager整合
 description: Okta Active Directory與Adobe Learning Manager整合
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '537'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 在本檔案中，您將瞭解如何將Adobe Learning Manager與Okta Active Directory (AD)整合。 將Adobe Learning Manager與Okta AD整合時，您可以：
 
-* 檢查並控制Learning Manager使用者在Okta AD中的存取權。
+* 在Okta AD中檢查並控制Learning Manager使用者的存取權。
 * 讓使用者能夠使用其Okta AD帳戶自動登入Adobe Learning Manager。
 * 在一個中央位置（Okta入口網站）管理您的帳戶。
 
@@ -23,7 +23,12 @@ Adobe Learning Manager支援身分提供者(IdP)和服務提供者(SP)起始的S
 
 ## 在OKTA中建立應用程式
 
-1. 以管理員身分登入Okta AD。
+1. 登入Okta AD。
+
+   >[!NOTE]
+   >
+   >您不需要ALM管理員存取權即可建立應用程式和設定IDP。
+
 1. 按一下&#x200B;**[!UICONTROL Applications]**。 如此即會在Okta中開啟應用程式商店。
 
    ![](assets/cp-application-store.png)

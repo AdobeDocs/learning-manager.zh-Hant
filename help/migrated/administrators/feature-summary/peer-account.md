@@ -1,21 +1,21 @@
 ---
-description: 閱讀本文章，瞭解如何在Learning Manager中建立和管理同儕節點帳戶。
+description: 閱讀本文章，瞭解如何在Learning Manager中建立和管理對等帳戶。
 jcr-language: en_us
 title: 對等帳戶
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
 
 # 對等帳戶
 
-閱讀本文章，瞭解如何在Learning Manager中建立和管理同儕節點帳戶。
+閱讀本文章，瞭解如何在Learning Manager中建立和管理對等帳戶。
 
-Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透過Learning Manager中的對等帳戶，管理員可以將已購買的名額與管理員相關聯的對等帳戶共用。 此外，已開始共用名額的管理員可以檢視對等帳戶的報告。
+Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透過Learning Manager中的對等帳戶，管理員可以和管理員相關聯的對等帳戶共用已購買的席位。 此外，已開始共用名額的管理員可以檢視對等帳戶的報告。
 
 ## 新增對等帳戶 {#addapeeraccount}
 
@@ -31,6 +31,18 @@ Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透�
    ![](assets/addpeer.png)
 
    *新增子網域*
+
+>[!NOTE]
+>
+>若要尋找其他帳戶的子網域，請檢查帳戶的URL。 子網域會顯示在主網域之前，並協助識別特定帳戶。
+>
+>例如：
+>
+>在URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname)中，子網域為&#x200B;**accountname**。
+>
+>在URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com)中，子網域也為&#x200B;**accountname**。
+>
+>子網域對每個帳戶都是獨一無二的，且用來存取個別Learning Manager例項。
 
 1. 輸入接受或拒絕對等帳戶請求的管理員的電子郵件ID。
 1. 指定您想要與同事共用的座位數。 當您與對等帳戶共用名額時，對等帳戶會與收到的名額或對等本身購買的名額一起進入「使用中」狀態。
@@ -54,7 +66,7 @@ Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透�
 
 如果您不想再與帳戶共用名額或購買專案，可以刪除對等帳戶。
 
-1. 從Learning Manager管理員應用程式中，按一下「設定>對等帳戶」 。
+1. 在Learning Manager管理員應用程式中，按一下「設定>對等帳戶」 。
 1. 選取您要刪除的一或多個對等帳戶。
 1. 執行下列任一項作業：
 

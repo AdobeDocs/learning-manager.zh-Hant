@@ -4,9 +4,9 @@ title: 學習路徑
 description: 在Learning Manager中為管理員建立學習計畫。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1280'
 ht-degree: 0%
 
 ---
@@ -111,15 +111,13 @@ ht-degree: 0%
 
 完成變更後，若要發佈學習路徑，請按一下「發佈」 。
 
-## 巢狀學習路徑
+## 巢狀或增強型學習路徑
 
-您可以在學習路徑中加入學習路徑，但最多可以在其中巢狀內嵌一個學習路徑。
-
-插入學習路徑，就像插入課程一樣。
+巢狀或增強型學習路徑是指包含多個學習路徑的學習路徑。 若要插入學習路徑，請依照在學習路徑中新增課程的相同程式進行。
 
 ![](assets/nested-learning-path.png)
 
-*在學習路徑中新增學習路徑*
+*巢狀或增強型學習路徑*
 
 ## 學習路徑設定
 

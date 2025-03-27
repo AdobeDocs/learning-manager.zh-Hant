@@ -3,9 +3,9 @@ title: 此版本的新增功能（2023年4月）
 description: 瞭解Adobe Learning Manager中的新功能和增強功能
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3201'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 適用於Microsoft Teams的Adobe Learning Manager應用程式
 
-Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作流程中的學習並促進社交學習。 學習者無需切換至瀏覽器，即可存取Microsoft Teams平台內的學習內容。 請聯絡您的CSAM，以取得MS Teams上Adobe Learning Manager應用程式的測試版。
+Microsoft Teams上新的Adobe Learning Manager應用程式旨在促進工作流程中的學習並促進社交學習。 學習者無需切換至瀏覽器，即可在Microsoft Teams平台中存取學習內容。 請聯絡您的CSAM，以取得MS Teams上Adobe Learning Manager應用程式的測試版。
 
 如需詳細資訊，請參閱[Microsoft Teams的Adobe Learning Manager應用程式](/help/migrated/adobe-learning-manager-app-microsoft-teams.md)。
 
@@ -75,13 +75,13 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 
 如需詳細資訊，請參閱[Adobe Learning Manager行動應用程式](/help/migrated/learners/feature-summary/ipad-android-tablet-users.md)。
 
-## 使用任何QR碼掃描應用程式來掃描Learning Manager QR碼
+## 使用任何二維碼掃描應用程式來掃描Learning Manager二維碼
 
 Adobe Learning Manager現在透過原生相機應用程式，支援更符合使用者直覺的二維碼掃描方式，不必下載可掃描二維碼的應用程式。
 
 為了支援先前的工作流程（您可以使用ALM應用程式的功能表掃描二維碼），在這個版本中，我們提供了有關如何切換至新工作流程的資訊。
 
-QR程式碼工作流程已有改良，不再支援此版本之前產生的舊QR程式碼。 因此，如果您已使用舊版Learning Manager為本版本之後將進行的教室或VC工作階段產生二維碼，則必須產生新的二維碼。
+QR程式碼工作流程已有改良，不再支援此版本之前產生的舊QR程式碼。 因此，如果您已使用舊版Learning Manager為在這個版本之後進行的教室或VC工作階段產生二維碼，則必須產生新的二維碼。
 
 ### 建議公告增強功能
 
@@ -216,13 +216,20 @@ QR程式碼工作流程已有改良，不再支援此版本之前產生的舊QR�
 
 當學習者選取&#x200B;**檢視所有執行個體**&#x200B;時，學習者可以看到所有課程執行個體。
 
-![檢視所有執行個體](assets/view-all-instances-new.png)
+![替代文字](assets/view-all-instance.png)
 
-管理員可以切換學習者的例項。
+_從學習者主控台檢視所有執行個體頁面_
 
-![切換執行個體](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_從學習者頁面切換執行個體_
+
+管理員可以切換學習者的例項。 從Admin Console選取課程，移至&#x200B;**[!UICONTROL Learners]**&#x200B;區段，選擇使用者，然後選取&#x200B;**[!UICONTROL Action]**&#x200B;按鈕。 然後，選取&#x200B;**[!UICONTROL Switch Instance]**&#x200B;並選擇所需的執行個體。
+
+![替代文字](assets/switch-instance-admin.png)
+_從Admin Console切換執行個體_
 
 ![切換執行個體選取](assets/switch-instances-select.png)
+_切換執行個體提示_
 
 您必須從學習者或管理員應用程式完成課程的任何執行個體後，才能切換執行個體。
 
@@ -306,7 +313,7 @@ QR程式碼工作流程已有改良，不再支援此版本之前產生的舊QR�
 * **generateInstructorUtilisationReport**：傳回講師的使用情況報告。
 * **generateJobAidMetadataReport**：傳回工作輔助報告的中繼資料。
 
-**端點**： /primeapi/v2/jobsPOST
+**端點**： POST /primeapi/v2/jobs
 
 generateJobAidMetadataReport請求：
 
@@ -407,7 +414,7 @@ generateInstructorUtilisationReport回應：
 
 回應包含新屬性currencyCode。
 
-**端點**： /primeapi/v2/accountGET
+**端點**： GET /primeapi/v2/account
 
 ### 講師的技能與技能層級關聯
 
@@ -418,18 +425,18 @@ generateInstructorUtilisationReport回應：
 * 講師技能
 * instructorSkillLevel
 
-**端點**：GET/primeapi/v2/account /&lt;account_id>/instructorskill/search
+**端點**： GET /primeapi/v2/account /&lt;account_id>/instructorskill/search
 
 ### ILT變更
 
 | 說明 | 新引數/回應 | 端點 |
 |--- |--- |--- |
-| 列出所有城市 | filter.cityName=true/false | GET/primeapi/v2/data |
+| 列出所有城市 | filter.cityName=true/false | GET /primeapi/v2/data |
 | 搜尋和篩選城市 | filter.cityName=city_name<br>也支援以逗號分隔的城市清單 |
-| GET/primeapi/v2/search |
-| 回房詳細資料 | include=room | GET/primeapi/v2/users/`<id>`/calendar |
-| 學習物件以篩選城市 | filter.cityName=city_name <br>也支援以逗號分隔的城市清單。 | GET/primeapi/v2/learningObjects |
-| 新增城市面板 | 回應包含新屬性filterPanelSetting=true/false。 | GET/primeapi/v2/account |
+| GET /primeapi/v2/search |
+| 回房詳細資料 | include=room | GET /primeapi/v2/users/`<id>`/calendar |
+| 學習物件以篩選城市 | filter.cityName=city_name <br>也支援以逗號分隔的城市清單。 | GET /primeapi/v2/learningObjects |
+| 新增城市面板 | 回應包含新屬性filterPanelSetting=true/false。 | GET /primeapi/v2/account |
 
 ### 有衝突的學習者工作階段
 
@@ -452,7 +459,7 @@ generateInstructorUtilisationReport回應：
 
 learningObjects API的新查詢引數filter.loFormat=Virtual Classroom。
 
-**端點**： /primeapi/v2/learningObjectsGET
+**端點**： GET /primeapi/v2/learningObjects
 
 **行事曆**
 
@@ -466,7 +473,7 @@ learningObjects API的新查詢引數filter.loFormat=Virtual Classroom。
 
 新的查詢引數persistSearchHistory。 預設值為true，會持續查詢以取得搜尋建議。
 
-**端點**： /primeapi/v2/search？persistSearchHistory=trueGET
+**端點**： GET /primeapi/v2/search？persistSearchHistory=true
 
 **建議**
 
@@ -475,7 +482,7 @@ learningObjects API的新查詢引數filter.loFormat=Virtual Classroom。
 * learnerHistory （預設）
 * accounthistory
 
-**端點**： /primeapi/v2/search/suggestions/？suggestionType=learnerHistoryGET
+**端點**： GET /primeapi/v2/search/suggestions/？suggestionType=learnerHistory
 
 ### 使用者群組篩選
 
@@ -489,9 +496,9 @@ learningObjects API的新查詢引數filter.loFormat=Virtual Classroom。
 
 您可以透過API在自訂群組新增及移除外部使用者。
 
-**POST**
+**張貼內容**
 
-POST/userGroups/{id}/users
+POST /userGroups/{id}/users
 
 **內文**
 
@@ -506,7 +513,7 @@ POST/userGroups/{id}/users
 
 **DELETE**
 
-DELETE/userGroups/{id}/users
+DELETE /userGroups/{id}/users
 
 **內文**
 
@@ -521,9 +528,9 @@ DELETE/userGroups/{id}/users
 
 ### 在學習者應用程式中公告針對損失的使用者群組篩選
 
-* GET/users/{userId}/userGroups API有新引數filter.announcedGroupsOnly，它採用Boolean值(true/false)。 這只會篩選管理員公佈的使用者群組。 此引數的預設值為false。
-* GET/learningObjects API有一個新引數filter.announcedGroups，可接受宣告群組ID以篩選結果。
-* GET/search API有一個新引數filter.announcedGroups ，此引數接受宣告群組ID以篩選結果。
+* GET /users/{userId}/userGroups API有新引數filter.announcedGroupsOnly，此引數採用布林值(true/false)。 這只會篩選管理員公佈的使用者群組。 此引數的預設值為false。
+* GET /learningObjects API有一個新引數filter.announcedGroups，可接受宣告群組ID以篩選結果。
+* GET /search API有一個新引數filter.announcedGroups ，此引數接受宣告群組ID以篩選結果。
 
 下列範例回應：
 
@@ -632,7 +639,7 @@ DELETE/userGroups/{id}/users
 
 ## 發行說明
 
-如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱[發行說明](/help/migrated/release-note/release-notes.md)。
+如需有關最新和舊版Learning Manager網頁應用程式和裝置應用程式的資訊，請參閱[發行說明](/help/migrated/release-note/release-notes.md)。
 
 ## 錯誤修正
 

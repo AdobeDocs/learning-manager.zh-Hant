@@ -4,9 +4,9 @@ title: 系統需求
 description: Adobe Learning Manager的系統需求
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '590'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Intel® CoreTM i5或更新版本。
 
 * 1 Mbps
 
-### CPU、記憶體（分鐘）裝置
+### CPU，記憶體（最少）裝置
 
 * Qualcomm® Snapdragon™ 695 5G或同等產品，6GB記憶體
 
@@ -85,7 +85,10 @@ IE 11瀏覽器不支援沈浸式版面首頁。
 
 ## 建議的影像大小 {#recommendedsizeofimages}
 
-* 刊頭： 1280 x 360畫素。
+* 刊頭：
+   * 對於大型設定：1280 x 360畫素
+   * 對於設定為中等： 1280 x 273畫素
+   * 小型設定：1280 x 187畫素
 * 目錄卡上的影像： 280 x 100畫素
 * 訓練卡的大小：300 x 240畫素
 * 社交橫幅：1600 x 240畫素
@@ -328,7 +331,7 @@ IE 11瀏覽器不支援沈浸式版面首頁。
    <td>藍色牛仔褲</td>
   </tr>
   <tr>
-   <td>MicrosoftPower BI</td>
+   <td>Microsoft Power BI</td>
    <td>僅支援Power BI的商業授權。</td>
   </tr>
  </tbody>

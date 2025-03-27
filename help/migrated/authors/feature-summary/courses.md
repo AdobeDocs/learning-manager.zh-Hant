@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立、修改和發佈課程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7012'
+source-wordcount: '7030'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 作者可建立學習物件，例如課程、認證和學習計畫。 學習者可以使用這些學習物件，而管理員則可以追蹤學習者的進度。
 
-## Learning Manager課程 {#coursesincaptivateprime}
+## Learning Manager中的課程 {#coursesincaptivateprime}
 
 Adobe Learning Manager可讓作者使用一或多個與虛擬訓練、自控進度訓練、課堂訓練及活動相關的模組來建立課程。 管理員可以進一步使用這些課程建立課程例項、註冊學習者、指派徽章以及啟用這些課程的意見回饋。 他們也可以使用這些課程建立學習計畫、學習計畫和認證。
 
@@ -311,7 +311,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 ### API變更以啟用轉譯RTF概觀
 
-當客戶建置Headless介面時，他們需要在正在開發的自訂使用者介面中顯示學習物件。 若要這麼做，通常會使用公開的[GET/learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API。 現在Learning Manager支援在概覽欄位中擷取「RTF文字」，API回應中的學習物件資料模型也會公開相同內容。 請參閱下列API回應中的模型片段中名為「rtfOverview」的欄位。 另請注意，先前公開的欄位（「概觀」）在回溯相容性方面維持不變。
+當客戶建置Headless介面時，他們需要在正在開發的自訂使用者介面中顯示學習物件。 若要這麼做，通常會使用公開的[GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) API。 現在Learning Manager支援在概觀欄位中擷取「RTF文字」，API回應中學習物件的資料模型也會公開相同內容。 請參閱下列API回應中的模型片段中名為「rtfOverview」的欄位。 另請注意，先前公開的欄位（「概觀」）在回溯相容性方面維持不變。
 
 ```
 { 
@@ -341,7 +341,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 } 
 ```
 
-已使用概述欄位的客戶在其Headless介面中仍不受影響，只會看到如前所述的純文字。 如果客戶想要利用RTF概覽，則必須在作者UI中為其學習物件建立格式豐富的概覽，此後Learning Manager除了在API回應模型中傳回純文字外，也將開始傳回RTF概覽（如前）。
+已使用概述欄位的客戶在其Headless介面中仍不受影響，只會看到如前所述的純文字。 如果客戶想要利用RTF概覽，則必須在作者UI中為其學習物件建立格式豐富的概覽，之後Learning Manager除了在API回應模型中傳回純文字之外，也將開始傳回RTF概覽（與之前一樣）。
 
 但是，若要在其UI中呈現此RTF文字，客戶將需要包含CSS。 這會在以下各節中詳細說明。
 
@@ -446,7 +446,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
    * 如果您選取&#x200B;**是**，則任何學習者都可以加入會議。
    * 如果您選取&#x200B;**否**，系統會傳送請求給召集人，以允許或阻止學習者加入會議。
 
-   **注意：**&#x200B;學習者必須在Microsoft Teams上可用。 不過，學習者可以嘉賓身分加入Learning Manager。
+   **注意：**&#x200B;學習者必須在Microsoft Teams上可用。 不過，學習者可以來賓身分加入Learning Manager。
 
    **教室模組：**&#x200B;在此模式中，學習者在經過訓練的講師的協助下會參加面對面授課。 輸入標題、說明，並設定工作階段的持續時間。 您也可以指定類別的位置以及進行作業階段的講師。 若要儲存變更，請按一下&#x200B;**[!UICONTROL Done]**。
 
@@ -463,7 +463,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
    * 如果您選取「是」，則任何學習者皆可加入會議。
    * 如果您選取「否」，則會傳送請求給召集人，以允許或阻止學習者加入會議。
 
-   **附註：**&#x200B;如果學習者想要以訪客身分加入Microsoft Teams，則必須輸入電子郵件。 電子郵件必須存在於Learning Manager中。
+   **注意：**&#x200B;如果學習者想以嘉賓身分加入Microsoft Teams，他/她必須輸入電子郵件。 電子郵件必須存在於Learning Manager中。
 
    **活動模組：**&#x200B;在此模式中，學習者必須完成一組活動，例如，研討會、練習、問卷調查和其他學習活動。 輸入標題、說明和外部URL以供參考。 若要儲存變更，請按一下&#x200B;**[!UICONTROL Done]**。
 
@@ -490,7 +490,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 #### 在活動模組中新增HTML連結
 
-作者可以在活動模組中新增HTML連結，並設定完成條件。 若要新增HTML連結並設定完成條件，請遵循下列步驟：
+作者可以在活動模組中新增HTML連結，並設定完成條件。 若要新增HTML連結及設定完成條件，請依照下列步驟進行：
 
 1. 在作者應用程式中，選取首頁上的&#x200B;**[!UICONTROL Create Courses]**。
 1. 從&#x200B;**[!UICONTROL Course Catalog]**&#x200B;畫面選取&#x200B;**[!UICONTROL Add]**
@@ -618,7 +618,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 在上面提供的範例熒幕擷圖中，選取&quot;**[!UICONTROL +Store Managers]**&quot;選項會自動啟用與學習者對齊的非階層式管理員以檢閱檢查清單。 請注意，此處的「商店」將由管理員定義的作用中欄位取代。
 
-檢查清單模組的更新也包含當學習者註冊了包含檢查清單模組的課程時，給教師和管理人員的通知。 稽核者會收到Learning Manager通知中心以及教師/經理控制面板的通知，告知其檢查清單動作已到期。
+檢查清單模組的更新也包含當學習者註冊了包含檢查清單模組的課程時，給教師和管理人員的通知。 稽核者會在Learning Manager通知中心以及教師/經理控制面板中收到檢查清單動作到期的通知。
 
 <!--![View notification for enrollment](assets/checklist-notification.png)-->
 
@@ -660,7 +660,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 若要瞭解學習者如何體驗此課程，請按一下其中的每個模組，開始播放。 這會開始在Fluidic Player中播放課程。
 
-## Publish課程 {#publishacourse}
+## 發佈課程 {#publishacourse}
 
 以學習者身分預覽課程後，您可以發佈課程，讓學習者可使用此課程。 請注意，課程仍處於草稿模式。
 
@@ -679,7 +679,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 ![](assets/publish-a-course.png)
 
-*Publish課程*
+*發佈課程*
 
 在出現的確認快顯訊息上，按一下&#x200B;**[!UICONTROL OK]**。
 
@@ -687,7 +687,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 ## 檢視課程 {#viewacourse}
 
-您可以作者身分檢視所有可用課程的清單。 若要檢視Learning Manager帳戶中的所有課程，請按一下課程目錄。 若要在Learning Manager中檢視您撰寫的所有課程，請按一下「**[!UICONTROL My Courses]**」。
+您可以作者身分檢視所有可用課程的清單。 若要檢視Learning Manager帳戶中的所有課程，請按一下課程目錄。 若要在Learning Manager中檢視您編寫的所有課程，請按一下&#x200B;**[!UICONTROL My Courses]**。
 
 在課程卡上，暫留在選項上，然後按一下&#x200B;**[!UICONTROL View Course]**。
 
@@ -699,7 +699,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 ## 淘汰課程 {#retireacourse}
 
-如果您淘汰課程，便無法將新學習者註冊至課程。 已註冊的學習者可以參加課程。
+棄用課程會使學習者隱藏該課程，即使他們已註冊或已完成該課程亦然。 如果您淘汰課程，便無法將新學習者註冊至課程。 已註冊的學習者可以參加課程。
 
 若要淘汰課程，請在課程卡上暫留在選項上，然後按一下「淘汰課程」 。
 
@@ -738,7 +738,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 若要切換至管理模式，
 
 1. 按一下您的設定檔圖片，然後選取[管理員]。
-1. 在管理模式中，按一下左窗格上的&#x200B;**[!UICONTROL Courses]**。 在此頁面上，您可以在Learning Manager帳戶中檢視所有作者建立的所有課程。
+1. 在管理模式中，按一下左窗格上的&#x200B;**[!UICONTROL Courses]**。 在此頁面上，您可以在您的Learning Manager帳戶中檢視所有作者建立的所有課程。
 1. 若要註冊學習者，請將游標移至課程卡上，您就會看到&#x200B;**註冊學習者**&#x200B;選項。 按一下此選項。
 
    ![](assets/enroll-learners.png)
@@ -751,7 +751,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 
    *檢視課程的預設執行個體*
 
-1. 在「包含學習者」欄位中開始輸入學習者的名稱，然後選擇學習者。 您也可以在此處新增使用者群組。 如果您想將所有學習者註冊到Learning Manager帳戶，請開始輸入全部。 您也可以將學習者註冊至團隊。
+1. 在「包含學習者」欄位中開始輸入學習者的名稱，然後選擇學習者。 您也可以在此處新增使用者群組。 如果您想要在Learning Manager帳戶中註冊所有學習者，請開始輸入全部。 您也可以將學習者註冊至團隊。
 
    ![](assets/include-learners.png)
 
@@ -796,16 +796,16 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 
 如需詳細資訊，請參閱[取消註冊學習者](/help/migrated/administrators/feature-summary/courses.md)。
 
-## 新增Captivate與簡報者的課程模組 {#addcoursemodulesforcaptivateandpresenter}
+## 新增Captivate和Presenter的課程模組 {#addcoursemodulesforcaptivateandpresenter}
 
-您也可以使用Publish功能表，從Adobe Captivate和Adobe Presenter軟體發佈課程模組至Learning Manager。
+您也可以使用「發佈」功能表，從Adobe Captivate和Adobe Presenter軟體將課程模組發佈至Learning Manager。
 
 1. 在Captivate中，按一下&#x200B;**[!UICONTROL Publish]** > **[!UICONTROL Publish to Learning Manager]**。
 1. 提供子網域名稱或電子郵件識別碼，然後按一下&#x200B;**[!UICONTROL Submit]**。 如果您有多個帳戶，系統會提示您選擇帳戶。
-1. 使用Adobe認證登入。 如果您沒有Adobe識別碼，請按一下&#x200B;**[!UICONTROL Create Account]**。 獲得授權後，您會被導向模組發佈頁面。
-1. 提供模組的所有基本資訊，然後按一下Publish。
+1. 使用Adobe憑證登入。 如果您沒有Adobe ID，請按一下&#x200B;**[!UICONTROL Create Account]**。 獲得授權後，您會被導向模組發佈頁面。
+1. 提供模組的所有基本資訊，然後按一下發佈。
 
-您可以在Learning Manager模組頁面上看到已發佈的模組。 如需詳細資訊，請參閱[Adobe Learning Manager的Publish專案](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在Learning Manager模組頁面上看到已發佈的模組。 如需詳細資訊，請參閱[將專案發佈到Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 課程效果 {#courseeffectiveness}
 
@@ -835,7 +835,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 
 ## 外部認證的必修課程 {#mandatorycoursesforexternalcertification}
 
-在舊版Learning Manager中，學習者在外部認證中完成課程並非必須完成認證。
+在舊版Learning Manager中，外部認證的學習者完成課程並非必須完成認證。
 
 您現在可以啟用[課程表]索引標籤中的&#x200B;**將所需課程設定為[完成認證的必要課程]**&#x200B;選項，讓課程成為必修課程。
 
@@ -941,6 +941,6 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 
 +++您可以下載已在Adobe Learning Manager上傳的內容以修改內容嗎？
 
-否，上傳至Learning Manager的內容為已發佈的zip檔案，而非來源檔案。 因此，即使下載了內容，也無法在編寫工具中編輯內容。 您需要來源檔案才能編輯內容。
+否，在Learning Manager上上傳的內容是已發佈的zip檔案，而非來源檔案。 因此，即使下載了內容，也無法在編寫工具中編輯內容。 您需要來源檔案才能編輯內容。
 
 +++

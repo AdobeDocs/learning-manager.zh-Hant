@@ -4,9 +4,9 @@ title: 大量新增使用者
 description: 瞭解如何一次新增多個使用者。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -39,9 +39,13 @@ ht-degree: 0%
 
 在此情況下，貴公司的管理員預設會被視為使用者的管理員。 依預設，會將員工視為使用者的設定檔。
 
+>[!NOTE]
+>
+>若要新增使用者，請建立新的CSV檔案及其詳細資訊，然後將其上傳。 不支援更新及重新上傳現有的CSV檔案。
+
 **範例CSV**
 
-Learning Manager範例CSV包含以下必填欄位。
+Learning Manager範例CSV包含下列必要欄位。
 [Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
 
 ## 包含所有欄位的CSV上傳 {#csvuploadwithallthefields}
@@ -56,7 +60,7 @@ Learning Manager範例CSV包含以下必填欄位。
 
 **範例CSV**
 
-Learning Manager範例CSV包含所有欄位。
+Learning Manager範例CSV包含下列所有欄位。
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip)
 
 如需詳細資訊，請參閱[使用CSV上傳](/help/migrated/administrators/feature-summary/add-users-user-groups.md)功能說明內容。
