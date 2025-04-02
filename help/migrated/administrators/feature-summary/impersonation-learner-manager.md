@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 學習者和經理的模擬
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,7 @@ ht-degree: 0%
 * 所有管理員預設都會看到此功能。
 * 只能模擬帳戶中的作用中使用者。
 * 管理員無法模擬自己。
-* 有權存取「使用者」頁面的自訂管理員可以模擬使用者。
-* 管理員/自訂管理員只能模擬60分鐘。
+* 管理員只能模擬60分鐘。
 * 具有唯讀存取權的自訂管理員無法模擬使用者。
 
 ## 模擬使用者
