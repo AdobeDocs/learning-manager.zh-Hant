@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 學習者和經理的模擬
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ ht-degree: 0%
 
 **模擬工作階段持續60分鐘。**
 
-在變更為學習者或經理角色時，會顯示一則訊息，指出管理員/自訂管理員處於使用者的模擬模式。
+在變更為學習者或經理角色時，會顯示一則訊息，指出管理員處於使用者的模擬模式。
 
 ## 登入與存取報告
 
