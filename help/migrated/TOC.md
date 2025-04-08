@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 1985b1db6e4ec5fdbe3cfa939ce404e9cf3a6ee9
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 3%
@@ -25,9 +25,8 @@ ht-degree: 3%
    * [適用於AEM Sites的ALM參照站台套件](adobe-learning-manager-integration-aem.md)
    * [適用於Microsoft Teams的Adobe Learning Manager應用程式](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager法規遵循GDPR](kb/prime-gdpr.md)
-   * [Learning Manager的協助工具](accessibility-learning-manager.md)
+   * [Learning Manager中的協助工具](accessibility-learning-manager.md)
    * [支援自訂網域](custom-domain.md)
-   * [Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md)
    * [從Adobe FTP管理員轉換](transition-from-ftp-manager.md)
    * [Adobe Learning Manager支援的語言](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager中的API淘汰與變更](api-deprecations-list.md)
@@ -38,7 +37,7 @@ ht-degree: 3%
    * [作者快速入門](authors/feature-summary/getting-started-author.md)
    * [學習者快速入門](learners/feature-summary/getting-started-learner.md)
    * [管理員快速入門](managers/feature-summary/getting-started-manager.md)
-   * [Learning Manager講師入門](instructors/feature-summary/getting-started.md)
+   * [Learning Manager講師快速入門](instructors/feature-summary/getting-started.md)
 * 管理員{#admin}
    * [使用者登入](administrators/feature-summary/user-login.md)
    * [新增使用者並建立使用者群組](administrators/feature-summary/add-users-user-groups.md)
@@ -48,7 +47,7 @@ ht-degree: 3%
    * [報表](administrators/feature-summary/reports.md)
    * [學習路徑](administrators/feature-summary/learning-paths.md)
    * [學習方案](administrators/feature-summary/learning-plans.md)
-   * [管理Learning Manager訂單和帳單](administrators/feature-summary/billing-management.md)
+   * [管理Learning Manager訂單與帳單](administrators/feature-summary/billing-management.md)
    * [工作輔助](administrators/feature-summary/job-aids.md)
    * [認證](administrators/feature-summary/certifications.md)
    * [目錄](administrators/feature-summary/catalogs.md)
@@ -58,6 +57,7 @@ ht-degree: 3%
    * [透過SAML設定介面語言](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [對等帳戶](administrators/feature-summary/peer-account.md)
    * [建立和修改技能與層級](administrators/feature-summary/skills-levels.md)
+   * [Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md)
    * [以AI為基礎的課程推薦](ai-based-recommendations.md)
    * [匯入技能](administrators/feature-summary/import-skills-external-sources.md)
    * [遊戲](administrators/feature-summary/gamification.md)
@@ -97,7 +97,7 @@ ht-degree: 3%
    * [可信](integration-admin/feature-summary/credly-integration.md)
    * [學習工具互通性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
    * [將Learning Manager與AEM整合](integrate-aem-learning-manager.md)
-   * [在Learning Manager安裝Salesforce套件](integration-admin/feature-summary/install-salesforce-package.md)
+   * [在Learning Manager中安裝Salesforce套件](integration-admin/feature-summary/install-salesforce-package.md)
    * [安裝Microsoft Teams聯結器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [應用程式開發人員手冊](integration-admin/feature-summary/developer-manual.md)
    * [適用於Salesforce的Learning Manager應用程式](integration-admin/feature-summary/sfdc-app.md)
@@ -182,4 +182,4 @@ ht-degree: 3%
    * [完成課程後，模組未標示為完成](kb/module-not-marked-complete.md)
    * [完成課程後無法習得技能](kb/skill-not-achieved.md)
    * [缺少選項按鈕](kb/selection-button-invisible.md)
-   * [無法在Learning Manager中檢視檔案提交內容](kb/unable-to-view-submitted-file.md)
+   * [無法在Learning Manager中檢視檔案提交](kb/unable-to-view-submitted-file.md)

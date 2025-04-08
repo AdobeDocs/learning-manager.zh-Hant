@@ -4,18 +4,18 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '15605'
+source-wordcount: '15622'
 ht-degree: 0%
 
 ---
 
 # Learning Manager聯結器
 
-企業有其他應用程式和系統，必須與Learning Manager整合。 聯結器是公用程式，可協助您執行資料式整合，例如從外部系統將資料匯入Learning Manager。  它也會從Learning Manager將資料匯出至外部系統。
+企業有其他應用程式和系統必須與Learning Manager整合。 聯結器是公用程式，可協助您執行資料型整合，例如從外部系統將資料匯入Learning Manager。  它也會執行從Learning Manager將資料匯出至外部系統的作業。
 
-Learning Manager提供Salesforce和FTP聯結器。 使用Salesforce聯結器，組織的整合管理員可以將其Salesforce應用程式與Learning Manager整合。 身為整合商，您也可以使用FTP聯結器將一組使用者自動匯入您的企業應用程式。
+Learning Manager提供Salesforce和FTP聯結器。 使用Salesforce聯結器，組織的整合管理員可將其Salesforce應用程式與Learning Manager整合。 身為整合商，您也可以使用FTP聯結器將一組使用者自動匯入您的企業應用程式。
 
 Learning Manager也提供Lynda、getAbstract和Harvard Management System聯結器。 這些聯結器可讓學習者存取及使用Lynda.com、getAbstract和Harvard ManageMentor的課程。
 
@@ -42,23 +42,23 @@ Salesforce聯結器會連線Learning Manager和Salesforce帳戶，以自動化�
 
 ### 對應屬性 {#map-attributes}
 
-整合管理員可以選擇Salesforce欄，並將它們對應至對應的Learning Manager群組屬性。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要為匯入使用者設定不同的對應，則可重新設定此對應。
+整合管理員可以選擇Salesforce欄，並將其對應至對應的Learning Manager群組屬性。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要為匯入使用者設定不同的對應，則可重新設定此對應。
 
 ### 自動匯入使用者 {#automated-user-import}
 
-使用者匯入程式可讓Learning Manager管理員從Salesforce擷取員工詳細資訊，並自動將其匯入Learning Manager。 此自動化可避免建立CSV和上傳至Learning Manager的手動操作。
+使用者匯入程式可讓Learning Manager管理員從Salesforce擷取員工詳細資訊，並自動將其匯入Learning Manager。 此自動化可避免建立CSV和上傳至Learning Manager時涉及的手動工作。
 
 ### 自動排程 {#auto-schedule}
 
-使用自動排程功能以及自動使用者匯入功能可能很有效。 Learning Manager管理員可以根據組織需求設定排程。 Learning Manager應用程式中的使用者可以根據排程取得最新狀態。 同步可在Learning Manager應用程式中每天執行。
+使用自動排程功能以及自動使用者匯入功能可能很有效。 Learning Manager管理員可以根據組織的需求設定排程。 Learning Manager應用程式中的使用者可以根據排程取得最新狀態。 同步可在Learning Manager應用程式中每天執行。
 
 ### 篩選使用者 {#filtering-user}
 
-Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
+Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定「管理員」下的所有使用者。
 
 ### 設定Salesforce聯結器 {#configuresalesforceconnector}
 
-若要整合Salesforce與Learning Manager，請瞭解此程式
+若要將Salesforce與Learning Manager整合，請瞭解此程式
 
 #### 先決條件 {#prerequisites}
 
@@ -81,7 +81,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 成功建立連線後，您可以將Salesforce欄對應至Learning Manager的對應屬性。 此步驟為必要步驟。
 
-1. 在對映頁面中，左側可看到Learning Manager的欄，右側可看到Salesforce欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 在對應頁面的左側，您可以看到Learning Manager的欄，而在右側，您可以看到Salesforce欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
 
    ![](assets/sfdc-map-columns.png)
    *對應屬性*
@@ -95,15 +95,15 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 ## 使用Salesforce聯結器 {#usingsalesforceconnector}
 
-Salesforce聯結器會連線至Salesforce.com ，以擷取設定中的使用者，並將其新增至Learning Manager。
+Salesforce聯結器會連線至Salesforce.com ，以擷取所設定的使用者，並將其新增至Learning Manager。
 
-### 從Salesforce聯絡人匯入使用者 {#import-salesforce-contacts}
+### 從Salesforce連絡人匯入使用者 {#import-salesforce-contacts}
 
-Learning Manager增強了Salesforce聯結器，可擷取聯絡人和Salesforce使用者並自動將其匯入Learning Manager。
+Learning Manager增強了Salesforce聯結器，以便擷取聯絡人和Salesforce使用者，並自動將其匯入Learning Manager。
 
 在Salesforce聯結器頁面上，輸入Salesforce url並完成驗證。 驗證之後，您可以繼續匯入使用者或連絡人。 如果您選擇「連絡人」選項，則指定要匯入的連絡人子集。
 
-選擇Salesforce欄，並將它們對應至對應的Learning Manager群組屬性。 完成對應後，後續的使用者匯入會使用相同的對應。
+選擇Salesforce欄，並將其對應至對應的Learning Manager群組屬性。 完成對應後，後續的使用者匯入會使用相同的對應。
 
 1. 登入Salesforce。
 1. 在連線頁面上，按一下&#x200B;**[!UICONTROL Import Internal Users]**。
@@ -118,7 +118,7 @@ Learning Manager增強了Salesforce聯結器，可擷取聯絡人和Salesforce�
 
 1. 如果按一下&#x200B;**[!UICONTROL Yes]**，您可以執行下列動作：
 
-   * **選擇聯絡人欄：**&#x200B;選取要匯入至Learning Manager的欄位。
+   * **選擇連絡人資料行：**&#x200B;選取您要匯入至Learning Manager的欄位。
    * **指定值：**&#x200B;選擇代表所選欄位的值。
 
    ![](assets/image053.png)
@@ -139,7 +139,7 @@ Learning Manager可將學習記錄（如成績單、使用者報告、技能報�
 
 ### Salesforce中的自訂物件 {#custom-objects-in-salesforce}
 
-從Learning Manager匯出學習記錄前，您必須在Salesforce中建立自訂物件。 自訂物件是您建立的物件，用來儲存公司或產業的特定資訊。 如需詳細資訊，請參閱[Salesforce自訂物件](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro)。
+從Learning Manager匯出學習記錄之前，您必須在Salesforce中建立自訂物件。 自訂物件是您建立的物件，用來儲存公司或產業的特定資訊。 如需詳細資訊，請參閱[Salesforce自訂物件](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro)。
 
 以下是建立物件的方式：
 
@@ -156,7 +156,7 @@ Learning Manager可將學習記錄（如成績單、使用者報告、技能報�
 >
 >請確定系統管理員存取權已授與在套件安裝後新增的所有使用中欄位。
 
-**連結事件與：**&#x200B;選擇要匯出的區段 — 使用者或連絡人。 如果您選擇連絡人物件，在Learning Manager中出現，但不在Salesforce中的使用者將在Salesforce中建立。
+**連結事件與：**&#x200B;選擇要匯出的區段 — 使用者或連絡人。 如果您選擇連絡人物件，則會在Salesforce中建立目前在Learning Manager中但不在Salesforce中的使用者。
 
 ![](assets/link-events.png)
 *連結事件選項*
@@ -169,11 +169,11 @@ Learning Manager可將學習記錄（如成績單、使用者報告、技能報�
 
 >[!NOTE]
 >
->在Salesforce的「執行狀態」頁面上，只能從Salesforce檢查處理的記錄數。 即使已處理的所有記錄中有部分匯出或失敗，Learning Manager也會將狀態顯示為「已完成」。
+>在Salesforce的「執行狀態」頁面上，只能從Salesforce檢查處理的記錄數。 即使已處理的所有記錄中出現部分匯出或失敗，Learning Manager也會將狀態顯示為「已完成」。
 
 ## 安裝Salesforce套件 {#install-salesforce-package}
 
-Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以直接在SFDC入口網站的應用程式中，取得管理員以刊頭形式傳送的公告。
+Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以在SFDC入口網站的應用程式內，直接透過刊頭取得管理員傳送的公告。
 
 ### 在Learning Manager應用程式中設定 {#setup-in-learning-manager-app}
 
@@ -188,20 +188,20 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 
 ### 在Salesforce應用程式中建立帳戶 {#create-account-in-salesforce-app}
 
-1. 在Salesforce註冊頁面上建立帳戶。 您必須在開發人員版或企業版中建立Salesforce帳戶。  [開發人員註冊網址](https://developer.salesforce.com/signup)。 請務必使用電子郵件ID註冊用於Learning Manager的Salesforce。
+1. 在Salesforce註冊頁面上建立帳戶。 您必須在開發人員版或企業版中建立Salesforce帳戶。  [開發人員註冊網址](https://developer.salesforce.com/signup)。 請確定您必須使用電子郵件ID來註冊用於Learning Manager的Salesforce。
 1. 透過驗證電子郵件驗證您的帳戶。
 1. 建立密碼並登入Salesforce。
 1. 請注意登入後的Salesforce URL (例如site.lightning.force.com)
 
 ### 安裝Learning Manager套件 {#install-learning-manager-package}
 
-如果要安裝套件，必須先刪除Salesforce中的現有套件。 在解除安裝之前，您必須啟用設定，如下所示。 必須套用這些設定，否則您將無法安裝套件。
+如果您想要安裝套件，必須先刪除Salesforce中的現有套件。 在解除安裝之前，您必須啟用設定，如下所示。 必須套用這些設定，否則您將無法安裝套件。
 
 >[!NOTE]
 >
 >Adobe Learning Manager應用程式僅在Salesforce閃電檢視中支援。
 
-1. 啟動[Learning Manager套件url](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ)。
+1. 啟動[Learning Manager封裝url](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ)。
 1. 在&#x200B;**登入**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Use Custom Domain]**。
 1. 輸入封裝URL並按一下&#x200B;**[!UICONTROL Continue]**。 安裝頁面必須選取僅供管理員安裝的選項。 請勿變更此選項。
 1. 按一下&#x200B;**[!UICONTROL Install]**。 安裝套件後，按一下&#x200B;**[!UICONTROL Done]**。 系統引導您前往已安裝的套件頁面，而您可以看到Adobe Learning Manager已安裝的套件。
@@ -213,7 +213,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
    * **ClientID**：輸入您從第一個區段取得的值。
    * **ClientSecret：**&#x200B;請輸入您從第一個區段取得的值。
    * **RefreshToken：**&#x200B;請輸入您從第一個區段取得的值。
-   * **LearningManagerBaseURL：** Learning Manager託管網站的網址。
+   * **LearningManagerBaseURL：** Learning Manager託管所在網站的URL。
 
 ### 新增遠端站台設定 {#add-remote-site-settings}
 
@@ -223,11 +223,11 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 1. 輸入詳細資料：
 
    * **遠端站台名稱：**&#x200B;請輸入您選擇的名稱。
-   * **遠端網站URL：** Learning Manager託管網站的網站URL。
+   * **遠端站台URL：** Learning Manager所在站台的URL。
 
 1. 啟動Learning Manager。
 
-### 啟用Learning Manager應用程式通知 {#enable-notifications-for-learning-manager-app}
+### 啟用Learning Manager應用程式的通知 {#enable-notifications-for-learning-manager-app}
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Setup]**。
 1. 搜尋自訂通知。
@@ -254,7 +254,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 
 ## 為Salesforce使用者設定Learning Manager {#configure-learning-manager-for-salesforce-users}
 
-Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用。 Salesforce管理員可以根據設定檔新增使用者。 Salesforce設定檔類似於Learning Manager中的設定檔。 例如，管理員、整合管理員、講師等。 Salesforce管理員也可以建立自訂設定檔。
+使用者也可以使用存在於任何Learning Manager帳戶中的Salesforce應用程式。 Salesforce管理員可以根據設定檔新增使用者。 Salesforce設定檔類似於Learning Manager中的設定檔。 例如，管理員、整合管理員、講師等。 Salesforce管理員也可以建立自訂設定檔。
 
 身為Salesforce管理員，您可以將設定檔指派給使用者或建立自訂設定檔。
 
@@ -290,7 +290,7 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 您必須讓所有設定檔都能看見應用程式。
 
-按一下&#x200B;**[!UICONTROL Save]**，則屬於所有設定檔的學習者將會存取Learning Manager應用程式。
+按一下「**[!UICONTROL Save]**」，則屬於所有設定檔的學習者將會存取Learning Manager應用程式。
 
 ### 學習路徑相關變更 {#learning-path-changes}
 
@@ -320,13 +320,13 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 ## Learning Manager FTP聯結器 {#ftpconnector}
 
-使用FTP聯結器，您可以將Learning Manager與任意外部系統整合，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager FTP帳戶的適當資料夾中。 FTP聯結器功能如下：
+您可以使用FTP聯結器將Learning Manager與任意外部系統整合，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager FTP帳戶的適當資料夾中。 FTP聯結器功能如下：
 
 您也可以使用Box聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊，請參閱方塊聯結器。
 
 ### 資料匯入 {#data-import}
 
-使用者匯入程式可讓Learning Manager管理員從Learning Manager FTP服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在FTP帳戶的適當資料夾中，以整合多個系統。 Learning Manager會挑選CSV檔案、將其合併，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
+使用者匯入程式可讓Learning Manager管理員從Learning Manager FTP服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在FTP帳戶的適當資料夾中，以整合多個系統。 Learning Manager會擷取CSV檔案、合併檔案，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
 
 **對應屬性**
 
@@ -339,7 +339,7 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 #### 正在排程 {#scheduling}
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每日執行。
+管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 可在Learning Manager應用程式中每天執行同步。
 
 ### 設定Learning Manager FTP聯結器 {#configure-captivate-prime-ftp-connector}
 
@@ -426,15 +426,15 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 +++內部使用者
 
-「匯入內部使用者」選項可讓您根據需求或排程將使用者從csv匯入Learning Manager。
+「匯入內部使用者」選項可讓您視需求或排程將使用者從csv匯入Learning Manager。
 
 +++
 
 +++對應屬性
 
-成功建立連線後，您可以對應CSV檔案的欄。 它會放置在FTP資料夾中並對應至Learning Manager的屬性。 此步驟為必要步驟。
+成功建立連線後，您可以對應CSV檔案的欄。 它會放置在FTP資料夾中與Learning Manager的對應屬性相對應。 此步驟為必要步驟。
 
-1. 在「對應屬性」頁面的左側，您可以看到Learning Manager的預期欄，而右側，您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下&#x200B;**選擇檔案**，匯入任何範本CSV。
+1. 在「對應屬性」頁面的左側，您可以看到Learning Manager的預期欄，而在右側，您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下&#x200B;**選擇檔案**，匯入任何範本CSV。
 1. 上述步驟會在右側的「選取」下拉式清單中填入所有CSV欄名稱。 選取對應至Learning Manager欄名稱的適當欄名稱。
 
    >[!NOTE]
@@ -465,7 +465,7 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 >[!NOTE]
 >
->將使用者匯入Learning Manager時，管理員也必須知道如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](migration-manual.md#usermanagement)。
+>將使用者匯入Learning Manager時，管理員也必須瞭解如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](migration-manual.md#usermanagement)。
 
 +++
 
@@ -633,7 +633,7 @@ Lynda.com的企業客戶會使用Lynda聯結器，他們想要讓學習者從Lea
 1. 從左窗格中，按一下「隨選執行」。 此選項可讓您從Lynda匯入使用者摘要和其他相關資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從開始日期到出現的所有資料都會匯入。
 
    * 在執行期間，如果應用程式在同步期間發生停機時間，您可以按一下「停用對Learning Manager的存取」 。
-   * 如果您在執行期間按一下「啟用對Learning Manager的存取權」，同步期間服務不會中斷。
+   * 如果您在執行期間按一下「啟用對Learning Manager的存取」 ，同步期間服務不會中斷。
 
    ![](assets/lynda-ondemand.png)
 
@@ -698,7 +698,7 @@ getAbstract.com的企業客戶會使用getAbstract聯結器，他們想要讓學
 1. 從左窗格中，按一下「隨選執行」。 此選項可讓您從getAbstract匯入使用者摘要和其他相關的資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從開始日期到出現的所有資料都會匯入。
 
    * 在執行期間，如果應用程式在同步期間發生停機時間，您可以按一下「停用對Learning Manager的存取」 。
-   * 如果您在執行期間按一下「啟用對Learning Manager的存取權」，同步期間服務不會中斷。
+   * 如果您在執行期間按一下「啟用對Learning Manager的存取」 ，同步期間服務不會中斷。
 
 1. 您也可以隨時從左側窗格按一下「執行狀態」，以時間順序檢視此聯結器的所有執行摘要。 您可以檢視同步化的開始日期和持續時間、同步化的型別（無論是隨選同步化）以及同步化的狀態（無論是正在進行中還是已完成）。
 
@@ -715,7 +715,7 @@ getAbstract.com的企業客戶會使用getAbstract聯結器，他們想要讓學
 
 ## Harvard ManageMentor聯結器 {#hmmconnector}
 
-Harvard ManageMentor聯結器是由Harvard ManageMentor的企業客戶所使用，他們想要讓學習者探索及使用Harvard ManageMentor課程。 聯結器可協助在Learning Manager中建立課程，並設定為定期擷取學習者進度資料。 若要配置此聯結器，請執行下列步驟：
+Harvard ManageMentor聯結器是由Harvard ManageMentor的企業客戶所使用，他們想要讓學習者探索及使用Harvard ManageMentor課程。 聯結器可協助在Learning Manager中建立課程，並可設定為定期擷取學習者進度資料。 若要配置此聯結器，請執行下列步驟：
 
 ### 設定Harvard ManagerMentor聯結器 {#configure-the-harvard-managermentor-connector}
 
@@ -748,7 +748,7 @@ Harvard ManageMentor聯結器是由Harvard ManageMentor的企業客戶所使用�
 1. 從左窗格中，按一下「隨選執行」。 此選項可讓您從Harvard ManageMentor匯入使用者摘要及其他相關資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 會為此連線匯入從開始日期起直到出現的所有資料。
 
    * 在執行期間，如果應用程式在同步期間發生停機時間，您可以按一下「停用對Learning Manager的存取」 。
-   * 如果您在執行期間按一下「啟用對Learning Manager的存取權」，同步期間服務不會中斷。
+   * 如果您在執行期間按一下「啟用對Learning Manager的存取」 ，同步期間服務不會中斷。
 
    如果您要每隔幾天自動執行同步處理，請在「重複天數」欄位中指定天數。 同步可確保您的帳戶更新為Harvard ManageMentor摘要的最新版本。
 
@@ -779,7 +779,7 @@ Harvard ManageMentor聯結器是由Harvard ManageMentor的企業客戶所使用�
 
 #### 對應屬性 {#map-attributes-1}
 
-整合管理員可以選擇Workday欄，並將它們對應至對應的Learning Manager群組屬性。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要為匯入使用者設定不同的對應，則可重新設定此對應。
+整合管理員可以選擇Workday欄，並將其對應至對應的Learning Manager群組屬性。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要為匯入使用者設定不同的對應，則可重新設定此對應。
 
 #### 自動匯入使用者 {#automated-user-import-1}
 
@@ -787,7 +787,7 @@ Harvard ManageMentor聯結器是由Harvard ManageMentor的企業客戶所使用�
 
 #### 篩選使用者 {#filtering-users}
 
-Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
+Learning Manager管理員可在匯入使用者之前，先對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定「管理員」下的所有使用者。
 
 ### 匯出 {#export}
 
@@ -795,7 +795,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 >[!NOTE]
 >
->不能使用同一Workday帳戶同時匯出來自多個Learning Manager帳戶的技能。
+>不能使用同一Learning Manager帳戶同時匯出多個Workday帳戶的技能。
 
 #### 要註記的點 {#points-to-note}
 
@@ -805,7 +805,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 ### 正在排程 {#Scheduling-1}
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
+管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程處於最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
 
 ### 設定Workday聯結器 {#configure-workday-connector}
 
@@ -813,7 +813,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 >
 >請貴組織的Workday管理員建立具有ISU_Permissions檔案中定義之許可權的整合系統使用者(ISU)。 從下列連結下載副本。
 
-[下載整合系統使用者(ISU)安全性的復本。](assets/isu-permissions-v1.pdf)若要整合Workday聯結器與Learning Manager，請瞭解程式。
+[下載整合系統使用者(ISU)安全性的復本。](assets/isu-permissions-v1.pdf)若要整合Workday聯結器與Learning Manager，請瞭解此程式。
 
 1. 在Learning Manager首頁中，將滑鼠游標停留在Workday圖磚上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
 
@@ -857,7 +857,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 您可以使用Workday聯結器整合Learning Manager和Workday，以自動化資料同步。 您可以將所有作用中的使用者從Workday匯入至Learning Manager。 使用者可從各種資料來源匯入，包括FTP和Salesforce。
 
-在匯入使用者之前，必須先對應Learning Manager和Workday的使用者屬性。 在「概觀」頁面中，使用「匯入」下的「內部使用者」選項來提供對映屬性。
+在匯入使用者之前，必須先對應Learning Manager和Workday中的使用者屬性。 在「概觀」頁面中，使用「匯入」下的「內部使用者」選項來提供對映屬性。
 
 在Adobe Learning Manager欄下輸入Adobe Learning Manager認證。 使用下拉式清單，為Workday下的欄選取正確的認證。
 
@@ -950,8 +950,8 @@ wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unicialty
 
 ### 匯出 {#export-1}
 
-您可以將使用者從Learning Manager取得的所有技能匯出至Workday。 系統只會匯出所有作用中的使用者技能，而Learning Manager不會匯出已淘汰的技能。 您也可以連線多個Learning Manager\
-帳戶至相同的Workday聯結器。 如果兩個Learning Manager帳戶中的技能名稱相同，則會在Workday中將它們對應至相同的技能。 在Workday中更新技能之前，如果兩個Learning Manager帳戶使用相同的Workday帳戶，建議您更新所有Learning Manager帳戶中的技能名稱。
+您可以將使用者取得的所有技能從Learning Manager匯出至Workday。 系統只會匯出所有作用中的使用者技能，而Learning Manager不會匯出淘汰的技能。 您也可以連線多個Learning Manager\
+帳戶至相同的Workday聯結器。 如果兩個Learning Manager帳戶中的技能名稱相同，則會在Workday中將它們對應至相同的技能。 在更新Workday中的技能之前，如果兩個Learning Manager帳戶使用相同的Workday帳戶，建議您更新所有Learning Manager帳戶中的技能名稱。
 
 +++使用者技能 — 設定
 
@@ -996,13 +996,13 @@ wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unicialty
 
 #### 篩選使用者 {#filtering-users-3}
 
-Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
+Learning Manager管理員可在匯入使用者之前，先對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定「管理員」下的所有使用者。
 
 若要設定   迷你橘色   聯結器，請聯絡Learning Manager CSM團隊。
 
 ### 設定miniOrange聯結器 {#configure-mini-orange-connector}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在miniOrange卡/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;選項。
+1. 在Learning Manager首頁中，將滑鼠游標停留在miniOrange卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;選項。
 
    ![](assets/miniorange-tile.png)
 
@@ -1014,13 +1014,13 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
    *建立連線*
 
-1. 如果您想要直接將miniOrange使用者匯入為Learning Manager內部使用者，請使用&#x200B;**[!UICONTROL Import Internal Users]**&#x200B;選項。
+1. 如果您要直接將miniOrange使用者匯入為Learning Manager內部使用者，請使用&#x200B;**[!UICONTROL Import Internal Users]**&#x200B;選項。
 
    ![](assets/import-users.png)
 
    *匯入內部使用者*
 
-1. 在對映頁面中，左側   在右側，您可以看到Learning Manager的欄和欄   您可以看到miniOrnage欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 在對映頁面中，左側   側邊您可以看到Learning Manager的欄和右側   您可以看到miniOrnage欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
 
    ![](assets/map-attributes.png)
 
@@ -1042,7 +1042,7 @@ To delete an established  miniOrange  connection, follow these steps. -->
 
 ## 縮放聯結器 {#zoom-connector}
 
-您可以整合Learning Manager與Zoom聯結器，並使用它們來託管課程。  聯結器可讓您與學習者設定視訊會議會議/課程。
+您可以整合Learning Manager與Zoom聯結器，並使用它們來託管類別。  聯結器可讓您與學習者設定視訊會議會議/課程。
 
 若要設定及使用聯結器，請遵循下列步驟。
 
@@ -1059,7 +1059,7 @@ To delete an established  miniOrange  connection, follow these steps. -->
 
    >[!NOTE]
    >
-   >作為學習者，在啟用聯結器時，請使用與您的Learning Manager帳戶相同的電子郵件ID來啟用使用者傳回Learning Manager的資訊。
+   >作為學習者，在啟用聯結器時，請使用您Learning Manager帳戶所用的相同電子郵件ID，以啟用使用者傳回Learning Manager中的摘要。
 
 1. 建立連線後，以Author身分，以Zoom作為會議系統來建立VC課程。
 
@@ -1068,7 +1068,7 @@ To delete an established  miniOrange  connection, follow these steps. -->
    *Create a VC course* -->
 
 1. 管理員、經理和學習者可將學習者註冊到建立的課程。 註冊後，學習者會收到電子郵件。 學習者可登入其Learning Manager帳戶以檢視方案詳細資料並參加課程。
-1. 完成課程後，完成報告會傳送至Learning Manager。 管理員可檢視完成報告，以檢查學習者的出席情況及分數。
+1. 課程完成後，完成報告會傳送至Learning Manager。 管理員可檢視完成報告，以檢查學習者的出席情況及分數。
 
    ![](assets/attendence-and-scoringreport.png)
    *出席與評分報告*
@@ -1084,16 +1084,20 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 * 檢視報表資料`/report:read:admin`
 * 檢視所有使用者資訊`/user:read:admin`
 * 檢視使用者資訊並管理使用者`/user:write:admin`
+* 新增會議註冊者`/meeting:write:registrant:admin`
+* 列出所有會議註冊者`/meeting:read:list_registrants:admin`
+* 檢視及管理子帳戶的使用者會議`/meeting:write:meeting:master`
+* 檢視報表資料`/report:read:list_meeting_participants:admin`
 
 ## 方塊聯結器 {#box_connector}
 
-使用Box聯結器，您可以將Learning Manager與任意外部系統整合，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager Box帳戶的適當資料夾中。 方塊聯結器功能如下：
+使用Box聯結器，您可以整合Learning Manager與任意外部系統，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager Box帳戶的適當資料夾中。 方塊聯結器功能如下：
 
 您也可以使用FTP聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊，[Learning Manager FTP聯結器。](connectors.md#main-pars_header_1427405935)
 
 ### 資料匯入 {#data-import-1}
 
-使用者匯入程式可讓Learning Manager管理員從Learning Manager Box服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在Box帳戶的適當資料夾中，以整合多個系統。 Learning Manager會挑選CSV檔案、將其合併，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
+使用者匯入程式可讓Learning Manager管理員從Learning Manager Box服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在Box帳戶的適當資料夾中，以整合多個系統。 Learning Manager會擷取CSV檔案、合併檔案，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
 
 **對應屬性**
 
@@ -1105,7 +1109,7 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 
 ## 排程報表 {#schedule-reports}
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
+管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程處於最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
 
 ## 設定方塊聯結器 {#boxconnector}
 
@@ -1117,12 +1121,12 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 
    *連線到盒子*
 
-1. 系統會顯示一個對話方塊，提示您輸入電子郵件ID。 提供組織內負責管理Learning Manager Box帳戶人員的電子郵件ID。 提供電子郵件ID後，按一下「連線」 。
-1. Learning Manager會傳送電子郵件給您，提醒使用者在第一次存取該方塊前重設密碼。 使用者必須重設密碼，並使用它來存取Learning Manager Box帳戶。
+1. 系統會顯示一個對話方塊，提示您輸入電子郵件ID。 提供負責管理組織Learning Manager Box帳戶之人員的電子郵件ID。 提供電子郵件ID後，按一下「連線」 。
+1. Learning Manager會傳送電子郵件給您，提醒使用者在第一次存取該方塊之前重設密碼。 使用者必須重設密碼，並使用它來存取Learning Manager Box帳戶。
 
    >[!NOTE]
    >
-   >只能為特定Learning Manager帳戶建立一個Learning Manager Box帳戶。
+   >指定的Learning Manager帳戶只能建立一個Learning Manager Box帳戶。
 
    在總覽頁面中，您可以指定整合的連線名稱。 從下列選項中選擇您要採取的動作：
 
@@ -1158,7 +1162,7 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 
 +++xAPI活動報表
 
-「xAPI報表活動」選項可讓您從協力廠商服務產生匯入xAPI陳述式。 檔案會儲存為.CSV檔案，並在匯入至Learning Manager時轉換為xAPI陳述式。
+「xAPI報表活動」選項可讓您從協力廠商服務產生匯入xAPI陳述式。 檔案會儲存為.CSV檔案，然後在匯入至Learning Manager時轉換為xAPI陳述式。
 
 +++
 
@@ -1216,7 +1220,7 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 
 +++
 
-+++使用Learning Manager方塊聯結器
++++使用Learning Manager Box聯結器
 
 1. 來自外部系統的CSV檔案必須放在以下路徑中：
 
@@ -1232,7 +1236,7 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 1. 所有CSV都必須包含對應中指定的欄。
 1. 在程式開始之前，所有必需的CSV都必須存在於資料夾中。
 
-將使用者匯入Learning Manager時，管理員也必須知道如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](migration-manual.md#usermanagement)。
+將使用者匯入Learning Manager時，管理員也必須瞭解如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](migration-manual.md#usermanagement)。
 
 +++
 
@@ -1256,7 +1260,7 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 
 >[!NOTE]
 >
->客戶可管理Learning Manager團隊共用Box資料夾中的存取許可權和內容。  此外，資料夾中的內容將會實際儲存在法蘭克福地區。
+>客戶會管理存取許可權，以及Learning Manager團隊共用Box資料夾中的內容。  此外，資料夾中的內容將會實際儲存在法蘭克福地區。
 
 ### 支援手動csv欄位 {#support-for-manual-csv-fields-1}
 
@@ -1277,9 +1281,9 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 >
 >任何使用FTP/Box作為資料來源的聯結器或移轉，都會刪除所有已處理的csv檔案。
 >
->內容聯結器(例如LinkedIn)的csv將在七天後刪除，而匯入使用者的csv將立即刪除。
+>內容聯結器（例如LinkedIn）的csv將在七天後刪除，而匯入使用者的csv將立即刪除。
 
-## linkedIn學習聯結器 {#linkedinlearningconnector}
+## LinkedIn學習聯結器 {#linkedinlearningconnector}
 
 LinkedIn.com的企業客戶會使用LinkedIn學習聯結器，他們想要讓學習者從Learning Manager中探索和使用課程。 聯結器可設定為定期使用您的API金鑰擷取課程。 在Learning Manager中建立課程後，使用者可以搜尋課程並加以使用。 然後可以在Learning Manager中追蹤學習者進度。
 
@@ -1289,7 +1293,7 @@ LinkedIn.com的企業客戶會使用LinkedIn學習聯結器，他們想要讓學
 
 >[!NOTE]
 >
->linkedIn學習課程所花費的學習時間會由LinkedIn內容/LinkedIn平台傳送至Learning Manager學習平台。 如果LinkedIn學習未傳送學習時間，我們的學習平台將無法記錄該時間。 在這種情況下，Learning Manager顯示的學習時間為零。
+>LinkedIn學習課程所花費的學習時間會由LinkedIn內容/LinkedIn平台傳達Learning Manager學習平台。 如果LinkedIn學習未傳送學習時間，我們的學習平台將無法記錄該時間。 在這種情況下，Learning Manager顯示的學習時間為零。
 
 ### 在Linkedln學習入口網站中設定設定 {#configure-settings-in-linkedln-learning-portal}
 
@@ -1308,7 +1312,7 @@ LinkedIn.com的企業客戶會使用LinkedIn學習聯結器，他們想要讓學
 ### 設定LinkedIn學習聯結器 {#configure-linkedin-learning-connector}
 
 1. 在整合管理員儀表板中，按一下[!UICONTROL LinkedIn Learning]。 將會顯示[快速入門]、[連線]和[管理連線]選項。
-1. 如果您是第一次設定LinkedIn學習聯結器，請按一下「[!UICONTROL Connect]」。
+1. 如果您是第一次設定LinkedIn學習聯結器，請按一下[!UICONTROL Connect]。
 
    <!--Configure the Exavault FTP account before you configure this connector.
 
@@ -1319,7 +1323,7 @@ LinkedIn.com的企業客戶會使用LinkedIn學習聯結器，他們想要讓學
 
    >[!NOTE]
    >
-   >企業管理員可以從LinkedIn學習管理員入口網站產生新應用程式，以取得Appkey和秘密金鑰。
+   >企業管理員可以從LinkedIn學習管理員入口網站產生新的應用程式，以取得Appkey和秘密金鑰。
 
 1. 按一下&#x200B;**[!UICONTROL Save]**。
 
@@ -1340,10 +1344,10 @@ LinkedIn.com的企業客戶會使用LinkedIn學習聯結器，他們想要讓學
 
    按一下&#x200B;**[!UICONTROL Save]**&#x200B;以儲存變更。
 
-1. 從左窗格，按一下&#x200B;**[!UICONTROL On-Demand Execution]**。 此選項可讓您從LinkedIn匯入使用者摘要和其他相關資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從開始日期到出現的所有資料都會匯入。
+1. 從左窗格，按一下&#x200B;**[!UICONTROL On-Demand Execution]**。 此選項可讓您從LinkedIn匯入使用者摘要與其他相關資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從開始日期到出現的所有資料都會匯入。
 
-   * 您可在執行期間按一下&#x200B;**[!UICONTROL Disable access]**&#x200B;前往Learning Manager，應用程式在同步期間發生停機時間。
-   * 如果您在執行期間按一下&#x200B;**[!UICONTROL Enable access]**&#x200B;前往Learning Manager，同步期間不會中斷服務。
+   * 在執行期間，您可以按一下&#x200B;**[!UICONTROL Disable access]**&#x200B;至Learning Manager，讓應用程式在同步期間停機。
+   * 如果您在執行期間按一下&#x200B;**[!UICONTROL Enable access]**&#x200B;至Learning Manager，同步處理期間不會中斷服務。
 
    ![](assets/ondemandexecution.jpg)
 
@@ -1363,11 +1367,11 @@ LinkedIn.com的企業客戶會使用LinkedIn學習聯結器，他們想要讓學
 
 ### 篩選LinkedIn學習內容 {#filter-linkedin}
 
-linkedIn聯結器提供篩選條件，可根據LinkedIn學習資料庫隔離內容。 此外，您也可以根據語言和資料庫篩選內容，並僅匯入必要語言的課程。 匯入後，內容會根據匯入設定分隔至多個目錄。
+LinkedIn聯結器中有篩選器，可根據LinkedIn學習資料庫來分隔內容。 此外，您也可以根據語言和資料庫篩選內容，並僅匯入必要語言的課程。 匯入後，內容會根據匯入設定分隔至多個目錄。
 
 以下是篩選器：
 
-**使用以下專案篩選訓練：**&#x200B;將課程子集從LinkedIn篩選至Learning Manager。
+**篩選訓練使用：**&#x200B;從LinkedIn篩選課程子集至Learning Manager。
 
 * **根據語言**
 
@@ -1375,7 +1379,7 @@ linkedIn聯結器提供篩選條件，可根據LinkedIn學習資料庫隔離內�
 
 *依語言篩選*
 
-* **根據LinkedIn Learning的資料庫**
+* **根據LinkedIn學習中的資料庫**
 
 ![](assets/filter-catalog.png)
 
@@ -1400,9 +1404,9 @@ linkedIn聯結器提供篩選條件，可根據LinkedIn學習資料庫隔離內�
 
 >[!NOTE]
 >
->Learning Manager僅支援MicrosoftPower BI的商業授權整合。 它不會與政府雲端上的MicrosoftPower BI整合。
+>Learning Manager僅支援與Microsoft Power BI的商業授權整合。 它不會在政府雲端上與Microsoft Power BI整合。
 
-您可以透過此聯結器使用整合，以運用現有Power BI帳戶在Power BI中分析和視覺化學習管理員的學習資料。 在設定期間，整合管理員可以設定其Power BI工作區，以增量填入兩個即時資料集 — 學習者成績單和使用者技能報告。 然後，您可以使用PowerBI的所有功能和威力，開發、部署和發佈他們想要的組織中的自訂儀表板。
+您可以透過此聯結器使用整合，以運用您現有的Power BI帳戶，在Power BI中分析和視覺化來自Learning Manager的學習資料。 在設定期間，整合管理員可以設定其Power BI工作區，以增量方式填入兩個即時資料集 — 學習者成績單和使用者技能報告。 然後，您可以使用PowerBI的所有功能和威力，開發、部署和發佈他們想要的組織中的自訂儀表板。
 
 ### 設定聯結器 {#configuring-the-connector}
 
@@ -1425,7 +1429,7 @@ linkedIn聯結器提供篩選條件，可根據LinkedIn學習資料庫隔離內�
 
    取得租使用者：請聯絡您的Power BI管理員以提供租使用者名稱稱。
 
-   取得Workplace Id：只有Power BIPro使用者才能建立Workplace。 您可以在Power BI中建立工作區，並從URL取得ID。
+   取得Workplace ID：只有Power BI Pro使用者才能建立Workplace。 您可以在Power BI中建立工作區，並從URL取得ID。
 
 1. 按一下&#x200B;**[!UICONTROL Register app]**&#x200B;並儲存使用者端識別碼與使用者端密碼。
 
@@ -1449,7 +1453,7 @@ linkedIn聯結器提供篩選條件，可根據LinkedIn學習資料庫隔離內�
 
 *隨選匯出*
 
-可透過登入您的Power BI帳戶來檢視匯出的資料。 匯出的資料會列在資料集選項下。
+可登入您的Power BI帳戶來檢視匯出的資料。 匯出的資料會列在資料集選項下。
 
 ### 在Learning Manager中匯出xAPI活動報表 {#export-xapi-activity-reports-in-captivate-prime}
 
@@ -1483,9 +1487,9 @@ linkedIn聯結器提供篩選條件，可根據LinkedIn學習資料庫隔離內�
 ![](assets/on-demand-2.png)
 *隨選xAPI匯出*
 
-所有匯出的資料都將進入您的Power BI帳戶中Adobe建立的資料集。
+所有匯出的資料都會進入Adobe在您的Power BI帳戶中建立的資料集。
 
-如果LRS中的少數xAPI陳述式沒有設定為要匯出的json路徑，則xAPI匯出至Power BI會失敗。 對於無法使用json路徑的xAPI陳述式，應新增N/A常數值並以Power BI顯示。
+如果LRS中的少數xAPI陳述式沒有設定為要匯出的json路徑，則xAPI匯出至Power BI會失敗。 對於無法使用json路徑的xAPI陳述式，應在Power BI中新增並顯示N/A常數值。
 
 **執行狀態**
 
@@ -1496,12 +1500,12 @@ linkedIn聯結器提供篩選條件，可根據LinkedIn學習資料庫隔離內�
 
 ### 統一報告 {#unified-reports}
 
-Learning Manager提供的方法可讓您建立匯出並包含使用者資料、學習者成績單、遊戲化、意見回饋報告等報表組合，作為一個Power BI資料集。
+Learning Manager提供一種將使用者資料、學習者成績單、遊戲化、意見回饋等報表組合，以單一資料集形式建立匯出至Power BI的方法。
 
 這可讓Power BI使用者合併來自多個報表的資料，以在Power BI中顯示更強大的分析和視覺效果。
 
 ![](assets/unified-power-bireports.png)
-*統一Power BI報告*
+*統一的Power BI報告*
 
 **隨選匯出**
 
@@ -1519,7 +1523,7 @@ Learning Manager提供的方法可讓您建立匯出並包含使用者資料、�
 
 您也可以將培訓報表匯出至Power BI。
 
-訓練報告可以匯出為Power BI作為統一報告功能的一部分。
+訓練報告可以匯出到Power BI作為統一報告功能的一部分。
 
 訓練報告有兩個額外的欄位：
 
@@ -1551,7 +1555,7 @@ Learning Manager也提供現成的Power BI範本。 這些範本可為Adobe Lear
 ![](assets/download-power-bi-template.png)
 *下載Power BI範本*
 
-這可讓使用者下載這些範本，並將其用於Power BI應用程式，進一步自訂這些範本，讓您的報表展現精彩的故事。
+這可讓使用者下載這些範本，並在Power BI應用程式中使用這些範本，進一步自訂這些範本，讓您的報表展現精彩的故事。
 
 [**下載範本**](https://documentcloud.adobe.com/link/track?uri=urn:aaid:scds:US:842bb6a2-cd7d-4c3d-b968-da38bc1cc18a)
 
@@ -1568,7 +1572,7 @@ Learning Manager也提供現成的Power BI範本。 這些範本可為Adobe Lear
 
 ### 匯出訓練報告 {#export-training-report}
 
-訓練報告可以匯出為Power BI作為統一報告功能的一部分。
+訓練報告可以匯出到Power BI作為統一報告功能的一部分。
 
 培訓報告有以下其他欄位：
 
@@ -1630,13 +1634,13 @@ Learning Manager也提供現成的Power BI範本。 這些範本可為Adobe Lear
 >
 >設定FTP需要前置時間，且需要IT支援才能允許IP和連線埠清單，以及在FTP伺服器上建立具有特定許可權的特定資料夾。
 
-Learning Manager提供連線至自訂FTP位置的功能。
+Learning Manager可讓您連線至自訂FTP位置。
 
 您的FTP將支援下列專案：
 
 ### 資料匯入 {#data-import-2}
 
-使用者匯入程式可讓Learning Manager管理員從Learning Manager FTP服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在FTP帳戶的適當資料夾中，以整合多個系統。 Learning Manager會挑選CSV檔案、將其合併，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
+使用者匯入程式可讓Learning Manager管理員從Learning Manager FTP服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在FTP帳戶的適當資料夾中，以整合多個系統。 Learning Manager會擷取CSV檔案、合併檔案，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
 
 **對應屬性**
 
@@ -1648,7 +1652,7 @@ Learning Manager提供連線至自訂FTP位置的功能。
 
 ### 排程報表 {#schedule-reports-2}
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
+管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程處於最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
 
 若要設定您自己的FTP，請以整合管理員身分登入，然後按一下&#x200B;**[!UICONTROL Custom FTP]** > **[!UICONTROL Connect]**。
 
@@ -1784,7 +1788,7 @@ Learning Manager提供連線至自訂FTP位置的功能。
 
 #### 篩選使用者 {#filtering-users-4}
 
-Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
+Learning Manager管理員可在匯入使用者之前，先對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定「管理員」下的所有使用者。
 
 若要設定ADFS聯結器，請聯絡Learning Manager CSM團隊。
 
@@ -1802,13 +1806,13 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
    *建立連線*
 
-1. 如果您想要直接將ADFS使用者匯入為Learning Manager內部使用者，請使用「匯入內部使用者」選項。
+1. 如果要直接將ADFS使用者匯入為Learning Manager內部使用者，請使用「匯入內部使用者」選項。
 
    ![](assets/adfs3.jpg)
 
-   *將使用者匯入至Learning Manager*
+   *將使用者匯入Learning Manager*
 
-1. 在對映頁面中，左側   在右側，您可以看到Learning Manager的欄和欄   您可以看到ADFS欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 在對映頁面中，左側   側邊您可以看到Learning Manager的欄和右側   您可以看到ADFS欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
 
    ![](assets/adfs4.jpg)
 
@@ -1835,11 +1839,11 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
    Adobe Connect URL範例： ***mycompany.adobeconnect.com***
 
-   您必須提供Adobe連線帳戶管理員的電子郵件ID。
+   您必須提供Adobe connect帳戶管理員的電子郵件ID。
 
    >[!NOTE]
    >
-   >Learning Manager僅支援Adobe代管的連線帳戶。 範例； &#39;.adobeconnect.com&#39;。
+   >Learning Manager只支援Adobe代管的連線帳戶。 範例； &#39;.adobeconnect.com&#39;。
 
 1. 按一下&#x200B;**[!UICONTROL Integrate]**。
 
@@ -1857,7 +1861,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 在管理員登入中，按一下VC課程名稱。 按一下左窗格中的執行個體和工作階段詳細資訊。  按一下「階段作業詳細資訊」頁面右角的編輯圖示，以新增階段作業資訊。
 
-透過整合Adobe Learning Manager和Adobe Connect來建立虛擬教室模組或工作階段，您的Connect帳戶應可支援會議室，且會議室數量足以提供您使用案例的並行使用者。 這些會議室用於託管Learning Manager虛擬教室模組。 Learning Manager會針對Learning Manager中的每個虛擬教室模組或工作階段，動態建立新的Connect會議室。
+透過整合Adobe Learning Manager和Adobe Connect來建立虛擬教室模組或工作階段，您的Connect帳戶應可支援會議室，且會議室數量足以提供您使用案例的並行使用者。 這些會議室是用來裝載Learning Manager虛擬教室模組。 Learning Manager會為Learning Manager中的每個虛擬教室模組或工作階段動態建立新的Connect會議室。
 
 >[!NOTE]
 >
@@ -1869,7 +1873,7 @@ Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如
 
 您可以使用Adobe Connect中已建立的其中一個聊天室來建立虛擬教室工作階段。
 
-Learning Manager也可讓學習者使用驗證方法進入虛擬工作階段的連線室。
+Learning Manager也允許學習者使用驗證方法進入其虛擬工作階段的連線室。
 
 ![](assets/adobe-connect-authentication.png)
 *Adobe Connect驗證*
@@ -1886,7 +1890,7 @@ Learning Manager也可讓學習者使用驗證方法進入虛擬工作階段的�
 
 ### 從Adobe Connect匯入測驗分數 {#quiz-adobe-connect}
 
-將連線測驗資料匯入Learning Manager並整合現有報告工作流程，這樣Learning Manager使用者就可以在報告內從Adobe Connect工作階段取得測驗資料、使用者回應和分數，就像提供測驗功能的自學課程模組一樣。
+將連線測驗資料匯入Learning Manager並整合至現有的報告工作流程，讓Learning Manager使用者可以從報告內的Adobe Connect工作階段取得測驗資料、使用者回應和分數，就像提供測驗給自訂進度模組一樣。
 
 在「連線」區段中，如果有任何學習者參加測驗課程或任何支援測驗報告的互動，則除了完成以外，還會追蹤學習者的所有互動。 課程必須是Connect VC訓練。
 
@@ -1899,11 +1903,11 @@ Learning Manager也可讓學習者使用驗證方法進入虛擬工作階段的�
 
 **Learning Manager — 作者**
 
-* 作者在Learning Manager中建立模組型別為&#x200B;**虛擬教室的課程。**
+* 作者在Learning Manager中建立模組型別為&#x200B;**Virtual Classroom.**&#x200B;的課程
 * 從&#x200B;**會議系統**&#x200B;下拉式清單中，選擇[連線]作為VC提供者。
-* 選擇「持續會議」課程，並在「連線」中選取由主機建立的VC教室。 選擇講師。 儲存課程並Publish。
+* 選擇「持續會議」課程，並在「連線」中選取由主機建立的VC教室。 選擇講師。 儲存並發佈課程。
 
-**學習管理員 — 學習者**
+**Learning Manager — 學習者**
 
 * 課程發佈後，學習者即註冊課程。
 * 學習者會重新導向至Connect VC工作階段，在此階段中允許Connect主機存取VC工作階段。
@@ -1916,11 +1920,11 @@ Learning Manager也可讓學習者使用驗證方法進入虛擬工作階段的�
 
 * 學習者會參加測驗，並在測驗完成後關閉工作階段。
 
-**學習管理員 — 學習者**
+**Learning Manager — 學習者**
 
 * 學習者會關閉工作階段並自動同步工作階段。
 
-**學習管理員 — 管理員**
+**Learning Manager — 管理員**
 
 * 工作階段過期後，就會在排定的期間後觸發測驗匯入工作流程。
 * 等候排程觸發且處理完成。 若要從整合管理員端檢查處理狀態，您可以在Adobe Connect聯結器內檢視&#x200B;**執行狀態**&#x200B;以監視進度。 一旦執行成功，狀態將變更為&#x200B;**已完成**。
@@ -1935,11 +1939,11 @@ Learning Manager也可讓學習者使用驗證方法進入虛擬工作階段的�
 
 ## Marketo Engage聯結器 {#marketo}
 
-Learning Manager整合Marketo Engage，這是一個協助執行行銷活動的行銷自動化軟體。
+Learning Manager與Marketo Engage整合，後者是協助執行行銷活動的行銷自動化軟體。
 
-Marketo Engage聯結器可在新使用者新增至Learning Manager帳戶時，在Marketo Engage資料庫中新增（或更新）銷售機會。 它也會將使用者在Learning Manager中的學習行為（課程註冊、課程完成、技能指派和技能成績）關聯為自訂物件與Marketo Engage中的對應銷售機會。 這可讓行銷人員使用這些資訊，根據從Learning Manager擷取的學習行為來鎖定對象，並使用「智慧清單」等Marketo Engage功能。
+Marketo Engage聯結器可在新使用者新增至Marketo Engage帳戶時，在Learning Manager資料庫中新增（或更新）銷售機會。 它也會將使用者在Learning Manager中的學習行為（課程註冊、課程完成、技能指派和技能成績）作為自訂物件與Marketo Engage中的對應潛在客戶建立關聯。 這可讓行銷人員使用這些資訊，根據從Learning Manager擷取的學習行為來鎖定對象，並使用Marketo Engage的功能，例如「智慧清單」。
 
-身為整合管理員，您可以整合Learning Manager與Marketo Engage例項，以自動化資料同步。 您可以匯出內部使用者，以及匯出訓練註冊和技能完成事件。 作業可在排程上執行，且可視需要加以設定。
+身為整合管理員，您可以整合Learning Manager與Marketo Engage執行個體，以自動化資料同步。 您可以匯出內部使用者，以及匯出訓練註冊和技能完成事件。 作業可在排程上執行，且可視需要加以設定。
 
 若要讓Learning Manager與您的Marketo帳戶整合，您的Marketo帳戶必須能夠透過API建立結構描述。
 
@@ -1949,7 +1953,7 @@ Marketo Engage聯結器可在新使用者新增至Learning Manager帳戶時，�
 * 學習成績單
 * 使用者技能報告
 
-建立Marketo Engage連線時，您必須提供下列詳細資訊：
+建立Marketo Engage連線時，您必須提供下列詳細資料：
 
 * 連線名稱
 * 使用者端ID
@@ -1983,7 +1987,7 @@ Marketo中有兩種型別的資料庫：
 
 欄對應用於建立潛在客戶資料庫。 潛在客戶是您已從「使用者報表」匯出的使用者。
 
-「使用者報表」中的欄位會列在「Adobe Learning Manager」欄下方。 Marketo提供的欄是Marketo底下的欄位。 使用這兩欄時，您可以將Learning Manager中的任何欄位對應至Marketo中的欄位。 從Learning Manager欄加入來自Marketo的相關欄。 加入欄之後，就會建立潛在客戶資料庫。
+「使用者報表」中的欄位會列在「Adobe Learning Manager」欄下方。 Marketo提供的欄是Marketo底下的欄位。 使用這兩欄，您可以將任何Learning Manager中的欄位對應到來自Marketo的欄位。 從Learning Manager欄聯結Marketo的相關欄。 加入欄之後，就會建立潛在客戶資料庫。
 
 接著，您就可以在Marketo中檢視所有匯出的使用者。
 
@@ -1991,7 +1995,7 @@ Marketo中有兩種型別的資料庫：
 
 ### 活動
 
-將資料從Learning Manager事件匯出至Marketo Engage例項。 選取要依需求或依排程匯出至Marketo Engage資料庫的事件。
+將資料從Learning Manager事件匯出至Marketo Engage執行個體。 選取要依要求或依排程匯出至Marketo Engage資料庫的事件。
 
 * 新增使用者
 * 更新使用者中繼資料
@@ -2055,13 +2059,13 @@ The Author, in the Author app, then selects an event from the list of available 
 
 Microsoft® Teams®是永續性的聊天式共同作業平台，可支援檔案共用、線上會議和其他商務通訊功能。
 
-Adobe Learning Manager使用虛擬教室聯結器，可將Microsoft Teams會議整合至Learning Manager。
+Adobe Learning Manager使用虛擬教室聯結器，可用來將Microsoft Teams會議整合至Learning Manager。
 
 Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以啟用自動資料同步。 下列清單說明Microsoft Teams聯結器功能：
 
 **使用Microsoft Teams設定虛擬工作階段**
 
-此聯結器有助於將您的Adobe Learning Manager帳戶與Microsoft Teams帳戶整合。 整合後，聯結器可讓Learning Manager中的作者將Microsoft Teams作為在Learning Manager中建立的虛擬教室模組的技術服務提供者。
+此聯結器有助於將您的Adobe Learning Manager帳戶與Microsoft Teams帳戶整合。 整合後，聯結器可讓Learning Manager中的作者將Microsoft Teams作為在Learning Manager中建立虛擬教室模組的技術服務提供者。
 
 **允許Microsoft Teams在進入虛擬教室時驗證學習者**
 
@@ -2069,7 +2073,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 
 **使用自動使用者完成同步**
 
-自動使用者完成同步程式可讓Learning Manager管理員自動擷取完成記錄並記錄Teams會議的URL。
+自動使用者完成同步程式可讓Learning Manager管理員自動擷取完成記錄，並記錄Teams會議的URL。
 
 如需詳細資訊，請參閱&#x200B;[**在Adobe Learning Manager中安裝Microsoft Teams聯結器**](install-microsoft-teams-connector.md)。
 
@@ -2130,7 +2134,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 
 1. 使用基礎和擷取URL、使用者端ID、使用者端密碼和管理員重新整理權杖，並在AEM中建立設定。
 1. 使用AEM元件建立網站。
-1. Publish網站。
+1. 發佈網站。
 
 如需詳細資訊，請參閱此&#x200B;[**檔案**](../../adobe-learning-manager-integration-aem.md)。
 
@@ -2215,7 +2219,7 @@ Adobe Commerce是可擴充的商務啟用解決方案，可讓您在單一平台
 
 發佈課程、學習路徑或憑證後，學習者就可以在學習者應用程式中購買課程。
 
-* **原生Learning Manager：**&#x200B;學習者可以在Learning Manager內購買課程、學習計畫或憑證。 這僅適用於作者已新增價格的情況。
+* **原生Learning Manager：**&#x200B;學習者可以在Learning Manager中購買課程、學習方案或憑證。 這僅適用於作者已新增價格的情況。
 * **使用AEM網站自訂製作：**&#x200B;學習者可以從AEM網站購買課程。
 
 ### 工作流程 {#workflow}
@@ -2239,9 +2243,9 @@ Adobe Commerce管理員會將Learning Manager設定為整合。
 
 1. 選取日期。
 
-1. 按一下&#x200B;**[!UICONTROL Execute]**。 成功執行後，所有定價的課程或學習路徑將移至Adobe Commerce。 然後，學習者便可以向Learning Manager購買課程。
+1. 按一下&#x200B;**[!UICONTROL Execute]**。 成功執行後，所有定價的課程或學習路徑將移至Adobe Commerce。 然後，學習者即可從Learning Manager購買課程。
 
-### 使用Adobe Commerce的原生學習管理員 {#learning-manager-with-commerce}
+### 具Adobe Commerce的原生Learning Manager {#learning-manager-with-commerce}
 
 #### 學習者 {#learner}
 
@@ -2253,15 +2257,15 @@ Adobe Commerce管理員會將Learning Manager設定為整合。
 
 此外，您也可以啟用/停用來自Adobe Commerce的電子郵件。
 
-### 具有Adobe Commerce的AEM網站 {#aem-sites-with-adobe-commerce}
+### AEM網站與Adobe Commerce {#aem-sites-with-adobe-commerce}
 
 啟用「使用AEM網站自訂」選項後，學習者可以從自訂AEM網站購買課程。
 
-AEM網站將擁有Learning Manager的所有中繼資料，可透過Adobe Commerce啟用搜尋。 在非登入情況下從Adobe Commerce擷取課程。
+AEM網站將擁有Learning Manager的所有中繼資料，以便透過Adobe Commerce啟用搜尋。 在非登入情況下從Adobe Commerce擷取課程。
 
 登入和非登入體驗皆為可能。 未登入的使用者可以搜尋及瀏覽課程目錄、學習方案和憑證。 不過，如果您想要購買課程，則必須登入AEM網站。
 
-如同原生學習管理員，登入後，您可以將課程新增至購物車，接著預覽或購買課程。
+和原生Learning Manager一樣，登入後，您可以將課程新增到購物車，然後預覽或購買課程。
 
 ### 設定Adobe Commerce聯結器 {#setup-commerce-connector}
 
@@ -2289,11 +2293,11 @@ Adobe Learning Manager支援eCommerce的買賣訓練功能。 在此，使用者
 
 >[!NOTE]
 >
->Adobe Learning Manager和Adobe Commerce有不同的登入。
+>Adobe Learning Manager和Adobe Commerce有不同的登入方式。
 
 ### AEM {#aem}
 
-在此模式中，學習者會從AEM型網站參加課程，該網站是使用AEM型範本和元件建立的。
+在此模式中，學習者會結束使用AEM範本和元件建立的AEM型網站課程。
 
 在AEM網站上，學習者支援購物車、新增至購物車按鈕、從購物車刪除課程等。
 
@@ -2329,11 +2333,11 @@ Adobe Learning Manager支援eCommerce的買賣訓練功能。 在此，使用者
 
 #### 隨選同步 {#on-demand-sync}
 
-Learning Manager和Adobe Commerce之間的同步每天進行兩次。 管理員啟用電子商務的帳戶後，使用此連線的&#x200B;**啟用訓練中繼資料匯出**&#x200B;選項（啟用時）會將課程、學習路徑和憑證的影像儲存在公用CDN中。
+Learning Manager與Adobe Commerce之間的同步每天進行兩次。 管理員啟用電子商務的帳戶後，使用此連線的&#x200B;**啟用訓練中繼資料匯出**&#x200B;選項（啟用時）會將課程、學習路徑和憑證的影像儲存在公用CDN中。
 
 如果資料保持未同步化，則不會為學習者顯示定價資訊。
 
-針對原生Learning Manager，如果已啟用電子商務並完成Learning Manager與Adobe Commerce之間的同步，則學習者可以檢視或搜尋免費或付費培訓。
+針對原生Learning Manager，如果已啟用電子商務，且Learning Manager與Adobe Commerce之間的同步已完成，則學習者可檢視或搜尋免費或付費培訓。
 
 AEM沒有「立即購買」，只有&#x200B;**「加入購物車」**&#x200B;按鈕。 如果未執行同步，此按鈕也會維持停用狀態。
 

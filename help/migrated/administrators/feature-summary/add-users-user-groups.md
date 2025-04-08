@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 新增使用者並建立使用者群組
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4059'
+source-wordcount: '4118'
 ht-degree: 0%
 
 ---
@@ -172,6 +172,8 @@ ht-degree: 0%
 
 ## 作用中的欄位
 
+Adobe Learning Manager中的作用中欄位是可自訂的中繼資料欄位，用於儲存和管理使用者特有的資訊。 這些欄位有助於定義與系統中每個使用者相關聯的關鍵屬性或特性。
+
 ### 管理使用者屬性
 
 >[!INFO]
@@ -329,6 +331,10 @@ Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例�
 ## 移除角色 {#Removearole-1}
 
 選擇使用者，從右上角按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **移除`<role>`**。 選取的角色會從指派給使用者的角色清單中移除。
+
+>[!NOTE]
+>
+>指派新角色不會影響自訂使用者群組。 但是，它會影響自動產生的使用者群組，例如「所有管理員」、「所有作者」和類似的角色型群組。
 
 ## 建立使用者群組 {#createusergroups}
 

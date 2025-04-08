@@ -4,9 +4,9 @@ title: 輪候表與出勤管理
 description: 管理員可以管理學習者的出勤率和課程輪候表。
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ ht-degree: 0%
 
 1. 按一下課程詳細資訊頁面左窗格上的&#x200B;**[!UICONTROL Waitlist]**。 輪候學習者清單會顯示在頁面上。
 1. 選取學習者並按一下&#x200B;**[!UICONTROL Allocate seats]**，將學習者直接註冊至課程以取代名額限制。
+
+>[!NOTE]
+>
+>已註冊的學習者無法移至輪候表，且無法將座位重新分配給其他學習者。
 
 ## 出席管理 {#attendancemanagement}
 

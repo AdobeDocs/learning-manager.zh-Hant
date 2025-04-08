@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 管理工作階段的學習者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -93,13 +93,19 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL Waitlist Report]**&#x200B;可�
 * 若要傳送電子郵件給特定出席者，請選取出席者，然後按一下「動作>傳送電子郵件給選取的專案」。
 * 若要傳送電子郵件給所有出席者以傳送課程資料或指派，請按一下[動作] > [傳送電子郵件給所有人]。
 
+## 擷取邀請回應
+
+您可以在學習者區段中檢視邀請回應。 前往任何工作階段，選取&#x200B;**[!UICONTROL Learners]**，然後從下拉式功能表中選取邀請回應。
+
+![](assets/invitation-status.png)
+
 ## 匯出學習者清單 {#exportinglearnerslist}
 
-身為講師，您可以將與會者清單匯出為PDF，輕鬆標籤所有學習者的出席情況。 若要匯出出席者清單，請從左窗格的學習者匯出。 按一下「動作>匯出學習者清單」(PDF)。
+身為講師，您可以將與會者清單匯出為PDF，輕鬆標籤所有學習者的出席情況。 若要匯出出席者清單，請從左窗格的學習者匯出。 按一下「動作>匯出學習者清單」 (PDF)。
 
-確認工作階段的出席者清單後，您可以將清單匯出為PDF。 此易於列印的pdf會將學習者顯示為表格。 接著，您就可以標籤出勤率或提供分數，並為學習者製作或提供附註，而且全都採用相同的PDF。
+確認工作階段的出席者清單後，您就可以將清單匯出為PDF。 此易於列印的pdf會將學習者顯示為表格。 接著，您就可以標籤出勤率或提供分數，並為學習者製作或提供附註，而所有這些動作都可在相同的PDF中進行。
 
-請注意此PDF右上角的QR碼。 此功能可讓個別學習者使用Learning Manager行動應用程式掃描程式碼，讓學習者標籤出席情況。
+請注意此PDF右上角的QR碼。 此功能可讓個別學習者使用Learning Manager行動應用程式掃描程式碼，讓學習者標籤出席情形。
 
 ![](assets/exportpdf.png)
 *掃描QR碼以標籤出席情況*
