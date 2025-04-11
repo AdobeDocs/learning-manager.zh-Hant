@@ -4,7 +4,7 @@ title: 目錄
 description: 目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2487'
 ht-degree: 0%
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # 目錄
 
-目錄是學習專案 — 課程、學習計畫和認證的集合。 使用目錄為學習者提供存取自訂學習套餐的許可權。 您可以在建立新目錄期間將學習與目錄建立關聯。
+目錄是學習的集合 - 課程、學習計劃和認證。 使用目錄為學習者提供對自定義學習集的訪問許可權。 您可以在建立新目錄期間將學習與目錄相關聯。
 
-如果您想要讓帳戶中或帳戶間的不同學習者都能使用選擇性課程，身為管理員，您可以建立自訂目錄。
+作為管理員，如果您想為帳戶或跨帳戶的不同學習者提供選擇性課程，您可以創建自定義目錄。
 
-## Catalogs簡介
+## 目錄簡介
 
 在本次訓練中，您將學習如何建立和管理目錄。
 
-[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
@@ -40,41 +40,41 @@ ht-degree: 0%
 
    縮圖只能在沈浸式UI中檢視，不能在Classic UI中檢視。
 
-1. 在「目錄」頁面上，您可以在新的目錄中新增下列專案：
+1. 在“目錄”頁面上，可以在新目錄中添加以下內容：
 
    * [課程](catalogs.md#course)
-   * [學習計畫](catalogs.md#lp)
+   * [學習計劃](catalogs.md#lp)
    * [認證](catalogs.md#cert)
    * [工作輔助](catalogs.md#job)
 
-## 新增課程至目錄 {#course}
+## 將課程添加到目錄 {#course}
 
-1. 從課程清單中，選擇要新增至目錄的課程。
+1. 從課程清單中，選擇要添加到目錄中的課程。
 
    ![](assets/add-course-to-catalog.png)
 
    *建立目錄*
 
-   您可以將多個課程新增至目錄。
-1. 您可以依技能、角色和語言來篩選課程。 選中的課程會推薦給對這些技能和角色感興趣的學習者。
+   您可以將多個課程添加到目錄中。
+1. 您可以按技能、角色和語言篩選課程。 所選課程將推薦給對這些技能和角色感興趣的學習者。
 
-   * **[!UICONTROL Skills]**：技能篩選器可讓使用者尋找專注於特定技能的課程。
-   * **[!UICONTROL Roles]**：角色篩選器可協助使用者存取針對不同角色的職責和需求量身打造的課程。
-   * **[!UICONTROL Language]**：語言篩選器可協助使用者選擇以其慣用或所需語言提供的課程
+   * **[!UICONTROL Skills]**：技能篩選器允許使用者查找聚焦特定技能的課程。
+   * **[!UICONTROL Roles]**：角色篩選器説明使用者訪問根據不同角色的職責和要求量身定製的課程。
+   * **[!UICONTROL Language]**：語言篩選器幫助用戶選擇他們首選或所需語言的課程
 
-1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
-1. 在新目錄的頁面中，在左窗格上按一下&#x200B;**[!UICONTROL Content]**。
+1. 儲存變更。 返回到目錄清單，然後按兩下清單中的新目錄。
+1. 在新目錄的頁面左側窗格中，按兩下 **[!UICONTROL Content]**。
 
    ![](assets/click-content-inthecatalog.png)
 
-   *選取課程以新增至目錄*
+   *選擇要添加到目錄的課程*
 
-   您新增的課程會顯示在&#x200B;**[!UICONTROL Courses]**&#x200B;索引標籤中。
+   您添加的課程將显示在 **[!UICONTROL Courses]** 標籤中。
 
-## 將學習計畫新增至目錄 {#lp}
+## 將學習計劃添加到目錄 {#lp}
 
-1. 從學習計劃清單中，選擇要新增至目錄的學習計畫。
-1. 儲存變更。 返回目錄清單，然後按一下清單中的新目錄。
+1. 從學習計劃清單中，選擇要添加到目錄中的學習計劃。
+1. 儲存變更。 返回到目錄清單，然後按兩下清單中的新目錄。
 1. 在新目錄的頁面中，在左窗格上按一下&#x200B;**[!UICONTROL Content]**。
 
    您新增的學習計畫會顯示在&#x200B;**[!UICONTROL Learning Programs]**&#x200B;索引標籤中。
@@ -99,7 +99,7 @@ ht-degree: 0%
 
 ## 大量移除課程、學習路徑或工作輔助
 
-管理員或自訂管理員可以大量移除課程、學習路徑或工作輔助。 移至&#x200B;**[!UICONTROL Catalogs]**&#x200B;並選取目錄。 在&#x200B;**[!UICONTROL Content]**&#x200B;頁面上，選取&#x200B;**[!UICONTROL Edit Content]**。 然後，選取課程、學習路徑或工作輔助旁的&#x200B;**[!UICONTROL Remove]**&#x200B;選項，並選取&#x200B;**[!UICONTROL Save]**。
+管理員或自訂管理員可以大量移除課程、學習路徑或工作輔助。 移至&#x200B;**[!UICONTROL Catalogs]**&#x200B;並選取目錄。 在 **[!UICONTROL Content]** 頁面上，選擇 **[!UICONTROL Edit Content]**。 然後，選取課程、學習路徑或工作輔助旁的&#x200B;**[!UICONTROL Remove]**&#x200B;選項，並選取&#x200B;**[!UICONTROL Save]**。
 
 ## 學習者目錄的深層連結 {#deep-link}
 
@@ -113,11 +113,11 @@ ht-degree: 0%
 
 ## 啟用目錄 {#enablethecatalog}
 
-建立目錄並在其中新增學習物件後，若要讓學習者看到目錄，您必須啟用目錄。
+創建目錄並向其中添加學習物件后，要使目錄對學習者可見，您必須啟用該目錄。
 
 若要啟用目錄，
 
-1. 在目錄清單中，切換要啟用的目錄附近的選項。 或者，您可以選取目錄附近的核取方塊、按一下右上角的&#x200B;**[!UICONTROL Actions]**，然後按一下&#x200B;**[!UICONTROL Enable]**。
+1. 在目錄清單中，切換要啟用的目錄附近的選項。 或者，您可以選擇目錄附近的複選框，按下 **[!UICONTROL Actions]** 右上角，然後按下 **[!UICONTROL Enable]**。
 
 1. 您也可以在清單中啟用多個目錄。 選取目錄，然後從&#x200B;**[!UICONTROL Action]**&#x200B;功能表選擇選項&#x200B;**[!UICONTROL Enable]**。
 
@@ -137,41 +137,41 @@ ht-degree: 0%
 
 ## 共用目錄 {#shared}
 
-管理員可與組織的內部使用者或任何外部使用者共用目錄。 但是，共用是專屬的。 換言之，內部共用目錄無法與外部群組共用，反之亦然。
+管理員可與組織的內部使用者或任何外部使用者共用目錄。 但是，共用是專屬的。 換句話說，內部共享目錄不能與外部組共用，反之亦然。
 
-課程、學習計畫、工作輔助和認證是您想共用的目錄中的支援學習物件。
+課程、學習計劃、工作輔助和認證是目錄中要共用的受支持學習物件。
 
-### 共用目錄
+### 共享目錄
 
-此培訓會教導您如何與內部使用者群組和外部Adobe Learning Manager帳戶共用目錄。
+本培訓將教您如何與內部用戶組和外部Adobe Systems學習管理器帳戶共享目錄。
 
-[![按鈕](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
-如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
+如果您無法啟動培訓，請寫信給 <almacademy@adobe.com>。
 
-## 在內部共用目錄 {#int}
+## 在內部共享目錄 {#int}
 
-選擇您要內部共用的目錄。
+選擇要在內部共享的目錄。
 
-在左窗格中，按一下&#x200B;**[!UICONTROL Share Internally]**。
+在左窗格中，按兩下 **[!UICONTROL Share Internally]**。
 
-如果沒有群組，您必須新增內部使用者群組。
+如果沒有群組，則必須新增內部消費者群組。
 
-若要新增內部使用者群組，請按一下&#x200B;**[!UICONTROL Add User Groups]**。
+要新增內部使用者群組，請按下 **[!UICONTROL Add User Groups]**。
 
 ![](assets/internal-usergroups.png)
 
-*在內部共用目錄*
+*在內部共享目錄*
 
-沒有啟用/停用共用使用者群組的可用選項。 若要停用，您必須刪除使用者群組。 若要刪除，請將滑鼠停留在三點上，然後按一下刪除圖示。 或者，按一下頁面右上角的動作下拉式清單，然後按一下刪除。
+沒有可用於啟用/停用共用使用者群組的選項。 若要停用，您必須刪除使用者群組。 要刪除，請將滑鼠懸停在三重點上，然後按兩下刪除圖示。 或者，單擊頁面右上角的作下拉功能表，然後單擊刪除。
 
-## 從外部共用目錄 {#ext}
+## 在外部共享目錄 {#ext}
 
-在「目錄」頁面中，按一下您要共用的目錄。 在左側面板中按一下&#x200B;**[!UICONTROL Share Externally]**。
+在“目錄”頁面中，按兩下要共享的目錄。 在左方面板中， 按下 **[!UICONTROL Share Externally]**。
 
 ![](assets/shared-catalog-external.png)
 
-*從外部共用目錄*
+*在外部共享目錄*
 
 輸入與您的Learning Manager帳戶相關聯的子網域。 按一下&#x200B;**[!UICONTROL How to get subdomain?]**&#x200B;瞭解子網域使用情況。 您也可以按一下管理員首頁左窗格中的&#x200B;**[!UICONTROL Branding]**，以檢視與您的組織帳戶相關聯的子網域。
 
@@ -205,13 +205,13 @@ ht-degree: 0%
 
 * 您無法與外部帳戶共用預設目錄。
 * 您無法刪除已與您外部共用的目錄。
-* 您無法從其他帳戶刪除與您共用的目錄。
+* 您無法刪除從其他帳戶共用給您的目錄。
 
-## 啟用共用目錄的完整控制權 {#enablefullcontrolofsharedcatalog}
+## 啟用共享目錄的完全控制 {#enablefullcontrolofsharedcatalog}
 
-您可以將目錄的完整存取權授與外部帳戶。 帳戶管理員可以接著接受目錄，並據此新增或刪除學習或模組。
+您可以向外部帳戶授予目錄的完全存取許可權。 然後，帳戶管理員可以接受目錄，並可以相應地添加或刪除學習或模組。
 
-如需詳細資訊，請參閱[完全控制共用目錄](shared-catalog-full-control.md)。
+有關詳細資訊，請參閱 [完全控制共享目錄](shared-catalog-full-control.md)。
 
 ## 共用目錄學習物件屬性 {#sharedcataloglearningobjectsproperties}
 
@@ -253,7 +253,7 @@ ht-degree: 0%
    <td>
     <p><strong>工作輔助</strong></p></td>
    <td>
-    <p>jobAid物件的所有屬性</p></td>
+    <p>jobAid 物件的所有屬性</p></td>
   </tr>
   <tr>
    <td>
@@ -264,9 +264,9 @@ ht-degree: 0%
  </tbody>
 </table>
 
-## 接收者應用程式中的共用目錄功能 {#sharedcatalogfeaturesinreceiverapplication}
+## 接收方應用程式中的共享目錄功能 {#sharedcatalogfeaturesinreceiverapplication}
 
-* 來自共用目錄的學習物件會出現在作者和管理應用程式中，但模組未列出。 它們是隱藏的。
+* 共享目錄中的學習對象顯示在作者和管理應用程式中，但未列出模組。 他們是隱藏。
 * 共用的學習物件可用於接收者帳戶中的所有工作流程。 例如，新增共用課程至學習計畫、認證、目錄，但無法再次共用這些學習計畫、認證和目錄（因為它們已有來自其他帳戶的共用學習物件）。
 * 與課程/學習計畫/認證相關聯但不是目錄一部分的所有工作輔助都會複製到接收者的帳戶中。
 * 共用目錄接收者不可將學習物件新增至共用目錄。
@@ -283,7 +283,7 @@ ht-degree: 0%
 
 ## 傳播共用目錄功能 {#propagation}
 
-組織中的跨帳戶管理員可將目錄共用至多個帳戶。 共用目錄的接收者可取得與共用目錄相關聯的學習物件。 除了此功能以外，從2016年11月發行的Learning Manager開始，接收者可以取得透過Catalogs共用的學習物件屬性。
+組織中的跨帳戶管理員可將目錄共用至多個帳戶。 共用目錄的接收者可取得與共用目錄相關聯的學習物件。 除了此功能以外，接收者還可以從2016年11月發行的Learning Manager中，取得透過Catalogs共用的學習物件屬性。
 
 共用目錄後，如果帳戶管理員對學習物件進行變更，則相同的變更會傳播至共用目錄接收者所取得的所有學習物件。
 
@@ -296,7 +296,7 @@ ht-degree: 0%
 * 工作輔助
 * 課程和學習計畫的預設例項
 
-如果共用目錄的接收者修改了在Learning Manager應用程式中接收的任何學習物件欄位，則這些欄位的更新將不會進一步傳播。 例如，如果接收者編輯課程欄位（例如「課程名稱」或「簡短說明」），則當擁有者變更這些欄位時，不會發生傳輸。 換言之，這類編輯的學習物件欄位將成為接收者學習管理員帳戶的本機欄位。
+如果共用目錄的接收者修改任何在Learning Manager應用程式中接收的學習物件欄位，則不會針對這類學習物件將更新進一步傳播至這些欄位。 例如，如果接收者編輯課程欄位（例如「課程名稱」或「簡短說明」），則當擁有者變更這些欄位時，不會發生傳輸。 換句話說，這類編輯的學習物件欄位會成為接收者Learning Manager帳戶的本機欄位。
 
 ## 常見問題 {#frequentlyaskedquestions}
 
@@ -322,15 +322,15 @@ ht-degree: 0%
 1. 開啟目錄並按一下&#x200B;**[!UICONTROL Share Internally]**。
 1. 若要新增學習者，請按一下頁面右上角的&#x200B;**[!UICONTROL Add]**。
 1. 在&#x200B;**[!UICONTROL User Groups]**&#x200B;對話方塊中，開始新增學習者。
-1. 按一下&#x200B;**[!UICONTROL Save]**。
+1. 按兩下 **[!UICONTROL Save]**。
 
-當學習者登入Learning Manager時，他/她已檢視與其共用的目錄。
+當學習者登錄到學習管理器時，他/她已視圖與他/她共享的目錄。
 
 +++
 
-+++如何建立和使用目錄標籤？
++++如何創建和使用目錄標籤？
 
-目錄標籤可讓您將學習物件與相關的欄位值資訊建立關聯。 目錄標籤和值僅對管理員和作者可見。 如需詳細資訊，請參閱&#x200B;[***目錄標籤***](/help/migrated/administrators/feature-summary/catalog-labels.md)。
+目錄標籤允許您將學習對象與相關的欄位值資訊相關聯。 目錄標籤和值僅對管理員和作者可見。 有關詳細資訊，請參閱 [***目錄標籤***](/help/migrated/administrators/feature-summary/catalog-labels.md)。
 
 建立目錄標籤後，您可以依照下列步驟將它們套用至特定目錄：
 
