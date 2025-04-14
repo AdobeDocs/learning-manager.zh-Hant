@@ -2,9 +2,9 @@
 title: Adobe Learning Manager中的多重註冊
 description: 身為帳戶管理員，您的一項主要職責就是建立跨不同時區的不同VILT工作階段例項，並可能為特定使用者群組建立工作階段。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,14 @@ ht-degree: 0%
 在2023年7月版本之前，當管理員註冊了學習者時，他們只能註冊一個例項。 如果學習者希望參加不同執行個體的課程，管理員會建立多個課程，每個執行個體各一個。
 
 Adobe Learning Manager的多重註冊功能可協助管理員避免此類情況。
+
+## 管理執行個體
+
+>[!INFO]
+>
+>在本次訓練中，您將瞭解如何編輯執行個體詳細資訊和執行個體屬性。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 ## 什麼是多重註冊
 

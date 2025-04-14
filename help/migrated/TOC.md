@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '643'
 ht-degree: 3%
 
 ---
@@ -159,6 +159,7 @@ ht-degree: 3%
    * [講師常見問題](instructors/frequently-asked-questions-for-instructors.md)
    * [經理常見問題](managers/frequently-asked-questions-for-managers.md)
    * [學習者常見問題集](learners/frequently-asked-questions-for-learners.md)
+   * [最新experience league公告](/help/migrated/new-experience-league-announcement.md)
 * 知識庫{#knowledge-base}
    * [無法登入Learning Manager](kb/unable-log-in-learning-manager.md)
    * [學習摘要不顯示目前的資料](kb/learning-summary-not-display-data.md)

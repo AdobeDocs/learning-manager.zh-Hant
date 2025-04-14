@@ -1,47 +1,32 @@
 ---
 description: 瞭解如何在Learning Manager應用程式中新增使用者或使用者群組。
 jcr-language: en_us
-title: 新增使用者並建立用戶群組
+title: 新增使用者並建立使用者群組
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '4118'
+source-wordcount: '4125'
 ht-degree: 0%
 
 ---
 
-# 新增使用者並建立用戶群組
+# 新增使用者並建立使用者群組
 
-了解如何在學習管理器應用程式中添加用戶或用戶組。
-
+瞭解如何在Learning Manager應用程式中新增使用者或使用者群組。
 
 <!--![](assets/user-mgmt-new.png)-->
 
-## 管理用戶群組
-
->[!INFO]
->
->在本訓練中，您將瞭解如何依名稱、電子郵件ID以及結合多個自動產生的使用者群組來建立使用者群組。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-如果您無法啟動培訓，請寫信給 <almacademy@adobe.com>。
-
 ## 概觀 {#overview}
 
-在Adobe Systems學習管理器中，您可以代入以下角色：
+在Adobe Learning Manager中，您可以擔任下列角色：
 
-* **管理員：** 管理員定義組織的培訓策略。 管理員可以為整個組織添加學習者、搜尋學習者所需的技能、管理和分配課程、創建學習計劃、認證和學習計劃，以及管理報告。
-* **作者：** 作者是教學設計師和內容創作者。 作者可以將模組和課程新增至Learning Manager。
+* **管理員：**&#x200B;管理員定義組織的訓練策略。 管理員可以新增學習者、搜尋學習者的所需技能、管理和指派課程、建立學習計畫、認證和學習計畫，以及管理整個組織的報表。
+* **作者：**&#x200B;作者是教學設計人員和內容建立者。 作者可以將模組和課程新增至Learning Manager。
 * **經理：**&#x200B;經理管理團隊的學習活動。 經理可以指派團隊成員參加課程、核准團隊成員的請求，並在完成培訓後提供團隊成員績效的意見回饋。 經理也可以檢視其團隊的報告，以追蹤其績效。
 * **學習者：**&#x200B;學習者可存取指派給他們的課程、學習計畫及認證。 學習者也可使用目錄瀏覽所有可用的課程，並註冊課程、學習計畫或認證。
 
-作為管理員，您可以通過三種方式添加使用者：
+身為管理員，您可以透過三種方式新增使用者：
 
 * 內部
 * 外部
@@ -53,7 +38,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->在本培訓中，您將學習如何向Adobe Systems學習管理器添加內部學習者。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
+>在本次訓練中，您將瞭解如何將內部學習者新增至Adobe Learning Manager。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
 如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
@@ -62,33 +47,21 @@ ht-degree: 0%
 
 1. 以管理員身分登入Adobe Learning Manager。
 1. 在首頁按一下&#x200B;**[!UICONTROL Add Users]**。 在此頁面上，您可以使用CSV一次新增一個或多個使用者。 您也可以為內部員工建立自助註冊連結，或建立外部學習者設定檔。
-1. 要新增單個使用者，請按下 **[!UICONTROL Add]** 右上角並選擇選項 **[!UICONTROL Single User]**。
-
-1. 要添加單個用戶，請按下 **[!UICONTROL Add]** 右上角並選擇選項 **單使用者**。
-
+1. 若要新增單一使用者，請按一下右上角的&#x200B;**[!UICONTROL Add]**，然後選擇選項&#x200B;**[!UICONTROL Single User]**。
 
    ![](assets/single-user.png)
-   *新增單一內部用戶*
+   *新增單一內部使用者*
 
-1. 在 **[!UICONTROL Add User]** 對話框中，輸入學習者的詳細資訊。 對於欄位 **[!UICONTROL Manager's Name]**，選取系統中現有用戶的名稱。
+1. 在&#x200B;**[!UICONTROL Add User]**&#x200B;對話方塊上，輸入學習者的詳細資料。 針對欄位&#x200B;**[!UICONTROL Manager's Name]**，選取系統中現有使用者的名稱。
 
    ![](assets/manager.png)
-   *新增用戶對話框*
+   *新增使用者對話方塊*
 
-1. 若要在學習管理器中添加新用戶，請按下 **[!UICONTROL Add]**。 添加用戶后，用戶會收到驗證郵件。 然後，學習者啟動帳戶並開始使用學習管理器。 如果您需要向學習管理器帳戶添加有限數量的學習者，則此工作流程非常有用。 但是，如果您計劃註冊大型組織的所有員工，則可以一次嘗試添加他們。 有關詳細資訊，請參閱下一節。
+1. 若要在Learning Manager中新增使用者，請按一下&#x200B;**[!UICONTROL Add]**。 新增使用者後，使用者會收到驗證郵件。 學習者接著會啟用帳戶並開始使用Learning Manager。 如果您需要新增有限數量的學習者至Learning Manager帳戶，此工作流程將有所幫助。 但是，如果您計畫註冊大型組織的所有員工，則可以在單次嘗試中新增他們。 如需詳細資訊，請參閱下一節。
 
 ## 大量新增使用者 {#addusersinbulk}
 
-### 管理使用者
-
-在本訓練中，您將學習如何指派和移除角色、傳送歡迎電子郵件，以及刪除和清除使用者。
-
-[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
-
 通常，大多陣列織都使用HR管理系統(HRMS)，HRMS會維護所有的員工記錄，例如，指定、地點、加入日期或員工階層。 您可以將此資料匯出為CSV格式。 若要匯入CSV，請遵循下列步驟：
-
 
 1. 按一下右上角的&#x200B;**[!UICONTROL Add]**，然後選擇選項&#x200B;**[!UICONTROL Upload a CSV]**。
 
@@ -102,9 +75,9 @@ ht-degree: 0%
 
    您必須維護主CSV，並在主CSV上執行所有新增和刪除。 主要CSV包含以下欄位：
 
-   * 名字 &#42;
-   * 電子郵件 &#42;
-   * 輪廓
+   * 名稱&#42;
+   * 電子郵件&#42;
+   * 設定檔
    * 經理
 
    (&#42;)必要欄位。
@@ -124,22 +97,36 @@ ht-degree: 0%
    ![](assets/save-csv.png)
    *成功上傳CSV的確認訊息*
 
-1. 現在，新使用者將添加到您的Adobe Systems學習管理器帳戶中。 若要選擇新使用者，請選取中名稱旁邊的複選框，以便選擇所有人。
+1. 新使用者現在已新增至您的Adobe Learning Manager帳戶。 若要選取新使用者，請選取名稱旁的核取方塊，以便選取所有人。
 
    ![](assets/select-new-users.png)
-   *新增新使用者*
+   *新使用者已新增*
 
 >[!NOTE]
 >
->有關詳細資訊，請參閱常見問題](../add-users-in-bulk.md)解答批量[添加使用者。
+>如需詳細資訊，請參閱常見問題集，[大量新增使用者](../add-users-in-bulk.md)。
 
-選擇使用者後，可以執行以下作：
+選取使用者後，您可以執行下列動作：
 
-## 註冊用戶 {#registerauser}
+>[!INFO]
+>
+>在本次訓練中，您將瞭解如何透過CSV大量新增使用者。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
-選取用戶後，按下 **[!UICONTROL Actions]** 右上角，然後按下 **[!UICONTROL Register]**。
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
-選取的使用者會收到一封歡迎電子郵件。 如果學習者已有Adobe ID，則可以按兩下此連結。 如果他們沒有現有Adobe ID，可以繼續並按兩下歡迎連結以創建Adobe ID並將其連結到其學習管理器帳戶。
+## 註冊使用者 {#registerauser}
+
+選取使用者後，按一下右上角的&#x200B;**[!UICONTROL Actions]**&#x200B;並按一下&#x200B;**[!UICONTROL Register]**。
+
+選取的使用者會收到歡迎電子郵件。 如果學習者已有的Adobe ID，可按一下此連結。 如果他們沒有現有的Adobe ID，他們可以繼續並按一下歡迎連結以建立Adobe ID並將其連結到他們的Learning Manager帳戶。
+
+### 管理使用者
+
+在本訓練中，您將學習如何指派和移除角色、傳送歡迎電子郵件，以及刪除和清除使用者。
+
+[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 ## 指派角色 {#assignarole}
 
@@ -150,7 +137,7 @@ ht-degree: 0%
 
 ## 移除角色 {#removearole}
 
-您也可以移除使用者的作者或管理員存取權。 選取一或多個學習者，按一下&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Remove Role]**。 選擇一個選項（例如&#x200B;**[!UICONTROL Remove Author]**），系統會撤銷此學習者的作者存取權。
+您也可以移除使用者的「作者」或「管理員」存取權。 選取一或多個學習者，按一下&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Remove Role]**。 選擇一個選項（例如&#x200B;**[!UICONTROL Remove Author]**），系統會撤銷此學習者的作者存取權。
 
 >[!NOTE]
 >
@@ -158,40 +145,40 @@ ht-degree: 0%
 
 ## 刪除使用者 {#deleteauser}
 
-要刪除用戶，請按下 **[!UICONTROL Actions]**，然後選擇 **[!UICONTROL Delete User]**。 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Yes]**，學習者即被刪除。
+若要刪除使用者，請按一下&#x200B;**[!UICONTROL Actions]**，然後選擇&#x200B;**[!UICONTROL Delete User]**。 在確認對話方塊中，按一下&#x200B;**[!UICONTROL Yes]**，學習者即被刪除。
 
 ![](assets/delete-a-role.png)
-*刪除用戶的確認訊息*
+*刪除使用者的確認訊息*
 
-## 編輯用戶 {#editauser}
+## 編輯使用者 {#editauser}
 
-在使用者清單上，選擇一個用戶，然後按兩下用戶。 在使用者詳細資料上，按一下&#x200B;**[!UICONTROL Edit]** ( ![](assets/edit-pen.png))按鈕。 在&#x200B;**[!UICONTROL Edit User]**&#x200B;對話方塊上，進行必要的編輯並儲存變更，請按一下&#x200B;**[!UICONTROL Save]**。
+在使用者清單中，選擇使用者，然後按一下該使用者。 在使用者詳細資料上，按一下&#x200B;**[!UICONTROL Edit]** ( ![](assets/edit-pen.png))按鈕。 在&#x200B;**[!UICONTROL Edit User]**&#x200B;對話方塊上，進行必要的編輯並儲存變更，請按一下&#x200B;**[!UICONTROL Save]**。
 
 ![](assets/edit-user.png)
 *編輯使用者對話方塊*
 
 ## 作用中的欄位
 
-學習管理器中的Adobe Systems活動欄位是可自定義中繼資料欄位，用於商店和管理特定於用戶的信息。 這些欄位有助於定義與系統中每個用戶相關聯的關鍵屬性或特徵。
+Adobe Learning Manager中的作用中欄位是可自訂的中繼資料欄位，用於儲存和管理使用者特有的資訊。 這些欄位有助於定義與系統中每個使用者相關聯的關鍵屬性或特性。
 
-### 管理用戶屬性
+### 管理使用者屬性
 
 >[!INFO]
 >
->在本培訓中，您將學習如何添加、自定義和配置活動欄位。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
+>在本次訓練中，您將瞭解如何新增、自訂及設定作用中欄位。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555741)</br></br>
 
-如果您無法啟動培訓，請寫信給 <almacademy@adobe.com>。
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
-Adobe Systems學習管理器保留用戶屬性及其值的大小寫區分。 **例如**，用戶屬性的大小寫區分為“位置”，其值為“PARIS”將以相同的方式保留和顯示。 如果出現任何問題，管理員現在可以編輯屬性名稱和值以更正任何區分大小寫的錯誤。
+Adobe Learning Manager會保留使用者屬性及其值區分大小寫。 **例如**，使用者屬性的區分大小寫為&#39;location&#39;，其值將保留並以相同方式顯示。 如果有任何問題，管理員現在可以編輯屬性名稱和值，以更正任何區分大小寫的錯誤。
 
-管理員可以通過訪問 **[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]** 並按兩下群組名稱來執行此作。
+管理員可以造訪&#x200B;**[!UICONTROL Admin app]** > **[!UICONTROL Users]** > **[!UICONTROL User groups]**&#x200B;並按一下群組名稱來執行此操作。
 
-管理員可以通過UI為學習者添加和更新允許的屬性值。
+管理員可以透過UI為學習者新增及更新允許的屬性值。
 
-作用欄位的類型：
+作用中欄位的型別：
 
-* 可分組：學習者將根據值進行分組
-* 可報告： 會根據作用中欄位建立報表用戶群組
+* 可分組：學習者會根據值分組
+* 可報告：會根據作用中欄位建立報告使用者群組
 * 可匯出：欄位將顯示在使用者群組報表的匯出中。
 
 ## 建立自助註冊連結 {#createaselfregistrationlink}
@@ -213,9 +200,9 @@ Adobe Systems學習管理器保留用戶屬性及其值的大小寫區分。 **�
 
 ## 註冊外部學習者 {#enrollexternallearners}
 
-在Adobe Systems學習管理器中，您還可以為訪問您的帳戶受限的外部合作夥伴或機構創建註冊連結，併為他們提供學習材料。
+在Adobe Learning Manager中，您也可以為存取您帳戶受限制的外部合作夥伴或機構建立註冊連結，並向他們提供學習資料。
 
-內部和外部註冊之間存在一些差異。
+內部註冊和外部註冊之間有些差異。
 
 <table>
  <tbody>
@@ -246,23 +233,23 @@ Adobe Systems學習管理器保留用戶屬性及其值的大小寫區分。 **�
  </tbody>
 </table>
 
-要註冊外部使用者，追隨以下步驟：
+若要註冊外部使用者，請遵循下列步驟：
 
-1. 在左導覽窗格中，按兩下 **[!UICONTROL External]**。
+1. 在左側導覽窗格中，按一下&#x200B;**[!UICONTROL External]**。
 
    ![](assets/click-external.png)
 
    *註冊外部使用者*
 
-1. 在頁面的右上角，按兩下 **[!UICONTROL Add]**。
+1. 在頁面的右上角，按一下&#x200B;**[!UICONTROL Add]**。
 
 1. 在&#x200B;**新增外部註冊設定檔**&#x200B;對話方塊中，新增下列詳細資料：
 
 
    * 合作夥伴組織的設定檔名稱。
-   * 合作夥伴組織管理員的電子郵件地址。
-   * 此合作夥伴的外部註冊席位限制。
-   * 設置截止日期以停止允許此群組的新註冊。 到期日後，只有現有的註冊使用者才能訪問此培訓。
+   * 合作夥伴組織經理的電子郵件地址。
+   * 此合作夥伴的外部註冊名額限制。
+   * 到期日：設定停止允許此群組新註冊的截止日期。 到期日之後，只有現有的註冊使用者才能存取此訓練。
 
    ![](assets/map-data-fields-2.png)
 
@@ -276,7 +263,7 @@ Adobe Systems學習管理器保留用戶屬性及其值的大小寫區分。 **�
 
    ![](assets/email-verificationrequired.png)
 
-   *在進階設定区段輸入詳細信息*
+   *在進階設定區段中輸入詳細資料*
 
 1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;後，您會看到下列確認訊息。 您必須與外部合作夥伴共用URL。
 
@@ -289,13 +276,13 @@ Adobe Systems學習管理器保留用戶屬性及其值的大小寫區分。 **�
 ![](assets/choose-required-profiles.png)
 *啟用外部設定檔*
 
-這將啟用外部註冊連結。 歡迎電子郵件會自動發送到合作夥伴。 您還可以複製連結並通過按兩下複製URL圖示 （） 與他們共用，也可以通過按兩下郵件圖示 （） 將歡迎電子郵件重新發送到合作夥伴組織。
+這會啟用外部註冊連結。 歡迎電子郵件會自動傳送給合作夥伴。 您也可以複製連結，並透過按一下「複製URL」圖示()與他們共用，或透過按一下「郵件」圖示()將歡迎電子郵件重新傳送給合作夥伴組織。
 
-合作夥伴經理可與必須參加PrLearning Manager時間培訓的員工共用連結。 當他們按兩下連結時，他們可以在填寫一些詳細資訊以在學習管理器上創建設定檔后自行註冊。 這些使用者不會與內部員工一起出現在學習者標籤上。 您可以在標籤下 **[!UICONTROL External Learners]** 看到他們的名字。
+合作夥伴經理可與必須參加PrLearning Manager時間培訓的員工共用連結。 當他們按一下連結，填寫一些詳細資料以在Learning Manager上建立其設定檔後，可以自行註冊。 這些使用者不會與內部員工一起出現在學習者標籤上。 您可以在&#x200B;**[!UICONTROL External Learners]**&#x200B;標籤下看到他們的名稱。
 
 ## 暫停外部設定檔 {#pause}
 
-將外部使用者群組添加到學習管理器后，您還可以暫停外部使用者的註冊過程。 暫停時，外部使用者的註冊進程將被阻止。 但是，僅當使用者尚未通過接受邀請進行註冊時，此過程才有效。
+將外部使用者群組新增至Learning Manager後，您也可以暫停外部使用者的註冊程式。 當您暫停時，會封鎖外部使用者的註冊程式。 不過，此程式只有在使用者尚未透過接受邀請註冊時才有效。
 
 若要暫停外部使用者群組，請選擇一個或多個群組，從頁面的右上角按一下&#x200B;**[!UICONTROL Actions]**，然後按一下&#x200B;**[!UICONTROL Pause]**。
 
@@ -305,11 +292,11 @@ Adobe Systems學習管理器保留用戶屬性及其值的大小寫區分。 **�
 
 下列狀態適用於外部使用者：
 
-* **非活動狀態** - 在此狀態下，外部使用者的註冊已過期。 管理員設置外部使用者的到期日期，同時通過添加用戶工作流程添加外部使用者。
-* **活動狀態** - 在此狀態下，外部用戶可以註冊到學習管理器應用程式，並登錄到應用程式。
-* **** 暫停 - 在此狀態下，將阻止外部使用者的註冊進程。但是，現有使用者可以繼續登錄。
+* **非使用中狀態** — 在此狀態下，外部使用者的註冊已過期。 管理員透過新增使用者工作流程新增外部使用者時，可設定其到期日。
+* **作用中狀態** — 在此狀態中，外部使用者可以註冊到Learning Manager應用程式，並登入應用程式。
+* **暫停** — 在此狀態下，外部使用者的註冊程式被封鎖。 但是，現有的使用者可以繼續登入。
 
-## 檢查二手座位 {#checkusedseats}
+## 檢查已使用的座位 {#checkusedseats}
 
 在外部設定檔清單上，按一下&#x200B;**[!UICONTROL Seats Used]**。 您可以檢視合作夥伴組織中新增的學習者數。
 
@@ -330,15 +317,27 @@ Adobe Systems學習管理器保留用戶屬性及其值的大小寫區分。 **�
 
 ## 移除角色 {#Removearole-1}
 
-選擇使用者，從右上角按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **移除`<role>`**。 選取角色將從分配給使用者的角色清單中刪除。
+選擇使用者，從右上角按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **移除`<role>`**。 選取的角色會從指派給使用者的角色清單中移除。
 
 >[!NOTE]
 >
->指定新角色不會影響自定義用戶群組。 但是，它會影響自動生成的用戶組，例如“所有管理員”、“所有作者”和類似的基於角色的組。
+>指派新角色不會影響自訂使用者群組。 但是，它會影響自動產生的使用者群組，例如「所有管理員」、「所有作者」和類似的角色型群組。
 
-## 建立用戶群組 {#createusergroups}
+## 建立使用者群組 {#createusergroups}
 
-用戶群組是一組與類別有關的使用者。 使用者群組可協助管理員根據學習者的屬性來選取組織內的學習者，然後將學習內容指派給他們。 此外，這些使用者群組可讓管理員將自訂的圖志和目錄指派給學習者，並顯示其進度的自訂報告。
+使用者群組是指與類別相關的一組使用者。 使用者群組可協助管理員根據學習者的屬性來選取組織內的學習者，然後將學習內容指派給他們。 此外，這些使用者群組可讓管理員將自訂的圖志和目錄指派給學習者，並顯示其進度的自訂報告。
+
+>[!INFO]
+>
+>在本訓練中，您將瞭解如何依名稱、電子郵件ID以及結合多個自動產生的使用者群組來建立使用者群組。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
 若要存取「使用者群組」，請在左側導覽窗格中按一下&#x200B;**[!UICONTROL User Groups]**。
 
@@ -352,20 +351,20 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 ![](assets/auto-generated.png)
 *檢視自動產生的群組*
 
-您可以看到存在不同的組，按讚所有內部使用者、所有經理、基於成本中心的組、基於部門和基於經理團隊的組。
+您可以看到有不同的群組，例如「所有內部使用者」、「所有經理」、以「成本中心」為基礎的群組、以部門為基礎的群組以及以經理團隊為基礎的群組。
 
-除了自動產生的群組外，您還可以建立自定義組。 要新增自訂組，請按下 **[!UICONTROL Add]**&#x200B;右上角的 。
+除了自動產生的群組之外，您也可以建立自訂群組。 若要新增自訂群組，請按一下右上角的&#x200B;**[!UICONTROL Add]**。
 
-1. 輸入群組的名稱和說明。
-1. 用戶輸入設定檔即輸入字段搜尋然後從下拉式清單中進行選擇以新增使用者。
+1. 輸入群組的名稱和描述。
+1. 在「隨型別搜尋」欄位中輸入使用者名稱或設定檔，並從下拉式清單中選取，以新增使用者。
 
 1. 若要新增更多學習者，請按一下&#x200B;**[!UICONTROL Add More Users]**。
 
-1. 要建立使用者群組，請按兩下 **[!UICONTROL Save]**。
+1. 若要建立使用者群組，請按一下&#x200B;**[!UICONTROL Save]**。
 
-此自定義組現已建立並新增至設定檔。 您建立的使用者群組本質上是動態的。 如果添加新使用者具有類似屬性，則會自動將其添加到使用者組。
+此自訂群組現在已建立並新增至設定檔。 您建立的使用者群組本質上為動態的。 如果新使用者新增了類似的屬性，則會自動新增到使用者群組。
 
-若要視圖用戶所屬組的清單，請導航到 **[!UICONTROL User]** > **[!UICONTROL User Groups]**，搜尋用戶的名稱，然後選擇它。 這將顯示用戶所屬的所有組。
+若要檢視使用者所屬的群組清單，請導覽至&#x200B;**[!UICONTROL User]** > **[!UICONTROL User Groups]**，搜尋使用者名稱並加以選取。 這會顯示使用者所屬的所有群組。
 
 ![](assets/list-of-group.png)
 
@@ -398,13 +397,13 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 
 *匯入或同步處理使用者的資料來源*
 
-從&#x200B;**[!UICONTROL Source]**&#x200B;下拉式清單中選擇資料來源型別、選取更新頻率，如果需要立即同步或按一下&#x200B;**[!UICONTROL Save]，請按一下&#x200B;**[!UICONTROL Sync now]**。** 內部用戶的數據源類型為 SFDC、FTP 等。
+從&#x200B;**[!UICONTROL Source]**&#x200B;下拉式清單中選擇資料來源型別、選取更新頻率，如果需要立即同步或按一下&#x200B;**[!UICONTROL Save]，請按一下&#x200B;**[!UICONTROL Sync now]**。**&#x200B;內部使用者的資料來源型別為SFDC、FTP等。
 
 您可以新增多個資料來源。
 
-### 活動欄位 {#activefields}
+### 作用中的欄位 {#activefields}
 
-此功能使管理員能夠添加更多活動字段，以及用戶註冊期間提供的內容。
+除了在使用者註冊期間提供的欄位之外，此功能可讓管理員新增更多作用中的欄位。
 
 按一下使用者頁面中可用的&#x200B;**[!UICONTROL Active Fields]**。 學習者只能從自訂值中指定的值中選擇。
 
@@ -417,17 +416,17 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 
 您可以為內部使用者的使用者欄位新增自訂值。
 
-若要新增自定義值，追隨以下步驟：
+若要新增自訂值，請遵循下列步驟：
 
-1. 按兩下查看  **[!UICONTROL Modify Values]** 內部用戶。
+1. 按一下&#x200B;**[!UICONTROL Modify Values]**&#x200B;以取得內部使用者。
 
    ![](assets/modify-values.png)
-   *修改內部用戶的數值*
+   *修改內部使用者的值*
 
-1. 此時將顯示「 **自定義欄位中** 的值」對話框。
+1. 自訂欄位&#x200B;**中的**&#x200B;值對話方塊就會顯示。
 
    ![](assets/values-in-customfields.png)
-   *「自訂欄位」對話框中的值*
+   *自訂欄位對話方塊中的值*
 
 1. 從&#x200B;**[!UICONTROL Select Field]**&#x200B;下拉式選單中選取要新增的值。
 1. 在&#x200B;**[!UICONTROL New Value]**&#x200B;欄位中輸入新值。
@@ -436,7 +435,7 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 
 **外部使用者**
 
-添加類似於內部使用者的自定義值。
+新增與內部使用者類似的自訂值。
 
 ![](assets/modify-values-forexternalusers.png)
 *修改外部使用者的值*
@@ -450,11 +449,11 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 ![](assets/settings-tab.png)
 *顯示未填寫的欄位*
 
-使用此選項，管理員可以決定他/她是要顯示欄位還是在填充字段后隱藏欄位。
+使用此選項，管理員可以決定是否要顯示欄位，或是在這些欄位填入後隱藏它們。
 
-## 限制報表中的使用中欄位 {#restrictactivefields}
+## 限制報告中的作用中欄位 {#restrictactivefields}
 
-學習管理員 27.7 為活動欄位引入了兩個新選項 **[!UICONTROL Reportable]** 和 **[!UICONTROL Exportable]**。
+Learning Manager 27.7為作用中欄位引進了兩個新選項 — **[!UICONTROL Reportable]**&#x200B;和&#x200B;**[!UICONTROL Exportable]**。
 
 ![](assets/options-in-activefields.png)
 使用中欄位中的*選項*
@@ -474,9 +473,9 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 
 您可以對學習者隱藏整個「完成您的設定檔」頁面。 學習者登入後，頁面不會隨即顯示。
 
-請注意，現有預設行為不會更改。 這是管理員現在可以使用的可選功能。
+請注意，現有的預設行為不會變更。 這是一項可選功能，現在可供管理員使用。
 
-開啟以下選項：
+啟用下列選項：
 
 ![](assets/user-display.png)
 *使用者顯示區段*
@@ -515,9 +514,9 @@ Learning Manager中作用中欄位的&#x200B;**值**
 
 您可以在內部和外部使用者欄位中為使用者欄位新增自訂值。
 
-若要新增自定義值，追隨以下步驟：
+若要新增自訂值，請遵循下列步驟：
 
-可以添加和刪除自定義欄位，它們適用於所有使用者。 CSV欄位可以啟用或禁用，它們僅在您在活動欄位中進行修改後上傳CSV時生效。 所有內部活動欄位都適用於所有類型的內部使用者。 外部欄位僅適用於外部使用者。 如果CSV中存在自定義欄位，則在接下來的上傳中，它會自動轉換為CSV欄位並啟用。
+自訂欄位可以新增和刪除，它們適用於所有使用者。 CSV欄位可以啟用或停用，只有在您於「使用中」欄位中進行修改後上傳CSV時，這些欄位才會生效。 所有內部作用中的欄位都適用於所有型別的內部使用者。 外部欄位僅適用於外部使用者。 如果自訂欄位出現在CSV中，下次上傳時會自動轉換為CSV欄位並啟用。
 
 ## CSV欄位的值 {#valuesforcsvfields}
 
@@ -530,13 +529,13 @@ Learning Manager中作用中欄位的&#x200B;**值**
 
 您可以在此空間檢視管理員使用大量匯入功能新增之使用者的CSV匯入記錄。 您也可以按一下頁面右上角的&#x200B;**[!UICONTROL Add]**，使用CSV上傳功能新增使用者。
 
-## 多值活動欄位
+## 多值作用中欄位
 
-使用此功能，您可以將多個字段用於活動欄位。 在一個帳戶中，最多可以有三個多值活動字段。 多值活動欄位可供外部和內部使用者使用。
+使用此功能，一個使用中欄位可以有多個欄位。 帳戶中最多可以有三個多值作用中欄位。 多值作用中欄位可供外部和內部使用者使用。
 
-將活動欄位標記為多值欄位后，無法將其轉換回單值欄位。 這是不可逆轉的。
+一旦您將使用中的欄位標示為多值，就無法將它轉換回單一值。 這是不可逆的。
 
-不能將現有的單值欄位標記為多值欄位。
+無法將現有的單一值欄位標示為多值欄位。
 
 若要建立多值作用中欄位，請遵循下列步驟：
 
@@ -545,7 +544,7 @@ Learning Manager中作用中欄位的&#x200B;**值**
    ![新增使用中的欄位](assets/add-active-field.png)
    *新增使用中的欄位*
 
-1. 按兩下「新增」。
+1. 按一下「新增」。
 1. 在「設定」標籤中，將新欄位標示為多值。
 
    ![標籤為多值](assets/mark-multi-valued.png)
@@ -558,11 +557,11 @@ Learning Manager中作用中欄位的&#x200B;**值**
    ![新增值](assets/add-values.png)
    *新增值*
 
-1. 按兩下完成&#x200B;[!UICONTROL ****]。
+1. 按一下&#x200B;[!UICONTROL **完成**]。
 
 >[!NOTE]
 >
->創建使用者群組並填充字段后，無法將多值轉換為單個值，反之亦然。
+>一旦建立了使用者群組並填入欄位，便無法將多個值轉換為單一值，反之亦然。
 
 ### 透過CSV新增多值作用中欄位
 
@@ -613,13 +612,13 @@ _下載使用者群組報告_
 
 ## 常見問題 {#faq}
 
-+++如何在學習管理器中註冊使用者？
++++如何在Learning Manager中註冊使用者？
 
-添加用戶並將角色分配給用戶后，可以通過執行以下步驟註冊用戶：
+新增使用者並為使用者指派角色後，您可以透過執行以下步驟來註冊使用者：
 
-1. 選擇使用者或使用者後，按下 **[!UICONTROL Actions]** 右上角，然後按下 **[!UICONTROL Register]**。
+1. 選取一個或多個使用者後，按一下右上角的&#x200B;**[!UICONTROL Actions]**，然後按一下&#x200B;**[!UICONTROL Register]**。
 
-1. 在快顯視窗視窗中，按兩下 **[!UICONTROL Yes]**。
+1. 在快顯視窗中，按一下&#x200B;**[!UICONTROL Yes]**。
 
 選取的使用者會收到歡迎電子郵件。 如果學習者已有的Adobe ID，可按一下此連結。 如果他們沒有現有的Adobe ID，他們可以繼續並按一下歡迎連結以建立Adobe ID並將其連結到他們的Learning Manager帳戶。
 
@@ -631,18 +630,18 @@ _下載使用者群組報告_
 
 若要編輯使用者，請遵循下列步驟：
 
-1. 在使用者清單中，按兩下要編輯數據的用戶。
-1. 按兩下鉛筆圖示，如下所示。
+1. 在使用者清單中，按一下您要編輯資料的使用者。
+1. 按一下鉛筆圖示，如下所示。
 
 ![](assets/edit-user-data.png)
 
-在“ **編輯使用者** ”對話框中，相應地更新欄位。 要儲存變更，請按下 **[!UICONTROL Save]**。
+在&#x200B;**編輯使用者**&#x200B;對話方塊中，相應地更新欄位。 若要儲存變更，請按一下&#x200B;**[!UICONTROL Save]**。
 
 +++
 
-+++如何在學習管理器中暫停和恢復外部用戶？
++++如何在Learning Manager中暫停並繼續外部使用者？
 
-在“外部使用者清單”中，選擇要刪除的用戶。 在右上角按下 **[!UICONTROL Actions]** > **[!UICONTROL Pause]**。
+在外部使用者清單中，選擇要刪除的使用者。 按一下右上角的&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Pause]**。
 
 如需詳細資訊，請參閱[暫停外部設定檔](add-users-user-groups.md#pause)。
 
