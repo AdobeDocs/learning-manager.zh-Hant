@@ -2,7 +2,7 @@
 title: Adobe Learning Manager中的多重註冊
 description: 身為帳戶管理員，您的一項主要職責就是建立跨不同時區的不同VILT工作階段例項，並可能為特定使用者群組建立工作階段。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 0%
