@@ -4,7 +4,7 @@ title: 大量新增使用者
 description: 瞭解如何一次新增多個使用者。
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 # 大量新增使用者
 
-在本次訓練中，您將瞭解如何透過CSV大量新增使用者。
-
-[![按鈕](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>在本次訓練中，您將瞭解如何透過CSV大量新增使用者。<br><br>[![按鈕](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
 
@@ -56,7 +56,7 @@ Learning Manager範例CSV包含下列必要欄位。
 
 要上載的&#x200B;*CSV範本*
 
-此外，組織的管理員可以將自己新增為員工，並將其Manager的電子郵件ID提及為根。
+此外，組織的管理員可以將&#x200B;**自己**&#x200B;新增為員工，並提及其經理的電子郵件ID作為根。
 
 **範例CSV**
 
