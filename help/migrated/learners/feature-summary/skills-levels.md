@@ -1,19 +1,19 @@
 ---
-description: 閱讀本文章，瞭解如何作為學習者在Learning Manager中習得技能。
+description: 請閱讀本文，瞭解如何作為學習者在Learning Manager中習得技能。
 jcr-language: en_us
 title: 技能與等級
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '326'
 ht-degree: 0%
 
 ---
 
 # 技能與等級
 
-閱讀本文章，瞭解如何作為學習者在Learning Manager中習得技能。
+請閱讀本文，瞭解如何作為學習者在Learning Manager中習得技能。
 
 技能圖是組織中員工技能組、知識和特徵的分組。 這些技能可協助公司/組織設定或提升員工的績效期望。 技能可讓員工調整其行為以符合組織的期望。
 
@@ -38,6 +38,10 @@ Adobe Learning Manager可讓您使用技能Widget，根據學習者的技能組�
 *檢視每個技能*
 
 只有管理員可以建立並指派技能給學習者。 系統會自動為學習者指派與已註冊課程/學習計畫相對應的技能。
+
+>[!NOTE]
+>
+>學習者僅可在Classic學習者應用程式中檢視同儕節點層級技能。
 
 ## 獲得技能 {#achieveskill}
 

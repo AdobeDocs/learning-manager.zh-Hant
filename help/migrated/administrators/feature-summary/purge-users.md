@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 清除使用者
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 * 如果清除使用者，匯入記錄中的連結將無法正常運作，以避免下載舊的CSV並將使用者資料重新帶回系統中。
 * 如果清除作者，其名稱會取代為清除該使用者的管理員名稱。
 * 如果清除講師，則會從工作階段中將其移除。 管理員必須更換/新增這類工作階段的講師。
-* 在Learning Manager中清除使用者不會移除任何外部應用程式（第三方系統或您編寫的其他應用程式）中的使用者。 請聯絡外部應用程式擁有者，將使用者從這類應用程式中移除。
+* 在Learning Manager中清除使用者，不會移除任何外部應用程式（第三方系統或您編寫的其他應用程式）中的使用者。 請聯絡外部應用程式擁有者，將使用者從這類應用程式中移除。
 * 如果在聯結器的組態設定中參照了已清除的使用者，則聯結器會停用。 管理員需要重新設定聯結器才能繼續。
 
 <!---### Manage users
@@ -61,6 +61,10 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 1. 確認並按一下「永久刪除」後，即接受永久刪除請求。 動作完成後，您會收到通知。 此外，也提供清除請求ID。 您可以將此ID提供給CSM以追蹤請求。
 
+>[!NOTE]
+>
+>將已刪除的使用者新增回系統後，先前的角色（例如管理員、經理、作者、講師等）將不會保留。它們將會新增為學習者角色。
+
 ## 大量清除使用者
 
 您可以選取前50名使用者，並一次清除這些使用者。 這可讓管理員一次選取50個使用者，並將他們一起清除。 這在管理員想要大量清除使用者時有所幫助。 檢查要永久刪除的使用者永遠是最佳做法。 這對於確保只清除正確的使用者集非常重要。
@@ -74,7 +78,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 <table>
  <tbody>
   <tr>
-   <th><strong>使用Learning Manager UI清除 — 企業</strong></th>
+   <th><strong>使用Learning Manager UI清除 — Enterprise</strong></th>
    <th> </th>
   </tr>
   <tr>
@@ -122,7 +126,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
    <td>是</td>
   </tr>
   <tr>
-   <td><strong>清除其他使用者 — 企業（不是內部或外部Learning Manager使用者的個人）</strong></td>
+   <td><strong>清除其他使用者 — 企業(不是內部或外部Learning Manager使用者的個人)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -138,7 +142,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
    <td>是</td>
   </tr>
   <tr>
-   <td><strong>清除</strong> <strong>其他使用者 — 非企業（非內部或外部Learning Manager使用者的個人）</strong></td>
+   <td><strong>清除</strong> <strong>其他使用者 — 非企業(非內部或外部Learning Manager使用者的個人)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +190,7 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 
 +++
 
-Learning Manager現已符合GDPR規定。 如需GDPR法規遵循的詳細資訊，請參閱[Learning Manager與GDPR的合規性](../../kb/prime-gdpr.md)。
+Learning Manager現在符合GDPR規範。 如需GDPR法規遵循的詳細資訊，請參閱[Learning Manager與GDPR的法規遵循](../../kb/prime-gdpr.md)。
 
 ## 常見問題 {#frequentlyaskedquestions}
 

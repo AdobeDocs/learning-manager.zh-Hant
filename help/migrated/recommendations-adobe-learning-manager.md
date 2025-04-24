@@ -2,16 +2,16 @@
 title: Adobe Learning Manager中的Recommendations
 description: 建議引擎的核心是由Learning Manager的新課程排名演演算法所驅動。 演演算法會使用5000萬資料點以及跨越數百萬使用者的五年彙總學習資料，根據他們的註冊可能性來排名課程。 此排名可確保大部分可註冊的課程會先顯示給學習者。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1459'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Manager中的Recommendations
 
-Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
+Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。 管理員可以根據產品、角色和層級設定帳戶。
 
 新的推薦系統可讓您建立自訂引數，讓學習者可選取這些引數以接收個人化推薦。 這些建議將顯示為課程、學習路徑和認證，以供學習者在其首頁資訊源中檢視。
 
@@ -32,7 +32,7 @@ Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建
 
 ## 主要條款
 
-Learning Manager的全新AI型推薦引擎為學習領導者提供可設定的引數型推薦系統，供學習者打造個人化體驗。
+Learning Manager的全新AI型推薦引擎為學習領導者提供可設定的引數型推薦系統，供其為學習者打造個人化體驗。
 
 引數為 — **產品/主題**、**角色**&#x200B;和&#x200B;**層級**。 此外，這些引數可重新命名以符合您的需求。 因此，「產品」可以成為「主題」，「角色」可以成為「地區」。
 
@@ -48,11 +48,11 @@ Adobe Learning Manager的新建議引擎簡化了設定個人化建議所涉的�
 
 管理員會設定帳戶的產品、角色和層級引數值。 例如，以銀行為主要客戶群的IT解決方案提供者可設定「Product」引數為具有如Payment Gateway、Secure Cloud Storage、Fraud Detection System、Trading Platform等值，而設定「Role」引數為具有如Integration Specialist、Network Administrator、Risk Analyst、Compliance Offer等值。
 
-在Learning Manager中，管理員可獲得引導式工作流程，以便最佳地設定建議引擎，並根據帳戶的使用案例自訂引擎。 此外，管理員也可以選擇透過一次性CSV上傳設定PRL建議。
+在Learning Manager中向管理員提供引導式工作流程，以便最佳地設定建議引擎，並根據帳戶的使用案例自訂引擎。 此外，管理員也可以選擇透過一次性CSV上傳設定PRL建議。
 
 1. 在管理員應用程式上選取&#x200B;**[!UICONTROL Recommendations]**。
 
-   在管理員應用程式上![選取Recommendations](assets/image831538.png)
+   ![在管理員應用程式上選取建議](assets/image831538.png)
 
    *選取Recommendations選項*
 
@@ -114,14 +114,14 @@ Recommendations功能可供設定。 因此，您可以使用主題/角色/層�
 
 **RecUser.csv**
 
-* 使用者ID
+* 使用者 ID
 * 產品
 * 角色
 * 層次（初級、中級或進階）
 
 以下是csv中的記錄範例：
 
-| 使用者ID | 產品 | 角色 | 層級 |
+| 使用者 ID | 產品 | 角色 | 層級 |
 |--- |--- |--- |--- |
 | 123 | 資料科學 | 分析人員 | 分析人員：中級 |
 | 456 | 航空引擎 | 技術人員 | 技術人員：進階 |
@@ -195,7 +195,7 @@ Recommendations功能可供設定。 因此，您可以使用主題/角色/層�
 * 產品：系統會提示學習者僅選取產品。
 * 角色：系統會提示學習者僅選擇角色。
 
-在左側面板上選取Recommendations後，學習者會看到快顯視窗以設定建議。
+在左側面板上選取建議後，學習者會看到快顯視窗以設定建議。
 
 ![設定建議](assets/image575540.png)
 *學習者設定建議*
@@ -220,7 +220,7 @@ Recommendations功能可供設定。 因此，您可以使用主題/角色/層�
 學習者可在應用程式上看到下列長條：
 
 * 我的學習長條
-* 使用行事曆、社交和遊戲化Widget移除
+* 使用行事曆、社交和gamification Widget移除
 * 由我儲存的分段
 * 超相關長條
 * 產品條 — 1
