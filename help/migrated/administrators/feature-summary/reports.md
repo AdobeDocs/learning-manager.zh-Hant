@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7450'
 ht-degree: 0%
 
 ---
@@ -418,10 +418,6 @@ _法規遵循儀表板 — 管理員檢視_
 * 登入/存取報告
 * 遊戲成績單
 * 遊戲化稽核軌跡
-
-### 學習者成績單 {#learnertranscripts}
-
-「Excel學習者成績單」報表會以十進位數字顯示「需要學分」和「已習得學分」欄。
 
 ### 課程報告 {#coursereports}
 
