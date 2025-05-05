@@ -2235,7 +2235,7 @@ Adobe Commerce管理員會將Learning Manager設定為整合。
 
 >[!NOTE]
 >
->在2024年3月發行的Adobe Learning Manager中，我們已推出對[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)的支援。
+>在2024年3月發行的Adobe Learning Manager中，我們已推出對[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=zh-Hant)的支援。
 
 
 1. 按一下&#x200B;**[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**。

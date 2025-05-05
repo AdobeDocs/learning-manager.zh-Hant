@@ -72,7 +72,7 @@ Learning Manager應用程式會根據事件傳送電子郵件通知給使用者�
 1. 若要開啟設定頁面，請按一下&#x200B;**[!UICONTROL Settings]**。 您現在可以自訂您的電子郵件範本。
 1. 若要自訂學習者接收電子郵件的名稱和電子郵件ID，請編輯&#x200B;**[!UICONTROL Sender Name and Address].**
 
-   請聯絡&#x200B;[***Adobe支援***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)以設定或變更這些詳細資料。
+   請聯絡&#x200B;[***Adobe支援***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)以設定或變更這些詳細資料。
 
 1. 從&#x200B;**[!UICONTROL Email Banner]**&#x200B;選項自訂您的電子郵件橫幅。 選取&#x200B;**[!UICONTROL Banner Background]**&#x200B;以變更橫幅的色彩。
 
@@ -160,7 +160,7 @@ DND清單中的學習者看不到摘要電子郵件的使用者設定。 該選�
 
 ## 自訂電子郵件網域 {#customizeemaildomain}
 
-若要自訂您的學習者接收通知的電子郵件網域和電子郵件ID，請聯絡&#x200B;[***Learning Manager支援***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)，並提供您要新增之網域的詳細資訊以及您的新電子郵件ID。
+若要自訂您的學習者接收通知的電子郵件網域和電子郵件ID，請聯絡&#x200B;[***Learning Manager支援***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)，並提供您要新增之網域的詳細資訊以及您的新電子郵件ID。
 
 系統將處理您的請求，並透過您指定的新電子郵件地址，向您傳送一封包含確認連結的電子郵件。 按一下電子郵件中提供的驗證連結，以確認並完成驗證程式。
 
@@ -257,6 +257,6 @@ Learning Manager使用者現在將收到內嵌電子郵件邀請。 不再使用
 
 +++如何變更範本中的寄件者名稱和地址？
 
-若要變更寄件者名稱和電子郵件地址，請連絡[Adobe Learning Manager支援](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)。
+若要變更寄件者名稱和電子郵件地址，請連絡[Adobe Learning Manager支援](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)。
 
 +++
