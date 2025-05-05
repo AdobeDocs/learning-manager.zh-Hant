@@ -301,7 +301,7 @@ getAbstract.com的企業客戶可使用getAbstract聯結器，他們希望學習
 
    若要讓任何型別的同步作業運作，您必須確定使用者摘要出現在同步作業指定日期的getAbstract FTP資料夾中。
 
-   請參閱下列excel工作表，此工作表是來自getAbstract的使用者摘要檔案範例。 檔案名稱應遵循以下格式：** report_export_yyyy_MM_dd_HHmmss.xlsx**或&#x200B;**report_export_yyyy_MM_dd.xlsx**。
+   請參閱下列excel工作表，此工作表是來自getAbstract的使用者摘要檔案範例。 檔案名稱應遵循以下格式：**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx**&#x200B;或&#x200B;**report_export_yyyy_MM_dd.xlsx**。
    [getAbstract使用者摘要範例Excel工作表](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor聯結器 {#hmmconnector}

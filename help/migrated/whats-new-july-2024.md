@@ -98,7 +98,7 @@ _新的使用者介面_
 
 此功能僅適用於學習者應用程式（現有UI、新學習者UI和行動沈浸式應用程式）。
 
-檢視ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)中的[多專案購物車
+檢視ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)中的多專案購物車
 
 ## Fluidic Player中的HTML5內容支援
 
@@ -240,7 +240,7 @@ RPM是一分鐘內可傳送至API伺服器的要求數目。 高載限制允許�
 
 ### 已過時的API
 
-檢視Adobe Learning Manager](/help/migrated/api-deprecations-list.md)中的[API棄用，以取得產品中所有棄用的API的累積清單。
+檢視Adobe Learning Manager[&#128279;](/help/migrated/api-deprecations-list.md)中的API棄用，以取得產品中所有棄用的API的累積清單。
 
 ## 報告的變更
 

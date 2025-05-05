@@ -75,7 +75,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 身為作者，您現在可以在建立課程時選擇xAPI模組，以便在Learning Manager外部監控使用者體驗。 例如，您可以使用此功能來評估使用者在用於課程使用的協力廠商平台上的活動。
 
-1. 建立&#x200B;**[!UICONTROL Activity Module]**&#x200B;時，在**[!UICONTROL Type]**選項中，使用彈出式選單來選取&#x200B;**[!UICONTROL xAPI-based Module.]**
+1. 建立&#x200B;**[!UICONTROL Activity Module]**&#x200B;時，在&#x200B;**[!UICONTROL Type]**&#x200B;選項中，使用彈出式選單來選取&#x200B;**[!UICONTROL xAPI-based Module.]**
 
    ![](assets/xapimodulecreation.png)
 

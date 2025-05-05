@@ -130,7 +130,7 @@ ht-degree: 0%
 
 ## 啟用完整的目錄控制項 {#catalog}
 
-就像授與學習或模組](shared-catalog-full-control.md)的完整[目錄控制項一樣，您也可以啟用認證的完整目錄控制項。
+就像授與學習或模組[&#128279;](shared-catalog-full-control.md)的完整目錄控制項一樣，您也可以啟用認證的完整目錄控制項。
 
 ## 將學習者註冊或取消註冊至認證 {#enrollorunenrolllearnerstothecertification}
 

@@ -26,11 +26,11 @@ ht-degree: 0%
 
    ![](assets/configure-sso-step1.png)
 
-1. 根據您的使用者型別，選取&#x200B;**[!UICONTROL **&#x200B;內部使用者&#x200B;**或**&#x200B;外部使用者&#x200B;**。]**
+1. 根據您的使用者型別，選取&#x200B;**[!UICONTROL **&#x200B;內部使用者&#x200B;**&#x200B;或**&#x200B;外部使用者&#x200B;**。]**
 
 
 
-1. 從**[!UICONTROL **登入**]**下拉式欄位中，選取&#x200B;**[!UICONTROL **&#x200B;單一登入&#x200B;**。]**
+1. 從&#x200B;**[!UICONTROL **登入**]**&#x200B;下拉式欄位中，選取&#x200B;**[!UICONTROL **&#x200B;單一登入&#x200B;**。]**
 
    ![](assets/configure-sso-step3.png)
 
@@ -38,13 +38,13 @@ ht-degree: 0%
 
    ![](assets/configure-sso-step4.png)
 
-1. 在&#x200B;****[!UICONTROL IDP-Initiated Authentication URL]****&#x200B;欄位中，輸入服務提供者提供的驗證URL。
+1. 在&#x200B;**&#x200B;**&#x200B;[!UICONTROL IDP-Initiated Authentication URL]&#x200B;**&#x200B;**&#x200B;欄位中，輸入服務提供者提供的驗證URL。
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. 按一下&#x200B;**[!UICONTROL  ** IDP中繼資料XML檔案&#x200B;**]**** **欄位旁的**[!UICONTROL **上傳&#x200B;**]**，然後上傳您的XML檔案。
+1. 按一下&#x200B;**[!UICONTROL &#x200B; ** IDP中繼資料XML檔案&#x200B;**]**&#x200B;** **欄位旁的&#x200B;**[!UICONTROL **上傳&#x200B;**]**，然後上傳您的XML檔案。
 1. 按一下&#x200B;**[!UICONTROL **&#x200B;儲存&#x200B;**。]**
 1. 已成功為您的帳戶設定SSO驗證。 您應能使用SSO登入您的Learning Manager帳戶。
 
@@ -79,7 +79,7 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 
 
-***建議管理員在將資料和內容移轉至Learning Manager生產環境前，先在試用帳戶中嘗試移轉程式。 ***
+***建議管理員在將資料和內容移轉至Learning Manager生產環境前，先在試用帳戶中嘗試移轉程式。 &#x200B;***
 
 ### 評估及匯出資料 {#evaluatingandexportingdata}
 
@@ -290,7 +290,7 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 ![](assets/set-up-a-box-account.png)
 
-在&#x200B;****[!UICONTROL Enter Email]****&#x200B;欄位中，輸入您要接收連線至Box之登入指示的電子郵件ID。
+在&#x200B;**&#x200B;**&#x200B;[!UICONTROL Enter Email]&#x200B;**&#x200B;**&#x200B;欄位中，輸入您要接收連線至Box之登入指示的電子郵件ID。
 
 按一下&#x200B;**[!UICONTROL **&#x200B;連線&#x200B;**.]**
 
@@ -313,11 +313,11 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 在移轉首頁中，系統會顯示組織中已建立的移轉專案。
 
-按一下頁面右上角的**[!UICONTROL **新增**]**，以建立移轉專案。
+按一下頁面右上角的&#x200B;**[!UICONTROL **新增**]**，以建立移轉專案。
 
-***如果您尚未建立FTP資料夾，系統會提示您建立FTP資料夾Exavault帳戶。 這是開始建立移轉專案之前的必要步驟。 ***
+***如果您尚未建立FTP資料夾，系統會提示您建立FTP資料夾Exavault帳戶。 這是開始建立移轉專案之前的必要步驟。 &#x200B;***
 
-在&#x200B;****[!UICONTROL Create a New Migration Project]****&#x200B;頁面中，指定專案名稱。
+在&#x200B;**&#x200B;**&#x200B;[!UICONTROL Create a New Migration Project]&#x200B;**&#x200B;**&#x200B;頁面中，指定專案名稱。
 
 ![](assets/migrating-the-content-1.png)
 
@@ -331,17 +331,17 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 指定衝刺的名稱，並提供衝刺的說明。
 
-選取&#x200B;****[!UICONTROL Users have been added or modified since the last run check box]****&#x200B;以將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，建議您選擇同步使用者清單。 此步驟可讓Learning Manager資料庫與LMS使用者同步。
+選取&#x200B;**&#x200B;**&#x200B;[!UICONTROL Users have been added or modified since the last run check box]&#x200B;**&#x200B;**&#x200B;以將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，建議您選擇同步使用者清單。 此步驟可讓Learning Manager資料庫與LMS使用者同步。
 
 ***建議在移轉enrollment.csv和user_course_grade.csv時執行同步化步驟。 此步驟可讓Learning Manager資料庫與您的移轉資料庫保持同步，並確保所有要在Sprint中移轉記錄的使用者都可在移轉資料庫中使用。***
 
 按一下&#x200B;**[!UICONTROL **&#x200B;下一步&#x200B;**.]**
 
-按一下**[!UICONTROL **開始**]**以開始使用您上傳的資料和內容進行Sprint移轉。 在開始Sprint Run之前，請按一下「****[!UICONTROL Refresh]****」以與Learning Manager同步FTP和內容資料夾。
+按一下&#x200B;**[!UICONTROL **開始**]&#x200B;**以開始使用您上傳的資料和內容進行Sprint移轉。 在開始Sprint Run之前，請按一下「**&#x200B;**[!UICONTROL Refresh]**&#x200B;**」以與Learning Manager同步FTP和內容資料夾。
 
 ![](assets/migrating-the-content-3.png)
 
-您可以在Sprint移轉程式期間的任何時間點按一下****[!UICONTROL Stop]****以中止衝刺移轉。
+您可以在Sprint移轉程式期間的任何時間點按一下&#x200B;**&#x200B;**&#x200B;[!UICONTROL Stop]&#x200B;**&#x200B;**&#x200B;以中止衝刺移轉。
 
 系統會針對每個衝刺資料專案和內容顯示移轉狀態。 檢查移轉衝刺執行中成功和失敗的專案數。
 
@@ -351,13 +351,13 @@ Learning Manager可讓您透過逐步精靈，在反複衝刺中從現有的LMS�
 
 ![](assets/migrating-the-content-4.png)
 
-若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
+若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的&#x200B;**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
 
 ![](assets/migrating-the-content-5.png)
 
-若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
+若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的&#x200B;**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
 
-若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
+若要檢視移轉專案的所有衝刺清單，請按一下左側導覽窗格中的&#x200B;**[!UICONTROL **衝刺**]**。 您可以檢視所有衝刺的清單、每個衝刺執行的「執行」數目、開始日期、持續期間和完成狀態，如下面的範例快照所示。
 
 ***將移轉專案標籤為完成之前，請確定專案中的所有衝刺都已完成。 一旦您將移轉專案標籤為完成，您就無法返回在該專案中建立任何沖刺。 您無法對該專案進行任何修改。 您只能建立另一個移轉專案並新增衝刺。***
 

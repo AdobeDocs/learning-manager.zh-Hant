@@ -395,7 +395,7 @@ Adobe Learning Manager中有兩種型別的群組，自訂和自動產生。 當
 
 *匯入或同步處理使用者的資料來源*
 
-從&#x200B;**[!UICONTROL Source]**&#x200B;下拉式清單中選擇資料來源型別、選取更新頻率，如果需要立即同步或按一下&#x200B;**[!UICONTROL Save]，請按一下&#x200B;**[!UICONTROL Sync now]**。**&#x200B;內部使用者的資料來源型別為SFDC、FTP等。
+從&#x200B;**[!UICONTROL Source]**&#x200B;下拉式清單中選擇資料來源型別、選取更新頻率，如果需要立即同步或按一下&#x200B;**[!UICONTROL Save]，請按一下&#x200B;**&#x200B;[!UICONTROL Sync now]&#x200B;**。**&#x200B;內部使用者的資料來源型別為SFDC、FTP等。
 
 您可以新增多個資料來源。
 

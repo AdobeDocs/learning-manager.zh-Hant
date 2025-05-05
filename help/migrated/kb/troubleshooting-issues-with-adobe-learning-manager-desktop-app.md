@@ -105,15 +105,15 @@ ht-degree: 0%
 1. 若要開啟&#x200B;**移至資料夾**&#x200B;對話方塊，請按&#x200B;**Cmd + Shift + G**&#x200B;鍵。
 1. 輸入&quot;**/var/folders**&quot; （不含引號）並按Enter。
 1. 在搜尋列中搜尋「**elthor**」並開啟資料夾。
-1. 依**修改日期**將資料夾排序，然後開啟最近的資料夾。 此資料夾包含最新的應用程式記錄檔。
+1. 依&#x200B;**修改日期**&#x200B;將資料夾排序，然後開啟最近的資料夾。 此資料夾包含最新的應用程式記錄檔。
 
 ## 如何啟用進階記錄？ {#howtoenableadvancedlogging}
 
 ### Windows {#Windows-1}
 
-1. 若要開啟[執行]對話方塊，請按&#x200B;**Windows鍵+ R**。****
-1. 型別&#39;&#39;**%APPDATA%\\\..\\Local\\Adobe\\Learning Manager 1.0**」（不含引號）並按Enter。****
-1. 備份檔案&#x200B;**preferences.json**，然後在文字編輯器中開啟它。****
+1. 若要開啟[執行]對話方塊，請按&#x200B;**Windows鍵+ R**。**&#x200B;**
+1. 型別&#39;&#39;**%APPDATA%\\\..\\Local\\Adobe\\Learning Manager 1.0**」（不含引號）並按Enter。**&#x200B;**
+1. 備份檔案&#x200B;**preferences.json**，然後在文字編輯器中開啟它。**&#x200B;**
 1. 搜尋索引鍵&#x200B;**debugMode**，並將這個索引鍵的值屬性變更為&quot;**true**&quot; （不含引號）。
 
 ### MAC OS X {#MacOSX-2}

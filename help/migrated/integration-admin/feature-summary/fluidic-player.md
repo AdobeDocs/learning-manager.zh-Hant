@@ -19,7 +19,7 @@ ht-degree: 0%
 
 作為企業，您現在甚至可以在Learning Manager之外為學習者提供自訂體驗。 使用公用API，您可以擷取與學習物件、學習者註冊和學習進度相關的所有資訊，並在您的網站上顯示。 更重要的是，您甚至可以在網站中內嵌Learning Manager的流體播放器，讓學習者直接在您的網站中使用內容。 流體播放器可讓您播放Learning Manager支援的任何內容。 內嵌於您自己的網站時，其功能與Learning Manager中的完全相同。
 
-**播放任何電子學習內容[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**播放任何電子學習內容[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Fluidic播放器能以一致且直覺的方式播放幾乎任何型別的電子學習內容，無需使用任何外掛程式或下載。 學習者可以啟動內容，而且無論內容檔案型別為何，都會開始播放。
 
@@ -31,7 +31,7 @@ Fluidic播放器能以一致且直覺的方式播放幾乎任何型別的電子�
 
 以下是一些使用內嵌式流體播放器的範例。
 
-* 您可以使用** **網站中的內嵌式流體播放器來列出您員工的已註冊課程，並提供在相同頁面上啟動培訓的連結。 這表示您的學習者可在您的內部網路網站上參加培訓。
+* 您可以使用 **&#x200B; **&#x200B;網站中的內嵌式流體播放器來列出您員工的已註冊課程，並提供在相同頁面上啟動培訓的連結。 這表示您的學習者可在您的內部網路網站上參加培訓。
 
 * 如果您從事培訓業務，可能會有客戶購買課程的網站。 您可以將內嵌式播放器整合到相同網站，讓客戶可以使用他們在網站內購買的內容。
 
@@ -75,11 +75,11 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-在此，**[!UICONTROL client id]**是在步驟1中取得的應用程式ID。
-**[!UICONTROL redirect_url]**是在步驟1中設定的redirect_url。
-**[!UICONTROL state]**是任何虛擬資料，我們需要根據這些資料篩選重新導向URL以取得OAuth程式碼。 範圍是在步驟1中設定的學習者範圍。
-**[!UICONTROL response_typ]**e一律為「代碼」。\
-**[!UICONTROL account]**是選用欄位\
+在此，**[!UICONTROL client id]**&#x200B;是在步驟1中取得的應用程式ID。
+**[!UICONTROL redirect_url]**&#x200B;是在步驟1中設定的redirect_url。
+**[!UICONTROL state]**&#x200B;是任何虛擬資料，我們需要根據這些資料篩選重新導向URL以取得OAuth程式碼。 範圍是在步驟1中設定的學習者範圍。
+**[!UICONTROL response_typ]**&#x200B;e一律為「代碼」。\
+**[!UICONTROL account]**&#x200B;是選用欄位\
 **[!UICONTROL email]**&#x200B;是選用欄位\
 &#42;如果同時提供帳戶ID和電子郵件，上述URL將允許使用者登入相同的帳戶。 此端點範例在範例應用程式的「index.html」檔案中描述。
 

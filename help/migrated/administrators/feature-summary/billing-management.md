@@ -237,7 +237,7 @@ Learning Manager帳戶。 所有其他使用者無法存取該帳戶。
 選擇您要編輯的專案：
 
 1. **[!UICONTROL Payment method]：**&#x200B;使用此選項來更新付款詳細資料，例如信用卡。
-1. **[!UICONTROL Address]：**使用此選項來更新地址詳細資料。
+1. **[!UICONTROL Address]：**&#x200B;使用此選項來更新地址詳細資料。
 +++
 
 +++我可以部分取消訂閱嗎？

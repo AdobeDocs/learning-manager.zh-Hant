@@ -197,7 +197,7 @@ Adobe Learning Manager案頭應用程式主要適用於使用Learning Manager社
 
 無論學習者是否已登入Learning Manager網路應用程式，Learning Manager中的通知都會顯示在通知視窗中。 通知包括使用者已建立、正在關注或已參與的貼文或面板。 按一下通知即可將使用者導覽至Learning Manager社交學習網站。
 
-若要將通知設為靜音，請按一下***[!UICONTROL Profile menu*]* > [!UICONTROL Settings] > **[!UICONTROL Mute notifications]**。
+若要將通知設為靜音，請按一下&#x200B;***[!UICONTROL Profile menu*]* > [!UICONTROL Settings] > &#x200B;** [!UICONTROL Mute notifications]**。
 
 ## Adobe Learning Manager案頭應用程式中的設定 {#settingsinadobecaptivateprimedesktopapplication}
 

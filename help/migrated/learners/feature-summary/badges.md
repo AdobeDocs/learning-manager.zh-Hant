@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ## 開放徽章 {#openbadges}
 
-Learning Manager支援的Open Badges揹包平台即將淘汰&#x200B;****。 目前Learning Manager不支援開放徽章。
+Learning Manager支援的Open Badges揹包平台即將淘汰&#x200B;**&#x200B;**。 目前Learning Manager不支援開放徽章。
 
 開放徽章是辨識及驗證學習者學習內容的標準。 您可以使用這些徽章線上上展示您的成就。
 

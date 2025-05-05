@@ -232,7 +232,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
    *選取設定超連結*
 
-1. 在設定快顯對話方塊中，針對您要設定的技能，在&#x200B;**目標完成%**&#x200B;欄位中輸入百分比值，並在&#x200B;**目標日期**&#x200B;欄位中輸入您想要達到目標完成%的日期。****
+1. 在設定快顯對話方塊中，針對您要設定的技能，在&#x200B;**目標完成%**&#x200B;欄位中輸入百分比值，並在&#x200B;**目標日期**&#x200B;欄位中輸入您想要達到目標完成%的日期。**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

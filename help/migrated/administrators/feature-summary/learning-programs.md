@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 為學習計畫啟用完整目錄控制 {#catalog}
 
-就像授與學習或模組](shared-catalog-full-control.md)的完整[目錄控制項一樣，您也可以為學習方案啟用完整的目錄控制項。
+就像授與學習或模組[&#128279;](shared-catalog-full-control.md)的完整目錄控制項一樣，您也可以為學習方案啟用完整的目錄控制項。
 
 ## 重設課程
 

@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 您一次只能編輯一個標籤。 若要編輯標籤，請遵循此步驟：
 
-   * 選擇要編輯的標記>打開**[!UICONTROL Actions]**下拉功能表>然後按兩下 **[!UICONTROL Edit]**。
+   * 選擇要編輯的標記>打開&#x200B;**[!UICONTROL Actions]**&#x200B;下拉功能表>然後按兩下 **[!UICONTROL Edit]**。
 
    對話框出現 **[!UICONTROL Edit Tag]** 。 輸入新的標記名稱，然後按下 **[!UICONTROL Save]**。
 

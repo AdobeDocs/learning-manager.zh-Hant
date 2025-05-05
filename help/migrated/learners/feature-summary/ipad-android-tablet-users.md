@@ -447,7 +447,7 @@ linkedIn學習課程所花費的學習時間會由LinkedIn內容/LinkedIn平台�
 
 *檔案提交狀態*
 
-若要上傳檔案，請按一下[上傳檔案]。****
+若要上傳檔案，請按一下[上傳檔案]。**&#x200B;**
 
 上傳任何檔案並按一下&#x200B;**提交**&#x200B;按鈕。
 
@@ -538,7 +538,7 @@ linkedIn學習課程所花費的學習時間會由LinkedIn內容/LinkedIn平台�
 
 ## 行動沈浸式裝置上的多專案購物車支援
 
-學習者現在可以將數個課程、學習路徑或認證新增到購物車中，並一起購買。 檢視ALM](/help/migrated/learners/feature-summary/multi-item-cart.md)中的[多專案購物車
+學習者現在可以將數個課程、學習路徑或認證新增到購物車中，並一起購買。 檢視ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)中的多專案購物車
 
 <!--## Track device storage {#trackdevicestorage}
 

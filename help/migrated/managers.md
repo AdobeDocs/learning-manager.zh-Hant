@@ -35,5 +35,5 @@ ht-degree: 2%
 * [報表](managers/feature-summary/reports.md)
 * [設定](managers/feature-summary/settings.md)
 * [使用者登入](managers/feature-summary/user-login.md)
-* [使用者通知](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
+* [使用者通知](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
 * [學習物件](managers/feature-summary/learning-objects.md)

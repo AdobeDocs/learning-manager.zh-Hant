@@ -587,5 +587,5 @@ Testout\
 
 +++如何為帳戶添加財政年度？
 
-在&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**&#x200B;中，按一下&#x200B;**[!UICONTROL Change]**。 從&#x200B;**[!UICONTROL Financial year starts from]**下拉式清單中選取月份。
+在&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Basic Info]**&#x200B;中，按一下&#x200B;**[!UICONTROL Change]**。 從&#x200B;**[!UICONTROL Financial year starts from]**&#x200B;下拉式清單中選取月份。
 +++

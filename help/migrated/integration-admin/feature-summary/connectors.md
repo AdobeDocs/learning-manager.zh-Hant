@@ -490,7 +490,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
    **篩選器**
 
    * 從左窗格，按一下&#x200B;**[!UICONTROL Filter]**。
-   * 在設定匯入 — 篩選頁面中，填寫名稱和條件欄位以篩選出記錄。 按一下&#x200B;**[!UICONTROL Add new Filter]**&#x200B;以新增另一個篩選器。 您可以按一下[動作]資料欄下的[儲存] ****&#x200B;或[刪除] ****&#x200B;選項，儲存或刪除篩選器。
+   * 在設定匯入 — 篩選頁面中，填寫名稱和條件欄位以篩選出記錄。 按一下&#x200B;**[!UICONTROL Add new Filter]**&#x200B;以新增另一個篩選器。 您可以按一下[動作]資料欄下的[儲存] **&#x200B;**&#x200B;或[刪除] **&#x200B;**&#x200B;選項，儲存或刪除篩選器。
 
    ![](assets/filter.png)
    *篩選器*
@@ -2106,7 +2106,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 1. 從下列選項中選取&#x200B;**[!UICONTROL Type of interface]**：
 
    * **[!UICONTROL Native Learning Manager]**：這是標準產品，僅供原生介面使用。
-   * **[!UICONTROL  Headless interfaces]**：這是進階產品，會公開API以建置非登入體驗。
+   * **[!UICONTROL &#x200B; Headless interfaces]**：這是進階產品，會公開API以建置非登入體驗。
 
    ![](assets/types-of-interface.png)
 介面型別
@@ -2124,8 +2124,8 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 1. 啟用連線後，所有課程、學習路徑和憑證的影像都會移轉至CDN。
 1. 將課程、學習路徑和憑證的中繼資料匯出至搜尋和擷取服務。
 1. 您可以選取「啟用排程」選項來排程中繼資料匯出。 對於進階計畫，排程每3小時自動進行一次。
-1. 針對隨選報告，請移至&#x200B;**[!UICONTROL On Demand]**，選取&#x200B;**[!UICONTROL Start date]**，然後選取&#x200B;**[!UICONTROL click]**執行。
-您可以在**[!UICONTROL Execution Status]**&#x200B;頁面上檢查報告執行的狀態。
+1. 針對隨選報告，請移至&#x200B;**[!UICONTROL On Demand]**，選取&#x200B;**[!UICONTROL Start date]**，然後選取&#x200B;**[!UICONTROL click]**&#x200B;執行。
+您可以在&#x200B;**[!UICONTROL Execution Status]**&#x200B;頁面上檢查報告執行的狀態。
 
 ### 在AEM中建立網站 {#create-website-in-aem}
 

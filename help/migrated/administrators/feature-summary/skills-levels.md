@@ -271,7 +271,7 @@ Learning Manager LMS中「技能」的基本用途是為管理員提供符合業
 
 ![](assets/course-skills.png)
 
-若要啟用課程完成的徽章，請在作者應用程式的&#x200B;**[!UICONTROL Instances]**區段中，啟用必要的徽章。
+若要啟用課程完成的徽章，請在作者應用程式的&#x200B;**[!UICONTROL Instances]**&#x200B;區段中，啟用必要的徽章。
 +++
 
 +++即使徽章顯示「進行中」，管理員是否仍可以將徽章標籤為完成？

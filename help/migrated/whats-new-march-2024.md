@@ -54,7 +54,7 @@ ht-degree: 0%
 
 ### 管理員 — 學習者頁面
 
-搜尋任何使用者時，**下載學習者**&#x200B;和&#x200B;**匯出**選項會下載相同的報表。 同時，在搜尋使用者群組時，您現在可以從該使用者群組下載經過篩選的使用者。 搜尋使用者群組時，
+搜尋任何使用者時，**下載學習者**&#x200B;和&#x200B;**匯出**&#x200B;選項會下載相同的報表。 同時，在搜尋使用者群組時，您現在可以從該使用者群組下載經過篩選的使用者。 搜尋使用者群組時，
 **下載學習者清單**&#x200B;變更為&#x200B;**下載使用者群組的學習者清單** **匯出**&#x200B;選項會再次下載整個清單。
 
 ### 管理員 — 使用者頁面
@@ -204,7 +204,7 @@ ht-degree: 0%
             <td>
                 <ul>
                     <li>如果使用者人數超過（例如50,000），則會出現其他訊息來下載資料，以供日後進行更詳細的分析。 搜尋列現在顯眼，並以名稱、電子郵件格式顯示使用者 | UUID。</li>
-                    <li>在「使用者清理」頁面上，對於已刪除的使用者，我們已在**刪除日期**移除排序功能。 您只能對UUID排序。</li>
+                    <li>在「使用者清理」頁面上，對於已刪除的使用者，我們已在&#x200B;**刪除日期**&#x200B;移除排序功能。 您只能對UUID排序。</li>
                 </ul>
             </td>
         </tr>
@@ -268,7 +268,7 @@ ht-degree: 0%
 * 已新增報告[遊戲化稽核軌跡](administrators/feature-summary/reports.md#gamification-audit-trail)。
 * 如果帳戶包含超過280000名指定技能的學習者，則技能學習者報告會下載為壓縮的csv檔。
 如果帳戶的學習者少於250000名，則會將相同的報表下載為CSV檔。
-在管理員頁面上，選取**管理員** > **技能** > **技能** > **學習者**。 報表會下載為CSV檔。
+在管理員頁面上，選取&#x200B;**管理員** > **技能** > **技能** > **學習者**。 報表會下載為CSV檔。
 * [工作階段摘要報告](administrators/feature-summary/reports.md#session-summary-report)有兩個新欄 — 「位置資訊」和「位置」區域。
 
 ## 教室建立的變更
@@ -372,7 +372,7 @@ ht-degree: 0%
 * 3天後再提醒我
 * 一週後再提醒我
 
-在Android上：按一下推播通知會將您導向&#x200B;**課程總覽**頁面。
+在Android上：按一下推播通知會將您導向&#x200B;**課程總覽**&#x200B;頁面。
 iOS上：按一下推播通知會將您導向應用程式的首頁。 這是iOS中的已知限制。
 
 ### Salesforce上學習者應用程式中的檢查清單變更
@@ -432,7 +432,7 @@ Adobe Learning Manager行動應用程式現在支援貼上白色標籤，這表�
 
 我們在此通知您，Bluejeans已於2024年2月終止服務(EOL)。 2024年2月後，Bluejeans將不再接收更新或支援。 我們的CSAM和支援團隊將協助您解決在此過渡期間可能遇到的任何問題或顧慮。
 
-檢視Adobe Learning Manager](integration-admin/feature-summary/connectors.md)中的[聯結器，以取得設定聯結器的詳細資訊。
+檢視Adobe Learning Manager[&#128279;](integration-admin/feature-summary/connectors.md)中的聯結器，以取得設定聯結器的詳細資訊。
 
 ### 登入存取權報表的變更
 
@@ -540,7 +540,7 @@ learningObjectResource中的新屬性isExpiredSubmission，可顯示資源中的
 
 ### 已過時的API
 
-檢視Adobe Learning Manager](api-deprecations-list.md)中的[API棄用，以取得產品中所有棄用的API的累積清單。
+檢視Adobe Learning Manager[&#128279;](api-deprecations-list.md)中的API棄用，以取得產品中所有棄用的API的累積清單。
 
 ## 此更新中修正的錯誤 {#bug-fixes}
 
