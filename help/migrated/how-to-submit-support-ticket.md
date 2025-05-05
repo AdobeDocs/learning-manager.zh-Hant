@@ -3,7 +3,7 @@ jcr-language: en_us
 title: 如何在Experience League上提交支援票證
 description: 瞭解如何在Experience League上提交支援請求
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: b69859161476a5ba56baa5b4447aec759c1a7736
+source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 請注意，僅授權支援聯絡人可提交支援票證。 如需支援諮詢，請繼續透過電子郵件向Adobe Learning Manager提交支援票證，直到2025年5月11日為止。 在此日期後，除了現有的電子郵件通道外，您還可以透過下述的Experience League支援入口網站提交支援票證。
 
-1. 若要存取支援入口網站，請造訪&#x200B;**[!UICONTROL Experience League]**&#x200B;網站，並選取位於頁面頂端的&#x200B;**[!UICONTROL Support]**&#x200B;索引標籤。 或者，您也可以造訪[直接連結](https://experienceleague.adobe.com/home?lang=zh-Hant#support)。
+1. 若要存取支援入口網站，請造訪&#x200B;**[!UICONTROL Experience League]**&#x200B;網站，並選取位於頁面頂端的&#x200B;**[!UICONTROL Support]**&#x200B;索引標籤。 或者，您也可以造訪[直接連結](https://experienceleague.adobe.com/home#support)。
 
    ![](assets/support.png)
    _支援首頁_
@@ -59,3 +59,4 @@ ht-degree: 0%
 如果您有任何關於如何使用&#x200B;**[!UICONTROL Experience League Support]**&#x200B;入口網站的進一步問題，請在以下的註解區段中通知我們，或直接透過此電子郵件地址[almdynsupp@adobe.com](mailto:almdynsupp@adobe.com)聯絡我們的支援團隊。
 
 若要新增可透過Experience League (EXL)開啟支援票證的授權連絡人，請造訪[http://licensing.adobe.com](http://licensing.adobe.com)。
+
