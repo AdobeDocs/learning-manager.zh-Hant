@@ -70,7 +70,7 @@ ht-degree: 0%
 
 Adobe Learning Manager支援從Adobe Connect選取討論室，同時在Connect中設定虛擬教室工作階段。 以前，管理員只能選取會議室型別。 此功能可讓擁有有效研討會授權的管理員，在ALM中排程及管理單次或大型活動（最多1,500名與會者）。
 
-請參閱此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
+請參閱此[文章](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
 
 ### 存取工作階段分析的支援
 
