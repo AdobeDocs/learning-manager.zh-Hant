@@ -221,7 +221,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 * 選取您要移除的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **移除**]。
 * 選取您要標示出席的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **標示完成**]。
 
-若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL ****] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
+若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL **&#x200B;**] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
 
 您也可以匯出Excel工作表中的學習者清單。 若要匯出學習者清單，請按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **匯出**]。
 
@@ -587,8 +587,8 @@ CSV報表包含以下欄位：
 * **[!UICONTROL Badge]**：從下拉式選單中選取預設徽章。
 * **[!UICONTROL Gamification]**：設定遊戲化設定，包括完成點、提早完成點和即時完成點。 管理員可以選擇選取帳戶層級設定或自訂此執行個體的gamification點。
 * **[!UICONTROL L1 Reaction Feedback]**：在課程完成後，為學習者意見啟用預先定義的問題，並附上讓問題成為必要問題的選項。
-***[!UICONTROL  L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
-***[!UICONTROL  Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
+***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
+***[!UICONTROL &#x200B; Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
 
 ### 設定向上呈報級別 {#escalation}
 
@@ -613,7 +613,7 @@ CSV報表包含以下欄位：
 2. 前往&#x200B;**[!UICONTROL Courses]**&#x200B;頁面並選取課程。
 3. 在課程頁面上選取&#x200B;**[!UICONTROL Learners]**。
 4. 選擇個別或多個學習者。
-5. 選取&#x200B;**[!UICONTROL Actions]**，然後選取**[!UICONTROL  Mark Completion]**。
+5. 選取&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL &#x200B; Mark Completion]**。
 6. 在對話方塊中輸入完成註解。
 
    ![](assets/comments.png)
