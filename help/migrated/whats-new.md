@@ -2,7 +2,7 @@
 description: 瞭解2025年5月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2479'
 ht-degree: 0%
@@ -77,6 +77,7 @@ Adobe Learning Manager推出新的購買模式，提供更多彈性與選項來�
 ## FTP、自訂FTP和方塊的登入存取報告 {#log-in-access-report}
 
 除了現有的工作API之外，登入存取報表現在可用於Box、FTP和自訂FTP聯結器。 此報表提供有關使用者登入活動的詳細資訊，包括執行狀態、壓縮設定和排程選項。 可隨選或排程產生報告，資料會儲存在指定的聯結器中，以便輕鬆存取和分析。 此增強功能改善了監視和稽核使用者登入活動的能力，確保更好的安全性和合規性追蹤。
+
 該報表現在可透過自訂FTP、FTP和Box與現有報表一併使用，例如學習者進度和課程完成。 此整合可讓管理員從單一來源存取所有必要報表，有助於改善資料管理和分析。
 
 該報告可讓您將登入和存取資料匯出至FTP，藉此協助實現自動化，您可將其與其他報告聯結，以建立全面的控制面板。 對於仰賴自動化流程進行資料分析和報告的組織而言，此功能特別實用。
@@ -108,7 +109,7 @@ Adobe Learning Manager是多語言平台，學習者的語言偏好設定可透�
 
 在Connect中設定VC工作階段時，Adobe Learning Manager現在也支援從Adobe Connect選取討論室。 以前，管理員只能選取會議室型別。 此增強功能可讓擁有有效研討會授權的管理員在Adobe Learning Manager中排程及管理單次或大型活動（最多1,500名與會者）。
 
-檢視此[文章](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
+檢視此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
 
 ### 存取工作階段分析的支援
 
