@@ -2,15 +2,15 @@
 description: 瞭解2025年5月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
 workflow-type: tm+mt
-source-wordcount: '2477'
+source-wordcount: '2479'
 ht-degree: 0%
 
 ---
 
 
-# 新功能摘要
+# 2025年5月新功能摘要
 
 即將發行的Adobe Learning Manager引進了各種新功能和增強功能，旨在簡化平台並增強其功能。
 
@@ -108,7 +108,7 @@ Adobe Learning Manager是多語言平台，學習者的語言偏好設定可透�
 
 在Connect中設定VC工作階段時，Adobe Learning Manager現在也支援從Adobe Connect選取討論室。 以前，管理員只能選取會議室型別。 此增強功能可讓擁有有效研討會授權的管理員在Adobe Learning Manager中排程及管理單次或大型活動（最多1,500名與會者）。
 
-檢視此[文章](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
+檢視此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
 
 ### 存取工作階段分析的支援
 
