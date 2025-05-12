@@ -3,9 +3,9 @@ description: 瞭解如何建立內容，以配合課程成為自訂進度內容�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '3495'
+source-wordcount: '4195'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 0%
 
 ### 在內容庫中新增HTML5檔案型別
 
-作者可將HTML5內容以.zip檔案的形式新增至自訂步調的內容。 .zip資料夾應包含名為`index.html`的HTML檔案。 如果有多個HTML檔案，則應該全部連結，且主檔案名為`index.html`。 學習者可以在流體播放器中檢視HTML5內容。 作者可將此HTML5內容新增至課程的自學課程模組，並設定完成條件。 作者可使用下列兩種方式之一設定完成HTML課程的准則：
+作者可將HTML5內容以.zip檔案的形式新增至自訂進度內容中。 .zip資料夾應包含名為`index.html`的HTML檔案。 如果有多個HTML檔案，則應全部連結，且主檔案名為`index.html`。 學習者可以在流體播放器中檢視HTML5內容。 作者可以將此HTML5內容新增至課程的自學課程模組，並設定完成條件。 作者可使用下列兩種方式之一設定完成HTML課程的條件：
 
 * 學習者可將其標示為完成。
 * 他們啟動課程後，即會被標示為完成。
@@ -190,19 +190,19 @@ _學習者標籤完成_
 
 1. 若要新增內容，請選取&#x200B;**[!UICONTROL Add Content File]**，然後上傳您的資源檔案。 當您新增多種語言的內容時，您無法將靜態和互動式內容結合在單一群組中。 您所有地區設定的所有內容都應是靜態的，或者所有內容都應是互動的。
 
-* [支援的檔案型別](content-library.md#supported)
+* [支援的檔案類型](content-library.md#supported)
 
   互動式內容可以是SCORM、AICC或Captivate發佈的專案。 檔案必須是zip檔案。
 
   您也可以新增從Captivate、簡報者或簡報者Video Express產生的HTML內容。
 
-1. Learning Manager支援在Learning Manager中上傳影片內容的字幕。 現在，作者可以上傳包含註解的檔案以及視訊檔案。
+1. Adobe Learning Manager支援在Adobe Learning Manager中上傳之視訊內容的字幕。 現在，作者可以上傳包含註解的檔案以及視訊檔案。
 
    然後，學習者便可以在視訊模組播放期間檢視註解。
 
    支援的格式為[網頁視訊文字追蹤(webVTT)](https://www.w3.org/TR/webvtt1/)。
 
-   註解支援適用於在Learning Manager中上傳至內容庫的影片內容。
+   註解支援適用於在Adobe Learning Manager內容庫中上傳的視訊內容。
 
    身為作者，當您上傳視訊或音訊內容時，也可以上傳包含註解的VTT檔案。
 
@@ -222,7 +222,7 @@ _學習者標籤完成_
    >
    >   一個VTT檔案支援一種語言。 若要支援多種語言，請針對每種內容語言上傳多個視訊檔案，然後針對每個視訊檔案上傳其各自的VTT檔案。
 
-   作為作者，每次您變更內容、影片或音訊時，Learning Manager都會提示您輸入新的vtt檔案。
+   身為作者，每次您變更內容、視訊或音訊時，Adobe Learning Manager都會提示您輸入新的vtt檔案。
 
    將此內容新增到課程後，若您以學習者身分預覽課程，即可看到影片上的註解。
 
@@ -236,7 +236,7 @@ WebVTT支援不適用於：
    1. 視訊公告。
    1. 在數位學習內容中播放的影片。 這是由內容所驅動。
    1. 在社交學習中上傳的影片。
-   1. 在Learning Manager案頭應用程式中建立的影片。
+   1. 在Adobe Learning Manager案頭應用程式中建立的影片。
    1. 使用移轉程式建立的視訊內容。
    1. 以離線模式在行動應用程式中播放視訊。
 
@@ -276,7 +276,7 @@ WebVTT支援不適用於：
 1. 在&#x200B;**持續時間**&#x200B;欄位中，指定學習者必須花在測驗上的時間。
 1. 從已建立標籤的清單中指定標籤。
 1. 在測驗中新增標誌和背景。
-1. 在頁面的右上角，選取&#x200B;**Publish**。
+1. 在頁面的右上角，選取&#x200B;**發佈**。
 
 若要以不同語言新增測驗，請遵循以下步驟：
 
@@ -422,9 +422,9 @@ WebVTT支援不適用於：
 
 新增內容後，您可以修改內容的完成條件。
 
-在Learning Manager中，會根據成功和完成情況授予徽章和技能。 如果學習者已完成課程但未成功，則學習者不會收到與學習對象相對應的徽章和技能。
+在Adobe Learning Manager中，會根據成功和完成來授予徽章和技能。 如果學習者已完成課程但未成功，則學習者不會收到與學習對象相對應的徽章和技能。
 
-例如，如果您曾使用Adobe Captivate建立課程並在偏好設定對話方塊上設定學習引數，則相同的設定會移轉至「完成條件」選項中的Learning Manager。
+例如，如果您之前使用Adobe Captivate建立課程並在「偏好設定」對話方塊中設定學習引數，則完成條件選項中的相同設定會移轉至Adobe Learning Manager。
 
 在「完成條件」區段中，您可以設定下列選項：
 
@@ -445,7 +445,7 @@ WebVTT支援不適用於：
 
 ## 設定成功標準 {#setsuccesscriteria}
 
-同樣地，您可以定義課程的成功標準。 成功標準會指出學習者的績效為通過或失敗。 如果您已在Captivate中建立課程，則可在「偏好設定」對話方塊中設定課程的成功標準，如下所示：
+同樣地，您可以定義課程的成功標準。 成功標準會指出學習者的績效為通過或失敗。 如果您已在Captivate中建立課程，您可以在偏好設定對話方塊中設定課程的成功標準，如下所示：
 
 例如，您上傳了一個有測驗的模組。 現在，您已將該模組的「完成條件」設定為「啟動內容時」，且「成功條件」設為「通過測驗」。
 
@@ -469,6 +469,110 @@ WebVTT支援不適用於：
 
 *依使用狀況排序內容*
 
+## 新增內容唯一ID和到期日
+
+### 什麼是內容唯一識別碼
+
+內容唯一ID是指定給Adobe Learning Manager中每個內容專案的唯一代碼。 它可協助管理員和作者輕鬆找到和管理內容，尤其是在系統之間更新或移動內容時。 此內容唯一ID對於整合內容與其他工具（例如HR或法規遵循系統）也很實用。 所有語言版本都會使用相同的內容唯一ID，因此學習者的一切都會保持一致。
+
+* 所有內容中的內容唯一ID必須是唯一的。
+* 內容唯一ID不可包含空格或特殊字元。
+* 如果輸入重複的內容唯一ID，建立期間會出現錯誤。
+
+### 到期日期為何
+
+到期日會標籤可能已過期或不再需要的內容。 即使在到期日之後，內容仍可使用，但會提醒作者和管理員視需要檢查並更新。 根據設定，可以從新註冊中移除或封存過期的內容。 就像內容唯一ID一樣，到期日對於所有語言版本的運作方式都相同，有助於讓每個人的內容保持乾淨和最新。
+
+* 內容在過期後仍可使用。
+* 如果選取過去日期，系統會顯示警告。
+* 到期欄位接受介於1990到2037之間的任何日期。
+
+這有助於組織保持內容關聯性，而不會意外移除已發佈的專案。
+
+內容唯一ID和到期日適用於內容群組的所有語言版本，確保所有使用者無論使用何種語言，都可獲得一致的體驗。 作者可使用內容唯一ID快速搜尋及尋找特定內容，讓您更輕鬆地管理和更新訓練教材。
+
+**[!UICONTROL Training report]**&#x200B;現在包含兩個新欄： **[!UICONTROL Content Expiry Date (UTC TimeZone)]**&#x200B;和&#x200B;**[!UICONTROL Content Unique ID]**，以追蹤內容唯一ID和到期日。 這些欄位可透過UI或移轉新增，管理員可透過培訓報表集中追蹤這些欄位。
+
+### 新增內容唯一ID和到期日
+
+作者可在建立內容時新增內容唯一ID並設定到期日。
+
+若要新增內容唯一ID和到期日：
+
+1. 以作者身分登入。
+2. 在左側面板中選取&#x200B;**[!UICONTROL Create Content]**&#x200B;或選取&#x200B;**[!UICONTROL Content Library]**。
+
+   ![](assets/create-content.png)
+   _選取在首頁建立內容_
+
+3. 選取&#x200B;**[!UICONTROL Add]**，然後在作者首頁中選取&#x200B;**[!UICONTROL Content]**。
+
+   ![](assets/add-content.PNG)
+   _選取在內容庫中新增內容_
+
+4. 輸入&#x200B;**[!UICONTROL Name]**&#x200B;和&#x200B;**[!UICONTROL Description]**
+
+5. 從&#x200B;**[!UICONTROL Add Content File]**&#x200B;選項中選取內容
+6. 從&#x200B;**[!UICONTROL Add to Folder]**&#x200B;選項中選取資料夾，以將內容新增至資料夾。
+
+   ![](assets/add-a-new-content.png)
+   _新增內容_
+
+7. 在&#x200B;**[!UICONTROL Content unique ID]**&#x200B;欄位中輸入已上傳內容的識別碼。 ID必須是唯一的，並且遵循正確的命名准則。 ID不可包含非ASCII字元或空格。 如果您輸入重複的ID，則會顯示錯誤訊息。
+
+   ![](assets/content-unique-id.png)
+   _輸入唯一英數字元內容識別碼的欄位_
+
+8. 選取內容的「到期日」。 此日期不會影響內容可用性或學習者存取權。 您可以選擇1990年至2037年之間的任何日期。 如果選取過去日期，會顯示警告，但內容仍可發佈。
+9. 選取&#x200B;**[!UICONTROL Save]**。
+上傳的內容現在會出現在**[!UICONTROL Content Library]**&#x200B;中。
+
+### 設定語言的內容唯一ID和到期日
+
+「內容唯一ID」和「到期日」在內容群組層級定義，這表示它們設定一次，並自動套用至內容的所有語言版本。
+
+1. 選取&#x200B;**[!UICONTROL Content Library]**&#x200B;中的內容。
+2. 選取&#x200B;**[!UICONTROL Edit]**。
+3. 選取&#x200B;**[!UICONTROL Add New Language]**。
+4. 從清單中選取任何語言。
+5. 選取&#x200B;**[!UICONTROL Save]**。
+內容唯一ID和到期日現在會顯示在內容的語言特定版本上，例如此範例中的德文。
+
+### 使用內容唯一ID進行搜尋
+
+您可以使用內容唯一ID來搜尋所有語言版本的內容，更輕鬆地找到和管理特定專案。 此外，內容唯一ID和到期日都包含在培訓報表中，以便提供一致的追蹤和報告。
+
+1. 啟動&#x200B;**[!UICONTROL Content Library]**。
+2. 在搜尋列中輸入&#x200B;**[!UICONTROL Content unique ID]**。
+
+   ![](assets/search-unique-id.png)
+   _使用內容唯一識別碼搜尋內容_
+3. 選取要檢視或編輯的內容。
+
+### 內容移轉支援
+
+移轉內容時，您可以在module_version.csv檔案中包含&#x200B;**expiryDate**&#x200B;和&#x200B;**uniqueContentId**。 這可確保在系統之間移動內容時中繼資料的連續性。
+
+### 報告變更
+
+培訓報表現在提供內容唯一ID和內容到期日兩個新欄。 這些欄位可協助管理員更有效地監控內容到期日。
+
+## 淘汰內容 {#retirecontent}
+
+發佈內容後，便無法刪除內容。 您必須先淘汰內容。 當您將內容標示為已淘汰時，學習者將無法再看到該內容。 內容也會移至&#x200B;**[!UICONTROL Retired]**&#x200B;區段。
+
+若要淘汰內容，請執行下列步驟：
+
+* 在&#x200B;**[!UICONTROL Content library]**&#x200B;中，選取您要淘汰的內容。
+* 選取&#x200B;**[!UICONTROL Action]**，然後選取&#x200B;**[!UICONTROL Retire]**。
+
+任何學習物件中使用的任何內容都不會受到影響。 學習者仍可繼續存取內容。
+
+>[!NOTE]
+>
+>您也可以從&#x200B;**[!UICONTROL Retired]**&#x200B;區段新增內容，導覽至&#x200B;**[!UICONTROL Content Library]**，然後選取&#x200B;**[!UICONTROL Retired]**。 選取&#x200B;**[!UICONTROL Add Content]**。 如需詳細資訊，請參閱[新增靜態內容](content-library.md#addstaticcontent)。
+
+
 ## 搜尋內容 {#searchforcontent}
 
 在「內容資料庫」中，您可以選擇內容名稱或與該內容相關聯的標籤來搜尋內容。
@@ -476,22 +580,6 @@ WebVTT支援不適用於：
 在搜尋列上，輸入課程或標籤的名稱，您就能看到建議。
 
 <!--![](assets/search-bar.png)-->
-
-## 淘汰內容 {#retirecontent}
-
-發佈內容後，便無法刪除內容。 您必須先淘汰內容。 當您將內容標示為已淘汰時，學習者將無法再看到該內容。 內容也會移至「已淘汰」區段。 您也可以稍後將內容移至已發佈狀態。
-
-若要淘汰內容，請執行下列步驟：
-
-* 在內容庫中，選取您要淘汰的內容。
-* 選取「動作>淘汰」。
-
-任何學習物件中使用的任何內容都不會受到影響。 學習者仍可繼續存取內容。
-
->[!NOTE]
->
->您也可以從&#x200B;**[!UICONTROL Retired]**&#x200B;區段新增內容，瀏覽至&#x200B;**[!UICONTROL Content Library]** > **[!UICONTROL Retired]**&#x200B;並選取&#x200B;**[!UICONTROL Add Content]**。 如需詳細資訊，請參閱[新增靜態內容](content-library.md#addstaticcontent)。
-
 
 ## 重新發佈已淘汰的內容 {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ WebVTT支援不適用於：
 
 +++ 如何在Adobe Learning Manager中上傳SCORM內容？
 
-在任何工具(例如Adobe Captivate)中建立與SCORM相容的電子教學課程，並將內容發佈為zip檔。 然後在Learning Manager中，上傳目錄中的zip檔案，並設定完成和成功標準。
+在任何工具(例如Adobe Captivate)中建立與SCORM相容的電子教學課程，並將內容發佈為zip檔。 然後在Adobe Learning Manager中，上傳目錄中的zip檔案，並設定完成和成功標準。
 +++
 
-+++如何將相同內容的新版本上傳至Learning Manager？
++++如何將相同內容的新版本上傳至Adobe Learning Manager？
 
-在Learning Manager中，內容庫也會維護您上傳內容的版本。 如果您對內容進行任何變更（例如PowerPoint簡報），並在資料庫中重新上傳簡報，則版本編號會增加1。 這可協助您追蹤內容中的變更。 新版本的內容可同時套用至所有學習物件，或者您可套用每個課程的個別更新。
+在Adobe Learning Manager中，內容庫也會維護您上傳內容的版本。 如果您對內容進行任何變更（例如PowerPoint簡報），並在資料庫中重新上傳簡報，則版本編號會增加1。 這可協助您追蹤內容中的變更。 新版本的內容可同時套用至所有學習物件，或者您可套用每個課程的個別更新。
 +++
 
 +++如何編輯其他語言課程的詳細資訊？

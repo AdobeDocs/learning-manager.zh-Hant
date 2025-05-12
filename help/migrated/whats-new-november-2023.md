@@ -2,9 +2,9 @@
 title: 此版本的新增功能
 description: 瞭解2023年11月發行的Adobe Learning Manager中的新功能和增強功能。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
+source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2348'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建�
 
 在存取報表方面，自訂管理員現在與管理員角色擁有更多同位權。 管理員將能夠設定報告存取權，並獲得更好的控制。
 
-在Adobe Learning Manager中，自訂管理員只能使用學習成績單和遊戲成績單。 在此版本中，自訂管理員可以存取所有自訂報表，但xAPI和電子郵件報表除外，這些報表仍僅供管理員使用。 存取所有報告受限於自訂管理員擁有的目錄和使用者範圍。 只有完整範圍才有可用的報告很少。 它們是：
+在Adobe Learning Manager中，自訂管理員只能使用學習成績單和Gamification成績單。 在此版本中，自訂管理員可以存取所有自訂報表，但xAPI和電子郵件報表除外，這些報表仍僅供管理員使用。 存取所有報告受限於自訂管理員擁有的目錄和使用者範圍。 只有完整範圍才有可用的報告很少。 它們是：
 
 <table>
     <tbody>
@@ -243,7 +243,7 @@ Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建�
 
 ## 複雜課程篩選的API增強功能
 
-現在可以透過Learning Manager API，依標籤和目錄標籤（使用「與」和「或」條件的組合）進階篩選課程。
+現在可以透過Learning Manager API，依標籤和目錄標籤（使用「AND」和「OR」條件的組合）進階篩選課程。
 
 ## 此版本中的API變更
 
@@ -283,24 +283,24 @@ Adobe Learning Manager改善了針對啟用客戶和合作夥伴的帳戶的建�
 
 ## 淘汰通知
 
-在2023年11月30日，LinkedIn學習將停止使用HTTPGET方法來取得OAuth權杖。 棄用後，您將只能使用HTTPPOST方法產生OAuth權杖。
+在2023年11月30日，LinkedIn學習將停止使用HTTP GET方法來取得OAuth權杖。 棄用後，您將只能使用HTTP POST方法產生OAuth權杖。
 Adobe Learning Manager將於2024年2月終止BlueJeans服務。 2024年2月後新增的所有帳戶都不會包含BlueJeans聯結器。
 
 ## 發行說明
 
-如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱[發行說明](release-note/release-notes.md)。
+如需有關最新和舊版Learning Manager網頁應用程式和裝置應用程式的資訊，請參閱[發行說明](release-note/release-notes.md)。
 
 ## 此版本中修正的錯誤
 
 * 當學習者開啟學習路徑或課程的預覽頁面時，學習路徑或其他課程的先決條件（課程縮圖）未顯示。
-* 如果未選取「行事曆」、「遊戲化」和「社交學習」選項，則學習者控制面板設定不會保留下一個設定。 您感興趣區域中的「建議」和「依目錄瀏覽」等選項不會顯示為已選取，但會顯示在預覽中。
+* 如果未選取「行事曆」、「Gamification」和「社交學習」選項，則學習者控制面板設定不會保留下一個設定。 您感興趣區域中的「建議」和「依目錄瀏覽」等選項不會顯示為已選取，但會顯示在預覽中。
 * 即使學習者完成VC課程後，他們也會收到完成課程的提醒郵件。
 * 若為同級帳戶，您無法下載儀表板報告。
 * 刪除和新增課程中的檢查清單模組會產生內部錯誤。
 * 如果是「工作階段邀請」範本，則寄件者的電子郵件ID會包含captivatePrime文字，而非AdobeLearningManager。
 * 當您使用課程成效作為次要Y軸時，報告下載會因「Null指標例外」而失敗。
 * 如果學習者被指派了自訂管理員角色，他們會依預設導覽至自訂管理員設定檔。 但是，當帳戶上設定了學習者重新導向URL時，會將「自訂管理員」帶往其他目的地，而不是「自訂管理員角色」設定檔。
-* 如果disabled_sub_groups設定為較大的數字，則遊戲化範圍無法如預期運作。
+* 如果disabled_sub_groups設定為大量數字，gamification範圍就無法如預期運作。
 * 某些情況下，刪除的使用者會觸發移轉。
 * 學習者無法在MS Teams應用程式上播放LinkedIn課程。
 * 註冊API沒有如預期傳回Flex學習計畫或內嵌學習計畫的註冊。
@@ -318,8 +318,3 @@ Adobe Learning Manager將於2024年2月終止BlueJeans服務。 2024年2月後�
 ## 系統需求
 
 [Learning Manager系統需求](system-requirements.md)
-
-## Adobe Learning Manager舊版
-
-* [2023年7月發行版本](whats-new-2023-july.md)
-* [2023年4月發行版本](whats-new-2023-april.md)

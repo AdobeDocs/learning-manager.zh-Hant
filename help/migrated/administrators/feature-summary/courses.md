@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程例項和學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '4985'
+source-wordcount: '5480'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 * 選取您要移除的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **移除**]。
 * 選取您要標示出席的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **標示完成**]。
 
-若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL **&#x200B;**] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
+若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL ****] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
 
 您也可以匯出Excel工作表中的學習者清單。 若要匯出學習者清單，請按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **匯出**]。
 
@@ -238,6 +238,72 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 此報表包含作用中、已刪除和已暫停使用者（如果使用者處於未決核准）的資料。 此外，此報表也包含處於未決核准狀態的內部和外部使用者的資料。
 
 如果先前處於未決核准狀態的學習者取消註冊，則其記錄將不會出現在報告中。 此外，如果先前處於未決核准狀態的學習者透過管理員/經理/自訂管理員註冊註冊了課程，則其記錄會顯示在報表中。
+
+## 大量管理學習者註冊、出席和完成 {#bulk-enrollment}
+
+使用Adobe Learning Manager的大量註冊功能，管理員可以上傳CSV檔案，有效率地將大量學習者群組註冊到課程、認證或學習計畫中。 此程式可節省時間、確保一致性，並支援組織擴充能力。 此外，管理員和講師可透過CSV上傳大量更新學習者資訊、出勤和完成，儘量減少手動工作並確保資料準確性。
+
+您可以使用相同的CSV檔案格式來註冊、出席和完成。 在「電子郵件」欄下輸入學習者電子郵件ID，並根據動作使用名稱儲存檔案，例如bulk_enrollment.csv、bulk_auditor.csv或bulk_completion.csv。 僅支援CSV格式。 不支援UTF-8格式。 在此下載範例csv [](assets/Sample-Bulk-Action-CSV.csv)。
+
+### 使用csv大量註冊學習者
+
+管理員可以上傳CSV檔案來同時註冊最多100,000名使用者，而不是一次新增一個學習者。 檔案必須包含標示為&#x200B;**userEmail**&#x200B;的欄，內含要註冊的學習者的電子郵件地址。
+
+若要使用CSV註冊大量學習者：
+
+1. 以管理員身分登入。
+2. 從&#x200B;**[!UICONTROL Courses]**&#x200B;區段選取課程。
+3. 在&#x200B;**[!UICONTROL Course Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Learners]**。
+4. 選取&#x200B;**[!UICONTROL Enroll]**，然後選取&#x200B;**[!UICONTROL Upload a CSV]**。\
+   ![](assets/upload-a-csv-learners.png)
+   _使用CSV上傳註冊學習者_
+5. 上傳CSV並選取&#x200B;**[!UICONTROL Proceed]**。
+
+CSV檔案包含標籤為「使用者電子郵件」的欄。 在此欄位中輸入使用者的電子郵件地址。
+
+### 大量標示課程完成
+
+管理員可透過上傳包含學習者電子郵件地址的CSV檔案，一次快速標籤許多學習者的課程完成。 相較於分別更新每個學習者，這麼做可節省時間。 CSV的userEmail欄會顯示要更新的學習者。 您一次上傳最多可將10,000個學習者標示為完成。
+
+若要標籤大量完成，請執行下列動作：
+
+1. 從&#x200B;**[!UICONTROL Courses]**&#x200B;區段選取課程。
+2. 在&#x200B;**[!UICONTROL Course Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Learners]**。
+3. 選取&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Mark Completion]**。
+4. 選取&#x200B;**[!UICONTROL Bulk]**。
+5. 上傳內含userEmail欄的CSV檔案，該欄會列出完成課程的學習者。
+
+   ![](assets/bulk-completion.png)
+   _使用CSV標籤大量完成_
+
+### 大量標示出席情況
+
+管理員可使用大量出勤功能，一次為許多學習者標籤出勤情況。 管理員可以上傳包含學習者電子郵件地址的CSV檔案，而不是個別更新每個學習者的出席情況。 CSV中的userEmail欄可識別要記錄的學習者出勤率。 此程式在單次上傳中可處理最多10,000個學習者，讓出席標籤更快更有效率。
+
+若要標籤大量出席，請執行下列動作：
+
+1. 從&#x200B;**[!UICONTROL Courses]**&#x200B;區段選取課程。
+2. 在&#x200B;**[!UICONTROL Course Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Attendance & Scoring]**。
+3. 選取&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Mark Bulk Attended]**。
+4. 上傳包含使用者電子郵件欄的CSV檔案，該欄含有您要更新其出席情況的學習者的電子郵件地址。
+
+   ![](assets/mark-bulk-attendance.png)
+   _使用CSV標籤大量出席_
+
+>[!NOTE]
+>
+>您可以使用CSV大量標示最多10,000名使用者的出勤率。
+
+### 常見的CSV上傳錯誤
+
+* CSV中的學習者電子郵件不存在Adobe Learning Manager使用者目錄。
+* 檔案格式不正確。
+* 檔案包含額外的欄或無效的資料。
+
+![](assets/error-bulk.png)
+_錯誤通知_
+
+您可以在列層級下載並檢視列出失敗使用者錯誤的CSV檔案，以方便識別。
 
 ## 輪候表
 
@@ -352,7 +418,7 @@ Adobe Learning Manager可讓管理員下載課程所有執行個體的輪候學�
 
 測驗報告有助於評估學習者完成學習計畫或課程後的表現。
 
-Learning Manager目前協助您學習13種介面語言和32種內容語言。 雖然此選項不僅適合學習者，也方便支援全球學習者，但管理員仍需在各種區域設定擷取報表。
+Learning Manager目前協助您學習13種介面語言和32種內容語言。 雖然此選項對學習者有利，也便於支援全域學習者，但管理員在不同地區設定中擷取嘗試的報告時，工作量很大。
 
 測驗報告，以不同語言顯示資料，前提是課程提供多種語言版本。 到目前為止，管理員產生的報告只顯示一個答案，而不管測試使用何種語言。 **例如**，如果使用者以荷蘭文參加測驗，管理員一次只能檢視使用者嘗試的測驗報告。 選擇英文作為介面語言的管理員無法一次檢視所有使用者的報告，無論嘗試在哪個地區設定。
 
@@ -516,13 +582,13 @@ CSV報表包含以下欄位：
 
 ## 預設例項
 
-管理員可以在&#x200B;**[!UICONTROL Default Instance]**&#x200B;頁面中設定預設徽章、遊戲化設定和提醒。 若要修改預設的執行個體設定，請選取&#x200B;**[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**。
+管理員可以在&#x200B;**[!UICONTROL Default Instance]**&#x200B;頁面中設定預設徽章、gamification設定和提醒。 若要修改預設的執行個體設定，請選取&#x200B;**[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**。
 
 * **[!UICONTROL Badge]**：從下拉式選單中選取預設徽章。
-* **[!UICONTROL Gamification]**：設定遊戲化設定，包括完成點、提早完成點和即時完成點。 管理員可選擇選取帳戶層級設定，或自訂此例項的遊戲點數。
+* **[!UICONTROL Gamification]**：設定遊戲化設定，包括完成點、提早完成點和即時完成點。 管理員可以選擇選取帳戶層級設定或自訂此執行個體的gamification點。
 * **[!UICONTROL L1 Reaction Feedback]**：在課程完成後，為學習者意見啟用預先定義的問題，並附上讓問題成為必要問題的選項。
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
-***[!UICONTROL &#x200B; Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
+***[!UICONTROL  L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
+***[!UICONTROL  Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
 
 ### 設定向上呈報級別 {#escalation}
 
@@ -537,7 +603,7 @@ CSV報表包含以下欄位：
 
 ## 完成註解
 
-當管理員將任何學習者標籤為完成課程、學習路徑或認證時，他們可能會留下註解。 這些註解有助於規範遵循與稽核目的。 管理員可輕鬆一次為一個或多個學習者新增註解。
+當管理員將任何學習者的課程、學習路徑或認證標籤為完成時，可能會留下註解。 這些註解有助於規範遵循與稽核目的。 管理員可輕鬆一次為一個或多個學習者新增註解。
 
 ### 新增完成註解
 
@@ -547,7 +613,7 @@ CSV報表包含以下欄位：
 2. 前往&#x200B;**[!UICONTROL Courses]**&#x200B;頁面並選取課程。
 3. 在課程頁面上選取&#x200B;**[!UICONTROL Learners]**。
 4. 選擇個別或多個學習者。
-5. 選取&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL &#x200B; Mark Completion]**。
+5. 選取&#x200B;**[!UICONTROL Actions]**，然後選取**[!UICONTROL  Mark Completion]**。
 6. 在對話方塊中輸入完成註解。
 
    ![](assets/comments.png)

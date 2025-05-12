@@ -3,13 +3,13 @@ description: 瞭解如何使用SAML設定介面語言
 jcr-language: en_us
 title: 透過SAML設定介面語言
 contentowner: chandrum
-source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
-
 
 # 透過SAML設定介面語言
 
@@ -96,4 +96,18 @@ Adobe Learning Manager (ALM)現在接受語言的SAML屬性。 然後此屬性�
 
 管理員可以檢查使用者活動、學習摘要和合規性儀表板報告，以取得特定語言的詳細資訊。
 
+## 透過SAML登入時使用者語言偏好設定更新
 
+Adobe Learning Manager是多語言平台，可透過介面、內容和課程模組，以多種方式支援學習者的語言偏好設定，所有功能都提供多種語言版本。
+
+透過此增強功能，Adobe Learning Manager改善了原生平台使用者的即時使用者布建功能。 當新使用者首次建立帳戶並登入時，他們的語言偏好設定會被準確地擷取並自動套用。
+
+### 主要優點
+
+* 登入期間自動更新使用者的語言偏好設定。
+* 以使用者偏好的語言顯示介面和內容，以提供個人化體驗。
+* 與SAML驗證流程緊密整合。
+
+使用者透過SAML登入時，會根據登入過程中提供的資訊檢查並更新其語言偏好設定（介面和內容語言）。
+
+此功能與SAML登入程式整合，可順暢地擷取和更新使用者的語言偏好設定。
