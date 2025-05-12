@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: 群組成功儀表板
 description: 深入瞭解Adobe Learning Manager中的Group Success Dashboard
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -36,7 +37,7 @@ Adobe Learning Manager中的Group Success Dashboard (GSD)可讓管理員和管�
 管理員必須為帳戶啟用「群組成功儀表板」 。 若要啟用「群組成功儀表板」，請依照下列步驟操作：
 
 1. 以管理員身分登入。
-2. 選取&#x200B;**[!UICONTROL Settings]**&#x200B;然後選取&#x200B;**[!UICONTROL Reports]**。
+2. 選取**[!UICONTROL Settings]**然後選取&#x200B;**[!UICONTROL Reports]**。
 3. 選取&#x200B;**[!UICONTROL Dashboard visibility]**&#x200B;切換。
 4. 輸入儀表板名稱（例如，**[!UICONTROL Store Manager Dashboard]**）。
    ![](assets/enable-gsd.png)
@@ -149,6 +150,8 @@ _檢視共用的儀表板_
 
 * **具有相同作用中欄位的使用者群組**：如果使用者群組使用相同的欄位（例如「位置」），則系統包含來自兩個群組的所有學習者。 它會結合值。 例如： **位置= Bangalore**&#x200B;和&#x200B;**位置= Chennai**。 其中包含來自兩個位置的學習者。
 * **具有不同作用中欄位的使用者群組**：如果使用者群組使用不同的欄位（例如，位置和角色），則系統僅包含符合所有條件的學習者。 例如： **Location = Bangalore或Chennai**&#x200B;以及&#x200B;**Role = Manager**。 其中僅包括身兼經理一職且位於班加羅爾或欽奈的學習者。
+
+**摘要：**
 
 * 相同作用中欄位：學習者已合併（OR邏輯）
 * 不同的作用中欄位：學習者必須符合所有條件（和邏輯）
