@@ -2,13 +2,13 @@
 description: 瞭解2025年5月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: 新功能摘要
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2479'
+source-wordcount: '2490'
 ht-degree: 0%
 
 ---
-
 
 # 2025年5月新功能摘要
 
@@ -109,7 +109,7 @@ Adobe Learning Manager是多語言平台，學習者的語言偏好設定可透�
 
 在Connect中設定VC工作階段時，Adobe Learning Manager現在也支援從Adobe Connect選取討論室。 以前，管理員只能選取會議室型別。 此增強功能可讓擁有有效研討會授權的管理員在Adobe Learning Manager中排程及管理單次或大型活動（最多1,500名與會者）。
 
-檢視此[文章](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
+檢視此[文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
 
 ### 存取工作階段分析的支援
 
@@ -155,7 +155,7 @@ Webhook變更。
 
 ### 使用移轉新增內容的內容唯一ID和到期日
 
-移轉期間現在支援內容唯一ID和到期日。 已將兩個額外的欄： expiryDate和uniqueContentId新增至module_version.csv檔案，以啟用此功能。
+移轉期間現在支援內容唯一ID和到期日。 已將兩個額外的欄： expiryDate和uniqueContentId新增至module_version.csv檔案，以啟用此功能。 如需詳細資訊，請參閱此[範例CSV](assets/module_version_content.csv)和[CSV規格檔](assets/4-module_version_content.xlsx)。
 
 檢視此[文章](/help/migrated/integration-admin/feature-summary/migration-manual.md)，以取得移轉程式的詳細資訊。
 
