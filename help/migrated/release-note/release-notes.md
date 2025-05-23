@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager發行說明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
-source-wordcount: '26445'
+source-wordcount: '26446'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>-->
+
++++更新100： 2024年11月發行的Adobe Learning Manager
+
+**發行日期**：2025年5月10日
+
+## 此版本的新增功能
+
+檢視[Adobe Learning Manager的新功能](/help/migrated/whats-new.md)以取得詳細資訊。
++++
 
 +++更新99： 2025年2月發行的Adobe Learning Manager
 
@@ -49,7 +58,7 @@ Adobe Learning Manager (ALM)現在接受語言的SAML屬性。 然後此屬性�
 
 ## 此版本的新增功能
 
-檢視[Adobe Learning Manager的新功能](/help/migrated/whats-new.md)以取得詳細資訊。
+檢視[Adobe Learning Manager的新功能](/help/migrated/whats-new-nov-24.md)以取得詳細資訊。
 +++
 
 +++更新97： 2024年7月發行的Adobe Learning Manager
@@ -95,7 +104,7 @@ Adobe Learning Manager (ALM)現在接受語言的SAML屬性。 然後此屬性�
 
 此版本的新增功能
 
-### 改良的Recommendations
+### 已改善的建議
 
 Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
 
@@ -173,9 +182,9 @@ Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建
 
 作者現在可以選擇「管理員」和「商店管理員」作為檢查清單的觀察者。 管理員可以在Manager介面中檢視並完成核取清單，而無需將角色切換到講師。 當檢查清單指派給經理時，系統會將通知傳送給經理。
 
-**使用任何App/Smartphone相機掃描Learning Manager QR碼**
+**使用任何App/Smartphone相機掃描Learning Manager二維碼**
 
-學習者現在可以使用任何二維碼掃描應用程式或其智慧型手機攝影機，掃描Learning Manager產生的課程註冊、完成等專案二維碼。
+學習者現在可以使用任何二維碼掃描應用程式或其智慧型手機攝影機，掃描Learning Manager產生的二維碼，以取得課程註冊、完成等資訊。
 
 **報告增強功能**
 
@@ -191,7 +200,7 @@ Adobe Learning Manager現在可支援建立「混合」講師引導式訓練(ILT
 
 適用於Microsoft Teams的&#x200B;**Adobe Learning Manager應用程式**
 
-Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作流程中的學習並促進社交學習。 學習者無需切換至瀏覽器，即可存取Microsoft Teams平台內的學習內容。 請聯絡您的CSAM，以取得MS Teams上Adobe Learning Manager應用程式的測試版。
+Microsoft Teams上新的Adobe Learning Manager應用程式旨在促進工作流程中的學習並促進社交學習。 學習者無需切換至瀏覽器，即可在Microsoft Teams平台中存取學習內容。 請聯絡您的CSAM，以取得MS Teams上Adobe Learning Manager應用程式的測試版。
 
 ### 此更新中修正的錯誤
 
@@ -232,7 +241,7 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 
 **正在發佈**
 
-* 在ALM中發佈模組時，Learning Manager中不會顯示Adobe Captivate中新增的模組說明。
+* 在ALM中發佈模組時，在Adobe Captivate中新增的模組說明在Learning Manager中不可見。
 
 **作用中的欄位**
 
@@ -265,7 +274,7 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 * 推播通知中的深層連結不會重新導向至預期的登陸頁面。
 * 按一下「註冊興趣」按鈕將重新導向至網路。
 * 在社交學習中回覆或評論時，您將無法附加檔案。
-* 您將無法登入LinkedIn學習。
+* 您將無法登入LinkedIn學習版。
 +++
 
 +++更新88
@@ -303,7 +312,7 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 
 ### 此更新變更的內容
 
-新增在learningmanagerapi/v2/learningObjectsGET中篩選語言時對4個字母語言代碼的支援。
+新增對GET learningmanagerapi/v2/learningObjects中篩選語言時四個字母語言代碼的支援。
 
 ### 此更新中修正的錯誤
 
@@ -378,7 +387,7 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 * 講師的行事曆邀請必須包含主旨中的文字講師。
 * 培訓卡圖示不會反映相關課程建議，以及課程概觀頁面上顯示的學習路徑卡。
 * 在學習者首頁設定上，新增「由我儲存」區段。
-* 對於特定帳戶，系統會提示使用者針對需要AdobeID的帳戶進行SSO登入。
+* 對於某些帳戶，系統會提示使用者針對需要Adobe ID的帳戶進行SSO登入。
 * 在有日光節約時間的時區中，「start_time」欄位是根據目前的時間差異計算，而不是根據實際開始日期和時間的時間差異。 這會導致邀請的時間不正確。
 * 每當認證遞回時，基礎課程的復本都會在資料庫內部建立。 這些課程隨後出現在搜尋中，與預期行為相反。
 * 上傳CSV失敗時，您沒有收到任何電子郵件通知。
@@ -394,7 +403,7 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 
 **發行日期：** 2022年12月15日
 
-* GETLO API現在包含定價資訊（若有）。
+* GET LO API現在包含定價資訊（若有）。
 * 新欄「完成者」會新增至LT報表。 這有助於管理員識別學習課程的完成來源。
 * 我們已新增新的ILT模組，可記錄學習者通過/失敗狀態以及出席情況。 講師現在可將學習者標示為已出席且通過或出席且未通過選項。
 * 管理員現在可以要求學習者完成並通過再使用下一個模組/課程。 這適用於先決條件、訂購課程與學習方案。
@@ -501,7 +510,7 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 
 * 新課程不遵循Salesforce應用程式中的順序。 如果您變更序列，課程將無法以預期的序列顯示。
 * 在您修改傳統首頁中的設定並儲存後，變更不會如預期儲存。 這會間歇性地發生。
-* HTML程式碼會在學習者檢查其通知時顯示，對體驗造成負面影響。
+* HTML程式碼會在學習者檢查其通知時顯示，而這對體驗會有不良影響。
 * 在儀表板上，學習逗留時間錯誤地顯示為零小時。
 
 ## 更新： Adobe Learning Manager將更名為Adobe Learning Manager
@@ -538,7 +547,7 @@ Microsoft Teams上的全新Adobe Learning Manager應用程式旨在促進工作�
 **發行日期：** 2022年3月29日
 
 * 在某些帳戶中，在FTP位置中複製原始CSV後，使用者匯入不會如預期發生，且會有多個錯誤通知。
-* 在舊版Learning Manager中，若要設定Zoom聯結器，必須先設定Exavault FTP以複製csv檔案。 在此版本中，FTP聯結器不再用於csv檔案，因此，您不需要先設定FTP。
+* 在舊版Learning Manager中，若要設定Zoom聯結器，必須先設定Exavault FTP來複製csv檔案。 在此版本中，FTP聯結器不再用於csv檔案，因此，您不需要先設定FTP。
 +++
 
 +++更新74： Learning Manager AWS印度執行個體
@@ -581,14 +590,14 @@ Adobe Learning Manager印度執行個體在功能能力方面與歐盟和美國�
 * 現在提供內容語言（包括匈牙利文和芬蘭文）的電子郵件範本支援。
 +++
 
-+++更新72 - 2022年1月版Learning Manager
++++更新72 - 2022年1月發行的Learning Manager
 
 發行日期： 2022年1月15日
 
 ### 新增功能與變更內容
 
 * 新增教室位置
-* 遊戲化變更
+* gamification變更
 * Microsoft Teams聯結器
 * API變更
 * 行動沈浸式網頁變更
@@ -610,7 +619,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 * 若是虛擬教室，先前您不需要在新的執行個體VC URL中選取任何VC會議系統即可建立模組。 現在，在模組建立階段會出現錯誤訊息，要求您在儲存模組之前指定VC會議系統，以避免發生這種情況。
 * 輪候表頁面在註冊使用者上顯示誤導性橫幅訊息，該訊息現已移除。
 * 大量取消註冊課程時，不會顯示輸入電子郵件ID的快顯視窗，此問題現已修正。
-* 從「管理員」和「講師」應用程式的「出勤與評分」索引標籤傳送電子郵件給學習者的選項，並未排除執行選取所有作業後未勾選的學習者。 因此，Learning Manager會傳送電子郵件給所有學習者。 此問題現已修正。
+* 從「管理員」和「講師」應用程式的「出勤與評分」索引標籤傳送電子郵件給學習者的選項，並未排除執行選取所有作業後未勾選的學習者。 因此，Learning Manager傳送電子郵件給所有學習者。 此問題現已修正。
 * 即使學習者已完成課程，註冊報表仍會顯示為「未開始」。
 
 **SSO**
@@ -648,9 +657,9 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 * 由於瀏覽器自動播放原則，訓練內容中的音訊未在學習者模式下以預覽模式自動播放。 除了Safari之外，現已針對支援的瀏覽器修正此問題。
 
-**遊戲化**
+**Gamification**
 
-* 如果外部學習者在同一帳戶中轉換為內部學習者，則他/她無法存取學習者應用程式中的遊戲化排行榜。 此問題現已修正。
+* 如果外部學習者在同一帳戶中轉換為內部學習者，則他/她無法存取學習者應用程式中的gamification排行榜。 此問題現已修正。
 
 **播放器**
 
@@ -661,9 +670,9 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 * 經理無法從經理儀表板的團隊技能頁面匯出其直接團隊的報告。 此問題現已修正。
 
-**Publish**
+**發佈**
 
-* 在歐洲，直接從Adobe Captivate發佈至Adobe Learning Manager的Learning Manager內容預設會以Deutsch地區設定發佈。 此問題現在已修正。
+* 在Learning Manager的歐洲執行個體中，直接從Adobe Captivate發佈到Adobe Learning Manager的內容預設會以德語地區設定發佈。 此問題現在已修正。
 
 **API**
 
@@ -679,7 +688,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 * 在「社交學習」頁面上，建立貼文時，您無法在點選麥克風按鈕後錄製音訊或上傳音訊。 這是瀏覽器的限制。
 * 在iOS中，行動瀏覽器不支援H264和WMA音訊檔案。
-* 電子郵件地址中包含+的學習者不會標籤進度。 這是他們在參加Microsoft Teams的VC課程之後。
+* 電子郵件地址中包含+的學習者不會標籤進度。 這是在他們參加Microsoft Teams的VC課程之後。
 * 在Safari Mobile瀏覽器中，學習者將無法在Social Learning中上傳超過200 mb的檔案。 這是瀏覽器限制。
 +++
 
@@ -689,9 +698,9 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 ### 與經理分享訓練
 
-Learning Manager為所有管理員和經理提供合規性控制面板。 經理發現，追蹤團隊成員對特定培訓的合規性非常有用。 同時，管理員希望所有管理員能在其儀表板中新增合規性培訓並加以追蹤。
+Learning Manager為所有管理員和管理員提供合規性控制面板。 經理發現，追蹤團隊成員對特定培訓的合規性非常有用。 同時，管理員希望所有管理員能在其儀表板中新增合規性培訓並加以追蹤。
 
-在Learning Manager中，**與管理員共用**&#x200B;工作流程可讓管理員與管理員共用培訓，以便他們可新增到經理的合規性儀表板。 因此，管理員不需要採取任何動作，可以立即開始追蹤合規性。
+在Learning Manager中，**與管理員共用**&#x200B;工作流程可讓管理員與管理員共用訓練，以便他們可新增到管理員的合規儀表板。 因此，管理員不需要採取任何動作，可以立即開始追蹤合規性。
 
 如需詳細資訊，請參閱&#x200B;[**與管理員共用訓練**](../administrators/feature-summary/reports.md#share_training_managers)。
 
@@ -719,7 +728,7 @@ Learning Manager為所有管理員和經理提供合規性控制面板。 經理
 * 學習物件API在某些情況下會傳回中繼資料錯誤。
 +++
 
-+++更新69 - 2021年10月版Learning Manager
++++更新69 - 2021年10月發行的Learning Manager
 
 **發行日期：** 2021年10月9日
 
@@ -750,7 +759,7 @@ Adobe Learning Manager **的** 2021年10月版本引進了學習路徑的概念�
 ### 此更新中修正的錯誤
 
 * 電子郵件範本（例如「課程取消註冊」、「學習計畫取消註冊」或「認證取消註冊」）不會反映csv中定義的最新產品術語。 現在，電子郵件範本中的預設文字將支援自訂術語。
-* Learning Manager的Publish工作流程不支援Learning Manager的使用者語言。 如果使用者語言不同，Learning Manager的Publish會以英文顯示。
+* 發佈至Learning Manager工作流程不支援Learning Manager中的使用者語言。 如果使用者語言不同，則會以英文發佈至Learning Manager。
 * 如果您將許多目錄新增至自訂角色，則更新角色時會發生錯誤。 現在，目錄數量限制已增加到最多50個目錄。
 * 在某些情況下，已刪除的培訓仍會顯示在目錄中。 此問題僅發生在管理員應用程式中，且現已修正。
 * 當管理員角色從一個使用者變更為另一個使用者時，先前使用者的管理員角色仍會反映在UI中。 此問題現在已修正。 此問題僅存在於外部使用者，而不存在於內部使用者。
@@ -762,7 +771,7 @@ Adobe Learning Manager **的** 2021年10月版本引進了學習路徑的概念�
 * 對於特定時區，電子郵件提醒的傳送時間比預期晚一天。 此問題現在已修正。
 * 如果停用某些電子郵件範本，學習者不會收到工作階段通知電子郵件。
 * 如果BlueJeans會議由作者、管理員更新，BJ會議URL會變得無法使用。 此問題現在已修正。
-* 在某些情況下執行GET/LO API時，學習計畫中的課程不會傳回。
+* 在某些情況下執行GET /LO API時，學習計畫中的課程不會傳回。
 * 如果學習者嘗試上傳名稱有空白字元的內容，則會發生內部伺服器錯誤。
 * 針對學習者產生的徽章PDF在非英文地區設定產生時會發生格式問題。 這類問題現已修正。
 +++
@@ -791,7 +800,7 @@ Adobe Learning Manager **的** 2021年10月版本引進了學習路徑的概念�
 * 在課程、學習計畫、憑證和工作輔助中編輯純文字說明時，系統會顯示警告訊息。
 * 當使用者同時具有自訂和管理員角色時，不會下載來自管理員控制面板的報告。
 * 電子郵件摘要顯示培訓活動的值不正確。
-* 在某些情況下，當您從內容市集移至學習者頁面時，Learning Manager會採取意料之外的行動。
+* 某些情況下，當您從「內容市集」移至「學習者」頁面時，Learning Manager會採取意料之外的行動。
 * 在Social應用程式上，篩選器在清單檢視中無法如預期運作。
 * 外部使用者也會收到內部使用者收到的歡迎電子郵件。
 * 在AEM的頁面範本中新增Learning Manager Widget。
@@ -813,18 +822,18 @@ Adobe Learning Manager **的** 2021年10月版本引進了學習路徑的概念�
 
 +++
 
-+++更新66 - 2021年8月版Learning Manager
++++更新66 - 2021年8月發行的Learning Manager
 
-Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著重於改善學習者體驗、報告及管理工作流程。 其中一些重點包括：
+Adobe Learning Manager **的** 2021年8月&#x200B;****&#x200B;版本著重於改善學習者體驗、報告及管理工作流程。 其中一些重點包括：
 
 * **內容市集：** Learning Manager現在提供超過70000門課程，來自不同的網域，例如技術、管理、領導力等。
 * **增強的協助工具支援：**&#x200B;對學習者角色的協助工具支援，透過增強的鍵盤導覽、熒幕助讀程式功能和對比率相容性，來增強協助工具。
-* **RTF格式：** Learning Manager現在提供RTF編輯功能，讓您編輯課程、方案、憑證和工作輔助的說明。 這可讓作者以RTF文字指定說明，包括超連結、影像和其他文字格式選項，而非純文字。
+* **RTF格式：** Learning Manager現在提供RTF編輯功能，以編輯課程、方案、憑證和工作輔助的說明。 這可讓作者以RTF文字指定說明，包括超連結、影像和其他文字格式選項，而非純文字。
 * **星級評等：**&#x200B;學習者現在可以以5分評等為課程評分。 管理員可以在現有的有效性評等或5星級評等之間選取。
-* **Badgr整合：**&#x200B;學習者現在可以授權Learning Manager自動將其在Learning Manager中取得的徽章推送至其Badgr帳戶，以便透過社交網路分享其徽章。
-* **將學習事件匯出至Salesforce：** Learning Manager現在可讓您匯出Learning Manager中的某些特定事件（例如新增、註冊和完成）至Salesforce租使用者，並可將這些事件與Salesforce中的適當使用者物件或連絡人物件連結。
+* **Badgr整合：**&#x200B;學習者現在可以授權Learning Manager自動將其在Learning Manager中取得的徽章推送至其Badgr帳戶，以便在其社交網路中共用徽章。
+* **將學習事件匯出至Salesforce：** Learning Manager現在可匯出Learning Manager中的一些特定事件，例如新使用者的加入、註冊和完成至Salesforce租使用者，並可將這些事件與Salesforce中的適當使用者物件或連絡人物件連結。
 
-如需詳細資訊，請參閱&#x200B;[***Learning Manager 2021年8月版本的新增功能和變更***](../whats-new.md)。
+如需詳細資訊，請參閱&#x200B;[***Learning Manager 2021年8月發行版本的新增功能和變更***](../whats-new.md)。
 
 
 **發行日期：** 2021年8月7日
@@ -835,7 +844,7 @@ Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著�
 
 * 將學習者新增至兩個使用者群組並新增學習計畫後，學習者會註冊相同課程的不同執行個體。
 * 在某些情況下，在註冊和開始課程後，該課程無法按預期播放。
-* 課程說明會顯示HTML標籤，現在已修正此問題。
+* 課程說明會顯示HTML標籤，此問題現已修正。
 * 如果您在跨越多行的社交討論區中註解貼文，註解會以單行顯示。 此問題現在已修正。
 
 **製作**
@@ -852,7 +861,7 @@ Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著�
 
 * 若未選取任何學習者，或未標籤所選學習者的出勤率，則必須停用編輯分數和評論的選項。
 * 即使使用者先前已新增大寫的值，作用中欄位的值也會在「編輯使用者」對話方塊中顯示為小寫。
-* 管理員和管理層可檢視課程的未決核准。 這樣可讓管理層確保管理員追蹤員工的學習與訓練，也可讓Learning Manager管理員視需要核准課程註冊。
+* 管理員和管理層可檢視課程的未決核准。 這可讓管理層確保管理員可追蹤員工的學習與訓練，也可讓Learning Manager管理員視需要核准課程註冊。
 * 具有作者或自訂管理員/作者許可權的使用者無法編輯其他使用者建立的工作輔助。
 * 從管理員角色，當使用者導覽到課程>執行個體並為任何執行個體選取「已註冊的學習者」時，它較早曾顯示來自「預設執行個體」的學習者。 管理員需要手動從下拉式清單變更執行個體。 現在，Learning Manager會正確地將使用者導覽至已選取正確執行個體的學習者頁面。
 
@@ -926,7 +935,7 @@ Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著�
 ### 此更新中修正的錯誤
 
 * userGroupInfo呼叫的效能改善。
-* 啟用新的Brightcove設定檔後，Learning Manager會透過視訊和音訊模組支援內容。
+* 啟用新的Brightcove設定檔後，Learning Manager會透過視訊與音訊模組支援內容。
 * 如果選取較窄的日期範圍，學習成績單將無法擷取資料。
 * 系統會針對所有工作階段傳送工作階段邀請給已註冊學習者，即使僅新增一個工作階段亦然。
 * 音訊模組未如預期上傳。
@@ -975,9 +984,9 @@ Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著�
 
 * 作者、管理員或學習者應用程式在IE 11中無法如預期顯示。
 
-**遊戲化**
+**Gamification**
 
-* 遊戲點數未如預期兌換。
+* gamification點數無法如預期兌換。
 
 **內容庫**
 
@@ -1000,9 +1009,9 @@ Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著�
 
 ### 新增功能與變更內容 {#whatsnewandchanged}
 
-Captivate Learning Manager Mobile應用程式更新3.3推出全新的首頁，支援刊頭和AI型訓練建議。 此首頁適用於針對新「沈浸式配置」選項設定的所有帳戶。 使用Classic Layout設定的帳戶會繼續顯示傳統/舊版首頁。 他們不應在首頁中看到任何變更。
+Captivate Learning Manager行動應用程式3.3版推出全新的首頁，支援刊頭和AI型訓練建議。 此首頁適用於針對新「沈浸式配置」選項設定的所有帳戶。 使用Classic Layout設定的帳戶會繼續顯示傳統/舊版首頁。 他們不應在首頁中看到任何變更。
 
-此外，此更新也可讓學習者下載其徽章作為PDF和影像。 此更新也引進了意見回饋發佈，讓學習者可匿名提供有關應用程式的意見回饋。
+此外，此更新也可讓學習者下載其徽章為PDF和影像。 此更新也引進了意見回饋發佈，讓學習者可匿名提供有關應用程式的意見回饋。
 
 如需詳細資訊，請參閱[Learning Manager裝置應用程式](../learners/feature-summary/ipad-android-tablet-users.md)。
 
@@ -1014,7 +1023,7 @@ Captivate Learning Manager Mobile應用程式更新3.3推出全新的首頁，�
 
 #### 意見反應評等
 
-在此版本中，Learning Manager會提示使用者提供行動應用程式相關體驗的意見回饋。
+在此版本中，Learning Manager會提示使用者提供有關行動應用程式體驗的反饋。
 
 #### 下載徽章
 
@@ -1023,7 +1032,7 @@ Captivate Learning Manager Mobile應用程式更新3.3推出全新的首頁，�
 <!--## Previous update releases {#previousupdatereleases}-->
 +++
 
-+++更新60 - 2021年2月版Learning Manager
++++更新60 - 2021年2月發行的Learning Manager
 
 發行日期： 2021年2月20日
 
@@ -1057,7 +1066,7 @@ Captivate Learning Manager Mobile應用程式更新3.3推出全新的首頁，�
 
 **AEM**
 
-* 在AEM中插入Learning Manager元件後，頁面花了很長時間載入，導致無法存取其他元件。 此問題已修正。
+* 在AEM中插入Learning Manager元件後，頁面需要很長時間載入，導致無法存取其他元件。 此問題已修正。
 
 **管理員**
 
@@ -1066,7 +1075,7 @@ Captivate Learning Manager Mobile應用程式更新3.3推出全新的首頁，�
 
 * 如果檔案中的學習者內容更新前後均已參加過相關培訓，則無法以Excel格式下載測驗報表。 此問題已修正。
 * 如果作用中欄位包含特殊字元，CSV上傳會失敗。 此問題已修正。
-* 在少數情況下，當學習者參加以Captivate建立的測驗時，回答不會以預期的方式擷取。
+* 在少數情況下，當學習者參加在Captivate中建立的測驗時，回答不會如預期方式擷取。
 * 建立訂閱並嘗試編輯訂閱後，**儲存**&#x200B;和&#x200B;**取消**&#x200B;按鈕未如預期顯示。 此問題已修正。
 
 **播放器**
@@ -1150,10 +1159,10 @@ Captivate Learning Manager Mobile應用程式更新3.3推出全新的首頁，�
 
 ### BlueJeans事件聯結器 {#bluejeanseventconnector}
 
-BlueJeans事件聯結器會連線Learning Manager和BlueJeans系統，以自動化資料同步。 使用此聯結器，您可以：
+BlueJeans Events聯結器會連線Learning Manager和BlueJeans系統，以自動化資料同步。 使用此聯結器，您可以：
 
-* **使用BlueJeans事件設定虛擬工作階段：**&#x200B;在BlueJeans中設定新事件，並選取適當的BlueJeans事件在Learning Manager中設定VC工作階段。 從BlueJeans事件自動挑選日期和時間詳細資訊。
-* **自動使用者完成同步：**&#x200B;自動使用者完成同步程式可讓Learning Manager管理員自動擷取BlueJeans事件的完成記錄。
+* **使用BlueJeans事件設定虛擬工作階段：**&#x200B;在BlueJeans中設定新事件，並透過選取適當的BlueJeans事件在Learning Manager中設定VC工作階段。 從BlueJeans事件自動挑選日期和時間詳細資訊。
+* **自動使用者完成同步：**&#x200B;自動使用者完成同步處理可讓Learning Manager管理員自動擷取BlueJeans事件的完成記錄。
 
 此新聯結器需要一組單獨的認證才能設定聯結器。
 
@@ -1161,9 +1170,9 @@ BlueJeans事件聯結器會連線Learning Manager和BlueJeans系統，以自動�
 
 +++
 
-+++Learning Manager 2020年12月58日更新發行
++++更新2020年12月58日發行的Learning Manager
 
-## 更新Learning Manager 2020年12月發行的58日版本
+## 更新Learning Manager 2020年12月58日發行版本
 
 發行日期： 2020年12月5日
 
@@ -1180,7 +1189,7 @@ BlueJeans事件聯結器會連線Learning Manager和BlueJeans系統，以自動�
 * 自訂網域
 * 從Adobe Connect匯入測驗分數
 * 學習者目錄的深層連結
-* linkedIn學習增強功能
+* LinkedIn學習增強功能
 * ...還有更多
 
 如需詳細資訊，請參閱&#x200B;[***Adobe Learning Manager 2020年12月版本的新增功能***](../whats-new.md)。
@@ -1199,7 +1208,7 @@ BlueJeans事件聯結器會連線Learning Manager和BlueJeans系統，以自動�
 ### 此更新中修正的錯誤 {#bug-fixes-1}
 
 * 如果內容資料夾包含已刪除的內容，則您無法刪除內容資料夾。
-* 學習方案可讓管理員設定包含自動執行個體的課程。 針對具有活動提交模組的課程，先前未正確設定講師資訊。 現在，Learning Manager會自動將講師從預設例項指派給此自動例項。
+* 學習方案可讓管理員設定包含自動執行個體的課程。 針對具有活動提交模組的課程，先前未正確設定講師資訊。 現在Learning Manager會自動將講師從預設執行個體指派給此自動執行個體。
 * 含有含有空格目錄標籤的自訂徽章無法讓pdf如預期般下載。
 * 從儀表板下載的報告，與針對儀表板報告收到的訂閱電子郵件不同。
 * 學習者成績單沒有更新的資料以提供循環認證。
@@ -1245,11 +1254,11 @@ BlueJeans事件聯結器會連線Learning Manager和BlueJeans系統，以自動�
 
 發行日期： 2020年8月25日
 
-### 從LinkedIn學習中參加課程 {#takecoursesfromlinkedinlearning}
+### 從LinkedIn Learning學習課程 {#takecoursesfromlinkedinlearning}
 
-Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習者可以在Learning Manager行動應用程式中參加這類LinkedIn學習課程。 在裝置應用程式中，搜尋課程，然後開始課程。
+Learning Manager已可支援該學習平台中的LinkedIn學習課程。 現在，學習者可以在Learning Manager行動應用程式中參加這類LinkedIn學習課程。 在裝置應用程式中，搜尋課程，然後開始課程。
 
-如需詳細資訊，請參閱參加&#x200B;[***LinkedIn學習課程***](../learners/feature-summary/ipad-android-tablet-users.md#linkedin)&#x200B;的課程。
+如需詳細資訊，請參閱從&#x200B;[***LinkedIn學習課程***](../learners/feature-summary/ipad-android-tablet-users.md#linkedin)&#x200B;參加課程。
 
 ### 管理員註冊的推播通知 {#pushnotificationforadminenrollments}
 
@@ -1277,7 +1286,7 @@ Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習�
 
 +++
 
-+++更新 — 2020年8月版Learning Manager
++++更新55- 2020年8月發行的Learning Manager
 
 發行日期： 2020年8月23日
 
@@ -1300,7 +1309,7 @@ Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習�
 ### 有關此版本的注意事項 {#notes}
 
 * 製作學習者成績單(~1 GB)只需不到15分鐘。
-* 在舊版Learning Manager中，學習者成績單欄測驗分數和最高測驗分數用於提供分數和最高分數（25/100格式）。 為了支援更好的可讀性和分析，測驗分數現在也會匯出為個別欄 — **測驗分數、測驗分數最大值、最高測驗分數和最高測驗分數最大值**。 這些功能可讓管理員進行快速計算和分析。
+* 在舊版Learning Manager中，學習者成績單欄測驗分數和最高測驗分數是用來提供分數和最高分數（25/100格式）。 為了支援更好的可讀性和分析，測驗分數現在也會匯出為個別欄 — **測驗分數、測驗分數最大值、最高測驗分數和最高測驗分數最大值**。 這些功能可讓管理員進行快速計算和分析。
 
 ### 此更新中修正的錯誤 {#bug-fixes-2}
 
@@ -1351,7 +1360,7 @@ Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習�
 
 * 新增課程的技能時，搜尋技能時出現一些問題。
 
-**遊戲化**
+**Gamification**
 
 * 如果許多使用者都是機密使用者，則按一下Edge和網際網路範例上的機密學習者索引標籤時，瀏覽器的行為會出乎意料。
 * 變更條件的頻率時，使用舊頻率計算的點會新增到目前的計算。
@@ -1399,7 +1408,7 @@ Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習�
 
 * 如果您按一下Adobe Connect卡片中的「管理連線」 ，系統會將您重新導向至「FTP連線」頁面。
 * 在某些情況下，連線管理員會收到不正確的警報。
-* linkedIn學習移轉會產生一些錯誤。
+* LinkedIn學習移轉會產生一些錯誤。
 
 ### 此更新中的已知問題 {#known-issues-2}
 
@@ -1440,7 +1449,7 @@ Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習�
 
 +++
 
-+++更新53 - 2020年4月版Learning Manager
++++更新53 - 2020年4月發行的Learning Manager
 
 發行日期： 2020年4月4日
 
@@ -1472,7 +1481,7 @@ Learning Manager已可支援LinkedIn學習平台內的課程。 現在，學習�
 
 #### 深層連結 {#deeplinks}
 
-Learning Manager現在會在您按一下Learning Manager支援的連結/URL時立即啟動裝置應用程式。 若應用程式未安裝在裝置上，URL會在瀏覽器中開啟。
+Learning Manager現在會在您按一下Learning Manager支援的連結/URL時，立即啟動裝置應用程式。 若應用程式未安裝在裝置上，URL會在瀏覽器中開啟。
 
 以下是此更新將支援的一些使用案例。
 
@@ -1489,7 +1498,7 @@ Learning Manager現在會在您按一下Learning Manager支援的連結/URL時�
 
 學習者可開啟外部憑證並上傳資產，例如pdf、文字或影像檔案。
 
-如需詳細資訊，請參閱&#x200B;[***上傳外部憑證中的資產***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+如需詳細資訊，請參閱&#x200B;[***上傳外部憑證中的資產***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修正的問題 {#issuesfixedinthisrelease}
 
@@ -1559,7 +1568,7 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 
 ### API支援 {#apisupport}
 
-此Learning Manager更新包含用於以下操作的API：
+此Learning Manager更新包含用於下列作業的API：
 
 **下載徽章PDF**
 
@@ -1573,15 +1582,15 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 
 此更新包含管理員API，可下載測驗報告。
 
-**分頁遊戲化**
+**分頁的gamification**
 
-學習者API現在可擷取學習者範圍內的所有學習者和遊戲點數。 這有助於建立遊戲化排行榜。
+學習者API現在允許擷取學習者範圍內的所有學習者和gamification點。 這有助於建立gamification排行榜。
 
 **API：** `GET /users`
 
 **要求：** `GET\\ users?page[offset]=0&page[limit]=10&sort=id&filter=gamification`
 
-**回應：** *回應將包含依遊戲點順序排序的使用者。*
+**回應：** *回應將包含按gamification點排序的使用者。*
 
 **請勿打擾**
 
@@ -1591,11 +1600,6 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 * 給學習者經理的向上呈報電子郵件
 * 關於直接下屬
 * 關於略過層級報表
-
-如需Learning Manager API的詳細資訊，請參閱下列內容：
-
-* [***API參考***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***API開發人員指南***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### 此版本中修正的問題 {#Issuesfixedinthisrelease-1}
 
@@ -1625,9 +1629,9 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 
 身為管理員，您可以根據目錄和使用者群組來限制自訂角色。 屬於這類角色的所有使用者只能看見其範圍中目錄中的學習物件。 這些使用者只能執行在其使用者群組範圍內定義的動作。
 
-目前在Learning Manager中，自訂角色可在單一使用者群組的多個目錄下設定範圍，且擁有完整許可權。
+目前在Learning Manager中，自訂角色可以設定具有完整許可權之單一使用者群組多個目錄的範圍。
 
-在這個Learning Manager更新中，您可以建立自訂角色，並在多個目錄間設定範圍，每個目錄皆獲授不同許可權。 如需詳細資訊，請參閱&#x200B;[***在多個類別目錄上設定自訂角色範圍***](../administrators/feature-summary/custom-role.md#multi-scope)。
+在此次Learning Manager更新中，您可以建立自訂角色，使其涵蓋多個目錄，並將每個目錄授予不同許可權集。 如需詳細資訊，請參閱&#x200B;[***在多個類別目錄上設定自訂角色範圍***](../administrators/feature-summary/custom-role.md#multi-scope)。
 
 ### 搜尋的增強功能 {#enhancementstosearch}
 
@@ -1639,7 +1643,7 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 
 **系統管理員與作者應用程式**
 
-在這個Learning Manager更新中，作為管理員或作者，除了執行預先輸入搜尋外，您還可以執行免費搜尋以搜尋任何學習物件。
+在這個Learning Manager更新中，作為管理員或作者，除了執行預先輸入搜尋之外，您還可以執行免費搜尋以搜尋任何學習物件。
 
 ### 搜尋篩選器已保留 {#searchfilterispreserved}
 
@@ -1653,7 +1657,7 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 
 ### 控制搜尋篩選的可見度 {#controlvisibilityofsearchfilters}
 
-在舊版Learning Manager中，管理員無法控制目錄篩選器的可見性選項，因此學習者看不到技能和標籤。 在此版本的Learning Manager中，管理員可以篩選目錄型別、技能和標籤。
+在舊版Learning Manager中，管理員無法控制目錄篩選器的可見性選項，因此學習者看不到技能和標籤。 在此版本的Learning Manager中，管理員可以篩選目錄的型別、技能和標籤。
 
 在&#x200B;**設定**&#x200B;頁面中，針對「顯示篩選面板」類別，當您按一下「**[!UICONTROL Edit]**」時，您可以看到下列選項。 這些選項會決定學習者可見的篩選器面板，讓學習者可以微調搜尋結果。
 
@@ -1661,7 +1665,7 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 
 ### 從管理員應用程式下載QR碼 {#downloadqrcodefromadministratorapp}
 
-在之前的Learning Manager更新中，自訂管理員在下載二維碼時遇到問題。 在此更新中，具有&#x200B;**所有學習者**&#x200B;存取許可權及&#x200B;**課程註冊**&#x200B;許可權的自訂管理員可以下載二維碼。
+在先前的Learning Manager更新中，自訂管理員在下載二維碼時遇到問題。 在此更新中，具有&#x200B;**所有學習者**&#x200B;存取許可權及&#x200B;**課程註冊**&#x200B;許可權的自訂管理員可以下載二維碼。
 
 如果自訂角色使用者擁有有限使用者範圍的許可權，自訂角色使用者仍無法使用QR碼。
 
@@ -1675,7 +1679,7 @@ Adobe Learning Manager現在可讓您自訂帳戶，為使用者提供更豐富�
 
 在Adobe Connect中，客戶會使用已在Connect中建立的現有會議室。 「連線」中的所有會議室都是永久性的，會議室範本經過精心設定，為每個永久性的會議室提供統一的體驗。
 
-在此版本的Learning Manager中，與Adobe Connect的整合現在已獲得增強，可支援永久聊天室。 這表示您現在可以使用Adobe Connect中已建立的其中一個聊天室來建立虛擬教室工作階段。
+在此版本的Learning Manager中，與Adobe Connect的整合現在已獲得增強，以支援永久聊天室。 這表示您現在可以使用Adobe Connect中已建立的其中一個聊天室來建立虛擬教室工作階段。
 
 Learning Manager現在也可讓學習者使用SSO驗證進入虛擬工作階段的連線室。
 
@@ -1813,7 +1817,7 @@ Learning Manager現在也可讓學習者使用SSO驗證進入虛擬工作階段�
 
 ### 新功能和增強功能 {#Newandenhancedfeatures-5}
 
-**內部和外部使用者在社交學習中的範圍分離**&#x200B;管理員可以為內部和外部學習者定義不同的範圍。 有兩個適用於內部和外部使用者的新區段。 在這兩個區段中，您都可以定義學習者群組的範圍。 對於內部使用者，您可以定義「使用者特性」的值。 對於外部使用者，您可以定義外部設定檔，學習者可以在其中共用相同的社交空間。 如需詳細資訊，請參閱&#x200B;[***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交限制建立社交看板**&#x200B;若要限制所有學習者建立看板並有效稽核看板，管理員可以將建立看板的許可權授予選取的使用者群組。 管理員可將討論區的建立限製為僅限選定群組，而非所有參與社交學習的學習者。 如需詳細資訊，請參閱&#x200B;[***展示板建立許可權***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅向學習者顯示空白的[作用中]欄位**&#x200B;管理員可以選擇顯示[作用中]欄位，或在填入值後隱藏欄位。 如需詳細資訊，請參閱&#x200B;[***使用者顯示區***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定的閒置期間被刪除**&#x200B;管理員可以設定內部學習者若在指定的閒置期間被刪除，則內部學習者會遭到刪除的持續時間（以天為單位）。 如需詳細資訊，請參閱&#x200B;***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)***。  **自訂頁尾的連結**&#x200B;管理員可以新增和自訂頁尾的連結。 您也可以針對各種地區設定自訂連結。 現有的在頁尾新增連絡人管理員連結的方法也可在&#x200B;**頁尾連結**&#x200B;區段中取得。 如需詳細資訊，請參閱&#x200B;[***自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)。
+**內部和外部使用者在社交學習中的範圍分離**&#x200B;管理員可以為內部和外部學習者定義不同的範圍。 有兩個適用於內部和外部使用者的新區段。 在這兩個區段中，您都可以定義學習者群組的範圍。 對於內部使用者，您可以定義「使用者特性」的值。 對於外部使用者，您可以定義外部設定檔，學習者可以在其中共用相同的社交空間。 如需詳細資訊，請參閱&#x200B;[***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交限制建立社交看板**&#x200B;若要限制所有學習者建立看板並有效稽核看板，管理員可以將建立看板的許可權授予選取的使用者群組。 管理員可將討論區的建立限製為僅限選定群組，而非所有參與社交學習的學習者。 如需詳細資訊，請參閱&#x200B;[***展示板建立許可權***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅向學習者顯示空白的[作用中]欄位**&#x200B;管理員可以選擇顯示[作用中]欄位，或在填入值後隱藏欄位。 如需詳細資訊，請參閱&#x200B;[***使用者顯示區***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定的閒置期間被刪除**&#x200B;管理員可以設定內部學習者若在指定的閒置期間被刪除，則內部學習者會遭到刪除的持續時間（以天為單位）。 如需詳細資訊，請參閱***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)***。  **自訂頁尾的連結**&#x200B;管理員可以新增和自訂頁尾的連結。 您也可以針對各種地區設定自訂連結。 現有的在頁尾新增連絡人管理員連結的方法也可在&#x200B;**頁尾連結**&#x200B;區段中取得。 如需詳細資訊，請參閱&#x200B;[***自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知問題 {#Knownissuesinthisrelease-2}
 
@@ -1851,7 +1855,7 @@ Android使用者：
 
 **已更新平台支援**
 
-Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Manager行動應用程式。 如需詳細資訊，請參閱&#x200B;[***系統需求***](../system-requirements.md)。
+Learning Manager行動應用程式現在可在具有Android 7及更高版本和iOS 10及更高版本的裝置上支援。 如需詳細資訊，請參閱&#x200B;[***系統需求***](../system-requirements.md)。
 
 ### 此版本中的已知問題 {#Knownissuesinthisrelease-3}
 
@@ -1876,7 +1880,7 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 **對應具有技能網域的技能**
 
-將您帳戶中的技能與Learning Manager LMS中顯示的技能網域對應起來。 這有助於將您的帳戶技能與Learning Manager支援的技能網域連結起來，以進行自動協助管理。 如需詳細資訊，請參閱&#x200B;[***對應網域技能***](../administrators/feature-summary/curation-skills.md)。
+將您帳戶中的技能與Learning Manager LMS中的技能網域對應起來。 這有助於將您的帳戶技能與Learning Manager支援的自動協助管理的技能網域連結。 如需詳細資訊，請參閱&#x200B;[***對應網域技能***](../administrators/feature-summary/curation-skills.md)。
 
 **CSV規格和範例CSV**
 
@@ -1913,7 +1917,7 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 **新功能和增強功能**
 
 * 在學習物件的學習者區段中，為已註冊學習者整合所有例項的搜尋。 使用預先輸入搜尋功能，在學習物件的學習者區段中搜尋已註冊的使用者。 如需詳細資訊，請參閱&#x200B;[***搜尋已註冊的使用者***](../administrators/feature-summary/courses.md#searchforusers)。
-* 透過共用目錄取得的學習物件的完整編輯功能。 如需詳細資訊，請參閱&#x200B;[***共用目錄控制項***](../administrators/feature-summary/shared-catalog-full-control.md)。 若要啟用此功能，請聯絡Learning Manager支援人員。
+* 透過共用目錄取得的學習物件的完整編輯功能。 如需詳細資訊，請參閱&#x200B;[***共用目錄控制項***](../administrators/feature-summary/shared-catalog-full-control.md)。 若要啟用此功能，請聯絡Learning Manager支援。
 * 講師現在可以輕鬆識別含有擱置稽核的工作階段和模組。 如需詳細資訊，請參閱&#x200B;[***擱置的評論***](../instructors/feature-summary/learners.md#pending)。
 
 * 技能現在支援以小數格式獎勵學分值。 如此一來，作者便可授予特定課程的小數點數點數值。 如需詳細資訊，請參閱&#x200B;[***小數支援***](../administrators/feature-summary/skills-levels.md#decimal)。
@@ -1952,9 +1956,9 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 * **掃描QR碼以註冊：** QR碼功能已增強。 除了支援使用QR碼標示出勤率外，現在也支援註冊課程，也就是使用QR碼完成課程。
 
-  若要註冊課程並完成課程，您可以掃描管理員提供的二維碼。 如需在Learning Manager網路版本中掃描QR碼的詳細資訊，請參閱&#x200B;[***掃描QR碼***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse)。
+若要註冊課程並完成課程，您可以掃描管理員提供的二維碼。 如需在Learning Manager網頁版本中掃描QR碼的詳細資訊，請參閱&#x200B;[***掃描QR碼***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse)。
 
-* **多次嘗試課程：** Learning Manager應用程式允許學習者使用已啟用多次嘗試的課程。 如需設定多次嘗試的詳細資訊，請參閱&#x200B;[***多次嘗試***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts)。
+* **多次嘗試課程：** Learning Manager應用程式允許學習者使用已啟用多次嘗試的課程。 如需設定多次嘗試的詳細資訊，請參閱&#x200B;[***多次嘗試***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts)。
 
 +++
 
@@ -2033,9 +2037,9 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 發行日期： 2018年5月19日。
 
-* 此版本的Adobe Learning Manager推出新功能和增強功能。 這可讓您建立自訂角色、新增目錄標籤、清除使用者的容量、管理標籤、重新命名學習物件、Slack整合、新聯結器整合、支援xAPI等。 如需新功能和增強功能的詳細資訊，請參閱[新功能的摘要](../whats-new.md#main-pars_text)。
+* 此版本的Adobe Learning Manager推出新功能和增強功能。 它使您能夠建立自訂角色、新增目錄標籤、清除使用者的容量、管理標籤、重新命名學習物件、Slack整合、新聯結器整合、支援xAPI等等。 如需新功能和增強功能的詳細資訊，請參閱[新功能的摘要](../whats-new.md#main-pars_text)。
 
-* Learning Manager符合GDPR。 如需詳細資訊，請參閱[Learning Manager與GDPR的合規性](/help/migrated/kb/prime-gdpr.md)。
+* Learning Manager符合GDPR。 如需詳細資訊，請參閱[Learning Manager與GDPR的相容性](/help/migrated/kb/prime-gdpr.md)。
 
 ## 已知問題 {#knownissue}
 
@@ -2047,8 +2051,8 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 * 處於擱置狀態或等待接受的學習者皆被標籤為完成。 此問題已修正。
 * 當講師搜尋並選擇所有學習者時，選擇的學習者數量及顯示的數量會有差異。 此問題已修正。
-* 當您搜尋及選取任何學習者並標籤出席率時，Learning Manager會為所有學習者標籤出席率。 此問題已修正。
-* Learning Manager會以24小時格式在電子郵件中顯示時間。 此問題已修正。 時間現在以12小時格式顯示。
+* 當您搜尋及選取任何學習者並標籤出席率時，Learning Manager會標籤所有學習者的出席率。 此問題已修正。
+* Learning Manager會在電子郵件中以24小時格式顯示時間。 此問題已修正。 時間現在以12小時格式顯示。
 * 當經理使用通知頁面中的提名按鈕為課程學習者提名時，未載入提名強制回應視窗。 此問題已修正。
 * 在匯出的Excel報表中，截止日期（應為註冊日期+完成自動執行個體中設定的值天數）會顯示錯誤。 此問題已修正。
 
@@ -2106,7 +2110,7 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 發行日期： 2018年1月7日。
 
-此版本的Learning Manager將效能最佳化，旨在改善擴充性、效能和安全性。
+此版本的Learning Manager為您帶來最佳化效能，旨在改善擴充性、效能和安全性。
 
 ### 增強功能 {#enhancements}
 
@@ -2121,7 +2125,7 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 ### 已修正的問題 {#IssuesFixed-1}
 
 * 使用者人數多時，公告可能會失敗。 此問題已解決。
-* 若使用歐盟子網域URL存取Learning Manager帳戶，可能會將使用者重新導向至其他頁面。 此問題已解決。
+* 使用歐盟子網域URL存取Learning Manager帳戶時，可能會將使用者重新導向至其他頁面。 此問題已解決。
 * 訂購LP時，學習者應該只能以指定的順序使用LP。 學習者能夠使用課程超連結消費未先列出的課程。 此問題已修正。 學習者必須先完成前一個課程，才能開始課程。
 
 * 不支援的瀏覽器版本錯誤訊息可能不會顯示在不支援的Internet Explorer版本（ IE 7、IE 8、IE 9和IE 10）以及Safari （版本7、8和9）中。 此問題已修正。
@@ -2141,12 +2145,12 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 * 學習者控制面板中學習行事曆小工具底下的行事曆清單可能會以隨機順序顯示。 此問題已修正。 清單現在會依序顯示。
 * 使用「全選」選項來標示出席情況時，系統會針對相同作業的所有學習物件，將學習者標示為已出席。 此問題已修正。
-* 在某些高解析度畫面中，從Learning Manager收到的電子郵件會出現橫幅影像和文字的對齊和截斷問題。 此問題已修正。
-* 使用者不會觸發來自Learning Manager的特定電子郵件，例如沒有任何通知資料的電子郵件。 範例 — 建立及啟用外部設定檔時收到的電子郵件，以及設定連線帳戶時收到的電子郵件。 此問題已修正。
+* 在某些高解析度畫面中，從Learning Manager收到的電子郵件在橫幅影像和文字上對齊和截斷時發生問題。 此問題已修正。
+* 不會觸發來自Learning Manager的特定電子郵件，例如沒有任何通知資料的電子郵件傳送給使用者。 範例 — 建立及啟用外部設定檔時收到的電子郵件，以及設定連線帳戶時收到的電子郵件。 此問題已修正。
 * 當您建立LP、設定提醒、註冊使用者，然後變更執行個體的截止日期時，變更的截止日期可能不會反映在提醒中。 此問題已修正。 提醒現在會包含變更的截止日期。
-* 在某些情況下，對於使用Adobe Presenter建立的內容，流體播放器的總計和經過的時間與內容不同步。 此問題已修正。
+* 在某些情況下，對於使用Adobe Presenter建立的內容，流體播放器的總計和經過時間與內容不同步。 此問題已修正。
 * 在某些情況下，將學習方案新增至目錄後，新增選項可能仍會啟用。 此問題已修正。
-* 在裝置瀏覽器中開啟Learning Manager後，系統會顯示可在裝置應用程式上體驗Learning Manager的選項。 若未安裝應用程式，按一下「是」即會啟動Play Store (Android)，若已安裝，則啟動應用程式(在Android和iOS中)。 此工作流程發生問題，已修正。
+* 在裝置瀏覽器中開啟Learning Manager時，系統會顯示可在裝置應用程式上體驗Learning Manager的選項。 若未安裝應用程式，按一下「是」即會啟動Play Store (Android)，若已安裝，則啟動應用程式(在Android和iOS中)。 此工作流程發生問題，已修正。
 
 +++
 
@@ -2180,9 +2184,9 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 由於時區修正，學習者經常會收到期限提醒/工作階段時間提醒不正確的電子郵件。 此問題已修正。
 
-**如果外部學習者從外部學習者轉換為內部學習者，遊戲化排行榜時間表會顯示外部學習者。**
+如果外部學習者從外部學習者轉換為內部學習者，**Gamification排行榜時間表會顯示外部學習者。**
 
-當外部學習者從外部學習者轉換為內部學習者時，內部學習者的遊戲化排行榜時間軸可能會顯示外部學習者。 此問題已修正。
+當外部學習者從外部學習者轉換為內部學習者時，內部學習者的gamification排行榜時間表可能會顯示外部學習者。 此問題已修正。
 
 以啟用UUID的帳戶建立單一和CSV使用者時，學習者的&#x200B;**UUID欄位會以可編輯的格式顯示。**
 
@@ -2193,7 +2197,7 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 學習者花費的學習時間資料未顯示在學習者的報告中，
 
 * 如果系統自動標示他/她的出席情況，供連線模組使用。
-* 使用Learning Manager裝置應用程式掃描CR和VC模組的QR碼時
+* 使用Learning Manager裝置應用程式掃描CR和VC模組的QR碼時。
 
 **此版本的Learning Manager也推出了與裝置播放器相關的增強功能和錯誤修正。**
 
@@ -2224,7 +2228,7 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 * 裝置應用程式中的課程現在支援線上上模式下的模組訂購。
 
 * 如果使用者未下載任何工作輔助，則在離線模式下按一下「我的工作輔助」索引標籤時，可能會導致IOS中的應用程式當機，並顯示訊息，指出在android中載入資料時發生錯誤。 此問題已解決。
-* 如果我們在關閉網際網路後立即存取課程（即使課程已下載），Learning Manager應用程式會關閉或擲回錯誤。 此問題現已修正。
+* 如果我們在關閉網際網路後立即存取課程（即使課程已下載），Learning Manager應用程式也會關閉或擲回錯誤。 此問題現已修正。
 * 掃描二維碼時，有時會顯示先前二維碼掃描的擷取影像。 此錯誤已修正。
 * 嘗試移除已在某些情況下從我的「工作輔助」標籤新增的工作輔助時，會顯示錯誤訊息。 此問題已修正。
 
@@ -2236,9 +2240,9 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 ### 增強功能 {#Enhancements-1}
 
-**遊戲化**
+**Gamification**
 
-此版本強化了遊戲化的範圍。 外部使用者現在可以參與遊戲化。 身為管理員，您可以透過變更範圍設定來定義遊戲的範圍。 您可以選擇性地啟用類似設定檔使用者、群組或位置之間的遊戲化。
+此發行版本增強了gamification的範圍。 外部使用者現在可以參與Gamification。 身為管理員，您可以透過變更範圍設定來定義gamification的範圍。 您可以在類似的設定檔使用者、群組或位置中選擇性地啟用gamification。
 
 **外部使用者增強功能**
 
@@ -2280,7 +2284,7 @@ Android 7及更高版本和iOS 10及更高版本的裝置現在支援Learning Ma
 
 **協助工具**
 
-透過這項更新，Learning Manager學習者體驗現在可支援協助工具的第508節標準。 Learning Manager也與最新版&#x200B;**[!UICONTROL JAWS]**&#x200B;相容。 僅學習者應用程式支援此功能。 使用Internet Explorer 11、Windows Chrome或macOS Safari存取此功能。
+透過此更新，Learning Manager學習者體驗現在支援協助工具的第508節標準。 Learning Manager也與最新版本的&#x200B;**[!UICONTROL JAWS]**&#x200B;相容。 僅學習者應用程式支援此功能。 使用Internet Explorer 11、Windows Chrome或macOS Safari存取此功能。
 
 ### 已修正的問題 {#IssuesFixed-5}
 
@@ -2308,13 +2312,13 @@ Learning Manager使用者在學習者應用程式中遇到某些翻譯問題。 
 
 ### 新功能 {#newfeatures}
 
-如需Learning Manager四月版中新功能和增強功能的清單，請參閱[新增功能。](../whats-new.md)
+如需Learning Manager四月版本的新功能和增強功能清單，請參閱[新增功能。](../whats-new.md)
 
 **Widget型學習者應用程式**
 
 使用首頁上的Widget來管理您的課程、技能和成就。 使用搜尋列可在您的整個LMS中執行搜尋，該搜尋範圍涵蓋所有學習物件、目錄、技能、備註及討論
 
-如需新首頁的詳細資訊，請參閱Learning Manager中的[學習者首頁](../learners/feature-summary/getting-started-learner.md)。
+如需新首頁的詳細資訊，請參閱[Learning Manager中的學習者首頁](../learners/feature-summary/getting-started-learner.md)。
 
 學習者儀表板的&#x200B;**管理員設定**
 
@@ -2322,9 +2326,9 @@ Learning Manager使用者在學習者應用程式中遇到某些翻譯問題。 
 
 **適用於學習者的Learning Manager行動應用程式**
 
-新的Learning Manager行動應用程式可讓學習者使用應用程式註冊及修課程。 此應用程式也可用來管理控制面板。
+新的Learning Manager行動應用程式可讓學習者使用該應用程式註冊及參加課程。 此應用程式也可用來管理控制面板。
 
-若要進一步瞭解如何在行動裝置中使用Learning Manager，請參閱[行動裝置的Learning Manager學習者應用程式](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907)。
+若要進一步瞭解如何在行動裝置中使用Learning Manager，請參閱[適用於行動裝置的Learning Manager精簡應用程式](../learners/feature-summary/ipad-android-tablet-users.md#main-pars_header_1451175907)。
 
 **使用QR碼標示出勤率**
 
@@ -2332,7 +2336,7 @@ Learning Manager使用者在學習者應用程式中遇到某些翻譯問題。 
 
 **講師角色**
 
-Learning Manager現在為模組引入講師。 講師可以管理模組課程，包括指派給他們的模組的時間、地點和座位限制。
+Learning Manager現在推出模組講師。 講師可以管理模組課程，包括指派給他們的模組的時間、地點和座位限制。
 
 若要檢視講師的詳細資訊，請參閱Learning Manager中的[講師](../instructors/feature-summary/getting-started.md#main-pars_header)。
 
@@ -2352,7 +2356,7 @@ Learning Manager讓經理和管理員能夠下載成績單資料，以追蹤個�
 
 **與其他內容提供者整合**
 
-Learning Manager在此版本中匯入了三個新聯結器，讓學習者可以存取和使用來自下列內容提供者的課程： Lynda.com、getAbstract和Harvard ManageMentor。
+Learning Manager在此版本中引進了三個新聯結器，讓學習者可以存取和使用來自下列內容提供者的課程： Lynda.com、getAbstract和Harvard ManageMentor。
 
 若要瞭解如何設定及使用這些聯結器，請參閱[聯結器](../integration-admin/feature-summary/connectors.md#main-pars_header)。
 
@@ -2398,7 +2402,7 @@ Learning Manager在此版本中匯入了三個新聯結器，讓學習者可以�
 
 **支援公告中的URL**
 
-您可以在HTML中新增URL，將URL新增為公告。
+您可以在HTML中新增URL，以將URL新增為公告。
 
 **新增傳遞型別（課程）**
 
@@ -2414,11 +2418,11 @@ Adobe Learning Manager現在可讓您新增課程的傳送型別。
 
 **多位作者**
 
-Learning Manager現在可讓多位作者同時編輯相同內容群組。
+Learning Manager現在可讓多位作者同時編輯相同的內容群組。
 
 **Adobe Connect增強功能**
 
-您現在可以使用多個Learning Manager帳戶設定單一Adobe Connect URL。
+您現在可以使用多個Adobe Connect帳戶來設定單一Learning Manager URL。
 
 **支援新語言**
 
@@ -2452,7 +2456,7 @@ Learning Manager現在可讓多位作者同時編輯相同內容群組。
 
 #### 課程報告 {#coursereports}
 
-當課程有多個版本的模組時，Learning Manager中會產生不正確的學習者成績單報告。 此問題現在已修正。
+當課程有多個模組版本時，Learning Manager會產生不正確的學習者成績單報告。 此問題現在已修正。
 
 #### API層 {#apilayer}
 
@@ -2468,7 +2472,7 @@ Learning Manager現在可讓多位作者同時編輯相同內容群組。
 
 Adobe可讓企業將其組織的培訓資料和培訓內容從現有的學習管理系統(LMS)移轉至Learning Manager LMS應用程式。
 
-Learning Manager提供必要的工具和範本，方便您組織的整合管理員設定及執行移轉工作。
+Learning Manager提供必要的工具和範本，好讓貴組織的整合管理員可以設定及執行移轉工作。
 
 如需移轉功能的詳細資訊，請參閱[移轉手動說明](../integration-admin/feature-summary/migration-manual.md)
 
@@ -2496,7 +2500,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 ### 增強功能 {#enhancement}
 
-在此更新中，Learning Manager會提供端點[PATCH/使用者/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#！/user/patch_users_id)更新應用程式中的使用者。 您可以在管理員角色中存取此API端點。 使用&#x200B;**&#x200B;**&#x200B;端點，您可以更新Learning Manager使用者的下列資訊：
+在此更新中，Learning Manager會提供端點[PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新應用程式中的使用者。 您可以在管理員角色中存取此API端點。 使用****端點，您可以更新Learning Manager使用者的下列資訊：
 
 * 名稱
 * 電子郵件
@@ -2508,7 +2512,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 **流體播放器**
 
-當您使用使用`code cpQuizInfoStudentName`變數以Captivate開發的課程時，學生名稱未如預期顯示。 此問題已修正。
+當您使用使用`code cpQuizInfoStudentName`變數在Captivate中開發的課程時，學生名稱未如預期顯示。 此問題已修正。
 
 +++
 
@@ -2527,12 +2531,12 @@ Fluidic Player增強功能僅適用於視訊。
 **L1與L3意見反應**
 
 * 學習者完成課程使用後，L1意見回饋對話方塊就會顯示。 此外，學習者會收到關於L1意見完成的通知。
-* L1和L3意見反應功能中已提供新增描述性問題的選項。 管理員可以將這些描述性問題新增給學習者。 此布建是Learning Manager所提供預設問題集的補充。 您可以針對L1意見新增兩個描述性問題，並針對L3意見新增一個描述性問題。\
+* L1和L3意見反應功能中已提供新增描述性問題的選項。 管理員可以將這些描述性問題新增給學習者。 除了Learning Manager提供的預設問題集外，此布建還額外提供。 您可以針對L1意見新增兩個描述性問題，並針對L3意見新增一個描述性問題。\
   如需有關此功能的詳細資訊，請參閱[L1與L3意見描述性問題說明](../administrators/feature-summary/courses.md#descriptive)
 
 **匯出使用者**
 
-* 根據某些大型企業使用者的請求，提供新選項，可用於下載Learning Manager帳戶中的所有使用者清單。 在管理員登入中，按一下左窗格上的&#x200B;**[!UICONTROL Users]**，然後按一下&#x200B;**[!UICONTROL Export user data]**，將使用者清單下載為Excel工作表。
+* 根據某些大型企業使用者的要求，提供新選項，可選擇下載Learning Manager帳戶中的所有使用者清單。 在管理員登入中，按一下左窗格上的&#x200B;**[!UICONTROL Users]**，然後按一下&#x200B;**[!UICONTROL Export user data]**，將使用者清單下載為Excel工作表。
 
 ### 已修正的問題 {#Issuesfixed-1}
 
@@ -2567,7 +2571,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 **課程報告**
 
-* 對於啟用「通用唯一識別碼」(UUID)的Learning Manager帳戶， UUID會出現在課程註冊報表、學習者成績單及測驗分數報表中。
+* 針對已啟用通用唯一識別碼(UUID)的Learning Manager帳戶，UUID會出現在課程註冊報表、學習者成績單及測驗分數報表中。
 
 ### 已修正的問題 {#Issuesfixed-2}
 
@@ -2577,7 +2581,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 **新增使用者**
 
-* 在某些情況下，當單一使用者新增至Learning Manager應用程式時，使用者不會收到電子郵件通知。 此問題已修正。
+* 在某些情況下，當單一使用者新增到Learning Manager應用程式時，使用者不會收到電子郵件通知。 此問題已修正。
 * 如果CSV上傳程式失敗，管理員無法下載CSV檔案。 此問題已修正，即使CSV上傳程式失敗，管理員也可以下載最新的CSV。
 * 如果在修改混有大小寫字母的自註冊使用者資訊後匯入CSV，則自註冊使用者詳細資訊不會顯示在管理員使用者介面中。 此問題已修正。
 
@@ -2599,7 +2603,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 **認證**
 
-* 當管理員從循環認證中移除學習者時，將會發生錯誤且學習管理員應用程式會掛機。 此問題已修正。
+* 當管理員從循環認證中移除學習者時，將會發生錯誤且會掛斷Learning Manager應用程式。 此問題已修正。
 
 **報告**
 
@@ -2620,7 +2624,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 **使用者介面**
 
-* 學習者角色的Learning Manager應用程式使用者介面中已修正一些錯字。
+* 學習者角色的Learning Manager應用程式使用者介面中已修正一些輕微錯字。
 
 +++
 
@@ -2666,7 +2670,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 **新增外部使用者**
 
-Learning Manager已將外部自助註冊的最大限制增加到5位數。
+Learning Manager已將外部自助註冊的限制上限提高至5位數。
 
 **報告**
 
@@ -2680,7 +2684,7 @@ Learning Manager已將外部自助註冊的最大限制增加到5位數。
 
 **多語言支援**
 
-在Learning Manager使用者介面的部分功能中，訊息未翻譯並以適當的語言環境句子顯示給使用者。 此問題已修正。
+在Learning Manager使用者介面的部分功能中，訊息未翻譯並以適當的地區設定句子顯示給使用者。 此問題已修正。
 
 **新增使用者**
 
@@ -2704,7 +2708,7 @@ Learning Manager已將外部自助註冊的最大限制增加到5位數。
 * 擷取使用者時使用包含管理員時，會擷取完整的管理員階層，而非使用者的即時管理員。 此問題已修正。
 * 當具有學習者範圍授權許可權的使用者嘗試新增使用者時，會出現一般錯誤訊息。 此問題已修正，學習者現在會看到「未獲授權存取」訊息。
 * 當使用者嘗試刪除使用者群組中最後一個現有的使用者時，使用者會看到204錯誤訊息。 此問題現在已透過向使用者顯示相關錯誤訊息來修正，該訊息指出群組應至少有一名使用者。
-* 如果空格位於名稱開頭，則會在GET/使用者API中顯示使用者名稱時裁剪。 此問題現在已修正。
+* 如果名稱開頭有空格，在GET/users API中顯示使用者名稱時會截斷該空格。 此問題現在已修正。
 * 管理員嘗試擷取所有課程時，也會傳回課程草稿作為回應。這些課程草稿應該是作者私有。 此問題已修正，課程草稿目前未傳回。
 
 **Adobe Connect整合**
@@ -2728,9 +2732,9 @@ Learning Manager已將外部自助註冊的最大限制增加到5位數。
 1. DELETE使用者
 1. GET使用者群組
 1. GET使用者群組/{id}
-1. DELETEuserGroups /{id}/使用者
-1. POSTuserGroups /{id}/使用者
-1. GET/users/userId/userGroups
+1. DELETE使用者群組/{id}/使用者
+1. POST使用者群組/{id}/使用者
+1. GET /users/userId/userGroups
 
 我們還藉由下列新增專案增強現有使用者模型：
 
@@ -2774,13 +2778,13 @@ Learning Manager已將外部自助註冊的最大限制增加到5位數。
 
 **Adobe Connect整合**
 
-Learning Manager應用程式中已增強整合請求驗證/驗證流程。
+Learning Manager應用程式中已增強整合要求驗證/驗證程式。
 
 ### 已修正的問題 {#Issuesfixed-7}
 
 **新增使用者**
 
-* 當有大量Learning Manager使用者時，載入使用者和使用者群組頁面會出現延遲。 此問題已修正。
+* 當有大量Learning Manager使用者時，載入使用者和使用者群組頁面會有延遲。 此問題已修正。
 * 管理員完成上傳具有新使用者的CSV檔案後，在重新整理頁面之前，頁面中的使用者清單不會更新為新使用者。 此問題已修正。
 * 有時在使用CSV匯入使用者後，頁面中的使用者ID值會取代為電子郵件ID。 此問題已修正。
 
@@ -2847,13 +2851,13 @@ Learning Manager應用程式中已增強整合請求驗證/驗證流程。
 
 ## 新功能和增強功能 {#newfeaturesandenhancements}
 
-如需Learning Manager 7月版新功能和增強功能的清單，請參閱[新增功能](../whats-new.md)。
+如需Learning Manager 7月版本的新功能和增強功能清單，請參閱[新增功能](../whats-new.md)。
 
 以下列出一些增強功能供您參考。
 
 **學習者成績單**
 
-Learning Manager提供一項功能，可讓您為貴組織的Learning Manager學習者產生成績單。 如需詳細資訊，請參閱[學習者成績單功能說明內容](../administrators/feature-summary/learner-transcripts.md)。
+Learning Manager提供您為組織的Learning Manager學習者產生成績單的功能。 如需詳細資訊，請參閱[學習者成績單功能說明內容](../administrators/feature-summary/learner-transcripts.md)。
 
 **將徽章匯出為PDF**
 
@@ -2881,7 +2885,7 @@ Learning Manager可讓您將徽章匯出為PDF檔案。 如需詳細資訊，請
 
 **報告**
 
-* 您可以訂閱課程、學習計畫或憑證報告。 您也可以訂閱個別課程報告，瞭解測驗分數和學習者狀態等資料。 訂閱內容將會傳送給您的電子郵件ID，並以在Learning Manager帳戶中註冊的身分進行註冊。 您也可以變更此電子郵件識別碼。
+* 您可以訂閱課程、學習計畫或憑證報告。 您也可以訂閱個別課程報告，瞭解測驗分數和學習者狀態等資料。 訂閱將會傳送至您在Learning Manager帳戶中註冊的電子郵件ID。 您也可以變更此電子郵件識別碼。
 * 當您匯出認證註冊報告時，也會匯出名為&#x200B;**到期日**&#x200B;的新欄。 此欄資料可讓管理員知道哪些學習者錯過了學習物件消耗截止日期。
 
 **電子郵件範本**
@@ -2898,7 +2902,7 @@ Learning Manager可讓您將徽章匯出為PDF檔案。 如需詳細資訊，請
 
 **新增使用者**
 
-當有大量Learning Manager使用者時，載入使用者和使用者群組頁面會出現延遲。 此問題已修正。
+當有大量Learning Manager使用者時，載入使用者和使用者群組頁面會有延遲。 此問題已修正。
 
 **建立使用者群組**
 
@@ -2912,7 +2916,7 @@ Learning Manager可讓您將徽章匯出為PDF檔案。 如需詳細資訊，請
 
 ## 問題已修正 {#Issuefixed-1}
 
-有些客戶在Learning Manager中使用單一登入功能時遇到問題。 已透過將Learning Manager的entityId反向連結至URL (<https://learningmanager.adobe.com>)而非關鍵字來修正此問題。 Learning Manager符合SAML 2.0規範。
+有些客戶在Learning Manager中使用單一登入功能時遇到問題。 將Learning Manager的entityId反向連結至URL (<https://learningmanager.adobe.com>)而非關鍵字，已修正此問題。 Learning Manager符合SAML 2.0規格。
 
 +++
 
@@ -2939,8 +2943,8 @@ Learning Manager可讓您將徽章匯出為PDF檔案。 如需詳細資訊，請
 
 **預覽和發佈課程**
 
-* 在作者角色中，當您預覽從Captivate以`code $$cpQuizInfoStudentName$$`變數的SCORM+SWF內容上傳的課程時，變數顯示null值。 此問題已修正。
-* 在Learning Manager中發佈並檢視標題包含撇號(&#39;)的「展示者」課程時，通常會在TOC中顯示問號(???)。 此問題已修正。
+* 在作者角色中，當您預覽從Captivate以SCORM+SWF內容（包含`code $$cpQuizInfoStudentName$$`變數）上傳的課程時，變數顯示null值。 此問題已修正。
+* 在Learning Manager中發佈並檢視標題包含撇號(&#39;)的「簡報者」課程時，會在目錄中出現問號(???)。 此問題已修正。
 
 **認證**
 
@@ -3006,7 +3010,7 @@ Learning Manager可讓您將徽章匯出為PDF檔案。 如需詳細資訊，請
 
 **電子郵件範本**
 
-* 用來代表外部群組的字詞&#x200B;**合作夥伴** **&#x200B;**&#x200B;已&#x200B;**&#x200B;**&#x200B;從電子郵件範本內文和標題中移除。 外部群組不一定稱為合作夥伴。\
+* 用來代表外部群組的字詞&#x200B;**合作夥伴** ****&#x200B;已&#x200B;****&#x200B;從電子郵件範本內文和標題中移除。 外部群組不一定稱為合作夥伴。\
   **注意：**&#x200B;如果已修改預設範本，則不會顯示此更新的範本。 若要檢視更新的範本，請在&#x200B;**範本預覽**&#x200B;對話方塊中按一下&#x200B;**還原為原始**。
 
 * 管理員收到的電子郵件中，每當&#x200B;**建立的設定檔（自我註冊）**&#x200B;和&#x200B;**建立的設定檔（外部/合作夥伴）**&#x200B;電子郵件範本編輯時，URL都無法點選。 此問題已修正。
@@ -3064,7 +3068,7 @@ Learning Manager應用程式不允許外部學習者在帳戶過期後登入應�
 
 **建立技能**
 
-在學習者登入中，「技能圖」中的技能名稱工具提示&#x200B;**&lbrace;0**&#x200B;未顯示&#x200B;**&#x200B;**&#x200B;全名。**&#x200B;**&#x200B;此問題已修正。
+在學習者登入中，**技能圖**&#x200B;中的技能名稱工具提示未顯示全名。 此問題已修正。
 
 **新增外部合作夥伴**
 
@@ -3104,13 +3108,13 @@ Learning Manager應用程式不允許外部學習者在帳戶過期後登入應�
 
 **使用者通知**
 
-當外部學習者按一下重新造訪課程電子郵件通知中的&#x200B;**開啟附註**&#x200B;連結時，無法運作。 此問題已立即修正。 此連結會開啟包含備註的播放器，即使使用者未登入Learning Manager亦然。
+當外部學習者按一下重新造訪課程電子郵件通知中的&#x200B;**開啟附註**&#x200B;連結時，無法運作。 此問題已立即修正。 此連結會開啟含有附註的播放器，即使使用者未登入Learning Manager亦然。
 
 **法文和德文語言支援**
 
 CSV上傳中的說明URL功能已周遊至英文說明內容。 此問題已修正。
 
-**預覽和Publish課程**
+**預覽和發佈課程**
 
 在作者登入中，當您預覽Presenter 10和11 TinCan API (SWF/HTML)內容時，內容無法運作。 此問題已修正。
 
@@ -3156,11 +3160,11 @@ Adobe Learning Manager支援Tin Can API （也稱為Experience API或xAPI）規�
 
 ### 附註提醒
 
-如果您在消費課程時記下任何筆記，Learning Manager會在15天後傳送通知以檢閱筆記，提醒您。
+如果您在消費課程時記下任何筆記，Learning Manager會在15天後傳送通知提醒您檢閱筆記。
 
-### 群組層級遊戲
+### 群組層級gamification
 
-管理員可以透過變更範圍設定來定義遊戲的範圍。 您可以選擇性地啟用類似設定檔使用者、群組或位置之間的遊戲化。 如需詳細資訊，請參閱[遊戲化](../learners/feature-summary/gamification.md)功能。
+管理員可以透過變更範圍設定來定義gamification的範圍。 您可以在類似的設定檔使用者、群組或位置中選擇性地啟用gamification。 如需詳細資訊，請參閱[Gamification](../learners/feature-summary/gamification.md)功能。
 
 ### 法文和德文語言支援
 
@@ -3172,7 +3176,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 ### 匯入CSV
 
-如果您刪除使用者，則無法使用單一使用者新增將相同的使用者再次新增回應用程式。 不過，您可以使用CSV上傳程式將已刪除的使用者新增回來。 CSV上傳功能中的強制欄位限制有重大變更。 如需詳細資訊，請參閱CSV[&#128279;](../administrators/add-users-in-bulk.md)上的常見問題集。
+如果您刪除使用者，則無法使用單一使用者新增將相同的使用者再次新增回應用程式。 不過，您可以使用CSV上傳程式將已刪除的使用者新增回來。 CSV上傳功能中的強制欄位限制有重大變更。 如需詳細資訊，請參閱CSV](../administrators/add-users-in-bulk.md)上的[常見問題集。
 
 ### 課程清單檢視
 
@@ -3248,7 +3252,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 ## 登出行為已更新 {#signoutbehaviorupdated}
 
-當使用者在Learning Manager中按一下&#x200B;**[!UICONTROL Sign Out]**&#x200B;時，他們現在會登出Learning Manager應用程式，也會登出其AdobeID。
+當使用者在Learning Manager中按一下&#x200B;**[!UICONTROL Sign Out]**&#x200B;時，他們現在會登出Learning Manager應用程式，也會登出他們的Adobe ID。
 
 +++
 
@@ -3278,7 +3282,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 **使用者註冊**
 
-* 如果使用者的Adobe ID符合Learning Manager電子郵件ID，則不用任何額外的URL驗證即可登入Learning Manager。 將使用者新增至帳戶時，組織的管理員會提供Learning Manager電子郵件ID。
+* 如果使用者的Adobe ID與Learning Manager電子郵件ID相符，則使用者可登入Learning Manager，無需任何額外的URL驗證。 將使用者新增至帳戶時，組織的管理員會提供Learning Manager電子郵件ID。
 
 **建立目錄**
 
@@ -3345,7 +3349,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 **使用者登入**
 
-* 當使用者嘗試在不使用啟動連結的情況下登入Learning Manager應用程式時，錯誤訊息顯示格式錯誤。 此問題已修正。
+* 當使用者嘗試在不使用啟動連結的情況下登入Learning Manager應用程式時，錯誤訊息以錯誤的格式出現。 此問題已修正。
 
 **適用於平板電腦的應用程式**
 
@@ -3366,7 +3370,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 **支援的瀏覽器**
 
-* 如果有任何使用者在不支援的瀏覽器中存取Learning Manager應用程式，使用者會收到包含白名單瀏覽器清單的警報。
+* 如果有任何使用者在不支援的瀏覽器中存取Learning Manager應用程式，使用者會收到包含已加入白名單瀏覽器清單的警報。
 
 ### 已修正的問題 {#Issuesfixed-18}
 
@@ -3381,7 +3385,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 **使用者註冊**
 
-* 新使用者收到的歡迎電子郵件著重說明連結Adobe ID與Learning Manager ID以成功登入的重要性。
+* 新使用者收到的歡迎電子郵件著重說明將Adobe ID連結至Learning Manager ID以成功登入的重要性。
 
 **可自訂的電子郵件**
 
@@ -3393,7 +3397,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 * 已修正電子郵件範本中URL連結的相關問題。
 * 為提供的支援
 
-   * Publish至Learning Manager
+   * 發佈至Learning Manager
    * CP 8版本更快速的內容上傳支援（需要CP803修補程式）
 
 +++
@@ -3421,11 +3425,11 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 **使用模組建立課程**
 
 * 使用活動模組建立課程時，即使外部URL在URL中包含資料夾路徑，作者也可以選擇有效的外部URL。 之前，系統不支援包含資料夾路徑的URL。 此問題已修正。
-* 如果課程內容是使用Learning Manager中的zip檔案上傳的專案，且該zip檔案包含資料夾路徑（如Zip>資料夾>內容），則不支援此型別的內容。 此問題已修正。
+* 如果課程內容是使用Learning Manager中的zip檔案上傳的專案，且該zip檔案包含檔案夾路徑（如Zip>folder>內容），則不支援此型別的內容。 此問題已修正。
 
 **適用於平板電腦的應用程式**
 
-* 當使用者嘗試在Learning Manager Android應用程式中下載課程的資源檔案時，該資源檔案無法下載。 此問題已修正。
+* 當使用者嘗試在Learning Manager Android應用程式中下載課程的資源檔案時，無法下載資源檔案。 此問題已修正。
 * 使用流體播放器消費課程時，當使用者記錄備註並嘗試稍後從課程下載時，該課程無法下載。 此問題已修正。
 
 +++
@@ -3438,7 +3442,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 **使用模組建立課程**
 
-* Learning Manager應用程式支援上傳SCORM內容，即使manifest.xml檔案中未提及此版本。 依預設，版本會視為1.2。
+* 即使manifest.xml檔案中未提及版本，Learning Manager應用程式仍支援上傳SCORM內容。 依預設，版本會視為1.2。
 * 當您上傳大小超過500 MB的Captivate課程內容時，該內容未在流體播放器中播放。 在Update 2中，大小限制已變更為800 MB。
 
 **帳單**
