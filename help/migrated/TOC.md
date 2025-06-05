@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: 12df028fee2cf055bc4ce7761804db55389cb09a
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 3%
@@ -30,6 +30,7 @@ ht-degree: 3%
    * [從Adobe FTP管理員轉換](transition-from-ftp-manager.md)
    * [Adobe Learning Manager支援的語言](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager中的API淘汰與變更](api-deprecations-list.md)
+   * [Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md)
    * [Adobe Learning Manager中的白標](white-label.md)
    * [內嵌式播放器互動API檔案](/help/migrated/embedded-player-interaction.md)
 * 開始使用 {#get-started}
@@ -59,7 +60,6 @@ ht-degree: 3%
    * [透過SAML設定介面語言](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
    * [對等帳戶](administrators/feature-summary/peer-account.md)
    * [建立和修改技能與層級](administrators/feature-summary/skills-levels.md)
-   * [Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md)
    * [以AI為基礎的課程推薦](ai-based-recommendations.md)
    * [匯入技能](administrators/feature-summary/import-skills-external-sources.md)
    * [遊戲](administrators/feature-summary/gamification.md)
