@@ -1,18 +1,18 @@
 ---
 title: 歡迎使用Adobe Learning Manager使用手冊
-description: 瞭解Adobe Learning Manager (先前稱為Adobe Captivate Prime)的最新產品。 從頭開始，個別造訪每個區段，或與社群連結，以自己的方式完成專案。
+description: 瞭解Adobe Learning Manager （先前稱為Adobe Captivate Prime）的最新產品。 從頭開始，個別造訪每個區段，或與社群連結，以自己的方式完成專案。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 9d46d64aae76b85f50eed9878779f290291e9026
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '123'
 ht-degree: 0%
 
 ---
 
 # 歡迎使用Adobe Learning Manager使用手冊
 
-請閱讀以瞭解Adobe Learning Manager (先前稱為Adobe Captivate Prime)的最新產品。 從頭開始，個別造訪每個區段，或與社群連結，以自己的方式完成專案。
+請閱讀以瞭解Adobe Learning Manager的最新產品（先前稱為&#x200B;**[!UICONTROL Adobe Captivate Prime]**）。 從頭開始，個別造訪每個區段，或與社群連結，以自己的方式完成專案。
 
 ## 加入交談 {#jointheconversation}
 
