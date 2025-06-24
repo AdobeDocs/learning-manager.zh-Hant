@@ -2,9 +2,9 @@
 title: Adobe Learning Manager中的多重註冊
 description: 身為帳戶管理員，您的一項主要職責就是建立跨不同時區的不同VILT工作階段例項，並可能為特定使用者群組建立工作階段。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -39,6 +39,7 @@ Adobe Learning Manager的多重註冊功能可協助管理員避免此類情況�
 * 多重註冊僅適用於課程有多個例項時。
 * 多註冊選項啟用且使用者在多個例項中註冊後，學習者成績單報告中會為每個課程建立新列（每個例項和每個學習者各一列）
 * 若設定報表自動化時每門課程僅預期一列，則您必須對報表自動化進行必要的調整，才能啟用「多重註冊」功能。
+* 管理員API不支援多重註冊情況。 如果您有任何需求，請洽詢您的CSM。
 
 ## 如何啟用多重註冊
 
