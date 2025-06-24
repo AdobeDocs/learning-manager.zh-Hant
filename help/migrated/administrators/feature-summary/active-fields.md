@@ -122,6 +122,6 @@ _在CSV上傳期間啟用值限制的核取方塊_
 
 如果CSV檔案不包含所有作用中的欄位，管理員必須在匯入後手動輸入缺少的值。
 
-依預設，每個使用中欄位都必須對應至來源CSV中的對應欄位。 不過，如果您不想將特定的作用中欄位對應到CSV中的任何欄，您可以在Box和FTP匯入程式期間，從下拉式清單中選取值&#x200B;**DontImportFromSource**。 透過FTP或Box聯結器匯入使用者時，此選項可供使用。 請參閱此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)，瞭解聯結器的詳細資訊。
+依預設，每個使用中欄位都必須對應至來源CSV中的對應欄位。 不過，如果您不想將特定的作用中欄位對應到CSV中的任何欄，您可以在Box和FTP匯入程式期間，從下拉式清單中選取值&#x200B;**DontImportFromSource**。 透過FTP或Box聯結器匯入使用者時，此選項可供使用。 請參閱此[文章](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/connectors)，瞭解聯結器的詳細資訊。
 
 
