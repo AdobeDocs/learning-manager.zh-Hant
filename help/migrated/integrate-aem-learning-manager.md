@@ -1,10 +1,10 @@
 ---
 jcr-language: en_us
 title: 將Learning Manager與AEM整合
-description: Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、課程分配、定義學習者的可見度，以及追蹤消耗並回報給管理員。
+description: Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、分配至課程、定義學習者的可見度，以及追蹤消耗並回報給管理員。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 將Learning Manager與AEM整合
 
-Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、課程分配、定義學習者的可見度，以及追蹤消耗並回報給管理員。
+Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、分配至課程、定義學習者的可見度，以及追蹤消耗並回報給管理員。
 
 不過，有些使用者會在資產管理系統上儲存和管理其內容。 然後，內容會重新用於各種其他功能。
 
@@ -27,13 +27,13 @@ Learning Manager是內建學習內容管理系統的學習管理系統。 使用
 
 ## 安裝Learning Manager元件 {#installcaptivateprimecomponent}
 
-使用AEM Package Manager安裝Learning Manager內容套件：
+使用Learning Manager Package Manager安裝AEM內容套件：
 
 >[!NOTE]
 >
->如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#how-to-work-with-packages)。
+>如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
-1. 以AEM Author身分，開啟AEM Package Manager。
+1. 以AEM Author的身分，開啟AEM Package Manager。
 1. 按一下按鈕&#x200B;**[!UICONTROL Upload Package]**。
 1. 按一下&#x200B;**[!UICONTROL Browse]**&#x200B;並上傳內容封裝。
 1. 按一下&#x200B;**[!UICONTROL Upload]**。
@@ -45,7 +45,7 @@ Learning Manager是內建學習內容管理系統的學習管理系統。 使用
 
 ## 產生重新整理權杖 {#generatetherefreshtoken}
 
-AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manager整合管理員會產生重新整理權杖。
+AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manager整合管理員將會產生重新整理Token。
 
 1. 核准AEM Sites精選應用程式。
 
@@ -75,7 +75,7 @@ AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manage
 
 ## 在AEM中設定Widget {#configurethewidgetinaem}
 
-若為Widget設定，AEM作者只需要由Learning Manager整合管理員提供的重新整理權杖。
+針對Widget設定，AEM作者只需要Learning Manager整合管理員提供的重新整理權杖。
 
 您也可以在多個頁面中設定多個帳戶設定。
 
@@ -86,13 +86,13 @@ AEM管理員需要Learning Manager帳戶的重新整理權杖。 Learning Manage
 1. 儲存並關閉設定。
 1. 選取設定併發佈設定。
 
-## AEM作者 {#aemauthor}
+## AEM Author {#aemauthor}
 
 AEM作者必須先在AEM範本中新增元件
 
-然後，AEM作者將能夠拖放Adobe Learning Manager元件並據此進行設定。
+接著AEM作者將能夠拖放Adobe Learning Manager元件，並據此進行設定。
 
-Learning Manager元件需要將上步驟中建立的設定對應至頁面。  作者可以在&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]**&#x200B;下編輯頁面屬性來對應設定，並提供設定路徑。 如此一來，作者就能建立多個Learning Manager帳戶的設定，並將每個帳戶對應至不同的Sites頁面。 如果組態未對應至頁面，元件會從父頁面遞回讀取組態，直到找到為止。
+Learning Manager元件需要將上述步驟中建立的設定對應至頁面。  作者可以在&#x200B;**[!UICONTROL Advanced]** > **[!UICONTROL Configuration]** > **[!UICONTROL Cloud Configuration]**&#x200B;下編輯頁面屬性來對應設定，並提供設定路徑。 如此一來，作者就能建立多個Learning Manager帳戶的設定，並將每個帳戶對應至不同的Sites頁面。 如果組態未對應至頁面，元件會從父頁面遞回讀取組態，直到找到為止。
 
 ## 學習者 {#learner}
 
@@ -112,7 +112,7 @@ Learning Manager元件需要將上步驟中建立的設定對應至頁面。  �
 1. 目錄Widget
 1. 我的學習
 1. 根據同儕學習的建議
-1. 依管理員的Recommendations
+1. 管理員的建議
 1. 根據學習者興趣的建議
 
 如果沒有建議，Widget會顯示為空白。
@@ -125,13 +125,15 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 
 設定Skyline的步驟已在[GitHub存放庫](https://github.com/adobe/captivate-prime-aem-components)中提及。
 
-## 目錄Widget
+## 我的學習Widget
 
-目錄Widget會向使用者顯示特定或一組目錄的培訓。 在頁面屬性的「屬性」區段中，從列出的選項中選取「目錄」。
+**[!UICONTROL My Learning]** Widget可讓您向使用者顯示特定或一組目錄的培訓。
+
+在頁面屬性的&#x200B;**[!UICONTROL Properties]**&#x200B;區段中，從列出的選項中選取&#x200B;**[!UICONTROL Catalog]**。
 
 <!--![](assets/catalog-widget.png)-->
 
-目錄Widget包含下列選項：
+「目錄」選項包含下列選項：
 
 * **[!UICONTROL Catalog ids]：**&#x200B;需要顯示培訓的逗號分隔目錄ID。
 * **[!UICONTROL Sort]：**&#x200B;訓練的排序順序。 選項包括 — name、date、dateCreated、dateRegistered等。
@@ -143,7 +145,7 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 
 **[!UICONTROL Learning Object Types]：**&#x200B;根據學習物件的型別篩選。 支援的型別為course、certification、jobAid和learningProgram。
 
-在AEM中，長條圖中的卡片標題最初會是空的。 在屬性中，輸入widgets.html中標題的名稱。
+在AEM中，橫條中的卡片標題最初會是空的。 在屬性中，輸入widgets.html中標題的名稱。
 
 **自訂**
 
