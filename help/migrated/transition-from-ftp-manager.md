@@ -1,8 +1,8 @@
 ---
 title: 從Adobe FTP管理員轉換
-description: Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結器。 您可以使用AdobeFTP管理員取代任何開放原始碼FTP使用者端。
+description: Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結器。 您可以使用Adobe FTP Manager取代任何開放原始碼FTP使用者端。
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 566716404c1cff34108e39014e14416d65088a80
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 0%
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結器。
 
-您可以使用AdobeFTP管理員取代任何開放原始碼FTP使用者端。
+您可以使用Adobe FTP Manager取代任何開放原始碼FTP使用者端。
 
-[這裡](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)列出了AWS建議的部分FTP使用者端：
+某些AWS建議的FTP使用者端已[列在這裡](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)：
 
 * FileZilla (Windows、macOS和Linux)
 * OpenSSH (macOS和Linux) — 注意：此使用者端僅適用於已啟用安全殼層(SSH)檔案傳輸通訊協定(SFTP)的伺服器。
@@ -162,7 +162,7 @@ Adobe Learning Manager支援使用AWS傳輸系列的SFTP通訊協定的新聯結
 
 棄用ExaVault後，所有進行中的現有移轉專案都會轉換為新的FTP作為來源位置。 接著，您必須設定新的FTP聯結器，並繼續移轉程式。
 
-## Recommendations可移轉短跑
+## 移轉衝刺的建議
 
 建立移轉專案時，Adobe建議您使用新的AWS SFTP聯結器建立專案，以避免在稍後階段從Exavault移轉至AWS。
 

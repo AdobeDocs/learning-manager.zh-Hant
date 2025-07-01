@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager發行說明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b704d69970b0e1de6bb3b2ff682c286c1940a354
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '26446'
+source-wordcount: '26976'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,83 @@ ht-degree: 0%
   </tr>
  </tbody>
 </table>-->
+
++++更新101： 2025年6月發行的Adobe Learning Manager
+
+## 角色型電子郵件範本
+
+### 對象
+
+管理電子郵件範本的管理員和作者
+
+### 概觀
+
+您（管理員或作者）可以根據收件者的角色、學習者、經理或講師啟用或停用電子郵件範本。 它可讓您更深入控制與學習者通訊的型別和頻率。
+
+### 使用案例
+
+* 管理員和作者需傳送電子郵件給學習者，而不通知管理員（例如學習者註冊）。
+* 為特定角色大量啟用或停用電子郵件的選項（例如，停用給管理員的所有郵件）。
+
+### 現有的工作流程
+
+如果目的是要傳送電子郵件給學習者而非管理員（例如課程註冊），則目前的範本會傳送電子郵件給所有角色。
+
+### 新增功能
+
+* 電子郵件範本UI上的角色型切換。
+* 大量啟用/停用特定角色。
+* 每個範本的角色可見性。
+
+如需詳細資訊，請參閱此[文章](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level)。
+
+## 改善已完成課程學習者的內容版本控制
+
+### 概觀
+
+完成課程的內容模組更新至更新版本時，學習者看到白色熒幕。 即使作者選擇僅將新內容套用至尚未開始課程的學習者，也會發生此問題。 該問題影響了使用者體驗，並導致之前嘗試重新造訪課程的學習者感到困惑，因為他們面臨播放問題。
+
+### 現有行為
+
+當作者將課程內容更新為新版本(V2)並僅套用至「尚未開始」的學習者時，Adobe Learning Manager會在背景為完成的學習者更新模組版本，這些學習者嘗試再次存取內容時遇上白色熒幕，因為更新的模組不再適用於他們。
+
+### 範例：
+
+* 已完成的學習者嘗試在更新後重新造訪課程並看到白色畫面。
+* 進行中的學習者已完成課程，但在內容版本無訊息更新後，發現白色熒幕。
+
+### 變更內容
+
+Adobe Learning Manager在更新內容時，為作者引進了更清楚的版本控制選項。 作者現在會在內容版本更新期間看到三個定義良好的選項：
+
+| 學習者狀態 | 立即更新 | 最終更新 | 更新未開始 |
+|---|---|---|---|
+| 未註冊 | V2 | V2 | V2 |
+| 尚未開始 | V2 | V2 | V2 |
+| 進行中 | V2 * | V1→V2 * | V1 |
+| 已完成 | V2 * | V2 * | V1 （保留） |
+
+(*)表示模組將在版本更新時重設。
+
+在&#x200B;**[!UICONTROL Update Not Started]**&#x200B;中，完成的學習者會繼續看見現有的內容版本(V1)，解決未預期的白熒幕問題。
+
+* **[!UICONTROL Update Now]**：對所有學習者套用內容更新（未開始、進行中及完成的學習者將立即移至新內容版本）
+* **[!UICONTROL Update Eventually]**：最終對所有學習者套用內容更新（未開始、完成的學習者將立即移至新內容版本；進行中的學習者將於完成之後移動）
+* **[!UICONTROL Update Not started]**：僅套用未開始學習者的內容更新（進行中及完成的學習者將保留現有內容版本）
+
+### 使用者介面變更
+
+| 舊標籤 | 新選項 |
+|---|---|
+| 將內容更新套用至所有學習者 | 立即更新所有學習者：為所有學習者套用內容更新 |
+| 將更新套用至尚未開始的學習者 | 僅更新未啟動學習者：僅對未啟動學習者套用內容更新 |
+| 進行中的學習者完成之後會收到更新 | 最終更新所有學習者：最終為所有學習者套用內容更新 |
+
+![](assets/version-control-options.png)
+
+請參閱此[文章](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course)，瞭解內容庫的詳細資訊。
+
++++
 
 +++更新100： 2025年5月發行的Adobe Learning Manager
 
@@ -824,7 +901,7 @@ Adobe Learning Manager **的** 2021年10月版本引進了學習路徑的概念�
 
 +++更新66 - 2021年8月發行的Learning Manager
 
-Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著重於改善學習者體驗、報告及管理工作流程。 其中一些重點包括：
+Adobe Learning Manager **的** 2021年8月&#x200B;****&#x200B;版本著重於改善學習者體驗、報告及管理工作流程。 其中一些重點包括：
 
 * **內容市集：** Learning Manager現在提供超過70000門課程，來自不同的網域，例如技術、管理、領導力等。
 * **增強的協助工具支援：**&#x200B;對學習者角色的協助工具支援，透過增強的鍵盤導覽、熒幕助讀程式功能和對比率相容性，來增強協助工具。
@@ -1498,7 +1575,7 @@ Learning Manager現在會在您按一下Learning Manager支援的連結/URL時�
 
 學習者可開啟外部憑證並上傳資產，例如pdf、文字或影像檔案。
 
-如需詳細資訊，請參閱&#x200B;[***上傳外部憑證中的資產***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+如需詳細資訊，請參閱&#x200B;[***上傳外部憑證中的資產***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修正的問題 {#issuesfixedinthisrelease}
 
@@ -1817,7 +1894,7 @@ Learning Manager現在也可讓學習者使用SSO驗證進入虛擬工作階段�
 
 ### 新功能和增強功能 {#Newandenhancedfeatures-5}
 
-**內部和外部使用者在社交學習中的範圍分離**&#x200B;管理員可以為內部和外部學習者定義不同的範圍。 有兩個適用於內部和外部使用者的新區段。 在這兩個區段中，您都可以定義學習者群組的範圍。 對於內部使用者，您可以定義「使用者特性」的值。 對於外部使用者，您可以定義外部設定檔，學習者可以在其中共用相同的社交空間。 如需詳細資訊，請參閱&#x200B;[***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交限制建立社交看板**&#x200B;若要限制所有學習者建立看板並有效稽核看板，管理員可以將建立看板的許可權授予選取的使用者群組。 管理員可將討論區的建立限製為僅限選定群組，而非所有參與社交學習的學習者。 如需詳細資訊，請參閱&#x200B;[***展示板建立許可權***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅向學習者顯示空白的[作用中]欄位**&#x200B;管理員可以選擇顯示[作用中]欄位，或在填入值後隱藏欄位。 如需詳細資訊，請參閱&#x200B;[***使用者顯示區***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定的閒置期間被刪除**&#x200B;管理員可以設定內部學習者若在指定的閒置期間被刪除，則內部學習者會遭到刪除的持續時間（以天為單位）。 如需詳細資訊，請參閱&#x200B;***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)***。  **自訂頁尾的連結**&#x200B;管理員可以新增和自訂頁尾的連結。 您也可以針對各種地區設定自訂連結。 現有的在頁尾新增連絡人管理員連結的方法也可在&#x200B;**頁尾連結**&#x200B;區段中取得。 如需詳細資訊，請參閱&#x200B;[***自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)。
+**內部和外部使用者在社交學習中的範圍分離**&#x200B;管理員可以為內部和外部學習者定義不同的範圍。 有兩個適用於內部和外部使用者的新區段。 在這兩個區段中，您都可以定義學習者群組的範圍。 對於內部使用者，您可以定義「使用者特性」的值。 對於外部使用者，您可以定義外部設定檔，學習者可以在其中共用相同的社交空間。 如需詳細資訊，請參閱&#x200B;[***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交限制建立社交看板**&#x200B;若要限制所有學習者建立看板並有效稽核看板，管理員可以將建立看板的許可權授予選取的使用者群組。 管理員可將討論區的建立限製為僅限選定群組，而非所有參與社交學習的學習者。 如需詳細資訊，請參閱&#x200B;[***展示板建立許可權***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅向學習者顯示空白的[作用中]欄位**&#x200B;管理員可以選擇顯示[作用中]欄位，或在填入值後隱藏欄位。 如需詳細資訊，請參閱&#x200B;[***使用者顯示區***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定的閒置期間被刪除**&#x200B;管理員可以設定內部學習者若在指定的閒置期間被刪除，則內部學習者會遭到刪除的持續時間（以天為單位）。 如需詳細資訊，請參閱***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)***。  **自訂頁尾的連結**&#x200B;管理員可以新增和自訂頁尾的連結。 您也可以針對各種地區設定自訂連結。 現有的在頁尾新增連絡人管理員連結的方法也可在&#x200B;**頁尾連結**&#x200B;區段中取得。 如需詳細資訊，請參閱&#x200B;[***自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知問題 {#Knownissuesinthisrelease-2}
 
@@ -2500,7 +2577,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 ### 增強功能 {#enhancement}
 
-在此更新中，Learning Manager會提供端點[PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新應用程式中的使用者。 您可以在管理員角色中存取此API端點。 使用&#x200B;**&#x200B;**&#x200B;端點，您可以更新Learning Manager使用者的下列資訊：
+在此更新中，Learning Manager會提供端點[PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新應用程式中的使用者。 您可以在管理員角色中存取此API端點。 使用****端點，您可以更新Learning Manager使用者的下列資訊：
 
 * 名稱
 * 電子郵件
@@ -3010,7 +3087,7 @@ Learning Manager可讓您將徽章匯出為PDF檔案。 如需詳細資訊，請
 
 **電子郵件範本**
 
-* 用來代表外部群組的字詞&#x200B;**合作夥伴** **&#x200B;**&#x200B;已&#x200B;**&#x200B;**&#x200B;從電子郵件範本內文和標題中移除。 外部群組不一定稱為合作夥伴。\
+* 用來代表外部群組的字詞&#x200B;**合作夥伴** ****&#x200B;已&#x200B;****&#x200B;從電子郵件範本內文和標題中移除。 外部群組不一定稱為合作夥伴。\
   **注意：**&#x200B;如果已修改預設範本，則不會顯示此更新的範本。 若要檢視更新的範本，請在&#x200B;**範本預覽**&#x200B;對話方塊中按一下&#x200B;**還原為原始**。
 
 * 管理員收到的電子郵件中，每當&#x200B;**建立的設定檔（自我註冊）**&#x200B;和&#x200B;**建立的設定檔（外部/合作夥伴）**&#x200B;電子郵件範本編輯時，URL都無法點選。 此問題已修正。
@@ -3176,7 +3253,7 @@ Learning Manager的現有功能有重大增強功能。 一些主要的增強功
 
 ### 匯入CSV
 
-如果您刪除使用者，則無法使用單一使用者新增將相同的使用者再次新增回應用程式。 不過，您可以使用CSV上傳程式將已刪除的使用者新增回來。 CSV上傳功能中的強制欄位限制有重大變更。 如需詳細資訊，請參閱CSV[&#128279;](../administrators/add-users-in-bulk.md)上的常見問題集。
+如果您刪除使用者，則無法使用單一使用者新增將相同的使用者再次新增回應用程式。 不過，您可以使用CSV上傳程式將已刪除的使用者新增回來。 CSV上傳功能中的強制欄位限制有重大變更。 如需詳細資訊，請參閱CSV](../administrators/add-users-in-bulk.md)上的[常見問題集。
 
 ### 課程清單檢視
 

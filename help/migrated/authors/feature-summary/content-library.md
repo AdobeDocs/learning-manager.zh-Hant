@@ -3,9 +3,9 @@ description: 瞭解如何建立內容，以配合課程成為自訂進度內容�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4195'
+source-wordcount: '4412'
 ht-degree: 0%
 
 ---
@@ -525,7 +525,7 @@ WebVTT支援不適用於：
 
 8. 選取內容的「到期日」。 此日期不會影響內容可用性或學習者存取權。 您可以選擇1990年至2037年之間的任何日期。 如果選取過去日期，會顯示警告，但內容仍可發佈。
 9. 選取&#x200B;**[!UICONTROL Save]**。
-上傳的內容現在會出現在&#x200B;**[!UICONTROL Content Library]**&#x200B;中。
+上傳的內容現在會出現在**[!UICONTROL Content Library]**&#x200B;中。
 
 ### 設定語言的內容唯一ID和到期日
 
@@ -595,6 +595,36 @@ WebVTT支援不適用於：
 ## 更新內容
 
 作者可更新已發佈課程的內容。 這可協助學習者取得最新版本的內容。 如需詳細資訊，請參閱此[部落格](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/)。
+
+### 完成課程的學習者適用的內容版本控制
+
+Adobe Learning Manager讓作者在更新內容時，擁有更清楚的版本控制選項。 作者現在會在內容版本更新期間看到三個定義良好的選項：
+
+| 學習者狀態 | 立即更新 | 最終更新 | 更新未開始 |
+|---|---|---|---|
+| 未註冊 | V2 | V2 | V2 |
+| 尚未開始 | V2 | V2 | V2 |
+| 進行中 | V2 * | V1→V2 * | V1 |
+| 已完成 | V2 * | V2 * | V1 （保留） |
+
+(*)表示模組將在版本更新時重設。
+
+在&#x200B;**[!UICONTROL Update Not Started]**&#x200B;中，完成的學習者會繼續看見現有的內容版本(V1)，解決未預期的白熒幕問題。
+
+* **[!UICONTROL Update Now]**：對所有學習者套用內容更新（未開始、進行中及完成的學習者將立即移至新內容版本）
+* **[!UICONTROL Update Eventually]**：最終對所有學習者套用內容更新（未開始、完成的學習者將立即移至新內容版本；進行中的學習者將於完成之後移動）
+* **[!UICONTROL Update Not started]**：僅套用未開始學習者的內容更新（進行中及完成的學習者將保留現有內容版本）
+
+#### 使用者介面變更
+
+| 舊標籤 | 新選項 |
+|---|---|
+| 將內容更新套用至所有學習者 | 立即更新所有學習者：為所有學習者套用內容更新 |
+| 將更新套用至尚未開始的學習者 | 僅更新未啟動學習者：僅對未啟動學習者套用內容更新 |
+| 進行中的學習者完成之後會收到更新 | 最終更新所有學習者：最終為所有學習者套用內容更新 |
+
+![](assets/version-control-options.png)
+
 
 ## 刪除內容 {#deletecontent}
 

@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '682'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,7 @@ ht-degree: 3%
 * [Learning Manager使用手冊](user-guide.md)
 * 簡介 {#introduction}
    * [2025年5月新功能摘要](/help/migrated/whats-new.md)
+   * [Adobe Learning Manager近期變更](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [2024年11月新功能摘要](/help/migrated/whats-new-nov-24.md)
    * [新功能摘要2024年7月](whats-new-july-2024.md)
    * [新功能2024年3月](whats-new-march-2024.md)
@@ -93,6 +94,7 @@ ht-degree: 3%
    * [學習計畫](administrators/feature-summary/learning-programs.md)
    * [產品術語](administrators/feature-summary/product-terminology.md)
 * 整合管理員 {#integration}
+   * [應用程式開發人員手冊](integration-admin/feature-summary/developer-manual.md)
    * [移轉手冊](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager聯結器](integration-admin/feature-summary/connectors.md)
    * [未登入的API](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 3%
    * [將Learning Manager與AEM整合](integrate-aem-learning-manager.md)
    * [在Learning Manager中安裝Salesforce套件](integration-admin/feature-summary/install-salesforce-package.md)
    * [安裝Microsoft Teams聯結器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [應用程式開發人員手冊](integration-admin/feature-summary/developer-manual.md)
    * [適用於Salesforce的Learning Manager應用程式](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [透過CSV檔案管理自訂角色](integration-admin/feature-summary/configure-role-csv-files.md)
