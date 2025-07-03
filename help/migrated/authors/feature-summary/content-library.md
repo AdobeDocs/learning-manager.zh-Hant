@@ -3,9 +3,9 @@ description: 瞭解如何建立內容，以配合課程成為自訂進度內容�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
 workflow-type: tm+mt
-source-wordcount: '4412'
+source-wordcount: '4479'
 ht-degree: 0%
 
 ---
@@ -122,9 +122,9 @@ ht-degree: 0%
 
 ## 新增靜態內容 {#addstaticcontent}
 
-1. 以&#x200B;**作者**&#x200B;身分登入後，在左窗格中選取&#x200B;**[!UICONTROL Content Library]**，然後選取&#x200B;**[!UICONTROL Add]**。
+1. 以&#x200B;**[!UICONTROL Content Library]**&#x200B;作者&#x200B;**身分登入後，在左窗格中選取**，然後選取&#x200B;**[!UICONTROL Add]**。
 
-   或者，您也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面選取&#x200B;**[!UICONTROL Create Content]**。
+   或者，您也可以從&#x200B;**[!UICONTROL Create Content]**&#x200B;頁面選取&#x200B;**[!UICONTROL Getting Started]**。
 
 1. 在&#x200B;**[!UICONTROL Name]**&#x200B;欄位中，輸入您要上傳之內容的名稱。
 1. 在&#x200B;**[!UICONTROL Description]**&#x200B;欄位中，輸入內容的說明。 請確定您要輸入的說明有意義。 字元限製為400個字元。
@@ -177,9 +177,9 @@ _學習者標籤完成_
 
 ## 新增互動式內容 {#addinteractivecontent}
 
-1. 以&#x200B;**作者**&#x200B;身分登入後，在左窗格中選取&#x200B;**[!UICONTROL Content Library]**，然後選取&#x200B;**[!UICONTROL Add]**。
+1. 以&#x200B;**[!UICONTROL Content Library]**&#x200B;作者&#x200B;**身分登入後，在左窗格中選取**，然後選取&#x200B;**[!UICONTROL Add]**。
 
-   或者，您也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面選取&#x200B;**[!UICONTROL Create Content]**。
+   或者，您也可以從&#x200B;**[!UICONTROL Create Content]**&#x200B;頁面選取&#x200B;**[!UICONTROL Getting Started]**。
 
 1. 在&#x200B;**[!UICONTROL Name]**&#x200B;欄位中，輸入您要上傳之內容的名稱。
 1. 在&#x200B;**[!UICONTROL Description]**&#x200B;欄位中，輸入內容的說明。
@@ -525,7 +525,7 @@ WebVTT支援不適用於：
 
 8. 選取內容的「到期日」。 此日期不會影響內容可用性或學習者存取權。 您可以選擇1990年至2037年之間的任何日期。 如果選取過去日期，會顯示警告，但內容仍可發佈。
 9. 選取&#x200B;**[!UICONTROL Save]**。
-上傳的內容現在會出現在&#x200B;**[!UICONTROL Content Library]**&#x200B;中。
+上傳的內容現在會出現在**[!UICONTROL Content Library]**&#x200B;中。
 
 ### 設定語言的內容唯一ID和到期日
 
@@ -594,11 +594,23 @@ WebVTT支援不適用於：
 
 ## 更新內容
 
-作者可更新已發佈課程的內容。 這可協助學習者取得最新版本的內容。 如需詳細資訊，請參閱此[部落格](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/)。
+作者可更新已發佈課程的內容。
+若要更新內容：
+
+1. 以作者身分登入。
+2. 選取&#x200B;**[!UICONTROL Content Library]**。
+3. 搜尋內容並選取&#x200B;**[!UICONTROL Edit]**。
+4. 移除較舊的內容，並上傳新檔案與發佈。
+
+這可協助學習者取得最新版本的內容。
+
+如需詳細資訊，請參閱此[部落格](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/)。
 
 ### 完成課程的學習者適用的內容版本控制
 
-Adobe Learning Manager讓作者在更新內容時，擁有更清楚的版本控制選項。 作者現在會在內容版本更新期間看到三個定義良好的選項：
+Adobe Learning Manager現在為作者提供更清楚的選項來管理內容更新。 作者可以更新課程中已有的內容。 新增新版本時，版本編號會顯示在內容旁。
+
+管理員造訪更新內容的課程時，會在新版本旁邊看到「更新」按鈕。 管理員也會看到清除更新選項，以便選擇如何將新內容版本套用至學習者。
 
 | 學習者狀態 | 立即更新 | 最終更新 | 更新未開始 |
 |---|---|---|---|
@@ -607,23 +619,20 @@ Adobe Learning Manager讓作者在更新內容時，擁有更清楚的版本控�
 | 進行中 | V2 * | V1→V2 * | V1 |
 | 已完成 | V2 * | V2 * | V1 （保留） |
 
-(*)表示模組將在版本更新時重設。
+(*)表示更新版本時將會重設模組。
 
-在&#x200B;**[!UICONTROL Update Not Started]**&#x200B;中，完成的學習者會繼續看見現有的內容版本(V1)，解決未預期的白熒幕問題。
+更新未開始的情況下，已完成課程的學習者會繼續看見原始內容版本(V1)。 這麼做可避免發生非預期的播放問題，並確保回訪已完成課程的學習者獲得一致的體驗。
 
-* **[!UICONTROL Update Now]**：對所有學習者套用內容更新（未開始、進行中及完成的學習者將立即移至新內容版本）
-* **[!UICONTROL Update Eventually]**：最終對所有學習者套用內容更新（未開始、完成的學習者將立即移至新內容版本；進行中的學習者將於完成之後移動）
-* **[!UICONTROL Update Not started]**：僅套用未開始學習者的內容更新（進行中及完成的學習者將保留現有內容版本）
+### 內容更新選項
 
-#### 使用者介面變更
+當管理員按一下&#x200B;**[!UICONTROL Update]**&#x200B;時，他們可以從以下選項中選擇：
 
-| 舊標籤 | 新選項 |
-|---|---|
-| 將內容更新套用至所有學習者 | 立即更新所有學習者：為所有學習者套用內容更新 |
-| 將更新套用至尚未開始的學習者 | 僅更新未啟動學習者：僅對未啟動學習者套用內容更新 |
-| 進行中的學習者完成之後會收到更新 | 最終更新所有學習者：最終為所有學習者套用內容更新 |
+* **[!UICONTROL Update all Learners now]**：立即為所有學習者套用內容更新。 未開始、進行中和完成的學習者會立即移至新版本。
+* **[!UICONTROL Update all Learners eventually]**：分階段為所有學習者套用更新。 「未開始」和「已完成」的學習者現在會收到新版本。 進行中：學習者完成目前的版本後，就會取得更新。
+* **[!UICONTROL Update only not started Learners]**：僅將更新套用至尚未開始課程的學習者。 進行中及完成的學習者仍維持原始版本。
 
 ![](assets/version-control-options.png)
+_更新設定中可用的內容更新選項_
 
 
 ## 刪除內容 {#deletecontent}
