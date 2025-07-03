@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中新增使用者
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # 在Adobe Learning Manager中新增使用者
 
-在Adobe Learning Manager中，使用者是指使用平台進行學習或訓練的人。 有兩種使用者：內部使用者和外部使用者。
+在Adobe Learning Manager中，使用者是指使用平台進行學習或訓練的學習者。 有兩種使用者：內部使用者和外部使用者。
 
 內部使用者是您組織的員工或團隊成員。
 
-外部使用者是指公司外部的人員，例如客戶、合作夥伴、廠商或客戶，這些人員可存取您的學習內容。
+外部使用者是指公司外的學習者，例如客戶、合作夥伴、廠商或客戶，可存取您的學習內容。
 
 Adobe Learning Manager (ALM)可讓管理員使用各種方法（包括手動輸入、CSV上傳、自助註冊和系統整合），來建立和管理內部和外部使用者。
 
@@ -248,7 +248,7 @@ _複製外部設定檔的註冊URL_
 | 內部使用者 | 外部使用者 |
 |---|---|
 | 可使用Adobe ID或SSO憑證登入。 | 可使用任何電子郵件ID登入。 |
-| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
+| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
 
 ### 暫停外部註冊設定檔
 

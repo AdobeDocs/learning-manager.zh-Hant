@@ -4,9 +4,9 @@ title: 適用於AEM Sites的Adobe Learning Manager參考站台（ALM參考站台
 description: Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這可讓您以最少的編碼工作量，為Adobe Learning Manager建立自己的網站和回應式行動介面。 透過這項整合，您可以為使用者建立自訂的學習體驗。
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2187'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,16 @@ Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這
 
 安裝ALM參考站台套件後，您就可以開始建立Adobe Learning Manager的網站，以便在AEM Sites執行個體上託管。 之後，您的使用者可以將元件拖放至網站上。
 
-安裝ALM參照站台套件
+>[!IMPORTANT]
+>
+>適用於AEM Sites的Adobe Learning Manager (ALM)套件提供實作的快速入門程式碼區塊。 此套件是專為Headless部署所設計。 使用提供的程式碼庫後，您應自行負責維護和進一步開發，如同以Adobe Learning Manager為基礎的Headless應用程式的標準做法。 Adobe Learning Manager將繼續支援基礎API。
 
-## 先決條件
+## 安裝ALM參照站台套件
+
+### 先決條件
 
 * AEM Sites和Adobe Commerce的授權。
-* AEM on-premise 6.5或Adobe Experience Manager -Cloud Service
+* AEM on-premise 6.5或Adobe Experience Manager - Cloud Service
 * Adobe Commerce 2.4.3
 
 保護AEM Sites環境後，您必須安裝ALM參考站台套件。 此套件包含協助建構學習平台的AEM網頁和網站元件。
@@ -39,7 +43,7 @@ Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這
 
 安裝AEM網站套件後，您必須設定ALM應用程式，將學習入口網站與AEM網站連線。
 
-此情境適用於AEM搭配[!DNL Adobe Learning Manager]使用時。
+此案例適用於AEM搭配[!DNL Adobe Learning Manager]使用的情況。
 
 請遵循下列步驟：
 
@@ -86,7 +90,7 @@ Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這
 ## 在AEM中設定ALM帳戶
 
 1. 啟動您的AEM執行個體。
-1. 按一下「設定>Cloud Service」。
+1. 按一下「設定>雲端服務」 。
 1. 按一下「Adobe Learning Manager設定」 。
 
    ![](assets/alm-configuration.png)
@@ -139,13 +143,13 @@ Adobe Learning Manager現在可讓您向現有和潛在客戶及合作夥伴展�
 
 ### AEM + Adobe Learning Manager + Adobe Commerce （已登入/未登入的使用者）
 
-Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adobe Commerce緊密整合。 此版本可讓您輕鬆地將原生、AEM網站型或其他Headlearning Manager介面連線到Adobe Commerce。 此整合可讓您在學習平台中實現電子商務功能。 您現在可以為客戶和業務合作夥伴提供付費培訓，並讓您在原生和非原生Learning Manager介面上輕鬆購買培訓。 學習者也可預覽訓練、存取訓練資訊，或搜尋訓練，而不需要登入Adobe Learning Manager。
+Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adobe Commerce緊密整合。 此版本可讓您輕鬆地將原生、AEM網站型或其他Headless Learning Manager介面連線到Adobe Commerce。 此整合可讓您在學習平台中實現電子商務功能。 您現在可以為客戶和商務合作夥伴提供付費培訓，並讓您在原生和非原生Learning Manager介面上輕鬆購買培訓。 學習者也可預覽訓練、存取訓練資訊，或搜尋訓練，而不需要登入Adobe Learning Manager。
 
-使用者可以使用已經的AEM應用程式並核准它，而不是建立一個應用程式。
+使用者可以使用已經的AEM應用程式並加以核准，而不是建立應用程式。
 
 * Adobe Learning Manager CDN基底URL — 輸入來自Adobe Commerce連線頁面之資料擷取CDN服務路徑的基底URL。
 * Adobe Commerce URL — 輸入您使用的Adobe Commerce執行個體的URL。
-* GraphQL Proxy路徑 — 使用者端Learning Manager元件會直接存取Adobe Commerce GraphQL端點，因此可能會發生CORS錯誤。 若要避免此錯誤，所有呼叫都必須從與AEM相同的端點提供服務，或是透過新增CORS標題的Proxy提供服務。
+* GraphQL Proxy路徑 — 使用者端Learning Manager元件會直接存取Adobe Commerce GraphQL端點，因此可能會發生CORS錯誤。 若要避免此錯誤，所有呼叫都必須從與AEM相同的端點提供服務，或是透過新增CORS標題的Proxy提供。
 * Adobe Commerce商店名稱 — 輸入您在前一節中判斷的Adobe Commerce商店名稱。
 * Adobe Commerce客戶權杖存留期（以秒為單位） — 輸入客戶權杖存留期，表示登入工作階段的預先確定期間。
 * 管理員重新整理Token — 輸入您在前一節中決定的重新整理Token。
@@ -198,7 +202,7 @@ Adobe Learning Manager現在提供解決方案，協助您將學習平台與Adob
 
 ALM參考網站套件提供「學習網站藍圖」，可讓您為學習平台建立網站。 AEM藍圖可讓您直接從AEM Sites元件建置網頁。 您不需要使用任何範本。
 
-1. 在AEM起始頁上，按一下&#x200B;**[!UICONTROL Sites]**。
+1. 在AEM起始頁面上，按一下&#x200B;**[!UICONTROL Sites]**。
 
 1. 按一下&#x200B;**[!UICONTROL Create]** > **[!UICONTROL Site]**。
 
@@ -234,16 +238,16 @@ ALM參考網站套件提供「學習網站藍圖」，可讓您為學習平台�
 
 ## 將學習管理員元件匯入並新增至現有網頁或範本
 
-安裝AEM參考網站套件會將Learning Manager元件新增至您的AEM Sites執行個體。 預設情況下，您可以將這些元件新增到我們提供的現成可用的Web專案（網站）學習網站。 這些元件也可在您從學習網站Blueprint建立的網站中使用。
+安裝AEM參考站台套件會將Learning Manager元件新增至您的AEM Sites執行個體。 預設情況下，您可以將這些元件新增到我們提供的現成可用的Web專案（網站）學習網站。 這些元件也可在您從學習網站Blueprint建立的網站中使用。
 
-不過，如果您想要將這些新新增的Learning Manager元件用於您現有的Web專案或網站，則應使用下列程式匯入元件。
+不過，如果您想要將這些新新增的Learning Manager元件用於您現有的Web專案或網站，則應使用下列程式匯入這些元件。
 
 1. 安裝ALM參照站台套件。
 
-1. 開啟Web專案，並導覽至HTML檔案（針對您要新增Learning Manager元件的網頁或網頁範本）。
+1. 開啟Web專案，並導覽至HTML檔案(針對您要新增Learning Manager元件的網頁或網頁範本)。
 1. 加入會議
 
-   開啟HTML檔案，並將下列程式碼片段新增至頁面元件，讓程式碼在頁面轉譯器中呈現的學習元件之前執行。
+   開啟HTML檔案並將下列程式碼片段新增至頁面元件，讓程式碼在頁面轉譯器中呈現的學習元件之前執行。
 
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
@@ -251,11 +255,11 @@ ALM參考網站套件提供「學習網站藍圖」，可讓您為學習平台�
    上述程式碼會將對應的設定新增至頁面的meta標籤中，這是學習元件轉譯的必要條件。 如需詳細資訊，請參閱[Adobe Learning Manager參考網站](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html)。
 
 1. 確認您已對應組態與Web專案。
-1. 開啟要匯入AEM Sites元件的Learning Manager範本。
+1. 開啟您要匯入AEM Sites元件的Learning Manager範本。
 1. 在範本頁面編輯器上，瀏覽至「允許的元件」容器，並選取&#x200B;**原則**。
 1. 在「原則」頁面中，導覽至「屬性>允許的元件」，並選取下列元件「學習 — 內容」、「學習 — 表單」和「學習 — 結構」
 
-下列程式可讓範本完成匯入Learning Manager元件的使用者端資料庫相依性。
+下列程式可讓範本完成匯入的Learning Manager元件的使用者端程式庫相依性。
 
 包含這些元件的網頁應載入這些程式庫，才能成功轉譯和使用元件。
 
@@ -266,4 +270,4 @@ ALM參考網站套件提供「學習網站藍圖」，可讓您為學習平台�
    1. learning.ui
    1. learning.commerce
 
-儲存此範本後，即可在衍生自此範本的所有網頁中新增Learning Manager元件。
+儲存此範本後，您可以在衍生自此範本的所有網頁中新增Learning Manager元件。
