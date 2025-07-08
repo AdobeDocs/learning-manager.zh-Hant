@@ -248,7 +248,7 @@ _複製外部設定檔的註冊URL_
 | 內部使用者 | 外部使用者 |
 |---|---|
 | 可使用Adobe ID或SSO憑證登入。 | 可使用任何電子郵件ID登入。 |
-| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
+| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
 
 ### 暫停外部註冊設定檔
 
