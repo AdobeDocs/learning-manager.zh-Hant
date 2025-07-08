@@ -4,9 +4,9 @@ title: 應用程式開發人員手冊
 description: 瞭解如何使用RESTful API整合和自訂應用程式，內容涵蓋OAuth 2.0驗證、API使用案例和資料模型等重要主題。 利用課程建立、學習者進度追蹤、技能對應、認證、gamification等功能來增強您的企業應用程式。 本指南提供逐步指示和真實世界的範例，協助開發人員建立順暢且有效率的工作流程。 適合希望利用Adobe Learning Manager功能來建立以學習者為中心的應用程式的開發人員。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
+source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
 workflow-type: tm+mt
-source-wordcount: '4482'
+source-wordcount: '4481'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Adobe Learning Manager提供RESTful API，讓開發人員能夠有效地整合�
 
 ## 取得存取權杖
 
-### 從重新導向取得授權代碼
+### 取得授權碼
 
 取得使用者端ID和使用者端密碼後，請使用它們來要求用來驗證API呼叫的存取權杖。
 
@@ -413,7 +413,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill&lbrace;1Level.skill&lbrace;1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill{1Level.skill{1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
   </td>
   </tr>
   </table>
@@ -524,7 +524,7 @@ Adobe Learning Manager API可讓開發人員以RESTful資源的形式存取Learn
 | 帳戶 | 封裝Learning Manager客戶的詳細資料。 |
 | 徽章 | 徽章是學習者在課程中完成特定里程碑時獲得的成就象徵。 |
 | 目錄 | 目錄是學習物件的集合。 |
-| 使用者 | 使用者是Learning Manager中的關鍵模型。 使用者通常是組織的內部或外部學習者，負責使用學習物件。 但是，他們可能會扮演其他角色，例如作者和經理以及學習者角色。 使用者ID、型別、電子郵件是一些內嵌屬性。 |
+| 使用者 | 使用者是Learning Manager中的關鍵模型。 使用者通常是使用學習物件的組織的內部或外部學習者。 但是，他們可能會扮演其他角色，例如作者和經理以及學習者角色。 使用者ID、型別、電子郵件是一些內嵌屬性。 |
 | resource | 這代表模組內的每個內容資源。 所有封裝在「學習資源」中的資源在學習目標方面是相同的，但在傳遞型別或內容地區設定方面則各有不同。 |
 | userNotification | 此模型包含與學習者相關的通知資訊。 |
 | userSkill | UserSkill指出單一使用者已習得多少單一技能等級。 |
@@ -1535,7 +1535,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1543,7 +1543,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1551,7 +1551,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1718,13 +1718,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
