@@ -2,13 +2,13 @@
 description: 瞭解如何在Adobe Learning Manager中建立和管理使用者群組。 探索分組使用者如何協助您有效指派課程、追蹤進度並自動化學習工作流程。
 jcr-language: en_us
 title: 在Adobe Learning Manager中管理使用者群組 | 組織和指派學習者
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Learning Manager中的使用者群組
 
@@ -153,7 +153,7 @@ _要修改使用者群組名稱、說明或成員資格規則的欄位_
    ![](assets/delete-a-group.png)
    在[動作]功能表中的[刪除]選項移除使用者群組&#x200B;__
 
-4. 出現提示時確認刪除。 該使用者群組將會從Adobe Learning Manager中刪除。
+4. 出現提示時確認刪除。 將刪除該使用者群組。
 
 ## 下載使用者群組報表
 

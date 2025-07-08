@@ -3,9 +3,9 @@ description: 整合管理員參考手冊，協助您將現有LMS移轉至Adobe L
 jcr-language: en_us
 title: 移轉手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3604'
+source-wordcount: '3606'
 ht-degree: 0%
 
 ---
@@ -546,7 +546,7 @@ Box帳戶&#x200B;*中的* CSV位置
 
 ## 疑難排解移轉問題 {#troubleshootingmigrationissues}
 
-[按一下這裡](../../kb/troubleshooting-migration.md)瞭解整合管理員在將資料和內容從現有LMS移轉至Learning Manager應用程式時，所遇到問題的因應措施/解決方案。
+請參閱本[文章](../../kb/troubleshooting-migration.md)，瞭解整合管理員在將資料和內容從現有LMS移轉至Learning Manager應用程式時，所遇到問題的因應措施/解決方案。
 
 ## 使用者管理提示 {#usermanagement}
 

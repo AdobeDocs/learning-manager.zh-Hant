@@ -2,17 +2,17 @@
 description: 瞭解如何使用Adobe Learning Manager中的作用中欄位來擷取、整理及管理自訂使用者資訊。 透過彈性的欄位設定，改善報告、篩選和使用者區隔。
 jcr-language: en_us
 title: 在Adobe Learning Manager中設定作用中欄位
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 0%
 
 ---
 
-
 # 作用中的欄位
 
-Adobe Learning Manager中的作用中欄位是自訂使用者屬性，可協助管理員有效組織和管理使用者。 它們可讓您擷取有關使用者的額外資訊，例如部門、位置或職稱。 管理員可以使用此資料來建立使用者群組、個人化學習，並更有效地篩選報表。
+Adobe Learning Manager中的作用中欄位是自訂使用者屬性，可協助管理員有效組織和管理使用者。 它們可讓您擷取有關使用者的額外資訊，例如部門、位置或職稱。 管理員可使用此資料來建立使用者群組、個人化學習，並更有效地篩選報表。
 
 使用者屬性是使用者名字、姓氏和電子郵件地址等資訊片段。 這些屬性可協助管理員：
 
@@ -122,6 +122,4 @@ _在CSV上傳期間啟用值限制的核取方塊_
 
 如果CSV檔案不包含所有作用中的欄位，管理員必須在匯入後手動輸入缺少的值。
 
-依預設，每個使用中欄位都必須對應至來源CSV中的對應欄位。 不過，如果您不想將特定的作用中欄位對應到CSV中的任何欄，您可以在Box和FTP匯入程式期間，從下拉式清單中選取值&#x200B;**DontImportFromSource**。 透過FTP或Box聯結器匯入使用者時，此選項可供使用。 請參閱此[文章](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/connectors)，瞭解聯結器的詳細資訊。
-
-
+依預設，每個使用中欄位都必須對應至來源CSV中的對應欄位。 不過，如果您不想將特定的作用中欄位對應到CSV中的任何欄，您可以在Box和FTP匯入程式期間，從下拉式清單中選取值&#x200B;**DontImportFromSource**。 透過FTP或Box聯結器匯入使用者時，此選項可供使用。 請參閱此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)，瞭解聯結器的詳細資訊。

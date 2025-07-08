@@ -4,7 +4,7 @@ title: 應用程式開發人員手冊
 description: 瞭解如何使用RESTful API整合和自訂應用程式，內容涵蓋OAuth 2.0驗證、API使用案例和資料模型等重要主題。 利用課程建立、學習者進度追蹤、技能對應、認證、gamification等功能來增強您的企業應用程式。 本指南提供逐步指示和真實世界的範例，協助開發人員建立順暢且有效率的工作流程。 適合希望利用Adobe Learning Manager功能來建立以學習者為中心的應用程式的開發人員。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 01b5f339fb17db9c1af4e3e1121f9034c84fb974
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
 source-wordcount: '4336'
 ht-degree: 0%
@@ -392,7 +392,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
 **其他包含篩選器**
 
 <table>
- <tbody>
+  <tbody>
   <tr>
    <td>
     <p style="text-align: left;"><b>學習計畫</b></p></td>
@@ -403,9 +403,10 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill&lbrace;1Level.skill&lbrace;1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill{1Level.skill{1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
   </td>
   </tr>
+  </table>
 
 #### 欄位
 
@@ -520,7 +521,7 @@ Adobe Learning Manager API可讓開發人員以RESTful資源的形式存取Learn
 | userBadge | UserBadge將單一徽章與單一使用者建立關聯。 它包含詳細的資訊，例如完成時間、assertionUrl等。 |
 | 技能 | 技能模型包含層次與學分。 學習者可在完成相關課程後習得技能。 |
 | skillLevel | 技能水準包含一或多個課程，要用於取得水準及其相關學分。 |
-| 學習物件 | 學習物件是使用者可註冊和學習的各種物件的抽象概念。 Learning Manager目前提供四種型別的學習物件 — 課程、認證、學習計畫和工作輔助。 |
+| 學習物件 | 學習物件是使用者可註冊和學習的各種物件的抽象概念。 Learning Manager目前提供四種型別的學習物件：課程、認證、學習計畫和工作輔助。 |
 | learningObjectInstance | 學習物件的特定例項。 |
 | learningObjectResource | 這等同於模組的概念。 課程由一個或多個模組組成。 在Learning Manager中，模組可以各種相同的方式提供。 因此，loResource基本上會封裝所有對等資源。 |
 | loResourceGrade | 這會封裝使用者在其註冊的學習物件內容中使用特定資源的結果。 它包含使用者在資源中花費的持續時間、使用者進行的進度百分比、通過/失敗狀態以及使用者在任何相關測驗中獲得的分數等資訊。 |
