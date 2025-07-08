@@ -4,9 +4,9 @@ title: 應用程式開發人員手冊
 description: 瞭解如何使用RESTful API整合和自訂應用程式，內容涵蓋OAuth 2.0驗證、API使用案例和資料模型等重要主題。 利用課程建立、學習者進度追蹤、技能對應、認證、gamification等功能來增強您的企業應用程式。 本指南提供逐步指示和真實世界的範例，協助開發人員建立順暢且有效率的工作流程。 適合希望利用Adobe Learning Manager功能來建立以學習者為中心的應用程式的開發人員。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4381'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Adobe Learning Manager提供RESTful API，讓開發人員能夠有效地整合�
 
 ## API使用案例
 
-開發人員可以使用Learning Manager API來增強或整合Learning Manager與其他企業應用程式。 您可以使用任何技術建立網頁、案頭或行動應用程式。 開發人員可以在Learning Manager中存取應用程式資料，但部署是外部的，完全由您控制。 應用程式通常由客戶組織為他們的帳戶開發，而Adobe合作夥伴可以建立一般應用程式以供更廣泛使用。
+開發人員可以使用Learning Manager API來增強或整合Learning Manager與其他企業應用程式。 您可以使用任何技術建立網頁、案頭或行動應用程式。 開發人員可以存取Learning Manager資料，但您可以控制應用程式的使用位置及使用方式。
 
 ## 使用OAuth 2.0進行驗證
 
@@ -79,7 +79,7 @@ Adobe Learning Manager提供RESTful API，讓開發人員能夠有效地整合�
 
 取得使用者端ID和使用者端密碼後，請使用它們來要求用來驗證API呼叫的存取權杖。
 
-若要開始授權代碼流程，請將使用者導向瀏覽器中的下列URL：
+若要開始授權代碼流程，請在瀏覽器中新增下列URL：
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
 ### 取得用於測試和開發的存取權杖
 
-使用Adobe Learning Manager (ALM)代號產生工具快速建立存取代號，以用於測試和開發目的。 這些權杖僅供您在開發和偵錯階段個人使用。 請記住，測試權杖會授與您ALM資料的存取權，因此安全地處理這些資料至關重要。 切勿與他人共用您的測試Token、在生產應用程式中使用它們，或將其納入公開程式碼存放庫。 將其視為密碼，以確保您的帳戶和資料的安全。
+使用Adobe Learning Manager (ALM) API時，開發人員需要有效的OAuth 2.0存取權杖來驗證API請求。 透過標準OAuth流程產生此代號可能很複雜且耗時，尤其是快速測試、學習或開發時。 Adobe Learning Manager提供代號產生工具來簡化此程式。
+
+此工具適用於以下期間：
+
+* 概念證明(POC)組建
+
+* 早期開發
+
+* 疑難排解API整合問題
+
+這些權杖僅供您在開發和偵錯階段個人使用。 請記住，測試權杖會授與您ALM資料的存取權，因此安全地處理這些資料至關重要。 切勿與他人共用您的測試Token、在生產應用程式中使用它們，或將其納入公開程式碼存放庫。 將其視為密碼，以確保您的帳戶和資料的安全。
 
 1. 以整合管理員身分登入Adobe Learning Manager。
 2. 選取&#x200B;**[!UICONTROL Developer Resources]**，然後選取&#x200B;**[!UICONTROL select Access Tokens for Testing and Development]**。
@@ -403,7 +413,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill&lbrace;1Level.skill&lbrace;1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill{1Level.skill{1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
   </td>
   </tr>
   </table>
