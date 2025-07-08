@@ -3,7 +3,7 @@ description: 瞭解如何在Adobe Learning Manager中建立和管理使用者群
 jcr-language: en_us
 title: 在Adobe Learning Manager中管理使用者群組 | 組織和指派學習者
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ _使用AND邏輯合併多個群組的範例_
 
 ![](assets/or-logic.png)
 _使用OR邏輯合併多個群組的範例_
+
