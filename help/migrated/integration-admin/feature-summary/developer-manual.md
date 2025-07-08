@@ -4,9 +4,9 @@ title: 應用程式開發人員手冊
 description: 瞭解如何使用RESTful API整合和自訂應用程式，內容涵蓋OAuth 2.0驗證、API使用案例和資料模型等重要主題。 利用課程建立、學習者進度追蹤、技能對應、認證、gamification等功能來增強您的企業應用程式。 本指南提供逐步指示和真實世界的範例，協助開發人員建立順暢且有效率的工作流程。 適合希望利用Adobe Learning Manager功能來建立以學習者為中心的應用程式的開發人員。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4336'
+source-wordcount: '4357'
 ht-degree: 0%
 
 ---
@@ -22,8 +22,8 @@ Adobe Learning Manager提供RESTful API，讓開發人員能夠有效地整合�
 
 * OAuth2.0驗證
 * API物件模型
-* 顯示如何使用include、欄位和其他引數
-* 提供真實使用案例的端點
+* 包含、欄位和其他引數
+* 真實使用案例
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Adobe Learning Manager提供RESTful API，讓開發人員能夠有效地整合�
 
 ### 註冊應用程式
 
-將Adobe Learning Manager與外部應用程式整合，以強化多功能性。 這些步驟涉及存取整合管理員介面、註冊應用程式，以及取得使用者端ID和密碼。 從ALM產生驗證權杖（OAuth、重新整理和存取權杖），強調使用OAuth 2.0架構進行驗證和授權。 存取權杖的有效期為七天。
+將Adobe Learning Manager與外部應用程式整合，以強化多功能性。 這些步驟涉及存取整合管理員介面、註冊應用程式，以及取得使用者端ID和密碼。 從Adobe Learning Manager產生OAuth 2.0驗證權杖，包括授權、重新整理和存取權杖。 使用OAuth 2.0流程以安全地驗證及授權您的應用程式。 存取權杖的有效期為七天。
 
 1. 以整合管理員的身分登入Adobe Learning Manager。
 2. 在左窗格中選取&#x200B;**[!UICONTROL Applications]**。
@@ -77,7 +77,7 @@ Adobe Learning Manager提供RESTful API，讓開發人員能夠有效地整合�
 
 ### 從重新導向取得授權代碼
 
-取得使用者端ID和使用者端密碼後，請使用它們來要求存取權杖，以用來驗證API呼叫。
+取得使用者端ID和使用者端密碼後，請使用它們來要求用來驗證API呼叫的存取權杖。
 
 若要開始授權代碼流程，請將使用者導向瀏覽器中的下列URL：
 
@@ -174,7 +174,7 @@ GET https://learningmanager.adobe.com/oauth/token/check?access_token=<access_tok
 
 ### 使用API工具來測試端點
 
-雖然您可以使用任何協力廠商API測試工具，但我們將使用Postman來測試端點。 本檔案中的範例使用Postman進行端點測試。
+雖然您可以使用任何協力廠商API測試工具，但我們將使用Postman來測試端點。 本檔案中的範例使用Postman來測試端點。
 
 1. 開啟Postman並建立新請求。
 2. 選取「授權」標籤。
@@ -283,7 +283,7 @@ ALM API可在建置自訂應用程式或Headless LMS時用來擷取有用的資�
 
 **範例1**
 
-在端點中使用userID引數擷取使用者的詳細資訊
+在端點中使用userID引數擷取使用者的詳細資訊。
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -403,7 +403,7 @@ GET https://learningmanager.adobe.com/primeapi/v2/learningObjects/<courseID>?inc
   <td><br>subLOs.prerequisiteLOs.enrollment</br><br>subLOs.subLOs.prerequisiteLOs.enrollment</br><br>subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.enrollment.loResourceGrades</br><br>subLOs.subLOs.instances.loResources.resources.room</br><br>subLOs.instances.loResources.resources.room</br><br>subLOs.supplementaryResources</br><br>subLOs.enrollment</br><br>SubLOs.enrollment.loInstance.loResources.resources</br><br>subLOs.supplementaryLOs.instances.loResources.resources</br>
   </td>
   <td>
-  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill&lbrace;1Level.skill&lbrace;1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
+  <br>instances.enrollment.loResourceGrades</br><br>enrollment.loInstance.loResources.resources</br>prerequisiteLOs</br><br>作者</br><br>instances.loResources.resources</br><br>supplementalLOs.instances.loResources.resources</br><br>supplementalResources</br><br>instances.badge</br><br>skill.skillLevel.skill{1Level.skill{1Resources.instances.instances.roles.roles.roles.rocle{111111111110}例項.lo</br><br></br><br></br><br></br><br></br>
   </td>
   </tr>
   </table>
@@ -430,7 +430,7 @@ ALM API透過下列引數支援分頁：
 
 * page[limit]：每頁的記錄數。
 * page[offset]：要略過的記錄數。
-* page[cursor]：下一組結果的指標。 游標式分頁不使用位移式分頁（略過一些記錄），而是使用從API傳回的唯一標籤來擷取結果的下一頁。
+* page[cursor]：下一組結果的指標。 游標式分頁不使用位移式分頁（會略過一些記錄），而是使用從API傳回的唯一標籤來擷取結果的下一頁。
 
 以下說明如何在API中使用分頁：
 
@@ -521,7 +521,7 @@ Adobe Learning Manager API可讓開發人員以RESTful資源的形式存取Learn
 | userBadge | UserBadge將單一徽章與單一使用者建立關聯。 它包含詳細的資訊，例如完成時間、assertionUrl等。 |
 | 技能 | 技能模型包含層次與學分。 學習者可在完成相關課程後習得技能。 |
 | skillLevel | 技能水準包含一或多個課程，要用於取得水準及其相關學分。 |
-| 學習物件 | 學習物件是使用者可註冊和學習的各種物件的抽象概念。 Learning Manager目前提供四種型別的學習物件：課程、認證、學習計畫和工作輔助。 |
+| 學習物件 | 學習物件是使用者可註冊及學習的各種物件的抽象概念。 Learning Manager目前提供四種型別的學習物件：課程、認證、學習計畫和工作輔助。 |
 | learningObjectInstance | 學習物件的特定例項。 |
 | learningObjectResource | 這等同於模組的概念。 課程由一個或多個模組組成。 在Learning Manager中，模組可以各種相同的方式提供。 因此，loResource基本上會封裝所有對等資源。 |
 | loResourceGrade | 這會封裝使用者在其註冊的學習物件內容中使用特定資源的結果。 它包含使用者在資源中花費的持續時間、使用者進行的進度百分比、通過/失敗狀態以及使用者在任何相關測驗中獲得的分數等資訊。 |
@@ -841,8 +841,11 @@ PATCH https://learningmanager.adobe.com/primeapi/v2/users/<userID>
 
 ### 使用使用者ID和管理員詳細資料擷取使用者報告
 
-可以直接從使用者介面(**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**)下載使用者報告。 但是，報告不會傳回使用者ID和相關經理的詳細資訊。
-使用管理員的工作API，您可以擷取詳細資訊。
+使用者報告可以直接從管理員使用者介面(**[!UICONTROL Admin]** > **[!UICONTROL Users]** > **[!UICONTROL Internal]**)下載。 但是，報告不會傳回使用者ID和相關經理的詳細資訊。
+
+使用工作API來下載報表。 工作API有助於產生報表、大量作業（註冊或徽章指派）、憑證完成或徽章產生。
+
+以下為下載報表的方式：
 
 1. 將下列裝載新增至作業API。
 
