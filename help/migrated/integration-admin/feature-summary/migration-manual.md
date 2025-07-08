@@ -3,7 +3,7 @@ description: 整合管理員參考手冊，協助您將現有LMS移轉至Adobe L
 jcr-language: en_us
 title: 移轉手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3604'
 ht-degree: 0%
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 # 移轉手冊
 
-整合管理員參考手冊，協助您將現有學習管理系統移轉至Learning Manager學習管理系統
+整合管理員參考手冊，協助您將現有LMS移轉至Learning Manager LMS
 
 <!-- ## Overview {#overview} -->
 
 ## 使用案例 {#usagescenario}
 
-一般而言，大型企業會有其內部學習管理系統或任何供應商提供的舊版學習管理系統。 LMS包含企業培訓內容和培訓資料。 作為企業，購買Learning Manager時，您可能會想要將現有的LMS內容和資料移至Learning Manager，以便運用現代且直覺式LMS的優勢，而不會遺失組織的任何舊資料。
+一般而言，大型企業會有其內部學習管理系統或任何供應商提供的舊版學習管理系統。 LMS包含企業培訓內容和培訓資料。 作為企業，購買Learning Manager時，您可能想要將現有的LMS內容和資料移至Learning Manager，以便運用現代且直覺式LMS的優點，而不會遺失組織的任何舊資料。
 
-Learning Manager提供必要的工具和規格，好讓貴組織的整合管理員可設定及執行移轉工作。
+Learning Manager提供必要的工具和規格，好讓貴組織的整合管理員可以設定及執行移轉工作。
 
-截至今日，組織管理員可聯絡Adobe支援團隊以存取Learning Manager的移轉功能。 若要在您的帳戶中啟用移轉功能，您可以聯絡Adobe Learning Manager支援團隊。
+截至今日，組織的管理員可以聯絡Learning Manager支援團隊以存取Adobe中的移轉功能。 若要在您的帳戶中啟用移轉功能，您可以聯絡Adobe Learning Manager支援團隊。
 
 ## 移轉程式 {#apidescription}
 
@@ -30,12 +30,12 @@ Learning Manager提供必要的工具和規格，好讓貴組織的整合管理�
 
 ### 先決條件 {#prerequisites}
 
-Learning Manager團隊期望貴組織的整合管理員在進行移轉程式前先執行下列工作：
+Learning Manager團隊期望貴組織的整合管理員在執行移轉程式之前，先執行下列工作：
 
-* 整合管理員會從現有的LMS中擷取資料和內容，並將資料轉換為Learning Manager定義的檔案格式。
-* Learning Manager不支援在移轉過程中匯入使用者，並期望組織使用聯結器匯入使用者。 Adobe Systems預計這些聯結器會在移轉程式之前設定。 如需詳細資訊，請參閱[Learning Manager聯結器說明](connectors.md)。
+* 「整合管理員」會從現有的LMS擷取資料和內容，並將資料轉換為Learning Manager定義的檔案格式。
+* Learning Manager不支援在移轉程式中匯入使用者，並期望組織使用聯結器匯入使用者。 Adobe Systems預計這些聯結器會在移轉程式之前進行設定。 如需詳細資訊，請參閱[Learning Manager聯結器說明](connectors.md)。
 
-Learning Manager建議管理員在將資料和內容移轉至Learning Manager生產環境前，先在試用帳戶中嘗試移轉程式。
+Learning Manager建議管理員在將資料和內容移轉至Learning Manager生產環境之前，先在試用帳戶中嘗試移轉程式。
 
 ### 移轉程式的關鍵步驟 {#keystepsofmigrationprocess}
 
@@ -45,13 +45,13 @@ Learning Manager建議管理員在將資料和內容移轉至Learning Manager生
 1. 整合管理員會評估Learning Manager為擷取資料和內容所提供的工具和規格。
 1. 整合管理員會根據舊版LMS所提供的功能，撰寫程式碼或執行手動工作，以匯出舊版LMS的訓練資料和內容。
 1. 培訓資料和內容可用後，整合管理員會分析並對應資料和內容，以符合Learning Manager移轉規格。
-1. 整合管理員使用Learning Manager提供的工具，依下列順序進行移轉：
+1. 整合管理員使用Learning Manager提供的工具，依下列順序移轉：
 
-   1. 將學習者轉移到Learning Manager
+   1. 將學習者轉移至Learning Manager
    1. 將培訓內容轉移到Learning Manager和
    1. 最後，將訓練資料傳輸至Learning Manager。
 
-企業可以開始使用Learning Manager LMS以及舊版內容。
+組織可以開始使用Learning Manager LMS以及舊版內容。
 
 ### 移轉物件的範圍 {#scopeofmigrationobjects}
 
@@ -85,7 +85,7 @@ Learning Manager建議管理員在將資料和內容移轉至Learning Manager生
 
 ### 移轉的重要概念 {#keyconceptsofmigration}
 
-Learning Manager移轉程式的重要概念可簡單說明以供快速參考，如下所示：
+Learning Manager移轉程式的一些重要概念會進行簡要說明，以供您快速參考，如下所示：
 
 **移轉專案**
 
@@ -93,7 +93,7 @@ Learning Manager移轉程式的重要概念可簡單說明以供快速參考，�
 
 **衝刺**
 
-Learning Manager移轉程式中的Sprint會定義您選擇從現有LMS移轉的一組移轉專案。 移轉專案可以是課程模組、學習者記錄或一組課程。 衝刺中可以有多個學習資料專案。 您可以在每個衝刺中執行移轉工作。
+在Learning Manager移轉程式中，Sprint會定義您選擇從現有LMS移轉的一組移轉專案。 移轉專案可以是課程模組、學習者記錄或一組課程。 衝刺中可以有多個學習資料專案。 您可以在每個衝刺中執行移轉工作。
 
 **衝刺執行**
 
@@ -109,7 +109,7 @@ Learning Manager提供了一組[標準CSV規格](migration-manual.md#main-pars_h
 
 **移轉專案標籤**
 
-Adobe Systems建議您使用一組關鍵字作為標籤，以便在Learning Manager應用程式中輕鬆識別移轉專案。 這些標籤可讓您在任何指定時間點，在Learning Manager應用程式中識別內部專案。
+Adobe Systems建議您使用一組關鍵字作為標籤，以便在Learning Manager應用程式中輕鬆識別您的移轉專案。 這些標籤可讓您在任何指定時間點，在Learning Manager應用程式中識別內部專案。
 
 **無內容模組**
 
@@ -369,7 +369,7 @@ Learning Manager可讓您上傳不含內容的模組。 Adobe Systems將其視�
     <p><br>
       user_course_grade.csv的中繼資料</p></td>
    <td>
-    <p>在.csv檔案中提供所需的學習者記錄資料（即使並非強制性）。 若無此資訊，即使.csv經過移轉處理，Learning Manager應用程式可能不會反映任何資料。 sample-csvs.zip檔案包含七個.csv檔案，其命名慣例與上述類似。</p></td>
+    <p>在.csv檔案中提供所需的學習者記錄資料（即使並非強制性）。 若無此資訊，即使.csv經過處理以進行移轉，Learning Manager應用程式可能不會反映任何資料。 sample-csvs.zip檔案包含七個.csv檔案，其命名慣例與上述類似。</p></td>
   </tr>
   <tr>
    <td>
@@ -414,8 +414,8 @@ Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果�
 開始移轉程式之前，請務必注意下列幾點：
 
 * 在任一指定時間點，帳戶中只能有一個作用中的移轉專案。 在專案中，在任何指定時間點，只能有一個作用中的衝刺。
-* 您無法復原已在移轉程式中的執行。 不過，您可以使用Learning Manager每項功能中的現有刪除選項來復原任何資料或內容移轉。
-* 移轉專案一開始，就會進入「移轉中」狀態。 移轉期間，除了整合管理員角色外，其他角色無法登入Learning Manager。
+* 您無法復原已在移轉程式中的執行。 不過，您可以使用Learning Manager每個功能中的現有刪除選項，還原任何資料或內容移轉。
+* 移轉專案一開始，就會進入「移轉中」狀態。 在移轉期間，整合管理員角色以外的其他角色無法登入Learning Manager。
 
 ### 建立FTP和Box帳戶 {#creatingftpandboxaccounts}
 
@@ -437,7 +437,7 @@ A sample snapshot of project files and folder of FTP is shown below for your ref
 
 **正在上傳資料（.csv檔案）至FTP資料夾或Box資料夾**
 
-建立FTP或Box帳戶是建立移轉專案的先決條件。 因此，在這個階段，您可以在Learning Manager應用程式中建立移轉專案和Sprint。  請參閱此頁面中的&#x200B;**資料與內容移轉程式**&#x200B;區段，以建立移轉專案。
+建立FTP或Box帳戶是建立移轉專案的先決條件。 因此，在這個階段，您可以在Learning Manager應用程式中建立「移轉專案」和「Sprint」。  請參閱此頁面中的&#x200B;**資料與內容移轉程式**&#x200B;區段，以建立移轉專案。
 
 在FTP或Box帳戶中，按一下您的專案資料夾名稱，然後按一下Sprint名稱。 在sprint資料夾中，您可以上傳要移轉的.csv資料檔案。 若要上傳，請按一下FTP或Box伺服器頂端的「上傳檔案」按鈕，並拖放.csv檔案。 上傳至FTP後的範例快照如下所示，以供您參考。
 
@@ -459,7 +459,7 @@ Box帳戶中的&#x200B;*檔案*
 
 檔案上傳至Box帳戶後，請務必在module_version.csv檔案中提及此Box內容檔案的相對路徑。 這是指示模組內容路徑的強制步驟。
 
-當您登入FTP和Box伺服器並上傳內容後，CSV位置會隨即顯示，如下方Learning Manager的快照所示。
+登入FTP和Box伺服器並上傳內容後，CSV位置會隨即顯示，如下方Learning Manager中的快照所示。
 
 ![](assets/after-setup.jpg)
 
@@ -491,11 +491,11 @@ Box帳戶&#x200B;*中的* CSV位置
    ![](assets/users-modified-sprint.png)
    *衝刺移轉*
 
-   選取標題為&#x200B;**自從上次執行**&#x200B;後新增或修改的使用者核取方塊，以將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，則最佳實務是您選擇同步化使用者清單。 此步驟可讓Learning Manager資料庫與LMS使用者同步。
+   選取標題為&#x200B;**自上次執行以來已新增或修改的使用者核取方塊**，以將使用者清單與Learning Manager應用程式同步。 如果您要將內容和資料移轉至Learning Manager應用程式，則可能不需要這樣做。 但是，如果在先前的衝刺移轉與最新的衝刺移轉之間有時間間隔，則最佳實務是您選擇同步化使用者清單。 此步驟可讓Learning Manager資料庫與您的LMS使用者同步。
 
    移轉enrollment.csv和user_course_grade.csv時，建議執行此同步化步驟。 此步驟可讓Learning Manager資料庫與您的移轉資料庫保持同步，並確保所有要在Sprint中移轉記錄的使用者都可在移轉資料庫中使用。
 
-1. 您可以使用上傳的資料和內容開始Sprint移轉。 在啟動Sprint Run之前，請按一下「**[!UICONTROL Refresh]**」連結，將FTP和內容資料夾與Learning Manager應用程式同步。
+1. 您可以使用上傳的資料和內容開始Sprint移轉。 在啟動Sprint Run之前，請按一下&#x200B;**[!UICONTROL Refresh]**&#x200B;連結，以將FTP和內容資料夾與Learning Manager應用程式同步。
 
    ![](assets/sprint1-filesupload.png)
    *開始衝刺移轉*
@@ -522,7 +522,7 @@ Box帳戶&#x200B;*中的* CSV位置
 
 ## 移轉驗證 {#registration}
 
-從組織的舊版LMS移轉學習資料和內容後，您可以使用各種學習物件功能來驗證匯入的資料和內容。 例如，您可以以管理員身分登入Learning Manager應用程式，並驗證匯入模組與課程資料與內容的可用性。
+從組織的舊版LMS移轉學習資料和內容後，您可以使用各種學習物件功能來驗證匯入的資料和內容。 例如，您可以以管理員身分登入Learning Manager應用程式，並驗證匯入的模組和課程資料與內容的可用性。
 
 ## 移轉中的改良 {#retrofittinginmigration}
 
@@ -546,11 +546,11 @@ Box帳戶&#x200B;*中的* CSV位置
 
 ## 疑難排解移轉問題 {#troubleshootingmigrationissues}
 
-[按一下這裡](../../kb/troubleshooting-migration.md)以瞭解整合管理員在將資料和內容從現有LMS移轉至Learning Manager應用程式時面臨問題的因應措施/解決方案。
+[按一下這裡](../../kb/troubleshooting-migration.md)瞭解整合管理員在將資料和內容從現有LMS移轉至Learning Manager應用程式時，所遇到問題的因應措施/解決方案。
 
 ## 使用者管理提示 {#usermanagement}
 
-在此主題中，您可以找到一些秘訣，以瞭解Learning Manager對使用者的考量和管理方式。 這些概念可協助您更好地管理使用者，同時使用CSV匯入、聯結器和Learning Manager的移轉功能。
+在此主題中，您可以找到一些提示，讓您瞭解如何在Learning Manager中考慮和管理使用者。 這些概念可協助您在使用CSV匯入、聯結器和Learning Manager的移轉功能時，更好地管理使用者。
 
 ## Learning Manager Id {#captivateprimeids}
 
@@ -559,28 +559,28 @@ Learning Manager為使用者提供兩種型別的唯一ID：
 * 電子郵件ID
 * UUID （通用唯一Id）
 
-Learning Manager支援UUID，讓組織可靈活控制使用者帳戶。 作為管理員，如果您的帳戶中有使用者的UUID，您可以修改該帳戶的使用者電子郵件ID。
+Learning Manager支援UUID，靈活地讓組織控制使用者帳戶。 作為管理員，如果您的帳戶中有使用者的UUID，您可以修改該帳戶的使用者電子郵件ID。
 
 **組織中UUID的使用案例**
 
-假設員工A加入名為Learning Manager的公司作為承包商。 合約期間，Learning Manager公司不得提供公司電子郵件識別碼為```A@example.com```，而公司可能只考慮員工的個人電子郵件帳戶，例如```A@gmail.com```。 完成6個月的合約期後，如果同一位員工A加入Learning Manager成為全職員工，則Learning Manager可能會想要將他的電子郵件ID變更為公司的電子郵件ID： ```A@example.com```。
+假設員工A加入名為Learning Manager的公司作為承包商。 合約期間，Learning Manager公司不提供公司電子郵件識別碼為```A@example.com```，而是隻考慮員工的個人電子郵件帳戶，例如```A@gmail.com```。 完成6個月的合約期後，如果同一位員工A加入Learning Manager成為全職員工，則Learning Manager可能會想要將他的電子郵件ID變更為他的公司電子郵件ID： ```A@example.com```。
 
-在上述案例中，擁有使用者帳戶的UUID存取權將使公司Learning Manager受益。 Learning Manager公司可輕鬆將員工A的個人電子郵件ID取代為正式電子郵件ID。 與此帳戶相關的員工記錄不會受此變更影響。
+在上述案例中，擁有使用者帳戶的UUID存取權將讓Learning Manager公司受益。 Learning Manager公司可輕鬆將員工A的個人電子郵件id取代為正式的電子郵件id。 與此帳戶相關的員工記錄不會受此變更影響。
 
 ## 單一使用者識別 {#singleuseridentification}
 
-Learning Manager可識別及記住單一使用者新增至其中的方法，例如使用自助註冊、使用CSV上傳，或使用使用者介面或透過API新增單一使用者。
+Learning Manager可識別及記住單一使用者新增至該系統的方式，例如使用自助註冊、使用CSV上傳，或使用使用者介面或透過API新增單一使用者。
 
 * 如果使用使用者介面(UI)或透過API新增單一使用者，您可以使用UI或透過API刪除此類單一使用者。
 * 您可以使用CSV上傳流程更新單一使用者，但您需要記住，這些單一使用者將被視為CSV使用者，而CSV工作流程適用於此類使用者。
 
 ## 指派管理員角色 {#assigningmanagerrole}
 
-您不能直接在Learning Manager中將經理角色指派給任何使用者。 使用者X只有在您將該帳戶中任何使用者（例如Y）的「經理」屬性設為X時，才能成為Learning Manager經理。
+您不能直接在Learning Manager中指派管理員角色給任何使用者。 使用者X只有當您在該帳戶中將任何使用者（例如，Y）的管理員屬性設定為X時，才能成為Learning Manager管理員。
 
 在X是使用者（例如A、B和C）的管理員的案例中，如果X離開組織，則您需要確保將A、B和C的「管理員」屬性設定為新的「管理員」。 或者，您也可以暫時將這些使用者的Manager屬性設定為ROOT，並在稍後使用新的Manager名稱進行指派。
 
 如需有關本主題的詳細資訊，請參閱下列說明內容：
 
-* [上傳CSV常見問題集](/help/migrated/administrators/add-users-in-bulk.md)
+* [上傳CSV常見問題集](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [新增使用者的功能說明](/help/migrated/administrators/feature-summary/add-users-user-groups.md)

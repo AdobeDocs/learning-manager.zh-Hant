@@ -4,7 +4,7 @@ title: 管理員常見問題
 description: Adobe Learning Manager管理員的常見問題集
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '2460'
 ht-degree: 0%
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 +++我可以大量新增使用者嗎？ 如何進行？
 
-可以，您可以使用CSV上傳功能大量新增使用者。 如需詳細資訊，請按一下[這裡](/help/migrated/administrators/add-users-in-bulk.md)。
+可以，您可以使用CSV上傳功能大量新增使用者。 如需詳細資訊，請按一下[這裡](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)。
 
 +++
 
@@ -216,14 +216,14 @@ Adobe Learning Manager沒有匯入憑證或徽章簽章的功能。
 
 +++
 
-+++如何為課程設定遊戲點數？
++++如何為課程設定gamification點數？
 
-您可以遵循下列步驟，為學習者設定遊戲點數：
+您可以遵循下列步驟，為學習者設定gamification點數：
 
-1. 以管理員身分登入後，請按一下「遊戲化」 。 此時會出現一個頁面，內含銅、銀、金和白金等層級的清單，以及每個層級要達到的所需點數。 有任務和對應點清單可供使用。
+1. 以管理員身分登入後，請按一下「Gamification」 。 此時會出現一個頁面，內含銅、銀、金和白金等層級的清單，以及每個層級要達到的所需點數。 有任務和對應點清單可供使用。
 1. 按一下每個任務旁的「編輯」圖示以設定/修改點。
 
-如需詳細資訊，請參閱[遊戲化功能](/help/migrated/administrators/feature-summary/gamification.md)。
+如需詳細資訊，請參閱[Gamification功能](/help/migrated/administrators/feature-summary/gamification.md)。
 
 +++
 
@@ -257,7 +257,7 @@ Adobe Learning Manager沒有匯入憑證或徽章簽章的功能。
 經理、作者和學習者可以看到根據課程活動的通知。 管理員可以按照以下步驟為所有使用者啟用/停用通知：
 
 1. 按一下左窗格中的[電子郵件範本]，然後選擇[一般]、[使用者註冊]、[完成]和[意見回饋]標籤。
-1. 從下列事件中，按一下&#x200B;**each**&#x200B;event旁的「否/是」切換按鈕，然後選擇「是」以啟用通知。 按一下「否」停用傳送特定事件的通知。
+1. 從下列事件中，按一下**each**event旁的「否/是」切換按鈕，然後選擇「是」以啟用通知。 按一下「否」停用傳送特定事件的通知。
 
 +++
 
