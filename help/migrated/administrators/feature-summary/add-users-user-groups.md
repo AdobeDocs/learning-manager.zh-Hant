@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中新增使用者
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 60c171374e4a6b15d92907ae441fc63ba6ee4743
+source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 0%
@@ -120,7 +120,7 @@ _清單檢視顯示內部使用者可用的現有自我註冊URL_
 
 1. 以管理員身分登入。
 2. 選取&#x200B;**使用者**，然後選擇&#x200B;**內部**。
-3. 選取[新增] **&#x200B;**，然後選擇[上傳CSV] **。**
+3. 選取[新增] ****，然後選擇[上傳CSV] **。**
 
    ![](assets/select-upload-acsv.png)
    _可上傳CSV檔案以大量匯入使用者的選項_
@@ -239,7 +239,7 @@ _複製外部設定檔的註冊URL_
 | 內部使用者 | 外部使用者 |
 |---|---|
 | 可使用Adobe ID或SSO憑證登入。 | 可使用任何電子郵件ID登入。 |
-| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
+| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
 
 ### 暫停外部註冊設定檔
 
@@ -341,4 +341,5 @@ Adobe Learning Manager支援下列使用者角色：
    _從[動作]功能表下的使用者移除指派角色的選項_
 
 4. 在確認對話方塊上選取&#x200B;**是**。
+
 
