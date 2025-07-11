@@ -1,17 +1,17 @@
 ---
 jcr-language: en_us
-title: Adobe Learning Manager行動應用程式中的白色標籤
+title: Adobe Learning Manager Mobile應用程式中的白色標籤
 description: 使用白色標籤是將應用程式或服務重新品牌化為您自己的品牌，並自訂它，就好像您是原始建立者一樣。 在Adobe Learning Manager中，您可以將白色標籤套用至行動應用程式，藉此重新命名應用程式，並讓您的使用者在自己的品牌下使用應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1974'
+source-wordcount: '2081'
 ht-degree: 0%
 
 ---
 
-# Adobe Learning Manager行動應用程式中的白色標籤
+# Adobe Learning Manager Mobile應用程式中的白色標籤
 
 Adobe Learning Manager行動應用程式現在支援貼上白色標籤，這表示您現在可以使用自己的品牌發佈應用程式。
 
@@ -46,109 +46,213 @@ ALM會根據下列時間表，提供已更新並標示為白色的二進位檔�
 ### 欄位
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>帳戶ID</p>
+
    </td>
+
    <td>
+
     <p>您帳戶的ID。 請注意，屬於任何其他帳戶的學習者將無法存取白色標籤應用程式。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>其他帳戶ID</p>
+
    </td>
+
    <td>
+
     <p>您可視需要新增多個帳戶（子網域）。 將子網域新增為逗號分隔（不含空格）。 例如，acc01、acc02、acc03等。<br> <b>注意：</b>指定子網域時，您必須新增帳戶識別碼。</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>應用程式名稱</p></td>
+
    <td>
+
     <p>您要用於應用程式的名稱。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>應用程式簡短名稱</p>
+
    </td>
+
    <td>
+
     <p>如果應用程式名稱過長，請為應用程式指定出現在裝置上的簡短名稱。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>內部應用程式名稱</p></td>
+
    <td>
+
     <p>作業系統用來識別應用程式的名稱。 通常使用的格式是： com.company-name.product-name。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>內部應用程式名稱 — iOS</p>
+
    </td>
+
    <td>
+
     <p>如果您的使用者使用iOS，請以不同方式命名應用程式。 我們建議對iOS和Android使用相同的名稱。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>應用程式圖示</p>
+
    </td>
+
    <td>
-    <p>應用程式圖示為png。 此圖示會顯示在您的應用程式上。 名稱的格式為account-id_appIcon.png。 應用程式圖示的尺寸為512 × 512畫素。<div>請注意，Apple不允許在應用程式圖示中使用Alpha頻道。 因此，在提交之前，請務必從資產中移除Alpha管道。</div></p>
+
+    <p>應用程式圖示為png。 此圖示會顯示在您的應用程式上。 名稱的格式為account-id_appIcon.png。 應用程式圖示的尺寸為512 × 512畫素。<div>請注意，Apple不允許應用程式圖示中使用Alpha頻道。 因此，在提交之前，請務必從資產中移除Alpha管道。</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>應用程式啟動畫面</p></td>
+
    <td>
+
     <p>針對應用程式的啟動畫面，提供使用者啟動應用程式時顯示的影像(png)。 名稱的格式為account-id_splashIcon.png。 方形啟動顯示熒幕的尺寸為1052 × 1052畫素，圓形啟動顯示熒幕的尺寸為768 x 768畫素。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>使用者端ID和使用者端密碼</p>
+
    </td>
+
    <td>
+
     <p>註冊應用程式時，您帳戶的整合管理員會提供詳細資訊。 整合管理員必須使用下列專案：<ul><li>學習者：read，學習者：write as role</li><li>內部應用程式name://redirect作為重新導向URL</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>帳戶標誌</p>
+
    </td>
+
    <td>
+
     <p>代管您組織標誌的URL。 提供內容連結作為帳戶標誌。 URL必須經過網頁編碼。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>應用程式(iOS)的應用程式商店ID</p>
+
    </td>
+
    <td>
+
     <p>實作強制更新所需的ID。 應用程式必須知道學習者應被重新導向至應用程式商店，才能更新應用程式。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>應用程式的Google play商店id (Android)</p>
+
    </td>
+
    <td>
+
     <p>實作強制更新所需的ID。</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>深層連結的主機名稱</p>
+
    </td>
+
    <td>
+
     <p>若要託管深層連結，請使用learningmanager。 如果您想使用其他主機名稱URL做為深層連結，請提供主機的URL。 例如， learningmanager.adobe.com。</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -169,6 +273,29 @@ ALM會根據下列時間表，提供已更新並標示為白色的二進位檔�
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## 取得App Store的團隊ID
+
+若要取得您的團隊ID：
+
+1. 登入您的&#x200B;**[!UICONTROL Apple Developer]**&#x200B;帳戶。
+2. 選取頁面頂端的&#x200B;**[!UICONTROL Membership Details]**，並複製您的團隊ID。
+
+若要在中繼資料檔案中新增白色標籤的應用程式專案，以啟用深層連結，此ID為必要專案。
+
+## 取得Android的SHA-256指紋
+
+新增白色標籤的應用程式專案時，需要Android簽署憑證的SHA-256指紋。
+
+若要產生SHA-256指紋：
+
+1. 執行以下命令：
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+在輸出中尋找憑證指紋，然後複製SHA-256值。 視需要共用此指紋以用於深層連結設定。
 
 ## 產生推播通知
 
@@ -221,7 +348,7 @@ Android和iOS都使用Firebase Cloud Messaging (FCM)作為傳送推播通知至�
 1. 移至&#x200B;**專案設定**&#x200B;並選取&#x200B;**雲端訊息**。
 1. 尋找&#x200B;**Firebase Cloud Messaging API**&#x200B;並選取&#x200B;**管理服務帳戶**。
 1. 在&#x200B;**服務帳戶**&#x200B;頁面中，選取左側面板中的&#x200B;**服務帳戶**。
-1. 尋找您的專案專案，然後選取[動作]下的[管理詳細資料] **&#x200B;**。
+1. 尋找您的專案專案，然後選取[動作]下的[管理詳細資料] ****。
 
    >[!NOTE]
    >
