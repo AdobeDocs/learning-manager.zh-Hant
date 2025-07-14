@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager發行說明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 6e26d7c8757eeebe9c34d60aa4cfeafbffb84da9
 workflow-type: tm+mt
-source-wordcount: '27090'
+source-wordcount: '27259'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,22 @@ Adobe Learning Manager現在為作者提供更清楚的選項來管理內容更�
 _Content update options_-->
 
 請參閱此[文章](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course)，瞭解內容庫的詳細資訊。
+
+## 流體播放器中的增強功能
+
+此發行版本為Adobe Learning Manager提供全新流體播放器，具有現代外觀和更直覺的學習體驗。 更新後的播放器具備更乾淨的介面、改良的導覽控制項，以及桌上型電腦和行動裝置間的一致設計。 學習者可以透過任何熒幕模式輕鬆存取內容並與內容互動，包括直向、橫向、全熒幕或標準檢視。
+
+* **已重新整理流體播放器外觀**：具有更新的UI元素的現代化外觀。
+* **改善的導覽控制項**：更順暢、更直覺的導覽，讓學習者獲得更好的體驗。
+* **最佳化設計**：透過桌上型電腦和行動裝置，增強外觀和可用性，支援直向、橫向、全熒幕和標準熒幕模式。
+
+所有透過Adobe Learning Manager存取內容的學習者（不論使用原生或Headless體驗），都會自動看見這些新的UI和導覽改良功能。 學習者可能會注意到與播放器的互動方式因更新版面和控制項而略有變更。
+
+>[!NOTE]
+>
+>此增強功能僅適用於靜態內容。
+
+請參閱此[文章](/help/migrated/learners/feature-summary/fluidic-player.md)以取得流體播放器的詳細資訊。
 
 ## 此版本中的錯誤已修正
 
@@ -909,7 +925,7 @@ Adobe Learning Manager **的** 2021年10月版本引進了學習路徑的概念�
 
 +++更新66 - 2021年8月發行的Learning Manager
 
-Adobe Learning Manager **的** 2021年8月&#x200B;**&#x200B;**&#x200B;版本著重於改善學習者體驗、報告及管理工作流程。 其中一些重點包括：
+Adobe Learning Manager **的** 2021年8月&#x200B;****&#x200B;版本著重於改善學習者體驗、報告及管理工作流程。 其中一些重點包括：
 
 * **內容市集：** Learning Manager現在提供超過70000門課程，來自不同的網域，例如技術、管理、領導力等。
 * **增強的協助工具支援：**&#x200B;對學習者角色的協助工具支援，透過增強的鍵盤導覽、熒幕助讀程式功能和對比率相容性，來增強協助工具。
@@ -1583,7 +1599,7 @@ Learning Manager現在會在您按一下Learning Manager支援的連結/URL時�
 
 學習者可開啟外部憑證並上傳資產，例如pdf、文字或影像檔案。
 
-如需詳細資訊，請參閱&#x200B;[***上傳外部憑證中的資產***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。**&#x200B;**
+如需詳細資訊，請參閱&#x200B;[***上傳外部憑證中的資產***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)。****
 
 ### 此版本中修正的問題 {#issuesfixedinthisrelease}
 
@@ -1902,7 +1918,7 @@ Learning Manager現在也可讓學習者使用SSO驗證進入虛擬工作階段�
 
 ### 新功能和增強功能 {#Newandenhancedfeatures-5}
 
-**內部和外部使用者在社交學習中的範圍分離**&#x200B;管理員可以為內部和外部學習者定義不同的範圍。 有兩個適用於內部和外部使用者的新區段。 在這兩個區段中，您都可以定義學習者群組的範圍。 對於內部使用者，您可以定義「使用者特性」的值。 對於外部使用者，您可以定義外部設定檔，學習者可以在其中共用相同的社交空間。 如需詳細資訊，請參閱&#x200B;[***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交限制建立社交看板**&#x200B;若要限制所有學習者建立看板並有效稽核看板，管理員可以將建立看板的許可權授予選取的使用者群組。 管理員可將討論區的建立限製為僅限選定群組，而非所有參與社交學習的學習者。 如需詳細資訊，請參閱&#x200B;[***展示板建立許可權***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅向學習者顯示空白的[作用中]欄位**&#x200B;管理員可以選擇顯示[作用中]欄位，或在填入值後隱藏欄位。 如需詳細資訊，請參閱&#x200B;[***使用者顯示區***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定的閒置期間被刪除**&#x200B;管理員可以設定內部學習者若在指定的閒置期間被刪除，則內部學習者會遭到刪除的持續時間（以天為單位）。 如需詳細資訊，請參閱&#x200B;***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)***。  **自訂頁尾的連結**&#x200B;管理員可以新增和自訂頁尾的連結。 您也可以針對各種地區設定自訂連結。 現有的在頁尾新增連絡人管理員連結的方法也可在&#x200B;**頁尾連結**&#x200B;區段中取得。 如需詳細資訊，請參閱&#x200B;[***自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)。
+**內部和外部使用者在社交學習中的範圍分離**&#x200B;管理員可以為內部和外部學習者定義不同的範圍。 有兩個適用於內部和外部使用者的新區段。 在這兩個區段中，您都可以定義學習者群組的範圍。 對於內部使用者，您可以定義「使用者特性」的值。 對於外部使用者，您可以定義外部設定檔，學習者可以在其中共用相同的社交空間。 如需詳細資訊，請參閱&#x200B;[***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交限制建立社交看板**&#x200B;若要限制所有學習者建立看板並有效稽核看板，管理員可以將建立看板的許可權授予選取的使用者群組。 管理員可將討論區的建立限製為僅限選定群組，而非所有參與社交學習的學習者。 如需詳細資訊，請參閱&#x200B;[***展示板建立許可權***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅向學習者顯示空白的[作用中]欄位**&#x200B;管理員可以選擇顯示[作用中]欄位，或在填入值後隱藏欄位。 如需詳細資訊，請參閱&#x200B;[***使用者顯示區***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定的閒置期間被刪除**&#x200B;管理員可以設定內部學習者若在指定的閒置期間被刪除，則內部學習者會遭到刪除的持續時間（以天為單位）。 如需詳細資訊，請參閱***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)***。  **自訂頁尾的連結**&#x200B;管理員可以新增和自訂頁尾的連結。 您也可以針對各種地區設定自訂連結。 現有的在頁尾新增連絡人管理員連結的方法也可在&#x200B;**頁尾連結**&#x200B;區段中取得。 如需詳細資訊，請參閱&#x200B;[***自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)。
 
 ### 此版本中的已知問題 {#Knownissuesinthisrelease-2}
 
@@ -2585,7 +2601,7 @@ Fluidic Player增強功能僅適用於視訊。
 
 ### 增強功能 {#enhancement}
 
-在此更新中，Learning Manager會提供端點[PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新應用程式中的使用者。 您可以在管理員角色中存取此API端點。 使用&#x200B;**&#x200B;**&#x200B;端點，您可以更新Learning Manager使用者的下列資訊：
+在此更新中，Learning Manager會提供端點[PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#！/user/patch_users_id)更新應用程式中的使用者。 您可以在管理員角色中存取此API端點。 使用****端點，您可以更新Learning Manager使用者的下列資訊：
 
 * 名稱
 * 電子郵件
@@ -3095,7 +3111,7 @@ Learning Manager可讓您將徽章匯出為PDF檔案。 如需詳細資訊，請
 
 **電子郵件範本**
 
-* 用來代表外部群組的字詞&#x200B;**合作夥伴** **&#x200B;**&#x200B;已&#x200B;**&#x200B;**&#x200B;從電子郵件範本內文和標題中移除。 外部群組不一定稱為合作夥伴。\
+* 用來代表外部群組的字詞&#x200B;**合作夥伴** ****&#x200B;已&#x200B;****&#x200B;從電子郵件範本內文和標題中移除。 外部群組不一定稱為合作夥伴。\
   **注意：**&#x200B;如果已修改預設範本，則不會顯示此更新的範本。 若要檢視更新的範本，請在&#x200B;**範本預覽**&#x200B;對話方塊中按一下&#x200B;**還原為原始**。
 
 * 管理員收到的電子郵件中，每當&#x200B;**建立的設定檔（自我註冊）**&#x200B;和&#x200B;**建立的設定檔（外部/合作夥伴）**&#x200B;電子郵件範本編輯時，URL都無法點選。 此問題已修正。
