@@ -2,9 +2,9 @@
 title: Adobe Learning Manager近期變更
 description: 瞭解Adobe Learning Manager即將推出的新功能、改善和重要更新。 隨時瞭解最新的增強功能，讓您提前規劃並充分運用最新增強功能。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
+source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '651'
 ht-degree: 2%
 
 ---
@@ -109,3 +109,5 @@ ht-degree: 2%
 
 * 報表格式將維持不變。 如果自訂管理員從使用者介面下載，則報告內容將受其範圍限制。
 * 若此報告未用於任何自動化或下游工作流程，則不需要進行修改。
+
+請參閱[發行說明](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)文章，以取得Adobe Learning Manager新功能和變更的累積清單。
