@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 648cd1e17aa0e5b95b8454d136accc4b7a054d97
+source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '688'
 ht-degree: 3%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 3%
    * [建立和修改技能與層級](administrators/feature-summary/skills-levels.md)
    * [以AI為基礎的課程推薦](ai-based-recommendations.md)
    * [匯入技能](administrators/feature-summary/import-skills-external-sources.md)
-   * [遊戲](administrators/feature-summary/gamification.md)
+   * [gamification](administrators/feature-summary/gamification.md)
    * [自訂學習者首頁](administrators/feature-summary/customize-learner-homepage.md)
    * [徽章](administrators/feature-summary/badges.md)
    * [顏色主題](administrators/feature-summary/themes.md)
@@ -137,7 +137,7 @@ ht-degree: 3%
    * [ALM中的多專案購物車](learners/feature-summary/multi-item-cart.md)
    * [徽章](learners/feature-summary/badges.md)
    * [技能與等級](learners/feature-summary/skills-levels.md)
-   * [遊戲](learners/feature-summary/gamification.md)
+   * [gamification](learners/feature-summary/gamification.md)
    * [使用者通知](learners/feature-summary/user-notifications.md)
    * [公告](learners/feature-summary/announcements.md)
    * [輪候表與出勤管理](learners/feature-summary/waitlist-attendance-management.md)
@@ -167,6 +167,7 @@ ht-degree: 3%
    * [學習者常見問題集](learners/frequently-asked-questions-for-learners.md)
    * [最新experience league公告](/help/migrated/new-experience-league-announcement.md)
    * [如何在Experience League上提交支援票證](/help/migrated/how-to-submit-support-ticket.md)
+   * [在Adobe Learning Manager中建立試用帳戶](/help/migrated/create-trial-account.md)
 * 知識庫 {#knowledge-base}
    * [無法登入Learning Manager](kb/unable-log-in-learning-manager.md)
    * [學習摘要不顯示目前的資料](kb/learning-summary-not-display-data.md)
