@@ -122,7 +122,7 @@ _Content update options_-->
 
 * 修正內容模組更新為新版本後，完成課程的學習者重新造訪此課程時，看到白色畫面的問題。
 
-此外，如需Adobe Learning Manager近期變更的詳細資訊，請參閱此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，如需Adobe Learning Manager近期變更的詳細資訊，請參閱此[文章](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 

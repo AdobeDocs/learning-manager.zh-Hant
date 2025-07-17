@@ -110,4 +110,4 @@ ht-degree: 2%
 * 報表格式將維持不變。 如果自訂管理員從使用者介面下載，則報告內容將受其範圍限制。
 * 若此報告未用於任何自動化或下游工作流程，則不需要進行修改。
 
-請參閱[發行說明](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)文章，以取得Adobe Learning Manager新功能和變更的累積清單。
+請參閱[發行說明](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/introduction/release-notes)文章，以取得Adobe Learning Manager新功能和變更的累積清單。
