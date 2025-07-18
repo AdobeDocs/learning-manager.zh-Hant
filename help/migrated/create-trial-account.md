@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: 在Adobe Learning Manager中設定試用、沙箱或測試帳戶
 description: 瞭解如何在Adobe Learning Manager中建立免費的30天試用版或沙箱帳戶。 請依照簡單的步驟設定測試環境，並快速上手。
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
+source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
 workflow-type: tm+mt
 source-wordcount: '154'
 ht-degree: 0%
 
 ---
-
 
 # 在Adobe Learning Manager中建立試用帳戶
 
@@ -40,3 +40,4 @@ ht-degree: 0%
 7. 設定完成後，請在Adobe Learning Manager URL的URL中找到您的帳戶ID。
 
    ![](assets/account-id-trial.png)
+
