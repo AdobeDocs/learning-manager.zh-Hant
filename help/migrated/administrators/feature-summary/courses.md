@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程例項和學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '5480'
+source-wordcount: '5479'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 * 選取您要移除的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **移除**]。
 * 選取您要標示出席的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **標示完成**]。
 
-若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL **&#x200B;**] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
+若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL ****] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
 
 您也可以匯出Excel工作表中的學習者清單。 若要匯出學習者清單，請按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **匯出**]。
 
@@ -243,7 +243,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 使用Adobe Learning Manager的大量註冊功能，管理員可以上傳CSV檔案，有效率地將大量學習者群組註冊到課程、認證或學習計畫中。 此程式可節省時間、確保一致性，並支援組織擴充能力。 此外，管理員和講師可透過CSV上傳大量更新學習者資訊、出勤和完成，儘量減少手動工作並確保資料準確性。
 
-您可以使用相同的CSV檔案格式來註冊、出席和完成。 在「電子郵件」欄下輸入學習者電子郵件ID，並根據動作使用名稱儲存檔案，例如bulk_enrollment.csv、bulk_auditor.csv或bulk_completion.csv。 僅支援CSV格式。 不支援UTF-8格式。 在此下載範例csv [](assets/Sample-Bulk-Action-CSV.csv)。
+您可以使用相同的CSV檔案格式來註冊、出席和完成。 在「電子郵件」欄下輸入學習者電子郵件ID，並根據動作使用名稱儲存檔案，例如bulk_enrollment.csv、bulk_auditor.csv或bulk_completion.csv。 僅支援CSV格式。 不支援UTF-8格式。 下載[範例csv](assets/Sample-Bulk-Action-CSV.csv)。
 
 ### 使用csv大量註冊學習者
 
@@ -253,7 +253,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 
 1. 以管理員身分登入。
 2. 從&#x200B;**[!UICONTROL Courses]**&#x200B;區段選取課程。
-3. 在&#x200B;**[!UICONTROL Course Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Learners]**。
+3. 在&#x200B;**[!UICONTROL Learners]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Course Overview]**。
 4. 選取&#x200B;**[!UICONTROL Enroll]**，然後選取&#x200B;**[!UICONTROL Upload a CSV]**。\
    ![](assets/upload-a-csv-learners.png)
    _使用CSV上傳註冊學習者_
@@ -268,7 +268,7 @@ CSV檔案包含標籤為「使用者電子郵件」的欄。 在此欄位中輸�
 若要標籤大量完成，請執行下列動作：
 
 1. 從&#x200B;**[!UICONTROL Courses]**&#x200B;區段選取課程。
-2. 在&#x200B;**[!UICONTROL Course Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Learners]**。
+2. 在&#x200B;**[!UICONTROL Learners]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Course Overview]**。
 3. 選取&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Mark Completion]**。
 4. 選取&#x200B;**[!UICONTROL Bulk]**。
 5. 上傳內含userEmail欄的CSV檔案，該欄會列出完成課程的學習者。
@@ -283,7 +283,7 @@ CSV檔案包含標籤為「使用者電子郵件」的欄。 在此欄位中輸�
 若要標籤大量出席，請執行下列動作：
 
 1. 從&#x200B;**[!UICONTROL Courses]**&#x200B;區段選取課程。
-2. 在&#x200B;**[!UICONTROL Course Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Attendance & Scoring]**。
+2. 在&#x200B;**[!UICONTROL Attendance & Scoring]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Course Overview]**。
 3. 選取&#x200B;**[!UICONTROL Actions]**，然後選取&#x200B;**[!UICONTROL Mark Bulk Attended]**。
 4. 上傳包含使用者電子郵件欄的CSV檔案，該欄含有您要更新其出席情況的學習者的電子郵件地址。
 
@@ -332,7 +332,7 @@ Adobe Learning Manager可讓管理員下載課程所有執行個體的輪候學�
 
 1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
 2. 前往&#x200B;**[!UICONTROL Course]**&#x200B;區段並選取必要的課程。
-3. 在&#x200B;**[!UICONTROL Course overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Waitlist]**&#x200B;選項。
+3. 在&#x200B;**[!UICONTROL Waitlist]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Course overview]**&#x200B;選項。
 4. 選取&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Export Report]**&#x200B;以下載&#x200B;**[!UICONTROL Waitlist]**&#x200B;報告。
 
    ![](assets/export-report-waitlist.png)
@@ -585,10 +585,10 @@ CSV報表包含以下欄位：
 管理員可以在&#x200B;**[!UICONTROL Default Instance]**&#x200B;頁面中設定預設徽章、gamification設定和提醒。 若要修改預設的執行個體設定，請選取&#x200B;**[!UICONTROL Default Instance]** > **[!UICONTROL Edit]**。
 
 * **[!UICONTROL Badge]**：從下拉式選單中選取預設徽章。
-* **[!UICONTROL Gamification]**：設定遊戲化設定，包括完成點、提早完成點和即時完成點。 管理員可以選擇選取帳戶層級設定或自訂此執行個體的gamification點。
+* **[!UICONTROL Gamification]**：設定gamification設定，包括完成點、提早完成點和及時完成點。 管理員可以選擇選取帳戶層級設定或自訂此執行個體的gamification點。
 * **[!UICONTROL L1 Reaction Feedback]**：在課程完成後，為學習者意見啟用預先定義的問題，並附上讓問題成為必要問題的選項。
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
-***[!UICONTROL &#x200B; Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
+***[!UICONTROL  L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
+***[!UICONTROL  Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
 
 ### 設定向上呈報級別 {#escalation}
 
