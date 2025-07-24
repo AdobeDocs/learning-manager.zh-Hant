@@ -4,9 +4,9 @@ title: 支援自訂網域
 description: Learning Manager的Azure執行個體不支援自訂網域。
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
@@ -32,9 +32,11 @@ Learning Manager的Azure執行個體不支援自訂網域。
 
 * 對於學習者角色，網域將以`https://cdn.<customer_custom_domain>/`開頭，例如`https://cdn.elearningstage1.cpdomaintest.in/`
 * 對於所有其他角色，網域將以`https://<customer_custom_domain>/`開頭。 例如， `https://elearningstage1.cpdomaintest.in/`
-* 實際的登入URL將是`https://<customer_custom_domain>/acapindex`或`https://<customer_custom_domain>/login`。 將`<customer_custom_domain>`取代為您組織的實際網域。
+* 實際的登入URL將是`https://<customer_custom_domain>/acapindex`或`https://<customer_custom_domain>/login`。
 
-`<customer_custom_domain>`是可自訂的零件。
+>[!NOTE]
+>
+>將`<customer_custom_domain>`取代為您組織的實際網域。
 
 ## 如何在帳戶上設定自訂網域 {#howtosetupacustomdomainonanaccount}
 
