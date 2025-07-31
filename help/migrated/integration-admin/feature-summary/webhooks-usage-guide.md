@@ -4,7 +4,7 @@ title: Webhooks使用指南
 description: 瞭解Webhook使用方式、最佳實務和限制
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
+source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
 workflow-type: tm+mt
 source-wordcount: '3360'
 ht-degree: 0%
@@ -199,7 +199,7 @@ Adobe Learning Manager可確保為每個帳戶排序事件。 但是，在關聯
 
 若學習物件是透過移轉等工作流程大量建立的，應使用此方法。 目標是使用所有內嵌為移轉工作流程一部分的學習物件來產生&#x200B;**[!UICONTROL Training Data]**&#x200B;報表。 若要最佳化匯入程式，建議將匯出開始時間設為觸發移轉的時間。 這將確保報表中只會匯出透過移轉傳入的學習物件，因為客戶的資料庫中已有歷史資料。
 
-#### 從公用APIGET/learningObjects — 管理員範圍查詢資訊
+#### 從公用API GET /learningObjects — 管理員範圍查詢資訊
 
 透過即時工作流程建立學習物件時，應使用此方法。 客戶應擁有自己的快取層，以批次處理透過事件發出的學習物件，然後傳遞這些學習物件ID以查詢`GET /learningObjects` API。 具有快取層的原因是為了確保不會超過公用API速率限制。 目前，我們將` GET /learningObject` API的管理員速率限制設為每小時500個請求。 如果超過此限制，公用API服務將會回應&#x200B;**HTTP 429太多要求訊息**。
 
@@ -209,7 +209,7 @@ Adobe Learning Manager可確保為每個帳戶排序事件。 但是，在關聯
 
 在某些情況下，需要執行個體名稱、狀態等額外的執行個體資料。 若要擷取其他執行個體資料，請遵循以下方法：
 
-#### 從public-apiGET/learningobjects — 管理範圍查詢資訊
+#### 從public-api GET /learningobjects — 管理範圍查詢資訊
 
 客戶可使用如上所述的`GET /learningObjects` API，以及包含以擷取執行個體相關資訊的執行個體。 他們仍應遵循[區段](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md#query-the-information-from-the-public-api-get-learningobjects-admin-scope)中提及的方法，以確保未違反速率限制。
 
@@ -227,9 +227,9 @@ Adobe Learning Manager可確保為每個帳戶排序事件。 但是，在關聯
 
 每當涉及大量工作流程時（例如大量註冊、大量取消註冊等），都應遵循此方法。 Adobe Learning Manager的使用者報表包含與使用者相關的所有資訊。 透過將從webhook事件取得的`userId`建立關聯，客戶可以查詢此報告（可能在客戶端公開為資料庫、快取或API端點）以擷取其他詳細資訊，例如名稱、電子郵件、UUID等。 此方法可用來每週或每天同步使用者。
 
-#### 從公用APIGET/users — 管理範圍查詢資訊
+#### 從公用API查詢資訊GET /users — 管理範圍
 
-當使用者無法在上述報告中使用時，可遵循此方法。 方法1和2的組合可確保過去建立的所有現有使用者都可由&#x200B;**[!UICONTROL User Report]**&#x200B;涵蓋，同時仍可從API擷取新建立的使用者。 如果&#x200B;**[!UICONTROL User Report]**&#x200B;沒有資料，客戶可以將userIds作為輸入引數傳送至`GET /users` API以擷取使用者資訊。 這些資訊應在客戶端快取，以防止同一組使用者重複叫用公開API。 請注意，我們目前將GET/使用者API的管理員速率限制設定為每小時500個請求。 超過此限制的任何請求都將導致&#x200B;**HTTP 429太多請求**&#x200B;回應。
+當使用者無法在上述報告中使用時，可遵循此方法。 方法1和2的組合可確保過去建立的所有現有使用者都可由&#x200B;**[!UICONTROL User Report]**&#x200B;涵蓋，同時仍可從API擷取新建立的使用者。 如果&#x200B;**[!UICONTROL User Report]**&#x200B;沒有資料，客戶可以將userIds作為輸入引數傳送至`GET /users` API以擷取使用者資訊。 這些資訊應在客戶端快取，以防止同一組使用者重複叫用公開API。 請注意，我們目前將GET /users API的管理員速率限制設定為每小時500個請求。 超過此限制的任何請求都將導致&#x200B;**HTTP 429太多請求**&#x200B;回應。
 
 ## 容錯
 
@@ -566,7 +566,7 @@ ALM的連線逾時設定為10秒，通訊端逾時設定為5秒。 預期使用�
   "events": [
     {
       "eventId": "123472ec1-4576-4ec5-a057-3a6f078cc9d6",
-      "eventName": "COURSE_ENROLLMENT_BATCH",
+      "eventName": "CERTIFICATION_ENROLLMENT_BATCH",
       "timestamp": "2024-11-08T03:49:52.000Z",
       "eventInfo": "1234524713000-040366-10488-0",
       "data": {
