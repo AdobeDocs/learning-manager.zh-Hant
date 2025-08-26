@@ -876,7 +876,7 @@ Go1整合已增強，可支援播放清單管理、學習路徑建立和循環�
    _在Adobe Learning Manager中選取「內容市集」，以探索並將熱門的Go1課程新增至您的播放清單_
 
 3. 選取&#x200B;**[!UICONTROL Content Hub]**，然後選取&#x200B;**[!UICONTROL Library]**。
-4. 選取&#x200B;**[!UICONTROL Create playlist]**並從下列選項中選擇：
+4. 選取&#x200B;**[!UICONTROL Create playlist]**&#x200B;並從下列選項中選擇：
 a. **[!UICONTROL with AI]**：藉助AI建立播放清單。
 b. **[!UICONTROL by myself]**：手動新增課程以建立播放清單。
 
