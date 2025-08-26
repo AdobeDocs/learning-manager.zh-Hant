@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 管理工作階段的學習者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 ### 輪候表報告
 
-Adobe Learning Manager的新&#x200B;**[!UICONTROL Waitlist Report]**&#x200B;可讓講師下載課程所有執行個體的輪候學習者清單。 講師可以從&#x200B;**[!UICONTROL Session Overview]**&#x200B;頁面上的&#x200B;**[!UICONTROL Waitlist]**&#x200B;區段存取此報告。
+Adobe Learning Manager的新&#x200B;**[!UICONTROL Waitlist Report]**&#x200B;可讓講師下載課程所有執行個體的輪候學習者清單。 講師可以從&#x200B;**[!UICONTROL Waitlist]**&#x200B;頁面上的&#x200B;**[!UICONTROL Session Overview]**&#x200B;區段存取此報告。
 
 依照輪候表報表中的可用欄執行：
 
@@ -65,7 +65,7 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL Waitlist Report]**&#x200B;可�
 
 1. 以&#x200B;**[!UICONTROL Instructor]**&#x200B;登入。
 2. 從首頁選取任何階段作業。
-3. 在&#x200B;**[!UICONTROL Session Overview]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Waitlist]**&#x200B;選項。
+3. 在&#x200B;**[!UICONTROL Waitlist]**&#x200B;頁面中選取&#x200B;**[!UICONTROL Session Overview]**&#x200B;選項。
 4. 選取&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Export Report]**&#x200B;以下載&#x200B;**[!UICONTROL Waitlist]**&#x200B;報告。
 
 ## 標籤工作階段的出席情況 {#markattendanceforyoursession}
@@ -83,6 +83,26 @@ Adobe Learning Manager的新&#x200B;**[!UICONTROL Waitlist Report]**&#x200B;可�
 
    ![](assets/markattendance.png)
    *標籤學習者出席情況*
+
+## 標籤學習者成功
+
+講師可直接從學習者頁面將每個學習者的成功狀態標示為「通過」或「失敗」。 此功能可讓講師根據學習者的學習成績，準確記錄教室或虛擬教室工作階段的結果。
+
+若要標籤學習者成功：
+
+1. 以講師身分登入Adobe Learning Manager。
+2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Upcoming Sessions]**。
+3. 選取&#x200B;**[!UICONTROL Learners]**。
+4. 選取學習者，然後選取&#x200B;**[!UICONTROL Actions]**。
+5. 從下列選項中選擇任何選項，標籤所選學習者的成功：
+
+   * **[!UICONTROL Mark Attended and Pass]**：標示為「通過」的學習者已順利完成模組。
+   * **[!UICONTROL Mark Attended and Fail]**：標示為失敗的學習者已完成模組但未通過。
+
+   ![「動作」下拉式功能表會醒目提示「標示已出席及通過」和「標示已出席及失敗」選項，供講師設定每個學習者的成功狀態](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _學習者頁面顯示「動作」功能表，其中的「標示已參加」和「通過測試」以及「標示已參加」和「失敗」選項會強調顯示，以記錄學習者結果_
+
+6. 在確認提示中選取&#x200B;**[!UICONTROL Yes]**。
 
 ## 傳送電子郵件給學習者 {#sendemailstolearners}
 

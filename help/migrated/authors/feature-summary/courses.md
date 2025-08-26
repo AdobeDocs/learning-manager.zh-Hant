@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立、修改和發佈課程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7030'
+source-wordcount: '7172'
 ht-degree: 0%
 
 ---
@@ -132,15 +132,15 @@ Adobe Learning Manager可讓作者使用一或多個與虛擬訓練、自控進�
 >
 >作者也可以編輯合規性標籤，將其新增至現有的課程/學習路徑/認證。
 
-## 遊戲點數
+## gamification點
 
-您可以在課程和課程例項層級分配遊戲點數。 透過此專案，您可以將分數授予不同的課程或例項。 學習者被激勵參加特定課程或偏好特定課程例項，而不是其他人。
+您可以在課程和課程例項層級分配gamification點。 透過此專案，您可以將分數授予不同的課程或例項。 學習者被激勵參加特定課程或偏好特定課程例項，而不是其他人。
 
 1. 在課程執行個體層級，選取&#x200B;**[!UICONTROL Gamification Points]**。
 
-![遊戲點數](assets/select-gamification-points-new.png)
+![gamification點數](assets/select-gamification-points-new.png)
 
-*設定遊戲點數*
+*為gamification設定點*
 
 1. 選取&#x200B;**[!UICONTROL Edit]**。
 1. 如果您選取「使用課程層級設定」 ，下列選項就會顯示：
@@ -159,7 +159,7 @@ Adobe Learning Manager可讓作者使用一或多個與虛擬訓練、自控進�
       * **[!UICONTROL Early completion]**：如果選取此專案，您可以決定會獲得指定分數的學習者數目。
       * **[!UICONTROL Timely completion]**：若您選取此項，您可以決定學員在指定時間內完成課程後可獲得的點數。
 
-   ![遊戲點數](assets/gamification-custom-settings.png)
+   ![gamification點數](assets/gamification-custom-settings.png)
 
    *設定提早及時完成*
 
@@ -493,7 +493,7 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 作者可以在活動模組中新增HTML連結，並設定完成條件。 若要新增HTML連結及設定完成條件，請依照下列步驟進行：
 
 1. 在作者應用程式中，選取首頁上的&#x200B;**[!UICONTROL Create Courses]**。
-1. 從&#x200B;**[!UICONTROL Course Catalog]**&#x200B;畫面選取&#x200B;**[!UICONTROL Add]**
+1. 從&#x200B;**[!UICONTROL Add]**&#x200B;畫面選取&#x200B;**[!UICONTROL Course Catalog]**
 1. 輸入課程的名稱和說明。
 1. 在&#x200B;**[!UICONTROL Module]**&#x200B;選項中，選取&#x200B;**[!UICONTROL Add Module]** > **[!UICONTROL Activity Module]**。
 1. 在&#x200B;**[!UICONTROL Activity Module]**&#x200B;提示字元中，輸入名稱和描述。
@@ -599,6 +599,26 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
    *指派講師角色給使用者*
 
 1. 若要重新發佈包含更新的課程，請按一下&#x200B;**[!UICONTROL Republish]**。
+
+### 允許講師標籤課程通過
+
+Adobe Learning Manager可讓講師在教室或虛擬教室模組中標籤學習者的成功狀態。 作者可在建立教室或虛擬教室模組時，授予講師許可權以標籤學習者的成功狀態。 講師可將學習者標示為「通過」或「失敗」，確保進度依此更新，以標籤成功。
+
+若要允許講師標籤學習者是否成功：
+
+1. 以作者身分登入Adobe Learning Manager。
+2. 在首頁上選取&#x200B;**[!UICONTROL Create Courses]**。
+3. 選取&#x200B;**[!UICONTROL Add]**。
+4. 輸入必要的詳細資料，然後選取&#x200B;**[!UICONTROL Add Modules]**。
+5. 選取&#x200B;**[!UICONTROL Virtual Classroom Module]**&#x200B;或&#x200B;**[!UICONTROL Classroom Module]**。
+6. 輸入必要的詳細資訊並選取日期。
+7. 選取&#x200B;**[!UICONTROL Allow Instructor to mark success]**&#x200B;選項。
+
+   ![ 「是否允許講師標籤課程通過？」 核取方塊會反白顯示，讓作者讓講師記錄模組](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)的學習者成功狀態
+   _工作階段詳細資訊畫面，允許講師標籤教室或虛擬教室模組強調的成功選項_
+
+8. 選取&#x200B;**[!UICONTROL Done]**。
+
 
 ## 觀察檢查清單
 
@@ -805,7 +825,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 1. 使用Adobe憑證登入。 如果您沒有Adobe ID，請按一下&#x200B;**[!UICONTROL Create Account]**。 獲得授權後，您會被導向模組發佈頁面。
 1. 提供模組的所有基本資訊，然後按一下發佈。
 
-您可以在Learning Manager模組頁面上看到已發佈的模組。 如需詳細資訊，請參閱[將專案發佈到Adobe Learning Manager](https://helpx.adobe.com/tw/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在Learning Manager模組頁面上看到已發佈的模組。 如需詳細資訊，請參閱[將專案發佈到Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 課程效果 {#courseeffectiveness}
 
@@ -863,7 +883,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 
 +++
 
-+++如何結合課程？
++++如何合併課程？
 
 您可以透過學習計畫合併課程。
 
