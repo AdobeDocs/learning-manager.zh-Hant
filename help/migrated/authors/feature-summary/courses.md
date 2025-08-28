@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立、修改和發佈課程
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '7172'
+source-wordcount: '7280'
 ht-degree: 0%
 
 ---
@@ -513,6 +513,24 @@ RTF文字是由HTML標籤所組成。 以原樣呈現標籤會導致瀏覽器套
 
 考慮評估店舖員工或倉庫員工，以評估他們應每天執行的作業。 這可以是修復咖啡機的步驟，或包裝材料的步驟。 講師可依據檢查清單評估員工此類工作，並在評估活動中將其評估為「通過」或「失敗」。
 
+### 取代已發佈課程中的模組
+
+Adobe Learning Manager為作者提供建立、編輯及管理由多個內容模組組成的課程的工具。 當課程內容需要更新或改進時，作者可以取代現有模組而不會中斷學習者進度。
+
+若要取代模組：
+
+1. 以作者身分登入Adobe Learning Manager。
+2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Courses]**。
+3. 選取任一課程，然後選取&#x200B;**[!UICONTROL Edit]**。
+4. 選取您要變更的模組。
+5. 變更標題和說明。
+6. 使用&#x200B;**Content**選項選取模組。
+   ![](assets/replace-the-module.png)
+7. 選取&#x200B;**[!UICONTROL Done]**。
+8. 選取&#x200B;**[!UICONTROL Republish]**。
+
+學習者將在其他模組中保持進度，但需要完成新模組才能完成課程。
+
 ### 建立檢查清單 {#createachecklist}
 
 只有作者才能建立檢查清單。 檢查清單是一種活動模組。 設定活動模組時，身為作者的您可以選取活動作為&#x200B;**檢查清單**，如下所示：
@@ -825,7 +843,7 @@ Adobe Learning Manager讓您更容易快速找到您選擇的課程。 您可以
 1. 使用Adobe憑證登入。 如果您沒有Adobe ID，請按一下&#x200B;**[!UICONTROL Create Account]**。 獲得授權後，您會被導向模組發佈頁面。
 1. 提供模組的所有基本資訊，然後按一下發佈。
 
-您可以在Learning Manager模組頁面上看到已發佈的模組。 如需詳細資訊，請參閱[將專案發佈到Adobe Learning Manager](https://helpx.adobe.com/tw/captivate/classic/publish-project-to-captivate-prime.html)。
+您可以在Learning Manager模組頁面上看到已發佈的模組。 如需詳細資訊，請參閱[將專案發佈到Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)。
 
 ## 課程效果 {#courseeffectiveness}
 

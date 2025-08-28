@@ -4,22 +4,22 @@ jcr-language: en_us
 title: 顏色主題
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
 
 # 顏色主題
 
-顏色學習管理器中的主題和品牌
+Learning Manager中的色彩主題與品牌
 
-學習管理員使你能夠更改應用程式的外觀以符合組織的品牌化要求。
+Learning Manager可讓您變更應用程式的外觀，以符合貴組織的品牌需求。
 
-## 自定義您的用戶介面
+## 自訂您的使用者介面
 
-在本培訓中，您將探索自定義介面外觀以使其與組織的品牌化要求相匹配的方法。
+在本次訓練中，您將探索自訂介面外觀的方法，以符合組織的品牌需求。
 
 [![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 Learning Manager應用程式為其使用者提供五個顏色主題選項：
 
-* Prime 預設
+* Prime預設
 * 鵝卵石
 * 嘉年華
 * 秋季
@@ -65,23 +65,23 @@ Learning Manager應用程式為其使用者提供五個顏色主題選項：
 
 *自訂佈景主題的色彩*
 
-您可以自定義主題的頂部欄顏色、主題色（例如，左窗格中的圖示顏色）、原色和側邊欄亮度，但 Prime 預設主題除外。
+您可以自訂「佈景主題」的頂端列色彩、輔色（例如左窗格中的圖示色彩）、主要色彩和側邊欄亮度，但Prime預設佈景主題除外。
 
-在選取器中 **[!UICONTROL Primary color]** ，可以選擇用於沉浸式UI的顏色。
+在&#x200B;**[!UICONTROL Primary color]**&#x200B;選擇器中，您可以選擇用於沈浸式UI的色彩。
 
-要自定義，請在左側窗格中選擇主題類型，然後按兩下顏色和側邊欄圖示顏色旁邊的方塊品牌。 按兩下側邊欄亮度的側邊欄，向前或向後拖動以調節亮度。 修改這些選項時，請注意上圖中的預覽。
+若要自訂，請在左窗格中選擇主題型別，然後按一下品牌顏色和側邊欄圖示顏色旁的方塊。 按一下側邊欄亮度中的側邊欄，向前或向後拖曳以調整亮度。 修改這些選項時，請觀察上述影像中的預覽。
 
-按兩下 **[!UICONTROL Reset Theme]** 以恢復主題的原始設置。 完成變更后按兩下 **[!UICONTROL Save]** 。
+按一下&#x200B;**[!UICONTROL Reset Theme]**&#x200B;以還原主題的原始設定。 完成變更後，請按一下&#x200B;**[!UICONTROL Save]**。
 
-**實時預覽**
+**即時預覽**
 
-按兩下 **[!UICONTROL Live Preview]** 主題部分的左下角。 此時將顯示一個快顯視窗，如下所示：
+按一下「佈景主題」區段左下角的&#x200B;**[!UICONTROL Live Preview]**。 此時會出現快顯視窗，如下所示：
 
 ![](assets/live-theme-preview.png)
 
-*現場預覽快顯視窗*
+*即時預覽快顯視窗*
 
-從下拉清單中選擇您選擇的主題，調整設置並按下以 **[!UICONTROL Preview]** 視圖更改 即時在您的應用程式中。 現在，您可以瀏覽應用程式的所有功能並見證更改。 您還可以在進行即時預覽時更改角色。 在您滿意變更後，可以回到即時佈景主題預覽快顯功能並按一下&#x200B;**[!UICONTROL Apply Theme]**。
+從下拉式清單中選擇您選擇的主題，調整設定並按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以檢視應用程式中的即時變更。 現在，您可以瀏覽應用程式的所有功能並見證變更。 您也可以在進行即時預覽時變更您的角色。 在您滿意變更後，可以回到即時佈景主題預覽快顯功能並按一下&#x200B;**[!UICONTROL Apply Theme]**。
 
 當您以即時方式預覽變更時，即時佈景主題預覽快顯視窗仍會顯示在畫面底部。 您可以選擇將快顯視窗最小化。
 
@@ -90,29 +90,29 @@ Learning Manager應用程式為其使用者提供五個顏色主題選項：
 以下說明如何實作多個品牌：
 
 1. 在管理員應用程式上，選取左窗格中的&#x200B;**品牌**。
-1. 在“多個品牌”部分中選擇 **編輯** 。
-1. 選擇切換按鈕並啟用它。
+1. 在「多重品牌」區段中選取&#x200B;**編輯**。
+1. 選取切換按鈕並加以啟用。
 
 ### 內部使用者
 
-1. 從下拉清單中選擇一個活動欄位。
-1. 根據選擇，您可以更改組織的名稱併為使用者上傳新徽標。
+1. 從下拉式清單中選取使用中的欄位。
+1. 您可以根據選取的專案變更組織名稱，並為使用者上傳新的標誌。
 
 ### 外部使用者
 
-1. 從下拉清單中選擇一個活動欄位。
-1. 根據選擇，您可以更改組織的名稱併為使用者上傳新徽標。
+1. 從下拉式清單中選取使用中的欄位。
+1. 您可以根據選取的專案變更組織名稱，並為使用者上傳新的標誌。
 
 >[!NOTE]
 >
->內部使用者可以將活動欄位按讚外部使用者（例如，管理員必須通過單獨選擇活動欄位值來分別為內部使用者和外部使用者添加多品牌化。
+>內部使用者可以有作用中的欄位，例如外部使用者（例如，管理員必須透過分別選取作用中的欄位值，為內部使用者和外部使用者分別新增多品牌）。
 
 >[!INFO]
 >
->查看此 [博客](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) 以獲取更多資訊。
+>如需詳細資訊，請參閱此[部落格](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/)。
 
 
-#### 點注意事項
+#### 要註記的點
 
 * 管理員可以為此作用中欄位值新增多階層品牌，外部使用者可以使用不同的機制登入(SSO單一（Okta、迷你橙色）、社交登入)，並檢查多品牌是否適用。
 * 外部使用者具有作用中欄位和作用中欄位值，例如內部使用者：即使它是共用的，管理員必須在多品牌中個別指定。 套用後，外部使用者可以使用不同的機制登入(SSO單一（Okta、迷你橙色）、社交登入)，並檢查多品牌推廣是否適用。
@@ -125,9 +125,9 @@ Learning Manager應用程式為其使用者提供五個顏色主題選項：
 
 ## 自訂您的帳戶 {#customize}
 
-Adobe Systems學習管理器允許您自定義帳戶以提供增強使用者體驗。
+Adobe Learning Manager可讓您自訂帳戶，以提供增強的使用者體驗。
 
-下面的清單顯示可以自定義的元件。 若要自定義帳戶，請聯繫學習管理器  [支援](mailto:captivateprimesupport@adobe.com)。
+下列清單顯示可自訂的元件。 若要自訂帳戶，請連絡Learning Manager [支援](mailto:captivateprimesupport@adobe.com)。
 
 <table>
  <tbody>
@@ -172,10 +172,10 @@ Adobe Systems學習管理器允許您自定義帳戶以提供增強使用者體�
   </tr>
   <tr>
    <td>
-    <p>字體</p></td>
+    <p>字型</p></td>
    <td>
-    <p>若要套用字型，需要 CDN。 此外，您必須共用要應用的字型族。</p>
-    <p><b>注意：</b> 所有瀏覽器都必須支援 字型 系列。</p></td>
+    <p>管理員可以透過<a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a>聯絡Adobe Learning Manager支援團隊以變更字型。 若要套用字型，必須有CDN。 此外，您必須共用要套用的字型系列。</p>
+    <p><b>注意：</b>所有瀏覽器都必須支援字型系列。</p></td>
   </tr>
   <tr>
    <td>
@@ -191,11 +191,11 @@ Adobe Systems學習管理器允許您自定義帳戶以提供增強使用者體�
  </tbody>
 </table>
 
-## 設定推薦 {#configurerecommendationsettings}
+## 設定建議設定 {#configurerecommendationsettings}
 
-在“品牌>**&#x200B;**&#x200B;常規&#x200B;**”上**，您可以為內部和外部學習者配置推薦範圍，並允許學習者在學習者主頁上選擇技能。
+在&#x200B;**品牌** > **一般**&#x200B;上，您可以為內部和外部學習者設定建議範圍，並讓學習者在學習者首頁上選擇技能。
 
-在 **常規** 頁面上，您有以下選項：
+在&#x200B;**一般**&#x200B;頁面上，您有以下選項：
 
 <table>
  <tbody>
@@ -203,11 +203,11 @@ Adobe Systems學習管理器允許您自定義帳戶以提供增強使用者體�
    <td>
     <p>學習者首頁</p></td>
    <td>
-    <p><strong>選擇經典</strong>或<strong>沉浸式</strong>。如果選擇「沉浸式」，則會顯示其他選項。</p></td>
+    <p>選擇<strong>傳統</strong>或<strong>沈浸式</strong>。 如果您選擇「沈浸式」，則會出現其他選項。</p></td>
   </tr>
   <tr>
    <td>
-    <p>訓練類型<br></p></td>
+    <p>訓練型別<br></p></td>
    <td>
     <p>選擇<strong>自訂</strong>或<strong>產業一致</strong>。 如果學習者少於1000名，則整個帳戶會視為單一範圍。 建議會根據所有學習者而定。<br></p></td>
   </tr>
@@ -215,7 +215,7 @@ Adobe Systems學習管理器允許您自定義帳戶以提供增強使用者體�
    <td>
     <p>建議範圍設定<br></p></td>
    <td>
-    <p>選擇一個或多個活動欄位。 對於 <strong>自定義</strong>，您最多只能選擇一個活動欄位。 對於 <strong>「行業對齊</strong>」 您最多可以選擇五個活動欄位。<br></p></td>
+    <p>選擇一或多個作用中的欄位。 對於<strong>自訂</strong>，您最多可以選擇一個使用中欄位。 對於<strong>產業一致</strong>，您最多可以選擇5個使用中的欄位。<br></p></td>
   </tr>
   <tr>
    <td>

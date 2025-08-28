@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 登入
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,9 @@ ht-degree: 0%
 
    登入畫面隨即顯示。
 
-1. 按一下「登入」。
+1. 選取「登入」。
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *使用使用者名稱和密碼登入*
 
@@ -38,9 +38,14 @@ ht-degree: 0%
 
    如果您忘記密碼，請按一下忘記密碼？ 連結，並提供您用於建立Adobe ID的電子郵件ID。
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. 在作用中欄位中輸入資訊，以完成您的設定檔。
+
+   ![](assets/complete-the-profile.png)
+   _在[使用中欄位]中輸入您的資訊，以完成設定檔設定_
 
 1. 或者，您也可以按一下「使用Enterprise ID連結登入」 ，以使用Enterprise ID。
 

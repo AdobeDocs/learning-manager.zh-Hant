@@ -4,9 +4,9 @@ title: 流體播放器
 description: 流體播放器是學習者使用內容的平台，能提供不間斷的混合式學習體驗。 所有支援的格式在此播放器中的播放方式均一致。 作者和管理員可以使用播放器預覽內容。
 contentowner: manochan
 exl-id: 4cd7197d-d4be-4755-b364-48f9e713c7e2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '225'
 ht-degree: 0%
 
 ---
@@ -26,3 +26,8 @@ ht-degree: 0%
 **導覽按鈕**&#x200B;您可以按一下上/下箭頭，在pdf、docx和pptx內容中的幻燈片間移動。 幻燈片箭頭可用來移至所有內容型別的下一個主題。
 
 **關閉課程**&#x200B;按一下播放器右上角的關閉(x)圖示以結束課程。
+
+>[!NOTE]
+>
+>Adobe Learning Manager的流體播放器沒有內建選項，無法自動播放視訊。 視訊自動播放是否取決於瀏覽器設定，而非播放器本身。
+
