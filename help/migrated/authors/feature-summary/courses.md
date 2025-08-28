@@ -524,7 +524,7 @@ Adobe Learning Manager為作者提供建立、編輯及管理由多個內容模�
 3. 選取任一課程，然後選取&#x200B;**[!UICONTROL Edit]**。
 4. 選取您要變更的模組。
 5. 變更標題和說明。
-6. 使用&#x200B;**Content**選項選取模組。
+6. 使用&#x200B;**Content**&#x200B;選項選取模組。
    ![](assets/replace-the-module.png)
 7. 選取&#x200B;**[!UICONTROL Done]**。
 8. 選取&#x200B;**[!UICONTROL Republish]**。
