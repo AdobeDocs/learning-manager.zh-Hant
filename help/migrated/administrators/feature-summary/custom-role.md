@@ -4,7 +4,7 @@ title: 自訂角色
 description: 「學習路徑」功能可協助您定義自訂角色，並將特定責任指派給一組使用者。 此功能可讓您指派個人現有角色許可權以外的職責。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3366'
 ht-degree: 0%
@@ -300,7 +300,7 @@ _篩選自訂角色_
 
 1. 以系統管理員身分登入，並選取&#x200B;**[!UICONTROL Users]**。
 2. 在左側面板上選取&#x200B;**[!UICONTROL Custom Roles]**。
-3. 建立新的自訂角色，並新增帳戶許可權、目錄、學習物件或範圍。 請參閱[這裡](#create-a-custom-role)提及的步驟。
+3. 建立新的自訂角色，並新增帳戶許可權、目錄、學習物件或範圍。 請參閱此處提及的[步驟](#create-a-custom-role)。
 4. 將使用者新增至自訂角色。
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ _篩選自訂角色_
 
 您現在可以上傳兩個檔案至Box，透過CSV匯入將多個角色指派給使用者：
 
-* role.csv
-* user_role.csv。
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 user_role.csv檔案包含「自訂角色」和「使用者ID」欄位。
 
@@ -524,7 +524,7 @@ Learning Manager已支援使用自訂角色授與內容資料庫存取權的功�
   </tr>
   <tr>
    <td>建立</td>
-   <td>遊戲</td>
+   <td>gamification</td>
    <td>品牌化</td>
    <td>寫入</td>
   </tr>
@@ -557,7 +557,7 @@ Learning Manager已支援使用自訂角色授與內容資料庫存取權的功�
   <tr>
    <td>*</td>
    <td>帳單<br>
-     遊戲</td>
+     gamification</td>
    <td>使用者</td>
    <td>讀取</td>
   </tr>
@@ -636,10 +636,10 @@ Learning Manager已支援使用自訂角色授與內容資料庫存取權的功�
 
 ## 將gamification報表新增至自訂角色 {#gamification-custom}
 
-管理員可以為自訂使用者啟用遊戲化報表。
+管理員可為自訂使用者啟用gamification報表。
 
 1. 在&#x200B;**[!UICONTROL Custom Roles]**&#x200B;頁面中，輸入自訂角色的名稱。
-1. 在&#x200B;**[!UICONTROL Feature Privileges: Core Features]**&#x200B;區段中，啟用類別&#x200B;**[!UICONTROL Reports]**&#x200B;的選項&#x200B;**[!UICONTROL Full Control]**。
+1. 在&#x200B;**[!UICONTROL Feature Privileges: Core Features]**&#x200B;區段中，啟用類別&#x200B;**[!UICONTROL Full Control]**&#x200B;的選項&#x200B;**[!UICONTROL Reports]**。
 
 1. 在&#x200B;**[!UICONTROL Users]**&#x200B;區段中，選取將指派新建立之自訂角色的使用者。
 1. 按一下&#x200B;**[!UICONTROL Save]**。
@@ -654,7 +654,7 @@ Learning Manager已支援使用自訂角色授與內容資料庫存取權的功�
 
 如果管理員變更了層級點，報表會根據目前點顯示層級。
 
-重設遊戲化不會重設層級的達成日期。
+重設gamification不會重設取得日期的層級。
 
 ## 常見問題 {#frequentlyaskedquestions}
 
