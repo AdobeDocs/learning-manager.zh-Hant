@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 對等帳戶
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -53,6 +53,18 @@ Learning Manager提供使用Peer帳戶功能共用已購名額的功能。 透�
 1. 按一下「新增」以新增對等帳戶。
 
    如果管理員與對等共用名額，則該對等無法與其他任何人共用這些名額。 但是，同儕節點可以單獨購買一些座位並分享。
+
+## 檢視對等帳戶共用的名額
+
+管理員可以在管理員介面上檢視對等帳戶共用的名額數。
+
+若要檢視對等帳戶共用的名額：
+
+1. 以管理員身分登入Adobe Learning Manager。
+2. 選取&#x200B;**[!UICONTROL Users]**，然後選取&#x200B;**[!UICONTROL Internal]**。
+
+![](assets/peer-account-seats.png)
+_使用者區段，顯示對等帳戶共用的名額數_
 
 ## 檢視與對等帳戶相關聯的報告 {#viewreportsassociatedwithpeeraccounts}
 
