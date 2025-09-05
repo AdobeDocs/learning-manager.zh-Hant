@@ -144,9 +144,9 @@ c.啟用選項&#x200B;**[!UICONTROL Include skills data and summary sheets]**&#x
 | 最高_測試_分數_最大值 | 此模組的最高測驗分數。 如果學習者未嘗試測驗或內容不含任何測驗，則其中可能為空白。 |
 | 嘗試次數 | 學習者到目前為止針對此模組嘗試的總次數。 |
 | 允許嘗試次數上限 | 學習者嘗試使用模組的最大次數。 |
-| 提交註解 | 學習者完成學習物件後，其經理會提供意見。<br>由講師提供的提交註解資料包含在檔案提交模組中。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">模組 — Adobe Learning Manager。</a></br> |
+| 提交註解 | 學習者完成學習物件後，其經理會提供意見。<br>由講師提供的提交註解資料包含在檔案提交模組中。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">模組 — Adobe Learning Manager。</a></br> |
 | 完成Source | <b>注意：</b>對於VC聯結器出席工作流程，當學習者自動標示為已出席時，來源會顯示「SELF， (learner_email)」。 |
-| 完成註解 | 管理員在學習者完成課程、認證或學習路徑後標示為完成時所做的註解。 管理員可以為一個或多個學習者新增完成備註。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses#completion-comments">完成註解</a>。 |
+| 完成註解 | 管理員在學習者完成課程、認證或學習路徑後標示為完成時所做的註解。 管理員可以為一個或多個學習者新增完成備註。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/courses#completion-comments">完成註解</a>。 |
 
 **學習物件相關資訊**
 
@@ -278,7 +278,7 @@ c.啟用選項&#x200B;**[!UICONTROL Include skills data and summary sheets]**&#x
 
 | 欄 | 說明 |
 |---|---|
-| 晚於 | 代表在定義期間（以天為單位）前獲得某項技能的學習者人數，超過該技能即視為過時或需要重新整理。 用於識別接近或過期的技能成就的學習者。<br>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">技能等級</a>。 |
+| 晚於 | 代表在定義期間（以天為單位）前獲得某項技能的學習者人數，超過該技能即視為過時或需要重新整理。 用於識別接近或過期的技能成就的學習者。<br>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/skills-levels">技能等級</a>。 |
 | 名稱 | 獲指派技能的學習者全名。 |
 | 管理員名稱 | 學習者的報表管理員名稱。 |
 | 列標籤 | 指派給出現在此列的學習者的特定技能名稱。 作為分組標題，總結每個技能類別下的學習者技能資料。 |
