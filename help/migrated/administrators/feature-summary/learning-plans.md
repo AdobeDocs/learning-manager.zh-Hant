@@ -34,7 +34,7 @@ ht-degree: 0%
 
    ![](assets/add-learning-plandialog.png)
 
-1. 在&#x200B;**[!UICONTROL Occurs when]**下拉式清單中，選擇所需的事件。 管理員一次可以新增一個事件。
+1. 在&#x200B;**[!UICONTROL Occurs when]**&#x200B;下拉式清單中，選擇所需的事件。 管理員一次可以新增一個事件。
 這些選項決定學習者何時參加課程。 選取活動型別後，請選取適當的培訓、課程、學習計畫或認證。
 
 >[!NOTE]

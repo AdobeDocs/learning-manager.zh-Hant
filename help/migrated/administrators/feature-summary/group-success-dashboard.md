@@ -37,7 +37,7 @@ Adobe Learning Manager中的Group Success Dashboard (GSD)可讓管理員和管�
 管理員必須為帳戶啟用「群組成功儀表板」 。 若要啟用「群組成功儀表板」，請依照下列步驟操作：
 
 1. 以管理員身分登入。
-2. 選取**[!UICONTROL Settings]**然後選取&#x200B;**[!UICONTROL Reports]**。
+2. 選取&#x200B;**[!UICONTROL Settings]**&#x200B;然後選取&#x200B;**[!UICONTROL Reports]**。
 3. 選取&#x200B;**[!UICONTROL Dashboard visibility]**&#x200B;切換。
 4. 輸入儀表板名稱（例如，**[!UICONTROL Store Manager Dashboard]**）。
    ![](assets/enable-gsd.png)
