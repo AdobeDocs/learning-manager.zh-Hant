@@ -4,9 +4,9 @@ title: 學習路徑
 description: 在Learning Manager中為管理員建立學習計畫。
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ ht-degree: 0%
 
 在&#x200B;**課程**&#x200B;圖磚中，您可以看到已註冊此執行個體的學習者所看到的課程執行個體。
 
-**[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]**&#x200B;核取方塊僅適用於課程。 所有子級學習路徑都會選擇將學習計畫例項與學習路徑對應。 依預設，對應會設定為「預設例項」。
+**[!UICONTROL Enable Learners to Choose instances (Flexible Learning Path)]**&#x200B;核取方塊僅適用於課程。 此選項可讓學習者切換其在學習路徑中的執行個體。 所有子級學習路徑都會選擇將學習計畫例項與學習路徑對應。 依預設，對應會設定為「預設例項」。
 
 ![](assets/default-instance.png)
 

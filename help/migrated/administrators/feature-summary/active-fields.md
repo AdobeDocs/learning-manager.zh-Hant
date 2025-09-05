@@ -3,9 +3,9 @@ description: 瞭解如何使用Adobe Learning Manager中的作用中欄位來擷
 jcr-language: en_us
 title: 在Adobe Learning Manager中設定作用中欄位
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ Adobe Learning Manager中的作用中欄位是自訂使用者屬性，可協助�
 
 3. 選取&#x200B;**儲存**&#x200B;以套用您的變更。
 
+>[!NOTE]
+>
+>指派新角色不會影響自訂使用者群組。 但是，它會影響自動產生的使用者群組，例如「所有管理員」、「所有作者」和類似的角色型群組。
+
 ## 多值作用中欄位
 
 多值作用中欄位可讓您將多個值指派給單一使用者屬性，例如位置、職稱或專案團隊。 這有助於擷取更詳細且更有彈性的使用者資訊。
@@ -118,8 +122,10 @@ _在CSV上傳期間啟用值限制的核取方塊_
 
 ## 管理使用者CSV匯入中缺少的作用中欄位
 
-在某些情況下，管理員偏好學習者在登入Adobe Learning Manager時手動填寫某些作用中的欄位。 透過CSV檔案匯入的使用者可支援此功能。 請參閱此[文章](/help/migrated/administrators/feature-summary/add-users-user-groups.md)，瞭解如何大量新增使用者。
+在某些情況下，管理員偏好學習者在登入Adobe Learning Manager時手動填寫某些作用中的欄位。 透過CSV檔案匯入的使用者可支援此功能。 請參閱此[文章](/help/migrated/administrators/feature-summary/add-users-user-groups.md)，瞭解如何大量新增使用者。 系統會根據Box FTP欄位值，自動將使用者新增至作用中欄位或角色型群組。 無法將它們新增至自訂群組。
 
 如果CSV檔案不包含所有作用中的欄位，管理員必須在匯入後手動輸入缺少的值。
 
-依預設，每個使用中欄位都必須對應至來源CSV中的對應欄位。 不過，如果您不想將特定的作用中欄位對應到CSV中的任何欄，您可以在Box和FTP匯入程式期間，從下拉式清單中選取值&#x200B;**DontImportFromSource**。 透過FTP或Box聯結器匯入使用者時，此選項可供使用。 請參閱此[文章](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/connectors)，瞭解聯結器的詳細資訊。
+依預設，每個使用中欄位都必須對應至來源CSV中的對應欄位。 不過，如果您不想將特定的作用中欄位對應到CSV中的任何欄，您可以在Box和FTP匯入程式期間，從下拉式清單中選取值&#x200B;**DontImportFromSource**。 透過FTP或Box聯結器匯入使用者時，此選項可供使用。 請參閱此[文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors)，瞭解聯結器的詳細資訊。
+
+

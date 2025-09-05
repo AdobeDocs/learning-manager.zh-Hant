@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 學習方案
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1573'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,8 @@ ht-degree: 0%
 
    ![](assets/add-learning-plandialog.png)
 
-1. 在&#x200B;**[!UICONTROL Occurs when]**&#x200B;下拉式清單中，選擇所需的事件。 這些選項決定學習者何時參加課程。 選取活動型別後，請選取適當的培訓、課程、學習計畫或認證。
+1. 在&#x200B;**[!UICONTROL Occurs when]**下拉式清單中，選擇所需的事件。 管理員一次可以新增一個事件。
+這些選項決定學習者何時參加課程。 選取活動型別後，請選取適當的培訓、課程、學習計畫或認證。
 
 >[!NOTE]
 >
@@ -160,7 +161,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->您無法在&#x200B;**[!UICONTROL Edit Learning Plan]**&#x200B;快顯視窗中修改&#x200B;**[!UICONTROL Occurs when]**&#x200B;選項。
+>您無法在&#x200B;**[!UICONTROL Occurs when]**&#x200B;快顯視窗中修改&#x200B;**[!UICONTROL Edit Learning Plan]**&#x200B;選項。
 
 
 ## 啟用學習方案 {#enablealearningplan}

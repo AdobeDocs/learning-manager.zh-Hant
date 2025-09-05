@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 顏色主題
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1242'
 ht-degree: 0%
 
 ---
@@ -186,6 +186,17 @@ Adobe Learning Manager可讓您自訂帳戶，以提供增強的使用者體驗�
     <ul>
      <li><b>建議的影像格式：</b> PNG、JPG、JPEG</li>
      <li><b>建議大小： </b>1400x908畫素</li>
+    </ul></td>
+  </tr>
+   <tr>
+   <td>
+    <p>法維孔</p></td>
+   <td>
+    <p>管理員無法變更Adobe Learning Manager帳戶的Favicon。 若要更新Favicon，請透過<a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a>聯絡支援團隊 </p>
+    <p>您必須將所需的影像套用至學習者的背景。</p>
+    <ul>
+     <li><b>建議的影像格式：</b>PNG</li>
+     <li><b>建議大小： </b>32x32畫素</li>
     </ul></td>
   </tr>
  </tbody>

@@ -3,9 +3,9 @@ jcr-language: en_us
 title: 群組成功儀表板
 description: 深入瞭解Adobe Learning Manager中的Group Success Dashboard
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1015'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,19 @@ Adobe Learning Manager中的Group Success Dashboard (GSD)可讓管理員和管�
 管理員必須為帳戶啟用「群組成功儀表板」 。 若要啟用「群組成功儀表板」，請依照下列步驟操作：
 
 1. 以管理員身分登入。
-2. 選取&#x200B;**[!UICONTROL Settings]**&#x200B;然後選取&#x200B;**[!UICONTROL Reports]**。
+2. 選取**[!UICONTROL Settings]**然後選取&#x200B;**[!UICONTROL Reports]**。
 3. 選取&#x200B;**[!UICONTROL Dashboard visibility]**&#x200B;切換。
 4. 輸入儀表板名稱（例如，**[!UICONTROL Store Manager Dashboard]**）。
    ![](assets/enable-gsd.png)
    _儀表板名稱、使用者群組和學習路徑選取範圍的欄位_
 5. 選取&#x200B;**[!UICONTROL Overview Visibility]**&#x200B;以啟用儀表板中的概觀區段。 此區段可讓您檢視最多50個學習者的進度。
+
+   >[!NOTE]
+   >
+   >如果團隊中有超過50個學習者或超過50個學習物件，請前往&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;標籤而非&#x200B;**[!UICONTROL Overview]**&#x200B;標籤。
+
 6. 針對&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;區段，選取您要檢視的必要資料行。
+
 
    * 學習者
    * 路徑與課程
@@ -86,7 +92,7 @@ Adobe Learning Manager中的Group Success Dashboard (GSD)可讓管理員和管�
 
 7. 選取&#x200B;**[!UICONTROL Create dashboard]**。
 
-若是較大的團隊，請在&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;索引標籤中選取&#x200B;**預設目錄**&#x200B;和&#x200B;**所有學習者**&#x200B;使用者群組以建立儀表板。 這包括&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;檢視中的所有課程和學習者，讓您更輕鬆地搜尋及追蹤每個學習者的進度。
+若是較大的團隊，請在&#x200B;**索引標籤中選取**&#x200B;預設目錄&#x200B;**和**&#x200B;所有學習者&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;使用者群組以建立儀表板。 這包括&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;檢視中的所有課程和學習者，讓您更輕鬆地搜尋及追蹤每個學習者的進度。
 
 ### 檢視群組成功儀表板
 
@@ -109,14 +115,14 @@ Adobe Learning Manager中的Group Success Dashboard (GSD)可讓管理員和管�
 
 >[!NOTE]
 >
->若要下載詳細的學習者成績單，請在&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Go to Report]**。
+>若要下載詳細的學習者成績單，請在&#x200B;**[!UICONTROL Go to Report]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Learner Transcript]**。
 
 ### 共用群組成功儀表板
 
 管理員可以與其他管理員或管理員共用控制面板。 請依照步驟共用控制面板：
 
 1. 選取&#x200B;**[!UICONTROL Reports]**，然後選取&#x200B;**[!UICONTROL Group Success Dashboard]**。 儀表板的名稱為&#x200B;**[!UICONTROL Store Manager Dashboard]**。
-2. 在&#x200B;**[!UICONTROL Your dashboards]**&#x200B;選項中選取&#x200B;**[!UICONTROL Share]**。
+2. 在&#x200B;**[!UICONTROL Share]**&#x200B;選項中選取&#x200B;**[!UICONTROL Your dashboards]**。
 
    ![](assets/share-dashboard.png)
    _選取共用按鈕_
@@ -142,7 +148,7 @@ _檢視共用的儀表板_
 以下是「群組成功儀表板」的限制：
 
 * 儀表板中不支援循環憑證。
-* **[!UICONTROL Learner Transcript]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Last access date]**&#x200B;欄目前會顯示學習路徑和認證的資料。 計畫在未來更新時提供課程支援。
+* **[!UICONTROL Last access date]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;欄目前會顯示學習路徑和認證的資料。 計畫在未來更新時提供課程支援。
 
 ## 跨多個使用者群組選取學習者
 
