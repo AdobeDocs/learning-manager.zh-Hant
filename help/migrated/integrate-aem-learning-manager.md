@@ -4,9 +4,9 @@ title: 將Adobe Learning Manager與AEM整合
 description: Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、分配至課程、定義學習者的可見度，以及追蹤消耗並回報給管理員。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: d487d87015e51f1b54ee3a2ed0a97398cfc09686
+source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '3048'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這
 
 >[!NOTE]
 >
->如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#how-to-work-with-packages)。
+>如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以AEM Author的身分，開啟AEM Package Manager。
 1. 按一下按鈕&#x200B;**[!UICONTROL Upload Package]**。
@@ -322,7 +322,7 @@ Learning Manager元件需要將上述步驟中建立的設定對應至頁面。 
 
 學習者可以從頁面內參加課程。
 
-若要存取Learning Manager Widget，學習者應為已登入AEM的使用者。 此外，學習者的rep：User節點的&quot;/profile&quot;節點中應存在屬性&#x200B;**電子郵件**。 此電子郵件應與Learning Manager帳戶中顯示的電子郵件完全相同。
+若要存取Learning Manager Widget，學習者應為已登入AEM的使用者。 此外，學習者的rep **節點的&quot;/profile&quot;節點中應存在屬性**&#x200B;電子郵件:User。 此電子郵件應與Learning Manager帳戶中顯示的電子郵件完全相同。
 
 學習者可以從頁面內參加課程。
 
@@ -330,7 +330,7 @@ Learning Manager元件需要將上述步驟中建立的設定對應至頁面。 
 
 提供下列Widget：
 
-1. 遊戲
+1. gamification
 1. 學習行事曆
 1. 社交Widget
 1. 目錄Widget
@@ -397,6 +397,22 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
  } 
 }
 ```
+
+### 在AEM網站中設定我儲存的課程Widget
+
+「我的已儲存課程」Widget可讓學習者直接在學習頁面上檢視其已建立書籤或已儲存的課程，並可讓您輕鬆存取要稍後重新造訪或完成的課程。
+
+若要在AEM網站中設定「我的已儲存課程」Widget：
+
+1. 啟動AEM網站。
+2. 以&#x200B;**[!UICONTROL Edit]**&#x200B;模式開啟頁面。
+3. 前往&#x200B;**[!UICONTROL Components Browser]**&#x200B;並將&#x200B;**[!UICONTROL My Learning widget]**&#x200B;新增至頁面。
+4. 選取元件，然後選取&#x200B;**[!UICONTROL Configure]**。
+5. 從&#x200B;**[!UICONTROL My Saved Courses]**&#x200B;的下拉式功能表中選取&#x200B;**[!UICONTROL Properties]**。
+6. 選取&#x200B;**[!UICONTROL Done]**，然後在&#x200B;**[!UICONTROL Preview]**&#x200B;或&#x200B;**[!UICONTROL Publish]**&#x200B;模式下重新整理頁面。
+
+Widget會顯示已儲存的課程給學習者。
+
 
 ### 忽略高階LO註冊
 
