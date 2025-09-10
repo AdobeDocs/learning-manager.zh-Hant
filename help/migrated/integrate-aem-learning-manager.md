@@ -4,9 +4,9 @@ title: 將Adobe Learning Manager與AEM整合
 description: Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、分配至課程、定義學習者的可見度，以及追蹤消耗並回報給管理員。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
+source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
 workflow-type: tm+mt
-source-wordcount: '3048'
+source-wordcount: '3047'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這
 
 >[!NOTE]
 >
->如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#how-to-work-with-packages)。
+>如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以AEM Author的身分，開啟AEM Package Manager。
 1. 按一下按鈕&#x200B;**[!UICONTROL Upload Package]**。
