@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 顏色主題
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1276'
 ht-degree: 0%
 
 ---
@@ -86,6 +86,8 @@ Learning Manager應用程式為其使用者提供五個顏色主題選項：
 當您以即時方式預覽變更時，即時佈景主題預覽快顯視窗仍會顯示在畫面底部。 您可以選擇將快顯視窗最小化。
 
 ## 多品牌 {#multiple-branding}
+
+管理員可以在組織內套用多種品牌樣式。 品牌可以根據活動欄位進行自訂，允許不同的使用者群組體驗根據其設定檔或角色量身打造的品牌化。
 
 以下說明如何實作多個品牌：
 
