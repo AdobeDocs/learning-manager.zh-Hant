@@ -4,9 +4,9 @@ title: 學習者首頁
 description: 管理員啟用沈浸式版面配置後，學習者登入應用程式後，會以完全改版的使用者介面迎接學習者。
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1190'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ _舊課程卡_
 ![](assets/new-course-card.jpg)
 _新課程卡_
 
-對於從&#x200B;**LinkedIn**&#x200B;和&#x200B;**Go1**&#x200B;平台匯入的課程，課程卡會顯示原始出版日期(從&#x200B;**LinkedIn**&#x200B;和&#x200B;**Go1**)。 您也可以在使用者介面中檢視這些特定出版日期。
+對於從&#x200B;**LinkedIn**&#x200B;和&#x200B;**Go1**&#x200B;平台匯入的課程，課程卡片將顯示原始出版日期（從&#x200B;**LinkedIn**&#x200B;和&#x200B;**Go1**）。 您也可以在使用者介面中檢視這些特定出版日期。
 
 ### 側欄和搜尋列
 
@@ -143,7 +143,11 @@ _法規遵循儀表板Widget_
 * 按月訓練。 向左或向右捲動。
 * 即將推出的教室或VC訓練課程，可供您註冊。
 * 您註冊的近期教室或VC訓練。
+* 您完成的教室或VC工作階段
 * 經理核准的教室或VC訓練。
+
+您可以套用篩選器&#x200B;**[!UICONTROL View enrolled sessions only]**&#x200B;以僅檢視行事曆上已註冊的工作階段。
+
 
 ## 社交摘要 {#socialfeed}
 

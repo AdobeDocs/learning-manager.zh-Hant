@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 在Adobe Learning Manager中新增使用者
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
+source-wordcount: '2444'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ _清單檢視顯示內部使用者可用的現有自我註冊URL_
 
 1. 以管理員身分登入。
 2. 選取&#x200B;**使用者**，然後選擇&#x200B;**內部**。
-3. 選取[新增] **&#x200B;**，然後選擇[上傳CSV] **。**
+3. 選取[新增] ****，然後選擇[上傳CSV] **。**
 
    ![](assets/select-upload-acsv.png)
    _可上傳CSV檔案以大量匯入使用者的選項_
@@ -171,6 +171,37 @@ _清單檢視顯示內部使用者可用的現有自我註冊URL_
 4. 選取&#x200B;**是**&#x200B;以啟動使用者。
 
 驗證電子郵件會傳送給使用者。 使用者必須選取電子郵件中的連結，才能啟動其帳戶並開始使用Adobe Learning Manager。
+
+### 下載使用者報表
+
+管理員可以將使用者資料匯出和下載為完整的報告。 透過匯出此資料，管理員可以追蹤學習者活動、監控帳戶生命週期、識別非作用中使用者，以及維護合規性、稽核和報告用途的正確記錄。
+
+若要下載使用者報表：
+
+1. 以管理員身分登入Adobe Learning Manager。
+2. 選取&#x200B;**使用者**，然後選擇&#x200B;**內部**。
+3. 選取&#x200B;**匯出使用者資料**。 報告準備就緒後，您會收到通知。
+
+   ![](assets/select-export-user-data.png)
+   _內部使用者區段會顯示匯出和下載使用者報告的選項。_
+4. 選取通知並下載使用者報告。
+
+此報表包含下列資訊：
+
+* 名稱
+* 電子郵件
+* 狀態
+* 新增日期（UTC時區）
+* 刪除日期（UTC時區）
+* 上次登入日期（UTC時區）
+* Adobe ID
+* userState
+* 設定檔
+* 介面語言
+* 內容語言
+* 時區
+* 內部使用者ID
+* 經理電子郵件
 
 ## 外部使用者
 
@@ -239,7 +270,7 @@ _複製外部設定檔的註冊URL_
 | 內部使用者 | 外部使用者 |
 |---|---|
 | 可使用Adobe ID或SSO憑證登入。 | 可使用任何電子郵件ID登入。 |
-| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
+| gamification現已推出。 | gamification現已推出。 管理員必須在[Gamification設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中為外部學習者啟用gamification。 |
 
 ### 暫停外部註冊設定檔
 
@@ -266,6 +297,32 @@ _從[動作]功能表暫停現有外部註冊設定檔的選項_
 
 ![](assets/resume-an-external-user.png)
 _繼續先前暫停的外部註冊設定檔的選項_
+
+### 變更外部設定檔
+
+管理員可將學習者從一個外部設定檔重新指派至另一個設定檔。
+
+若要變更外部設定檔：
+
+1. 以管理員身分登入Adobe Learning Manager。
+2. 選取&#x200B;**[!UICONTROL Users]**，然後選取&#x200B;**[!UICONTROL External]**。
+3. 在外部設定檔清單中選取&#x200B;**[!UICONTROL Seats Used]**。
+
+   ![](assets/select-learners-external-profile.png)
+   _外部設定檔區段顯示已使用的座位數_
+
+4. 選取學習者，然後選取&#x200B;**[!UICONTROL Actions]**。
+
+   ![](assets/select-change-profile-external-learner.png)
+   _外部設定檔頁面醒目提示「變更設定檔」選項，以將學習者移至不同的設定檔_
+
+5. 選取&#x200B;**[!UICONTROL Change Profile]**。
+6. 搜尋並選取不同的外部設定檔。
+
+   ![](assets/search-and-select-profile.png)
+   _變更設定檔提示會顯示搜尋外部設定檔的選項_
+
+選取的學習者將移至選取的外部設定檔。
 
 ### 監視外部座位使用情況
 

@@ -4,9 +4,9 @@ title: 內容市集
 description: Learning Manager現在提供內容市集，供您探索和購買培訓。 探索涵蓋廣泛主題的70,000多種課程，提供多種格式。 從符合各種角色並符合您學習和提升技能需求的精選播放清單中選擇。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ _選擇計畫後下載詢價單_
 2. 選取&#x200B;**[!UICONTROL Invite learners]**&#x200B;並選取必要的學習者。
 3. 選取&#x200B;**[!UICONTROL Invite learners]**。
 
-管理員也可以選取&#x200B;**[!UICONTROL Remove all users access]**&#x200B;連結，以撤銷對&#x200B;**[!UICONTROL Content Hub]**&#x200B;的存取權。 撤銷存取權後，學習者將無法再在其學習者應用程式中看到Content Hub頁面。
+管理員也可以選取&#x200B;**[!UICONTROL Content Hub]**&#x200B;連結，以撤銷對&#x200B;**[!UICONTROL Remove all users access]**&#x200B;的存取權。 撤銷存取權後，學習者將無法再在其學習者應用程式中看到Content Hub頁面。
 
 ![](assets/invite-users.png)
 _邀請使用者存取Content Hub_
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Content Hub
 
-Content Hub可讓管理員從學習者應用程式中將所需的播放清單加入候選清單。 管理員可隨時透過學習者角色看到Content Hub頁面，方便他們將播放清單加入候選清單。 為協助您甄選合適的播放清單，管理員可讓帳戶中有限的主題專家存取此頁面。
+管理員可以直接在Adobe Learning Manager中存取Go1平台。 前往&#x200B;**[!UICONTROL Content Marketplace]**，然後選取&#x200B;**[!UICONTROL Content Hub]**。
 
-Adobe Learning Manager會定期與Content Hub同步，確保新增和更新會自動反映在平台中。
-
-所有內容都會對應至支援的語言，讓管理員可以根據語言偏好更有效率地篩選和管理內容。
+Content Hub會複製Go1平台，讓管理員可瀏覽課程、建立多個播放清單及探索內容，在Adobe Learning Manager中提供順暢的Go1體驗。
 
 ## 電子郵件範本
 

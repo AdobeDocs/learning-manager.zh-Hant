@@ -4,9 +4,9 @@ title: 透過CSV檔案管理自訂角色
 description: 整合管理員可以透過CSV大量新增自訂角色至其帳戶，也可以將相同角色指派給各種使用者。 此方法可自動建立自訂角色。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 * 公告
 * 技能
-* 遊戲
+* gamification
 * 使用者
 * 學習方案
 * 電子郵件範本
@@ -178,7 +178,7 @@ ht-degree: 0%
 
 *選取[啟用自動同步]選項*
 
-選擇此選項時，您可以在同步時間欄位中指定的確切時間排定同步時間。 如果您將同步時間指定為午夜12:00，則自訂角色會在每天的指定時間完全更新。
+選擇此選項時，您可以在同步時間欄位中指定的確切時間排定同步時間。 如果您將同步時間指定為中午12:00，則自訂角色會在每天的指定時間更新。
 
 如果您要視需要同步處理資料，請按一下&#x200B;**[!UICONTROL Sync Now]**。
 
@@ -189,3 +189,34 @@ ht-degree: 0%
 在類似的一行，從管理員UI，無法指派可透過CSV建立的可設定角色給使用者，因為這些角色將不可用。
 
 但是，使用者指派CSV可用於指派UI建立的角色。
+
+## 對自訂角色的增量和多增量支援
+
+管理員可以更有效率地為增量使用者指派自訂角色。 他們可以上傳使用者、角色和使用者角色資料，而不需要每次重新上傳整個資料集。
+
+對於每個上傳的使用者匯入檔案，使用以下結構在FTP中建立個別的資料夾：
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**檔案詳細資料**
+
+* 使用者匯入檔案： user1.csv
+* 角色檔： user1_role.csv
+* 使用者 — 角色對應檔案：user1_user_role.csv
+
+在此處下載[範例CSV](/help/migrated/assets/sample-csv-Incremnetal.zip)。
+
+每個使用者匯入檔案都直接連結到其對應的角色和使用者角色對應檔案，以確保適當的增量處理。

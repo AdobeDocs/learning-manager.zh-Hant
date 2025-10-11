@@ -4,9 +4,9 @@ title: 將Adobe Learning Manager與AEM整合
 description: Learning Manager是內建學習內容管理系統的學習管理系統。 使用者透過將學習內容上傳到Learning Manager來管理其學習內容，讓Learning Manager執行版本設定、分配至課程、定義學習者的可見度，以及追蹤消耗並回報給管理員。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '3199'
+source-wordcount: '3198'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Adobe Learning Manager (ALM)與Adobe Experience Manager (AEM)網站整合。 這
 
 >[!NOTE]
 >
->如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#how-to-work-with-packages)。
+>如需有關安裝套件的資訊，請參閱&#x200B;[***如何使用套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)。
 
 1. 以AEM Author的身分，開啟AEM Package Manager。
 1. 按一下按鈕&#x200B;**[!UICONTROL Upload Package]**。
@@ -411,7 +411,7 @@ Skyline是AEM的雲端版本。 您必須先從封裝管理員安裝Skyline。 �
 }
 ```
 
-### 在AEM網站中設定我儲存的課程Widget
+### 設定AEM網站中已儲存的課程Widget
 
 「我的已儲存課程」Widget可讓學習者直接在學習頁面上檢視其已建立書籤或已儲存的課程，並可讓您輕鬆存取要稍後重新造訪或完成的課程。
 

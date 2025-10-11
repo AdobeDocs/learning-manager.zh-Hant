@@ -3,9 +3,9 @@ description: 整合管理員參考手冊，協助您將現有LMS移轉至Adobe L
 jcr-language: en_us
 title: 移轉手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3606'
+source-wordcount: '3837'
 ht-degree: 0%
 
 ---
@@ -523,6 +523,89 @@ Box帳戶&#x200B;*中的* CSV位置
 ## 移轉驗證 {#registration}
 
 從組織的舊版LMS移轉學習資料和內容後，您可以使用各種學習物件功能來驗證匯入的資料和內容。 例如，您可以以管理員身分登入Learning Manager應用程式，並驗證匯入的模組和課程資料與內容的可用性。
+
+### 透過API進行移轉驗證
+
+新的移轉API `runStatus`可讓整合管理員追蹤透過API觸發的移轉執行進度。
+
+`runStatus` API也提供直接連結，可針對已完成的執行，以CSV格式下載錯誤記錄檔。 下載連結會維持作用中七天，而記錄會保留一個月。
+
+**樣本CURL**
+
+**端點**
+
+```
+GET /bulkimport/runStatus
+```
+
+**引數**
+
+* **migrationProjectId**： （必要）。 適用於移轉專案的唯一識別碼。 移轉專案用於將資料和內容從現有的學習管理系統(LMS)傳輸到Adobe Learning Manager。 每個移轉專案都可包含多個衝刺，這些是移轉任務的較小單位。
+
+* **sprintId**： （必要）。 移轉專案中衝刺的唯一識別碼。 短期衝刺是移轉工作的子集，其中包括要從現有LMS移轉至Adobe Learning Manager的特定學習專案（例如課程、模組、學習者記錄）。 每個衝刺都可以獨立執行，允許分階段移轉。
+
+* **sprintRunId**： （必要）。 用於追蹤移轉專案中特定衝刺執行的唯一識別碼。 它與衝刺中定義之專案的實際移轉程式相關聯。 sprintRunId有助於監視、疑難排解及管理移轉工作。
+
+**回應**
+
+```
+{
+  "sprintId": 2510080,
+  "sprintRunId": 2740845,
+  "migrationProjectId": 2509173,
+  "startTime": 1746524711052,
+  "endTime": 1746524711052,
+  [
+    {
+      "id": 2609923,
+      "lastHeartbeatTime": 1746524711052,
+      "objectName": "content",
+      "jobState": "COMPLETED",
+      "errorCsvLink": "",
+      "errorLogLink": "migration/5830/2509173/2510080/2740845/content_err.csv",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 2609922,
+      "lastHeartbeatTime": 1746524713577,
+      "objectName": "course",
+      "jobState": "WAITING_IN_QUEUE",
+      "errorCsvLink": "",
+      "errorLogLink": null,
+      "sequenceNumber": 2
+    }
+  ]
+}
+```
+
+此外，`startRun` API回應現在包含移轉專案ID、衝刺ID和衝刺執行ID，這些是查詢新狀態端點所需。
+
+```
+curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/primeapi/v2/bulkimport/runStatus?migrationProjectId=001&sprintId=10001&sprintRunId=7'
+```
+
+產生下列回應。 回應包含：
+
+* `migrationId`
+* `sprintId`
+* `sprintRunId`
+
+**回應**
+
+```
+{
+  "status": "OK",
+  "title": "BULKIMPORT_RUN_INITIATED_SUCCESSFULLY",
+  "source": {
+    "info": "Success",
+    "migrationInfo": {
+      "migrationProjectId": "001",
+      "sprintId": "10001",
+      "sprintRunId": "7"
+    }
+  }
+}
+```
 
 ## 移轉中的改良 {#retrofittinginmigration}
 

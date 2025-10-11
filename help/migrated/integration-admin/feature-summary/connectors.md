@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager聯結器
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: aecc98cff7a46193627c961222f7e64f858dfa2c
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '15619'
+source-wordcount: '15567'
 ht-degree: 0%
 
 ---
@@ -145,9 +145,9 @@ Learning Manager可將學習記錄（如成績單、使用者報告、技能報�
 
 1. 下載並安裝套裝軟體以建立自訂物件。
 
-   * [封裝1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)
-   * [封裝2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)
-   * [封裝3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)
+   * [封裝1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
+   * [封裝2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
+   * [封裝3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
 
 1. 重新命名Salesforce中自訂物件的名稱。
 1. 選取事件並按一下&#x200B;**[!UICONTROL Save]**。
@@ -183,7 +183,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 1. 在Salesforce應用程式頁面上，記下說明中提及的應用程式ID （也稱為使用者端ID）和使用者端密碼。
 1. 按一下「**[!UICONTROL Approve]**」，您的應用程式必須成功核准。
 1. 按一下&#x200B;**[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**。
-1. 在取得OAuth程式碼區段中，使用者端ID和範圍必須設定為 — admin：read，admin：write。 按一下&#x200B;**[!UICONTROL Submit]**。
+1. 在「取得OAuth代碼」區段中，使用者端ID和範圍必須設定為 — admin:read，admin:write。 按一下&#x200B;**[!UICONTROL Submit]**。
 1. 在取得重新整理權杖中，輸入使用者端ID和使用者端密碼。 按一下&#x200B;**[!UICONTROL Submit]**&#x200B;並記下重新整理權杖。
 
 ### 在Salesforce應用程式中建立帳戶 {#create-account-in-salesforce-app}
@@ -337,7 +337,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 
 「資料匯出」可讓使用者將使用者技能和學習者成績單匯出至FTP位置，以便與任何協力廠商系統整合。
 
-#### 正在排程 {#scheduling}
+#### 排程 {#scheduling}
 
 管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 可在Learning Manager應用程式中每天執行同步。
 
@@ -490,7 +490,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
    **篩選器**
 
    * 從左窗格，按一下&#x200B;**[!UICONTROL Filter]**。
-   * 在設定匯入 — 篩選頁面中，填寫名稱和條件欄位以篩選出記錄。 按一下&#x200B;**[!UICONTROL Add new Filter]**&#x200B;以新增另一個篩選器。 您可以按一下[動作]資料欄下的[儲存] **&#x200B;**&#x200B;或[刪除] **&#x200B;**&#x200B;選項，儲存或刪除篩選器。
+   * 在設定匯入 — 篩選頁面中，填寫名稱和條件欄位以篩選出記錄。 按一下&#x200B;**[!UICONTROL Add new Filter]**&#x200B;以新增另一個篩選器。 您可以按一下[動作]資料欄下的[儲存] ****&#x200B;或[刪除] ****&#x200B;選項，儲存或刪除篩選器。
 
    ![](assets/filter.png)
    *篩選器*
@@ -803,7 +803,7 @@ Learning Manager管理員可在匯入使用者之前，先對其套用篩選。 
 * UUID欄位一經在透過Workday填入，便無法由任何面對LMS管理員的使用者端刪除。 如果您想要變更值，請聯絡Adobe Learning Manager上線或支援團隊。
 * 由於「使用者清除」只支援每個執行清除50個使用者，因此「使用者清除」選項也可能無法運作。 透過UUID上傳使用者時，請格外小心。
 
-### 正在排程 {#Scheduling-1}
+### 排程 {#Scheduling-1}
 
 管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程處於最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
 
@@ -878,72 +878,72 @@ Workday有四個階層，而Learning Manager有兩個階層。 Workday中的四�
 
 +++支援的Workday屬性清單
 
-wd：User_ID
-wd：Worker_ID
+wd:User_ID
+wd:Worker_ID
 經理
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data。@wd：Formatted_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data。@wd：Formatted_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：First_Name
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Last_Name
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code
-wd：Personal_Data.wd：Contact_Data.wd：Email_Address_Data.0.wd：Email_Address
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Country_Region_Descriptor
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0。@wd：Formatted_Phone
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：International_Phone_Code
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Phone_Number
-wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。$
-wd：Personal_Data.wd：Gender_Reference.wd：ID.1。$
-wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID
-wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID
-wd：User_Account_Data.wd：Default_Display_Language_Reference.wd：ID.1。$
-wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Title
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Name
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data。@wd：Formatted_Address
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Family_Reference.0.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Name
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Job_Profile_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Reference.wd：ID.2。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Worker_Type_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0。@wd：Formatted_Address
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Profile_Summary_Data.wd：Management_Level_Reference.wd：ID.1。$
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active_Status_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Hire_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Original_Hire_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retired
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retirement_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Terminated
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Date
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Last_Day_of_Work
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Code
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Name
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Type_Reference.wd：ID.1。$
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Subtype_Reference.wd：ID.1。$
-wd：Qualification_Data.wd：Education.0.wd：School_Name
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Job_Title
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Company
-wd：Management_Chain_Data.wd：Worker_Supervisory_Management_Chain_Data.wd：Management_Chain_Data.0.wd：Manager.Employee_ID
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data。@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data。@wd:Formatted_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Prefix_Data.wd:Title_Descriptor
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:First_Name
+wd:Personal_Data.wd:Name_Data.wd:Preferred_Name_Data.wd:Name_Detail_Data.wd:Last_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:First_Name
+wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Name
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0。@wd:Formatted_Address
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code
+wd:Personal_Data.wd:Contact_Data.wd:Email_Address_Data.0.wd:Email_Address
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0。@wd:Formatted_Phone
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number
+wd:Personal_Data.wd:Primary_Nationality_Reference.wd:ID.1。$
+wd:Personal_Data.wd:Gender_Reference.wd:ID.1。$
+wd:Personal_Data.wd:Identification_Data.wd:National_ID.0.wd:National_ID_Data.wd:ID
+wd:Personal_Data.wd:Identification_Data.wd:Custom_ID.0.wd:Custom_ID_Data.wd:ID
+wd:User_Account_Data.wd:Default_Display_Language_Reference.wd:ID.1。$
+wd:Role_Data.wd:Organization_Role_Data.wd:Organization_Role.0.wd:Organization_Role_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Position_Title
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Title
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Name
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data。@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Classification_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Classification_Summary_Data.0.wd:Job_Group_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Work_Space__Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Family_Reference.0.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Name
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Job_Profile_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Reference.wd:ID.2。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Worker_Type_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0。@wd:Formatted_Address
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Job_Profile_Summary_Data.wd:Management_Level_Reference.wd:ID.1。$
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active
+wd:Employment_Data.wd:Worker_Status_Data.wd:Active_Status_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retired
+wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated
+wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date
+wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Name
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Type_Reference.wd:ID.1。$
+wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Subtype_Reference.wd:ID.1。$
+wd:Qualification_Data.wd:Education.0.wd:School_Name
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Job_Title
+wd:Qualification_Data.wd:External_Job_History.0.wd:Job_History_Data.wd:Company
+wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Management_Chain_Data.0.wd:Manager.Employee_ID
 主要工作電子郵件
-wd：Organization_Type_Reference_Cost_Center_ID
-wd：Organization_Type_Reference_Cost_Center_Name
-wd：Organization_Type_Reference_Company
-wd：Organization_Subtype_Reference_Department
-wd：Organization_Subtype_Reference_Division
-wd：Universal_ID
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Descriptor
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data.0.wd：Country_Region_Reference.wd：ID.2。$
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Unicialty
+wd:Organization_Type_Reference_Cost_Center_ID
+wd:Organization_Type_Reference_Cost_Center_Name
+wd:Organization_Type_Reference_Company
+wd:Organization_Subtype_Reference_Department
+wd:Organization_Subtype_Reference_Division
+wd:Universal_ID
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Descriptor
+wd:Employment_Data.wd:Worker_Job_Data.0.wd:Position_Data.wd:Business_Site_Summary_Data.wd:Address_Data.0.wd:Country_Region_Reference.wd:ID.2。$
+wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 +++
 
@@ -1241,7 +1241,7 @@ Adobe Learning Manager需要下列範圍，且必須在OAuth應用程式中選�
 
 ## 匯出 {#export-2}
 
-+++Skills
++++技能
 
 匯出使用者技能報告有兩個選項。
 
@@ -1499,7 +1499,7 @@ LinkedIn聯結器中有篩選器，可根據LinkedIn學習資料庫來分隔內�
 
 ### 統一報告 {#unified-reports}
 
-Learning Manager提供一種將使用者資料、學習者成績單、遊戲化、意見回饋等報表組合，以單一資料集形式建立匯出至Power BI的方法。
+Learning Manager提供一種將使用者資料、學習者成績單、Gamification、意見回饋報表等報表組合，以單一資料集的形式建立匯出至Power BI的方法。
 
 這可讓Power BI使用者合併來自多個報表的資料，以在Power BI中顯示更強大的分析和視覺效果。
 
@@ -2097,7 +2097,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 若要設定培訓資料存取聯結器，請遵循下列步驟：
 
 1. 在整合管理應用程式中，選取&#x200B;**[!UICONTROL Training Data Access]** > **[!UICONTROL Getting Started]**。
-1. 在&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面上選取&#x200B;**[!UICONTROL Next]**。
+1. 在&#x200B;**[!UICONTROL Next]**&#x200B;頁面上選取&#x200B;**[!UICONTROL Getting Started]**。
 1. 輸入連線名稱和允許清單中的網域。
 
    ![](assets/connection-name-and-domain-name.png)
@@ -2106,7 +2106,7 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 1. 從下列選項中選取&#x200B;**[!UICONTROL Type of interface]**：
 
    * **[!UICONTROL Native Learning Manager]**：這是標準產品，僅供原生介面使用。
-   * **[!UICONTROL &#x200B; Headless interfaces]**：這是進階產品，會公開API以建置非登入體驗。
+   * **[!UICONTROL  Headless interfaces]**：這是進階產品，會公開API以建置非登入體驗。
 
    ![](assets/types-of-interface.png)
 介面型別
@@ -2124,8 +2124,8 @@ Microsoft Teams聯結器會連線Learning Manager和Microsoft Teams系統，以�
 1. 啟用連線後，所有課程、學習路徑和憑證的影像都會移轉至CDN。
 1. 將課程、學習路徑和憑證的中繼資料匯出至搜尋和擷取服務。
 1. 您可以選取「啟用排程」選項來排程中繼資料匯出。 對於進階計畫，排程每3小時自動進行一次。
-1. 針對隨選報告，請移至&#x200B;**[!UICONTROL On Demand]**，選取&#x200B;**[!UICONTROL Start date]**，然後選取&#x200B;**[!UICONTROL click]**&#x200B;執行。
-您可以在&#x200B;**[!UICONTROL Execution Status]**&#x200B;頁面上檢查報告執行的狀態。
+1. 針對隨選報告，請移至&#x200B;**[!UICONTROL On Demand]**，選取&#x200B;**[!UICONTROL Start date]**，然後選取&#x200B;**[!UICONTROL click]**執行。
+您可以在**[!UICONTROL Execution Status]**&#x200B;頁面上檢查報告執行的狀態。
 
 ### 在AEM中建立網站 {#create-website-in-aem}
 
@@ -2235,7 +2235,7 @@ Adobe Commerce管理員會將Learning Manager設定為整合。
 
 >[!NOTE]
 >
->在2024年3月發行的Adobe Learning Manager中，我們已推出對[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=zh-Hant)的支援。
+>在2024年3月發行的Adobe Learning Manager中，我們已推出對[Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en)的支援。
 
 
 1. 按一下&#x200B;**[!UICONTROL Export Training Metadata]** > **[!UICONTROL On Demand]**。

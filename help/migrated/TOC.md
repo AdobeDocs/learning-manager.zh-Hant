@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '760'
 ht-degree: 3%
 
 ---
@@ -14,13 +14,14 @@ ht-degree: 3%
 
 * [Learning Manager使用手冊](user-guide.md)
 * 簡介 {#introduction}
-   * [Adobe Learning Manager 2025年10月版本的新增功能](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
-   * [2025年5月新功能摘要](/help/migrated/whats-new.md)
+   * [新功能摘要2025年10月](/help/migrated/whats-new.md)
+   * [2025年5月新功能摘要](/help/migrated/whats-new-may-2025.md)
    * [2024年11月新功能摘要](/help/migrated/whats-new-nov-24.md)
    * [新功能摘要2024年7月](whats-new-july-2024.md)
    * [新功能2024年3月](whats-new-march-2024.md)
    * [新功能2023年11月](whats-new-november-2023.md)
    * [新功能2023年7月](whats-new-2023-july.md)
+   * [Adobe Learning Manager近期變更](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [發行說明](release-note/release-notes.md)
    * [系統需求](system-requirements.md)
    * [適用於Microsoft Teams的Adobe Learning Manager應用程式](adobe-learning-manager-app-microsoft-teams.md)
@@ -48,7 +49,25 @@ ht-degree: 3%
       * [作用中的欄位](/help/migrated/administrators/feature-summary/active-fields.md)
    * [新增教室位置](administrators/feature-summary/classroom.md)
    * [建立課程例項和學習路徑](administrators/feature-summary/courses.md)
-   * [內容市集](administrators/feature-summary/content-marketplace.md)
+   * Adobe Learning Manager中的Experience Builder {#experience-builder}
+      * [概觀](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Experience Builder的核心元件](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+      * Experience Builder中的頁面 {#pages-in-experience-builder}
+         * [概觀](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [在Experience Builder建立自訂頁面](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+      * Experience Builder中的Widget {#widgets-in-experience-builder}
+         * [概觀](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [新增和設定Widget](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+      * Experience Builder中的選單 {#menu-in-experience-builder}
+         * [概觀](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [建立功能表](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+      * Experience Builder中的自訂 {#customization-in-experience-builder}
+         * [概觀](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [自訂Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+      * [Experience Builder准則和限制](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+   * 內容市集 {#content-marketplace}
+      * [內容市集](administrators/feature-summary/content-marketplace.md)
+      * [組織Go1課程至學習路徑](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [報表](administrators/feature-summary/reports.md)
    * [群組成功儀表板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [學習路徑](administrators/feature-summary/learning-paths.md)
@@ -81,6 +100,7 @@ ht-degree: 3%
    * [標記](administrators/feature-summary/tags.md)
    * [Learning Manager內容目錄](administrators/feature-summary/content-catalogs.md)
    * [自訂角色](administrators/feature-summary/custom-role.md)
+   * [宣告許可權的自訂角色](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
    * [目錄標籤](administrators/feature-summary/catalog-labels.md)
    * [Learning Manager中的xAPI](authors/feature-summary/xapi.md)
    * [以管理員身分監控及調節社交學習](administrators/feature-summary/social-learning-configurations-as-an-admin.md)

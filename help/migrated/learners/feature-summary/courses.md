@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 我的學習
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3294'
 ht-degree: 0%
 
 ---
@@ -162,7 +162,7 @@ _切換執行個體提示_
 
 ## 參加課程 {#consumingnbspacourse}
 
-註冊課程後，按一下課程中的「開始」即可開始參加課程。 或者，按一下&#x200B;**[!UICONTROL Learning]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Courses]**。 選擇您要開始學習的課程。
+註冊課程後，按一下課程中的「開始」即可開始參加課程。 或者，按一下&#x200B;**[!UICONTROL Courses]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Learning]**。 選擇您要開始學習的課程。
 
 如果您尚未開始課程，請按一下課程標題旁邊的「開始」按鈕。
 
@@ -291,6 +291,19 @@ Content Hub適用於所有管理員，學習者角色為。 管理員可讓SME�
 
    新選取的執行個體已註冊。 如果學習者註冊了屬於另一個學習對象一部分的課程例項，並且更新了屬於彈性學習計劃一部分的課程例項，則在出現警告後，他將會自動從其他學習物件中取消註冊。
 
+## 語言進度管理
+
+學習者進度可以在每個地區設定中個別追蹤，以確保在播放器語言之間切換不會影響先前取得的進度。 使用者和模組層級會分別維護每個模組的進度，以免學習者探索不同地區設定的內容時覆寫進度。
+
+例如，如果學習者英語進度達到75%，然後切換到西班牙文，恢復為英語將從75%而不是重置為0%。 每個地區設定都會儲存自己的進度狀態，讓學習者能夠順暢地導覽並完成多種語言的內容，而不會失去其個別進度。
+
+語言型學習者進度不支援下列內容型別：
+
+* 不支援視訊和音訊內容。
+* 不支援協力廠商內容，包括Go1、LinkedIn Learning、getAbstract和Harvard ManageMentor。
+* 若內容未傳送資料至學習記錄存放區(LRS)，將不會追蹤或儲存進度。
+* 在離線模式中，行動應用程式使用者無法追蹤此功能的進度。
+
 ## 完成課程 {#completingacourse}
 
 作為學習者，您可以在課程中完成課程所需的模組數量。 課程完成條件取決於作者已將多少模組設定為必修。 當您註冊具有最低完成條件的課程時，您可以在「課程」頁面的右窗格中檢視完成條件。
@@ -319,6 +332,19 @@ Content Hub適用於所有管理員，學習者角色為。 管理員可讓SME�
 
 ![](assets/learning-program200s.jpg)
 *討論區標籤*
+
+## 報名課程興趣
+
+學習者可以對沒有作用中執行個體的課程表示興趣。
+
+若要登記興趣，請執行下列步驟：
+
+1. 以學習者身分登入Adobe Learning Manager。
+2. 移至&#x200B;**[!UICONTROL Catalog]**&#x200B;並選取沒有使用中執行個體的課程。
+3. 在課程總覽頁面上選取&#x200B;**[!UICONTROL Register Interest]**。
+
+   ![](assets/register-interest.png)
+   學習者UI上的&#x200B;_課程概觀區段，醒目提示「註冊興趣」選項_
 
 ## 課程生命週期 {#courselifecycle}
 

@@ -4,9 +4,9 @@ title: 安裝Salesforce套件
 description: Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以在SFDC入口網站的應用程式內，直接透過刊頭取得管理員傳送的公告。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1009'
 ht-degree: 0%
 
 ---
@@ -25,12 +25,12 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 1. 在Salesforce應用程式頁面上，記下說明中提及的應用程式ID （也稱為使用者端ID）和使用者端密碼。
 1. 按一下「**[!UICONTROL Approve]**」，您的應用程式必須成功核准。
 1. 按一下&#x200B;**[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**。
-1. 在取得OAuth程式碼區段中，使用者端ID和範圍必須設定為 — admin：read，admin：write。 按一下&#x200B;**[!UICONTROL Submit]**。
+1. 在「取得OAuth代碼」區段中，使用者端ID和範圍必須設定為 — admin:read，admin:write。 按一下&#x200B;**[!UICONTROL Submit]**。
 1. 在取得重新整理權杖中，輸入使用者端ID和使用者端密碼。 按一下&#x200B;**[!UICONTROL Submit]**&#x200B;並記下重新整理權杖。
 
 ### 在Salesforce應用程式中建立帳戶
 
-1. 在Salesforce註冊頁面上建立帳戶。 您必須在開發人員版或企業版中建立Salesforce帳戶。  [開發人員註冊網址](https://developer.salesforce.com/signup)。 請務必使用電子郵件ID註冊用於Learning Manager的Salesforce。
+1. 在Salesforce註冊頁面上建立帳戶。 您必須在開發人員版或企業版中建立Salesforce帳戶。  [開發人員註冊網址](https://developer.salesforce.com/signup)。 請確定您必須使用電子郵件ID來註冊用於Learning Manager的Salesforce。
 1. 透過驗證電子郵件驗證您的帳戶。
 1. 建立密碼並登入Salesforce。
 1. 請注意登入後的Salesforce URL (例如site.lightning.force.com)
@@ -47,7 +47,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 >
 >Adobe Learning Manager應用程式僅在Salesforce閃電檢視中支援。
 
-1. 啟動[Learning Manager套件URL （M42修補程式2）](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlG)。
+1. 啟動[Learning Manager封裝url](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2)。
 1. 在&#x200B;**登入**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Use Custom Domain]**。
 1. 輸入封裝URL並按一下&#x200B;**[!UICONTROL Continue]**。 安裝頁面必須選取僅供管理員安裝的選項。 請勿變更此選項。
 1. 按一下&#x200B;**[!UICONTROL Install]**。 安裝套件後，按一下&#x200B;**[!UICONTROL Done]**。 系統引導您前往已安裝的套件頁面，而您可以看到Adobe Learning Manager已安裝的套件。
@@ -60,7 +60,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
    * **ClientID**：輸入您從第一個區段取得的值。
    * **ClientSecret：**&#x200B;請輸入您從第一個區段取得的值。
    * **RefreshToken：**&#x200B;請輸入您從第一個區段取得的值。
-   * **LearningManagerBaseURL：** Learning Manager託管網站的網址。
+   * **LearningManagerBaseURL：** Learning Manager託管所在網站的URL。
    * **停用重新導向：**&#x200B;停用重新導向至Learning Manager中的學習者首頁。
 
 >[!NOTE]
@@ -75,7 +75,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 1. 輸入詳細資料：
 
    1. **遠端站台名稱：**&#x200B;請輸入您選擇的名稱。
-   1. **遠端網站URL：** Learning Manager託管網站的網站URL。
+   1. **遠端站台URL：** Learning Manager所在站台的URL。
 
 1. 啟動Learning Manager。
 
@@ -91,7 +91,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 1. 編輯Salesforce應用程式的重新整理權杖並儲存。
 1. 重新啟動Salesforce App。
 
-### 啟用Learning Manager應用程式通知
+### 啟用Learning Manager應用程式的通知
 
 1. 按一下右上角的&#x200B;**設定**。
 1. 搜尋自訂通知。
@@ -118,7 +118,7 @@ Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定�
 
 ## 為Salesforce使用者設定Learning Manager
 
-Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用。 Salesforce管理員可以根據設定檔新增使用者。 Salesforce設定檔類似於Learning Manager中的設定檔。 例如，管理員、整合管理員、講師等。 Salesforce管理員也可以建立自訂設定檔。
+使用者也可以使用存在於任何Learning Manager帳戶中的Salesforce應用程式。 Salesforce管理員可以根據設定檔新增使用者。 Salesforce設定檔類似於Learning Manager中的設定檔。 例如，管理員、整合管理員、講師等。 Salesforce管理員也可以建立自訂設定檔。
 
 ### 個人資料
 
@@ -140,7 +140,7 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 ![](assets/permission-set.png)
 
-*新增許可權以存取Learning Manager應用程式*
+*新增存取Learning Manager應用程式的許可權*
 
 當您安裝套件時，會建立新的許可權集，**Adobe Learning Manager使用者**。 前往許可權集，然後新增使用者。
 
@@ -152,4 +152,4 @@ Learning Manager應用程式也可供任何Salesforce帳戶中的使用者使用
 
 您必須讓所有設定檔都能看見應用程式。
 
-按一下&#x200B;**[!UICONTROL Save]**，則屬於所有設定檔的學習者將會存取Learning Manager應用程式。
+按一下「**[!UICONTROL Save]**」，則屬於所有設定檔的學習者將會存取Learning Manager應用程式。
