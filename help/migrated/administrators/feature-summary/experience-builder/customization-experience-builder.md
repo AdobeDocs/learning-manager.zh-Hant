@@ -87,7 +87,7 @@ c. **[!UICONTROL Enroll / Continue button]**：允許學習者註冊新課程或
 
 自訂課程圖磚會顯示給所有學習者。
 
-自訂前&#x200B;****
+自訂前&#x200B;**&#x200B;**
 
 ![](assets/before-customization.png)
 _在自訂之前，在Adobe Learning Manager中插入課程磚_

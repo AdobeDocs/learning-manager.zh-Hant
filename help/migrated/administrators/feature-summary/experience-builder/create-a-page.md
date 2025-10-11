@@ -112,7 +112,7 @@ _顯示版面配置選項的頁面配置，以重新排序、展開或刪除區�
 
 6. 在銷售工程師的&#x200B;**[!UICONTROL Content Box widget]**&#x200B;設定畫面中，輸入標題、說明和動作按鈕標籤
 7. 選取&#x200B;**[!UICONTROL Add widget]**。
-8. 選取&#x200B;**[!UICONTROL Save]**並從下列選項中選擇：
+8. 選取&#x200B;**[!UICONTROL Save]**&#x200B;並從下列選項中選擇：
 a. **[!UICONTROL Save as Draft]**：此頁面將儲存為草稿。 管理員稍後可以編輯頁面。
 b. **[!UICONTROL Save & Publish]**：頁面將會發佈，管理員可以將此頁面新增到功能表。
 
