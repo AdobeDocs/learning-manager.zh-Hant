@@ -2,7 +2,7 @@
 description: 瞭解2025年10月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版本的新增功能
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
 workflow-type: tm+mt
 source-wordcount: '5605'
 ht-degree: 0%
@@ -815,7 +815,7 @@ _工作輔助報告會顯示直接下載連結，讓您在Adobe Learning Manager
 * 在學習者應用程式中，按下Fluidic Player中的TAB鍵時「進入全熒幕」按鈕卡住。 鍵盤導覽現在可在所有熒幕元素中正確移動。
 * 在經理應用程式的合規性控制面板中，將游標暫留在較長的課程名稱上，現在會顯示已註冊或合規性課程的全名。
 * 在module.csv中，模組可見性欄只接受「共用」或「隱藏」。 移轉期間，任何其他值都會觸發錯誤，避免後端發生失敗。
-* 若停用UUID，使用混合大小寫電子郵件建立新管理員，不會再產生重複的使用者專案。 系統現在會一致地處理電子郵件大小寫，以避免重複專案。
+* 停用UUID時，若使用混合大小寫電子郵件建立新管理員，將不再產生重複的使用者專案。 系統現在會一致地處理電子郵件大小寫，以避免重複專案。
 * 備註PDF現在可正確顯示阿拉伯文、希臘文、希伯來文、印地文、泰文和烏克蘭文等語言的課程。 過去，即使字元在播放器中正確顯示，下載的PDF仍會顯示扭曲的字元。
 
 ## 系統需求
