@@ -2,7 +2,7 @@
 description: 瞭解2025年10月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版本的新增功能
-source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
+source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
 workflow-type: tm+mt
 source-wordcount: '5605'
 ht-degree: 0%
@@ -830,3 +830,5 @@ _工作輔助報告會顯示直接下載連結，讓您在Adobe Learning Manager
 
 * [Adobe Learning Manager 2025年5月發行版本](/help/migrated/whats-new-may-2025.md)
 * [Adobe Learning Manager 2025年11月發行版本](/help/migrated/whats-new-nov-24.md)
+
+
