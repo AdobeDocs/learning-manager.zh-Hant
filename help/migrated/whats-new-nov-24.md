@@ -33,7 +33,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->請參閱此[網路研討會](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course)，深入瞭解此版本的新功能。
+>請參閱此[網路研討會](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course)，深入瞭解此版本的新功能。
 
 ## Adobe Learning Manager中的AI支援搜尋
 

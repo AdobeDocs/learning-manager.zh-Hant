@@ -352,7 +352,7 @@ Harvard ManageMentor聯結器可供Harvard ManageMentor的企業客戶使用，�
    client_hmm12_20150125.xlsx：這是Harvard ManageMentor聯結器的使用者摘要。 您必須遵循的檔案命名慣例是&#x200B;**client_hmm12_yyyyMMdd.xlsx.**
 
    請參閱此聯結器的以下兩個使用者資訊源範例和課程資訊源檔案：
-   [ Harvard ManageMentor聯結器的課程中繼資料檔案](assets/hmm12-metadata.xlsx) [ Harvard ManageMentor聯結器的使用者摘要](assets/client-hmm12-20170304.xlsx)
+   [&#x200B; Harvard ManageMentor聯結器的課程中繼資料檔案](assets/hmm12-metadata.xlsx) [&#x200B; Harvard ManageMentor聯結器的使用者摘要](assets/client-hmm12-20170304.xlsx)
 
 ## Workday聯結器 {#workdayconnector}
 

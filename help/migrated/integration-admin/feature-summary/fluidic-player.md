@@ -31,7 +31,7 @@ Fluidic播放器能以一致且直覺的方式播放幾乎任何型別的電子�
 
 以下是一些使用內嵌式流體播放器的範例。
 
-* 您可以使用 **&#x200B; **&#x200B;網站中的內嵌式流體播放器來列出您員工的已註冊課程，並提供在相同頁面上啟動培訓的連結。 這表示您的學習者可在您的內部網路網站上參加培訓。
+* 您可以使用 **&#x200B; &#x200B;**&#x200B;網站中的內嵌式流體播放器來列出您員工的已註冊課程，並提供在相同頁面上啟動培訓的連結。 這表示您的學習者可在您的內部網路網站上參加培訓。
 
 * 如果您從事培訓業務，可能會有客戶購買課程的網站。 您可以將內嵌式播放器整合到相同網站，讓客戶可以使用他們在網站內購買的內容。
 
@@ -183,7 +183,7 @@ Learning Manager流體播放器使用的串流技術可為其學習者提供視�
 
    您可以在整合管理員中設定內嵌式流體播放器，取得您的Token。 您可以取得您的驗證Token，將其當作存取權杖使用。
 
-   建立的URL範例； https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   建立的URL範例； https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    在這裡， lo_id將是課程、學習計畫、認證和工作輔助的識別碼。
 

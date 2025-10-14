@@ -31,7 +31,7 @@ ht-degree: 0%
 
 以下連結是清除快取的瀏覽器專用指南：
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=en)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=en)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ## 使用無痕模式
 
-在瀏覽器中使用無痕模式，然後登入Adobe Learning Manager。 請參閱[指示](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=en&amp;oco=0)。
+在瀏覽器中使用無痕模式，然後登入Adobe Learning Manager。 請參閱[指示](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=en&oco=0)。
 
 ## 聯絡管理員
 
