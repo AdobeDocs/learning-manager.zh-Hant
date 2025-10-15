@@ -58,7 +58,7 @@ Adobe Learning Manager的第1級(L1)意見反應功能可讓學習者在完成�
    a. **[!UICONTROL Free Text]**：允許學習者以自己的文字提供答案。
 
    * 在&#x200B;**[!UICONTROL Question]**&#x200B;文字欄位中輸入您的問題。
-   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**切換按鈕。
+   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**&#x200B;切換按鈕。
      ![](assets/free-text.png)
      _新增自由文字問題到意見回饋表單_
 
@@ -66,21 +66,21 @@ Adobe Learning Manager的第1級(L1)意見反應功能可讓學習者在完成�
 
    * 在&#x200B;**[!UICONTROL Question]**&#x200B;文字欄位中輸入您的問題。
    * 選取評等範圍（1至10）。
-   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**切換按鈕。
+   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**&#x200B;切換按鈕。
      ![](assets/numerical.png)\
      _在意見表單中新增數值/NPS比例問題_
 
    c. **[!UICONTROL Likert Scale]**：學習者可以指定他們同意陳述的程度，從「強烈不同意」到「強烈同意」。
 
    * 在&#x200B;**[!UICONTROL Question]**&#x200B;文字欄位中輸入您的問題。
-   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**切換按鈕。
+   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**&#x200B;切換按鈕。
      ![](assets/likert.png)
      _在意見表單中新增李克特量表問題_
 
    d. **[!UICONTROL Course Effectiveness Score]**：使用相對評等系統，測量課程對學習者之影響的量度。
 
    * 預先定義的問題（李克特量表從1到10）將新增到意見回饋表單中。
-   * 您只能新增一個&#x200B;**[!UICONTROL Course Effectiveness Score]**問題，且無法編輯
+   * 您只能新增一個&#x200B;**[!UICONTROL Course Effectiveness Score]**&#x200B;問題，且無法編輯
      ![](assets/course-effective.png)
      _將課程效果分數問題新增至意見表單_
 7. 選取&#x200B;**[!UICONTROL Save]**。 您可以在意見反應Forms區段中檢視建立的表單。
