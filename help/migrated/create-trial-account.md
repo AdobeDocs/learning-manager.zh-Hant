@@ -16,7 +16,7 @@ ht-degree: 0%
 
 若要建立試用帳戶：
 
-1. 移至[Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html)。
+1. 移至[Adobe Learning Manager](https://business.adobe.com/tw/products/learning-manager/adobe-learning-manager.html)。
 2. 選取&#x200B;**[!UICONTROL Free 30-day trial]**。
 
    ![](assets/free-trial.png)
