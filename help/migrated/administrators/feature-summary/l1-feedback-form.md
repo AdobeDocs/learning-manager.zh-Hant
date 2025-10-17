@@ -2,7 +2,7 @@
 description: 進一步瞭解如何為學習者建立L1意見表單
 jcr-language: en_us
 title: L1意見回饋表單
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -58,7 +58,7 @@ Adobe Learning Manager的第1級(L1)意見反應功能可讓學習者在完成�
    a. **[!UICONTROL Free Text]**：允許學習者以自己的文字提供答案。
 
    * 在&#x200B;**[!UICONTROL Question]**&#x200B;文字欄位中輸入您的問題。
-   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**&#x200B;切換按鈕。
+   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**切換按鈕。
      ![](assets/free-text.png)
      _新增自由文字問題到意見回饋表單_
 
@@ -66,21 +66,21 @@ Adobe Learning Manager的第1級(L1)意見反應功能可讓學習者在完成�
 
    * 在&#x200B;**[!UICONTROL Question]**&#x200B;文字欄位中輸入您的問題。
    * 選取評等範圍（1至10）。
-   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**&#x200B;切換按鈕。
+   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**切換按鈕。
      ![](assets/numerical.png)\
      _在意見表單中新增數值/NPS比例問題_
 
    c. **[!UICONTROL Likert Scale]**：學習者可以指定他們同意陳述的程度，從「強烈不同意」到「強烈同意」。
 
    * 在&#x200B;**[!UICONTROL Question]**&#x200B;文字欄位中輸入您的問題。
-   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**&#x200B;切換按鈕。
+   * 若要讓問題成為必要問題，請選取&#x200B;**[!UICONTROL Mandatory]**切換按鈕。
      ![](assets/likert.png)
      _在意見表單中新增李克特量表問題_
 
    d. **[!UICONTROL Course Effectiveness Score]**：使用相對評等系統，測量課程對學習者之影響的量度。
 
    * 預先定義的問題（李克特量表從1到10）將新增到意見回饋表單中。
-   * 您只能新增一個&#x200B;**[!UICONTROL Course Effectiveness Score]**&#x200B;問題，且無法編輯
+   * 您只能新增一個&#x200B;**[!UICONTROL Course Effectiveness Score]**問題，且無法編輯
      ![](assets/course-effective.png)
      _將課程效果分數問題新增至意見表單_
 7. 選取&#x200B;**[!UICONTROL Save]**。 您可以在意見反應Forms區段中檢視建立的表單。
@@ -115,7 +115,7 @@ _意見表單畫面顯示[預覽]選項，以檢視預設語言的意見表單_
 
 ## 將意見回饋表單設定為預設
 
-管理員可為自學、教室、虛擬教室和混合式課程建立預設意見表單。 完成設定後，學習者可於完成任何課程後自動看到此預設表單。 除非管理員選擇為特定課程指派不同的意見表單，否則此預設表單將套用至所有課程。
+管理員可為自學、教室、虛擬教室和混合式課程建立預設意見表單。 設定預設表單後，該表單會自動套用至所有新建立的課程。 學習者完成任何課程後都會看到此表單。 如有需要，管理員可以選擇為特定課程指派不同的意見表單。
 
 ![](assets/set-as-default.png)
 _意見表單畫面顯示選項，用來設定預設意見表單_
