@@ -2,7 +2,7 @@
 description: 瞭解如何在Adobe Learning Manager中建立Go1播放清單並新增至學習路徑。 本指南涵蓋播放清單整合的逐步指示和最佳實務。
 jcr-language: en_us
 title: 組織Go1播放清單至Adobe Learning Manager學習路徑
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 若要使用Go1課程建立學習路徑：
 
-1. 以管理員身分登入Adobe Learning Manager。
+1. 以系統管理員身分登入&#x200B;**Adobe Learning Manager**。
 2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Learning Paths]**。
 3. 選取&#x200B;**[!UICONTROL Add]**。
 
