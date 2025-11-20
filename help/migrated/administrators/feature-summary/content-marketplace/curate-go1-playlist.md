@@ -43,7 +43,7 @@ ht-degree: 0%
 7. 管理員可透過下列方式建立播放清單：
 
    * 使用&#x200B;**[!UICONTROL Go1 AI Assistant]**。 檢視[Go1 AI助理](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant)以取得詳細資訊。
-   * 在&#x200B;**[!UICONTROL Library]**&#x200B;中，選取&#x200B;**[!UICONTROL Create playlist]**並從下列選項中選擇：
+   * 在&#x200B;**[!UICONTROL Library]**&#x200B;中，選取&#x200B;**[!UICONTROL Create playlist]**&#x200B;並從下列選項中選擇：
 a. **[!UICONTROL with AI]**：藉助AI建立播放清單。 如需詳細資訊，請檢視此[區段](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai)。
 b. **[!UICONTROL by myself]**：手動新增課程以建立播放清單。 如需詳細資訊，請檢視此[區段](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually)。
 
@@ -128,7 +128,7 @@ Adobe Learning Manager提供AI支援的協助，讓管理員更容易策劃課�
 9. 使用可用的AI選項變更說明：
    * **[!UICONTROL Improve writing]**：調整現有的說明，使其更清楚。
    * **[!UICONTROL Generate description]**：根據內容或內容自動建立新描述。
-   * **[!UICONTROL  Make it shorter]**：縮短文字或標題，同時保留主要概念。
+   * **[!UICONTROL &#x200B; Make it shorter]**：縮短文字或標題，同時保留主要概念。
 
    ![](assets/ai-option-descriptions.png)
    _使用AI選項建立Go1播放清單畫面，以增強播放清單描述_
@@ -139,8 +139,8 @@ Adobe Learning Manager提供AI支援的協助，讓管理員更容易策劃課�
 12. 在確認提示中選取&#x200B;**是**。
 13. 從&#x200B;**[!UICONTROL Select playlist to import prompt]**&#x200B;選取播放清單。
 
-   ![](assets/add-playlist-to-lp.png)
-   _從Adobe Learning Manager的Go1資料庫中選取並匯入銷售工程師技能增強播放清單_
+    ![](assets/add-playlist-to-lp.png)
+    _從Adobe Learning Manager的Go1資料庫中選取並匯入銷售工程師技能增強播放清單_
 
 14. 選取&#x200B;**[!UICONTROL Add Playlists to Learning Path]**，然後選取&#x200B;**[!UICONTROL Publish]**。
 
