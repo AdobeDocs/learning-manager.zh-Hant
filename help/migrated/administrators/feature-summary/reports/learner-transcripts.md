@@ -63,21 +63,21 @@ Adobe Learning Manager中的學習者成績單會追蹤培訓、合規性和技�
 5. 選取&#x200B;**[!UICONTROL Generate New]**。
 6. 選取您需要產生成績單的日期範圍。 您可以使用日期範圍下拉式清單中的&#x200B;**[!UICONTROL Choose dates]**&#x200B;選項來修改開始和結束日期。
 7. 選取下列專案：
-a.從**[!UICONTROL Select Learners]**&#x200B;區段選取學習者的名稱。 您可以選取使用者或使用者群組，也可以複製並貼上您要產生成績單的學習者的電子郵件地址。 如需詳細資訊，請參閱[使用複製貼上產生學習者成績單](#generate-learner-transcript-using-copy-paste)一節。 如果未選取任何專案，其預設值為「全部」值。
-b.從**[!UICONTROL Select Catalogs]**下拉式清單中選取特定目錄。 只會下載指定目錄的成績單。 如果未選取任何專案，其預設值為「全部」值。
-c.選取**[!UICONTROL Enrollment Status]**。 此下拉式清單包含下列選項：
+a.從&#x200B;**[!UICONTROL Select Learners]**&#x200B;區段選取學習者的名稱。 您可以選取使用者或使用者群組，也可以複製並貼上您要產生成績單的學習者的電子郵件地址。 如需詳細資訊，請參閱[使用複製貼上產生學習者成績單](#generate-learner-transcript-using-copy-paste)一節。 如果未選取任何專案，其預設值為「全部」值。
+b.從&#x200B;**[!UICONTROL Select Catalogs]**&#x200B;下拉式清單中選取特定目錄。 只會下載指定目錄的成績單。 如果未選取任何專案，其預設值為「全部」值。
+c.選取&#x200B;**[!UICONTROL Enrollment Status]**。 此下拉式清單包含下列選項：
 
        *全選
        *已完成
        *進行中
        *未啟動
        *已取消註冊
-   8. 進階選項：選取&#x200B;**[!UICONTROL Advanced options]**&#x200B;以下載成績單：
+   &#x200B;8. 進階選項：選取&#x200B;**[!UICONTROL Advanced options]**&#x200B;以下載成績單：
 
    a.選取核取方塊&#x200B;**[!UICONTROL Include deleted Learners]**，下載已從帳戶中刪除的學習者成績單。
-b.啟用**[!UICONTROL Enable module level information]**核取方塊，下載學習者成績單中的模組層級資訊。 在這種情況下，如果啟用此選項，模組名稱和每個模組逗留時間會作為成績單的一部分擷取。
-c.啟用選項**[!UICONTROL Include skills data and summary sheets]**&#x200B;核取方塊，下載技能資料和摘要表。 如需詳細資訊，請參閱Excel報表一節。
-9. 您也可以選取要在報表中填入的欄。 如此可讓您根據需要靈活地下載具有特定欄值的報表。 從下拉式選單中選取欄。
+b.啟用&#x200B;**[!UICONTROL Enable module level information]**&#x200B;核取方塊，下載學習者成績單中的模組層級資訊。 在這種情況下，如果啟用此選項，模組名稱和每個模組逗留時間會作為成績單的一部分擷取。
+c.啟用選項&#x200B;**[!UICONTROL Include skills data and summary sheets]**&#x200B;核取方塊，下載技能資料和摘要表。 如需詳細資訊，請參閱Excel報表一節。
+&#x200B;9. 您也可以選取要在報表中填入的欄。 如此可讓您根據需要靈活地下載具有特定欄值的報表。 從下拉式選單中選取欄。
 成績單會在未包含技能資料時產生，並以.zip檔案下載到您的電腦。 如果啟用「技能資料」核取方塊，則會產生並下載成成績單。 xlsx檔案。
 
 ### 使用複製貼上產生學習者成績單

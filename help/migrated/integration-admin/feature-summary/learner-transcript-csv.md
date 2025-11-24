@@ -29,7 +29,7 @@ ht-degree: 0%
 
 ## 從使用者介面擷取學習者成績單 {#fetchlearnertranscriptfromtheuserinterface}
 
-學習者可從「設定檔設定」下載其成績單。 如需詳細資訊，請參閱***[下載學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***。
+學習者可從「設定檔設定」下載其成績單。 如需詳細資訊，請參閱&#x200B;***[下載學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***。
 
 管理員可以產生整個組織的學習者成績單、一組特定使用者或一組特定學習物件，或一組特定使用者和學習物件。 他們還可以取得一段時間間隔內的所有學習記錄，並指出是否需要模組層級資訊（預設會省略模組層級資訊）。 如需詳細資訊，請參閱&#x200B;[***下載學習者成績單***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)。
 
