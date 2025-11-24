@@ -2,7 +2,7 @@
 description: 瞭解2025年10月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版本的新增功能
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5605'
 ht-degree: 0%
@@ -731,7 +731,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 ![在Adobe學習中顯示標籤完成日期（以黃色醒目提示）的學習者成績單報告](/help/migrated/assets/mark-completion-column.png)
 _學習者成績單報告以黃色顯示新欄，醒目顯示每個使用者的個別完成日期_
 
-檢視[學習者成績單](/help/migrated/administrators/feature-summary/learner-transcripts.md)，以取得學習者成績單報告的詳細資訊。
+檢視[學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)以取得學習者成績單報告的詳細資訊。
 
 ### 具有延伸資料欄位的增強型使用者報告
 
@@ -774,7 +774,7 @@ _強調內部使用者ID和管理員電子郵件地址的使用者報告，以�
 >
 >依預設，現有帳戶會停用此旗標，而且必須為新帳戶明確要求此旗標。
 
-檢視[學習者成績單](/help/migrated/administrators/feature-summary/learner-transcripts.md)文章詳細資訊。
+檢視[學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)文章詳細資訊。
 
 ### 具有直接存取連結的工作輔助報告
 

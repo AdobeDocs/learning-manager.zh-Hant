@@ -2,7 +2,7 @@
 title: Adobe Learning Manager 10月發行版本的新增功能
 description: 瞭解Adobe Learning Manager 2025年10月版本的新功能、改善和重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
+source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
 workflow-type: tm+mt
 source-wordcount: '8044'
 ht-degree: 0%
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ### 具有新欄的學習者成績單
 
-請參閱此[文章](/help/migrated/administrators/feature-summary/learner-transcripts.md)以瞭解如何下載學習者成績單。
+請參閱此[文章](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)，瞭解學習者成績單報告的詳細資訊。
 
 下載的學習者成績單報告包含新欄：標籤完成日期（UTC時區）。
 
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

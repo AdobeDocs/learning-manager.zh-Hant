@@ -4,7 +4,7 @@ title: 解譯學習者成績單CSV
 description: 解譯學習者成績單CSV
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 0%
@@ -17,21 +17,21 @@ ht-degree: 0%
 
 學習者成績單是Adobe Learning Manager中最常用的報告之一。 該報告可讓您以CSV格式在單一報告中取得幾乎每個可能的詳細資訊。
 
-除了作為使用者可擷取以追蹤和分析學習行為的報告之外，該報告也可視為一種格式，在其中可設定Learning Manager將學習行為的相關資料匯出至外部應用程式/系統。
+除了作為使用者可擷取以追蹤和分析學習行為的報告之外，該報告也可以被視為格式，Learning Manager可以以此格式設定，將學習行為的相關資料匯出至外部應用程式/系統。
 
 典型的企業情境是定期匯出Learning Manager的學習者成績單，加以分析以擷取完成重要學習計畫的學習者，並下訂單購買禮品憑單以辨識及獎勵及時完成。
 
 另一個使用案例是將學習行為資料新增到企業資料倉儲，其中使用者可能想要將學習資料與其他企業資料結合，以分析學習行為與其他流程資料之間的關聯。
 
-在檔案的其餘部分，我們會簡單說明如何從Learning Manager擷取學習者成績單；然後繼續提供報告每一列和每一欄需要如何解譯的詳細資訊。
+在檔案的其餘部分，我們會簡單說明如何從Learning Manager擷取學習者成績單；然後繼續提供詳細資訊，說明需要如何解譯報告的每個列和欄。
 
-對於任何打算透過處理匯出的學習者成績單資料的方式將Learning Manager與其他系統整合的開發人員而言，此資訊可能會很有用。
+對於任何打算透過處理匯出的學習者成績單資料的方式將Learning Manager與其他系統整合的開發人員來說，此資訊可能會很有用。
 
 ## 從使用者介面擷取學習者成績單 {#fetchlearnertranscriptfromtheuserinterface}
 
-學習者可從「設定檔設定」下載其成績單。 如需詳細資訊，請參&#x200B;***[下載學習者成績單](../../administrators/feature-summary/learner-transcripts.md)***。
+學習者可從「設定檔設定」下載其成績單。 如需詳細資訊，請參閱***[下載學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***。
 
-管理員可以產生整個組織的學習者成績單、一組特定使用者或一組特定學習物件，或一組特定使用者和學習物件。 他們還可以取得一段時間間隔內的所有學習記錄，並指出是否需要模組層級資訊（預設會省略模組層級資訊）。 如需詳細資訊，請參閱&#x200B;[***下載學習者成績單***](../../administrators/feature-summary/learner-transcripts.md)。
+管理員可以產生整個組織的學習者成績單、一組特定使用者或一組特定學習物件，或一組特定使用者和學習物件。 他們還可以取得一段時間間隔內的所有學習記錄，並指出是否需要模組層級資訊（預設會省略模組層級資訊）。 如需詳細資訊，請參閱&#x200B;[***下載學習者成績單***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)。
 
 <!--Update above link?-->
 
@@ -41,19 +41,19 @@ ht-degree: 0%
 
 ## 匯出學習者成績單 {#exportlearnertranscript}
 
-當學習者成績單必須由外部系統使用時，Learning Manager會提供稱為匯出資料的功能，其中學習者成績單是可匯出的資料型別之一。 如序言中所述，將Learning Manager與需要處理學習行為資料的外部系統整合，或向Enterprise Data Warehouse填入學習行為資料時，需要用到此屬性。
+當學習者成績單必須由外部系統使用時，Learning Manager會提供稱為匯出資料的功能，其中學習者成績單是可匯出的資料型別之一。 如序言中所述，這是將Learning Manager與需要處理學習行為資料的外部系統整合或向企業資料倉儲填入學習行為資料所必需的。
 
 如需支援匯出學習者成績單的聯結器方式的詳細資訊，請參閱FTP、Box和PowerBI聯結器中的[匯出資料區段](/help/migrated/integration-admin/feature-summary/connectors.md)。
 
 這些聯結器提供的目的是定期（N天一次）將資料匯出至下游應用程式。 因此，這些聯結器只會在每次執行中匯出增量學習行為資料。 請注意，這些聯結器不允許擷取使用者或學習物件特定子集的記錄，此記錄一律是該帳戶中所有使用者和所有學習物件的相關資料。
 
-至於PowerBI，客戶應提供工作區，讓Learning Manager可繼續將此資料逐步匯出至動態建立的資料集中。 此聯結器只會匯出資料，客戶必須視需要根據此資料集建立自己的報告/控制面板。
+若是PowerBI，客戶應提供工作區，讓Learning Manager可繼續將此資料逐步匯出至動態建立的資料集中。 此聯結器只會匯出資料，客戶必須視需要根據此資料集建立自己的報告/控制面板。
 
 下一節會詳細說明下游系統應如何解譯學習者成績單中的記錄。
 
 ## 解讀學習者成績單 {#interpretthelearnertranscript}
 
-學習者成績單中的每一列都可視為一段特定時間內Learning Manager擷取的學習行為。 聯結器通常會匯出「增量資料」，因此列會代表上次執行聯結器與目前執行之間發生的學習活動。
+學習者成績單中的每一列都可視為特定時段內在Learning Manager中擷取的某些學習行為。 聯結器通常會匯出「增量資料」，因此列會代表上次執行聯結器與目前執行之間發生的學習活動。
 
 當然，聯結器也可讓您隨選擷取學習者成績單，在這種情況下，使用者可以指定開始日期，而結束日期假設為現在。 通常，使用者一開始會執行此動作一次，然後設定聯結器以在特定時間匯出增量學習者成績單，每N天一次（預設值N，為1）。
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 在學習者成績單中，每一列代表特定活動，包含特定學習者和特定學習物件。 我們主要關心學習者對於學習物件的狀態 — **已註冊**、**已開始**、**進行中**&#x200B;和&#x200B;**已完成**。 因此，學習者成績單會擷取四個對應的日期。
 
-現在有三種學習物件型別，其中Learning Manager會追蹤學習者進度，匯出的資料包含模組層級的進度資訊，這是學習者在Learning Manager中可體驗到的最細微內容單位。
+現在有三種學習物件型別，其中Learning Manager會追蹤學習者進度，而匯出的資料包含模組層級的進度資訊，這是學習者在Learning Manager中可以體驗到的最精細的內容單位。
 
 * **課程** — 一或多個模組的組合
 * **學習計畫** — 一或多個課程的組合
@@ -126,7 +126,7 @@ ht-degree: 0%
    <td height="19" width="728">學習對象的物件唯一ID。 此欄是根據帳戶層級是否啟用/停用的設定</td> 
   </tr> 
   <tr> 
-   <td valign="middle"><p><b>例項  </b></p></td> 
+   <td valign="middle"><p><b>執行個體  </b></p></td> 
    <td valign="middle">從不空白</td> 
    <td valign="middle">已註冊的LO使用者執行個體名稱。 </td> 
   </tr> 

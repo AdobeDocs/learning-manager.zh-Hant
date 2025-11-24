@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 3120756396fa20170f9a5b96861cbdaa4d4bb8c8
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '765'
 ht-degree: 3%
 
 ---
@@ -88,7 +88,8 @@ ht-degree: 3%
    * [自訂學習者首頁](administrators/feature-summary/customize-learner-homepage.md)
    * [徽章](administrators/feature-summary/badges.md)
    * [顏色主題](administrators/feature-summary/themes.md)
-   * [學習者成績單](administrators/feature-summary/learner-transcripts.md)
+   * [學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+   * [意見回饋報告](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
    * [輪候表與出勤管理](administrators/feature-summary/waitlist-attendance-management.md)
    * [流體播放器](administrators/feature-summary/fluidic-player.md)
    * [公告](administrators/feature-summary/announcements.md)

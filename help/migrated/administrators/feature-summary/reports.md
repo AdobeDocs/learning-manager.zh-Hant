@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7450'
+source-wordcount: '7222'
 ht-degree: 0%
 
 ---
@@ -297,7 +297,7 @@ _法規遵循儀表板 — 管理員檢視_
 
 1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
 2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**。
-3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Admin View]**。
+3. 在&#x200B;**[!UICONTROL Admin View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
 4. 選取&#x200B;**[!UICONTROL Share Dashboard]**&#x200B;按鈕。
 
    ![](assets/share-dashboard.png)
@@ -318,7 +318,7 @@ _法規遵循儀表板 — 管理員檢視_
 請依照下列步驟檢視法規遵循儀表板：
 
 1. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-2. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Your View]**。
+2. 在&#x200B;**[!UICONTROL Your View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
 3. 選取「**[!UICONTROL Go to Compliance Dashboard]**」選項，您就能看到管理員共用的新法規遵循儀表板。
 
    ![](assets/compliance-custom-view.png)
@@ -332,13 +332,13 @@ _法規遵循儀表板 — 管理員檢視_
 
 1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
 2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Manager View]**。
+3. 在&#x200B;**[!UICONTROL Manager View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
 4. 選取&#x200B;**[!UICONTROL Share Dashboard]**&#x200B;按鈕。
 
    ![](assets/share-manager.png)
    _與管理員共用合規性儀表板_
 
-5. 從&#x200B;**[!UICONTROL Select Custom Compliance]**&#x200B;下拉式功能表中選取規範標籤。
+5. 從&#x200B;**[!UICONTROL Select Custom Compliance]**下拉式功能表中選取規範標籤。
 此選項會選取所有具有所選相容性標籤的課程。
 6. 選取您想要與管理員分享的其他課程、學習路徑或認證。
 7. 選取您要共用儀表板的使用者或使用者群組，然後選取&#x200B;**[!UICONTROL Share]**。
@@ -353,7 +353,7 @@ _法規遵循儀表板 — 管理員檢視_
 
 1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
 2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段上選取&#x200B;**[!UICONTROL Admin View]**&#x200B;或&#x200B;**[!UICONTROL Manager View]**。 您可以在此章節中檢視合規性儀表板。
+3. 在&#x200B;**[!UICONTROL Admin View]**&#x200B;區段上選取&#x200B;**[!UICONTROL Manager View]**&#x200B;或&#x200B;**[!UICONTROL Compliance Dashboard]**。 您可以在此章節中檢視合規性儀表板。
 4. 在您要編輯的規範儀表板上選取&#x200B;**[!UICONTROL Edit]**。
 
    ![](assets/edit.png)
@@ -368,7 +368,7 @@ _法規遵循儀表板 — 管理員檢視_
 
 1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
 2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段上選取&#x200B;**[!UICONTROL Admin View]**&#x200B;或&#x200B;**[!UICONTROL Manager View]**。 您可以在此章節中檢視合規性儀表板。
+3. 在&#x200B;**[!UICONTROL Admin View]**&#x200B;區段上選取&#x200B;**[!UICONTROL Manager View]**&#x200B;或&#x200B;**[!UICONTROL Compliance Dashboard]**。 您可以在此章節中檢視合規性儀表板。
 4. 在您要移除的規範儀表板上選取&#x200B;**[!UICONTROL Withdraw]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
 5. 此動作會從管理員的應用程式中移除共用的合規性控制面板。
 
@@ -381,8 +381,8 @@ _法規遵循儀表板 — 管理員檢視_
 
 1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
 2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中選取&#x200B;**[!UICONTROL Learner View]**。
-4. 在&#x200B;**[!UICONTROL Learner View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Change]**。
+3. 在&#x200B;**[!UICONTROL Learner View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
+4. 在&#x200B;**[!UICONTROL Change]**&#x200B;區段中選取&#x200B;**[!UICONTROL Learner View]**。
 
    ![](assets/learner-widget.png)
    _設定學習者的預設合規性Widget_
@@ -416,8 +416,8 @@ _法規遵循儀表板 — 管理員檢視_
 * 內容稽核軌跡
 * 使用者稽核軌跡
 * 登入/存取報告
-* 遊戲成績單
-* 遊戲化稽核軌跡
+* gamification成績單
+* gamification稽核軌跡
 
 ### 課程報告 {#coursereports}
 
@@ -450,15 +450,9 @@ _法規遵循儀表板 — 管理員檢視_
 
 ### 學習者成績單 {#LearnerTranscripts-1}
 
-Adobe Learning Manager可讓組織的管理員產生與學習者相關的成績單。 學習者成績單報告包含下列專案：
+Adobe Learning Manager可讓組織的管理員產生與學習者相關的成績單。
 
-1. 學習者成績單：學習活動控制面板
-1. 技能：技能儀表板
-1. 合規性控制面板
-
-「Excel學習者成績單」報表會以十進位數字顯示「需要學分」和「已習得學分」欄。
-
-如需有關產生學習者成績單報告的資訊和更多資訊，請參閱[學習者成績單](learner-transcripts.md)。
+如需詳細資訊，請參閱[學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)。
 
 ### 公告報告 {#announcementsreports}
 
@@ -683,19 +677,19 @@ Adobe Learning Manager可讓組織的管理員產生與學習者相關的成績�
 1. 從下拉式選單中選取學習者及活動。
 1. 選取&#x200B;**[!UICONTROL Generate]**&#x200B;以產生報表。
 
-### 遊戲化報表 {#gamification}
+### gamification報表 {#gamification}
 
-管理員可以下載CSV格式的遊戲成績單。 您可以下載個別使用者或使用者群組的報表。 使用者名稱、使用者電子郵件、使用者的UUID、已評分的使用者總分數、收集的分組分數、使用者播放的群組名稱、管理員名稱以及作用中欄位值都會在報表中擷取。 管理員可以使用此報表來評估及瞭解組織層級或特定群組的使用者排名。
+管理員可以下載CSV格式的gamification記錄。 您可以下載個別使用者或使用者群組的報表。 使用者名稱、使用者電子郵件、使用者的UUID、已評分的使用者總分數、收集的分組分數、使用者播放的群組名稱、管理員名稱以及作用中欄位值都會在報表中擷取。 管理員可以使用此報表來評估及瞭解組織層級或特定群組的使用者排名。
 
-1. 選取「報表> Excel報表>遊戲化報表」 。
+1. 選取報表> Excel報表> Gamification報表。
 
    ![](assets/gamification.png)
-   *遊戲化報告*
+   *Gamification報告*
 
-1. 「遊戲成績單」對話方塊會出現。 使用名稱、設定檔、使用者群組、電子郵件ID或UUID選取學習者。
+1. 「Gamification成績單」對話方塊隨即顯示。 使用名稱、設定檔、使用者群組、電子郵件ID或UUID選取學習者。
 
    ![](assets/gamification-transcriptsdialog.png)
-   *遊戲成績單對話方塊*
+   *Gamification成績單對話方塊*
 
 1. 按一下&#x200B;**[!UICONTROL Generate]**&#x200B;以產生報表。
 
@@ -708,16 +702,16 @@ Adobe Learning Manager可讓組織的管理員產生與學習者相關的成績�
 
    這些欄包含第一次達到層級的日期。 欄&#x200B;**[!UICONTROL Current Level]**&#x200B;顯示學習者目前的層級。
 
-   當管理員重設遊戲化時，學習者的所有點會相應重設。
+   當管理員重設gamification時，學習者的所有點都會據此重設。
 
-### 遊戲化稽核軌跡報告 {#gamification-audit-trail}
+### gamification稽核軌跡報告 {#gamification-audit-trail}
 
-此報表含有學習者因每個規則而獲得的遊戲點數的歷程記錄及原因。
+此報表含有學習者因每個規則而獲得gamification分數的歷程記錄及原因。
 
 ### 下載報表
 
-1. 選取遊戲化稽核軌跡URL。
-1. 在&#x200B;**遊戲化稽核軌跡**&#x200B;快顯視窗上，選取日期範圍。
+1. 選取Gamification稽核軌跡URL。
+1. 在&#x200B;**Gamification稽核軌跡**&#x200B;快顯視窗上，選取日期範圍。
 1. 選取&#x200B;**產生**。
 
 報表會下載為CSV檔案。 檔案包含下列欄：
@@ -750,22 +744,7 @@ Adobe Learning Manager可讓組織的管理員產生與學習者相關的成績�
 
 身為管理員，您現在可以為指定期間的選定培訓擷取學習者意見回饋(L1)和經理意見回饋(L3)。
 
-您可以從UI或透過PowerBI聯結器匯出資料，以進行更深入的分析。
-
-L1和L3意見報表提供下載合併意見報表的選項，可用於針對&#x200B;**一年**&#x200B;範圍內的選定訓練或針對任何日期範圍內最多10個選定訓練的L1和L3回應。
-
-以系統管理員身分登入，按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]**，然後在報告清單中按一下&#x200B;**[!UICONTROL Feedback Report]**。
-
-![](assets/download-feedbackreport.png)
-*下載意見反應報告*
-
-選擇篩選器後按一下下載，您會收到通知，要求您下載CSV格式的報表。
-
-下載的報表將具有詳細資訊，例如，培訓名稱和型別、執行個體名稱、學習者名稱和電子郵件、意見型別：L1或L3、為新資料提交意見的日期。
-
-對於此功能實施之前的現有資料，將會顯示學習對象完成日期、學習對象完成日期、L1意見問題不同欄位中的自訂進度實際文字和課堂文字、L1意見回應各自的回應、經理姓名和電子郵件、L3意見值和提交日期、作用欄位。
-
-您也可以將資料從UI或匯出至Power BI，其支援任何日期範圍的所有培訓，以便進行更深入的分析
+如需詳細資訊，請參閱[意見反應報告](/help/migrated/administrators/feature-summary/reports/feedback-report.md)。
 
 ### 培訓報表 {#training-report}
 
@@ -1035,7 +1014,7 @@ Adobe Learning Manager (ALM)中的歷史報表是指擷取學習平台內歷史�
    *報告座標軸*
 
 1. 從下拉式選項為您的報告選擇次要&#x200B;**[!UICONTROL Y-axis]**&#x200B;條件/範圍。 例如，若是學習方案註冊選項，請從「狀態」下拉式選單中選擇一或多個狀態。 次要範圍資料會以折線圖的形式呈現。
-1. 從下拉式選項中為報表選擇適當的X&#x200B;**軸**&#x200B;條件。 如果選擇x軸作為日期，則可選擇按日、月、季和年將x軸條件分組。
+1. 從下拉式選項中為報表選擇適當的X**軸**條件。 如果選擇x軸作為日期，則可選擇按日、月、季和年將x軸條件分組。
 1. 在「時間範圍」區段中，從下拉式清單中選擇適當的選項。 可用的選項包括：
 
    * 上個月

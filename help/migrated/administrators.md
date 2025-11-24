@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: 管理員
-description: 請閱讀下文，瞭解與管理員角色相關的Learning Manager功能和常見問題集。
+description: 請閱讀下文，瞭解與管理員角色相關的Learning Manager功能和常見問題。
 contentowner: manochan
 preview: true
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '125'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/administrator2.png"></td> 
-   <td><p>請閱讀下文，瞭解與管理員角色相關的Learning Manager功能和常見問題集。 </p></td> 
+   <td><p>請閱讀下文，瞭解與管理員角色相關的Learning Manager功能和常見問題。 </p></td> 
   </tr> 
  </tbody>
 </table>
 
 ## 管理員最佳作法指南 {#bestpracticesguideforadministrators}
 
-[管理員設定及開始使用Learning Manager的最佳實務指南](administrators/getting-started.md)
+[管理員設定並開始使用Learning Manager的最佳實務指南](administrators/getting-started.md)
 
 ## 常見問題集(FAQ) {#frequentlyaskedquestionsfaq}
 
@@ -36,8 +36,8 @@ ht-degree: 0%
 
 * [色彩主題與品牌](administrators/feature-summary/themes.md)
 * [Adobe Connect整合](administrators/feature-summary/adobeconnect-integration.md)
-* [學習者成績單](/help/migrated/administrators/feature-summary/learner-transcripts.md)
-* [遊戲](administrators/feature-summary/gamification.md)
+* [學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+* [gamification](administrators/feature-summary/gamification.md)
 * [新增使用者/使用者群組](administrators/feature-summary/add-users-user-groups.md)
 * [徽章](administrators/feature-summary/badges.md)
 * [帳單管理](administrators/feature-summary/billing-management.md)
