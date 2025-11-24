@@ -2,9 +2,9 @@
 description: 瞭解如何存取、下載和解讀Adobe Learning Manager中的意見回饋報告。 瞭解報表欄、問題型別、經理和學習者回應，以及意見分析如何支援培訓評估和持續改進。
 jcr-language: en_us
 title: Adobe Learning Manager中的意見回饋報表
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '844'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
    ![](assets/select-feedback-report.png)
    _自訂報表區段會顯示選取「意見回饋報表」的選項，以存取學習者和管理者意見回饋資料_
 
-5. 選取&#x200B;**[!UICONTROL All Trainings]**&#x200B;或&#x200B;**[!UICONTROL Selected Trainings]**&#x200B;以及日期範圍。 如果選取第二個選項，您最多可以新增10個課程或學習路徑並產生其意見反應報表。 此外，您最多可以產生一年的報表。
+5. 選取&#x200B;**[!UICONTROL All Trainings]**&#x200B;或&#x200B;**[!UICONTROL Selected Trainings]**以及日期範圍。 如果選取第二個選項，您最多可以新增10個課程或學習路徑並產生其意見反應報表。 此外，您最多可以產生一年的報表。
    ![](assets/feedback-report.png)
    _選取訓練範圍、設定日期範圍，並在下載前選擇翻譯選項，以設定意見回饋報告_
 
@@ -102,4 +102,6 @@ ht-degree: 0%
 | 意見版本 | 意見回饋表單的版本號碼 |
 | 學習者語言 | 學習者選取的語言 |
 
-
+>[!NOTE]
+>
+>「學習物件」層級報表也包含新增至意見表單的問題。 每個問題都會顯示為欄標題，而學習者對這些問題的回應會顯示於底下的對應列中。
