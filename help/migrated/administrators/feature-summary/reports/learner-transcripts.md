@@ -2,9 +2,9 @@
 description: Adobe Learning Manager (ALM)中的學習者成績單可讓管理員監控學習者課程、模組、學習路徑和認證的進度。 它支援效能評估、合規性監控、稽核和外部報告。 報表提供學習者參與和績效的完整摘要。
 jcr-language: en_us
 title: Adobe Learning Manager中的學習者成績單
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
 workflow-type: tm+mt
-source-wordcount: '4775'
+source-wordcount: '4770'
 ht-degree: 0%
 
 ---
@@ -63,21 +63,23 @@ Adobe Learning Manager中的學習者成績單會追蹤培訓、合規性和技�
 5. 選取&#x200B;**[!UICONTROL Generate New]**。
 6. 選取您需要產生成績單的日期範圍。 您可以使用日期範圍下拉式清單中的&#x200B;**[!UICONTROL Choose dates]**&#x200B;選項來修改開始和結束日期。
 7. 選取下列專案：
-a.從&#x200B;**[!UICONTROL Select Learners]**&#x200B;區段選取學習者的名稱。 您可以選取使用者或使用者群組，也可以複製並貼上您要產生成績單的學習者的電子郵件地址。 如需詳細資訊，請參閱[使用複製貼上產生學習者成績單](#generate-learner-transcript-using-copy-paste)一節。 如果未選取任何專案，其預設值為「全部」值。
-b.從&#x200B;**[!UICONTROL Select Catalogs]**&#x200B;下拉式清單中選取特定目錄。 只會下載指定目錄的成績單。 如果未選取任何專案，其預設值為「全部」值。
-c.選取&#x200B;**[!UICONTROL Enrollment Status]**。 此下拉式清單包含下列選項：
+   1. 從&#x200B;**[!UICONTROL Select Learners]**&#x200B;區段中選取學習者的名稱。 您可以選取使用者或使用者群組，也可以複製並貼上您要產生成績單的學習者的電子郵件地址。 如需詳細資訊，請參閱[使用複製貼上產生學習者成績單](#generate-learner-transcript-using-copy-paste)一節。 如果未選取任何專案，其預設值為「全部」值。
+   1. 從&#x200B;**[!UICONTROL Select Catalogs]**&#x200B;下拉式清單中選取特定目錄。 只會下載指定目錄的成績單。 如果未選取任何專案，其預設值為「全部」值。
+   1. 選取&#x200B;**[!UICONTROL Enrollment Status]**。 此下拉式清單包含下列選項：
 
-       *全選
-       *已完成
-       *進行中
-       *未啟動
-       *已取消註冊
-   &#x200B;8. 進階選項：選取&#x200B;**[!UICONTROL Advanced options]**&#x200B;以下載成績單：
+      * 全選
+      * 已完成
+      * 進行中
+      * 尚未開始
+      * 已取消註冊
 
-   a.選取核取方塊&#x200B;**[!UICONTROL Include deleted Learners]**，下載已從帳戶中刪除的學習者成績單。
-b.啟用&#x200B;**[!UICONTROL Enable module level information]**&#x200B;核取方塊，下載學習者成績單中的模組層級資訊。 在這種情況下，如果啟用此選項，模組名稱和每個模組逗留時間會作為成績單的一部分擷取。
-c.啟用選項&#x200B;**[!UICONTROL Include skills data and summary sheets]**&#x200B;核取方塊，下載技能資料和摘要表。 如需詳細資訊，請參閱Excel報表一節。
-&#x200B;9. 您也可以選取要在報表中填入的欄。 如此可讓您根據需要靈活地下載具有特定欄值的報表。 從下拉式選單中選取欄。
+8. 進階選項：選取&#x200B;**[!UICONTROL Advanced options]**&#x200B;以下載成績單：
+
+   1. 選取核取方塊&#x200B;**[!UICONTROL Include deleted Learners]**，下載已從帳戶中刪除的學習者成績單。
+   1. 啟用&#x200B;**[!UICONTROL Enable module level information]**&#x200B;核取方塊，將模組層級資訊下載至學習者成績單中。 在這種情況下，如果啟用此選項，模組名稱和每個模組逗留時間會作為成績單的一部分擷取。
+   1. 啟用選項&#x200B;**[!UICONTROL Include skills data and summary sheets]**&#x200B;核取方塊，即可下載技能資料和摘要表。 如需詳細資訊，請參閱Excel報表一節。
+
+9. 您也可以選取要在報表中填入的欄。 如此可讓您根據需要靈活地下載具有特定欄值的報表。 從下拉式選單中選取欄。
 成績單會在未包含技能資料時產生，並以.zip檔案下載到您的電腦。 如果啟用「技能資料」核取方塊，則會產生並下載成成績單。 xlsx檔案。
 
 ### 使用複製貼上產生學習者成績單
@@ -137,7 +139,7 @@ c.啟用選項&#x200B;**[!UICONTROL Include skills data and summary sheets]**&#x
 | 最高_測試_分數_最大值 | 此模組的最高測驗分數。 如果學習者未嘗試測驗或內容不含任何測驗，則其中可能為空白。 與學習者嘗試多次後所達到的最高測驗分數相關的最大可能分數。 這不是學習者達到的最高分數。 相反地，它會擷取學習者分數最高的嘗試中可能的最高分數。 |
 | 嘗試次數 | 學習者到目前為止針對此模組嘗試的總次數。 |
 | 允許嘗試次數上限 | 學習者嘗試使用模組的最大次數。 |
-| 提交註解 | 學習者完成學習物件後，其經理會提供意見。<br>由講師提供的提交註解資料包含在檔案提交模組中。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">模組 — Adobe Learning Manager。</a></br> |
+| 提交註解 | 學習者完成學習物件後，其經理會提供意見。<br>由講師提供的提交註解資料包含在檔案提交模組中。 如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">模組 — Adobe Learning Manager。</a></br> |
 | 完成Source | 指用來記錄學習者完成課程、學習路徑或認證的原點或方法。 它可協助管理員瞭解完成是如何完成或登入系統的。 欄會識別完成是否為自行報告，或由特定角色或設定所推動。 注意：對於VC聯結器出席工作流程，當學習者自動標示為已出席時，來源會顯示「SELF， &lt;learner_email>」。 |
 | 完成註解 | 管理員在學習者完成課程、認證或學習路徑後標示為完成時所做的註解。 管理員可以為一個或多個學習者新增完成備註。 |
 
@@ -262,7 +264,7 @@ c.啟用選項&#x200B;**[!UICONTROL Include skills data and summary sheets]**&#x
 
 | 欄 | 說明 |
 |---|---|
-| 晚於 | 代表在定義期間（以天為單位）前獲得某項技能的學習者人數，超過該技能即視為過時或需要重新整理。 用於識別接近或過期的技能成就的學習者。<br>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/skills-levels">技能等級</a>。 |
+| 晚於 | 代表在定義期間（以天為單位）前獲得某項技能的學習者人數，超過該技能即視為過時或需要重新整理。 用於識別接近或過期的技能成就的學習者。<br>如需詳細資訊，請參閱<a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels">技能等級</a>。 |
 | 名稱 | 獲指派技能的學習者全名。 |
 | 管理員名稱 | 學習者的報表管理員名稱。 |
 | 列標籤 | 指派給出現在此列的學習者的特定技能名稱。 作為分組標題，總結每個技能類別下的學習者技能資料。 |
