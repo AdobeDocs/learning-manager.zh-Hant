@@ -2,9 +2,9 @@
 description: 瞭解2025年10月發行的Adobe Learning Manager中的新功能和增強功能
 jcr-language: en_us
 title: Adobe Learning Manager 2025年10月版本的新增功能
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '5605'
+source-wordcount: '5540'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,6 @@ ht-degree: 0%
 * 增強的分析及移轉API：全新及改善的API提供更出色的測驗效能追蹤、移轉狀態監控，以及社交學習使用者標籤支援。
 
 ## Experience Builder
-
->[!IMPORTANT]
->
->我們很高興地宣佈，建立自訂學習入口網站的創新工具Experience Builder將在2025年10月Adobe Learning Manager發行後推出。
->
->臨近發行日期之際，請繼續關注更多更新消息。 我們期待瞭解您如何使用Experience Builder來轉換學習入口網站。
->
->如有疑問或需要其他資訊，請聯絡客戶成功案例經理。
 
 Experience Builder是Adobe Learning Manager中的無程式碼/低程式碼工具，可協助您建立自訂的學習入口網站。 它可讓您設計品牌化、方便使用的學習入口網站，而不需要技術技能或廣泛的程式碼知識。
 有了Experience Builder，管理員可以輕鬆建立頁面、功能表和Widget，為受眾量身打造個人化學習體驗。

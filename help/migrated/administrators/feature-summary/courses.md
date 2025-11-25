@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程例項和學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5606'
+source-wordcount: '5635'
 ht-degree: 0%
 
 ---
@@ -221,7 +221,7 @@ Excel檔案包含每個例證的工作表。 工作表包含下列欄位：
 * 選取您要移除的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **移除**]。
 * 選取您要標示出席的學習者，然後按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **標示完成**]。
 
-若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL **&#x200B;**] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
+若要允許學習者重設模組並再次使用模組，請按一下[重設]。[!UICONTROL ****] 在彈出式對話方塊中，按一下「是」以確認「重設」。 無法重設已完成的模組。 只能重設失敗或不完整的模組。
 
 您也可以匯出Excel工作表中的學習者清單。 若要匯出學習者清單，請按一下&#x200B;[!UICONTROL **動作**] > [!UICONTROL **匯出**]。
 
@@ -355,6 +355,11 @@ Adobe Learning Manager可讓管理員下載課程所有執行個體的輪候學�
 下載PDF時，您可以看到建立課程時使用的時區(UTC)。
 
 ## 新增L1和L3意見回饋 {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>如果您的帳戶未顯示此意見回饋選項，表示您的帳戶已升級至新的L1意見回饋表單。 檢視[L1意見表單](/help/migrated/administrators/feature-summary/l1-feedback-form.md)以取得詳細資訊。
+
 
 建立課程時，您可以新增L1和L3意見回饋選項：
 
@@ -587,8 +592,8 @@ CSV報表包含以下欄位：
 * **[!UICONTROL Badge]**：從下拉式選單中選取預設徽章。
 * **[!UICONTROL Gamification]**：設定gamification設定，包括完成點、提早完成點和及時完成點。 管理員可以選擇選取帳戶層級設定或自訂此執行個體的gamification點。
 * **[!UICONTROL L1 Reaction Feedback]**：在課程完成後，為學習者意見啟用預先定義的問題，並附上讓問題成為必要問題的選項。
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
-***[!UICONTROL &#x200B; Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
+***[!UICONTROL  L3 Behaviour Change Feedback]**：在課程完成後，為學習者的經理啟用意見回饋問題。
+***[!UICONTROL  Reminder Settings]**：設定並管理截止日期的提醒，並附上升級選項。
 
 ### 設定向上呈報級別 {#escalation}
 

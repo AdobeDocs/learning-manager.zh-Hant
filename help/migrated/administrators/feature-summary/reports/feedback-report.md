@@ -2,9 +2,9 @@
 description: 瞭解如何存取、下載和解讀Adobe Learning Manager中的意見回饋報告。 瞭解報表欄、問題型別、經理和學習者回應，以及意見分析如何支援培訓評估和持續改進。
 jcr-language: en_us
 title: Adobe Learning Manager中的意見回饋報表
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '882'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 0%
    ![](assets/select-feedback-report.png)
    _自訂報表區段會顯示選取「意見回饋報表」的選項，以存取學習者和管理者意見回饋資料_
 
-5. 選取&#x200B;**[!UICONTROL All Trainings]**&#x200B;或&#x200B;**[!UICONTROL Selected Trainings]**&#x200B;以及日期範圍。 如果選取第二個選項，您最多可以新增10個課程或學習路徑並產生其意見反應報表。 此外，您最多可以產生一年的報表。
+5. 選取&#x200B;**[!UICONTROL All Trainings]**&#x200B;或&#x200B;**[!UICONTROL Selected Trainings]**以及日期範圍。 如果選取第二個選項，您最多可以新增10個課程或學習路徑並產生其意見反應報表。 此外，您最多可以產生一年的報表。
    ![](assets/feedback-report.png)
    _選取訓練範圍、設定日期範圍，並在下載前選擇翻譯選項，以設定意見回饋報告_
 
@@ -92,6 +92,16 @@ ht-degree: 0%
 >[!NOTE]
 >
 >帳戶層級報表也包含為學習者設定的任何作用中欄位。
+
+## 下載學習物件層級報表
+
+若要下載學習物件層級報表：
+
+1. 以管理員身分登入Adobe Learning Manager。
+2. 從左側導覽功能表中選取&#x200B;**[!UICONTROL Courses]**。
+3. 選取任一課程，然後選取&#x200B;**[!UICONTROL View Course]**。
+4. 選取&#x200B;**[!UICONTROL L1 Feedback]**。
+5. 選取&#x200B;**[!UICONTROL Export Report]**，然後選取&#x200B;**[!UICONTROL OK]**。
 
 「學習物件」層級報表中會顯示下列各欄：
 
