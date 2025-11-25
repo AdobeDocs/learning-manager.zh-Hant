@@ -41,7 +41,7 @@ ht-degree: 0%
    ![](assets/select-feedback-report.png)
    _自訂報表區段會顯示選取「意見回饋報表」的選項，以存取學習者和管理者意見回饋資料_
 
-5. 選取&#x200B;**[!UICONTROL All Trainings]**&#x200B;或&#x200B;**[!UICONTROL Selected Trainings]**以及日期範圍。 如果選取第二個選項，您最多可以新增10個課程或學習路徑並產生其意見反應報表。 此外，您最多可以產生一年的報表。
+5. 選取&#x200B;**[!UICONTROL All Trainings]**&#x200B;或&#x200B;**[!UICONTROL Selected Trainings]**&#x200B;以及日期範圍。 如果選取第二個選項，您最多可以新增10個課程或學習路徑並產生其意見反應報表。 此外，您最多可以產生一年的報表。
    ![](assets/feedback-report.png)
    _選取訓練範圍、設定日期範圍，並在下載前選擇翻譯選項，以設定意見回饋報告_
 
