@@ -3,9 +3,9 @@ description: 整合管理員參考手冊，協助您將現有LMS移轉至Adobe L
 jcr-language: en_us
 title: 移轉手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
 workflow-type: tm+mt
-source-wordcount: '3837'
+source-wordcount: '4425'
 ht-degree: 0%
 
 ---
@@ -524,9 +524,117 @@ Box帳戶&#x200B;*中的* CSV位置
 
 從組織的舊版LMS移轉學習資料和內容後，您可以使用各種學習物件功能來驗證匯入的資料和內容。 例如，您可以以管理員身分登入Learning Manager應用程式，並驗證匯入的模組和課程資料與內容的可用性。
 
+## 使用API進行移轉
+
+Adobe Learning Manager (ALM)提供從外部系統擷取資料或內容的移轉功能，主要用於從舊版LMS平台移轉。
+
+不過，有些組織可能會要求此程式定期執行（例如，每晚或每週），而非一次性匯入。
+
+例如，您會看到虛擬客戶(NovaFX)如何與虛擬外部提供者(SquareCorp)整合，並自動化排程的移轉。 此整合可讓您：
+
+* SquareCorp課程在ALM中會顯示為NovaFX學習者的學習物件。
+* NovaFX直接在ALM中追蹤SquareCorp託管課程的學習者進度。
+
+### 整合需求
+
+SquareCorp必須提供：
+
+* 課程中繼資料資訊：分享NovaFX有權存取之課程中繼資料的API。
+* 進度資料資訊：可定期分享學習者進度和完成資訊的API。
+
+### 金鑰定義
+
+* **使用中專案：**&#x200B;如果專案為「進行中」或「已初始化」，則為使用中專案。
+* **作用中衝刺：**&#x200B;如果衝刺為「進行中」或「已初始化」，則為作用中衝刺。
+
+### 自動執行衝刺
+
+建立可依排程執行下列作業的應用程式或指令碼：
+
+1. 從SquareCorp擷取課程中繼資料、使用者註冊和學習者成績。
+2. 產生CSV檔案。
+3. 將檔案上傳至Box或FTP。
+4. 使用移轉API觸發衝刺。
+
+### API詳細資料
+
+#### 開始移轉回合
+
+**端點：** POST /primeapi/v2/bulkimport/startrun
+
+引數：
+
+* **lockaccount （布林值）：**&#x200B;引數會決定是否在執行開始時鎖定帳戶。 預設會設為false。 除非有合理理由鎖定帳戶，否則建議使用者避免使用此引數。
+* **catalogid （整數）：**&#x200B;此引數可讓您在移轉期間選取目的地目錄。 這通常在建立移轉專案時設定，但可針對個別執行進行調整。 目錄變更時，未來執行中新增的學習物件將放在最近選擇的目錄中。 如果必須返回建立移轉專案期間選取的目錄，這也必須明確指定。
+* **migrationProjectId （整數）：**&#x200B;當帳戶中啟用多個API啟用的執行時，需要引數才能觸發特定的移轉專案。
+
+#### 檢查是否可開始同步
+
+確定內容可以同步至衝刺資料夾。 請勿將內容或中繼資料檔案複製到FTP資料夾，除非此API傳回成功的回應物件。
+
+**端點：** GET /primeapi/v2/bulkimport/cansync
+
+引數：
+
+* **migrationProjectId （整數）**&#x200B;當帳戶中啟用多個API啟用的執行時，需要引數才能觸發特定的移轉專案。
+
+<b>回應成功</b>
+
+```
+{  
+    "status": "OK",  
+    "title": "BULKIMPORT_CAN_SYNC_NOW",  
+    "source": {  
+        "info": "Yes"  
+    }  
+} 
+```
+
+<b>回應成功</b>
+
+```
+{ 
+    "status": "BAD_REQUEST", 
+    "title": "BULKIMPORT_ERROR_CANNOT_SYNC", 
+    "source": { 
+        "info": "Error, No active projects" 
+    } 
+} 
+```
+
+<b>可能的API回應</b>
+
+| 動作 | 型別 | 訊息 |
+| ------------------------------------- | ------- | ------------------------------------------------------------------------------------- |
+| BULKIMPORT_RUN_INITIATED_SUCCESSFUL | 成功 | 已成功起始執行 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 錯誤 | 執行進行中 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 錯誤 | 有多個使用中的專案 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 錯誤 | 有多個sprint |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 錯誤 | 沒有使用中的專案 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 錯誤 | 無使用中衝刺 |
+| BULKIMPORT_ERROR_CANNOT_INITATE_RUN | 錯誤 | 提供的目錄不是有效的ID，或不屬於Prime帳戶 |
+| BULKIMPORT_CAN_SYNC_NOW | 資訊 | 現在可以同步 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 錯誤 | 執行進行中 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 錯誤 | 有多個使用中的專案 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 錯誤 | 有多個sprint |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 錯誤 | 沒有使用中的專案 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 錯誤 | 無使用中衝刺 |
+| BULKIMPORT_ERROR_CANNOT_SYNC | 錯誤 | 資料夾中不存在有效的檔案 |
+
+### 範例整合流程
+
+1. 檢查cansync API。
+2. 產生和上傳CSV檔案。
+3. 使用startrun API觸發衝刺。
+4. 監視回應並處理錯誤。
+
+### 限制
+
+移轉API不提供直接在衝刺執行後的輸出CSV檔案中檢查移轉相關錯誤的功能。 不過，您可以在衝刺執行後存取整合管理員使用者介面，將這些錯誤檢閱為CSV檔案中的列。
+
 ### 透過API進行移轉驗證
 
-新的移轉API `runStatus`可讓整合管理員追蹤透過API觸發的移轉執行進度。
+移轉API `runStatus`可讓整合管理員追蹤透過API觸發的移轉執行進度。
 
 `runStatus` API也提供直接連結，可針對已完成的執行，以CSV格式下載錯誤記錄檔。 下載連結會維持作用中七天，而記錄會保留一個月。
 
