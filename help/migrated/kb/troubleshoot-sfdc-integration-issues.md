@@ -3,13 +3,15 @@ jcr-language: en_us
 title: 疑難排解Salesforce (SFDC)與Adobe Learning Manager的整合問題
 description: 疑難排解Adobe Learning Manager (ALM)的常見Salesforce (SFDC)整合問題，包括匯出失敗、SFDC自訂物件中的欄位許可權問題，以及重要的SFDC-ALM相容性注意事項。
 contentowner: saghosh
-source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
+source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
 
+
+# 疑難排解Salesforce (SFDC)與Adobe Learning Manager的整合問題
 
 ## 疑難排解SFDC匯出失敗（2-3小時以上無匯出）
 
