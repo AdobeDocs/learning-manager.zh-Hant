@@ -87,8 +87,8 @@ ht-degree: 0%
 9. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
 10. 搜尋並從&#x200B;**[!UICONTROL Category source]**&#x200B;選擇目錄。
 
-   ![](assets/configure-calendar-widget.png)
-   _設定類別Widget選項以設定Widget標題和說明，並選取類別來源_
+    ![](assets/configure-calendar-widget.png)
+    _設定類別Widget選項以設定Widget標題和說明，並選取類別來源_
 
 11. 選取&#x200B;**[!UICONTROL Add Widget]**。
 
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _管理員可設定課程與路徑Widget標題、說明，並選取要顯示為互動式卡片的課程或學習路徑_
-11.選取**[!UICONTROL Add widget]**。
+11.選取&#x200B;**[!UICONTROL Add widget]**。
 
 課程與路徑Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
 
@@ -184,14 +184,14 @@ _管理員可設定課程與路徑Widget標題、說明，並選取要顯示為�
 9. 在&#x200B;**[!UICONTROL Action button label]**&#x200B;中輸入文字並提供連結。
 10. 選取「背景」填色的任何選項：
 
-   * **[!UICONTROL Color]**：從檢色器選取色彩，或在文字欄位中輸入色彩代碼。
-   * **[!UICONTROL Image]**：瀏覽並上傳圖片。
+    * **[!UICONTROL Color]**：從檢色器選取色彩，或在文字欄位中輸入色彩代碼。
+    * **[!UICONTROL Image]**：瀏覽並上傳圖片。
 
 11. 使用&#x200B;**[!UICONTROL Content box height]**&#x200B;選項調整方塊高度。
 12. 選取文字格式選項。
 
-   ![](assets/configure-content-box.png)
-   _Content Box Widget自訂畫面，管理員可在此輸入標題、說明、動作按鈕標籤和連結_
+    ![](assets/configure-content-box.png)
+    _Content Box Widget自訂畫面，管理員可在此輸入標題、說明、動作按鈕標籤和連結_
 
 13. 選取&#x200B;**[!UICONTROL Add widgets]**。
 
