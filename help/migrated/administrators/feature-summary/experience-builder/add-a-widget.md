@@ -2,9 +2,9 @@
 title: 在Experience Builder中新增及設定介面工具集
 description: 瞭解如何在Adobe Learning Manager的Experience Builder中新增、自訂和設定各種Widget。 本指南涵蓋常用的Widget，例如行事曆、類別、合規性狀態、課程與路徑、gamification、HTML內容、IFrames、社交學習等。
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2303'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ ht-degree: 0%
 
 檢視[目錄](/help/migrated/administrators/feature-summary/catalogs.md)和[Recommendations](/help/migrated/recommendations-adobe-learning-manager.md)文章，以進一步瞭解如何設定目錄和建議。
 
+<b>注意</b>：在類別Widget中，選取「目錄」時，清單預設會依建立日期排序。 最近建立的目錄會先出現。
+
 ### 新增類別Widget
 
 在金融服務公司，不同的團隊通常需要角色特定培訓的存取權。 類別Widget可將學習內容整理到清晰、可點按的圖磚中，讓銷售和CSM團隊更容易快速找到他們需要的內容。
@@ -85,8 +87,8 @@ ht-degree: 0%
 9. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
 10. 搜尋並從&#x200B;**[!UICONTROL Category source]**&#x200B;選擇目錄。
 
-    ![](assets/configure-calendar-widget.png)
-    _設定類別Widget選項以設定Widget標題和說明，並選取類別來源_
+   ![](assets/configure-calendar-widget.png)
+   _設定類別Widget選項以設定Widget標題和說明，並選取類別來源_
 
 11. 選取&#x200B;**[!UICONTROL Add Widget]**。
 
@@ -153,7 +155,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _管理員可設定課程與路徑Widget標題、說明，並選取要顯示為互動式卡片的課程或學習路徑_
-11.選取&#x200B;**[!UICONTROL Add widget]**。
+11.選取**[!UICONTROL Add widget]**。
 
 課程與路徑Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
 
@@ -182,14 +184,14 @@ _管理員可設定課程與路徑Widget標題、說明，並選取要顯示為�
 9. 在&#x200B;**[!UICONTROL Action button label]**&#x200B;中輸入文字並提供連結。
 10. 選取「背景」填色的任何選項：
 
-    * **[!UICONTROL Color]**：從檢色器選取色彩，或在文字欄位中輸入色彩代碼。
-    * **[!UICONTROL Image]**：瀏覽並上傳圖片。
+   * **[!UICONTROL Color]**：從檢色器選取色彩，或在文字欄位中輸入色彩代碼。
+   * **[!UICONTROL Image]**：瀏覽並上傳圖片。
 
 11. 使用&#x200B;**[!UICONTROL Content box height]**&#x200B;選項調整方塊高度。
 12. 選取文字格式選項。
 
-    ![](assets/configure-content-box.png)
-    _Content Box Widget自訂畫面，管理員可在此輸入標題、說明、動作按鈕標籤和連結_
+   ![](assets/configure-content-box.png)
+   _Content Box Widget自訂畫面，管理員可在此輸入標題、說明、動作按鈕標籤和連結_
 
 13. 選取&#x200B;**[!UICONTROL Add widgets]**。
 
