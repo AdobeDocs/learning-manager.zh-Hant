@@ -3,9 +3,9 @@ description: 整合管理員參考手冊，協助您將現有LMS移轉至Adobe L
 jcr-language: en_us
 title: 移轉手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
+source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
 workflow-type: tm+mt
-source-wordcount: '4470'
+source-wordcount: '4587'
 ht-degree: 0%
 
 ---
@@ -412,6 +412,14 @@ Learning Manager僅支援UTF 8和32位元格式的日期和時間值。 如果�
 * certification_course.csv取決於certification.csv和course.csv
 * certification_commit.csv取決於certification.csv和certification_course.csv
 * certification_enrollment.csv取決於certification.csv、certification_course.csv和certification_enrollment.csv
+
+### 學習計畫課程順序移轉CSV
+
+在舊版移轉規格中，learning_program_course.csv檔案包含順序欄，表示您可以在移轉期間控制學習計畫中的課程順序。
+
+Adobe Learning Manager不再使用此欄。 無法透過移轉CSV控制學習計畫中的課程順序，且系統會忽略順序欄中提供的任何值，即使您將&#x200B;**orderEnforced**&#x200B;設為true亦然。
+
+為避免混淆，訂單欄已從官方CSV規格中移除。 如果您有現有的指令碼或工具仍會產生此欄，您可以安全地將其刪除，這對學習計畫的建立或顯示方式沒有影響。
 
 ## 移轉程式 {#migrationprocedure}
 
