@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 2026年4月發行版本的新增功能
 description: 瞭解Adobe Learning Manager 2026年4月版本的新功能、改進及重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 48a20033896a9d9f370c2e53bce353a886b05e35
+source-git-commit: 847c42493043f3f6a1f1c18868d08ddca7f9b113
 workflow-type: tm+mt
-source-wordcount: '7400'
+source-wordcount: '7425'
 ht-degree: 0%
 
 ---
@@ -433,7 +433,7 @@ ht-degree: 0%
 
 * 行銷與啟用團隊可以在所有地區設定中管理每個主題的一個工作輔助。
 
-## 限制模組可以啟動的時間
+## 設定模組開始時間的限制
 
 ### 概觀
 
@@ -680,6 +680,11 @@ ht-degree: 0%
 
 ### 概觀
 
+>[!IMPORTANT]
+>
+>請注意，只有在帳戶中啟用此功能後，才能使用此功能。 請聯絡ALM支援或客戶成功經理。
+
+
 目前，ALM透過多重測驗嘗試(MQA)功能支援LMS層級的多次嘗試：
 
 * 作者可以在課程層級（套用至課程中所有含測驗的模組）或模組層級（每個測驗模組）設定嘗試。
@@ -880,7 +885,7 @@ L2測驗報告將會更新，以將每個內容層級的嘗試視為單獨的嘗
 
    * PDF會如預期般產生。
 
-## 學習者成績單的變更
+## 改善學習者成績單中花費的學習時間計算
 
 ### 概觀
 
@@ -911,7 +916,7 @@ Adobe Learning Manager在2026年4月版本中修訂了學習者成績單中學�
 * **視訊與音訊模組**：在播放內容時作用中，即使學習者切換到另一個索引標籤。 追蹤播放時間不需要定位鍵焦點。
 * **靜態模組(PDF、PPT、Excel等)**：如果是在索引標籤上，並在過去10分鐘內執行活動（滑鼠移動、捲動、按一下、鍵盤輸入），則為作用中。 如果10分鐘沒有活動，就會切換為閒置。
 * **SCORM和Captivate**&#x200B;會保留原始開啟/關閉邏輯。
-* **xAPI**&#x200B;現在使用以索引標籤為基礎的作用中時間偵測，只有在索引標籤作用中時才會計算時間。 請注意，不支援AICC內容&#x200B;**&#x200B;**。
+* **xAPI**&#x200B;現在使用以索引標籤為基礎的作用中時間偵測，只有在索引標籤作用中時才會計算時間。 請注意，不支援AICC內容&#x200B;****。
 * **HTML、LTI和其他內容**：可能有所不同；請檢查學習者成績單是否正確。
 
 減去閒置時間，確保只報告真正的參與時間。
@@ -2700,4 +2705,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
