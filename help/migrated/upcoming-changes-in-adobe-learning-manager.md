@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 2026年4月發行版本的新增功能
 description: 瞭解Adobe Learning Manager 2026年4月版本的新功能、改進及重要更新。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 847c42493043f3f6a1f1c18868d08ddca7f9b113
+source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
 workflow-type: tm+mt
-source-wordcount: '7425'
+source-wordcount: '7458'
 ht-degree: 0%
 
 ---
@@ -916,10 +916,15 @@ Adobe Learning Manager在2026年4月版本中修訂了學習者成績單中學�
 * **視訊與音訊模組**：在播放內容時作用中，即使學習者切換到另一個索引標籤。 追蹤播放時間不需要定位鍵焦點。
 * **靜態模組(PDF、PPT、Excel等)**：如果是在索引標籤上，並在過去10分鐘內執行活動（滑鼠移動、捲動、按一下、鍵盤輸入），則為作用中。 如果10分鐘沒有活動，就會切換為閒置。
 * **SCORM和Captivate**&#x200B;會保留原始開啟/關閉邏輯。
-* **xAPI**&#x200B;現在使用以索引標籤為基礎的作用中時間偵測，只有在索引標籤作用中時才會計算時間。 請注意，不支援AICC內容&#x200B;**&#x200B;**。
+* **xAPI**&#x200B;現在使用以索引標籤為基礎的作用中時間偵測，只有在索引標籤作用中時才會計算時間。 請注意，不支援AICC內容&#x200B;****。
 * **HTML、LTI和其他內容**：可能有所不同；請檢查學習者成績單是否正確。
 
 減去閒置時間，確保只報告真正的參與時間。
+
+>[!NOTE]
+>
+>如果您的筆記型電腦進入睡眠模式，可能無法正確追蹤學習時間。 這是因為活動追蹤會在系統睡眠時暫停，並在膝上型電腦喚醒後才繼續。
+
 
 ### 摘要表格
 
@@ -2705,4 +2710,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
