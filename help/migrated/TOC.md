@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '784'
 ht-degree: 3%
 
 ---
@@ -25,7 +25,8 @@ ht-degree: 3%
    * [發行說明](release-note/release-notes.md)
    * [系統需求](system-requirements.md)
    * [適用於Microsoft Teams的Adobe Learning Manager應用程式](adobe-learning-manager-app-microsoft-teams.md)
-   * [Learning Manager法規遵循GDPR](kb/prime-gdpr.md)
+   * [Adobe Learning Manager法規遵循GDPR](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Learning Manager中的協助工具](accessibility-learning-manager.md)
    * [支援自訂網域](custom-domain.md)
    * [從Adobe FTP管理員轉換](transition-from-ftp-manager.md)
@@ -163,7 +164,7 @@ ht-degree: 3%
    * [使用者通知](learners/feature-summary/user-notifications.md)
    * [公告](learners/feature-summary/announcements.md)
    * [輪候表與出勤管理](learners/feature-summary/waitlist-attendance-management.md)
-   * [學習者適用的AI助理](learners/feature-summary/ai-buddy.md)
+   * [學習者適用的AI助理](learners/feature-summary/learner-ai-assistant.md)
    * [Adobe Learning Manager中的AI支援搜尋](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Salesforce的Learning Manager應用程式](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect整合](learners/feature-summary/adobeconnect-integration.md)
