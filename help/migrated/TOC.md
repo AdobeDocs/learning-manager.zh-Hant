@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 13b21a8058ccf428f9c6c59cd88ad99a329b7b31
+source-git-commit: d8ba4d1f33db82ac5448924e17e785c64bb3425b
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '811'
 ht-degree: 3%
 
 ---
@@ -26,8 +26,10 @@ ht-degree: 3%
    * [系統需求](system-requirements.md)
    * [適用於Microsoft Teams的Adobe Learning Manager應用程式](adobe-learning-manager-app-microsoft-teams.md)
    * [Adobe Learning Manager法規遵循GDPR](kb/prime-gdpr.md)
-   * [Adobe Learning Manager管理帳戶生命週期](/help/migrated/alm-administrative-lifecycle.md)
-   * [Adobe Learning Manager安全管理指南](/help/migrated/alm-secure-administration-guide.md)
+   * 管理安全性架構 — Adobe Learning Manager{#admin-security-framework}
+      * [Adobe Learning Manager管理帳戶生命週期](/help/migrated/alm-administrative-lifecycle.md)
+      * [Adobe Learning Manager安全管理指南](/help/migrated/alm-secure-administration-guide.md)
+      * [Adobe Learning Manager管理安全性設定與組態管理](/help/migrated/alm-security-settings-config-management.md)
    * [Learning Manager中的協助工具](accessibility-learning-manager.md)
    * [支援自訂網域](custom-domain.md)
    * [從Adobe FTP管理員轉換](transition-from-ftp-manager.md)
