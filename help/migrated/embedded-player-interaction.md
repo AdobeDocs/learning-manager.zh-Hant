@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
 title: 內嵌式播放器互動API檔案
-description: 瞭解各種API，用於監聽內嵌播放器中的事件及觸發動作
+description: 瞭解各種API，用於監聽Adobe Learning Manager內嵌播放器中的事件和觸發動作
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 3d183dc40e4d1962d25160b74d8cf6cfa26e3171
+source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 3%
+source-wordcount: '849'
+ht-degree: 5%
 
 ---
 
@@ -52,7 +52,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>在應用程式中載入播放器。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>loId ：學習物件ID。</li><li>accountId ：ALM帳戶的帳戶ID。</li><li>userId ：使用者ID。</li><li>accessToken ：存取權杖。</li><li>domRefId：必須轉譯播放器的div容器ID。</li><li>onModuleLoaded：載入具有下列詳細資訊的模組時，將會叫用此函式。</li><br><li>contenttype</li><li>loId</li><li>moduleId</li><li>已完成</li><li>currentlanguage</li><li>availablelanguages</li><li>isCCAvailable</li><li>已啟用</li></br></td>
 </tr>
 <tr>
@@ -83,7 +83,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>傳回目前頁面上的所有播放器物件。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td>無</td>
 </tr>
 </tr>
@@ -108,7 +108,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>傳回具有指定學習物件ID的播放器物件。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>loId ：學習物件ID。</li></td>
 </tr>
 </tr>
@@ -132,7 +132,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>導覽至下一個模組。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>moduleId：模組識別碼。</li></td>
 </tr>
 </tr>
@@ -156,7 +156,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>導覽至下一個模組。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -180,7 +180,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>導覽至上一個模組。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -204,7 +204,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>切換播放器上的目錄面板。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -228,7 +228,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>切換播放器上的附註面板。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -252,7 +252,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>切換隱藏式字幕在播放器上的顯示。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -276,7 +276,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>變更播放器上的內容語言。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>language：要指定的語言代碼。</li></td>
 </tr>
 </tr>
@@ -300,7 +300,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>關閉播放器，並從頁面中移除播放器。 </td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -324,7 +324,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>在播放器上的播放和暫停內容之間切換。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -348,7 +348,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>設定播放器的音量。 值必須介於0到1之間。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>volume：磁碟區的值。 有效範圍為0至1。 </li></td>
 </tr>
 </tr>
@@ -372,7 +372,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>設定播放器中的播放速度。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>speed：要指定的速度值。 有效值為。25、.5、.75、1、1.25、1.5、1.75、2。</li></td>
 </tr>
 </tr>
@@ -396,7 +396,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>跳至視訊上的任何時間。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>時間：跳至的時間。 時間以秒為單位。</li></td>
 </tr>
 </tr>
@@ -420,7 +420,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>在視訊中往前跳10秒。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -444,7 +444,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>在視訊中向後跳轉10秒。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -468,7 +468,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>跳至PPT/PDF上的指定頁面。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>pageNumber：要跳轉到的頁碼。</li></td>
 </tr>
 </tr>
@@ -492,7 +492,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>跳至PPT/PDF上的下一頁。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -516,7 +516,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>跳至PPT/PDF的上一頁。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -537,10 +537,10 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>放大PPT/PDF上的內容。</td>
+<td>在PPT/PDF上放大內容。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -564,7 +564,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>縮小PPT/PDF上的內容。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -588,7 +588,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>從課程下載工作輔助。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -612,7 +612,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>您是否要下載工作輔助。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -636,7 +636,7 @@ cpPlayerLib程式庫包含下列函式：
 <td>將播放器設為全熒幕模式。</td>
 </tr>
 <tr>
-<td>引數</td>
+<td>參數</td>
 <td><li>無</li></td>
 </tr>
 </tr>
@@ -656,7 +656,7 @@ cpPlayerLib程式庫包含下列函式：
 * 播放（視訊/音訊/CP）
 * 暫停（視訊/音訊/CP）
 * TIMEUPDATE （視訊/音訊/CP）
-* 頁面變更(PPT/PDF)
+* PAGECHANGE (PPT/ PDF)
 * NOTEADDED （所有內容）
 * 已啟動（所有內容）
 * 已開始（所有內容）
