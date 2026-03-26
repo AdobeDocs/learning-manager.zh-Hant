@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 3%
@@ -36,8 +36,7 @@ ht-degree: 3%
    * [Adobe Learning Manager支援的語言](/help/migrated/languages-supported.md)
    * [Adobe Learning Manager中的API淘汰與變更](api-deprecations-list.md)
    * [Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md)
-   * [Adobe Learning Manager中的白標](white-label.md)
-   * [內嵌式播放器互動API檔案](/help/migrated/embedded-player-interaction.md)
+   * [在Adobe Learning Manager中加上白標](white-label.md)
 * 開始使用 {#get-started}
    * [管理員快速入門](administrators/feature-summary/getting-started-admin.md)
    * [作者快速入門](authors/feature-summary/getting-started-author.md)
@@ -135,6 +134,7 @@ ht-degree: 3%
    * [適用於Salesforce的Learning Manager應用程式](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [透過CSV檔案管理自訂角色](integration-admin/feature-summary/configure-role-csv-files.md)
+   * [內嵌式播放器互動API檔案](/help/migrated/embedded-player-interaction.md)
 * 作者 {#authors}
    * [使用者登入](authors/feature-summary/user-login.md)
    * [內容庫](authors/feature-summary/content-library.md)
@@ -176,7 +176,7 @@ ht-degree: 3%
    * [Adobe Learning Manager案頭應用程式](learners/adobe-learning-manager-app-for-desktop.md)
    * [學習者首頁](learners/feature-summary/learner-home-page.md)
    * [分享至社交學習](learners/feature-summary/share-to-social.md)
-   * [系統需求 | Adobe Learning Manager案頭應用程式](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
+   * [系統需求| Adobe Learning Manager案頭應用程式](learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md)
 * 經理 {#manager}
    * [使用者登入](managers/feature-summary/user-login.md)
    * [管理員儀表板](managers/feature-summary/manager-dashboard.md)
