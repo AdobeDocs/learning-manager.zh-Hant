@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 8f9a2f192d778e282c34e874e56ddb7c6875f8bc
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '850'
 ht-degree: 3%
 
 ---
@@ -130,17 +130,24 @@ ht-degree: 3%
       * [適用於AEM Sites的ALM參照站台套件](/help/migrated/adobe-learning-manager-integration-aem.md)
       * [將Learning Manager與AEM整合](integrate-aem-learning-manager.md)
    * [在Learning Manager中安裝Salesforce套件](integration-admin/feature-summary/install-salesforce-package.md)
+   * [部署指南](#deployment-guide)
+      * [簡介](/help/migrated/deployment-guide/introduction.md)
+      * [協力廠商聯結器](/help/migrated/deployment-guide/third-party-connectors.md)
+      * [使用者移轉](/help/migrated/deployment-guide/user-migration.md)
+      * [使用者設定](/help/migrated/deployment-guide/user-setup.md)
    * [安裝Microsoft Teams聯結器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [適用於Salesforce的Learning Manager應用程式](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [透過CSV檔案管理自訂角色](integration-admin/feature-summary/configure-role-csv-files.md)
    * [內嵌式播放器互動API檔案](/help/migrated/embedded-player-interaction.md)
+   * [流體播放器](/help/migrated/integration-admin/feature-summary/fluidic-player.md)
 * 作者 {#authors}
    * [使用者登入](authors/feature-summary/user-login.md)
    * [內容庫](authors/feature-summary/content-library.md)
    * [建立、修改和發佈課程](authors/feature-summary/courses.md)
    * [目錄](authors/feature-summary/catalogs.md)
    * [工作輔助](authors/feature-summary/job-aids.md)
+   * [iPad與Android平板電腦使用者](authors/feature-summary/ipad-android-tablet-users.md)
    * [Adobe Connect整合](authors/feature-summary/adobeconnect-integration.md)
    * [新增不同地區設定的學習物件](authors/feature-summary/add-new-language-learning-objects.md)
    * [使用者通知](authors/feature-summary/user-notifications.md)
@@ -201,7 +208,12 @@ ht-degree: 3%
    * [無法上傳CSV](kb/unable-to-upload-csv.md)
    * [產生HAR檔案](kb/generate-har-file.md)
    * [L1意見回饋自動快顯視窗未出現](kb/l1-feedback-auto-popup-does-not-appear.md)
+   * [與Outlook整合](kb/integration-to-outlook.md)
    * [建立認證時，無法在目錄下檢視某些課程](kb/unable-to-view-certain-courses.md)
+   * [Adobe Learning Manager中的SSO驗證](kb/sso-authentication-for-learning-manager.md)
+   * [已修改的範本連結錯誤](kb/modified-template-link-error.md)
+   * [講師角色的預設配置](kb/default-allocation-instructor-roles.md)
+   * [使用Adobe Learning Manager在AEM中自訂主題](kb/customize-theme-aem.md)
    * [建立學習計畫時無法在目錄下檢視特定課程](kb/unable-view-course-catalog.md)
    * [疑難排解Salesforce (SFDC)與Adobe Learning Manager的整合問題](kb/troubleshoot-sfdc-integration-issues.md)
    * [淘汰學習計畫的問題](kb/issues-retiring-learning-program.md)
