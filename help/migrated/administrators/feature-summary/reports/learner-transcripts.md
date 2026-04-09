@@ -139,7 +139,7 @@ Adobe Learning Manager 中的學習者成績單追蹤訓練、合規與技能發
 | Highest_Quiz_score_max | 該模組最高測驗分數。 如果學習者沒嘗試過小考，或內容中沒有任何小考，可能會是空白的。 學習者在多次嘗試中所取得的最高測驗分數所可能的最高分數。 這並不是學習者取得的最高分數。 它會捕捉學習者在嘗試中最高分數時可能達到的最高分數。 |
 | 嘗試 | 學習者迄今為止完成本模組的總嘗試次數。 |
 | 最大允許嘗試次數 | 最大嘗試次數允許學習者使用模組。 |
-| 投稿留言 | 學習者經理完成學習物件後的評論。<br>講師提供的提交意見資料包含在檔案提交模組中。 更多資訊請參閱 <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">模組-Adobe Learning Manager。</a></br> |
+| 投稿留言 | 學習者經理完成學習物件後的評論。<br>講師提供的提交意見資料包含在檔案提交模組中。 更多資訊請參閱 <a href="https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">模組-Adobe Learning Manager。</a></br> |
 | 完結來源 | 指的是學習者完成課程、學習路徑或認證的起源或方法。 它幫助管理員了解完成過程或系統記錄的方式。 欄位標示完成是自我申報，或是由特定角色或配置促成。 注意：對於 VC 連接器的出席工作流程，當學習者自動被標記為已出席時，來源會顯示「SELF， &lt;learner_email>」。&lt;/learner_email> |
 | 完成評論 | 管理員在完成課程、認證或學習路徑後，將學習者標記為完成時所發表的評論。 管理員可以為一位或多位學習者新增完成評論。 |
 
@@ -264,7 +264,7 @@ Adobe Learning Manager 中的學習者成績單追蹤訓練、合規與技能發
 
 | 柱狀 | 說明 |
 |---|---|
-| 之後 | 代表在特定期間（以天為單位）內達成某項技能的學習人數，超過該技能被視為過時或需要複習。 有助於識別已接近或過期技能成就的學習者。<br>更多資訊請參閱 <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> 技能等級</a> 。 |
+| 之後 | 代表在特定期間（以天為單位）內達成某項技能的學習人數，超過該技能被視為過時或需要複習。 有助於識別已接近或過期技能成就的學習者。<br>更多資訊請參閱 <a href="https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/skills-levels"> 技能等級</a> 。 |
 | 名稱 | 指派該技能的學習者的全名。 |
 | 經理人姓名 | 學習者的報到經理姓名。 |
 | 排標籤 | 該列學習者所獲得的特定技能名稱。 用作分組標頭，總結每個技能類別下的學習者技能資料。 |
