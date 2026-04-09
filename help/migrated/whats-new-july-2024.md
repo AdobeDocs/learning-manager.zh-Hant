@@ -1,153 +1,153 @@
 ---
-description: 瞭解2024年7月發行的Adobe Learning Manager中的新功能和增強功能
+description: 了解 2024 年 7 月版本 Adobe Learning Manager 的新功能與增強內容
 jcr-language: en_us
 title: 新功能摘要
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 685220000be6be524c0829fe400abec911cf067e
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2370'
 ht-degree: 0%
 
 ---
 
-# 新功能摘要2024年7月 {#new-features-summary-july-2024}
+# 2024年7月新功能摘要 {#new-features-summary-july-2024}
 
-瞭解2024年7月發行的Adobe Learning Manager中的新功能和增強功能。
+了解 2024 年 7 月版本 Adobe Learning Manager 的新功能與增強功能。
 
 >[!NOTE]
 >
->請參閱此[網路研討會](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&reserved=0)，深入瞭解此版本的新功能。
+>請觀看這場 [線上研討會](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&reserved=0) ，了解更多本版本的新功能。
 
-## 合規性控制面板的增強功能
+## 合規儀表板的強化
 
-### 什麼是合規性儀表板？ {#whatiscompliancedashboard}
+### 什麼是合規儀表板？ {#whatiscompliancedashboard}
 
-**Adobe Learning Manager**&#x200B;中的&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;可讓管理員監視和監控學習者實現其學習目標的進度。 他們可以檢查團隊成員是否在截止日期前完成並跟上其學習流程，這有助於確保法規遵循。 管理員可以設定合規性儀表板並與管理員共用。
+**[!UICONTROL Compliance Dashboard]** **Adobe 學習管理員**&#x200B;讓管理者能監控並監控學習者在學習目標上的進展。他們可以檢查團隊成員是否能遵守截止日期並持續學習進度，這有助於確保合規。 管理員可以設定合規儀表板並與經理分享。
 
-若要存取管理應用程式中的規範儀表板，請選取&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+若要在管理應用程式中存取合規儀表板，請選擇 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
 
-### 此版本變更內容
+### 這次發布會有什麼變化
 
-使用增強型法規遵循控制面板，管理員和經理可以檢視與其特定類別（例如銷售、行銷和法律）相關的法規遵循型別課程、學習路徑或認證。 管理員可將自訂合規性課程分類為特定類別。 自訂相容類別由目錄標籤提供支援。  管理員可以建立課程儀表板並與管理員共用。 然後，管理員可以在各自的例項上檢視相同的儀表板。 合規性控制面板和合規性電子郵件通知的使用者介面也得到了增強。
+透過強化的合規儀表板，管理員與經理可查看與其特定類別相關的合規課程、學習路徑或認證（例如銷售、行銷與法律）。 管理員可以將客製化合規課程分類到特定類別。 客製化合規類別由目錄標籤驅動。  管理員可以建立課程儀表板並與經理分享。 管理者接著可以在各自的實例上查看相同的儀表板。 合規儀表板的使用者介面及合規電子郵件通知也進行了改進。
 ![](assets/compliance-dashboard-admin.png)
 
 #### 工作流程
 
-以下是增強型法規遵循儀表板的使用步驟：
+以下是使用強化版合規儀表板的步驟：
 
-| 角色 | 任務 | 其他資訊 |
+| 角色 | 任務 | 附加資訊 |
 |---|---|---|
-| 管理員 | 建立自訂相容性標籤 | 如需詳細資訊，請參閱本文[建立自訂規範遵循標籤](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) |
-| 作者 | 將這些標籤新增至課程 | 如需詳細資訊，請參閱本文[將規範標籤新增至課程/學習路徑/認證](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)。 |
-| 管理員 | 使用合規性課程建立控制面板，並與經理共用 | 如需詳細資訊，請參閱本文[建立和共用法規遵循儀表板](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard)。 |
-| 經理 | 檢視合規性儀表板 | 如需詳細資訊，請參閱本文[法規遵循狀態](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) |
+| 行政 | 建立客製化合規標籤 | 請參閱本文 [建立自訂合規標籤](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) 以獲取更多資訊 |
+| 作者 | 將這些標籤加入課程 | 詳情請參閱本文 [「為課程/學習路徑/認證](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) 新增合規標籤」。 |
+| 行政 | 建立包含合規課程的儀表板，並與主管分享 | 請參閱本文 [「建立並分享合規儀表板](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) 」以獲得更多資訊。 |
+| 經理 | 查看合規儀表板 | 更多資訊請參閱本文 [《合規狀態](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) 》 |
 
-## 學習者使用者介面改版
+## 學習者使用者介面改造
 
 >[!IMPORTANT]
 >
->新的學習者UI將分階段發行。
+>新的學習者介面將分階段發布。
 
-**學習者UI**&#x200B;已更新為更優雅現代的設計。 **[!UICONTROL Learner Home]**、**[!UICONTROL My Learning]**、**[!UICONTROL Catalog]**&#x200B;和&#x200B;**[!UICONTROL Course Overview]**&#x200B;登入頁面獲得全新的現代外觀。 課程卡片也有新設計，以現代化方式顯示詳細資訊。 將游標暫留在課程卡片上會顯示課程說明和發佈日期。
+**學習者介面**&#x200B;已更新，設計更優雅且現代化。**[!UICONTROL Learner Home]****[!UICONTROL My Learning]**、 、 **[!UICONTROL Catalog]**&#x200B;和 **[!UICONTROL Course Overview]** 著陸頁都煥然一新，變得現代化。課程卡也採用新設計，以現代化的方式呈現細節。 滑鼠移至課程卡片上即可顯示課程說明及出版日期。
 
 >[!NOTE]
 >
->改版的使用者介面僅適用於沈浸式版面。 行動網站或應用程式尚不支援這些變更，將在未來版本中更新。
+>重新設計的使用者介面僅適用於沉浸式版面。 這些變更目前尚未支援行動網頁或應用程式，未來版本會更新。
 
 ![](assets/old-ui.png)
-_舊使用者介面_
+_舊的使用者介面_
 
 ![](assets/new-ui.png)
-_新的使用者介面_
+_全新使用者介面_
 
-### 此版本中的變更
+### 這次發布中有哪些變動
 
-**更新外觀**
+**現代化外觀與氛圍**
 
-全新重新整理的視覺元素符合現代設計趨勢，讓產品看起來既直覺又吸引人。 這包括新的刊頭、側面板和現代外觀的Widget。
+這些全新更新的視覺元素與現代設計趨勢相呼應，使產品看起來直覺且吸引人。 這包括新的報頭、側面板以及現代感十足的小工具。
 
-**增強型使用者體驗**
+**提升使用者體驗**
 
-學習者現在可以在以下頁面上檢視類似的卡片檢視：首頁、目錄、我的學習以及課程概述頁面，提供整合式體驗。
+學習者現在可在以下頁面查看類似的卡片檢視：首頁、目錄、我的學習及課程總覽頁面，提供統一的體驗。
 
-檢視[學習者首頁](/help/migrated/learners/feature-summary/learner-home-page.md)以取得詳細資訊。
+欲了解更多資訊，請參閱 [學習者首頁](/help/migrated/learners/feature-summary/learner-home-page.md) 。
 
-**課程發佈日期的變更**
+**課程出版日期變更**
 
-透過此增強功能，匯入至Adobe Learning Manager的LinkedIn和Go1課程的發佈日期將為LinkedIn和Go1上的實際發佈日期。 您也可以在使用者介面上檢視LinkedIn和Go1課程的實際發佈日期。 檢視[課程卡](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards)以取得詳細資訊。
+透過這項強化，Adobe Learning Manager 匯入 LinkedIn 和 Go1 課程的發佈日期將與 LinkedIn 和 Go1 的實際發佈日期相同。 你也可以在使用者介面上查看 LinkedIn 和 Go1 課程的實際公布日期。 查看 [課程卡](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) 以獲取更多資訊。
 
-## 非登入體驗的更新
+## 未登入體驗更新
 
-非登入體驗可讓您為非登入客戶建立即時體驗。 這是其行銷活動的登陸頁面，提供足夠的資訊來鼓勵註冊。
+未登入體驗讓你能為未登入客戶打造即時體驗。 這作為行銷活動的登陸頁面，提供足夠資訊鼓勵註冊。
 
-### 此版本中的變更
+### 這次發布有什麼改變
 
-客戶可以購買進階計畫，以建置此高擴充性的非登入體驗。 此非記錄體驗由[訓練資料存取](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access)提供技術支援，可讓您使用Adobe Learning Manager API即時瞭解座位限制、已佔用座位、輪候表限制和輪候表計數等相關資料。 客戶可使用這些API為非登入的學習者提供搜尋和篩選功能以及完整的課程摘要。 請參閱本文[非登入API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md)，瞭解有關API的詳細資訊。
+客戶可以購買高級方案，打造這種高度可擴展的非登入體驗。 這項非記錄的體驗，由 [Training Data](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) Access 提供即時名額限制、座位佔用數、候補名單限制及候補名單數值等資料，使用 Adobe Learning Manager API。 客戶可利用這些 API 提供未登入學習者的搜尋與篩選功能，以及完整的課程摘要。 請參閱本文 [《未登入的 API](/help/migrated/integration-admin/feature-summary/non-logged-in-apis.md) 》以獲得更多相關資訊。
 
 >[!NOTE]
 >
->請聯絡支援團隊或CSAM以購買優惠方案。
+>請聯絡客服團隊或 CSAM 購買高級方案。
 
-## 支援多重庫存單位(SKU)
+## 支援多個庫存單位（SKU）
 
-學習者現在可以將數個課程、學習路徑或認證新增到購物車中，並一起購買。
+學習者現在可以將多門課程、學習路徑或證照加入購物車，並一併購買。
 
-### 此版本變更內容
+### 這次發布會有什麼變化
 
-過去，學習者一次只能購買一門課程。 在此版本的&#x200B;**Adobe Learning Manager**&#x200B;中，他們可以使用購物車一次購買多個課程、學習路徑或認證。
+過去，學習者一次只能購買一門課程。 在這次 Adobe Learning Manager **版本**&#x200B;中，他們可以用購物車一次性購買多門課程、學習路徑或證照。
 
-此功能僅適用於學習者應用程式（現有UI、新學習者UI和行動沈浸式應用程式）。
+此功能僅在學習者應用程式中提供（現有 UI、新學習者介面及行動沉浸式應用程式）。
 
-檢視ALM[&#128279;](/help/migrated/learners/feature-summary/multi-item-cart.md)中的多專案購物車
+在 ALM 中查看 [多項目購物車](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-## Fluidic Player中的HTML5內容支援
+## Fluidic Player 中的 HTML5 內容支援
 
-**Adobe Learning Manager**&#x200B;現在支援以.zip檔案形式將HTML5內容上傳至內容庫。 上傳後，這些檔案即可作為模組納入課程中。 此外，作者可以為自學HTML5模組定義完成條件，以便讓學習者標籤完成或在啟動時自動完成。
+**Adobe Learning Manager** 現在支援將 HTML5 內容以.zip檔案形式上傳到內容庫。 上傳後，這些檔案可作為模組納入課程中。 此外，作者可定義自學 HTML5 模組的完成標準，允許學習者標記完成或啟動時自動完成。
 
-### 此版本中的變更
+### 這次發布有什麼改變
 
-Adobe Learning Manager現在支援自訂進度課程中的HTML5支援內容。 作者可將HTML5內容以.zip檔案的形式新增至自訂步調的內容。 學習者可以在流體播放器中檢視HTML5內容。 藉由新功能，學習者現在可以直接在流體播放器中將課程標示為已完成，以進行自控進度課程。 檢視[在內容庫](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library)中新增HTML5檔案型別以取得詳細資訊。
+Adobe Learning Manager 現在支援自學課程中的 HTML5 支援內容。 作者可以將 HTML5 內容作為 .zip 檔案加入自我進度內容。 學習者可以在流體播放器中查看 HTML5 內容。 有了這項新功能，學習者現在可以直接在流體遊戲中標記課程已完成，適合自學課程。 欲了解更多資訊，請參閱 [內容庫](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) 中新增 HTML5 檔案類型。
 
-透過新的增強功能，只要作者已將完成條件設定為新選項&#x200B;**[!UICONTROL On Launching content]**，當有人造訪URL時，具有外部連結的課程就會自動標示為完成。 已在活動模組頁面中新增選項&#x200B;**[!UICONTROL Completion Criteria]**，作者可以在其中設定外部連結的完成條件。 檢視[在活動模組](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module)中新增HTML連結以取得詳細資訊。
+透過新強化，當網址被訪問時，帶有外部連結的課程將自動標記為完成，只要作者已將完成標準設定為新選項 **[!UICONTROL On Launching content]**。 活動模組頁面新增了這個選項 **[!UICONTROL Completion Criteria]** ，作者可以設定外部連結的完成標準。 欲了解更多資訊，請參閱 [活動模組](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) 中的新增 HTML 連結。
 
 ![](assets/completion-criteria-activity-module.png)
-_完成條件選項 — 活動模組_
+_完成標準選項-活動模組_
 
-## 行動應用程式上的課程逾期推播通知
+## 當然，手機應用程式上的推播通知也早該收到了
 
-學習者會在錯過課程期限時收到推播通知。 透過這項新的增強功能，學習者現在可以選擇將提醒延遲24小時，或是在下週收到每個逾期提醒時收到提醒。 這僅適用於截止日期逾期通知。 檢視[排程推播通知](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
+每當學員錯過課程截止日期時，都會收到推播通知。 有了這項新功能，學習者現在可以選擇將提醒暫停24小時，或在下週收到每一個逾期提醒時收到的提醒。 此規定僅適用於逾期通知。 查看 [排程推播通知](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
-## 此版本中的API變更
+## 本版本的 API 變更
 
-### 搜尋API
+### 搜尋 API
 
-Search API包含下列變更：
+搜尋 API 包含以下變更：
 
-學習者可以使用```GET /search``` API在目錄篩選器中搜尋標籤。 學習者可以選取```tag```作為```filter.loTypes```引數的值，藉此搜尋標籤。
+學習者可利用 ```GET /search``` API 在目錄篩選器中搜尋標籤。 學習者可透過選擇```tag``````filter.loTypes```參數值來搜尋標籤。
 
-**樣本CURL**
+**樣本捲度**
 
 ```
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-新篩選器、可用名額、可用輪候表及時間範圍篩選器已新增至下列API： ```GET /search```及`GET /learningObjects`。
+新增的篩選條件、可用名額、候補名單及時間範圍篩選器已加入以下 API： ```GET /search``` 及 `GET /learningObjects`。
 
-新篩選器`filter.session.includeEnrollmentDeadline`已新增至下列API ```GET /search```。
+新增的篩選器 `filter.session.includeEnrollmentDeadline` 已加入以下 API ```GET /search```。
 
-### 帳戶API
+### 帳號 API
 
-已在```GET /account``` API中新增新資料行`custom_injections`、`showComplianceLabel`和`complianceLabelDefaultID`，以取得使用者端點的帳戶資料。
+API 中新增```GET /account```了欄位 `custom_injections`、 `showComplianceLabel`和 `complianceLabelDefaultID` ，以取得使用者端點的帳號資料。
 
-### 學習物件API
+### 學習物件 API
 
-以下是此更新中學習物件API的變更：
+以下是本次更新對學習物件 API 所做的變更：
 
-新的回應舊版作者ID和其他詳細資料已新增至`GET /learningObjects` API中的`authorDetails`。 此外，已新增篩選器`filter.authors`，以篩選舊版作者及其課程。
+新的回應、舊有作者 ID 以及 API 下`authorDetails``GET /learningObjects`新增的其他細節。此外，新增了一個篩選 `filter.authors`器 ，用來篩選舊有作者及其課程。
 
-名為`effectivenessIndex`的新屬性將協助您取得課程效果資料。
+這個新屬性 `effectivenessIndex` 會幫助你取得課程效能數據。
 
-**樣本CURL**
+**樣本捲度**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
@@ -155,33 +155,33 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A979004
 --header 'Authorization: oauth <oauth_token>'
 ```
 
-新回應`whoShouldTake`已新增至下列API： `POST /learningObjects/query`、`GET /learningObjects/{id}`和`GET /learningObjects`，其中提供應參加此課程的人員的詳細資訊。
+新的回應 `whoShouldTake`，說明了誰應該修讀此課程，並已加入以下 API： `POST /learningObjects/query`、 `GET /learningObjects/{id}`、 `GET /learningObjects`和 。
 
-**樣本CURL**
+**樣本捲度**
 
 ```
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
 ```
 
-新回應`waitlistLimit`已新增至`GET /learningObjects` API，其提供輪候表限制的詳細資料。
+新增的回應 `waitlistLimit`，說明了候補名單限制的細節，已加入 `GET /learningObjects` API。
 
-提供學習物件總計數的新回應`count`已新增至API `GET/ learningObjects`和`POST/ learningObjects/query`。
+新增的回應 `count` 顯示學習物件總數，已被加入 API `GET/ learningObjects` 和 `POST/ learningObjects/query`。
 
-新回應`catalogFieldId`和`fieldValueId`已新增至`GET/ learningObjects` API的`catalogLabels`下。
+新的回應， `catalogFieldId` `fieldValueId`已經在 API 裡`catalogLabels``GET/ learningObjects`新增了。
 
-學習者可以在API `GET /preview/learningObjects`中取得目錄標籤值。
+學習者可以在 API `GET /preview/learningObjects`中取得目錄標籤值。
 
-### 用於取得市集計數的新API
+### 新增 API 以取得市場數量
 
-在這個版本中，已新增新的API `GET /search/marketplace/count`。 這可協助您取得內容市集中可用學習物件的計數。
+在此版本中新增了一個 API `GET /search/marketplace/count` 。 這有助於你掌握內容市場上可用的學習資源數量。
 
-**樣本CURL**
+**樣本捲度**
 
 ```
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
 ```
 
-**範例回應**
+**樣本響應**
 
 ```
 {
@@ -189,29 +189,29 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 }
 ```
 
-### 學習物件例項API
+### 學習物件實例 API
 
-以下是此更新中學習物件例項API的變更：
+以下是本次更新中對學習物件實例 API 所做的變更：
 
-在這個版本中，名為`gamificationEnabled`的新金鑰已新增至學習物件執行個體API `GET /learningObjects/{loId}/instances/{loInstanceId}`。
+在此版本中，學習物件實例 API `GET /learningObjects/{loId}/instances/{loInstanceId}`新增了一個稱為 `gamificationEnabled` 的金鑰。
 
-**樣本CURL**
+**樣本捲度**
 
 ```
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
 ```
 
-上述API的新`gamificationSettings`屬性可取得遊戲設定的詳細資料。 例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`。
+上述 API 的新 `gamificationSettings` 屬性，用來取得遊戲化設定的詳細資訊。 例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`。
 
-**樣本CURL**
+**樣本捲度**
 
 ```
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
 ```
 
-上述API的新`leaderboard`屬性可取得遊戲設定的詳細資料。 例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`。
+上述 API 的新 `leaderboard` 屬性，用來取得遊戲化設定的詳細資訊。 例如： `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`。
 
-**樣本CURL**
+**樣本捲度**
 
 ```
 curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
@@ -219,142 +219,142 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram
 --header 'Authorization: oauth <oauth_token>'
 ```
 
-### 日期和 — date的排序行為變更
+### 日期與 -date 排序行為的變化
 
-支援依日期和日期排序的API會根據所有學習物件（學習路徑除外）的發佈日期顯示結果。 學習路徑仍會根據&#x200B;**effectiveModified**&#x200B;日期列出。 此變更將顯示在以下API中：
+支援依日期和日期排序的 API 會根據所有學習物件的發佈日期顯示結果，唯獨學習路徑除外。 學習路徑仍會根據 **生效修改** 日期列出。 此變更將在以下 API 中呈現：
 
-* GET/learningObjects
-* GET/search
-* POST/learningObjects/query
-* POST/Search/query
+* 取得 /learningObjects
+* 取得 /搜尋
+* 發佈 /learningObjects/query
+* 發佈 /搜尋/查詢
 
-### 位移限制的變更
+### 抵消限額的變更
 
-為了改善系統效能並更有效地管理資源使用率，Adobe在ADMIN和LEARNER範圍的GET/users端點中已棄用高位移值。 我們建議使用工作API來擷取含有位移值的記錄。
+為了提升系統效能並更有效管理資源利用率，Adobe 已棄用 GET /users 端點中 ADMIN 與 LEARNER 範圍的高偏移值。 我們建議使用 Jobs API 來取得帶有偏移值的紀錄。
 
-### RPM和成組分解限制的變更
+### 轉速與爆發限制的變化
 
-在此版本中，已針對所有API新增RPM （每分鐘要求數）和高載限制。 您可以在Swagger頁面上檢查每個API的RPM上限。
+在此版本中，所有 API 都新增了 RPM（每分鐘請求數）和突發限制。 你可以在 Swagger 頁面查看每個 API 的最大轉速。
 
-RPM是一分鐘內可傳送至API伺服器的要求數目。 高載限制允許在短時間內傳送較多的要求，超出一般的速率限制。
+RPM 是你在一分鐘內能發送給 API 伺服器的請求數量。 突發限制允許在短時間內處理更多請求，超越一般速率限制。
 
-### 已過時的API
+### 已棄用的 API
 
-檢視Adobe Learning Manager[&#128279;](/help/migrated/api-deprecations-list.md)中的API棄用，以取得產品中所有棄用的API的累積清單。
+在 Adobe Learning Manager](/help/migrated/api-deprecations-list.md) 中查看 [API 棄用列表，以累積所有產品中已棄用的 API。
 
-## 報告的變更
+## 報告變更
 
-### 合規性儀表板
+### 合規儀表板
 
-在此版本中， 「合規性」控制面板報告有兩個新欄：
+在本版本中，合規儀表板報告新增了兩個欄位：
 
-* 狀態
-* 合規性型別
+* 現況
+* 合規類型
 
-這是在現有欄以外的內容：
+這是在現有欄位之外的補充：
 
 * 使用者名稱
 * 使用者電子郵件
 * LP/認證/課程
-* 型別
+* 類型
 * 註冊日期（UTC時區）
-* 截止日期（UTC時區）
-* 完成日期（UTC時區）
-* 進度%
+* 截止時間（UTC時區）
+* 完工日期（UTC時區）
+* 進步百分比
 
 ### 訓練報告
 
-在&#x200B;**管理員** > **報告** > **自訂報告**&#x200B;和&#x200B;**工作API**&#x200B;中的訓練報告過去有名為&#x200B;**技能**&#x200B;和&#x200B;**標籤**&#x200B;的欄。 這些欄現在重新命名為&#x200B;**技能**&#x200B;和&#x200B;**標籤**。
+Admin > Reports > Custom Reports **和** Jobs API **的**&#x200B;訓練報告過去都有稱為&#x200B;**技能（Skill**））和&#x200B;**標籤（Tag（s））**&#x200B;的欄位。 **** ****&#x200B;這些欄位現在已改名為 **技能** 與 **標籤**。
 
-### 內容稽核報告
+### 內容審核報告
 
-在此版本中，**[!UICONTROL Content Audit Trail]**&#x200B;報表現在包含修改型別欄中的下列新屬性：
+在本版本中， **[!UICONTROL Content Audit Trail]** 報告新增了以下屬性於修改類型欄位：
 
 * 使用者群組新增
 * 使用者群組移除
 * 自訂標籤新增
 * 自訂標籤移除
-* 新增共用目錄
-* 共用目錄移除
-* 共用目錄更新
+* 共享目錄新增
+* 共享目錄移除
+* 共享目錄更新
 
-## 此更新中的錯誤已修正
+## 這次更新修正了錯誤
 
 **活動提交**
 
-* 嘗試將檔案重新上傳到活動提交模組失敗，網路呼叫中發生錯誤500。
+* 嘗試重新上傳檔案到活動提交模組時，網路呼叫中出現錯誤 500 失敗。
 
 **API**
 
-* 如果多個講師擁有相同的電子郵件地址，則建立Connect VC會議會失敗。
-* 註冊學習路徑後，MS Teams VC在「概觀」頁面上顯示錯誤的URL。
-* 工作API回應中提供的使用者報表預先簽署URL會在六小時後過期。
-* 產生課程的註冊報告時，「課程名稱」欄會顯示不正確的課程名稱。
-* 呼叫課程的大量API時，移轉背景工作程式無法傳送唯一的lo id，但該id會被移除。
-* 當課程包含在使用者可存取的特定目錄中時（預設目錄已停用），儘管設定會防止未註冊學習者檢視課程，您仍可以透過learningobject/id端點擷取課程的中繼資料。
-* 當skillname的名稱在GET/learningObject API中有逗號時，技能篩選器無法如預期運作。
-* SFTP的資料保留工作者中，檔案的時間戳記中繼資料不一致。
-* 如果移除並重新設定任何聯結器，專案移轉狀態就會顯示為「關閉」。
-* 培訓報表將「標籤」作為欄標題而非「標籤」。
-* 如果目錄已停用，且任何匯出的課程僅是已停用目錄的一部分，Commerce聯結器匯出會失敗。
+* 如果有多位講師使用相同的電子郵件地址，建立 Connect 風險投資會議會失敗。
+* 註冊學習路徑後，MS Teams 虛擬客戶在概覽頁面顯示錯誤的網址。
+* 作為工作 API 回應一部分提供的預先簽署的使用者報告 URL 會在六小時後失效。
+* 在產生課程報名報告時，課程名稱欄位顯示的課程名稱錯誤。
+* 遷移工作者在呼叫 Course 的 bulk API 時沒有傳送唯一的 LO ID，但 ID 會被移除。
+* 當課程被包含在使用者可存取的特定目錄中（而預設目錄被停用），即使設定阻止未註冊學習者查看課程，你仍可透過 learningobject/id 端點取得課程的元資料。
+* 當 GET /learningObject API 中技能名稱帶有逗號時，技能篩選器無法如預期運作。
+* SFTP 的資料保留工作器中，檔案的時間戳中繼資料存在不一致。
+* 如果任何連接器被移除並重新設定，專案遷移狀態就會顯示關閉。
+* 訓練報告的欄位標題是「Tag（s）」，而不是「Tags」。
+* 如果目錄被停用，且匯出的課程中的任何一門只是被停用目錄的一部分，商科連接器匯出就會失敗。
 
 **認證**
 
-* 有時，將使用者重新註冊到循環認證會失敗。
+* 有時候，重新註冊使用者到定期認證會失敗。
 
 **自訂角色**
 
-* 在某些情況下，當自訂管理員嘗試切換到講師角色時，錯誤403禁止顯示。
+* 在某些情況下，當自訂管理員嘗試切換為講師角色時，錯誤 403 會顯示禁止。
 
-**電子郵件範本和通知**
+**電子郵件範本與通知**
 
-* 取消工作階段後，當講師從工作階段中移除時，電子郵件通知不會傳送給最後一組講師。
-* 建立虛擬講師引導的訓練後，召集人沒有收到MS Teams的電子郵件通知。 只有在發佈課程並啟用電子郵件範本後，才會觸發電子郵件。
-* 有時候，電子郵件範本包含不正確的日期格式和翻譯。
+* 當課程取消後，當最後一組教師被移除時，電子郵件通知不會被發送給他們。
+* 組織者在建立線上講師主導訓練後，不會收到 MS Teams 的電子郵件通知。 只有在課程發布且啟用電子郵件範本後，郵件才會被觸發。
+* 有時候，電子郵件範本包含錯誤的日期格式和翻譯。
 
 **學習者**
 
-* 當學習者註冊了課程的多個執行個體，而您下載出勤報告時，報告包含不正確的資訊。
-* 使用者可以檢視其他使用者的私人貼文（如果將其新增到公開劇本中）。
-* 某些情況下，您無法從認證中取消學習者的註冊。 嘗試取消註冊時顯示錯誤訊息。
-* 即使管理員在僅選取一個課程後將認證標籤為已完成，仍會將其標籤為已完成。
-* 如果工作階段的結束時間變更為先前的日期，管理員無法將VC標示為完成。
-* 「工作階段出席次數」報錶針對輪候表上的學習者顯示為「未出席」。
+* 當學習者同時註冊多個課程，而你下載了出勤報告時，報告中包含錯誤資訊。
+* 如果其他用戶的私人貼文被加入公開故事，使用者可以查看。
+* 在某些情況下，你無法將學習者從認證中退役。 嘗試取消登記時會顯示錯誤訊息。
+* 即使管理員只選了一門課程，認證仍會被標記為已完成。
+* 如果會話結束時間改為先前日期，管理員無法將 VC 標記為完成。
+* 等候名單上的學習者，課程出席報告顯示為「未出席」。
 
-**學習者應用程式**
+**學習器應用程式**
 
-* 以PDF下載課程附註後，附註會隨機顯示。 它們不遵循順序。
+* 下載課程筆記後，筆記會隨機出現。 他們不服從命令。
 
 **學習路徑**
 
-* 在學習路徑中選取技能後，當您選取文字欄位時，下拉式清單未按預期顯示。
-* 某些情況下，您無法從學習路徑中移除技能。
+* 在學習路徑中選擇技能後，選擇文字欄位時下拉選單不會如預期顯示。
+* 在某些情況下，你無法從學習路徑中移除技能。
 
 **學習計畫**
 
-* 如果彈性學習計畫有許多課程，即使管理員將學習計畫標籤為完成，也不會完成學習計畫。
-* 學習者變更執行個體時，註冊報表中的last_modified_by欄不會更新。
+* 若彈性學習計畫包含多門課程，即使管理員標記為完成，學習計畫仍無法完成。
+* 註冊報告中的last_modified_by欄位在學習者更換實例時不會更新。
 
-**報告**
+**賽事報導**
 
-* 在某些情況下，管理員無法匯出培訓報告。
-* 當SCORM內容包含的問題或答案超過32,767個字元時，您就無法以Excel下載課程測驗報告。
-* 選取「重設遊戲」後，層級已實現日期未重設。
+* 在某些情況下，管理員無法匯出訓練報告。
+* 當 SCORM 內容的題目或答案超過 32,767 字元時，您將無法下載 Excel 中的課程測驗報告。
+* 選擇重置遊戲化後，等級達成日期不會重置。
 
 **搜尋**
 
-* 目前，在匯出所有使用者群組後，已刪除的使用者群組也會出現在輸出中。
-* 由於間歇性搜尋問題，您無法搜尋認證。
+* 目前，匯出所有使用者群組後，刪除的使用者群組也會出現在輸出中。
+* 由於搜尋時不時出現，你無法搜尋認證。
 
-## 此版本中的已知問題
+## 本版本已知問題
 
-Mobile Offline播放器未載入HTML5內容。
+行動端離線播放器不會載入 HTML5 內容。
 
 ## 系統需求
 
-檢視[Adobe Learning Manager系統需求](/help/migrated/system-requirements.md)。
+查看 [Adobe Learning Manager 系統需求](/help/migrated/system-requirements.md)。
 
-## Adobe Learning Manager舊版
+## Adobe Learning Manager 先前版本
 
-* [2024年3月發行版本](/help/migrated/whats-new-march-2024.md)
-* [2023年11月發行版本](/help/migrated/whats-new-november-2023.md)
+* [2024年3月發行](/help/migrated/whats-new-march-2024.md)
+* [2023年11月發行](/help/migrated/whats-new-november-2023.md)

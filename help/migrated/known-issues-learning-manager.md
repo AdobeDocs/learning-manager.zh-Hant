@@ -1,20 +1,21 @@
 ---
 jcr-language: en_us
-title: Learning Manager中的已知問題
+title: Learning Manager 已知問題
+description: 以下是 Learning Manager 每次更新時已知問題的彙整。 該清單為累積性，包含先前更新中已知的問題。
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '253'
 ht-degree: 1%
 
 ---
 
 
 
-# Learning Manager中的已知問題
+# Learning Manager 已知問題
 
-以下是Learning Manager每次更新的已知問題彙編。 此清單為累積清單，包含先前更新的已知問題。
+以下是 Learning Manager 每次更新時已知問題的彙整。 該清單為累積性，包含先前更新中已知的問題。
 
 <table> 
  <tbody>
@@ -24,33 +25,33 @@ ht-degree: 1%
   </tr> 
   <tr> 
    <td><p>48</p></td> 
-   <td><p>整合管理員角色不會出現自訂頁尾連結。</p></td> 
+   <td><p>整合管理員角色不會顯示自訂頁尾連結。</p></td> 
   </tr> 
   <tr> 
-   <td><p>47 （行動應用程式）</p></td> 
+   <td><p>47（行動應用程式）</p></td> 
    <td><p> </p> 
     <ul> 
-     <li>在Android上，您無法在貼文、評論或回複評論時上傳GIF檔案。</li> 
-     <li>身為任何展示板的版主，您無法刪除使用者的貼文、評論或回覆。 不過，您可以從網頁應用程式執行相同的動作。</li> 
-     <li>在應用程式中，您無法標籤問題型別。</li> 
-     <li>在應用程式上啟用社交學習後，請重新啟動應用程式以檢視「社交學習」標籤。 如果您沒有看到Social Learning，請終止應用程式，然後重新啟動應用程式。 會顯示「社交學習」標籤。</li> 
+     <li>在 Android 上，你無法在貼文、留言或回覆留言時上傳 GIF 檔案。</li> 
+     <li>作為任何版主，你不能刪除用戶的貼文、留言或回覆。 不過，你也可以在網頁應用程式中完成同樣的操作。</li> 
+     <li>在應用程式中，你無法標記問題類型。</li> 
+     <li>啟用社交學習後，重新啟動應用程式以查看「社交學習」分頁。 如果沒有看到社交學習，請關閉應用程式，然後重新啟動應用程式。 社交學習分頁會是可見的。</li> 
     </ul><p></p></td> 
   </tr> 
   <tr> 
    <td><p>45</p></td> 
    <td><p> </p> 
     <ul> 
-     <li>技能積分中的小數點支援僅支援英文。</li> 
-     <li>對於韓文、日文和俄文，工作階段時間子午線的值未按預期顯示。</li> 
+     <li>技能點數的十進位支援僅支援英文。</li> 
+     <li>對於韓語、日語和俄語，會話時間子午線的數值顯示不符合預期。</li> 
     </ul><p></p></td> 
   </tr> 
   <tr> 
    <td><p>39</p></td> 
-   <td><p>標籤模組中課程和認證數量的超連結包括影子課程和遞回認證。 當您按一下超連結時，這些課程和認證可能不會列在清單中，導致數字不符。</p></td> 
+   <td><p>標籤模式中課程與證照數量的連結包括影子課程與定期證照。 點擊連結後，這些課程和證照可能未被列出，導致數量不符。</p></td> 
   </tr> 
   <tr> 
    <td><p>37</p></td> 
-   <td><p>使用Internet Explorer v11.1478.10586.0存取一些特定學習物件可能會導致Learning Manager當機。</p></td> 
+   <td><p>使用 Internet Explorer v11.1478.10586.0 存取幾個特定的學習物件可能會導致學習管理員當機。</p></td> 
   </tr> 
  </tbody>
 </table>

@@ -1,136 +1,136 @@
 ---
-description: 瞭解與Learning Manager應用程式中的管理員角色相關聯的報告。
+description: 了解學習管理器應用程式中與管理員角色相關的報告。
 jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '7222'
+source-wordcount: '7304'
 ht-degree: 0%
 
 ---
 
 # 報表
 
-瞭解與Learning Manager應用程式中的管理員角色相關聯的報告。
+了解學習管理器應用程式中與管理員角色相關的報告。
 
-Adobe Learning Manager可讓您建立各種報告，以追蹤、監控及控制學習者活動。 系統會自動追蹤學習者活動並擷取至資料庫中。 管理員和管理員報告會從資料庫產生。
+Adobe Learning Manager 讓您能建立多樣化的報告，以追蹤、監控及控制學習者的活動。 學習者的活動會被追蹤並自動記錄到資料庫中。 經理與管理員報告則由資料庫產生。
 
 ## 概觀 {#overview}
 
-管理員和管理員的報表產生程式都類似。 管理員可檢視與其下屬對應的報表，而管理員則可檢視所有組織範圍報表。
+管理員與經理的報告產生流程相似。 經理可查看與下屬相關的報告，而管理員則可查看所有全組織的報告。
 
-報表會在控制面板中彙總。 報表必須存在於控制面板中。 報表頁面中預設存在&#x200B;**[!UICONTROL Default Dashboard]**。 您新增的任何報表都會移至此預設儀表板。 若要新增報告至個別儀表板，請使用下拉式箭頭並選擇&#x200B;**[!UICONTROL Add Report]**。 如需建立控制面板的詳細資訊，請參閱本頁面的控制面板區段。
+報告會被整合在儀表板中。 報告必須存在於儀表板中。 A **[!UICONTROL Default Dashboard]** 預設存在於報告頁面。 你新增的任何報告都會進入這個預設儀表板。 要將報告加入個別儀表板，請使用下拉選單箭頭選擇 **[!UICONTROL Add Report]**。 欲了解更多關於建立儀表板的資訊，請參閱本頁的儀表板章節。
 
-## 報表型別 {#typesofreports}
+## 報告類型 {#typesofreports}
 
-Adobe Learning Manager支援四種主要報表型別，例如完成、逗留時間、技能和成效。 您可以使用下列報表型別來產生300多種變數的報表：
+Adobe Learning Manager 支援四種主要類型的報告，如完成度、時間、技能與效能。 您可以使用以下報告類型來產生 300+ 變體的報告：
 
-* 學習者的課程傳遞統計資料
-* 課程報表的成效
-* 學習者技能型報告
-* 學習者的學習計畫註冊統計資料
+* 學習者課程授課統計
+* 課程成效報告
+* 學習者技能報告
+* 學習計畫註冊統計資料
 * 學習者花費的學習時間
 * 學習者計數
 * 認證完成
 
 ## 使用者活動儀表板 {#useractivitydashboards}
 
-檢視一段時間內平台上所有使用者活動的摘要。 設定使用者群組並套用篩選器。
+查看平台上所有用戶活動的摘要。 設定使用者群組並套用篩選器。
 
-使用者活動儀表板會顯示帳戶中使用者的活動。 列出的三個報表包括：
+使用者活動儀表板會顯示該帳戶中使用者的活動。 列出的三份報告如下：
 
-* **已註冊使用者：**&#x200B;此報表提供您帳戶一週內已註冊的使用者數目資訊。 若為具有「每月使用中單位」授權的帳戶，則報表會改為顯示MAU單位。
+* **註冊用戶數：** 本報告提供每週註冊用戶數的資訊。 對於有每月活躍單位授權的帳戶，報告會顯示 MAU 單位。
 
-* **使用者造訪報告：**&#x200B;此報告提供每天存取平台的使用者數目相關資訊。 亦提供每月報告。
+* **用戶訪問報告：** 本報告提供每日使用平台用戶數量的資訊。 同時也提供每月報告。
 
-* **學習時間報告：**&#x200B;此報告提供平台中每天的學習時間資訊。 亦提供每月報告。
+* **學習時間報告：** 本報告提供平台每日學習時間的資訊。 同時也提供每月報告。
 
-### 已註冊使用者 {#registeredusers}
+### 註冊用戶 {#registeredusers}
 
-Learning Manager會記錄每週在系統中註冊的使用者人數。 管理員可檢視此報告，以瞭解當週當天的註冊使用者人數。 已登入的計數一星期儲存一次不會變更。 因此，歷史註冊計數與系統中目前的學習者集合無關。
+學習管理員每週記錄系統中註冊的使用者數量。 管理員可查看此報告，了解該週某天的註冊用戶數。 註冊的計數一旦儲存一週，就不會改變。 因此，歷史登記人數與系統中目前的學習者集合無關。
 
-此報表提供一週內在您的帳戶中註冊的使用者數量資訊。
+本報告提供每週註冊用戶數量的資訊。
 
-若為具有「每月使用中單位」授權的帳戶，則報表會改為顯示MAU單位。
+對於有每月活躍單位授權的帳戶，報告會顯示 MAU 單位。
 
 ![](assets/registered-usersreport.png)
-*註冊的使用者報告*
+*註冊用戶報告*
 
-***用於每月存取單位帳戶：***
+***針對每月存取單位帳戶：***
 
-**每月作用中使用者報告**
+**每月活躍用戶報告**
 
-此報表顯示每個月在學習平台中活躍的學習者人數。 如果使用者執行此處提及的任何學習動作，則會視為該月的有效使用者。 這是計算「每月使用中單位」的相同方式。
+本報告顯示每月在學習平台活躍的學習者數量。 如果使用者執行了此處提及的任何學習動作，該月即被視為活躍。 這和每月活躍單位的計算方式相同。
 
-每月的有效計數在計數並儲存一個月後不會變更。 因此，顯示的歷史計數和系統中目前的學習者集合無關。
+每月活躍數量一旦統計並儲存一個月，則不會改變。 因此，顯示的歷史計數與系統中目前的學習者集合無關。
 
-### 使用者造訪 {#uservisits}
+### 使用者訪問 {#uservisits}
 
-此報表顯示一天或月期間存取系統的學習者總數。 瀏覽學習平台而不消費任何學習也視為「存取」學習平台。 這有助於管理員瞭解存取系統的使用者總數。 當月的第一天，Learning Manager會建立上個月存取平台的使用者總數記錄。 它也會擷取這些使用者的使用者群組資訊。
+本報告顯示一天或一個月內總共存取系統的學習人數。 瀏覽學習平台而不使用任何學習內容，也被視為「存取」學習平台。 這有助於管理員了解所有存取系統的使用者。 每月一號，Learning Manager 會建立上個月總用戶存取平台的紀錄。 它也會擷取這些使用者的群組資訊。
 
-只記錄管理員設定的使用者群組。 這可讓管理員對使用者群組套用篩選，以取得每月歷史資料。 請注意，如果使用者群組設定被修改，且Learning Manager在先前的幾個月內未記錄此使用者群組的資料，則Learning Manager無法顯示前幾個月新設定的此使用者群組的資料。
+只有管理員設定的使用者群組會被記錄。 這讓管理員也能對使用者群組套用篩選功能，以取得歷史的月度資料。 請注意，若使用者群組設定被修改，且學習管理員在先前幾個月未記錄該使用者群組的資料，則學習管理員無法顯示該新設定使用者群組過去幾個月的資料。
 
-此報表包含使用所有格式（例如Web、行動應用程式、Headless自訂解決方案）存取平台的使用者。 裝置應用程式使用圖表僅明確提及使用Learning Manager裝置應用程式存取平台的使用者。 這可協助管理員識別其帳戶中使用行動應用程式的情形。
+本報告包含用戶使用各種平台平台，如網頁、行動應用程式、無頭自訂解決方案等。 裝置應用程式使用圖表明確提到的是使用 Learning Manager 裝置應用程式存取平台的用戶。 這有助於管理員辨識帳戶中行動應用程式的使用情況。
 
 ![](assets/user-visit-report.png)
-*使用者造訪報告*
+*使用者訪問報告*
 
-### 學習逗留時間報表 {#learningtimespentreport}
+### 學習時間報告 {#learningtimespentreport}
 
-在這裡，您可以看到雙軸折線圖，顯示所有學習者在12個月期間內的總學習時間。 第二個座標軸代表個人在學習上所花費的時間中位數。
+這裡，你可以看到雙軸線圖，顯示所有學習者在12個月期間內所花費的總學習時間。 第二條軸代表個人學習時間的中位數。
 
-不同學習物件（例如學習計畫與認證）的逗留時間計算如下：
+不同學習對象（如學習計畫與認證）所花費的時間計算如下：
 
-* 包含靜態與互動式內容的自學課程
-* 使用url的活動課程。
-* 已啟用週末旗標的週末工作階段。
-* 已自動標籤出席的VC連線工作階段。
-* 不同學習物件（例如學習計畫與認證）的逗留時間
-* xAPI活動課程的xAPI陳述式。
+* 自學進度課程，內容靜態且互動式
+* 活動課程附網址。
+* 週末遊戲時段啟用週末旗幟。
+* VC Connect 會議，出席會自動標記。
+* 用於不同學習對象的時間，例如學習計畫與認證
+* xAPI 活動課程中的 xAPI 語句。
 
-您可以進一步將圖表匯出為Excel試算表。
+你還可以進一步匯出圖表成 Excel 試算表。
 
-提供選擇使用者群組設定的篩選器，有助於檢視不同使用者群組的資料。
+提供篩選器以選擇使用者群組設定，有助於查看不同使用者群組的資料。
 
-選取的日期和使用者群組篩選器會套用至圖示板中的所有相關圖形。
+選取的日期與使用者群組篩選器會套用到儀表板中所有相關的圖表。
 
 >[!NOTE]
 >
->針對&#x200B;**[!UICONTROL User Visits]**&#x200B;與&#x200B;**[!UICONTROL Learning Time Spent]**&#x200B;報告，顯示的預設資料（未設定使用者群組時）將為整個帳戶。
+>對於 **[!UICONTROL User Visits]** 和 **[!UICONTROL Learning Time Spent]** 報告，預設資料（當沒有設定使用者群組時）會顯示整個帳號的資料。
 
 ## 訓練內容儀表板 {#trainingcontentdashboard}
 
-培訓內容控制面板提供平台可用培訓的深入分析。 您可以檢視熱門培訓或追蹤所有可用的培訓。
+培訓內容儀表板提供平台上可提供的培訓資訊。 您可以查看熱門訓練或追蹤所有可用的培訓。
 
-### 培訓報表 {#trainingsreport}
+### 訓練報告 {#trainingsreport}
 
-此報表提供當月平台可用培訓總數（發佈狀態）的資訊。 它可指出一段時間內提供的培訓數量。
+本報告提供平台（已公布狀態）每月可提供總訓練的資訊。 它能反映隨時間提供的培訓數量。
 
 ![](assets/training-report.png)
 *訓練報告*
 
-### 作用中培訓報表 {#activetrainingsreport}
+### 活躍訓練報告 {#activetrainingsreport}
 
-此報表提供選定時間範圍內有效培訓的資訊。 作用中培訓是指在指定時間內註冊、在播放器中檢視或完成的培訓。
+本報告提供選定期間內持續進行的培訓資訊。 主動訓練是指在指定時間內註冊、觀看或完成的訓練。
 
-對於使用中訓練，當未完成使用者群組設定時，所有根使用者（具有管理員角色）內部群組的資料都可供選取。 除了root使用者群組之外，您可以視需要再設定10個使用者群組。
+對於主動訓練，當未進行使用者群組設定時，所有根使用者（擁有經理角色）內部群組的資料將可供選擇。 除了根使用者群組外，如果需要，你還可以設定另外 10 個使用者群組。
 
 ![](assets/active-trainingsreport.png)
-*使用中訓練報告*
+*活躍訓練報告*
 
 >[!NOTE]
 >
->選取&#x200B;**[!UICONTROL All Users]**&#x200B;和&#x200B;**[!UICONTROL 12 months]**&#x200B;篩選器時，資料未如預期顯示，但選取&#x200B;**[!UICONTROL All internal user group].**&#x200B;時資料顯示
+>當選擇 和 **[!UICONTROL 12 months]** 篩選條件時&#x200B;**[!UICONTROL All Users]**，資料不會如預期顯示，但當你選擇 **[!UICONTROL All internal user group]時，資料會顯示。**
 
 <table>
  <tbody>
   <tr>
    <td>
-    <p><b>參考</b></p></td>
+    <p><b>參考資料</b></p></td>
    <td>
-    <p><b>量度</b></p></td>
+    <p><b>公制</b></p></td>
    <td>
     <p><b>說明</b></p></td>
   </tr>
@@ -138,1090 +138,1090 @@ Learning Manager會記錄每週在系統中註冊的使用者人數。 管理員
    <td>
     <p>1</p></td>
    <td>
-    <p>開始比率(%)</p></td>
+    <p>起始比率（%）</p></td>
    <td>
-    <p>已開始課程的學習者人數與註冊人數的比率。</p></td>
+    <p>已開始課程的學習人數與註冊人數的比例。</p></td>
   </tr>
   <tr>
    <td>
     <p>2</p></td>
    <td>
-    <p>完成率(%)</p></td>
+    <p>完成率（%）</p></td>
    <td>
-    <p>已完成課程的使用者總數與已開始課程的使用者總數之間的比率。<br></p></td>
+    <p>完成課程的總用戶數與開始課程的總用戶數的比例。<br></p></td>
   </tr>
   <tr>
    <td>
     <p>3</p></td>
    <td>
-    <p>學習者意見</p></td>
+    <p>學習者回饋</p></td>
    <td>
-    <p>以1到10的級數收到的所有L1回饋回應的平均值，會舍入至最接近的整數。<br></p></td>
+    <p>所有L1回饋回應的平均值，從1到10四捨五入至最接近的整數。<br></p></td>
   </tr>
   <tr>
    <td>
     <p>4</p></td>
    <td>
-    <p>經理意見</p></td>
+    <p>經理回饋</p></td>
    <td>
-    <p>以1到5的級數收到的所有L3回饋回應的平均值，會舍入至最接近的整數<br></p></td>
+    <p>所有L3反饋回應的平均值，以1到5為度，四捨五入至最接近的整數<br></p></td>
   </tr>
  </tbody>
 </table>
 
-訓練報告有兩個額外的欄：
+訓練報告還有兩個額外欄位：
 
-1. 課程的平均星級評等。
-1. 已對該課程進行評分的學習者人數。
-1. 內嵌路徑
-1. 內嵌路徑ID
-1. 內嵌課程ID
-
->[!NOTE]
->
->開始率、完成率、學習者意見回饋和經理意見回饋不受套用的篩選器影響。 這些篩選條件只會影響註冊、檢視和完成。
+1. 課程的平均星級評分。
+1. 評分課程的學習者數量。
+1. 嵌入路徑
+1. 嵌入路徑識別碼
+1. 嵌入式課程識別碼
 
 >[!NOTE]
 >
->對於這兩個報表（訓練內容、使用者活動），您最多可以設定10個使用者群組。 處理作業最多可能需要24小時的時間才能完成，並讓新設定的篩選器可供使用。
+>起始率、完成率、學習者回饋及經理回饋不受所套用篩選器影響。 這些篩選器只影響註冊、檢視和完成次數。
+
+>[!NOTE]
+>
+>對於這兩個報表（訓練內容、使用者活動），你最多可以設定 10 個使用者群組。 處理完成並啟用新設定的過濾器可能需要長達 24 小時。
 
 ## 學習摘要儀表板 {#dashboards}
 
-### 產生控制面板報表
+### 產生儀表板報告
 
 >[!INFO]
 >
->在本次訓練中，您將瞭解如何從資料庫產生儀表板報告。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
+>在本次訓練中，您將學習如何從資料庫產生儀表板報告。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318854)</br></br>
 
 
-如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
+如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
 
-檢視平台中所有學習活動的摘要報告。 在此頁面上，您可以看到所選根使用者團隊和外部設定檔的以下摘要資訊。 也可以選取時間範圍：
+請參閱平台上所有學習活動的摘要報告。 在此頁面上，您可以看到所選根使用者團隊及外部設定檔的以下摘要資訊。 時間範圍亦可選擇：
 
-* 註冊、檢視和完成的學習摘要
-* 主要技能
-* 合規性摘要
+* 學習摘要，以報名、瀏覽及完成度的形式呈現
+* 頂尖技能
+* 合規摘要
 
 ![](assets/summary-charts.png)
-*摘要圖表*
+*總結排行榜*
 
-如果有內部根層級管理員，它們會逐一顯示。
+如果有內部根級管理器，它們會依序顯示。
 
-所有外部設定檔將列在內部設定檔（內部根層級使用者）之後。
+所有外部設定檔都會在內部設定檔（內部根級使用者）之後列出。
 
-如果外部設定檔有管理員，則管理員階層會顯示在&#x200B;**[!UICONTROL Showing Data For]**&#x200B;下拉式清單中。 使用者將列在所有詳細資訊頁面的管理員階層中（學習摘要、合規性和技能狀態）
+若外部設定檔有管理器，則管理器階層會顯示在 **[!UICONTROL Showing Data For]** 下拉選單中。 使用者會在所有細節頁面（學習摘要、合規及技能狀態）中列出於經理階層中
 
-如果沒有，則所有個別使用者詳細資料將顯示在清單中。
+如果沒有，則所有個別使用者資料都會顯示在清單中。
 
-若要檢視各種內部團隊註冊的詳細資訊，請按一下&#x200B;**[!UICONTROL Learning Summary Details]**。
+欲查看各內部團隊更細緻的報名細節，請點擊 **[!UICONTROL Learning Summary Details]**。
 
 ![](assets/learning-sunnarydetails.png)
-*學習摘要詳細資料*
+*學習摘要詳情*
 
-按一下任何註冊後，您都可以看到每個經理的學習者，以及註冊了哪些學習物件。 您也可以檢視每個學習者的進度和完成詳細資訊。
+點擊任何註冊時，可以看到每個經理的學習者，以及學習對象的註冊。 你也可以查看每位學習者的進度與完成細節。
 
 ![](assets/learners-for-a-manager.png)
-*個指派給經理的學習者*
+*分配給經理的學習者*
 
-按一下任何團隊並將其報表匯出為csv。 管理員可以選取使用者群組或個別使用者，匯出任何使用者群組或個別使用者的報告，然後從&#x200B;**[!UICONTROL Action]**&#x200B;下拉式清單中匯出詳細資料。
+點選任意團隊，將其報告匯出為 csv。 管理員可選擇使用者群組或個別使用者，然後從下拉選單匯出詳細資料 **[!UICONTROL Action]** ，匯出該使用者群組或個別使用者的報告。
 
-此外，您也可以看到進行中及已習得的技能的長條圖檢視。 您可以新增/移除想要顯示在圖形中的技能。
+此外，你可以看到正在進行中且已達成的技能的條狀圖。 你可以新增或移除你想在圖表中呈現的技能。
 
 ![](assets/skill-status-stackedbarchart.png)
-*技能狀態棧疊長條圖*
+*技能狀態堆疊條狀圖*
 
-### 合規性儀表板
+### 合規儀表板
 
-**Adobe Learning Manager**&#x200B;為所有管理員和管理員提供合規性儀表板。 管理員可以建立合規性儀表板並與管理員共用。 經理將能夠檢視其應用程式上新共用的儀表板，並可輕鬆追蹤其團隊成員對特定培訓的合規性。 合規性儀表板可讓管理員將自訂合規性課程分類為特定類別（例如，銷售、行銷和法律）。 自訂規範類別由&#x200B;**[!UICONTROL Catalog Labels]**&#x200B;提供。
+**Adobe Learning Manager** 為所有管理員和管理者提供合規儀表板。 管理員可以建立合規儀表板並與經理分享。 經理人將能在應用程式中查看新分享的儀表板，並輕鬆追蹤團隊成員在特定培訓中的合規狀況。 合規儀表板允許管理員將自訂合規課程分類為特定類別（例如銷售、行銷與法律）。 自訂合規類別由 **[!UICONTROL Catalog Labels]**&#x200B;驅動。
 
 ![](assets/compliance-dashboard-admin.png)
 
-_法規遵循儀表板 — 管理員檢視_
+_合規儀表板-管理員檢視_
 
-管理員也可以選取&#x200B;**[!UICONTROL Go to Compliance dashboard]**，檢查每個管理員團隊的規範遵循狀態。 管理員可以單獨或與群組管理員共用一組培訓課程。 這有助於經理輕鬆追蹤其隊友在指定訓練中的合規情況。
+管理員也可透過選擇 **[!UICONTROL Go to Compliance dashboard]**&#x200B;來檢查每位經理團隊的合規狀態。 管理者可以與經理個人或團體分享一組培訓課程。 這幫助管理者輕鬆追蹤隊友對指定訓練的遵守情況。
 
 #### 管理工作流程
 
-##### 建立自訂相容性標籤
+##### 建立客製化合規標籤
 
-合規性標籤是一種目錄標籤，可將課程/學習路徑/認證歸類為合規性型別。
-若要建立自訂規範遵循標籤，請遵循下列步驟：
+合規標籤是一種目錄標籤，將課程/學習路徑/認證分類為合規類型。
+要建立客製化合規標籤，請依照以下步驟操作：
 
-1. 在系統管理員應用程式中，移至&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL General]**。
-1. 選取&#x200B;**[!UICONTROL Custom Compliance type]**&#x200B;選項以啟用自訂規範遵循標籤。
+1. 在管理員應用程式中，前往 **[!UICONTROL Settings]** > **[!UICONTROL General]**。
+1. 選擇 **[!UICONTROL Custom Compliance type]** 啟用自訂合規標籤的選項。
 
 
    ![](assets/custom-compliance.png)
-   _啟用自訂合規性_
+   _啟用自訂合規_
 
    >[!NOTE]
    >
-   >引入此新目錄標籤是為了將課程、學習路徑和認證歸類為合規性型別。 若要啟用&#x200B;**[!UICONTROL Custom Compliance type]**&#x200B;選項，您必須先在同一頁面中啟用&#x200B;**[!UICONTROL Show Catalog Label]**&#x200B;選項。
+   >此新目錄標籤的引入，旨在將課程、學習路徑及認證分類為合規類型。 要啟用該 **[!UICONTROL Custom Compliance type]** 選項，您必須先在同一頁面啟用該 **[!UICONTROL Show Catalog Label]** 選項。
 
-1. 移至&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Catalog Label]**&#x200B;並選取&#x200B;**[!UICONTROL Compliance type]**。
-1. 在&#x200B;**[!UICONTROL Value]**&#x200B;文字方塊中輸入值（例如，Legal、Sales），然後選取&#x200B;**[!UICONTROL Add Value]**。
+1. 前往 **[!UICONTROL Settings]** > **[!UICONTROL Catalog Label]** 並選擇 **[!UICONTROL Compliance type]**。
+1. 在文字框輸入數值（例如，法務、銷售）， **[!UICONTROL Value]** 並選擇 **[!UICONTROL Add Value]**。
 
    ![](assets/custom-compliance-values.png)
-   _新增自訂合規性的值_
+   _新增自訂合規值_
 
-1. 選取&#x200B;**[!UICONTROL Save]**。
+1. 選擇 **[!UICONTROL Save]**。
 
 >[!NOTE]
 >
->作者在應用程式中建立/編輯課程時，必須新增這些合規性標籤。 請參閱[將規範標籤新增至課程/學習路徑/認證](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)。
+>作者在創建或編輯課程時，必須加上這些合規標籤。 請參見 [「為課程/學習路徑/認證](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)添加合規標籤」。
 
-##### 建立和共用合規性儀表板
+##### 建立並分享合規儀表板
 
-若要建立和共用法規遵循儀表板，請執行下列步驟：
+要建立並分享合規儀表板，請遵循以下步驟：
 
-1. 前往&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**。
-1. 在&#x200B;**[!UICONTROL Compliance Dashboard]**&#x200B;區段中，選取&#x200B;**[!UICONTROL Shared with Managers]**。
-1. 選取&#x200B;**[!UICONTROL Share dashboard]**&#x200B;並從&#x200B;**[!UICONTROL Select Compliance Label]**&#x200B;下拉式功能表中選取已建立的標籤。
+1. 去 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**。
+1. 在該 **[!UICONTROL Compliance Dashboard]** 區塊中，選擇 **[!UICONTROL Shared with Managers]**。
+1. 從&#x200B;**[!UICONTROL Select Compliance Label]**&#x200B;下拉選單中選擇&#x200B;**[!UICONTROL Share dashboard]**&#x200B;並選擇已建立的標籤。
 
 
    ![](assets/compliance-type.png)
-   _選取規範型別_
+   _選擇合規類型_
 
-1. 在&#x200B;**[!UICONTROL Share with]**&#x200B;文字方塊中輸入並選取管理員名稱。
-1. 選取&#x200B;**[!UICONTROL Share]**&#x200B;將儀表板傳送給選取的管理員。
+1. 在文字框中輸入並選擇經理的名字 **[!UICONTROL Share with]** 。
+1. 選擇 **[!UICONTROL Share]** 將儀表板傳送給所選的經理。
 
 >[!NOTE]
 >
->共用新儀表板將會覆寫所選管理員應用程式中的現有儀表板。 管理員將能夠檢視管理員新共用的儀表板。
+>分享新儀表板會覆蓋所選經理應用程式中的現有儀表板。 管理者將能查看管理員新分享的儀表板。
 
-#### 與管理員和自訂管理員共用法規遵循儀表板
+#### 與管理員及自訂管理員共享合規儀表板
 
-管理員可以與其他管理員和自訂管理員共用控制面板，讓他們立即存取所有合規性控制面板。
+管理員可以與其他管理員及自訂管理員共享儀表板，讓他們能即時存取所有合規儀表板。
 
-請依照下列步驟，與管理員和自訂管理員共用控制面板：
+請依照以下步驟與管理員及自訂管理員分享儀表板：
 
-1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
-2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**。
-3. 在&#x200B;**[!UICONTROL Admin View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
-4. 選取&#x200B;**[!UICONTROL Share Dashboard]**&#x200B;按鈕。
+1. 以 . 登入。**[!UICONTROL Admin]**
+2. 導航到 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**。
+3. 選擇 **[!UICONTROL Admin View]** 該 **[!UICONTROL Compliance Dashboard]** 區段。
+4. 選擇按鈕 **[!UICONTROL Share Dashboard]** 。
 
    ![](assets/share-dashboard.png)
-   _共用儀表板 — 管理員_
+   _Share dashboard - 管理員_
 
-5. 從&#x200B;**[!UICONTROL Select Custom Compliance]**&#x200B;下拉式功能表中選取規範標籤。 此選項會選取所有具有所選相容性標籤的課程。
-6. 選取您想要與管理員分享的其他課程、學習路徑或認證。
+5. 從 **[!UICONTROL Select Custom Compliance]** 下拉選單選擇合規標籤。 此選項將選擇所有具有所選合規標籤的課程。
+6. 選擇你想與管理員分享的額外課程、學習路徑或證照。
 
    ![](assets/share-button.png)
-   _共用法規遵循儀表板_
+   _分享合規儀表板_
 
-7. 選取您要共用儀表板的使用者或使用者群組，然後選取&#x200B;**[!UICONTROL Share]**。
+7. 選擇你想分享儀表板的使用者或使用者群組，然後選擇 **[!UICONTROL Share]**。
 
-##### 檢視合規性儀表板 — 自訂管理員和其他管理員
+##### 查看合規儀表板 – 自訂管理員及其他管理員
 
-來自所選使用者群組的所有自訂管理員和其他管理員都可以在他們的應用程式上看到合規性儀表板。
+所有自訂管理員及所選使用者群組的其他管理員都能在他們的應用程式上看到合規儀表板。
 
-請依照下列步驟檢視法規遵循儀表板：
+請依照以下步驟查看合規儀表板：
 
-1. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-2. 在&#x200B;**[!UICONTROL Your View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
-3. 選取「**[!UICONTROL Go to Compliance Dashboard]**」選項，您就能看到管理員共用的新法規遵循儀表板。
+1. 前往 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+2. 選擇 **[!UICONTROL Your View]** 該 **[!UICONTROL Compliance Dashboard]** 區段。
+3. 選擇該 **[!UICONTROL Go to Compliance Dashboard]** 選項後，你可以看到管理員分享的新合規儀表板。
 
    ![](assets/compliance-custom-view.png)
-   _檢視合規性儀表板 — 自訂管理員_
+   _查看合規儀表板 - 自訂管理員_
 
-#### 與商店管理員共用
+#### 與店經理分享
 
-管理員可與商店管理員共用合規性儀表板，讓他們監控學習者的合規性進度。
+管理員可以將合規儀表板分享給店經理，讓他們能監控學習者的合規進度。
 
-請依照下列步驟，與商店管理員共用控制面板：
+請依照以下步驟與店經理分享儀表板：
 
-1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
-2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Manager View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
-4. 選取&#x200B;**[!UICONTROL Share Dashboard]**&#x200B;按鈕。
+1. 以 . 登入。**[!UICONTROL Admin]**
+2. 前往 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 選擇 **[!UICONTROL Manager View]** 該 **[!UICONTROL Compliance Dashboard]** 區段。
+4. 選擇按鈕 **[!UICONTROL Share Dashboard]** 。
 
    ![](assets/share-manager.png)
-   _與管理員共用合規性儀表板_
+   _與經理分享合規儀表板_
 
-5. 從&#x200B;**[!UICONTROL Select Custom Compliance]**&#x200B;下拉式功能表中選取規範標籤。
-此選項會選取所有具有所選相容性標籤的課程。
-6. 選取您想要與管理員分享的其他課程、學習路徑或認證。
-7. 選取您要共用儀表板的使用者或使用者群組，然後選取&#x200B;**[!UICONTROL Share]**。
+5. 從 **[!UICONTROL Select Custom Compliance]** 下拉選單選擇合規標籤。
+此選項將選擇所有具有所選合規標籤的課程。
+6. 選擇你想與管理員分享的額外課程、學習路徑或證照。
+7. 選擇你想分享儀表板的使用者或使用者群組，然後選擇 **[!UICONTROL Share]**。
 
-##### 檢視合規性儀表板 — 管理員
+##### 查看合規儀表板 – 經理
 
-如需詳細資訊，請參閱本文[檢視合規性儀表板](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard)。
+請參閱本文 [，請參閱合規 dahsboard](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) 以獲取更多資訊。
 
 #### 編輯儀表板
 
-請依照下列步驟編輯法規遵循儀表板：
+請依照以下步驟編輯合規儀表板：
 
-1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
-2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Admin View]**&#x200B;區段上選取&#x200B;**[!UICONTROL Manager View]**&#x200B;或&#x200B;**[!UICONTROL Compliance Dashboard]**。 您可以在此章節中檢視合規性儀表板。
-4. 在您要編輯的規範儀表板上選取&#x200B;**[!UICONTROL Edit]**。
+1. 以 . 登入。**[!UICONTROL Admin]**
+2. 前往 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 選擇 **[!UICONTROL Admin View]** 或 **[!UICONTROL Manager View]** 選擇該 **[!UICONTROL Compliance Dashboard]** 區塊。 您可以在此區塊中看到合規儀表板。
+4. 在你想編輯的合規儀表板中選擇 **[!UICONTROL Edit]** 。
 
    ![](assets/edit.png)
-   _編輯規範儀表板_
+   _編輯合規儀表板_
 
-5. 變更必要的詳細資料，並選取&#x200B;**[!UICONTROL Share]**。
-6. 合規性控制面板將與選取的管理者共用。
+5. 更改所需資料並選擇 **[!UICONTROL Share]**。
+6. 合規儀表板將與被選中的經理共享。
 
-#### 撤銷控制面板 — 管理員
+#### 撤回儀表板 - 管理員
 
-請依照下列步驟撤銷法規遵循儀表板：
+請依照以下步驟移除合規儀表板：
 
-1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
-2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Admin View]**&#x200B;區段上選取&#x200B;**[!UICONTROL Manager View]**&#x200B;或&#x200B;**[!UICONTROL Compliance Dashboard]**。 您可以在此章節中檢視合規性儀表板。
-4. 在您要移除的規範儀表板上選取&#x200B;**[!UICONTROL Withdraw]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
-5. 此動作會從管理員的應用程式中移除共用的合規性控制面板。
+1. 以 . 登入。**[!UICONTROL Admin]**
+2. 前往 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 選擇 **[!UICONTROL Admin View]** 或 **[!UICONTROL Manager View]** 選擇該 **[!UICONTROL Compliance Dashboard]** 區塊。 您可以在此區塊中看到合規儀表板。
+4. 在你想移除&#x200B;**[!UICONTROL Proceed]**&#x200B;的合規儀表板上選擇 **[!UICONTROL Withdraw]** 。
+5. 此舉將移除主管應用程式中的共享合規儀表板。
 
    ![](assets/manager-edit.png)
-   _撤銷規範儀表板_
+   _撤掉合規儀表板_
 
-#### 為學習者設定預設合規性Widget
+#### 設定學習者的預設合規小工具
 
-請依照下列步驟，為學習者設定預設的合規性Widget：
+請依照以下步驟設定學習者的預設合規小工具：
 
-1. 以&#x200B;**[!UICONTROL Admin]**&#x200B;登入。
-2. 導覽至&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
-3. 在&#x200B;**[!UICONTROL Learner View]**&#x200B;區段中選取&#x200B;**[!UICONTROL Compliance Dashboard]**。
-4. 在&#x200B;**[!UICONTROL Change]**&#x200B;區段中選取&#x200B;**[!UICONTROL Learner View]**。
+1. 以 . 登入。**[!UICONTROL Admin]**
+2. 前往 **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard]**。
+3. 選擇 **[!UICONTROL Learner View]** 該 **[!UICONTROL Compliance Dashboard]** 區段。
+4. 在該&#x200B;**[!UICONTROL Learner View]**&#x200B;區段選擇&#x200B;**[!UICONTROL Change]**。
 
    ![](assets/learner-widget.png)
-   _設定學習者的預設合規性Widget_
-5. 從&#x200B;**[!UICONTROL Custom Compliance]**&#x200B;下拉式清單中選取規範標籤。 此選項會選取所有具有所選相容性標籤的課程。
-6. 選取&#x200B;**[!UICONTROL Proceed]**&#x200B;以設定預設的規範遵循Widget。
+   _設定學習者的預設合規小工具_
+5. 從 **[!UICONTROL Custom Compliance]** 下拉選單選擇合規標籤。 此選項將選擇所有具有所選合規標籤的課程。
+6. 選擇 **[!UICONTROL Proceed]** 設定預設合規小工具。
 
-學習者可在首頁上的合規性Widget上檢視所選課程或學習路徑。 如需詳細資訊，請參閱[法規遵循儀表板Widget](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget)。
+學習者可以在首頁的合規小工具中查看所選課程或學習路徑。 詳情請參閱 [合規儀表板小工具](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget) 。
 
-## 自訂報表
+## 自訂報告
 
-管理員可以使用&#x200B;**[!UICONTROL Reports]**&#x200B;區段中提供的自訂範本來產生特定報告。
+管理員可利用該 **[!UICONTROL Reports]** 區塊中的自訂範本產生特定報告。
 
-### 範例報表 {#samplereports}
+### 範例報告 {#samplereports}
 
-**[!UICONTROL Sample Reports]**&#x200B;標籤會顯示一些以範例資料點為基礎的指示性報告。 探索這些報告，瞭解您可以使用帳戶資料產生的不同型別的功能豐富報告。
+這個 **[!UICONTROL Sample Reports]** 分頁用來顯示一些基於樣本數據點的指示性報告。 探索這些報告，了解你可以利用帳戶資料產生不同類型的功能豐富報告。
 
-### 控制面板報表 {#dashboardreports}
+### 儀表板報告 {#dashboardreports}
 
-控制面板是報表的集合。 依據您的選擇，可將報告分組到儀表板中。 若要檢視您建立的所有展示板，請按一下此展示板標籤。 從&#x200B;**[!UICONTROL View Dashboard]**&#x200B;下拉式清單中，您可以選取預設展示板或您建立的儀表板。
+儀表板是一組報告的集合。 報告可以依照你的喜好分組到儀表板中。 要查看你所建立的所有板子，請點選此板頁籤。 從 **[!UICONTROL View Dashboard]** 下拉選單中，你可以選擇預設的板子或你建立的儀表板。
 
-### Excel報表 {#excelreports}
+### Excel 報告 {#excelreports}
 
-**[!UICONTROL Excel Reports]**&#x200B;索引標籤可讓您匯出XLS檔案格式的報告。
+這個 **[!UICONTROL Excel Reports]** 分頁允許你匯出 XLS 檔案格式的報告。
 
-以下是可供下載的報表型別。
+以下是可下載的報告類型。
 
 * 課程報告
 * 學習者成績單
 * 公告報告
-* 工作輔助報表
-* 內容稽核軌跡
-* 使用者稽核軌跡
+* 工作輔助工具報告
+* 內容稽核追蹤
+* 使用者稽核追蹤
 * 登入/存取報告
-* gamification成績單
-* gamification稽核軌跡
+* 遊戲化文字稿
+* 遊戲化稽核追蹤
 
 ### 課程報告 {#coursereports}
 
-管理員可下載課程報告。 請依照下列步驟執行：
+作為管理員，你可以下載課程報告。 請遵循以下步驟：
 
-1. 開啟&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**。
-1. **[!UICONTROL Course Report]**&#x200B;對話方塊隨即顯示。 選取您要擷取報告的課程，然後按一下&#x200B;**[!UICONTROL Show]**。
+1. 打開 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Course Reports]**。
+1. **[!UICONTROL Course Report]**&#x200B;對話會出現。選擇你想取得報告的課程並點選 **[!UICONTROL Show]**。
 
    ![](assets/course-reports.png)
    *課程報告*
 
-1. 系統會將您重新導向至課程頁面。 您可以選擇特定的註冊型別，依使用者及問題匯出測驗分數。
-1. 選取&#x200B;**[!UICONTROL Export Quiz Score]**&#x200B;以匯出報告。 **[!UICONTROL Generating Report Request]**&#x200B;對話方塊隨即顯示。 按一下&#x200B;**[!UICONTROL OK]**&#x200B;確認。
+1. 你會被導向到課程頁面。 你可以依使用者及依題目匯出測驗分數，並依每個報名選擇特定報名類型。
+1. 選擇 **[!UICONTROL Export Quiz Score]** 匯出報告。 **[!UICONTROL Generating Report Request]**&#x200B;螢幕上會出現一個對話框。點擊 **[!UICONTROL OK]** 確認。
 
    ![](assets/generating-reportrequest.png)
-   *正在產生報表要求*
+   *產生報告請求*
 
    >[!NOTE]
    >
-   >如果模組設定了多重嘗試選項，匯出的測驗分數報表將包含每次嘗試的分數詳細資訊。
+   >匯出後的測驗分數報告會包含每次嘗試的分數細節，若模組設定了多次嘗試選項。
 
 ### 產生課程報告
 
 >[!INFO]
 >
->在本次訓練中，您將瞭解如何匯出課程報告及設定這些報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+>在本次培訓中，您將學習如何匯出課程報告並設定這些報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
-如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
+如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
 
 ### 學習者成績單 {#LearnerTranscripts-1}
 
-Adobe Learning Manager可讓組織的管理員產生與學習者相關的成績單。
+Adobe Learning Manager 讓組織的管理員能夠產生與學習者相關的成績單。
 
-如需詳細資訊，請參閱[學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)。
+更多資訊請參閱 [學習者成績單](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md) 。
 
-### 公告報告 {#announcementsreports}
+### 公告 報告 {#announcementsreports}
 
-作為管理員，您可以產生您所傳送之所有公告的報告。 報告包含有關以下專案的詳細資訊：
+作為管理員，你可以產生一份報告，記錄你所發送的所有公告。 報告中包含以下細節：
 
-* 宣告型別
-* 宣告名稱
-* 宣告日期
-* 宣告的狀態
+* 公告類型
+* 公告名稱
+* 公告日期
+* 公告狀態
 * 學習者名稱
 
-若要下載報表，請遵循下列任一步驟：
+要下載報告，請遵循以下任一步驟：
 
-1. 開啟&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**。 **[!UICONTROL Generating Report Request]**&#x200B;對話方塊開啟。 按一下「確定」。
-1. [!UICONTROL **公告**] > [!UICONTROL **動作**] > [!UICONTROL **匯出報告**]。
+1. 打開 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**。 **[!UICONTROL Generating Report Request]**&#x200B;對話框打開了。點擊確定。
+1. [!UICONTROL **出口報告**]>[!UICONTROL **行動**]**]公告>[!UICONTROL **&#x200B;報告。
 
    ![](assets/announcements.png)
    *公告報告*
 
-1. 您可以按一下設定圖示下的&#x200B;**[!UICONTROL Export Report]**，擷取特定宣告的報告。
+1. 你可以點擊 **[!UICONTROL Export Report]** 設定圖示下方，擷取特定公告的報告。
 
    ![](assets/announcements-specific-report.png)
-   *報告特定公告*
+   *具體公告請報告*
 
-### 工作輔助報表 {#jobaidsreport}
+### 工作輔助工具報告 {#jobaidsreport}
 
-工作輔助是學習者無需註冊任何特定學習物件（例如課程或學習計畫）即可存取的培訓內容。 管理員可以擷取及下載工作輔助報告。
+工作輔助工具是學習者無需註冊特定學習對象（如課程或學習計畫）即可取得的培訓內容。 管理員可以擷取並下載工作輔助報告。
 
-擷取的報表包含下列相關資訊：
+摘錄報告包含以下資訊：
 
 * 名稱
-* 工作輔助型別
-* 工作輔助的狀態（已發佈或已撤銷）
-* 註冊日期
-* 完成日期
+* 就業援助類型
+* 就業援助現狀（已公布或撤回）
+* 入學日期
+* 完工日期
 * 下載日期
 * 學習者名稱
-* 管理員名稱
-* 建立者
+* 經理人名稱
+* 製作人
 
-若要下載報表，請執行下列任一項作業：
+要下載報告，請執行以下其中一項：
 
-* 開啟&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**。 **[!UICONTROL Generating Report Request]**&#x200B;對話方塊就會顯示。 按一下&#x200B;**[!UICONTROL Ok]**。
-* 開啟&#x200B;**[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**。
+* 打開  **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Job Aid Reports]**。 **[!UICONTROL Generating Report Request]**&#x200B;對話框會出現。點擊 **[!UICONTROL Ok]**。
+* 打開 **[!UICONTROL Job Aid]** > **[!UICONTROL Actions]** > **[!UICONTROL Export Report]**。
 
 ![](assets/job-aids.png)
 *工作輔助報告*
 
-* 您也可以按一下設定圖示下的&#x200B;**[!UICONTROL Export Report]**，擷取特定工作輔助的報告。
+* 您也可以點擊 **[!UICONTROL Export Report]** 設定圖示下方，擷取特定工作輔助工具的報告。
 
 ![](assets/job-aid-specific-download.png)
-*特定工作輔助的報告*
+*針對特定工作協助報到。*
 
-### 工作輔助報表
+### 工作輔助工具報告
 
-在清單中選取&#x200B;**[!UICONTROL Job Aids Report]**&#x200B;後，您會看到兩個選項：
+選擇 **[!UICONTROL Job Aids Report]** 後，你會看到兩個選項：
 
-![工作輔助報告](assets/job-aids-new.png)
-*下載工作輔助使用者註冊報告*
+![職業輔助報告](assets/job-aids-new.png)
+*下載就業輔助工具 USer 註冊報告*
 
-**所有工作輔助**：如果帳戶中的工作輔助數量少於1000萬，則產生的報告將包含所有工作輔助的註冊資訊。 這將為預設選項。 如果列數超過1千萬，則會顯示錯誤，您必須手動選取所需的工作輔助。
+**所有工作輔助**&#x200B;工具：若帳戶中的工作輔助工具數量少於1,000萬，產生的報告將包含所有工作輔助工具的註冊資訊。 這將成為預設的選擇。 若資料列數超過 1,000 萬，將顯示錯誤，您必須手動選擇所需的工作輔助工具。
 
-**選取的工作輔助**：如果您選取此選項，可以輸入您要產生報告的工作輔助。 您最多可以選取10個工作輔助。 Adobe Learning Manager會檢查工作輔助數量是否超過1,000萬個。
+**選擇工作輔助**&#x200B;工具：選擇此選項後，您可以輸入想要產生報告的工作輔助工具。 你最多只能選擇10種工作輔助工具。 Adobe Learning Manager 會檢查職缺輔助工具數量是否超過 1,000 萬筆。
 
-![工作輔助報告註冊](assets/job-aids-2-new.png)
-*選取工作輔助*
+![工作輔助工具 報告 註冊](assets/job-aids-2-new.png)
+*選擇工作援助*
 
-**工作輔助報告**
+**工作輔助工具報告**
 
-如果選取此選項，則會下載系統中所有工作輔助的詳細資訊及其中繼資料和培訓。
+選擇此選項後，系統中所有工作輔助工具的詳細資訊及其元資料與培訓內容都會被下載。
 
-下載的報表包含下列欄位：
+下載的報告包含以下欄位：
 
-* 工作輔助名稱
+* 就業援助名稱
 * 語言
-* ID
-* 型別
+* 身分證
+* 類型
 * 持續時間（分鐘）
-* 狀態
-* 發佈日期（UTC時區）
-* 建立者名稱
-* 透過電子郵件建立
-* 由使用者唯一ID建立
+* 州
+* 發布日期（UTC時區）
+* 以名字創作
+* 由電子郵件建立
+* 由使用者唯一識別碼建立
 * 目錄
 * 學習路徑
 * 課程
 * 標籤
 * 技能
 
-**工作輔助使用者註冊報告**
+**工作輔助工具使用者註冊報告**
 
-註冊報表包含有關使用者註冊的詳細資訊和其他資訊。
+註冊報告包含使用者註冊及其他資訊的詳細資訊。
 
-下載的報表包含下列欄位：
+下載的報告包含以下欄位：
 
-* 工作輔助名稱
-* 型別
-* 狀態
+* 就業援助名稱
+* 類型
+* 州
 * 註冊日期（UTC時區）
 * 完成日期（UTC時區）
 * 下載日期（UTC時區）
 * 學習者名稱
 * 電子郵件
-* 使用者唯一ID
-* 管理員名稱
+* 使用者唯一識別碼
+* 經理人姓名
 * 經理電子郵件
-* 管理員使用者唯一ID
-* 依名稱指派
-* 透過電子郵件指派
-* 依使用者唯一ID指派
-* 建立者名稱
+* 管理器使用者唯一識別碼
+* 以姓名命名
+* 由電子郵件指派
+* 由使用者唯一識別碼指派
+* 以名稱創建
 * 由電子郵件建立
-* 由使用者唯一ID建立
-* 工作代碼
-* 新欄位
-* 個人資料
+* 由使用者唯一識別碼建立
+* 職務代碼
+* 新田野
+* 簡介
 
-### 內容稽核軌跡報表 {#contentaudittrailreports}
+### 內容稽核追蹤報告 {#contentaudittrailreports}
 
-使用&#x200B;**[!UICONTROL Content Audit Trail]**&#x200B;報告產生器產生課程在系統中存留期間所有變更和編輯的報告。 產生的報表已擷取下列資訊。
+使用 **[!UICONTROL Content Audit Trail]** 報告產生器生成課程在系統中所有變更與編輯的報告。 產生的報告中會取得以下資訊。
 
-* 物件ID
+* 物件識別碼
 * 物件名稱
 * 物件類型
-* 修改型別
+* 改裝類型
 * 說明
-* 參考物件ID
+* 參考物件識別碼
 * 參考物件名稱
 * 依使用者名稱修改
 * 依使用者ID修改
 * 修改日期（UTC時區）
 
-在&#x200B;**修改型別**&#x200B;欄中，您將取得下列詳細資料：
+在 **修改類型** 欄位，您將獲得以下詳細資訊：
 
-| 修改型別 | 說明 |
+| 改裝類型 | 說明 |
 | --- | --- |
-| 建立 | 課程已建立 |
-| 認證新增 | 認證已新增至目錄 |
-| 憑證移除 | 憑證已從目錄中移除 |
-| 內容新增 | 新增至模組的內容 |
-| 課程新增 | 新增至學習路徑的課程 |
-| 課程移除 | 課程已從學習路徑移除 |
-| 自訂標籤新增 | 新增到目錄的自訂標籤 |
-| 自訂標籤移除 | 自訂標籤已從目錄中移除 |
+| 創作 | 賽道已建成 |
+| 認證新增 | 認證新增於目錄 |
+| 認證移除 | 認證已從目錄中移除 |
+| 內容新增 | 模組新增內容 |
+| 賽道新增 | 課程新增於學習路徑 |
+| 路線移除 | 課程已從學習路徑中移除 |
+| 自訂標籤新增 | 新增自訂標籤至目錄 |
+| 自訂標籤移除 | 自訂標籤從目錄中移除 |
 | 刪除 | 目錄已刪除 |
-| 工作輔助新增 | 工作輔助已新增到目錄 |
-| 工作輔助移除 | 工作輔助已從目錄中移除 |
-| 學習路徑新增 | 學習路徑已新增至目錄 |
-| 學習路徑移除 | 學習路徑已從目錄中移除 |
-| 新增模組內容 | 新增至課程（內容區段）的模組 |
-| 模組內容移除 | 從課程（內容區段）移除的模組 |
-| 已發佈 | 課程或學習路徑已發佈並新增至預設目錄 |
-| 已重新發佈 | 課程已重新發佈 |
-| 資源新增 | 資源已新增至課程 |
-| 資源移除 | 從課程移除的資源 |
-| 已淘汰 | 已棄用的課程 |
-| 新增共用目錄 | 目錄已共用至目錄 |
-| 共用目錄移除 | 目錄共用已從目錄移除 |
-| 共用目錄更新 | 目錄共用狀態：作用中 |
+| 工作援助新增 | 職缺協助已新增至目錄 |
+| 工作援助移除 | 職缺協助從目錄中移除 |
+| 學習路徑新增 | 學習路徑新增於目錄 |
+| 學習路徑移除 | 學習路徑從目錄中移除 |
+| 模組內容新增 | 課程新增模組（內容部分） |
+| 模組內容移除 | 模組已從課程（內容部分）移除 |
+| 發表 | 課程或學習路徑已發布並加入預設目錄 |
+| 再版 | 課程重新刊登 |
+| 資源補充 | 課程新增資源 |
+| 資源移除 | 課程中資源已移除 |
+| 退休 | 賽道退役 |
+| 共享目錄新增 | 目錄分享給目錄 |
+| 共享目錄移除 | 目錄共享功能已從目錄中移除 |
+| 共享目錄更新 | 目錄共享狀態：有效 |
 | 更新 | 課程或學習路徑已更新 |
-| 使用者群組新增 | 使用者群組已新增至目錄 |
-| 使用者群組移除 | 從目錄移除的使用者群組 |
+| 使用者群組新增 | 使用者群組新增至目錄 |
+| 使用者群組移除 | 使用者群組已從目錄中移除 |
 
-產生的報表中不會擷取有關中繼資料的資訊。
+產生的報告中不會擷取有關元資料的資訊。
 
-若要產生課程軌跡稽核報表，請依照下列步驟執行。
+要產生課程追蹤稽核報告，請依照以下步驟操作。
 
-1. 選取&#x200B;**[!UICONTROL Report]** > **[!UICONTROL Excel reports]** > **[!UICONTROL Course Audit Trail]**。 **[!UICONTROL Content Audit Trail]**&#x200B;對話方塊就會顯示。
+1. 選擇 **[!UICONTROL Report]** > **[!UICONTROL Excel reports]** > **[!UICONTROL Course Audit Trail]**。 **[!UICONTROL Content Audit Trail]**&#x200B;對話框會出現。
 
    ![](assets/course-audit-trial.png)
-   *課程稽核軌跡*
+   *賽道稽核追蹤*
 
-1. 選取您要下載報告的課程、學習計畫及認證。 如果未指定，預設會下載所有報表。
-1. 選取報告的日期範圍，然後按一下&#x200B;**[!UICONTROL Generate]**。
-1. 報告隨即產生，並通知您內容稽核報告已準備就緒。 您可以下載報表。
+1. 選擇你想下載報告的課程、學習計畫和認證。 若未指定，所有報告預設都會被下載。
+1. 選擇報告的日期範圍並點擊 **[!UICONTROL Generate]**。
+1. 報告會產生，並通知您內容審核報告已完成。 你可以下載報告。
 
-### 使用者稽核軌跡報表 {#useraudittrailreports}
+### 使用者稽核追蹤報告 {#useraudittrailreports}
 
-使用者稽核軌跡會擷取使用者、使用者群組和自我註冊設定檔的生命週期。 在Manager中新增、刪除、變更的使用者都已擷取。 會記錄建立和刪除自我註冊設定檔。 您也可以暫停並繼續自我註冊。
+使用者稽核追蹤捕捉使用者、使用者群組及自我註冊檔案的生命週期。 使用者新增、刪除、變更管理工具，都會被記錄下來。 自我註冊檔案的建立與刪除都會被記錄下來。 您也可以暫停並繼續自行註冊。
 
-您可以為外部設定檔新增、啟用、停用、暫停或恢復，也可以為自我註冊新增、刪除、暫停或恢復。 也會擷取CSV上傳。
+你可以新增、啟用、停用、暫停或繼續外部個人檔案，而新增、刪除、暫停或繼續則是自我註冊。 CSV 上傳也會被擷取。
 
-1. 選取&#x200B;**[!UICONTROL Report > Excel report > User Trail]**。 「使用者稽核軌跡」對話方塊就會顯示。
-1. 「使用者稽核軌跡」對話方塊就會顯示。 從彈出式選單中選取日期範圍。 您可以選擇產生上週、一個月的報告，或選取自訂日期。
+1. 選擇  **[!UICONTROL Report > Excel report > User Trail]**。 使用者稽核軌跡對話框會出現。
+1. 使用者稽核軌跡對話框會出現。 從彈出選單中選擇日期範圍。 你可以選擇產生過去一週、過去一個月的報表，或選擇自訂日期。
 
    ![](assets/user-audit-trail.png)
-   *使用者稽核軌跡*
+   *使用者稽核追蹤*
 
-1. 按一下&#x200B;**[!UICONTROL Generate]**&#x200B;以產生報表。
+1. 點擊 **[!UICONTROL Generate]** 產生報告。
 
-**[!UICONTROL User Audit Trail Report]**&#x200B;對話方塊上有兩個篩選器。
+對話中有兩個篩選器 **[!UICONTROL User Audit Trail Report]** 。
 
-**日期範圍篩選：**&#x200B;選擇您要產生報表的日期範圍。 有三個選項：
+**約會憤怒篩選器：** 選擇你想產生報告的日期範圍。 有三種選擇：
 
-* 上一週
-* 上個月
+* 最後一週
+* 最後一個月
 * 自訂日期
 
-選取學習者篩選器：搜尋使用者或使用者群組。
+選擇學習者篩選器：搜尋使用者或使用者群組。
 
-匯出的報告將包含同時符合指定搜尋條件之使用者的資料。
+匯出後的報告將包含符合上述搜尋條件的使用者資料。
 
 ![](assets/user-audit-trail.png)
-*使用者稽核軌跡*
+*使用者稽核追蹤*
 
 >[!NOTE]
 >
->指定或移除技能時，可以為指定或移除的雙方追蹤「使用者稽核報告」的技能。
+>當技能被指派或移除時，該技能可以在使用者審核報告中追蹤，無論是被指派還是被移除。
 
-### 擴充功能組態報表
+### 擴充組設定報告
 
-此報表提供有關所有新增原生擴充功能的設定詳細資料，包括其啟用狀態的資訊。 瞭解如何下載擴充功能報告，請參閱[下載擴充功能報告](native-extensibility.md#download-extension-report)。
+本報告提供所有新增原生擴充功能的設定細節，包括其啟用狀態。 了解如何下載延期報告，請參見 [下載延期報告](native-extensibility.md#download-extension-report)。
 
-### xAPI活動報表
+### xAPI 活動報告
 
-此報告提供在xAPI活動模組期間記錄和產生的所有xAPI陳述式的資料。
+此報告提供在 xAPI 活動模組中記錄與產生的所有 xAPI 語句資料。
 
-若要下載此報表，請遵循下列步驟：
+要下載本報告，請遵循以下步驟：
 
-1. 選取&#x200B;**[!UICONTROL Report > Excel report > xAPI Activity Report]**。 「xAPI活動報告」對話方塊隨即顯示。
-1. 從彈出式選單中選取日期範圍。 您可以選擇產生上週、一個月的報告，或選取自訂日期。
-1. 從下拉式選單中選取學習者及活動。
-1. 選取&#x200B;**[!UICONTROL Generate]**&#x200B;以產生報表。
+1. 選擇  **[!UICONTROL Report > Excel report > xAPI Activity Report]**。 出現了 xAPI 活動報告對話框。
+1. 從彈出選單中選擇日期範圍。 你可以選擇產生過去一週、過去一個月的報表，或選擇自訂日期。
+1. 從下拉選單選擇學習者與活動。
+1. 選擇 **[!UICONTROL Generate]** 以產生報告。
 
-### gamification報表 {#gamification}
+### 遊戲化報告 {#gamification}
 
-管理員可以下載CSV格式的gamification記錄。 您可以下載個別使用者或使用者群組的報表。 使用者名稱、使用者電子郵件、使用者的UUID、已評分的使用者總分數、收集的分組分數、使用者播放的群組名稱、管理員名稱以及作用中欄位值都會在報表中擷取。 管理員可以使用此報表來評估及瞭解組織層級或特定群組的使用者排名。
+管理員可下載CSV格式的遊戲化文字稿。 你可以下載個人使用者或使用者群組的報告。 使用者名稱、電子郵件、使用者的 UUID、總用戶得分、累積的積分分割、使用者所參與的群組名稱、管理者姓名及活動欄位數值，都會在報告中取得。 管理員可利用此報告評估並理解組織層級或特定群體的用戶排名。
 
-1. 選取報表> Excel報表> Gamification報表。
+1. 選擇報告>Excel報告>遊戲化報告。
 
    ![](assets/gamification.png)
-   *Gamification報告*
+   *遊戲化報告*
 
-1. 「Gamification成績單」對話方塊隨即顯示。 使用名稱、設定檔、使用者群組、電子郵件ID或UUID選取學習者。
+1. 遊戲化文字記錄對話框會出現。 請使用學習者的姓名、個人資料、使用者群組、電子郵件 ID 或 UUID 來選擇學習者。
 
    ![](assets/gamification-transcriptsdialog.png)
-   *Gamification成績單對話方塊*
+   *遊戲化逐字稿對話*
 
-1. 按一下&#x200B;**[!UICONTROL Generate]**&#x200B;以產生報表。
+1. 點擊  **[!UICONTROL Generate]** 產生報告。
 
-   產生學習者的報告後，您必須能夠匯出帳戶中所有使用者（內部、外部或刪除）的目前和已實現層級資訊。 您也可以檢查學習者達到的層級日期：
+   在產生學習者報告後，必須能夠匯出帳戶中所有使用者（內部、外部或已刪除）的當前及已達成等級資訊。 您也可以查詢學習者所達成的等級日期：
 
-   * 銅級獲得日期
-   * 銀級獲得日期
-   * 金級獲得日期
-   * 白金級獲得日期
+   * 銅牌達成日期
+   * 銀牌達成日期
+   * 金牌達成日期
+   * 白金達成日期
 
-   這些欄包含第一次達到層級的日期。 欄&#x200B;**[!UICONTROL Current Level]**&#x200B;顯示學習者目前的層級。
+   這些欄位記錄了首次達成該層級的日期。 欄位 **[!UICONTROL Current Level]** 顯示學習者的當前等級。
 
-   當管理員重設gamification時，學習者的所有點都會據此重設。
+   當管理員重置遊戲化時，學習者的所有點數都會相應重置。
 
-### gamification稽核軌跡報告 {#gamification-audit-trail}
+### 遊戲化稽核追蹤報告 {#gamification-audit-trail}
 
-此報表含有學習者因每個規則而獲得gamification分數的歷程記錄及原因。
+本報告包含學習者在每條規則中獲得遊戲化點數的歷史與原因。
 
-### 下載報表
+### 下載報告
 
-1. 選取Gamification稽核軌跡URL。
-1. 在&#x200B;**Gamification稽核軌跡**&#x200B;快顯視窗上，選取日期範圍。
-1. 選取&#x200B;**產生**。
+1. 選擇遊戲化稽核追蹤網址。
+1. 在 **遊戲化稽核追蹤** 彈窗中，選擇日期範圍。
+1. 選擇 **產生**。
 
-報表會下載為CSV檔案。 檔案包含下列欄：
+報告會以 CSV 檔案下載。 檔案包含以下欄位：
 
 * 名稱
-* 電子郵件/ UUID、
-* 狀態
+* 電子郵件/UUID，
+* 現況
 * 動作
-* 點，
-* 平衡點
+* 分數，
+* 平衡點數
 * 規則/任務
 * 規則/任務子任務，
-* 規則/任務詳細資訊
-* 型別，
-* 名稱，
-* 執行個體名稱獲得日期（UTC時區）
+* 規則/任務細節
+* 類型，
+* 姓名，
+* 實例命名日期已達成（UTC 時區）
 * 規則/任務開始時間
 * 規則/任務結束時間
 
-### 註冊和取消註冊報告 {#enrollmentandunenrollmentreport}
+### 註冊與退學報告 {#enrollmentandunenrollmentreport}
 
-管理員和經理可以擷取已註冊和已取消註冊學習者的報表。 身為管理員，您可以看到任何已註冊或取消註冊課程、學習計畫或認證執行個體的學習者、管理員或經理，並匯出報告。 身為經理，您只能擷取團隊成員的報表。 身為經理，您無法在經理應用程式中看到已刪除的學習者或您自己的名稱，因為您是已註冊或未註冊的學習者。
+管理者和管理者可以擷取已註冊與退學學習者的報告。 作為管理員，您可以查看任何已註冊或退選於課程、學習計畫或認證實例的學習者、管理員或經理，並匯出報告。 而作為經理，你只能取得團隊成員的報告。 作為經理，你無法在經理申請中看到被刪除的學習者或你自己的名字，無論是已註冊還是未註冊。
 
-若要下載報表，請遵循下列步驟：開啟&#x200B;**[!UICONTROL Course/ Learning program/ Certification]** > **[!UICONTROL Learners]** > **[!UICONTROL Action]** > **[!UICONTROL Export report]**。
+要下載報告，請依照以下步驟操作：開啟  **[!UICONTROL Course/ Learning program/ Certification]** > **[!UICONTROL Learners]** > **[!UICONTROL Action]** > **[!UICONTROL Export report]**。
 
 ![](assets/unenrollment.png)
-*取消註冊報告*
+*退學報告*
 
-### 意見回饋報告 {#feedback-report}
+### 回饋報告 {#feedback-report}
 
-身為管理員，您現在可以為指定期間的選定培訓擷取學習者意見回饋(L1)和經理意見回饋(L3)。
+作為管理員，您現在可以在指定期間內，取得學員回饋（L1）與經理回饋（L3）。
 
-如需詳細資訊，請參閱[意見反應報告](/help/migrated/administrators/feature-summary/reports/feedback-report.md)。
+更多資訊請參閱 [回饋報告](/help/migrated/administrators/feature-summary/reports/feedback-report.md) 。
 
-### 培訓報表 {#training-report}
+### 訓練報告 {#training-report}
 
-Learning Manager支援訓練報表，可讓管理員下載訓練詳細資料及其相關的中繼資料，例如作者、發佈日期、技能、目錄標籤等。
+Learning Manager 支援培訓報告，允許管理員下載培訓細節及其相關元資料，如作者、發表日期、技能、目錄標籤等。
 
-在管理員應用程式上，按一下「**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**」。
+在管理應用程式中，點擊 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Trainings Report]**。
 
-您可以下載以下專案的報表：
+您可以下載以下報告：
 
-* 選取的培訓（限制10） — 從任何目錄選取一或多項培訓（最多10項）
-* 所選目錄中的培訓（限制5） — （目錄選取最多可選擇5個目錄）
-* 所有培訓 — （帳戶中的所有培訓）
+* 精選訓練（限制10項）-從任一目錄中選擇一項或多項訓練（最多10項）
+* 所選目錄中的培訓（限制5個）-（最多可選五本目錄）
+* 所有訓練 - （帳戶中所有訓練）
 
 ![](assets/download-trainingreport.png)
 *下載訓練報告*
 
-在「進階選項」段落中，可以使用下列選項：
+在進階選項區，有以下選項可供選擇：
 
-* 包含課程對應與學習計畫/認證
+* 附上課程對應及學習計畫/認證
 * 包含模組層級資訊
 
-選取篩選器並按一下「下載」後，您將會收到通知，要求您以CSV格式下載報表。
+選擇篩選條件並點擊下載後，您將收到通知，要求下載CSV 格式的報告。
 
-報告會包含下列欄位：
+報告將包含以下欄位：
 
-*目錄名稱、訓練型別、訓練識別碼、訓練唯一識別碼、訓練名稱、子訓練、模組、訓練或模組持續時間、格式、訓練狀態、技能、作者、上次發佈日期、上次完成日期、講師註冊計數、開始計數、完成計數、平均L1分數、平均L2分數、已接收L1回應、已接收L2回應、已接收L3回應、目錄標籤與標籤。*
+*課程目錄名稱、訓練類型、訓練ID、訓練唯一ID、訓練名稱、子訓練、模組、訓練或模組長度、格式、訓練狀態、技能、作者、最後發表日期、最後完成日期、講師註冊人數、開始人數、完成人數、平均L1分數、平均L2分數、平均L3分數、收到L1回應數、收到L2回應數、收到L3回應數、目錄標籤與標籤。*
 
 ![](assets/more-options.png)
 *其他選項*
 
-### 工作階段摘要報告 {#session-summary-report}
+### 會期總結報告 {#session-summary-report}
 
-「工作階段摘要報告」包含學習者在指定日期內規劃的所有工作階段。
+課程摘要報告包含在指定日期內為學習者安排的所有課程。
 
-這可讓管理員匯出給定日期範圍內所有虛擬和教室工作階段詳細資料。 管理員也可以匯出有關特定培訓或講師的工作階段報告。
+這讓管理員能夠匯出所有符合指定日期範圍的虛擬及教室課程細節。 管理員也能匯出特定訓練或講師的課程報告。
 
-這也有助於管理員瞭解每月規劃的工作階段，並識別講師的排程和已傳送的工作階段。
+這也有助於管理員了解每月規劃的課程內容，並辨識講師的行程表及已完成的課程內容。
 
-以系統管理員身分，按一下&#x200B;**[!UICONTROL Custom Reports]** > **[!UICONTROL Session Summary Report]**。
+作為管理員，請點擊 **[!UICONTROL Custom Reports]** > **[!UICONTROL Session Summary Report]**。
 
-在接下來的對話方塊中，選擇日期範圍，並選擇訓練或講師來取得摘要。
+在接下來的對話框中，選擇日期範圍，並選擇訓練或講師，以取得摘要。
 
 ![](assets/session-summary-report.png)
-*工作階段摘要報告*
+*會期總結報告*
 
-下載的csv包含以下欄位：
+下載的 csv 包含以下欄位：
 
-* 開始日期和時間
-* 結束日期和時間
+* 開始日期與時間
+* 結束日期與時間
 
 * 模組名稱
-* 工作階段持續時間（分鐘）
-* 名額數
+* 會話長度（以分鐘計）
+* 座位數
 * 位置
-* 執行個體名稱
+* 實例名稱
 * 課程名稱
-* 課程ID
+* 課程編號
 * 講師姓名
 * 講師電子郵件
-* 註冊計數
-* 工作階段型別
-* 輪候表限制
-* 輪候表計數
-* 輪候表使用者電子郵件
-* 位置資訊
-* 位置區域
+* 招生人數
+* 會話類型
+* 候補名單限制
+* 候補名單數量
+* 候補名單使用者電子郵件
+* 地點資訊
+* 地點區域
 
-### 講師使用率報表
+### 講師使用報告
 
-此報表可擷取講師在授課指派工作階段時每天所花的時間（以分鐘為單位）。 報表可從選取的開始日期下載三個月。
+本報告記錄了教師每日教授指定課程所花費的時間（以分鐘計）。 報告可於選定開始日期起三個月內下載。
 
-若要下載報表，請按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Instructor Utilization Report]**。
+要下載報告，請點擊 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Instructor Utilization Report]**。
 
-選取一位或多位講師，以及日期範圍。
+選擇一位或多位講師及日期範圍。
 
-![下載講師使用報告](assets/utilization-report.png)
-*下載講師使用報告*
+![下載教師使用報告](assets/utilization-report.png)
+*下載教師使用報告*
 
-下載的報表包含下列欄位：
+下載的報告包含以下欄位：
 
-* 講師姓名
-* 講師ID
-* 能力層次
-* 以欄顯示日期。 如果講師在某個日期被使用，則會列出工作階段數量。 如果講師未在某一天使用，則值將顯示零。
+* 教練名稱
+* 講師編號
+* 能力層級
+* 日期作為欄位。 若教練在特定日期受聘，則會列出課程次數。 若該教官當天未被使用，該數值會顯示為零。
 
-此報表包含選定月份起三個月的記錄。
+報告包含從選定月份起三個月的紀錄。
 
-若要擷取所有講師的記錄，請將「講師」欄位留空。
+若要取得所有講師的紀錄，請將講師欄位留空。
 
-此外，具有產生報表許可權的自訂管理員可以擷取此報表。
+此外，擁有產生報告權限的自訂管理員也能取得此報告。
 
-### 使用者稽核軌跡報表
+### 使用者稽核追蹤報告
 
-此報表會擷取切換執行個體（從執行個體切換至執行個體）、依時間、日期等切換的學習者相關資訊。
+本報告記錄了學習者在「從實例」切換到「實例」的資訊，並依時間、日期等方式切換。
 
-選取學習者或使用者群組。
+選擇學習者或使用者群組。
 
-若要下載報表，請按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL User Audit Trail Report]**。
+要下載報告，請點擊 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL User Audit Trail Report]**。
 
-![下載使用者稽核軌跡報告](assets/user-audit-report.png)
+![下載使用者稽核追蹤報告](assets/user-audit-report.png)
 
-*下載使用者稽核軌跡報告*
+*下載使用者稽核追蹤報告*
 
-### 學習方案報告
+### 學習計畫報告
 
-此報表包含帳戶中所有學習計畫的詳細資訊，例如相關使用者群組、狀態和觸發器資訊。
+此報告包含帳號中所有學習計畫的詳細資訊，例如相關使用者群組、狀態及觸發資訊。
 
-報告包含以下內容：
+報告內容如下：
 
-* 學習方案名稱
-* 型別（發生於）
-* 培訓（已完成）
-* 技能（已達到）
-* 日期（日期）
+* 學習計畫名稱
+* 類型（發生時間）
+* 訓練（已完成）
+* 技能（已達成）
+* 日期（約定日期）
 * 動作
-* 狀態，建立者：
-* 建立日期
-* 上次修改日期
-* 使用者群組（套用至）
-* 使用者群組（新增至）
-* 在此時間後註冊
-* 學習元素型別
+* 狀態，由
+* 創建日期
+* 最後修改日期
+* 使用者群組（適用於）
+* 使用者群組（新增）
+* 註冊後
+* 學習元素類型
 * 學習元素
-* 學習元素例項
+* 學習元素實例
 * 學習元素
-* 完成日期
+* 完工日期
 * 學習元素提醒
-* 領域 — 目錄
-* 範圍 — 使用者群組
+* 範圍目錄
+* 範圍-使用者群
 
 ### 自訂角色的稽核軌跡
 
-管理員可以下載自訂角色稽核報告，以追蹤對自訂角色所做的所有變更，包括建立、修改和刪除自訂角色及其相關功能存取權。
+管理員可以下載自訂角色稽核報告，追蹤自訂角色的所有變更，包括建立、修改及刪除自訂角色及其相關功能存取權。
 
-若要下載報表，請遵循下列步驟：
+要下載報告，請依照以下步驟操作：
 
-1. 以管理員身分登入。
-2. 選取報表>自訂報表。
-3. 選取自訂角色稽核軌跡，並挑選日期範圍
-4. 選取「產生」以下載報表。
+1. 以管理員身份登入。
+2. 選擇報告>自訂報告。
+3. 選擇自訂角色稽核追蹤並選擇日期範圍
+4. 選擇「產生」以下載報告。
 
-「自訂角色稽核軌跡」報表包含下列欄位：
+自訂角色稽核追蹤報告包含以下欄位：
 
-* 角色ID
+* 角色識別
 * 角色名稱
-* 活動型別
-* 修改型別
+* 活動類型
+* 改裝類型
 * 說明
-* 參考物件型別
+* 參考物件類型
 * 參考物件ID
 * 參考物件名稱
 * 參考物件電子郵件
 * 依使用者名稱修改
-* 依使用者UUID修改
-* 依使用者電子郵件修改
+* 由使用者 UUID 修改
+* 由使用者電子郵件修改
 * 修改日期（UTC時區）
-* Source
+* 資料來源
 
 ## 電子郵件訂閱 {#emailsubscriptions}
 
-訂閱報告即可以電子郵件取得您最愛的報告。
+訂閱你喜歡的報告，可以透過電子郵件收到。
 
 ### 設定電子郵件訂閱
 
 >[!INFO]
 >
->在此培訓中，您將瞭解如何設定控制面板報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
+>在本次培訓中，您將學習如何設定儀表板報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
-如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
+如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
 
-在&#x200B;**[!UICONTROL Reports]**&#x200B;頁中，按一下&#x200B;**[!UICONTROL Subscription]**&#x200B;索引標籤。 報表訂閱頁面隨即顯示。
+在頁面中 **[!UICONTROL Reports]** ，點擊分  **[!UICONTROL Subscription]** 頁。 報告訂閱頁面會出現。
 
-若要從下拉式清單中選取報表名稱，請開始在報表欄位中輸入報表名稱。 從下拉式清單中選擇電子郵件的頻率。 您可以新增電子郵件的主旨，並提供備用電子郵件ID。
+要從下拉選單中選擇報告名稱，請在報告欄位輸入報告名稱。 從下拉選單選擇電子郵件頻率。 你可以新增電子郵件主旨，並提供替代電子郵件帳號。
 
-您可以編輯和刪除訂閱。
+你可以編輯和刪除訂閱。
 
 ## 歷史報告
 
-Adobe Learning Manager (ALM)中的歷史報表是指擷取學習平台內歷史資料和活動的報表。 這些報表提供以往學習者活動、培訓內容、使用者群組績效和其他相關資料的深入分析。 歷史報告可讓管理員追蹤、監控及分析學習方案在一段時間內的進度和成效。
+Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內歷史資料與活動的報告。 這些報告提供過去學習活動、培訓內容、使用者群組表現及其他相關數據的洞見。 歷史報告讓管理者能夠追蹤、監控並分析學習計畫隨時間的進展與成效。
 
-### 課程存取報告
+### 課程入學報告
 
-課程存取報告提供每個課程重新造訪的相關資訊。
+課程進入報告提供每門課程重訪的資訊。
 
-若要下載此報表，請遵循下列步驟：
+要下載本報告，請遵循以下步驟：
 
-1. 前往&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**。
-1. 選取&#x200B;**[!UICONTROL Course Access Report]**。 「產生報表請求」對話方塊開啟。
-1. 從下拉式選單中選取年份和季度。
-1. 選取&#x200B;**[!UICONTROL Generate]**。
+1. 去 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**。
+1. 選擇 **[!UICONTROL Course Access Report]**。 產生報告請求的對話框會打開。
+1. 從下拉選單選擇年份和季度。
+1. 選擇 **[!UICONTROL Generate]**。
 
 ### 登入/存取報告
 
-登入/存取報表可提供使用者登入和存取的相關資訊。 您可以一次產生包含三個月資料的報告。
+登入/存取報告提供使用者登入及存取資訊。 你可以一次產生包含三個月資料的報告。
 
-若要下載此報表，請遵循下列步驟：
+要下載本報告，請遵循以下步驟：
 
-1. 前往&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**。
-1. 選取&#x200B;**[!UICONTROL Login/Access report]**。 「產生報表請求」對話方塊開啟。
-1. 從下拉式選單中選取年份和季度。
-1. 選取&#x200B;**[!UICONTROL Generate]**。
+1. 去 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Historic Reports]**。
+1. 選擇 **[!UICONTROL Login/Access report]**。 產生報告請求的對話框會打開。
+1. 從下拉選單選擇年份和季度。
+1. 選擇 **[!UICONTROL Generate]**。
 
 ## 建立儀表板 {#createadashboard}
 
-1. 若要開始建立自己的面板，請按一下頁面右側的「新增儀表板」 。
+1. 要開始建立自己的看板，請點擊頁面右側的新增儀表板。
 
    ![](assets/add-dashboards.png)
    *新增儀表板*
 
-1. 提供控制面板的名稱和說明。
-1. 如果您想要與任何管理員共用儀表板，請在&#x200B;**[!UICONTROL Share With]**&#x200B;欄位中選擇他們。 您可以針對此作業使用任何一般選取條件。
-1. 按一下&#x200B;**[!UICONTROL Save].**
+1. 請提供儀表板的名稱與描述。
+1. 如果你想和任何經理共用儀表板，請在 **[!UICONTROL Share With]** 現場選擇他們。 你可以使用任何正常的篩選標準來進行這個操作。
+1. 點擊 **[!UICONTROL Save]。**
 
-您可以在&#x200B;**[!UICONTROL Dashboard Reports]**&#x200B;索引標籤中檢視最近建立的展示板。
+你可以在 **[!UICONTROL Dashboard Reports]** 分頁查看最近建立的棋盤。
 
-若要新增報表至展示板，請按一下展示板視窗右上角的下拉式清單，然後按一下&#x200B;**[!UICONTROL Add Report]**。 您以此方式建立的報告會與您的儀表板相關聯。
-
->[!NOTE]
->
->您按一下「報表」頁面右上角的「新增」所建立的報表，會新增至您的預設儀表板。
-
-## 共用儀表板 {#shareddashboards}
-
-共用面板是組織內其他使用者與您共用的報告集合。 您新增至共用展示板的任何報表，都會自動與可存取該展示板的其他使用者共用。
-
-您可以透過下列兩種方式共用展示板：
-
-* 透過在&#x200B;**[!UICONTROL Share With]**&#x200B;欄位中輸入共用控制面板的使用者。
-* 選擇下拉式清單中的編輯面板，然後輸入共用控制面板的使用者詳細資訊。
+要將報告加入你的看板，請點擊看板視窗右上角的下拉選單並點選 **[!UICONTROL Add Report]**。 你用這種方式建立的報告會與你的儀表板綁定。
 
 >[!NOTE]
 >
->經理只能從共用儀表板檢視其團隊成員的報表。
+>你在報告頁面右上角點擊新增所建立的報告，會被加入你的預設儀表板。
 
-## 下載 {#downloads}
+## 共享儀表板 {#shareddashboards}
 
-匯出的儀表板報表工作表會提供詳細資訊，而非報表摘要。 下載的報表會遵循學習者成績單的格式。
+共享看板是組織內其他使用者分享給你的報告集合。 你新增到共享看板的任何報告，都會自動分享給有權限存取該看板的其他使用者。
 
-## 建立報表 {#report}
+你可以透過以下兩種方式分享這個看板：
 
-1. 按一下左窗格中的「報表」 。 報告摘要頁面隨即顯示。
+* 透過輸入共享儀表板的欄位 **[!UICONTROL Share With]** 使用者。
+* 在下拉選單中選擇編輯看板，並輸入使用者資訊以分享儀表板。
+
+>[!NOTE]
+>
+>經理只能從共享儀表板查看團隊成員的報告。
+
+## 下載資料 {#downloads}
+
+匯出後的儀表板報告表提供詳細資訊，取代報告摘要。 下載的報告採用學習者成績單的格式。
+
+## 建立報告 {#report}
+
+1. 點選左側窗格的「報告」。 報告摘要頁面會出現。
 
    >[!NOTE]
    >
-   >依預設，至少有三個範例報表會出現在範例展示板標籤中。 您只能檢視範例報表，以瞭解如何建立和自訂範例報表。
+   >預設情況下，樣本板標籤中至少會出現三個樣本報告。 你只能查看範例報告，以了解如何建立和客製化它們。
 
-1. 在頁面的右上角，按一下&#x200B;**[!UICONTROL Add]**。
-1. 在&#x200B;**[!UICONTROL Add Report]**&#x200B;對話方塊的「型別」下拉式清單中，您可以選擇其中一個預先定義的報表，或選取&#x200B;**[!UICONTROL Custom]**。 如果您選取預先定義的報表，則會看到已預先填入表單。 您可以進一步變更某些欄位，然後按一下&#x200B;**[!UICONTROL Save]**。 這會將報表新增至您的預設儀表板。
+1. 在頁面右上角，點擊 **[!UICONTROL Add]**。
+1. 在 **[!UICONTROL Add Report]** 對話框的類型下拉選單中，你可以選擇預設的報表之一，或選擇 **[!UICONTROL Custom]**。 如果你選擇預先定義的報告，你可以看到表單已經預先填入。 你還可以進一步修改部分欄位並點擊 **[!UICONTROL Save]**。 這會將報告加入你的預設儀表板。
 
    ![](assets/create-report.png)
    *建立報告*
 
-   在&#x200B;**[!UICONTROL Report Type]**&#x200B;中，您可以選擇預先定義的報表集或自訂值。 您可以檢視下列報表，做為預先定義報表集的一部分：
+   在 **[!UICONTROL Report Type]**&#x200B;中，你可以選擇預先定義的報告集合或自訂值。 您可以將以下報告視為預先定義的報告集的一部分：
 
-   * 已指派和已習得的技能
-   * 已註冊及完成的課程
+   * 分配與完成的技能
+   * 已報名與完成的課程
    * 課程的成效
-   * 已註冊和已完成的學習計畫
-   * 每個課程花費的學習時間
-   * 每季花費的學習時間
+   * 已註冊及完成的學習課程
+   * 每門課程所花費的學習時間
+   * 每學季學習時間
    * 認證完成
 
-1. 從下拉式選項中選擇報表的&#x200B;**[!UICONTROL Y-axis]**。 對於某些選取的條件，您可以從「狀態」選項中選擇一或多個狀態。 例如，對於課程註冊統計主要標準，狀態可以是已完成、不完整和已註冊。 主要範圍資料在報表中以長條圖表示。
+1. 從下拉選單中選擇報告的 。**[!UICONTROL Y-axis]**&#x200B;對於部分選定條件，您可以從州選項中選擇一個或多個州。 例如，課程註冊統計的主要標準可以是州名完成、未完成和已註冊。 主要範圍資料以長條圖形式呈現於報告中。
 
    ![](assets/axes-for-reports.png)
-   *報告座標軸*
+   *報告軸*
 
-1. 從下拉式選項為您的報告選擇次要&#x200B;**[!UICONTROL Y-axis]**&#x200B;條件/範圍。 例如，若是學習方案註冊選項，請從「狀態」下拉式選單中選擇一或多個狀態。 次要範圍資料會以折線圖的形式呈現。
-1. 從下拉式選項中為報表選擇適當的X&#x200B;**軸**&#x200B;條件。 如果選擇x軸作為日期，則可選擇按日、月、季和年將x軸條件分組。
-1. 在「時間範圍」區段中，從下拉式清單中選擇適當的選項。 可用的選項包括：
+1. 從下拉選單中選擇報告的次要 **[!UICONTROL Y-axis]** 標準/範圍。 例如，在學習計畫註冊選項中，從州下拉選單中選擇一個或多個州。 次要範圍資料以折線圖形式表示。
+1. 從下拉選單中選擇適合報告的 X 軸標準。 若選擇 x 軸作為日期，則可依日、月、季及年份將 x 軸標準分組。
+1. 在時間跨度區塊中，從下拉選單中選擇相應選項。 可用的選項包括：
 
-   * 上個月
-   * 季度
-   * 年
-   * QTD （過去90天）
-   * 當年截至統計日（過去365天）
-   * 日期範圍。 在&#x200B;**[!UICONTROL From]**&#x200B;和&#x200B;**[!UICONTROL To]**&#x200B;日期欄位中提供值。
+   * 過去一個月
+   * 四分之一
+   * 年份
+   * QTD（過去90天）
+   * 今年至今（過去365天）
+   * 日期範圍。 在日期&#x200B;**[!UICONTROL From]****[!UICONTROL To]**&#x200B;欄位中提供數值。
 
    ![](assets/time-filter-for-report.png)
 
-1. **篩選區段**
+1. **濾鏡部分**
 
-   篩選器會根據您選擇的報告型別，顯示在底部的「新增報告」對話方塊中。 以下列出一些顯著的篩選器。
+   篩選器會根據您選擇的報告類型，出現在底部的「新增報告」對話框中。 以下列出一些主要的過濾器。
 
-   * **管理員：**&#x200B;您可以根據階層選擇任一管理員。 對於某些經理而言，可能會有下屬經理與向每個下屬經理報告的多個員工。
-   * **設定檔：**&#x200B;選擇您員工的指定。 它有助於根據員工的設定檔/指定來檢視員工報表。 例如，電腦科學家、工程師。
-   * **使用者群組：**&#x200B;選擇您要依據其篩選報表的使用者群組。 Learning Manager會從使用者功能中擷取為您的帳戶定義的使用者群組。
-   * **內容：**&#x200B;您可以從下拉式清單中選擇課程，根據任何課程篩選報表。
+   * **經理：** 你可以根據階級選擇任何一位經理。 有些經理可能會有下屬經理，且每位下屬經理下有多名員工。
+   * **個人資料：** 選擇你員工的職稱。 這會幫助你根據員工的個人資料或職稱查看報告。 例如，電腦科學家、工程師。
+   * **使用者群組：** 選擇你想篩選報告的使用者群組。 Learning Manager 會從使用者功能取得你帳號定義的使用者群組。
+   * **內容：** 你可以根據任何課程從下拉選單選擇來篩選報告。
 
-   展開此區段並選擇所需的篩選器。
+   展開此區塊並選擇所需的篩選條件。
 
    ![](assets/choose-filters.png)
-   *選擇篩選器*
+   *選擇濾鏡*
 
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;完成建立報告。
+1. 點擊 **[!UICONTROL Save]** 完成建立報告。
 
    ![](assets/sample-report.png)
    *範例報告*
 
 ## 編輯報告 {#editareport}
 
-在報表上，按一下下拉箭頭，然後選取選項&#x200B;**[!UICONTROL Edit Report]**。
+在報告中，點擊下拉箭頭，選擇選項 **[!UICONTROL Edit Report]**。
 
 ![](assets/edit-a-report-1.png)
 *編輯報告*
 
-對報表進行必要的變更。 若要儲存變更，請按一下&#x200B;**[!UICONTROL Save]**。
+對報告做必要的修改。 要儲存變更，請點擊 **[!UICONTROL Save]**。
 
-## 將報表移至儀表板 {#moveareporttoadashboard}
+## 將報告移到儀表板 {#moveareporttoadashboard}
 
-選擇此選項可將目前報表移至現有儀表板。 若要移動報告，請按一下選項&#x200B;**[!UICONTROL Move to Dashboard]**。
+選擇此選項即可將目前報告移至現有儀表板。 要移動報告，請點擊選項 **[!UICONTROL Move to Dashboard]**。
 
 ![](assets/move-a-report.png)
-*將報告移至儀表板*
+*將報告移到儀表板*
 
-選擇要將報告移動到的儀表板，然後按一下&#x200B;**[!UICONTROL Move]**。
+選擇你想讓報告移動到的儀表板，然後點選 **[!UICONTROL Move]**。
 
-## 建立報告副本 {#createacopyofareport}
+## 製作一份報告副本 {#createacopyofareport}
 
-若要建立報告復本，請選取選項&#x200B;**[!UICONTROL Create a Copy]**。
+要建立報告副本，請選擇 **[!UICONTROL Create a Copy]**&#x200B;選項。
 
 ![](assets/copy-a-report.png)
-*建立報告復本*
+*製作一份報告副本*
 
-選擇您要複製報表的目標儀表板。 若要開始複製，請按一下&#x200B;**[!UICONTROL Copy]**。
+選擇你想複製報告的儀表板。 要開始複製，請點擊 **[!UICONTROL Copy]**。
 
-## 刪除報告 {#deleteareport}
+## 刪除檢舉 {#deleteareport}
 
-若要刪除報表，請選擇選項&#x200B;**[!UICONTROL Delete Report]**。 刪除報告後，便無法還原報告。 這個過程是不可逆的。 刪除報告時請謹慎操作。
+若要刪除報告，請選擇選項 **[!UICONTROL Delete Report]**。 刪除報告後，你無法恢復報告。 這個過程是不可逆的。 刪除報告時請謹慎行事。
 
 ![](assets/delete-a-report.png)
-*刪除報告*
+*刪除檢舉*
 
-## 下載報表 {#downloadareport}
+## 下載報告 {#downloadareport}
 
-若要下載報表，請選擇選項&#x200B;**[!UICONTROL Download Report]**。
+要下載報告，請選擇 **[!UICONTROL Download Report]**&#x200B;選項。
 
 ![](assets/download-a-report.png)
-*下載報表*
+*下載報告*
 
-## 調整報表大小 {#resizeareport}
+## 調整報告大小 {#resizeareport}
 
-您可以在1×1 （中）和1×2 （大）大小中調整報表大小。 這可讓您檢視報告時擁有更出色的空間。 此外，您也可以輕鬆地平移和縮放這些報表。
+你可以將報告調整為 1×1（中）和 1×2（大）大小。 這讓你有更好的空間來查看你的報告。 此外，你可以輕鬆平移和縮放這些報導。
 
-## 篩選器 {#filters}
+## 濾鏡 {#filters}
 
-篩選器會根據您選擇的報告型別，顯示在底部的&#x200B;**[!UICONTROL Add]**&#x200B;報告對話方塊中。 以下列出一些顯著的篩選器。
+篩選器會根據 **[!UICONTROL Add]** 你選擇的報告類型，出現在報表對話框底部。 以下列出一些主要的過濾器。
 
-**管理員**&#x200B;您可以根據階層選擇任一管理員。 對於某些經理而言，可能會有下屬經理與向每個下屬經理報告的多個員工。
+**經理** ：你可以根據階級選擇任何一位經理。 有些經理可能會有下屬經理，且每位下屬經理下有多名員工。
 
-**設定檔**&#x200B;選擇您員工的指定。 它有助於根據員工的設定檔/指定來檢視員工報表。 例如，電腦科學家、工程師。
+**個人資料** 選擇您員工的職稱。 這會幫助你根據員工的個人資料或職稱查看報告。 例如，電腦科學家、工程師。
 
-**使用者群組**&#x200B;選擇您要依據其篩選報表的使用者群組。 Learning Manager會從使用者功能中擷取為您的帳戶定義的使用者群組。
+**使用者群組** 選擇你想篩選報告的使用者群組。 Learning Manager 會從使用者功能取得你帳號定義的使用者群組。
 
-**課程**&#x200B;您可以從下拉式清單中選擇課程，根據任何課程篩選報告。
+**課程** 你可以從下拉選單中選擇任何課程來篩選報告。
 
 ![](assets/sample-report-admin.png)
-*篩選報告*
+*過濾報告*
 
-在圖形的圖例上方，您可以檢視縮放方塊。 將游標移至其上方、按一下，然後拖曳橫杆至縮放方塊圖形區域的任何部分，以放大顯示。
+在圖例上方，可以看到一個縮放框。 將游標移到該圖上，點擊後將橫桿拖曳到縮放框圖形區域的任何部分，即可放大。
 
-您可以橫跨圖形條以直線的形式檢視次要Y軸值。 例如，在上述範例中，您可以看到整個圖形的灰線效果值。
+你可以以橫跨圖表條的線條來查看次要的 y 軸值。 例如，在上述範例中，你可以在圖表的灰線中看到效能值。
 
-## 使用者群組報表 {#user-group-reporting}
+## 使用者群組報告 {#user-group-reporting}
 
-追蹤使用者群組（例如，部門、外部合作夥伴和角色）與其他使用者群組或其他學習目標的比較結果。
+追蹤使用者群組如部門、外部合作夥伴及角色的表現，與其他使用者群組或相對於其他學習目標的比較。
 
 ### 使用者群組 {#usergroups}
 
-若要根據使用者群組產生報表，請從下列熒幕擷取畫面所示的下拉式選項清單中選擇x軸的&#x200B;**[!UICONTROL User Group]**。
+要根據使用者群組產生報告，請在下方截圖所示的下拉選單中選擇 **[!UICONTROL User Group]** x 軸。
 
 ![](assets/user-group-reports.png)
 *使用者群組報告*
 
-若要選擇使用者群組，請輸入群組的名稱。 您可以看到根據您輸入的字串顯示的建議群組。 看到群組清單後，請選擇所需的使用者群組。
+要選擇使用者群組，請輸入群組名稱。 你可以看到根據輸入的字串顯示的建議群組。 當你看到群組清單後，選擇所需的使用者群組。
 
-您還可以透過預先輸入搜尋的協助選擇多個使用者群組。
+你也可以利用預先打字搜尋來選擇多個使用者群組。
 
-儲存並產生此報告後，如果您選取多個使用者群組，則會產生報告，且所有使用者群組在x軸上彼此相鄰呈橫條圖。
+一旦你儲存並產生這個報告，如果你選擇了多個使用者群組，報告就會生成，所有使用者群組會以橫條圖並排在 x 軸上。
 
-此使用者群組報表可讓您比較一個部門/部門/角色的績效與另一個部門/部門/角色的績效，以評估其學習成就。
+這份用戶群組報告讓你能比較一個部門/部門/角色的表現，以評估他們的學習成果。
 
 ### 自訂使用者群組/使用者屬性 {#customusergroupsuserattributes}
 
-您也可以使用Learning Manager中的新增使用者/使用者群組功能來建立自訂的使用者群組。 建立使用者群組後，您可以藉助屬性清單（如位置、分支）為這些自訂使用者群組產生報表。
+你也可以利用學習管理員中的新增使用者/使用者群組功能來建立自訂的使用者群組。 建立使用者群組後，你可以利用屬性清單（如位置、分支）為這些自訂使用者群組產生報告。
 
-在x軸中，選擇使用者屬性選項，並從其旁邊的&#x200B;**選取**&#x200B;下拉式清單中選取屬性。 若要根據這些屬性建立自訂的使用者群組報表，您也必須在篩選中選擇適當的使用者群組。
+在 x 軸中，選擇使用者屬性選項，並從 **旁邊的下拉** 選單中選擇該屬性。 要根據這些屬性建立自訂的使用者群組報告，你也必須在篩選器中選擇適當的使用者群組。
 
-## 檢視報表 {#viewingreports}
+## 收視報告 {#viewingreports}
 
-在「報表」頁面上，您可以檢視所有報表。 您可以按一下每個報表右上角的減號(-)圖示，將每個報表最小化。 按一下(+)圖示以再次檢視您的報表。
+在報告頁面，您可以查看所有報告。 你可以點擊每份報告右上角的減號（-）圖示來最小化每份報告。 點擊（+）圖示即可再次查看您的報告。
 
-## 不同日期的快速檢視 {#quickviewwithdifferentdates}
+## 快速檢視與不同日期 {#quickviewwithdifferentdates}
 
-您可以變更任何報告的日期範圍/值，並快速檢視不同的日期，而不需要修改和儲存報告。 按一下日期範圍（例如QTD）旁上一年的編輯圖示（如下面的快照中所示的）。 若要確認變更，請從躍現式選單中選擇新值，然後按一下勾號。 您可以按一下X標籤來取消變更。
+你可以更改任何報告的日期範圍/值，並快速查看不同日期，無需修改或儲存報告。 點擊編輯圖示（如下方快照中箭頭所示）旁邊的日期範圍，例如QTD，過去一年。 要確認變更，請從彈出選單選擇新值並點擊勾選標記。 你可以點擊 X 標記來取消變更。
 
 >[!NOTE]
 >
->您用來檢視報表的日期值是暫時的。 選擇下載選項時，不會下載此報表的此檢視。 此檢視只是暫時檢視。
+>你用來查看報告的日期值是臨時的。 選擇下載選項時，此報告視圖不會被下載。 此視角僅為暫時視角。
 
 ![](assets/learner-count-report.png)
-*檢視學習者計數*
+*查看學習者人數*
 
-## 使用不同管理員進行快速檢視 {#quickviewwithdifferentmanagers}
+## 與不同經理的快速檢視 {#quickviewwithdifferentmanagers}
 
-如果有多個管理員向您報告，您可以快速檢視每個管理員的報告。 若要顯示每個管理員的唯一報告，請從下拉式清單中選擇管理員名稱。
+如果有多位經理同時向你報告，你可以快速查看每位經理的報告。 要為每位經理顯示唯一報告，請從下拉選單中選擇經理名稱。
 
 >[!NOTE]
 >
->您用來檢視報告的管理員值是暫時的。 選擇下載選項時，不會下載此報表的此檢視。 此檢視只是暫時檢視。
+>你用來查看報告的經理值是暫時性的。 選擇下載選項時，此報告視圖不會被下載。 此視角僅為暫時視角。
 
-## 檢視課程報告 {#viewcoursereports}
+## 查看課程報告 {#viewcoursereports}
 
-您可以依照以下步驟檢視每個課程的特定報告：
+您可以依照以下步驟查看各課程專屬的報告：
 
-1. 按一下[報告]頁面上[我的儀表板]索引標籤中的&#x200B;**[!UICONTROL View course reports]**&#x200B;連結。\
-   隨即顯示快顯對話方塊。 會出現一個文字輸入欄位，您可以在其中輸入所需課程，建議的課程名稱會出現在下拉式清單中。 從顯示的清單中選擇課程。
+1. 點擊 **[!UICONTROL View course reports]** 報告頁面的「我的儀表板」標籤中的連結。\
+   彈出視窗視窗。 會出現一個文字輸入欄位，輸入必修課程，建議的課程名稱會出現在下拉選單中。 從所示的課程列表中選擇。
 
    ![](assets/view-course-report-300x117.png)
 
-   *檢視課程報告*
+   *查看課程報告*
 
-1. 從下拉式清單中選取您選擇的課程，然後按一下「顯示」。
-1. 系統會將您重新導向至所選課程的「測驗分數結果」頁面，以檢視課程特定報告。
+1. 從下拉選單選擇你想要的課程，然後點選「顯示」。
+1. 您將被導至所選課程的測驗成績頁面，以查看該課程專屬報告。
 
-**編輯/移動到展示板/建立複製/刪除/調整報告大小**
+**編輯/移到看板/建立複製報告/刪除/調整大小報告**
 
-若要以「編輯/移至控制面板/建立複製/刪除/調整大小」的形式檢視下拉式選項，請按一下每個報表右上角的下拉式箭頭。
+要查看下拉選單選項，如編輯/移動至儀表板/建立複製/刪除/調整大小，請點擊每份報告右上角的下拉箭頭。
 
 ![](assets/edit-options-dashboard-300x126.png)
 
-*編輯/移至展示板/建立複製/刪除/調整報告大小*
+*編輯/移到看板/建立副本/刪除/調整報告大小*
 
-**[!UICONTROL Edit]**&#x200B;若要在修改資料時返回初始值，請按一下[重設]。 修改值後，按一下「儲存」 。
+**[!UICONTROL Edit]** 若要在修改資料時回到初始值，請點擊重置。 修改數值後點選儲存。
 
-**[!UICONTROL Move to Dashboard]**&#x200B;您可以將目前報告移動到另一個儀表板，該儀表板是從儀表板清單中選擇的。
+**[!UICONTROL Move to Dashboard]** 你可以將目前的報告移到另一個儀表板，該儀表板是從儀表板清單中選擇的。
 
-**[!UICONTROL Create a Copy]**&#x200B;您可以將報告複製到相同或另一個儀表板，該儀表板是從儀表板清單中選擇的。
+**[!UICONTROL Create a Copy]** 你可以將報告複製到相同或其他儀表板，該儀表板是從儀表板列表中選擇的。
 
-**[!UICONTROL Delete]**&#x200B;按一下[刪除]以移除報表。 刪除報表前，系統會顯示警告/確認訊息。
+**[!UICONTROL Delete]** 點擊刪除即可移除檢舉。 在刪除檢舉前，會先跳出警告/確認訊息。
 
-**[!UICONTROL Resize]**&#x200B;您可以調整報表大小，大小分別為1×1 （中）和2×2 （大）。
+**[!UICONTROL Resize]** 你可以將報告調整為 1×1（中）和 2×2（大）大小。
 
-## 產生並檢視對等帳戶的報告 {#generateandviewreportsforpeeraccount}
+## 為同儕帳號產生並查看報告 {#generateandviewreportsforpeeraccount}
 
-作為管理員，除了為您的帳戶產生報告之外，您還可以為已設定的對等帳戶產生和檢視報告。
+作為管理員，除了為你的帳號產生報告外，你也可以為你設定的同儕帳號產生並查看報告。
 
-當您與其他使用者建立配對帳戶後，可以從&#x200B;**[!UICONTROL Reports]**&#x200B;頁面檢視該配對帳戶的報告。 當您建立報告時，您會找到&#x200B;**[!UICONTROL Select Account]**&#x200B;欄位。 從下拉式清單（列出您關聯的所有對等帳戶）中，選取您要檢視共用報表的帳戶。
+當你與另一位使用者建立同儕帳號後，你可以從 **[!UICONTROL Reports]** 頁面查看該同儕帳號的報告。 當你建立報告時，你會找到該 **[!UICONTROL Select Account]** 欄位。 從下拉選單中列出你所關聯的所有同儕帳號，選擇你想查看共享報告的帳號。
 
-建立對等帳戶時，如果未選取[共用目錄]選項，則無法在此清單中檢視該對等帳戶。
+在建立同儕帳號時，如果沒有選擇「分享目錄」選項，你就無法在這個清單中查看該同儕帳號。
 
 ![](assets/acc1-jpg.png)
-*管理對等帳戶的報告*
+*管理同儕帳號的報告*
 
-1. 選取此報表的x軸與y軸，並選取此報表的日期。
-1. 請注意「篩選器」欄位，「共用目錄」按鈕為自動啟用狀態。 此為強制性。 如果未啟用「共用目錄」，則表示您無法產生或檢視對等帳戶的報告。
-1. 從「共用目錄」下方的下拉式清單中，選取您要檢視其報表的共用目錄。
-1. 按一下&#x200B;[!UICONTROL **儲存**]。
+1. 選擇本報告的 x 軸與 y 軸，並選擇報告的日期。
+1. 注意篩選欄位，共享目錄按鈕是自動啟用的。 這是強制的。 如果沒有啟用共享目錄，表示你無法為同儕帳號產生或查看報告。
+1. 從「共享目錄」下方拉選單中，選擇您想查看報告的共享目錄。
+1. 點擊 [!UICONTROL **儲存**]。
 
    ![](assets/acc2.png)
-   *選取配對帳戶的共用目錄*
+   *選擇「共享目錄」作為同儕帳號*
 
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;後，您即可在預設儀表板中檢視報表的圖形化呈現。 從這個控制面板，您可以進一步由管理員篩選特定對等帳戶的報告。
-1. 如果您這邊對目錄有任何變更，這些變更會立即反映在對等產生的報告和儀表板中。 但是，當對等修改目錄時，變更不會自動出現在您的儀表板中。
-1. 如果您想要自動更新儀表板，您的同儕節點必須傳送新的同儕節點要求給您。
+1. 點擊 **[!UICONTROL Save]**&#x200B;後，你可以在預設儀表板中查看報告的圖形表示。 從這個儀表板，你可以進一步篩選該同儕帳號的經理報告。
+1. 如果你這邊的目錄有任何變更，這些變更會立即反映在同儕產生的報告和儀表板中。 然而，當對等端修改目錄時，變更不會自動顯示在你的儀表板中。
+1. 如果你想讓儀表板自動更新，你的對等節點必須向你發送新的同儕請求。
 
    >[!NOTE]
    >
-   >管理員無法檢視同級報告。
+   >經理無法查看同儕報告。
 
 ## 常見問題 {#frequentlyaskedquestions}
 
-+++如何與管理員共用自訂儀表板？
++++如何與經理分享自訂儀表板？
 
-建立儀表板時，輸入名稱和說明。 若要與管理員共用，請在&#x200B;**[!UICONTROL Share With]**&#x200B;欄位中輸入管理員名稱。
+建立儀表板時，請輸入名稱和描述。 要與經理分享，請在 **[!UICONTROL Share With]** 欄位輸入經理的名字。
 
 ![](assets/share-dashboard-manager.png)
-*共用儀表板*
+*分享儀表板*
 +++
