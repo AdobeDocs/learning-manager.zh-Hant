@@ -63,7 +63,7 @@ Adobe Learning Manager 中的學習者成績單追蹤訓練、合規與技能發
 5. 選擇 **[!UICONTROL Generate New]**。
 6. 選擇您需要產生逐字稿的日期範圍。 你可以透過 **[!UICONTROL Choose dates]** 日期範圍下拉選單中的選項修改開始和結束日期。
 7. 請選擇以下內容：
-   1. 從該 **[!UICONTROL Select Learners]** 區段選擇學習者的名字。 你可以選擇使用者或使用者群組，或複製貼上你想產生成績單的學習者的電子郵件地址。 詳情請參閱「使用複製貼上產生學習者成績單](#generate-learner-transcript-using-copy-paste)」章節[。若未選擇，則預設為「全部值」。
+   1. 從該 **[!UICONTROL Select Learners]** 區段選擇學習者的名字。 你可以選擇使用者或使用者群組，或複製貼上你想產生成績單的學習者的電子郵件地址。 詳情請參閱「使用複製貼上產生學習者成績單[&#128279;](#generate-learner-transcript-using-copy-paste)」章節。若未選擇，則預設為「全部值」。
    1. 從 **[!UICONTROL Select Catalogs]** 下拉選單中選擇特定目錄。 文字稿僅為指定目錄下載。 若未選擇，則預設為「全部值」。
    1. 選擇 **[!UICONTROL Enrollment Status]**。 此下拉選單包含以下選項：
 
