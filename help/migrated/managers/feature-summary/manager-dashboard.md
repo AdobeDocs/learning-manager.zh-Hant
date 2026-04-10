@@ -106,7 +106,7 @@ _Compliance dashboard-Manager 應用程式_
 
 **管理多支團隊**
 
-如果您管理多個團隊，您可以透過區塊中選項&#x200B;**[!UICONTROL Email Managers]****[!UICONTROL Team view]**&#x200B;通知經理團隊成員的學習狀態。
+如果您管理多個團隊，您可以透過區塊中選項&#x200B;**[!UICONTROL Email Managers]**&#x200B;**[!UICONTROL Team view]**&#x200B;通知經理團隊成員的學習狀態。
 
 ![](assets/email-managers.png)
 _電子郵件管理員_
@@ -118,7 +118,7 @@ _電子郵件管理員_
 
 **管理單一球隊**
 
-如果您管理單一團隊，您可以透過區塊中提供的&#x200B;**[!UICONTROL Email Learners]****[!UICONTROL Team view]**&#x200B;選項通知學習者他們的學習狀態。
+如果您管理單一團隊，您可以透過區塊中提供的&#x200B;**[!UICONTROL Email Learners]**&#x200B;**[!UICONTROL Team view]**&#x200B;選項通知學習者他們的學習狀態。
 
 ![](assets/email-learners.png)
 _電子郵件學習者_
@@ -234,7 +234,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
    *選擇「配置」超連結*
 
-1. 在「設定」對話框中，針對你想設定的技能，在目標完成百分比&#x200B;**欄位輸入百分比**&#x200B;值，目標日期&#x200B;**欄位輸入你想達成目標完成百分比**&#x200B;的日期。****
+1. 在「設定」對話框中，針對你想設定的技能，在目標完成百分比&#x200B;**欄位輸入百分比**&#x200B;值，目標日期&#x200B;**欄位輸入你想達成目標完成百分比**&#x200B;的日期。**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

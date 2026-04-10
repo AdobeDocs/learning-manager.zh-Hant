@@ -751,7 +751,7 @@ curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/prim
 
 ## 遷移問題故障排除 {#troubleshootingmigrationissues}
 
-請參閱本文[](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
+請參閱本文[&#128279;](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
 
 ## 使用者管理技巧 {#usermanagement}
 

@@ -549,7 +549,7 @@ unzip my_app.apks -d output_dir
 
 ## 我該如何套用這些變更
 
-將所需的資產和檔案傳送給CSM團隊。 CSM 團隊接著填寫[](https://forms.office.com/r/bJRRaRBvSh)表格，填寫所需變更並附加所需資產。團隊將審查並通知工程團隊這些變更。 工程團隊會生成一個建置版本並與 CSM 團隊分享。
+將所需的資產和檔案傳送給CSM團隊。 CSM 團隊接著填寫[&#128279;](https://forms.office.com/r/bJRRaRBvSh)表格，填寫所需變更並附加所需資產。團隊將審查並通知工程團隊這些變更。 工程團隊會生成一個建置版本並與 CSM 團隊分享。
 
 CSM 團隊會與客戶分享組裝版本。
 

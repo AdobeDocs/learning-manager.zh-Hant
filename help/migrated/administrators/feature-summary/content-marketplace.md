@@ -63,7 +63,7 @@ Select the plan that best meets your organization's learning goals and budget.
    ![](assets/purchase-plans.png)
    _請在內容市集頁面查看購買計畫_
 
-2. 管理員可以預覽並探索內容中心的兩項&#x200B;**[!UICONTROL Premium Essentials]****[!UICONTROL Premium Essentials Plus]**&#x200B;計畫。
+2. 管理員可以預覽並探索內容中心的兩項&#x200B;**[!UICONTROL Premium Essentials]**&#x200B;**[!UICONTROL Premium Essentials Plus]**&#x200B;計畫。
 
 內容提供者負責移除過時內容，確保沒有學習材料在未經通知的情況下被停用。
 
