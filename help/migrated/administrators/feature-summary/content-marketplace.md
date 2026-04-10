@@ -1,32 +1,33 @@
 ---
 jcr-language: en_us
 title: 內容市集
-description: Learning Manager現在提供內容市集，供您探索和購買培訓。 探索涵蓋廣泛主題的70,000多種課程，提供多種格式。 從符合各種角色並符合您學習和提升技能需求的精選播放清單中選擇。
+description: Learning Manager 現在提供內容市集，供你探索並購買培訓。 探索涵蓋多元主題的70,000+課程，並提供多種格式。 從精心挑選的播放清單中挑選，滿足各種職務需求，滿足你的學習與技能提升需求。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
 
 # 內容市集
 
-學習管理員經常面臨外包和上傳高品質內容的挑戰。 Adobe Learning Manager中的內容市集透過允許由信任的提供者授權付費課程來簡化這項作業，實現更快速、可擴充的學習傳遞。 使用Content Marketplace，管理員可以瀏覽、預覽和授權提供者的協力廠商課程。
+學習管理員經常面臨尋找與上傳高品質內容的挑戰。 Adobe Learning Manager 的內容市集透過允許從可信賴的供應商授權優質課程，簡化此過程，實現更快速且可擴展的學習交付。 透過內容市集，管理員可以瀏覽、預覽並從供應商那裡取得廣告授權的第三方課程。
 
-「內容市集」提供下列獲取內容的計畫：
+內容市場提供以下內容獲取方案：
 
 * **[!UICONTROL Premium Essentials]**
 * **[!UICONTROL Premium Essentials Plus]**
 
 | **[!UICONTROL Premium Essentials]** | **[!UICONTROL Premium Essentials Plus]** |
 |---|---|
-| 存取超過90,000門課程 | 存取超過100,000門課程 |
-| 來自250多家提供者的內容 | 包含所有Premium Essentials內容 |
-| 來自受信任提供者的專屬內容，例如：<li>依拉瑪</li><li>Skillshub</li><li>湯森路透集團</li><li>啟用</li><li>Harvard ManageMentor</li> | 頂級提供者的專屬課程，例如： <li>閃爍</li><li>Pluralsight</li>Skillsoft</li><li>字元</li><li>Coursera</li> |
+| 超過90,000門課程的存取權 | 超過10萬門課程的存取 |
+| 來自超過 250 家供應商的內容 | 包含所有 Premium Essentials 內容 |
+| 來自可信賴供應商的獨家內容，例如：<li>EasyLlama</li><li>技能中心</li><li>湯森路透</li><li>Emtrain</li><li>哈佛管理導師</li> | 來自頂尖供應商的獨家課程，例如： <li>閃爍者</li><li>複數視覺</li>Skillsoft</li><li>特拉利安特</li><li>Coursera</li> |
 
-<!--**[!UICONTROL Premium Essentials]**:
+<!--
+**[!UICONTROL Premium Essentials]**:
 A cost-effective solution designed to enhance employee engagement. 
 
 * Access to over 90,000 courses
@@ -50,22 +51,24 @@ A cost-effective solution designed to enhance employee engagement.
    * Traliant
    * Coursera
 
-Select the plan that best meets your organization's learning goals and budget.-->
+Select the plan that best meets your organization's learning goals and budget.
+-->
 
-## 從提供者取得內容
+## 從供應商獲取內容
 
-若要瀏覽並取得內容提供者的內容，請遵循下列步驟：
+要瀏覽並取得內容提供者的內容，請遵循以下步驟：
 
-1. 從管理員首頁中選取&#x200B;**[!UICONTROL Content Marketplace]**。 **[!UICONTROL Content Marketplace]**&#x200B;頁面隨即顯示。
+1. 請從管理員首頁選擇 **[!UICONTROL Content Marketplace]** 。 **[!UICONTROL Content Marketplace]**&#x200B;頁面出現了。
 
    ![](assets/purchase-plans.png)
-   _在內容市集頁面上檢視購買計畫_
+   _請在內容市集頁面查看購買計畫_
 
-2. 管理員可以預覽和探索&#x200B;**[!UICONTROL Premium Essentials]**&#x200B;和&#x200B;**[!UICONTROL Premium Essentials Plus]**&#x200B;計畫的Content Hub。
+2. 管理員可以預覽並探索內容中心的兩項&#x200B;**[!UICONTROL Premium Essentials]****[!UICONTROL Premium Essentials Plus]**&#x200B;計畫。
 
-內容提供者可管理過時內容的移除作業，確保不會在未事先通知的情況下將任何學習資料終止服務。
+內容提供者負責移除過時內容，確保沒有學習材料在未經通知的情況下被停用。
 
-<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+<!--
+Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
 
 In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
 
@@ -73,43 +76,45 @@ Users can purchase from curated playlists covering various topics or purchase th
 
 On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
 
-The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.
+-->
 
-## 要求報價
+## 請索取報價
 
-管理員可以選取計畫，例如Premium Essentials或Premium Essentials Plus，指定所需的名額數，並產生可下載的「報價請求」表單。 完成後，此表單會傳送給Adobe Learning Manager銷售團隊處理。 「報價請求」流程也可讓Adobe根據組織的需求提供自訂的定價。
+管理員可以選擇方案，如 Premium Essentials 或 Premium Essentials Plus，指定所需座位數，並產生可下載的報價請求表單。 完成後，表單會送交 Adobe Learning Manager 銷售團隊處理。 報價請求流程也讓 Adobe 能根據組織需求提供客製化價格。
 
-若要下載詢價，請遵循下列步驟：
+要下載徵求意見書，請依照以下步驟操作：
 
-1. 從管理員首頁中選取&#x200B;**[!UICONTROL Content Marketplace]**。
+1. 從管理員首頁選擇。**[!UICONTROL Content Marketplace]**
 
-2. 選取授權型別，並在&#x200B;**[!UICONTROL Request a Quote]**&#x200B;區段中鍵入要產生報價的座位數。
+2. 選擇駕照類型並輸入座位數，即可在該 **[!UICONTROL Request a Quote]** 區段產生報價。
 
-3. 選取&#x200B;**[!UICONTROL Download RFQ]**&#x200B;以下載報價。
+3. 選擇 **[!UICONTROL Download RFQ]** 下載報價。
 
 ![](assets/purchase-plans-go1.png)
-_選擇計畫後下載詢價單_
+_選擇方案後下載RFQ_
 
-將報價傳送至[learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com)以啟用您的授權。 您也可以聯絡Adobe客戶成功案例經理，以便展開購買程式。
+把報價寄給 [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) 以啟用你的駕照。 您也可以聯絡您的 Adobe 客戶成功經理，開始購買流程。
 
-## 邀請學習者加入Content Hub
+## 邀請學習者加入內容中心
 
-邀請學習者前往Content Marketplace探索內容並表達興趣。 身為管理員，您可以邀請帳戶中的所有學習者或邀請選取的學習者。 必須先邀請學習者，他們才能探索內容。 檢視[文章](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub)以取得Content Hub的相關資訊。
+邀請學習者到內容市集探索內容並表達興趣。 作為管理員，你可以邀請帳號中的所有學習者，或邀請指定的學習者。 學習者必須先被邀請，才能探索內容。 請參閱 [文章](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) 以獲取更多關於 Content Hub 的資訊。
 
-若要邀請學習者：
+邀請學習者：
 
-1. 從管理員首頁中選取&#x200B;**[!UICONTROL Content Marketplace]**。
-2. 選取&#x200B;**[!UICONTROL Invite learners]**&#x200B;並選取必要的學習者。
-3. 選取&#x200B;**[!UICONTROL Invite learners]**。
+1. 從管理員首頁選擇。**[!UICONTROL Content Marketplace]**
+2. 選擇 **[!UICONTROL Invite learners]** 並挑選所需的學習者。
+3. 選擇 **[!UICONTROL Invite learners]**。
 
-管理員也可以選取&#x200B;**[!UICONTROL Content Hub]**&#x200B;連結，以撤銷對&#x200B;**[!UICONTROL Remove all users access]**&#x200B;的存取權。 撤銷存取權後，學習者將無法再在其學習者應用程式中看到Content Hub頁面。
+管理員也可以透過選擇連結&#x200B;**[!UICONTROL Remove all users access]**&#x200B;來撤銷存取權限&#x200B;**[!UICONTROL Content Hub]**。一旦存取權限被撤銷，學習者將不再在學習者應用程式中看到內容中心頁面。
 
 ![](assets/invite-users.png)
-_邀請使用者存取Content Hub_
+_邀請使用者存取內容中心_
 
-依預設，此選項會針對所有新帳戶啟用。 若為現有帳戶，管理員必須手動邀請學習者存取Content Marketplace。
+預設情況下，所有新帳號都會啟用此選項。 對於現有帳號，管理員必須手動邀請學習者進入內容市集。
 
-<!--## Purchase
+<!--
+## Purchase
 
 You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
@@ -133,38 +138,44 @@ Once the courses are added to the catalog, the Administrator can then grant acce
 
 ![](assets/licenses.png)
 
-*Grant access to training to users and user groups*-->
+*Grant access to training to users and user groups*
+-->
 
-<!--## Express interest report
+<!--
+## Express interest report
 
 When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
 * Name of the catalog
 * Number of users expressing interest
-* Email of the user expressing interest-->
+* Email of the user expressing interest
+-->
 
-## Content Hub
+## 內容中心
 
-管理員可以直接在Adobe Learning Manager中存取Go1平台。 前往&#x200B;**[!UICONTROL Content Marketplace]**，然後選取&#x200B;**[!UICONTROL Content Hub]**。
+管理員可直接在 Adobe Learning Manager 中存取 Go1 平台。 前往 ， **[!UICONTROL Content Marketplace]** 然後選擇 **[!UICONTROL Content Hub]**。
 
-Content Hub會複製Go1平台，讓管理員可瀏覽課程、建立多個播放清單及探索內容，在Adobe Learning Manager中提供順暢的Go1體驗。
+內容中心複製了 Go1 平台，讓管理員能瀏覽課程、建立多個播放清單並探索內容，在 Adobe Learning Manager 中提供無縫的 Go1 體驗。
 
 ## 電子郵件範本
 
-Adobe Learning Manager提供預先設定的電子郵件範本，通知管理員和學習者內容購買、系統更新和學習活動。
+Adobe Learning Manager 提供預先設定的電子郵件範本，通知管理員和學習者有關內容購買、系統更新及學習活動的資訊。
 
-您可使用三個電子郵件範本：
+你可以使用三種電子郵件範本：
 
-1. **[!UICONTROL Content Activation Successful]：**&#x200B;在成功購買協力廠商內容後傳送給管理員。 此通知會確認啟動已完成，且系統中現在提供購買的內容供學習者指派。
-2. **[!UICONTROL Automated User Upload Failure]：**&#x200B;當透過CSV自動匯入使用者失敗時觸發。 此警示可協助管理員快速識別排程使用者更新中的問題，以便採取修正動作。
-3. **[!UICONTROL Invite Users to Explore Content]：**&#x200B;管理員從市集購買內容後，會傳送給學習者的邀請電子郵件。 之後，使用者可以立即開始其學習歷程。
+1. **[!UICONTROL Content Activation Successful]：** 在成功購買第三方內容後發送給管理員。 此通知確認啟動完成，且已購買的內容現已在系統中可供學習者指派。
+2. **[!UICONTROL Automated User Upload Failure]：** 當透過 CSV 自動匯入用戶匯入失敗時觸發。 此警示幫助管理員快速識別排程使用者更新中的問題，從而採取糾正措施。
+3. **[!UICONTROL Invite Users to Explore Content]：** 一封邀請郵件，管理員在購買市場內容後會發送給學習者。 之後，使用者即可立即開始學習旅程。
 
-<!--Purchased courses cannot be added in recurring certificates.
+<!--
+Purchased courses cannot be added in recurring certificates.
 Purchased courses cannot be shared to peer accounts.
 Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
-Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.
+-->
 
-<!--## Content Hub in Content Marketplace
+<!--
+## Content Hub in Content Marketplace
 
 Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
 
@@ -190,4 +201,5 @@ Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTRO
 
 *Download the Purchase Request form*
 
-The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.
+-->

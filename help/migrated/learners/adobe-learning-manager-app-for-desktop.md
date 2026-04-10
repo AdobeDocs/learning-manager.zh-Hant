@@ -1,130 +1,132 @@
 ---
-description: 瞭解如何使用Adobe Learning Manager的案頭應用程式來建立和豐富社交學習上可分享的內容。
+description: 學習如何使用 Adobe Learning Manager 的桌面應用程式來創作並豐富可在 Social Learning 分享的內容。
 jcr-language: en_us
-title: Adobe Learning Manager案頭應用程式
+title: Adobe Learning Manager 桌面應用程式
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1667'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
 
-# Adobe Learning Manager案頭應用程式
+# Adobe Learning Manager 桌面應用程式
 
-瞭解如何使用Adobe Learning Manager的案頭應用程式來建立和豐富社交學習上可分享的內容。
+學習如何使用 Adobe Learning Manager 的桌面應用程式來創作並豐富可在 Social Learning 分享的內容。
 
-Adobe Learning Manager案頭應用程式主要適用於使用Learning Manager社交學習的學習者。 此應用程式一旦安裝在桌上型電腦上，學習者即可在Learning Manager中建立內容並發佈至展示板，促進同儕的非正式、合作和社交學習。 此外，案頭應用程式還可確保學習者在其案頭上獲得社交學習通知，即使他們不一定登入Learning Manager的網頁應用程式。
+Adobe Learning Manager 桌面應用程式主要針對使用 Learning Manager Social Learning 的學習者設計。 安裝於桌面後，該應用程式讓學習者能創作內容並發布到學習管理員的看板，促進同儕間的非正式、協作及社交學習。 此外，桌面應用程式也確保學習者即使不一定登入 Learning Manager 的網頁應用程式，也能在桌面上收到社交學習通知。
 
-學習者可以建立豐富的內容，包括影片、音訊和熒幕擷圖，並與其他學習者分享。 內容實際上可以是任何內容 — 軟體示範或逐步解說、簡報、播客或可分享內容的附註熒幕擷圖。
+學習者可以創作豐富的內容，包括影片、音訊和截圖，並與其他學習者分享。 內容可以是任何東西——軟體展示或攻略、簡報、播客，或是可以分享的附註截圖。
 
-在Learning Manager Social Learning網頁上，按一下「新增貼文」並選取錄製視訊、錄製音訊、擷取熒幕擷圖或Learning Manager相簿以啟動案頭應用程式。 如需社交學習的詳細資訊，[請按一下這裡](feature-summary/social-learning-web-user.md)。
+在 Learning Manager 社交學習網頁上，點擊新貼文並選擇錄製影片、錄製音訊、截圖，或選擇學習管理員相簿以啟動桌面應用程式。 欲了解更多社會學習資訊，請 [點此](feature-summary/social-learning-web-user.md)。
 
-如果使用者沒有案頭應用程式，您可以從Adobe Learning Manager案頭頁面下載。 如果您無法下載，[請按一下這裡](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md)。
+如果使用者沒有桌面應用程式，你可以從 Adobe Learning Manager 桌面頁面下載。 如果您無法下載，請 [點此](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md)。
 
-使用者安裝完畢後，必須使用Learning Manager學習者憑證登入應用程式。 首頁看起來像下面的熒幕擷圖。
+使用者安裝完成應用程式後，必須使用學習管理員的學習者憑證登入。 首頁看起來像下面的截圖。
 
 >[!NOTE]
 >
->如果帳戶停用「社交學習」，學習者將無法使用案頭應用程式。
+>若學習者的帳戶關閉社交學習，將無法使用桌面應用程式。
 
 <!--![](assets/homepage-13.png)-->
 <!--*Home page*-->
 
-## 建立視訊 {#creatingavideo}
+## 製作影片 {#creatingavideo}
 
-案頭應用程式可讓使用者錄製網頁、熒幕和兩者。
+桌面應用程式允許使用者錄製網頁、螢幕及兩者。
 
 <!--![](assets/video-recordings-08.png)-->
 <!--*Record web, screen, or both*-->
 
-請進行下列步驟，製作視訊錄製並張貼至社交學習網路平台：
+請按以下步驟製作影片並上傳到社交學習平台：
 
-1. 確保符合軟硬體需求。 如需詳細資訊，請參閱[系統需求](../system-requirements.md)。
-1. 若要從Social Learning開始錄製，請選取影片錄製（網路、熒幕、兩者）圖示，以開啟Learning Manager案頭應用程式。 在使用者登入的案頭應用程式中，可以建立內容，然後張貼。
-1. 若要從案頭應用程式開始錄製，請以學習者身分使用您的Learning Manager憑證登入應用程式。
-1. 首頁隨即顯示。
-1. 若要建立貼文，您可以選擇首頁中提供的三個選項之一。 若要啟動錄製視窗，請按一下錄製視訊圖示。
-1. 您可以視需求選擇網路攝影機、熒幕或兩者。
+1. 確保硬體與軟體需求皆有滿足。 詳情請參閱 [系統需求](../system-requirements.md) 。
+1. 要從 Social Learning 開始錄影，請選擇影片錄影（網頁、螢幕、兩者）圖示，這會開啟 Learning Manager 桌面應用程式。 在桌面應用程式中，使用者登入後可以建立內容，然後發布。
+1. 要從桌面應用程式開始錄音，請以學習者身份使用你的學習管理員憑證登入該應用程式。
+1. 首頁會出現。
+1. 要建立文章，你可以在首頁提供的三個選項中選擇其中一個。 要啟動錄影視窗，請點擊「錄影」圖示。
+1. 依需求，你可以選擇網路攝影機、螢幕或兩者兼具。
 
-   **網路攝影機**&#x200B;網路攝影機會擷取正在示範或展示專案或應用程式（包含音訊）的朗讀者。 從上述選項中選取網路攝影機圖示，以顯示「即時」視窗。
+   **網路攝影機** 網路攝影機捕捉敘述者示範或展示專案或應用程式（包括音訊）的畫面。 從上述選項中選擇網路攝影機圖示，即時視窗就會顯示。
 
-   **熒幕**&#x200B;在監視器熒幕上執行的錄製動作。 選取熒幕圖示後，熒幕會醒目顯示，熒幕中央會顯示錄製對話方塊。
+   ****&#x200B;螢幕錄影操作在螢幕上執行。選擇螢幕圖示後，畫面中央會顯示錄影對話框。
 
-   **Both**&#x200B;會記錄朗讀程式和熒幕動作。 選取最後一個圖示，畫面會醒目提示，使用者會同時取得即時視窗。
+   **兩者** 同時記錄旁白與螢幕上的動作。 選擇最後一個圖示後，畫面會被高亮，使用者也會看到一個即時視窗。
 
-1. 設定錄製偏好設定。
+1. 設定錄影偏好。
 
-   **選取攝影機**&#x200B;按一下錄製視窗底部的攝影機圖示。 從指定選項中選取使用者要使用的攝影機。
+   **選擇相機** ，點擊錄影視窗底部的攝影機圖示。 從給定選項中選擇使用者想使用的相機。
 
-   **選取麥克風**&#x200B;按一下視訊或音訊視窗底部的麥克風圖示，並從指定的選項中選取使用者要使用的麥克風。
+   **選擇麥克風** 點擊影片或音訊視窗底部的麥克風圖示，從指定選項中選擇使用者想使用的麥克風。
 
    >[!NOTE]
    >
-   >如果使用者不想錄製含熒幕或視訊的音訊，請從按一下音訊圖示時顯示的下拉式清單中選取&#x200B;**無**&#x200B;選項。
+   >如果使用者不想錄製帶螢幕或影片的音訊，請從點擊音訊圖示時顯示的下拉選單中選擇 **「無」** 選項。
    >
-   >當使用者開始錄製他們的畫面或他們自己時，會出現一個快顯對話方塊，要求他們確認是否要在沒有音訊支援的情況下繼續錄製。 按一下「是」以繼續。
+   >當使用者開始錄製自己的螢幕或自己時，會出現一個彈出視窗，請他們確認是否要在沒有音訊支援的情況下繼續錄影。 點擊「是」繼續。
 
-1. 使用錄製按鈕開始錄製。 錄製作業會在倒數計時（3秒）後開始。
-1. 按一下暫停或繼續按鈕可在錄製時暫停，然後視需要繼續進行。 若要編輯錄製，請參閱[編輯錄製](adobe-learning-manager-app-for-desktop.md#Editing)；若要發佈，請參閱[發佈錄製](adobe-learning-manager-app-for-desktop.md#Publishing)。
+1. 使用錄音按鈕開始錄影。 倒數結束後（3秒）開始錄影。
+1. 點擊暫停或繼續按鈕，在錄影時暫停，然後如果需要再繼續。 要編輯錄音，請參見 [「編輯錄音](adobe-learning-manager-app-for-desktop.md#Editing) 」;要發佈，請參見 [「發佈錄音](adobe-learning-manager-app-for-desktop.md#Publishing)」。
 
-## 建立音訊 {#creatinganaudio}
+## 製作音訊 {#creatinganaudio}
 
 <!--![](assets/record-audio-2x.png)-->
-*錄製音訊*
+*錄音*
 
-若要錄製音訊，請執行下列動作：
+要錄製音訊，請執行以下步驟：
 
-1. 按一下Learning Manager案頭應用程式啟動視窗中的錄製音訊圖示。
-1. 按一下麥克風音量圖示並調整音量，確定麥克風音量已調高。
-1. 按一下錄製按鈕以開始錄製。
-1. 使用者錄製完音訊後，按一下暫停按鈕以停止錄製。
-1. 若要預覽錄製，請按一下播放按鈕。
-1. 如果使用者想要將其他音訊錄製到相同的檔案，請按一下&#x200B;**[!UICONTROL Resume]**。 符合想要的錄製之後，按一下&#x200B;**[!UICONTROL Next]**&#x200B;將檔案儲存到想要的位置。 此錄製內容儲存在Adobe Learning Manager應用程式中，供案頭收藏館使用，使用者可以在其中檢視其錄製和熒幕擷取畫面。
-1. 若要編輯錄製，請參閱[編輯錄製](adobe-learning-manager-app-for-desktop.md#Editing)；若要發佈，請參閱[發佈錄製](adobe-learning-manager-app-for-desktop.md#Publishing)。
+1. 點擊學習管理員桌面應用程式啟動視窗中的錄音音訊圖示。
+1. 請點擊麥克風音量圖示並調整音量，確保麥克風音量調高。
+1. 點擊錄影按鈕開始錄影。
+1. 使用者完成錄音後，點擊暫停鍵停止錄音。
+1. 要預覽錄影，請點擊播放按鈕。
+1. 若使用者想為同一檔案錄製額外音訊，請點擊 **[!UICONTROL Resume]**。 當達成目標錄音後，點擊 **[!UICONTROL Next]** 將檔案儲存到指定位置。 錄影會儲存在 Adobe Learning Manager 桌面畫廊中，使用者可查看錄影與截圖。
+1. 要編輯錄音，請參見 [「編輯錄音](adobe-learning-manager-app-for-desktop.md#Editing) 」;要發佈，請參見 [「發佈錄音](adobe-learning-manager-app-for-desktop.md#Publishing)」。
 
-## 建立熒幕擷圖 {#creatingascreenshot}
+## 製作截圖 {#creatingascreenshot}
 
-若要擷取熒幕擷圖，請執行下列動作：
+要截圖，請做以下操作：
 
-1. 按一下Learning Manager案頭應用程式首頁的熒幕擷圖圖示。
-1. 若要僅擷取畫面的一部分，請按一下部分熒幕的截圖示。 若要擷取整個熒幕，請按一下擷取全熒幕圖示。
+1. 點擊 Learning Manager 桌面應用程式首頁的截圖圖示。
+1. 若要只擷取部分畫面，請點擊剪切部分畫面圖示。 要擷取全螢幕，請點擊「擷取全螢幕」圖示。
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
-1. 為協助其他學習者更好地理解及保留簡報或靜態內容，請在內容中新增註解。
-1. 若要編輯熒幕擷圖，[按一下這裡](adobe-learning-manager-app-for-desktop.md#Editing)，若要發佈熒幕擷圖，[按一下這裡](adobe-learning-manager-app-for-desktop.md#Publishing)。
+1. 為了幫助其他學習者更好地理解並記住簡報或靜態內容，可以在內容中加入註解。
+1. 要編輯截圖請 [點此](adobe-learning-manager-app-for-desktop.md#Editing)，若要發布截圖 [請點此](adobe-learning-manager-app-for-desktop.md#Publishing)。
 
-## 編輯視訊、音訊和熒幕擷圖 {#editing}
+## 編輯影片、音訊和截圖 {#editing}
 
-儲存檔案後，編輯視窗會立即出現在系統上，您可以使用以下選項讓錄製看起來完美專業：
+檔案儲存後，系統會立即跳出編輯視窗，透過以下選項讓錄影看起來完美且專業：
 
-## 註解（錄影和熒幕擷圖） {#annotationsvideorecordingsandscreenshots}
+## 註解（影片錄影與截圖） {#annotationsvideorecordingsandscreenshots}
 
-註解可用於錄影和熒幕擷取畫面，以強調特定詳細資訊或撰寫一些文字以供其他使用者閱讀。
-
->[!NOTE]
->
->若是視訊，使用者只能在熒幕上方加上註解。
-
-* 可選取的不同註解是&#x200B;**橢圓**、**行**、**箭頭**、**反白**&#x200B;和&#x200B;**文字**。
-
-* 從註解屬性面板的顏色面板中，為每個註解選擇顏色。
-* 針對&#x200B;**文字**，選擇下列屬性：字型、粗體、斜體、標題、對齊、顏色和背景顏色。
+註解可用於影片錄影和截圖，用以標示特定細節或撰寫文字供其他使用者閱讀。
 
 >[!NOTE]
 >
->若要檢視文字的背景顏色，請將背景顏色啟用為yes。
+>對於影片，使用者只能在螢幕上方註解。
 
-## 修剪（所有型別的視訊與音訊錄製） {#trimalltypesofvideoandaudiorecordings}
+* 可選擇的不同註解包括&#x200B;**橢圓**、**直線**、**箭頭**、**螢光****和文字**。
 
-若要裁剪或移除不需要的視訊或音訊部分，請使用裁剪工具。
+* 在註解屬性面板的顏色面板中，為每個註解選擇一種顏色。
+* 文字設定&#x200B;****，請選擇以下屬性：字體、粗體、斜體、標題、對齊、顏色和背景色。
 
-若要修剪，請按一下&#x200B;**[!UICONTROL Start Trim]**&#x200B;按鈕或按一下時間軸上的加號圖示以開始修剪。 然後按一下播放器上的暫停按鈕以停止修剪。 按一下&#x200B;**[!UICONTROL Confirm]**&#x200B;按鈕以完成修剪。
+>[!NOTE]
+>
+>要查看文字背景色，請啟用背景色為「是」。
 
-啟用&#x200B;**[!UICONTROL Change Timing]**&#x200B;後，您可以在&#x200B;**[!UICONTROL Start time]**&#x200B;和&#x200B;**[!UICONTROL End time]**&#x200B;輸入欄位中輸入時間，以裁剪錄製。
+## Trim（所有類型的影音錄影） {#trimalltypesofvideoandaudiorecordings}
+
+若要剪輯或刪除不必要的影片或音訊部分，請使用剪輯工具。
+
+要修剪，請點擊 **[!UICONTROL Start Trim]** 按鈕或點擊時間軸上的加號圖示開始修剪。 然後點擊播放器上的暫停鍵停止修剪。 點擊按鈕 **[!UICONTROL Confirm]** 完成修剪。
+
+啟用後&#x200B;**[!UICONTROL Change Timing]**，可在輸入欄位輸入時間&#x200B;**[!UICONTROL Start time]****[!UICONTROL End time]**&#x200B;來修剪錄影。
 
 ![](assets/start-trim-05.png)
 *開始修剪*
@@ -132,80 +134,80 @@ Adobe Learning Manager案頭應用程式主要適用於使用Learning Manager社
 ![](assets/confirm-trim-06.png)
 *確認修剪*
 
-## 平移和縮放（任何視訊錄製） {#panampzoomanyvideorecording}
+## 平移與放大（任何錄影） {#panampzoomanyvideorecording}
 
-平移和縮放動作只能在&#x200B;**Both** （網路攝影機和熒幕）影片錄製上完成。 預設會選取整個網路攝影機或熒幕。 選取角落控點並拖曳以選取要顯示或聚焦的熒幕部分。 按兩下視窗以取得全熒幕。
+平移與變焦動作只能在 **（** 網路攝影機和螢幕）錄影中進行。 預設情況下，整個網路攝影機或螢幕都會被選取。 選擇角落把手並拖曳，選擇要顯示或聚焦的螢幕區域。 雙擊視窗即可全螢幕。
 
 ![](assets/pan-zoom-artboard10.png)
-*平移並縮放*
+*平移與變焦*
 
-## 品牌推廣（所有型別的視訊錄製） {#brandingalltypesofvideorecordings}
+## 品牌塑造（各類錄影帶） {#brandingalltypesofvideorecordings}
 
-若要為視訊建立唯一名稱以及一致的主題，請選取品牌工具。 品牌建立旨在於學習管理系統中建立重要且與眾不同的存在，吸引並保留學習者觀看完整影片。
+要為影片創造獨特名稱並設定一致主題，請選擇品牌工具。 品牌塑造旨在建立在學習管理系統中顯著且差異化的存在感，吸引並留住學習者觀看完整影片。
 
-若要將品牌或佈景主題新增至影片，請執行下列動作：
+要為影片加入品牌或主題，請執行以下步驟：
 
-1. 在編輯視窗中，按一下左側導覽面板中的品牌圖示。
-1. 從指定的選項中選取&#x200B;**佈景主題**，或使用者可以從其系統新增&#x200B;**開始**、**背景、**&#x200B;和&#x200B;**結束**&#x200B;視訊，以自訂自己的佈景主題。
-
-   >[!NOTE]
-   >
-   >若要下載更多主題，請按一下&#x200B;**取得更多資產**&#x200B;按鈕。
-
-1. 新增視訊標題文字，並在&#x200B;**顯示於**&#x200B;格線上選取要顯示的位置。
+1. 在編輯視窗左側導覽面板點擊品牌圖示。
+1. 從給定選項中選擇&#x200B;**主題**，或使用者可自訂&#x200B;**系統的開頭**、**背景****和結尾**&#x200B;影片。
 
    >[!NOTE]
    >
-   >標題文字只能新增為品牌推廣影片的一部分。 為品牌推廣影片指定標題前，必須先指定主題。
+   >要下載更多主題，請點擊「 **取得更多素材** 」按鈕。
 
-1. 視需要新增簡報者名稱和簡報者標題至影片。 在「播放點顯示」欄位中輸入視訊時間範圍內的數字，以便在播放視訊時顯示簡報者名稱和標題。
-1. 如有必要，在視訊畫面的左側或右側新增品牌圖示。 若要選取品牌圖示，請按一下&#x200B;**[!UICONTROL Select]** > **[!UICONTROL Browse from system]**。
-1. 若要預覽視訊，請按一下預覽畫面中的播放按鈕。
+1. 新增影片標題文字，並在「顯示格&#x200B;**子」中選擇**&#x200B;一個位置以顯示。
+
+   >[!NOTE]
+   >
+   >標題文字只能作為品牌宣傳影片的一部分加入。 在為品牌影片命名前，必須先設定主題。
+
+1. 如有需要，請在影片中加入主持人姓名和主持人名稱。 在播放頭的顯示欄位輸入該視訊時間範圍內的數字，即可顯示主持人姓名與標題。
+1. 如有需要，可在影片螢幕的左側或右側加上品牌圖示。 要選擇品牌圖示，請點擊 **[!UICONTROL Select]** > **[!UICONTROL Browse from system]**。
+1. 要預覽影片，請點擊預覽畫面中的播放按鈕。
 
    ![](assets/branding-options.png)
 
-   *品牌*
+   *品牌形象*
 
-## 錄製其他剪輯（所有型別的視訊與音訊錄製） {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
+## 錄製額外片段（各類影片與音訊錄製） {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
-其他音訊和視訊片段可以錄製到現有的視訊或音訊檔案中。
+額外的音訊和影片片段可以錄製到現有的影片或音訊檔案中。
 
-若要開始新的錄製，請按一下錄製其他剪輯圖示。 新錄製內容會插入正在編輯的錄製的播放點位置。
+要開始新錄影，請點擊「錄製額外片段」圖示。 新錄音會插入在正在剪輯的錄音中播放頭的位置。
 
-## 發佈視訊錄製、音訊錄製和熒幕擷圖 {#publishing}
+## 發布影片錄影、音訊錄音及截圖 {#publishing}
 
-完成所有變更和編輯後，按一下「**[!UICONTROL Share]**」>輸入或搜尋與貼文> **貼文**&#x200B;最相關的&#x200B;**技能或面板**。
+完成所有修改與編輯後，點擊 **[!UICONTROL Share]** >輸入或搜尋 **與該貼文最相關的技能或看板** > **貼文**。
 
 <!--![](assets/share-after-editing-07.png)-->
-*發佈至Web*
+*發佈至網路*
 
-## 瀏覽Learning Manager案頭相簿 {#browsingcaptivateprimedesktopgallery}
+## 瀏覽學習管理軟體桌面圖庫 {#browsingcaptivateprimedesktopgallery}
 
-所有錄影和熒幕擷取畫面都會儲存在Adobe Learning Manager案頭應用程式中。 若要瀏覽這些檔案，請從首頁的左側導覽面板按一下&#x200B;**[!UICONTROL Gallery]**。
+所有錄影和截圖都儲存在 Adobe Learning Manager 桌面應用程式中。 要瀏覽這些檔案，請從首頁左側導覽面板點擊 **[!UICONTROL Gallery]** 。
 
 >[!NOTE]
 >
->建立貼文時按一下&#x200B;**Learning Manager相簿**&#x200B;圖示，即可從Social Learning啟動相簿。
+>在建立貼文時，點擊 **學習管理員圖示** ，也可以從 Social Learning 啟動該畫廊。
 
-從相簿視窗中，在搜尋欄位中輸入您要尋找的檔案名稱。
+在相簿視窗中，輸入你要找的檔案名稱。
 
-若要從影像中心視窗建立新的錄製，請按一下&#x200B;**[錄製新的]**&#x200B;按鈕。
+要從相簿視窗建立新錄影，請點擊 **「錄製新」** 按鈕。
 
-若要編輯或刪除相簿中的檔案，請按一下檔案底部的三個點，然後從彈出式清單中選取選項。
+若要編輯或刪除相簿中的檔案，請點擊檔案底部的三個點，然後從彈出清單中選擇你的選項。
 
 ## 通知 {#notifications}
 
-無論學習者是否已登入Learning Manager網路應用程式，Learning Manager中的通知都會顯示在通知視窗中。 通知包括使用者已建立、正在關注或已參與的貼文或面板。 按一下通知即可將使用者導覽至Learning Manager社交學習網站。
+無論學習者是否登入 Learning Manager 網頁應用程式，通知視窗都會顯示通知。 通知包括用戶已創建、追蹤或參與的貼文或討論區。 點擊通知後，使用者會進入學習管理員社交學習網頁。
 
-若要將通知設為靜音，請按一下&#x200B;***[!UICONTROL Profile menu*]* > [!UICONTROL Settings] > &#x200B;** [!UICONTROL Mute notifications]**。
+要靜音通知，請點擊 * >*[!UICONTROL Profile menu*]* ** >[!UICONTROL Settings]**[!UICONTROL Mute notifications]**。
 
-## Adobe Learning Manager案頭應用程式中的設定 {#settingsinadobecaptivateprimedesktopapplication}
+## Adobe Learning Manager 桌面應用程式的設定 {#settingsinadobecaptivateprimedesktopapplication}
 
-在&#x200B;**設定**&#x200B;頁面中，變更下列設定：
+在 **設定** 頁面中，更改以下設定：
 
-將通知設為靜音、自動啟動應用程式、自動更新應用程式、啟用產品改進。
+靜音通知、自動啟動應用程式、自動更新應用程式，並啟用產品改進。
 
-使用者也可以按一下&#x200B;**變更**&#x200B;超連結來變更相簿位置。
+使用者也可點擊 **「變更** 」超連結來更改畫廊位置。
 
 ![](assets/app-settings.png)
-*Adobe Learning Manager應用程式設定*
+*Adobe Learning Manager 應用程式設定*
