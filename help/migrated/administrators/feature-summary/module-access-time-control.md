@@ -41,7 +41,7 @@ ht-degree: 0%
 2. 請前往 **學習** > **課程**&#x200B;區。 ALM 會顯示課程清單。![替代文本](/help/migrated/administrators/feature-summary/assets/module-access-time1.png)
 3. 選擇你想設定限制的課程。
 4. 選擇 **實**&#x200B;例。 ALM 會顯示一個實例清單。
-5. 在你想設定存取限制的實例區塊中選擇 **模組** 。 ****&#x200B;編輯按鈕會出現。![替代文字](/help/migrated/administrators/feature-summary/assets/module-access-time2.png)![  ](/help/migrated/administrators/feature-summary/assets/module-access-time3.png)
+5. 在你想設定存取限制的實例區塊中選擇 **模組** 。 **&#x200B;**&#x200B;編輯按鈕會出現。![替代文字](/help/migrated/administrators/feature-summary/assets/module-access-time2.png)![&#x200B;  &#x200B;](/help/migrated/administrators/feature-summary/assets/module-access-time3.png)
 6. 選擇 **編輯**。 與模組相關的章節在頁面底部開啟。![替代文本](/help/migrated/administrators/feature-summary/assets/module-access-time4.png)
 7. 每個區塊請選擇「發日期」、「從時間到」、「到日期」和「到時間到」。
 8. 選擇 **儲存**。 ALM 顯示訊息：「映射已成功儲存。」

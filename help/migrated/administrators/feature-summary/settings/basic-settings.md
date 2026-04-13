@@ -109,7 +109,7 @@ Adobe Learning Manager 允許您根據課程是自學模組還是由教師主導
 b. **[!UICONTROL Recurrence]**：選擇提醒的頻率（例如，每週一次）。
 c. **[!UICONTROL For]**：請指定提醒發送的總時長（以週為單位）（例如4週）。
 
-3. **[!UICONTROL  Save the reminder]**： 選擇藍色勾選圖示以儲存新的提醒設定。 如果需要，你可以重複這個過程來增加更多提醒。
+3. **[!UICONTROL &#x200B; Save the reminder]**： 選擇藍色勾選圖示以儲存新的提醒設定。 如果需要，你可以重複這個過程來增加更多提醒。
 
    ![替代文字](../settings/assets/Picture7.png)
 
@@ -226,7 +226,7 @@ Adobe Learning Manager 中的討論區選項允許學習者參與與課程、模
 
 >[!NOTE]
 >
->篩選&#x200B;**[!UICONTROL Format]****[!UICONTROL Duration]**&#x200B;器預設關閉，學習者不會立即顯示。你必須明確選擇它們。
+>篩選&#x200B;**[!UICONTROL Format]**&#x200B;**[!UICONTROL Duration]**&#x200B;器預設關閉，學習者不會立即顯示。你必須明確選擇它們。
 
 ### 產品術語
 

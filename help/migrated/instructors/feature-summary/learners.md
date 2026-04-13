@@ -208,7 +208,7 @@ QR 碼會以 PDF 格式下載，並可在課程中數位分享或顯示。
 
 ## 捕捉邀請回覆
 
-教師僅 **[!UICONTROL Invite Reply]** 能在 ACAP 管理員啟用邀請選項時擷取學習者的回覆。 要啟用此功能，管理員需聯絡 learningmanagersupport@adobe.com [](mailto:learningmanagersupport@adobe.com)的支援團隊。
+教師僅 **[!UICONTROL Invite Reply]** 能在 ACAP 管理員啟用邀請選項時擷取學習者的回覆。 要啟用此功能，管理員需聯絡 learningmanagersupport@adobe.com [&#128279;](mailto:learningmanagersupport@adobe.com)的支援團隊。
 
 完成後，你可以在該 **[!UICONTROL Learners]** 區塊查看邀請回覆。 進入任一場次，選擇 **[!UICONTROL Learners]**，然後從下拉選單中選擇邀請回覆。
 
