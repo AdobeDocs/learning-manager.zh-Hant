@@ -1,155 +1,155 @@
 ---
 jcr-language: en_us
-title: 安裝Salesforce套件
-description: Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以在SFDC入口網站的應用程式內，直接透過刊頭取得管理員傳送的公告。
+title: 安裝 Salesforce 套件
+description: Learning Manager 提供 Salesforce 應用程式套件。 安裝並設定後，銷售人員可在SFDC入口網站內執行訓練活動。 此應用程式讓 SFDC 用戶能探索新培訓、查看推薦，並直接在 SFDC 入口網站內即時閱讀。 用戶也能直接在 SFDC 入口網站內，收到管理員以報頭形式發送的公告。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: d998e8f55c64a47de3d6171c0e2a82070021c98f
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
 
 ---
 
-# 安裝Salesforce套件
+# 安裝 Salesforce 套件
 
 ## 概觀
 
-Learning Manager提供Salesforce應用程式套件。 在SFDC中安裝並設定後，銷售員工可以在SFDC入口網站內執行其培訓活動。 此應用程式可讓SFDC使用者直接在SFDC入口網站中探索新培訓、檢視建議和使用這些內容。 使用者也可以在SFDC入口網站的應用程式內，直接透過刊頭取得管理員傳送的公告。
+Learning Manager 提供 Salesforce 應用程式套件。 安裝並設定後，銷售人員可在SFDC入口網站內執行訓練活動。 此應用程式讓 SFDC 用戶能探索新培訓、查看推薦，並直接在 SFDC 入口網站內即時閱讀。 用戶也能直接在 SFDC 入口網站內，收到管理員以報頭形式發送的公告。
 
-### 在Learning Manager應用程式中設定
+### 在 Learning Manager 應用程式中設定
 
-1. 以整合管理員身分登入您的Learning Manager管理員帳戶。
-1. 按一下&#x200B;**[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**。
-1. 按一下&#x200B;**[!UICONTROL Salesforce]**。
-1. 在Salesforce應用程式頁面上，記下說明中提及的應用程式ID （也稱為使用者端ID）和使用者端密碼。
-1. 按一下「**[!UICONTROL Approve]**」，您的應用程式必須成功核准。
-1. 按一下&#x200B;**[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**。
-1. 在「取得OAuth代碼」區段中，使用者端ID和範圍必須設定為 — admin:read，admin:write。 按一下&#x200B;**[!UICONTROL Submit]**。
-1. 在取得重新整理權杖中，輸入使用者端ID和使用者端密碼。 按一下&#x200B;**[!UICONTROL Submit]**&#x200B;並記下重新整理權杖。
+1. 以整合管理員身份登入你的學習管理員管理員帳號。
+1. 點擊 **[!UICONTROL Applications]** > **[!UICONTROL Featured Apps]**。
+1. 點擊 **[!UICONTROL Salesforce]**。
+1. 在 Salesforce 應用程式頁面，請注意應用程式 ID（也稱為客戶端 ID）以及描述中提到的客戶端秘密。
+1. 點擊 **[!UICONTROL Approve]** 後，你的應用程式必須成功通過審核。
+1. 點擊 **[!UICONTROL Developer Resources]** > **[!UICONTROL Access Tokens for Testing and Development]**。
+1. 在取得 OAuth Code 區塊中，客戶端 ID 和範圍必須設為 - admin，admin:read:write。點擊 **[!UICONTROL Submit]**。
+1. 在「取得刷新令牌」中，輸入客戶端 ID 和客戶端秘密。 點擊 **[!UICONTROL Submit]** 並記錄刷新標記。
 
-### 在Salesforce應用程式中建立帳戶
+### 在 Salesforce 應用程式中建立帳號
 
-1. 在Salesforce註冊頁面上建立帳戶。 您必須在開發人員版或企業版中建立Salesforce帳戶。  [開發人員註冊網址](https://developer.salesforce.com/signup)。 請確定您必須使用電子郵件ID來註冊用於Learning Manager的Salesforce。
-1. 透過驗證電子郵件驗證您的帳戶。
-1. 建立密碼並登入Salesforce。
-1. 請注意登入後的Salesforce URL （例如site.lightning.force.com）
+1. 在 Salesforce 註冊頁面建立帳號。 你必須在開發者版或企業版中建立 Salesforce 帳號。  [開發者註冊網址](https://developer.salesforce.com/signup)。 請確保你必須使用你在 Learning Manager 上使用的電子郵件 ID 來註冊 Salesforce。
+1. 請透過驗證電子郵件驗證你的帳號。
+1. 建立密碼並登入 Salesforce。
+1. 登入後注意 Salesforce 網址（例如，site.lightning.force.com）
 
-### 安裝Learning Manager套件
+### 安裝學習管理器套件
 
-如果您想要安裝套件，必須先刪除Salesforce中的現有套件。 在解除安裝之前，您必須啟用設定，如下所示。 必須套用這些設定，否則您將無法安裝套件。
+如果你想安裝這個套件，必須先在 Salesforce 中刪除現有的套件。 在卸載前，你必須啟用以下設定。 套用這些設定是必須的，否則你將無法安裝該套件。
 
 ![](assets/uninstall-package.png)
 
-*安裝Learning Manager套件*
+*安裝學習管理器套件*
 
 >[!NOTE]
 >
->Adobe Learning Manager應用程式僅在Salesforce閃電檢視中支援。
+>Adobe Learning Manager 應用程式僅支援 Salesforce Lightning 檢視。
 
-1. 啟動[Learning Manager封裝url](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)。
-1. 在&#x200B;**登入**&#x200B;頁面中，按一下&#x200B;**[!UICONTROL Use Custom Domain]**。
-1. 輸入封裝URL並按一下&#x200B;**[!UICONTROL Continue]**。 安裝頁面必須選取僅供管理員安裝的選項。 請勿變更此選項。
-1. 按一下&#x200B;**[!UICONTROL Install]**。 安裝套件後，按一下&#x200B;**[!UICONTROL Done]**。 系統引導您前往已安裝的套件頁面，而您可以看到Adobe Learning Manager已安裝的套件。
+1. 啟動  [Learning Manager 套件的網址](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2)。
+1. 在 **登入** 頁面，點擊 **[!UICONTROL Use Custom Domain]**。
+1. 輸入套件網址並點擊 **[!UICONTROL Continue]**。 安裝頁面必須選擇「僅限管理員安裝」。 不要更改這個選項。
+1. 點擊 **[!UICONTROL Install]**。 套件安裝完成後，點擊 **[!UICONTROL Done]**。 你會被導向已安裝套件頁面，並可以看到 Adobe Learning Manager 已安裝的套件。
 
-1. 前往應用程式啟動器（「設定」旁邊）並搜尋Adobe Learning Manager。
-1. 若要設定應用程式，請按一下&#x200B;**[!UICONTROL Configure]**。
-1. 按一下&#x200B;**[!UICONTROL New]**&#x200B;並新增下列詳細資料：
+1. 到應用程式啟動器（設定旁邊）搜尋 Adobe Learning Manager。
+1. 要設定應用程式，請點擊 **[!UICONTROL Configure]**。
+1. 點擊 **[!UICONTROL New]** 並補充以下細節：
 
-   * **設定：**&#x200B;請輸入您選擇的名稱。
-   * **ClientID**：輸入您從第一個區段取得的值。
-   * **ClientSecret：**&#x200B;請輸入您從第一個區段取得的值。
-   * **RefreshToken：**&#x200B;請輸入您從第一個區段取得的值。
-   * **LearningManagerBaseURL：** Learning Manager託管所在網站的URL。
-   * **停用重新導向：**&#x200B;停用重新導向至Learning Manager中的學習者首頁。
+   * **設定：** 輸入你選擇的名稱。
+   * **ClientID**：輸入你從第一個區段取得的數值。
+   * **ClientSecret：** 輸入你從第一部分取得的數值。
+   * **RefreshToken：** 輸入你從第一節獲得的數值。
+   * **LearningManagerBaseURL：** Learning Manager 所託管網站的網址。
+   * **停用重定向：** 在學習管理員中停用導引至學習者首頁。
 
 >[!NOTE]
 >
->您只能建立單一組態。 如果您嘗試新增其他設定，則會看到錯誤訊息。 此設定會將Salesforce帳戶與學習者帳戶對應。
+>你只能建立單一設定。 如果你嘗試新增其他設定，會看到錯誤訊息。 設定會將 Salesforce 帳號與學習者帳號對應。
 
-### 新增遠端站台設定
+### 新增遠端站點設定
 
-1. 在頁面的右上角，按一下&#x200B;**[!UICONTROL Setup]**。
-1. 在&#x200B;**快速尋找**&#x200B;中搜尋遠端網站設定。
-1. 按一下&#x200B;**[!UICONTROL New Remote Site]**。
-1. 輸入詳細資料：
+1. 在頁面右上角，點擊 **[!UICONTROL Setup]**。
+1. 在 **快速搜尋**&#x200B;中搜尋遠端站點設定。
+1. 點擊 **[!UICONTROL New Remote Site]**。
+1. 請輸入細節：
 
-   1. **遠端站台名稱：**&#x200B;請輸入您選擇的名稱。
-   1. **遠端站台URL：** Learning Manager所在站台的URL。
+   1. **遠端站點名稱：** 輸入你選擇的名稱。
+   1. **遠端站點網址：** Learning Manager 所載站點的網址。
 
-1. 啟動Learning Manager。
+1. 啟動學習管理器。
 
-### 將Adobe網域新增至Salesforce信任的URL
+### 將 Adobe 網域加入 Salesforce 受信任的網址
 
-若要將Adobe網域新增至信任的URL，請遵循下列步驟：
+要將 Adobe 網域加入受信任的 URL，請遵循以下步驟：
 
-1. 在Salesforce主控台中，前往&#x200B;**[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**。
-1. 搜尋&#x200B;**[!UICONTROL Trusted URLs]**&#x200B;並選取&#x200B;**[!UICONTROL New Trusted URL]**。
-1. 在&#x200B;**[!UICONTROL API Name]**&#x200B;欄位中輸入名稱。
-1. 在URL欄位中輸入`*.adobe.com`。
-1. 選取&#x200B;**CSP指示**&#x200B;中的所有核取方塊並儲存變更。
-1. 編輯Salesforce應用程式的重新整理權杖並儲存。
-1. 重新啟動Salesforce App。
+1. 在 Salesforce 控制台，前往 **[!UICONTROL Setup]** > **[!UICONTROL Quick Find]**。
+1. 搜尋 **[!UICONTROL Trusted URLs]** 並選擇 **[!UICONTROL New Trusted URL]**。
+1. 在欄位 **[!UICONTROL API Name]** 輸入一個名字。
+1. `*.adobe.com`輸入網址欄位。
+1. 在 CSP 指令&#x200B;**中勾選所有勾選**&#x200B;框並儲存變更。
+1. 編輯 Salesforce 應用程式的刷新令牌並儲存。
+1. 重新啟動 Salesforce 應用程式。
 
-### 啟用Learning Manager應用程式的通知
+### 啟用學習管理軟體的通知
 
-1. 按一下右上角的&#x200B;**設定**。
+1. 在右上角，點選 **設定**。
 1. 搜尋自訂通知。
-1. 按一下&#x200B;**[!UICONTROL New]**。
-1. 輸入下列明細：
+1. 點擊 **[!UICONTROL New]**。
+1. 請輸入以下細節：
 
    1. **自訂通知名稱：** LearningManagerNotification
-   1. **API名稱：** LearningManagerNotification
+   1. **API 名稱：** LearningManagerNotification
 
-1. 選取&#x200B;**案頭**&#x200B;和&#x200B;**行動裝置**&#x200B;作為支援的頻道。
+1. 選擇&#x200B;**桌面版和**&#x200B;行動版&#x200B;**頻道**&#x200B;為支援頻道。
 
-1. 按一下&#x200B;**[!UICONTROL Save]**。
-1. 若要啟用行動裝置的推播通知，請遵循下列步驟：
+1. 點擊 **[!UICONTROL Save]**。
+1. 要啟用行動裝置推播通知，請遵循以下步驟：
 
-   1. 在行動電話中安裝Salesforce行動應用程式。
-   1. 使用您的憑證登入應用程式。
-   1. 移至&#x200B;**設定** > **通知傳遞設定**。
-   1. 新增適用於iOS和Android的Salesforce。
+   1. 在手機安裝 Salesforce 行動應用程式。
+   1. 用你的帳號登入應用程式。
+   1. 請進入 **「設定** > **通知傳遞設定**」。
+   1. 新增 iOS 和 Android 版的 Salesforce 吧。
 
-### 從Salesforce解除安裝Learning Manager
+### 從 Salesforce 卸載 Learning Manager
 
-1. 在Salesforce應用程式中，前往已安裝的套件。
-1. 按一下&#x200B;**[!UICONTROL Uninstall]**。
+1. 在 Salesforce 應用程式中，點到已安裝套件。
+1. 點擊 **[!UICONTROL Uninstall]**。
 
-## 為Salesforce使用者設定Learning Manager
+## 為 Salesforce 使用者設定學習管理員
 
-使用者也可以使用存在於任何Learning Manager帳戶中的Salesforce應用程式。 Salesforce管理員可以根據設定檔新增使用者。 Salesforce設定檔類似於Learning Manager中的設定檔。 例如，管理員、整合管理員、講師等。 Salesforce管理員也可以建立自訂設定檔。
+學習管理器應用程式也開放給任何 Salesforce 帳號中的使用者使用。 Salesforce 管理員可以根據設定檔新增使用者。 Salesforce 的設定檔和 Learning Manager 裡的設定類似。 例如管理員、整合管理員、講師等等。 Salesforce 管理員也可以建立自訂的個人檔案。
 
-### 個人資料
+### 簡介
 
-身為Salesforce管理員，您可以將設定檔指派給使用者或建立自訂設定檔。
+作為 Salesforce 管理員，你可以將設定檔指派給使用者，或建立自訂設定檔。
 
 >[!NOTE]
 >
->使用者必須同時出現在Salesforce和Learning Manager中。
+>使用者必須同時存在於 Salesforce 和 Learning Manager。
 
 ![](assets/create-profile.png)
 
-*將設定檔指派給學習者*
+*為學習者指派一個設定檔*
 
-新增學習者時，您必須將特定設定檔指派給學習者。 然後前往該設定檔並授予所需的存取權。
+新增學習者時，必須為學習者指派特定的設定檔。 然後進入該個人檔案並授予所需的存取權限。
 
-若要讓學習者檢視Learning Manager應用程式，您必須為所有學習者啟用應用程式。
+學習者要查看學習管理員應用程式，必須啟用該應用程式給所有學習者使用。
 
-下一步是提供存取Learning Manager應用程式的許可權。
+下一步是提供存取學習管理員應用程式的權限。
 
 ![](assets/permission-set.png)
 
-*新增存取Learning Manager應用程式的許可權*
+*新增存取學習管理器應用程式的權限*
 
-當您安裝套件時，會建立新的許可權集，**Adobe Learning Manager使用者**。 前往許可權集，然後新增使用者。
+安裝套件後，會建立一個新的權限集，稱為 **Adobe Learning Manager 使用者**。 進入權限集，然後新增使用者。
 
-選取使用者並據此指派許可權。 學習者現在可以存取Learning Manager應用程式。
+選擇使用者並相應分配權限。 學習者現在可以使用學習管理員應用程式。
 
-現在，選取設定檔，例如，使用者的標準設定檔，然後按一下該設定檔。 按一下&#x200B;**[!UICONTROL Edit]**，然後在&#x200B;**自訂應用程式設定**&#x200B;區段中，啟用核取方塊&#x200B;**Adobe Learning Manager**。 這可讓使用者存取應用程式。
+現在，選擇一個設定檔，例如「使用者的標準設定檔」，然後點擊該設定檔。 點選&#x200B;**[!UICONTROL Edit]**&#x200B;並在&#x200B;**自訂應用程式設定**&#x200B;區塊啟用 Adobe Learning Manager **的勾選框**。這讓應用程式對使用者來說更容易使用。
 
-在&#x200B;**自訂標籤設定**&#x200B;區段的&#x200B;**學習者首頁**&#x200B;下拉式清單中，選取選項&#x200B;**[!UICONTROL Default On]**。
+在 **自訂分頁設定** 區塊的 **學習者首頁** 下拉選單中，選擇 **[!UICONTROL Default On]**&#x200B;選項。
 
-您必須讓所有設定檔都能看見應用程式。
+你必須讓應用程式對所有個人檔案都顯示。
 
-按一下「**[!UICONTROL Save]**」，則屬於所有設定檔的學習者將會存取Learning Manager應用程式。
+點擊 **[!UICONTROL Save]** 後，所有個人檔案的學習者即可存取學習管理員應用程式。
