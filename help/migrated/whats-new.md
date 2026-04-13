@@ -132,7 +132,7 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 
 提供無阻礙的學習體驗，並消除ALM中等價與替代課程的重複訓練。 這項新功能允許管理員設定單向（替代）或雙向（等效）規則，完成一個訓練會自動授予另一個訓練的替代完成。 此功能旨在簡化大型學習生態系統，確保學習者繞過已掌握的內容，組織大幅減少管理員支援工單，消除手動覆蓋，並維持更乾淨且準確的學習者紀錄。
 
-欲了解更多資訊，請參閱[](/help/migrated/administrators/feature-summary/alternates-equivalence.md)等效與替代。
+欲了解更多資訊，請參閱[&#128279;](/help/migrated/administrators/feature-summary/alternates-equivalence.md)等效與替代。
 
 ## 講師的 QR 碼，例如報名和參加課程
 
