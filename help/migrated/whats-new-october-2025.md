@@ -149,7 +149,7 @@ Go1 整合強化，允許直接策劃 Go1 課程，以在 Adobe Learning Manager
 
 ## 下載有興趣學習者報告
 
-當管理員退休所有課程實例（例如課程生命週期結束時），頁面上的&#x200B;**[!UICONTROL Enroll]****[!UICONTROL Course Overview]**&#x200B;按鈕會被[!UICONTROL Register Interest]選項取代。學習者可選擇此選項，表達對課程的興趣。 管理員現在可以查看並匯出對課程有註冊興趣的學習者名單。
+當管理員退休所有課程實例（例如課程生命週期結束時），頁面上的&#x200B;**[!UICONTROL Enroll]**&#x200B;**[!UICONTROL Course Overview]**&#x200B;按鈕會被[!UICONTROL Register Interest]選項取代。學習者可選擇此選項，表達對課程的興趣。 管理員現在可以查看並匯出對課程有註冊興趣的學習者名單。
 
 管理員接著可以存取此清單並下載報告。 當沒有活躍實例可用時，課程頁面新增了一個 **[!UICONTROL Interested Learners]** 按鈕。 它會顯示學習者的姓名以及他們在管理員介面中註冊興趣的日期。
 
@@ -208,7 +208,7 @@ Adobe Learning Manager 現在在 Salesforce 應用程式內新增了一個  **[!
 
 * 若自訂管理員的權限變更，受影響公告會顯示警告圖示並需個別重置範圍。
 * 每則公告在範圍變更時必須個別更新。
-* 通知公告](/help/migrated/administrators/feature-summary/announcements.md)報告只[顯示自訂管理員指定範圍內的學習者。
+* 通知公告[&#128279;](/help/migrated/administrators/feature-summary/announcements.md)報告只顯示自訂管理員指定範圍內的學習者。
 
 **使用案例**
 
@@ -673,7 +673,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 
 >[!NOTE]
 >
-> 請聯絡我們 learningmanagersupport@adobe.com [](mailto:learningmanagersupport@adobe.com) 的客服團隊以設定此設定。
+> 請聯絡我們 learningmanagersupport@adobe.com [&#128279;](mailto:learningmanagersupport@adobe.com) 的客服團隊以設定此設定。
 
 新增屬性 `reportingUserIdPreference` 是用來 `get /account` 追蹤使用者 ID 偏好設定的。
 
@@ -793,7 +793,7 @@ _工作輔助工具報告顯示直接下載連結，方便在 Adobe Learning Man
 * 非互動測驗的 L2 測驗分數現在會正確產生，並包含完成測驗的使用者資料。
 * 當認證機制在連線設定時被設定為簽章時，簽章會正確傳送到目標主機。
 * Adobe Connect 會話期間建立的虛擬使用者在會話結束後不會被刪除。 SnapLogic 管線現在能正確移除這些使用者，即使 `principals-delete` API 先前回傳 200 的回應且未刪除他們。
-* `null``eventDetail` API 回應中的物件不再會引發例外。系統現在會跳過空輸入，並處理整個陣列，確保完整錄音。
+* `null` `eventDetail` API 回應中的物件不再會引發例外。系統現在會跳過空輸入，並處理整個陣列，確保完整錄音。
 * 回饋報告中的「回饋日期」欄位現在顯示正確的日期。 過去，秒數錯誤傳給日期構造器，該建構器預期是毫秒，導致日期顯示為1970年1月。 此點已修正，以確保產生回饋報告時日期顯示準確。
 * 即使其中一個課程實例已退休，學習者現在仍可更新彈性學習路徑的註冊情況。 過去，選擇新實例會引發主控台錯誤（無法讀取未定義屬性），導致更新無法完成。
 * 學習路徑中的資源名稱現在能正確顯示，且不會在字中斷。
