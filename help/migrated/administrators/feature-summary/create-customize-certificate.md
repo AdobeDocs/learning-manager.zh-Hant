@@ -2,13 +2,13 @@
 title: 建立並自訂憑證
 description: Adobe Learning Manager （ALM） 中的自訂憑證讓管理員與作者設計、管理並發行個人化的學習者憑證。
 jcr-language: en-us
-source-git-commit: c012fdc19d3695add97661e290db19a90771748f
+exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
+source-git-commit: 13fbdb95129ba7612e8e42d3da88ef3c6784e729
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2628'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Learning Manager 中的自訂憑證
 
@@ -25,7 +25,9 @@ Adobe Learning Manager 中的自訂證書改變了管理員設計、管理及交
 
 認證流程遵循 Learning Manager 現有的徽章與成就模式，因此學習者的行為保持熟悉，而管理員與支援團隊則較少花時間在證書作業上。
 
-**注意：** 使用生成式 AI 的憑證功能受配額限制。 每位使用者的請求次數限制為 10,000 次。
+>[!NOTE]
+>
+>使用生成式 AI 的憑證功能受配額限制。 每位客戶的請求數量上限為 10,000 件。
 
 ## 客製化認證的主要功能
 
@@ -69,10 +71,10 @@ Adobe Learning Manager 中的自訂證書改變了管理員設計、管理及交
 **憑證設計**&#x200B;列表頁面協助管理員大規模管理憑證範本：
 
 - 基於磁磚的目錄，包含 **已發佈** 與 **草稿** 分頁。
-- 依憑證標題搜尋;依&#x200B;**&#x200B;**&#x200B;方向篩選。
+- 依憑證標題搜尋;依&#x200B;****&#x200B;方向篩選。
 - 每種設計的動作：
    - 重複（用於變體）。
-   - 預設&#x200B;**為帳戶**、課程&#x200B;**、**&#x200B;**學習路徑**&#x200B;或&#x200B;**認證**&#x200B;等級。
+   - 預設&#x200B;**為帳戶**、課程&#x200B;**、****學習路徑**&#x200B;或&#x200B;**認證**&#x200B;等級。
    - 退休或停用已不再使用的範本。
 - 支援可上線並重複使用的第三方廠商範本。
 
@@ -158,7 +160,7 @@ Adobe Learning Manager 中的自訂證書改變了管理員設計、管理及交
 
 ### 降低支援開銷與作戰風險
 
-透過將憑證管理整合到&#x200B;**&#x200B;**&#x200B;成就中，並提供清晰的使用者體驗：
+透過將憑證管理整合到&#x200B;****&#x200B;成就中，並提供清晰的使用者體驗：
 
 - CSM 和工程團隊的「上傳或更改憑證」請求會被丟棄。
 - 產品套用安全約束（例如鎖定方向、不可編輯的舊有範本），以降低現有部署的風險。
@@ -236,11 +238,11 @@ Defaults、Firefly 與圖庫幫助客戶：
 要使用 Firefly 的影像，您的 Adobe Learning Manager 實例必須與 Firefly 整合。
 
 1. 以管理員&#x200B;**身份登入 Adobe Learning Manager**。
-2. 在 **「配置** 」區塊，選擇 **成就**。 **徽章**&#x200B;頁面開啟。
+2. 在 **「配置** 」區塊，選擇 **成就**。 **徽章**頁面開啟。
    ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
    *在左側導航面板的成就頁面*
 
-3. 在左側導覽面板，選擇 **憑證**。 **&#x200B;**&#x200B;證書頁面打開。
+3. 在左側導覽面板，選擇 **憑證**。 ****證書頁面打開。
    ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate2.png)
    *證書頁面*
 
@@ -253,9 +255,9 @@ Defaults、Firefly 與圖庫幫助客戶：
 7. 輸入憑證名稱。
 8. 在下拉選單中選擇預設語言。
 9. 選擇 **「建立**」。 如果你選擇了空白範本，證書名稱下方會出現一個空白畫布。
-10. 新增元素：文字、圖片、動態值&#x200B;**與**&#x200B;憑證背景&#x200B;**。**&#x200B;**&#x200B;**&#x200B;**&#x200B;**
-    ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *在證書中加入元素*
+10. 新增元素：文字、圖片、動態值&#x200B;**與**&#x200B;憑證背景&#x200B;**。**********
+   ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *在證書中加入元素*
 
 11. 對於&#x200B;**文字**，請在預格式化文字&#x200B;**或**&#x200B;文字範本&#x200B;**中**&#x200B;新增內容，或新增自訂文字。文字出現在畫布上。 選取文字時，畫布上方會出現格式選項。 要移除不想要的內容，請選擇 **畫布右上角的「刪除** 」圖示。
 12. 要新增圖片，請在「**新增元素**」旁邊選擇&#x200B;**圖片**。從電腦上傳圖片，或從分類列表中選擇圖片。
@@ -263,12 +265,12 @@ Defaults、Firefly 與圖庫幫助客戶：
 14. 選擇 **「證書背景** 」以套用顏色或圖片。 要使用 Adobe Firefly 建立影像，請選擇 **產生影像**。
 15. 在提示欄中，描述你想要的內容（最多 100 個字元），然後選擇 **產生**。 根據你的提示，會出現四個圖片選項。
 16. 選擇你想要的圖片。 它作為證書背景被應用。
-    ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *在憑證中新增圖片*
+   ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *在憑證中新增圖片*
 
 17. 選擇 **預覽** 以在發佈前檢視證書。 這有助於你了解證書的樣貌。
-    ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *預覽證書*
+   ![建立自訂憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *預覽證書*
 
 18. 預覽版中，你可以儲存到 Google 雲端硬碟、下載、列印，或使用註解或文件屬性等其他選項。
 19. 選擇 **另存為草稿** 以繼續，或選擇 **發佈** 以發布憑證。 發表後，學習者在達成設定里程碑時即可下載證書。
@@ -278,7 +280,7 @@ Defaults、Firefly 與圖庫幫助客戶：
 ## 編輯自訂憑證
 
 1. 在 **「配置** 」區塊，選擇 **成就**。 **徽章**&#x200B;頁面開啟。
-2. 在左側導覽面板，選擇 **憑證**。 **&#x200B;**&#x200B;證書頁面打開。
+2. 在左側導覽面板，選擇 **憑證**。 ****&#x200B;證書頁面打開。
 3. 請選擇 **您想要的證書的「已發表** 」或 **「** 草稿」標籤。
 4. 打開該憑證的動作選單（**...**），並選擇 **編輯**。
    ![從動作選單編輯憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0001.png)
@@ -296,7 +298,7 @@ Defaults、Firefly 與圖庫幫助客戶：
 >複製後立刻存檔時，你無法設定新名字。 在憑證儲存為草稿或發布後，請重新命名憑證。
 
 1. 在 **「配置** 」區塊，選擇 **成就**。 **徽章**&#x200B;頁面開啟。
-2. 在左側導覽面板，選擇 **憑證**。 **&#x200B;**&#x200B;證書頁面打開。
+2. 在左側導覽面板，選擇 **憑證**。 ****&#x200B;證書頁面打開。
 3. 請選擇 **您想要的證書的「已發表** 」或 **「** 草稿」標籤。
 4. 開啟憑證的動作選單（**...**），選擇 **複製**。
    ![從動作選單中的複製憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0002.png)
@@ -306,14 +308,14 @@ Defaults、Firefly 與圖庫幫助客戶：
 
 6. 選擇 **發佈** 或 **另存為草稿**。
 
-7. 請依照「重新命名自訂憑證[&#128279;](#rename-a-custom-certificate)」中的步驟重新命名複製憑證。
+7. 請依照「重新命名自訂憑證](#rename-a-custom-certificate)」中的[步驟重新命名複製憑證。
 
 ## 重新命名自訂憑證
 
 你可以重新命名憑證而不用複製它。
 
 1. 在 **「配置** 」區塊，選擇 **成就**。 **徽章**&#x200B;頁面開啟。
-2. 在左側導覽面板，選擇 **憑證**。 **&#x200B;**&#x200B;證書頁面打開。
+2. 在左側導覽面板，選擇 **憑證**。 ****&#x200B;證書頁面打開。
 3. 請選擇 **您想要的證書的「已發表** 」或 **「** 草稿」標籤。
 
 4. 開啟憑證的動作選單（**...**），並選擇 **重新命名**。
@@ -330,10 +332,12 @@ Defaults、Firefly 與圖庫幫助客戶：
 
 刪除憑證無法撤銷。 只有確定後才繼續。
 
-**注意：** 你無法刪除附加到學習物件或實例的憑證。
+>[!NOTE]
+>
+>你無法刪除附加到學習物件或實例的憑證。
 
 1. 在 **「配置** 」區塊，選擇 **成就**。 **徽章**&#x200B;頁面開啟。
-2. 在左側導覽面板，選擇 **憑證**。 **&#x200B;**&#x200B;證書頁面打開。
+2. 在左側導覽面板，選擇 **憑證**。 ****&#x200B;證書頁面打開。
 3. 請選擇 **您想要的證書的「已發表** 」或 **「** 草稿」標籤。
 4. 打開憑證的動作選單（**...**），選擇 **刪除**。 Adobe Learning Manager 顯示確認訊息。
    ![從動作選單刪除憑證](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0005.png)
@@ -356,9 +360,9 @@ Defaults、Firefly 與圖庫幫助客戶：
 *設定為預設憑證*
 
 1. 在 **「配置** 」區塊，選擇 **成就**。 **徽章**&#x200B;頁面開啟。
-2. 在左側導覽面板，選擇 **憑證**。 **&#x200B;**&#x200B;證書頁面打開。
+2. 在左側導覽面板，選擇 **憑證**。 ****&#x200B;證書頁面打開。
 3. 請選擇 **您想要的證書的「已發表** 」或 **「** 草稿」標籤。
 4. 打開憑證的動作選單（**...），選擇**&#x200B;設定為預設&#x200B;**，然後從四個選項**&#x200B;中選擇一個。Learning Manager 顯示確認訊息。
-5. 選擇 **「是**」。 學習管理器顯示另一個確認。 證書上會顯示 **一個「預設」** 標籤，顯示你選擇的類別（例如「 **訓練**&#x200B;預設」）。
+5. 選擇 **「是**」。 學習管理器顯示另一個確認。 證書上會顯示 **一個「預設」** 標籤，顯示你選擇的類別（例如「 **訓練**預設」）。
    ![證書上類別標籤的預設](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0008.png)
    *當它成為預設憑證之後*
