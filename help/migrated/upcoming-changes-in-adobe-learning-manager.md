@@ -1,1131 +1,1137 @@
 ---
-title: Adobe Learning Manager 2026 年 4 月發布的新內容
-description: 了解 Adobe Learning Manager 2026 年 4 月版本中的新功能、改進與重要更新。
+title: Adobe Learning Manager 即將推出的新內容
+description: 探索 Adobe Learning Manager 即將推出的變動。 隨時掌握最新消息與未來公告。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
+source-git-commit: 1a374d09b1866d50d8e4001e8fab0ad9b202c587
 workflow-type: tm+mt
-source-wordcount: '20354'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Manager 更新
 
+[2026年4月的版本](/help/migrated/whats-new.md)已經發布。目前沒有其他即將進行的變動。 當有新公告時，本頁將持續更新。
+
+<!-- >[!IMPORTANT]
+>
+>The features in this release are available in beta. Functionality and behavior may change before general availability. Share feedback through your usual Adobe support channels.
+
+
+This document summarizes the new features, improvements, and updates in the April 2026 release of Adobe Learning Manager. Use it to plan changes for your organization and understand what's available for learners, administrators, and authors.
+
+**For learners:** The Fluidic Player now shows the next module name and a clear Exit button. Player language can be set via LTI for a consistent experience across platforms. Captivate content includes a unified table of contents, slide-level completion ticks, and reliable notes exports. Multi-language support is available for Job Aids, checklist questions, and video text tracks (VTT). The AI Assistant helps learners get answers within the learning experience.
+
+**For administrators and authors:** The Zoom Connector supports multiple concurrent VILT sessions. Shared courses in peer accounts display the real author instead of "External Author." Admins can restrict when modules can be started. Learning Object expiry dates are exposed in Learner APIs. Checklist modules support weighted scoring, multilingual question text, and optional reviewer comments. Custom certificates offer a drag-and-drop editor with dynamic fields and AI-generated backgrounds. The non-logged-in Experience Builder lets you build public learning pages without requiring login.
+
+**For instructors:** Generate QR codes for instance enrollment and session attendance. Add comments or feedback during checklist evaluation.
+
+**Reporting and analytics:** SCORM content can now report multiple quiz attempts in L2 reporting. Learning time spent calculation is improved in Learner Transcripts. Learning Transcript reports for Administrators are updated. Advanced search enhancements are available.
+
+## Fluidic Player navigation: show the name of the next module 
+
+### Overview
+
+This enhancement was already included in the November 2025 release of Adobe Learning Manager. 
+
+The "Next" action in the player indicates what will happen when clicked by displaying the name of the next module or course and by explicitly signaling when the learner is about to exit the player. 
+
+### What's new
+
+**"Next Module: {ModuleName}" label in the player**
+
+The Next icon in the Fluidic Player now shows the name of the next module in the course. For example, Next Module: Lesson 2- Getting started. 
+
+This applies wherever the learner is moving from one module to the next within the same course. 
+
+**Clear exit action on the last module** 
+
+When the learner is on the last module in a course, a new Exit action button appears, indicating that clicking it will close the player and return them to the course context. 
+
+**Responsive behavior for mobile and PDF content** 
+
+On smaller viewports (for example, ~320 px width), the Next label may be shortened or hidden, showing only the icon, to avoid overlapping with PDF controls. 
+
+For PDF modules, the player adjusts controls to a separate line, so navigation labels and PDF controls don't interfere with each other. 
+
+**Updated Admin > Branding > Player preview** 
+
+The player preview in Admin > Branding now reflects the new label, for example, Next Module: Lesson 2. This allows administrators to see the updated navigation behavior. 
+
+### Key benefits
+
+**Clearer navigation for learners** 
+
+Learners no longer have to guess what will happen when they select "Next." The label clearly specifies what comes next, whether it's a module or a course. This reduction in ambiguity helps alleviate hesitation and confusion, particularly in large customer education audiences where many learners may not be familiar with LMS interfaces. 
+
+**Higher course‑completion rates** 
+
+Clearly stating the next step (Next Module: {ModuleName}) and adding a distinct Exit action for the final module reduces the likelihood of learners abandoning the course or overlooking the last completion step. 
+
+**More predictable user experience across devices** 
+
+The updated labels align with the Next or Previous behavior and icons across desktop, tablet, and mobile. Layout constraints are respected across devices and PDF flows so that controls remain usable and accessible.  
+
+This is particularly important for headless implementations where the Fluidic Player is embedded inside a custom learning experience. 
+
+### Use cases
+
+**Customer and partner education portals (headless or AEM‑integrated)**
+
+Accounts utilizing Adobe Learning Manager in a fully headless setup, directing learners from external marketing channels. These learners: 
+
+* Often consume video content in long sequences. 
+
+* Expect a curriculum‑style experience where the system clearly indicates the next episode/module. 
+
+In these environments, the **Next Module: {ModuleName}** label: 
+
+* Reinforces the guided nature of the journey. 
+
+* Minimizes drop‑off between modules. 
+
+**Compliance and certification courses with ordered modules** 
+
+In regulated or compliance‑heavy scenarios: 
+
+* Learners must complete a strict sequence of modules. 
+
+* Authors often disable TOC to avoid skipping. 
+
+Here, showing **Next Module: {ModuleName}**: 
+
+* Confirms to learners that they are following the correct sequence. 
+
+* Makes it less likely that they misinterpret the Next action and exit early. 
+
+**Learning Paths where courses follow each other** 
+
+Where Learning Paths or equivalents chain multiple courses. This is useful when building curriculum‑style sequences for large audiences. 
+
+**Mobile‑first consumption** 
+
+For learners primarily using phones or tablets: 
+
+* Updated labels and responsive behavior ensure navigation remains understandable without relying on tiny close icons or hidden controls. 
+
+* This is important for customer education, gig workers, or frontline learners who may access content in short sessions on mobile devices. 
+
+## Zoom Connector - create multiple concurrent Zoom sessions
+
+### Overview
+
+The Zoom Connector upgrade enhances how Adobe Learning Manager manages Virtual Instructor-Led Training (VILT). Before, users could only create one Zoom session at a time. With the new update, administrators and authors can schedule multiple Zoom sessions at the same time using standard integration.
+
+### What's new
+
+#### Support for multiple concurrent Zoom sessions via the connector
+
+* The Zoom Connector now allows more than one VILT session at the same date/time to be created from ALM. 
+
+* The scheduling logic no longer enforces a "one Zoom meeting at a time" constraint at the account/connector level. 
+
+* Administrators and authors can configure overlapping VILT sessions (for example, regional classrooms, parallel tracks, or repeated sessions for different partner groups) without workarounds.
+
+#### Meetings are created using the instructor's Zoom identity (not the Zoom super admin) 
+
+To safely support concurrent meetings, the connector has been updated so that: 
+
+* Zoom meetings are now created using the instructor's email address, instead of the Zoom super admin email. 
+
+* Each instructor's Zoom account can host its own meetings in parallel with other instructors, subject to the limits of the existing Zoom plan.
+
+**Note**: 
+
+* Only one instructor per meeting is still supported. 
+
+* If an instructor's email is later updated in Adobe Learning Manager, existing meetings remain associated with the original email used at creation.
+
+#### No more manual Zoom URL pasting for concurrent sessions 
+
+Previously, when a second or third Zoom session had to run at the same time: 
+
+* Authors had to manually create Zoom meetings outside ALM and then paste the Zoom join URL into the course instance configuration. 
+
+* This was error‑prone and did not benefit from connector features like attendance tracking. 
+
+With the updated connector: 
+
+* All sessions can be created directly from the ALM UI using the Zoom Connector, even if they overlap in time. 
+
+* Session lifecycle (creation/cancellation) continues to be managed centrally via integration.
+
+### Key benefits
+
+#### Better VILT scheduling at scale 
+
+Organizations can now: 
+
+* Run multiple Zoom‑based virtual classrooms at the same time (for example, parallel tracks at a virtual summit, regional cohorts, or separate partner training sessions). 
+
+* Avoid bottlenecks that previously forced admins to serialize sessions or rely on manual Zoom management. 
+
+#### Reduced administrator and author overhead 
+
+The enhancement eliminates: 
+
+* Manual creation of Zoom meetings outside of Adobe Learning Manager. 
+
+* Copy‑paste of Zoom URLs into each course instance for overlapping sessions. 
+
+* Risk of mis‑configured links, wrong meetings being attached, or missed attendance tracking. 
+
+Administrators and authors can manage all Zoom sessions from Adobe Learning Manager, using familiar workflows. 
+
+#### Better alignment with Zoom provisioning and instructor roles 
+
+By tying meetings to individual instructor Zoom accounts: 
+
+* Each instructor can operate within their own Zoom license limits. 
+
+* Organizations can use their existing Zoom provisioning model (one account per trainer, per BU, etc.) while still integrating fully with Adobe Learning Manager. 
+
+* It avoids the single‑point bottleneck of using a shared super‑admin Zoom user for all sessions.
+
+### Use cases
+
+#### Multi‑track virtual events and summits 
+
+Customer education teams running large events (for example, product bootcamps, partner summits, or certification weeks) can: 
+
+* Configure multiple Zoom‑based sessions in the same time slot (for different tracks or topics). 
+
+* Manage all of them as VILT modules under Adobe Learning Manager's courses and Learning Paths. 
+
+* Provide learners a unified experience while the connector handles all underlying Zoom meeting creation.
+
+#### Global partner and customer training 
+
+Organizations that train customers and partners across regions can: 
+
+* Run separate Zoom sessions for EMEA, APAC, and Americas at overlapping times to match local working hours. 
+
+* Avoid forcing a single global time slot or manual Zoom setup for additional cohorts. 
+
+#### Internal enablement 
+
+Internal enablement teams (sales, support, and so on) can: 
+
+* Schedule parallel onboarding sessions or role‑based breakouts (for example, separate Zoom rooms for developers, admins, and business stakeholders) in ALM. 
+
+* Keep all sessions within ALM's VILT model for reporting and compliance purposes, rather than partially transitioning to unmanaged Zoom meetings.
+
+## Show original author for shared courses in peer accounts 
+
+### Overview 
+
+When a course is shared through the catalog to a peer account, Adobe Learning Manager currently labels the author as "External Author" in the Learner, Administrator, and Author views of the receiving account. This can create challenges for learners and administrators, particularly in large enterprises, as it becomes difficult to identify and contact the appropriate content owner when issues or questions arise. 
+
+The enhancement ensures that author information is preserved and surfaced for shared courses in peer accounts, rather than being replaced by a generic placeholder.   
+
+### What's new 
+
+Show actual author name for shared courses in peer accounts 
+
+For courses shared via external or peer catalogs, the original author name from the source account is now displayed in the receiving account instead of "External Author". 
+
+This applies to: 
+
+* Learner app (course card or course details). 
+
+* Administrator and author views when previewing as a learner. 
+
+### Key benefits 
+
+#### Direct owner visibility for shared content 
+
+Learners and administrators in peer accounts can now: 
+
+* See who authored the course, even when it is acquired via a shared catalog. 
+
+* Avoid the generic and unhelpful "External Author" label. 
+
+#### More consistent multi‑tenant and peer‑account experience 
+
+For customers running multi‑tenant or extended‑enterprise scenarios: 
+
+* The same course appears with consistent author branding across accounts. 
+
+* The learner experience is aligned with expectations from the primary account (for example, seeing the source account's author name instead of "External Author"). 
+
+### Use cases 
+
+#### Large enterprise with peer accounts 
+
+The enterprise uses ALM with: 
+
+* A main account that owns the canonical courses, and 
+
+* Peer accounts that acquire content via shared catalogs. 
+
+Learners in peer accounts need to know which enterprise team authored a course to route questions or improvement suggestions correctly. 
+
+With this enhancement: 
+
+* Shared courses now display the correct enterprise author's name in peer accounts. 
+
+* The enterprise's internal support load is reduced because learners and local admins know who to contact. 
+
+#### Internal multi‑BU sharing 
+
+Where one business unit curates learning for others: 
+
+* The owning BU can be identified in the author field across all consuming accounts. 
+
+* Local L&D admins can quickly see whether a course is maintained locally or by another BU, and collaborate accordingly.
+
+## Expose Learning Object expiry (auto‑retire) date in Learner APIs 
+
+### Overview 
+
+This enhancement makes the auto‑retire date of a Learning Object (LO) available directly through Adobe Learning Manager's Learner‑facing APIs. When a course, learning path, or certification is configured with an expiry or auto‑retire date, that information is now part of the LO data returned by key Learner endpoints. 
+
+### What's new 
+
+#### New expiry/auto‑retire field in Learner LO APIs 
+
+* The Learner LO APIs (for example, the endpoints that return learning objects to the learner experience and to external platforms) now include the LO expiry date (the auto‑retire date configured for that learning object). 
+
+* This field is returned as part of the LO entity in responses such as: 
+
+   * Get Learning Object (LO details). 
+
+   * LO data used to populate learner home, catalog, and search results. 
+
+* The field complements the existing completionDeadline that already exists at the instance level; the new field is specifically the LO‑level auto‑retire date. 
+
+#### Availability in search‑backed learner experiences 
+
+Because the expiry date is exposed as part of the search‑backed LO representation, it is now available anywhere ALM or an external platform uses: 
+
+* search APIs or 
+
+* search‑driven catalogs and suggestions to construct learner views. 
+
+**Scope and exclusions** 
+
+The enhancement applies to Learner APIs only. 
+
+### Key benefits 
+
+#### Expiry‑aware learner experience in custom LXPs 
+
+For large and medium enterprises, their custom LXP can now obtain LO expiry information directly from ALM, allowing them to: 
+
+* Show "Expiring on {date}" or "Expiring soon" labels on course cards and detail pages. 
+
+* Communicate with urgency more clearly, so learners prioritize training that is about to retire. 
+
+This is particularly important for compliance or time‑bound product training, where learning objects are regularly refreshed, and older versions are retired. 
+
+#### Better guidance for learners on which trainings to take now 
+
+By exposing LO expiry, the learner experience can: 
+
+* Highlight courses that are still valid vs. ones about to be retired. 
+
+* Help learners avoid enrolling in trainings that will no longer be available or valid in the near future. 
+
+#### Consistency with existing completion deadline data 
+
+Previously, learner APIs already exposed instance‑level completionDeadline, but not the LO‑level auto‑retire date. With this change: 
+
+The following aspects of a training are available: 
+
+* "By when must I finish this instance?" (completion deadline). 
+
+* "Until when is this training offered?" (auto‑retire/expiry date). 
+
+### Use cases 
+
+#### A global enterprise with strict course lifecycle management 
+
+Enterprises that regularly retire and replace courses (for example, regulatory, product, or methodology updates) can: 
+
+* Avoid learner confusion about whether a training is being phased out. 
+
+* Drive learners toward the most current, long‑lived offerings. 
+
+Their custom portals and internal tools can now read the expiry date directly from ALM via the Learner APIs. 
+
+#### External customer or partner academies 
+
+For customer and partner education, marketing pages and portals often emphasize up‑to‑date training. 
+
+Having expiry dates in the LO API lets experience builders: 
+
+* Hide or de‑emphasize content that is close to retirement.
+
+* Build "Last chance to complete" campaigns.
+
+## Set restriction on module start time 
+
+### Overview 
+
+The enhancement lets authors and administrators in Adobe Learning Manager define a time window during which learners are allowed to start a module. Outside the configured start/end window, the module remains visible in the course structure, but learners cannot initiate it. 
+
+This capability is critical for users who need tighter control over when certain content becomes available or should stop being initiated, for example, in timed programs, cohort‑based training, or time‑sensitive exercises. 
+
+### What's new 
+
+Authors can now configure, at the module level within a course, a start date/time and end date/time that governs when learners are allowed to launch that module. Within this window, the module behaves as usual; before the start time or after the end time, the learner sees the module in the course outline but cannot start it. 
+
+The configuration appears in the course authoring user interface as additional scheduling controls for specific module types, such as self-paced content, quizzes, or activities. Administrators can use these controls to create modules that open in phases or to prevent late starts in programs where content must be consumed within a defined timeframe. 
+
+#### Key benefits 
+
+The main advantage is the ability to control when modules are accessible. Training teams can synchronize module availability with real-world events, such as new product launches, regulatory deadlines, and internal programs. This ensures that learners complete prerequisite content before they can access later modules. 
+
+For instance, cohort 1 can access module 2 only in week 2, while module 3 will remain locked until week 3, eliminating the need to manually hide and unhide content or create separate course versions. 
+
+This enhances the learner experience: instead of facing modules that can technically be accessed but shouldn't be at that time (or should already be completed), learners see a course structure where the modules they are permitted to start are clearly aligned with the intended schedule. 
+
+#### Use cases 
+
+* **Cohort-based enablement program**: In this program, each week opens a new module. The content for Week 1 is available immediately, while Week 2 is visible but cannot be started until a specified date. Week 3 follows the same gating process. Learners can see the entire learning path, but the system controls when they can actually begin each step. 
+
+* **Time‑bound product or campaign training**: Marketing or product teams may create a training module that should only be accessed while a campaign is active or when a specific version of a product is still available. This designated start window ensures that learners don't begin a module about a discontinued product version after the specified end time. 
+
+* **Assessment or exam environments**: Organizations can open a module (such as a test) for a short, well‑defined window (for example, "you may start the exam anytime between 9:00 and 12:00 on a given date"). Learners cannot begin the exam outside that window, which supports fair scheduling across time zones and cohorts.
+
+## Control player language via custom LTI parameter 
+
+### Overview 
+
+The enhancement allows external platforms using LTI (Learning Tools Interoperability) to specify the language for Adobe Learning Manager content at the time of launch. Instead of depending on the learner to change the language within the Fluidic Player, the LTI consumer can send a language code through a custom LTI parameter. Adobe Learning Manager will then use this code to select the appropriate language variant. 
+
+### What's new 
+
+External platforms that act as LTI consumers can now pass a custom language parameter (and related player settings) when launching ALM content. ALM reads this parameter and: 
+
+* Sets the player language accordingly. 
+
+* Launches the corresponding language variant of the module, when multi‑language content is configured. 
+
+This means a first‑time learner, who selects French on the external platform, will see the ALM player and module launch directly in French, without having to adjust anything inside ALM. 
+
+The enhancement also accommodates scenarios in which the external platform treats ALM as a headless content player. For example, it allows the hiding of navigation elements and the table of contents (TOC) by sending additional custom parameters to adjust certain user interface settings. These settings work in conjunction with the language parameter, enabling the external platform to provide a smooth, branded experience while still utilizing ALM for playback and tracking. 
+
+### Key benefits 
+
+* **Consistent language experience across systems**: When a learner selects a language in the external portal, that choice is immediately reflected in ALM. This ensures that learners don't face any mismatch between the language of the portal and the course. As a result, they won't have to search for a language switch within the player. 
+
+* **Language‑specific reporting**: In their platform, language selection is consistent with ALM, which enhances the accuracy of their analytics and learner tracking. This alignment also supports configurations where ALM's own language controls are intentionally disabled or hidden in the Fluidic Player for specific courses. In these cases, the external platform serves as the single source of truth for language. 
+
+### Use cases 
+
+* A significant use case involves large enterprises utilizing LTI-based integrations. Learners first enroll and select a language on the platform. They then launch ALM training sessions through LTI. With this enhancement, when a learner selects Spanish, the ALM module automatically opens in Spanish. This means that learners don't need to adjust the language settings in ALM. Furthermore, language-based reporting remains consistent with what learners see and experience in ALM. 
+
+* Another application is the delivery of headless course experiences within a customer or partner portal. In this setup, the portal may embed ALM content using an iframe, while all navigation and language user experience (UX) are managed outside of ALM. By utilizing custom LTI parameters, the portal can ensure the ALM player is displayed in the correct language and that any unnecessary user interface elements (such as the table of contents and navigation buttons) are hidden. This allows learners to perceive a single, cohesive application rather than a disjointed collection of tools. 
+
+* This is beneficial for organizations that conduct large-scale training in multiple languages using another LMS or learning platform. They can standardize their use of that platform for managing learner profiles, selecting locales, and presenting catalogs. Meanwhile, ALM serves as a reliable content and tracking engine, respecting the language preferences and user interactions specified by the external system during each LTI launch.
+
+## Checklist question weightage for instructor evaluations 
+
+### Overview 
+
+The enhancement introduces weighted checklists, allowing instructors and managers to evaluate learners using graded scales and total scores, rather than treating each checklist question as equal. The goal is to facilitate checklist creation by implementing weighted evaluations of questions, which allows the reflection of the relative importance of different actions or skills within a single checklist. 
+
+### What's new 
+
+Checklists will support the following types: 
+
+1. Yes/No 
+Behavior remains the same as today: each question is Yes/No and pass criteria are based on the number of "Yes" responses. 
+
+2. Same‑weight questions 
+
+   * Questions are scored on a numeric scale (0–10 by default), where: 
+
+      * The max/min values on the scale are customizable at the checklist level. 
+
+      * The scale can now start at 0 (the previous minimum score was 1). 
+
+   * All questions share the same maximum score, so the checklist behaves as a uniform graded scale for each question. 
+
+3. Different‑weight questions 
+
+   * Each question has its own maximum score (weight). 
+
+   * The passing criteria depend on the percentage of the total possible score that the learner achieves across the checklist (for example, "pass if the learner achieves ≥ 70% of the total available score"). 
+
+For all checklist types: 
+
+* The **Reviewer** (instructor or manager) evaluates the learner according to the configured checklist type: 
+
+   * Selecting Yes/No. 
+
+   * Select scores on the defined scale. 
+
+* The **Checklist** report is updated to include, for questions with different weightage: 
+
+   * The maximum score for each question. 
+
+   * The score achieved by each learner for that question. 
+
+This allows analysis of overall performance and question-specific performance based on the intended weights. 
+
+### Key benefits 
+
+* **Richer, more realistic assessments**: Instructors can reflect real‑world priorities by giving more points to critical behaviors and fewer to minor ones, while still using a checklist workflow suited to observed or practical tasks. 
+
+* **Total‑score‑based pass/fail**: Evaluations can be based on the overall percentage score, not just how many questions pass a threshold, aligning more closely with typical competency or grading schemes. 
+
+* **Better reporting**: Updated checklist reports expose max score and achieved score per question, allowing program owners and quality teams to identify specific weak spots and refine training or evaluation guidance. 
+
+### Use cases 
+
+* **Enterprise skill assessments**: Engineers are assessed via practical, scenario‑based checklists where certain diagnostic or communication steps must carry more weight than cosmetic or low‑risk steps. Weighted questions and total‑score pass criteria make these assessments more credible and predictive of real‑world performance. 
+
+* **Safety and compliance observations**: In healthcare, manufacturing, or field service, critical safety steps can be given higher max scores, ensuring that missing a safety‑critical action has a larger impact on the total score than missing a minor procedural step. 
+
+* **Coaching and calibration**: With max and achieved scores per question in the report, managers can see exactly where learners underperform and calibrate instructors on how to score consistently.
+
+## Checklist with commenting capability for reviewer 
+
+### Overview 
+
+The enhancement introduces a commenting feature for checklist evaluations, allowing reviewers, such as instructors and managers, to provide qualitative feedback alongside the numeric scores. This feedback can be made visible to learners when necessary.  
+
+The goal is to support checklist-based evaluations where mentor feedback is as crucial as the numeric result. This includes highlighting specific strengths, areas for improvement, or providing context for the given score. 
+
+Today, reviewers can: 
+
+* Evaluate a checklist for each learner, question by question. 
+
+* View results and re‑evaluate learners who have failed. 
+
+In real-world scenarios, such as aviation, field trainers assess shop-floor agents and airport staff. Similarly, instructors and mentors in small and medium-sized enterprises (SMEs) often use checklists to evaluate job performance. However, these checklists typically do not include a structured section for capturing narrative feedback related to the evaluation. 
+
+### What's new 
+
+#### Authoring options 
+
+Authors can configure each checklist to: 
+
+* Enable or disable commenting capability for reviewers. 
+
+* Decide whether the reviewer's name should be shown to learners along with comments. 
+
+This allows organizations to tailor comment visibility to their culture and privacy requirements. 
+
+#### Reviewer experience 
+
+When commenting is enabled: 
+
+* Reviewers (instructors/managers) can add optional comments while evaluating a checklist. 
+
+* They can choose whether comments are visible to learners, based on the checklist settings. 
+
+If they re‑evaluate a learner, they can update or change comments to reflect the latest assessment. 
+
+#### Reporting and notifications 
+
+* The Checklist report gains a new column for reviewer's remarks, capturing the comment provided during evaluation. 
+
+* Learners receive notifications (in‑platform and email) whenever a checklist evaluation occurs. These notifications include: 
+
+   * The comment and 
+
+   * The reviewer's name, if those were configured to be visible. 
+
+This ensures feedback is not only stored but actively surfaced to learners. 
+
+### Key benefits 
+
+* **Richer, coach‑like feedback**: Numeric scores are supplemented with contextual remarks, making checklists a more effective tool for coaching, not just compliance. 
+
+* **Traceability and auditability**: Organizations gain a persistent record of who evaluated whom, when, and what they said, which is important in regulated environments and high‑stakes roles. 
+
+* **Better learner engagement**: Learners receive clear guidance linked to specific evaluations, which improves their understanding of expectations and subsequent steps. 
+
+### Use cases 
+
+* Organizations with regulated environments can use comments to document clinical judgment or procedural feedback for staff who are being observed in the field. 
+
+* Aviation and ground‑handling organizations can attach detailed notes on operational performance, safety practices, and customer‑facing behavior, turning a checklist into a structured debrief tool. 
+
+* In mentoring and SME evaluation, instructors can capture nuanced observations that wouldn't fit into a score alone, for example, "handled escalation well but needs to improve time management" or "excellent troubleshooting flow; missed a documentation step."
+
+## Content‑level multiple attempts and quiz reporting 
+
+### Overview 
+
 >[!IMPORTANT]
 >
->本版本的功能已提供測試版。 功能與行為可能在正式上市前發生變化。 透過你平常使用的 Adobe 客服管道分享回饋。
+>Note that the feature will only be available after enabling it in the account. Contact ALM support.
 
 
-本文件總結了 2026 年 4 月版本 Adobe Learning Manager 的新功能、改進與更新。 利用它來規劃組織的變革，並了解學習者、管理者和作者可用的資源。
+Presently, ALM supports multiple attempts at the LMS level via the Multiple Quiz Attempt (MQA) feature: 
 
-**給學習者：** 流體玩家現在會顯示下一個模組名稱和一個清晰的退出按鈕。 玩家語言可以透過 LTI 設定，以實現跨平台的一致體驗。 Captivate 內容包含統一的目錄、投影片層級的完成記號，以及可靠的筆記匯出。 提供多語言支援，涵蓋工作輔助工具、檢查清單問題及視訊文字軌（VTT）。 AI 助理幫助學習者在學習過程中獲得答案。
+* Authors can configure attempts at course level (applied to all quiz‑bearing modules in the course) or at module level (per quiz module). 
 
-**給管理員和作者：** Zoom 連接器支援多個並行的 VILT 會話。 同儕帳號中的共享課程會顯示真正的作者，而不是「外部作者」。 管理員可以限制模組的啟動時間。 學習物件的到期日會在學習者 API 中揭露。 檢查清單模組支援加權評分、多語言題目文本及可選的評審意見。 自訂憑證提供拖放編輯器，具備動態欄位與 AI 生成背景。 未登入的經驗建構器讓你可以在不登入的情況下建立公開學習頁面。
+* Attempts can be: 
 
-**給講師：** 產生 QR 碼，例如報名和出席次數。 在檢查清單評估時加入意見或回饋。
+   * A specific number (for example, 3 attempts), or 
 
-**報告與分析：** SCORM 內容現在可以在 L2 報告中回報多次小考嘗試。 學習者成績單的學習時間計算有所提升。 管理員的學習成績單報告已更新。 提供進階搜尋增強功能。
+   * Infinite attempts, controlled at LMS level. 
 
-## 流體玩家導航：顯示下一個模組名稱
+* When a learner consumes a module through the Fluidic Player and then closes the player or completes the module, that session is treated as a single LMS attempt. 
 
-### 概觀
+* Each LMS attempt is captured in the L2 quiz report as a new row. 
 
-這項增強功能早在 2025 年 11 月的 Adobe Learning Manager 版本中就已包含。
+However, if the content file itself (for example, an Articulate SCORM quiz) implements its own multiple‑attempt logic, ALM's L2 quiz report does not currently distinguish or track those internal attempts correctly. 
 
-玩家中的「下一步」動作透過顯示下一個模組或課程名稱，並明確提示學習者即將離開玩家時，表示點擊後會發生什麼。
+This enhancement introduces content-level multiple attempt tracking for quizzes, allowing Adobe Learning Manager to accurately capture each attempt within the content itself in the L2 quiz report. It's designed for situations where the content authoring tool (such as Articulate SCORM) manages quiz attempts independently. With this feature, attempts are correctly reflected in ALM reporting without depending on LMS-level Multiple Quiz Attempt (MQA) settings. 
 
-### 有什麼新鮮事
+### What's new 
 
-**播放器中的「下一個模組： {ModuleName}」標籤**
+#### Author flag for content‑level attempts 
 
-流體玩家中的下一個圖示現在顯示了該賽道下一個模組的名稱。 例如，下一單元：第二課-入門。
+* When uploading content into the Content Library, authors can now indicate that a specific content file has multiple attempts embedded within it. 
 
-這適用於學習者在同一課程中從一個模組跳到下一個模組時。
+* This is a per‑content setting that tells ALM to treat attempts defined inside the content as the source of truth. 
 
-**最後一個模組的退出動作清除**
+#### Course/module behavior 
 
-當學習者進入課程的最後一個模組時，會出現一個新的退出動作按鈕，表示點擊該按鈕會關閉玩家並返回課程上下文。
+When such content is used in a course: 
 
-**行動與 PDF 內容的響應式行為**
+* The module will derive its attempts from the content, not from LMS MQA. 
 
-在較小的視窗（例如~320 px寬度）上，Next標籤可能會縮短或隱藏，只顯示圖示，以避免與PDF控制項重疊。
+* Learners will see one LMS‑level attempt only: 
 
-對於 PDF 模組，玩家會將控制調整到獨立的行，這樣導航標籤和 PDF 控制就不會互相干擾。
+   * The course overview and module view does not expose an LMS "re‑attempt" button for that module. 
 
-**更新管理員>品牌>球員預覽**
+   * Attempt handling (for example, re‑tries within the quiz) is governed by the content itself. 
 
-管理員>品牌中的玩家預覽現在反映了新標籤，例如「下一個模組：第二課」。 這讓管理員能看到最新的導航行為。
+#### Reporting 
 
-### 主要優點
+The L2 quiz report treats each content‑level attempt as a separate attempt row: 
 
-**為學習者提供更清晰的導航**
+* Each internal quiz attempt configured in the content appears as its own row in the L2 quiz report, like how LMS‑level attempts are represented today. 
 
-學習者不再需要猜測選擇「下一」會發生什麼。 標籤清楚說明接下來會是什麼，是模組還是課程。 這種模糊性的減少有助於減輕猶豫與混淆，特別是在大型客戶教育群體中，許多學習者可能不熟悉 LMS 介面。
+* The format of each row remains the same as existing multi‑attempt rows in L2 reporting (same columns, structure, and semantics). 
 
-**較高的課程完成率**
+* This gives a consistent reporting experience: 
 
-明確說明下一步（Next Module： {ModuleName}），並為最終模組新增明確的退出動作，可降低學習者放棄課程或忽略最後完成步驟的可能性。
+   * Whether attempts are controlled by LMS MQA or by the content, the L2 quiz report shows one row per attempt. 
 
-**跨裝置的使用者體驗更可預測**
+#### Key benefits 
 
-更新後的標籤會與桌面、平板和行動裝置上的「下一個」或「上一」行為及圖示保持一致。 在各裝置與 PDF 流程中，會尊重版面限制，確保控制項保持可用且可存取。
+* Accurate attempt history for SCORM quizzes where attempts are controlled internally by tools like Articulate, without forcing LMS‑level MQA configuration on top. 
 
-這對於將流體玩家嵌入自訂學習體驗的無頭實作尤其重要。
+* Cleaner learner experience: for content‑controlled attempts, learners see a single slot at the LMS level and don't need to interact with LMS re‑attempt controls; all re‑tries are handled within the quiz UI they already know. 
 
-### 使用案例
+* Flexible architecture: Users can choose whether ALM MQA or content‑level attempts should drive behavior per module, depending on how their content was authored and how they prefer to manage attempts. 
 
-**客戶與合作夥伴教育入口網站（無頭或整合 AEM）**
+* Consistent reporting model: downstream consumers of the L2 quiz report can treat each row as "one attempt," regardless of where the attempt logic originates. 
 
-帳號使用Adobe Learning Manager，採用完全無頭系統，引導來自外部行銷管道的學習者。 這些學習者：
+#### Use cases 
 
-* 經常以長序列觀看影片內容。
+* Organizations using Articulate SCORM can keep self-contained quiz logic within the SCORM package while achieving accurate attempt-level reporting in ALM without extra LMS configuration. 
 
-* 預期會有課程式體驗，系統會清楚標示下一集/模組。
+* Organizations that use vendor-supplied SCORM content can avoid the need to modify or implement additional attempt and retry logic with LMS-level MQA.
 
-在這些環境中， **下一模組：{ModuleName}** 標籤：
+## Instructor QR codes for instance enrollment and session attendance 
 
-* 強化旅程的引導性質。
+### Overview 
 
-* 減少模組間的差距。
+This enhancement adds the ability for instructors to generate QR codes themselves for: 
 
-**合規與認證課程，並附有訂購模組**
+* Course instance enrollment, 
 
-在受規範或合規要求高的情境下：
+* Session attendance, or 
 
-* 學習者必須完成嚴格的模組順序。
+* Enrollment + attendance together 
 
-* 作者常常關閉目錄以避免跳過。
+at the session level. It's designed for situations where learners enter a physical or hybrid classroom and require a quick, self-service option to enroll and record their attendance using a QR code. 
 
-這裡顯示&#x200B;**下一個模組：{ModuleName}**
+### What's new 
 
-* 向學習者確認他們遵循正確的順序。
+#### Instructor‑generated QR codes 
 
-* 這樣他們就比較不會誤解下一步行動而提前退出。
+* Instructors can generate QR codes at the session level for: 
 
-**課程相連的學習路徑**
+   * Enroll in instance: Learners scan to enroll into the instance that includes the current session. 
 
-學習路徑或類似課程串連多個課程。 這在為大型觀眾打造課程式序列時非常有用。
+   * Mark session attendance: Learners scan during/after the session to record attendance for that specific session. 
 
-**行動優先消費**
+   * Enroll in instance + mark session attendance : A combined QR for walk‑ins who are not yet enrolled and need their attendance marked in one step. 
 
-對於主要使用手機或平板電腦的學習者：
+* Instructors can export the QR codes they need based on the scenario (enrollment, attendance, or both). 
 
-* 更新的標籤與響應式行為確保導航易於理解，無需依賴細小的關閉圖示或隱藏控制。
+#### QR code packaging 
 
-* 這對於顧客教育、零工工作者或第一線學習者來說非常重要，因為他們可能會在行動裝置上短時間存取內容。
+The exported QR code PDF includes: 
 
-## Zoom Connector - 建立多個同時進行的 Zoom 會話
+* Course name 
 
-### 概觀
+* Instance name 
 
-Zoom 連接器升級提升了 Adobe Learning Manager 管理虛擬講師主導訓練（VILT）的能力。 過去，使用者一次只能建立一個 Zoom 會話。 透過新更新，管理員與作者可透過標準整合同時安排多場 Zoom 會議。
+* Session name
 
-### 有什麼新鮮事
+These make it easy for instructors and coordinators to identify and print the correct QR code for each session. 
 
-#### 透過連接器支援多場同時進行的 Zoom 會議
+### Key benefits 
 
-* Zoom 連接器現在允許在同一日期/時間從 ALM 建立多個 VILT 會話。
+* **Instructor autonomy**: Instructors no longer need to wait for admins to create QR codes. They can generate them directly for each session, improving agility and reducing coordination overhead. 
 
-* 排程邏輯不再強制執行「一次只開一場 Zoom 會議」的限制，在帳號/連接器層級。
+* **Better classroom logistics**: For walk‑in or on‑site audiences (such as field workers, shop‑floor staff, or external attendees), instructors can manage enrollment and attendance on the spot using QR codes. 
 
-* 管理員與作者可配置重疊的 VILT 會話（例如區域教室、平行軌道或不同合作夥伴群組的重複會話），無需變通。
+* **Reduced admin workload**: Admin teams can focus on configuration and governance instead of handling routine QR code generation requests for every session. 
 
-#### 會議是用講師的 Zoom 身份建立的（不是 Zoom 超級管理員）。
+### Use cases 
 
-為安全支援同時進行會議，連接器已更新為：
+* Organizations running large volumes of on‑site sessions (for example, product training for professionals) can enable instructors to print session‑specific QR codes that enroll and mark attendance with one scan. 
 
-* Zoom 會議現在是用講師的電子郵件地址建立，而不是 Zoom 超級管理員的電子郵件。
+* In retail, manufacturing, and healthcare training, where learners often join sessions directly from the floor or without pre-enrollment, an "Enroll + Attendance" QR code can be placed at the door. This allows learners to self-serve their enrollment and attendance via their phones. 
 
-* 每位講師的 Zoom 帳號可與其他講師並行主持會議，但須遵守現有 Zoom 方案的限制。
+* Training events for partners or customers allow the on-site trainer to easily adapt to changes in the room, additional sessions, or extra attendees without needing to consult the administrator for new QR codes.
 
-**註：**
+## Captivate and ALM player improvements 
 
-* 每場會議仍僅支援一位講師。
+### Overview 
 
-* 若講師的電子郵件後來在 Adobe Learning Manager 中更新，現有會議仍會與創建時使用的原始電子郵件綁定。
+This enhancement improves the experience of playing Adobe Captivate content within the Adobe Learning Manager (ALM) player, particularly following the recent changes to Captivate's architecture. The aim is to allow learners to engage with Captivate modules natively in ALM while ensuring that navigation, completion tracking, and note-taking are clear, consistent, and reliable. 
 
-#### 不再需要手動貼上 Zoom URL 來同時進行
+### What's new 
 
-過去，當第二或第三次 Zoom 會議必須同時進行時：
+#### Unified TOC experience 
 
-* 作者必須手動在 ALM 外建立 Zoom 會議，然後將 Zoom 加入網址貼上到課程實例設定中。
+* Only the ALM TOC is displayed on the left side of the player. 
 
-* 這容易出錯，且無法利用像出席追蹤這類連接器的功能。
+* Captivate's own TOC is hidden when the module is played within ALM. 
 
-搭配更新後的連接器：
+* This removes duplication, ensures a single source of truth for navigation, and frees up screen real estate. 
 
-* 所有會話都可以直接透過 Zoom Connector 從 ALM 介面建立，即使時間有重疊。
+#### Visual completion feedback 
 
-* 會話生命週期（建立/取消）仍透過整合由集中管理。
+* The ALM TOC shows green tick marks (or equivalent visual cues) indicating slide‑level completion. 
 
-### 主要優點
+* As learners progress through Captivate slides, the ALM TOC reflects which slides have been completed, aligning with learner expectations for modern course players. 
 
-#### 更大規模的VILT排程
+#### Contextual progress controls 
 
-組織現在可以：
+* The player controls will adapt based on slide type: 
 
-* 同時舉辦多個基於 Zoom 的虛擬教室（例如虛擬高峰會的平行軌道、區域隊列或獨立的合作夥伴培訓課程）。
+   * For video slides: 
 
-* 避免過去管理員必須序列化會議或依賴手動 Zoom 管理的瓶頸。
+      * Show a time progress bar, reflecting video playback. 
 
-#### 降低管理員與作者負擔
+* For non‑video slides: 
 
-此強化可消除：
+   * Display slide navigation controls (next/previous slide, etc.) instead of a non‑functional time bar. 
 
-* 在 Adobe Learning Manager 外手動建立 Zoom 會議。
+      * This avoids showing irrelevant or non‑working controls on certain slide types. 
 
-* 將 Zoom 網址複製貼上到每個課程實例中，以處理重疊的課程。
+#### Streamlined navigation 
 
-* 連結設定錯誤、會議錯誤附加或錯過出席追蹤的風險。
+* The separate module navigation bar (ALM) and course navigation bar is merged into a single, intuitive bar. 
 
-管理員與作者可透過 Adobe Learning Manager 管理所有 Zoom 會議，使用熟悉的工作流程。
+* This unified navigation: 
 
-#### 與 Zoom 配置及講師角色更契合
+   * Clearly distinguishes moving through the Captivate module vs. moving back to course/module level. 
 
-透過將會議綁定到個別講師的 Zoom 帳號：
+   * Reduces confusion caused by multiple bars with overlapping purposes. 
 
-* 每位講師皆可在自己的 Zoom 執照限制內操作。
+#### Reliable notes linking 
 
-* 組織可以使用現有的 Zoom 配置模式（每位培訓師、每個單位各一個帳號等） 同時仍能完整整合 Adobe Learning Manager。
+* Notes are linked to slide numbers rather than timestamps. 
 
-* 它避免了所有會話都使用共用超級管理員 Zoom 使用者的單一瓶頸。
+* This change: 
 
-### 使用案例
+   * Fixes export failures caused by missing or incorrect timestamps. 
 
-#### 多軌虛擬活動與高峰會
+   * Ensures notes can be exported consistently as PDFs, with a reliable mapping between notes and the slide context they belong to. 
 
-舉辦大型活動（例如產品訓練營、合作夥伴高峰會或認證週）的客戶教育團隊可以：
+### Key benefits 
 
-* 在同一時段設定多個 Zoom 課程（針對不同主題或主題）。
+* Cleaner, single‑player experience: Learners interact with one TOC and one navigation model, reducing confusion and cognitive load. 
 
-* 將它們全部視為 Adobe Learning Manager 課程與學習路徑下的 VILT 模組管理。
+* Accurate completion and progress indications: Slide‑level ticks and contextual controls help learners understand where they are and what's left. 
 
-* 讓學習者擁有統一的體驗，而連接器則負責所有底層的 Zoom 會議建立。
+* More reliable note‑taking and exports: By tying notes to slides instead of fragile timestamps, users regain a reliable notes‑to‑PDF workflow, even with slide‑based Captivate content. 
 
-#### 全球合作夥伴與客戶培訓
+* Preserved author workflow: Authors retain the simplicity of Captivate's direct publish to ALM, while learners get a modern, integrated playback experience without extra authoring burdens. 
 
-跨區域培訓客戶與合作夥伴的組織可以：
+### Use cases 
 
-* 在EMEA、APAC和美洲地區舉辦不同的Zoom會議，時間重疊，以配合當地工作時間。
+* Enablement programs that rely on Captivate for interactive simulations can deploy content into ALM, ensuring that navigation, completion tracking, and notes function consistently for learners. 
 
-* 避免強迫全球單一時段或手動 Zoom 設定給額外班級。
+* Organizations using Captivate as their main content authoring tool can maintain one-click publishing and avoid confusing double TOCs and non-functional controls for learners. 
 
-#### 內部啟用
+* Organizations that rely on notes exported from Captivate content in ALM (for coaching, compliance, or records) can access the following: 
 
-內部賦能團隊（銷售、支援等）可以：
+   * Notes link correctly to slides. 
 
-* 在 ALM 中安排平行的入職培訓或角色分組討論（例如，為開發者、管理員及業務利害關係人設立獨立的 Zoom 會議室）。
+   * PDFs are generated as expected.
 
-* 所有會議都維持在 ALM 的 VILT 模式內，以便報告與合規，而非部分轉為非管理的 Zoom 會議。
+## Improved learning time spent calculation in Learner Transcripts
 
-## 在同儕帳號中顯示共享課程的原始作者
+### Overview
 
-### 概觀
+Adobe Learning Manager has revised how it calculates learning time in Learner Transcripts with its April 2026 release. Previously, the reporting logic could lead to inaccurate times if learners left the player open without engaging with the content, causing discrepancies. The new method now tracks active time based on user engagement, specifically when the tab is in focus and when there is user activity. This change results in more accurate data.
 
-當課程透過目錄分享給同儕帳號時，Adobe Learning Manager 目前會在接收帳號的學習者、管理員和作者檢視中，將作者標示為「外部作者」。 這對學習者與管理者來說，尤其在大型企業中，會帶來挑戰，因為當出現問題或問題時，很難辨識並聯繫適當的內容擁有者。
+This update improves reports and dashboards, helping administrators better ensure compliance and track learner progress. After the release, review your Learner Transcripts to see these enhancements.
 
-此強化確保作者資訊能被保留並顯示於同儕帳號中的共享課程，而非被通用的佔位符取代。
+The updated calculation method focuses on actual engagement, such as active tab focus and recent user interactions, thereby improving the accuracy of time reporting across the following areas:
 
-### 有什麼新鮮事
+* Learner Transcripts (UI)
+* Admin Dashboard metrics
+* Course Enrollment reports
+* APIs and Connectors
 
-在同儕帳號中顯示共享課程的實際作者名稱
+### What's changed
 
-對於透過外部或同儕目錄分享的課程，接收帳號中會顯示原始作者名稱，而非「外部作者」。
+The **Learning Time Spent** column in Learner Transcripts now uses improved logic to calculate time more accurately. Instead of simply tracking player open/close times, the system now distinguishes between active and idle periods based on user engagement.
 
-這適用於：
+* **Active time**: Time when the learner is actively engaged (for example, on the correct tab, performing actions like scrolling or watching video).
+* **Idle time**: Time when the learner is not engaged (for example, tab switched, no activity for 10+ minutes), which is excluded from the total.
 
-* 學習者應用程式（課程卡或課程詳情）。
+This applies to most module types, with exceptions for SCORM, Captivate, and XAPI modules, which retain the original logic.
 
-* 作為學習者預覽時的管理員與作者觀點。
+### How it works
 
-### 主要優點
+The new calculation varies by module type:
 
-#### 共享內容的直接擁有者可見性
+* **Video and audio modules**: Active when the content is playing, even if the learner switches to another tab. Tab focus is not required for tracking playback time.
+* **Static modules (PDF, PPT, Excel, and so on)**: Active if on the tab and performing activities (mouse movement, scrolling, clicking, keyboard input) within the last 10 minutes. If there is no activity for 10 minutes, it switches to idle.
+* **SCORM and Captivate** retain the original open/close logic.
+* **xAPI** now uses tab‑based active time detection, where time is counted only when the tab is active. Note that AICC content **is not** supported.
+* **HTML, LTI, and Other Content**: May vary; check Learner Transcripts for accuracy.
 
-同儕帳號中的學習者與管理員現在可以：
-
-* 即使課程是透過共享目錄取得，也能查看是誰寫的。
-
-* 避免使用籠統且無助的「外部作者」標籤。
-
-#### 更一致的多租戶與對等帳號體驗
-
-對於運行多租戶或擴展企業情境的客戶：
-
-* 同樣的課程也會出現，作者品牌在不同帳號間保持一致。
-
-* 學習者的體驗會與主要帳號的期望相符（例如，看到來源帳號的作者名稱而非「外部作者」）。
-
-### 使用案例
-
-#### 大型企業與同儕帳號
-
-企業使用 ALM 與以下系統：
-
-* 擁有正典課程的主要帳號，以及
-
-* 透過共享目錄獲取內容的同儕帳號。
-
-同儕帳號的學習者需要知道是哪個企業團隊撰寫了課程，才能正確引導問題或改進建議。
-
-有了這個強化：
-
-* 共享課程現在會在同儕帳號中顯示正確的企業作者名稱。
-
-* 企業內部支援負擔減輕，因為學習者和在地管理員知道該聯絡誰。
-
-#### 內部多 BU 共享
-
-當某個事業單位為其他部門策劃學習時：
-
-* 所有消費帳戶的作者欄位中都能標示擁有的 BU。
-
-* 當地的學習與發展管理員能快速查看課程是由本地維護還是由其他教育局維護，並據此協作。
-
-## Learner API 中的 Expose Learning Object 到期日期（自動退休）
-
-### 概觀
-
-此強化讓學習物件（LO）的自動退休日期可直接透過 Adobe Learning Manager 的學習者介面 API 查詢。 當課程、學習路徑或認證設定了到期日或自動退休日期時，該資訊將成為關鍵學習者端點回傳的 LO 資料的一部分。
-
-### 有什麼新鮮事
-
-#### Learner LO API 中的新過期/自動退休欄位
-
-* 學習者 LO API（例如將學習物件回傳至學習者體驗及外部平台的端點）現在包含了 LO 的到期日（該學習物件設定的自動退休日期）。
-
-* 此欄位作為 LO 實體的一部分，回應如下：
-
-   * 取得學習物件（LO 詳細資訊）。
-
-   * LO 資料用於填充學習者首頁、目錄及搜尋結果。
-
-* 此欄位補充了實例層級已存在的完成截止日期;新欄位特指的是 LO 層級自動退休日期。
-
-#### 搜尋後備學習者經驗的可用性
-
-由於到期日作為搜尋支持的 LO 表示法的一部分被揭露，現在無論 ALM 或外部平台使用，都能取得：
-
-* 搜尋 API 或
-
-* 以搜尋為驅動的目錄與建議，用以建構學習者視角。
-
-**範圍與排除事項**
-
-這項強化僅適用於學習者 API。
-
-### 主要優點
-
-#### 自訂 LXP 中的到期感知學習者經驗
-
-對於大型及中型企業，其客製化 LXP 現在可直接從 ALM 取得 LO 到期資訊，使其能：
-
-* 在課程卡和詳細頁面上標示「即將到期 {date}」或「即將到期」的標籤。
-
-* 更清楚地以緊急語氣溝通，讓學習者優先處理即將退休的培訓。
-
-這對於合規或有時間限制的產品訓練尤其重要，因為學習對象會定期更新，舊版本則會被淘汰。
-
-#### 為學習者提供更好的指導，說明現在該參加哪些訓練
-
-透過揭露 LO 的到期，學習者的體驗可以：
-
-* 強調仍有效的課程與即將退休的課程。
-
-* 幫助學習者避免報名那些近期將不再提供或無效的培訓。
-
-#### 與現有完成截止日期資料的一致性
-
-過去，學習者 API 已經公開了實例層級的完成截止日期，但沒有公開 LO 層級的自動退休日期。 隨著這項變更：
-
-培訓的具體內容包括以下內容：
-
-* 「我必須在什麼時候之前完成這個任務？」 （完成截止日期）
-
-* 「這種訓練會持續到什麼時候？」 （自動退休/到期日）。
-
-### 使用案例
-
-#### 一個全球性企業，嚴格管理課程生命週期
-
-定期退役並更換課程（例如法規、產品或方法更新）的企業可以：
-
-* 避免學員對某項培訓是否被逐步淘汰產生混淆。
-
-* 引導學習者選擇最新且長壽的課程。
-
-他們的客製化入口網站和內部工具現在可以透過學習者 API 直接從 ALM 讀取到期日。
-
-#### 外部客戶或合作夥伴學院
-
-在客戶與合作夥伴教育方面，行銷頁面與入口網站常強調最新的培訓。
-
-LO API 中有有效期限，讓建置者能體驗：
-
-* 隱藏或淡化即將退休的內容。
-
-* 建立「最後機會完成」的戰役。
-
-## 設定模組啟動時間限制
-
-### 概觀
-
-這項增強功能讓作者和管理員在 Adobe Learning Manager 中設定一個允許學習者開始模組的時間窗口。 在設定的開始/結束視窗之外，模組仍可見於課程結構中，但學習者無法啟動。
-
-這項功能對於需要更嚴格控制特定內容何時可用或應停止啟動的使用者至關重要，例如限時計畫、隊列訓練或時間敏感的演練。
-
-### 有什麼新鮮事
-
-作者現在可以在課程模組層級設定開始日期/時間及結束日期/時間，決定學習者何時可以啟動該模組。 在此視窗內，模組行為如常;在開始時間之前或結束時間後，學習者會看到課程大綱中的模組，但無法開始。
-
-該設定會以額外排程控制功能出現在課程製作使用者介面中，針對特定模組類型，如自學內容、小考或活動。 管理員可利用這些控制建立分階段開啟的模組，或防止必須在限定時間內消費內容的程式延遲啟動。
-
-#### 主要優點
-
-其主要優點是能夠控制模組何時可存取。 培訓團隊能將模組可用性與真實事件同步，例如新產品發表、法規截止日期及內部計畫。 這確保學習者在進入後續模組前，先完成先修課程內容。
-
-例如，第一屆只能在第二週使用第二模組，而第三模組則會持續鎖定至第三週，免除手動隱藏與解除隱藏內容或建立獨立課程版本的需求。
-
-這提升了學習者的體驗：學習者不必面對技術上可以存取但不應該在那個時間點（或應該已經完成）的模組，而是看到課程結構，允許開始的模組明確符合預期的時間表。
-
-#### 使用案例
-
-* **以世代為基礎的賦能計畫**：此計畫每週開啟一個新模組。 第一週的內容立即開放，而第二週的內容則可見，但必須在指定日期前才能開始。 第三週也遵循相同的門檻流程。 學習者可以看到整個學習路徑，但系統會控制他們何時能開始每一步。
-
-* **限時產品或活動訓練**：行銷或產品團隊可能會設計一個訓練模組，該模組僅在活動進行中或特定版本產品尚未取得時才能使用。 此指定的開始時段確保學習者不會在指定結束時間後開始討論已停產產品版本的模組。
-
-* **評量或考試環境**：組織可以在短時間內開啟模組（如考試），例如「您可以在指定日期的9:00 點至12:00 點之間任何時間開始考試」。 學員無法在該時間窗口外開始考試，這有助於跨時區與世代公平排程。
-
-## 透過自訂 LTI 參數控制球員語言
-
-### 概觀
-
-此強化允許外部平台使用 LTI（學習工具互通性）在發布時指定 Adobe Learning Manager 內容的語言。 LTI 使用者不必依賴學習者在流體播放器內更改語言，而是可以透過自訂的 LTI 參數傳送語言代碼。 Adobe Learning Manager 將利用此程式碼選擇適當的語言變體。
-
-### 有什麼新鮮事
-
-作為 LTI 使用者的外部平台，現在可以在啟動 ALM 內容時傳遞自訂語言參數（及相關播放器設定）。 ALM 讀取此參數，並：
-
-* 為玩家設定相應的語言。
-
-* 當多語言內容被設定時，啟動模組的對應語言變體。
-
-這表示首次學習者在外部平台選擇法文時，將直接看到 ALM 播放器與模組以法文啟動，無需在 ALM 內部調整任何內容。
-
-此強化也適用於外部平台將 ALM 視為無頭內容播放器的情況。 例如，它允許透過傳送額外的自訂參數來隱藏導覽元素和目錄（TOC），以調整某些使用者介面設定。 這些設定與語言參數協同運作，使外部平台能提供流暢且具品牌特色的體驗，同時仍能使用 ALM 進行播放與追蹤。
-
-### 主要優點
-
-* **跨系統**&#x200B;的語言體驗一致：當學習者在外部入口網站選擇語言時，該選擇會立即反映在 ALM 中。 這確保學習者不會在入口網站語言與課程內容間出現不匹配的問題。 因此，他們不必在玩家內尋找語言切換。
-
-* **語言專屬報告**：在其平台上，語言選擇與 ALM 保持一致，提升分析與學習者追蹤的準確性。 此排列也支援在特定賽道中故意停用或隱藏 ALM 自身語言控制的設定。 在這些情況下，外部平台成為語言的唯一真實來源。
-
-### 使用案例
-
-* 一個重要的應用案例是大型企業使用 LTI 基礎的整合。 學習者首先註冊並在平台上選擇語言。 接著，他們透過LTI啟動ALM培訓課程。 透過此強化，當學習者選擇西班牙語時，ALM 模組會自動以西班牙語開啟。 這表示學習者不需要在 ALM 中調整語言設定。 此外，基於語言的報告仍與學習者在ALM中所見與經驗保持一致。
-
-* 另一個應用是在客戶或合作夥伴入口網站中提供無頭課程體驗。 在此架構中，入口網站可使用 iframe 嵌入 ALM 內容，而所有導航與語言使用者體驗（UX）則由 ALM 外部管理。 透過自訂的 LTI 參數，入口網站能確保 ALM 播放器以正確語言顯示，並隱藏任何不必要的使用者介面元素（如目錄和導覽按鈕）。 這讓學習者能感受到一個統一且完整的應用，而非一堆零散的工具集合。
-
-* 這對於使用其他學習管理系統或學習平台進行大規模多語言培訓的組織非常有利。 他們可以標準化使用該平台來管理學習者檔案、選擇地點及展示目錄。 同時，ALM 作為一個可靠的內容與追蹤引擎，尊重外部系統在每次 LTI 發布時指定的語言偏好與使用者互動。
-
-## 教師評鑑的檢查題權重清單
-
-### 概觀
-
-此改進引入了加權檢查表，讓教師與管理者能使用評分量表與總分評估學習者，而非將每個檢查表問題視為同等。 目標是透過對問題實施加權評估，促進檢查清單的建立，讓不同行動或技能在單一清單中反映其相對重要性。
-
-### 有什麼新鮮事
-
-檢查清單將支援以下類型：
-
-1. 是/不是行為與今日相同：每題為是/否，通過標準依據「是」回答的數量。
-
-2. 同權重問題
-
-   * 題目以數值評分（預設為0至10），其中：
-
-      * 體重秤上的最大/最小值可以在檢查表層級自訂。
-
-      * 量表現在可以從0開始（之前最低分數是1）。
-
-   * 所有題目共有相同的最高分數，因此檢查表對每題目都呈現統一的評分標準。
-
-3. 不同權重問題
-
-   * 每題都有自己的最高分（權重）。
-
-   * 及格標準取決於學習者在整個檢查清單中達成的總分數百分比（例如：「若學習者達到總可用分數的≥ 70%，即通過」）。
-
-針對所有清單類型：
-
-* **審查員**（講師或經理）依照所設定的檢查清單類型評估學習者：
-
-   * 選擇是/否。
-
-   * 選擇定義分數的分數。
-
-* **檢查表**&#x200B;報告已更新，針對不同權重問題，新增：
-
-   * 每題的最高分數。
-
-   * 每位學習者在該題目中所獲得的分數。
-
-這讓整體表現及題目專屬表現能依據預期權重進行分析。
-
-### 主要優點
-
-* **更豐富、更現實的評估**：教師可以透過給予關鍵行為更多分數、較少給予次要行為，同時仍採用適合觀察或實務任務的清單工作流程，反映現實世界的優先事項。
-
-* **基於總分的通過/不通過**：評估可依據整體百分比分數，而非僅僅通過門檻的題目數量，更貼近一般的能力或評分標準。
-
-* **更佳的報告**：更新的檢查表報告顯示每題最高分數與達成分數，讓計畫負責人與品質團隊能找出具體弱點，並精進訓練或評估指引。
-
-### 使用案例
-
-* **企業技能評估**：工程師透過實務且情境化的檢查清單進行評估，某些診斷或溝通步驟必須比表面或低風險步驟更具分量。 加權題目與總分通過標準使這些評量更具可信度，並能預測真實表現。
-
-* **安全與合規觀察**：在醫療、製造或現場服務中，關鍵安全步驟可被給予較高的最高分數，確保錯過安全關鍵動作對總分的影響大於漏掉一個次要程序步驟。
-
-* **指導與校準**：透過報告中每題的最大與達成分數，管理者能精確看到學習者表現不佳的部分，並調整教師如何穩定取得分數。
-
-## 附有評論功能給審稿人的檢查清單
-
-### 概觀
-
-這項改進引入了檢視清單評鑑的評論功能，讓評審人員（如講師與經理）能在數值分數之外，提供質性回饋。 必要時，這些回饋可以讓學習者看見。
-
-目標是支持以清單為基礎的評估，導師回饋與數字結果同等重要。 這包括突顯具體優勢、需要改進的空間，或為該分數提供背景說明。
-
-如今，評論者可以：
-
-* 逐題評估每位學習者的檢查清單。
-
-* 查看結果並重新評估失敗的學習者。
-
-在真實情境中，如航空，實地訓練師會評估車間人員及機場員工。 同樣地，中小企業（SME）的講師與導師常使用檢查表來評估工作表現。 然而，這些檢查表通常不包含結構化的章節，用以捕捉與評估相關的敘述性回饋。
-
-### 有什麼新鮮事
-
-#### 撰寫選項
-
-作者可將每個檢查清單配置為：
-
-* 啟用或關閉評論者留言功能。
-
-* 決定是否應該將評審者的名字與評論一同顯示給學習者。
-
-這讓組織能依其文化與隱私需求量身打造評論可見度。
-
-#### 評測體驗
-
-啟用留言功能時：
-
-* 審查員（講師/經理）在評估檢查清單時可以加入可選的評論。
-
-* 他們可以根據檢查清單設定，選擇是否讓學習者看到評論。
-
-如果他們重新評估學習者，可以更新或更改評論以反映最新的評估。
-
-#### 報告與通知
-
-* 檢查清單報告新增一欄，收錄評審意見，記錄評估時的評論內容。
-
-* 每當檢查清單評估發生時，學習者會收到通知（平台內及電子郵件）。 這些通知包括：
-
-   * 評論和
-
-   * 如果評論者的名字設定為可見的話。
-
-這確保回饋不僅被儲存，還能主動呈現給學習者。
-
-### 主要優點
-
-* **更豐富、類似教練的回饋**：數字分數搭配情境性評論，使檢查清單成為教練更有效的工具，而不僅僅是合規。
-
-* **可追溯性與可**&#x200B;稽核性：組織能持續獲得誰評估誰、何時、所說何話的紀錄，這在受監管環境及高風險角色中非常重要。
-
-* **提升學習者參與**&#x200B;度：學習者獲得與特定評量相關的明確指導，提升對期望及後續步驟的理解。
-
-### 使用案例
-
-* 擁有受規範環境的組織，可以利用評論來記錄臨床判斷或程序性回饋，供現場觀察的員工使用。
-
-* 航空與地勤組織可附上詳細的營運績效、安全實務及面向客戶的行為筆記，將檢查清單轉化為結構化的回顧工具。
-
-* 在導師制與專家評估中，講師能捕捉到無法單靠分數呈現的細微觀察，例如「處理升級處理良好，但需改善時間管理」或「優秀的故障排除流程;漏掉了一個文件步驟。」
-
-## 內容層級的多次嘗試與測驗報告
-
-### 概觀
-
->[!IMPORTANT]
->
->請注意，這個功能只有在帳號啟用後才會開放。 聯絡ALM客服。
-
-
-目前，ALM 透過多重測驗嘗試（MQA）功能，支援 LMS 層級的多次嘗試：
-
-* 作者可在課程層級設定嘗試次數（適用於課程中所有含測驗的模組）或模組層級（每個測驗模組）。
-
-* 嘗試方式可以包括：
-
-   * 具體數量（例如，3次嘗試），或
-
-   * 無限次嘗試，由LMS層級控制。
-
-* 當學習者透過流體播放器使用模組後關閉該模組或完成模組時，該會話視為一次 LMS 嘗試。
-
-* 每次 LMS 嘗試都會被記錄在 L2 測驗報告中，作為新一列。
-
-然而，若內容檔案本身（例如 Articulate SCORM 測驗）實作了自己的多次嘗試邏輯，ALM 的 L2 測驗報告目前無法正確區分或追蹤這些內部嘗試。
-
-此改進引入了測驗內容層級的多次嘗試追蹤，讓 Adobe Learning Manager 能準確記錄 L2 測驗報告中內容中的每次嘗試。 它設計給內容創作工具（例如 Articulate SCORM）獨立管理測驗嘗試的情況。 透過此功能，嘗試結果能正確反映在 ALM 報告中，無需依賴 LMS 層級的多重測驗嘗試（MQA）設定。
-
-### 有什麼新鮮事
-
-#### 內容層級嘗試的作者標記
-
-* 當將內容上傳到內容庫時，作者現在可以標示特定內容檔案中嵌入了多次嘗試。
-
-* 這是一個按內容設定，指示 ALM 將內容內定義的嘗試視為真實來源。
-
-#### 課程/模組行為
-
-當此類內容被用於課程時：
-
-* 模組的嘗試將來自內容，而非 LMS MQA。
-
-* 學習者僅會看到一次LMS等級的嘗試：
-
-   * 課程總覽和模組檢視不會顯示該模組的 LMS 「重試」按鈕。
-
-   * 嘗試處理（例如在測驗中重試）由內容本身決定。
-
-#### 報導
-
-L2測驗報告將每個內容層級的嘗試視為獨立的嘗試列：
-
-* 內容中設定的每個內部測驗嘗試，在 L2 測驗報告中會以獨立的一列呈現，就像現今 LMS 層級的嘗試一樣。
-
-* 每列的格式與 L2 報告中現有的多次嘗試列相同（欄位、結構與語意相同）。
-
-* 這能提供一致的報告體驗：
-
-   * 無論嘗試是由 LMS MQA 控制還是內容，L2 測驗報告都會顯示每次嘗試一列。
-
-#### 主要優點
-
-* SCORM 測驗的嘗試歷史準確，且這些測驗由 Articulate 等工具內部控制，且不會強迫 LMS 級別的 MQA 設定。
-
-* 更乾淨的學習體驗：對於內容控制的嘗試，學習者在 LMS 層級看到單一欄位，無需與 LMS 重試控制互動;所有重考都在他們已經熟悉的測驗介面裡處理。
-
-* 彈性架構：使用者可依內容撰寫方式及偏好管理嘗試方式，選擇以 ALM MQA 或內容層級嘗試驅動各模組行為。
-
-* 一致的報告模式：L2測驗報告的下游使用者可將每一列視為「一次嘗試」，不論嘗試邏輯來源為何。
-
-#### 使用案例
-
-* 使用 Articulate SCORM 的組織可以在 SCORM 套件中保留自包含的測驗邏輯，同時在 ALM 中達成準確的嘗試級報告，無需額外設定 LMS。
-
-* 使用廠商提供的 SCORM 內容的組織，可以避免使用 LMS 層級 MQA 修改或實作額外的嘗試與重試邏輯。
-
-## 講師的 QR 碼，例如報名和參加課程
-
-### 概觀
-
-此強化讓教師能自行產生 QR 碼，用於：
-
-* 課程實例註冊，
-
-* 會議出席率，或
-
-* 註冊人數+出席人數合計
-
-在會議層級。 它設計用於學習者進入實體或混合教室，需要快速自助方式註冊並使用 QR 碼記錄出勤的情況。
-
-### 有什麼新鮮事
-
-#### 講師產生的 QR 碼
-
-* 講師可以在課程層級產生 QR 碼：
-
-   * 註冊實例：學習者掃描以註冊包含當前課程的實例。
-
-   * 標記課程出席：學習者在課程中及結束時掃描該課程的出席情況。
-
-   * 註冊實例 + 標記會議出席：一種結合的QR服務，適用於尚未註冊且需一步步完成出席的臨時入診者。
-
-* 教師可以根據情況（報名、出席或兩者兼有）匯出所需的QR碼。
-
-#### QR 碼包裝
-
-匯出的 QR 碼 PDF 包含：
-
-* 球場名稱
-
-* 實例名稱
-
-* 會話名稱
-
-這些卡片讓講師和協調員能輕鬆辨識並列印每場課的正確 QR 碼。
-
-### 主要優點
-
-* **講師自主權**：講師不再需要等待管理員製作 QR 碼。 他們可以直接為每場遊戲生成，提升敏捷度並降低協調負擔。
-
-* **更完善的教室後勤**：對於現場或現場觀眾（如現場工作人員、車間工作人員或外部與會者），教師可即時使用 QR 碼管理報名與出席。
-
-* **降低管理工作量**：管理團隊可以專注於設定與治理，而非每次會話的例行 QR 碼產生請求。
-
-### 使用案例
-
-* 舉辦大量現場課程（例如專業人士產品訓練）的組織，可以讓講師列印專屬課程的 QR 碼，一次掃描即可報名並標記出席。
-
-* 在零售、製造及醫療培訓中，學習者常直接從現場或無需預先註冊即可參加課程，門口可放置「報名+出席」的QR碼。 這讓學習者能透過手機自行註冊與出席。
-
-* 為合作夥伴或客戶舉辦的培訓活動，讓現場講師能輕鬆適應教室變動、額外課程或更多參加者，無需向管理員申請新的 QR 碼。
-
-## Captivate 與 ALM 玩家改進
-
-### 概觀
-
-此強化提升了在 Adobe Learning Manager（ALM）播放器中播放 Adobe Captivate 內容的體驗，尤其是在 Captivate 架構近期變更之後。 目標是讓學習者能原生參與 ALM 中的 Captivate 模組，同時確保導航、完成追蹤及筆記清晰、一致且可靠。
-
-### 有什麼新鮮事
-
-#### 統一目錄體驗
-
-* 只有 ALM 目錄會顯示在玩家左側。
-
-* 當模組在 ALM 中播放時，Captivate 自己的目錄會被隱藏。
-
-* 這消除了重複，確保了導航的單一真實來源，並釋放了螢幕空間。
-
-#### 視覺完成回饋
-
-* ALM 目錄中顯示綠色勾號（或等效的視覺提示），表示投影片層級完成。
-
-* 隨著學習者在 Captivate 投影片中進展，ALM 目錄會反映已完成的投影片，符合學習者對現代課程參與者的期望。
-
-#### 情境進度控制
-
-* 玩家操作會依滑套類型調整：
-
-   * 關於影片投影片：
-
-      * 顯示時間進度條，反映影片播放。
-
-* 非影片投影片：
-
-   * 顯示幻燈片導航控制（下一頁/上一張投影片等） 而不是一個無法運作的時間條。
-
-      * 這樣可以避免某些幻燈片類型顯示無關或失效的控制。
-
-#### 簡化導航
-
-* 獨立模組導航列（ALM）與航道導航列合併為單一直覺的條狀。
-
-* 這個統一的導航：
-
-   * 清楚區分 Captivate 模組與回到課程/模組層級。
-
-   * 減少多條重疊用途的混淆。
-
-#### 可靠筆記連結
-
-* 筆記是連結到幻燈片編號，而非時間戳記。
-
-* 這項變更：
-
-   * 修正因缺少或錯誤時間戳記而導致的匯出失敗。
-
-   * 確保筆記能穩定匯出為 PDF，且筆記與所屬幻燈片上下文之間有可靠的對應。
-
-### 主要優點
-
-* 更乾淨的單人遊戲體驗：學習者可與一個目錄和一個導航模型互動，減少混淆與認知負擔。
-
-* 準確的完成度與進度指示：滑動級勾號與情境控制幫助學習者了解自己目前的位置與剩餘內容。
-
-* 更可靠的筆記與匯出：透過將筆記綁定在投影片上，而非脆弱的時間戳記，使用者即使使用投影片式 Captivate 內容，也能恢復可靠的筆記轉 PDF 工作流程。
-
-* 保留作者工作流程：作者保留 Captivate 直接發佈到 ALM 的簡單性，而學習者則能享有現代化整合的播放體驗，無需額外撰寫負擔。
-
-### 使用案例
-
-* 依賴 Captivate 進行互動模擬的啟用程式，能將內容部署至 ALM，確保導航、完成追蹤與筆記對學習者而言持續運作。
-
-* 使用 Captivate 作為主要內容創作工具的組織，可以維持一鍵發佈，避免學習者混淆雙重目錄及非功能性的控制項。
-
-* 依賴從 ALM 中匯出 Captivate 內容的筆記（用於指導、合規或記錄）的組織，可以存取以下資料：
-
-   * 筆記正確連結到投影片。
-
-   * PDF 會如預期般產生。
-
-## 學習者成績單計算中學習時間的提升
-
-### 概觀
-
-Adobe Learning Manager 於 2026 年 4 月發布，修訂了學習者成績單中學習時間的計算方式。 過去，若學習者在未參與內容的情況下將玩家開放，報告邏輯可能導致時間不準確，造成差異。 新方法現在根據用戶互動來追蹤活動時間，特別是當分頁聚焦及有使用者活動時。 此變更帶來更精確的數據。
-
-此更新改善了報告與儀表板，幫助管理員更好地確保合規並追蹤學習進度。 發布後，請檢視你的學習者成績單，以了解這些改進。
-
-更新後的計算方法著重於實際互動，如活躍分頁焦點及近期使用者互動，從而提升以下領域的時間報告準確度：
-
-* 學習者成績單（UI）
-* 管理儀表板指標
-* 課程註冊報告
-* API 與連接器
-
-### 改變了什麼
-
-**學習者成績單中的「學習時間所花費**」欄位現在採用改良的邏輯，能更精確地計算時間。系統不再只是追蹤玩家的開放/關閉時間，而是根據用戶互動區分活躍與閒置時間。
-
-* **主動時間**：學習者積極投入的時間（例如，在正確的分頁上，執行滑動或觀看影片等動作）。
-* **閒置時間**：學習者未被投入的時間（例如切換分頁、10+分鐘無活動），此時間不計入總計時。
-
-此規定適用於大多數模組類型，唯獨 SCORM、Captivate 與 XAPI 模組例外，這些模組保留原始邏輯。
-
-### 運作原理
-
-新的計算方式依模組類型而異：
-
-* **影片與音訊模組**：當內容播放時會啟動，即使學習者切換到其他分頁。 追蹤播放時間不需要用到標籤焦點。
-* **靜態模組（PDF、PPT、Excel 等）：**&#x200B;若在分頁上並執行滑鼠移動、捲動、點擊、鍵盤輸入等活動，則為啟用。 如果 10 分鐘內沒有活動，就會切換到閒置。
-* **SCORM 和 Captivate** 保留了原本的開閉邏輯。
-* **xAPI** 現在採用分頁式的活動時間偵測，只有在分頁啟用時才計算時間。 請注意，AICC內容 **不** 被支援。
-* **HTML、LTI及其他內容**：可能有所不同;請查閱學習者成績單以確保準確性。
-
-空閒時間會被扣除，確保只報告真實的交戰時間。
+Idle time is subtracted, ensuring only true engagement time is reported.
 
 >[!NOTE]
 >
->如果你的筆電進入睡眠模式，學習時間可能無法正確追蹤。 這是因為活動追蹤會在系統休眠時暫停，只有在筆電喚醒時才會恢復。
+>If your laptop goes into sleep mode, learning time may not be tracked correctly. This is because activity tracking pauses while the system is asleep and resumes only when the laptop wakes up.
 
 
-### 摘要表
+### Summary table
 
-| **模組類型** | **有效時間（計入）** | **閒置時間（不含）** |
+| **Module type** | **Active time (counted)** | **Idle time (excluded)** |
 | --- | --- | --- |
-| **影像/音訊** | 播放時間 | 還沒開始;結束;暫停 **\>10分鐘** |
-| **靜態（PDF/PPT/文件）** | 分頁開啟 **狀態與** 最近 **10分鐘的活動** | 無活動 **\>10 分鐘**;分頁不活躍 |
-| **SCORM** | 以內容運行時間報告的時間 | 怠速無法偵測 |
-| **吸引人** | 滑棒式計時 | 怠速無法偵測 |
-| **xAPI** | Tab 鍵啟用 | 分頁不啟用 |
-| **HTML** | 啟用分頁時的球員開放時間 | 分頁不啟用 |
-| **LTI 生產者/消費者** | 如果 LTI 內容是在 ALM 播放器中播放（也就是說，ALM 正在消費由另一個 LMS 上託管的 LTI 內容，並作為製作人），那麼這個耗時邏輯就適用。<br><br>然而，若內容在 LMS 外播放（即內容托管於 ALM，ALM 為製作者，但播放在外部播放器中進行），則此部分時間計算邏輯不適用。  <br>**注意**：Adobe Learning Manager 不支援 LTI 消費者版。 | 分頁不啟用 |
+| **Video / Audio** | Playback time | Not started; ended; paused **\>10 min** |
+| **Static (PDF/PPT/DOC)** | Tab active **and** activity in last **10 min** | No activity **\>10 min**; tab inactive |
+| **SCORM** | Time reported by content runtime | Idle cannot be detected |
+| **Captivate** | Slide‑based timing | Idle cannot be detected |
+| **xAPI** | Tab active | Tab inactive |
+| **HTML** | Player open time with tab active | Tab inactive |
+| **LTI Producer/Consumer** | If LTI content is played within ALM's player (that is, ALM is consuming LTI content hosted on another LMS acting as the Producer), then this time‑spent logic applies.<br><br>However, if the content is played outside the LMS (that is, the content is hosted in ALM, then ALM is the Producer, but the playback happens in an external player), this portion of the time‑calculation logic does not apply.  <br>**Note**: LTI Consumer is not supported in Adobe Learning Manager. | Tab inactive |
 
-**註：**
+**Note**:
 
-* **重訪與平行會議**：當符合上述條件時，視為有效。
-* **所有裝置、瀏覽器、語言**：包含;同步後新增離線行動使用功能。
+* **Revisits and parallel sessions**: Count as active when the above conditions are met.
+* **All devices, browsers, languages**: Included; offline mobile usage is added after sync.
 
-### 新計算的好處
+### Benefits of the new calculation
 
-* **準確報告**：消除無人看管玩家誇大的學習時間，提供真實的學習時間。
-* **更佳的合規**&#x200B;性：支援強制訓練的精確追蹤（例如公司每月要求5小時）。
-* **改進的**&#x200B;儀表板：用戶活動圖表與時間報告現在反映實際互動。
-* **學習者洞察**：協助管理者辨識真實進展，並針對缺乏投入感的學習者提供協助。
+* **Accurate reporting**: Eliminates inflated times from unattended players, providing realistic learning durations.
+* **Better compliance**: Supports accurate tracking for mandatory training (for example, a company's 5-hour monthly requirement).
+* **Improved dashboards**: User activity graphs and time-spent reports now reflect actual engagement.
+* **Learner insights**: Helps administrators identify genuine progress and address disengaged learners.
 
-### 報告與分析影響
+### Reporting and analytics impact
 
-* **學習者成績單：「** 學習時間花費」現在反映 **出實際的參與**&#x200B;度。
-* **管理儀表板：** 包含時間的指標（例如「花費時間」的圖塊、趨勢）會在閒置時間先前膨脹的情況下，顯示 **較低但更貼近現實** 的數值。
-* **課程註冊報告：** 與時間相關的欄位在上線後採用 **新計算** 方式。
-* **可比較性說明：** 由於歷史資料不會重新計算，跨越發布日期的時間序列分析可能會顯示階 **梯變化**。 可以考慮在分析工具中標註或依日期分段。
+* **Learner Transcripts:** "Learning Time Spent" now reflects **actual engagement**.
+* **Admin Dashboard:** Metrics that include time (for example, "time spent" tiles, trends) will show **lower but more realistic** values in scenarios where idle time previously inflated results.
+* **Course Enrollment reports:** Time‑related fields adopt the **new calculation** post‑launch.
+* **Comparability note:** Because historical data is not recalculated, time‑series analyses that span the release date may show a **step change**. Consider annotation or segmentation by date in analytics tools.
 
-### API 與連接器
+### API and connectors
 
-* **不會對報告所花費時間的現有端點或欄位做結構變更** 。
-* **欄位語意**&#x200B;會更新以反映&#x200B;_功能推出後&#x200B;**會**&#x200B;話的活動時間計算_。
-* **使用時間欄位的連接器與匯出** 將自動接收更新值。
+* **No schema changes** to existing endpoints/fields that report time spent.
+* **Field semantics** are updated to reflect _active‑time calculation_ for sessions **after** the feature launch.
+* **Connectors and exports** consuming time‑spent fields will automatically receive the updated values going forward.
 
-### 向下相容性與資料遷移
+### Backward compatibility and data migration
 
-* **歷史場次：** 未重新計算。
-* **新課程：** 使用 **新的** 活動時間計算方法。
-* **混合期間：**&#x200B;審計或縱向報告時，依啟動&#x200B;**前後分段**，以避免誤解。
+* **Historical sessions:** Not recalculated.
+* **New sessions:** Use the **new** active‑time calculation.
+* **Mixed periods:** For audits or longitudinal reporting, segment by **pre‑/post‑launch** to avoid misinterpretation.
 
-### 已知限制
+### Known limitations
 
-* **互動內容** （SCORM/Captivate）仍依賴內容提供的時序;內容內無法偵測閒置偵測。
-* **基於 Iframe 的內容** （HTML/xAPI）限制了細粒度互動的偵測;改用分頁焦點。
+* **Interactive content** (SCORM/Captivate) continues to rely on content‑provided timing; idle detection within the content is not available.
+* **Iframe‑based content** (HTML/xAPI) limits detection of fine‑grained interactions; tab focus is used instead.
 
-### 常見問題
+### Frequently asked questions
 
-**這次更新會改變歷史紀錄嗎？**
+**Does this update change historical records?**
 
-不。 此變更僅適用於功能推出後的會話。
+No. The change applies only to sessions after the feature launch.
 
-**我要怎麼驗證這些變更？**
+**How do I verify the changes?**
 
-請查看學習者成績單以獲取近期模組;比較時間與預期持續時間。
+Check Learner Transcripts for recent modules; compare times to expected durations.
 
-**這會影響所有帳號嗎？**
+**Does this affect all accounts?**
 
-是的，這是針對所有 Adobe Learning Manager 帳號的全球更新。
+Yes, it's a global update for all Adobe Learning Manager accounts.
 
-**學習者需要採取行動嗎？**
+**Do learners need to take action?**
 
-不。 這種改變對學習者來說是自動且透明的。
+No. The change is automatic and transparent to learners.
 
-**如果學習者留下內容開放怎麼辦？**
+**What if learners leave content open?**
 
-閒置時間被排除在外，以防止過度報告。
+Idle time is now excluded, preventing over-reporting.
 
-**當分頁未啟用時，視訊/音訊會話自動暫停嗎？**
+**Are video/audio sessions auto‑paused when the tab is inactive?**
 
-不。 播放行為沒有改變。 暫停>10分鐘或未進行遊戲時，時間不計入。
+No. Playback behavior is unchanged. Time is excluded when paused >10 minutes or when not actively playing.
 
-**離線行動活動會反映出來嗎？**
+**Will offline mobile activity be reflected?**
 
-是的。 裝置同步時會包含離線使用。
+Yes. Offline usage is included when the device syncs.
 
-**如果儀表板顯示平均值變低，我該怎麼辦？**
+**What should I do if my dashboards now show lower averages?**
 
-這是預期之內，因為閒置時間過去會讓結果被抬高。 標註儀表板並視需要調整目標。
+This is expected where idle time had previously inflated results. Annotate dashboards and adjust targets as needed.
 
-**有什麼先修條件嗎？**
+**Are there any prerequisites?**
 
-沒有;這種變化是自動發生的。
+None; the change is automatic.
 
-## 管理員學習成績單報告更新
+## Update to Learning Transcript reports for Administrators
 
-我們正在更新管理員的學習成績單（LT）報告，以更好地支援以檢查清單為基礎的評估及審查者回饋。
+We are updating the Learning Transcript (LT) reports for Admins to better support checklist-based evaluations and reviewer feedback.
 
-## 有什麼改變？
+## What is changing?
 
-### &#x200B;1. 管理員學習成績單中的欄位名稱重命名
+### 1. Column Rename in Admin Learning Transcript
 
-管理員學習中現有 **的投稿評論** 欄逐字稿如下：
+The existing **Submission comment** column in the Admin Learning
+Transcript is:
 
-1. **更名為：** `Reviewer's remarks`
+1. **Renamed to:** `Reviewer's remarks`
 
-### 本欄所示數據：
+### Data shown in this column:
 
-* **提交模組：**&#x200B;欄位繼續顯示提交留言（行為無變化）。
+* **For submission modules:**
+   The column continues to display the submission comment (no behavioral change).
 
-* **對於清單模組：**&#x200B;欄位現在顯示評價評論（檢查清單審查者的評論）。
+* **For checklist modules:**
+   The column now displays the evaluation comment (the checklist reviewer's remarks).
 
-此變更適用於所有行政LT來源：
+This change applies to all Admin LT sources:
 
-* LT 從管理員介面下載的
-* LT 是透過 Job API 取得的
-* LT 透過連接器產生
+* LT downloaded from the Admin UI
+* LT obtained via the Job API
+* LT generated via Connectors
 
-此變更後，同一欄位包含：- 提交模組的提交評論
+After this change, the same column carries: - Submission comments for submission modules
 
-* 檢查清單模組的評估評論
+* Evaluation comments for checklist modules
 
-在新標題 **下，評論**&#x200B;者備註。
+Under the new header name **Reviewer's remarks**.
 
-### &#x200B;2. 連結式學習成績單匯出中的新欄位
+### 2. New Column in Connector-Based Learning Transcript Exports
 
-對於連結匯出學習成績單：
+For connector-exported Learning Transcripts:
 
-* 報告末尾新增一個名為 **「評論者評論** 」的欄目。
-* 本欄包含評論者的評論，與上述行為相符：
-   * 投稿模組的投稿評論
-   * 檢查清單模組的評估評論
+* A new column named **Reviewer's remarks** is added at the end of the report.
+* This column contains the reviewer's comments, aligned with the behavior described above:
+    * Submission comments for submission modules
+    * Evaluation comments for checklist modules
 
-## 對現有整合與自動化的影響
+## Impact on existing integrations and automations
 
-如果您正在自訂整合、自動化或外部報告工具中使用學習成績單報告，請參考以下情境：
+If you are using Learning Transcript reports in custom integrations, automations, or external reporting tools, please review the following scenarios:
 
-| 劇本 | 影響 | 需要採取行動 |
+| Scenario | Impact | Action required |
 |----------|--------|----------------|
-| 你可以在 Admin LT 中依欄位名稱來識別欄位（例如「提交評論」） | 欄位標題改為評論員備註。 | 是的。 更新任何引用投稿評論的映射或邏輯，以使用審稿人註解。 |
-| 你在 Admin LT 中只依欄位位置來識別欄位（基於索引） | 此欄在行政中保持不變。 | 通常不會有行動。 如果你的邏輯不依賴標頭文字，Admin LT 不需要更改，只要在目前使用「Submission Comments」欄位時更改欄位名稱即可。 |
-| 你使用連接器匯出的 LT，並依賴固定的欄位數或特定的最後一欄位置 | 報告末尾會新增一欄。 | 是的。 調整解析或驗證邏輯，以考慮檔案末尾多出一欄的情況。 |
-| 你用連接器匯出的 LT 和以欄名映射 | 新專欄「評論者評論」已開放。 | 可選的。 除非你想使用新的審查者或評論清單資料，否則不需要更改。 |
+| You identify fields in Admin LT by column name (for example, "Submission comment") | The column header changes to Reviewer's remarks. | Yes. Update any mappings or logic that reference Submission comment to use Reviewer's remarks. |
+| You identify fields in Admin LT by column position only (index-based) | The position of this column remains the same in Admin LT. | Usually no action. If your logic does not depend on the header text, no change is needed for Admin LT, just change the column name if currently 'Submission Comments' column is used. |
+| You use connector-exported LT and rely on a fixed column count or specific last-column position | A new column is appended at the end of the report. | Yes. Adjust parsing or validation logic to account for an extra column at the end of the file. |
+| You use connector-exported LT and map by column name | A new column Reviewer's remarks is available. | Optional. No change is required unless you want to consume the new reviewer/checklist comments data. |
 
-**你該怎麼做**
+**What you should do**
 
-* 檢視任何會消耗 Admin Learning Transcript 報告的腳本、ETL 工作、儀表板或整合。
-* 如果你參考舊的欄名 _提交留言_，請更新你的設定或程式碼，改用新的欄名 Reviewer&#39;s Remarks 。
-* 如果你使用基於連接器的 LT 匯出，且假設欄位數固定或最後一欄固定，請更新邏輯，讓匯出結束時能處理額外的欄位。
+* Review any scripts, ETL jobs, dashboards, or integrations that consume Admin Learning Transcript reports.
+* If you reference the old column name _Submission comment_, update your configuration or code to use the new column name Reviewer's remarks.
+* If you use connector-based LT exports and assume a fixed number of columns or a fixed last column, update your logic to handle an additional column at the end of the export.
 
-如果你目前的實作純粹依賴 Admin LT 的欄位位置，且不驗證或依賴欄位標題文字，則 Admin LT 本身無需更改。 只有連接器匯出需要注意，當你依賴固定的佈局時。
+If your current implementation relies purely on column positions in Admin LT and does not validate or depend on the column header text, no change is required for the Admin LT itself. Only connector exports need attention when you depend on a fixed layout.
 
 
-## Experience Builder 的非登入體驗
+## Non-logged-in experience in Experience Builder
 
-Experience Builder 的非登入體驗讓組織能向所有訪客（包括尚未登入者）展示其學習內容與入口頁面。 此功能旨在吸引、告知並吸引潛在學習者，透過在要求他們登入或註冊前，提供流暢且具品牌特色的培訓預覽。
+The non-logged-in experience in Experience Builder allows organizations to display their learning content and portal pages to all visitors, including those who have not signed in. This feature is designed to attract, inform, and engage prospective learners by offering a smooth and branded preview of your training offerings before requiring them to log in or enroll.
 
-此功能讓你能使用與標準體驗建構器相同的使用者友善拖放介面，建立並自訂面向公開的頁面。 你可以展示課程目錄、分類、路徑，以及豐富的靜態內容，包括圖片、文字、HTML 和嵌入的 iframe，讓所有造訪你入口網站的人都能看到。 這讓你輕鬆突顯學習計畫、推廣新課程，並向更廣泛的受眾提供重要資訊。
+This feature lets you create and customize public-facing pages using the same user-friendly drag-and-drop interface found in the standard Experience Builder. You can showcase course catalogs, categories, paths, and rich static content, including images, text, HTML, and embedded iframes, for anyone visiting your portal. This makes it simple to highlight your learning programs, promote new courses, and provide essential information to a broader audience.
 
-訪客可瀏覽目錄、查看課程與實例詳情，並利用全球搜尋探索可行的培訓機會。 然而，需要使用者身份的行為，例如報名課程、使用個人化功能（如行事曆、合規、排行榜或社交學習）或接受培訓，訪客會被提示登入。 此方法確保敏感且個人化的資訊安全，同時提供完整的預覽體驗。
+Visitors can browse the catalog, view details about courses and instances, and utilize the global search to explore available training opportunities. However, actions that require a user's identity, such as enrolling in a course, accessing personalized features (like, Calendar, Compliance, Leaderboard, or Social Learning), or consuming training, will prompt the visitor to log in. This approach ensures that sensitive and personalized information remains secure while still allowing for a comprehensive preview experience.
 
-管理員可以設定哪些頁面和小工具對未登入的使用者開放，確保只顯示適當的內容。 頁面可設定為對已登入與未登入用戶皆可存取，或僅限於其中一組。 體驗建構器提供預覽模式，讓你在頁面發佈前能精確看到訪客的呈現。
+Administrators have the ability to configure which pages and widgets are visible to users who are not logged in, ensuring that only suitable content is displayed. Pages can be set to be accessible to both logged-in and non-logged-in users, or exclusively for one of these groups. The Experience Builder offers a preview mode, allowing you to see exactly how your pages will appear to visitors before they are published.
 
-要啟用此功能，您的 ALM 整合管理員必須啟用訓練資料存取連接器。 此連接器確保課程中繼資料對外開放。
+To enable this feature, your ALM integration administrator must activate the Training Data Access Connector. This connector ensures that course metadata is publicly accessible.
 
-品牌與在地化皆有完整支援，讓您能自訂頁面標題、字樣圖和語言設定，以符合組織身份並滿足受眾需求。 作為過渡到此強化體驗的一部分，非登入用戶的舊有首頁功能將被棄用。 因此，所有新的公開內容都應使用體驗建構器來建立。
+Branding and localization are fully supported, enabling you to customize page titles, favicons, and language settings to align with your organization's identity and meet your audience's needs. As part of the transition to this enhanced experience, the legacy homepage feature for non-logged-in users will be deprecated. Therefore, all new public content should be created using Experience Builder.
 
-### 此功能的目的
+### Purpose of the feature
 
-Experience Builder 的非登入體驗讓組織能公開展示其學習內容與入口網站頁面，無需使用者登入。 這有助於吸引、告知並吸引潛在學習者，透過在註冊或認證前預覽可用的培訓與資源。
+The non-logged-in experience in Experience Builder allows organizations to publicly showcase their learning content and portal pages to anyone, without requiring users to log in. This helps attract, inform, and engage potential learners by providing a preview of available training and resources before enrollment or authentication is needed.
 
-### 非登入經驗的實際應用案例
+### Real-world use cases on non-logged-in experience
 
-* **行銷與推廣**：組織可透過公開課程目錄與課程細節，向外部受眾如潛在客戶、合作夥伴或求職者推廣其培訓計畫。
-* **報名前探索**：學習者可以在報名或登入前瀏覽可用課程、查看概覽及探索分類，幫助他們做出明智的報名決策。
-* **企業培訓入口**&#x200B;網站：公司可提供面向公眾的合規或入職資訊入口，讓新進員工或承包商在取得資格前能了解可用的培訓內容。
-* **活動或活動登陸頁**：舉辦學習活動或活動的組織可建立專屬公開頁面，突出介紹精選課程、課程表或資源，提升能見度與參與度。
-* **SEO 與可**&#x200B;發現性：透過將部分頁面和目錄公開，組織提升搜尋引擎能見度，幫助人們在線上發現他們的學習資源。
+* **Marketing and outreach**: Organizations can promote their training programs to external audiences, such as prospective customers, partners, or job applicants, by making course catalogs and program details publicly accessible.
+* **Pre-enrollment exploration**: Learners can browse available courses, view overviews, and explore categories before deciding to sign up or log in, helping them make informed enrollment decisions.
+* **Corporate training portals**: Companies can provide a public-facing portal for compliance or onboarding information, allowing new hires or contractors to see what training is available before they receive credentials.
+* **Event or campaign landing pages**: Organizations running learning campaigns or events can create dedicated public pages to highlight featured courses, schedules, or resources, increasing visibility and engagement.
+* **SEO and discoverability**: By making select pages and catalogs public, organizations improve their search engine visibility, helping people to discover their learning offerings online.
 
-### 非記錄經驗的關鍵概念
+### Key concepts of non-logged in experience
 
-Experience Builder 的非登入體驗讓你能公開展示學習內容和入口頁面，讓訪客無需登入即可瀏覽。
+Experience Builder's non-logged-in experience lets you publicly showcase learning content and portal pages, allowing visitors to browse without logging in.
 
-* **建立公開頁面與選單**：您可以建立頁面和單一選單，讓所有人都能存取，不論登入狀態如何。
-* **只新增支援的小工具**：你包含不需要使用者上下文的小工具（分類、課程與學習路徑、內容框、HTML、iframe），而系統則隱藏使用者專屬的小工具。
-* **設定自適應頁面行為**：您可以決定頁面是否同時顯示在登入與未登入的使用者身上，系統會根據登入狀態調整可見的小工具和內容。
-* **預覽兩種體驗**：你可以使用預覽選項來查看頁面在登入與未登入用戶間的呈現，以及小工具的可見度和內容差異。
-* **啟用全球搜尋**：訪客搜尋課程與內容，但僅有基本搜尋功能，缺乏進階 AI 整合。
-* **讓訪客瀏覽課程目錄與課程概覽**：訪客可瀏覽課程目錄頁面、課程詳情及實例，但必須登入才能註冊或使用個人化功能。
-* **自訂品牌與在地化**：您可以設定 favicons 與語言設定，以符合組織的品牌與無障礙需求。
-* **啟用訓練資料存取連接器**：啟用此連接器以匯出課程中繼資料公開顯示，保持未登入頁面的最新。
-* **以共享基礎設施**&#x200B;處理高流量：系統利用共享資源及速率限制管理大量匿名訪客。
-* **優化 SEO**：該平台準備公開頁面以供搜尋引擎索引，讓您的學習內容更易被發現。
+* **Create public pages and menus**: You set up pages and a single menu that everyone can access, regardless of login status.
+* **Add only supported widgets**: You include widgets that don't need user context (categories, courses and learning paths, content box, HTML, iframe), while the system hides user-specific widgets.
+* **Configure adaptive page behavior**: You decide if a page appears for both logged in and non logged in users, and the system adapts visible widgets and content based on login state.
+* **Preview both experiences**: You use preview options to see how pages look for logged in and non logged in users, with differences in widget visibility and content.
+* **Enable global search**: Visitors search for courses and content, but only get basic search features without advanced AI integration.
+* **Let visitors browse catalog and course overviews**: Visitors explore catalog pages, course details, and instances, but must log in to enroll or access personalized features.
+* **Customize branding and localization**: You set favicons, and language settings to match your organization's branding and accessibility needs.
+* **Enable the Training Data Access Connector**: You activate this connector to export course metadata for public display, keeping non-logged-in pages up to date.
+* **Handle high traffic with shared infrastructure**: The system manages large volumes of anonymous visitors using shared resources and rate limiting.
+* **Optimize for SEO**: The platform prepares public pages for search engine indexing, making your learning content simpler to find.
 
-### 未登錄經驗的先決條件
+### Prerequisites for non-logged in experience
 
-* 你必須在整合管理頁面啟用訓練資料存取連接器，才能使用未登入的體驗。
-* 連接器會將課程中繼資料匯出到公開儲存庫，讓未登入的頁面持續更新。
+* You must enable the Training Data Access Connector in the integration admin before you can use the non logged in experience.
+* The connector exports course metadata to a public repository, which keeps non logged in pages updated.
 
-#### 訓練資料存取連接器初始化
+#### Training Data Access connector initialization
 
-訓練資料存取（TDA）連接器是啟用 ALM 中新非登入經驗建構功能的關鍵前提。 此連接器促進訓練元資料匯出，讓您的入口網站能向未登入的使用者顯示課程資訊。
+The Training Data Access (TDA) connector is a critical prerequisite for enabling the new non-logged-in experience builder feature in ALM. This connector facilitates the export of training metadata, allowing your portal to display course information to users who are not logged in.
 
-* **連接器啟用**：您必須從整合管理面板啟用 TDA 連接器。 此步驟啟用非登入體驗建構功能，並使相關介面選項在管理介面中可見。
-* **元資料匯出**：啟用後，連接器會將重要的訓練元資料（如課程名稱、說明、概述、評分、時長及技能）從 ALM 匯出至公開資料庫。 這些資料用來填充未登入的頁面和小工具。
-* **排程與同步**：匯出流程可排程（例如每日），以確保入口網站反映最新課程更新。 ALM 中所做的變更會在下一次匯出週期後，依快取與匯出頻率顯示在未登入頁面上。
-* **功能可用性**：未登入的體驗建構器功能，包括選單建立、小工具支援及目錄可見，僅在 TDA 連接器初始化後才能使用。 若未啟用連接器，體驗建構器將限制於已登入的使用者情境。
-* **遷移與支援**：對於從舊有非登入首頁功能轉換的帳號，初始化 TDA 連接器是遷移的第一步。 這確保你能善用新體驗建構者的彈性與強化功能。
+* **Connector activation**: You must enable the TDA connector from the integration admin panel. This step enables the non-logged-in experience builder functionality and makes relevant UI options visible in your admin interface.
+* **Metadata export**: Once activated, the connector exports essential training metadata (such as course name, description, overview, rating, duration, and skills) from ALM to a public repository. This data is used to populate non-logged-in pages and widgets.
+* **Scheduling and synchronization**: The export process can be scheduled (for example, daily) to ensure your portal reflects the latest course updates. Changes made in ALM will appear on your non-logged-in pages after the next export cycle, subject to caching and export frequency.
+* **Feature availability**: The non-logged-in experience builder features, including menu creation, widget support, and catalog visibility, are only accessible after the TDA connector is initialized. If the connector is not enabled, your experience builder will remain limited to logged-in user scenarios.
+* **Migration and support**: For accounts transitioning from legacy non-logged-in homepage features, initializing the TDA connector is the first step toward migration. It ensures you can use the new experience builder's flexibility and enhanced capabilities.
 
 
-### 訪客不登入也能做什麼
+### What visitors can do without logging in
 
-在未登入的 Experience Builder 網站上，訪客可透過開啟公開目錄頁面瀏覽培訓目錄。 他們可以使用目錄、產品、職務、類型、技能和標籤等篩選條件，視你如何設定網站而定。 訪客也可以使用標頭中的全域搜尋欄（若啟用），並直接在目錄頁面查看搜尋結果。
+On a non-logged-in Experience Builder site, visitors can browse the training catalog by opening the catalog page for public catalogs. They can use filters such as catalog, product, role, type, skills, and tags, depending on how you have configured the site. Visitors can also search for trainings using the global search bar in the header (if enabled), and view search results directly on the catalog page.
 
-訪客可透過開啟課程、學習路徑及證照的總覽頁面，查看培訓詳情。 這些頁面顯示關鍵元資料，包括標題、描述、作者、時長、格式、標籤及技能。
+Visitors can view training details by opening overview pages for courses, learning paths, and certifications. These pages display key metadata, including the title, description, author, duration, format, tags, and skills.
 
-此外，訪客還能探索靜態內容與宣傳內容。 他們能閱讀文字及豐富內容區塊，瀏覽橫幅與圖像磚塊，並與嵌入的 iframe（如外部微型網站、影片或工具）互動。
+In addition, visitors can explore static and promotional content. They can read text and rich content blocks, view banners and image tiles, and interact with embedded iframes such as external microsites, videos, or tools.
 
-如果訪客點擊報名或嘗試開始訓練，系統會提示他們登入或註冊。 成功登入後，訪客會被導向適當的頁面，無論是首頁、自訂頁面，或是他們選擇的特定訓練內容。
+If a visitor clicks enroll or tries to start training, the system prompts them to log in or sign up. After successful login, the visitor is redirected to the appropriate page, whether it is the home page, a custom page, or the specific training they selected.
 
-### 沒有登入就無法取得的是什麼
+### What's not available without logging in
 
-在未登入的體驗建站網站上，訪客無法存取需要用戶認證的功能或內容。 他們無法報名培訓、開始或修讀課程，也無法使用個人化小工具，如我的學習、行事曆、合規、排行榜或社交學習。 這些小工具依賴使用者特定資料，且僅在登入後使用。
+On a non-logged-in Experience Builder site, visitors cannot access features or content that require user authentication. They are unable to enroll in trainings, start or consume courses, or access personalized widgets such as My Learning, Calendar, Compliance, Leaderboard, or Social Learning. These widgets depend on user-specific data and are only available after logging in.
 
-訪客也無法執行如報名課程或存取需要追蹤進度或使用者上下文的內容等操作。 嘗試報名或開始培訓時，訪客會先登入或註冊，然後才能繼續。
+Visitors also cannot perform actions like enrolling in a course or accessing any content that requires tracking progress or user context. Attempting to enroll or start a training prompts the visitor to log in or sign up before proceeding.
 
-### 支援的非登入模式下的小工具
+### Supported widgets in non-logged-in mode
 
-在非登入模式下，僅支援不需要使用者特定資料的小工具。 這些包括：
+In non-logged-in mode, only widgets that do not require user-specific data are supported. These include:
 
-* 分類小工具，顯示可用的訓練分類。
-* 課程與路徑小工具，顯示來自公開目錄的課程與學習路徑。
-* 內容框，用於添加靜態文字、圖片或宣傳內容。
-* HTML 小工具，用於嵌入自訂 HTML 內容。
-* Iframe 小工具，用於在頁面內顯示外部網站、影片或工具。
-* 需要使用者上下文的元件，如「我的學習」、「行事曆」、「合規」、「排行榜」和「社交學習」，在非登入模式下無法使用。
+* Categories widget, which displays available training categories.
+* Courses and paths widget, which shows courses and learning paths from the public catalog.
+* Content box, for adding static text, images, or promotional content.
+* HTML widget, for embedding custom HTML content.
+* Iframe widget, for displaying external sites, videos, or tools within the page.
+* Widgets that require user context, such as My Learning, Calendar, Compliance, Leaderboard, and Social Learning, are not available in non-logged-in mode.
 
-### 非登入體驗中的頁面與選單
+### Pages and menus in non-logged-in experience
 
-* 僅支援一個未登入選單，所有訪客無需驗證即可查看。
-* 頁面可以新增到已登入與未登入選單中;如果頁面同時存在於兩者中，則會根據使用者的登入狀態調整其小工具和內容。
-* 未登入選單則沒有目標受眾或個人化功能。 大家看到的都是同一組頁面。
-* 未登入模式下不支援的小工具會自動隱藏;頁面版面會調整以填補空白。
-* 選單和頁面管理（新增、預覽、刪除）就像登入模式，但會針對未登入的限制做調整。
+* Only one non-logged-in menu is supported, visible to all visitors without authentication.
+* Pages can be added to both logged-in and non-logged-in menus; if a page is in both, it adapts its widgets and content based on the user's login state.
+* Non-logged-in menus do not have audience targeting or personalization. Everyone sees the same set of pages.
+* Widgets not supported in non-logged-in mode are hidden automatically; page layout adjusts to fill gaps.
+* Menu and page management (adding, previewing, deleting) is like logged-in mode, but with adaptations for non-logged-in constraints.
 
-### 搜尋與目錄行為
+### Search and catalog behavior
 
-在非登入模式下，使用者可進入目錄頁面，並利用搜尋瀏覽可用課程與學習路徑。 目錄頁面顯示所有公開課程，並附有篩選與搜尋功能，與登入模式相同的帳號設定。 使用者搜尋時，結果會出現在目錄頁面，使用者可在不登入的情況下查看課程與實例概覽頁面。 不過，像是註冊這類操作需要登入。
+In non-logged-in mode, users can access the catalog page and use search to browse available courses and learning paths. The catalog page displays all public courses, along with filters and search functionality, following the same account settings as in logged-in mode. When a user searches, the results appear on the catalog page, and users can view course and instance overview pages without logging in. However, actions like enrollment require login.
 
-如果使用者嘗試註冊，系統會要求他們先登入。 未登入使用者的搜尋比登入用戶簡單，且不包含像 AI 助理整合這類進階功能。
+If a user attempts to enroll, the system requires them to log in first. The search for non-logged-in users is simpler than that for logged-in users and does not include advanced features like AI Assistant integration.
 
-### 技術實作
+### Technical implementation
 
-#### 訓練資料存取連接器設置
+#### Training data access connector setup
 
-您必須在整合管理面板啟用訓練資料存取連接器，才能使用未登入的體驗建構器功能。 此連接器會將訓練中繼資料從 ALM 匯出至公開儲存庫，透過 API 對未登入頁面進行存取。 連接器設定是啟用此功能的前提，確保入口網站顯示最新的訓練資訊。
+You must enable the training data access connector in the integration admin panel before you can use the non-logged-in experience builder feature. This connector exports training metadata from ALM to a public repository, making it accessible via APIs for your non-logged-in pages. The connector setup is a prerequisite for activating the feature and ensures your portal displays up-to-date training information.
 
-#### 元資料匯出與同步
+#### Metadata export and synchronization
 
-連接器匯出關鍵的元資料欄位，如課程名稱、概述、描述、評分、時長及技能。 你可以排程匯出（例如每日），以保持入口網站與 ALM 同步。 並非所有元資料欄位都包含;請諮詢工程部門以獲得完整清單。 匯出資料用於填充未登入頁面，ALM 的變更會在下一個匯出週期後出現。
+The connector exports key metadata fields such as course name, overview, description, rating, duration, and skills. You can schedule exports (for example, daily) to keep your portal synchronized with ALM. Not all metadata fields may be included; consult engineering for a complete list. Exported data is used to populate non-logged-in pages, and changes in ALM will appear after the next export cycle.
 
-#### 快取與出口頻率
+#### Caching and export frequency
 
-系統利用後端匯出頻率與前端快取來管理資料更新。 ALM 中所做的變更會在排程匯出與快取刷新後反映在您的入口網站上。 部分更新可能因這些機制無法立即出現。 如果你需要更快的更新，可以調整匯出排程或根據需要清除快取。
+The system uses backend export frequency and frontend caching to manage data updates. Changes made in ALM are reflected on your portal after the scheduled export and cache refresh. Some updates may not appear immediately due to these mechanisms. If you need faster updates, adjust the export schedule or clear the cache as needed.
 
-#### CSS/JS 自訂支援
+#### CSS/JS customization support
 
-你可以透過自訂標籤，對登入和未登入的頁面套用自訂 CSS 和 JavaScript。 這讓您能維持品牌一致性，加入自訂 UI 元素，並提升整個入口網站的使用者體驗。 所有客製化皆全球適用，確保統一的外觀與感受。
+You can apply custom CSS and JavaScript to both logged-in and non-logged-in pages using the customization tab. This allows you to maintain consistent branding, add custom UI elements, and enhance user experience across your portal. All customizations are applied globally, ensuring a unified look and feel.
 
-#### 網址差異與品牌設定（favicon、頁面標題）
+#### URL differences and branding (favicon, page title)
 
-未登入與登入頁面可能會有不同的網址以區分使用者狀態。 你可以自訂網站的同檔和頁面標題，幫助強化品牌識別。 這些功能可在經驗建構器中取得;請向工程部門查詢最新非登入支援狀態。
+Non-logged-in and logged-in pages may have different URLs to distinguish user states. You can customize the favicon and page title for your portal, helping reinforce your brand identity. These features are available in the experience builder; check with engineering for the latest status on non-logged-in support.
 
-### 效能與可擴展性
+### Performance and scalability
 
-#### 共享堆疊與高級堆疊
+#### Shared stack vs premium stack
 
-共享堆疊允許多個客戶在共用基礎設施上使用未登入的體驗建構器，支援標準流量層級。 高級方案為付費選項，提供專用資源、即時功能及較高座位限制，滿足有進階需求的客戶需求。 根據預期流量和業務需求選擇堆疊。
+The shared stack allows multiple customers to use the non-logged-in experience builder on common infrastructure, supporting standard traffic levels. The premium stack is a paid option that provides dedicated resources, real-time features, and higher seat limits for customers with advanced needs. Select the stack based on your expected traffic and business requirements.
 
-#### 交通限制與速率限制
+#### Traffic limits and rate limiting
 
-共享堆疊會強制執行流量限制，以確保用戶間的公平使用。 工程部門將實施速率限制，以防止任何單一客戶消耗所有資源。 如果你規劃行銷活動或預期會有大量流量，請與工程部門協調，了解你的限制並避免服務中斷。 速率限制有助於維持系統的穩定性與效能，惠及所有使用者。
+The shared stack enforces traffic limits to ensure fair usage among customers. Engineering will implement rate limiting to prevent any single customer from consuming all resources. If you plan marketing campaigns or expect high traffic, coordinate with engineering to understand your limits and avoid service disruptions. Rate limiting helps maintain system stability and performance for all users.
 
-#### 多租戶與 SEO 考量
+#### Multi-tenancy and SEO considerations
 
-該平台支援多租戶，允許多個客戶在共享基礎設施上架設入口網站。 未登入頁面對 SEO 友善，並有優化搜尋引擎能見度的sitemap.xml與robots.txt。 這確保你的入口網站能被搜尋引擎發現並適當地索引。
+The platform supports multi-tenancy, allowing multiple customers to host their portals on shared infrastructure. Non-logged-in pages are SEO-friendly, along with sitemap.xml and robots.txt to optimize search engine visibility. This ensures your portal is discoverable and indexed appropriately by search engines.
 
-### 遷移與淘汰
+### Migration and deprecation
 
-#### 由現有非登入首頁轉換
+#### Transition from existing non-logged-in homepage
 
-你應該用新的體驗建構器重建首頁，以提升彈性、小工具支援及更佳的使用者體驗。 過渡計畫確保干擾降至最低並持續提供支持。
+You should recreate your homepage using the new experience builder for enhanced flexibility, widget support, and improved user experience. The transition plan ensures minimal disruption and continued support.
 
-#### 溝通計畫
+#### Communication plan
 
-使用舊版首頁的客戶將收到明確的退役時間表及遷移步驟通知。 我們會提供支援，協助你將首頁遷移到新的體驗建構平台，確保你能享受新功能與持續更新。
+Customers using the legacy homepage will receive clear communication about the deprecation timeline and migration steps. Support will be provided to help you move your homepage to the new experience builder platform, ensuring you benefit from new features and ongoing updates.
 
-### 本地化與登入支援
+### Localization and login support
 
-#### 區域備援邏輯
+#### Locale fallback logic
 
-系統會顯示所建立地點的頁面。 若使用者所在地無法使用，系統會使用備援邏輯選擇下一個最佳可用地點。 這確保使用者始終看到支援語言的內容，提升無障礙性與用戶滿意度。
+The system displays pages in the locale they were created. If a user's locale is unavailable, the system uses a fallback logic to select the next best available locale. This ensures users always see content in a supported language, improving accessibility and user satisfaction.
 
-#### 支援的登入類型
+#### Supported login types
 
-非登入體驗支援 ALM 中所有可用的登入類型，包括 SSO 和標準登入。 使用者可在不登入的情況下瀏覽內容，並在需要時被提示登入，例如報名課程或使用個人化功能。 這讓瀏覽與互動的銜接更加順暢。
+The non-logged-in experience supports all login types available in ALM, including SSO and standard login. Users can browse content without logging in and will be prompted to log in when required, such as enrolling in a course or accessing personalized features. This provides a smooth transition from browsing to engagement.
 
 
-### 未登入的 API
+### Non-logged in APIs
 
-#### 管理員學習物件 API
+#### Admin Learning Object API
 
-未登入的體驗建站頁面和無頭入口網站通常會根據產品和職務來組織或篩選課程。 Admin LO API 已增強，確保這些關聯對後端與無頭整合，以及 TDA 連接器都能持續存取。
+Non-logged-in Experience Builder pages and headless portals often organize or filter courses based on product and role. The Admin LO API has been enhanced to ensure that these associations are consistently accessible for back-end and headless integrations, as well as for the TDA connector.
 
-**終點與行為**
+**Endpoint and behavior**
 
-你繼續使用現有的 Admin LO 端點：
+You continue to use the existing Admin LO endpoint:
 
 ```
 GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-其中：
+Where:
 
-* loId 是學習物件 ID（例如課程:12345）。
-* enforcedFields[learningObject] 指示 API 明確包含該 LO 的產品與角色。
+* loId is the learning object ID (for example course:12345).
+* enforcedFields[learningObject] instructs the API to explicitly include products and roles for that LO.
 
-這透過確保 LO 的產品與角色關聯在透過 enforcedFields 請求時出現在回應中來達成。 回應的屬性包含計算或揭露推薦產品（rec\_products）及角色（rec\_roles）所需的產品與角色元資料，供 Experience Builder 及其他消費者使用。
+This is fulfilled by ensuring that the LO's product and role associations are present in the response when requested through enforcedFields. The response then contains, in attributes, the product and role metadata needed to compute or expose the recommended products (rec\_products) and roles (rec\_roles) for Experience Builder and other consumers.
 
-來自管理員或整合的典型來電如下：
+A typical call from an admin or integration looks like:
 
 ```
 url -X GET \
@@ -1134,17 +1140,17 @@ url -X GET \
  -H "Accept: application/vnd.api+json
 ```
 
-回傳的 LO JSON 基本結構與之前相同，但現在你可以依賴 enforcedFields 請求時產品/角色欄位的存在。 未使用 enforcedFields 的整合仍維持先前的行為。
+The returned LO JSON is the same basic structure as before, but now you can rely on product/role fields being present when you request them with enforcedFields. Integrations that do not use enforcedFields continue to behave as before.
 
-#### 學習物件列表 – JobAid 支援於 effectiveModifiedDate 濾器中
+#### Learning Objects Listing – JobAid Support in effectiveModifiedDate Filter
 
-**目的**
+**Purpose**
 
-訓練資料存取（TDA）連接器及無頭實作通常需要根據學習物件的有效修改日期&#x200B;**進行增量同步**。在此版本之前，JobAids（LO 類型的 jobAid）在與有效 ModifiedDate 篩選器結合時無法正確處理。 這次版本修正了這個問題，讓 JobAids 可以像課程和學習路徑一樣，逐步同步。
+The Training Data Access (TDA) connector and headless implementations often need to perform incremental synchronization, based on the **effective modification date** of learning objects. Until this release, JobAids (LO type jobAid) were not correctly handled when combined with the effectiveModifiedDate filters. This release fixes this so JobAids can be synced incrementally like courses and learning paths.
 
-**終點與行為**
+**Endpoint and behavior**
 
-你可以使用現有的 LO 清單端點，並搭配日期篩選器和 LO 類型：
+You use the existing LO listing endpoint with date filters and LO type:
 
 ```
 GET /primeapi/v2/learningObjects
@@ -1153,9 +1159,9 @@ GET /primeapi/v2/learningObjects
  &filter.loTypes=jobAid
 ```
 
-過去，當 filter.loTypes=jobAid 與 effectiveModifiedDate 範圍合併時，過濾器實際上排除了 JobAids，通話行為也像是不支援 JobAids。
+Previously, when filter.loTypes=jobAid was combined with an effectiveModifiedDate range, the filter effectively excluded JobAids, and the call behaved as though JobAids were not supported.
 
-從這次更新開始，呼叫只會回傳 JobAid 學習物件，其有效修改日期（effectiveModifiedDate）落在指定視窗內。
+From this update onwards, the call returns only JobAid learning objects whose effectiveModifiedDate falls inside the specified window.
 
 ```
 {
@@ -1205,32 +1211,32 @@ GET /primeapi/v2/learningObjects
 }
 ```
 
-這表示你現在可以安全地根據有效修改日期（effectiveModifiedDate）實施增量式 JobAid 同步，就像你對其他類型的做法一樣。
+This means you can now safely implement incremental JobAid syncs based on effectiveModifiedDate, in the same way you already do for other types.
 
-若省略 filter.loTypes=jobAid，其他 LO 類型的行為不變;該變更只影響 JobAid 與該篩選器的組合。
+If you omit filter.loTypes=jobAid, the behavior for other LO types is unchanged; the change only affects the combination of JobAid with that filter.
 
-#### **選單 API：未登入選單篩選器**
+#### **Menu API: Non-logged-in menu filter**
 
-**目的**
+**Purpose**
 
-Experience Builder 和無頭前端需要一個直接的方式來取得 **未登入選單，也就是定義公共訪客導航的選單** 。 在此版本之前，你必須取得所有選單，然後套用自訂邏輯來辨識出哪一個選單代表未登入的導航。 此版本新增了一個簡單的伺服器端過濾器。
+Experience Builder and headless frontends need a straightforward way to retrieve the **non-logged-in menu** , the one that defines navigation for public visitors. Before this release, you had to fetch all menus and then apply custom logic to identify which one represented the non-logged-in navigation. This release adds a simple server-side filter.
 
-**終點與行為**
+**Endpoint and behavior**
 
-你可以使用現有的選單清單端點，並新增查詢參數：
+You use the existing Menu listing endpoint with a new query parameter:
 
 ```
 GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true
 ```
 
-重點如下：
+The key points:
 
-* include=pages，subMenus.pages 是可選的，但建議當你需要在同一個回應中同時列出頁面和子選單頁面細節時。
-* isNonLoggedIn=true 是本版本新增的，指示伺服器只回傳標記為未登入選單的選單。
+* include=pages,subMenus.pages is optional but recommended when you need the page and submenu page details in the same response.
+* isNonLoggedIn=true is new in this release and tells the server to return only menus that are flagged as non-logged-in menus.
 
-若沒有 isNonLoggedIn 參數，端點的行為會與之前完全相同，並依照現有預設行為回傳選單。 當 isNonLoggedIn=true 時，通常會回傳你帳號中未登入體驗所使用的單一選單（因為每個帳號通常只有一個未登入選單）。
+Without the isNonLoggedIn parameter, the endpoint behaves exactly as before and returns menus according to the existing default behavior. With isNonLoggedIn=true, it typically returns the single menu used by the non-logged-in experience for your account (since there is normally one non-logged-in menu per account).
 
-實務上，客戶現在可以發行：
+In practice, a client can now issue:
 
 ```
 curl -X GET \
@@ -1239,211 +1245,216 @@ curl -X GET \
  -H "Accept: application/vnd.api+json"
 ```
 
-並且一次通話中取得未登入的導航結構，包含所有應該對匿名訪客可見的頁面。
+and get back the non-logged-in navigation structure in one call, with all the pages that should be visible to anonymous visitors.
 
-這在建立一個無頭且未登入的網站，想要鏡像 Experience Builder 使用的相同導覽，或是除錯未登入選單是否正確設定時特別有用。
+This is particularly useful when you are building a headless non-logged-in site and want to mirror the same navigation that Experience Builder uses, or when you are debugging whether the non-logged-in menu has been configured correctly.
 
-### 允許列出自訂網域
+### Allow listing of custom domains
 
-未登入堆疊包含：
+The non-logged-in stack consists of:
 
-* 一個公共 CDN 網域（例如 cpcontents.adobe.com 或 yourdomain.example.com），提供版面配置、設定 JSON 和靜態資產。
-* 一個公開的 Elasticsearch（ES） 端點，提供目錄與搜尋資料，但前提是請求來自 **該 ALM 帳戶的允許網域** 。
+* A public CDN domain (for example cpcontents.adobe.com or yourdomain.example.com) that serves layouts, config JSON, and static assets.
+* A public Elasticsearch (ES) endpoint that serves catalog and search data, but only if the request comes from an **allow-listed domain** for that ALM account.
 
-當你引入自訂網域時，它就能無縫運作，無需額外努力跟隨現有的自訂網域新增流程。
+When you introduce a custom domain, it works seamlessly without any additional effort following the existing process for adding a custom domain.
 
-#### 先決條件
+#### Prerequisites
 
-在為未登入者白名單自訂網域之前：
+Before whitelisting a custom domain for non-logged-in:
 
-1. 自訂網域會為你的 ALM 帳戶設定（例如，academy.yourcompany.com 的 DNS 會指向 Adobe / Akamai，憑證也會被配置）。
-2. **訓練資料存取（TDA）連接器**&#x200B;已啟用該帳號。
-3. **Adobe 端啟用了未登入的體驗建置**&#x200B;器功能。
+1. The custom domain is configured for your ALM account (for example, DNS for academy.yourcompany.com points to Adobe / Akamai, and certificates are provisioned).
+2. The **Training Data Access (TDA) connector** is enabled for the account.
+3. The **non-logged-in Experience Builder** feature is enabled (Adobe-side).
 
-這些步驟確保：
+These steps ensure that:
 
-* 你的帳號有一個未登入 **的帳號 JSON** （通常稱為 accountConfig / experienceBuilderConfig），其中包含 cpDomain、almDomain、almCdnBaseUrl、esBaseUrl 以及允許清單的網域等欄位。
-* 未登入的堆疊知道該從哪裡提供資料，以及應該從哪些網域接受請求。
+* Your account has a non-logged-in **account JSON** (often referenced as accountConfig / experienceBuilderConfig), which includes fields such as cpDomain, almDomain, almCdnBaseUrl, esBaseUrl, and allow-listed domains.
+* The non-logged-in stack knows where to serve data and from which domains it should accept requests.
 
-#### 允許名單的運作方式
+#### How allow-listing works
 
-允許清單儲存在 TDA 匯出的設定中，並由未登入的堆疊讀取。 該配置包括：
+The allow-list is stored in the configuration that TDA exports and the non-logged-in stack reads. That configuration includes:
 
-* ALM 網域（cpDomain、almDomain）。
-* **未登入內容的 CDN 基礎網址**（almCdnBaseUrl）。
-* **公開搜尋基地網址**（esBaseUrl）。
-* 允許該帳號公開非登入通話的網域清單。
+* The ALM domains (cpDomain, almDomain).
+* The **CDN base URL** for non-logged-in content (almCdnBaseUrl).
+* The **public search base URL** (esBaseUrl).
+* The list of domains that are allowed to make public non-logged-in calls for that account.
 
-讓未登入的體驗建構器能在自訂網域上運作：
+For non-logged-in Experience Builder to work on a custom domain:
 
-* 瀏覽器必須從該自訂網域載入未登入的 HTML（或依你的設定從 ALM 未登入的 CDN 網域）載入。
-* 必須接受該網域撥打公共 ES 和 CDN 端點的通話。 這只有在該網域出現在允許清單中時才會發生。
+* The browser must load the non-logged-in HTML from that custom domain (or from the ALM non-logged-in CDN domain, depending on your setup).
+* Calls from that domain to the public ES and CDN endpoints must be accepted. That only happens if the domain is present in the allow-list.
 
-此版本新增一個未登入的 CDN 網域 cpcontents.adobe.com，並規定必須置入 **TDA 連接器中允許列出的網域** 。 對於現有未登入的原生用戶，則需要更新。
+This release adds a new non-logged-in CDN domain, cpcontents.adobe.com, and specifies that it must be placed into the **allow-listed domains** in the TDA connector. For existing non-logged-in native users, this requires an update.
 
-#### 允許清單自訂網域
+#### Allow-list a custom domain
 
-**在 ALM 中設定自訂網域**
+**Configure the custom domain in ALM**
 
-與 Adobe 合作，將您的網域（例如 academy.yourcompany.com）註冊為 ALM 帳戶的自訂網域。 你依指示更新 DNS 指向 Adobe Akamai，然後等待 SSL 和路由完成。
+Work with Adobe to register your domain, for example, academy.yourcompany.com, as the custom domain for your ALM account. You update DNS to point to Adobe Akamai as instructed and wait for SSL and routing to complete.
 
-此時，已登入與未登入的流量皆可透過該網域存取 ALM，但若該網域未被列入允許清單，未登入的搜尋與目錄呼叫仍可能被阻擋。
+At this point, both logged-in and non-logged-in traffic can reach ALM through that domain, but non-logged-in search and catalog calls may still be blocked if the domain is not allow-listed.
 
-**啟用 TDA 與未登入體驗建器**
+**Enable TDA and non-logged-in Experience Builder**
 
-確保：
+Ensure that:
 
-* **訓練資料存取連接器**&#x200B;已啟用。
-* **該帳號開啟了未登入的經驗建立器**&#x200B;功能。
+* The **Training Data Access connector** is enabled.
+* The **non-logged-in Experience Builder** feature is turned on for the account.
 
-啟用 TDA 會建立或更新未登入帳號的 JSON。 對於新帳號，該程序也會預設允許名單新的未登入 CDN 網域（cpcontent.adobe.com），因此公開的 ES 端點預期該網域會呼叫。
+Enabling TDA creates or updates the non-logged-in account JSON. For new accounts, the process also allow-lists the new non-logged-in CDN domain (cpcontent.adobe.com) by default, so the public ES endpoint expects calls from that domain.
 
-對於已經使用舊有非登入堆疊的帳號，必須刪除並重新建立現有的連接器，才能接手新網域。
+For accounts that were already using the older non-logged-in stack, existing connectors must be deleted and recreated to pick up the new domain.
 
-**將自訂網域加入允許清單**
+**Add the custom domain to the allow-list**
 
-關鍵在於告訴未登入的 ES 堆疊 academy.yourcompany.com 是核准的來源。 有兩條常見的路徑。
+The critical part is telling the non-logged-in ES stack that academy.yourcompany.com is an approved origin. There are two common paths.
 
-1. **重新啟用 TDA 連接器（簡單且自助友善）**
+1. **Re-enable the TDA connector (simple, self-service friendly)**
 
-現有的原生未登入使用者需刪除並重新啟用 TDA 連線，使新網域自動被列入允許名單。 這樣做可以達成兩個目標：
+Existing native non-logged-in users will need to delete and re-enable the TDA connection so the new domain is automatically allow-listed. Doing this achieves two things:
 
-1. 未登入帳號的 JSON 會被重新生成。
-2. 允許的網域會更新，新增未登入的 CDN 網域和你的自訂網域。
+1. The non-logged-in account JSON is regenerated.
+2. The allow-listed domains are updated to include the new non-logged-in CDN domain and your custom domain.
 
-建議當你帳號數量不多且能暫時停用再重新啟用連接器時。
+This is recommended when you have a small number of accounts and can tolerate temporarily disabling and re-enabling the connector.
 
-1. **確認該網域是否真的被列入許可名單**
+1. **Verify that the domain is actually allow-listed**
 
-允許登錄後，開啟自訂網域的未登入網站，檢查瀏覽器網路通話。
+After allow-listing, open your non-logged-in site on the custom domain and inspect the browser network calls.
 
-你想看：
+You want to see:
 
-* 請求至 almCdnBaseUrl（例如 <https://cpcontent.adobe.com/>......） 成功達成200/304。
-* 對 esBaseUrl 的請求（例如 <https://primeapps.adobe.com/almsearch/api/v1/>公開搜尋 API，等等） 成功後，回傳帶有搜尋/目錄資料的 JSON。
+* Requests to almCdnBaseUrl (for example <https://cpcontent.adobe.com/>...) succeeding with 200/304.
+* Requests to esBaseUrl (public search API, for example <https://primeapps.adobe.com/almsearch/api/v1/>...) succeeding, returning JSON with search / catalog data.
 
-如果這些通話回傳 4xx 或明確錯誤，暗示「不受信任網域」或「來源不允許」，則允許清單不完整或設定錯誤，支援需要調整。
+If these calls return 4xx or explicit errors suggesting "untrusted domain" or "origin not allowed," the allow-list is incomplete or misconfigured and Support needs to adjust it.
 
-未登入的 LLD 也會提到帳號設定可以儲存預期的網域值。 執行時，網站會檢查 URL 中的網域是否與設定中設定相符;若不符合，使用者可被導向錯誤頁面。 這能防止一位客戶的設定被另一位客戶的網域存取。
+The non-logged-in LLD also notes that the account config can hold an expected domain value. At runtime, the site checks that the domain in the URL matches what is set in the config; if it does not, the user can be redirected to an error page. This protects against one customer's configuration being accessed via another customer's domain.
 
-### 使用未登入經驗建構器的推薦
+### Using recommendations in the non-logged-in Experience Builder
 
-未登入的體驗建構器讓你建立公開的學習頁面，讓訪客在登入前瀏覽你的目錄並看到被標示的內容。 即使這些訪客是匿名的，你仍可透過元資料和小工具呈現推薦的培訓內容。
+The non-logged-in Experience Builder lets you build public learning pages where visitors can browse your catalog and see highlighted content before they sign in. Even though these visitors are anonymous, you can still present recommended trainings by using metadata and widgets.
 
-在登入的學習者應用程式中，推薦可以個人化：可依學習者的個人資料、背景、技能及進度而定。 在 **未登入** 體驗中，尚未有學習者身份，因此平台無法針對每位使用者進行個人化。
+In the logged-in learner app, recommendations can be personalized: they can depend on the learner's profile, history, skills, and progress. In the **non-logged-in** experience, there is no learner identity yet, so the platform cannot personalize per user.
 
-因此，非登入模式下的建議如下：
+Recommendations in non-logged-in mode are therefore:
 
-* **精選或規則基礎**：基於目錄、產品、角色、標籤、標籤及其他元資料。
-* **以區塊為導向**：「推薦給開發者」、「推薦給合作夥伴」、「推薦給初學者」。
-* **以行銷為重點**：過去用來吸引並引導訪客登入後註冊。
+* **Curated or rule-based**: based on catalog, product, role, labels, tags, and other metadata.
+* **Segment-oriented**: "recommended for developers", "recommended for partners", "featured for beginners".
+* **Marketing-focused**: used to attract and guide visitors to enroll once they log in.
 
-### 支援推薦的元資料與API
+### Metadata and APIs that support recommendations
 
-幕後，未登入頁面會使用：
+Behind the scenes, non-logged-in pages use:
 
-* TDA 連接器&#x200B;**用於**&#x200B;將學習物件的元資料（課程、路徑、認證、工作輔助）匯出至公開搜尋索引。
-* **公開搜尋堆疊**&#x200B;用來回答來自未登入小工具（目錄、搜尋、課程與路徑、分類）的查詢。
-* 管理員 **學習物件 API** ，用以揭露可用於推薦規則的產品與角色元資料。
+* The **TDA connector** to export learning object metadata (courses, paths, certifications, job aids) to a public search index.
+* The **public search stack** to answer queries from non-logged-in widgets (catalog, search, Courses and paths, Categories).
+* The **Admin Learning Objects API** to expose product and role metadata that can be used for recommendation rules.
 
-在此版本中，Admin LO API 被擴充，使產品與角色關聯能可靠地取得：
+In this release, the Admin LO API was extended so that product and role associations are reliably available:
 
 ```
 GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 ```
 
-這使得小工具與無頭整合能夠一致地使用產品、角色、目錄標籤、標籤及其他欄位建立基於規則的推薦。
+This allows widgets and headless integrations to build rule-based recommendations using products, roles, catalog labels, tags and other fields consistently.
 
-### 使用 Experience Builder 小工具設計推薦區塊
+### Designing recommendation sections with Experience Builder widgets
 
-你可以在未登入的頁面上建立推薦區塊，方法是結合 **Experience Builder 小工具** 與元資料篩選器。
+You create recommendation sections on non-logged-in pages by combining **Experience Builder widgets** with metadata filters.
 
-#### **課程與路徑小工具**
+#### **Courses and Paths widget**
 
-當你想顯示一列或格子推薦項目時，請使用 **課程與路徑** 小工具。 在它的配置中，你可以選擇：
+Use the **Courses and Paths** widget when you want to show a row or grid of recommended items. In its configuration you can choose:
 
-* 該從哪些目錄中取用。
-* 哪些目錄標籤、產品、角色或標籤作為篩選條件。
-* 無論是展示課程、路徑、證照、工作輔助工具，還是混合的。
-* 分類與物品數量上限。
+* Which catalogs to pull from.
+* Which catalog labels, products, roles or tags to use as filters.
+* Whether to show courses, paths, certifications, job aids, or a mix.
+* Sorting and maximum number of items.
 
-例如，你可以建立：
+For example, you can create:
 
-* 「推薦給開發者」：依照你用於開發者內容的產品或角色來篩選。
-* 「從這裡開始」：依照「入門」或「入門」等標籤篩選。
-* 「本季精選」：依照像 featured-q3-2026 這類限時標籤篩選。
+* "Recommended for developers": filter by a product or role you use for developer content.
+* "Start here": filter by a label such as "Starter" or "Onboarding".
+* "Featured this quarter": filter by a time-bound label like featured-q3-2026.
 
-小工具並非從行為中學習;它顯示的是符合你定義的元資料規則。 然而，從遊客的角度來看，它看起來像是一條推薦的漫畫。
+The widget is not learning from behavior; it is showing whatever matches the metadata rules you define. From a visitor's point of view, however, it looks like a recommendation strip.
 
-#### **分類小工具**
+#### **Categories widget**
 
-使用 **分類** 小工具幫助訪客進入「推薦」內容集，即使他們不知道你的產品名稱。
+Use the **Categories** widget to help visitors navigate into "recommended" sets of content, even if they do not know your product names.
 
-你可以配置每個圖塊代表一個區段，例如：
+You can configure tiles that each represent a segment such as:
 
-* 「給行政人員」
-* 「給銷售團隊」
-* 「為伴侶」
-* 「產品線」
+* "For administrators"
+* "For sales teams"
+* "For partners"
+* "By product line"
 
-每塊瓷磚都可以連結到：
+Each tile can link either to:
 
-* 篩選目錄頁面（例如，目錄依特定產品或標籤篩選）。
-* 一個專門的未登入頁面，使用該區段預先設定的課程和路徑。
+* A filtered catalog page (for example, the catalog filtered by certain products or labels).
+* A dedicated non-logged-in page that uses Courses and paths preconfigured for that segment.
 
-這會讓你獲得「按區段推薦路徑」的體驗，且不會個人化。
+This gives you a "recommended paths by segment" experience without personalization.
 
-### 基於分段的建築建議
+### Building segment-based recommendations
 
-由於未登入的訪客尚未擁有 ALM 個人檔案，依區分&#x200B;**設計推薦**&#x200B;並讓訪客自行選擇非常有用。
+Because non-logged-in visitors have no ALM profile yet, it is useful to design recommendations **by segment** and let visitors self-select.
 
-1. 使用 **一個未登入的首頁** ，簡要說明你的學院是為誰服務，並顯示少數幾個細分的切入點（例如「開發者」、「行銷人員」、「合作夥伴」、「新員工」）。 這可以透過分類小工具、簡單的內容框或帶有按鈕的 HTML 區塊來完成。
-2. 每個區段在 Experience Builder 中建立 **一個專屬的未登入頁面** 。 在該頁面上，使用一個或多個課程和路徑小工具，並設定有篩選器，代表該群組的「建議」內容。 例如，對於「開發者」，你可以篩選：
-   1. 目錄 = 「公開訓練」
-   2. 產品 = 「Adobe 體驗管理員」
-   3. 標籤 = 「開發者基礎」
-3. 將這些分段頁面作為行銷活動的目的地，以及未登入首頁磁磚的目標。
+1. Use a **non-logged-in home page** that briefly explains who your academy is for and shows a small number of segment entry points (for example, "Developers", "Marketers", "Partners", "New employees"). This can be done with a Categories widget or a simple Content box or HTML section with buttons.
+2. For each segment, create a **dedicated non-logged-in page** in Experience Builder. On that page use one or more Courses and paths widgets configured with filters that represent what is "recommended" for that group. For example, for "Developers" you might filter on:
+   1. Catalog = "Public Training"
+   2. Product = "Adobe Experience Manager"
+   3. Tags = "Developer fundamentals"
+3. Use those segment pages as the destination of your marketing campaigns and as the target of the tiles on the non-logged-in home page.
 
-訪客會感覺到他們看到的是針對自己情況量身訂做的推薦，儘管邏輯是在設計時透過元資料定義的。
+Visitors perceive that they are seeing recommendations tailored to their situation, even though the logic is defined at design time via metadata.
 
-### 從未登入模式轉換到個人化推薦
+### Transitioning from non-logged-in to personalized recommendations
 
-未登入的推薦主要是關於 **可** 被發現和 **轉換**。 一旦訪客決定報名或開始培訓，他們將登入並成為擁有個人資料和歷史的完整學習者。
+Non-logged-in recommendations are mainly about **discoverability** and **conversion**. Once visitors decide to enroll or start training, they will log in and become full learners with a profile and history.
 
-通常的流程是：
+The usual flow is:
 
-1. 訪客會透過你未登入的推薦區塊（首頁推薦、區塊登陸頁、精選列）發現內容。
-2. 他們點進課程或路徑總覽，選擇報名或開始。
-3. ALM 會提示他們註冊或登入。
-4. 登入後，標準的登入學習體驗會接手，包括：
-   1. 「我的學習」
-   2. 登入目錄並附有個人進度
-   3. 你對現有學習者使用的內部推薦系統。
+1. A visitor discovers content through your non-logged-in recommendation sections (home recommendations, segment landing pages, featured rows).
+2. They click into a course or path overview and choose to enroll or start.
+3. ALM prompts them to sign up or log in.
+4. After they log in, the standard logged-in learner experience takes over, including:
+   1. "My Learning"
+   2. Logged-in catalog with personal progress
+   3. Any internal recommendation systems you use for existing learners.
 
-換句話說，登入的推薦幫助他們決定下一步該做什麼並繼續前進。
+In other words, the logged-in recommendations help them decide what to do next and keep going.
 
-### 職缺輔助工具如何在全新非登入體驗建樑中使用
+### How job aids can be used in the new non-logged-in Experience Builder
 
-在 **使用者介面**&#x200B;中，工作輔助工具主要透過可顯示學習物件的小工具參與未登入的體驗：
+On the **User Interface**, job aids participate in non-logged-in experiences mainly through the widgets that can show learning objects:
 
-1. **課程與路徑小工具**&#x200B;此小工具可顯示多種 LO 類型，包括工作輔助工具。 在未登入頁面中，你可以設定為：
-   1. 明確包含或排除工作輔助工具。
-   2. 依目錄、產品、角色、標籤、標籤及其他元資料篩選工作輔助資料。
-   3. 可以將它們與課程和路徑並列呈現，或作為獨立的「資源」漫畫條。
+1. **Courses and paths widget**
+   This widget can show multiple LO types, including job aids. In non-logged-in pages you can configure it to:
+   1. Include or exclude job aids explicitly.
+   2. Filter job aids by catalog, product, role, labels, tags, and other metadata.
+   3. Present them alongside courses and paths or as a separate "Resources" strip.
 
-例如，在公開登陸頁面上，你可以設定一條名為「有用資源」的條帶，只顯示工作輔助，另一條條名為「推薦課程」，顯示課程和路徑。
+For example, on a public landing page you might configure one strip titled "Helpful resources" that shows job aids only, and another strip titled "Recommended courses" that shows courses and paths.
 
-1. **目錄頁面與搜尋**&#x200B;未登入 **的目錄** 與 **搜尋** 頁面使用公開搜尋索引（由訓練資料存取連接器提供）。 該指數現在正確支持工作輔助工具，因此：
-   1. 未登入的搜尋結果可能包含工作輔助工具。
-   2. 非登入目錄篩選器（依類型、產品、標籤等） 只要你的帳號設定和小工具有顯示工作輔助工具，就可以包含工作輔助工具。
-2. **LO 概覽頁面**&#x200B;當訪客從任何小工具或目錄點擊工作輔助工具時，他們會以非登入模式進入 **該工作輔助工具的總覽頁面** 。 從那裡，他們可以閱讀它的描述和元資料。 實際下載或使用通常仍需登入，但工作輔助工具的存在與可發現性則由未登入體驗負責。
+1. **Catalog page and search**
+   The non-logged-in **catalog** and **search** surfaces use the public search index (fed by the Training Data Access connector). That index now supports job aids correctly, so:
+   1. Non-logged-in search results can include job aids.
+   2. Non-logged-in catalog filters (by type, product, tags, etc.) can include job aids as long as your account configuration and widgets are set up to show them.
+2. **LO overview pages**
+   When a visitor clicks a job aid from any widget or from the catalog, they go to an **LO overview page** for that job aid in non-logged-in mode. From there, they can read its description and metadata. Actual download or consumption typically still requires login, but the presence and discoverability of the job aid itself is handled by the non-logged-in experience.
 
-### 工作輔助工具如何透過未登入的 API 曝光
+### How job aids are exposed through non-logged-in APIs
 
-在 **API 端**，工作輔助工具由以下單位支援：
+On the **API side**, job aids are supported by:
 
-1. **訓練資料存取連接器與公開搜尋** TDA 將工作說明的元資料及其他 LO 類型匯出至公開搜尋索引，該索引可處理未登入的搜尋與目錄查詢。 這正是 Experience Builder 和無頭前端所依賴的。
-2. **學習物件列表與 effectiveModifiedDate 一起**&#x200B;在此版本中，LO 列表端點被修正，使工作輔助工具能正常與有效修改日期過濾器配合使用。 您現在可以致電：
+1. The **Training Data Access connector and public search**
+   TDA exports job aid metadata along with other LO types to the public search index that serves non-logged-in search and catalog queries. This is what Experience Builder and headless frontends rely on.
+2. The **Learning Objects listing with effectiveModifiedDate**
+   In this release, the LO listing endpoint was corrected so that job aids work properly with the effectiveModifiedDate filter. You can now call:
 
 ```
 GET /primeapi/v2/learningObjects
@@ -1452,976 +1463,976 @@ GET /primeapi/v2/learningObjects
  &filter.loTypes=jobAid
 ```
 
-在此變更之前，將 effectiveModifiedDate 與 loTypes = jobAid 合併後，無法可靠地返回工作輔助資料。 這代表：
+Before this change, combining effectiveModifiedDate with loTypes=jobAid did not reliably return job aids. That means:
 
-1. 你的TDA或ETL工作可以 **像課程和路徑一樣，逐步同步非登入經驗的工作輔助資料** 。
-2. 任何建立公開工作輔助目錄的無頭實作，都可以根據 effectiveModifiedDate 和 loType=jobAid 查詢變更。
+1. Your TDA or ETL jobs can **incrementally sync job aids** for non-logged-in experiences, the same way they do for courses and paths.
+2. Any headless implementation that builds a public job aid directory can query changes based on effectiveModifiedDate and loType=jobAid.
 
-**註：**
+**Note**:
 
-在未登入狀態下：
+In the non-logged-in state:
 
-* 工作輔助工具主要是 **可**&#x200B;被發現的：訪客可以看到它們的存在、閱讀說明，並了解它們如何支持主題或課程。
-* 實際 **使用** （下載或開啟工作輔助內容）通常仍需登入，尤其當工作輔助被視為授權或內部內容時。
+* Job aids are mainly **discoverable**: visitors can see that they exist, read descriptions, and understand how they support topics or courses.
+* Actual **consumption** (downloading or opening the job aid content) typically still requires login, especially if job aids are considered part of licensed or internal content.
 
-### LO 搜尋簡短描述的變更（未登入）
+### Changes in brief description in LO search (non-logged-in)
 
-在未登入的堆疊中，學習物件（LO）的搜尋與列表由訓練資料存取（TDA）連接器及公開的 Elasticsearch 索引驅動。 歷史上，這個堆疊會為每個 LO 使用單一的總覽/描述欄位。 客戶在打造無頭且未登入的入口網站時，希望在 LO 磚塊上顯示與已登入學習者介面相同的簡短描述，而不僅僅是長篇概述。
+In the non-logged-in stack, search and listing of learning objects (LOs) are powered by the Training Data Access (TDA) connector and a public Elasticsearch index. Historically, this stack used a single overview/description field for each LO. Customers building headless non-logged-in portals wanted to show the same short description on LO tiles that the logged-in learner UI shows, rather than only the long overview.
 
-此變更在非登入搜尋與列表 API 中引入對 LO **簡短描述** 的支援：
+The change introduces support for the LO **brief description** in non-logged-in search and listing APIs:
 
-* 對於 **課程**&#x200B;而言，現有的 UI 語意如下：
-* 登入卡片顯示簡短描述（140字元欄位）若有;否則就會回到詳細的長篇概述。
-* 對於 **學習路徑**，登入的使用者介面會使用「效益」欄位作為簡短描述（若有定義），否則會退回到總覽。
-* 對於 **認證**，會使用簡短的說明，並以較長的認證概述作為備用。
-* 工作 **輔助**&#x200B;工具則使用主要描述欄位。
+* For **courses**, the existing UI semantics are:
+* Logged-in cards show Brief description (140-character field) if present; otherwise they fall back to the long Detailed overview.
+* For **learning paths**, the logged-in UI uses the Benefits field as the short description, if defined, and falls back to the overview otherwise.
+* For **certifications**, a short Description is used, with a longer Certification overview as fallback.
+* For **job aids**, the main description field is used.
 
-### 其他變動
+### Other changes
 
-#### 限制不得有兩個帳號共用同一個自訂網域
+#### Restriction that no two accounts can share the same custom domain
 
-在 Adobe Learning Manager 的非登入與登入架構中， **自訂網域** （例如 academy.example.com）被視為全球唯一金鑰，必須對應到一個 ALM 帳戶，因此平台嚴格 **限制不得有兩個帳戶共用同一自訂網域**。 這是安全、路由和 SEO 所必需的：路由層和未登入堆疊會利用網域查詢正確的帳號設定（包括未登入帳號的 JSON、Experience Builder 選單、品牌設定以及 TDA/搜尋端點），
+In the non-logged-in and logged-in architectures of Adobe Learning Manager, a **custom domain** (for example, academy.example.com) is treated as a globally unique key that must map to exactly one ALM account, so the platform enforces a hard restriction that **no two accounts can share the same custom domain**. This is required for security, routing, and SEO: the routing layer and non-logged-in stack use the domain to look up the correct account configuration (including its non-logged-in account JSON, Experience Builder menus, branding, and TDA/search endpoints),
 
-允許兩個帳號使用相同的自訂網域，將使無法保證哪個帳號的資料會被回傳，可能導致跨租戶外洩，且會損壞每個帳號產生但由搜尋引擎發現的sitemap.xml和robots.txt等產出產物。 在操作上，這意味著當你指派或移動自訂網域時，必須先確保它沒有綁定到其他帳號（或在那裡註釋），Adobe 內部工具會拒絕將同一網域綁定到多個帳號的嘗試。
+Allowing the same custom domain on two accounts would make it impossible to guarantee which account's data is returned, could cause cross-tenant leakage, and would also corrupt generated artifacts such as sitemap.xml and robots.txt that are produced per account but discovered by search engines per host. Operationally, this means that when you assign or move a custom domain you must first ensure it is not attached to any other account (or de-register it there), and Adobe's internal tooling will reject attempts to bind the same domain to multiple accounts.
 
-#### 未登入體驗中資源的瀏覽器快取
+#### Browser caching of resources in the non-logged-in experience
 
-在 Adobe Learning Manager 的非登入體驗中，瀏覽器資源快取是效能與規模策略的核心部分，因為公開頁面必須以低延遲和最小的來源負載處理大量且有時尖銳的行銷流量。 靜態與半靜態資產，如未登入的 HTML shell（例如 index.html/guest.html）、帳號層級設定 JSON（account.json 或 config.json）、Experience Builder 頁面配置 JSON（選單、小工具配置、卡片設定）、CSS、JS、圖片及 favicons，皆由 Akamai CDN（cpcontents.adobe.com / cpcontent.adobe.com）提供，並設有快取標頭，鼓勵 CDN 端與瀏覽器端重複使用，使瀏覽器在第一頁載入後能渲染後續未登入頁面大多來自快取，僅在需要時透過 ETag 或 Last-Modified 重新驗證。
+In the non-logged-in experience of Adobe Learning Manager, browser caching of resources is a core part of the performance and scale strategy, because public pages must handle large, sometimes spiky marketing traffic with low latency and minimal origin load. Static and semi-static assets such as the non-logged-in HTML shell (for example, index.html/guest.html), account-level configuration JSON (account.json or config.json), Experience Builder page layout JSON (menus, widget layouts, card settings), CSS, JS, images, and favicons are served from an Akamai CDN (cpcontents.adobe.com / cpcontent.adobe.com) with cache headers that encourage both CDN-side and browser-side reuse, so that after the first page load the browser can render subsequent non-logged-in pages largely from its cache, revalidating only when needed via ETag or Last-Modified.
 
-## 多語言就業輔助工具
+## Multi-lingual Job Aids
 
-### 簡介
+### Introduction
 
-Adobe Learning Manager （ALM） 中的多語言工作輔助工具，讓作者與管理員能在同一工作輔助工具條目中，以多種語言提供支持文件、指南或資源。 不同地區的學習者都能以偏好語言取得相關教材，提升理解力、合規性及使用者體驗。
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves comprehension, compliance, and user experience.
 
-### 過去的行為
+### Previous behavior
 
-過去，ALM 的工作輔助工具僅支援每個工作輔助工具一個內容檔案，即使名稱與描述可本地化。 為了提供多語言的相同資源，作者必須為每種語言分別製作工作輔助工具。 這導致重複、混亂及行政負擔增加。 當時沒有統一的方法來管理多語言資源，這使得確保一致性與追蹤使用變得困難。
+Previously, job aids in ALM supported only a single content file per job aid, even when the name and description could be localized. To provide the same resource in multiple languages, authors had to create separate job aids for each language. This led to duplication, confusion, and increased administrative overhead. There was no unified way to manage multilingual resources, which made it difficult to ensure consistency and track usage.
 
-### 使用案例
+### Use cases
 
-* **全球勞動力賦能**：向多元勞動力提供安全手冊、流程指南或參考文件，提供多語言版本。
-* **法規遵循**：確保所有員工都收到相同的母語合規文件。
-* **持續的入職流程**：為全球新進員工提供當地語言的入職清單或常見問題。
-* **減少重複**：將所有語言版本的工作說明整合於單一條目中，簡化更新與報告。
+* **Global workforce enablement**: Deliver safety manuals, process guides, or reference documents in multiple languages to a diverse workforce.
+* **Regulatory compliance**: Ensure all employees receive the same compliance documentation in their native language.
+* **Consistent onboarding**: Provide onboarding checklists or FAQs in local languages for new hires worldwide.
+* **Reduced duplication**: Manage all language versions of a job aid in a single entry, which simplifies updates and reporting.
 
-### 主要特色
+### Key features
 
-* **多語言支援**：在單一工作說明中，為每種支援語言附上獨特的檔案或網址。
-* **本地化名稱與說明**：請以每種語言輸入工作輔助的名稱與說明。
-* **統一管理**：從一處編輯、更新並回報所有語言版本。
-* **向下相容**&#x200B;性：現有的單語言工作輔助工具會自動在所有新增語言間複製，直到新檔案上傳。
+* **Multiple language support**: Attach a unique file or URL for each supported language within a single job aid.
+* **Localized name and description**: Enter the job aid's name and description in each language.
+* **Unified management**: Edit, update, and report on all language versions from one place.
+* **Backward compatibility**: Existing single-language job aids are automatically replicated across all added languages until new files are uploaded.
 
-### 建立多語言工作輔助工具
+### Create a multilingual job aid
 
-1. 進入作者角色，選擇 **工作輔助工具**。
-2. 選擇 **建立工作協助**。
-3. 請以預設語言輸入工作說明的名稱與描述。
-4. 新增預設語言的主要內容檔案或網址。
-5. 省省工作援助。
+1. Go to the Author role and select **Job Aids**.
+2. Select **Create Job Aid**.
+3. Enter the job aid's name and description in the default language.
+4. Add the primary content file or URL for the default language.
+5. Save the job aid.
 
-### 新增語言
+### Add additional languages
 
-1. 在工作輔助編輯器中，選擇 **新增語言**。
-2. 從列表中選擇所需的語言。
-3. 對於每新增的語言：
-   * 輸入當地化的名稱和描述。
-   * 上傳對應的內容檔案或提供特定語言的網址。
-4. 所有必修語言都重複這個步驟。
+1. In the job aid editor, select **Add Language**.
+2. Select the desired language(s) from the list.
+3. For each added language:
+   * Enter the localized name and description.
+   * Upload the corresponding content file or provide a language-specific URL.
+4. Repeat for all required languages.
 
-### 編輯與管理語言
+### Edit and manage languages
 
-1. 若要更新特定語言的檔案或描述，請選擇語言標籤並視需要進行修改。
-2. 若在工作輔助發布後新增語言，原始檔案會自動分配到新語言，直到上傳唯一檔案為止。
-3. 可依需求移除或替換任何語言的檔案。
+1. To update a file or description for a specific language, select the language tab and make changes as needed.
+2. If a language is added after the job aid is published, the original file is automatically assigned to the new language until a unique file is uploaded.
+3. Remove or replace files for any language as required.
 
-### 發表與學習體驗
+### Publish and learner experience
 
-1. 在所有語言和檔案加入後，發布工作說明。
-2. 學習者會以他們選擇的內容語言看到工作說明，並附上相應的檔案或網址。
-3. 若無法提供學習者的語言，則會顯示預設語言檔案。
+1. After all languages and files are added, publish the job aid.
+2. Learners see the job aid in their selected content language, with the appropriate file or URL.
+3. If a learner's language is not available, the default language file is shown.
 
-### 報導
+### Reporting
 
-1. 下載工作協助報告，查看所有與每個工作協助工具相關的檔案及語言細節。
-2. 報告內容包括語言、檔名及用於追蹤的使用資料。
+1. Download job aid reports to view details of all files and languages associated with each job aid.
+2. Reports include language, file name, and usage data for tracking.
 
-### 最佳實務
+### Best practices
 
-* 提供姓名、描述及內容檔案的準確翻譯。
-* 定期檢視並更新檔案，以確保跨語言的一致性。
-* 使用明確的命名規則來區分不同語言的檔案。
-* 透過切換內容語言來測試學習者體驗，以驗證檔案的正確傳遞。
+* Provide accurate translations for names, descriptions, and content files.
+* Review and update files regularly to ensure consistency across languages.
+* Use clear naming conventions to distinguish files for different languages.
+* Test the learner experience by switching content languages to verify correct file delivery.
 
-### 疑難排解
+### Troubleshooting
 
-* **缺少某語言**&#x200B;檔案：顯示預設檔案。 確保所有語言都上傳了正確的檔案。
-* **舊有工作輔助**&#x200B;工具：新增語言檔案以替換自動複製的原始檔案。
-* **顯示**&#x200B;錯誤語言：請檢查學習者的內容語言設定及工作輔助工具的語言設定。
+* **Missing file for a language**: The default file is shown. Ensure all languages have the correct file uploaded.
+* **Legacy job aids**: Add new language files to replace automatically replicated originals.
+* **Wrong language shown**: Check the learner's content language settings and the job aid's language configuration.
 
-多語言工作輔助工具讓您能在單一條目中向全球受眾提供支援資源，減少重複，並確保每位學習者都能以偏好語言獲得正確資訊。 此功能提升了 Adobe Learning Manager 的無障礙性、合規性及行政效率。
+Multilingual Job Aids let you deliver supporting resources to a global audience in a single entry, reduce duplication, and ensure every learner receives the right information in their preferred language. This feature improves accessibility, compliance, and administrative efficiency in Adobe Learning Manager.
 
-## 使用 AI 助理為學習者提供答案
+## Get answers with AI Assistant for learners
 
-AI Assistant for learners 是 Adobe Learning Manager 內建的對話式 AI 輔助工具，設計用來引導你更快取得所需資訊。 透過用自然語言提問，你可以獲得上下文說明、呈現相關課程，並從學習內容中獲取洞見——而不必手動瀏覽目錄。
+AI Assistant for learners is a conversational, AI-driven assistant within Adobe Learning Manager designed to guide you to the information you need faster. By asking questions in natural language, you can get contextual explanations, surface relevant courses, and retrieve insights from learning content — without manually browsing through catalogs.
 
-### 能力
+### Capabilities
 
-* **智慧問答：** 能處理單回合與多回合對話，讓你自然地提問。 回應來自課程、學習路徑、證照及工作輔助工具。
-* **內容為基礎的答案並附有引用：** 直接從學習材料中擷取資訊，並包含指向原始課程、模組或資源的引用。
-* **廣泛內容相容性：** 支援多種格式，包括文件、簡報、影片、音訊檔案、HTML 內容及可分享內容物件參考模型（SCORM）模組。
-* **無縫的使用者體驗：** 可作為學習者頁面的側邊面板，維持基於會話的聊天紀錄以保持連續性。
-* **強大的管理員控制：** 管理員可啟用或停用助理，限制使用者群組存取權限，並選擇哪些內部目錄作為 AI 生成回應的來源。
+* **Smart question-answering:** Handles both single-turn and multi-turn conversations, letting you ask questions naturally. Responses are derived from courses, learning paths, certifications, and job aids.
+* **Content-grounded answers with citations:** Pulls information directly from learning materials and includes citations that point back to the original course, module, or resource.
+* **Broad content compatibility:** Supports a wide range of formats, including documents, presentations, videos, audio files, HTML content, and Sharable Content Object Reference Model (SCORM) modules.
+* **Seamless user experience:** Available as a side panel across learner pages, maintaining session-based chat history for continuity.
+* **Robust administrator controls:** Administrators can enable or disable the assistant, limit access by user groups, and choose which internal catalogs are used as the source for AI-generated responses.
 
-### 優點
+### Benefits
 
-* **更快取得知識：** 你能即時獲得問題的答案，無需在多個課程或文件中穿梭。
-* **提升參與度：** 對話互動讓學習體驗更自然、直覺且易於理解。
-* **更深入的理解：** 你可以提出後續問題，釐清概念並更深入地探討主題。
-* **可擴展的學習支援：** 自動化、AI 驅動的回應減少對專家與支援團隊的依賴。
+* **Faster access to knowledge:** You receive instant answers to your questions, eliminating the need to navigate through multiple courses or documents.
+* **Higher engagement:** Conversational interactions make the learning experience more natural, intuitive, and accessible.
+* **Better understanding:** You can ask follow-up questions to clarify concepts and explore topics more thoroughly.
+* **Scalable learning support:** Automated, AI-driven responses minimize dependence on subject-matter experts and support teams.
 
-了解更多關於 [學習者](/help/migrated/learners/feature-summary/learner-ai-assistant.md)用的 AI 助理。
+Learn more about [AI Assistant for learners](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
 
-## 多語言影片文字軌（VTT）支援
+## Multi-lingual Video Text Tracks (VTT) support
 
-Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能為多語言的影片與音訊內容提供字幕與字幕。 此功能簡化了在地化流程，使培訓對全球受眾開放，並確保符合無障礙標準。 作者可直接在平台上自動生成、翻譯、審查及編輯 VTT 檔案。
+Multi-lingual Video Text Tracks (VTT) support in Adobe Learning Manager enables authors to provide subtitles and captions for video and audio content in multiple languages. This feature streamlines localization, making training accessible to a global audience and ensuring compliance with accessibility standards. Authors can auto-generate, translate, review, and edit VTT files directly within the platform.
 
-### 使用案例
+### Use Cases
 
-* **全球培訓：** 提供多語言字幕影片內容，觸及國際學習者。
-* **無障礙合規：** 為聽障使用者提供其偏好語言的字幕。
-* **加速本地化：** 透過自動產生與翻譯VTT檔案，減少人工工作並加速內容發布。
-* **一致的學習體驗：** 確保所有學習者無論語言為何，都能獲得相同的資訊。
+* **Global Training:** Deliver video content with subtitles in multiple languages to reach international learners.  
+* **Accessibility Compliance:** Provide captions for hearing-impaired users in their preferred language.  
+* **Faster Localization:** Reduce manual effort and accelerate content rollout by auto-generating and translating VTT files.  
+* **Consistent Experience:** Ensure all learners receive the same information, regardless of language.
 
-### 主要特色
+### Key features
 
-* **自動生成VTT：** 上傳影片或音訊檔案，並自動生成原始語言的VTT字幕。
-* **多語言翻譯：** 將字幕翻譯成 39 種支援的非英語語言中的任何一種。
-* **應用程式內審查與編輯：** 在發佈前，先檢視、編輯並下載VTT檔案。
-* **通知：** 當 VTT 生成與翻譯完成後，會收到應用程式內通知。
-* **順暢發佈：** 發布最終完成的說明文字，讓學習者能以自己選擇的語言閱讀。
+* **Automatic VTT generation:** Upload a video or audio file and auto-generate VTT captions in the original language.  
+* **Multi-language translation:** Translate captions into any of the 39 supported non-English languages.  
+* **In-app review and editing:** Review, edit, and download VTT files before publishing.  
+* **Notifications:** Receive in-app notifications when VTT generation and translation are complete.  
+* **Smooth publishing:** Publish finalized captions for learners to access in their chosen language.
 
-### 上傳內容並產生 VTT
+### Upload content and generate VTT
 
-1. 到內容庫，選擇 **新增內容**。
-2. 上傳你的 MP3 或 MP4 檔案。
-3. 在上傳對話框中，選擇「 **產生翻譯**」選項。
-4. 選擇原始內容語言（預設為檔案語言）。
-5. 選擇更多目標語言進行翻譯（最多支援 39 種）。
-6. 選擇 **儲存**。 系統開始產生並翻譯 VTT 檔案。
+1. Go to the Content Library and select **Add Content**.
+2. Upload your MP3 or MP4 file.
+3. In the upload dialog, select the option to **Generate Translation**.
+4. Select the original content language (default is the file's language).
+5. Select additional target languages for translation (up to 39 supported).
+6. Select **Save**. The system begins generating and translating VTT files.
 
-### 監控進度
+### Monitor progress
 
-1. 儲存後，新內容會顯示在內容庫中。
-2. 進度指示器顯示 VTT 產生與翻譯的狀態。
-3. 當流程完成時，你會收到應用程式內的通知。
+1. After saving, the new content entry appears in the Content Library.
+2. A progress indicator shows the status of VTT generation and translation.
+3. You receive an in-app notification when the process is complete.
 
-### 審查與編輯 VTT 檔案
+### Review and edit VTT files
 
-1. 在內容庫中，以編輯&#x200B;**模式開啟內容**。
-2. 對於每種語言，請選擇 VTT 檔案旁的 **Review** 連結。
-3. 彈出視窗會顯示該語言的說明文字。
-4. 直接在彈出視窗中編輯字幕，或下載虛擬桌面檔案以便離線剪輯。
-5. 修改後，將修訂後的說明文上傳或貼回彈出視窗。
-6. 請儲存你的編輯內容。
+1. In the Content Library, open the content in **Edit** mode.
+2. For each language, select the **Review** link next to the VTT file.
+3. A pop-up displays the captions for that language.
+4. Edit captions directly in the pop-up or download the VTT file for offline editing.
+5. After making changes, upload or paste the revised captions back into the pop-up.
+6. Save your edits.
 
-### 發布說明文字
+### Publish captions
 
-1. 當對所有語言說明都滿意後，發布內容。
-2. 學習者在觀看影片時，會看到所有已出版語言的字幕選項。
+1. When satisfied with all language captions, publish the content.
+2. Learners see subtitle options in all published languages when viewing the video.
 
-### 附加資訊
+### Additional Information
 
-* **支援語言：** Adobe Learning Manager 支援的全部 39 種非英語語言。
-* **通知：** 當 VTT 產生與翻譯完成時，作者會收到通知。
-* **編輯彈性：** 字幕可在應用程式內或離線編輯後重新上傳。
-* **可擴展性：** 為企業級在地化與無障礙需求設計。
-* **無需手動上傳 VTT：** 系統可從零開始使用上傳的影片/音訊產生 VTT 檔案。
+* **Supported Languages:** All 39 non-English languages supported by Adobe Learning Manager.  
+* **Notifications:** Authors are notified when VTT generation and translation are complete.  
+* **Editing flexibility:** Captions can be edited in-app or offline and re-uploaded.  
+* **Scalability:** Designed for enterprise-scale localization and accessibility needs.  
+* **No Need for Manual VTT Upload:** The system can generate VTT files from scratch using the uploaded video/audio.  
 
-### 最佳實務
+### Best Practices
 
-* 發表前務必檢查自動生成的說明文字以確認準確性。
-* 為所有主要學習者群體提供翻譯，以最大化可及性。
-* 請使用通知系統隨時掌握處理進度。
-* 若影片內容有變動，請定期更新說明文字。
+* Always review auto-generated captions for accuracy before publishing.  
+* Provide translations for all major learner groups to maximize accessibility.  
+* Use the notification system to stay updated on processing status.  
+* Regularly update captions if video content changes.  
 
-### 疑難排解
+### Troubleshooting
 
-* 如果 VTT 產生失敗，請確保你的檔案是支援的格式（MP3/MP4）。
-* 對於缺少的語言，請在上傳時確認它們是否支援並被選取。
-* 如果字幕不同步，請使用應用程式內編輯器調整時間。
+* If VTT generation fails, ensure your file is in a supported format (MP3/MP4).  
+* For missing languages, verify they are supported and selected during upload.  
+* If captions are out of sync, use the in-app editor to adjust timing.  
 
-多語言 VTT 支援讓您能高效提供無障礙且在地化的視訊學習體驗。 透過自動生成、翻譯及應用程式內編輯，你能確保內容觸及並支持所有學習者，不論語言為何。
+Multi-lingual VTT support enables you to deliver accessible, localized video learning experiences efficiently. By using auto-generation, translation, and in-app editing, you can ensure your content reaches and supports all learners, regardless of language.
 
-## 設計客製化證書
+## Design custom certificates
 
-Adobe Learning Manager （ALM） 中的自訂憑證讓管理員與作者設計、管理並發行個人化的學習者憑證。 此功能包含拖放編輯器、動態欄位、多語言支援及 AI 生成背景，讓組織無需技術專業也能建立品牌證書。
+Custom Certificates in Adobe Learning Manager (ALM) let administrators and authors design, manage, and issue personalized certificates for learners. The feature includes a drag-and-drop editor, dynamic fields, multilingual support, and AI-generated backgrounds so organizations can create branded certificates without technical expertise.
 
-### 過去的行為
+### Previous behavior
 
-過去，ALM 中的憑證建立受限於模板僵化、缺乏自訂性，以及技術障礙（如 HTML 編輯）。 客戶要求更簡單的證書設計、新增動態欄位（如學習者姓名或講師），以及支援多語言，同時維持品牌一致性與視覺吸引力。
+Previously, certificate creation in ALM was limited by template rigidity, lack of customization, and technical barriers (such as HTML editing). Customers requested simpler ways to design certificates, add dynamic fields (such as learner name or instructor), and support multiple languages, all while maintaining brand consistency and visual appeal.
 
-### 使用案例
+### Use cases
 
-* **品牌識別**：頒發帶有企業標誌、顏色及字體的證書，以表彰合規、培訓或成就。
-* **動態個人化**：自動填入學習者姓名、講師姓名及其他活躍欄位。
-* **多語言教學**：為全球學習者提供多語言證書。
-* **彈性設計**：製作橫向或直向證書，使用 AI 生成背景，並在發佈前預覽。
+* **Branded recognition**: Issue certificates with corporate logos, colors, and fonts for compliance, training, or achievement.
+* **Dynamic personalization**: Automatically populate learner names, instructor names, and other active fields.
+* **Multilingual delivery**: Provide certificates in multiple languages for global learners.
+* **Flexible design**: Create landscape or portrait certificates, use AI-generated backgrounds, and preview before publishing.
 
-### 存取自訂憑證
+### Access custom certificates
 
-1. 請前往&#x200B;**管理員首頁（之前稱為**&#x200B;徽章&#x200B;**）的成就**&#x200B;區塊。
-2. 選擇 **憑證** 以檢視、建立或管理憑證範本。
+1. Go to the **Achievements** section in the Admin home page (previously called **Badges**).
+2. Select **Certificates** to view, create, or manage certificate templates.
 
-### 建立憑證
+### Create a certificate
 
-1. 選擇 **建立憑證**。
-2. 選擇直向或橫向。
-3. 選擇現有範本或從空白畫布開始。
-4. 輸入憑證名稱和預設語言。
-5. 使用拖放編輯器來新增：
-   * 文字欄位（含字型、顏色與位置選項）
-   * 圖片（標誌、圖示等）
-   * 動態欄位（學習者姓名、講師姓名等）
-   * 證書背景（純色、上傳圖片或 AI 生成圖片）
-6. 對於 AI 生成的背景：輸入提示（例如「教室裡的學生」）即可使用 AI 生成背景。
+1. Select **Create Certificate**.
+2. Select portrait or landscape orientation.
+3. Select an existing template or start from a blank canvas.
+4. Enter a certificate name and default language.
+5. Use the drag-and-drop editor to add:
+   * Text fields (with font, color, and positioning options)
+   * Images (logos, icons, etc.)
+   * Dynamic fields (learner name, instructor name, etc.)
+   * Certificate backgrounds (solid color, uploaded image, or AI-generated image)
+6. For AI-generated backgrounds: Enter a prompt (for example, "students in a classroom") to generate backgrounds using AI.
 
-### 加入動態場
+### Add dynamic fields
 
-Adobe Learning Manager 自訂憑證中的動態欄位是佔位符，當憑證產生時會自動填入相關資訊，例如學習者姓名、教師姓名或其他帳號特定資料，讓個人化且具情境感知的憑證無需手動編輯即可產生。
+Dynamic fields in Adobe Learning Manager custom certificates are placeholders that automatically populate with relevant information, such as learner name, instructor name, or other account-specific data—when the certificate is generated, allowing for personalized and context-aware certificates without manual editing.
 
-1. 插入動態變數，如學習者名稱、教師名稱或其他活躍欄位。
-2. 當憑證發出時，欄位會自動填入。
+1. Insert dynamic variables such as learner name, instructor name, or other active fields.
+2. Fields are automatically populated when the certificate is issued.
 
-### 多語言支援
+### Multilingual support
 
-1. 在證書中新增語言（例如法語、德語）。
-2. 輸入每種語言的翻譯文字。
-3. 管理每種語言的翻譯與預覽證書。
+1. Add new languages (for example, French, German) to the certificate.
+2. Enter translated text for each language.
+3. Manage translations and preview certificates in each language.
 
-### 預覽與發布
+### Preview and publish
 
-1. 使用預覽功能查看證書在學習者眼中的呈現。
-2. 下載或列印預覽以供審閱。
-3. 儲存為草稿以便之後繼續編輯，或準備好時再發佈。
+1. Use the preview feature to see how the certificate appears to learners.
+2. Download or print the preview for review.
+3. Save as draft to continue editing later, or publish when ready.
 
-### 應用證書
+### Apply certificates
 
-1. 管理員可以設定帳號的預設憑證。
-2. 作者可以將證書附加到特定的學習物件實例（課程、路徑等）。
-3. 在實例層級可依需求選擇不同的憑證。
+1. Admins can set default certificates for the account.
+2. Authors can attach certificates to specific learning object instances (courses, paths, etc.).
+3. Select different certificates at the instance level as needed.
 
-### 管理憑證
+### Manage certificates
 
-1. 在圖書館中查看已發表及草稿證書。
-2. 編輯、更新或刪除範本。
-3. 憑證可以在多個實例間重複使用。
+1. View published and draft certificates in the library.
+2. Edit, update, or delete templates as required.
+3. Certificates can be reused across multiple instances.
 
-ALM 中的客製化證書提供一種靈活的方式來設計與發行個人化、品牌化及多語言的證書。 此功能簡化了證書管理，提升學習者的辨識度，並支援全球合規與品牌推廣需求。
+Custom Certificates in ALM provide a flexible way to design and issue personalized, branded, and multilingual certificates. The feature simplifies certificate management, improves learner recognition, and supports global compliance and branding needs.
 
-## 多語言就業輔助工具
+## Multi-lingual Job Aids
 
-Adobe Learning Manager （ALM） 中的多語言工作輔助工具，讓作者與管理員能在同一工作輔助工具條目中，以多種語言提供支持文件、指南或資源。 不同地區的學習者都能以偏好語言取得相關教材，提升可及性、合規性及使用者體驗。
+Multilingual Job Aids in Adobe Learning Manager (ALM) let authors and administrators provide supporting documents, guides, or resources in multiple languages within a single job aid entry. Learners across different regions can access relevant materials in their preferred language, which improves accessibility, compliance, and user experience.
 
-### 過去的行為
+### Previous behavior
 
-過去，ALM 只允許每個工作輔助工具使用一個內容檔案，儘管名稱與描述可進行本地化。 為了提供多語言的相同資源，作者必須為每種語言分別製作工作輔助工具。 這導致重複、混亂及行政工作量增加。 當時沒有統一的方法來管理多語言資源，這使得確保一致性與追蹤使用變得困難。
+Previously, ALM allowed only one content file per job aid, even though the name and description could be localized. To provide the same resource in multiple languages, authors had to create separate job aids for each language. This led to duplication, confusion, and increased administrative effort. There was no unified way to manage multilingual resources, which made it difficult to ensure consistency and track usage.
 
-### 使用案例
+### Use cases
 
-* **全球勞動力賦能**：向多元勞動力提供安全手冊、流程指南或參考文件，提供多語言版本。
-* **法規遵循**：確保所有員工都收到相同的母語合規文件。
-* **持續的入職流程**：為全球新進員工提供當地語言的入職清單或常見問題。
-* **減少重複**：將所有語言版本的工作說明整合於單一條目中，簡化更新與報告。
+* **Global workforce enablement**: Deliver safety manuals, process guides, or reference documents in multiple languages to a diverse workforce.
+* **Regulatory compliance**: Ensure all employees receive the same compliance documentation in their native language.
+* **Consistent onboarding**: Provide onboarding checklists or FAQs in local languages for new hires worldwide.
+* **Reduced duplication**: Manage all language versions of a job aid in a single entry, which simplifies updates and reporting.
 
-### 建立多語言就業輔助工具
+### Create a multilingual Job Aid
 
-1. 進入作者角色，選擇 **工作輔助工具**。
-2. 選擇 **建立工作協助**。
-3. 請以預設語言輸入工作說明的名稱與描述。
-4. 上傳主要內容檔或提供預設語言的網址。
-5. 省省工作援助。
+1. Go to the Author role and select **Job Aids**.
+2. Select **Create Job Aid**.
+3. Enter the job aid's name and description in the default language.
+4. Upload the primary content file or provide a URL for the default language.
+5. Save the job aid.
 
-### 新增語言
+### Add additional languages
 
-1. 在工作輔助編輯器中，選擇 **新增語言**。
-2. 從列表中選擇所需的語言。
-3. 對於每新增的語言：
-   * 輸入當地化的名稱和描述。
-   * 上傳對應的內容檔案或提供特定語言的網址。
-4. 所有必修語言都重複這個步驟。
+1. In the job aid editor, select **Add Language**.
+2. Select the desired language(s) from the list.
+3. For each added language:
+   * Enter the localized name and description.
+   * Upload the corresponding content file or provide a language-specific URL.
+4. Repeat for all required languages.
 
-### 編輯與管理語言
+### Edit and manage languages
 
-1. 若要更新特定語言的檔案或描述，請選擇語言標籤並視需要進行修改。
-2. 若在工作輔助發布後新增語言，原始檔案會自動分配到新語言，直到上傳唯一檔案為止。
-3. 可依需求移除或替換任何語言的檔案。
+1. To update a file or description for a specific language, select the language tab and make changes as needed.
+2. If a language is added after the job aid is published, the original file is automatically assigned to the new language until a unique file is uploaded.
+3. Remove or replace files for any language as required.
 
-### 發表與學習體驗
+### Publish and learner experience
 
-1. 在所有語言和檔案加入後，發布工作說明。
-2. 學習者會以他們選擇的內容語言看到工作說明，並附上相應的檔案或網址。
-3. 若無法提供學習者的語言，則會顯示預設語言檔案。
+1. After all languages and files are added, publish the job aid.
+2. Learners see the job aid in their selected content language, with the appropriate file or URL.
+3. If a learner's language is not available, the default language file is shown.
 
-### 報導
+### Reporting
 
-1. 下載工作協助報告，查看所有與每個工作協助工具相關的檔案及語言細節。
-2. 報告內容包括語言、檔名及用於追蹤的使用資料。
+1. Download job aid reports to view details of all files and languages associated with each job aid.
+2. Reports include language, file name, and usage data for tracking.
 
-ALM 中的多語言工作輔助工具讓您能在單一條目中向全球受眾提供支援資源，減少重複，並確保每位學習者都能以偏好語言獲得正確資訊。 此功能提升了 Adobe Learning Manager 的無障礙性、合規性及行政效率。
+Multilingual Job Aids in ALM let you deliver supporting resources to a global audience in a single entry, reduce duplication, and ensure every learner receives the right information in their preferred language. This feature improves accessibility, compliance, and administrative efficiency in Adobe Learning Manager.
 
-## Captivate 生成賽道的播放改進
+## Playback improvements for Captivate generated courses
 
-此更新大幅提升 Adobe Captivate 內容在 ALM 中播放的體驗，引入統一且簡化的介面。
+The update significantly improves the playback experience for Adobe Captivate content within ALM by introducing a unified and streamlined interface.
 
-ALM 播放器現在顯示單一整合的目錄，隱藏了 Captivate 目錄，並提供清晰的投影片關卡完成指示器，包括綠色勾勾以視覺追蹤進度。
+The ALM player now displays a single, consolidated TOC, hiding the Captivate TOC, and provides clear slide-level completion indicators, including green tick marks for visual progress tracking.
 
-系統透過將模組與課程控制合併成一個直覺條，簡化導航，減少學習者的混淆。
+The system simplifies navigation by merging module and course controls into one intuitive bar, reducing learner confusion.
 
-情境感知進度控制提升了使用便利性，僅在影片投影片顯示進度條，非影片投影片則顯示滑影片導覽控制。
+Context-aware progress controls enhance usability by displaying video progress bars only on video slides and slide navigation controls only on non-video slides.
 
-此外，系統現在將筆記連結到投影片編號，而非時間戳記，確保 PDF 匯出可靠，並解決先前格式不一致的問題。
+Additionally, the system now links notes to slide numbers instead of timestamps, ensuring reliable PDF exports and resolving prior format inconsistencies.
 
-## 檢查清單的強化
+## Checklist enhancements
 
-### 多語言清單支援
+### Multi-language support for checklist
 
-此功能允許您建立並管理多種語言的檢查清單模組。 每個檢查清單問題、教學與評量標準都能翻譯，讓審查者與學習者以偏好語言與檢查表互動。 系統以使用者選擇的內容語言顯示檢查清單，提升全球團隊的無障礙性與合規性。
+This feature lets you create and manage checklist modules in multiple languages. Each checklist question, instruction, and evaluation criterion can be translated so reviewers and learners interact with the checklist in their preferred language. The system displays the checklist in the user's selected content language, which improves accessibility and compliance for global teams.
 
-1. 在你的課程中新增或編輯檢查清單模組。
-2. 從語言選項中選擇你想支援的所有語言。
-3. 每種語言，輸入每個檢查表問題、指示及評量標準的翻譯。
-4. 儲存你的更改。 檢查清單會以審查者或學習者選擇的內容語言顯示。
-5. 如果之後新增語言，請在發表前提供所有問題和標準的翻譯。
-6. 下載清單報告時，請選擇您偏好的語言以該語言查看報告。
+1. Add or edit a checklist module in your course.
+2. Select all the languages you want to support from the language options.
+3. For each language, enter translations for every checklist question, instruction, and evaluation criterion.
+4. Save your changes. The checklist displays in the reviewer's or learner's selected content language.
+5. If you add a new language later, provide translations for all questions and criteria before publishing.
+6. When downloading checklist reports, select your preferred language to view the report in that language.
 
-### 教師評鑑的檢查題權重清單
+### Checklist question weightage for instructor evaluations
 
-此功能允許你為每個檢查表問題分配不同的最高分數（權重）。 你可以反映每題重要性或難度的不同，這有助於更準確且有意義的評估。 系統會根據你的輸入計算總分，並根據你設定的標準判斷學習者是否通過或不及格。
+This feature lets you assign different maximum scores (weightage) to each checklist question. You can reflect the varying importance or difficulty of each question, which supports more accurate and meaningful evaluations. The system calculates the total score based on your input and determines if the learner passes or fails according to the criteria you set.
 
-1. 新增檢查清單模組時，請選擇 **自訂評分**。
-2. 對每個清單題目，設定一個反映其重要性的最高分數。
-3. 定義檢查清單的總及格分數。
-4. 儲存並發布清單。
-5. 作為講師或審查員，請為每位學習者給予每題分數（最高分數）。
-6. 系統會計算總分並決定通過/不通過狀態。
-7. 下載清單報告，查看每題的達成分數與最高分數及總分。
+1. When adding a checklist module, select **Custom scoring**.
+2. For each checklist question, set a unique maximum score that reflects its importance.
+3. Define the overall passing score for the checklist.
+4. Save and publish the checklist.
+5. As an instructor or reviewer, evaluate each learner by assigning a score for every question (up to the maximum you set).
+6. The system calculates the total score and determines pass/fail status.
+7. Download checklist reports to view both achieved and maximum scores for each question and the total score.
 
-### 附有評論功能給審稿人的檢查清單
+### Checklist with commenting capability for reviewer
 
-此功能讓審稿人在檢查清單評估時能加入評論或回饋。 你可以為每位學習者提供個人化且可執行的回饋。 你也可以選擇在留言中顯示你的名字以保持透明。 所有備註都會儲存在學習者的成績單中，並包含在檢查表報告中。
+This feature lets reviewers add comments or feedback during checklist evaluation. You can provide personalized, actionable feedback for each learner. You can also choose to display your name with your comments for transparency. All remarks are saved in the learner's transcript and included in checklist reports.
 
-1. 在設定檢查清單時，啟用 **審稿人備註**。
-2. 若想讓你的名字出現在評論中，可選擇啟用 **「顯示審稿人姓名給學習者** 」。
-3. 在評估時，請在提供的備註欄輸入學習者的意見或回饋。
-4. 選擇你的評論是否應該對學習者可見。
-5. 提交你的評估。 啟用後，學習者會看到你的備註和姓名，以及他們的結果。
-6. 所有評論都會儲存在學習者的成績單中，並納入檢查表報告以供日後參考。
+1. When setting up the checklist, enable **Reviewer remarks**.
+2. Optionally, enable **Show reviewer name to learner** if you want your name to appear with your comments.
+3. During evaluation, enter comments or feedback for the learner in the provided remarks field.
+4. Select whether your comments should be visible to the learner.
+5. Submit your evaluation. If enabled, the learner sees your remarks and your name alongside their results.
+6. All comments are saved in the learner's transcript and included in checklist reports for future reference.
 
-## 進階搜尋增強功能
+## Advanced search enhancements
 
-此版本包含內容內搜尋的改進，顯示與排名較高的課程內容相符。此外，職缺輔助工具現在也包含在進階搜尋排名中。
+This release includes improvement in in-content search by showing the courses with content match with query higher in rank. Also, Job Aids are now included in advanced search ranking.
 
-## 對應與替代
+## Equivalents and alternates
 
-### 概觀
+### Overview
 
-在許多組織中，學習者會遇到不同課程可以合理滿足相同要求的訓練情況——例如，當新課程取代舊課程、更完整的課程取代較短課程，或需要開設特別的替代課程時。
+In many organizations, learners encounter training situations where different courses can legitimately satisfy the same requirement?for example, when a new course replaces an older one, when a more comprehensive course can stand in for a shorter one, or when a special substitute course needs to be offered.
 
-替代課程或學習路徑功能為ALM提供了正式表達方式：
+The Alternate Courses or Learning Path feature gives ALM a formal way to say:
 
-「如果學員完成了這項訓練，就當作已經完成了相關訓練要求。」
+"If the learner completed this training, treat them as having satisfied that related training requirement."
 
-此功能跨課程與學習路徑運作，確保後續要求如先修條件與合規規則得到遵守，且不需強迫學習者硬背重複內容。 它也透過記錄直接完成的事項與替代完成的事項，保持報告的準確性。
+The feature works across courses and Learning Paths, ensures downstream requirements such as prerequisites and compliance rules are honored, and does this without forcing learners to sit through redundant content. It also keeps reporting accurate by recording what was completed directly versus what was satisfied via an alternate.
 
-核心功能引入了替代完成的概念：當學習者完成設定的原始訓練後，自動產生一種特殊的完成狀態，該訓練計入另一個目標訓練。
+At the core, the feature introduces the concept of an alternate completion: a special completion state created automatically when a learner finishes a configured source training that counts towards another target training.
 
-### 等價與替代
+### Equivalence vs. alternates
 
-有些培訓關係是雙向的，意即每門課程都能滿足對方的需求。 這實際上是一種兩種訓練被視為互換的情境。 相較之下，單向關係允許一種訓練滿足另一種訓練的要求，但反之則不然。 ALM 以相同的替代*補全機制來建模這兩種情境。
+Some training relationships are bidirectional, meaning each course can satisfy the other's requirement. This is effectively a scenario where two trainings are treated as mutually substitutable. In contrast, unidirectional relationships allow one training to satisfy the requirement for another, but not vice versa. ALM models both scenarios using the same underlying alternate*completion mechanism.
 
-* **雙向關係：** 完成任一訓練即可滿足另一項訓練的要求。
-* **單向關係：** 完成訓練A滿足訓練B，但完成B不滿足A。這種情況常見於較新或更全面的版本應計入舊有要求，但反過來則不然。
+* **Bidirectional relationship:** Completing either training satisfies the requirement for the other.
+* **Unidirectional relationship:** Completing Training A satisfies Training B, but completing B does not satisfy A. This is common when a newer or more comprehensive version should count toward an older requirement, but not the reverse.
 
-替代路線最常用於 **單向** 情境——例如，當一個更完整的超集課程涵蓋較簡單的子集課程時。 完成超集合應該滿足子集的要求，但不一定反過來。
+Alternates are most often used in **unidirectional** scenarios?for example, when a more comprehensive superset course covers everything in a simpler subset course. Completing the superset should satisfy the requirement for the subset, but not necessarily the other way around.
 
-* 一門更新、擴充的課程，應該算入舊有的必修課程。
-* 為特定族群設計的課程（例如區域性或無障礙*調整版），但仍符合與主課程相同的要求。
-* 一個加強版的新課程，組織希望將其計入舊有要求，但舊版本不應計入新要求。
+* A newer, expanded course that should count toward an older requirement.
+* A course designed for a specific audience (for example, a regional or accessibility*adapted variant) that still fulfills the same requirement as the primary course.
+* An enhanced new version of a course that the organization wants to count for an older requirement, but the older version should not count for the new requirement.
 
-在《Alternates》中，關係通常是 **單向**&#x200B;的。 如果課程A是課程B的替代，完成課程A可以滿足課程B的要求，但完成課程B不一定能滿足課程。
+In Alternates, the relationship is normally **one*way**. If Course A is an alternate for Course B, completing A can satisfy B's requirement, but completing B does not necessarily satisfy A.
 
-等價與替代在 ALM 中共享相同的底層機制：當一個配置的原始訓練完成後，ALM 會自動產生一個或多個目標訓練的替代完成。
+Both equivalence and alternate share the same underlying mechanism in ALM: when a configured source training is completed, ALM automatically produces an alternate completion for one or more target trainings.
 
-### 這解決了哪些問題？
+### What problems does this solve?
 
-若無替代與等價，管理者與學習者將面臨多項反覆出現的問題：
+Without Alternates and Equivalence, administrators and learners face several recurring issues:
 
-* 學習者經常被要求重修已完成內容的課程，內容內容不同版本或格式。
-* 更新合規計畫更簡單，因為管理員可以替換或重組訓練內容，而不必強迫完成舊版本的學習者重修等效或已取代的內容。
-* 前提邏輯是僵硬的。 如果一條路徑需要特定課程作為先決條件，那麼沒有明確的方法能辨識另一項訓練是否足夠。
-* 報告和審計更困難。 沒有正式訊號顯示該要求透過替代完成方式被滿足，也無法直接追蹤信用來源。
+* Learners are frequently asked to repeat courses that cover content they already completed in a different version or format.
+* Updating compliance programs is simpler because admins can replace or restructure trainings without forcing learners who completed older versions to retake equivalent or superseded content.
+* Prerequisite logic is rigid. If a path requires a particular course as a prerequisite, there is no clean way to recognize that another training is good enough.
+* Reporting and audits are harder. There is no formal signal showing that a requirement was satisfied via an alternate completion and no straightforward way to trace the source of the credit.
 
-替代與等價特性透過以下方式解決這些問題：
+The Alternates and Equivalence feature addresses these issues by:
 
-* 當替代方案有效時，避免學習者重複工作。
-* 允許管理員修改訓練結構（例如在路徑內交換課程），而不會中斷先前版本學習者的完成度。
-* 允許先決條件與合規檢查同時尊重直接完工及替代或等效完工。
-* 清楚記錄訓練是直接完成還是透過其他關係完成，以及訓練來源為何。
+* Preventing duplicate effort for learners when alternates are valid.
+* Allowing admins to modify training structures (for example, swap a course inside a path) without breaking completions for learners who took the earlier version.
+* Allowing prerequisites and compliance checks to respect both direct completions and alternate or equivalent completions.
+* Recording clearly, in transcripts and reports, whether a training was completed directly or satisfied via an alternate relationship, along with which training served as the source.
 
-### 這個功能在概念上如何運作
+### How the feature works conceptually
 
-此功能建立在三個主要理念上： **關係**、 **替代完成**&#x200B;與 **下游行為**。
+The feature is built on three main ideas: **relationships**, **alternate completion**, and **downstream behavior**.
 
-#### 訓練之間的關係
+#### Relationships between trainings
 
-管理者定義課程與學習路徑之間的關係。 每段關係，他們會選擇一個 **來源** 及一個或多個 **目標**。 一門課程可能有多達30個目標，視應滿足的早期或相關訓練數量而定。
+Administrators define relationships between courses and Learning Paths. For each relationship, they choose a **source** and one or more **targets**. A single course might have up to 30 targets depending on how many earlier or related trainings it should satisfy.
 
-在等價方面，管理員可以讓雙方的關係 **是雙向** 的，如果他們希望兩種訓練都能讓彼此滿意。 對於替補，管理員通常會保持方向單向，以反映只允許部分替換。
+For Equivalence, admins can make the relationship **bidirectional** if they want both trainings to satisfy each other. For Alternates, admins normally keep the direction one*way to reflect that only some substitutions are allowed.
 
-這些關係儲存在訓練層級，而非學習者層級。 一旦設定並啟用，這些指令將適用於所有目前及未來完成的原始訓練，但取決於帳號層級設定，例如是否啟用追溯完成。
+These relationships are stored at the training level, not at the learner level. Once configured and enabled, they apply to all current and future completions of the source training, subject to account*level settings such as whether retroactive completion is enabled.
 
-### 替代完備
+### Alternate completion
 
-當學習者完成來源訓練時，ALM 會檢視所有已設定的替代或等效關係，並為每個相關目標訓練建立 **替代完成紀錄**。 此紀錄與正常完備化不同：
+When a learner completes a source training, ALM examines all configured alternate or equivalent relationships and, for each relevant target training, creates an **alternate completion record**. This record is distinct from a normal completion:
 
-* 它標示學習者的目標訓練，但會追蹤該訓練是透過交替或等同方式完成，而非直接完成。
-* 它記錄了用來滿足目標的來源訓練。
-* 它被儲存在專用結構中，以便報告能區分直接完成與替代完成。
+* It marks the target training for the learner but keeps track that it was completed via alternate or equivalence rather than directly.
+* It records which source training was used to satisfy the target.
+* It is stored in a dedicated structure so reporting can distinguish between direct and alternate completions.
 
-即使學員未註冊，仍能看到交替完成課程。 學習者成績單（LT）報告僅包含學習者已報名的培訓紀錄。
+Learners will see alternate completion even if they're not enrolled. The Learner Transcript (LT) report includes only records of trainings that the learner has enrolled in.
 
-### 學習者應用程式的替代及等效完成體驗
+### Learner app experience for alternate and equivalent completions
 
-替代完成與等效完成課程會在學習者應用程式中明確顯示，讓學習者清楚了解培訓需求如何達成，同時保持成績單與報告的一致性。
+Alternate and equivalent completions are surfaced distinctly in the learner app so learners can clearly understand how a training requirement was satisfied, while maintaining consistency with transcripts and reports.
 
-#### LO 卡的行為
+#### LO card behavior
 
-#### 替代完工狀態
+#### Alternate completion status
 
-當學習者透過替代或等效關係完成訓練時，學習對象（LO）卡片會顯示獨立狀態，例如 **「透過替代**&#x200B;完成」。\
-這種視覺區分幫助學習者區分直接完成與透過配置關係獲得的完成。
+When a learner completes a training via an alternate or equivalent relationship, the Learning Object (LO) card displays a distinct status such as **Completed via Alternate**.  
+This visual distinction helps learners differentiate between direct completions and completions granted through configured relationships.
 
-#### 完工方法指示器
+#### Completion method indicator
 
-LO 卡片包含完成方法指示（例如標籤或圖示），以顯示完成是透過 **替代**&#x200B;完成。\
-若替代完成因追溯未完成或刪除原始訓練等變更而被撤銷，LO 卡會更新為&#x200B;**替代（撤銷）。**
+The LO card includes a completion method indicator (for example, a label or icon) to show that the completion was achieved through an **Alternate**.  
+If an alternate completion is later revoked due to changes such as retroactive incompletion or deletion of the source training, the LO card updates to reflect **Alternate (Revoked)**.
 
-#### 透明度與審計細節
+#### Transparency and audit details
 
-學習者可打開 LO 卡查看更多細節，包括：
+Learners can open the LO card to view additional details, including:
 
-* 提供替代完成的來源課程或學習路徑
-* 與源訓練相關的完成日期
+* The source course or learning path that granted the alternate completion
+* The completion date associated with the source training  
 
-此舉確保透明度，並支持審計與合規審查。
+This ensures transparency and supports audit and compliance reviews.
 
-#### 過濾與檢視
+#### Filtering and views
 
-#### 補全方法濾波器
+#### Completion method filter
 
-學習者應用程式提供篩選器，讓學習者能區分以下內容：
+The learner app provides a filter that allows learners to distinguish between:
 
-* **直接** 完備
-* **替代** 完備
-* **所有** 完結
+* **Direct** completions
+* **Alternate** completions
+* **All** completions  
 
-這讓學習者能快速了解其學習需求如何被滿足。
+This enables learners to quickly understand how their learning requirements were fulfilled.
 
-#### 逐字稿與進度觀點
+#### Transcript and progress views
 
-完成方法過濾器可用於面向學習者的視圖，例如：
+The completion method filter is available in learner*facing views such as:
 
-* 學習成績單
-* 進度與完成追蹤部分
+* Learning transcripts
+* Progress and completion tracking sections  
 
-這些觀點清楚指出哪些訓練是直接完成的，哪些則是透過交替或等效方式完成。
+These views clearly indicate which trainings were completed directly and which were satisfied through alternates or equivalence.
 
-#### 報告對齊
+#### Reporting alignment
 
-學習者應用程式中的過濾邏輯與 **報告中使用的完成方法** 欄位一致。\
-這確保學習者在使用者介面中看到的內容與管理員在匯出及合規報告中看到的內容保持一致。
+The filtering logic in the learner app aligns with the **Completion Method** column used in reports.  
+This ensures consistency between what learners see in the UI and what administrators see in exports and compliance reports.
 
-#### 端&#x200B;*到*&#x200B;端流
+#### End*to*end flow
 
-#### 給學習者
+#### For learners
 
-1. 在學習者應用程式中切換到 **「我的學習** 」或 **「已完成課程** 」。
-2. 檢視 LO 卡，辨識標示 **為「透過替代**&#x200B;完成」的訓練。
-3. 打開 LO 卡以查看來源培訓及完成日期的詳細資訊。
-4. 請使用成績單或課程列表檢視中的篩選選單，選擇 **直接**、 **替代**&#x200B;或 **全部**。
-5. 根據所選完成方式檢視更新後的清單。
+1. Navigate to **My Learning** or **Completed Courses** in the learner app.
+2. Review LO cards to identify trainings marked as **Completed via Alternate**.
+3. Open an LO card to view details about the source training and completion date.
+4. Use the filter menu in transcript or course list views to select **Direct**, **Alternate**, or **All**.
+5. Review the updated list based on the selected completion method.
 
-#### 給管理員與作者
+#### For administrators and authors
 
-1. 在管理介面中設定課程或學習路徑之間的等效或替代關係。
-2. 確認替代完成是否正確反映在 LO 卡片和面向學習者的篩選條件中。
-3. 使用學習者檢視和報告來確認使用者介面與匯出資料的一致性。
-4. 若原始訓練被退休或刪除，請確認受影響的 LO 卡會相應更新（例如，在適用時顯示 **替代（撤銷）** ）。
+1. Configure equivalent or alternate relationships between courses or learning paths in the admin interface.
+2. Verify that alternate completions are correctly reflected on LO cards and in learner*facing filters.
+3. Use learner views and reports to confirm consistency between UI and exported data.
+4. If a source training is retired or deleted, validate that affected LO cards update accordingly (for example, showing **Alternate (Revoked)** when applicable).
 
-## 追溯完成與不完成行為
+## Retroactive completion and incompletion behavior
 
-ALM 支援追溯完成與追溯不完成，確保即使關係在學習者完成訓練後被建立、修改或移除，替代與等效關係仍能隨時間保持準確。
+ALM supports retroactive completion and retroactive incompletion to ensure that alternate and equivalent relationships remain accurate over time, even when relationships are created, modified, or removed after learners have already completed training.
 
-### 追溯完成
+### Retroactive completion
 
-#### 定義
+#### Definition
 
-啟用追溯完成後，過去完成原始課程的學習者，若後來建立等效或替代關係，將自動獲得目標課程的替代完成。\
-這確保歷史學習得以尊重，且不需學習者重修訓練。
+When retroactive completion is enabled, learners who completed a source course in the past automatically receive an alternate completion for the target course if an equivalent or alternate relationship is created later.  
+This ensures that historical learning is honored without requiring learners to retake training.
 
-#### 運作原理
+#### How it works
 
-1. 管理員在帳號層級啟用追溯完成。
-2. 管理者定義來源訓練與目標訓練之間的等價或替代關係。
-3. 系統會掃描來源訓練的歷史完成紀錄。
-4. 符合資格的學員可獲得目標訓練的替代完成。
-5. 這些紀錄在學習者成績單及報告中顯示 **為「透過替代** 完成」。
+1. An administrator enables retroactive completion at the account level.
+2. The administrator defines an equivalent or alternate relationship between a source and target training.
+3. The system scans historical completion records for the source training.
+4. Eligible learners are granted alternate completion for the target training.
+5. These records appear as **Completed via Alternate** in learner transcripts and reports.
 
-### 追溯未完成
+### Retroactive incompletion
 
-#### 定義
+#### Definition
 
-當啟用追溯性未完成時，若移除底層等效或替代關係，或刪除來源訓練，則替代完成會被撤銷。\
-這確保系統反映目前且有效的訓練關係。
+When retroactive incompletion is enabled, alternate completions are revoked if the underlying equivalent or alternate relationship is removed or if the source training is deleted.  
+This ensures the system reflects the current and valid training relationships.
 
-#### 運作原理
+#### How it works
 
-1. 管理員在帳戶層級啟用追溯性未完成。
-2. 管理員會移除替代或等效的關係，或刪除來源訓練。
-3. 系統識別透過受影響關係獲得交替完成的學習者。
-4. 相應的替代完成紀錄會被撤銷。
-5. 被撤銷的紀錄會在逐字稿及報告中標示 **為替代（撤銷）** 以便審計可見。
+1. An administrator enables retroactive incompletion at the account level.
+2. The administrator removes an alternate or equivalent relationship, or deletes the source training.
+3. The system identifies learners who received alternate completion through the affected relationship.
+4. The corresponding alternate completion records are revoked.
+5. Revoked records are marked as **Alternate (Revoked)** in transcripts and reports for audit visibility.
 
-### 對先修課程的影響
+### Impact on prerequisites
 
-替代完成課程——包括追溯授予的——在評估先修條件時被視為有效完成。\
-若學員已 **透過替代**&#x200B;完成課程，則可繼續修讀需要目標訓練的課程。
+Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites.  
+If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-若替代完成課程因追溯性未完成而被撤銷，學習者可能失去依該先修條件課程的資格。
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depended on that prerequisite.
 
-### 對學習路徑與認證的影響
+### Impact on learning paths and certifications
 
-替代完成有助於學習路徑與認證的進展與完成。\
-當學生透過替代或同等的關係完成所需訓練時，可以推進或完成這些課程。
+Alternate completions contribute toward progress and completion of learning paths and certifications.  
+Learners can advance or complete these programs when required trainings are satisfied via alternate or equivalent relationships.
 
-若替代完成被撤銷，受影響的學習路徑或認證可能會失去進度或完成狀態，直到透過有效完成達成該要求。
+If an alternate completion is revoked, affected learning paths or certifications may lose progress or completion status until the requirement is met through a valid completion.
 
-### 端&#x200B;*到*&#x200B;端工作流程
+### End*to*end workflow
 
-#### 允許追溯性完成或不完成
+#### Enabling retroactive completion or incompletion
 
-1. 管理員可進入帳戶設定，啟用追溯完成及/或追溯未完成。
-2. 管理者可以建立、修改或移除訓練間的等效或替代關係。
+1. Administrators navigate to account settings and enable retroactive completion and/or retroactive incompletion.
+2. Administrators create, modify, or remove equivalent or alternate relationships between trainings.
 
-#### 系統動作
+#### System actions
 
-* **追溯完成：**\
-  系統根據歷史來源補全提供替代補全。
-* **追溯未完成：**\
-  當關聯被移除或來源訓練被刪除時，系統會撤銷替代完成。
+* **For retroactive completion:**  
+  The system grants alternate completions based on historical source completions.
+* **For retroactive incompletion:**  
+  The system revokes alternate completions when relationships are removed or source trainings are deleted.
 
-#### 學習者體驗
+#### Learner experience
 
-學習者可在 LO 卡及成績單上看到最新的完成狀態，例如：
+Learners see updated completion statuses on LO cards and in transcripts, such as:
 
-* **透過替代完成**
-* **替補（撤銷）**
+* **Completed via Alternate**
+* **Alternate (Revoked)**  
 
-先修課檢查、學習路徑進度及認證狀態會根據當前完成狀態動態更新。
+Prerequisite checks, learning path progress, and certification status update dynamically based on the current completion state.
 
-#### 報告與審計
+#### Reporting and audit
 
-所有追溯性變更均反映在學習成績單（LT）報告中。\
-報告明確區分直接完成、替代完成及撤銷替代完成，以支持合規、支援調查及稽核。
+All retroactive changes are reflected in the Learning Transcript (LT) report.  
+Reports clearly distinguish between direct completions, alternate completions, and revoked alternate completions to support compliance, support investigations, and audits.
 
-### 追溯完成與不完成行為
+### Retroactive completion and incompletion behavior
 
-ALM 支援追溯完成與追溯不完成，確保即使關係在學習者完成訓練後被建立、修改或移除，替代與等效關係仍能隨時間保持準確。
+ALM supports retroactive completion and retroactive incompletion to ensure that alternate and equivalent relationships remain accurate over time, even when relationships are created, modified, or removed after learners have already completed training.
 
-#### 追溯完成
+#### Retroactive completion
 
-#### 定義
+#### Definition
 
-啟用追溯完成後，過去完成原始課程的學習者，若後來建立等效或替代關係，將自動獲得目標課程的替代完成。\
-這確保歷史學習得以尊重，且不需學習者重修訓練。
+When retroactive completion is enabled, learners who completed a source course in the past automatically receive an alternate completion for the target course if an equivalent or alternate relationship is created later.  
+This ensures that historical learning is honored without requiring learners to retake training.
 
-#### 運作原理
+#### How it works
 
-1. 管理員在帳號層級啟用追溯完成。
-2. 管理者定義來源訓練與目標訓練之間的等價或替代關係。
-3. 系統會掃描來源訓練的歷史完成紀錄。
-4. 符合資格的學員可獲得目標訓練的替代完成。
-5. 這些紀錄在學習者成績單及報告中顯示 **為「透過替代** 完成」。
+1. An administrator enables retroactive completion at the account level.
+2. The administrator defines an equivalent or alternate relationship between a source and target training.
+3. The system scans historical completion records for the source training.
+4. Eligible learners are granted alternate completion for the target training.
+5. These records appear as **Completed via Alternate** in learner transcripts and reports.
 
-#### 追溯未完成
+#### Retroactive incompletion
 
-#### 定義
+#### Definition
 
-當啟用追溯性未完成時，若移除底層等效或替代關係，或刪除來源訓練，則替代完成會被撤銷。\
-這確保系統反映目前且有效的訓練關係。
+When retroactive incompletion is enabled, alternate completions are revoked if the underlying equivalent or alternate relationship is removed or if the source training is deleted.  
+This ensures the system reflects the current and valid training relationships.
 
-#### 運作原理
+#### How it works
 
-1. 管理員在帳戶層級啟用追溯性未完成。
-2. 管理員會移除替代或等效的關係，或刪除來源訓練。
-3. 系統識別透過受影響關係獲得交替完成的學習者。
-4. 相應的替代完成紀錄會被撤銷。
-5. 被撤銷的紀錄會在逐字稿及報告中標示 **為替代（撤銷）** 以便審計可見。
+1. An administrator enables retroactive incompletion at the account level.
+2. The administrator removes an alternate or equivalent relationship, or deletes the source training.
+3. The system identifies learners who received alternate completion through the affected relationship.
+4. The corresponding alternate completion records are revoked.
+5. Revoked records are marked as **Alternate (Revoked)** in transcripts and reports for audit visibility.
 
-#### 對先修課程的影響
+#### Impact on prerequisites
 
-替代完成課程——包括追溯授予的——在評估先修條件時被視為有效完成。\
-若學員已 **透過替代**&#x200B;完成課程，則可繼續修讀需要目標訓練的課程。
+Alternate completions—including those granted retroactively—are treated as valid completions when evaluating prerequisites.  
+If a learner has **Completed via Alternate**, they are allowed to proceed with courses that require the target training.
 
-若替代完成課程因追溯性未完成而被撤銷，學習者可能失去依該先修條件課程的資格。
+If an alternate completion is later revoked through retroactive incompletion, the learner may lose eligibility for courses that depended on that prerequisite.
 
-#### 對學習路徑與認證的影響
+#### Impact on learning paths and certifications
 
-替代完成有助於學習路徑與認證的進展與完成。\
-當學生透過替代或同等的關係完成所需訓練時，可以推進或完成這些課程。
+Alternate completions contribute toward progress and completion of learning paths and certifications.  
+Learners can advance or complete these programs when required trainings are satisfied via alternate or equivalent relationships.
 
-若替代完成被撤銷，受影響的學習路徑或認證可能會失去進度或完成狀態，直到透過有效完成達成該要求。
+If an alternate completion is revoked, affected learning paths or certifications may lose progress or completion status until the requirement is met through a valid completion.
 
-#### 端&#x200B;*到*&#x200B;端工作流程
+#### End*to*end workflow
 
-#### 允許追溯性完成或不完成
+#### Enabling retroactive completion or incompletion
 
-1. 管理員可進入帳戶設定，啟用追溯完成及/或追溯未完成。
-2. 管理者可以建立、修改或移除訓練間的等效或替代關係。
+1. Administrators navigate to account settings and enable retroactive completion and/or retroactive incompletion.
+2. Administrators create, modify, or remove equivalent or alternate relationships between trainings.
 
-#### 系統動作
+#### System actions
 
-* **追溯完成：**\
-  系統根據歷史來源補全提供替代補全。
-* **追溯未完成：**\
-  當關聯被移除或來源訓練被刪除時，系統會撤銷替代完成。
+* **For retroactive completion:**  
+  The system grants alternate completions based on historical source completions.
+* **For retroactive incompletion:**  
+  The system revokes alternate completions when relationships are removed or source trainings are deleted.
 
-#### 學習者體驗
+#### Learner experience
 
-學習者可在 LO 卡及成績單上看到最新的完成狀態，例如：
+Learners see updated completion statuses on LO cards and in transcripts, such as:
 
-* **透過替代完成**
-* **替補（撤銷）**
+* **Completed via Alternate**
+* **Alternate (Revoked)**  
 
-先修課檢查、學習路徑進度及認證狀態會根據當前完成狀態動態更新。
+Prerequisite checks, learning path progress, and certification status update dynamically based on the current completion state.
 
-#### 報告與審計
+#### Reporting and audit
 
-所有追溯性變更均反映在學習成績單（LT）報告中。\
-報告明確區分直接完成、替代完成及撤銷替代完成，以支持合規、支援調查及稽核。
+All retroactive changes are reflected in the Learning Transcript (LT) report.  
+Reports clearly distinguish between direct completions, alternate completions, and revoked alternate completions to support compliance, support investigations, and audits.
 
-### Webhook 用於等效與替代
+### Webhooks for equivalents and alternates
 
-ALM 提供專用的 webhook 事件，用於等效及替代完成，以支援自動化、整合及與外部系統的同步。
+ALM provides dedicated webhook events for equivalent and alternate completions to support automation, integrations, and synchronization with external systems.
 
-這些事件讓外部消費者能可靠區分直接完成與透過替代或等效關係獲得的完成。
+These events allow external consumers to reliably distinguish between direct completions and completions granted through alternate or equivalent relationships.
 
-#### 概觀
+#### Overview
 
-當學習者透過其他或等效關係完成課程時，ALM 會觸發一個與標準課程完成 webhook 不同的 webhook 事件。\
-這確保整合能在需要時以不同方式回應替代完成。
+When a learner completes a course via an alternate or equivalent relationship, ALM triggers a webhook event that is separate from the standard course completion webhook.  
+This ensures that integrations can respond differently to alternate completions where required.
 
-當出現追溯性完成或追溯性未完成時，也會觸發 Webhook 事件，涵蓋歷史更新及關係變更。
+Webhook events are also triggered when retroactive completion or retroactive incompletion occurs, covering historical updates as well as relationship changes.
 
-#### Webhook 事件行為
+#### Webhook event behavior
 
-* 當學習者取得 **目標課程的「完成」** 狀態時，會觸發一個獨立的 webhook 事件。
-* 當學習者完成一個設定好的源課程，並透過等價或替代關係滿足目標時，該事件即產生。
-* 此 webhook 不會因直接完成課程而觸發。
-* 當啟用追溯完成或追溯未完成時，會針對每位受影響的學習者及目標課程發出 webhook 事件。
+* A distinct webhook event is triggered when a learner receives **Completed via Alternate** status for a target course.
+* The event is generated when the learner completes a configured source course that satisfies the target through an equivalent or alternate relationship.
+* This webhook is not triggered for direct course completions.
+* When retroactive completion or retroactive incompletion is enabled, webhook events are emitted for each affected learner and target course.
 
-#### Webhook 有效載荷細節
+#### Webhook payload details
 
-備用完成 webhook 有效載荷包含以下關鍵屬性：
+The alternate completion webhook payload includes the following key attributes:
 
-* **學習者識別**\
-  識別獲得替代補全的學習者。
+* **Learner ID**  
+  Identifies the learner who received the alternate completion.
 
-* **原始課程**\
-  學習者直接完成的課程或學習路徑。
+* **Source course**  
+  The course or learning path that the learner completed directly.
 
-* **目標賽道**\
-  透過替代或等效關係標記為已完成的課程。
+* **Target course**  
+  The course that is marked as completed via the alternate or equivalent relationship.
 
-* **完備方法**\
-  表示補全方法為 **交替**。
+* **Completion method**  
+  Indicates that the completion method is **alternate**.
 
-* **完工日期**\
-  資料來源為原始課程的完成日期。
+* **Completion date**  
+  Derived from the completion date of the source course.
 
-* **關係類型**\
-  指定關係是 **等價** 還是 **交替**。
+* **Relationship type**  
+  Specifies whether the relationship is **equivalent** or **alternate**.
 
-對於追溯性未完成情境，webhook 事件表示已有的替代完成已被撤銷。
+For retroactive incompletion scenarios, webhook events indicate that an existing alternate completion has been revoked.
 
-#### 整合考量
+#### Integration considerations
 
-外部系統可利用這些 webhook 事件：
+External systems can use these webhook events to:
 
-* 更新學習者紀錄
-* 同步完成狀態
-* 觸發通知或下游工作流程
-* 維護審計追蹤以符合法規
+* Update learner records
+* Synchronize completion status
+* Trigger notifications or downstream workflows
+* Maintain audit trails for compliance purposes
 
-Webhook 使用者應明確區 **分直接** 完成與 **替代** 完成。\
-替代完成不會授予技能、徽章或遊戲化獎勵，應在後續系統中妥善處理。
+Webhook consumers should explicitly differentiate between **direct** and **alternate** completions.  
+Alternate completions do not grant skills, badges, or gamification rewards and should be handled accordingly in downstream systems.
 
-### 在等效與替代訓練中退休與刪除原始碼訓練的影響
+### Impact of retiring and deleting source training in equivalents and alternates
 
-來源訓練的生命週期狀態（已退休或刪除）直接影響學習者如何維持替代及等效完成。 ALM 會以不同方式處理這些情境，以維持歷史準確性，同時確保現有關係有效。
+The lifecycle state of a source training (retired or deleted) directly affects how alternate and equivalent completions are maintained for learners. ALM handles these scenarios differently to preserve historical accuracy while ensuring current relationships remain valid.
 
-#### 退役的源頭訓練
+#### Retiring source training
 
-##### 定義
+##### Definition
 
-退休課程會讓新生無法使用，但系統中仍保留以供歷史參考、報告及稽核。
+Retiring a course makes it unavailable for new enrollments while keeping it in the system for historical reference, reporting, and audit purposes.
 
-##### 影響
+##### Impact
 
-* 透過已退休來源課程所授予的現有替代完成資格仍然有效。
-* 先前完成原始課程的學習者，仍可保留目標課程的替代完成資格。
-* 退休課程不會產生新的替代完成課程，因為新學習者無法完成。
-* 受影響學習者的成績單與報告仍顯示 **「透過替代** 完成」。
+* Existing alternate completions granted through the retired source course remain valid.
+* Learners who previously completed the source course continue to hold alternate completion for the target course.
+* No new alternate completions are generated from the retired course, since it cannot be completed by new learners.
+* Learner transcripts and reports continue to display **Completed via Alternate** for affected learners.
 
-#### 刪除原始碼訓練
+#### Deleting source training
 
-#### 定義
+#### Definition
 
-刪除課程會完全從系統中移除，包括完成紀錄和設定的關係。
+Deleting a course removes it entirely from the system, including its completion records and configured relationships.
 
-#### 影響
+#### Impact
 
-* 若啟用追溯未完成，則所有透過刪除原始課程授予的替代完成課程將被撤銷。
-* 學習者成績單與報告更新為 **備用（撤銷）** 以提升審計與合規透明度。
-* 學習者可能會失去依賴被撤銷替代完成的學習路徑、證照或先修條件的進度或完成狀態。
-* 刪除賽道不再提供替代完成。
+* If retroactive incompletion is enabled, all alternate completions granted through the deleted source course are revoked.
+* Learner transcripts and reports update to show **Alternate (Revoked)** for audit and compliance visibility.
+* Learners may lose progress or completion status in learning paths, certifications, or prerequisites that depended on the revoked alternate completion.
+* No further alternate completions can be granted from the deleted course.
 
-#### 工作流程
+#### Workflow
 
-1. 管理員可透過管理員介面退休或刪除原始課程。
-2. 系統會評估源課程所有替代及等效完成課程。
-3. 完成狀態會根據課程州份更新：
-   * **已退役：** 現有的替代完工路線保持不變。
-   * **刪除：** 若啟用追溯未完成，替代完成會被撤銷。
-4. 學習者成績單與報告反映更新狀態，以支持合規與稽核要求。
+1. An administrator retires or deletes the source course using the admin interface.
+2. The system evaluates all alternate and equivalent completions derived from the source course.
+3. Completion status is updated based on the course state:
+   * **Retired:** Existing alternate completions remain unchanged.
+   * **Deleted:** Alternate completions are revoked if retroactive incompletion is enabled.
+4. Learner transcripts and reports reflect the updated status to support compliance and audit requirements.
 
-### 沒有關係的連鎖
+### No chaining of relationships
 
-ALM 不支援串接替代或等效關係。 替代完成僅授予直接設定的關係，且不會跨越多層級的課程。
+ALM does not support chaining of alternate or equivalent relationships. Alternate completions are granted only for directly configured relationships and do not cascade across multiple levels of courses.
 
-#### 理念：不連結關係
+#### Concept: no chaining of relationships
 
-#### 定義
+#### Definition
 
-鏈化是指允許交替或等效的關係在多個賽道間傳播。\
-例如，如果A課程是B課程的替代，B課程是C課程的替代課程，連鎖即表示完成A課程後，C課程也能完成。
+Chaining refers to allowing alternate or equivalent relationships to propagate across multiple courses.  
+For example, if Course A is an alternate for Course B, and Course B is an alternate for Course C, chaining would imply that completing Course A grants completion for Course C.
 
-#### 政策
+#### Policy
 
-不支援串接。\
-替代關係與等價關係僅在單一層級評估。 完成源課程僅能完成其直接目標課程的替代完成，不包括任何下游目標。
+Chaining is not supported.  
+Alternate and equivalent relationships are evaluated only at a single level. Completing a source course grants alternate completion only to its immediate target course or courses, not to any downstream targets.
 
-#### 工作流程
+#### Workflow
 
-#### 關係設定
+#### Relationship setup
 
-管理員會定義課程間的替代或等效關係，例如：
+An administrator defines alternate or equivalent relationships between courses, such as:
 
-* A課程→課程B課程
-* B→C課程
+* Course A → Course B
+* Course B → Course C
 
-#### 完成活動
+#### Completion event
 
-學習者直接完成課程A。
+A learner completes Course A directly.
 
-#### 系統動作
+#### System action
 
-* 若A→B的關係被定義，系統可為B課程提供交替完成。
-* 即使存在B→C的關係，系統也不會給予C課程的替代完成。
+* The system grants alternate completion for Course B, if the A → B relationship is defined.
+* The system does not grant alternate completion for Course C, even if a B → C relationship exists.
 
-#### 直接完成要求
+#### Direct completion requirement
 
-欲獲得C課程的替代完成，學習者必須：
+To receive alternate completion for Course C, the learner must:
 
-* 直接完成課程B，或
-* 完成一門明確設定為 C 課程直接替代或等效課程的課程。
+* Directly complete Course B, or
+* Complete a course that is explicitly configured as a direct alternate or equivalent for Course C.
 
-### 影響
+### Implications
 
-#### 沒有間接效益
+#### No indirect benefits
 
-學習者若未完成每門課程（或其直接替代課程），無法獲得關係鏈下方課程的完成學分。\
-這確保學習需求能明確且可預測地被滿足。
+Learners cannot receive completion credit for courses further down a relationship chain unless each course (or its direct alternate) is completed.  
+This ensures that learning requirements are met explicitly and predictably.
 
-#### 簡化的稽核與報告
+#### Simplified audit and reporting
 
-報告與學習者成績單僅顯示直接關聯的替代完成。\
-這避免了複雜且多跳的稽核流程，並確保在審查完工核准過程時能清楚說明。
+Reports and learner transcripts display alternate completions only for direct relationships.  
+This avoids complex, multi-hop audit trails and ensures clarity when reviewing how a completion was granted.
 
-### 與同儕帳號共享目錄：未共享的關係
+### Catalog sharing with peer accounts: relationships not shared
 
-目錄共享允許學習對象（LO）在同儕帳號間共享，但各帳號內獨立管理替代及等效關係，且不共享。
+Catalog sharing allows learning objects (LOs) to be shared across peer accounts, but alternate and equivalent relationships are managed independently within each account and are not shared.
 
-#### 概念：目錄共享與關係
+#### Concept: catalog sharing and relationships
 
-#### 目錄共享
+#### Catalog sharing
 
-帳號可以與同儕帳號共享目錄，讓跨帳號存取課程、學習路徑及其他學習物件。
+Accounts can share catalogs with peer accounts to provide access to courses, learning paths, and other learning objects across accounts.
 
-#### 未被分享的關係
+#### Relationships not shared
 
-來源帳號中設定的替代、等效及替代完成關係，在共享目錄時不會被共享或複製。\
-每個帳戶獨立維護並評估自己的關係。
+Alternate, equivalent, and alternate-completion relationships configured in the source account are not shared or replicated when a catalog is shared.  
+Each account maintains and evaluates its own relationships independently.
 
-### 工作流程
+### Workflow
 
-#### 目錄共享
+#### Catalog sharing
 
-帳號 A **的**&#x200B;管理員與帳號 B **共享包含學習物件**&#x200B;的目錄。
+An administrator in **Account A** shares a catalog containing learning objects with **Account B**.
 
-#### 關係配置
+#### Relationship configuration
 
-帳戶 A 在共享目錄中的學習物件之間可能有替代或等效的關係。
+Account A may have alternate or equivalent relationships defined among the learning objects in the shared catalog.
 
-#### 同儕帳號存取
+#### Peer account access
 
-帳號 B 會獲得共享學習物件的存取權，但不會繼承帳號 A 中設定的任何替代或等效關係。
+Account B receives access to the shared learning objects but does not inherit any alternate or equivalent relationships configured in Account A.
 
-#### 獨立管理
+#### Independent management
 
-若帳號 B 需要類似的替代或等效行為，帳號 B 的管理員必須手動設定該帳號內的關聯。
+If Account B requires similar alternate or equivalent behavior, an administrator in Account B must manually configure the relationships within that account.
 
-#### 影響
+#### Implications
 
-#### 無自動關係傳播
+#### No automatic relationship propagation
 
-透過目錄共享，節點帳號中不會自動提供替代及等效關係。
+Alternate and equivalent relationships are not automatically available in peer accounts through catalog sharing.
 
-#### 需要手動設定
+#### Manual setup required
 
-每個同儕帳號負責定義並管理其共享學習物件的關係。
+Each peer account is responsible for defining and managing its own relationships for shared learning objects.
 
-#### 一致性考量
+#### Consistency considerations
 
-完成行為、先決條件滿意度及報告可能因帳戶間而異，除非透過人工設定刻意調整關係。
+Completion behavior, prerequisite satisfaction, and reporting may differ across accounts unless relationships are intentionally aligned through manual configuration.
 
 
-### 下游行為
+### Downstream behavior
 
-一旦目標訓練有替代完成，ALM 會在下游檢查中使用：
+Once an alternate completion exists for a target training, ALM uses it in downstream checks:
 
-* 若目標訓練是 **其他訓練的先決條件** ，學員將有資格參加該訓練，視同已完成目標。
-* 若目標為 **學習路徑**&#x200B;中的必修課程，該路徑的完成邏輯可視為已完成該部分，並在其他條件達成時標記該路徑完成。
-* 合規及其他儀表板如團體成功儀表板（Group Success Dashboard）若依賴是否完成培訓要求，則可包含僅有替代完成次數的學習者。
+* If the target training is a **prerequisite** for other trainings, the learner becomes eligible for those trainings as if they had completed the target.
+* If the target is a **mandatory course in a learning path**, the path's completion logic can treat the learner as having completed that part and proceed to mark the path complete when other conditions are met.
+* Compliance and other dashboards such as Group Success Dashboard that rely on whether a training requirement is met can include learners who only have alternate completions.
 
-該系統區分實際完備與替代完備，使得：
+The system distinguishes between actual completion and alternate completion so that:
 
-* 若學習者後來直接完成目標訓練，這種直接完成可取代替代完成的必要性。
-* 若來源與目標之間的關係被移除或更改，ALM 可在不動用真實補全的情況下移除或調整替代補全，前提是該帳戶啟用追溯性未完成功能。
+* If the learner later takes the target training directly and completes it, this direct completion can override the need for the alternate completion.
+* If the relationship between source and target is removed or changed, ALM can remove or adjust the alternate completions without touching genuine completions, provided retroactive incompletions are enabled for the account.
 
-交替完成設計不干擾學習者在目標訓練中的實際活動。 它們作為一個疊加層，如果關係改變，可以進行修正。
+Alternate completions are designed not to interfere with actual learner activity on the target training. They act as an overlay that can be revised if the relationships change.
 
-## 本新聞稿中報告的學習成績單變更
+## Changes to Learning Transcripts report in this release
 
-### 補全方法欄位
+### Completion Method column 
 
-完成方法欄位顯示管理員學習者成績單中每筆紀錄的填寫方式。
+The Completion Method column indicates how each record in the administrator's Learner Transcript was completed.  
 
-價值觀：
+Values: 
 
-* 直接完備（用於直接完備）
-* 替代（指透過替代關係達成的完成）
-* 替代撤銷（當所有替代完成因追溯未完成及關係移除而被撤銷）
+* Direct (for direct completions) 
+* Alternate (for completions achieved via alternate relationships) 
+* Alternate Revoked (when all alternate completions are revoked due to retroactive incompletion and relationship removal)
 
 >[!NOTE]
 >
->此欄在學習者的LT中無法顯示;它僅在行政LT中提供，用於報告和追蹤。
+>This column is not visible in the learner's LT; it is only available in the admin LT for reporting and tracking purposes.
 
-#### 影響
+#### Impact
 
-讓管理員能清楚追蹤稽核、合規追蹤，並讓管理員了解課程完成方式的透明。
+Enables clear audit trails, compliance tracking, and transparency for admins regarding how a course was completed.
 
-### 學習者成績單中的替代完成追蹤
+### Alternate completion tracking in Learner Transcripts
 
-替代完成允許學習者在完成等效來源課程或路徑後，根據已建立的關係，獲得目標課程或學習路徑的完成學分。
+Alternate completions allow learners to receive completion credit for a target course or learning path when they have completed an equivalent source course or path, based on established relationships.  
 
-在學習者成績單（LT）中，替代完成影響三個現有欄位：狀態、完成日期及完成來源：
+In the Learner Transcript (LT), alternate completions impact three existing columns: status, completion date, and completion source:
 
-* **狀態**：即使學習者尚未直接完成目標課程或路徑，因替代完成，狀態仍可為完成。 其他狀態（未開始、進行中、未註冊）則不受替代者影響。 只有完成模式會受到替代角色的影響。
-* **完成日期**：替代完成的完成日期是繼承自觸發替代完成的來源課程/路徑。 若學習者後來直接完成目標，日期會更新以反映直接完成。
-* **完成來源**：此欄位記錄提供替代完成的來源課程或路徑的訓練ID。 若多個來源同時啟用，則列出所有相關 ID;若來源被撤銷（且啟用追溯未完成），則僅剩有效來源。 完成來源欄位列出所有有效來源訓練 ID（以逗號分隔），若存在多個來源，則使用最早完成日期。
+* **Status**: The status can be Completed even if the learner has not directly completed the target course/path, due to alternate completion. Other statuses (Not Started, In Progress, Unenrolled) are not affected by alternates. Only Completed is impacted by alternates.
+* **Completion Date**: The completion date for an alternate completion is inherited from the source course/path that triggered the alternate completion. If the learner later completes the target directly, the date is updated to reflect the direct completion.
+* **Completion Source**: This column captures the training ID(s) of the source course(s) or path(s) that provided the alternate completion. If multiple sources are active, all relevant IDs are listed; if sources are revoked (with retroactive incompletion enabled), only active sources remain. The Completion Source column lists all active source training IDs (separated by commas), and if multiple sources exist, the earliest completion date is used.
 
-#### 影響
+#### Impact
 
-替代完成可減少人工核對，自動化學習路徑與認證的進度追蹤，並支援合規要求。
+Alternate completions reduce manual reconciliation, automate progress tracking in learning paths and certifications, and support compliance requirements.
 
 >[!NOTE]
 >
->學習者成績單不會顯示完成方法欄位;這功能僅在管理員 LT 中提供。
+>Learner Transcripts do not display the Completion Method column; this is only available in administrator LT.
 
-### 備選的完工日期邏輯
+### Completion date logic for alternates  
 
-學習者成績單（LT）中的完成日期欄位是現有欄位，用來記錄學習者完成課程或學習路徑的時間，無論是直接還是其他方式。 對於替代完成，完成日期會繼承自觸發替代完成的來源課程或路徑。 這表示日期反映的是學習者完成原始碼的時間，而非目標。
+The Completion Date column in the Learner Transcript (LT) is an existing field used to record when a learner achieves completion for a course or learning path, whether by direct or alternate means. For alternate completions, the completion date is inherited from the source course or path that triggered the alternate completion. This means the date reflects when the learner completed the source, not the target.  
 
-若學習者後來直接完成目標課程或路徑，完成日期將更新為直接完成日期，覆蓋先前的替代完成日期。
+If a learner later completes the target course or path directly, the completion date is updated to the date of direct completion, overriding the previous alternate completion date.  
 
-未新增替代完工日期欄位;現有的完工日期欄位用於直接完工及替代完工。 當多個來源能為目標提供替代完成時，則使用來源中最早的有效替代完成日期。 若來源被撤銷（且啟用追溯未完成），完成日期會更新至下一個最早的有效來源，若無有效來源則被清除。
+There is no new column added for alternate completion dates; the existing Completion Date column is used for both direct and alternate completions. In cases where multiple sources can provide alternate completion for a target, the earliest active alternate completion date among the sources is used. If a source is revoked (with retroactive incompletion enabled), the completion date updates to the next earliest active source or is cleared if no active sources remain.
 
-#### 影響
+#### Impact
 
-完成日期邏輯確保準確的歷史追蹤與報告一致性，尤其當替代完成紀錄被撤銷或更新時。
+The completion date logic ensures accurate historical tracking and consistency in reporting, especially when alternate completions are revoked or updated.
 
-### 撤銷的替代完成計畫
+### Revoked alternate completions  
 
-撤銷替代完成是指當學習者在目標課程或學習路徑的替代完成因所有來源關係被撤銷而被移除時，前提是該帳戶啟用了追溯性未完成功能。
+Revoked alternate completions occur when a learner's alternate completion for a target course or learning path is removed due to the revocation of all source relationships, provided that retroactive incompletion is enabled in the account.  
 
-#### 觸發條件
+#### Trigger conditions
 
-* 帳戶必須啟用追溯未完成;否則，移除來源關係不會撤銷替代補全。
-* 撤銷僅發生在目標所有活躍來源關係被移除時。 若至少有一個來源仍存在，則替代補全會持續存在，完備來源欄位更新為僅反映剩餘的活躍來源。
+* Retroactive incompletion must be enabled for the account; otherwise, removing source relationships does not revoke alternate completions.  
+* Revocation happens only when all active source relationships for a target are removed. If at least one source remains, the alternate completion persists, and the completion source column updates to reflect only the remaining active sources.
 
-#### 影響
+#### Impact
 
-* 狀態：若所有替代完成項目均被撤銷且無直接完成，狀態會依情況更新（例如，從完成改為未開始或進行中）。
-* 完成日期：若無活躍來源且學習者尚未直接完成目標，則完成日期即被清除。
-* 補足來源：補足來源欄會更新以移除被撤銷的來源;若全部撤銷，則解除。
+* Status: If all alternate completions are revoked and there is no direct completion, the status is updated (e.g., from Completed to Not Started or In Progress as appropriate).  
+* Completion Date: The completion date is cleared if no active sources remain and the learner has not completed the target directly.  
+* Completion Source: The completion source column is updated to remove the revoked source(s); if all are revoked, it is cleared.
 
-若學習者有直接完成，撤銷替代課程不會影響其完成狀態或完成日期。
+If the learner has a direct completion, revoking alternates does not affect their completed status or completion date.
 
-**註：**
+**Note**:
 
-1. 若多個來源提供替代完成，且僅部分被撤銷，LT則反映剩餘的有效來源及其最早完成日期。
-2. 若所有來源皆被撤銷，且無直接完成，學習者將失去目標的完成狀態。
+1. If multiple sources provided alternate completion and only some are revoked, the LT reflects the remaining active sources and their earliest completion date. 
+2. If all sources are revoked, and there is no direct completion, the learner loses completion status for the target.
 
-### 檢視清單審查員意見的強化報告
+### Enhanced reporting for checklist reviewer remarks
 
-檢查清單模組中的評審意見現已收錄於學習者成績單（LT）中，並以更名的欄 **目「評審意見** 」（先前為提交評論）收錄。
+Reviewer comments from checklist modules are now included in Learner Transcripts (LT) under a renamed column: **Reviewer's remarks** (previously Submission comment).
 
-#### 影響
+#### Impact
 
-學習者與管理員可在 LT 匯出（UI、工作 API 及連接器）中查看整合且明確標示的評審回饋，提升透明度、可稽核性，並支持更準確的績效評估與輔導。
+Learners and admins can view consolidated, clearly labeled reviewer feedback in LT exports (UI, Job API, and connectors), improving transparency, auditability, and supporting more accurate performance evaluation and coaching.
 
-#### 改變了什麼
+#### What has changed
 
-**更名的欄位**
+**Renamed columns**
 
-| 區域圖 | 舊柱名 | 新欄名 | 註釋 |
+| Area                        | Old column name    | New column name    | Notes                                                     |
 | --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
-| 學習者成績單（行政） | 投稿留言 | 評論者評論 | 適用於所有 Admin LT 來源：UI、Job API、Connectors，視適用而定。 |
+| Learner Transcripts (Admin) | Submission comment | Reviewer's remarks | Applies to all Admin LT sources: UI, Job API, Connectors, wherever applicable. |
 
-此變更統一適用於所有 Admin LT 來源（UI 匯出、Job API 報告及基於 Connector 的匯出，視適用而定）。 連接器匯出的 LT 會將審查者的評論作為專屬欄位出現在末尾（針對先前未公開提交意見的連接器），確保後續整合能區分審核者意見與其他評論。
+This change applies uniformly to all Admin LT sources (UI exports, Job API reports, and Connector‑based exports, wherever applicable). Connector‑exported LT will surface Reviewer's remarks as a dedicated column at the end (for connectors that did not previously expose Submission comment), ensuring downstream integrations can distinguish reviewer feedback from other comments.
 
 >[!NOTE]
 >
->對於學習者成績單，先前標示為「提交評論」的欄位現已改名為「評審意見」，並在啟用時顯示評審員的評論清單。
+>For the Learner Transcripts for learners, the column previously labeled "Submission comment" is now renamed to "Reviewer's remarks", and populated with the checklist reviewer's comment when enabled.
 
 
 
-### 改進學習時間計算
+### Improved learning time calculation 
 
-LT 報告現在採用更精細的邏輯，根據使用者活動與分頁焦點區分學習模組的主動與閒置時間。
+The LT report now uses a refined logic to distinguish between active and idle time spent on learning modules, based on user activity and tab focus. 
 
-#### 影響
+#### Impact
 
-提供更精確的學習參與度衡量，支持合規與分析。
+Provides more accurate measurement of learning engagement, supporting compliance and analytics.  -->
