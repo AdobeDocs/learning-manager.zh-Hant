@@ -26,7 +26,7 @@ Adobe Learning Manager 支援工單的提交流程現在已直接整合至 Exper
    ![](assets/open-ticket.png)
    _開放票_
 
-3. 要提交案件，請選擇選項 **[!UICONTROL Open a support case]**。 你也可以在側邊欄選單中選擇這個 **[!UICONTROL Open Tickets]** 選項。 您將被導向案件建立頁面，輸入產品名稱（Adobe Learning Manager、Audience Manager、Campaign、Target 等）、 **[!UICONTROL Case title]****[!UICONTROL Case description]**&#x200B;以及 。為了加快故障排除流程，請在描述你遇到的問題時盡可能詳細描述。
+3. 要提交案件，請選擇選項 **[!UICONTROL Open a support case]**。 你也可以在側邊欄選單中選擇這個 **[!UICONTROL Open Tickets]** 選項。 您將被導向案件建立頁面，輸入產品名稱（Adobe Learning Manager、Audience Manager、Campaign、Target 等）、 **[!UICONTROL Case title]**&#x200B;**[!UICONTROL Case description]**&#x200B;以及 。為了加快故障排除流程，請在描述你遇到的問題時盡可能詳細描述。
 
    在表格結尾，請填寫以下欄位，以便提供更具體的資訊，幫助我們排除問題：
 
