@@ -16,7 +16,7 @@ Adobe Learning Manager 支援工單的提交流程現在已直接整合至 Exper
 
 請注意，提交支援單僅限授權客服聯絡人使用。 對於您的支援問題，請持續透過電子郵件向 Adobe Learning Manager 提交支援工單，直到 2025 年 5 月 11 日。 在此日期之後，你可以透過以下說明的 Experience League 支援入口網站提交支援工單，此外還有現有的電子郵件管道。
 
-1. 要進入支援入口網站，請造訪 **[!UICONTROL Experience League]** 網站並選擇 **[!UICONTROL Support]** 頁面頂端的分頁。 或者，你也可以造訪直接 [連結](https://experienceleague.adobe.com/home#support)。
+1. 要進入支援入口網站，請造訪 **[!UICONTROL Experience League]** 網站並選擇 **[!UICONTROL Support]** 頁面頂端的分頁。 或者，你也可以造訪直接 [連結](https://experienceleague.adobe.com/home?lang=zh-Hant#support)。
 
    ![](assets/support.png)
    _支援首頁_
