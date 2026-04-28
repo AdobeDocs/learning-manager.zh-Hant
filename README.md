@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # 已存檔
 
-此倉庫已遷移至 <https://github.com/Adobe-Enterprise-Docs/learning-manager.en>。
+此倉庫已遷移至 <https://github.com/Adobe-Enterprise-Docs/learning-manager.zh-Hant>。
