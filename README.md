@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ## Adobe 開源行為準則
 
-本專案已採用 [Adobe 開源行為](code-of-conduct.md) 準則或 [.NET 基金會行為](https://dotnetfoundation.org/code-of-conduct)準則。 欲了解更多資訊，請參閱貢獻](contributing.md)文章。[
+本專案已採用 [Adobe 開源行為](code-of-conduct.md) 準則或 [.NET 基金會行為](https://dotnetfoundation.org/code-of-conduct)準則。 欲了解更多資訊，請參閱貢獻[&#128279;](contributing.md)文章。
 
 ## 關於你對 Adobe 內容的貢獻
 
