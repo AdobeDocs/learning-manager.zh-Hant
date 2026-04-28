@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ## 關於你對 Adobe 內容的貢獻
 
-請參閱 [Adobe 文件貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html)。
+請參閱 [Adobe 文件貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant)。
 
 你如何貢獻取決於你是誰以及你想要帶來的改變類型：
 
 ### 小幅變動
 
-如果你是出於善意貢獻一些小更新，請造訪該文章，點擊 **文章中的編輯** 連結，該連結會指向該文章的 GitHub 來源。 然後，只要用 GitHub 介面來更新就好。 更多資訊請參閱一般 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 。
+如果你是出於善意貢獻一些小更新，請造訪該文章，點擊 **文章中的編輯** 連結，該連結會指向該文章的 GitHub 來源。 然後，只要用 GitHub 介面來更新就好。 更多資訊請參閱一般 [Adobe Docs 貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant) 。
 
 您在本資料庫中提交的文件與程式碼範例所提交的輕微修正或澄清，均受 Adobe 使用條款約束。
 
@@ -43,7 +43,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 社群貢獻者可以使用 GitHub 介面進行基本編輯，或分支倉庫以做出重大貢獻。
 
-詳情請參閱 [Adobe 文件貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) 。
+詳情請參閱 [Adobe 文件貢獻者指南](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=zh-Hant) 。
 
 ## 如何使用 markdown 格式化你的主題
 
