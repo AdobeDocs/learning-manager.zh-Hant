@@ -2,20 +2,26 @@
 title: Adobe Learning Manager 中的建議
 description: 推薦引擎的核心由 Learning Manager 全新的課程排名演算法驅動。 該演算法利用五千萬個數據點及五年累積的數百萬用戶學習數據，根據選課的可能性進行排名。 此排名確保大多數可選修課程會直接顯示給學習者。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1484'
 ht-degree: 0%
 
 ---
 
 # Adobe Learning Manager 中的建議
 
+## 簡介
+
 Adobe Learning Manager 推出了全新且全新設計的課程推薦系統。 此推薦功能利用 AI 演算法與用戶興趣（如產品、角色與等級）提供個人化內容推薦。 管理員可以根據產品、角色和等級來設定帳號。
 
 新的推薦系統允許你建立自訂參數，讓學習者選擇以獲得個人化推薦。 這些推薦將以課程、學習路徑及證照的形式，在學習者的首頁動態中顯示。
 
 要開始使用此功能，您必須在管理應用程式中啟用此功能。
+
+>[!NOTE]
+>
+>此功能在 FedRAMP 授權的環境中無法使用。 詳情請參閱 [FedRAMP 環境](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) 的功能可用性。
 
 ## 啟用並設定建議
 

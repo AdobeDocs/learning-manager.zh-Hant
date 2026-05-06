@@ -1,165 +1,169 @@
 ---
 jcr-language: en_us
-title: 群組成功儀表板
-description: 深入瞭解Adobe Learning Manager中的Group Success Dashboard
+title: 團體成功儀表板
+description: 了解更多關於 Adobe Learning Manager 中的團體成功儀表板
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1032'
 ht-degree: 0%
 
 ---
 
-# 群組成功儀表板
+# 團體成功儀表板
 
-## 群組成功儀表板概觀
+## 簡介
 
-Adobe Learning Manager中的Group Success Dashboard (GSD)可讓管理員和管理人員跨部門或使用者群組，近乎即時（從註冊、進度或完成到反映在儀表板上的60分鐘延遲）監視學習者的進度。 它支援主動追蹤課程完成、註冊和待定動作，讓團隊更容易管理學習。 檢視此[文章](/help/migrated/administrators/feature-summary/add-users-user-groups.md)以進一步瞭解使用者群組。
+Adobe Learning Manager 中的群組成功儀表板（GSD）讓管理員與經理能近乎即時地監控學員進度（從註冊、進度到完成到反映在儀表板上的延遲約 60 分鐘），跨部門或使用者群組。 它支援主動追蹤課程完成、註冊及待處理的行動，讓團隊的學習管理更為輕鬆。 請參閱本文[](/help/migrated/administrators/feature-summary/add-users-user-groups.md)以了解更多關於使用者群組的資訊。
+
+>[!NOTE]
+>
+>此功能在 FedRAMP 授權的環境中無法使用。 詳情請參閱 [FedRAMP 環境](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) 的功能可用性。
 
 ## 主要使用案例
 
-群組成功儀表板提供下列功能：
+團體成功儀表板提供以下功能：
 
-* **簡化學習者進度追蹤**： Group Success Dashboard提供使用者易用的即時學習者資料檢視，減少使用Excel型成績單的需求。 經理和管理員可快速檢視學習者註冊和課程進度，以支援關鍵案例，例如：
+* **簡化學習進度追蹤**：團體成功儀表板提供使用者友善且即時的學習者資料視圖，減少對 Excel 成績單的需求。 管理者與管理者能快速查看學習者註冊與課程進度，以支援以下關鍵情境：
 
-   * **績效考核整備**：經理可以在評估週期之前評估團隊成員的課程進度。
-   * **法規遵循監控**：識別尚未完成強制培訓的學習者。
-   * **團隊層級追蹤**：加盟、商店或地區經理可確保他們的團隊能準時完成必要的學習。
+   * **績效評估準備度**：經理可在評核週期前評估團隊成員的課程進度。
+   * **合規監控**：識別尚未完成強制訓練的學習者。
+   * **團隊層級追蹤**：加盟店、門市或區域經理能確保團隊按時完成必要的學習。
 
-* **促進團隊管理**： Group Success Dashboard適用於擁有小型團隊（50人以下）的管理員，例如商店經理、加盟經理、代理商經理或內部團隊。 它提供團隊檢視，可讓經理快速檢查其團隊是否已完成達成業務目標所需的課程集。
+* **促進團隊管理**：Group Success Dashboard 對於擁有小團隊（少於 50 人）的經理非常有用，例如門市經理、加盟經理、經銷商經理或內部團隊。 它提供團隊視圖，讓經理能快速檢查團隊是否完成了達成業務目標所需的課程。
 
-## 如何使用群組成功儀表板
+## 如何使用團體成功儀表板
 
-管理員可以為控制面板命名、選取使用者群組並選擇課程或學習路徑，以啟用和建立控制面板。 控制面板可以與其他管理員共用。
+管理員可以透過命名儀表板、選擇使用者群組，以及選擇課程或學習路徑來啟用並建立這些儀表板。 儀表板可以與其他管理員或經理共享。
 
 ### 啟用群組成功儀表板
 
-管理員必須為帳戶啟用「群組成功儀表板」 。 若要啟用「群組成功儀表板」，請依照下列步驟操作：
+管理員必須啟用該帳號的群組成功儀表板。 要啟用群組成功儀表板，請遵循以下步驟：
 
-1. 以管理員身分登入。
-2. 選取&#x200B;**[!UICONTROL Settings]**&#x200B;然後選取&#x200B;**[!UICONTROL Reports]**。
-3. 選取&#x200B;**[!UICONTROL Dashboard visibility]**&#x200B;切換。
-4. 輸入儀表板名稱（例如，**[!UICONTROL Store Manager Dashboard]**）。
+1. 以管理員身份登入。
+2. 選擇 **[!UICONTROL Settings]**，然後選擇 **[!UICONTROL Reports]**。
+3. 選擇 **[!UICONTROL Dashboard visibility]** 切換開關。
+4. 輸入儀表板名稱（例如， **[!UICONTROL Store Manager Dashboard]**）。
    ![](assets/enable-gsd.png)
-   _儀表板名稱、使用者群組和學習路徑選取範圍的欄位_
-5. 選取&#x200B;**[!UICONTROL Overview Visibility]**&#x200B;以啟用儀表板中的概觀區段。 此區段可讓您檢視最多50個學習者的進度。
+   _儀表板名稱、使用者群組及學習路徑選擇欄位_
+5. 選擇 **[!UICONTROL Overview Visibility]** 啟用儀表板中的總覽區塊。 此區可查看最多50名學習者的進度。
 
    >[!NOTE]
    >
-   >如果團隊中有超過50個學習者或超過50個學習物件，請前往&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;標籤而非&#x200B;**[!UICONTROL Overview]**&#x200B;標籤。
+   >如果團隊中有超過 50 名學習者或超過 50 個學習物件，請前往 **[!UICONTROL Learner Transcript]** 分頁而非 **[!UICONTROL Overview]** 分頁。
 
-6. 針對&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;區段，選取您要檢視的必要資料行。
+6. 在該 **[!UICONTROL Learner Transcript]** 區塊中，選擇你想查看的必查欄位。
 
 
    * 學習者
    * 路徑與課程
-   * 狀態
-   * 註冊日期
-   * 上次存取日期
-   * 完成日期
+   * 現況
+   * 入學日期
+   * 最後進入日期
+   * 完工日期
 
-啟用此功能後，管理員可以在&#x200B;**[!UICONTROL Reports]**&#x200B;區段中檢視群組成功儀表板。
+啟用此功能後，管理員可在該 **[!UICONTROL Reports]** 區塊中查看群組成功儀表板。
 
-### 建立群組成功儀表板
+### 建立團體成功儀表板
 
-管理員可建立最多100個儀表板來檢視學習者的進度。 若要建立控制面板，請依照下列步驟進行：
+管理員可建立最多 100 個儀表板以檢視學習者的進度。 要建立儀表板，請依照以下步驟操作：
 
-1. 以系統管理員身分登入並選取&#x200B;**[!UICONTROL Reports]**&#x200B;頁面。
+1. 以管理員身份登入並選擇該 **[!UICONTROL Reports]** 頁面。
 
    ![](assets/go-to-reports.png)
-   _在管理員首頁中選取報告_
+   _在管理員首頁選擇報告_
 
-2. 選取「群組成功儀表板」 。 儀表板的名稱為&#x200B;**[!UICONTROL Store Manager Dashboard]**。
+2. 選擇群組成功儀表板。 儀表板名稱為 **[!UICONTROL Store Manager Dashboard]**。
 
    ![](assets/team-gsd-dashboard.png)
-   _選取商店管理員儀表板_
+   _選擇商店經理儀表板_
 
    >[!NOTE]
    >
-   >您在啟用「群組成功儀表板」時設定的名稱將顯示為儀表板名稱。
+   >啟用群組成功儀表板時，你設定的名稱會顯示為儀表板名稱。
 
-3. 從選取儀表板下拉式清單中選取&#x200B;**[!UICONTROL Create New Dashboard]**。
+3. 從「選擇儀表板」下拉選單中選擇 **[!UICONTROL Create New Dashboard]** 。
 
    ![](assets/create-gsd-1.png)
-   _選取建立GSD的選項_
+   _選擇建立德國牧羊犬的選項_
 
-4. 輸入控制面板的名稱。
-5. 選取要顯示在儀表板中的使用者群組。
-6. 搜尋課程或學習路徑，然後從結果中選取它們。
+4. 輸入儀表板名稱。
+5. 選擇一個使用者群組，讓它出現在儀表板中。
+6. 搜尋課程或學習路徑，並從結果中選擇。
 
    ![](assets/create-gsd.png)
-   _選取使用者群組與課程_
+   _選擇使用者群組與課程_
 
-7. 選取&#x200B;**[!UICONTROL Create dashboard]**。
+7. 選擇 **[!UICONTROL Create dashboard]**。
 
-若是較大的團隊，請在&#x200B;**索引標籤中選取**&#x200B;預設目錄&#x200B;**和**&#x200B;所有學習者&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;使用者群組以建立儀表板。 這包括&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;檢視中的所有課程和學習者，讓您更輕鬆地搜尋及追蹤每個學習者的進度。
+對於較大的團隊，請在分&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;頁中選擇&#x200B;**預設目錄**&#x200B;和&#x200B;**所有學習者**&#x200B;使用者群組來建立儀表板。這包含了檢視中 **[!UICONTROL Learner Transcript]** 所有課程和學習者，讓搜尋和追蹤每位學習者的進度變得更容易。
 
-### 檢視群組成功儀表板
+### 查看團體成功儀表板
 
-建立控制面板後，管理員可依照下列步驟檢視控制面板：
+建立儀表板後，管理員可依照以下步驟查看儀表板：
 
-1. 以管理員身分登入。
-2. 選取&#x200B;**[!UICONTROL Reports]**，然後選取&#x200B;**[!UICONTROL Group Success Dashboard]**。
-控制面板的名稱為「商店管理員控制面板」。
-3. 在&#x200B;**[!UICONTROL Your dashboards]**&#x200B;區段中，從&#x200B;**[!UICONTROL Select dashboard]**&#x200B;下拉式清單中選取已建立的儀表板。
+1. 以管理員身份登入。
+2. 選擇， **[!UICONTROL Reports]** 然後 **[!UICONTROL Group Success Dashboard]**。
+這個儀表板名稱叫做 Store Manager Dashboard。
+3. 在該 **[!UICONTROL Your dashboards]** 區塊中，從 **[!UICONTROL Select dashboard]** 下拉選單選擇已建立的儀表板。
 4. 儀表板分為：
-   * **[!UICONTROL Overview]**：您可以快速檢視學習者在個別課程或學習路徑上的進度。 您一次最多可以檢視50個課程或學習路徑以及50個學習者的進度。 若要檢查特定學習者的進度，請選取「**[!UICONTROL Learner Transcript]**」區段。
+   * **[!UICONTROL Overview]**&#x200B;你可以快速看到學習者在各個課程或學習路徑上的進度。 你可以同時查看最多 50 門課程或學習路徑，以及 50 位學習者。 如果你想查看特定學習者的進度，請選擇該 **[!UICONTROL Learner Transcript]** 區塊。
 
    ![](assets/overview.png)
-   _商店經理團隊中學習者的學習狀態_
+   _店經理團隊中學習者的學習狀況_
 
-   * **[!UICONTROL Learner Transcript]**：選取特定學習者或課程以檢視學習者進度。 在儀表板中搜尋學習者以檢查其學習進度。 如果您已使用預設目錄建立控制面板並包含所有學習者，您可以搜尋任何學習者以輕鬆檢閱其進度。
+   * **[!UICONTROL Learner Transcript]**：透過選擇特定學習者或課程來查看學習進度。 在儀表板中搜尋學習者，查看他們的學習進度。 如果你用預設目錄建立儀表板並包含所有學習者，你可以搜尋任何學習者，輕鬆檢視他們的進度。
 
    ![](assets/learner-transcript.png)
-   _詳細學習者成績單檢視，包含註冊與完成的欄_
+   _詳細的學習者成績單檢視，並附有報名與完成欄位_
 
 >[!NOTE]
 >
->若要下載詳細的學習者成績單，請在&#x200B;**[!UICONTROL Go to Report]**&#x200B;索引標籤中選取&#x200B;**[!UICONTROL Learner Transcript]**。
+>要下載詳細的學習者成績單，請在標籤&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;中選擇&#x200B;**[!UICONTROL Go to Report]**。
 
-### 共用群組成功儀表板
+### 分享團體成功儀表板
 
-管理員可以與其他管理員或管理員共用控制面板。 請依照步驟共用控制面板：
+管理員可以與其他管理員或經理共享儀表板。 請依照步驟分享儀表板：
 
-1. 選取&#x200B;**[!UICONTROL Reports]**，然後選取&#x200B;**[!UICONTROL Group Success Dashboard]**。 儀表板的名稱為&#x200B;**[!UICONTROL Store Manager Dashboard]**。
-2. 在&#x200B;**[!UICONTROL Share]**&#x200B;選項中選取&#x200B;**[!UICONTROL Your dashboards]**。
+1. 選擇， **[!UICONTROL Reports]** 然後 **[!UICONTROL Group Success Dashboard]**。 儀表板名稱為 **[!UICONTROL Store Manager Dashboard]**。
+2. 選擇&#x200B;**[!UICONTROL Share]****[!UICONTROL Your dashboards]**&#x200B;選項。
 
    ![](assets/share-dashboard.png)
-   _選取共用按鈕_
+   _選擇分享按鈕_
 
-3. 依名稱搜尋使用者或使用者群組並選取它們。
+3. 依名稱搜尋使用者或使用者群組並選擇。
 
    ![](assets/share-gsd.png)
-   _與使用者或使用者群組共用儀表板_
+   _與使用者或使用者群組共享儀表板_
 
-4. 選取&#x200B;**[!UICONTROL Proceed]**&#x200B;以共用儀表板。
+4. 選擇 **[!UICONTROL Proceed]** 分享儀表板。
 
-您可以在「**[!UICONTROL Reports]**」下檢視共用儀表板詳細資訊，選取「**[!UICONTROL Group Success Dashboard]**」（商店管理員儀表板），然後選取「**[!UICONTROL Shared dashboards]**」。
+你可以在 **[!UICONTROL Reports]**&#x200B;選擇 **[!UICONTROL Group Success Dashboard]** （Store Manager Dashboard）後再選擇 **[!UICONTROL Shared dashboards]**。
 
 ![](assets/shared-dashboard.png)
-_檢視共用的儀表板_
+_查看共用儀表板_
 
 >[!NOTE]
 >
->管理員或自訂管理員只能在管理員共用的「群組成功儀表板」上看到已啟用的目錄。
+>管理員或自訂管理員只能在管理員分享的群組成功儀表板上看到已啟用的目錄。
 
-### 群組成功控制面板的限制
+### 團體成功儀表板的限制
 
-以下是「群組成功儀表板」的限制：
+以下是群組成功儀表板的限制：
 
-* 儀表板中不支援循環憑證。
-* **[!UICONTROL Last access date]**&#x200B;索引標籤中的&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;欄目前會顯示學習路徑和認證的資料。 計畫在未來更新時提供課程支援。
+* 儀表板不支援重複憑證。
+* **[!UICONTROL Last access date]**&#x200B;分頁中的&#x200B;**[!UICONTROL Learner Transcript]**&#x200B;欄位目前顯示的是學習路徑與認證的資料。課程支援計畫於未來更新中推出。
 
-## 跨多個使用者群組選取學習者
+## 在多個使用者群組中選擇學習者
 
-當您選取多個使用者群組時，Adobe Learning Manager會使用特定規則來決定要納入哪些學習者：
+當您選擇多個使用者群組時，Adobe Learning Manager 會使用特定規則來決定哪些學習者要包含：
 
-* **具有相同作用中欄位的使用者群組**：如果使用者群組使用相同的欄位（例如「位置」），則系統包含來自兩個群組的所有學習者。 它會結合值。 例如： **位置= Bangalore**&#x200B;和&#x200B;**位置= Chennai**。 其中包含來自兩個位置的學習者。
-* **具有不同作用中欄位的使用者群組**：如果使用者群組使用不同的欄位（例如，位置和角色），則系統僅包含符合所有條件的學習者。 例如： **Location = Bangalore或Chennai**&#x200B;以及&#x200B;**Role = Manager**。 其中僅包括身兼經理一職且位於班加羅爾或欽奈的學習者。
+* **使用相同活動欄位**&#x200B;的使用者群組：若使用者群組使用相同欄位（例如位置），系統會包含兩個群組的所有學習者。 它結合了這些價值觀。 例如： **地點 = 班加羅爾** ，地點 **= 清奈**。 涵蓋兩個地區的學習者。
+* **擁有不同活躍欄位**&#x200B;的使用者群組：若使用者群組使用不同欄位（例如位置與角色），系統僅包含符合所有條件的學習者。 例如： **地點 = 班加羅爾或金奈** ，角色 **= 經理**。 僅包含位於班加羅爾或金奈的經理學員。
 
 **摘要：**
 
-* 相同作用中欄位：學習者已合併（OR邏輯）
-* 不同的作用中欄位：學習者必須符合所有條件（和邏輯）
+* 同一主動領域：學習者被結合（或邏輯）
+* 不同的主動領域：學習者必須符合所有標準（以及邏輯）
 
-此方法可協助您根據選取的條件鎖定合適的學習者。
+這種方法能幫助你根據所選條件鎖定合適的學習者。
