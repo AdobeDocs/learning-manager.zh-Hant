@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## 簡介
 
-Adobe Learning Manager 中的群組成功儀表板（GSD）讓管理員與經理能近乎即時地監控學員進度（從註冊、進度到完成到反映在儀表板上的延遲約 60 分鐘），跨部門或使用者群組。 它支援主動追蹤課程完成、註冊及待處理的行動，讓團隊的學習管理更為輕鬆。 請參閱本文[](/help/migrated/administrators/feature-summary/add-users-user-groups.md)以了解更多關於使用者群組的資訊。
+Adobe Learning Manager 中的群組成功儀表板（GSD）讓管理員與經理能近乎即時地監控學員進度（從註冊、進度到完成到反映在儀表板上的延遲約 60 分鐘），跨部門或使用者群組。 它支援主動追蹤課程完成、註冊及待處理的行動，讓團隊的學習管理更為輕鬆。 請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/add-users-user-groups.md)以了解更多關於使用者群組的資訊。
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ Adobe Learning Manager 中的群組成功儀表板（GSD）讓管理員與經理
 管理員可以與其他管理員或經理共享儀表板。 請依照步驟分享儀表板：
 
 1. 選擇， **[!UICONTROL Reports]** 然後 **[!UICONTROL Group Success Dashboard]**。 儀表板名稱為 **[!UICONTROL Store Manager Dashboard]**。
-2. 選擇&#x200B;**[!UICONTROL Share]****[!UICONTROL Your dashboards]**&#x200B;選項。
+2. 選擇&#x200B;**[!UICONTROL Share]**&#x200B;**[!UICONTROL Your dashboards]**&#x200B;選項。
 
    ![](assets/share-dashboard.png)
    _選擇分享按鈕_
