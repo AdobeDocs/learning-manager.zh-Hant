@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 發布說明
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
 workflow-type: tm+mt
 source-wordcount: '29394'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 ## 錯誤已修正
 
-**VTT 覆寫因字元限制而被阻擋：** 修正了客戶因字元限制而無法覆寫 ALM 自動產生的 VTT 檔案在審查/編輯模式下的問題。 在 VTT 編輯模式下，字數限制已提高到一百萬字。
+**VTT 覆寫因字元限制而被阻擋：** 修正了使用者因字元限制無法覆寫 ALM 自動產生的 VTT 檔案而在審查/編輯模式下的問題。 在 VTT 編輯模式下，字數限制已提高到一百萬字。
 
 
 +++
