@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 課程創建、修改與發佈
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
 workflow-type: tm+mt
-source-wordcount: '8685'
+source-wordcount: '8686'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,9 @@ Adobe Learning Manager 讓作者能利用一個或多個與虛擬訓練、自學
    您可以啟用以下課程類型的選項：
 
    * 自學進度
+   * 虛擬教室
    * 教室
    * 活動
-   * 混合
 
    注意：在複製課程時，若你在來源課程中啟用了實例設定選項，該選項在目標課程中仍是關閉狀態。
 
@@ -525,7 +525,7 @@ Adobe Learning Manager 為作者提供工具，以建立、編輯及管理由多
 
 學習者可保留其他模組的進度，但需完成新模組才能完成課程。
 
-## 檢查清單 {#create-checklist}
+## 核對清單 {#create-checklist}
 
 評估是任何學習管理系統（LMS）中一個重要的環節。 線上評量是評估學習者對主題理解程度的主要方法之一。 但通常，在工作時，觀察一個人執行必要任務時，評估其理解程度是必要的。
 

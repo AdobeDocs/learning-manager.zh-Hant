@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '7304'
+source-wordcount: '7321'
 ht-degree: 0%
 
 ---
@@ -707,6 +707,10 @@ Adobe Learning Manager 讓組織的管理員能夠產生與學習者相關的成
 ### 遊戲化稽核追蹤報告 {#gamification-audit-trail}
 
 本報告包含學習者在每條規則中獲得遊戲化點數的歷史與原因。
+
+>[!NOTE]
+>
+>此功能在 FedRAMP 授權的環境中無法使用。 詳情請參閱 [FedRAMP 環境](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) 的功能可用性。
 
 ### 下載報告
 

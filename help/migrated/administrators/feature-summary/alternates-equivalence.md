@@ -3,9 +3,9 @@ title: Adobe Learning Manager 中的對應與替代功能
 description: 提供無阻礙的學習體驗，並消除ALM中等價與替代課程的重複訓練。 這項新功能允許管理員設定單向（替代）或雙向（等效）規則，完成一項訓練後，另一項訓練自動獲得交替完成
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '3447'
+source-wordcount: '3474'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,10 @@ ht-degree: 0%
 此功能跨課程與學習路徑運作，確保後續要求如先修條件與合規規則得到遵守，且不需強迫學習者硬背重複內容。 它也透過記錄直接完成的事項與替代完成的事項，保持報告的準確性。
 
 核心功能引入了替代完成的概念：當學習者完成設定的原始訓練後，自動產生一種特殊的完成狀態，該訓練計入另一個目標訓練。
+
+>[!NOTE]
+>
+>此功能在 FedRAMP 授權的環境中無法使用。 詳情請參閱 [FedRAMP 環境](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) 的功能可用性。
 
 ## 替代關係
 

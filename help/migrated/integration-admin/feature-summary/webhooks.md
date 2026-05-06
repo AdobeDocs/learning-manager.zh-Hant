@@ -4,16 +4,22 @@ title: Webhook
 description: 了解 Webhooks 可即時傳送資訊，如課程註冊、課程建立及其他資訊至特定網址
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1620'
 ht-degree: 0%
 
 ---
 
 # Webhook
 
+## 簡介
+
 Webhook 允許一個實體在特定事件發生時自動向另一個實體即時傳送資料或通知。 它將使應用程式能夠在不持續請求的情況下，提供其他應用程式資訊。 例如，若使用者完成學習管理系統（LMS）課程，webhook 可自動將該資訊傳送至其他平台，如 CRM 或報告工具。 Webhook 常用於整合，以自動化流程並減少系統間手動更新的需求。 設置 webhook，提供一個回調 URL，然後把資料傳送過去。
+
+>[!NOTE]
+>
+>此功能在 FedRAMP 授權的環境中無法使用。 詳情請參閱 [FedRAMP 環境](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) 的功能可用性。
 
 ## Webhook 與 API 的比較
 

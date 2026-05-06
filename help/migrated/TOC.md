@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: b4371272c60fb43a21d2ceeaf75065156e786615
+source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '906'
 ht-degree: 3%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 3%
       * [Adobe Learning Manager 管理帳號生命管](/help/migrated/alm-administrative-lifecycle.md)
       * [Adobe Learning Manager 安全管理指南](/help/migrated/alm-secure-administration-guide.md)
       * [Adobe Learning Manager 管理安全設定與組態管理](/help/migrated/alm-security-settings-config-management.md)
+      * [FedRAMP 授權環境中的功能可用性](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
    * [學習管理器中的無障礙性](accessibility-learning-manager.md)
    * [支援自訂網域](custom-domain.md)
    * [從 Adobe FTP Manager 轉換](transition-from-ftp-manager.md)
