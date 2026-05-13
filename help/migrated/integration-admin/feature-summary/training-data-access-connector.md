@@ -83,7 +83,7 @@ ht-degree: 0%
 2. 在 AEM 中，請使用 **基礎 URL**、 **CDN URL**、 **用戶端 ID**、 **用戶端秘密**&#x200B;和 **管理員刷新令牌** 來建立設定。
 3. 使用 AEM 元件來建置網站。
 4. 為學習者發布網站。
-5. 完整設定細節請參閱 [本文](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) 及 [本文](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)。
+5. 完整設定細節請參閱 [本文](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) 及 [本文](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)。
 
 ### 學習者體驗
 

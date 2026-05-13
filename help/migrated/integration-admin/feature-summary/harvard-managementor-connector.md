@@ -144,5 +144,5 @@ ht-degree: 0%
 
 **範例檔案**
 
-- [哈佛 ManageMentor 連接器的課程元資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
-- [哈佛 ManageMentor 連接器的使用者資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)
+- [哈佛 ManageMentor 連接器的課程元資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=zh-Hant)
+- [哈佛 ManageMentor 連接器的使用者資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=zh-Hant)
