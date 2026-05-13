@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 8aa74f220c7bd0694fdb6d80b16d9a744eb3f7f3
+source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '946'
 ht-degree: 3%
 
 ---
@@ -132,7 +132,24 @@ ht-degree: 3%
 * 整合管理 {#integration}
    * [應用程式開發手冊](integration-admin/feature-summary/developer-manual.md)
    * [遷移手冊](integration-admin/feature-summary/migration-manual.md)
-   * [學習管理連結器](integration-admin/feature-summary/connectors.md)
+   * 學習管理連結器 {#connectors}
+      * [連接器概述](integration-admin/feature-summary/connectors.md)
+      * [ADFS 連接器](integration-admin/feature-summary/adfs-connector.md)
+      * [Adobe Commerce 連接器](integration-admin/feature-summary/adobe-commerce-connector.md)
+      * [Adobe Connect 連接器](integration-admin/feature-summary/adobe-connect-connector.md)
+      * [盒式連接器](integration-admin/feature-summary/box-connector.md)
+      * [客製化 FTP 連接器](integration-admin/feature-summary/custom-ftp-connector.md)
+      * [FTP 連接器](integration-admin/feature-summary/ftp-connector.md)
+      * [getAbstract connector](integration-admin/feature-summary/getabstract-connector.md)
+      * [哈佛 ManageMentor 連接器](integration-admin/feature-summary/harvard-managementor-connector.md)
+      * [LinkedIn Learning 連接器](integration-admin/feature-summary/linkedin-learning-connector.md)
+      * [Marketo Engage 連接器](integration-admin/feature-summary/marketo-engage-connector.md)
+      * [Microsoft Teams 連接器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
+      * [Power BI 連接器](integration-admin/feature-summary/power-bi-connector.md)
+      * [Salesforce 連接器](integration-admin/feature-summary/salesforce-connector.md)
+      * [訓練資料存取連接器](integration-admin/feature-summary/training-data-access-connector.md)
+      * [Workday 連接器](integration-admin/feature-summary/workday-connector.md)
+      * [Zoom 連接器](integration-admin/feature-summary/zoom-connector.md)
    * [非登入 API](integration-admin/feature-summary/non-logged-in-apis.md)
    * Webhook {#webhooks}
       * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
@@ -147,7 +164,6 @@ ht-degree: 3%
       * [簡介](/help/migrated/deployment-guide/introduction.md)
       * [使用者遷移](/help/migrated/deployment-guide/user-migration.md)
       * [使用者設定](/help/migrated/deployment-guide/user-setup.md)
-   * [安裝 Microsoft Teams 連接器](integration-admin/feature-summary/install-microsoft-teams-connector.md)
    * [Salesforce 學習管理應用程式](integration-admin/feature-summary/sfdc-app.md)
    * [設定](integration-admin/feature-summary/settings.md)
    * [透過 CSV 檔案管理自訂角色](integration-admin/feature-summary/configure-role-csv-files.md)

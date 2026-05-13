@@ -1,19 +1,19 @@
 ---
 description: 在 Adobe Learning Manager 安裝 Microsoft Teams 連接器
 jcr-language: en_us
-title: 在 Adobe Learning Manager 安裝 Microsoft Teams 連接器
+title: Microsoft Teams 連接器
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1162'
 ht-degree: 0%
 
 ---
 
-# 在 Adobe Learning Manager 安裝 Microsoft Teams 連接器
+# Adobe Learning Manager 中的 Microsoft Teams 連接器
 
-## 概觀
+## 簡介
 
 Microsoft Teams® 是一個持久的聊天協作平台，完全支援文件分享、線上會議及其他商業溝通功能。
 
