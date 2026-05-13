@@ -26,7 +26,7 @@ Adobe Learning Manager 希望為學習者提供持續且自我導向的學習機
 
 ## 先決條件
 
-- 在設定連接器前，請確保&#x200B;****&#x200B;您的帳戶已啟用遷移功能。
+- 在設定連接器前，請確保&#x200B;**&#x200B;**&#x200B;您的帳戶已啟用遷移功能。
 - 請從你的 getAbstract 帳戶代表那裡取得&#x200B;**客戶 ID** 和&#x200B;**客戶秘密。**&#x200B;這些憑證是取得課程元資料和使用者使用資料所必需的。
 
 ## 設定 getAbstract 連接器
@@ -37,7 +37,7 @@ getAbstract 連接器讓 Adobe Learning Manager 管理員能透過整合 getAbst
 
 1. 以整合管理員身份登入。
 2. 在首頁選擇 **getAbstract** 。
-3. 請從連接器圖塊上的&#x200B;****&#x200B;以下選項中選擇：
+3. 請從連接器圖塊上的&#x200B;**&#x200B;**&#x200B;以下選項中選擇：
 
    - **入門**&#x200B;指南：連接器概述。
    - **連結**：建立新的連結。
@@ -71,7 +71,7 @@ getAbstract 連接器讓 Adobe Learning Manager 管理員能透過整合 getAbst
 
 啟用連線：
 
-1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線****」。**
+1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線**&#x200B;**」。**
 
    ![](assets/getabstract-connector4.png)
    _管理連線以設定和排程資料匯入_
@@ -87,10 +87,10 @@ getAbstract 連接器讓 Adobe Learning Manager 管理員能透過整合 getAbst
 
 補充連結：
 
-1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線****」。**
+1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線**&#x200B;**」。**
 2. 選擇連線。
 3. 在左側導覽窗格選擇 **「配置** 」。
-4. 選擇&#x200B;**編輯以更新**&#x200B;客戶端 ID **和**&#x200B;客戶端秘密&#x200B;****。
+4. 選擇&#x200B;**編輯以更新**&#x200B;客戶端 ID **和**&#x200B;客戶端秘密&#x200B;**&#x200B;**。
 
    ![](assets/getabstract-connector6.png)
    _編輯憑證，包括客戶端 ID 和客戶端秘密_
@@ -101,10 +101,10 @@ getAbstract 連接器讓 Adobe Learning Manager 管理員能透過整合 getAbst
 
 要排程同步：
 
-1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線****」。**
+1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線**&#x200B;**」。**
 2. 選擇連線。
 3. 在左側導覽窗格選擇 **「配置** 」。
-4. 在排程同步區塊中選擇&#x200B;**啟用排程****。**
+4. 在排程同步區塊中選擇&#x200B;**啟用排程**&#x200B;**。**
 
    ![](assets/getabstract-connector7.png)
    _排程從 getAbstract 匯入資料到 Adobe Learning Manager_
@@ -121,7 +121,7 @@ getAbstract 連接器讓 Adobe Learning Manager 管理員能透過整合 getAbst
 
 要執行隨選資料匯入：
 
-1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線****」。**
+1. 在 getAbstract 圖塊上選擇&#x200B;**「管理連線**&#x200B;**」。**
 2. 選擇連線。
 3. 從左側窗格選擇 **「隨選執行** 」。
 4. 選擇 **開始日期**。

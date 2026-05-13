@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 前置條件
 
-在設定連接器前，請確保&#x200B;****&#x200B;您的帳戶已啟用遷移功能。
+在設定連接器前，請確保&#x200B;**&#x200B;**&#x200B;您的帳戶已啟用遷移功能。
 
 ## 設定連接器
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 建立新的連結：
 
-1. 在哈佛管理導師圖塊中選擇&#x200B;**「連接****」。**
+1. 在哈佛管理導師圖塊中選擇&#x200B;**「連接**&#x200B;**」。**
 
    ![](assets/harvard-managementor-connector2.png)
    _選擇 Connect 以建立新的 Harvard ManageMentor 連線_
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 啟用連線：
 
-1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結****」。**
+1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結**&#x200B;**」。**
 
    ![](assets/harvard-managementor-connector4.png)
    _管理連線以設定和排程資料匯入_
@@ -80,10 +80,10 @@ ht-degree: 0%
 
 要排程同步：
 
-1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結****」。**
+1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結**&#x200B;**」。**
 2. 選擇連線。
 3. 從左側導覽窗格選擇 **「配置** 」。
-4. 在排程同步區塊中選擇&#x200B;**啟用排程****。**
+4. 在排程同步區塊中選擇&#x200B;**啟用排程**&#x200B;**。**
 
    ![](assets/harvard-managementor-connector6.png)
    _排程將資料匯入 Harvard ManageMentor 至 Adobe Learning Manager_
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 要執行隨選資料匯入：
 
-1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結****」。**
+1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結**&#x200B;**」。**
 2. 選擇連線。
 3. 從左側窗格選擇 **「隨選執行** 」。
 4. 選擇 **開始日期**。

@@ -132,14 +132,14 @@ Salesforce 連接器讓 Adobe Learning Manager 能連結你的 Salesforce 帳號
 
 要匯入隱形眼鏡：
 
-1. 在連接器頁面選擇 **Salesforce****。**
+1. 在連接器頁面選擇 **Salesforce**&#x200B;**。**
 2. 在連接頁面選擇 **匯入內部使用者** 。
 
    ![](assets/salesforce-connector5.png)
    _Salesforce 連接器頁面，並標示匯入內部使用者選項_
 
 3. 在&#x200B;**匯入使用者**&#x200B;頁面選擇&#x200B;**聯絡人**。
-4. 在匯入&#x200B;**前篩選聯絡人選項中選擇**「是」。******
+4. 在匯入&#x200B;**前篩選聯絡人選項中選擇**「是」。**&#x200B;**&#x200B;**
 5. 請設定以下選項：
 
    - **選擇聯絡人欄位：** 選擇你想匯入到 Adobe Learning Manager 的欄位。
@@ -170,7 +170,7 @@ Adobe 提供預先建置的套件，可建立必要的自訂物件：
 
 >[!IMPORTANT]
 >
->把套件裡的 URL test.salesforce.com](https://acrobat.adobe.com/home/test.salesforce.com) 替換[成你實際的 Salesforce 組織網域。
+>把套件裡的 URL test.salesforce.com[&#128279;](https://acrobat.adobe.com/home/test.salesforce.com) 替換成你實際的 Salesforce 組織網域。
 
 ### 套件安裝流程
 
@@ -190,7 +190,7 @@ Adobe 提供預先建置的套件，可建立必要的自訂物件：
 
 要將紀錄匯出到 Salesforce：
 
-1. 在 Salesforce 連接器頁面選擇&#x200B;**匯出統一紀錄****。**
+1. 在 Salesforce 連接器頁面選擇&#x200B;**匯出統一紀錄**&#x200B;**。**
 2. 從以下項目中選擇：
 
    - 新增使用者
@@ -199,7 +199,7 @@ Adobe 提供預先建置的套件，可建立必要的自訂物件：
    - 技能註冊
    - 技能完成
 
-3. 在連結事件中選擇&#x200B;**聯絡物件**&#x200B;並選擇選項&#x200B;****。這確保了存在於 Adobe Learning Manager 但不存在於 Salesforce 的使用者，會在 Salesforce 中建立。
+3. 在連結事件中選擇&#x200B;**聯絡物件**&#x200B;並選擇選項&#x200B;**&#x200B;**。這確保了存在於 Adobe Learning Manager 但不存在於 Salesforce 的使用者，會在 Salesforce 中建立。
 
    ![](assets/salesforce-connector7.png)
    _學習記錄匯出設定，顯示事件選擇與連結選項_
@@ -299,7 +299,7 @@ Salesforce 需要遠端站點設定，才能與外部服務如 Adobe Learning Ma
 
 1. 在 Salesforce 中，選擇 **右上角的設定** 。
 2. 在頁面右上角選擇 **設定** 。
-3. 在快速查找中搜尋&#x200B;**遠端站點設定****。**
+3. 在快速查找中搜尋&#x200B;**遠端站點設定**&#x200B;**。**
 4. 選擇 **新的遠端站點**。
 5. 請輸入細節：
 
@@ -363,7 +363,7 @@ Adobe Learning Manager 應用程式支援多種對應 Adobe Learning Manager 中
 
 **建立自訂檔案**
 
-1. 請前往 **設定**&#x200B;並選擇** 使用者。 **
+1. 請前往 **設定**&#x200B;並選擇 **&#x200B; 使用者。 &#x200B;**
 2. 選擇 **個人檔案**。
 3. 點擊 **新檔案**。
 4. 根據現有個人檔案建立自訂檔案，並針對 Adobe Learning Manager 使用者量身打造。

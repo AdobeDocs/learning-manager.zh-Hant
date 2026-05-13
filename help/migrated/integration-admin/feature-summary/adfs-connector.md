@@ -54,7 +54,7 @@ Adobe Learning Manager 中的 ADFS 連接器允許您透過 Active Directory 聯
    - **Directory.Read.All** – Read Directory data
    - **User.Read.All** – 閱讀所有使用者的完整個人檔案
 4. 選擇 **新增權限**。
-5. 授權&#x200B;****&#x200B;管理員同意權限。
+5. 授權&#x200B;**&#x200B;**&#x200B;管理員同意權限。
 
 ## 在 Learning Manager 中設定 ADFS 連接器
 
