@@ -3,9 +3,9 @@ description: 關於每個 ALM 支援連接器的概述
 jcr-language: en_us
 title: ALM 支援連接器的綜述
 contentowner: mmanuel
-source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
+source-git-commit: bd80ca31ff633e21ec81e717772e43989f0d9aae
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,11 @@ Box 連接器利用 Box 的雲端儲存平台，促進外部系統與 Adobe Lear
 - 與現有 Box 工作流程整合。
 - 來自指定資料夾的即時資料更新。
 
+更多資訊請參見 [盒子連接器](/help/migrated/integration-admin/feature-summary/box-connector.md)。
+
 ## 虛擬教室與會議連結器
 
 這些連接器將 Adobe Learning Manager 與熱門的視訊會議及虛擬會議平台整合，實現無縫的即時培訓課程。
-
-更多資訊請參見 [盒子連接器](/help/migrated/integration-admin/feature-summary/box-connector.md)。
 
 ### Microsoft Teams 連接器
 
@@ -169,6 +169,9 @@ ADFS 連接器使組織能實作企業級認證與授權，使用者能利用現
 - 單一登入（SSO）實作
 - 企業安全合規
 - 無縫使用者認證
+- 自動使用者匯入
+- 排程能力
+- 過濾能力
 
 欲了解更多資訊，請參閱 [ADFS 連接器](/help/migrated/integration-admin/feature-summary/adfs-connector.md)。
 
