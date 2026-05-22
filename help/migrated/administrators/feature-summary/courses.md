@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 建立課程實例與學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: efdbba048d27d4100dad28bae3f788abafa19c85
 workflow-type: tm+mt
 source-wordcount: '5701'
 ht-degree: 0%
@@ -243,7 +243,7 @@ Excel 檔案包含每個實例的工作表。 工作表包含以下欄位：
 
 利用 Adobe Learning Manager 的批量註冊功能，管理員能透過上傳 CSV 檔案，有效為大量學習者註冊課程、證照或學習計畫。 此流程節省時間、確保一致性，並支持組織的可擴展性。 此外，管理員與講師可透過 CSV 上傳批量更新學習者資訊、出席狀況及完成紀錄，減少人工作業並確保資料準確性。
 
-你可以使用相同的 CSV 檔案格式來登記、出席和完成。 只要在「Email」欄位輸入學習者的電子郵件 ID，並根據動作名稱儲存檔案，例如 bulk_enrollment.csv、bulk_attendance.csv 或 bulk_completion.csv。 只支援 CSV 格式。 不支援 UTF-8 格式。 下載 [範例 csv](assets/Sample-Bulk-Action-CSV.csv)。
+你可以使用相同的 CSV 檔案格式來登記、出席和完成。 只要在「Email」欄位輸入學習者的電子郵件 ID，並根據動作名稱儲存檔案，例如 bulk_enrollment.csv、bulk_attendance.csv 或 bulk_completion.csv。 只支援 CSV 格式。 不支援 UTF-8 格式。 下載 [範例 csv](assets/sample-bulk-action.csv)。
 
 ### 使用 CSV 批量註冊學習者
 
@@ -750,7 +750,7 @@ Adobe Learning Manager 讓你更容易快速找到心儀的課程和學習程式
 
 這種搜尋有時也被稱為自動補全、增量搜尋、隨輸入搜尋、內嵌搜尋或即時搜尋。
 
-當你在搜尋欄中為學習者或使用者群組輸入時，會找到一個或多個該搜尋詞的匹配並立即呈現給你。
+當你在搜尋欄中為學習者或使用者群組輸入時，會找到一個或多個該搜尋詞的匹配，並立即呈現給你。
 
 這個過程讓你能以比連續多次搜尋更快、更省事的方式找到你想要的東西。
 
