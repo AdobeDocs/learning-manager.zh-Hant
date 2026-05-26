@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: a6d8564888f232bc642cfcac7b17db52be1ef024
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '953'
 ht-degree: 3%
 
 ---
@@ -232,6 +232,7 @@ ht-degree: 3%
    * [在 Adobe Learning Manager 建立試用帳號](/help/migrated/create-trial-account.md)
 * API 變更 {#api-changes}
    * [四月版本中的 API 變更](/help/migrated/api-changes-alm.md)
+   * [五月更新版本中的 API 變更](/help/migrated/api-changes-alm-may.md)
 * 知識庫 {#knowledge-base}
    * [無法登入學習管理員](kb/unable-log-in-learning-manager.md)
    * [學習摘要不會顯示最新資料](kb/learning-summary-not-display-data.md)
