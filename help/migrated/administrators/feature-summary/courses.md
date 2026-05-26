@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 建立課程實例與學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: bb212865016726f84a240702533a099ac11e481a
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
-source-wordcount: '5701'
+source-wordcount: '5908'
 ht-degree: 0%
 
 ---
@@ -38,28 +38,42 @@ ht-degree: 0%
 要建立一個實例，
 
 1. 在管理員網頁應用程式中，點擊 **[!UICONTROL Courses]** 左側窗格。
-1. 在課程列表中，選擇必修課程，然後點擊 **[!UICONTROL View Course]**。
+2. 在課程列表中，選擇必修課程，然後點擊 **[!UICONTROL View Course]**。
 
    ![](assets/view-course.png)
 
    *查看課程*
 
-1. 要建立實例，請點擊 **[!UICONTROL Instances]** 左側窗格。 每個課程預設都有一個實例。 你可以修改預設實例或新增實例。 你無法刪除這個課程實例。
-1. 要建立實例，請點擊 **[!UICONTROL Add New Instance]** 賽道資訊的右上角。 會顯示一個新的課程實例。
-1. 進入實例的屬性：
+3. 要建立實例，請點擊 **[!UICONTROL Instances]** 左側窗格。 每個課程預設都有一個實例。 你可以修改預設實例或新增實例。 你無法刪除這個課程實例。
+4. 要建立實例，請點擊 **[!UICONTROL Add New Instance]** 賽道資訊的右上角。 會顯示一個新的課程實例。
+5. 進入實例的屬性：
 
    * 在欄位 **[!UICONTROL Instance Name]** 中輸入你想與該課程關聯的實例名稱。 務必為該事件使用獨特的名稱。
+   * **開始日期：** 這是實例的開始日期。 在開始日期之前，可於兩個不同選定日期向學習者發送兩封提醒電子郵件。 開始日期必須比完成日期早。 一旦選擇起始日期，該日期會在該 **實例的通知提醒** 區塊中以藍色標示顯示。
+     ![](assets/start-date-instance.png)
+     ![](assets/start-date-highlighted-instance.png)
    * 指定該實例的完成截止日期。 學員必須在此日期前完成課程。
-   * 點擊 **[!UICONTROL Show More Options]** 以顯示其他截止日期選項。
+   * 選擇 **[!UICONTROL Show More Options]** 顯示其他截止日期選項。
    * **[!UICONTROL Enrollment Deadline]：** 這是學習者在自我註冊時預期註冊學習對象的日期。
    * **[!UICONTROL Unenrollment Deadline]**：你可以選擇限制學習者自己取消登記，並設定退學截止日期。
    * **[!UICONTROL Timezone]搜尋**&#x200B;後從下拉選單中選擇。**[!UICONTROL Timezone]**
 
-   管理員可根據需求決定課程或學習計畫的完成期限。 不過，建議設置教室/虛擬教室訓練的課程。
+6. 選擇 **儲存**。
 
-   ![](assets/create-an-instance.png)
+#### 在開始前設定電子郵件提醒
 
-   *設定完成期限*
+你只能在儲存完整實例資訊後設定電子郵件提醒。 一旦選擇 **儲存**，實例會自動最小化並進入編輯模式。
+
+1. 選擇 **通知通知框** 。
+2. 在行事曆上，選擇一個比實例開始日期早的日期作為第一次提醒。
+3. 在右側選擇 **新增提醒** 。
+4. **電子郵件範本：** 從下拉選單中選擇範本。
+5. **復發：** 從下拉選單中選擇一種重現類型。 請選擇右側的藍色勾選標記以儲存提醒日期。 記得每個提醒日期都必須分別保存。
+   ![](assets/start-date-reminder1.png)
+6. 選擇另一個日期，且同樣早於課程開始日期，重複這個流程，然後點選右側的藍色勾選標記來儲存這個提醒日期。
+   ![](assets/start-date-reminder2.png)
+
+管理員可根據需求決定課程或學習計畫的完成期限。 不過，建議設置教室/虛擬教室訓練的課程。
 
 ### 查看實例的屬性 {#viewpropertiesoftheinstance}
 
