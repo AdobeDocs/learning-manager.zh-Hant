@@ -450,7 +450,7 @@ Adobe Learning Manager 現在支援在遷移過程中，學習路徑（學習程
 - 核心所需的映射仍為：
    - 學習程式識別碼↔課程識別碼（以及其他仍被記錄的欄位，如 id、learningProgramId、courseId、日期）。
 
-請務必參考 Learning Manager 帳號（透過 csv _specifications.zip）最新的[_ CSV 規格_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) ，以確認目前的標頭集和需求。
+請務必參考 Learning Manager 帳號（透過 csv _specifications.zip）最新的[_ CSV 規格_](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/migration-manual) ，以確認目前的標頭集和需求。
 
 ## timeZoneCode 在球場實例
 
