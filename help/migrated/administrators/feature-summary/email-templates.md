@@ -45,7 +45,7 @@ Learning Manager 應用程式會根據事件向多個使用者角色發送電子
 
 **檢查清單通過/檢查清單未通過：** 這些範本的目的是告知學習者它們已被審查者評估。 學習者每次評估都會收到這封電子郵件，方便他們前往平台查詢是否需要採取任何行動。
 
-1. 要存取範本，請點擊 **[!UICONTROL Email Templates]** 左側窗格。 在此頁面上，你可以看到三種不同類別的範本，分別為 **[!UICONTROL General]**、 、 **[!UICONTROL Learning Activity]****[!UICONTROL Reminders and Updates]**&#x200B;和 。還有第四個分頁，可以 **[!UICONTROL Settings]**&#x200B;設定範本。
+1. 要存取範本，請點擊 **[!UICONTROL Email Templates]** 左側窗格。 在此頁面上，你可以看到三種不同類別的範本，分別為 **[!UICONTROL General]**、 、 **[!UICONTROL Learning Activity]**&#x200B;**[!UICONTROL Reminders and Updates]**&#x200B;和 。還有第四個分頁，可以 **[!UICONTROL Settings]**&#x200B;設定範本。
 
    ![](assets/categories-of-emailtemplates.png)
 
