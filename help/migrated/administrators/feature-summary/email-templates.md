@@ -1,265 +1,275 @@
 ---
-description: 您的培訓活動中的事件會觸發傳送給學習者的電子郵件。 您作為管理員可以輕鬆地啟用、停用或修改這些電子郵件範本。
+description: 你訓練活動中的事件會觸發發送給學習者的電子郵件。 作為管理員，你可以輕鬆啟用、停用或修改這些電子郵件範本。
 jcr-language: en_us
 title: 電子郵件範本
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
+source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
 workflow-type: tm+mt
-source-wordcount: '1451'
+source-wordcount: '1692'
 ht-degree: 0%
 
 ---
 
 # 電子郵件範本
 
-您的培訓活動中的事件會觸發傳送給學習者的電子郵件。 您作為管理員可以輕鬆地啟用、停用或修改這些電子郵件範本。
+你訓練活動中的事件會觸發發送給學習者的電子郵件。 作為管理員，你可以輕鬆啟用、停用或修改這些電子郵件範本。
 
-Learning Manager應用程式會根據事件傳送電子郵件通知給使用者的多個角色。
+Learning Manager 應用程式會根據事件向多個使用者角色發送電子郵件通知。
 
-身為管理員，您可以新增或修改內容，並針對學習者、管理員和作者觸發的各種事件傳送通知給使用者，以自訂電子郵件範本。
+作為管理員，您可以自訂電子郵件範本，透過新增或修改內容，並向使用者發送由學習者、管理者及作者觸發的各種事件通知。
 
-管理員也可以選擇不傳送特定事件的電子郵件通知。
+管理員也可以選擇不發送特定事件的電子郵件通知。
 
-## 電子郵件範本簡介
+## 電子郵件範本導論
 
-在本訓練中，您將瞭解如何自訂個別電子郵件範本，以及自訂電子郵件範本的課程和帳戶層級設定。
+在本次培訓中，您將學習如何自訂個別電子郵件範本，並自訂電子郵件範本的課程層級與帳戶層級設定。
 
 [![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
+如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
 
 ## 設定電子郵件範本 {#configureemailtemplates}
 
-您作為管理員可以輕鬆地啟用、停用或修改這些電子郵件範本。
+作為管理員，你可以輕鬆啟用、停用或修改這些電子郵件範本。
 
-1. 若要存取範本，請按一下左窗格上的&#x200B;**[!UICONTROL Email Templates]**。 在此頁面中，您可以看到三種不同的範本類別： **[!UICONTROL General]**、**[!UICONTROL Learning Activity]**&#x200B;和&#x200B;**[!UICONTROL Reminders and Updates]**。 第四個索引標籤&#x200B;**[!UICONTROL Settings]**&#x200B;可供您設定範本。
+以下提到的電子郵件範本屬於這組範本。
+
+**進度刷新：** 此範本通知學習者，由於其活躍設定檔或學習路徑設定的變更，其完成狀態及學習路徑進度已被自動重新計算。 它會引導學習者檢視任何新的待辦需求，並採取行動完成學習路徑。
+
+**課程/路徑已標記為透過替代路徑完成：** 此範本會在學習者完成替代路徑課程時通知學習者。 這表示他們直接完成了管理員設定的來源訓練，作為該目標的替代訓練。
+
+**課程/路徑被標記為未完成：** 此範本通知學習者，原本應透過替代路線完成的課程或學習路徑，現在已被標記為未完成。 當管理員移除或修改替代關係時，帳號層級啟用追溯性未完成。
+
+**檢查清單通過/檢查清單未通過：** 這些範本的目的是告知學習者它們已被審查者評估。 學習者每次評估都會收到這封電子郵件，方便他們前往平台查詢是否需要採取任何行動。
+
+1. 要存取範本，請點擊 **[!UICONTROL Email Templates]** 左側窗格。 在此頁面上，你可以看到三種不同類別的範本，分別為 **[!UICONTROL General]**、 、 **[!UICONTROL Learning Activity]**&#x200B;**[!UICONTROL Reminders and Updates]**&#x200B;和 。還有第四個分頁，可以 **[!UICONTROL Settings]**&#x200B;設定範本。
 
    ![](assets/categories-of-emailtemplates.png)
 
-   *選取[一般]索引標籤*
+   *選擇「一般」標籤*
 
-2. 若要大量啟用或停用特定角色的電子郵件範本，請選取欄標題中的省略符號(...)，然後啟用&#x200B;**[!UICONTROL Email Recipients]**&#x200B;中的所有適用角色。
+2. 若要批量啟用或停用特定職位的電子郵件範本，請選擇省略號（...） 在欄位標題中，並啟用所有適用的角色。**[!UICONTROL Email Recipients]**
 
    ![](assets/email-template-role.png)
-   _傳送角色層級_&#x200B;的所有電子郵件範本
+   _在職務層級寄出所有電子郵件範本_
 
-3. 若要啟用或停用角色的特定電子郵件範本，請選取該範本的省略符號(...)，然後選取或取消選取角色。
+3. 若要啟用或停用特定職位的電子郵件範本，請選擇省略號（...） 對於該範本，選擇或取消選出角色。
 
    ![](assets/email-template-role-1.png)
-   _在角色層級傳送電子郵件範本_
+   _在職務層級發送電子郵件範本_
 
-4. 若要修改範本的內容，請按一下範本名稱。 您可以在此處看到對於不同型別的使用者，您有不同的範本。
+4. 要修改範本內容，請點擊範本名稱。 這裡你可以看到，不同類型的使用者會有不同的範本。
 
    ![](assets/preview-of-an-emailtemplate.png)
 
-   *檢視電子郵件的範本*
+   *查看電子郵件範本*
 
-5. 若要修改此電子郵件範本的內容，請按一下電子郵件內文。 現在對範本進行變更。 您可以修改文字，也可以在電子郵件中使用這些變數之一。 對內文區段所做的變更只能套用至此電子郵件範本。 不過，如果您變更此電子郵件的簽章，則可將其全域套用至所有範本。
+5. 要修改此電子郵件範本的內容，請點擊郵件正文。 現在對範本做修改。 你可以修改文字內容，也可以在電子郵件中使用這些變數之一。 對正文部分所做的變更只能套用在這個電子郵件範本上。 不過，如果你更改這封電子郵件的簽名，它可以全域套用到所有範本。
 
-   將滑鼠停留在每個圖示上以檢視名稱。
+   將滑鼠移到每個圖示上即可查看名稱。
 
    ![](assets/modify-the-emailtemplate.png)
 
    *修改電子郵件範本*
 
-   您可以按一下範本上方的連結&#x200B;**[!UICONTROL Revert to Original]**，將訊息內文重設為預設內容。
+   你可以點擊範本上方的連結 **[!UICONTROL Revert to Original]** ，將訊息正文重設為預設內容。
 
-6. 若要確認套用至此範本的變更，請按一下「儲存」。 現在，使用者可以使用修改的電子郵件範本接收電子郵件通知。
+6. 要確認此範本所套用的變更，請點擊儲存。 現在用戶可以使用修改過的電子郵件範本接收電子郵件通知。
 
 ## 自訂電子郵件範本的設定 {#customizesettingsofanemailtemplate}
 
-1. 若要開啟設定頁面，請按一下&#x200B;**[!UICONTROL Settings]**。 您現在可以自訂您的電子郵件範本。
-1. 若要自訂學習者接收電子郵件的名稱和電子郵件ID，請編輯&#x200B;**[!UICONTROL Sender Name and Address].**
+1. 要開啟設定頁面，請點擊 **[!UICONTROL Settings]**。 你現在可以自訂你的電子郵件範本。
+1. 若要自訂學習者收到電子郵件的名稱與電子郵件 ID，請編輯 **[!UICONTROL Sender Name and Address]。**
 
-   請聯絡&#x200B;[***Adobe支援***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)以設定或變更這些詳細資料。
+   請聯絡 [***Adobe 支援***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager) 以設定或更改這些細節。
 
-1. 從&#x200B;**[!UICONTROL Email Banner]**&#x200B;選項自訂您的電子郵件橫幅。 選取&#x200B;**[!UICONTROL Banner Background]**&#x200B;以變更橫幅的色彩。
+1. 從選項 **[!UICONTROL Email Banner]** 中自訂你的電子郵件橫幅。 選擇 來更改橫幅 **[!UICONTROL Banner Background]**&#x200B;顏色。
 
-   您可以選取&#x200B;**[!UICONTROL Custom Image]**&#x200B;選項，使用自訂影像作為橫幅。 進行變更後，請按一下&#x200B;**[!UICONTROL Save]**。
+   你可以選擇 **[!UICONTROL Custom Image]** 選項，將自訂圖片當作橫幅。 更改後點擊 **[!UICONTROL Save]** 。
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
-   *自訂橫幅的影像*
+   *自訂橫幅的圖片*
 
-   自訂影像大小必須是1240x200px並支援.jpg、.jpeg和.png。
+   自訂影像尺寸必須是 1240x200px，並支援.jpg、.jpeg 和 .png。
 
-1. 按一下&#x200B;**[!UICONTROL Edit]**&#x200B;編輯您的電子郵件簽章。 進行必要的變更並儲存變更。
+1. 點擊 . 編輯您的電子郵件簽名 **[!UICONTROL Edit]**。 做必要的修改並保存這些變更。
 
    ![](assets/customize-email-signature.png)
 
-   *自訂您的電子郵件簽章*
+   *自訂您的電子郵件簽名*
 
-1. 按一下選項&#x200B;**[!UICONTROL Account URL]**&#x200B;上的[編輯]以編輯您的帳戶URL。
+1. 點擊「編輯 **[!UICONTROL Account URL]**」選項編輯您的帳號網址。
 
-   帳戶URL連結會顯示在所有電子郵件中，在簽名之前。 輸入必要的URL並按一下&#x200B;**[!UICONTROL Save]**。 請注意，此URL僅對內部使用者可見。
+   所有電子郵件中都會顯示帳號網址連結，就在簽名前。 輸入所需的網址並點擊 **[!UICONTROL Save]**。 請注意，此網址僅對內部使用者可見。
 
    ![](assets/customize-accounturl.png)
 
-   *自訂帳戶URL*
+   *自訂帳號網址*
 
-1. 使用&#x200B;**[!UICONTROL Optional Manager Email]**&#x200B;選項下的核取方塊，設定管理員是否也必須接收傳送至其直接下屬的電子郵件。
+1. 透過選項中的 **[!UICONTROL Optional Manager Email]** 勾選框，設定經理是否也必須接收寄給其直屬下屬的電子郵件。
 
 
-## 設定摘要電子郵件的頻率 {#setfrequencyofdigestemails}
+## 設定摘要郵件的頻率 {#setfrequencyofdigestemails}
 
-在&#x200B;**[!UICONTROL Email templates]** > **[!UICONTROL Settings]**&#x200B;頁面上，管理員可以變更傳送給學習者的摘要電子郵件的頻率。
+在 **[!UICONTROL Email templates]** > **[!UICONTROL Settings]** 頁面，管理員可以調整發送給學習者的摘要郵件頻率。
 
-在&#x200B;**[!UICONTROL Digest Email Settings]**&#x200B;區段中，按一下&#x200B;**[!UICONTROL Edit]**。
+在該 **[!UICONTROL Digest Email Settings]** 區塊中，點擊 **[!UICONTROL Edit]**。
 
-在下拉式清單中選擇&#x200B;**[!UICONTROL Biweekly]**&#x200B;或&#x200B;**[!UICONTROL Monthly]**。
+在下拉選單中，選擇 **[!UICONTROL Biweekly]** 或 **[!UICONTROL Monthly]**。
 
-* **[!UICONTROL Biweekly]：**&#x200B;如果您將頻率設為&#x200B;**[!UICONTROL Biweekly]**，學習者每兩週會收到一次電子郵件。
+* **[!UICONTROL Biweekly]：** 如果你設定頻率為 **[!UICONTROL Biweekly]**，學習者每兩週會收到一次電子郵件。
 
-* **[!UICONTROL Monthly]：**&#x200B;如果您將頻率設為&#x200B;**[!UICONTROL Monthly]**，學習者每月會收到一次電子郵件。
+* **[!UICONTROL Monthly]：** 如果你將頻率設定為 **[!UICONTROL Monthly]**，學習者每月會收到一次電子郵件。
 
 ![](assets/digest-email-settings.png)
 
-*設定摘要電子郵件的頻率*
+*設定摘要郵件的頻率*
 
-啟用此選項時，現有/新使用中帳戶的頻率預設設為&#x200B;**[!UICONTROL Biweekly]**。
+啟用此選項後，頻率預設為 **[!UICONTROL Biweekly]** 現有或新活躍帳號。
 
-### DND學習者清單
+### DND 學習者名單
 
-DND清單中的學習者看不到摘要電子郵件的使用者設定。 該選項將保持停用狀態，學習者將不會收到任何郵件。
+DND 名單中的學習者無法看到摘要郵件的使用者設定。 該選項將持續失效，學習者將不會收到任何郵件。
 
-## 給學習者的範例摘要電子郵件 {#digest-email}
+## 給學習者的摘要電子郵件範例 {#digest-email}
 
 以下範例代表學習者收到的郵件。
 
 ![](assets/email-1.png)
 
-*範例電子郵件*
+*電子郵件範例*
 
 ### 訓練活動
 
 ![](assets/email-2.png)
 
-*訓練活動的電子郵件*
+*培訓活動的電子郵件*
 
-### 建議的培訓
+### 推薦訓練
 
 ![](assets/email3.png)
 
-*建議的訓練電子郵件*
+*推薦培訓的電子郵件*
 
 ### 排行榜
 
 ![](assets/email4.png)
 
-排行榜的&#x200B;*電子郵件*
+*排行榜電子郵件*
 
-### 最新貼文
+### 最新文章
 
 ![](assets/email5.png)
 
-*最新貼文的電子郵件*
+*最新文章的電子郵件*
 
 ### 下載電子郵件存取報告
 
-您可以按一下&#x200B;**[!UICONTROL Download]**&#x200B;按鈕下載電子郵件存取報告。 此報表包含收到電子郵件的使用者人數，以及已開啟及點按連結的使用者人數。
+您可以點擊 **[!UICONTROL Download]** 按鈕下載電子郵件存取報告。 本報告包含收到電子郵件的用戶數量，以及開啟並點擊連結的用戶數量。
 
 ## 自訂電子郵件網域 {#customizeemaildomain}
 
-若要自訂您的學習者接收通知的電子郵件網域和電子郵件ID，請聯絡&#x200B;[***Learning Manager支援***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)，並提供您要新增之網域的詳細資訊以及您的新電子郵件ID。
+若要自訂電子郵件網域及學習者接收通知的電子郵件 ID，請聯絡 [***學習經理客服***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager) ，並提供你想新增的網域資訊及新電子郵件 ID。
 
-系統將處理您的請求，並透過您指定的新電子郵件地址，向您傳送一封包含確認連結的電子郵件。 按一下電子郵件中提供的驗證連結，以確認並完成驗證程式。
+你的申請會被處理，並會寄送一封包含確認連結的電子郵件，寄到你指定的新電子郵件地址。 請點擊電子郵件中提供的驗證連結以確認並完成驗證流程。
 
-## 設定「請勿打擾電子郵件」 {#dnd}
+## 設定請勿打擾電子郵件 {#dnd}
 
-管理員可以選取可從Learning Manager接收電子郵件的使用者以及無法接收電子郵件的使用者。
+作為管理員，你可以選擇哪些使用者能接收來自 Learning Manager 的電子郵件，哪些則不能。
 
-您可以使用&#x200B;**[!UICONTROL Do Not Disturb]**&#x200B;標籤下的&#x200B;**[!UICONTROL Settings]**&#x200B;選項來執行此動作。 使用者可透過其名稱、電子郵件ID或唯一使用者ID新增至此清單。
+你可以透過 **[!UICONTROL Do Not Disturb]** 分頁下的 **[!UICONTROL Settings]** 選項來操作。 使用者可透過姓名、電子郵件 ID 或唯一使用者 ID 加入此名單。
 
-搜尋要新增至清單的使用者。
+搜尋一個要加入清單的使用者。
 
 <!--![](assets/add-users-for-donotdisturbemail.png)-->
 
-## 封鎖的電子郵件 {#blockedemails}
+## 被封鎖的電子郵件 {#blockedemails}
 
-從每個使用者的&#x200B;**封鎖的電子郵件**&#x200B;下拉式清單，選取要封鎖的電子郵件型別。
+從 **每個使用者的「封鎖郵件」** 下拉選單中選擇要封鎖的電子郵件類型。
 
 <!--![](assets/options-for-blockedemails.png)-->
 
-可用的選項如下：
+以下是可用的選項：
 
-* **直接傳送電子郵件給學習者：**&#x200B;此選項會限制或允許傳送電子郵件給學習者。
-* **給學習者經理的提升電子郵件：**&#x200B;此選項會限制或允許傳送電子郵件給學習者經理。
-* **關於直接下屬：**&#x200B;此選項會限制或允許傳送給使用者有關其直接下屬的傳入向上呈報電子郵件。
-* **關於略過層級報告：**&#x200B;此選項會限制或允許傳送給使用者的第二層級報告的傳入向上呈報電子郵件。
+* **直接寄信給學員：** 此選項限制或允許寄送給學員的電子郵件。
+* **升級郵件發送給學員經理：** 此選項限制或允許寄送給學員經理的電子郵件。
+* **關於直屬下屬：** 此選項限制或允許發送給用戶的直接下屬升級郵件。
+* **關於跳過層級報告：** 此選項限制或允許發送給用戶的第二級報告的升級郵件。
 
-如果您想要從清單中刪除使用者，可以使用使用者索引標籤中針對每個使用者個別提供的刪除選項。
+如果你想從列表中刪除某個使用者，可以在使用者標籤中分別使用每個使用者可用的刪除選項。
 
-您可以使用CSV將使用者新增到DND清單。 針對下列各色彩包含True/False/Blank值：
+你可以用 CSV 把使用者加入 DND 清單。 請為以下各類別提供真/假/空白值：
 
-* 封鎖直接電子郵件
+* 封鎖直寄電子郵件
 * 封鎖使用者升級
-* 封鎖傳入的直接升級
-* 封鎖傳入略過呈報
+* 封鎖直接升級的進站
+* 封鎖進入的跳過升級事件
 
-在值欄位中輸入true，以封鎖使用者接收該所選選項的電子郵件。 如果輸入false作為值，則會解除封鎖封鎖封鎖的使用者。 如果欄留白，則不會對先前的選擇進行更改。
+在值欄位輸入 true，可以阻止使用者收到該選項的電子郵件。 如果輸入 false 作為數值，封鎖的使用者會被解除封鎖。 若欄位留空，則不會對先前選擇進行任何更改。
 
-## 自訂範本的彈性
+## 彈性調整範本
 
-Learning Manager中的電子郵件範本現在包含完全可編輯的區段，提供更大的彈性來根據訊息和品牌偏好設定自訂電子郵件通訊。
+Learning Manager 中的電子郵件範本現在包含完全可編輯的區塊，提供更靈活的電子郵件溝通，依據訊息與品牌偏好來客製化。
 
-自訂電子郵件範本的主要增強功能包括下列幾項：
+客製化電子郵件範本的主要改進包括以下幾點：
 
 ### 在帳戶層級自訂電子郵件稱呼
 
-選取&#x200B;**[!UICONTROL Email Templates]** > **[!UICONTROL Settings]**。 在&#x200B;**[!UICONTROL Edit]**&#x200B;區段中選取&#x200B;**[!UICONTROL Email Salutation]**。
+選擇 **[!UICONTROL Email Templates]** > **[!UICONTROL Settings]**。 在該&#x200B;**[!UICONTROL Email Salutation]**&#x200B;區段選擇&#x200B;**[!UICONTROL Edit]**。
 
 ![自訂電子郵件](assets/email-salutation.png)
 
-*自訂電子郵件稱呼*
+*自訂電子郵件問候*
 
-您也可以自訂下列專案：
+您也可以自訂以下內容：
 
-* 在課程層級和執行個體層級同時傳送電子郵件橫幅和電子郵件簽名。
-* 編輯電子郵件頁尾。 頁尾區域包含帳戶URL、簽名以及使用者新增的任何自由格式文字的預定義變數。
+* 電子郵件橫幅與電子郵件簽名，涵蓋課程層級與實例層級。
+* 編輯電子郵件頁腳。 頁腳區域包含預先定義的變數，包括帳號網址、簽名以及使用者新增的任何自由文字。
 
-範本也支援進階編輯功能，以便在內容複製並貼到Microsoft Word時保留格式。
+範本也支援進階編輯功能，確保內容從 Microsoft Word 複製貼上時格式會被保留。
 
 ## 內嵌邀請 {#inlineinvitations}
 
-Learning Manager使用者現在將收到內嵌電子郵件邀請。 不再使用ICS附件來傳送邀請。 邀請中的任何變更都會自動反映在您的行事曆中。
+Learning Manager 使用者現在會收到線上電子郵件邀請。 ICS 附件不再用於發送邀請函。 邀請函的任何變動都會自動反映在您的行事曆中。
 
 <!--![](assets/outlook-style-invite.png)-->
 
 ## 常見問題 {#frequentlyaskedquestions}
 
-+++如何停用電子郵件範本中的說明？
++++如何在電子郵件範本中停用說明功能？
 
-目前，在Learning Manager中，無法停用電子郵件範本中的&#x200B;**說明**。
+目前在 Learning Manager 中，無法在電子郵件範本中停用 **「幫助** 」。
 
 +++
 
 +++如何修改電子郵件範本？
 
-1. 以管理員身分登入您的Learning Manager帳戶。
-1. 在左側面板上，按一下&#x200B;**[!UICONTROL Email Templates]**&#x200B;並選取您要修改的電子郵件範本。
-1. 若要自訂每個範本，請按一下範本內文中的文字。 您可以按一下快照中所顯示的適當圖示，在文字中插入變數。 將滑鼠移到每個圖示上，即可檢視名稱並將其套用至範本。
-1. 變更範本後，請按一下&#x200B;**[!UICONTROL Save]**。
+1. 作為管理員，請登入你的學習管理帳戶。
+1. 在左側面板，點擊 **[!UICONTROL Email Templates]** 並選擇你想修改的電子郵件範本。
+1. 要自訂每個範本，請點擊範本正文中的文字。 你可以點擊快照中顯示的相應圖示，插入變數。 滑鼠移到每個圖示上即可查看名稱並套用到範本中。
+1. 修改範本後，點擊 **[!UICONTROL Save]**。
 
 
 +++
 
 +++如何建立自己的電子郵件範本？
 
-目前無法建立自訂電子郵件範本。 不過，您可以編輯及修改現有範本。
+目前，無法建立自訂電子郵件範本。 不過，你可以編輯和修改現有的範本。
 
 +++
 
 +++如何關閉電子郵件範本？
 
-若要關閉電子郵件範本，請選取需要停用的範本，然後按一下「是/否」循環切換按鈕。
+要關閉電子郵件範本，請選擇需要停用的範本，然後點擊是/否圓形切換按鈕。
 
 +++
 
-+++如何變更範本中的寄件者名稱和地址？
++++如何更改範本中的寄件人姓名和地址？
 
-若要變更寄件者名稱和電子郵件地址，請連絡[Adobe Learning Manager支援](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)。
+如需更改寄件人姓名及電子郵件地址，請聯絡 [Adobe Learning Manager 客服](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)。
 
 +++
