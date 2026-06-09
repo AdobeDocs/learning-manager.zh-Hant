@@ -4,7 +4,7 @@ jcr-language: en_us
 title: 電子郵件範本
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 0%
@@ -35,7 +35,7 @@ Learning Manager 應用程式會根據事件向多個使用者角色發送電子
 
 作為管理員，你可以輕鬆啟用、停用或修改這些電子郵件範本。
 
-以下提到的電子郵件範本屬於這組範本。
+以下提到的電子郵件範本屬於這組範本：
 
 **進度刷新：** 此範本通知學習者，由於其活躍設定檔或學習路徑設定的變更，其完成狀態及學習路徑進度已被自動重新計算。 它會引導學習者檢視任何新的待辦需求，並採取行動完成學習路徑。
 
