@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: e9020660a0f0839f5ab89c64420eafa499b44fd1
+source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1070'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 2%
       * [內容市集](administrators/feature-summary/content-marketplace.md)
       * [將Go1課程整合到學習路徑](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1 反饋形式](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
-   * 報表建置器 {#reportbuilder}
+   * 報表建置器 {#report-builder}
       * [Adobe Learning Manager 中的報表建置器](administrators/feature-summary/alm-report-builder.md)
       * [報告建構器：概念與術語](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
       * [報表建構器中的可用資料集](administrators/feature-summary/alm-report-builder-datasets.md)
