@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 發布說明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 21f27b33f62f639c0d3e3f6284bacee22b8678e3
+source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
 workflow-type: tm+mt
 source-wordcount: '30595'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 **已取得課程的定期認證可用性：** 過去，已取得課程只能加到永久認證中。 重複認證不會在課程選擇面板顯示已取得課程，這也阻止了接收者帳號使用需要定期續期的課程共享內容。 已取得的課程現已提供永久及定期認證兩種形式。 欲了解更多資訊，請參閱 [接收器應用程式](/help/migrated/administrators/feature-summary/catalogs.md#sharedcatalogfeaturesinreceiverapplication)中的共享目錄功能。
 
-**VILT 課程遷移至 Adobe Learning Manager：** Adobe Learning Manager 現支援透過 CSV 檔案批量遷移與更新虛擬講師主導培訓（VILT）課程資料。 使用此工作流程設定實例開始日期、將學習路徑實例與課程實例關聯，並設定 Microsoft Teams、Adobe Connect 與 Zoom 的虛擬教室課程。 欲了解更多資訊，請參閱 [遷移手冊](/help/migrated/integration-admin/feature-summary/migration-manual.md##migrationofviltsessiontoalm)
+**VILT 課程遷移至 Adobe Learning Manager：** Adobe Learning Manager 現支援透過 CSV 檔案批量遷移與更新虛擬講師主導培訓（VILT）課程資料。 使用此工作流程設定實例開始日期、將學習路徑實例與課程實例關聯，並設定 Microsoft Teams、Adobe Connect 與 Zoom 的虛擬教室課程。 欲了解更多資訊，請參閱 [遷移手冊](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofviltsessiontoalm)
 
 ## 本版本的增強內容
 
