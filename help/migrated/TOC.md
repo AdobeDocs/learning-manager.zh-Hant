@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: e9020660a0f0839f5ab89c64420eafa499b44fd1
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 3%
+source-wordcount: '1169'
+ht-degree: 2%
 
 ---
 
@@ -82,8 +82,26 @@ ht-degree: 3%
       * [內容市集](administrators/feature-summary/content-marketplace.md)
       * [將Go1課程整合到學習路徑](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1 反饋形式](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+   * 報表建置器 {#reportbuilder}
+      * [Adobe Learning Manager 中的報表建置器](administrators/feature-summary/alm-report-builder.md)
+      * [報告建構器：概念與術語](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
+      * [報表建構器中的可用資料集](administrators/feature-summary/alm-report-builder-datasets.md)
+      * [從報告建構器範本開始](administrators/feature-summary/alm-create-report.md)
+      * [自訂重複的報表建工具範本](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
+      * [在報表建構器中建立自訂報告](administrators/feature-summary/alm-report-builder-custom-report.md)
+      * [在報告建工具中套用群組與彙整](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
+      * [在報告中新增與合併篩選器](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
+      * [在報表建工具中排序報表欄位](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
+      * [用報告建構器檢視講師表現](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
+      * [在報告建工具中依使用者群組追蹤互動](administrators/feature-summary/alm-report-builder-track-engagement.md)
+      * [在報告建構器中建立趨勢報告](administrators/feature-summary/alm-report-builder-build-trend-report.md)
+      * [下載、分享並訂閱報告](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
+      * [在報表建工具中複製並重複使用報表](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
+      * [Adobe Learning Manager 中報告建構器的限制](administrators/feature-summary/alm-report-builder-limitations.md)
+      * [常見問題](administrators/feature-summary/alm-report-builder-faq.md)
    * [報表](administrators/feature-summary/reports.md)
    * [團體成功儀表板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+   * [在 Adobe Learning Manager 設定一鍵註冊](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
    * [學習路徑](administrators/feature-summary/learning-paths.md)
    * [替代與等價](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
    * [學習計畫](administrators/feature-summary/learning-plans.md)
@@ -172,7 +190,7 @@ ht-degree: 3%
 * 作者 {#authors}
    * [使用者登入](authors/feature-summary/user-login.md)
    * [內容庫](authors/feature-summary/content-library.md)
-   * [創建、修改及發佈課程](authors/feature-summary/courses.md)
+   * [建立、修改及發布課程](authors/feature-summary/courses.md)
    * [目錄](authors/feature-summary/catalogs.md)
    * [工作輔助工具](authors/feature-summary/job-aids.md)
    * [iPad 與 Android 平板用戶](authors/feature-summary/ipad-android-tablet-users.md)
@@ -190,6 +208,7 @@ ht-degree: 3%
    * [登入](learners/feature-summary/user-login.md)
    * [設定檔設定](learners/feature-summary/settings.md)
    * [目錄](learners/feature-summary/catalogs.md)
+   * [一鍵註冊](learners/feature-summary/learner-one-click-enrollment.md)
    * [我的學習](learners/feature-summary/courses.md)
    * [流體演奏者](learners/feature-summary/fluidic-player.md)
    * [學習計畫](learners/feature-summary/learning-programs.md)
@@ -232,7 +251,7 @@ ht-degree: 3%
    * [在 Adobe Learning Manager 建立試用帳號](/help/migrated/create-trial-account.md)
 * API 變更 {#api-changes}
    * [四月版本中的 API 變更](/help/migrated/api-changes-alm.md)
-   * [五月更新版本中的 API 變更](/help/migrated/api-changes-alm-may.md)
+   * [五月版本中的 API 變更](/help/migrated/api-changes-alm-may.md)
 * 知識庫 {#knowledge-base}
    * [無法登入學習管理員](kb/unable-log-in-learning-manager.md)
    * [學習摘要不會顯示最新資料](kb/learning-summary-not-display-data.md)
