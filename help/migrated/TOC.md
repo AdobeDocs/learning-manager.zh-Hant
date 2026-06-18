@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: a5e02f0ed0a691becbf52e310682360c0ba67a20
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 3%
 
 ---
 
@@ -82,23 +82,6 @@ ht-degree: 2%
       * [內容市集](administrators/feature-summary/content-marketplace.md)
       * [將Go1課程整合到學習路徑](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
    * [L1 反饋形式](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
-   * 報表建置器 {#report-builder}
-      * [Adobe Learning Manager 中的報表建置器](administrators/feature-summary/alm-report-builder.md)
-      * [報告建構器：概念與術語](administrators/feature-summary/alm-report-builder-concepts-terminology.md)
-      * [報表建構器中的可用資料集](administrators/feature-summary/alm-report-builder-datasets.md)
-      * [從報告建構器範本開始](administrators/feature-summary/alm-create-report.md)
-      * [自訂重複的報表建工具範本](administrators/feature-summary/alm-report-builder-customize-duplicated-template.md)
-      * [在報表建構器中建立自訂報告](administrators/feature-summary/alm-report-builder-custom-report.md)
-      * [在報告建工具中套用群組與彙整](administrators/feature-summary/alm-report-builder-group-by-and-aggregations.md)
-      * [在報告中新增與合併篩選器](administrators/feature-summary/alm-report-builder-add-combine-filters.md)
-      * [在報表建工具中排序報表欄位](administrators/feature-summary/alm-report-builder-sort-report-columns.md)
-      * [用報告建構器檢視講師表現](administrators/feature-summary/alm-report-builder-review-instructor-performance.md)
-      * [在報告建工具中依使用者群組追蹤互動](administrators/feature-summary/alm-report-builder-track-engagement.md)
-      * [在報告建構器中建立趨勢報告](administrators/feature-summary/alm-report-builder-build-trend-report.md)
-      * [下載、分享並訂閱報告](administrators/feature-summary/alm-report-builder-download-share-subscribe.md)
-      * [在報表建工具中複製並重複使用報表](administrators/feature-summary/alm-report-builder-duplicate-reuse.md)
-      * [Adobe Learning Manager 中報告建構器的限制](administrators/feature-summary/alm-report-builder-limitations.md)
-      * [常見問題](administrators/feature-summary/alm-report-builder-faq.md)
    * [報表](administrators/feature-summary/reports.md)
    * [團體成功儀表板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [在 Adobe Learning Manager 設定一鍵註冊](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
