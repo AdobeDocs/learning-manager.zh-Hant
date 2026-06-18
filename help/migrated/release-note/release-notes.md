@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 發布說明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '30595'
+source-wordcount: '30485'
 ht-degree: 0%
 
 ---
@@ -30,8 +30,6 @@ ht-degree: 0%
 上映日期：2026年6月17日
 
 ## 這次發布有什麼新意
-
-**報表建置器：** Adobe Learning Manager 中的報表建構器是一款自助報表工具，讓管理員能透過單一介面，僅選擇所需欄位、套用彈性篩選器，並存取一致的資料，建立並下載客製化報表。 它消除了依賴固定、預建報告及外部工具手動後製的需求，讓使用者能輕鬆設定、儲存及重複使用報告。 透過解決欄位結構僵硬、篩選選項受限及資料來源不一致等限制，Report Builder 簡化了報告工作流程，確保洞察準確，節省時間，同時補充現有標準報告以滿足預設使用情境。 欲了解更多資訊，請參閱 [報表建單](/help/migrated/administrators/feature-summary/alm-report-builder.md)器。
 
 **一鍵註冊：** 一鍵註冊讓學習者能立即開啟管理員分享的深層連結，開始存取內容——無需先註冊再另行啟動課程。 這簡化了取得流程，節省時間，並提升整體學習體驗。 欲了解更多資訊，請參閱 [一鍵註冊](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)。
 
