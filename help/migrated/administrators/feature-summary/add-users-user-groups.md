@@ -269,7 +269,7 @@ _複製外部設定檔的註冊網址_
 | 內部使用者 | 外部使用者 |
 |---|---|
 | 可以使用 Adobe ID 或 SSO 憑證登入。 | 可以用任何電子郵件 ID 登入。 |
-| 遊戲化功能也已提供。 | 遊戲化功能也已提供。 管理員必須在 [遊戲化設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中啟用外部學習者的遊戲化功能。 |
+| 遊戲化功能也已提供。 | 遊戲化功能也已提供。 管理員必須在 [遊戲化設定](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/gamification)中啟用外部學習者的遊戲化功能。 |
 
 ### 暫停外部註冊設定檔
 
