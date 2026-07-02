@@ -1,67 +1,67 @@
 ---
 jcr-language: en_us
-title: 適用於Salesforce的Learning Manager應用程式
-description: Salesforce是銷售和行銷團隊中最受歡迎的CRM解決方案之一。 在Salesforce中使用Adobe Learning Manager應用程式時，您可以讓使用者直接從其Salesforce介面存取其所有學習內容。 使用者可以從Salesforce記憶體取其指派的學習內容，例如課程、學習方案、工作輔助等。 使用者也可以從管理員接收有關其註冊和公告的通知。
+title: Salesforce 學習管理應用程式
+description: Salesforce 是銷售與行銷團隊中最受歡迎的 CRM 解決方案之一。 在 Salesforce 上使用 Adobe Learning Manager 應用程式，你可以讓使用者直接從 Salesforce 介面存取所有學習內容。 使用者可以在 Salesforce 內部存取他們分配的學習內容，如課程、學習計畫、工作輔助工具等。 使用者也能收到管理員提供的註冊通知及公告。
 contentowner: jayakarr
 exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
 
-# 適用於Salesforce的Learning Manager應用程式
+# Salesforce 學習管理應用程式
 
 ## 概觀 {#overview}
 
-Salesforce™是銷售和行銷團隊中最受歡迎的CRM解決方案之一。 在Salesforce中使用Adobe Learning Manager應用程式時，您可以讓使用者直接從其Salesforce介面存取其所有學習內容。 使用者可以從Salesforce記憶體取其指派的學習內容，例如課程、學習方案、工作輔助等。 使用者也可以從管理員接收有關其註冊和公告的通知。
+Salesforce™ 是銷售與行銷團隊中最受歡迎的 CRM 解決方案之一。 在 Salesforce 上使用 Adobe Learning Manager 應用程式，你可以讓使用者直接從 Salesforce 介面存取所有學習內容。 使用者可以在 Salesforce 內部存取他們分配的學習內容，如課程、學習計畫、工作輔助工具等。 使用者也能收到管理員提供的註冊通知及公告。
 
-目前Salesforce應用程式無法使用，因為Salesforce應用程式交換正在等候核准。 如果您有興趣預覽測試版應用程式，請聯絡您的客戶經理或Learning Manager支援團隊。
+目前 Salesforce 應用程式尚未開放，因為 Salesforce App Exchange 的審核尚未完成。 如果你有興趣預覽應用程式的測試版，請聯絡你的帳戶經理或學習經理客服團隊。
 
-## 安裝及設定 {#installationandsetup}
+## 安裝與設定 {#installationandsetup}
 
-請依照下列步驟，瞭解如何安裝和設定適用於Salesforce的Learning Manager應用程式。
+請依照以下步驟學習安裝及設定 Salesforce 的學習管理應用程式。
 
 ### 先決條件 {#prerequisites}
 
-1. 貴組織的整合管理員必須核准Salesforce應用程式。 您可在Learning Manager整合管理員角色應用程式的「精選應用程式」區段找到此應用程式。
-1. 存取您組織的Salesforce帳戶，該帳戶必須安裝應用程式。 通常，您組織中的Salesforce管理員是安裝這類應用程式的人。 如果您是Learning Manager整合管理員且沒有Salesforce帳戶，請聯絡貴組織的Salesforce管理員。
+1. 你組織的整合管理員必須批准 Salesforce 應用程式。 此應用程式可在 Learning Manager 應用程式整合管理員角色的精選應用程式區找到。
+1. 存取你組織的 Salesforce 帳號，該應用程式需要安裝在那裡。 通常，您組織中的 Salesforce 管理員是負責安裝這類應用程式的人。 如果您是學習管理整合管理員且沒有 Salesforce 帳號，請聯絡您組織的 Salesforce 管理員。
 
 ### 安裝步驟 {#installationsteps}
 
-1. 請您的帳戶管理員或客戶成功案例經理，提供您的Learning Manager帳戶ID以啟用您的帳戶以供此應用程式使用。 此外，也請向CSM索取Salesforce適用的Learning Manager學習者應用程式的可安裝套件。
+1. 請透過提供學習經理帳號，請求您的帳戶經理或客戶成功經理啟用您的帳戶使用此應用程式。 另外，請申請 Learning Manager Learner 應用程式的可安裝套件 CSM。
 
-1. 以整合管理員身分登入您的Learning Manager帳戶，並確認您的帳戶已啟用Salesforce應用程式。
+1. 以整合管理員身份登入你的學習管理員帳號，並確保你的帳號已啟用 Salesforce 應用程式。
 
-1. 若要在Salesforce帳戶中安裝Learning Manager應用程式，請使用帳戶管理員或客戶成功經理提供的可安裝套件。 您必須擁有您要安裝此應用程式之Salesforce帳戶的管理員許可權。
+1. 要在您的 Salesforce 帳戶中安裝學習管理員應用程式，請使用您的帳戶經理或客戶成功經理提供的可安裝套件。 你需要擁有 Salesforce 帳號的管理員權限，該帳戶是你打算安裝該應用程式的。
 
-1. 選擇快照中所示的適當選項，然後按一下&#x200B;**[!UICONTROL Install]**。
+1. 依快照所示選擇適合您的選項並點擊 **[!UICONTROL Install]**。
 
    ![](assets/install-options.png)
 
-   *選取[僅供管理員安裝]選項*
+   *選擇「僅限管理員安裝」選項*
 
-   如果您選擇為特定設定檔安裝&#x200B;**&#x200B;**，請從清單中選擇一或多個設定檔。
+   如果你選擇 **「安裝特定設定檔**」，請從列表中選擇一個或多個設定檔。
 
-1. 在顯示確認協力廠商存取的快顯視窗上按一下&#x200B;**[!UICONTROL Continue]**。
+1. 點擊 **[!UICONTROL Continue]** 跳出的視窗確認第三方存取權。
 
-   系統會顯示訊息，確認應用程式已成功安裝。 按一下&#x200B;**完成**。
+   螢幕上會跳出確認應用程式已成功安裝的訊息。 點擊 **完成**。
 
-## 新增通知元件至首頁 {#addnotificationcomponenttothehomepage}
+## 在首頁新增通知元件 {#addnotificationcomponenttothehomepage}
 
-Learning Manager團隊建議Salesforce管理員也將Learning Manager通知元件新增到首頁版面配置中。 此元件可讓Salesforce使用者從Learning Manager取得有關工作分派和其他公告的通知，即使這些通知不在學習者應用程式的內容中亦然。
+Learning Manager 團隊建議 Salesforce 管理員也在首頁版面上加入學習管理員通知元件。 此元件讓 Salesforce 使用者即使不在學習者應用程式內，也能收到來自 Learning Manager 的作業及其他公告通知。
 
-若要將Learning Manager通知元件新增至首頁版面配置，請依照下列步驟操作：
+要將學習管理員通知元件加入首頁版面，請依照以下步驟操作：
 
-1. 按一下右上角的&#x200B;**[!UICONTROL Setup]**。 首頁版面配置選項會顯示在左窗格中，如下面的快照所示。
+1. 點擊 **[!UICONTROL Setup]** 右上角。 左側窗格顯示首頁版面配置選項，如下方快照所示。
 
    ![](assets/homepage-component.png)
 
-   *選取首頁版面配置*
+   *選擇首頁版面配置*
 
-1. 選擇您選擇的版面配置並按一下&#x200B;**[!UICONTROL Edit]**。
-1. 選取出現在頁面上的Adobe Learning Manager通知選項，然後按一下&#x200B;**[!UICONTROL Next]**。
-1. 選擇元件在左窗格中的顯示順序、預覽，然後按一下&#x200B;**[!UICONTROL Save]**。
+1. 選擇你喜歡的版面並點擊 **[!UICONTROL Edit]**。
+1. 選擇頁面上出現的 Adobe Learning Manager 通知選項並點擊 **[!UICONTROL Next]**。
+1. 選擇左側窗格出現的元件順序，預覽後點選 **[!UICONTROL Save]**。
 
-若要瞭解如何登入Learning Manager應用程式以及在Salesforce中以學習者身分使用應用程式的指示，請參閱[Salesforce應用程式說明內容](../../learners/feature-summary/sfdc-app.md)。
+想了解如何登入學習管理員應用程式並以學習者身份在 Salesforce 中使用，請參考 [Salesforce 應用程式說明內容](../../learners/feature-summary/sfdc-app.md)。
