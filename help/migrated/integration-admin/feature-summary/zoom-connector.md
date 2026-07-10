@@ -3,9 +3,9 @@ description: 學習如何將 Zoom 連接器與 Adobe Learning Manager 整合
 jcr-language: en_us
 title: Zoom 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: 481eed24a5ac72329228c8d27b625d443bd637ce
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '355'
 ht-degree: 0%
 
 ---
@@ -68,16 +68,18 @@ Adobe Learning Manager 中的 Zoom 連接器可無縫整合 Zoom 進行線上虛
 
 ### 必備OAuth示波器
 
-在 Zoom 建立應用程式時，請確保選取以下範圍：
+在 Zoom 中建立應用程式時，請確保選取以下範圍：
 
-| 範圍說明 | 變焦鏡 |
+```
+| Scope Description | Zoom Scope |
 |---|---|
-| 查看所有用戶會議 | 會議:read:管理員 |
-| 查看並管理所有使用者會議 | 會議:write:管理員 |
-| 查看報告資料 | 檢舉:read:管理員 |
-| 查看所有使用者資訊 | 使用者:read:管理員 |
-| 管理使用者 | 使用者:write:管理員 |
-| 新增會議登記人 | 會議:write:註冊：行政 |
-| 列出所有會議報名者 | 會議:read:list_registrants：admin |
-| 管理子帳戶會議 | 會議:write:：大師 |
-| 查看會議參與者報告 | 舉報:read:list_meeting_participants：admin |
+| View all user meetings | meeting:read:admin |
+| View and manage all user meetings | meeting:write:admin |
+| View report data | report:read:admin |
+| View all user information | user:read:admin |
+| Manage users | user:write:admin |
+| Add a meeting registrant | meeting:write:registrant:admin |
+| List all meeting registrants | meeting:read:list_registrants:admin |
+| Manage sub-account meetings | meeting:write:meeting:master |
+| View meeting participants report | report:read:list_meeting_participants:admin |
+```
