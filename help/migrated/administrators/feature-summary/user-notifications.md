@@ -58,7 +58,7 @@ ht-degree: 0%
 
    *選擇「查看課程」選項*
 
-1. 點擊>**[!UICONTROL Instances]****[!UICONTROL Notification Alerts]**。
+1. 點擊>**[!UICONTROL Instances]**&#x200B;**[!UICONTROL Notification Alerts]**。
 
    ![](assets/notification-alert.png)
 

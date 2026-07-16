@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 啟用學習程式的完整目錄控制 {#catalog}
 
-就像授予學習或模組](shared-catalog-full-control.md)的完整[目錄控制權一樣，你也可以啟用學習程式的完整目錄控制。
+就像授予學習或模組[&#128279;](shared-catalog-full-control.md)的完整目錄控制權一樣，你也可以啟用學習程式的完整目錄控制。
 
 ## 重設航向
 
