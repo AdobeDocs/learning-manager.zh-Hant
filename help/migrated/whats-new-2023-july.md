@@ -1,48 +1,48 @@
 ---
-title: 此版本的新增功能（2023年7月）
-description: 瞭解Adobe Learning Manager中的新功能和增強功能
+title: 這次發布（2023年7月）有什麼新內容
+description: 了解 Adobe Learning Manager 的新功能與改進
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
 source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2089'
 ht-degree: 0%
 
 ---
 
-# 此版本的新增功能（2023年7月）
+# 這次發布（2023年7月）有什麼新內容
 
-## 改善的建議
+## 改良建議
 
-Adobe Learning Manager已推出全新及改版後的課程推薦系統。 此建議功能使用AI演演算法和使用者的興趣（例如產品、角色和等級）來提供個人化內容建議。
+Adobe Learning Manager 推出了全新且全新設計的課程推薦系統。 此推薦功能利用 AI 演算法與用戶興趣（如產品、角色與等級）提供個人化內容推薦。
 
-如需詳細資訊，請參閱[Adobe Learning Manager中的Recommendations](recommendations-adobe-learning-manager.md)。
+欲了解更多資訊，請參閱 [Adobe Learning Manager](recommendations-adobe-learning-manager.md) 中的建議。
 
 ## 多重註冊
 
-在此版本的Adobe Learning Manager中，我們將為學習者推出多重註冊，允許學習者在一個或不同時段註冊多個課程例項。
+在本次 Adobe Learning Manager 版本中，我們引入了多重註冊功能，允許學習者在一個或不同時間段註冊多個課程實例。
 
-如需詳細資訊，請參閱[多重註冊](/help/migrated/authors/feature-summary/courses.md)。
+欲了解更多資訊，請參閱 [多重登記](/help/migrated/authors/feature-summary/courses.md)。
 
-### 行動應用程式或沈浸式的多重註冊
+### 行動應用程式或沉浸式多重註冊
 
-學習者無法從行動應用程式/沈浸式影片中註冊多個例項。 行動應用程式和沈浸式行動網站不支援多重註冊。
+學習者無法從行動應用程式或沉浸式課程中同時註冊多個實例。 行動應用程式和沉浸式行動網頁不支援多重註冊。
 
 >[!NOTE]
 >
->啟用多註冊後，每個課程的「學習者成績單」報表會新增多列（每個例項各一列）。
+>啟用多重選課後，每門課程的學習者成績單報告會新增多列（每個實例一列）。
 >
->若您已將報表自動化設定為每門課程僅預期一列，則您必須對報表自動化進行必要的調整，才能啟用「多重註冊」功能。
+>如果你設定的報表自動化預設每門課只包含一列，必須先對報表自動化做必要的調整，才能啟用多重報名功能。
 
-### 多註冊例項中的徽章格式
+### 多重註冊實例中徽章格式
 
-若要支援多重註冊執行個體中的徽章，徽章格式已變更為`userId_badgeId_COURSE_courseId_courseInstanceId`。
+為了支援多註冊實例中的徽章，徽章格式改為 `userId_badgeId_COURSE_courseId_courseInstanceId`。
 
-### 使用Headless模式的多重註冊中的Launch播放器
+### 使用無頭模式啟動多重註冊的玩家
 
-在此版本中，我們已變更用來與Headless播放器通訊的資料庫。
+在本版本中，我們更改了與無頭玩家通訊的函式庫。
 
-在多重註冊中，您必須傳遞包裝在物件內的引數。
+在多重註冊中，你必須將包裹在物件內的參數傳遞。
 
 ```
 {{startplayer(argument_object) ,
@@ -52,180 +52,180 @@ argument_object=
 }}
 ```
 
-## 棄用Exavault聯結器
+## exavault 連接器的淘汰
 
-此版本的Adobe Learning Manager將包含新的聯結器，該聯結器將使用AWS傳輸系列的SFTP通訊協定。
+這次 Adobe Learning Manager 版本將包含一個新的連接器，該連接器將使用 AWS Transfer 家族的 SFTP 協定。
 
-此變更也會取代ExaVault聯結器，新使用者將無法再使用它。 您可以使用任何開放原始碼FTP使用者端來取代ExaVault。 如需詳細資訊，請參閱[從AdobeFTP管理員轉換](transition-from-ftp-manager.md)。
+此變更也將取代 ExaVault 連接器，後者將不再對新用戶開放。 你可以使用任何開源的 FTP 用戶端來取代 ExaVault。 欲了解更多資訊，請參閱 [從 Adobe FTP Manager](transition-from-ftp-manager.md) 轉換。
 
-## Outlook中教室和虛擬工作階段的提醒
+## Outlook中關於課堂與線上課程的提醒
 
-從Adobe Learning Manager建立的教室和虛擬教室工作階段已新增至學習者的Outlook行事曆，現在可一致支援Outlook的提醒（類似於Outlook中的會議提醒）。
+由 Adobe Learning Manager 建立並新增到 Outlook 行事曆的教室與虛擬教室課程，現在將持續支援 Outlook 的提醒（類似 Outlook 的會議提醒）。
 
-## 增強指派技能給課程
+## 課程技能分配的強化
 
-我們改良了作者的技能指派工作流程。 課程「設定」頁面上的「技能」建議清單現在包含預先輸入搜尋功能。 作者現在可以輸入前幾個字元來搜尋技能，建議會根據輸入顯示在「技能」下拉式清單中。 有了這項增強功能，作者不需要捲動完整清單來尋找及指派課程技能。
+我們對作者的技能分配工作流程做了改進。 課程設定頁面的技能建議清單現在包含了預先打字搜尋的功能。 作者現在可以透過輸入前幾個字元搜尋技能，並根據輸入在技能下拉選單中顯示建議。 有了這項功能，作者不必再翻閱完整清單就能找到並分配課程技能。
 
-## 經理核准的課程工作流程改善
+## 經經理核准的課程工作流程改進
 
-經理核准的課程現在為經理和學習者提供適當的錯誤資訊。
+經理核准的課程現在會為管理者和學習者提供適當的錯誤資訊。
 
 ![錯誤訊息](assets/error-messages.png)
 
-經理現在可以在無法核准課程註冊請求時，檢視包含資訊（例如註冊截止日期已過）的相關錯誤訊息。 學習者會看到錯誤和補救動作。
+當經理無法批准課程註冊申請時，現在可以查看相關的錯誤訊息及資訊（例如報名截止日期已過）。 學習者會被展示錯誤及補救措施。
 
-## 新的學習方案報告
+## 新學習計畫報告
 
-管理員/自訂管理員現在可以匯出帳戶中所有學習計畫的清單和中繼資料，例如狀態、適用的使用者群組、觸發資訊、學習計畫中包含的課程/學習路徑以及提醒資訊。
+管理員/自訂管理員現在可以匯出帳號中所有學習計畫的清單，以及狀態、適用使用者群組、觸發資訊、學習計畫中包含的課程/學習路徑，以及提醒事項等元資料。
 
-## 追蹤即將淘汰之執行個體的報表
+## 報告以追蹤即將退休的實例
 
-「培訓報告」包含額外的一欄，會顯示課程或學習路徑中出現之例項的完成截止日期，方便管理員和作者知道哪些例項將會淘汰及採取必要行動。
+訓練報告中新增一欄，顯示課程或學習路徑中實例的完成截止日期，讓管理員與作者知道哪些實例將被退休，並能採取必要行動。
 
-## 增強功能以從學習者擷取課程評分
+## 提升學習者課程評分的改進
 
-當使用者完成課程中的最後一個模組時，就會顯示擷取課程星級評等的快顯視窗。
+當使用者完成課程的最後一個模組時，會立即彈出一個視窗來記錄該課程的星級評分。
 
-![評等](assets/ratings.png)
+![收視率](assets/ratings.png)
 
 ## 自訂電子郵件範本
 
-Learning Manager中的電子郵件範本現在包含完全可編輯的區段，能根據訊息和品牌偏好設定提供更大的彈性來自訂電子郵件通訊。
+Learning Manager 中的電子郵件範本現在包含完全可編輯的區塊，提供更靈活的電子郵件溝通，依據訊息與品牌偏好來客製化。
 
-如需詳細資訊，請參閱[自訂電子郵件範本](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates)。
+欲了解更多資訊，請參閱 [自訂電子郵件範本](/help/migrated/administrators/feature-summary/email-templates.md#flexibility-in-customizing-the-templates)。
 
-## 排程助理的增強功能
+## 排程助理的改進
 
-微調為教室或虛擬工作階段選取講師的程式。 「排程小幫手」的「講師」欄位已新增「使用者群組」篩選器。 作者現在可以根據「講師技能」和任何其他引數（例如位置、語言、指定等）來篩選講師。
+微調選擇授課老師的流程，無論是在教室還是線上課程中。 在排程助理的講師欄位新增了使用者群組篩選器。 作者現在可以根據「講師技能」及其他參數如地點、語言、職稱等篩選講師。
 
-如需詳細資訊，請參閱排程小幫手[&#128279;](/help/migrated/authors/feature-summary/courses.md#user-group-filter)中的使用者群組篩選器。
+欲了解更多資訊，請參閱 [排程助理](/help/migrated/authors/feature-summary/courses.md#user-group-filter)中的使用者群組篩選器。
 
-## 增強學習物件淘汰工作流程
+## 學習物件退休工作流程的改進
 
-作者現在可以為課程提供&#x200B;**自動淘汰**&#x200B;日期。 這有助於防止目錄隨時間膨脹，以及需要返回並手動淘汰課程。
+作者現在 **可以提供課程的自動退休** 日期。 這有助於防止目錄膨脹，避免必須回頭手動退休課程。
 
-管理員也可以在帳戶層級決定存取「淘汰」的學習物件的性質。
+管理員也可以在帳號層級決定「退休」學習物件的存取性質。
 
-訓練報表包含新欄&#x200B;**自動淘汰日期**，以顯示每個學習物件的淘汰日期（若有設定）。
+訓練報告新增一個欄位「 **自動退休日期**」，用以顯示每個學習對象的退休日期（若設定為）。
 
-## 依作者的目錄標籤值
+## 作者分類的目錄標籤值
 
-作者現在可以在建立或編輯課程時，為目錄標籤新增其值。 管理員可以在帳戶層級啟用此功能。 作者新增目錄標籤值後，就會成為預先輸入搜尋的一部分。
+作者現在可以在建立或編輯課程時，新增目錄標籤的數值。 管理員可以在帳號層級啟用此功能。 作者新增目錄標籤值後，該值會成為預先打字搜尋的一部分。
 
-![選取目錄](assets/select-catalog.png)
+![精選目錄](assets/select-catalog.png)
 
-## 增強管理員、作者和經理角色的課程搜尋功能
+## 管理員、作者及經理角色課程搜尋功能的增強
 
-已針對管理員、作者及管理員角色進行搜尋增強功能。 他們現在可以使用關鍵字搜尋標題。 適用於課程、學習路徑及認證。
+已針對管理員、作者及經理角色進行搜尋功能強化。 他們現在可以用關鍵字搜尋標題。 這適用於課程、學習路徑和證照。
 
-## 移轉失敗通知
+## 遷移失敗通知
 
-如果在移轉期間或使用PowerBI、FTP、Box等資料聯結器時，有任何匯入或匯出作業失敗，整合管理員會透過電子郵件收到通知。
+如果遷移過程中或使用資料連接器（如 PowerBI、FTP、Box）時，任何匯入或匯出操作失敗，整合管理員會透過電子郵件收到通知。
 
-## 透過API進行多重管理員設定
+## 透過 API 進行多管理員設定
 
-新的API已新增至Managed Office API集，以支援多重管理員設定。
+已新增一個 API 加入 Managed Office API 集合，以支援多管理員設定。
 
-## 註冊API的增強功能
+## 註冊 API 的增強
 
-Enrollment API已進行增強功能，以支援和最佳化大規模大量註冊。
+註冊 API 已進行強化，以支援並優化大規模的批量註冊。
 
-## 行動應用程式 — 離線內容檢視
+## 行動應用程式 - 離線內容瀏覽
 
-學習者可以離線模式下載及使用內容。 離線檢視不支援巢狀和彈性的學習路徑。
+學習者可在離線模式下下載並消費內容。 巢狀且彈性的學習路徑不支援離線觀看。
 
-*在這個版本中，僅英文內容支援離線內容檢視。*
+*本版本僅支援英文內容離線瀏覽。*
 
-## 協助工具
+## 交通便利性
 
-已實施多項改善專案來增強協助工具，包括透過熒幕助讀程式最佳化可讀性的增強功能。
+為提升無障礙性，已實施多項改進，包括優化螢幕閱讀器的可讀性。
 
 ## 行動應用程式支援
 
-在下一個主要發行版本中，Adobe Learning Manager行動應用程式將僅支援三個最新的行動作業系統版本。
+隨著下一個重大版本，Adobe Learning Manager 行動應用程式將只支援最新的三個行動作業系統版本。
 
-## linkedIn上的內容
+## LinkedIn 上的內容
 
-linkedIn內容在Safari瀏覽器上的沈浸式應用程式中未如預期載入。 作為因應措施，請執行下列動作：
+LinkedIn 內容在 Safari 瀏覽器的沉浸式應用程式上無法如預期載入。 作為變通方法，可以做以下幾件事：
 
-1. 在裝置上，選取&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Safari]**。
-1. 停用&#x200B;**防止跨網站追蹤**。
-1. 停用&#x200B;**封鎖所有Cookie**。
-1. 登入沈浸式應用程式。
-1. 播放內容。
-1. 允許快顯。
+1. 在裝置上，選擇 **[!UICONTROL Settings]** > **[!UICONTROL Safari]**。
+1. 關閉 **防止跨站點追蹤**。
+1. 停用 **封鎖所有 Cookie**。
+1. 登入沉浸式應用程式。
+1. 玩內容。
+1. 允許彈出視窗。
 
-## 其他增強功能
+## 其他強化
 
-### 在MS Teams中切換執行個體
+### MS Teams 中的切換實例
 
-學習者可切換至不同的課程例項，直到完成並保留課程進度。
+學習者可以切換到不同的課程實例直到完成，並保留課程進度。
 
-### MS Teams中的多重註冊支援
+### MS Teams 的多重註冊支援
 
-學習者可註冊另一個課程執行個體，無論先前任何執行個體的完成狀態為何。 如此一來，學習者便可在相同課程的多個例項中註冊。
+學習者無論之前的實例是否完成，都可以註冊其他課程實例。 這樣做會讓學習者同時註冊同一課程的多個實例。
 
-### 課程附註支援MS Teams中的多重註冊
+### 課程說明支援 MS Teams 多重註冊
 
-課程附註可在課程執行個體層級取得，以支援多重註冊。
+課程筆記以課程實例層級提供，以支援多重選課。
 
-## API變更
+## API 變更
 
-如需API變更的詳細資訊，請參閱[Adobe Learning Manager API參考](https://captivateprime.adobe.com/docs/primeapi/v2/)。
+欲了解更多 API 變更資訊，請參閱 [Adobe Learning Manager API 參考資料](https://captivateprime.adobe.com/docs/primeapi/v2/)。
 
-### 新建議的API支援
+### API 支援新推薦
 
-**GET/account**
+**取得 /account**
 
-如果啟用prlRecommendation，則會傳回。
+如果啟用了 prlRecommendation，則會回傳。
 
-**要求**
+**請求**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/account`
 
-**GET/data？filter.recommendationCriteria=product**
+**取得 /data？filter.recommendationCriteria=product**
 
-傳回產品/主題清單。 結果取決於帳戶設定，該設定會確認學習者是否可看見所有產品，或產品/主題是否可看見目錄。
+退貨清單/主題。 結果取決於帳號設定，確認所有產品是否對學習者可見，或目錄是否對產品/主題可見。
 
-**要求**
+**請求**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=product&filter.showAllRecommenda`
 
 **`GET /data?filter.recommendationCriteria=role`**
 
-傳回建議的角色清單。
+回傳推薦職位列表。
 
-**要求**
+**請求**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=role&filter.showAllRecommendationCriteria=false`
 
 **`GET /data?filter.recommendationCriteria=level`**
 
-傳回建議的角色清單。
+回傳推薦職位列表。
 
-**要求**
+**請求**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
 
-**POST/search/query**
+**發文 /搜尋/查詢**
 
-搜尋也包含查詢中的產品和角色引數。 查詢和內文沒有變更。 我們將新增排序選項
+搜尋時也會在查詢中包含產品與角色參數。 查詢與正文沒有變化。 我們將新增排序選項
 
-**要求**
+**請求**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
 
-**GET/learningObjects**
+**取得 /learningObjects**
 
-如果PRL建議為即時，學習物件模型會傳回作者標籤的建議。
+如果PRL推薦是即時的，學習物件模型會回傳作者標記的推薦。
 
-**要求URL**
+**請求網址**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects?sort=recommendationScore&filter.recommendationProducts=...&filter.recommendationRoles=...&filter.excludeIgnoredRecommendations=true`
 
-POST/learningObjects/query
+發佈 /learningObjects/query
 
-查詢呼叫內文支援下列屬性：
+查詢呼叫內容支援以下屬性：
 
 ```javascript {line-numbers="true"}
 {
@@ -301,25 +301,25 @@ POST/learningObjects/query
 }
 ```
 
-**GET/recommendationProducts**
+**取得 /推薦產品**
 
-依recommendationProduct ID擷取PRL產品。
+依推薦產品編號檢索 PRL 產品。
 
-**要求URL**
+**請求網址**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationProducts`
 
-GET/recommendationRoles
+取得 /推薦角色
 
-依recommendationProduct ID擷取PRL產品。 系統只會傳回（學習物件）的可見角色。
+依推薦產品編號檢索 PRL 產品。 只有可見的（學習物件）角色會被回傳。
 
-**要求URL**
+**請求網址**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/prlRecommendations/roles`
 
 `POST /users/{id}/recommendationPreferences`
 
-建立/重新建立（覆寫） PRL建議偏好設定。 裝載範例：
+建立/重建（覆蓋）PRL 推薦偏好設定。 範例有效載荷：
 
 ```javascript {line-numbers="true"}
 {
@@ -369,25 +369,25 @@ GET/recommendationRoles
 
 **`GET /users/{id}/recommendationPreferences`**
 
-**要求URL**
+**請求網址**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2//users/123/recommendationPreferences`
 
 **`DELETE /users/{id}/recommendationPreferences`**
 
-刪除產品或角色的PRL建議使用者偏好設定。
+刪除 PRL 推薦的使用者偏好設定。
 
-**要求URL**
+**請求網址**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
 
-引數：
+參數：
 
-Ids =要刪除的ID清單
+Ids = 需刪除的 ID 列表
 
-**PATCH/users/{id}/recommendationPreferences**
+**補丁 /users/{id}/recommendation偏好設定**
 
-部分新增/更新。 裝載範例：
+部分新增/更新。 範例有效載荷：
 
 ```javascript {line-numbers="true"}
 {
@@ -420,197 +420,197 @@ Ids =要刪除的ID清單
 }
 ```
 
-**POST/recommendationPreferences/learningObjects/{id}/ignore**
+**發佈 /recommendationPreferences/learningObjects/{id}/忽略**
 
-將記錄檔案新增至封鎖的建議。
+把LO加入被封鎖的推薦名單。
 
-**要求URL**
+**請求網址**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
 **`DELETE /recommendationPreferences/learningObjects/{id}/ignore`**
 
-從封鎖的建議刪除記錄檔。
+刪除被封鎖推薦的對象。
 
-**要求URL**
+**請求網址**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/recommendationPreferences/learningObjects/{id}/ignored`
 
 **`GET /users/{id}/recommendationStrips`**
 
-擷取所有要用來顯示PRL建議的色條
+擷取所有用於顯示 PRL 建議的條帶
 
-### API的多重註冊支援
+### 多重註冊支援 API
 
-**GET/primeapi/v2/account**
+**取得 /primeapi/v2/account**
 
-新增兩個新屬性：
+新增了兩個屬性：
 
-* instanceSwitchEnable
-* multiEnrollmentEnable
+* instanceSwitchEnabled
+* multiEnrollmentEnabled
 
-**GET/users/{userId}/userNotifications**
+**取得 /users/{userId}/userNotifications**
 
-在新中繼資料屬性的通知中新增課程例項ID。
+在新的元資料屬性中加入了課程實例 ID。
 
-**GET/learningObjects**
+**取得 /learningObjects**
 
-註冊關係只會顯示主要註冊，即首次註冊或首次完成。
+註冊關係僅顯示主要註冊，即首次註冊或首次完成。
 
 **`GET /learningObjects/{id}`**
 
-註冊關係只會顯示主要註冊，即首次註冊或首次完成。
+註冊關係僅顯示主要註冊，即首次註冊或首次完成。
 
 **`GET /learningObjects/{loId}/instances/{loInstanceId}`**
 
-新的關係會新增至LO執行個體模型。
+LO 實例模型中新增了一種關係。
 
 **`GET /enrollments/{id}`**
 
-擷取多重註冊課程的註冊。
+檢索多重註冊課程的註冊紀錄。
 
 **`DELETE /enrollments/{id}`**
 
-取消註冊特定學習物件例項。
+從特定的學習物件實例取消註冊。
 
-**POST/enrollments**
+**POST /註冊**
 
-支援不同執行個體的註冊。
+支援不同情況下的登記。
 
-**GET/enrollments**
+**GET /註冊**
 
-取得學習物件的僅主要註冊。
+只取得學習物件的主要註冊資料。
 
 **`GET /learningObjects/{id}/note`**
 
-擷取課程的附註清單。
+取得課程筆記清單。
 
 **`GET /learningObjects/{lo_id}/instances/{loi_id}/note`**
 
-擷取課程和例項的附註清單。
+取得課程及實例的筆記清單。
 
 **`GET /learningObjects/{id}/resources/{loResourceId}/note`**
 
-擷取課程中資源的附註清單。
+取得課程資源的筆記清單。
 
 **`POST /learningObjects/{id}/resources/{loResourceId}/note`**
 
-在模組中為特定課程新增備註。
+在模組中為某門課程新增註解。
 
 **`DELETE /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-針對特定執行個體（loResource ID的一部分），從指定模組刪除特定附註。
+刪除特定模組中針對特定實例（loResource ID 的一部分）的特定筆記。
 
 **`GET /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-擷取課程中特定執行個體（loResourceId的一部分）模組的特定附註。
+在課程模組中取得特定實例（loResourceId的一部分）的特定筆記。
 
 **`PATCH /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-針對特定執行個體（loResource ID的一部分），更新指定模組的特定附註。
+更新特定模組中的特定筆記與特定實例（loResource ID 的一部分）。
 
-**管理API變更**
+**管理員 API 變更**
 
-* GET/users/{id}/註冊
-* POST/users/{id}/enrollings
-* DELETE/users/{id}/enrollments/{enrollmentId}
-* PATCH/users/{id}/enrollments/{enrollmentId}
+* 取得 /users/{id}/enrollments
+* 貼文 /使用者/{id}/註冊
+* 刪除 /users/{id}/enrollments/{enrollmentId}
+* 修補 /users/{id}/enrollments/{enrollmentId}
 
-### 端點的強制欄位
+### 端點的強制場
 
-產品和角色僅在強制執行時載入。
+產品與角色僅在執行時才會載入。
 
 範例請求
 
-* GET`https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
-* GET`https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
+* 去 `https://learningmanagerstage1.adobe.com/primeapi/v2/learningObjects/course%3A7418798?enforcedFields[learningObject]=products`
+* 去 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/11255638/userBadges?include=model&page[offset]=0&page[limit]=10&sort=dateAchieved&enforcedFields[learningObject]=products,roles`
 
-### 搜尋因實作而來的API變更（英文地區設定）
+### 搜尋 API 變更 源根實作（英文本地）
 
-詞幹是指將單詞簡化為根形式的過程。 這可確保在搜尋期間字詞的變體相符。 例如，步行和步行可以內化為相同的根單詞：walk。 內嵌後，搜尋中出現的任一字詞會與另一個字詞相符。
+詞幹化是將一個詞簡化為詞根的過程。 這確保了搜尋過程中詞彙的變體匹配。 例如，walking（walked）和walked（walked）可以源自同一個詞根：walk。 一旦詞幹確定，任一詞的出現在搜尋中就會互相匹配。
 
-在此版本中，我們新增了英文語言環境的詞幹，其中包括以下變體 — en_US、en_AU、en_GB。
+在本版本中，我們新增了英文地點的詞幹處理，包含以下變體——en_US、en_AU、en_GB。
 
-如果搜尋結果中需要字乾屬性，則字乾屬性會提及。 此設定預設為False。
+stemmed 屬性會說明搜尋結果中是否需要 stemming。 預設為 False。
 
-API查詢引數：
+API 查詢參數：
 
 * matchType=phrase_and_match
-* Stemmed=true
+* stemmed=真
 
-### 移除V1端點
+### V1端點的移除
 
-V1 API在此版本中將停止運作。 如需詳細資訊，請參閱[開發人員手冊](/help/migrated/integration-admin/feature-summary/developer-manual.md)。
+V1 API 將在此版本中停止運作。 更多資訊請參閱 [開發者手冊](/help/migrated/integration-admin/feature-summary/developer-manual.md)。
 
-### 課程註冊或取消註冊的通知
+### 課程報名或退選通知
 
-此發行版本引入了對課程例項ID的支援，以及新中繼資料屬性中的通知。
+此版本新增了課程實例 ID 的支援，並以新的元資料屬性提供通知。
 
-### L1意見反應支援
+### L1 反饋支援
 
-讓學習者在多重註冊功能的每個執行個體層級提供意見回饋。
+使學習者能在多重註冊功能的每個實例層級提供回饋。
 
 **API：** `POST /enrollments/{id}/l1Feedback`
 
-### LO強制欄位清單
+### LO 強制執行的場地名單
 
-在這個版本中，您必須將區段、prequisiteConstraints、prerequisiteLOs、subLOs、supplementalResources、supplementalLOs、instances、catalogLabels明確傳送至learningObject。
+在此版本中，您必須明確地將 sections、prequisiteConstraints、prerequisiteLOs、subLOs、supplementaryResources、supplementaryLOs、instances、catalogLabels 明確傳送到 learningObject。
 
 例如，
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 
-### 下一個版本的淘汰通知
+### 下一次版本的棄用通知
 
-* 學習者API的覆寫標幟。
-* 我們將變更highlightResults=false的預設值。 此外，我們也會變更snippetType=courseName的預設值。
-* 我們將棄用搜尋端點中的matchType=bool。
-* autoCompleteMode有[已棄用]標籤，為了提供與autoCompleteMode =false相同的功能，我們新增了一個名為Match的matchType。
+* 覆蓋學習者 API 的標誌。
+* 我們將預設值改為 highlightResults=false。 另外，我們會更改 snippetType=courseName 的預設值。
+* 我們將在搜尋端點中棄用 matchType=bool。
+* autoCompleteMode 有 [Deprecated] 標籤，為了提供 autoCompleteMode =false 的功能，我們新增了一個稱為 Match 的 matchType。
 
-### 多註冊之徽章ID格式
+### 多重註冊的徽章ID格式
 
-為了支援多重註冊的執行個體徽章，我們將課程徽章的格式從`userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId`變更為唯一識別徽章。
+為了支援多註冊實例徽章，我們將課程徽章格式從改 `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` 為唯一識別徽章。
 
 ## 發行說明
 
-如需Learning Manager網頁應用程式和裝置應用程式目前和先前版本的詳細資訊，請參閱[發行說明](/help/migrated/release-note/release-notes.md)。
+有關 Learning Manager 網頁應用程式與裝置應用程式目前及先前版本的資訊，請參閱 [發佈說明](/help/migrated/release-note/release-notes.md)。
 
-## 此版本中的已知問題或限制
+## 本版本已知問題或限制
 
-以下是此版本的限制：
+以下是本版本的限制：
 
-### 在行動應用程式中檢視離線內容
+### 在行動應用程式中查看離線內容
 
-在應用程式中檢視離線內容時，不支援下列專案：
+以下內容在應用程式中觀看離線內容時不被支援：
 
-* Flex課程、學習計畫或認證。
-* 增強課程、學習計畫或認證。
-* 多測驗啟用的課程、學習計畫或認證。
-* Harvard Manage Mentor、Content Marketplace、GetAbstract或LinkedIn課程、學習計畫或認證。
-* 已啟用先決條件的學習計畫和憑證。
-* 已淘汰的課程、學習方案或認證。
-* 截止日期已過期的課程、學習計畫或認證。
-* 外部憑證。
-* 啟用電子商務的課程、學習計畫或認證。
+* 彈性課程、學習計畫或證照。
+* 強化課程、學習計畫或證照。
+* 多重測驗功能——課程、學習計畫或認證。
+* 哈佛管理 Mentor、Content Marketplace、GetAbstract 或 LinkedIn 課程、學習計畫或證照。
+* 學習計畫與證書，並啟用先修科目。
+* 已退休的課程、學習計畫或證照。
+* 課程、學習計畫或證書的截止日期已過。
+* 外部證書。
+* 電子商務支援課程、學習計畫或認證。
 
-下列學習路徑、課程或認證與離線同步處理有一些問題：
+以下的學習路徑、課程或認證在離線同步方面存在一些問題：
 
 * 所有學習路徑。
 * 所有內部憑證。
-* 具有POST呼叫的內容。
+* 對POST通話感到滿意。
 
-### Recommendations
+### 建議
 
-新建議系統中的產品/角色/層級不支援下列專案：
+以下內容在新推薦系統中不支援產品/角色/等級：
 
-* Adobe Experience Manager、團隊、SFDC和未登入。
-* 行動應用程式不支援在Recommendation頁面上編輯產品和角色。
-* 移轉期間無法進行對應。
-* 自動標籤LinkedIn、內容市集和其他外部課程、學習計畫或認證。
-* 上線後回覆為技能型或傳統型。
-* 學習者應用程式上的產品和角色搜尋功能表。
-* 在管理員應用程式上對課程、學習計畫或認證和使用者進行大量對應。
+* Adobe Experience Manager、Teams、SFDC 以及未登入。
+* 該行動應用程式不支援編輯推薦頁面的產品與角色。
+* 遷移期間無法進行映射。
+* 自動標記 LinkedIn、內容市集及其他外部課程、學習計畫或證照。
+* 上線後會回到技能基礎或經典版。
+* 學習者應用程式中產品與職務的搜尋選單。
+* 在管理員應用程式中批量對應課程、學習計畫或證照，以及使用者。
 
 ## 系統需求
 
-[Learning Manager系統需求](/help/migrated/system-requirements.md)
+[學習管理器系統需求](/help/migrated/system-requirements.md)
