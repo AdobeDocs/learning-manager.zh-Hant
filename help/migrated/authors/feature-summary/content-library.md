@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 新增靜態內容 {#addstaticcontent}
 
-1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**[!UICONTROL Content Library]**，然後選擇&#x200B;**[!UICONTROL Add]**。**
+1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**&#x200B;[!UICONTROL Content Library]&#x200B;**，然後選擇&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**。**
 
    或者，你也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面中選擇&#x200B;**[!UICONTROL Create Content]**。
 
@@ -195,7 +195,7 @@ _學習者成績完成_
 
 ## 新增互動內容 {#addinteractivecontent}
 
-1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**[!UICONTROL Content Library]**，然後選擇&#x200B;**[!UICONTROL Add]**。**
+1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**&#x200B;[!UICONTROL Content Library]&#x200B;**，然後選擇&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**。**
 
    或者，你也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面中選擇&#x200B;**[!UICONTROL Create Content]**。
 
@@ -246,7 +246,7 @@ _學習者成績完成_
 
    在播放器上，切換流體播放器的CC按鈕來顯示或隱藏字幕。
 
-   同樣的視圖也存在於&#x200B;**學習器應用程式****及預覽**&#x200B;學習器中。
+   同樣的視圖也存在於&#x200B;**學習器應用程式**&#x200B;**及預覽**&#x200B;學習器中。
 
    當你新增、更新或刪除&#x200B;**VTT 檔案時**，你會收到通知。
    WebVTT 支援不支援以下模式：
@@ -487,7 +487,7 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 移動內容會將其從目前資料夾移除，並放入目標資料夾。
 
 1. 在內容庫&#x200B;**中**，選擇你想移動的每個內容檔案旁的勾選框。
-2. 選擇動作>組織內容&#x200B;**>**&#x200B;將內容移至資料夾&#x200B;**。********「將內容移到資料夾**」面板會打開。
+2. 選擇動作>組織內容&#x200B;**>**&#x200B;將內容移至資料夾&#x200B;**。**&#x200B;**&#x200B;**&#x200B;**「將內容移到資料夾**」面板會打開。
 3. 選擇你想移動內容的目標資料夾。
 4. 選擇 **移動內容**。 內容庫會更新顯示新的資料夾路徑。
 
@@ -700,7 +700,7 @@ Copying a folder means that you'd be adding a tag to the folder. The copy operat
    ![](assets/add-content.PNG)
    _選擇在內容庫中新增內容_
 
-4. 輸入 和&#x200B;**[!UICONTROL Name]****[!UICONTROL Description]**
+4. 輸入 和&#x200B;**[!UICONTROL Name]**&#x200B;**[!UICONTROL Description]**
 
 5. 從選項 **[!UICONTROL Add Content File]** 中選擇內容
 6. 從選項中選擇資料夾， **[!UICONTROL Add to Folder]** 即可將內容加入資料夾。
