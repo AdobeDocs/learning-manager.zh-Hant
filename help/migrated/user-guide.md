@@ -1,22 +1,22 @@
 ---
-title: 歡迎使用Adobe Learning Manager使用手冊
-description: 瞭解Adobe Learning Manager （先前稱為Adobe Captivate Prime）的最新產品。 從頭開始，個別造訪每個區段，或與社群連結，以自己的方式完成專案。
+title: 歡迎來到 Adobe Learning Manager 使用者指南
+description: 學習 Adobe Learning Manager（前稱 Adobe Captivate Prime）的最新服務。 從頭開始，逐區造訪，或與社群連結，逐步完成專案。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: f384503e2e0a7833c737bfdb94bdf2ad9e3d2736
+source-git-commit: 3376f0d23e3c964360b782ce1678b533eee4e65d
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '142'
 ht-degree: 0%
 
 ---
 
-# 歡迎使用Adobe Learning Manager使用手冊
+# 歡迎來到 Adobe Learning Manager 使用者指南
 
-請閱讀以瞭解Adobe Learning Manager （先前稱為Adobe Captivate Prime）的最新產品。 從頭開始，個別造訪每個區段，或與社群連結，以自己的方式完成專案。
+繼續閱讀，了解 Adobe Learning Manager（前身為 Adobe Captivate Prime）的最新功能。 從頭開始，逐區造訪，或與社群連結，逐步完成專案。
 
-## 加入交談 {#jointheconversation}
+## 加入討論 {#jointheconversation}
 
-造訪[Adobe Learning Manager使用者社群](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all)以獲得靈感並取得熱門問題的解答。
+歡迎造訪 [Adobe Learning Manager 使用者社群](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) ，獲得靈感並解答熱門問題。
 
 ## 熱門主題 {#populartopics}
 
@@ -35,23 +35,23 @@ ht-degree: 0%
     <a href="system-requirements.md">
     <img alt="系統需求" src="assets/prime-reqs.jpeg">
     </a>
-    <a href="whats-new.md"><strong>系統需求</strong></a>
+    <a href="system-requirements.md"><strong>系統需求</strong></a>
     </p>
    </td>
    <td>
     <a href="integration-admin/feature-summary/connectors.md">
-    <img alt="聯結器" src="assets/prime-connector.jpeg">
+    <img alt="連接器" src="assets/prime-connector.jpeg">
     </a>
     <div>
-    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager聯結器</strong></a>
+    <a href="integration-admin/feature-summary/connectors.md"><strong>學習管理連結器</strong></a>
     </div>
    </td>
    <td>
     <a href="accessibility-learning-manager.md">
-    <img alt="協助工具" src="assets/prime-accessibility.jpeg">
+    <img alt="交通便利性" src="assets/prime-accessibility.jpeg">
     </a>
     <div>
-    <a href="accessibility-learning-manager.md"><strong>Adobe Learning Manager中的協助工具</strong></a>
+    <a href="accessibility-learning-manager.md"><strong>Adobe Learning Manager 的無障礙功能</strong></a>
     </div>
    </td>
   </tr>

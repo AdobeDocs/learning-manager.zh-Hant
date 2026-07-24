@@ -2,16 +2,23 @@
 title: Adobe Learning Manager 即將推出的新內容
 description: 探索 Adobe Learning Manager 即將推出的變動。 隨時掌握最新消息與未來公告。
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
+
 # Adobe Learning Manager 更新
 
-[2026年4月的版本](/help/migrated/whats-new.md)已經發布。目前沒有其他即將進行的變動。 當有新公告時，本頁將持續更新。
+>[!IMPORTANT]
+>
+>**即將變更**&#x200B;文件即將退休。未來，發行資訊將整合成兩份主要文件： **發行說明** 與 **新消息**。
+>
+>計畫正式&#x200B;**推出**&#x200B;的功能與增強功能會在測試階段的「新內容&#x200B;**」中介紹**，並在正式發布時納入發佈文件中。**「最新**&#x200B;內容」與&#x200B;**「發布說明**」都會包含新文章連結以及現有文件的更新。
+>
+>關於 2026 年 8 月的發行文件，請參閱 [發行說明](/help/migrated/release-note/release-notes.md) 及 [新內容](/help/migrated/whats-new.md)
 
 <!-- 
 >[!IMPORTANT]
