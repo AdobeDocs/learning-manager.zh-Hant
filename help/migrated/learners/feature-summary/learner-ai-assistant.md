@@ -345,7 +345,7 @@ Adobe Learning Manager 的學習助理能回答學習者關於學習物件的問
 
 >[!IMPORTANT]
 >
->作為前提，管理員必須將所需目錄加入學習者助理。 詳情請參閱[「配置 AI 助理存取](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權限」。
+>作為前提，管理員必須將所需目錄加入學習者助理。 詳情請參閱[「配置 AI 助理存取](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權限」。
 
 
 當管理員將 Go1 或 LinkedIn Learning 目錄加入 Adobe Learning Manager 時，目錄內容會經過排程的擷取流程。 擷取完成後，該目錄中的學習物件會開放給學習助理查詢。
