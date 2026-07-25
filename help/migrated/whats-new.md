@@ -3,9 +3,9 @@ description: 在 2026 年 4 月版本的 Adobe Learning Manager 中，了解新�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組�
 * 學習者首頁最多可顯示 10 條個人化學習路徑
 * 完成的路徑可以與同事分享
 
-欲了解更多資訊，請參閱 [學習者](/help/migrated/learners/feature-summary/learning-path-agent.md)專用的 AI 助理。
+欲了解更多資訊，請參閱 [學習路徑代理](/help/migrated/learners/feature-summary/learning-path-agent.md)。
 
 ### Insights 代理
 
