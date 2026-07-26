@@ -3,9 +3,9 @@ description: 在 2026 年 4 月版本的 Adobe Learning Manager 中，了解新�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Gradebook 支援兩種完成模式：
 * 在課程編寫中選擇模組時，瀏覽資料夾的經驗
 
 欲了解更多管理員層級功能的資訊，請參閱 [階層式內容資料夾](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 欲了解更多作者層級功能，請參閱 [階層式內容資料夾](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)。
+
+如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。 了解更多關於遷移的資訊，請參閱 [遷移內容資料夾階層](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
 ## 直播中心
 
@@ -224,11 +226,11 @@ Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager 
 
 ## 發布變更報告
 
-想了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的報告變更。
+想了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的[報告變更。
 
 ## API 版本中的變更
 
-在 2026 年 8 月發布的 Adobe Learning Manager[&#128279;](/help/migrated/api-changes-august-2026.md) 中，了解更多關於 API 變更的資訊。
+在 2026 年 8 月發布的 Adobe Learning Manager](/help/migrated/api-changes-august-2026.md) 中，了解更多關於 [API 變更的資訊。
 
 ## 本版本的其他增強內容
 
@@ -251,7 +253,7 @@ Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager 
 | **警告：大眾觀眾公告** | 當臨時發送公告郵件給超過可設定的收件人數量時，管理員現在會在發送前看到音量警告。 |
 | **電子郵件範本：外部學習者的帳號網址** | 電子郵件通知範本現在可以包含專門為外部學習者設置的帳號網址，並將他們導向正確的登入體驗。 |
 | **AEM 網站** | 現在&#x200B;**在你的個人檔案**>你的興趣領域區塊中，只有一個&#x200B;**編輯**&#x200B;按鈕，可以編輯你對產品、職務和技能的偏好設定。這也是 Native Learning Manager 的一部分。 |
-| **AEM 網站** | 過去只有兩個&#x200B;**編輯**&#x200B;按鈕，但現在編輯&#x200B;**&#x200B;**&#x200B;按鈕是整合後的按鈕，用來修改產品、角色和技能的偏好設定。 |
+| **AEM 網站** | 過去只有兩個&#x200B;**編輯**&#x200B;按鈕，但現在編輯&#x200B;****&#x200B;按鈕是整合後的按鈕，用來修改產品、角色和技能的偏好設定。 |
 | **時區** | 在登入使用者的個人資料設定中，時區欄位下方新增了一個搜尋框。 搜尋框可以直接搜尋時區，而不必捲動整個可用時區清單。 如果你想更改現有時區，請選擇新的時區並選擇儲存。 新時區被保存下來。 儲存按鈕只會在你選擇時區時出現。 |
 
 ## 系統需求
