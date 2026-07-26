@@ -3,9 +3,9 @@ description: 這是給想要將現有 LMS 遷移到 Adobe Learning Manager LMS �
 jcr-language: en_us
 title: 遷移手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '9145'
+source-wordcount: '9038'
 ht-degree: 0%
 
 ---
@@ -872,7 +872,7 @@ curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/prim
 
 ## 遷移問題故障排除 {#troubleshootingmigrationissues}
 
-請參閱本文[&#128279;](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
+請參閱本文[](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
 
 ## 使用者管理技巧 {#usermanagement}
 
@@ -936,7 +936,7 @@ VILT 會話遷移涉及四個 CSV 檔案：
 * **LP 到 Course Instance Association CSV：** 將學習路徑實例映射到特定課程實例
 * **Session CSV：** 建立虛擬教室會議，並附有會議系統細節
 
-請在此[&#128279;](assets/csv-and-xlsx-migration-files.zip)下載上述檔案。
+請在此](assets/csv-and-xlsx-migration-files.zip)下載上述檔案[。
 
 四個 CSV 檔案都接受 `almCourseID` 參考課程和 `almModuleID` 參考模組。 這些 ID 是 ALM 在建立課程或模組時所指派的唯一識別碼。
 
@@ -1154,7 +1154,7 @@ param=1",DND_Moodle_isProducer
 
 在建立 LTI 模組版本時：
 
-* 用欄位的值`LTI`&#x200B;`contentType`。
+* 用欄位的值`LTI``contentType`。
 * 欄位中提供有效的啟動網址 `ltiLaunchUrl` 。
 * 在欄位 `tpName` 中指定外部提供者名稱。
 * 確保該模組透過標準遷移檔案與課程相關聯。
@@ -1170,8 +1170,8 @@ param=1",DND_Moodle_isProducer
 
 遷移自適應課程需要對標準遷移 CSV 套件進行兩項變更：
 
-* **course.csv _更新**&#x200B;_：新增欄位標示課程為適應性
-* **一個新檔案，**&#x200B;_course_ module_user_group.csv_：每個模組到使用者群組規則一列
+* **course.csv _更新**_：新增欄位標示課程為適應性
+* **一個新檔案，**_course_ module_user_group.csv_：每個模組到使用者群組規則一列
 
 兩個檔案必須包含在同一個遷移專案中。
 
@@ -1265,17 +1265,6 @@ Adobe Learning Manager 在套用規則前會驗證 course_module_user_group.csv 
 如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。
 
 此遷移通常作為更大平台遷移的一部分進行，前提是您的使用者、課程、模組及內容檔案已匯入 Adobe Learning Manager。 這個遷移步驟會將該內容重新組織到你原始系統的資料夾結構中。
-
-### 先決條件
-
-在開始內容資料夾遷移前，請確認以下事項：
-
-| 前置條件 | 為什麼重要 |
-| --- | --- |
-| 您的帳號已啟用階層式內容資料夾功能 | 如果此功能未啟用，遷移將失敗。 如果不確定，可以聯絡 Adobe。 |
-| 遷移工具中已建立一個遷移專案 | 所有 CSV 檔案必須在遷移專案下執行以追蹤並重新執行支援。 |
-| 使用者、課程、模組及內容檔案已完成遷移（遷移的第 1 至 4 階段） | 資料夾遷移是第 5 階段——它負責組織必須已存在於 Adobe Learning Manager 的內容。 |
-| 你的管理員帳號有遷移執行權限 | 觸發遷移衝刺是必須的。 |
 
 ### 這次遷移的影響
 
