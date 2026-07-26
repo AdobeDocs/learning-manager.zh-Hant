@@ -3,9 +3,9 @@ description: 在 2026 年 4 月版本的 Adobe Learning Manager 中，了解新�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Gradebook 支援兩種完成模式：
 * 在課程編寫中選擇模組時，瀏覽資料夾的經驗
 
 欲了解更多管理員層級功能的資訊，請參閱 [階層式內容資料夾](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 欲了解更多作者層級功能，請參閱 [階層式內容資料夾](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)。
+
+如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。 了解更多關於遷移的資訊，請參閱 [遷移內容資料夾階層](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
 ## 直播中心
 
