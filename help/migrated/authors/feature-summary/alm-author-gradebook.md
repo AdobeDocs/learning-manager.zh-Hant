@@ -2,7 +2,7 @@
 description: 在 Gradebook 中為學習者設定加權分數，讓課程完成與達成最低分數門檻掛鉤。
 jcr-language: en_us
 title: 作者成績冊
-source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
+source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Gradebook 在建立新課程時會依課程層級設定。 它不能被加入現
 
 * 在課程編輯器中，找到 **「通過標準** 」區塊。
 * 在 **「各模組** 最低總分」欄位中，輸入 0 到 100 之間的百分比。
-* **&#x200B;**&#x200B;0 表示課程僅根據必須完成的模組完成，且無總分門檻。
+* **** 0 表示課程僅根據必須完成的模組完成，且無總分門檻。
 * 任何分數高於0，代表學習者必須完成必修模組，且達到或超過該總分數。
 * 在 **必修模組欄位輸入所需數量** ，或從下拉選單中選擇。
 
