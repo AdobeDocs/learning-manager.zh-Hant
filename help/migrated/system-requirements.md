@@ -1,107 +1,107 @@
 ---
 jcr-language: en_us
 title: 系統需求
-description: Adobe Learning Manager的系統需求
+description: Adobe Learning Manager 的系統需求
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '605'
 ht-degree: 0%
 
 ---
 
-# Adobe Learning Manager的系統需求
+# Adobe Learning Manager 的系統需求
 
-## 案頭
+## 桌面
 
 ### 作業系統
 
-Windows 10和11、macOS X 10.12、10.13、10.14、10.15
+Windows 10 和 11，macOS X 10.12、10.13、10.14、10.15
 
 ### 處理器
 
-Intel® CoreTM i5或更新版本。
+® Intel CoreTM i5 或更高。
 
-### RAM
+### 記憶體
 
-至少需要8 GB。
+至少需要 8 GB。
 
-### 熒幕解析度
+### 螢幕解析度
 
-1366 x 768畫素
+1366 x 768 像素
 
 ### 磁碟空間
 
-最少5 GB的可用硬碟空間。
+至少 5 GB 可用硬碟空間。
 
-### 錄製
+### 錄音
 
-音訊錄製需要麥克風；視訊錄製需要網路攝影機。
+錄音需麥克風;錄影需使用網路攝影機。
 
 ## 行動應用程式
 
 ### 裝置
 
-* iOS：最後兩個主要版本。
-* Android：最後兩個主要版本。
+* iOS：最近兩個主要版本。
+* Android：最近兩個主要版本。
 
 ### 瀏覽器
 
-* Android上的Chrome。
-* iOS上的Safari。
+* Android 版的 Chrome 瀏覽器。
+* iOS 上的 Safari
 
 ### 網路速度
 
 * 1 Mbps
 
-### CPU，記憶體（最少）裝置
+### CPU、記憶體（最小）裝置
 
-* Qualcomm® Snapdragon™ 695 5G或同等產品，6GB記憶體
+* 高通® Snapdragon™ 695 5G或同等機型，6GB記憶體
 
-### 需要QR碼掃描器/磁碟空間
+### 需要 QR 碼掃描器/磁碟空間
 
 * 250 MB
 
 >[!NOTE]
 >
->行動瀏覽器僅支援&#x200B;**沈浸式版面**&#x200B;中的學習者角色。
+>行動瀏覽器僅支援沉浸式版面中的&#x200B;**學習者角色**。
 
 >[!NOTE]
 >
->Learning Manager行動應用程式僅支援學習者角色。
+>Learning Manager 行動應用程式只支援學習者角色。
 
 ## 其他
 
-使用應用程式所需的作用中網際網路連線和Adobe Learning Manager學習者帳戶。
+使用該應用程式需需持續的網路連線及 Adobe Learning Manager 學習者帳號。
 
 ## 瀏覽器規格
 
-IE 11瀏覽器不支援沈浸式版面首頁。
+沉浸式版面首頁不支援 IE 11 瀏覽器。
 
-* Google Chrome 43版和更新版本。
-* 最新版本的Edge、Safari （版本13及更新版本）及Firefox。
-* Internet Explorer 11版及更新版本
+* Google Chrome 版本 43 及以上。
+* 最新版本的 Edge、Safari（版本 13 及以上）和 Firefox。
+* Internet Explorer 版本 11 及以上
 
-## 建議的影像大小 {#recommendedsizeofimages}
+## 建議圖片尺寸 {#recommendedsizeofimages}
 
-* 刊頭：
-   * 對於大型設定：1280 x 360畫素
-   * 對於設定為中等： 1280 x 273畫素
-   * 小型設定：1280 x 187畫素
-* 目錄卡上的影像： 280 x 100畫素
-* 訓練卡的大小：300 x 240畫素
-* 社交橫幅：1600 x 240畫素
+* 報頭：
+  * 設定如同大小：1280 x 360 PX
+  * 中等設定：1280 x 273 PX
+  * 設定極小：1280 x 187 PX
+* 目錄卡上的圖片：280 x 100 px
+* 訓練卡尺寸：300 x 240 px
+* 社交橫幅：1600 x 240 px
 
-## 內容大小上限 {#maximumcontentsize}
+## 最大內容大小 {#maximumcontentsize}
 
-可上傳的檔案大小上限為600 MB。
+最大可上傳的檔案大小為 600 MB。
 
 >[!NOTE]
 >
->如果&#x200B;*user.csv*&#x200B;檔案的大小超過100 MB，匯入此檔案可能會導致瀏覽器發生意外行為。 發生此問題的原因是瀏覽器的記憶體不足。
+>若user.csv *檔案大小*&#x200B;超過 100 MB，匯入此檔案可能導致瀏覽器出現意外行為。問題發生是因為瀏覽器記憶體不足。
 
-我們建議使用自動化的Box/Exavault工作流程匯入大型&#x200B;*user.csv*&#x200B;檔案。 如需詳細資訊，請參閱[移轉檔案](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
+我們建議使用自動化的 Box/Exavault 工作流程匯入大型user.csv **&#x200B;檔案。欲了解更多，請參閱 [遷移檔案](/help/migrated/integration-admin/feature-summary/migration-manual.md)。
 
 
 ## 支援的內容格式
@@ -112,57 +112,57 @@ IE 11瀏覽器不支援沈浸式版面首頁。
  <tbody>
   <tr>
    <td>
-    <p><b>內容型別</b></p></td>
+    <p><b>內容類型</b></p></td>
    <td>
-    <p><b>擴充功能</b></p></td>
+    <p><b>延伸</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>檔案</p></td>
+    <p>文件</p></td>
    <td>
-    <p>"pdf"、"docx"、"doc"、"xls"、"xlsx"</p></td>
+    <p>「PDF」、「docx」、「doc」、「xls」、「xlsx」</p></td>
   </tr>
   <tr>
    <td>
     <p>PowerPoint簡報</p></td>
    <td>
-    <p>"pptx"， "ppt"</p></td>
+    <p>「pptx」、「ppt」</p></td>
   </tr>
   <tr>
    <td>
     <p>影片</p></td>
    <td>
-    <p>"mp4"、"wmv"、"3gp"、"3g2"、"3gp2"、"asf"、"avi"、"f4v"、"h264"、"mpe"、"mpeg"、"mpg"、"mpg2"、"m4v"、"mov"、"wmv"</p></td>
+    <p>「mp4」、「WMV」、「3gp」、「3g2」、「3gp2」、「asf」、「avi」、「f4v」、「h264」、「mpe」、「mpeg」、「mpg」、「mpg2」、「m4v」、「mov」、「wmv」</p></td>
   </tr>
   <tr>
    <td>
     <p>SCORM 1.2</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>「Zip」</p></td>
   </tr>
   <tr>
    <td>
     <p>SCORM 2004</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>「Zip」</p></td>
   </tr>
   <tr>
    <td>
     <p>CAPI</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>「Zip」</p></td>
   </tr>
   <tr>
    <td>
     <p>AICC</p></td>
    <td>
-    <p>"zip"</p></td>
+    <p>「Zip」</p></td>
   </tr>
   <tr>
    <td>
-    <p>音訊</p></td>
+    <p>音效</p></td>
    <td>
-    <p>"mp3"、"wav"、"aac"、"m4a"、"wma"、"vorbis"、"pcm"、"eac3"、"amr"、"ac3"</p></td>
+    <p>「mp3」、「wav」、「aac」、「m4a」、「wma」、「vorbis」、「pcm」、「eac3」、「amr」、「ac3」</p></td>
   </tr>
  </tbody>
 </table>
@@ -173,25 +173,25 @@ IE 11瀏覽器不支援沈浸式版面首頁。
    <td>
     <p><strong>徽章</strong></p></td>
    <td>
-    <p>"png"、"jpg"、"jpeg"、"gif"</p></td>
+    <p>「png」、「jpg」、「jpeg」、「gif」</p></td>
   </tr>
   <tr>
    <td>
-    <p><strong>使用者設定檔圖片</strong></p></td>
+    <p><strong>使用者個人檔案照片</strong></p></td>
    <td>
-    <p>"png"、"jpg"、"jpeg"、"gif"</p></td>
+    <p>「png」、「jpg」、「jpeg」、「gif」</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>公司標誌</strong></p></td>
    <td>
-    <p>"png"、"jpg"、"jpeg"、"bmp"、"gif"</p></td>
+    <p>「png」、「jpg」、「jpeg」、「bmp」、「gif」</p></td>
   </tr>
   <tr>
    <td>
     <p><strong>認證上傳</strong></p></td>
    <td>
-    <p> "png"、"jpg"、"jpeg"、"pdf"、"doc"、"docx"、"gif"</p></td>
+    <p> 「png」、「jpg」、「jpeg」、「pdf」、「doc」、「docx」、「gif」</p></td>
   </tr>
   <tr>
    <td>
@@ -210,67 +210,67 @@ IE 11瀏覽器不支援沈浸式版面首頁。
    <td>
     <p><b>元素</b></p></td>
    <td>
-    <p><b>大小</b></p></td>
+    <p><b>規模</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>學習者成就板徽章</p></td>
+    <p>學習者成就公告板上的徽章</p></td>
    <td>
-    <p>40x40畫素</p></td>
+    <p>40x40 像素</p></td>
   </tr>
   <tr>
    <td>
-    <p>學習者應用程式中的展開徽章</p></td>
+    <p>學習者申請中的擴展徽章</p></td>
    <td>
-    <p>90x90畫素</p></td>
+    <p>90x90 像素</p></td>
   </tr>
   <tr>
    <td>
-    <p>學習者成就的使用者設定檔圖片</p></td>
+    <p>學習者成就上的使用者個人檔案照片</p></td>
    <td>
-    <p>100x100畫素</p></td>
+    <p>100x100 像素</p></td>
   </tr>
   <tr>
    <td>
-    <p>登出下拉式清單上的使用者設定檔圖片</p></td>
+    <p>使用者個人檔案圖片出現在登出下拉選單</p></td>
    <td>
-    <p>42x42畫素</p></td>
+    <p>42x42 像素</p></td>
   </tr>
   <tr>
    <td>
-    <p>頁首的公司標誌</p></td>
+    <p>公司標誌位於頁首</p></td>
    <td>
-    <p>高度和寬度分別為45畫素時，就會據此計算。</p></td>
+    <p>高度為45像素，寬度依此計算。</p></td>
   </tr>
   <tr>
    <td>
-    <p>Learning Manager首頁上的公司標誌</p></td>
+    <p>Learning Manager 首頁的公司標誌</p></td>
    <td>
-    <p>高度為100畫素時，就會據此計算寬度。</p></td>
+    <p>100 像素高，寬度會依此計算。</p></td>
   </tr>
  </tbody>
 </table>
 
-## 協助工具
+## 交通便利性
 
-### 支援的瀏覽器和熒幕助讀程式
+### 支援的瀏覽器與螢幕閱讀器
 
-支援下列組合：
+支援以下組合：
 
-* CHROME + NVDA
-* Edge +朗讀程式
-* Mac Safari + VoiceOver
+* Chrome + NVDA
+* Edge + 旁白
+* Mac Safari + 配音
 
-### 支援沈浸式行動裝置
+### 對沉浸式行動裝置的支援
 
-支援下列專案：
+以下支援：
 
-* Android+回話
+* Android+Talkback
 * iOS+voiceOver
 
 ## 網路需求 {#networkrequirements}
 
-如果您位於任何有限制的網路，請確定下列協力廠商網域已加入白名單。
+如果你使用任何有限制的網路，請確保以下第三方網域被列入白名單。
 
 * &#42;.adobe.com
 * &#42;.boltdns.net
@@ -286,61 +286,61 @@ IE 11瀏覽器不支援沈浸式版面首頁。
 * &#42;.akamaihd.net
 
 
-### 特定延伸案例 {#specificextendedcases}
+### 具體的延伸案例 {#specificextendedcases}
 
 <table>
  <tbody>
   <tr>
-   <th>功能</th>
-   <th>使用的服務</th>
+   <th>特色</th>
+   <th>所用服務</th>
   </tr>
   <tr>
-   <td>FTP聯結器</td>
+   <td>FTP 連接器</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
-   <td>移轉</td>
+   <td>遷徙</td>
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a></td>
   </tr>
   <tr>
-   <td>Lynda Connector</td>
+   <td>琳達·連通</td>
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.lynda.com/" target="_blank">www.lynda.com</a></td>
   </tr>
   <tr>
-   <td>Harvard ManageMentor聯結器</td>
+   <td>哈佛 ManageMentor 連接器</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
   </tr>
   <tr>
-   <td>GetAbstracts聯結器</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com </a></td>
+   <td>GetAbstracts 連接器</td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
   </tr>
   <tr>
-   <td>方塊聯結器</td>
-   <td>位於法蘭克福的方塊區</td>
+   <td>盒接頭</td>
+   <td>位於法蘭克福的箱子區</td>
   </tr>
   <tr>
-   <td>迷你橘色聯結器</td>
+   <td>迷你橘色連接器</td>
    <td>迷你橘色</td>
   </tr>
   <tr>
-   <td>Workday聯結器</td>
-   <td>Workday</td>
+   <td>Workday 連接器</td>
+   <td>工作日</td>
   </tr>
   <tr>
-   <td>Blue Jeans Connector<br></td>
-   <td>藍色牛仔褲</td>
+   <td>藍色牛仔褲連接件<br></td>
+   <td>藍牛仔褲</td>
   </tr>
   <tr>
    <td>Microsoft Power BI</td>
-   <td>僅支援Power BI的商業授權。</td>
+   <td>僅支援 Power BI 的商業授權。</td>
   </tr>
  </tbody>
 </table>
 
-## 技術概覽 {#technicaloverview}
+## 技術概述 {#technicaloverview}
 
-[Learning Manager技術概覽](assets/learning-manager-technicaloverview.pdf)
+[學習經理技術概述](assets/learning-manager-technicaloverview.pdf)
 
-## ALM安全性白皮書
+## ALM 安全白皮書
 
-[ALM白皮書](assets/alm-security-whitepaper-2024.pdf)
+[ALM 白皮書](assets/alm-security-whitepaper-2024.pdf)
