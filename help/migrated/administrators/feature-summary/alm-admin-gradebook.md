@@ -2,9 +2,9 @@
 description: 關於啟用成績冊並讓作者和學習者都能看見的一切
 jcr-language: en_us
 title: 行政用成績簿
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ ht-degree: 0%
 
 **在「設定**」>**一般**&#x200B;中，成績簿可見&#x200B;**&#x200B;**&#x200B;性設定決定作者是否被允許在課程層級向學習者公開成績本。
 
+欲了解更多資訊，請參閱 [成績簿可見性](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility)。
+
 | 設定狀態 | 影響 |
 | --- | --- |
 | 啟用 | 作者可透過 **課程編輯器中的「向學習者** 顯示成績簿」選項，控制各課程成績冊的可見性。 學習者在作者啟用的課程中會看到 **成績簿** 標籤。 |
 | 失能 | 學習者無法在任何課程中看到成績單。 如果關閉，課程設定將無法向學習者顯示成績單。 |
-
 
 這表示帳戶層級與課程層級的設定是協同運作的。 兩者都必須啟用，學習者才能看到成績簿。
 

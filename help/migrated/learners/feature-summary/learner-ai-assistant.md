@@ -3,9 +3,9 @@ description: 透過 Adobe Learning Manager 的 AI 助理，從你的學習內容
 jcr-language: en_us
 title: Adobe Learning Manager 中的學習者 AI 助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,21 +175,25 @@ AI 助理內建提示，幫助你快速開始解答常見問題和情境。 這�
 
 啟用學習者 AI 助理：
 
-&#x200B;1. 以管理員身份登入 Adobe Learning Manager。
+1. 以管理員身份登入 Adobe Learning Manager。
 
-&#x200B;2. 從首頁選擇 **設定** 。
-![管理員主控台左側面板的設定選項](assets/settings-menu.png)
+1. 從首頁選擇 **設定** 。
 
-&#x200B;3. 從設定選單中選擇&#x200B;**學習者 AI 助理（測試版**）。**&#x200B;**
-![管理員主控台在左側窗格顯示學習者 AI 助理選項](assets/learner-assistant-ai-beta.png)
+   ![管理員主控台左側面板的設定選項](assets/settings-menu.png)
 
-&#x200B;4. 選擇切換開關以啟用&#x200B;**學習者 AI 助理（Beta）。**<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
+1. 從設定選單選擇&#x200B;**學習者 AI 助理（測試版**&#x200B;**）。**
 
-&#x200B;5. 從 **「合格目錄」** 選項中選擇一個或多個目錄。
+   ![管理員主控台在左側窗格顯示學習者 AI 助理選項](assets/learner-assistant-ai-beta.png)
 
-&#x200B;6. 選擇 **儲存** 以套用目錄設定。
+1. 選擇切換開關以啟用&#x200B;**學習者 AI 助理（測試版）。**
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. 請從 **「合格目錄」** 選項中選擇一個或多個目錄。
+
+1. 選擇 **儲存** 以套用目錄設定。
 
 >[!IMPORTANT]
 >
@@ -201,18 +205,23 @@ AI 助理內建提示，幫助你快速開始解答常見問題和情境。 這�
 
 1. 以學習者身份登入 Adobe Learning Manager。
 
-2. 在首頁選擇 **「詢問 AI 助理** 」。   ![學習者首頁顯示「詢問 AI 助理以選擇並開啟學習者 AI 助理面板」](assets/ask-ai-assistant.png)
+1. 在首頁選擇 **「詢問 AI 助理** 」。
 
-3. 當學習者 AI 助理&#x200B;**畫面出現時**，選擇&#x200B;**「開始**&#x200B;使用」。   ![選擇「開始」以啟動學習者助理](assets/get-started-learner-assistant.png)
+   ![學習者首頁顯示「詢問 AI 助理以選擇並開啟學習者 AI 助理面板」](assets/ask-ai-assistant.png)
 
->[!NOTE]
->
->首次啟動 AI 助理時，必須先提供同意才能使用。 同意對話框只會在這次初始啟動期間出現。 之後所有的啟動，你都會直接進入 AI 助理輸入提示。
+1. 當學習者 AI 助理&#x200B;**畫面出現時**，選擇&#x200B;**「開始**&#x200B;使用」。
 
-&#x200B;4. 在文字欄位輸入你的提示。
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+   ![選擇「開始」以啟動學習者助理](assets/get-started-learner-assistant.png)
 
-&#x200B;5. 按 **Enter** 鍵接收回覆。 請檢視你的回答、資料來源和建議。
+   >[!NOTE]
+   >
+   >首次啟動 AI 助理時，必須先提供同意才能使用。 同意對話框只會在這次初始啟動期間出現。 之後所有的啟動，你都會直接進入 AI 助理輸入提示。
+
+1. 在文字欄輸入你的提示。
+
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. 按下 **Enter** 鍵即可接收回覆。 請檢視你的回答、資料來源和建議。
 
 你可以：
 
