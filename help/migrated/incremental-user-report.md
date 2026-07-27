@@ -2,9 +2,9 @@
 description: 增量用戶回報工作 API 允許管理員匯出資料變更於指定日期範圍內的使用者。 這消除了完整使用者匯出的需求，並能更有效率地同步新或更新的使用者紀錄。
 jcr-language: en_us
 title: 增量使用者報告（工作 API）
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: aad13507c56f0c2020a97e809edd9fa0b223479f
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1576'
 ht-degree: 0%
 
 ---
@@ -135,7 +135,7 @@ lastSocialActivityDate
 
 ## 增量使用者報告（生成 UserIncrementalReport）
 
-本節記錄了 M46 新增的增量用戶回報功能。 這是本文件的主要主題。
+本節記錄了新引入的功能——增量用戶回報功能。
 
 ## 什麼是增量出口？
 
@@ -323,6 +323,4 @@ Adobe Learning Manager 維護一個最後修改的時間戳，當使用者追蹤
 
 增量使用者報告設計用於 Adobe Learning Manager 連接器（PowerBI、Salesforce 等），作為一般同步管線中完整使用者報告的直接替代。 這使得現今使用 generateUsers 的連接器能夠遷移到增量模型，而無需更改下游資料結構。
 
-&#x200B;* 輸出的 CSV 與完整使用者報告欄位相容。
-&#x200B;* 連接器可以使用增量報告進行差異同步，並回退完整報告以進行自舉或恢復。
-&#x200B;* 支援連接器整合（PowerBI、SFDC）
+連接器可以使用增量報告進行差異同步，並回退完整報告以進行自舉或恢復。
