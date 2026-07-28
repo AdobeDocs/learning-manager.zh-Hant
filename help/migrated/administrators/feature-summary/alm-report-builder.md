@@ -1,11 +1,11 @@
 ---
 jcr-language: en_us
 title: Adobe Learning Manager 中的報表建置器
-description: 報表建構器簡介
+description: 建立、預覽並下載自訂報告，使用你選擇的欄位、篩選器和資料，無需使用任何工具後製。
 contentowner: mmanuel
-source-git-commit: cb488d06aa4996ba4ede49c16def1c82c5eec150
+source-git-commit: a5afd09f5a8ed617383e2aee465cf035c004081d
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,6 @@ ht-degree: 0%
 # Adobe Learning Manager 中的報表建置器
 
 ## 概觀
-
-建立、預覽並下載自訂報告，使用你選擇的欄位、篩選器和資料，無需使用任何工具後製。
 
 Adobe Learning Manager 的報表建器為管理員提供自助式報表畫布，讓他們能精確建立所需的報表。 你不必下載固定報告並在試算表工具中重新整理，而是選擇想要的欄位、套用篩選器，並從一處下載乾淨的輸出。
 
