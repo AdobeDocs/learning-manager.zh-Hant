@@ -2,10 +2,10 @@
 description: ALM 中的 API 變更
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的 API 變更
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
-ht-degree: 1%
+source-wordcount: '3354'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 這些端點僅能與自訂使用者群組合作。 系統管理群組，如 All Users 群組與自動產生的使用者群組，API 回應中為 readOnly： 為真，且無法透過這些端點修改或刪除。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 使用者群組 API 端點
 
@@ -131,9 +131,8 @@ PUT /primeapi/v2/userGroups/{id}
 
 | **參數** | **必修** | **類型** | **描述** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| 名稱 | 不 | 字串 | 新的顯示名稱。 若提供，則不得為空白。 省略，保持不變。 |
+| 名稱 | 是的 | 字串 | 新的顯示名稱。 若提供，則不得為空白。 省略，保持不變。 |
 | 描述 | 不 | 字串 | 新的描述。 傳給無效以清除。 省略，保持不變。 |
-| 資料 | — | null | 必須是無效或缺失。 任何非空值都會回傳 400 錯誤。 |
 
 #### **回應：200 OK**
 
@@ -205,7 +204,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 五個端點皆為學習者範圍。 學習者只能存取自己的提交資料——若學習者嘗試存取其他學習者的資料，API 會回傳錯誤。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部學習 API 端點
 
