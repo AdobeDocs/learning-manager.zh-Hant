@@ -2,9 +2,9 @@
 description: ALM 中的 API 變更
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的 API 變更
-source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3353'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 這些端點僅能與自訂使用者群組合作。 系統管理群組，如 All Users 群組與自動產生的使用者群組，API 回應中為 readOnly： 為真，且無法透過這些端點修改或刪除。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 使用者群組 API 端點
 
@@ -204,7 +204,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 五個端點皆為學習者範圍。 學習者只能存取自己的提交資料——若學習者嘗試存取其他學習者的資料，API 會回傳錯誤。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部學習 API 端點
 
@@ -510,7 +510,9 @@ PUT /primeapi/v2/externalLearnings/{id}
 
 這表示兩個學習者同時查詢相同的根認證 ID，可能會根據各自的註冊歷史獲得不同的結果。
 
-**注意**：在新版本建立及註冊遷移期間，可能會有短暫的視窗，API 可能會回傳即將取代的版本，而非新建立的版本。
+>[!NOTE]
+>
+>在重複出現期間，當新版本建立及註冊遷移期間，可能會有短暫的時段，API 可能會回傳即將被取代的版本，而非新建立的版本。
 
 **範例**
 
