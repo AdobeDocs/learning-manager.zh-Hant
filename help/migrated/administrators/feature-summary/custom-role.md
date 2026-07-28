@@ -4,9 +4,9 @@ title: 自訂角色
 description: 學習路徑功能幫助你定義自訂角色，並指派特定職責給一組使用者。 此功能允許您指派個人現有職務範圍之外的職責。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
 workflow-type: tm+mt
-source-wordcount: '5342'
+source-wordcount: '5372'
 ht-degree: 0%
 
 ---
@@ -305,6 +305,11 @@ _Filter 自訂角色_
 當你將使用者指派到你已建立的角色時，你可以搜尋並新增帳號中的任何使用者。 自訂角色中的使用者相關權限總是適用於完整的使用者群組範圍及完整目錄範圍。 當自訂角色包含使用者管理權限時，使用者群組或目錄範圍不適用。
 
 如果正式管理員縮減你的權限範圍或移除你角色中的權限，你先前建立的角色不會立即受到影響。 這些角色會繼續以現有權限運作，直到完整管理員分別開啟並儲存。
+
+>[!IMPORTANT]
+>
+>**僅限**&#x200B;手動建立的角色：擴充的自訂角色管理功能僅適用於透過 Adobe Learning Manager 管理員介面建立的角色。 不支援透過 CSV 上傳匯入的角色。
+
 
 ## 授予自訂角色進階使用者權限
 

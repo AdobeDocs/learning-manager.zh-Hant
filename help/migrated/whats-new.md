@@ -3,9 +3,9 @@ description: 了解 2026 年 8 月版 Adobe Learning Manager 中的新功能與�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
+source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -202,6 +202,10 @@ Report Builder 為管理員提供一個靈活且自助的報告工具，超越 A
 | **僅讀** | 查看所有自訂角色、匯入日誌及已刪除使用者;下載自訂角色報告 |
 | **完全控制** | 所有唯讀功能，並可建立、編輯、刪除及指派自訂角色;透過 CSV 匯入使用者;清除已刪除的使用者 |
 
+### 限制
+
+**僅限**&#x200B;手動建立的角色：擴充的自訂角色管理功能僅適用於透過 Adobe Learning Manager 管理員介面建立的角色。 不支援透過 CSV 上傳匯入的角色。
+
 了解更多關於自訂角色變更的資訊。 欲了解更多資訊，請參閱 [「進階使用者權限解鎖內容」](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## LTI 深度連結
@@ -246,7 +250,7 @@ Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager 
 | **Webhook 時間戳標準化** | webhook 有效載荷物件中 `data` 的所有日期與時間欄位現在都設定為 `00`秒數，提供與學習者逐字稿報告一致的分鐘級精確度。 |
 | **連接強化** | Azure Data Lake Storage （ADLS） 連接器更新;持續支援重複虛擬教室課程的教室名稱;基於錄影檢視的出席追蹤。 |
 | **球員表現提升** | 流暢的賽道玩家經過優化，以加快載入時間與模組間更順暢的銜接。 |
-| **退役賽道/LP前的撞擊警告** | 管理員現在會看到警告，列出所有有效註冊及依賴的學習路徑，才能在課程或學習路徑退休前列出。 |
+| **退役賽道/LP前的撞擊警告** | 作者/管理員會在課程或學習路徑退休前看到依賴 LO 的警告名單。 通知作者一位選民貸款人已被退休。 管理員如果是LO的作者，但沒有作者角色，則會收到。 |
 | **CR/VC 模組：預期時長** | 作者現在可以設定課堂與虛擬教室模組的預期時長，與排定的場次時間分開。 此數值會出現在報告及面向學習者的課程資訊中。 |
 | **編輯已取得課程前的確認** | 同儕帳號的管理員現在在編輯透過目錄共享取得的課程前會看到確認對話框，防止對共享內容的意外變更。 |
 | **帶有實例 ID 的會話 URL** | Microsoft Teams、Adobe Connect 和 Zoom 課程的啟動網址現在包含實例 ID，確保當多個實例存在時，學習者能被導向正確的會話。 |

@@ -3,9 +3,9 @@ description: 這是給想要將現有 LMS 遷移到 Adobe Learning Manager LMS �
 jcr-language: en_us
 title: 遷移手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9038'
+source-wordcount: '9109'
 ht-degree: 0%
 
 ---
@@ -1174,6 +1174,17 @@ param=1",DND_Moodle_isProducer
 * **一個新檔案，**&#x200B;_course_ module_user_group.csv_：每個模組到使用者群組規則一列
 
 兩個檔案必須包含在同一個遷移專案中。
+
+### 更新後的 CSV 檔案名稱以支援自適應課程遷移
+
+自適應課程與自適應學習路徑遷移的 CSV 檔名現在遵循 Adobe Learning Manager 中其他遷移檔案的全名慣例。 例如，learning_object_section.csv 代替 lo_section.csv。 如果你已有引用先前短格式名稱的遷移腳本或範本，請在下一次遷移前將它們更新為新名稱。
+
+| 舊名稱 | 新名稱 |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### 更新course.csv
 
