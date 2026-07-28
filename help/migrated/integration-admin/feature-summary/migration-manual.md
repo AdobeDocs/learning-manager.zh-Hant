@@ -3,9 +3,9 @@ description: 這是給想要將現有 LMS 遷移到 Adobe Learning Manager LMS �
 jcr-language: en_us
 title: 遷移手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
+source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
 workflow-type: tm+mt
-source-wordcount: '9038'
+source-wordcount: '9109'
 ht-degree: 0%
 
 ---
@@ -872,7 +872,7 @@ curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/prim
 
 ## 遷移問題故障排除 {#troubleshootingmigrationissues}
 
-請參閱本文[&#128279;](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
+請參閱本文[](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
 
 ## 使用者管理技巧 {#usermanagement}
 
@@ -936,7 +936,7 @@ VILT 會話遷移涉及四個 CSV 檔案：
 * **LP 到 Course Instance Association CSV：** 將學習路徑實例映射到特定課程實例
 * **Session CSV：** 建立虛擬教室會議，並附有會議系統細節
 
-請在此[&#128279;](assets/csv-and-xlsx-migration-files.zip)下載上述檔案。
+請在此](assets/csv-and-xlsx-migration-files.zip)下載上述檔案[。
 
 四個 CSV 檔案都接受 `almCourseID` 參考課程和 `almModuleID` 參考模組。 這些 ID 是 ALM 在建立課程或模組時所指派的唯一識別碼。
 
@@ -1154,7 +1154,7 @@ param=1",DND_Moodle_isProducer
 
 在建立 LTI 模組版本時：
 
-* 用欄位的值`LTI`&#x200B;`contentType`。
+* 用欄位的值`LTI``contentType`。
 * 欄位中提供有效的啟動網址 `ltiLaunchUrl` 。
 * 在欄位 `tpName` 中指定外部提供者名稱。
 * 確保該模組透過標準遷移檔案與課程相關聯。
@@ -1170,10 +1170,21 @@ param=1",DND_Moodle_isProducer
 
 遷移自適應課程需要對標準遷移 CSV 套件進行兩項變更：
 
-* **course.csv _更新**&#x200B;_：新增欄位標示課程為適應性
-* **一個新檔案，**&#x200B;_course_ module_user_group.csv_：每個模組到使用者群組規則一列
+* **course.csv _更新**_：新增欄位標示課程為適應性
+* **一個新檔案，**_course_ module_user_group.csv_：每個模組到使用者群組規則一列
 
 兩個檔案必須包含在同一個遷移專案中。
+
+### 更新後的 CSV 檔案名稱以支援自適應課程遷移
+
+自適應課程與自適應學習路徑遷移的 CSV 檔名現在遵循 Adobe Learning Manager 中其他遷移檔案的全名慣例。 例如，learning_object_section.csv 代替 lo_section.csv。 如果你已有引用先前短格式名稱的遷移腳本或範本，請在下一次遷移前將它們更新為新名稱。
+
+| 舊名稱 | 新名稱 |
+| --- | --- |
+| `lo_section.csv` | `learning_object_section.csv` |
+| `lp_section.csv` | `learning_program_section.csv` |
+| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
+| `course_module_ug.csv` | `course_module_user_group.csv` |
 
 ### 更新course.csv
 
