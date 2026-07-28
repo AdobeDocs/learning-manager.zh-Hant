@@ -3,7 +3,7 @@ description: 這是給想要將現有 LMS 遷移到 Adobe Learning Manager LMS �
 jcr-language: en_us
 title: 遷移手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9038'
 ht-degree: 0%
@@ -1162,7 +1162,7 @@ param=1",DND_Moodle_isProducer
 
 遷移系統除了LTI專屬欄位外，還套用標準遷移處理工作流程。
 
-## 遷移自適應課程
+## 遷移自適應課程 {#migrateadaptivecourses}
 
 如果你是從外部系統遷移課程到 Adobe Learning Manager，並希望它們設定為具備模組層級可見性與完成規則的自適應課程，可以依使用者群組設定，可以使用兩個 CSV 檔案來定義課程及其自適應規則。
 
