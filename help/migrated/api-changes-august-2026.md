@@ -2,9 +2,9 @@
 description: ALM 中的 API 變更
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的 API 變更
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 這些端點僅能與自訂使用者群組合作。 系統管理群組，如 All Users 群組與自動產生的使用者群組，API 回應中為 readOnly： 為真，且無法透過這些端點修改或刪除。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 使用者群組 API 端點
 
@@ -204,7 +204,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 五個端點皆為學習者範圍。 學習者只能存取自己的提交資料——若學習者嘗試存取其他學習者的資料，API 會回傳錯誤。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部學習 API 端點
 
@@ -300,8 +300,8 @@ GET /primeapi/v2/externalLearningSettings
 | 標題 | 文本 | 是的 | 訓練名稱。 永遠在場。 管理員無法停用。 |
 | description_notes | 文本 | 不 | 自由文字描述或註解。 |
 | 日期 | 時間戳記 | 不 | 日期範圍。 數值形狀：{ “start_date”： ”<ISO-Z>「，end_date」：<ISO-Z>&quot; }. 任一值皆為零值。 |
-| 配樂 | 人數 | 是的 | 值形狀：{ “achieved_score”： <number>， 「max_score」： <number> }. 兩個值都必須是數字。 |
-| 持續時間 | 文本 | 不 | 自由形式字串，例如「40 hours」。 |
+| 配樂 | 人數 | 是的 | 值形狀：{ “achieved_score”： <number>， 「max_score」： <number> }. 兩個值都必須是數字。  max_score不能是負面的。 |
+| 持續時間 | 目標 | 不 | 例如，{ “timeSpan”： 8， “period”： “HOURS” }。 |
 | 附屬品 | FILE_UPLOAD | 是的 | 完成證明。 **不要** 在欄位[] 內傳遞——請使用頂層的 submissionUrl 屬性。 |
 
 自訂欄位由管理員定義，並回傳於 customFields[]。 他們的識別碼、類型、必須的旗標、標籤和下拉選單會依帳號設定而異。
