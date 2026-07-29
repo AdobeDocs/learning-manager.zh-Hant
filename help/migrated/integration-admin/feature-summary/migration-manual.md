@@ -872,7 +872,7 @@ curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/prim
 
 ## 遷移問題故障排除 {#troubleshootingmigrationissues}
 
-請參閱本文[](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
+請參閱本文[&#128279;](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
 
 ## 使用者管理技巧 {#usermanagement}
 
@@ -936,7 +936,7 @@ VILT 會話遷移涉及四個 CSV 檔案：
 * **LP 到 Course Instance Association CSV：** 將學習路徑實例映射到特定課程實例
 * **Session CSV：** 建立虛擬教室會議，並附有會議系統細節
 
-請在此](assets/csv-and-xlsx-migration-files.zip)下載上述檔案[。
+請在此[&#128279;](assets/csv-and-xlsx-migration-files.zip)下載上述檔案。
 
 四個 CSV 檔案都接受 `almCourseID` 參考課程和 `almModuleID` 參考模組。 這些 ID 是 ALM 在建立課程或模組時所指派的唯一識別碼。
 
@@ -1154,7 +1154,7 @@ param=1",DND_Moodle_isProducer
 
 在建立 LTI 模組版本時：
 
-* 用欄位的值`LTI``contentType`。
+* 用欄位的值`LTI`&#x200B;`contentType`。
 * 欄位中提供有效的啟動網址 `ltiLaunchUrl` 。
 * 在欄位 `tpName` 中指定外部提供者名稱。
 * 確保該模組透過標準遷移檔案與課程相關聯。
