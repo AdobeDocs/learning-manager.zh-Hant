@@ -3,9 +3,9 @@ description: 這是給想要將現有 LMS 遷移到 Adobe Learning Manager LMS �
 jcr-language: en_us
 title: 遷移手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: d87afb28445e260e068c05b392c916fd4ba2ef8a
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '6747'
+source-wordcount: '8309'
 ht-degree: 0%
 
 ---
@@ -872,7 +872,7 @@ curl -X GET --header 'Accept: text/html' 'https://learningmanager.adobe.com/prim
 
 ## 遷移問題故障排除 {#troubleshootingmigrationissues}
 
-請參閱本文[&#128279;](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
+請參閱本文[](../../kb/troubleshooting-migration.md)，了解整合管理員在將資料與內容從現有 LMS 遷移至 Learning Manager 應用程式時所遇到問題的解決方法。
 
 ## 使用者管理技巧 {#usermanagement}
 
@@ -936,7 +936,7 @@ VILT 會話遷移涉及四個 CSV 檔案：
 * **LP 到 Course Instance Association CSV：** 將學習路徑實例映射到特定課程實例
 * **Session CSV：** 建立虛擬教室會議，並附有會議系統細節
 
-請在此[&#128279;](assets/csv-and-xlsx-migration-files.zip)下載上述檔案。
+請在此](assets/csv-and-xlsx-migration-files.zip)下載上述檔案[。
 
 四個 CSV 檔案都接受 `almCourseID` 參考課程和 `almModuleID` 參考模組。 這些 ID 是 ALM 在建立課程或模組時所指派的唯一識別碼。
 
@@ -1154,10 +1154,189 @@ param=1",DND_Moodle_isProducer
 
 在建立 LTI 模組版本時：
 
-* 用欄位的值`LTI`&#x200B;`contentType`。
+* 用欄位的值`LTI``contentType`。
 * 欄位中提供有效的啟動網址 `ltiLaunchUrl` 。
 * 在欄位 `tpName` 中指定外部提供者名稱。
 * 確保該模組透過標準遷移檔案與課程相關聯。
 * 持續遵循所有現有模組版本遷移要求及驗證規則。`module_version.csv`
 
 遷移系統除了LTI專屬欄位外，還套用標準遷移處理工作流程。
+
+## 遷移內容資料夾階層 {#migratecontentfolderhierarchy}
+
+如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。
+
+此遷移通常作為更大平台遷移的一部分進行，前提是您的使用者、課程、模組及內容檔案已匯入 Adobe Learning Manager。 這個遷移步驟會將該內容重新組織到你原始系統的資料夾結構中。
+
+### 這次遷移的影響
+
+內容資料夾遷移可在 Adobe Learning Manager 內容庫中建立最多三層巢狀資料夾，並將現有內容檔案與正確的子資料夾關聯。 你的課程和模組連結到內容檔案不會受到影響。 只有資料夾的組織方式會改變。
+
+遷移以非同步背景工作形式執行。 你上傳 CSV 檔案，遷移流程在背景進行，系統運作時可以監控進度。 若需要修正，遷移可重新執行;已成功處理的列在後續執行時會自動跳過。
+
+### 遷移的兩個階段
+
+內容資料夾遷移有兩個獨立階段。 每個模組都可以分別執行並驗證。
+
+| 階段 | 你提供的東西 | 它的功能 |
+| --- | --- | --- |
+| **第一階段 — 資料夾結構** | `content_folder.csv` | 在 Adobe Learning Manager 中建立你的 Level 1、Level 2 和 Level 3 資料夾階層 |
+| **第二階段 — 內容關聯** | `module_version.csv` （已更新資料夾路徑） | 匯入模組版本時，會將你的內容檔案與正確的資料夾關聯起來 |
+
+第二階段不需要另外的 CSV 檔案——你只需在現有 `module_version.csv` 檔案中新增資料夾路徑欄位。
+
+### 第一階段：建立資料夾階層
+
+#### 先規劃你的資料夾層級
+
+在準備 CSV 前，先將來源系統的資料夾或分類結構對應到 Adobe Learning Manager 的三層級結構。 Adobe Learning Manager 支援最高三個層級（Level 1 → Level 2 → Level 3）。 如果你的來源系統巢狀結構較深，遷移前先將其平整到三層。
+
+>[!NOTE]
+>
+>如果你的來源系統在類別或資料夾名稱中使用斜線（`/`），在準備 CSV 前，請先用連字號`-`（）或底線`_`（）取代。 Adobe Learning Manager 不允許 `/` 在資料夾名稱中加入，因為它是保留給資料夾路徑解析的。
+
+#### content_folder.csv
+
+使用 `content_folder.csv` 來定義目標資料夾階層結構。 檔案中的每一列代表一個資料夾。
+
+**欄位參考：**
+
+| 柱狀 | 必修 | 說明 |
+| --- | --- | --- |
+| `id` | 是的 | 你為這個資料夾指派一個唯一的識別碼。 這是你自己的參考 ID——例如來自你來源系統的類別 ID。 用於連結檔案中的父資料夾與子資料夾，並使遷移能安全重執行。 |
+| `name` | 是的 | 資料夾的顯示名稱。 最多63個字元。 無法包含前斜線（`/`）。 必須是同一父資料夾中唯一的。 |
+| `description` | 不 | 資料夾的可選描述。 最多2,046字元。 |
+| `parentExternalId` | 不 | 父資料夾的`id`留空給第一級（根目錄）資料夾。 對於第 2 層資料夾，請輸入第 1 層父資料夾的 。`id`對於等級 3 資料夾，輸入等級 2 父資料夾的 。`id` |
+| `action` | 是的 | 執行 `CREATE_FOLDER`、 `UPDATE_FOLDER`、 或 `DELETE_FOLDER`的操作 。 |
+
+**範例：**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+在這個例子中：
+
+* `Training` 且 `HR` 為第一層資料夾（無父資料夾）
+* `Sales` 是 Level 2 資料夾 `Training`
+* `Onboarding` 是 Level 3 資料夾 `Sales`
+* `Compliance` 是 Level 2 資料夾 `HR`
+
+**驗證規則：**
+
+* 資料夾不能是自己的祖先——不允許循環引用
+* 最大資料夾深度為三層（第一層→第二層→第三層）
+* 兩個同父資料夾名稱不能相同
+* 必須 `parentExternalId` 參考同一 CSV 檔中的另一列，或是你帳戶中已有的資料夾
+* 父資料夾必須先於其子資料夾列在檔案中
+
+>[!NOTE]
+>
+>你可以在欄位中使用 `existing:` 前綴加上資料夾 ID `parentExternalId` `existing:12345`作為新資料夾的父目錄，例如。
+
+### 第二階段：將內容與資料夾關聯
+
+內容檔案會透過檔案`module_version.csv`中的欄位與資料夾`folder`相關聯。此階段不需要另外的CSV。
+
+#### 更新module_version.csv — 資料夾欄位
+
+`folder`欄位`module_version.csv`現在除了簡單的資料夾名稱外，也支援資料夾路徑。
+
+| 資料夾值 | 解決方式 |
+| --- | --- |
+| `Sales` （無斜線） | 依資料夾名稱解析 — Level 1 資料夾的現有行為 |
+| `Training/Sales/Onboarding` （前斬） | 依路徑解決 — 從第一層向下移動至目標子資料夾 |
+| `"Training/Sales,HR/Compliance"` （逗號分隔，引用） | 將內容檔案與多個資料夾關聯;每條路徑獨立解析 |
+| （空白） | 沒有資料夾關聯——內容仍保留在預設位置 |
+
+**範例：**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>當將內容檔案與多個資料夾關聯時，CSV檔案中必須以逗號分隔的清單以雙引號包圍，因為逗號也用作欄位分隔符。
+
+>[!NOTE]
+>
+>此階段支援將內容檔案加入資料夾。 不支援使用資料夾路徑方法從資料夾中移除內容檔案——遷移後請使用 Adobe Learning Manager 管理介面移除資料夾關聯。
+
+### 遷徙順序
+
+執行完整內容遷移時，請依照以下順序上傳並處理您的檔案：
+
+1. `module.csv` — 定義你的模組
+2. `module_version.csv` （無資料夾路徑）— 上傳模組內容
+3. `course.csv` — 建立你的課程
+4. `course_module.csv` — 連結模組至課程
+5. `content_folder.csv` — 建立資料夾階層（第一階段）
+6. `module_version.csv` （與資料夾路徑）— 將內容與資料夾關聯（第二階段）
+
+>[!NOTE]
+>
+>`content_folder.csv` 必須在包含資料夾路徑的模組版本檔之前處理，因為資料夾結構必須先存在，才能將內容與之關聯。
+
+### 驗證與錯誤參考
+
+Adobe Learning Manager 在處理前會驗證每一列。`content_folder.csv`驗證失敗的列會被跳過並報告為錯誤。 同一檔案中的有效資料列仍會繼續被處理。
+
+| 劇本 | 發生了什麼事 | 解決方法 |
+| --- | --- | --- |
+| 資料夾名稱超過 63 個字元 | 排決被駁回 | 在重新上傳前，請先縮短 CSV 中的名稱 |
+| 描述超過 2,046 字元 | 排決被駁回 | 請在 CSV 中縮短描述 |
+| 資料夾名稱包含斜線（`/`） | 排決被駁回 | 請用`-`或`_`在資料夾名稱中替換`/` |
+| 兩個同父資料夾名稱相同 | 排決被駁回 | 重新命名其中一個重複資料夾 |
+| `parentExternalId` 提及檔案或帳戶中找不到的ID。 | 排決被駁回 | 確認父資料夾 ID 正確，且父資料夾列已成功處理 |
+| 資料夾深度超過三層 | 排決被駁回 | 遷移前將階層調整至最多 3 層 |
+| 偵測到循環參考（資料夾 A 是資料夾 B 的祖先，B 被列為 A 的父目錄） | 整個 CSV 都被拒絕了 | 檢視鏈條 `parentExternalId` 並移除循環參考 |
+| `action` 不是 `CREATE_FOLDER`， `UPDATE_FOLDER`或 `DELETE_FOLDER` | 排決被駁回 | 修正 `action` 這個數值——只有這三個數值被接受 |
+| `DELETE_FOLDER` 對於仍包含內容檔案的資料夾 | 排決被駁回 | 刪除前先將內容檔案移到其他資料夾，或在管理介面中手動移除刪除列和處理 |
+| `UPDATE_FOLDER` 對於 `id` 帳號中不存在的 | 排決被駁回 | 確認該資料夾在先前執行時已成功建立;用於 `CREATE_FOLDER` 新增資料夾 |
+| `CREATE_FOLDER` 對於 `id` 已經成功遷移的 | 跳過排 | 無需操作——這是重新執行遷移時預期的行為 |
+| 資料夾 `module_version.csv` 路徑在 Access（資料夾路徑）中引用的是一個不存在的資料夾 | 模組列被拒絕 | 先執行資料夾結構的衝刺，或確認資料夾名稱和路徑拼寫正確 |
+| 資料夾路徑中的雙斜線（例如， `Training//Sales`） | 模組列被拒絕 | 移除路徑上的多餘斬擊 |
+
+### 向下相容性
+
+如果你已經在使用 `content_folder.csv` 或 `module_version.csv` 在遷移工作流程中，現有檔案仍能正常運作，且不會做任何更改。
+
+| 劇本 | 行為 |
+| --- | --- |
+| 沒有`parentExternalId`柱子的存在`content_folder.csv` | 運作方式相同——資料夾會建立為第一層資料夾，與之前相同 |
+| 存在 `module_version.csv` 於簡單的資料夾名稱（無 `/`） | 運作方式相同——資料夾名稱透過名稱查詢解決，與之前相同 |
+| 新增 `module_version.csv` 資料夾路徑包含 `/` | 基於路徑的解析會由 `/` |
+| 簡單名稱與路徑的混合 `module_version.csv` | 每一列獨立解析——兩種格式在同一個檔案中運作 |
+| 重複運行同樣的路線 `content_folder.csv` | 安全 — 已成功處理的列會自動跳過 |
+
+### 最佳實務
+
+**準備content_folder.csv**
+
+* 使用你來源系統自己的類別或資料夾 ID 作為值 `id` 。 這些資料會永久儲存以便重播追蹤，且應保持穩定。
+* 資料夾名稱保持在 63 字元以下。 上傳前請在 CSV 中截斷。 遷移會拒絕超過限制的名稱。
+* 確保同一父資料夾下沒有兩個資料夾名稱相同。 不同父資料夾可以共用名稱。
+* 雖然檔案中列的順序不會影響結果——遷移會自動排序列——但將父資料夾列於子資料夾之前，使檔案更容易被檢視。
+
+**用資料夾路徑準備module_version.csv**
+
+* 資料夾路徑匹配不區分大小寫，但資料夾名稱必須完全符合第一階段所建立的內容。
+* 先執行第一階段（資料夾結構），再執行第二階段（內容關聯）。 路徑解析會檢查已存在的資料夾——如果資料夾尚未建立，該模組列將失敗。
+* 避免路徑上的雙斜線—— `Training//Sales` 因為路徑段空了，會失敗。
+* 前導和後尾的斜線會自動修剪—— `Training/Sales/` `/Training/Sales` 兩者都能正確解決，但為了清晰度請避免使用。
+
+**執行遷移**
+
+* 先用小批量測試——先上傳 10 到 20 列以驗證 CSV 格式，再擴展到完整資料集。
+* 在開始模組版本衝刺前，先完成資料夾結構的衝刺。 並聯運行可能會導致路徑解析失敗。
+* 兩個衝刺完成後，請在 Adobe Learning Manager 管理介面中確認資料夾樹顯示正確的階層結構，且內容檔案是否出現在預期的資料夾中。
