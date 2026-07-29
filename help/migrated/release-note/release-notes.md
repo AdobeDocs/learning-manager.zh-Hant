@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 發布說明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '33072'
+source-wordcount: '33035'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 ## 發行亮點
 
-2026 年 8 月的 Adobe Learning Manager 發布，在個人化學習、人工智慧、報告與整合方面帶來重大進展。 自適應課程引入由使用者團體驅動的模組可見性與完成規則，允許單一課程根據學習者的角色、地區或特性呈現不同內容，免除維持不同課程版本的需求。
+2026 年 8 月的 Adobe Learning Manager 發布，在個人化學習、人工智慧、報告與整合方面帶來重大進展。
 
 功能齊全的成績冊為課程新增加權分數及總計通過/不及格計算，為組織提供超越簡單完成追蹤的精準且可配置學習者表現衡量。
 

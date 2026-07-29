@@ -3,9 +3,9 @@ description: 這是給想要將現有 LMS 遷移到 Adobe Learning Manager LMS �
 jcr-language: en_us
 title: 遷移手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '9109'
+source-wordcount: '8309'
 ht-degree: 0%
 
 ---
@@ -1162,115 +1162,6 @@ param=1",DND_Moodle_isProducer
 
 遷移系統除了LTI專屬欄位外，還套用標準遷移處理工作流程。
 
-## 遷移自適應課程 {#migrateadaptivecourses}
-
-如果你是從外部系統遷移課程到 Adobe Learning Manager，並希望它們設定為具備模組層級可見性與完成規則的自適應課程，可以依使用者群組設定，可以使用兩個 CSV 檔案來定義課程及其自適應規則。
-
-### 遷移所需的條件
-
-遷移自適應課程需要對標準遷移 CSV 套件進行兩項變更：
-
-* **course.csv _更新**&#x200B;_：新增欄位標示課程為適應性
-* **一個新檔案，**&#x200B;_course_ module_user_group.csv_：每個模組到使用者群組規則一列
-
-兩個檔案必須包含在同一個遷移專案中。
-
-### 更新後的 CSV 檔案名稱以支援自適應課程遷移
-
-自適應課程與自適應學習路徑遷移的 CSV 檔名現在遵循 Adobe Learning Manager 中其他遷移檔案的全名慣例。 例如，learning_object_section.csv 代替 lo_section.csv。 如果你已有引用先前短格式名稱的遷移腳本或範本，請在下一次遷移前將它們更新為新名稱。
-
-| 舊名稱 | 新名稱 |
-| --- | --- |
-| `lo_section.csv` | `learning_object_section.csv` |
-| `lp_section.csv` | `learning_program_section.csv` |
-| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
-| `course_module_ug.csv` | `course_module_user_group.csv` |
-
-### 更新course.csv
-
-將 isAdaptive 欄位加入你的 course.csv 檔案。
-
-| **柱狀** | **價值觀** | **描述** |
-| --- | --- | --- |
-| isAdaptive | 真或空白 | 設定為 Adaptive Courses 的 true。 一般課程請留空或設為假。 |
-
-其他course.csv欄則保持不變。
-
-**範例欄位順序：**
-
-* 身分證
-* 賽道名稱
-* 描述
-* 課程創建日期
-* 州
-* 序列式
-* 作家
-* 縮圖網址
-* 標籤
-* isAdaptive
-
->[!NOTE]
->
->isAdaptive 欄位對一般課程是選填的。 若未填寫或留空，該課程將視為普通課程。
-
-### 加入course_module_user_group.csv
-
-這是一個新的 CSV 檔案，定義了每個自適應課程中每個模組的自適應可見性與完成規則。 每一列將一個模組對應到一個帶有規則類型的使用者群組。
-
-| **柱狀** | **描述** |
-| --- | --- |
-| courseId（課程編號） | 課程的來源識別碼（必須與course.csv的 ID 相符） |
-| moduleID | 模組的來源識別碼（必須與你模組檔案中的模組識別碼相符） |
-| 用戶群組ID | 此規則適用於使用者群組的 Adobe Learning Manager ID |
-| 類型 | 強制 — 使用者團體必須完成此模組才能完成課程。 可選 — 使用者團體可以查看並存取此模組，但不必完成。 |
-| 運作 | ADD-建立或更新此規則。 刪除——移除此規則。 |
-
-**範例欄位順序：**
-
-* courseId（課程編號）
-* moduleID
-* 用戶群組ID
-* 類型
-* 運作
-
-### 檔案規則
-
-* 自適應課程中的每個內容模組必須至少有一列資料。 沒有規則的模組對任何學習者來說都是看不到的。
-* 預習模組和測驗模組不需要規則。 這些資料會自動套用給所有已註冊的學習者，不應出現在本檔案中。
-* 你可以為同一模組設置多列。 每個使用者群組一個。
-* 如果你為系統中已有的規則提交 ADD 列，則會更新現有規則，而非建立重複規則。
-
-### 上傳順序
-
-您的遷移專案中的檔案必須依照以下順序上傳與處理。 後續檔案依賴先前檔案產生的資料，若未依序執行，檔案將失敗。
-
-* **module.csv**：定義模組
-* **module_version.csv**：定義模組版本
-* **course.csv**：（isAdaptive=適用於自適應課程）- 建立課程
-* **course_module.csv**：連結模組與課程
-* **course_module_user_group.csv**：套用自適應可見性與完成規則
-
-在此下載遷移檔案： [適應性課程遷移檔案](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
-
->[!IMPORTANT]
->
->**course_module_user_group.csv** 必須最後上傳。 本檔案中的規則同時提及一門課程和模組，必須先連結到步驟4，規則才能適用。
-
-### 驗證與錯誤參考
-
-Adobe Learning Manager 在套用規則前會驗證 course_module_user_group.csv 中的每一列。 任何未通過驗證的列都會被拒絕並出現錯誤訊息。 剩餘的有效資料列仍在處理中。
-
-| **劇本** | **發生了什麼事** | **錯誤訊息** |
-| --- | --- | --- |
-| 規則適用於未標示為適應性課程的課程 | 排決被駁回 | 課程必須具備適應性，以設定內容可見性規則。 課程編號： {courseId} |
-| 課程標示為自適應，但其內容模組未提供任何規則 | 課程被拒絕 | 自適應課程必須為每個內容模組至少有一條可見性規則。 課程編號： {courseId} 無模組規則： {moduleIds} |
-| 該模組與課程無連結 | 排決被駁回 | 模組 {moduleId} 與課程 {courseId}無連結。 先透過course_module.csv把模組加到課程裡。 |
-| 這個模組是預備作業或考試模組（不是內容模組） | 排決被駁回 | 可見性規則僅適用於內容類型的模組。 模組 {moduleId} 的型別 {actualType}為 。 |
-| 該使用者群組不存在或處於不活躍狀態 | 排決被駁回 | 找不到使用者群組 {userGroupId} 或不活躍。 |
-| 型別值並非強制性或可選性 | 排決被駁回 | 無效類型 &#39;{type}&#39;。 必須是強制性或可選性的。 |
-| 操作值不是 ADD 或 DELETE | 排決被駁回 | 無效操作」。{operation}必須是 ADD 或 DELETE。 |
-| 為已存在的規則提交了注意力缺陷症 | 規則靜默更新 | 沒有錯誤——現有規則會以新的型別值更新。 |
-
 ## 遷移內容資料夾階層 {#migratecontentfolderhierarchy}
 
 如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。
@@ -1303,7 +1194,6 @@ Adobe Learning Manager 在套用規則前會驗證 course_module_user_group.csv 
 >[!NOTE]
 >
 >如果你的來源系統在類別或資料夾名稱中使用斜線（`/`），在準備 CSV 前，請先用連字號`-`（）或底線`_`（）取代。 Adobe Learning Manager 不允許 `/` 在資料夾名稱中加入，因為它是保留給資料夾路徑解析的。
-
 
 #### content_folder.csv
 
@@ -1348,7 +1238,6 @@ folder_005,Compliance,,folder_004,CREATE_FOLDER
 >[!NOTE]
 >
 >你可以在欄位中使用 `existing:` 前綴加上資料夾 ID `parentExternalId` `existing:12345`作為新資料夾的父目錄，例如。
-
 
 ### 第二階段：將內容與資料夾關聯
 
@@ -1398,7 +1287,6 @@ MOD004,1,content,...,Marketing
 >
 >`content_folder.csv` 必須在包含資料夾路徑的模組版本檔之前處理，因為資料夾結構必須先存在，才能將內容與之關聯。
 
-
 ### 驗證與錯誤參考
 
 Adobe Learning Manager 在處理前會驗證每一列。`content_folder.csv`驗證失敗的列會被跳過並報告為錯誤。 同一檔案中的有效資料列仍會繼續被處理。
@@ -1418,7 +1306,6 @@ Adobe Learning Manager 在處理前會驗證每一列。`content_folder.csv`驗�
 | `CREATE_FOLDER` 對於 `id` 已經成功遷移的 | 跳過排 | 無需操作——這是重新執行遷移時預期的行為 |
 | 資料夾 `module_version.csv` 路徑在 Access（資料夾路徑）中引用的是一個不存在的資料夾 | 模組列被拒絕 | 先執行資料夾結構的衝刺，或確認資料夾名稱和路徑拼寫正確 |
 | 資料夾路徑中的雙斜線（例如， `Training//Sales`） | 模組列被拒絕 | 移除路徑上的多餘斬擊 |
-
 
 ### 向下相容性
 
