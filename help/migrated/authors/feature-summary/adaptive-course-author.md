@@ -3,7 +3,8 @@ description: 作為作者，學習如何為學習者設計適應性課程。
 jcr-language: en_us
 title: 作者適應性課程
 contentowner: mmanuel
-source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
+hide: true
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 0%

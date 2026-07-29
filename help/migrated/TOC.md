@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 2%
@@ -113,7 +113,7 @@ ht-degree: 2%
   * [認證](administrators/feature-summary/certifications.md)
   * [建立並自訂憑證](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [目錄](administrators/feature-summary/catalogs.md)
-  * [適應性課程](administrators/feature-summary/adaptive-course-admin.md)
+  * {hide-from-toc}[適應性課程](administrators/feature-summary/adaptive-course-admin.md)
   * [扮演學習者與管理者](administrators/feature-summary/impersonation-learner-manager.md)
   * [多重單點登入](administrators/feature-summary/multiple-sso-logins.md)
   * [透過 SAML 建立介面語言](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
@@ -199,7 +199,7 @@ ht-degree: 2%
   * [內容庫](authors/feature-summary/content-library.md)
   * [建立、修改及發布課程](authors/feature-summary/courses.md)
   * [目錄](authors/feature-summary/catalogs.md)
-  * [適應性課程](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[適應性課程](authors/feature-summary/adaptive-course-author.md)
   * [工作輔助工具](authors/feature-summary/job-aids.md)
   * [成績簿](authors/feature-summary/alm-author-gradebook.md)
   * [iPad 與 Android 平板用戶](authors/feature-summary/ipad-android-tablet-users.md)
@@ -219,7 +219,7 @@ ht-degree: 2%
   * [目錄](learners/feature-summary/catalogs.md)
   * [一鍵註冊](learners/feature-summary/learner-one-click-enrollment.md)
   * [我的學習](learners/feature-summary/courses.md)
-  * [適應性課程](learners/feature-summary/adaptive-course-learner.md)
+  * {hide-from-toc}[適應性課程](learners/feature-summary/adaptive-course-learner.md)
   * [流體演奏者](learners/feature-summary/fluidic-player.md)
   * [學習計畫](learners/feature-summary/learning-programs.md)
   * [認證](learners/feature-summary/certifications.md)

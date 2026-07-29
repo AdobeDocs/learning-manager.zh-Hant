@@ -3,9 +3,9 @@ description: 了解 2026 年 8 月版 Adobe Learning Manager 中的新功能與�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >本文所述的功能已包含在測試版中。 Adobe Learning Manager 測試版功能僅供評估用途，且可在正式發行前進行修改、限制或移除。 功能名稱、行為及設定選項可能會隨時更改，恕不另行通知。
-
-
-## 適應性課程
-
-自適應課程讓你能根據學習者所屬的使用者群組，控制每個學習者看到哪些模組及哪些模組是必需的，來提供個人化訓練。 單一課程會自動動態地將正確的內容呈現給正確的人。
-
-作者會為使用者群組規則設定每個模組 **為可選** 與 **強制** 。 不同使用者群的學習者可以完成完全不同的模組組合，但仍能完成相同的課程。 課堂與虛擬課堂課程的名額限制現已在模組層級強制執行，因此學習者可在特定課程的候補名單中註冊課程。 欲了解更多資訊，請參閱 [《適應性課程-作者》。](/help/migrated/authors/feature-summary/adaptive-course-author.md)
-
-主要能力：
-
-* 各使用者群組的模組層級可見性與完成規則
-* OR 合併邏輯：如果任何一組將模組定為必修，該模組對該學習者來說就是必修的
-* 課堂與虛擬課堂課程的模組層級候補名單
-* 當學習者的個人資料變更時，會觸發刷新完成
-* 在學習路徑與認證上獲得支持，並附有定期認證的書面限制
-
-了解更多關於適應性課程的資訊。
 
 ## 成績簿
 
@@ -106,7 +89,6 @@ Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組�
 >[!NOTE]
 >
 >Live Hub 目前處於測試階段，將於即將於八月推出的 Adobe Learning Manager 版本中推出。 Live Hub 的文件將在功能發布後提供。
-
 
 ## 元件式電子郵件範本建構器
 
@@ -230,11 +212,11 @@ Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager 
 
 ## 發布變更報告
 
-想了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的報告變更。
+想了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的[報告變更。
 
 ## API 版本中的變更
 
-在 2026 年 8 月發布的 Adobe Learning Manager[&#128279;](/help/migrated/api-changes-august-2026.md) 中，了解更多關於 API 變更的資訊。
+在 2026 年 8 月發布的 Adobe Learning Manager](/help/migrated/api-changes-august-2026.md) 中，了解更多關於 [API 變更的資訊。
 
 ## 本版本的其他增強內容
 
@@ -257,7 +239,7 @@ Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager 
 | **警告：大眾觀眾公告** | 當臨時發送公告郵件給超過可設定的收件人數量時，管理員現在會在發送前看到音量警告。 |
 | **電子郵件範本：外部學習者的帳號網址** | 電子郵件通知範本現在可以包含專門為外部學習者設置的帳號網址，並將他們導向正確的登入體驗。 |
 | **AEM 網站** | 現在&#x200B;**在你的個人檔案**>你的興趣領域區塊中，只有一個&#x200B;**編輯**&#x200B;按鈕，可以編輯你對產品、職務和技能的偏好設定。這也是 Native Learning Manager 的一部分。 |
-| **AEM 網站** | 過去只有兩個&#x200B;**編輯**&#x200B;按鈕，但現在編輯&#x200B;**&#x200B;**&#x200B;按鈕是整合後的按鈕，用來修改產品、角色和技能的偏好設定。 |
+| **AEM 網站** | 過去只有兩個&#x200B;**編輯**&#x200B;按鈕，但現在編輯&#x200B;****&#x200B;按鈕是整合後的按鈕，用來修改產品、角色和技能的偏好設定。 |
 | **時區** | 在登入使用者的個人資料設定中，時區欄位下方新增了一個搜尋框。 搜尋框可以直接搜尋時區，而不必捲動整個可用時區清單。 如果你想更改現有時區，請選擇新的時區並選擇儲存。 新時區被保存下來。 儲存按鈕只會在你選擇時區時出現。 |
 
 ## 系統需求
