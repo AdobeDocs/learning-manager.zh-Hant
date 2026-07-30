@@ -3,9 +3,9 @@ title: Adobe Learning Manager - 安全設定與組態管理
 description: 本文件說明 Adobe Learning Manager 的管理帳號類型、安全相關設定、建議的安全預設、API 功能、匯出功能、設定比較方法、發佈慣例及版本歷史。 它詳細說明了特權帳號的運作方式、其安全影響，以及整個平台如何支援配置管理。
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1954'
+source-wordcount: '1945'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Adobe Learning Manager 有兩種特權帳號類型——自訂管理員和整合
 * [自訂角色 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/custom-role)
 * [透過 CSV 管理自訂角色 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/configure-role-csv-files)
 * [應用程式開發手冊 \|Adobe Learning Manager](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual)
-* [Adobe Learning Manager 連接器](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/connectors)
+* [Adobe Learning Manager 連接器](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -69,8 +69,8 @@ Adobe Learning Manager 文件中針對管理員角色與特權帳號類型，具
 
 **參考資料**：
 
-* [場景 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/custom-role)
-* [安全使用者驗證與密碼 |Adobe 管理控制台](https://helpx.adobe.com/tw/enterprise/using/authentication-settings.html)
+* [設定 |Adobe 學習管理員](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/custom-role)
+* [安全使用者認證與密碼 |Adobe 管理控制台](https://helpx.adobe.com/tw/enterprise/using/authentication-settings.html)
 * [自訂角色 |Adobe Learning Manager](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/custom-role)
 
 +++
