@@ -2,9 +2,9 @@
 description: 本文件總結了 2026 年 8 月在 Adobe Learning Manager 報告變更的情況。 它涵蓋了學習者成績單、培訓、註冊、候補名單、出席、內容審核及使用者報告等新更新欄位。 它還解釋了自適應課程行為、成績簿評分、外部學習紀錄、Gen AI 信用報告、根認證追蹤、時間戳標準化以及 API 作者更新。
 jcr-language: en_us
 title: 2026 年 8 月 Adobe Learning Manager 版本中的報告變更
-source-git-commit: 2d60f665d2e00c95edfc96360ee65fdae013c0cd
+source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '976'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 2026 年 8 月 Adobe Learning Manager 版本中的報告變更
 
-2026 年 8 月的 Adobe Learning Manager 版本將新增涵蓋自適應課程、成績冊、外部學習、Gen AI 學分使用等多項報告功能。 本文總結了本版本中管理員可新增的欄位、報告及行為變更。
+2026 年 8 月的 Adobe Learning Manager 版本引入了涵蓋成績簿、外部學習、生成式 AI 學分使用等多項報告功能的強化功能。 本文總結了本版本中管理員可新增的欄位、報告及行為變更。
 
 ## 改變了什麼
 
-報告更新涵蓋八大功能領域：自適應課程行為、自適應候補名單、成績簿評分、外部學習、增量用戶輸出、Gen AI 學分使用、根認證追蹤，以及 webhook 時間戳對齊。 這些變更對以下報告影響最為重大：
+報告更新涵蓋八大功能領域：成績簿評分、外部學習、增量用戶匯出、Gen AI 學分使用、根認證追蹤及 webhook 時間戳對齊。 這些變更對以下報告影響最為重大：
 
 - 學習者成績單（LT）
 - 訓練報告
@@ -26,66 +26,70 @@ ht-degree: 0%
 
 大多數更新都會新增欄位。 有些則引入了新的報告類型。 其中幾項改變了現有資料的建模或格式化方式。
 
-## 自適應航向報告變更
+<!--
+## Adaptive course reporting changes
 
-### 訓練報告
+### Training report
 
-訓練報告新增三欄支持適應性課程行為。
+Three new columns in the Training report support adaptive course behavior.
 
-| **柱狀** | **描述** | **支持價值** |
+| **Column**               | **Description**                                          | **Supported Values**                                                   |
 |--------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
-| 自適應學習物件 | 判斷賽道是否具適應性 | 真（自適應）、假（非自適應） |
-| 可見性使用者群組 | 列出可查看每個模組的使用者群組 | 一個或多個使用者群組名稱（例如，All Learners，UG-Australia） |
-| 強制性 | 表示某模組是否對使用者群組為必修 | 模組必須的使用者群組名稱;空白 = 可選 |
+| Adaptive Learning Object | Identifies whether a course is adaptive                  | true (adaptive), false (non-adaptive)                                  |
+| Visibility User Groups   | Lists user groups that can view each module              | One or more user group names (for example, All Learners, UG-Australia) |
+| Mandatory                | Indicates whether a module is mandatory for a user group | User group names for which the module is mandatory; blank = optional   |
 
-你可以將可視性使用者群組&#x200B;**與**&#x200B;強制&#x200B;**性組合結合**，直接在報告中解讀自適應完成規則。例如，某模組可能對 **所有學習者** 開放，但僅對 **管理員組**&#x200B;必須。
+You can combine **Visibility User Groups** and **Mandatory** to interpret adaptive completion rules directly in the report. For example, a module may be visible to **All Learners** but mandatory only for the **Administrator group**.
 
-### 學習者成績單
 
-當自適應邏輯觸發補全時，新增一個「 **先前完成」** 欄位捕捉歷史完成資料。
+### Learner Transcript
 
-| **子領域** | **描述** |
+A new **Previous Completions** column captures historical completion data when adaptive logic triggers recompletion.
+
+| **Sub-field**         | **Description**                         |
 |-----------------------|-----------------------------------------|
-| 完成更新日期 | 完成重置的時間戳記 |
-| 完成日期 | 先前完成時間戳記 |
-| 更新進度 | 學習者重置前的進度 |
-| gradeAtRefresh | 重置時的學習者分數 |
+| completionRefreshDate | Timestamp when the completion was reset |
+| completedDate         | Previous completion timestamp           |
+| progressAtRefresh     | Learner progress before reset           |
+| gradeAtRefresh        | Learner score at the time of reset      |
 
-學習者成績單現支援多次完成循環。 例如，當因課程更新或新增必修模組而發生重修事件時，先前完成的課程會移至 **先前完成欄位** 。 目前的完成項目仍位於標準成績單欄位中。
+The Learner Transcript now supports multiple completion cycles. When a recompletion event occurs, for example, due to course updates or new mandatory modules, the previous completion moves to the **Previous Completions** column. The current completion remains in the standard transcript fields.
 
-### 招生報告
+### Enrollment report
 
-新增 **的候補名單** 欄位會顯示學習者是否在課程中的任何模組被列入候補名單。
+A new **Waitlisted** column indicates whether a learner is waitlisted in any module within a course.
 
-| **價值** | **意義** |
+| **Value** | **Meaning**                                             |
 |-----------|---------------------------------------------------------|
-| 沒錯 | 學習者在一個或多個模組中被列入候補名單 |
-| 錯誤 | 學習者已確認已註冊所有可見模組 |
+| true      | The learner is waitlisted in one or more modules        |
+| false     | Learner has confirmed enrollment in all visible modules |
 
-### 候補名單報告
+### Waitlist report
 
-新增兩個欄位及強化的狀態細節支援模組，能在模組層級追蹤候補名單。
+Two new columns and an enhanced status-detail support module enable waitlist tracking at the module level.
 
-| **柱狀** | **描述** |
+| **Column**      | **Description**                                                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **模組** | 學習者被列入候補名單的模組名稱（教室或虛擬教室課程）。 出現在實例狀態欄之後。 |
-| **模組識別碼** | 學習者被列入候補名單的模組識別碼。 出現在模組欄位之後。 |
-| **嵌入** | 包含此課程的任何學習路徑名稱與 ID。 如果課程不是學習路徑的一部分，則會被填空。 |
+| **Module**      | Name of the module (classroom or virtual classroom session) where the learner is waitlisted. Appears after the Instance Status column. |
+| **Module ID**   | Identifier of the module where the learner is waitlisted. Appears after the Module column.                                             |
+| **Embedded In** | The learning path name and ID of any learning path that contains this course. Blank if the course is not part of a learning path.      |
 
-候補名單報告已從課程層級模型轉變為模組課程層級模型。 學習者現在可以在部分模組註冊，其他模組則可被列入候補名單。 報告也支援彈性學習路徑內的候補名單追蹤，該路徑在模組層級執行名額限制。
+The Waitlist report has shifted from a course-level model to a module session–level model. A learner can now be enrolled in some modules and waitlisted in others. The report also supports waitlist tracking within Flex learning paths, where seat limits are enforced at the module level.
 
-### LP註冊報告
+### LP Enrollment report
 
-學習路徑註冊報告也新增了 **備註** 欄。 當學習者在任何課程或虛擬教室課程中處於候補狀態時，備註欄會顯示 **「候補**&#x200B;名單」。 當所有會議都確認時，該欄為空白。
+The Learning Path Enrollment report also receives a new **Remarks** column. When a learner is in a waitlisted state on any classroom or virtual classroom session within the courses that make up the learning path, the Remarks column shows **Waitlisted**. When all sessions are confirmed, the column is blank.
 
-### 出席人數報告
+### Attendance report
 
-**學員狀態**&#x200B;欄位現在區分已確認與候補學員。
+The **Learner status** column now distinguishes between confirmed and waitlisted learners.
 
-| **價值** | **意義** |
+| **Value**  | **Meaning**                            |
 |------------|----------------------------------------|
-| 已確認 | 學習者擁有分配的名額 |
-| 候補名單 | 學習者等待名額分配 |
+| Confirmed  | The learner has an allocated seat      |
+| Waitlisted | The learner is pending seat allocation |
+
+-->
 
 ## 成績簿報告變更
 
@@ -146,7 +150,7 @@ ht-degree: 0%
 | 完整出口 | 回傳帳號中的所有使用者 |
 | 增量出口 | 僅返回指定日期範圍內變更的使用者 |
 
-要使用增量匯出，請依&#x200B;**日期與**&#x200B;**日期**&#x200B;篩選以定義變更視窗。使用者回報現在透過資料平台管道產生，輸出則以區塊形式回傳，以支援大型帳號。
+要使用增量匯出，請依&#x200B;**日期與****日期**&#x200B;篩選以定義變更視窗。使用者回報現在透過資料平台管道產生，輸出則以區塊形式回傳，以支援大型帳號。
 
 ## Gen AI 信用報告
 
