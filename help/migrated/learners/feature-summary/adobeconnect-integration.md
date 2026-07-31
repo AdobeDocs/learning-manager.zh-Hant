@@ -1,38 +1,38 @@
 ---
 jcr-language: en_us
-title: Adobe Connect整合
-description: 如果您的公司已將Adobe Connect與Learning Manager帳戶整合，作為學習者，您可以使用Adobe Connect來使用虛擬教室課程。 如果您無法使用Adobe Connect，請聯絡貴公司的管理員。
+title: Adobe Connect 整合
+description: 作為學習者，如果你的公司將 Adobe Connect 與你的學習管理帳戶整合，你可以使用 Adobe Connect 參加虛擬課堂課程。 若無法使用 Adobe Connect，請聯絡您公司的管理員。
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
 
-# Adobe Connect整合
+# Adobe Connect 整合
 
-如果您的公司已將Adobe Connect與Learning Manager帳戶整合，作為學習者，您可以使用Adobe Connect來使用虛擬教室課程。 如果您無法使用Adobe Connect，請聯絡貴公司的管理員。
+作為學習者，如果你的公司將 Adobe Connect 與你的學習管理帳戶整合，你可以使用 Adobe Connect 參加虛擬課堂課程。 若無法使用 Adobe Connect，請聯絡您公司的管理員。
 
 ## 使用Adobe Connect虛擬教室課程 {#consumeadobeconnectvirtualclassroomcourses}
 
-以學習者身分登入Learning Manager，然後從「我的學習」Widget按一下虛擬教室課程卡。 或者，您可以從左窗格中選擇「目錄」，篩選課程，然後按一下必要的虛擬教室課程。
+以學習者身份登入學習管理員，並從「我的學習」小工具中點擊虛擬教室課程卡片。 或者，你也可以從左側選區選擇「目錄」，篩選課程，然後點選必修的虛擬教室課程。
 
-如果您已註冊Adobe Connect虛擬教室工作階段，則會在開始使用您的帳戶URL的工作階段之前收到通知。
+如果您已註冊 Adobe Connect 虛擬教室課程，課程開始前會收到您的帳號網址通知。
 
-1. 按一下URL，然後按一下虛擬教室卡。
-1. 您可以按一下頁面右上角的「開始」 ，接著按一下播放器中的工作階段URL ，以開始參加課程，或
+1. 點擊網址並點擊虛擬教室卡片。
+1. 你可以點擊頁面右上角的開始，然後點擊播放器中的課程網址，或是開始參加課程
 
-   直接在頁面上按一下工作階段URL。
+   直接點擊頁面上的會話網址。
 
-完成課程後，您將會收到成功的課程完成通知。
+完成課程後，您將收到成功完成課程的通知。
 
-如果管理員已為您啟用L1意見反應，Learning Manager應用程式會傳送提醒以提供L1意見反應。
+如果管理員已經啟用了 L1 回饋，Learning Manager 應用程式會提醒你提供 L1 回饋。
 
-## 檢視錄製的虛擬教室工作階段 {#viewrecordedvirtualclassroomsessions}
+## 查看錄製的虛擬教室課程 {#viewrecordedvirtualclassroomsessions}
 
-如果您想要聆聽錄製的虛擬教室課程，請按一下虛擬教室課程。 您可以檢視所有錄製的工作階段URL。 這僅適用於工作階段的主機記錄工作階段時。
+如果您想收聽錄製的虛擬教室課程，請點擊虛擬教室課程。 你可以查看所有錄製的會話網址。 此規定僅適用於會話主機錄製會話時。
 
 >[!NOTE]
 >
->一般而言，錄製的工作階段URL會在工作階段完成兩小時後反映在Learning Manager應用程式中。
+>通常，錄製的會話網址會在兩小時後反映在學習管理員應用程式中。
