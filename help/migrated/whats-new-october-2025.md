@@ -5,7 +5,7 @@ title: Adobe Learning Manager 2025 年 10 月版本的新內容
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
 source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5546'
+source-wordcount: '5610'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Adobe Learning Manager 2025 年 10 月版本引入了重大改進，旨在提升
 
 ## 體驗建構器
 
-Experience Builder 是 Adobe Learning Manager 中的一個無程式碼/低程式碼工具，幫助你建立客製化的學習入口網站。它讓你能設計出品牌化且使用者友善的學習入口網站，無需具備技術能力或豐富的程式設計知識。
+Experience Builder 是 Adobe Learning Manager 中的一個無程式碼/低程式碼工具，幫助你建立客製化的學習入口網站。 它讓你能設計出品牌化、使用者友善的學習入口網站，無需具備技術能力或豐富的程式設計知識。
 透過體驗建構器，管理員可以輕鬆建立頁面、選單和小工具，提供符合受眾需求的個人化學習體驗。
 
 在 Experience Builder 之前，組織面臨多項挑戰：
