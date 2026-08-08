@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 編輯課程大綱
 
-    ![](../資產/10_outline_tab_generated_lessons_topics_updated.png）
+    ![](../資產/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager 內容撰寫器會從你的簡報和原始檔案產生課程內容和主題結構。 大綱會出現在畫布上，顯示所有課程及其主題。
 

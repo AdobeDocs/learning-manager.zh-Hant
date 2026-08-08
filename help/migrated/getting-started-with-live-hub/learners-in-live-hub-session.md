@@ -37,7 +37,7 @@ ht-degree: 0%
 
 * 回答 [講師發起的投票](./respond-to-a-poll.md) 與 [測驗](./attempt-a-quiz.md) 。
 
-* 如果講師啟用了螢幕共享和白板存取，你可以[分享螢幕](./share-your-screen-as-a-learner.md)並與其他參與者在白板](./use-whiteboard-as-a-learner.md)上協作[。
+* 如果講師啟用了螢幕共享和白板存取，你可以[分享螢幕](./share-your-screen-as-a-learner.md)並與其他參與者在白板[&#128279;](./use-whiteboard-as-a-learner.md)上協作。
 
 * 加入分組討論室參加團體活動，並在需要指導老師時選擇 **「尋求幫助** 」。 你也可以查看 AI 生成的報告，總結你房間的討論內容。 查看 [參加分組討論以](./participate-in-a-breakout-session.md) 獲取更多資訊。
 

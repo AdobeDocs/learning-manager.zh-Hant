@@ -276,7 +276,7 @@ Adobe Learning Manager 讓你能利用技能地圖，根據學習者的技能組
 
 +++我該如何為課程指派一項技能？
 
-欲了解更多程序資訊，請參閱「將技能分配給課程](skills-levels.md#assignskilltocourse)」章節[。
+欲了解更多程序資訊，請參閱「將技能分配給課程[&#128279;](skills-levels.md#assignskilltocourse)」章節。
 +++
 
 +++我該如何改變技能等級？

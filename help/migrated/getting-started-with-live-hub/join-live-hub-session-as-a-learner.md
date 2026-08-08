@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. 登入 Adobe Learning Manager。
 
-1. 引導我學習&#x200B;****。
+1. 引導我學習&#x200B;**&#x200B;**。
 
 1. 選擇已註冊的課程。
 

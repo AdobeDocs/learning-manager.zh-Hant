@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. 從工具列選擇 **主題** 。
 
-2. 從課程主題選項中選擇&#x200B;**匯入****。**
+2. 從課程主題選項中選擇&#x200B;**匯入**&#x200B;**。**
    ![](../assets/48_course_themes_import_button_updated.png)
 
 3. 從你的電腦選擇自訂的 JSON 檔案。

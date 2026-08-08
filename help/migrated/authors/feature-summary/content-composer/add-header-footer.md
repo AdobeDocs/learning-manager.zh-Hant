@@ -17,7 +17,7 @@ ht-degree: 0%
 1. 從工具列選擇 **主題** ，然後將滑鼠移到套用主題上，選擇 **編輯**。
 
 2. 開啟 **新增標題** 切換，即可在課程中新增標題。
-   ![ 新增標題和新增頁尾的切換功能，在編輯主題面板中](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![&#x200B; 新增標題和新增頁尾的切換功能，在編輯主題面板中](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. 在「標誌」**中**，選擇&#x200B;**「新增**」以上傳標頭的標誌。
 

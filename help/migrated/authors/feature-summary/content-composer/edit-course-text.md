@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 編輯課程內容
 
-    ![](../資產/15_lesson_image_text_block_fall_prevention_updated.png）
+    ![](../資產/15_lesson_image_text_block_fall_prevention_updated.png)
 
 選擇任何文字元素將游標放入其中。 畫布底部會出現一個格式工具列，包含粗體、斜體、底線、劃線、連結、對齊和列表控制。
 

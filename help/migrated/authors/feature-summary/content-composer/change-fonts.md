@@ -18,7 +18,7 @@ ht-degree: 0%
 
    ![](../assets/35_course_themes_list_edit_icon_updated.png)
 
-2. 在字體選&#x200B;**單中**，選擇&#x200B;****&#x200B;標題下拉選單，並為課程中所有標題選擇字體。例如，選擇 **服裝**。
+2. 在字體選&#x200B;**單中**，選擇&#x200B;**&#x200B;**&#x200B;標題下拉選單，並為課程中所有標題選擇字體。例如，選擇 **服裝**。
 
    ![](../assets/36_edit_theme_headings_font_dropdown_updated.png)
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![](../assets//37_edit_theme_body_font_dropdown_updated.png)
 
-4. 選擇&#x200B;**「儲存**」以覆蓋現有主題並加入你的更改，或&#x200B;**選擇「另存****為新」**&#x200B;以建立新的自訂主題，同時保留原有主題不變。
+4. 選擇&#x200B;**「儲存**」以覆蓋現有主題並加入你的更改，或&#x200B;**選擇「另存**&#x200B;**為新」**&#x200B;以建立新的自訂主題，同時保留原有主題不變。
 
    ![](../assets/38_edit_theme_full_panel_header_logo_updated.png)
 

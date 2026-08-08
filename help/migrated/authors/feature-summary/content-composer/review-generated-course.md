@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 檢視已生成的課程
 
-    ![](../資產/11_course_view_generated_topic_content_updated.png）
+    ![](../資產/11_course_view_generated_topic_content_updated.png)
 
 Adobe Learning Manager 內容撰寫者能一次性生成完整課程，包含文字、圖片、知識檢查及小考。 **生成完成後，賽道**&#x200B;編輯器會自動開啟。
 
