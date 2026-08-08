@@ -4,9 +4,9 @@ title: Preview as learner
 description: Fluidic Player 是一個讓學習者能以不間斷且混合式學習體驗的方式消費內容的平台。 所有支援的格式在此播放器中都能穩定播放。 作者與管理員可透過播放器預覽內容。
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '274'
 ht-degree: 1%
 
 ---
@@ -33,7 +33,7 @@ Fluidic Player 是一個讓學習者能以不間斷且混合式學習體驗的�
 
 流體式播放器支援 11 種語言。 它們是：
 
-| 語言 | 領土 | IBM 識別碼 |
+| 語言 | 領土 | 識別碼 |
 |---|---|---|
 | 阿拉伯語 | 沙烏地阿拉伯 | 阿爾-薩 |
 | 中繁 | 中國香港特別行政區 | zh-hant-HK |

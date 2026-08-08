@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Adobe Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 68a01f96b5ce1e4d8ffc012f99d7b26f464a456c
+source-git-commit: 5a866068bc6c0c555157a320fb5e65eb144a5837
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1659'
 ht-degree: 1%
 
 ---
@@ -291,7 +291,7 @@ ht-degree: 1%
     * [下載、分享並訂閱報告](administrators/feature-summary/download-share-subscribe-report.md)
     * [在報表建工具中複製並重複使用報表](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
     * [常見問題](administrators/feature-summary/faq-report-builder.md)
-    * [Adobe Learning Manager 中報告建構器的限制](administrators/feature-summary/limitations-report-builder.md)
+    * [報告建構器的限制](administrators/feature-summary/limitations-report-builder.md)
   * [團體成功儀表板](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
   * [在 Adobe Learning Manager 設定一鍵註冊](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
   * [學習路徑](administrators/feature-summary/learning-paths.md)

@@ -3,7 +3,7 @@ description: 了解 2025 年 5 月版本 Adobe Learning Manager 中的新功能�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
+source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
 workflow-type: tm+mt
 source-wordcount: '2542'
 ht-degree: 0%
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 Adobe Learning Manager 中的群組成功儀表板（GSD）讓管理員與經理能近乎即時地監控學員進度（從註冊、進度到完成到反映在儀表板上的延遲約 60 分鐘），跨部門或使用者群組。 它支援主動追蹤課程完成、註冊及待處理的行動，讓團隊的學習管理更為輕鬆。 群組成功儀表板透過以簡易操作的介面取代基於 Excel 的成績單，簡化進度追蹤，方便檢視學習者活動，以應對績效評估或合規檢查等情境。 這對於管理小型團隊（50人以下）的經理特別有幫助，例如店經理或內部團隊，能快速監控課程完成狀況並持續學習。
 
-請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/group-success-dashboard.md)以了解更多關於團體成功儀表板的資訊。
+請參閱本文[](/help/migrated/administrators/feature-summary/group-success-dashboard.md)以了解更多關於團體成功儀表板的資訊。
 
 ## 自訂角色的增強
 
 Adobe Learning Manager 現在允許使用者擁有多個自訂角色，滿足自訂管理員管理各種職責的需求。 每個角色最多可容納 500 名使用者，且每位使用者最多可擁有 50 個角色，提供任務委派的彈性。 使用者可透過個人資料中的新選項輕鬆切換分配角色，確保不同職責的無縫管理。 管理員可以透過使用者頁面中的新連結指派或修改角色，讓使用者能根據需要新增或移除角色。 這些改進簡化了多重責任的管理，尤其適用於資源有限的小型團隊。
 
-請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user)以了解更多關於自訂角色的資訊。
+請參閱本文[](/help/migrated/administrators/feature-summary/custom-role.md#assign-multiple-custom-roles-to-a-user)以了解更多關於自訂角色的資訊。
 
 ## 學員批量註冊、出席與完成 {#bulk-enrollment}
 
 利用 Adobe Learning Manager 的批量註冊功能，管理員能透過上傳 CSV 檔案，有效為大量學習者註冊課程、證照或學習計畫。 此流程節省時間、確保一致性，並支持組織的可擴展性。 此外，管理員與講師可透過 CSV 上傳批量更新學習者資訊、出席狀況及完成紀錄，減少人工作業並確保資料準確性。
 
-請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion)以了解大量登記、出席及完成的更多資訊。
+請參閱本文[](/help/migrated/administrators/feature-summary/courses.md#learner-bulk-enrollment-attendance-and-completion)以了解大量登記、出席及完成的更多資訊。
 
 ## 使用內容唯一識別碼和有效期限追蹤內容
 
@@ -43,7 +43,7 @@ Adobe Learning Manager 現在允許使用者擁有多個自訂角色，滿足自
 * Content unique ID 讓外部系統與 Adobe Learning Manager 之間的連結變得更容易。
 * 到期日幫助作者追蹤可能需要審查或更新的過時內容。
 
-請參閱本文[&#128279;](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date)以了解更多關於內容、獨特識別碼及有效期限的資訊。
+請參閱本文[](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date)以了解更多關於內容、獨特識別碼及有效期限的資訊。
 
 ## 管理員 AI 助理（測試版）
 
@@ -53,7 +53,7 @@ Adobe Learning Manager 中的 Admin AI 助理（測試版）幫助管理員快�
 
 它利用 Adobe 的 AI 能力，實現跨學習內容與系統工作流程的自然語言查詢。  管理員可以詢問「 **如何將使用者加入 Adobe Learning Manager** 或 **如何新增學習路徑**」等問題。 Adobe Learning Manager 管理 AI 助理（Beta）專門訓練於公開且由 Adobe 擁有的文件，例如託管於 **[!UICONTROL Experience League]**&#x200B;的資源。 它不會從客戶內容、內部培訓資料或使用者產生的數據中學習或存取。
 
-請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)以了解更多關於 AI 助理（測試版）的資訊。
+請參閱本文[](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)以了解更多關於 AI 助理（測試版）的資訊。
 
 ## 新內容語言
 
@@ -66,13 +66,13 @@ Adobe Learning Manager 以支援多種語言內容與介面聞名，這使其在
 * 坎納達語（Kannada，稱 Kannada）
 * 馬拉雅拉姆語（ml-IN）
 
-請參閱本文[&#128279;](/help/migrated/languages-supported.md)，了解 Adobe Learning Manager 中支援的語言清單。
+請參閱本文[](/help/migrated/languages-supported.md)，了解 Adobe Learning Manager 中支援的語言清單。
 
 ## 內容市場的改進
 
 Adobe Learning Manager 引入了新的購買模式，提供更多彈性與選項：Premium Essentials 與 Premium Essential Plus。 Essentials 提供具成本效益的解決方案以提升員工投入度，並包含 Skillshub、Thomson Reuters 和 Emtrain 等內容供應商。 Premium Essential Plus 提供來自 Blinkist、Pluralsight、Skillsoft、Traliant 和 Coursera 等優質供應商的額外內容。
 
-請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/content-marketplace.md)以獲取更多關於新購屋計畫的資訊。
+請參閱本文[](/help/migrated/administrators/feature-summary/content-marketplace.md)以獲取更多關於新購屋計畫的資訊。
 
 ## FTP、自訂 FTP 和 Box 中的登入存取報告 {#log-in-access-report}
 
@@ -82,7 +82,7 @@ Adobe Learning Manager 引入了新的購買模式，提供更多彈性與選項
 
 該報告有助於自動化，讓登入與存取資料匯出至 FTP，並可與其他報告合併，建立完整的儀表板。 此功能對於依賴自動化流程進行資料分析與報告的組織特別有用。
 
-請參閱本文[&#128279;](/help/migrated/integration-admin/feature-summary/connectors.md)以了解更多關於 FTP、客製化 FTP 及 Box 連接器的資訊。
+請參閱本文[](/help/migrated/integration-admin/feature-summary/connectors.md)以了解更多關於 FTP、客製化 FTP 及 Box 連接器的資訊。
 
 ## 透過 SAML 登入時更新使用者語言偏好
 
@@ -90,17 +90,18 @@ Adobe Learning Manager 是一個多語言平台，透過介面語言、內容語
 
 對於 Adobe Learning Manager 原生平台的使用者，此強化解決了即時使用者配置的需求。 當使用者首次建立帳號並登入時，此功能能確保他們的語言偏好被準確捕捉並應用。
 
-此功能確保使用者在透過 SAML 登入時，語言偏好會自動更新。 這有助於透過以使用者偏好的語言顯示介面，提供個人化的體驗。使用者透過 SAML 登入時，會根據登入過程中提供的資訊檢查並更新其語言偏好（介面與內容語言）。
+此功能確保使用者在透過 SAML 登入時，語言偏好會自動更新。 這有助於透過以使用者偏好的語言顯示介面，提供個人化的體驗。
+使用者透過 SAML 登入時，會根據登入過程中提供的資訊檢查並更新其語言偏好（介面與內容語言）。
 
 此功能整合於 SAML 登入流程，無縫捕捉並更新使用者的語言偏好。
 
-欲了解更多資訊，請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)。
+欲了解更多資訊，請參閱本文[](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)。
 
 ## 在清除前先過濾已刪除的使用者
 
 清除使用者意味著永久刪除他們的資料。 依使用者刪除日期排序，方便查找和管理特定紀錄。 此外，新增一個篩選器，管理員可依刪除的年份和月份選擇使用者，將名單縮小至特定時間範圍。 這些變更簡化了使用者清理流程，使管理員能在限定期間內選擇多筆紀錄，有效清除使用者。
 
-更多資訊請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging)。
+更多資訊請參閱本文[](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging)。
 
 ## Adobe Connect 連接器的增強功能
 
@@ -108,7 +109,7 @@ Adobe Learning Manager 是一個多語言平台，透過介面語言、內容語
 
 Adobe Learning Manager 現在也支援在 Connect 中設定虛擬客戶會議時，從 Adobe Connect 選擇研討會教室。 過去，管理員只能選擇會議室類型。 此強化讓持有有效研討會授權的管理員能在 Adobe Learning Manager 中排程並管理一次性或大型活動（最多可容納 1,500 名參加者）。
 
-請參閱本文[&#128279;](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html)以獲取更多關於研討會教室的資訊。
+請參閱本文[](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html)以獲取更多關於研討會教室的資訊。
 
 ### 支援會話分析存取
 
@@ -120,15 +121,17 @@ _選擇會話網址_
 ![](assets/session-dashboard.png)
 _會話儀表板_
 
-請參閱本文[&#128279;](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以了解更多關於 Connect 會話分析的資訊。
+請參閱本文[](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以了解更多關於 Connect 會話分析的資訊。
 
 ## 遷徙變動
 
 ### 遷移內容的成功標準
 
-Adobe Learning Manager 中匯入模組的遷移流程現在支援新增定義成功標準的參數。現在透過在module_version.csv中新增三個可選欄位來支援此功能。 新增三個可選欄位為：`successCriteria`、、 `successQuizData`&#x200B;`successViewPercent`和 。
+Adobe Learning Manager 中匯入模組的遷移流程現在支援新增定義成功標準的參數。
+現在透過在module_version.csv中新增三個可選欄位來支援此功能。 新增三個可選欄位為：`successCriteria`、、 `successQuizData``successViewPercent`和 。
 
-這些欄位只接受特定值，若輸入無效值，連接器將無法處理該檔案。測驗模組可以使用三種類型的成功標準。 如果學習者啟動內容，根據百分比分數（如下 `successViewPercent`定義）可以標記通過，或是根據測驗模組的結果（定義如下 `successQuizData`）。 此數值需依以下指示填寫。 successCriteria 參數用於判斷此問題。
+這些欄位只接受特定值，若輸入無效值，連接器將無法處理該檔案。
+測驗模組可以使用三種類型的成功標準。 如果學習者啟動內容，根據百分比分數（如下 `successViewPercent`定義）可以標記通過，或是根據測驗模組的結果（定義如下 `successQuizData`）。 此數值需依以下指示填寫。 successCriteria 參數用於判斷此問題。
 
 `successCriteria`：接受 `LAUNCH_CONTENT`、 `VIEW_PERCENT`、 `QUIZ`或 `VIEWPERCENT_OR_QUIZ`。
 
@@ -151,19 +154,20 @@ Adobe Learning Manager 中匯入模組的遷移流程現在支援新增定義成
 
 ### 使用遷移後新增內容唯一 ID 與有效期限
 
-遷移期間現已支援內容唯一識別碼與到期日。 為了啟用此功能，module_version.csv檔案中新增了兩個欄位：expiryDate 和 uniqueContentId。 請參閱此 [範例 CSV](assets/module_version_content.csv) 及 [CSV 規格文件](assets/4-module_version_content.xlsx) 以獲得更多資訊。
+遷移期間現已支援內容唯一識別碼與到期日。 為了啟用此功能，module_version.csv檔案中新增了兩個欄位：expiryDate 和 uniqueContentId。 請參閱此 [範例 CSV](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) 及 [CSV 規格文件](/help/migrated/integration-admin/feature-summary/assets/module-version.zip) 以獲得更多資訊。
 
-請參閱本文[&#128279;](/help/migrated/integration-admin/feature-summary/migration-manual.md)以獲取更多關於遷移過程的資訊。
+請參閱本文[](/help/migrated/integration-admin/feature-summary/migration-manual.md)以獲取更多關於遷移過程的資訊。
 
 ## Webhook 的改進
 
-Webhooks 現在支援學習路徑（LP）課程中的活動，並在註冊、退選或完成時提供認證。這包括LP或認證課程中每門課程的支援活動，以及家長LO活動。
+Webhooks 現在支援學習路徑（LP）課程中的活動，並在註冊、退選或完成時提供認證。
+這包括LP或認證課程中每門課程的支援活動，以及家長LO活動。
 
-請參閱本文[&#128279;](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)以獲取更多關於 Webhooks 的資訊。
+請參閱本文[](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)以獲取更多關於 Webhooks 的資訊。
 
 ## API 變更
 
-所有公開 API 現在都支援更佳的錯誤處理，當資料`POST`&#x200B;`PATCH`無效或不完整且有請求時，會回傳明確且具體的錯誤訊息。此強化特別適用於請求有效載荷中的關係欄位。
+所有公開 API 現在都支援更佳的錯誤處理，當資料`POST``PATCH`無效或不完整且有請求時，會回傳明確且具體的錯誤訊息。此強化特別適用於請求有效載荷中的關係欄位。
 
 當請求包含錯誤的資料型別或關聯區缺少必要資訊時，API 會回覆描述性訊息，指出問題所在。 這使得在積分或測試過程中能更快識別並解決錯誤。
 
