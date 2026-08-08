@@ -1,9 +1,9 @@
 ---
 title: 關於 Live Hub 的聊天面板
 description: 了解聊天面板如何在 Live Hub 課程中，促進講師與學習者之間的即時、結構化溝通。
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -48,9 +48,9 @@ Live Hub 的聊天面板讓講師與學習者在現場課程中能即時溝通�
 | [進入聊天面板](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#access-the-chat-panel) | [進入聊天面板](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#access-the-chat-panel) |
 | [聊天面板設定](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#chat-panel-settings) | [管理你的聊天訊息](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
 | [回覆聊天訊息](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#reply-to-chat-messages) | [自訂聊天面板](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#customize-the-chat-panel) |
-| [回應訊息](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [自訂聊天面板](#overview) |
-| [編輯聊天訊息](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) | [管理你的聊天訊息](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#manage-your-chat-messages) |
-| [在聊天訊息中提及參與者](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | [發送私人訊息](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [回應訊息](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#react-to-a-message) | [發送私人訊息](../getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md#send-private-messages) |
+| [編輯聊天訊息](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#edit-the-chat-messages) |  |
+| [在聊天訊息中提及參與者](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#mention-participants-in-the-chat-messages) | |
 | [開始一個 pivate 聊天室](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#start-a-private-chat) | |
 | [使用 AI 對參與者問題的草稿回覆](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#draft-replies-to-participant-questions-with-ai) | |
 | [刪除訊息](../getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md#delete-messages) | |
