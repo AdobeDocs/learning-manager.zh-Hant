@@ -149,7 +149,7 @@ ht-degree: 0%
 
 在你的 Box 帳號中，選擇 **匯入>使用者>內部檔案**，並上傳檔案——role.csv 和 user_role.csv。
 
-* role.csv和user_role.csv必須複製到「匯入>使用者」資料夾&#x200B;**>****內部**>**user_role**。****
+* role.csv和user_role.csv必須複製到「匯入>使用者」資料夾&#x200B;**>**&#x200B;**內部**>**user_role**。**&#x200B;**
 * user.csv必須複製到「匯入&#x200B;**>**&#x200B;使用者&#x200B;**>**&#x200B;內部&#x200B;**」資料夾**&#x200B;中。
 
 這兩個 CSV 都必須只能透過 Box 上傳，且無法透過 UI 上傳。
