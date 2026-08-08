@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Adobe Connect 整合
 description: 作為學習者，如果你的公司將 Adobe Connect 與你的學習管理帳戶整合，你可以使用 Adobe Connect 參加虛擬課堂課程。 若無法使用 Adobe Connect，請聯絡您公司的管理員。
 exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 7babb0c2c656063871be5ae054c5d9f13423abba
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -36,3 +36,7 @@ ht-degree: 0%
 >[!NOTE]
 >
 >通常，錄製的會話網址會在兩小時後反映在學習管理員應用程式中。
+
+## 消費現場樞紐會話
+
+作為學習者，若公司已啟用 Live Hub，您可以使用 Live Hub 進行虛擬教室課程。 若無法使用 Live Hub，請聯絡公司管理員。 關於加入及參加課程的步驟，請參見 [「以學習者](../../getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)身份加入課程」。

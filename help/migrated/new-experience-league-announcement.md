@@ -1,17 +1,18 @@
 ---
 jcr-language: en_us
-title: 全新Experience League公告
-description: 探索Experience League上的最新公告。
+title: 新體驗聯賽公告
+description: 在體驗聯盟上發現最新公告。
 exl-id: 26f601cc-3197-4824-91dc-a0a42d1de935
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: e007447a9e7683c5d0fd5ef412e97610d11fb61d
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
 
-# 最新experience league公告
 
-## 新客戶通訊
+# 新體驗聯盟公告
 
-我們很高興地宣佈，在通往更密切連結Adobe解決方案系列的歷程中，Adobe Learning Manager將新增一個管道到支援擷取流程。 自2025年5月12日起，您將可直接從Adobe Experience League建立案例。 Experience League目前是Adobe Learning Manager自助檔案、使用手冊及最佳作法的首頁，並將成為您滿足所有支援需求（從自助服務到代理程式驅動通訊）的主要資源。 我們非常感謝您在進行這項重要轉變時所給予的理解和支援。
+## 新客戶溝通
+
+我們很高興宣布，為了更好地連結 Adobe 解決方案家族，Adobe Learning Manager 將新增一個支援流程。 自 2025 年 5 月 12 日起，您現在可以直接從 Adobe Experience League 建立案件。 Experience League 目前提供 Adobe Learning Manager 自助文件、使用者指南與最佳實務，將成為您從自助服務到客服溝通等所有支援需求的主要資源。 感謝您在我們進行這重要轉型過程中的理解與支持。

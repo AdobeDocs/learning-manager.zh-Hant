@@ -1,18 +1,204 @@
 ---
 user-guide-title: Adobe Learning Manager 指南
-breadcrumb-title: Learning Manager
+breadcrumb-title: Adobe Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
+source-git-commit: 68a01f96b5ce1e4d8ffc012f99d7b26f464a456c
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 2%
+source-wordcount: '1663'
+ht-degree: 1%
 
 ---
 
 
 # 學習經理指南 {#using}
 
-* [學習管理員使用者指南](user-guide.md)
+* [Adobe Learning Manager 使用者指南](user-guide.md)
+<!--
+* Introduction {#introduction}
+   * Platform essentials {#platform-essentials}
+      * [System requirements](system-requirements.md)
+      * [Adobe Learning Manager compliance to GDPR](kb/prime-gdpr.md)
+      * Administrative security framework {#admin-security-framework}
+         * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md)
+         * [Adobe Learning Manager secure administration guide](/help/migrated/alm-secure-administration-guide.md)
+         * [Adobe Learning Manager administrative security setttings and configuration management](/help/migrated/alm-security-settings-config-management.md)
+         * [Feature availability in FedRAMP-authorizerd environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
+      * [Accessibility in Learning Manager](accessibility-learning-manager.md)
+      * [Support for custom domain](custom-domain.md)
+      * [Supported languages in Adobe Learning Manager](/help/migrated/languages-supported.md)
+      * [Whitelabeling in Adobe Learning Manager](white-label.md)
+      * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
+      * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)
+      * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
+   * User role overview {#user-role-overview}
+      * [Sign in to Adobe Learning Manager with OpenID Connect](/help/migrated/oidc.md)
+      * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
+      * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
+      * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
+      * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
+      * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
+* Release notes and updates {#release-notes-and-updates}
+   * [Release Notes](release-note/release-notes.md)
+   * [New features summary August 2026](/help/migrated/whats-new.md)
+   * [New features summary April 2026](/help/migrated/whats-new-april-2026.md)
+   * [New features summary October 2025](/help/migrated/whats-new-october-2025.md)
+   * [New features summary May 2025](/help/migrated/whats-new-may-2025.md)
+   * [New features summary November 2024](/help/migrated/whats-new-nov-24.md)
+   * [New features summary July 2024](whats-new-july-2024.md)
+   * [New features March 2024](whats-new-march-2024.md)
+   * {hide-from-toc} [New features November 2023](whats-new-november-2023.md)
+   * {hide-from-toc} [New features July 2023](whats-new-2023-july.md)
+   * {hide-from-toc} [Upcoming changes in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+   * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
+* Administrator {#admin}
+   * Account management {#account-management}
+      * [User log in](administrators/feature-summary/user-login.md)
+      * Configure your Adobe Learning Manager {#configure-alm}
+         * Settings {#settings}
+            * [Overview](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+            * [Basic settings](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+            * [Integration settings](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+            * [Advanced settings](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
+            * [Settings](administrators/feature-summary/settings.md)
+         * [Monitoring and moderating Social Learning as an admin](administrators/feature-summary/social-learning-configurations-as-an-admin.md)
+         * [AI-based recommendation of courses](ai-based-recommendations.md)
+         * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
+         * [Insights Agent (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
+         * [Gamification](administrators/feature-summary/gamification.md)
+         * [Announcements](administrators/feature-summary/announcements.md)
+         * [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+         * [Badges](administrators/feature-summary/badges.md)
+         * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
+         * [Import skills](administrators/feature-summary/import-skills-external-sources.md)
+         * [Map skill with skill domains](administrators/feature-summary/curation-skills.md)
+         * [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
+      * Customize your user interface {#customize-user-interface}
+         * [Color themes](administrators/feature-summary/themes.md)
+         * [Fluidic player](administrators/feature-summary/fluidic-player.md)
+         * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
+      * Customize learner homepage {#customize-learner-homepage}
+         * [Non-logged in experience for learners](administrators/feature-summary/non-logged-in-experience-learners.md)
+         * Experience Builder in Adobe Learning Manager {#experience-builder}
+            * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+            * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+            * Pages in Experience Builder {#pages-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+               * [Create a custom page in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+            * Widgets in Experience Builder {#widgets-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+               * [Add and configure widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+            * Menu in Experience Builder {#menu-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+               * [Create a menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+            * Customization in Experience Builder {#customization-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+               * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+            * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+            * [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+         * [Native extensibility](administrators/feature-summary/native-extensibility.md)
+      * [iPad & Android tablet users](administrators/feature-summary/ipad-android-tablet-users.md)
+   * User management {#user-management}
+      * Adding a user to ALM {#adding-a-user}
+         * [Add users in Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
+         * [Custom roles](administrators/feature-summary/custom-role.md)
+         * [Custom role for announcement permission](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
+      * Manage user {#manage-user}
+         * [Purge users](administrators/feature-summary/purge-users.md)
+         * [Set up interface language through SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
+      * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
+      * [User groups in Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
+      * [Impersonate a Learner and Manager](administrators/feature-summary/impersonation-learner-manager.md)
+   * Content management {#content-management}
+      * Learning objects {#learning-objects}
+         * [Add classroom locations](administrators/feature-summary/classroom.md)
+         * [Create course instances and learning paths](administrators/feature-summary/courses.md)
+         * [Module access time control](/help/migrated/administrators/feature-summary/module-access-time-control.md)
+         * [Learning Paths](administrators/feature-summary/learning-paths.md)
+         * [Alternates and equivalence](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
+         * [Learning Plans](administrators/feature-summary/learning-plans.md)
+         * [Learning Programs](administrators/feature-summary/learning-programs.md)
+         * [Certifications](administrators/feature-summary/certifications.md)
+         * [Create and customize a certificate](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
+         * [Job Aids](administrators/feature-summary/job-aids.md)
+         * Content marketplace {#content-marketplace}
+            * [Content marketplace](administrators/feature-summary/content-marketplace.md)
+            * [Curate Go1 courses to Learning Path](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
+         * [Waitlist & attendance management](administrators/feature-summary/waitlist-attendance-management.md)
+         * {hide-from-toc} [Adaptive Courses](administrators/feature-summary/adaptive-course-admin.md)
+      * [Set up one-click enrollment in Adobe learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
+      * [Multiple enrollment](administrators/feature-summary/multiple-enrollment.md)
+      * [Create Channels](administrators/feature-summary/create-channels.md)
+      * [Tags](administrators/feature-summary/tags.md)
+      * Catalogs {#catalogs}
+         * [Catalogs](administrators/feature-summary/catalogs.md)
+         * [Catalog labels](administrators/feature-summary/catalog-labels.md)
+         * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)
+         * [Enable full control of shared catalog](administrators/feature-summary/shared-catalog-full-control.md)
+      * Email templates {#email-templates}
+         * [Email templates](administrators/feature-summary/email-templates.md)
+         * [Email builder](administrators/feature-summary/email-builder.md)
+      * [Adobe Connect integration](administrators/feature-summary/adobeconnect-integration.md)
+      * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
+      * [Product Terminology](administrators/feature-summary/product-terminology.md)
+   * Reporting {#reporting}
+      * [Reports](administrators/feature-summary/reports.md)
+      * Report Builder {#reportbuilder}
+         * [Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder.md)
+         * [Report Builder: Concepts and terminology](administrators/feature-summary/report-builder-concepts-terminology.md)
+         * [Available datasets in Report Builder](administrators/feature-summary/report-builder-available-datasets.md)
+         * [Get started with a Report Builder template](administrators/feature-summary/get-started-with-report-builder.md)
+         * [Customize a duplicated Report Builder template](administrators/feature-summary/customize-duplicate-report-builder-template.md)
+         * [Build a custom report in Report Builder](administrators/feature-summary/alm-create-report.md)
+         * [Apply group by and aggregations in Report Builder](administrators/feature-summary/group-by-and-aggregations-report-builder.md)
+         * [Add and combine filters in a report](administrators/feature-summary/add-combine-filters-in-report.md)
+         * [Sort report columns in Report Builder](administrators/feature-summary/sort-report-columns-in-report-builder.md)
+         * [Review instructor performance with Report Builder](administrators/feature-summary/review-instructor-performance-with-report-builder.md)
+         * [Track engagement by user group in Report Builder](administrators/feature-summary/track-engagement-by-user-group-in-report-builder.md)
+         * [Build a trend report in Report Builder](administrators/feature-summary/build-trend-report-in-report-builder.md)
+         * [Download, share, and subscribe to a report](administrators/feature-summary/download-share-subscribe-report.md)
+         * [Duplicate and reuse a report in Report Builder](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
+         * [Frequently asked questions](administrators/feature-summary/faq-report-builder.md)
+         * [Limitations of Report Builder in Adobe Learning Manager](administrators/feature-summary/limitations-report-builder.md)
+      * Learning object reports {#learning-object-reports}
+         * Training content *(no page yet)*
+         * Training report *(no page yet)*
+         * Course report *(no page yet)*
+         * Job Aids report *(no page yet)*
+         * Session summary report *(no page yet)*
+         * Learning plan report *(no page yet)*
+         * xAPI activity report *(no page yet)*
+         * Content audit trail *(no page yet)*
+      * User reports {#user-reports}
+         * User activity *(no page yet)*
+         * Login/access report *(no page yet)*
+         * [Learner Transcripts](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+         * [Changes in Learner Transcripts](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
+         * User audit trail *(no page yet)*
+         * Gamification reports *(no page yet)*
+         * Custom role audit trail *(no page yet)*
+         * Learning summary report *(no page yet)*
+         * [Gradebook for admin](administrators/feature-summary/alm-admin-gradebook.md)
+      * Creating and viewing reports {#creating-and-viewing-reports}
+         * Sample reports *(no page yet)*
+         * Dashboard reports *(no page yet)*
+      * Other reports {#other-reports}
+         * Extension configuration report *(no page yet)*
+         * Notification announcements report *(no page yet)*
+         * [Notifications](administrators/feature-summary/user-notifications.md)
+         * [Feedback report](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
+         * Email reports *(no page yet)*
+         * Instructor utilisation *(no page yet)*
+      * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+         * Your dashboards *(no page yet)*
+         * Shared dashboards *(no page yet)*
+      * Learning summary report {#learning-summary-report}
+         * Consolidated summary *(no page yet)*
+         * Compliance dashboard *(no page yet)*
+   * Billing {#billing}
+      * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
+   * Peer account {#peer-account}
+      * [Peer accounts](administrators/feature-summary/peer-account.md)
+-->
 * 簡介 {#introduction}
   * [新功能摘要 2026 年 8 月](/help/migrated/whats-new.md)
   * [2026年4月新功能摘要](/help/migrated/whats-new-april-2026.md)
@@ -47,7 +233,10 @@ ht-degree: 2%
   * [作為學習者的起步](learners/feature-summary/getting-started-learner.md)
   * [經理人入門指南](managers/feature-summary/getting-started-manager.md)
   * [開始擔任學習管理講師](instructors/feature-summary/getting-started.md)
+  * [開始使用 Live Hub（測試版）](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 行政長官 {#admin}
+  * 學習中的人工智慧（測試版） {#ai-in-learning}
+    * [啟用 Live Hub](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Manager 中的管理 AI 助理（測試版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning Manager 中的 Insights Agent（beta）](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [使用者登入](administrators/feature-summary/user-login.md)
@@ -58,6 +247,7 @@ ht-degree: 2%
   * [新增教室地點](administrators/feature-summary/classroom.md)
   * [建立課程實例與學習路徑](administrators/feature-summary/courses.md)
   * [模組存取時間控制](/help/migrated/administrators/feature-summary/module-access-time-control.md)
+  * [管理假期](./getting-started-with-live-hub/manage-holidays.md)
   * Adobe Learning Manager 中的體驗建構器 {#experience-builder}
     * [概觀](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Experience Builder 的核心元件](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -85,7 +275,7 @@ ht-degree: 2%
     * [將Go1課程整合到學習路徑](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
   * [L1 反饋形式](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
   * [報表](administrators/feature-summary/reports.md)
-  * [報表建置器] {#reportbuilder}
+  * 報表建置器 {#reportbuilder}
     * [Adobe Learning Manager 中的報表建置器](administrators/feature-summary/alm-report-builder.md)
     * [報告建構器：概念與術語](administrators/feature-summary/report-builder-concepts-terminology.md)
     * [報表建構器中的可用資料集](administrators/feature-summary/report-builder-available-datasets.md)
@@ -109,7 +299,7 @@ ht-degree: 2%
   * [學習計畫](administrators/feature-summary/learning-plans.md)
   * [管理學習管理經理的訂單與帳單](administrators/feature-summary/billing-management.md)
   * [工作輔助工具](administrators/feature-summary/job-aids.md)
-  * [建立頻道](administrators/feature-summary/create-channels.md)
+  * [建立頻道（測試版）](administrators/feature-summary/create-channels.md)
   * [認證](administrators/feature-summary/certifications.md)
   * [建立並自訂憑證](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [目錄](administrators/feature-summary/catalogs.md)
@@ -209,7 +399,58 @@ ht-degree: 2%
   * [電子郵件範本](authors/feature-summary/email-templates-author.md)
   * [如何選擇課程模組？](authors/how-to-choose-modules.md)
   * [Preview as learner](authors/feature-summary/fluidic-player.md)
-  * [設定](authors/feature-summary/settings.md)
+  * Adobe Learning Manager 內容撰寫器（測試版） {#alm-content-composer}
+    * [Adobe Learning Manager 內容撰寫器（測試版）幫助](authors/feature-summary/content-composer/content-composer-help.md)
+    * 開始使用 {#get-started}
+      * [什麼是內容撰寫者](authors/feature-summary/content-composer/what-is-content-composer.md)
+      * [內容編輯器的運作方式](authors/feature-summary/content-composer/how-content-composer-works.md)
+      * [內容撰寫者是為誰而設](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [開始前你需要什麼](authors/feature-summary/content-composer/before-you-start.md)
+      * [以自己的文件為基礎，讓你的課程成為基礎](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [內容撰寫者不具備的特色](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * 建立課程 {#create-course}
+      * [寫一個提示](authors/feature-summary/content-composer/write-a-prompt.md)
+      * [完成課程簡報](authors/feature-summary/content-composer/complete-course-brief.md)
+      * [管理原始碼檔案](authors/feature-summary/content-composer/manage-source-files.md)
+      * [編輯課程大綱](authors/feature-summary/content-composer/edit-course-outline.md)
+      * [檢視已生成的課程](authors/feature-summary/content-composer/review-generated-course.md)
+      * [檢視並編輯測驗](authors/feature-summary/content-composer/review-edit-quiz.md)
+      * [編輯課程內容](authors/feature-summary/content-composer/edit-course-text.md)
+      * [編輯或新增圖片](authors/feature-summary/content-composer/edit-add-image.md)
+      * [新增內容元件](authors/feature-summary/content-composer/add-content-component.md)
+      * [預覽賽道](authors/feature-summary/content-composer/preview-course.md)
+    * 撰寫有效的提示 {#write-effective-prompt}
+      * [在內容撰寫器中撰寫有效的提示](authors/feature-summary/content-composer/write-effective-prompts.md)
+    * 分享與協作 {#share}
+      * [分享並合作內容撰寫課程](authors/feature-summary/content-composer/share-collaborate.md)
+      * {hide-from-toc}[分享課程以供複習](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[與學習者分享課程](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[複習共用課程](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[檢視並新增課程評論](authors/feature-summary/content-composer/view-add-comments-course.md)
+    * 設定課程設定 {#settings}
+      * [一般課程設定](authors/feature-summary/content-composer/general-course-settings.md)
+      * [設定完成與成功標準](authors/feature-summary/content-composer/set-completion-success-criteria.md)
+      * [設定測驗設定](authors/feature-summary/content-composer/configure-quiz-settings.md)
+      * [連接並發佈到 Adobe Learning Manager](authors/feature-summary/content-composer/configure-alm-publish-settings.md)
+    * 管理課程主題 {#themes}
+      * [套用主題](authors/feature-summary/content-composer/apply-theme.md)
+      * [更換字型](authors/feature-summary/content-composer/change-fonts.md)
+      * [新增頁首和頁尾](authors/feature-summary/content-composer/add-header-footer.md)
+      * [設定光模式或暗模式](authors/feature-summary/content-composer/set-light-dark-mode.md)
+      * [進階主題自訂](authors/feature-summary/content-composer/advanced-theme-customization.md)
+      * [建立主題](authors/feature-summary/content-composer/create-theme.md)
+      * [匯出主題](authors/feature-summary/content-composer/export-theme.md)
+      * [匯入主題](authors/feature-summary/content-composer/import-theme.md)
+    * 發佈到 Adobe Learning Manager {#publishalm}
+      * [Adobe Learning Manager 內容撰寫器與 Adobe Learning Manager 如何協同運作](authors/feature-summary/content-composer/alm-coco-work-together.md)
+      * [ALM 中的模組版本管理](authors/feature-summary/content-composer/module-version-alm.md)
+      * [最佳實務](authors/feature-summary/content-composer/best-practices-publishing.md)
+      * [發佈到 Adobe Learning Manager](authors/feature-summary/content-composer/publish-to-alm.md)
+    * 參考資料 {#reference}
+      * [Adobe Learning Manager 內容作曲者測試版限制](authors/feature-summary/content-composer/content-composer-beta-limitations.md)
+      * [Adobe Learning Manager 內容撰寫器常見問題集](authors/feature-summary/content-composer/content-composer-faq.md)
+      * [主題 JSON 屬性參考](authors/feature-summary/content-composer/theme-json-reference.md)
+  * [場景設定](authors/feature-summary/settings.md)
 * 講師 {#instructor}
   * [模組](instructors/feature-summary/modules.md)
   * [管理學習者](instructors/feature-summary/learners.md)
@@ -224,7 +465,7 @@ ht-degree: 2%
   * [學習計畫](learners/feature-summary/learning-programs.md)
   * [認證](learners/feature-summary/certifications.md)
   * [工作輔助工具](learners/feature-summary/job-aids.md)
-  * [發掘並參與頻道](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [發掘並參與頻道（測試版）](learners/feature-summary/discover-and-engage-with-channels.md)
   * [ALM 中的多項目推車](learners/feature-summary/multi-item-cart.md)
   * [學習者成績簿](learners/feature-summary/alm-learner-gradebook.md)
   * [提交外部學習](learners/feature-summary/submit-external-learning.md)
@@ -255,14 +496,75 @@ ht-degree: 2%
   * [學習者成績單](managers/feature-summary/learner-transcripts.md)
   * [設定](managers/feature-summary/settings.md)
   * [iPad 與 Android 平板用戶](managers/feature-summary/ipad-android-tablet-users.md)
-* 開始使用 Live Hub{#getting-started-with-live-hub}
-  * [關於 Live Hub](../migrated/getting-started-with-live-hub/about-live-hub.md)
+* 與 Live Hub（測試版）合作 {#work-with-live-hub}
+  * [系統需求](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
+  * Live Hub 的角色 {#roles-in-live-hub}
+    * [行政長官](../migrated/getting-started-with-live-hub/administrator.md)
+    * [作者](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
+    * [講師](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
+    * [學習者](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
+  * [新增與管理講師](../migrated/getting-started-with-live-hub/instructor-management.md)
+  * [建立 Live Hub 會話](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
+  * 加入 Live Hub 會議 {#join-a-live-hub-session}
+    * [加入前設定](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
+    * [以講師身份參加 Live Hub 課程](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
+    * [以學習者身份參加 Live Hub 課程](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
+  * [了解 Live Hub 的配置](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
+  * 互動工具 {#engagement-tools}
+    * [作為講師管理教室設定](../migrated/getting-started-with-live-hub/manage-settings.md)
+    * 與會者座談 {#attendees-panel}
+      * [關於與會者座談會](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
+      * [管理與會者座談會](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
+      * [以學習者的身份利用參加者小組](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
+    * 聊天室{#chat-panel}
+      * [關於聊天小組](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
+      * [以講師身份使用聊天面板](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
+      * [以學習者的身份使用聊天面板](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md)
+    * 舉手並使用反應 {#raise-your-hand-and-use-reactions}
+      * [關於舉手與反應](../migrated/getting-started-with-live-hub/about-raise-hand-and-reactions.md)
+      * [管理參與者舉手與反應](../migrated/getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md)
+      * [舉手並分享回應](../migrated/getting-started-with-live-hub/raise-hand-and-send-reactions.md)
+    * 會話中的螢幕共享 {#screen-sharing-in-sessions}
+      * [關於螢幕共享](../migrated/getting-started-with-live-hub/about-the-screen-sharing.md)
+      * [以講師身份分享你的螢幕](../migrated/getting-started-with-live-hub/share-your-screen-as-an-instructor.md)
+      * [以學習者的身份分享你的螢幕](../migrated/getting-started-with-live-hub/share-your-screen-as-a-learner.md)
+    * 分享白板{#share-a-whiteboard}
+      * [關於白板](../migrated/getting-started-with-live-hub/about-the-whiteboard.md)
+      * [分享白板](../migrated/getting-started-with-live-hub/share-a-whiteboard.md)
+      * [學習者使用白板](../migrated/getting-started-with-live-hub/use-whiteboard-as-a-learner.md)
+    * 行為投票 {#conduct-polls}
+      * [關於民調](../migrated/getting-started-with-live-hub/about-the-polls.md)
+      * [建立並發起投票](../migrated/getting-started-with-live-hub/create-and-launch-a-poll.md)
+      * [回應投票](../migrated/getting-started-with-live-hub/respond-to-a-poll.md)
+    * 建立一個測驗{#create-a-quiz}
+      * [關於測驗](../migrated/getting-started-with-live-hub/about-the-quiz.md)
+      * [建立並管理測驗](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
+      * [嘗試做個測驗](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
+    * [追蹤參與者參與度](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
+    * 突圍事件 {#breakouts}
+      * [關於越獄事件](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
+      * [建立並管理分組討論](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
+      * [參加分組討論](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
+    * 隱藏字幕 {#closed-captions}
+      * [了解隱藏字幕](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
+      * [作為講師管理隱藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [作為學習者管理隱藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+    * 錄音與逐字稿{#recordings-and-transcripts}
+      * [理解錄音與逐字稿](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
+      * [錄製一場會話](../migrated/getting-started-with-live-hub/record-a-session.md)
+      * [以學習者的身份觀看錄影](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+    * 會話儀表板 {#session-dashboard}
+      * [查看會話儀表板](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
+      * [會話儀表板的組成部分](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
+  * [最佳實務](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
+  * [以學習者身份在行動裝置上使用 Live Hub](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * 常見問題 {#faq}
   * [行政人員常見問題](administrators/frequently-asked-questions-for-administrators.md)
   * [作者常見問題](authors/frequently-asked-questions-for-authors.md)
   * [教師常見問題](instructors/frequently-asked-questions-for-instructors.md)
   * [經理常見問題](managers/frequently-asked-questions-for-managers.md)
   * [學習者常見問題](learners/frequently-asked-questions-for-learners.md)
+  * [Live Hub 會議常見問題](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新體驗聯盟公告](/help/migrated/new-experience-league-announcement.md)
   * [如何在 Experience League 提交支援工單](/help/migrated/how-to-submit-support-ticket.md)
   * [在 Adobe Learning Manager 建立試用帳號](/help/migrated/create-trial-account.md)
@@ -274,6 +576,7 @@ ht-degree: 2%
 * 報告變更 {#reporting-changes}
   * [2026年8月發布中的變更報告](/help/migrated/reporting-changes-august-2026.md)
 * 知識庫 {#knowledge-base}
+  * [Live Hub 故障排除指南](./kb/troubleshooting-guide-for-live-hub.md)
   * [無法登入學習管理員](kb/unable-log-in-learning-manager.md)
   * [學習摘要不會顯示最新資料](kb/learning-summary-not-display-data.md)
   * [無法上傳 CSV 檔案](kb/unable-to-upload-csv.md)

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 發布說明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '33035'
+source-wordcount: '33968'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,13 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/tw/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
 
 +++更新 110：Adobe Learning Manager 2026 年 8 月版本
-
->[!IMPORTANT]
->
->本版本說明中描述的功能已包含在測試版中。 Adobe Learning Manager 測試版功能僅供評估用途，且可在正式發行前進行修改、限制或移除。 功能名稱、行為及設定選項可能會隨時更改，恕不另行通知。
 
 ## 發行亮點
 
@@ -49,25 +45,25 @@ ht-degree: 0%
 
 這些系統會在 LT 報告中加入特定帳戶的外部學習自訂欄位。 在 Admin LT 中，新增的自訂欄位會被附加在末尾;在 Learner LT 中，外部學習名稱與完成評論會插入相關模組與審查欄位附近，剩餘的自訂欄位則在最後加入。
 
-想了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的報告變更。
+想了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的[報告變更。
 
 ### 學習者成績單中認證的根訓練ID
 
 這會在管理 LT 和學習者 LT 兩側新增一個根訓練 ID 欄位。 該欄位出現在報告末尾，有助於辨識學習者紀錄的家長認證上下文。
 
-想了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的報告變更。
+想了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的[報告變更。
 
 ### Webhook 日期-時間格式與學習者逐字稿的對齊
 
 此系統將 webhook 資料物件的日期-時間值標準化至分鐘精確度。 秒數總是以 00 形式發出，使 webhook 的時間戳與 LT 報告格式對齊。
 
-想了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的報告變更。
+想了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的[報告變更。
 
 ### 學習者成績單中的權重欄
 
 對於啟用成績冊課程的模組，LT 報告中會新增權重欄。 這會直接在報告輸出中暴露模組權重。
 
-想了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的報告變更。
+想了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的[報告變更。
 
 ### learningObjects API 中的課程作者共享詳細資訊
 
@@ -101,7 +97,7 @@ AI 編排代理將單查詢請求的意圖偵測移至調排器，並移除手�
 
 **學習者：** 以影片為主頁的主播公告僅顯示初始影片畫面，播放未如預期自動開始。 影片播放行為已更新，確保支援的主播影片在公告載入時自動正確播放。 學習者現在可以在無需手動播放的情況下觀看以影片為主的報頭公告，提供更有趣的體驗。
 
-**學習者：**&#x200B;**你的網路**&#x200B;趨勢小工具錯誤地在兩排橫列顯示&#x200B;**「開始學習**」卡片。這個問題已經透過為每列渲染適當的空狀態卡來解決。 第一列現在顯示 **「前往目錄** 」連結，第二列則繼續顯示 **「開始學習** 」卡片，如預期般。
+**學習者：****你的網路**&#x200B;趨勢小工具錯誤地在兩排橫列顯示&#x200B;**「開始學習**」卡片。這個問題已經透過為每列渲染適當的空狀態卡來解決。 第一列現在顯示 **「前往目錄** 」連結，第二列則繼續顯示 **「開始學習** 」卡片，如預期般。
 
 **API：** 當學習者依名稱（A–Z）排序目錄時，公開 API 會以大小寫區分排序回傳結果，導致大寫課程名稱（AA、BB、CC）出現在小寫名稱（aa、bb）之前，而非遵循標準字母順序。 排序邏輯已更新為使用不區分大小寫的比較。 課程目錄結果現在會依預期的字母順序顯示，無論字母大小寫，確保課程名稱的順序一致。
 
@@ -118,6 +114,59 @@ AI 編排代理將單查詢請求的意圖偵測移至調排器，並移除手�
 **電子郵件範本與設定：** 當管理員更新電子郵件範本設定中的郵件橫幅時，新橫幅在 Outlook 桌面上正確顯示，但在 Outlook 網頁中卻未顯示，導致不同客戶的郵件體驗不一致。 電子郵件範本渲染已更新，以確保橫幅在各 Outlook 平台間的相容性。 更新後的電子郵件橫幅現在在 Outlook 桌面版和 Outlook 網頁版中都能正確顯示。
 
 ## 釋出中已知的問題
+
+### 講師無法在模組間加入虛擬教室
+
+講師若嘗試在其指定課程模組的預定時間外進入教室，則不得加入虛擬教室。
+
+Adobe Learning Manager 使用單一虛擬教室教室來管理課程中的所有模組。 當講師啟動教室時，該課程會與該講師加入的模組相關聯網址。 任何後續的加入請求都必須與該房間相關的活動模組相匹配。 如果另一位講師在其他模組啟動時，使用不同模組的加入連結嘗試加入，則可存取房間被拒絕。 共用房間同時只能啟用一個模組。
+
+這種行為在目前版本中是預期中的。 未來版本將進行強化，讓課程講師無論使用哪個模組都能加入教室。
+
+### 當麥克風和喇叭在 macOS 上不同時，音訊會斷斷續續
+
+當選定的麥克風與喇叭為不同裝置時，macOS 虛擬教室的音訊可能會間歇性斷斷續續或聽起來雜亂。
+
+當音訊輸入輸出使用不同裝置時，例如麥克風用 AirPods，播放用內建喇叭，這些行為可能發生。 因為每個裝置都會引入自己的音訊延遲，也就是回聲消除效果較差，且背景噪音抑制有時會將語音部分誤認為噪音。 這可能導致短暫的音訊中斷。 問題在說話者的聲音會被捕捉到較低的音量，例如當麥克風位置較遠時。
+
+這是已知的平台限制，並非 Adobe Learning Manager 特有。 類似行為也在其他會議應用中被觀察到。 本版本未包含任何修正，且問題正在評估未來版本。
+
+麥克風和喇叭都用同一個裝置，避免這種行為。
+
+### 共享影片在 Chrome 中因失去焦點而凍結
+
+當講師分享 Chrome 視窗播放影片後，轉開焦點時，與會者可能會看到共享內容凍結或顯示黑屏。
+
+影片會持續在本地為講師播放，但遠端參加者可能無法看到內容更新，因為共享視窗是模糊的。 行為會依作業系統而異：
+
+- 在 Windows 上，參加者看到的是黑屏。
+- 在 macOS 上，參加者會看到最後顯示的影片幀。
+
+當焦點回到共享瀏覽器視窗時，與會者的影片播放通常會恢復。
+
+這是瀏覽器和作業系統的限制，並非 Adobe Learning Manager 專屬。 本版本沒有針對特定產品的修正。
+
+在呈現影片內容時，保持共享瀏覽器視窗的焦點。 播放時避免切回虛擬教室視窗。
+
+### 講師無法加入已經在使用的模組
+
+當講師嘗試同時啟動兩個使用相同虛擬教室的課程模組時，只有第一位講師能成功進入教室。
+
+Adobe Learning Manager 使用單一共享虛擬教室作為課程實例。 當第一位講師加入教室時，該教室會與該講師的模組相連結。 額外的加入請求包括已與主動模組進行驗證。 若其他講師嘗試使用其他模組連結加入，將被拒絕存取。 因此，無法在同一會議中同時進行由講師主導的課程課程實例使用共用一個房間的獨立模組。
+
+這種行為在目前版本中是預期的，且與現有房間架構一致。 此功能正根據客戶回饋進行未來改進評估。
+
+### 分享內容回到 Live Hub 視窗後會顯示隧道效應
+
+當講師分享整個螢幕後再回到 Live Hub 視窗時，參與者可能會在共享內容中感受到隧道效應。 當你分享整個螢幕時，共享的動態會包含桌面上顯示的所有內容。 切回 Live Hub 視窗可能導致共享內容反覆擷取並顯示 Live Hub 介面，導致意想不到的視覺行為。 這是全螢幕共享的已知限制，目前正在評估未來版本的推出。
+
+分享特定的應用程式或視窗，而不是整個螢幕。 例如，分享你希望參與者觀看的簡報或文件視窗。 共用單一應用程式可以讓共享內容被隔離，並防止隧道效應。
+
+### 結束會話後，會議儀表板報告不會立即顯示
+
+結束會話重新加入後，會話儀表板報告不會立即顯示如果講師在課程結束後查看會議儀表板，然後再用該課程的網址重新加入，現有的課程儀表板報告可能不再可用。 報告刷新後大約需要五到七分鐘，同時在處理上一個會話實例期間重新可用。 這是已知的限制，目前正在評估未來版本的推出。
+
+關閉會話後等五到七分鐘後再重新開啟儀表板網址。 這允許先前的會話實例完成處理，之後會話儀表板報告才會再次可用。
 
 ### 匯出後的教室地點 CSV 中欄位名稱未本地化
 
@@ -137,7 +186,7 @@ AI 編排代理將單查詢請求的意圖偵測移至調排器，並移除手�
 
 ### 座位限制欄位允許不切實際的數值高達4,294,967,295
 
-教室地點模態中的座位限制欄位接受最高 4,294,967,295（~43 億）的值，這個上限技術上是由底層資料類型驅動，而非現實的商業限制。使用者可以輸入並儲存不切實際的座位數，例如一億億，且不會被任何商業層級驗證拒絕。
+教室地點模式中的座位限制欄位接受最高 4,294,967,295（~43 億）的值，這個上限技術上是由底層資料型態驅動，而非實際的業務限制。 用戶可以輸入並儲存不切實際的座位數，例如1,000,000,000，且不會經過任何商業層級的驗證。
 此版本尚未修正;現實的商業最大限額尚未達成共識或執行。
 
 +++
@@ -181,9 +230,11 @@ AI 編排代理將單查詢請求的意圖偵測移至調排器，並移除手�
 1. 以教官身份登入。
 2. 在左側導航面板進入過去的會話。 頁面中會顯示過去的遊戲列表。
 3. 從過去的會議清單中選擇一個會話名稱。
-4. 在左側導航面板中導航至學習者。   ![](assets/instructor-send-email1.png)
+4. 在左側導航面板中導航至學習者。
+   ![](assets/instructor-send-email1.png)
 5. 從學習者名單中選擇一位學習者。
-6. 在右上角， **開啟了「動作** 」下拉選單，顯示更多選項（包括灰色的選項）。 **「發送電子郵件給所有人** 」是其中一個選項。   ![](assets/instructor-send-email2.png)
+6. 右上角的 **動作** 下拉選單開啟，顯示更多選項（包括灰色的選項）。 **「發送電子郵件給所有人**」是其中一項選項。
+   ![](assets/instructor-send-email2.png)
 
 **自動清除已刪除用戶：** 自動清除刪除用戶設定為刪除期限為一年。 這也被強化以容納「天數」的數量。 管理員現在可以透過聯絡客戶成功經理，從後端申請變更。
 
@@ -479,7 +530,7 @@ L1 回饋只能在個別學習物件中設定，這限制了彈性，也讓管�
 * 針對特定角色進行批量啟用或停用。
 * 依範本可視化角色。
 
-更多資訊請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level)。
+更多資訊請參閱本文[](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level)。
 
 ## 為已完成課程的學習者提供更佳的內容版本控制
 
@@ -547,13 +598,13 @@ _Content update options_
 >
 >此增強功能僅適用於靜態內容。
 
-有關流體演奏者的更多資訊，請參閱本文[&#128279;](/help/migrated/learners/feature-summary/fluidic-player.md)。
+有關流體演奏者的更多資訊，請參閱本文[](/help/migrated/learners/feature-summary/fluidic-player.md)。
 
 ## 本版本修正了錯誤
 
 * 修正了完成課程的學習者在內容模組更新到新版本後重看時看到白畫面的問題。
 
-此外，關於 Adobe Learning Manager 即將更新的細節，請參閱本文[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，關於 Adobe Learning Manager 即將更新的細節，請參閱本文[](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 
@@ -572,7 +623,7 @@ _Content update options_
 
 Adobe Learning Manager （ALM） 現在接受語言的 SAML 屬性。 此屬性隨後會映射到使用者的介面與內容語言設定，確保以偏好語言與 LMS 順暢互動。 這些語言設定的配置透過身份與存取管理（IAM）平台管理，採用 SAML 進行單點登入（SSO）。 這支援由服務提供者（SP）發起的登入，也支援身份提供者（IdP）發起的登入，讓使用者能以自己選擇的語言查看介面與內容。
 
-欲了解更多資訊，請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)。
+欲了解更多資訊，請參閱本文[](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)。
 
 ## 遷移 API 的強化
 
@@ -582,7 +633,7 @@ Adobe Learning Manager （ALM） 現在接受語言的 SAML 屬性。 此屬性�
 
 學習者應用程式的排序功能會根據內容和介面語言提供個人化課程推薦。 此改進簡化了學習者尋找偏好語言課程及更智慧排序選項的過程。
 
-欲了解更多資訊，請參閱本文[&#128279;](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)。
+欲了解更多資訊，請參閱本文[](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)。
 
 +++
 
@@ -818,7 +869,7 @@ Microsoft Teams 上全新的 Adobe Learning Manager 應用程式旨在促進工�
 ### 本版本的效能改進
 
 當進行大量學習者登記時，不會為每位學習者產生任何日誌檔案。
-我們已優化大型帳戶學習計畫的處理方式。這樣做可以避免任何搜尋問題或延遲。
+我們已優化大型帳戶學習計畫的處理方式。 這樣做可以避免搜尋問題或延遲。
 +++
 
 +++更新 87
@@ -968,7 +1019,7 @@ Microsoft Teams 上全新的 Adobe Learning Manager 應用程式旨在促進工�
 * 玩家自訂
 * 學員與經理的模仿
 
-**注意：**&#x200B;隨著 Adobe Learning Manager 於 2022 年 11 月發布，Zoom 將於 2023[&#128279;](https://marketplace.zoom.us/docs/guides/auth/jwt/) 年 6 月前棄用 JWT 認證。因此，與 JWT 的 Zoom 連接器將持續使用直到指定日期，但我們建議用戶建立伺服器對伺服器的 OAuth 應用程式，以取代帳號中的此功能。 任何新連線預設都會有 Zoom OAuth 認證。
+**注意：**&#x200B;隨著 Adobe Learning Manager 於 2022 年 11 月發布，Zoom 將於 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/) 年 6 月前棄[用 JWT 認證。因此，與 JWT 的 Zoom 連接器將持續使用直到指定日期，但我們建議用戶建立伺服器對伺服器的 OAuth 應用程式，以取代帳號中的此功能。 任何新連線預設都會有 Zoom OAuth 認證。
 
 ### 本次更新修正的錯誤
 
@@ -1359,7 +1410,7 @@ Learning Manager 為所有管理員與經理提供合規儀表板。 經理們�
 
 +++更新 66 - 2021 年 8 月 學習管理員發布
 
-**2021**&#x200B;**年 8 月的 Adobe Learning Manager** 版本著重於提升學習者體驗、報告及行政工作流程。部分亮點包括：
+**2021****年 8 月的 Adobe Learning Manager** 版本著重於提升學習者體驗、報告及行政工作流程。部分亮點包括：
 
 * **內容市場：** Learning Manager 現提供超過 70,000 門來自科技、管理、領導力等多元領域的課程。
 * **強化無障礙支援：** 學習者角色的無障礙支援透過強化鍵盤導航、螢幕閱讀器功能及對比度相容性。
@@ -1580,7 +1631,7 @@ Captivate Learning Manager 行動應用程式 3.3 更新引入全新首頁，支
 * 從 Salesforce 聯絡人匯入使用者。
 * ...還有更多。
 
-欲了解更多資訊，請參閱 2021 年 2 月學習管理員[&#128279;](../whats-new.md)更新中的「最新資訊」。
+欲了解更多資訊，請參閱 2021 年 2 月學習管理員](../whats-new.md)更新中的「[最新資訊」。
 
 ### 本次更新修正的錯誤 {#bug-fixes}
 
@@ -1631,7 +1682,7 @@ Captivate Learning Manager 行動應用程式 3.3 更新引入全新首頁，支
 
 * 少數使用者名稱帶有特殊字元，並未如預期收到電子郵件通知。
 * 在沉浸式視圖中，有些情況下，行事曆小工具並未如預期顯示即將到來的虛擬客戶會議。
-* 在學習者應用程式中，**&#x200B;**&#x200B;技能篩選器沒有如預期般運作。這個問題已經修正了。
+* 在學習者應用程式中，****&#x200B;技能篩選器沒有如預期般運作。這個問題已經修正了。
 
 **搜尋**
 
@@ -1793,7 +1844,7 @@ BlueJeans Events 連接器連接 Learning Manager 與 BlueJeans 系統，以自�
 
 Learning Manager 已經在學習平台上支援 LinkedIn Learning 課程。 現在，學習者可以在 Learning Manager 行動應用程式中修習這類 LinkedIn Learning 課程。 在裝置應用程式中搜尋課程，然後開始課程。
 
-欲了解更多資訊，請參閱「從 LinkedIn Learning ***[&#128279;](../learners/feature-summary/ipad-android-tablet-users.md#linkedin)修課***」。
+欲了解更多資訊，請參閱「從 LinkedIn Learning ***](../learners/feature-summary/ipad-android-tablet-users.md#linkedin)修課[***」。
 
 ### 管理員註冊的推播通知 {#pushnotificationforadminenrollments}
 
@@ -2033,7 +2084,7 @@ Learning Manager 現在只要點擊 Learning Manager 支援的連結或網址，
 
 學習者可以開啟外部憑證並上傳資源，如 PDF、文字或圖片檔案。
 
-欲了解更多資訊，請參閱  [***「在外部憑證***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;中上傳資產」。**&#x200B;**
+欲了解更多資訊，請參閱  [***「在外部憑證***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)&#x200B;中上傳資產」。****
 
 ### 本版本已修正的問題 {#issuesfixedinthisrelease}
 
@@ -2184,7 +2235,7 @@ Learner API 現在允許擷取學習者範圍內的所有學習者及遊戲化�
 
 這只適用於學習者檔案。
 
-在&#x200B;**目錄**&#x200B;和&#x200B;**我的學習**&#x200B;頁面，學習者可以在左側面板套用篩選器，例如&#x200B;**&#x200B;**&#x200B;課程或&#x200B;**學習計畫**，然後點擊課程或目錄項目。
+在&#x200B;**目錄**&#x200B;和&#x200B;**我的學習**&#x200B;頁面，學習者可以在左側面板套用篩選器，例如&#x200B;****&#x200B;課程或&#x200B;**學習計畫**，然後點擊課程或目錄項目。
 
 ![](assets/choose-learning-objects.png)
 
@@ -2352,7 +2403,7 @@ Learning Manager 現在也允許學習者使用 SSO 認證進入 Connect 房間�
 
 ### 新增與強化功能 {#Newandenhancedfeatures-5}
 
-**社會學習中內部與外部使用者**&#x200B;的範圍分離 管理員可以為內部與外部學習者定義獨立的範圍。 新增了兩個內部與外部使用者區塊。 在這兩個部分，你可以定義學習者群組的範圍。 對於內部使用者，你可以定義使用者特徵的值。 對於外部使用者，你可以定義外部設定檔，讓學習者共享相同的社交空間。 欲了解更多資訊，請參閱 [***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交-限制社交板**&#x200B;的建立 為了限制所有學習者創建板並有效管理板，管理員可以授權特定用戶建立板。 管理員可限制委員會的成立僅限於特定群體，而非所有參與社會學習的學習者。 欲了解更多資訊，請參閱 [***董事會創建權限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅顯示空的活動欄位給學習者**&#x200B;管理員可選擇顯示活動欄位或在填入數值後隱藏欄位。 欲了解更多資訊，請參閱 [***使用者顯示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定不活躍**&#x200B;期間會被刪除。管理員可以設定若內部學習者在指定期間內保持不活躍，則該學習者會被刪除的時間（以天數計）。 欲了解更多資訊，請參閱 **&#x200B;**&#x200B;[&#x200B; 自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)。  **在頁尾**&#x200B;自訂連結 管理員可以在頁尾新增和自訂連結。 連結也可依不同地點客製化。 現有在頁腳新增聯絡管理員連結的方法，也 **可在頁腳連結** 區找到。 欲了解更多資訊，請參閱 [***自訂頁腳連結***](../administrators/feature-summary/settings.md#footer)。
+**社會學習中內部與外部使用者**&#x200B;的範圍分離 管理員可以為內部與外部學習者定義獨立的範圍。 新增了兩個內部與外部使用者區塊。 在這兩個部分，你可以定義學習者群組的範圍。 對於內部使用者，你可以定義使用者特徵的值。 對於外部使用者，你可以定義外部設定檔，讓學習者共享相同的社交空間。 欲了解更多資訊，請參閱 [***範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)。  **社交-限制社交板**&#x200B;的建立 為了限制所有學習者創建板並有效管理板，管理員可以授權特定用戶建立板。 管理員可限制委員會的成立僅限於特定群體，而非所有參與社會學習的學習者。 欲了解更多資訊，請參閱 [***董事會創建權限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)。  **僅顯示空的活動欄位給學習者**&#x200B;管理員可選擇顯示活動欄位或在填入數值後隱藏欄位。 欲了解更多資訊，請參閱 [***使用者顯示***](../administrators/feature-summary/add-users-user-groups.md#activefields)。  **內部使用者在指定不活躍**&#x200B;期間會被刪除。管理員可以設定若內部學習者在指定期間內保持不活躍，則該學習者會被刪除的時間（以天數計）。 欲了解更多資訊，請參閱 ****[ 自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)。  **在頁尾**&#x200B;自訂連結 管理員可以在頁尾新增和自訂連結。 連結也可依不同地點客製化。 現有在頁腳新增聯絡管理員連結的方法，也 **可在頁腳連結** 區找到。 欲了解更多資訊，請參閱 [***自訂頁腳連結***](../administrators/feature-summary/settings.md#footer)。
 
 ### 本版本已知問題 {#Knownissuesinthisrelease-2}
 
@@ -3547,8 +3598,8 @@ Learning Manager 提供一個功能，讓你能為組織的學習者產生成績
 
 **電子郵件範本**
 
-* 原本用來代表外部團體的「夥伴」一詞&#x200B;**，已**&#x200B;**&#x200B;**&#x200B;**從電子郵件範本的正文和標題中移除。**&#x200B;外部團體不一定稱為夥伴。\
-  **注意：** 若預設範本已被修改，此更新範本不會出現。 要查看更新後的範本，請在範本預覽對話框中點擊&#x200B;**「還原為原始**&#x200B;**」。**
+* 原本用來代表外部團體的「夥伴」一詞&#x200B;**，已********從電子郵件範本的正文和標題中移除。**&#x200B;外部團體不一定稱為夥伴。\
+  **注意：** 若預設範本已被修改，此更新範本不會出現。 要查看更新後的範本，請在範本預覽對話框中點擊&#x200B;**「還原為原始****」。**
 
 * 管理員 **在編輯個人檔案建立（自我註冊）**&#x200B;及&#x200B;**個人資料建立（外部/合作夥伴** ）電子郵件範本時，該網址無法被點擊。 這個問題已經解決了。
 

@@ -1,17 +1,17 @@
 ---
 title: 發掘並參與頻道
 description: 學習如何在 Adobe Learning Manager 的頻道中找到、訂閱、觀看、按讚及加入影片內容的討論。
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
 
 
-# 發掘並參與頻道
+# 發掘並參與頻道（測試版）
 
-頻道協助學習者發現並存取 Adobe Learning Manager 中網頁及雲端匯流頁面中精選的影片非正式學習內容。 管理員透過連結企業網頁或雲端匯流頁面來建立頻道，這些頁面會承載錄製的知識分享與知識轉移會議。
+頻道協助學習者發現並存取 Adobe Learning Manager 內網頁及雲端匯流頁面中精選的影片非正式學習內容。 管理員透過連結企業網頁或雲端匯流頁面來建立頻道，這些頁面會承載錄製的知識分享與知識轉移會議。
 
 你不必在多個內部網站間搜尋，而是直接在 Learning Manager 中瀏覽頻道內容。 頻道提供一個集中的平台，讓你發現相關影片、隨時掌握新內容，並參與組織的自節奏學習資源。
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 1. 從上方導航欄選擇 **頻道** 。
 
-   <br>**&#x200B;**&#x200B;頻道頁面預設&#x200B;**顯示「全部**」標籤。
+   <br>****&#x200B;頻道頁面預設&#x200B;**顯示「全部**」標籤。
 
    ![頻道頁面 全部標籤](assets/channels-page-all-tab.png)
 

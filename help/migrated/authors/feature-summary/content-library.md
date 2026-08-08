@@ -3,9 +3,9 @@ description: 學習如何創作與課程對齊的內容，作為自學進度的�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '5914'
+source-wordcount: '5948'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 新增靜態內容 {#addstaticcontent}
 
-1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**&#x200B;[!UICONTROL Content Library]&#x200B;**，然後選擇&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**。**
+1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**[!UICONTROL Content Library]**，然後選擇&#x200B;**[!UICONTROL Add]**。**
 
    或者，你也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面中選擇&#x200B;**[!UICONTROL Create Content]**。
 
@@ -195,7 +195,7 @@ _學習者成績完成_
 
 ## 新增互動內容 {#addinteractivecontent}
 
-1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**&#x200B;[!UICONTROL Content Library]&#x200B;**，然後選擇&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**。**
+1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**[!UICONTROL Content Library]**，然後選擇&#x200B;**[!UICONTROL Add]**。**
 
    或者，你也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面中選擇&#x200B;**[!UICONTROL Create Content]**。
 
@@ -246,7 +246,7 @@ _學習者成績完成_
 
    在播放器上，切換流體播放器的CC按鈕來顯示或隱藏字幕。
 
-   同樣的視圖也存在於&#x200B;**學習器應用程式**&#x200B;**及預覽**&#x200B;學習器中。
+   同樣的視圖也存在於&#x200B;**學習器應用程式****及預覽**&#x200B;學習器中。
 
    當你新增、更新或刪除&#x200B;**VTT 檔案時**，你會收到通知。
    WebVTT 支援不支援以下模式：
@@ -441,20 +441,18 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 
 3. 請輸入內容名稱和描述。
 
-4. 在新增內容檔案&#x200B;**中**，拖曳內容檔案，或選擇瀏覽並上傳的欄位。   ![](assets/cl2.png)
+4. 在新增內容檔案&#x200B;**中**，拖曳內容檔案，或選擇瀏覽並上傳的欄位。
+   ![](assets/cl2.png)
 
-5. 在「新增資料夾&#x200B;**」中**，瀏覽該資料夾或在搜尋欄位搜尋該資料夾。   ![](assets/cl3.png)
+5. 在「新增資料夾&#x200B;**」中**，瀏覽該資料夾或在搜尋欄位搜尋該資料夾。你也可以選擇多個資料夾。
+   ![](assets/cl3.png)
 
 6. 選擇 **新增**。
 
 7. 依需求填寫剩餘欄位 **、持續時間**、 **標籤**、 **內容唯一 ID** 及 **到期日**。
 
-8. 選擇 **儲存**。內容檔案會被加入內容庫，並顯示在清單頂端。   ![](assets/cl4.png)
-
->[!NOTE]
->
->你不能在公開和私人資料夾之間複製或移動內容。 如果你嘗試這麼做，Adobe Learning Manager 會顯示錯誤訊息。
-
+8. 選擇 **儲存**。 內容檔案會被加入內容庫，並出現在列表頂端。
+   ![](assets/cl4.png)
 
 ## 在內容庫中查看資料夾路徑
 
@@ -472,22 +470,24 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 
 **內容庫中的資料夾**&#x200B;篩選器可以讓你縮小範圍，只顯示存放在特定資料夾中的內容。
 
-1. 在 **內容庫**&#x200B;中，選擇 **欄位標頭的資料夾** 下拉選單。   ![](assets/cl5.png)下拉選單顯示公共資料夾和私人資料夾清單。 公開與私人資料夾無法同時選擇。 選擇其中一項會取消選擇另一項。
+1. 在 **內容庫**&#x200B;中，選擇 **欄位標頭的資料夾** 下拉選單。
+   ![](assets/cl5.png)下拉選單顯示公共資料夾和私人資料夾清單。 公開與私人資料夾無法同時選擇。 選擇其中一項會取消選擇另一項。
 
 2. 要依照特定的私人資料夾篩選：
    * 選擇 **第一層資料夾** 會自動選取該資料夾下所有第二層和第三層子資料夾。 這些子資料夾顯示為已選取，但無法單獨取消選取。 過濾器會回傳 Level 1 資料夾及其子資料夾中的所有內容。
-   * 選擇 **Level 2 資料夾** 會自動選取該資料夾下所有 Level 3 子資料夾。     ![](assets/cl6.png)
+   * 選擇 **Level 2 資料夾** 會自動選取該資料夾下所有 Level 3 子資料夾。
+     ![](assets/cl6.png)
 
 3. 使用下拉選單搜尋方塊，依名稱找到資料夾。
 
-4. 你一次最多可以選擇 **25 個資料夾** 。 選擇超過 25 則會顯示錯誤。
+4. 你可以一次選擇多個資料夾。
 
 ## 將內容移至資料夾 {#movecontenttofolder}
 
 移動內容會將其從目前資料夾移除，並放入目標資料夾。 你可以在對話框中選擇多個私人資料夾來移動內容。 不過，你不能同時選擇私人和公開資料夾。 你可以選擇多個私人資料夾，或是一個公開資料夾。
 
 1. 在內容庫&#x200B;**中**，選擇你想移動的每個內容檔案旁的勾選框。
-2. 選擇動作>組織內容&#x200B;**>**&#x200B;將內容移至資料夾&#x200B;**。**&#x200B;**&#x200B;**&#x200B;**「將內容移到資料夾**」面板會打開。
+2. 選擇動作>組織內容&#x200B;**>**&#x200B;將內容移至資料夾&#x200B;**。********「將內容移到資料夾**」面板會打開。
 3. 選擇你想移動內容的目標資料夾。
 4. 選擇 **移動內容**。 內容庫會更新顯示新的資料夾路徑。
 
@@ -701,7 +701,7 @@ Copying a folder means that you'd be adding a tag to the folder. The copy operat
    ![](assets/add-content.PNG)
    _選擇在內容庫中新增內容_
 
-4. 輸入 和&#x200B;**[!UICONTROL Name]**&#x200B;**[!UICONTROL Description]**
+4. 輸入 和&#x200B;**[!UICONTROL Name]****[!UICONTROL Description]**
 
 5. 從選項 **[!UICONTROL Add Content File]** 中選擇內容
 6. 從選項中選擇資料夾， **[!UICONTROL Add to Folder]** 即可將內容加入資料夾。
