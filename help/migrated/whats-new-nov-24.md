@@ -219,7 +219,7 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
 
 ### 模組遷移的變更
 
-當你將模組遷移到 ALM 時，它們預設會儲存在 public 資料夾中。 在這個版本中，我們在 module_version.csv](assets/module_version.csv) 檔案中新增了一個欄位。`folder` [管理員可以使用此欄位指定遷移後模組應該放置的資料夾名稱。 管理員也可以透過以逗號分隔資料夾名稱，將單一模組放入多個資料夾中。
+當你將模組遷移到 ALM 時，它們預設會儲存在 public 資料夾中。 在這個版本中，我們在 module_version.csv[&#128279;](assets/module_version.csv) 檔案中新增了一個欄位。`folder` 管理員可以使用此欄位指定遷移後模組應該放置的資料夾名稱。 管理員也可以透過以逗號分隔資料夾名稱，將單一模組放入多個資料夾中。
 
 資料夾欄位使用字串資料型別，且是可選欄位。 以下是資料夾欄位的條件：
 
@@ -255,7 +255,7 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
 
 3. `quizData`:
 
-   * 資料型別應為字串，支援的值為 `QUIZ_ATTEMPTED`、 、 `QUIZ_PASSED``QUIZPASSED_OR_LIMITREACHED`和 。
+   * 資料型別應為字串，支援的值為 `QUIZ_ATTEMPTED`、 、 `QUIZ_PASSED`&#x200B;`QUIZPASSED_OR_LIMITREACHED`和 。
    * 當 `completionCriteria` 設定為 `QUIZ`時，在欄位中輸入相應的測驗值 `quizData` 。
 
 更多資訊請參考 [module_version csv 規格](assets/module_version.csv) 檔。
@@ -269,7 +269,7 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
 * 資料型別應為字串或數字，且為可選欄位。
 * 這些值應該是 `ALL`、 `X`、 `SELECTEDMODULES`和 。
 * X 是一個整數值，應該大於 0，且小於模數總數。
-* 如果你設定`completionCriteria`為 `SELECTEDMODULES`，你需要在 course_module.csv](assets/course_module.csv) 檔案中標記必須的模組[。
+* 如果你設定`completionCriteria`為 `SELECTEDMODULES`，你需要在 course_module.csv[&#128279;](assets/course_module.csv) 檔案中標記必須的模組。
 * 在欄位 `optionalCriteria` 中輸入 `TRUE` 或 `FALSE`。 如果你設定了 ， `TRUE` 那模組就會變成必修。
 
 詳情請參閱 [課程 csv spec](assets/course.csv) 及 [course_module csv spec](assets/course_module.csv) 檔案。
@@ -300,7 +300,7 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
 
 ### 公告 API 變更
 
-現在包含`GET /announcements API``altText`屬性以提供報頭描述。
+現在包含`GET /announcements API`&#x200B;`altText`屬性以提供報頭描述。
 
 #### 使用 cURL 的範例請求：
 
@@ -472,7 +472,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 
 ### 透過工作 API 下載使用者群組及自訂角色稽核報告
 
-使用者可透過 .and 下載&#x200B;**[!UICONTROL User Group Report]****[!UICONTROL Custom Role Audit Report]**。`Job API`
+使用者可透過 .and 下載&#x200B;**[!UICONTROL User Group Report]**&#x200B;**[!UICONTROL Custom Role Audit Report]**。`Job API`
 
 #### 用戶群組報告下載範例請求：
 
