@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 課程創建、修改與發佈
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
 workflow-type: tm+mt
-source-wordcount: '9840'
+source-wordcount: '10073'
 ht-degree: 0%
 
 ---
@@ -55,10 +55,10 @@ Adobe Learning Manager 讓作者能利用一個或多個與虛擬訓練、自學
 4. 若要讓您的課程能支援其他語言，請從頁面左上角點擊新增語言。 選擇你想開設課程的語言。 點擊 **[!UICONTROL Save]**。 欲了解更多資訊，請參閱 [「新增不同語言](/help/migrated/authors/feature-summary/content-library.md)內容」。
 5. **修改賽道設定**-
 
-   a.在課程設定頁面，選擇該課程的技能。從技能下拉選單中選擇所需技能。接著，從等級下拉選單中選擇所需等級。
-   b.選擇課程技能、等級，並設定該技能的學分。如有需要，可增加更多技能。
-   c. 如有需要，為課程新增自訂合規標籤。參見 [「為課程/學習路徑/認證](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)新增合規標籤」。
-   d. 從 **「註冊類型** 」下拉選單中選擇註冊類型。
+   a. 在課程設定頁面，選擇課程的技能。 從技能下拉選單中選擇所需的技能。 然後，從等級下拉選單中選擇所需的等級。
+   b. 選擇課程技能、升級，並設定技能的學分。 如果需要，可以增加更多技能。
+   c. 如有需要，請在課程中新增自訂合規標籤。 請參見 [「在課程/學習路徑/認證](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification)中加入合規標籤」。
+   d. 從 **「註冊類型** 」下拉選單中，選擇註冊類型。
 
    以下是報名的類型：
 
@@ -213,7 +213,7 @@ Gradebook 在建立新課程時會依課程層級設定。 它不能被加入現
    >最多可有50門課程、學習路徑或證照，對自訂合規類型標籤具有相同價值。
 
 1. 儲存並發佈課程/學習路徑/認證。
-現在課程/學習路徑/認證被視為合規類型。管理員可以將此課程加入合規儀表板，並與主管分享以追蹤進度
+現在課程/學習路徑/認證被視為合規類型。 管理員可以將此課程加入合規儀表板，並與主管分享以追蹤進度
 
 >[!NOTE]
 >
@@ -230,7 +230,8 @@ Gradebook 在建立新課程時會依課程層級設定。 它不能被加入現
 5. 進入實例的屬性：
 
    * 在欄位 **[!UICONTROL Instance Name]** 中輸入你想與該課程關聯的實例名稱。 務必為該事件使用獨特的名稱。
-   * **開始日期：** 這是課程的開始日期。在這個開始日期之前，可以分別在兩個不同選定日期發送兩封提醒郵件給學習者。開始日期必須早於完成日期。一旦選擇開始日期，這個日期會在實 **例的通知提醒** 區塊中以藍色標示顯示。     ![](assets/start-date-instance.png)
+   * **開始日期：** 這是課程的開始日期。 在開始日期之前，可於兩個不同選定日期向學習者發送兩封提醒電子郵件。 開始日期必須比完成日期早。 一旦選擇起始日期，該日期會在該 **實例的通知提醒** 區塊中以藍色標示顯示。
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * 指定該實例的完成截止日期。 學員必須在此日期前完成課程。
    * 選擇 **[!UICONTROL Show More Options]** 顯示其他截止日期選項。
@@ -248,8 +249,10 @@ Gradebook 在建立新課程時會依課程層級設定。 它不能被加入現
 2. 在行事曆上，選擇一個比實例開始日期早的日期作為第一次提醒。
 3. 在右側選擇 **新增提醒** 。
 4. **電子郵件範本：** 從下拉選單中選擇範本
-5. **復發：** 從下拉選單中選擇一種復發類型。選擇右側藍色勾勾以儲存提醒日期。請記得每個提醒日期必須分別儲存。   ![](assets/start-date-reminder1.png)
-6. 選擇另一個日期，且同樣早於課程開始日期，重複這個流程，然後點選右側的藍色勾選標記來儲存這個提醒日期。   ![](assets/start-date-reminder2.png)
+5. **復發：** 從下拉選單中選擇一種重現類型。 請選擇右側的藍色勾選標記以儲存提醒日期。 記得每個提醒日期都必須分別保存。
+   ![](assets/start-date-reminder1.png)
+6. 選擇另一個日期，且同樣早於課程開始日期，重複這個流程，然後點選右側的藍色勾選標記來儲存這個提醒日期。
+   ![](assets/start-date-reminder2.png)
 
 ## 查看實例的屬性 {#viewpropertiesoftheinstance}
 
@@ -589,6 +592,8 @@ Gradebook 在建立新課程時會依課程層級設定。 它不能被加入現
 
    **注意：** 學習者必須在 Microsoft Teams 上可用。 不過，學習者可以以訪客身份加入學習經理。
 
+   如果管理員已啟用 ALM 帳號的 Live Hub，你也可以建立 Live Hub 課程。 若要使用 Live Hub 建立 VC 會話，請查看 [「建立 Live Hub 會話」](../../getting-started-with-live-hub/create-a-live-hub-session.md)
+
    **課堂模組：** 在此模式下，學習者需參加由受過訓練的講師主持的實體講座。 輸入標題、描述，並設定會話長度。 你也可以指定課程地點及授課老師。 要儲存變更，請點擊 **[!UICONTROL Done]**。
 
    >[!NOTE]
@@ -663,7 +668,8 @@ Adobe Learning Manager 為作者提供工具，以建立、編輯及管理由多
 3. 選擇任一課程，然後選擇 **[!UICONTROL Edit]**。
 4. 選擇你想更換的模組。
 5. 更改標題和描述。
-6. 請使用 **內容** 選項選擇模組。   ![](assets/replace-the-module.png)
+6. 請使用 **內容** 選項選擇模組。
+   ![](assets/replace-the-module.png)
 7. 選擇 **[!UICONTROL Done]**。
 8. 選擇 **[!UICONTROL Republish]**。
 
@@ -977,7 +983,7 @@ Adobe Learning Manager 為作者提供工具，以建立、編輯及管理由多
   * 總成績
   * 依據定義標準決定通過或不通過
 
-#### 利爾的經歷
+#### 學習者體驗
 
 * 學習者可查看檢查清單完成狀態（通過/不通過）
 * 若啟用，學習者還可看到：
@@ -1009,7 +1015,7 @@ Adobe Learning Manager 允許教師在教室或虛擬教室模組中標記學習
 6. 輸入必要資料並選擇日期。
 7. 選擇 **[!UICONTROL Allow Instructor to mark success]** 選項。
 
-   ![「允許講師標記成功？」勾選框會被高亮顯示，讓作者能讓講師記錄學習者在模組中的成功狀態](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![「允許教練標記成功？」 勾選框會被標示，讓作者能讓講師記錄模組學習者的成功狀態](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _課程詳情畫面，並標示「允許講師標記成功」選項，針對教室或虛擬教室模組_
 
 8. 選擇 **[!UICONTROL Done]**。

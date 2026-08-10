@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 模組
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '1087'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 這些檔案可由課程教師審核或拒絕。 該模組只有在授課老師核准後才會完成。
 
- ![](assets/approve-reject-option.png)
+![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
 *批准或拒絕檔案*
 
 ## 評估檢查清單模組 {#evaluate-checklist-module}
@@ -168,3 +168,16 @@ ht-degree: 0%
    *編輯分數與評論*
 
 1. 點擊 **[!UICONTROL Save]**。
+
+## Live Hub 會話
+
+對於使用 Live Hub 建立的會話，會話總覽&#x200B;**頁面的**&#x200B;**Live Hub** 區塊提供快速存取關鍵會話活動。
+
+&#x200B;- **進入虛擬教室**：選擇 **「進入教室** 」以加入虛擬教室或在課程開始前設定。 您也可以選擇 **複製** 網址，複製會議連結並與參與者分享。
+
+&#x200B;- **查看會話分析**：在會話結束後，選擇 **「檢視分析」頁面** 以開啟會話分析儀表板。 儀表板提供學習者出席率、參與度、參與度及其他課程指標的洞察。
+
+&#x200B;- **檢視錄影**：若會議有錄音，請選擇 **「檢視錄影** 」，可直接從 **會議總覽** 頁面存取錄音。 若無錄音可用，卡片會顯示其狀態。
+
+![會話總覽頁面](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*會話總覽頁面，顯示 Live Hub 區塊，並可存取 Live Hub 活動。*

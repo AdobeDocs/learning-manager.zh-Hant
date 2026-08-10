@@ -4,9 +4,9 @@ title: 系統需求
 description: Adobe Learning Manager 的系統需求
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: d463fb1bb54e14717eb51d0c13f66551018a0f92
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '660'
 ht-degree: 0%
 
 ---
@@ -344,3 +344,9 @@ Windows 10 和 11，macOS X 10.12、10.13、10.14、10.15
 ## ALM 安全白皮書
 
 [ALM 白皮書](assets/alm-security-whitepaper-2024.pdf)
+
+## Live Hub 系統需求
+
+在加入或主持 Live Hub 會議前，請確保您的裝置、瀏覽器、網路、音訊和視訊設定符合最佳系統需求的最低要求。
+
+Live Hub 有自己一套支援的瀏覽器、作業系統、網路需求及硬體建議。 欲了解更多資訊，請參閱 [Live Hub 系統需求](../migrated/getting-started-with-live-hub/system-requirements-for-live-hub.md) 。

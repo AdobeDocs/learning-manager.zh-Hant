@@ -1,11 +1,11 @@
 ---
 description: 學習如何在 Adobe Learning Manager 中建立和管理使用者群組。 了解如何透過分組使用者協助你分配課程、追蹤進度，並高效自動化學習工作流程。
 jcr-language: en_us
-title: 在 Adobe Learning Manager 管理使用者群組 |組織與分配學習者
+title: 在 Adobe Learning Manager 管理使用者群組 |組織並指派學習者
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
+source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -215,4 +215,10 @@ _範例顯示多個群組使用 AND 邏輯合併_
 
 ![](assets/or-logic.png)
 _範例顯示多個群組使用或運籌邏輯合併_
+
+## 新增並管理 Live Hub 課程的講師
+
+在 Adobe Learning Manager 中，管理員也能管理 Live Hub 課程的講師，包括定義他們的技能、可用時間及教學偏好。 這有助於確保根據排程與專業能力，選擇合適的講師被分配到合適的課程。
+
+關於建立與管理講師檔案的詳細步驟，請參閱 [「新增與管理講師](../../getting-started-with-live-hub/instructor-management.md)」。
 

@@ -1,20 +1,16 @@
 ---
-description: 了解 2026 年 8 月版 Adobe Learning Manager 中的新功能與增強功能，包括 API 與 webhook 的變更
+description: 了解 2026 年 8 月版 Adobe Learning Manager 中的新功能與增強內容
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: 458d21d11bfcfb701dbd61b865411f80a306adc1
 workflow-type: tm+mt
-source-wordcount: '2770'
+source-wordcount: '2743'
 ht-degree: 0%
 
 ---
 
 # 2026 年 8 月版 Adobe Learning Manager 的新內容
-
->[!IMPORTANT]
->
->本文所述的功能已包含在測試版中。 Adobe Learning Manager 測試版功能僅供評估用途，且可在正式發行前進行修改、限制或移除。 功能名稱、行為及設定選項可能會隨時更改，恕不另行通知。
 
 ## 成績簿
 
@@ -54,7 +50,7 @@ Gradebook 支援兩種完成模式：
 
 非評分模組類型、PDF 檔案、影片檔案、音訊檔案、PowerPoint簡報、Word文件、Excel檔案及HTML內容，無法分配權重百分比，且不計入總分。 這些模組仍可能是完成課程的必要條件。 當啟用「包含不計入最終成績」的模組時，這些模組會出現在成績簿中，但不會有權重值。
 
-欲了解更多資訊，請參閱 [作者成績冊](/help/migrated/authors/feature-summary/alm-author-gradebook.md)
+欲了解更多資訊，請參閱 [作者](/help/migrated/authors/feature-summary/alm-author-gradebook.md) 成績冊。
 
 ## 階層式內容資料夾
 
@@ -70,11 +66,11 @@ Gradebook 支援兩種完成模式：
 * 公共資料夾與私人資料夾結構是互斥的
 * 在課程編寫中選擇模組時，瀏覽資料夾的經驗
 
-欲了解更多管理員層級功能的資訊，請參閱 [階層式內容資料夾](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 欲了解更多作者層級功能，請參閱 [階層式內容資料夾](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)。
+請參閱 [階層式內容資料夾](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder) ，了解更多管理員層級功能的資訊。 請參閱 [階層式內容資料夾](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder) ，以了解作者層級的功能。
 
 如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。 了解更多關於遷移的資訊，請參閱 [遷移內容資料夾階層](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
-## 直播中心
+## Live Hub（測試版）
 
 Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組織提供引人入勝且具影響力的即時學習。 透過 AI 投票、分組討論室協調、持續學習空間及 AI 輔助等智慧功能，Live Hub 大幅提升講師生產力，同時降低課程進行的複雜度。
 
@@ -86,9 +82,23 @@ Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組�
 * 透過超越出席率、揭示真實學習參與度的參與度分析，衡量哪些重點。
 * 協助作者使用AI驅動的教師搜尋器，依技能、可用時間、偏好時間、時區及目前使用情況匹配合適的教師。
 
->[!NOTE]
->
->Live Hub 目前處於測試階段，將於即將於八月推出的 Adobe Learning Manager 版本中推出。 Live Hub 的文件將在功能發布後提供。
+欲了解更多資訊，請參閱 [Live hub](./getting-started-with-live-hub/getting-started-live-hub.md) 的入門。
+
+## Adobe Learning Manager 內容撰寫器（測試版）
+
+Adobe Learning Manager 現在包含 Content Composer，一款 AI 原生的課程創作工具，能在幾分鐘內從簡單的提示，直接帶你到結構化、準備發佈的課程。
+
+主要特色：
+
+* 對話式 AI 引導作者完成訓練目標、資料來源及學習目標，生成完整的課程簡報與大綱。
+* 文件基礎生成限制 AI 輸出至上傳的檔案，這對於合規、法規及程序導向訓練至關重要。
+* 完整課程一次生成，如課程、主題、文字、圖片、知識檢查及分級測驗。
+* 視覺主題系統，具備光暗模式、字型控制、頁首與頁尾支援，以及 JSON 匯出以供進階自訂。
+* 可設定完成標準、成功標準、測驗設定，以及發佈前的 SCORM 版本。
+* 以及更多。
+
+欲了解更多資訊，請參閱 [Adobe Learning Manager 內容撰寫器](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md) 。
+
 
 ## 元件式電子郵件範本建構器
 
@@ -103,7 +113,7 @@ Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組�
 * 發佈前預覽與測試傳送
 * 向下相容性：現有的電子郵件範本仍可正常使用
 
-欲了解更多資訊，請參閱 [元件式電子郵件建構器](/help/migrated/administrators/feature-summary/email-builder.md)
+欲了解更多資訊，請參閱 [基於元件的電子郵件建包](/help/migrated/administrators/feature-summary/email-builder.md) 器。
 
 ## 外部學習支援
 
@@ -118,7 +128,7 @@ Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組�
 * 行政與學習者成績單新增欄位：外部學習名稱、完成評論、自訂欄位欄位
 * API 支援：新增五個學習者範圍的端點，用於建立、檢索及更新提交
 
-欲了解更多管理層級資訊，請參閱 [外部學習支援](/help/migrated/administrators/feature-summary/settings/basic-settings.md)。 欲了解更多經理層級資訊，請參閱 [外部學習支援](/help/migrated/managers/feature-summary/review-external-learning-requests.md)。 欲了解更多學習者層級資訊，請參閱 [外部學習支援](/help/migrated/learners/feature-summary/submit-external-learning.md)。
+欲了解更多管理員層級資訊，請參閱 [外部學習支援](/help/migrated/administrators/feature-summary/settings/basic-settings.md)。 欲了解更多經理層級資訊，請參閱 [外部學習支援](/help/migrated/managers/feature-summary/review-external-learning-requests.md)。 欲了解更多學習者層級資訊，請參閱 [外部學習支援](/help/migrated/learners/feature-summary/submit-external-learning.md)。
 
 ## AI 功能
 
@@ -131,7 +141,7 @@ Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組�
 * **Adobe Experience League 回答**：助理現在能從 Adobe Learning Manager 的說明文件中獲取操作問題的答案
 * **第三方內容查詢**：Go1 與 LinkedIn Learning 目錄內容可查詢（僅中繼資料;僅限英文;目錄新增後需 1–2 小時擷取）
 
-欲了解更多資訊，請參閱 [學習者](/help/migrated/learners/feature-summary/learner-ai-assistant.md)專用的 AI 助理。
+欲了解更多資訊，請參閱 [學習者](/help/migrated/learners/feature-summary/learner-ai-assistant.md) AI 助理。
 
 ### 學習路徑代理
 
@@ -145,25 +155,25 @@ Live Hub 是 Adobe Learning Manager 內建的 AI 虛擬培訓體驗，協助組�
 * 學習者首頁最多可顯示 10 條個人化學習路徑
 * 完成的路徑可以與同事分享
 
-欲了解更多資訊，請參閱 [學習路徑代理](/help/migrated/learners/feature-summary/learning-path-agent.md)。
+欲了解更多資訊，請參閱 [學習路徑代理](/help/migrated/learners/feature-summary/learning-path-agent.md) 。
 
 ### Insights 代理
 
 Insights Agent 協助管理員透過自然語言查詢分析學習資料。 詢問有關入學趨勢、完成率、學習者參與度及技能缺口的問題。 代理會產生報告與視覺化以回應。
 
-欲了解更多資訊，請參閱 [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md)
+欲了解更多資訊，請參閱 [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) 。
 
 ### 生成式人工智慧的製作團隊
 
 Adobe Learning Manager 整合了透過與代理協調器授權連結的基於信用系統管理的 AI 驅動功能。 此系統要求管理員啟用功能、設定信用額度，並透過帳單頁面監控使用情況。 將 Adobe Learning Manager 帳號連結到擁有有效代理協調器授權的 Adobe 管理控制台組織，對於啟用生成式 AI 功能至關重要。
 
-更多資訊請參見 [生成式人工智慧（Gen AI）成就](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits)
+欲了解更多資訊，請參閱 [生成式人工智慧的製作團隊](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) 。
 
-## 管道
+## 頻道（測試版）
 
 頻道提供一種集中式的方式，讓人們能組織、發布及發現來自網頁及 Confluence 頁面的影片內容。 管理員可以透過連接支援的網頁或 Confluence 頁面來建立和管理頻道，設定頻道設定、控制可見性，並同步來源內容。 學習者可以瀏覽可用頻道、訂閱感興趣的頻道，並從單一地點觀看精選影片內容。
 
-欲了解更多資訊，請參閱 [「建立頻道」](/help/migrated/administrators/feature-summary/create-channels.md)
+欲了解更多資訊，請參閱 [建立頻道](/help/migrated/administrators/feature-summary/create-channels.md) 。
 
 ## 報表建置器
 
@@ -171,7 +181,7 @@ Report Builder 為管理員提供一個靈活且自助的報告工具，超越 A
 
 報告只建立一次，並儲存以供重複使用。 每次下載都不需要重建篩選器、重新套用分組或重新連接資料集。 儲存的報告可隨時下載、與其他管理員分享，或透過訂閱設定，讓收件人能定期自動收到更新報告。
 
-欲了解更多資訊，請參閱 [報表建單](/help/migrated/administrators/feature-summary/alm-report-builder.md)器。
+欲了解更多資訊，請參閱 [報表建工具](/help/migrated/administrators/feature-summary/alm-report-builder.md) 。
 
 ## 自訂角色變更
 
@@ -188,7 +198,7 @@ Report Builder 為管理員提供一個靈活且自助的報告工具，超越 A
 
 **僅限**&#x200B;手動建立的角色：擴充的自訂角色管理功能僅適用於透過 Adobe Learning Manager 管理員介面建立的角色。 不支援透過 CSV 上傳匯入的角色。
 
-了解更多關於自訂角色變更的資訊。 欲了解更多資訊，請參閱 [「進階使用者權限解鎖內容」](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
+了解更多關於自訂角色變更的資訊。 欲了解更多資訊，請參閱 [「進階使用者權限解鎖的內容」](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## LTI 深度連結
 
@@ -196,27 +206,21 @@ Report Builder 為管理員提供一個靈活且自助的報告工具，超越 A
 
 啟用後，作者會在外部 LMS 活動設定中看到 **「選擇內容** 」按鈕。 他們可以瀏覽核准的課程目錄、選擇課程並確認選擇——所有欄位都會自動填入。
 
-欲了解更多資訊，請參閱 [LTI深度連結](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)。
+欲了解更多資訊，請參閱 [LTI深層連結](/help/migrated/integration-admin/feature-summary/lti-deep-links.md) 。
 
 ## 教室地點
 
-教室地點現支援結構化 **的四領域地點格式**，包括國家、州/省/地區、城市及地點名稱，方便跨區域管理與組織訓練地點。 這次更新包含一次性遷移，從舊有的單一欄位格式轉移，並新增多語言支援 **地點名稱** 與 **教室資訊** 欄位，讓學習者能取得在地化的教室細節。
+教室地點現支援結構化 **的四領域地點格式**，包括國家、州/省/地區、城市及地點名稱，方便跨區域管理與組織訓練地點。 這次更新包含一次性遷移，從舊有的單一欄位格式轉移，並新增多語言支援 **地點名稱** 與 **地點資訊** 欄位，讓學習者能取得在地化的教室細節。
 
-欲了解更多資訊，請參閱 [教室位置](/help/migrated/administrators/feature-summary/classroom.md)
-
-## 即將推出：Adobe Learning Manager 內容撰寫器
-
-Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager AI 課程撰寫工具，能幫助你快速建立可發佈的課程。
-
-對話式 AI 助理會引導你完成整個流程——提示、簡報、大綱和課程，讓你在每個階段都能掌控，反覆檢視與完善後再繼續前進。 你將能將內容建立在自己的原始文件中，立即套用課程主題，並透過 SCORM 分享或匯出完成的課程，或直接發佈到 Adobe Learning Manager。
+欲了解更多資訊，請參閱 [教室地點](/help/migrated/administrators/feature-summary/classroom.md) 。
 
 ## 發布變更報告
 
-想了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本的報告變更。
+欲了解更多資訊，請參閱 [Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中的報告變更。
 
 ## API 版本中的變更
 
-在 2026 年 8 月發布的 Adobe Learning Manager[&#128279;](/help/migrated/api-changes-august-2026.md) 中，了解更多關於 API 變更的資訊。
+欲了解更多資訊，請參閱 [Adobe Learning Manager](/help/migrated/api-changes-august-2026.md) 2026 年 8 月版本的 API 變更。
 
 ## 本版本的其他增強內容
 
@@ -225,10 +229,10 @@ Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager 
 | **MQA：最新分數與最高分數** | 對於多次嘗試的模組，作者現在可以選擇將最新或最高嘗試分數記錄在學習者成績單中，並用於成績簿計算。 最新是現有的預設值，設定未設定時仍維持不變。 欲了解更多資訊，請參閱 [作者](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)成績冊。 |
 | **內容庫中的內容預覽** | 作者現在可以在內容庫中預覽已上傳的內容檔案，再將它們加入課程。 欲了解更多資訊，請參閱 [預覽內容庫](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)。 |
 | **增量用戶回報** | 新的基於 API 的使用者報告僅回傳自上次請求以來所建立或修改的使用者，減少使用自動化使用者同步工作流程的大型帳號資料傳輸。 欲了解更多資訊，請參閱 [增量用戶報告](/help/migrated/incremental-user-report.md)。 |
-| **流體玩家中的11種新語言** | 流體式播放器現在支援 11 種額外語言，包括從右到左（RTL）腳本支援。 更多資訊請參見 [流體演奏](/help/migrated/learners/feature-summary/fluidic-player.md)者。 |
-| **LTI 模組遷移** | 現有的 LTI 1.1 模組現在可以透過遷移工具遷移到 LTI 1.3。 欲了解更多資訊，請參閱 [模組](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules)的 LTI 遷移。 |
-| **電子郵件建構器：富文本編輯器支援** | Adobe Learning Manager 中的電子郵件範本現在支援富文字格式、附件及自訂自動化。 欲了解更多資訊，請參閱 [電子郵件建構器](/help/migrated/administrators/feature-summary/email-builder.md)。 |
-| **電子郵件建構器：預覽功能** | 你可以使用預覽選項查看已撰寫的電子郵件，看看收件人端會呈現什麼樣子。 欲了解更多資訊，請參閱 [電子郵件建構器](/help/migrated/administrators/feature-summary/email-builder.md)。 |
+| **流體玩家中的11種新語言** | 流體式播放器現在支援 11 種額外語言，包括從右到左（RTL）腳本支援。 欲了解更多資訊，請參閱 [流體球員](/help/migrated/learners/feature-summary/fluidic-player.md)。 |
+| **LTI 模組遷移** | 現有的 LTI 1.1 模組現在可以透過遷移工具遷移到 LTI 1.3。 欲了解更多資訊，請參閱 [模組](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules)的 LTI 遷移資料。 |
+| **電子郵件建構器：富文本編輯器支援** | Adobe Learning Manager 中的電子郵件範本現在支援富文字格式、附件及自訂自動化。 欲了解更多資訊，請參閱 [電子郵件建站](/help/migrated/administrators/feature-summary/email-builder.md)。 |
+| **電子郵件建構器：預覽功能** | 你可以使用預覽選項查看已撰寫的電子郵件，看看收件人端會呈現什麼樣子。 欲了解更多資訊，請參閱 [電子郵件建站](/help/migrated/administrators/feature-summary/email-builder.md)。 |
 | **Webhook 時間戳標準化** | webhook 有效載荷物件中 `data` 的所有日期與時間欄位現在都設定為 `00`秒數，提供與學習者逐字稿報告一致的分鐘級精確度。 |
 | **連接強化** | Azure Data Lake Storage （ADLS） 連接器更新;持續支援重複虛擬教室課程的教室名稱;基於錄影檢視的出席追蹤。 |
 | **球員表現提升** | 流暢的賽道玩家經過優化，以加快載入時間與模組間更順暢的銜接。 |
@@ -244,7 +248,7 @@ Adobe Learning Manager 內容撰寫器是即將推出的 Adobe Learning Manager 
 
 ## 系統需求
 
-查看 [Adobe Learning Manager 系統需求](/help/migrated/system-requirements.md)。
+欲了解更多資訊，請參閱 [Adobe Learning Manager 系統需求](/help/migrated/system-requirements.md) 。
 
 ## 發行說明
 

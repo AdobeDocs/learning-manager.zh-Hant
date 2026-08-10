@@ -3,7 +3,7 @@ description: 了解 2025 年 5 月版本 Adobe Learning Manager 中的新功能�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
+source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
 workflow-type: tm+mt
 source-wordcount: '2542'
 ht-degree: 0%
@@ -90,7 +90,8 @@ Adobe Learning Manager 是一個多語言平台，透過介面語言、內容語
 
 對於 Adobe Learning Manager 原生平台的使用者，此強化解決了即時使用者配置的需求。 當使用者首次建立帳號並登入時，此功能能確保他們的語言偏好被準確捕捉並應用。
 
-此功能確保使用者在透過 SAML 登入時，語言偏好會自動更新。 這有助於透過以使用者偏好的語言顯示介面，提供個人化的體驗。使用者透過 SAML 登入時，會根據登入過程中提供的資訊檢查並更新其語言偏好（介面與內容語言）。
+此功能確保使用者在透過 SAML 登入時，語言偏好會自動更新。 這有助於透過以使用者偏好的語言顯示介面，提供個人化的體驗。
+使用者透過 SAML 登入時，會根據登入過程中提供的資訊檢查並更新其語言偏好（介面與內容語言）。
 
 此功能整合於 SAML 登入流程，無縫捕捉並更新使用者的語言偏好。
 
@@ -126,9 +127,11 @@ _會話儀表板_
 
 ### 遷移內容的成功標準
 
-Adobe Learning Manager 中匯入模組的遷移流程現在支援新增定義成功標準的參數。現在透過在module_version.csv中新增三個可選欄位來支援此功能。 新增三個可選欄位為：`successCriteria`、、 `successQuizData`&#x200B;`successViewPercent`和 。
+Adobe Learning Manager 中匯入模組的遷移流程現在支援新增定義成功標準的參數。
+現在透過在module_version.csv中新增三個可選欄位來支援此功能。 新增三個可選欄位為：`successCriteria`、、 `successQuizData`&#x200B;`successViewPercent`和 。
 
-這些欄位只接受特定值，若輸入無效值，連接器將無法處理該檔案。測驗模組可以使用三種類型的成功標準。 如果學習者啟動內容，根據百分比分數（如下 `successViewPercent`定義）可以標記通過，或是根據測驗模組的結果（定義如下 `successQuizData`）。 此數值需依以下指示填寫。 successCriteria 參數用於判斷此問題。
+這些欄位只接受特定值，若輸入無效值，連接器將無法處理該檔案。
+測驗模組可以使用三種類型的成功標準。 如果學習者啟動內容，根據百分比分數（如下 `successViewPercent`定義）可以標記通過，或是根據測驗模組的結果（定義如下 `successQuizData`）。 此數值需依以下指示填寫。 successCriteria 參數用於判斷此問題。
 
 `successCriteria`：接受 `LAUNCH_CONTENT`、 `VIEW_PERCENT`、 `QUIZ`或 `VIEWPERCENT_OR_QUIZ`。
 
@@ -151,13 +154,14 @@ Adobe Learning Manager 中匯入模組的遷移流程現在支援新增定義成
 
 ### 使用遷移後新增內容唯一 ID 與有效期限
 
-遷移期間現已支援內容唯一識別碼與到期日。 為了啟用此功能，module_version.csv檔案中新增了兩個欄位：expiryDate 和 uniqueContentId。 請參閱此 [範例 CSV](assets/module_version_content.csv) 及 [CSV 規格文件](assets/4-module_version_content.xlsx) 以獲得更多資訊。
+遷移期間現已支援內容唯一識別碼與到期日。 為了啟用此功能，module_version.csv檔案中新增了兩個欄位：expiryDate 和 uniqueContentId。 請參閱此 [範例 CSV](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) 及 [CSV 規格文件](/help/migrated/integration-admin/feature-summary/assets/module-version.zip) 以獲得更多資訊。
 
 請參閱本文[&#128279;](/help/migrated/integration-admin/feature-summary/migration-manual.md)以獲取更多關於遷移過程的資訊。
 
 ## Webhook 的改進
 
-Webhooks 現在支援學習路徑（LP）課程中的活動，並在註冊、退選或完成時提供認證。這包括LP或認證課程中每門課程的支援活動，以及家長LO活動。
+Webhooks 現在支援學習路徑（LP）課程中的活動，並在註冊、退選或完成時提供認證。
+這包括LP或認證課程中每門課程的支援活動，以及家長LO活動。
 
 請參閱本文[&#128279;](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)以獲取更多關於 Webhooks 的資訊。
 
