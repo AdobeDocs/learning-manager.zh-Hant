@@ -138,9 +138,9 @@ ht-degree: 0%
 
 學習者可透過以下兩種方式報名 Live Hub 課程：
 
-1. **管理員**&#x200B;會根據組織需求為學習者報名課程。請參閱 [「建立課程實例與學習路徑](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) 」以獲取更多資訊。
+1. **管理員**&#x200B;會根據組織需求為學習者報名課程。請參閱 [「建立課程實例與學習路徑](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/courses) 」以獲取更多資訊。
 
-1. 學習者可直接從 **課程目錄** 頁面報名。 若課程設定為自助報名，學習者會立即註冊，並可從 **My Learning** 存取課程。 [欲了解更多資訊，請參閱我的學習。](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)
+1. 學習者可直接從 **課程目錄** 頁面報名。 若課程設定為自助報名，學習者會立即註冊，並可從 **My Learning** 存取課程。 [欲了解更多資訊，請參閱我的學習。](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/learner/courses)
 
 註冊後，學習者會被加入課程，並在他們的 Adobe Learning Manager 帳號中收到通知。 根據帳號的電子郵件通知設定，學習者也可能收到電子郵件邀請加入課程。
 
