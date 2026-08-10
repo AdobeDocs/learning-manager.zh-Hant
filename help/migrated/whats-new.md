@@ -3,9 +3,9 @@ description: 了解 2026 年 8 月版 Adobe Learning Manager 中的新功能與�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 458d21d11bfcfb701dbd61b865411f80a306adc1
+source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2673'
 ht-degree: 0%
 
 ---
@@ -163,11 +163,13 @@ Insights Agent 協助管理員透過自然語言查詢分析學習資料。 詢�
 
 欲了解更多資訊，請參閱 [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) 。
 
-### 生成式人工智慧的製作團隊
+<!--
+### Gen AI credits
 
-Adobe Learning Manager 整合了透過與代理協調器授權連結的基於信用系統管理的 AI 驅動功能。 此系統要求管理員啟用功能、設定信用額度，並透過帳單頁面監控使用情況。 將 Adobe Learning Manager 帳號連結到擁有有效代理協調器授權的 Adobe 管理控制台組織，對於啟用生成式 AI 功能至關重要。
+Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
 
-欲了解更多資訊，請參閱 [生成式人工智慧的製作團隊](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) 。
+View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) for more information.
+-->
 
 ## 頻道（測試版）
 

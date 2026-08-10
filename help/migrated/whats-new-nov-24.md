@@ -3,7 +3,7 @@ description: 了解 2024 年 11 月版 Adobe Learning Manager 中的新功能與
 jcr-language: en_us
 title: 新功能摘要 2024 年 11 月
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3226'
 ht-degree: 0%
@@ -151,7 +151,8 @@ Adobe Learning Manager 的新功能 **[!UICONTROL Waitlist Report]** 允許管�
 
 ## 學習者首頁的無障礙功能
 
-Adobe Learning Manager 現在支援所有主頁的替代文字，以提升學習者的無障礙性。 這讓有特殊需求的學習者能使用螢幕閱讀器閱讀替代文字並理解圖片。 你可以選擇多種語言，並為每種語言提供替代文字。 記得要把對應語言的替代文字加進去。 確保你帳號中的公司標誌也包含包含公司名稱的替代文字。詳情請參閱此條目 [公告](/help/migrated/administrators/feature-summary/announcements.md#masthead) 。
+Adobe Learning Manager 現在支援所有主頁的替代文字，以提升學習者的無障礙性。 這讓有特殊需求的學習者能使用螢幕閱讀器閱讀替代文字並理解圖片。 你可以選擇多種語言，並為每種語言提供替代文字。 記得要把對應語言的替代文字加進去。 確保你帳號中的公司標誌也包含包含公司名稱的替代文字。
+詳情請參閱此條目 [公告](/help/migrated/administrators/feature-summary/announcements.md#masthead) 。
 
 ## 支持印地語
 
@@ -227,7 +228,7 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
 * 如果你為已存在於其他資料夾的模組新增資料夾名稱，該新值不會覆蓋或取代已分配的資料夾。 該模組會被加入新資料夾，並且在現有資料夾中也能使用。
 * 若值為空，資料夾預設為 **[!UICONTROL Public]**。
 
-更多資訊請參考 [module_version csv 規格](assets/4-module_version.xlsx) 檔。
+更多資訊請參考 [module_version csv 規格](assets/module_version.csv) 檔。
 
 ### 模組遷移變更 - 完成標準
 
@@ -238,10 +239,10 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
 1. `completionCriteria`:
 
    * 資料型態應為字串，值與支援值為：
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * 僅在模組層級為自學模組類型設置完成標準。
    * 靜態內容的支援值為 `LAUNCH_CONTENT` 和 `VIEW_PERCENT`。
    * 互動內容的支援值為 `LAUNCH_CONTENT`、 `VIEW_PERCENT`、 `QUIZ`和 。
@@ -257,7 +258,7 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
    * 資料型別應為字串，支援的值為 `QUIZ_ATTEMPTED`、 、 `QUIZ_PASSED`&#x200B;`QUIZPASSED_OR_LIMITREACHED`和 。
    * 當 `completionCriteria` 設定為 `QUIZ`時，在欄位中輸入相應的測驗值 `quizData` 。
 
-更多資訊請參考 [module_version csv 規格](assets/4-module_version.xlsx) 檔。
+更多資訊請參考 [module_version csv 規格](assets/module_version.csv) 檔。
 
 ### 課程遷移變更-完成標準
 
@@ -271,27 +272,27 @@ Adobe Learning Manager 現在會封鎖 Learners 應用程式中包含禁止詞�
 * 如果你設定`completionCriteria`為 `SELECTEDMODULES`，你需要在 course_module.csv[&#128279;](assets/course_module.csv) 檔案中標記必須的模組。
 * 在欄位 `optionalCriteria` 中輸入 `TRUE` 或 `FALSE`。 如果你設定了 ， `TRUE` 那模組就會變成必修。
 
-詳情請參閱 [課程 csv spec](assets/3-course.xlsx) 及 [course_module csv spec](assets/6-course_module.xlsx) 檔案。
+詳情請參閱 [課程 csv spec](assets/course.csv) 及 [course_module csv spec](assets/course_module.csv) 檔案。
 
 ## API 變更
 
 以下是 API 的變更：
 
 * **搜尋API**：
-   * 新增模式篩選器，選項包括：classicSearch 和 advanceSearch。
-   * snippetTypes 的新 loMetadata 選項。
+  * 新增模式篩選器，選項包括：classicSearch 和 advanceSearch。
+  * snippetTypes 的新 loMetadata 選項。
 * **公告 API**：
-   * 包含用於報頭描述的altText屬性。
+  * 包含用於報頭描述的altText屬性。
 * **實例 API**：
-   * 新增 locale 屬性以取得 locale 詳細資訊。
+  * 新增 locale 屬性以取得 locale 詳細資訊。
 * **髒話檢查**：
-   * 更新的 API 以檢查社群貼文留言與回覆中禁止用詞：
+  * 更新的 API 以檢查社群貼文留言與回覆中禁止用詞：
 * **轉速與爆發限制**：
-   * 新增了每分鐘請求數（RPM）和所有 API 的突發限制。
+  * 新增了每分鐘請求數（RPM）和所有 API 的突發限制。
 * **徽章 API**：
-   * 新增屬性 externalProvider，用以檢索外部徽章的資訊。
+  * 新增屬性 externalProvider，用以檢索外部徽章的資訊。
 * **職缺 API**：
-   * 使用工作 API 下載使用者群組報告與自訂角色稽核報告。
+  * 使用工作 API 下載使用者群組報告與自訂角色稽核報告。
 
 ### 搜尋 API 變更
 
@@ -543,7 +544,7 @@ curl -X POST --header 'Content-Type: application/vnd.api+json;charset=UTF-8' --h
 ## 本次更新修正的錯誤
 
 * 已修正在 Android 和 iOS 裝置上傳影片時，從活動模組上傳影片時發生的錯誤。
-* 已修正手機應用程式開啟課程的問題;網頁版運作正常。
+* 解決了在手機應用程式開啟課程時的問題;網頁版運作正常。
 * 修正了在 Safari 中查看工作輔助工具及其他資源的問題。
 * 已修正用戶無法在行動應用程式下載工作輔助工具的問題。
 * 已修正 Patch User API 文件中的錯誤。

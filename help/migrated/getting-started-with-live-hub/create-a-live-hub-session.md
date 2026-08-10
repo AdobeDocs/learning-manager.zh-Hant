@@ -1,7 +1,7 @@
 ---
 title: 建立 Live Hub 會話
 description: 學習如何建立 Live Hub 課程、新增課程實例、使用 Instructor Finder 指派講師、註冊學習者，以及自訂教室品牌。
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -61,7 +61,7 @@ ht-degree: 0%
 
    1. 在講&#x200B;**師欄位輸入講師姓名**。
 
-   1. 選擇 **使用 AI** 尋找教師以查看 AI 推薦的教師。 更多資訊請參閱 [使用 Instructor Finder](#add-instructors-using-instructor-finder) 新增講師。
+   1. 選擇 **使用 AI** 尋找教師以查看 AI 推薦的教師。 [欲了解更多資訊，請使用「新增講師」](#add-instructors-using-instructor-finder)功能。
 
 1. 選擇 **新增** > **儲存**。
 
@@ -109,7 +109,7 @@ ht-degree: 0%
    ![會話設定面板](assets/session-configuration-panel.png)
    *為特定會話實例設定排程、講師及地點。*
 
-1. 在 **講** 師欄位中，手動輸入姓名，或選擇 **使用 AI** 搜尋 AI 推薦講師。 更多資訊請參閱 [使用 Instructor Finder](#add-instructors-using-instructor-finder) 新增講師。
+1. 在 **講** 師欄位中，手動輸入姓名，或選擇 **使用 AI** 搜尋 AI 推薦講師。 [欲了解更多資訊，請使用「新增講師」](#add-instructors-using-instructor-finder)功能。
 
 1. 輸入 **位置** 資訊，然後選擇 **儲存**。 課程會更新設定的時間、講師及地點資訊。
 

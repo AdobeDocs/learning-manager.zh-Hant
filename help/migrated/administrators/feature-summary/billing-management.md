@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 管理學習管理經理的訂單與帳單
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
 workflow-type: tm+mt
-source-wordcount: '3417'
+source-wordcount: '2413'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe Learning Manager 擁有靈活、友善且價格優良的方案之一，能
 
 | 柱狀 | 說明 |
 |---|---|
-| **購買** | 合約期間內購買的 Gen AI 點數總額。 |
+| **購買** | 合約期間內購買的總信用點數。 |
 | **使用過** | 所有使用此授權服務的點數消耗。 |
 | **ALM 所使用** | 這些學分是專門由 Adobe Learning Manager 消費的。 |
 | **現存** | 製作人員名單仍然可用。 |
@@ -291,90 +291,92 @@ Adobe Learning Manager 擁有靈活、友善且價格優良的方案之一，能
 
 若要取消有效訂閱，請聯絡Learning Manager客服團隊。
 
-## 生成式人工智慧的製作團隊 {#genaicredits}
+<!--
+## Gen AI credits {#genaicredits}
 
-### 生成式人工智慧的運作方式
+### How Gen AI credits work
 
-每當學習者與 AI 驅動的功能互動時，生成式 AI 點數都會被消耗——例如透過 AI 助理提問或產生個人化學習建議時。 每次互動開始前，Adobe Learning Manager 會檢查學分是否可用。 若有信用點數，互動會繼續進行。 若餘額已用盡，學習者會看到該功能暫時無法使用的訊息。
+Gen AI credits are consumed each time a learner interacts with an AI-powered feature — for example, when asking a question through the AI Assistant or generating a personalized learning recommendation. Before each interaction begins, Adobe Learning Manager checks that credits are available. If credits are available, the interaction proceeds. If the balance has been exhausted, the learner sees a message that the feature is temporarily unavailable.
 
-點數是作為 Adobe Experience Platform 代理協調器授權的一部分購買。 該授權由您的 Adobe 管理控制台管理，Adobe Learning Manager 會自動連接以偵測可用學分。
+Credits are purchased as part of an Adobe Experience Platform Agent Orchestrator license. That license is managed in your Adobe Admin Console, and Adobe Learning Manager connects to it automatically to detect available credits.
 
-**學分優先規則：** 如果你的 Adobe Learning Manager 計畫包含捆綁的 Gen AI 信用點數，且你同時持有 Agent Orchestrator 授權，則綁定的信用點數會優先被消費。 特工策劃者點數僅在捆綁點數用盡後使用。
+**Credit priority rule:** If your Adobe Learning Manager plan includes bundled Gen AI credits and you also have an Agent Orchestrator license, the bundled credits are consumed first. Agent Orchestrator credits are used only after the bundled credits are exhausted.
 
-**共享信用池：** 如果您的組織有多個 Adobe Learning Manager 帳戶，且都連結到同一個 Adobe 管理控制台組織，所有帳戶都會從同一個共享信用池中提取。
+**Shared credit pools:** If your organization has multiple Adobe Learning Manager accounts all linked to the same Adobe Admin Console organization, all accounts draw from a single shared credit pool.
 
 >[!IMPORTANT]
 >
->所有生成式AI功能預設都是關閉的。 您必須啟用每個功能並設定信用額度上限，學習者才能使用。
+>All Gen AI features are turned off by default. You must enable each feature and set a credit usage limit before learners can access it.
 
-### 進入 Gen AI 信用分頁
+### Access the Gen AI Credits tab
 
-1. 選擇 **[!UICONTROL Admin]** > **[!UICONTROL Billing]**。
-2. 選擇該 **[!UICONTROL Credits]** 標籤。
+1. Select **[!UICONTROL Admin]** > **[!UICONTROL Billing]**.
+2. Select the **[!UICONTROL Credits]** tab.
 
-**信用**&#x200B;分頁僅在購買或帳戶歷史上活躍的 Gen AI 信用點數時才會顯示。如果該分頁看不到，請確認你的帳號是否連結到擁有有效代理編排器授權的 Adobe 管理控制台組織。
+The **Credits** tab is visible only when Gen AI credits have been purchased or were historically active on the account. If the tab is not visible, verify that your account is linked to an Adobe Admin Console organization that has an active Agent Orchestrator license.
 
-### 生成式 AI 功能表
+### Gen AI Features table
 
-**Gen AI 功能**&#x200B;表列出了該帳戶上所有可用的 AI 功能。
+The **Gen AI Features** table lists every AI feature available on the account.
 
-| 柱狀 | 說明 |
+| Column | Description |
 |---|---|
-| **特色名稱** | AI 功能名稱。 選擇名稱即可進入該功能的設定頁面。 |
-| **現況** | 不管功能是開啟還是關閉。 從設定頁面切換該功能即可。 |
-| **最大信用點數使用上限** | 此功能在合約期間可消耗的最大信用點數。 必須先設定好才能啟用此功能。 僅適用於面向學習者的特性。 |
-| **使用製作人員** | 自合約開始以來，此功能消耗的總信用點數會即時更新。 |
+| **Feature Name** | Name of the AI feature. Select the name to go to that feature's settings page. |
+| **Status** | Whether the feature is on or off. Toggle the feature from its settings page. |
+| **Max Credits Usage Limit** | Maximum credits this feature can consume during the contract period. Must be set before the feature can be enabled. Applies to learner-facing features only. |
+| **Credits Used** | Total credits consumed by this feature since the contract start date, updated in real time. |
 
-### 啟用生成式 AI 功能
+### Enable a Gen AI feature
 
-1. 在分 **[!UICONTROL Credits]** 頁中，請在 **生成式 AI 功能** 表中找到該功能。
-2. 在 **「最大信用額度使用限制」欄位中，輸入** 此功能在合約期間可消耗的最大信用點數。
-3. 選擇功能名稱即可前往功能 **設定** 頁面。
-4. 在 **功能設定** 頁面，開啟該功能。
-5. 完成任何額外設定，例如將學習者與目錄指派給 AI 助理。
+1. On the **[!UICONTROL Credits]** tab, locate the feature in the **Gen AI Features** table.
+2. In the **Max Credits Usage Limit** column, enter the maximum number of credits this feature can consume during the contract period.
+3. Select the feature name to go to its **Feature Settings** page.
+4. On the **Feature Settings** page, toggle the feature on.
+5. Complete any additional configuration, such as assigning learners and catalogs to the AI Assistant.
 
-### 當信用點數用盡時會發生什麼事
+### What happens when credits run out
 
-- 若功能達到 **最大信用點數使用限制**，學習者會看到該功能暫時無法使用。 隨時可從 **信用** 分頁調高金額。
-- 若整體帳號點數用盡，所有生成式 AI 功能將停止對學習者運作，直到購買額外點數。 使用報告與信用指標仍對管理員開放。
-- 如果學習者在互動中且學分已用盡，該互動即告完成。 之後所有互動都會被封鎖。
-- 管理員可以設定比購買信用點數更高的信用額度。 允許超額分配，續約時可進行調整。
+- If a feature reaches its **Max Credits Usage Limit**, learners see a message that the feature is temporarily unavailable. Raise the limit at any time from the **Credits** tab.
+- If overall account credits are exhausted, all Gen AI features stop working for learners until additional credits are purchased. Usage reports and credit metrics remain accessible to admins.
+- If a learner is mid-interaction when credits are exhausted, that interaction completes. All subsequent interactions are blocked.
+- Admins can set a credit limit higher than the number of purchased credits. Over-allocation is permitted, and a true-up can happen at renewal.
 
-### 每月信用點數使用圖表
+### Monthly Credits Usage chart
 
-在生成式 AI 功能表下方，有 **每月信用點數使用** 圖表，顯示每個功能每月消耗的信用點數。 預設情況下，圖表顯示的是根據代理協調員合約開始日期的當前合約年度期間。 選擇 **[!UICONTROL Download]** 匯出所選期間的月報。 報告產生是非同步的——當檔案準備好時，你會收到應用程式內通知和電子郵件。
+Below the Gen AI Features table, a **Monthly Credits Usage** chart shows credits consumed per feature per month. By default, the chart shows the current contract year period based on the Agent Orchestrator contract start date. Select **[!UICONTROL Download]** to export the monthly report for the selected period. Report generation is asynchronous — you receive an in-app notification and email when the file is ready.
 
-### 生成式 AI 使用報告
+### Gen AI usage reports
 
-Adobe Learning Manager 提供兩份 Gen AI 使用報告，>**[!UICONTROL Reports]**&#x200B;**[!UICONTROL AI Reports]**。
+Adobe Learning Manager provides two Gen AI usage reports under **[!UICONTROL Reports]** > **[!UICONTROL AI Reports]**.
 
-**每月信用點數使用報告**
+**Monthly credits usage report**
 
-顯示每個功能每月消耗的點數。 對預算規劃和合約續約非常有用。
+Shows credits consumed per feature per month. Useful for budget planning and contract renewal.
 
-- **專欄：** 月份 |專題 |使用的來源
-- **篩選：** 選擇涵蓋一個或多個合約期間的日期範圍
-- **下載：** 非同步 — 檔案準備好時你會收到應用程式內通知和電子郵件
+- **Columns:** Month | Feature | Credits Used
+- **Filter:** Select a date range spanning one or more contract periods
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-**學習者生成 AI 信用使用報告**
+**Learner Gen AI credits usage report**
 
-一個審計追蹤，顯示哪些學習者使用了哪些功能，以及每次互動消耗了多少信用點數。
+An audit trail showing which learners used which features and how many credits each interaction consumed.
 
-- **欄位：** 日期 |學習者姓名 |學習者電子郵件 |專題 |使用名單
-- **篩選條件：** 選擇你想審核的日期範圍
-- **下載：** 非同步 — 檔案準備好時你會收到應用程式內通知和電子郵件
+- **Columns:** Date | Learner Name | Learner Email | Feature | Credits Used
+- **Filter:** Select the date range you want to audit
+- **Download:** Asynchronous — you receive an in-app notification and email when the file is ready
 
-### 信用使用警示
+### Credit usage alerts
 
-Adobe Learning Manager 會自動通知你學分消費超過關鍵門檻。 通知同時透過應用程式內及電子郵件傳送。
+Adobe Learning Manager automatically notifies you when credit consumption crosses key thresholds. Notifications are delivered both in-app and by email.
 
-| 觸發 | 通知 |
+| Trigger | Notification |
 |---|---|
-| 帳戶抵扣額度可達總購買額度的90% | 警告——帳戶層級的信用額度幾乎用盡 |
-| 帳戶抵扣金額達到購買總額的100% | 警示 — 所有學分都已消耗，生成式 AI 功能對學習者來說將停止使用 |
-| 某個功能達到其個人的最大信用點數使用上限 | Alert — 命名特定功能;該功能對學習者而言停止 |
+| Account credits reach 90% of total purchased | Warning — credits are nearly exhausted at the account level |
+| Account credits reach 100% of total purchased | Alert — all credits are consumed and Gen AI features stop for learners |
+| A feature reaches its individual Max Credits Usage Limit | Alert — names the specific feature; that feature stops for learners |
 
-當你收到 90% 警告時，請聯絡你的 Adobe 帳戶團隊，在達到 100% 門檻前購買額外點數。
+When you receive a 90% warning, contact your Adobe account team to purchase additional credits before the 100% threshold is reached.
+-->
 
 ## 常見問題 {#frequentlyaskedquestions}
 
@@ -421,15 +423,17 @@ Adobe Learning Manager 會自動通知你學分消費超過關鍵門檻。 通�
 - 請寄電子郵件給 FastSpring 申請 `orders@fastspring.com` 發票。
 
 
-## 排解生成式人工智慧信用問題
+<!--
+## Troubleshoot Gen AI credit issues
 
-| 子嗣 | 解法 |
+| Issue | Solution |
 |---|---|
-| **製作名單標籤不見** | 此帳戶尚未購買或套用 Gen AI 點數。 請在 Adobe 管理控制台驗證你的代理協調者授權，然後確認組織是否在>**帳戶詳情**>**[!UICONTROL Billing]** **[!UICONTROL Subscription]** 連結。 |
-| **IMS 組織 ID 欄位為空白** | 你的帳號還沒綁定。 選擇&#x200B;**[!UICONTROL Link IMS Org]**&#x200B;**帳戶詳情**&#x200B;卡，並依照上述連結步驟操作。 |
-| **連結失敗時會發生錯誤** | 請確認你在 Adobe Learning Manager 和你想連結的 Adobe 管理控制台組織中都有管理員角色。 這兩個檢查都必須通過，連結才會建立。 |
-| **啟用金鑰後，IMS 組織 ID 欄位為空白** | 自動連結只會發生在透過 Adobe 標準訂購流程啟用的帳號。 對於獨立設定的帳號，啟動金鑰後完成上述手動連結步驟即可。 |
-| **解除連結後，生成式 AI 功能將無法使用** | 取消連結會移除所有生成式 AI 功能的存取，並隱藏製作名單標籤。 請重新連結您的帳號到擁有有效代理編排器授權的 Adobe 管理控制台組織，以恢復存取權限。 |
+| **Credits tab is not visible** | Gen AI credits have not been purchased or applied to this account. Verify your Agent Orchestrator license in your Adobe Admin Console, then confirm an organization is linked under **[!UICONTROL Billing]** > **[!UICONTROL Subscription]** > **Account details**. |
+| **IMS Org ID field is blank** | Your account is not yet linked. Select **[!UICONTROL Link IMS Org]** in the **Account details** card and follow the linking steps above. |
+| **Linking fails with an error** | Confirm that you have the Administrator role in both Adobe Learning Manager and the Adobe Admin Console organization you are trying to link. Both checks must pass for the link to be established. |
+| **IMS Org ID field is blank after applying an activation key** | Automatic linking occurs only for accounts activated through Adobe's standard ordering flow. For independently set-up accounts, complete the manual linking steps above after activating the key. |
+| **After unlinking, Gen AI features are unavailable** | Unlinking removes access to all Gen AI features and hides the Credits tab. Re-link your account to an Adobe Admin Console organization with an active Agent Orchestrator license to restore access. |
+-->
 
 <!-- 
 # Manage Learning Manager orders and billing
