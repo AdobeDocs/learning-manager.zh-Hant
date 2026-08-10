@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 管理學習管理經理的訂單與帳單
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
+source-git-commit: b3212ae430cb5804a66c19a2e213dc9538e8cf5f
 workflow-type: tm+mt
-source-wordcount: '2597'
+source-wordcount: '2415'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ Adobe Learning Manager 擁有靈活、友善且價格優良的方案之一，能
 
 ### 解除連結你的帳號
 
-解除連結後，所有學習者都會停用生成式 AI 功能，且&#x200B;**&#x200B;**&#x200B;在帳號重新連結前，信用分頁也無法使用。
+解除連結後，所有學習者都會停用生成式 AI 功能，且&#x200B;****&#x200B;在帳號重新連結前，信用分頁也無法使用。
 
 1. 選擇 **[!UICONTROL Billing]**，然後選擇分 **[!UICONTROL Subscription]** 頁。
 2. 在帳戶 **詳情** 卡中，選擇 **[!UICONTROL Unlink IMS Org]**。
@@ -400,7 +400,7 @@ When you receive a 90% warning, contact your Adobe account team to purchase addi
 
 要更新帳單資訊，請依照以下步驟操作：
 
-1. 以管理員身份登入&#x200B;**並點擊&#x200B;**&#x200B;[!UICONTROL Billing]&#x200B;**。**
+1. 以管理員身份登入&#x200B;**並點擊&#x200B;**[!UICONTROL Billing]**。**
 1. 在訂單列表中，點擊 **[!UICONTROL Edit]**。
 1. 在訂閱詳情頁面，點擊 **[!UICONTROL Edit Subscription]**。
 
@@ -423,15 +423,17 @@ When you receive a 90% warning, contact your Adobe account team to purchase addi
 - 請寄電子郵件給 FastSpring 申請 `orders@fastspring.com` 發票。
 
 
-## 排解生成式人工智慧信用問題
+<!--
+## Troubleshoot Gen AI credit issues
 
-| 子嗣 | 解法 |
+| Issue | Solution |
 |---|---|
-| **製作名單標籤不見** | 此帳戶尚未購買或套用 Gen AI 點數。 請在 Adobe 管理控制台驗證你的代理協調者授權，然後確認組織是否在>**帳戶詳情**>**[!UICONTROL Billing]** **[!UICONTROL Subscription]** 連結。 |
-| **IMS 組織 ID 欄位為空白** | 你的帳號還沒綁定。 選擇&#x200B;**[!UICONTROL Link IMS Org]**&#x200B;**帳戶詳情**&#x200B;卡，並依照上述連結步驟操作。 |
-| **連結失敗時會發生錯誤** | 請確認你在 Adobe Learning Manager 和你想連結的 Adobe 管理控制台組織中都有管理員角色。 這兩個檢查都必須通過，連結才會建立。 |
-| **啟用金鑰後，IMS 組織 ID 欄位為空白** | 自動連結只會發生在透過 Adobe 標準訂購流程啟用的帳號。 對於獨立設定的帳號，啟動金鑰後完成上述手動連結步驟即可。 |
-| **解除連結後，生成式 AI 功能將無法使用** | 取消連結會移除所有生成式 AI 功能的存取，並隱藏製作名單標籤。 請重新連結您的帳號到擁有有效代理編排器授權的 Adobe 管理控制台組織，以恢復存取權限。 |
+| **Credits tab is not visible** | Gen AI credits have not been purchased or applied to this account. Verify your Agent Orchestrator license in your Adobe Admin Console, then confirm an organization is linked under **[!UICONTROL Billing]** > **[!UICONTROL Subscription]** > **Account details**. |
+| **IMS Org ID field is blank** | Your account is not yet linked. Select **[!UICONTROL Link IMS Org]** in the **Account details** card and follow the linking steps above. |
+| **Linking fails with an error** | Confirm that you have the Administrator role in both Adobe Learning Manager and the Adobe Admin Console organization you are trying to link. Both checks must pass for the link to be established. |
+| **IMS Org ID field is blank after applying an activation key** | Automatic linking occurs only for accounts activated through Adobe's standard ordering flow. For independently set-up accounts, complete the manual linking steps above after activating the key. |
+| **After unlinking, Gen AI features are unavailable** | Unlinking removes access to all Gen AI features and hides the Credits tab. Re-link your account to an Adobe Admin Console organization with an active Agent Orchestrator license to restore access. |
+-->
 
 <!-- 
 # Manage Learning Manager orders and billing
