@@ -2,9 +2,9 @@
 description: 上傳現有文件、政策或簡報，讓 AI 更貼近組織內容。 你可以選擇只限制生成這些檔案，或讓 AI 補充其一般知識。
 jcr-language: en_us
 title: 管理原始碼檔案
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 2. 將檔案拖曳到對話框中，或選擇 **+ 新增原始檔案** 以瀏覽。 你可以新增多個原始檔案。
    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
-3. 選擇 **限制輸出為檔案**&#x200B;中的內容。 這讓內容撰寫者能僅使用原始內容來生成課程。 若未勾選此選項，Content Composer 也會使用網頁來建立課程。
+3. 選擇 **限制輸出為檔案**中的內容。 這讓內容撰寫者能僅使用原始內容來生成課程。 若未勾選此選項，Content Composer 也會使用網頁來建立課程。
    ![](../assets/7_manage_sources_file_uploading_restrict_output_updated.png)
 
 支援的格式：
@@ -63,6 +63,6 @@ ht-degree: 0%
 
 ### 確認檔案上傳
 
-    ![](../資產/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 檔案附加後，工具列中的檔案圖示會顯示徽章數量。 助理會確認上傳，並提供 **生成大綱** 捷徑。 選擇它，或在上方工具列選擇 **「產生大綱** 」。

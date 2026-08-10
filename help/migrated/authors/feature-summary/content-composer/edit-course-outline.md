@@ -2,9 +2,9 @@
 description: 在決定完整課程生成前，請先檢視 AI 生成的課程內容與主題結構。 請透過聊天面板申請變更。 以對話方式重新命名、新增、移除、拆分或合併課程與主題。
 jcr-language: en_us
 title: 編輯課程大綱
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 編輯課程大綱
 
-    ![](../資產/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager 內容撰寫器會從你的簡報和原始檔案產生課程內容和主題結構。 大綱會出現在畫布上，顯示所有課程及其主題。
 
