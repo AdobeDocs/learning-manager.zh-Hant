@@ -2,9 +2,9 @@
 title: Adobe Learning Manager 內容撰寫器（測試版）幫助
 description: 從簡單的語言提示到已發表的課程，Adobe Learning Manager Content Composer 負責教學設計，讓你能專注於學習者的需求，創造高影響力的教學內容。
 contentowner: saghosh
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,18 @@ Adobe Learning Manager 內容撰寫器是一款 AI 課程創作工具，能將�
 - **直接發佈到 Adobe Learning Manager**：完成的課程直接發佈到 Adobe Learning Manager;沒有獨立的創作工具，也沒有手動匯出 SCORM。
 - **單一系統工作流程**：課程建立、學習者管理與報告皆集中於同一平台，省去管理多個撰寫與交付工具的負擔。
 
+## 在你簽到之前
+
+>[!IMPORTANT]
+>
+>您必須使用有效的 Adobe Creative Cloud 帳號登入。 如果你還沒有，可以透過 Adobe Express 建立免費帳號。 欲了解更多資訊，請參閱 [「建立免費的 Adobe Express 帳號](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)」。 建立 Adobe 帳號後，啟動 Content Composer 並登入開始建立課程。 如果您的組織已有 Creative Cloud 訂閱，請先聯絡管理員，讓他們在登入 Content Composer 前為您設定 Creative Cloud 帳號。
+
+
 ## 試試 Content Composer {#trycontent-composer}
 
 準備好打造你的第一個球場了嗎？ 打開內容撰寫器，從簡單的提示語快速切換到可發表的課程。
 
-[**試試 Content Composer**](https://contentcomposer-dev.adobe.io/)
+[**試試 Content Composer**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -149,4 +156,4 @@ Adobe Learning Manager 內容撰寫器是一款 AI 課程創作工具，能將�
 
 你擁有一切所需。 打開內容撰寫器，建立你的第一門課程。
 
-[**試試 Content Composer**](https://contentcomposer-dev.adobe.io/)
+[**試試 Content Composer**](https://contentcomposer.adobe.io/)
