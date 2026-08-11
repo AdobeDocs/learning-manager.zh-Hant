@@ -1,15 +1,15 @@
 ---
-title: Live Hub 故障排除指南
+title: Live Hub（測試版）故障排除指南
 description: 您在 Live Hub 工作階段中常見的錯誤訊息與通知、原因及解決步驟。
-source-git-commit: 02de0cee632d34c99e1cba12cddb846f7e6cae81
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1011'
 ht-degree: 0%
 
 ---
 
 
-# Live Hub 故障排除指南
+# Live Hub（測試版）故障排除指南
 
 在 Live Hub 課程中，講師可能會遇到錯誤訊息或通知，導致某些動作無法如預期完成。 本文將說明常見的教師面臨錯誤、可能的原因，以及你可以採取的解決步驟。
 

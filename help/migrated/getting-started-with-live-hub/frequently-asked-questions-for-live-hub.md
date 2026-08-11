@@ -1,15 +1,15 @@
 ---
-title: Live Hub 常見問題
+title: Live Hub（測試版）常見問題
 description: 關於 Adobe Learning Manager 中 Live Hub 的常見問題，依管理員、作者、講師及學習者角色分類。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '4473'
+source-wordcount: '4475'
 ht-degree: 0%
 
 ---
 
 
-# Live Hub 常見問題
+# Live Hub（測試版）常見問題
 
 <table>
  <tbody>
