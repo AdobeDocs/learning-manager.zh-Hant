@@ -3,9 +3,9 @@ title: 歡迎來到 Adobe Learning Manager 使用者指南
 description: 學習 Adobe Learning Manager（前稱 Adobe Captivate Prime）的最新服務。 從頭開始，逐區造訪，或與社群連結，逐步完成專案。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 7df65804882833d8a840634d0d4007142e6a72de
+source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '151'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 0%
     <img alt="開始使用 Live Hub" src="assets/getting-started-live-hub.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>開始使用 Live Hub</strong></a>
+    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>開始使用 Live Hub（測試版）</strong></a>
     </div>
    </td>
   </tr>
