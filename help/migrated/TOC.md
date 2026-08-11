@@ -2,10 +2,10 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 2ce14029fdeb3ffcb3bcd974405ba9c8eed2dba6
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 2%
+source-wordcount: '1652'
+ht-degree: 1%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 2%
   * [開始使用 Live Hub（測試版）](./getting-started-with-live-hub/getting-started-live-hub.md)
 * 行政長官 {#admin}
   * 學習中的人工智慧（測試版） {#ai-in-learning}
-    * [啟用 Live Hub](./administrators/feature-summary/enable-live-hub.md)
+    * [啟用 Live Hub（測試版）](./administrators/feature-summary/enable-live-hub.md)
   * [Adobe Learning Manager 中的管理 AI 助理（測試版）](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Adobe Learning Manager 中的 Insights Agent（beta）](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [使用者登入](administrators/feature-summary/user-login.md)
@@ -369,14 +369,14 @@ ht-degree: 2%
       * [查看會話儀表板](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [會話儀表板的組成部分](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [最佳實務](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [以學習者身份在行動裝置上使用 Live Hub](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [以學習者身份在行動裝置上使用 Live Hub（測試版）](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * 常見問題 {#faq}
   * [行政人員常見問題](administrators/frequently-asked-questions-for-administrators.md)
   * [作者常見問題](authors/frequently-asked-questions-for-authors.md)
   * [教師常見問題](instructors/frequently-asked-questions-for-instructors.md)
   * [經理常見問題](managers/frequently-asked-questions-for-managers.md)
   * [學習者常見問題](learners/frequently-asked-questions-for-learners.md)
-  * [Live Hub 會議常見問題](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [Live Hub（Beta）會議常見問題](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [新體驗聯盟公告](/help/migrated/new-experience-league-announcement.md)
   * [如何在 Experience League 提交支援工單](/help/migrated/how-to-submit-support-ticket.md)
   * [在 Adobe Learning Manager 建立試用帳號](/help/migrated/create-trial-account.md)

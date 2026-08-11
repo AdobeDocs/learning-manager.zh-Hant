@@ -1,9 +1,9 @@
 ---
 title: 了解 Live Hub 的配置
 description: 了解組成 Live Hub 會議室的面板與控制項，包括控制欄、與會者面板、聊天面板及分組討論面板。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 0%
 
 ---
@@ -108,7 +108,7 @@ Live Hub 的版面設計為面板與工具列，協助講師與學習者有效�
 
 * 在不離開會議的情況下，與所有參與者進行視覺協作。
 
-請參閱[關於白板](./about-the-whiteboard.md) 的更多資訊。
+請參閱 [關於白板](./about-the-whiteboard.md) 的更多資訊。
 
 ### 參與者參與
 
@@ -120,4 +120,4 @@ Live Hub 的版面設計為面板與工具列，協助講師與學習者有效�
 
 * 辨識學習者是否積極參與或需要關注。
 
-查看[追蹤參與者參與](./track-the-participant-engagement.md) 度以獲取更多資訊。
+查看 [追蹤參與者參與](./track-the-participant-engagement.md) 度以獲取更多資訊。
