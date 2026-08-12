@@ -1,15 +1,15 @@
 ---
-title: 了解 Live Hub 的配置
+title: 了解 Live Hub（測試版）的版面配置
 description: 了解組成 Live Hub 會議室的面板與控制項，包括控制欄、與會者面板、聊天面板及分組討論面板。
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '822'
 ht-degree: 0%
 
 ---
 
 
-# 了解 Live Hub 的配置
+# 了解 Live Hub（測試版）的版面配置
 
 在 Adobe Learning Manager Live Hub 中，課程室設計用來幫助講師與學習者在線上課程中有效協作。 該版面包含多個面板與控制，讓你能即時管理音訊、影片、參與者及互動。
 

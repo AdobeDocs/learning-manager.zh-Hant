@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1653'
 ht-degree: 1%
 
 ---
@@ -388,7 +388,7 @@ ht-degree: 1%
 * 報告變更 {#reporting-changes}
   * [2026年8月發布中的變更報告](/help/migrated/reporting-changes-august-2026.md)
 * 知識庫 {#knowledge-base}
-  * [Live Hub 故障排除指南](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Live Hub（測試版）故障排除指南](./kb/troubleshooting-guide-for-live-hub.md)
   * [無法登入學習管理員](kb/unable-log-in-learning-manager.md)
   * [學習摘要不會顯示最新資料](kb/learning-summary-not-display-data.md)
   * [無法上傳 CSV 檔案](kb/unable-to-upload-csv.md)

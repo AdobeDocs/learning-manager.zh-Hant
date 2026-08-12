@@ -1,15 +1,15 @@
 ---
-title: 建立 Live Hub 會話
+title: 建立一個即時中樞（測試版）會話
 description: 學習如何建立 Live Hub 課程、新增課程實例、使用 Instructor Finder 指派講師、註冊學習者，以及自訂教室品牌。
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# 建立 Live Hub 會話
+# 建立一個即時中樞（測試版）會話
 
 使用 Live Hub 在 Adobe Learning Manager 課程中提供由講師主導的即時訓練。 你可以將 Live Hub 課程與自學內容結合，創造混合式學習體驗。
 

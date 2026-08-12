@@ -1,9 +1,9 @@
 ---
-title: 在 Live Hub 設定加入前的畫面
+title: 在 Live Hub（測試版）設定加入前畫面
 description: 了解 Live Hub 的預加入畫面運作方式、如何允許瀏覽器權限，以及在加入會話前如何設定音訊和攝影機控制。
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
