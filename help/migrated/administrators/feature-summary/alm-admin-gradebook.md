@@ -2,9 +2,9 @@
 description: 關於啟用成績冊並讓作者和學習者都能看見的一切
 jcr-language: en_us
 title: 行政用成績簿
-source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
+source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Adobe Learning Manager 中的管理員可以查看所有已註冊學習者的加
 * 在 **主動回饋成績本**&#x200B;中，選擇 **頁面右上角的「下載學習者成績單** 」。
 * 在管理員首頁，選擇 **「報告**」，然後選擇 **「自訂報告**」。 從可用報告列表中選擇 **學習者成績單** 。
 
-詳情請參閱新聞稿中的報告變更。
+>[!NOTE]
+>
+>當成績簿在課程層級啟用時，學習者成績單（CSV 報告與工作 API）會以權重欄位形式加入。
+
 
 ## 內容稽核追蹤活動
 
