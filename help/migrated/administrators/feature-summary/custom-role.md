@@ -4,7 +4,7 @@ title: 自訂角色
 description: 學習路徑功能幫助你定義自訂角色，並指派特定職責給一組使用者。 此功能允許您指派個人現有職務範圍之外的職責。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
+source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
 workflow-type: tm+mt
 source-wordcount: '5372'
 ht-degree: 0%
@@ -524,7 +524,7 @@ Full Control 可存取所有使用者清理操作：
 
 >[!NOTE]
 >
->你可以為每個使用者指派最多 50 個角色，並為每個角色新增最多 500 個使用者。
+>你可以為每個使用者指派最多 50 個角色，並可為每個角色新增最多 3500 個使用者。
 
 ### 用 CSV 指派多個自訂角色
 
@@ -539,7 +539,7 @@ user_role.csv 檔案包含「自訂角色」和「使用者 ID」這兩個欄位
 
 role.csv檔案包含欄位、自訂角色、建立來源，以及目錄、使用者、課程、學習路徑等詳細資訊。
 
-如果 CSV 檔案資料錯誤或超過限制（每位使用者 50 個角色，每個角色 500 個），就會跳出錯誤訊息。
+如果 CSV 檔案資料錯誤或超出限制（每個使用者 50 個角色，每個角色 3500 個），就會跳出錯誤訊息。
 
 ![](assets/error-custom-role.png)
 _自訂角色錯誤通知_&#x200B;使用者在分配角色時會收到電子郵件通知，包括角色名稱。
