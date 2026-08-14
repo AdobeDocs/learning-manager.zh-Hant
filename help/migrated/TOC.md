@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 1%
 
 ---
@@ -360,11 +360,11 @@ ht-degree: 1%
     * 隱藏字幕 {#closed-captions}
       * [了解隱藏字幕](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
       * [作為講師管理隱藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-      * [作為學習者管理隱藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+      * [學習者管理隱藏字幕](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
     * 錄音與逐字稿{#recordings-and-transcripts}
       * [理解錄音與逐字稿](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [錄製一場會話](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [以學習者的身份觀看錄影](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [以學習者身份觀看課程錄影](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * 會話儀表板 {#session-dashboard}
       * [查看會話儀表板](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [會話儀表板的組成部分](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)

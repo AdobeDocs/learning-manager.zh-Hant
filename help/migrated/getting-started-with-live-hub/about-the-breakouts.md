@@ -1,9 +1,9 @@
 ---
 title: 關於 Live Hub 的突破
 description: 了解分組討論室如何讓講師將 Live Hub 課程拆分成較小的小組，進行討論、活動與合作。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ ht-degree: 0%
 
 這標誌著分組活動的完成，並允許事後回顧。
 
-![分組討論室分配](assets/breakout-room-distribution.png "即時中心介面，顯示分組討論室中學習者的分布情況。")
+![分組討論室分配](assets/breakout-room-distribution.png)
+*Live Hub 介面顯示分組會議佈局*
 
 ## 角色與權限
 
-分組討論室對講師與學習者開放。 面板中可用的動作與控制會依使用者在虛擬教室中的角色而有所不同。
+在 Live Hub 課程中，講師與學習者皆可參加分組討論。 可用的動作與控制會依使用者角色而異。
 
 | **講師** | **學習者** |
 |----|----|
