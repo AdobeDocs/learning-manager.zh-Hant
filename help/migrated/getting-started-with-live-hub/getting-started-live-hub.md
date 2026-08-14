@@ -56,8 +56,8 @@ Live Hub 的課程分為三個關鍵階段： **會前**、 **中會堂**&#x200B
 | **舞台** | **主要活動** |
 |---|---|
 | **會前** | 管理員會驗證 [系統需求](./system-requirements-for-live-hub.md) 是否符合，並為 [該帳號啟用 Live Hub](../administrators/feature-summary/enable-live-hub.md) 。 作者 [建立 Live Hub 課程](create-a-live-hub-session.md)，學習者可自行報名或由管理員註冊。 講師會透過 [配置場地佈局](./understand-the-live-hub-layout.md)、內容及互動活動來準備即將到來的課程。 |
-| **會期期間** | 講師提供現場課程，並透過聊天](about-the-chat-panel.md)[、投票](./about-the-polls.md)、[測驗](./about-the-quiz.md)、[白板](./about-the-whiteboard.md)、[螢幕分享](./about-the-screen-sharing.md)及[分組討論等](./about-the-breakouts.md)功能[吸引學習者。學習者在整個課程中參與這些活動。 講師可以 [錄製課程](./record-a-session.md) 內容，讓學習者日後能觀看。 |
-| **會期後** | 講師會審查課程錄影、出席報告及 [參與分析](./view-the-session-dashboard.md) ，以評估學員參與度及課程成效。 學習者可以透過主題式錄影](./view-recordings-as-a-learner.md)檢視重溫課程[，該檢視會將錄影拆分為可導航的主題，每個主題都有標題、概述和註解，方便他們直接跳到任何主題或閱讀，而非觀看。 |
+| **會期期間** | 講師提供現場課程，並透過聊天[&#128279;](about-the-chat-panel.md) [、投票](./about-the-polls.md)、[測驗](./about-the-quiz.md)、[白板](./about-the-whiteboard.md)、[螢幕分享](./about-the-screen-sharing.md)及[分組討論等](./about-the-breakouts.md)功能吸引學習者。學習者在整個課程中參與這些活動。 講師可以 [錄製課程](./record-a-session.md) 內容，讓學習者日後能觀看。 |
+| **會期後** | 講師會審查課程錄影、出席報告及 [參與分析](./view-the-session-dashboard.md) ，以評估學員參與度及課程成效。 學習者可以透過主題式錄影[&#128279;](./view-recordings-as-a-learner.md)檢視重溫課程，該檢視會將錄影拆分為可導航的主題，每個主題都有標題、概述和註解，方便他們直接跳到任何主題或閱讀，而非觀看。 |
 
 >[!NOTE]
->Live Hub 也可在 Adobe Learning Manager 行動應用程式中使用，但有一些功能限制。 支援行動功能。 以學習者](./live-hub-mobile-experience-for-learners.md)身份在行動裝置上使用[Live Hub，了解更多資訊。為了優化您的 Live Hub 體驗，請參閱 [Live Hub 會話](./best-practices-for-a-live-hub-session.md)的最佳實務。
+>Live Hub 也可在 Adobe Learning Manager 行動應用程式中使用，但有一些功能限制。 支援行動功能。 以學習者[&#128279;](./live-hub-mobile-experience-for-learners.md)身份在行動裝置上使用Live Hub，了解更多資訊。為了優化您的 Live Hub 體驗，請參閱 [Live Hub 會話](./best-practices-for-a-live-hub-session.md)的最佳實務。
