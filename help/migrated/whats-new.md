@@ -68,7 +68,7 @@ Gradebook 支援兩種完成模式：
 
 了解更多關於 [階層式內容資料夾——管理員層級的能力](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 了解更多關於 [階層式內容資料夾——作者層級的能力](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)。
 
-如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。 在遷移內容資料夾階層](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)中了解更多關於遷移[的資訊。
+如果你是從其他平台遷移學習內容到 Adobe Learning Manager，並希望保留現有資料夾組織，你可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與相應的資料夾關聯。 在遷移內容資料夾階層[&#128279;](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)中了解更多關於遷移的資訊。
 
 ## Live Hub（測試版）
 
@@ -97,7 +97,7 @@ Adobe Learning Manager 現在包含 Content Composer，一款 AI 原生的課程
 * 可設定完成標準、成功標準、測驗設定，以及發佈前的 SCORM 版本。
 * 以及更多。
 
-了解更多關於 Adobe Learning Manager 內容撰寫器的](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)資訊[。
+了解更多關於 Adobe Learning Manager 內容撰寫器的[&#128279;](/help/migrated/authors/feature-summary/content-composer/content-composer-help.md)資訊。
 
 
 ## 元件式電子郵件範本建構器
@@ -183,7 +183,7 @@ Report Builder 為管理員提供一個靈活且自助的報告工具，超越 A
 
 報告只建立一次，並儲存以供重複使用。 每次下載都不需要重建篩選器、重新套用分組或重新連接資料集。 儲存的報告可隨時下載、與其他管理員分享，或透過訂閱設定，讓收件人能定期自動收到更新報告。
 
-了解更多關於報告建構器的](/help/migrated/administrators/feature-summary/alm-report-builder.md)資訊[。
+了解更多關於報告建構器的[&#128279;](/help/migrated/administrators/feature-summary/alm-report-builder.md)資訊。
 
 ## 自訂角色變更
 
@@ -231,10 +231,10 @@ Report Builder 為管理員提供一個靈活且自助的報告工具，超越 A
 | **MQA：最新分數與最高分數** | 對於多次嘗試的模組，作者現在可以選擇將最新或最高嘗試分數記錄在學習者成績單中，並用於成績簿計算。 最新是現有的預設值，設定未設定時仍維持不變。 欲了解更多資訊，請了解更多關於 [作者](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)成績簿的資訊。 |
 | **內容庫中的內容預覽** | 作者現在可以在內容庫中預覽已上傳的內容檔案，再將它們加入課程。 了解更多關於 [預覽內容庫](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)的資訊。 |
 | **增量用戶回報** | 新的基於 API 的使用者報告僅回傳自上次請求以來所建立或修改的使用者，減少使用自動化使用者同步工作流程的大型帳號資料傳輸。 了解更多關於 [增量用戶回報的資訊](/help/migrated/incremental-user-report.md)。 |
-| **流體玩家中的11種新語言** | 流體式播放器現在支援 11 種額外語言，包括從右到左（RTL）腳本支援。 了解更多關於流體播放器](/help/migrated/learners/feature-summary/fluidic-player.md)的資訊[。 |
+| **流體玩家中的11種新語言** | 流體式播放器現在支援 11 種額外語言，包括從右到左（RTL）腳本支援。 了解更多關於流體播放器[&#128279;](/help/migrated/learners/feature-summary/fluidic-player.md)的資訊。 |
 | **LTI 模組遷移** | 現有的 LTI 1.1 模組現在可以透過遷移工具遷移到 LTI 1.3。 了解更多關於 [模組](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules)的LTI遷移資訊。 |
-| **電子郵件建構器：富文本編輯器支援** | Adobe Learning Manager 中的電子郵件範本現在支援富文字格式、附件及自訂自動化。 了解更多關於電子郵件建構器的](/help/migrated/administrators/feature-summary/email-builder.md)資訊[。 |
-| **電子郵件建構器：預覽功能** | 你可以使用預覽選項查看已撰寫的電子郵件，看看收件人端會呈現什麼樣子。 了解更多關於電子郵件建構器的](/help/migrated/administrators/feature-summary/email-builder.md)資訊[。 |
+| **電子郵件建構器：富文本編輯器支援** | Adobe Learning Manager 中的電子郵件範本現在支援富文字格式、附件及自訂自動化。 了解更多關於電子郵件建構器的[&#128279;](/help/migrated/administrators/feature-summary/email-builder.md)資訊。 |
+| **電子郵件建構器：預覽功能** | 你可以使用預覽選項查看已撰寫的電子郵件，看看收件人端會呈現什麼樣子。 了解更多關於電子郵件建構器的[&#128279;](/help/migrated/administrators/feature-summary/email-builder.md)資訊。 |
 | **Webhook 時間戳標準化** | webhook 有效載荷物件中 `data` 的所有日期與時間欄位現在都設定為 `00`秒數，提供與學習者逐字稿報告一致的分鐘級精確度。 |
 | **連接強化** | Azure Data Lake Storage （ADLS） 連接器更新;持續支援重複虛擬教室課程的教室名稱;基於錄影檢視的出席追蹤。 |
 | **球員表現提升** | 流暢的賽道玩家經過優化，以加快載入時間與模組間更順暢的銜接。 |
@@ -245,7 +245,7 @@ Report Builder 為管理員提供一個靈活且自助的報告工具，超越 A
 | **警告：大眾觀眾公告** | 當臨時發送公告郵件給超過可設定的收件人數量時，管理員現在會在發送前看到音量警告。 |
 | **電子郵件範本：外部學習者的帳號網址** | 電子郵件通知範本現在可以包含專門為外部學習者設置的帳號網址，並將他們導向正確的登入體驗。 |
 | **AEM 網站** | 現在&#x200B;**在你的個人檔案**>你的興趣領域區塊中，只有一個&#x200B;**編輯**&#x200B;按鈕，可以編輯你對產品、職務和技能的偏好設定。這也是 Native Learning Manager 的一部分。 |
-| **AEM 網站** | 過去只有兩個&#x200B;**編輯**&#x200B;按鈕，但現在編輯&#x200B;****&#x200B;按鈕是整合後的按鈕，用來修改產品、角色和技能的偏好設定。 |
+| **AEM 網站** | 過去只有兩個&#x200B;**編輯**&#x200B;按鈕，但現在編輯&#x200B;**&#x200B;**&#x200B;按鈕是整合後的按鈕，用來修改產品、角色和技能的偏好設定。 |
 | **時區** | 在登入使用者的個人資料設定中，時區欄位下方新增了一個搜尋框。 搜尋框可以直接搜尋時區，而不必捲動整個可用時區清單。 如果你想更改現有時區，請選擇新的時區並選擇儲存。 新時區被保存下來。 儲存按鈕只會在你選擇時區時出現。 |
 
 ## 系統需求
