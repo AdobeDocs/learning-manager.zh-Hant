@@ -48,11 +48,11 @@ ht-degree: 0%
    ![新增課程名稱說明](assets/add-course-name-description.png)
    *在新增模組前，請輸入課程名稱和簡短說明。*
 
-1. 在模組區段選擇&#x200B;**內容**>**新增模組**。 <br>**** 會跳 **出「選擇模組類型** 」視窗。
+1. 在模組區段選擇&#x200B;**內容**>**新增模組**。 <br>**&#x200B;** 會跳 **出「選擇模組類型** 」視窗。
 
 1. 選擇 **虛擬教室** ，輸入課程細節，包括標題、說明、時區、開始與結束日期，以及開始與結束時間。
 
-1. 在 Live Virtual Training Tools 中選擇 **Live Hub**。****
+1. 在 Live Virtual Training Tools 中選擇 **Live Hub**。**&#x200B;**
 
    ![選擇 Live Hub 工具](assets/select-live-hub-tool.png)
    *選擇 Live Hub 以啟用 AI 驅動的講師推薦。*
