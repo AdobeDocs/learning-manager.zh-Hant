@@ -1,9 +1,9 @@
 ---
 title: Live Hub（Beta）會話的最佳實務
 description: 請遵循以下最佳實務，準備、執行並追蹤 Adobe Learning Manager 中的 Live Hub 課程，供作者、管理員、講師及學習者使用。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1891'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Live Hub（Beta）會話的最佳實務
 
-Adobe Learning Manager 中的 Live Hub 課程讓講師與學習者即時交流，提供即時訓練，包含聊天、投票、測驗、白板、分組討論室、錄影與分析。 本文將說明如何執行每項任務。 這份文件是它的配套：它說明了如何做好這些工作。
+Adobe Learning Manager 中的 Live Hub 課程將講師與學習者即時連結，提供互動功能，如聊天、投票、測驗、白板、分組討論室、錄影及分析功能。 本配套指南聚焦於管理員、作者與講師可採用的做法，以打造順暢、引人入勝且有效的學習體驗。
 
 每個 Live Hub 課程都經過三個階段。 這份指南遵循相同的節奏，決定一場遊戲成功的關鍵大部分努力都在有人加入房間之前完成。
 
@@ -135,7 +135,7 @@ Adobe Learning Manager 中的 Live Hub 課程讓講師與學習者即時交流�
 
 * **在教授一個概念後，透過** 測驗評估學習者的理解程度。
 
-* **&#x200B;**&#x200B;投票用來收集意見、收集回饋或引導團體決策。
+* ****&#x200B;投票用來收集意見、收集回饋或引導團體決策。
 
 分享投票或測驗結果有助於引發討論，並提供澄清誤解的機會，然後再進入下一個主題。
 
