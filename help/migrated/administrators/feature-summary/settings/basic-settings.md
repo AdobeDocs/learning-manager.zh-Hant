@@ -3,9 +3,9 @@ description: 了解更多基本設定如何幫助你根據組織架構與學習�
 jcr-language: en_us
 title: 基本設定
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
+source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
 workflow-type: tm+mt
-source-wordcount: '6291'
+source-wordcount: '6314'
 ht-degree: 0%
 
 ---
@@ -427,6 +427,8 @@ Adobe Learning Manager 有特定的產品術語來定義學習物件，例如課
 
 啟用帳戶中所有學習者的外部學習功能。 啟用後，提交表單會在學習者儀表板上開放。 學員可輸入訓練名稱、時長、日期、分數及完成證明等細節。 提交的申請會送交給他們的經理審核與批准。 核准的提交會出現在學習者成績單及行政人員報告中。 被拒的申請不會記錄在成績單中。
 
+![選擇啟用以啟用學習者的外部學習提交](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >啟用此設定後，學習者成績單中新增欄位，方便外部學習提交。 如果您的組織使用自動化工作流程或整合來處理學習者成績單資料，請在啟用前先檢視這些流程，以確保與更新後的成績單結構相容。
@@ -498,6 +500,8 @@ Adobe Learning Manager 有特定的產品術語來定義學習物件，例如課
 | 編號 | 數字輸入。 |
 | 勾選框 | 只有一個是/否切換。 |
 | 下拉選單 | 從管理員定義的選項列表中選擇單一選項。 |
+
+![選擇學習者用來替代外部學習的核心與自訂欄位](../assets/external-learning-fields.png)
 
 ### 完成證明檔案要求
 

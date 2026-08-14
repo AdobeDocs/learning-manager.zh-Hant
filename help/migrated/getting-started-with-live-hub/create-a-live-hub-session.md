@@ -1,9 +1,9 @@
 ---
 title: 建立一個即時中樞（測試版）會話
 description: 學習如何建立 Live Hub 課程、新增課程實例、使用 Instructor Finder 指派講師、註冊學習者，以及自訂教室品牌。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -130,7 +130,7 @@ ht-degree: 0%
    ![AI 助理座談會講師推薦](assets/ai-assistant-panel-instructor-recommendations.png)
    *利用 AI 助理面板根據課程細節獲得指導老師和時間段的建議。*
 
-1. 檢視推薦的講師名單。 Instructor Finder 會根據課程技能和課程需求推薦講師。 建議還會考慮講師的可用性、使用率，以及你組織的假期行事曆。 欲了解更多資訊，請參閱 **講師管理** 。
+1. 檢視推薦的講師名單。
 
 1. 請導覽到你想指派的講師，然後選擇 **新增**。 <br> 所選講師會被加入 **講師** 欄位，作為標籤。
 

@@ -1,9 +1,9 @@
 ---
 title: 關於 Live Hub 的聊天面板
 description: 了解聊天面板如何在 Live Hub 課程中，促進講師與學習者之間的即時、結構化溝通。
-source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Live Hub 的聊天面板讓講師與學習者在現場課程中能即時溝通�
 
 ## 角色與權限
 
-聊天面板對講師和學習者開放。 面板中可用的動作與控制會依使用者在虛擬教室中的角色而有所不同。
+聊天面板在 Live Hub 課程中對講師和學習者開放。 可用的動作與控制會依使用者角色而異。
 
 | **講師** | **學習者** |
 |----|----|
