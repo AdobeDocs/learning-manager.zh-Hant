@@ -2,7 +2,8 @@
 description: 學習如何分享內容撰寫者專案供審核——邀請審核者、收集評論、管理存取權，並在專案被移除時申請存取權。
 jcr-language: en_us
 title: 分享一個專案供審查
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 0%

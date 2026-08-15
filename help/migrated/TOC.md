@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 98f84cf0fd338b0a7e4d51df43f2b03387ace19c
+source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1716'
 ht-degree: 1%
 
 ---
@@ -237,10 +237,10 @@ ht-degree: 1%
       * [在內容撰寫器中撰寫有效的提示](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 分享與協作 {#share}
       * [分享並合作內容撰寫者專案](authors/feature-summary/content-composer/share-collaborate.md)
-      * [分享一個專案供審查](authors/feature-summary/content-composer/share-course-review.md)
-      * [與學習者分享專案](authors/feature-summary/content-composer/share-course-learners.md)
-      * [檢視共用專案](authors/feature-summary/content-composer/review-shared-course.md)
-      * [管理並回應評論](authors/feature-summary/content-composer/manage-and-respond-comments.md)
+      * {hide-from-toc}[分享一個專案供審查](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[與學習者分享專案](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[檢視共用專案](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[管理並回應評論](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * 設定課程設定 {#settings}
       * [一般課程設定](authors/feature-summary/content-composer/general-course-settings.md)
       * [設定完成與成功標準](authors/feature-summary/content-composer/set-completion-success-criteria.md)

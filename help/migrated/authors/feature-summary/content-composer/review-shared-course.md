@@ -1,8 +1,9 @@
 ---
 description: 學習如何開啟並評論分享給回饋的內容撰寫者課程，包括如何瀏覽課程、新增評論、回覆其他評審，以及標記其他評審。
 jcr-language: en_us
-title: 複習共用課程
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+title: 檢視共用專案
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
@@ -29,7 +30,7 @@ ht-degree: 0%
 
    ![](../assets/61_all_screen_comments_toggle.png)
 
-   * 請依&#x200B;**審核者**、**時間**&#x200B;**及已解決**&#x200B;狀態篩選留言。
+   * 請依&#x200B;**審核者**、**時間****及已解決**&#x200B;狀態篩選留言。
 
    ![](../assets/62_comments_filter_reviewers_time_status.png)
 
