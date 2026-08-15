@@ -29,7 +29,7 @@ ht-degree: 0%
 
    ![](../assets/61_all_screen_comments_toggle.png)
 
-   * 請依&#x200B;**審核者**、**時間****及已解決**&#x200B;狀態篩選留言。
+   * 請依&#x200B;**審核者**、**時間**&#x200B;**及已解決**&#x200B;狀態篩選留言。
 
    ![](../assets/62_comments_filter_reviewers_time_status.png)
 

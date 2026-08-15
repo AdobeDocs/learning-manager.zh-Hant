@@ -22,7 +22,7 @@ ht-degree: 0%
 2. 將檔案拖曳到對話框中，或選擇 **+ 新增原始檔案** 以瀏覽。 你可以新增多個原始檔案。
    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
-3. 選擇 **限制輸出為檔案**中的內容。 這讓內容撰寫者能僅使用原始內容來生成課程。 若未勾選此選項，Content Composer 也會使用網頁來建立課程。
+3. 選擇 **限制輸出為檔案**&#x200B;中的內容。 這讓內容撰寫者能僅使用原始內容來生成課程。 若未勾選此選項，Content Composer 也會使用網頁來建立課程。
    ![](../assets/7_manage_sources_file_uploading_restrict_output_updated.png)
 
 支援的格式：
