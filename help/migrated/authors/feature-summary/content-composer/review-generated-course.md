@@ -1,10 +1,10 @@
 ---
-description: 賽道編輯器在生成後會自動開啟。 在分享或發布前，請審閱所有內容、文字、圖片、知識檢查及測驗。 AI 輸出可能有所不同，且需要作者驗證。
+description: 在分享或發布前，請學習如何在內容撰寫者的課程編輯器中審查 AI 生成的課程內容，因為 AI 輸出可能會有所不同。
 jcr-language: en_us
 title: 檢視已生成的課程
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

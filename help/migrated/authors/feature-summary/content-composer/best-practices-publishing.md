@@ -1,10 +1,10 @@
 ---
-description: 檢視連接 Content Composer 與 Adobe Learning Manager 的最佳實務，包括何時設定完成標準、如何命名模組以便發現，以及如何在課程更新間管理版本管理。
+description: 內容撰寫器生成課程的最佳實務——撰寫學習目標、檢視大綱、限制 AI 輸出，以及使用元件。
 jcr-language: en_us
 title: 從內容撰寫器到ALM發佈的最佳實務
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

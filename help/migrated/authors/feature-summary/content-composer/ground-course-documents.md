@@ -1,10 +1,10 @@
 ---
-description: 上傳你的政策、程序或牌組，並限制 AI 只使用該內容。 這確保產生的課程能反映貴組織的精確語言，這對於合規、法規及程序導向訓練至關重要。
+description: 學習如何將 Content Composer 課程建立在自己的文件中，限制 AI 輸出僅限於你的政策、程序或資料卡。
 jcr-language: en_us
 title: 以自己的文件為基礎，讓你的課程成為基礎
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 學習如何在內容撰寫器中套用課程主題。 瀏覽預設與自訂主題，使用搜尋欄依主題名稱搜尋，並以單一選擇在全課程中套用。
+description: 學習如何在內容撰寫器中套用課程主題。 瀏覽預設與自訂主題，依名稱搜尋，並即時套用全課程。
 jcr-language: en_us
 title: 套用主題
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 在你的球場上套用主題，無需任何客製化，打造快速、精緻且一致的視覺效果。
 
-1. 從工具列選擇 **主題** 。 **課程主題**&#x200B;面板會打開，顯示所有可用主題。
+1. 從工具列選擇 **主題** 。 **課程主題**面板會打開，顯示所有可用主題。
    ![](../assets/34_course_themes_panel_open_updated.png)
 
 2. 瀏覽可用主題：

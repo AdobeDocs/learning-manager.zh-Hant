@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+source-git-commit: 98f84cf0fd338b0a7e4d51df43f2b03387ace19c
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1660'
 ht-degree: 1%
 
 ---
@@ -233,12 +233,14 @@ ht-degree: 1%
       * [編輯或新增圖片](authors/feature-summary/content-composer/edit-add-image.md)
       * [新增內容元件](authors/feature-summary/content-composer/add-content-component.md)
       * [預覽賽道](authors/feature-summary/content-composer/preview-course.md)
+    * 撰寫有效的提示 {#write-effective-prompt}
+      * [在內容撰寫器中撰寫有效的提示](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 分享與協作 {#share}
-      * [分享並合作內容撰寫課程](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[分享課程以供複習](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[與學習者分享課程](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[複習共用課程](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[檢視並新增課程評論](authors/feature-summary/content-composer/view-add-comments-course.md)
+      * [分享並合作內容撰寫者專案](authors/feature-summary/content-composer/share-collaborate.md)
+      * [分享一個專案供審查](authors/feature-summary/content-composer/share-course-review.md)
+      * [與學習者分享專案](authors/feature-summary/content-composer/share-course-learners.md)
+      * [檢視共用專案](authors/feature-summary/content-composer/review-shared-course.md)
+      * [管理並回應評論](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * 設定課程設定 {#settings}
       * [一般課程設定](authors/feature-summary/content-composer/general-course-settings.md)
       * [設定完成與成功標準](authors/feature-summary/content-composer/set-completion-success-criteria.md)

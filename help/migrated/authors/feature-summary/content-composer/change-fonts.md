@@ -1,10 +1,10 @@
 ---
-description: 學習如何在 Content Composer 中透過編輯主題來更改標題和正文字體。 從可用字型選項中選擇，並儲存為新的自訂主題或覆蓋現有主題。
+description: 學習如何在 Content Composer 中編輯主題來更改標題和正文字型，然後儲存修改或建立新的自訂主題。
 jcr-language: en_us
 title: 更換字型
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
    ![](../assets/35_course_themes_list_edit_icon_updated.png)
 
-2. 在字體選&#x200B;**單中**，選擇&#x200B;**&#x200B;**&#x200B;標題下拉選單，並為課程中所有標題選擇字體。例如，選擇 **服裝**。
+2. 在字體選&#x200B;**單中**，選擇&#x200B;****&#x200B;標題下拉選單，並為課程中所有標題選擇字體。例如，選擇 **服裝**。
 
    ![](../assets/36_edit_theme_headings_font_dropdown_updated.png)
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
    ![](../assets//37_edit_theme_body_font_dropdown_updated.png)
 
-4. 選擇&#x200B;**「儲存**」以覆蓋現有主題並加入你的更改，或&#x200B;**選擇「另存**&#x200B;**為新」**&#x200B;以建立新的自訂主題，同時保留原有主題不變。
+4. 選擇&#x200B;**「儲存**」以覆蓋現有主題並加入你的更改，或&#x200B;**選擇「另存****為新」**&#x200B;以建立新的自訂主題，同時保留原有主題不變。
 
    ![](../assets/38_edit_theme_full_panel_header_logo_updated.png)
 

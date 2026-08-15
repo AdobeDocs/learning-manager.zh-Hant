@@ -1,10 +1,10 @@
 ---
-description: 檢視目前 Content Composer 測試版的限制，包括大綱編輯、評量類型、主題自訂與協作的限制，並附上各項可用的變通方法與路線圖狀態。
+description: Review Content Composer 測試版限制——僅限對話式編輯、選擇題/唯錯測驗、固定大綱——並針對各項有解決方法。
 jcr-language: en_us
 title: 內容撰寫者測試版的限制
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---

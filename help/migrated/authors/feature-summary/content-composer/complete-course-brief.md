@@ -1,10 +1,10 @@
 ---
-description: 簡報階段透過引導式對話捕捉三個輸入——課程名稱、學習者檔案與學習目標。 三個欄位都必須完整，AI 才能產生大綱。
+description: 學習如何完成內容撰寫簡報階段——先設定課程名稱、定義學習對象，並先寫好目標，然後再製作大綱。
 jcr-language: en_us
 title: 完成課程簡報
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

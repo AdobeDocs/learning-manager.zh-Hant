@@ -1,10 +1,10 @@
 ---
-description: 學習如何將內容撰寫者與 Adobe Learning Manager 連接，設定發佈細節，並將完成的課程直接部署為模組至 ALM 內容庫，無需手動匯出 SCORM。
+description: 學習如何將內容撰寫器與 Adobe Learning Manager 連接，設定發佈細節，並將課程部署至 ALM 內容庫。
 jcr-language: en_us
 title: 連接並發佈到 Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
    - 選擇 **授權** 登入，並將課程連結到你的ALM帳戶。
      ![](../assets/32_alm_connection_not_connected_authorize_updated.png)
 
-   - 授權後，確認 **狀態** 欄位從 **斷線** 更新為 **已**&#x200B;連線。
+   - 授權後，確認 **狀態** 欄位從 **斷線** 更新為 **已**連線。
      ![](../assets/33_alm_connection_connected_status_updated.png)
 
 ## Adobe Learning Manager 發佈細節
@@ -44,6 +44,6 @@ ht-degree: 0%
 
 - 輸入 **專案** 名稱以識別課程名稱。 此名稱作為課程名稱出現在ALM內容圖書館中。
 
-- 介紹&#x200B;**&#x200B;**&#x200B;說明——課程的簡短摘要，與課程並列於ALM內容庫中，幫助學習者與管理者理解其目的。
+- 介紹&#x200B;****&#x200B;說明——課程的簡短摘要，與課程並列於ALM內容庫中，幫助學習者與管理者理解其目的。
 
 - 選擇 **「發佈** 」以將課程作為模組傳送至 ALM 內容庫。
