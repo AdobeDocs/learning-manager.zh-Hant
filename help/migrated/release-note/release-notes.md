@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Adobe Learning Manager 發布說明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '33968'
 ht-degree: 0%
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 內容管理透過基於所見即所得（WYSIWYG）元件式電子郵件範本建構器、階層式內容資料夾結構及角色存取、外部學習功能（External Learning for Submit and approved off-platform）培訓，以及新增的管道功能（Channels）整合企業網頁與 Confluence 頁面的影片內容。
 
-更多資訊請參閱 [Adobe Learning Manager](/help/migrated/whats-new.md) 2026 年 8 月版本中的新增與變更。
+想了解更多關於 [Adobe Learning Manager](/help/migrated/whats-new.md) 2026 年 8 月版本中新增與變更的內容。
 
 ## 發布中的重大變更
 

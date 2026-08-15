@@ -1,10 +1,10 @@
 ---
-description: 學習如何在內容撰寫器中套用課程主題。 瀏覽預設與自訂主題，使用搜尋欄依主題名稱搜尋，並以單一選擇在全課程中套用。
+description: 學習如何在內容撰寫器中套用課程主題。 瀏覽預設與自訂主題，依名稱搜尋，並即時套用全課程。
 jcr-language: en_us
 title: 套用主題
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---

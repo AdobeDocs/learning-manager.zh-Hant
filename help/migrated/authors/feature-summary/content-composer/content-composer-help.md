@@ -1,10 +1,10 @@
 ---
 title: Adobe Learning Manager 內容撰寫器（測試版）幫助
-description: 從簡單的語言提示到已發表的課程，Adobe Learning Manager Content Composer 負責教學設計，讓你能專注於學習者的需求，創造高影響力的教學內容。
+description: Adobe Learning Manager 內容撰寫器將一個簡單的語言提示轉化為可發布的課程，包含課程、評量與 AI 媒介。
 contentowner: saghosh
-source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '752'
 ht-degree: 0%
 
 ---

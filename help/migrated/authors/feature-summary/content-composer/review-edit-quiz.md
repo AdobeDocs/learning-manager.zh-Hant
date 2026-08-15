@@ -1,10 +1,10 @@
 ---
-description: 課程結束時會出現一個評分測驗，每題都標註到所考主題。 編輯題目文字、更改正確答案、分配分數，或請 AI 重新生成題目。
+description: 學習如何在 Content Composer 編輯測驗題目——更改正確答案、分配分數、刪除題目，或請 AI 重新生成題目。
 jcr-language: en_us
 title: 檢視並編輯測驗
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: 預覽模式完全呈現學習者將體驗的課程內容，主題已應用，互動元件已啟動，測驗則以答題模式進行。 在發佈前用它來驗證內容和互動。
+description: 學習如何預覽內容撰寫者課程，並以學習者所見的方式預覽，並啟用應用主題、組件與測驗。
 jcr-language: en_us
 title: 預覽賽道
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

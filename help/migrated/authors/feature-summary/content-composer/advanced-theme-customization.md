@@ -1,10 +1,10 @@
 ---
-description: 學習如何在 Content Composer 中使用進階主題屬性，自訂個別文字元素，包括課程名稱、主題名稱、區塊標題、說明文字與段落，並可細緻控制字型與樣式。
+description: 學習如何在 Content Composer 中使用進階主題屬性，自訂標題和文字元素的字體、顏色、間距與版面配置。
 jcr-language: en_us
 title: 進階主題自訂
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---

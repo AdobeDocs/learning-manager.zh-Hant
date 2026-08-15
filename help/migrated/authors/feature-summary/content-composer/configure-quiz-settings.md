@@ -1,10 +1,10 @@
 ---
-description: 在內容作曲家中設定測驗重試、時間限制、題序及及格分數。 了解每個測驗設定如何影響學習者的體驗，以及分數如何回報給你的學習管理系統（LMS）。
+description: 學習如何在 Content Composer 中設定測驗重試、時間限制、題序、洗牌及 SCORM 評分設定。
 jcr-language: en_us
 title: 設定測驗設定
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

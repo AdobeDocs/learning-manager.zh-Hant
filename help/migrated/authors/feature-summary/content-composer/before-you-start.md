@@ -1,10 +1,10 @@
 ---
-description: 你需要透過 Creative Cloud 訂閱來試用 Content Composer，了解課程內容的大致概念，並可選擇提供原始文件，讓 AI 能根據你組織的特定內容建立基礎。
+description: 在開始 Content Composer 之前，先了解你需要什麼——一個 Creative Cloud 帳號、Google Chrome，以及可選的原始文件來指導 AI。
 jcr-language: en_us
 title: 開始前你需要什麼
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

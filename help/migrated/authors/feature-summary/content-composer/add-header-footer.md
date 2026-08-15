@@ -1,10 +1,10 @@
 ---
-description: 學習如何在內容撰寫者課程中新增頁首和頁尾，上傳標頭的標誌，並在儲存更新後的主題前預覽畫布中的變更。
+description: 學習如何在內容撰寫者課程中新增頁首與頁尾、上傳標誌、啟用切換功能，以及在畫布中即時預覽主題變更。
 jcr-language: en_us
 title: 新增頁首和頁尾
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '124'
 ht-degree: 0%
 
 ---

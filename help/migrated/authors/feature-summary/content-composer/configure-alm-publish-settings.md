@@ -1,10 +1,10 @@
 ---
-description: 學習如何將內容撰寫者與 Adobe Learning Manager 連接，設定發佈細節，並將完成的課程直接部署為模組至 ALM 內容庫，無需手動匯出 SCORM。
+description: 學習如何將內容撰寫器與 Adobe Learning Manager 連接，設定發佈細節，並將課程部署至 ALM 內容庫。
 jcr-language: en_us
 title: 連接並發佈到 Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---

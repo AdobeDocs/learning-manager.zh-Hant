@@ -1,10 +1,10 @@
 ---
-description: 上傳現有文件、政策或簡報，讓 AI 更貼近組織內容。 你可以選擇只限制生成這些檔案，或讓 AI 補充其一般知識。
+description: 學習如何在內容撰寫器中上傳原始檔案、限制 AI 輸出至內容，以及在內容變動時更新原始檔案。
 jcr-language: en_us
 title: 管理原始碼檔案
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---

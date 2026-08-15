@@ -1,10 +1,10 @@
 ---
-description: 在決定完整課程生成前，請先檢視 AI 生成的課程內容與主題結構。 請透過聊天面板申請變更。 以對話方式重新命名、新增、移除、拆分或合併課程與主題。
+description: 學習如何編輯內容撰寫者課程大綱——透過聊天面板重新命名、新增、移除、分割或合併課程與主題。
 jcr-language: en_us
 title: 編輯課程大綱
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---

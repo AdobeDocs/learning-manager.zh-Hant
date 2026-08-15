@@ -1,10 +1,10 @@
 ---
-description: 選擇任意圖片來調整尺寸、亮度、飽和度和透明度。 可用上傳的檔案、Adobe Stock 資產，或是用淺字描述的 AI 生成圖片來取代。
+description: 學習如何在 Content Composer 中編輯圖片——調整大小、亮度和飽和度，或用上傳、Adobe Stock 或 AI 取代圖片。
 jcr-language: en_us
 title: 編輯或新增圖片
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---

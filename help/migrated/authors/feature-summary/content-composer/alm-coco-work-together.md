@@ -1,10 +1,10 @@
 ---
-description: 了解內容作曲家與 Adobe Learning Manager 如何分工撰寫與交付責任，完成課程如何從內容作曲家轉移到 ALM 內容庫，以及學習者追蹤與報告在發布後的運作方式。
+description: 了解內容撰寫器如何處理創作，Adobe Learning Manager 則如何處理發佈後的交付、追蹤與報告。
 jcr-language: en_us
 title: 內容撰寫者與 Adobe Learning Manager 如何協同運作
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

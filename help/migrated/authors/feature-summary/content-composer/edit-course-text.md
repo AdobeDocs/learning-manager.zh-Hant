@@ -1,10 +1,10 @@
 ---
-description: 選擇任一文字元素以啟用內嵌格式工具列。 直接在畫布上編輯正文、標題和標籤。 透過助理重新命名課程和主題，而不是選擇標題。
+description: 學習如何利用 Content Composer 的內嵌格式工具編輯課程文字，以及如何透過助理重新命名課程與主題。
 jcr-language: en_us
 title: 編輯課程內容
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---
