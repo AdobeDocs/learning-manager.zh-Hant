@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->您必須使用有效的 Adobe Creative Cloud 帳號登入。 如果你還沒有，可以透過 Adobe Express 建立免費帳號。 欲了解更多資訊，請參閱 [「建立免費的 Adobe Express 帳號](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html)」。 建立 Adobe 帳號後，啟動 Content Composer 並登入開始建立課程。 如果您的組織已有 Creative Cloud 訂閱，請先聯絡管理員，讓他們在登入 Content Composer 前為您設定 Creative Cloud 帳號。
+>您必須使用有效的 Adobe Creative Cloud 帳號登入。 如果你還沒有，可以透過 Adobe Express 建立免費帳號。 欲了解更多資訊，請參閱 [「建立免費的 Adobe Express 帳號](https://helpx.adobe.com/tw/express/web/adobe-express-subscription/free.html)」。 建立 Adobe 帳號後，啟動 Content Composer 並登入開始建立課程。 如果您的組織已有 Creative Cloud 訂閱，請先聯絡管理員，讓他們在登入 Content Composer 前為您設定 Creative Cloud 帳號。
 
 想要獲得最佳的 Content Composer **體驗，Google Chrome 是推薦的瀏覽器**。 Firefox 和 Safari 可能會在功能或行為上有所不同。
 
