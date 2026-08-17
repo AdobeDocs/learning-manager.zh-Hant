@@ -63,7 +63,7 @@ ht-degree: 0%
 
    a. **[!UICONTROL Format]**：混合式/自學/教室/虛擬教室：學習對象的類型。
    b. **[!UICONTROL Duration]**：學習對象的持續時間。
-   c. **[!UICONTROL Skill/ Product]**展示課程涵蓋的關鍵技能或產品。
+   c. **[!UICONTROL Skill/ Product]**&#x200B;展示課程涵蓋的關鍵技能或產品。
    d. **[!UICONTROL Rating]**：顯示課程的學習者評分。
    e. **[!UICONTROL Author name]**：顯示課程作者姓名f. **[!UICONTROL Description (appears on hover)]**：當學習者滑鼠移到卡片上時，顯示課程簡短摘要。
    g. **[!UICONTROL Published date/ due date (appears on hover)]**：顯示課程發表時間或完成截止日期。
