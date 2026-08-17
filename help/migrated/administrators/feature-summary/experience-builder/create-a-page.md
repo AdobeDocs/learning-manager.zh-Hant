@@ -1,198 +1,197 @@
 ---
-title: 在Experience Builder建立頁面
-description: 瞭解如何在Adobe Learning Manager的Experience Builder中建立新頁面。 本指南涵蓋選取範本、命名頁面、設定頁面屬性及發佈自訂頁面。
+title: 在體驗建站中建立頁面
+description: 學習如何在 Adobe Learning Manager 的 Experience Builder 中建立新頁面。 本指南涵蓋了選擇範本、命名頁面、設定頁面屬性以及發佈自訂頁面。
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
 
+# 在 Experience Builder 建立自訂頁面
 
-# 在Experience Builder建立自訂頁面
+作為金融服務公司的行政人員，你管理兩個團隊：銷售與客戶成功。 每個團隊都有獨特的學習需求，但兩者都使用相同的標準學習入口網站。 這導致了混亂、雜亂以及學習者參與度低。
+為了解決這個問題，而不必投資無頭建置或等待客製化開發解決方案，你可以使用 Adobe Learning Manager 中的 Experience Builder。 透過頁面、小工具和選單，你只需幾個步驟就能設計出品牌化、角色專屬的入口網站，無需編碼。
 
-身為金融服務公司的管理員，您可以管理兩個團隊：銷售與客戶成功。 每個團隊都有獨特的學習需求，但兩者都使用相同的標準學習入口網站。 這會導致困惑、雜亂和學習者參與度低。
-若要在不投資Headless組建或等待自訂開發人員解決方案的情況下解決此挑戰，您可以在Adobe Learning Manager中使用Experience Builder。 有了頁面、Widget和選單，您只需幾個步驟即可設計品牌化、角色專屬的入口網站，無需編碼。
+要在 Adobe Learning Manager 中為銷售工程團隊建立自訂頁面：
 
-若要在Adobe Learning Manager中建立銷售工程團隊的自訂頁面：
-
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取&#x200B;**[!UICONTROL Create page]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇 **[!UICONTROL Create page]**。
 
    ![](assets/select-create-page.png)
-   _自訂頁面畫面顯示[建立頁面]選項，用來設計新的自訂學習體驗_
+   _自訂頁面畫面顯示「建立頁面」選項，設計新的自訂學習體驗_
 
-5. 輸入&#x200B;**[!UICONTROL Page name]** （例如，銷售團隊的銷售訓練）。
-6. 輸入&#x200B;**[!UICONTROL Page description]**。
+5. 輸入（ **[!UICONTROL Page name]** 例如，銷售團隊的銷售訓練）。
+6. 輸入 **[!UICONTROL Page description]**.。
 
    ![](assets/type-page-name-and-description-for-custom-page.png)
-   _在Adobe Learning Manager中設定銷售訓練頁面，顯示頁面名稱、說明、型別、URL和圖示設定的欄位，以建立目標銷售訓練入口網站_
+   _Adobe Learning Manager 中建立銷售培訓頁面，顯示頁面名稱、描述、類型、URL 及圖示設定欄位，以建立目標銷售培訓入口網站_
 
-7. 從下列專案選取頁面型別：
+7. 從以下頁面類型中選擇：
 
-   * **[!UICONTROL Build using ALM widgets]**：管理員可以使用現有的Adobe Learning Manager Widget建立頁面。 在「頁面URL」欄位中輸入自訂字串。 此字串將會附加至自訂頁面的URL。
-   * **[!UICONTROL External page]**：管理員可以為外部頁面新增URL。 如果您選取頁面型別為外部，請在「頁面URL」文字欄位中輸入外部頁面URL。
+   * **[!UICONTROL Build using ALM widgets]**&#x200B;管理員可以使用現有的 Adobe Learning Manager 元件建立頁面。 在頁面網址欄位輸入自訂字串。 這個字串會附加到你自訂頁面的網址後面。
+   * **[!UICONTROL External page]**&#x200B;管理員可以為外部頁面新增網址。 如果你選擇頁面類型為外部，請在頁面網址文字欄位輸入外部頁面 URL。
 
-8. 選取&#x200B;**[!UICONTROL Change icon]**&#x200B;以變更頁面的圖示。
-9. 選取&#x200B;**[!UICONTROL Add New Language]**&#x200B;以新增頁面的預設語言。
-10. 選取&#x200B;**[!UICONTROL Save]**。
+8. 選擇 以 **[!UICONTROL Change icon]** 更改頁面圖示。
+9. 選擇 **[!UICONTROL Add New Language]** 新增頁面的預設語言。
+10. 選擇 **[!UICONTROL Save]**。
 
-已建立頁面，並將其儲存為自訂頁面區段中的草稿。 管理員可以使用介面工具來編輯和設計草擬的頁面。
+該頁面已建立並存為草稿，存放於自訂頁面區塊。 管理員可以使用這些小工具編輯和設計已草擬的頁面。
 
-下一步是將配置新增到自訂頁面，您可以在其中新增和設定Widget。
+下一步是在自訂頁面新增版面，讓你可以新增和設定小工具。
 
-## Experience Builder中的頁面配置
+## Experience Builder 中的頁面版面配置
 
-從下拉式選單中選取適當的區段配置，以設計您的頁面。 任何版面的最大寬度皆為1212畫素。 根據您想要新增的Widget數目及其所需大小，從下列區段選項中選擇：
+從下拉選單中選擇合適的章節版面設計，設計你的頁面。 任何佈局的最大寬度為 1212 像素。 根據你想新增的元件數量及其期望大小，從以下區塊選項中選擇：
 
-* **[!UICONTROL 1 column - Full section width]**：內容橫跨整個區段寬度，提供最大的空間。
-* **[!UICONTROL 2 columns - 1/2 section width each]**：區段平均分割為兩個等寬欄。
-* **[!UICONTROL 2 columns - 2/3 and 1/3 section width]**：主要內容佔據三分之二的寬度，而次要內容則使用三分之一。
-* **[!UICONTROL 2 columns - 1/3 and 2/3 section width]**：側邊內容需要三分之一，主要內容需要三分之二的區段。
-* **[!UICONTROL 3 columns - 1/3 section width each]**：區段分成三個等寬欄。
+* **[!UICONTROL 1 column - Full section width]**：內容涵蓋整個區塊寬度，提供最大空間。
+* **[!UICONTROL 2 columns - 1/2 section width each]**：該區塊被平均分為兩列等寬的欄。
+* **[!UICONTROL 2 columns - 2/3 and 1/3 section width]**：主內容佔寬度的三分之二，支線內容佔三分之一。
+* **[!UICONTROL 2 columns - 1/3 and 2/3 section width]**： 支線內容佔三分之一，主線內容佔三分之二。
+* **[!UICONTROL 3 columns - 1/3 section width each]**：該區段分為三個等寬的欄位。
 
 >[!NOTE]
 >
->除了1欄 — 完整區段寬度版面配置外，所有版面配置中最多可垂直新增10個Widget。
+>除了單欄全區段寬度的配置外，所有版面中垂直新增最多 10 個小工具。
 
-若要在Experience Builder中選取銷售訓練頁面的配置：
+要在 Experience Builder 中選擇銷售培訓頁面的版面配置：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**，然後選取所需的頁面。
-4. 選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]** 並選擇所需頁面。
+4. 選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]**。
 
    ![](assets/select-edit-the-custom-page.png)
-   _銷售訓練自訂頁面的頁面設計編輯畫面，醒目顯示新增頁面區段、Widget和版面配置的編輯按鈕_
+   _銷售培訓自訂頁面的頁面設計編輯畫面，重點顯示新增頁面區塊、元件與版面版面的編輯按鈕_
 
-6. 從&#x200B;**[!UICONTROL Select section layout]**&#x200B;下拉式清單中選擇選項。
+6. 從下拉選單選擇 **[!UICONTROL Select section layout]** 選項。
 
    ![](assets/select-section-layout.png)
-   _區段配置選擇對話方塊可讓系統管理員為自訂頁面設計選擇單一或多欄Widget配置_
+   _區塊版面選擇對話框允許管理員選擇單欄或多欄小工具排列以進行自訂頁面設計_
 
-7. 選取&#x200B;**[!UICONTROL Proceed]**。
+7. 選擇 **[!UICONTROL Proceed]**。
 
-新增的版面配置有以下選項：
+新增的版面有以下選項：
 
-* **[!UICONTROL Delete row]**：從版面配置移除列。
-* **[!UICONTROL Fit screen width]**：調整版面，使其自動調整大小以符合熒幕，以提升顯示效果。
-* **[!UICONTROL Reorder]**：將版面拖放至所需位置，以變更版面順序。
+* **[!UICONTROL Delete row]**：將該列從版面中移除。
+* **[!UICONTROL Fit screen width]**&#x200B;調整版面，讓它自動調整大小以符合你的螢幕，以提升視野。
+* **[!UICONTROL Reorder]**：透過拖放排列順序，將它們拖放到想要的位置。
 
 ![](assets/layout-options.png)
-_顯示版面配置選項的頁面配置，以重新排序、展開或刪除區段_
+_頁面版面配置顯示重新排序、展開或刪除該區段的版面選項_
 
-下一步是在自訂頁面上新增及設定Widget。
+下一步是在自訂頁面上新增並設定小工具。
 
-## 新增和設定Widget
+## 新增與配置元件
 
-根據需求，將所需的Widget新增至銷售培訓自訂頁面。
+根據需求，在銷售訓練自訂頁面中新增所需的小工具。
 
-若要在銷售訓練自訂頁面中設定Widget：
+要在銷售訓練自訂頁面中設定小工具：
 
-1. 在配置中選取&#x200B;**[!UICONTROL Add widget]**。
+1. 在版面中選擇 **[!UICONTROL Add widget]** 。
 
    ![](assets/select-add-widgets-custom-page.png)
-   _頁面設計畫面可讓系統管理員選取並新增Widget，以自訂其課程頁面_
+   _頁面設計畫面允許管理員選擇並新增小工具，以自訂課程頁面_
 
-2. 選擇&#x200B;**[!UICONTROL Content Box widget]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+2. 選擇 ， **[!UICONTROL Content Box widget]** 然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-content-box.png)
-   _Widget選取畫面醒目提示「內容方塊」Widget，以顯示自訂影像、文字和動作按鈕，以增強學習者參與度_
+   _小工具選擇畫面，重點顯示內容框小工具，顯示自訂圖片、文字及動作按鈕，提升學習者參與度_
 
-3. 輸入&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
-4. 在&#x200B;**[!UICONTROL Action button label]**&#x200B;中輸入文字並提供連結。
-5. 設定其餘選項。 檢視此[區段](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#content-box-widget)以進一步瞭解&#x200B;**[!UICONTROL Content Box widget]**。
+3. 輸入 **[!UICONTROL Title]** &amp; **[!UICONTROL Description]**。
+4. 輸入文字 **[!UICONTROL Action button label]** 並附上連結。
+5. 設定剩餘的選項。 請參閱本[節](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#content-box-widget)以了解更多相關資訊。**[!UICONTROL Content Box widget]**
 
    ![](assets/content-box-configuration.png)
-   _內容方塊Widget畫面會顯示設定Widget_&#x200B;的選項
+   _內容框小工具畫面，顯示設定小工具的選項_
 
-6. 在銷售工程師的&#x200B;**[!UICONTROL Content Box widget]**&#x200B;設定畫面中，輸入標題、說明和動作按鈕標籤
-7. 選取&#x200B;**[!UICONTROL Add widget]**。
-8. 選取&#x200B;**[!UICONTROL Save]**&#x200B;並從下列選項中選擇：
-a. **[!UICONTROL Save as Draft]**：此頁面將儲存為草稿。 管理員稍後可以編輯頁面。
-b. **[!UICONTROL Save & Publish]**：頁面將會發佈，管理員可以將此頁面新增到功能表。
+6. 在銷售工程師的設定畫面輸入標題、描述和動作按鈕標籤&#x200B;**[!UICONTROL Content Box widget]**
+7. 選擇 **[!UICONTROL Add widget]**。
+8. 選擇 **[!UICONTROL Save]** 並從以下選項中挑選：a. **[!UICONTROL Save as Draft]**： 頁面將被儲存為草稿。 管理員可以之後編輯該頁面。
+b. **[!UICONTROL Save & Publish]**：該頁面將會被發布，管理員可以將此頁面加入選單。
 
    ![](assets/select-save-options.png)
-   _儲存選項可讓系統管理員選擇將頁面儲存為草稿以供日後編輯，還是發佈頁面以供學習者存取_
+   _儲存選項允許管理員選擇將頁面保存為草稿以便日後編輯，或是發佈給學習者使用_
 
-頁面可儲存為草稿或發佈。 管理員可以在發佈前編輯草稿，也可以更新並重新發佈已發佈的頁面。
+該頁面可以儲存為草稿或發佈。 管理員可以在發佈前編輯草稿，也可以更新及重新發布已發表的頁面。
 
-請依照相同的步驟，為Customer Success Manager團隊建立頁面。
+請依照相同步驟建立客戶成功經理團隊的頁面。
 
 ## 預覽頁面
 
-若要預覽頁面：
+預覽頁面：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取&#x200B;**[!UICONTROL Preview page]**&#x200B;以檢視入口網站的預覽。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇 **[!UICONTROL Preview page]** 以查看入口網站的預覽。
 
    ![](assets/preview-the-page.png)
-   _頁面預覽，顯示具有橫幅、精選課程的自訂頁面配置_
+   _頁面預覽，顯示自訂頁面佈局與橫幅、精選課程_
 
-6. 選取「檢查模式」以檢視Widget的高度和寬度。
+6. 選擇檢查模式以查看小工具的高度與寬度。
 
    ![](assets/inspect-mode.png)
-   _在Experience Builder中以檢查模式切換的頁面預覽畫面會反白顯示，讓管理員檢閱和檢查Widget_
+   _Experience Builder 中的頁面預覽畫面，並標示檢視模式切換，讓管理員能檢視並檢查小工具_
 
-## 以不同語言建立頁面
+## 建立一個不同語言的頁面
 
-管理員可以在建立頁面時在新增語言中選取所需的語言，以建立多個地區設定的特定自訂頁面。 新增多種語言時，必須在預設語言標籤旁的對應標籤中，針對每種語言個別設定Widget詳細資訊。
+管理員可在建立頁面時，透過新增語言選擇所需語言，建立多個區域專屬的自訂頁面。 當新增多種語言時，元件細節必須分別在對應的分頁中設定，該分頁位於預設語言分頁旁。
 
 ![](assets/localize-pages.png)
-_管理員可以新增其他語言的Widget詳細資訊，例如法文，以及預設語言_
+_管理員可以在預設語言之外，新增其他語言（如法語）的小工具細節_
 
 ## 管理頁面生命週期
 
-管理員可以使用「自訂頁面」區段來編輯、刪除和複製頁面。
+管理員可以使用自訂頁面區塊來編輯、刪除及複製頁面。
 
 ### 編輯頁面
 
-若要編輯自訂頁面：
+要編輯自訂頁面：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取「品牌」。
-3. 選取「自訂頁面」。
-4. 選取所需的頁面，然後選取「編輯」。
-5. 選取「儲存」。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽欄選「品牌」。
+3. 選擇自訂頁面。
+4. 選擇所需頁面，然後選擇編輯。
+5. 選擇儲存。
 
-此頁面將會更新變更。
+頁面將隨著變更持續更新。
 
 ![](assets/edit-the-pages.png)
-_編輯自訂頁面，讓系統管理員可以更新頁面名稱、說明和型別_
+_編輯自訂頁面，允許管理員更新頁面名稱、描述與類型_
 
-### 刪除頁面
+### 刪除該頁面
 
-若要刪除頁面：
+刪除該頁面：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取「品牌」。
-3. 選取「自訂頁面」。
-4. 選取所需的頁面。
-5. 選取動作，然後選取刪除。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽欄選「品牌」。
+3. 選擇自訂頁面。
+4. 選擇所需頁面。
+5. 選擇動作，然後選擇刪除。
 
 ![](assets/delete-the-custom-page.png)
-_自訂頁面畫面會顯示刪除為產品訓練建立之自訂頁面的選項_
+_自訂頁面畫面，顯示刪除為產品訓練所建立自訂頁面的選項_
 
-### 複製頁面
+### 複製該頁面
 
-若要複製頁面：
+要複製該頁面：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取「品牌」。
-3. 選取「自訂頁面」。
-4. 選取所需的頁面。
-5. 選取動作，然後選取複製。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽欄選「品牌」。
+3. 選擇自訂頁面。
+4. 選擇所需頁面。
+5. 選擇動作，然後選擇重複。
 
 ![](assets/duplicate-the-page.png)
-_自訂頁面畫面會顯示選項，用來復製為產品訓練建立的自訂頁面_
+_自訂頁面畫面顯示可複製為產品訓練所建立的自訂頁面的選項_
 
-## 下一步
+## 接下來的計畫
 
-建立頁面後，根據您的培訓需求，在自訂頁面上新增並設定Widget。
+建立頁面後，根據你的訓練需求，在自訂頁面上新增並設定小工具。
