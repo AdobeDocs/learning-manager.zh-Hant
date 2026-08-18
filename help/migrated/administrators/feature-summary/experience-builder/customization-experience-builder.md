@@ -1,132 +1,131 @@
 ---
-title: 自訂Experience Builder
+title: 自訂體驗建構器
 jcr-language: en_us
-description: 瞭解Adobe Learning Manager中的Experience Builder如何實現學習者體驗的深度自訂。
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+description: 了解 Adobe Learning Manager 中的 Experience Builder 如何實現學習者體驗的深度自訂。
+exl-id: d8f36868-8e6d-4420-9fab-fadaf2fe31ef
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
+# 自訂體驗建構器
 
-# 自訂Experience Builder
+## 自訂頁腳
 
-## 自訂頁尾
+頁腳顯示在學習器介面底部，通常顯示管理員設定中預設的資訊。 管理員可以用自訂頁尾取代，打造品牌化體驗。 利用 HTML 和 CSS，他們能定義頁腳的設計、版面與內容，以符合組織需求。
 
-頁尾會顯示在學習者介面的底部，通常會顯示管理員設定中所設定的預設資訊。 管理員可以使用自訂頁尾取代此專案，以建立品牌化體驗。 他們能使用HTML和CSS定義頁尾的設計、版面和內容，以符合組織的需求。
+作為金融公司的管理員，您可以使用自訂選項來設定頁腳。 這個選項允許你加入自己的 HTML 和 CSS，讓你完全有彈性來設計頁腳。
 
-身為財務公司的管理員，您可以使用自訂選項來設定頁尾。 此選項可讓您新增自己的HTML和CSS，讓您完全靈活地設計頁尾。
+自訂頁腳：
 
-若要自訂頁尾：
-
-1. 以管理員身分登入Adobe Learning Manager。
-2. 選取&#x200B;**[!UICONTROL Branding]**，然後選取&#x200B;**[!UICONTROL General]**。
-3. 選取&#x200B;**[!UICONTROL Edit]**&#x200B;選項旁的&#x200B;**[!UICONTROL Footer customization]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 選擇 **[!UICONTROL Branding]** ，然後選擇 **[!UICONTROL General]**。
+3. 選擇 **[!UICONTROL Edit]** 下一個 **[!UICONTROL Footer customization]** 選項。
 
    ![](assets/edit-footer.png)
-   _Adobe Learning Manager中的一般設定畫面，顯示啟用頁尾自訂的選項_
+   _Adobe Learning Manager 的一般設定畫面，顯示啟用頁尾自訂選項_
 
-4. 選取切換按鈕以啟用&#x200B;**[!UICONTROL Footer customization]**。
+4. 選擇切換按鈕以啟用 **[!UICONTROL Footer customization]**.
 
    ![](assets/footer-customization-toogle.png)
-   _Adobe Learning Manager中的頁尾自訂設定，顯示啟用自訂頁尾和欄位以新增HTML或CSS以個人化品牌化的切換按鈕_
+   _Adobe Learning Manager 中的頁尾自訂設定，顯示啟用自訂頁尾和欄位的開關，以加入 HTML 或 CSS 以打造個人化品牌_
 
-5. 在個別索引標籤中鍵入您的&#x200B;**[!UICONTROL HTML]**&#x200B;和&#x200B;**[!UICONTROL CSS]**。
+5. 在各自的分頁輸入你的 **[!UICONTROL HTML]** 和 **[!UICONTROL CSS]** 。
 
    ![](assets/type-html-css.png)
-   _Adobe Learning Manager中的頁尾自訂畫面，顯示用於新增、編輯或樣式化學習者介面頁尾的自訂HTML區段_
+   _Adobe Learning Manager 中的頁尾自訂畫面，顯示自訂 HTML 區段，用於新增、編輯或樣式化學習者介面頁尾_
 
-6. 在儲存前選取&#x200B;**[!UICONTROL Preview]**&#x200B;以檢視自訂頁尾。
+6. 選擇 **[!UICONTROL Preview]** 查看自訂頁尾，再儲存。
 
    ![](assets/preview-the-footer.png)
-   _預覽Adobe Learning Manager中的自訂學習者介面頁尾，其中包含已分類的連結_
+   _Adobe Learning Manager 自訂學習者介面頁尾預覽，包含分類連結_
 
-7. 選取&#x200B;**[!UICONTROL Save]**。
+7. 選擇 **[!UICONTROL Save]**。
 
-自訂頁尾將會向所有學習者顯示。
+客製化的頁腳將顯示給所有學習者。
 
-## 自訂課程圖磚
+## 自訂球場磚塊
 
-在金融公司，管理員可以設定課程圖磚，以決定學習者可看到的詳細資訊。 例如，他們可能會顯示課程說明和合規培訓的技能名稱，但隱藏評級或作者名稱，以專注在強制要求上。
+在金融公司，管理員可以設置課程圖塊來決定學習者會看到哪些細節。 例如，他們可能會顯示合規訓練的課程描述和技能名稱，但隱藏評分或作者姓名，以保持對強制性要求的關注。
 
-若要自訂課程圖磚：
+自訂球場磚塊：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 選取&#x200B;**[!UICONTROL Branding]**，然後選取&#x200B;**[!UICONTROL Course Tile]**。
-3. 選取&#x200B;**[!UICONTROL Edit]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 選擇 **[!UICONTROL Branding]** ，然後選擇 **[!UICONTROL Course Tile]**。
+3. 選擇 **[!UICONTROL Edit]**。
 
    ![](assets/edit-course-tile.png)
-   _Adobe Learning Manager中的「課程圖磚」設定畫面，顯示「編輯」選項以自訂圖磚_
+   _Adobe Learning Manager 的課程磁磚設定畫面，顯示可自訂磁貼的編輯選項_
 
-4. 選取下列選項以顯示或隱藏與課程資訊相關的詳細資訊：
+4. 請選擇以下選項以顯示或隱藏與課程資訊相關的細節：
 
-   a. **[!UICONTROL Format]**：混合/自學/教室/虛擬教室：學習物件的型別。
-b. **[!UICONTROL Duration]**：學習物件的持續時間。
-c. **[!UICONTROL Skill/ Product]**：顯示課程涵蓋的關鍵技能或產品。
-d. **[!UICONTROL Rating]**：顯示課程的學習者評分。
-e. **[!UICONTROL Author name]**：顯示課程作者的名稱
-f. **[!UICONTROL Description (appears on hover)]**：當學習者暫留在卡片上時，顯示課程的簡短摘要。
-g. **[!UICONTROL Published date/ due date (appears on hover)]**：顯示課程發佈的時間或完成期限。
+   a. **[!UICONTROL Format]**：混合式/自學/教室/虛擬教室：學習對象的類型。
+   b. **[!UICONTROL Duration]**：學習對象的持續時間。
+   c. **[!UICONTROL Skill/ Product]**&#x200B;展示課程涵蓋的關鍵技能或產品。
+   d. **[!UICONTROL Rating]**：顯示課程的學習者評分。
+   e. **[!UICONTROL Author name]**：顯示課程作者姓名f. **[!UICONTROL Description (appears on hover)]**：當學習者滑鼠移到卡片上時，顯示課程簡短摘要。
+   g. **[!UICONTROL Published date/ due date (appears on hover)]**：顯示課程發表時間或完成截止日期。
 
-5. 選取下列選項以顯示或隱藏課程動作的相關詳細資訊：
+5. 請選擇以下選項以顯示或隱藏與課程行動相關的細節：
 
-   答： **[!UICONTROL Add to Learning List button]**：允許學習者將課程儲存至個人學習清單以供日後參考。
-b. **[!UICONTROL Save button]**：儲存對課程設定或偏好設定所做的任何變更。
-c. **[!UICONTROL Enroll / Continue button]**：允許學習者註冊新課程或繼續他們已經開始的課程。 隱藏此選項也會移除旁邊顯示的「不建議」和「下載」動作。
+   a. **[!UICONTROL Add to Learning List button]**：允許學習者將課程儲存在個人學習清單中，以便日後參考。
+   b. **[!UICONTROL Save button]**：儲存任何對課程設定或偏好設定所做的變更。
+   c. **[!UICONTROL Enroll / Continue button]**：允許學習者選擇選修新課程或繼續已開始的課程。 隱藏此選項也會移除旁邊出現的「不推薦」和「下載」動作。
 
    ![](assets/select-details-to-show.png)
-   _Adobe Learning Manager中的課程磚設定畫面，管理員可在此選取資訊和動作，以便向學習者顯示_
+   _Adobe Learning Manager 的課程磁貼設定畫面，管理員在此選擇要顯示給學習者的資訊與動作_
 
-6. 課程圖磚的預覽會顯示在畫面右側。
+6. 螢幕右側會顯示賽道圖塊的預覽。
 
    ![](assets/preview-the-course-tile.png)
-   _Adobe Learning Manager中的課程圖磚設定畫面，醒目提示課程圖磚預覽_
+   _Adobe Learning Manager 中的課程磁磚設定畫面，重點顯示課程磁磚的預覽_
 
-7. 選取&#x200B;**儲存**。
+7. 選擇 **儲存**。
 
-自訂課程圖磚會顯示給所有學習者。
+客製化課程圖塊將顯示給所有學習者。
 
-自訂前&#x200B;**&#x200B;**
+**自訂化之前**
 
 ![](assets/before-customization.png)
-_在自訂之前，在Adobe Learning Manager中插入課程磚_
+_Adobe Learning Manager 自訂前的課程磁貼_
 
-**自訂之後**
+**客製化後**
 
 ![](assets/after-customization.png)
-自訂後_Adobe Learning Manager中的課程磚_
+_Adobe Learning Manager 自訂後的課程磁貼_
 
-## 使用JavaScript和CSS自訂
+## 使用 JavaScript 和 CSS 自訂
 
-作為金融公司管理員，您可以插入CSS和JavaScript來自訂學習者應用程式，以符合貴公司的品牌和法規要求，讓您完整控制應用程式的外觀、版面配置和互動功能。
+作為財務公司管理員，您可以透過注入 CSS 和 JavaScript 來自訂學習應用程式，以符合公司品牌與法規要求，讓您完全掌控應用程式的外觀、版面配置及互動功能。
 
-若要使用CSS和JS自訂學習者介面：
+要使用 CSS 和 JS 自訂學習者介面：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 選取&#x200B;**[!UICONTROL Branding]**，然後選取&#x200B;**[!UICONTROL CSS & JS Configuration]**。
-3. 選取&#x200B;**[!UICONTROL Edit]**。
-4. 在個別索引標籤中鍵入您的自訂CSS和JS。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 選擇 **[!UICONTROL Branding]** ，然後選擇 **[!UICONTROL CSS & JS Configuration]**。
+3. 選擇 **[!UICONTROL Edit]**。
+4. 在各自的分頁輸入你自訂的 CSS 和 JS。
 
    ![](assets/edit-custom-css-js.png)
-   在Adobe Learning Manager中的&#x200B;_CSS與JS設定畫面，管理員可以在其中新增自訂CSS與JS_
+   _Adobe Learning Manager 中的 CSS 與 JS 設定畫面，管理員可在此新增自訂 CSS 與 JS_
 
-5. 選取「儲存」。
+5. 選擇儲存。
 
-所有學習者皆可看到自訂內容。
+客製化功能將展示給所有學習者。
 
-**在自訂之前**
+**自訂之前**
 
-學習者首頁選單設計以Adobe Learning Manager預設設計為基礎。
+Learner 首頁選單的設計基於 Adobe Learning Manager 的預設設計。
 
 ![](assets/before-customization.png)
-自訂前_Adobe Learning Manager學習者首頁_
+_Adobe Learning Manager Learner 首頁，自訂前的頁面_
 
-**自訂之後**
+**客製化後**
 
-新增以下CSS和JS後，學習者首頁功能表已根據自訂進行更新。
+新增以下 CSS 與 JS 後，學習者首頁選單已根據自訂功能進行更新。
 
-範例CSS：
+範例 CSS：
 
 ```
 p{
@@ -313,26 +312,26 @@ number = number - 7;
 ```
 
 ![](assets/after-customization-homepage.png)
-自訂後_Adobe Learning Manager學習者首頁_
+_Adobe Learning Manager Learner 首頁自訂化後_
 
-## 自訂Widget
+## 自訂小工具
 
-管理員可以套用CSS類別來自訂頁面上的Widget。 例如，他們可以對齊「內容方塊」Widget中的文字，或是調整「課程與路徑」Widget中課程圖磚之間的間距。
+管理員可以透過套用 CSS 類別來自訂自訂頁面上的元件。 例如，他們可以在內容框小工具中對齊文字，或在「路徑與路徑」小工具中調整課程磁磚間距。
 
 >[!TIP]
 >
->檢查學習者頁面以識別您要修改的樣式。 複製相關的CSS類別，並將其貼到「CSS &amp; JS設定」頁面以套用您的自訂。
+>檢查學習者頁面，找出你想修改的樣式。 複製相關 CSS 類別並貼到 CSS 與 JS 設定頁面，即可套用你的自訂。
 
-**在自訂之前**
+**自訂之前**
 
-在新增CSS自訂功能之前，以下是銷售工程師培訓頁面。
+以下畫面是銷售工程師在加入 CSS 自訂前的訓練頁面。
 
 ![](assets/before-customization-css-js.png)
-自訂前_銷售工程師學習者頁面_
+_客製化前的銷售工程師學習者頁面_
 
-**自訂之後**
+**客製化後**
 
-新增下列CSS類別後，學習者頁面會根據這些類別中定義的樣式更新。 根據CSS，內容方塊Widget中的文字已靠左對齊，而課程圖磚之間的間距現已增加。
+新增以下 CSS 類別後，學習者頁面會依照這些類別中定義的樣式更新。 根據 CSS，內容框小工具中的文字已向左對齊，且課程磚塊間距也擴大了。
 
 ```
 .alm-custom-content-box-center {
@@ -355,22 +354,20 @@ number = number - 7;
 ```
 
 ![](assets/after-customization-css-js.png)
-自訂後_銷售工程師學習者頁面_
+_客製化後的銷售工程師學習者頁面_
 
-### Widget的預定義CSS類別
+### 元件的預先定義 CSS 類別
 
-以下是一些適用於Widget的預定義CSS類別。
+以下是一些用於小工具的預先定義 CSS 類別。
 
-| Widget名稱 | 容器CSS |
+| 小工具名稱 | 容器 CSS |
 |---|---|
-| 行事曆 | alm-calendar-widget-container |
-| 類別 | alm-category-widget-container |
-| 類別卡 | alm-category-card-container |
-| 合規性 | alm-compliance-container |
-| 課程與路徑 | alm-course-path-widget-container |
-| 課程與路徑LO卡 | alm-training-card-v2-card |
-| 內容方塊 | alm-custom-content-box-container |
-| gamification | alm-leaderboard-container |
-| 社交學習 | alm-social-learning-container |
-
-
+| 賽程表 | alm-calendar-widget-container |
+| 類別 | alm-類別-widget-容器 |
+| 類別卡 | alm-類別-卡片-容器 |
+| 合規 | ALM-合規-容器 |
+| 路線與路徑 | alm-course-path-widget-container |
+| 路線與路徑 LO 卡 | alm-training-card-v2-card |
+| 內容框 | alm-custom-content-box-container |
+| 遊戲化 | ALM-排行榜-容器 |
+| 社會學習 | alm-social-learning-container |

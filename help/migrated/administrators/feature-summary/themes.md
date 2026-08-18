@@ -1,135 +1,135 @@
 ---
-description: Learning Manager中的色彩主題與品牌
+description: 學習管理器中的色彩主題與品牌
 jcr-language: en_us
-title: 顏色主題
+title: 色彩主題
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
 source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
 
-# 顏色主題
+# 色彩主題
 
-Learning Manager中的色彩主題與品牌
+學習管理器中的色彩主題與品牌
 
-Learning Manager可讓您變更應用程式的外觀，以符合貴組織的品牌需求。
+學習管理工具能讓你調整應用程式外觀，以符合組織的品牌需求。
 
-## 自訂您的使用者介面
+## 自訂你的使用者介面
 
-在本次訓練中，您將探索自訂介面外觀的方法，以符合組織的品牌需求。
+在本訓練中，您將探索如何自訂介面外觀，以符合組織的品牌需求。
 
 [![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
-如果您無法啟動訓練，請寫信到<almacademy@adobe.com>。
+如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
 
-## 品牌化 {#branding}
+## 品牌形象 {#branding}
 
-按一下左窗格上的&#x200B;**[!UICONTROL Branding]**&#x200B;以更新您的組織名稱、變更子網域、記錄樣式和主題。 按一下這些主題旁的&#x200B;**[!UICONTROL Edit]**&#x200B;以修改內容。
+點擊 **[!UICONTROL Branding]** 左側窗格以更新您的組織名稱、更改子網域、日誌樣式與主題。 點擊 **[!UICONTROL Edit]** 這些主題旁邊的頁面以修改內容。
 
-## 標誌樣式 {#logostyling}
+## 標誌造型 {#logostyling}
 
-按一下「**[!UICONTROL Edit]**」，在Learning Manager應用程式上設定標誌和公司名稱的外觀。
+點擊 **[!UICONTROL Edit]** 在學習管理員應用程式中設定您的標誌與公司名稱外觀。
 
-按一下&#x200B;**[!UICONTROL Upload new logo]**&#x200B;並從您的電腦選擇要上傳的標誌。 您可以在下面預覽標誌和您的組織名稱的外觀。 選擇您選擇的標頭樣式，然後按一下&#x200B;**[!UICONTROL Save]**。
+點擊 **[!UICONTROL Upload new logo]** 並從電腦上選擇該標誌上傳。 您可以在下方預覽標誌外觀及組織名稱。 選擇你想要的標題樣式並點擊 **[!UICONTROL Save]**。
 
 ## 主題 {#themes}
 
-提供一組五個代表性影像，用來在套用您的應用程式之前預覽您的顏色主題變更。 分別按一下影像左側和右側的&lt;和>符號來瀏覽這些影像以進行預覽。 或者，您也可以按一下這些影像底部的導覽圓圈，瀏覽預覽快照集。
+提供五張代表性圖片，方便預覽色彩主題的變更，然後再套用到應用程式中。 請點擊 &lt; and > 圖片左側和右側的符號來預覽這些圖片。 或者，你也可以點擊這些圖片底部的導航圈，瀏覽預覽快照集。
 
-**挑選佈景主題**
+**選擇一個主題**
 
-按一下此區段下方的&#x200B;**[!UICONTROL Show hints]**，在影像上顯示提示，如下所示。
+點擊 **[!UICONTROL Show hints]** 下方此區可顯示圖片上的提示，如下所示。
 
 ![](assets/themes-preview-images.png)
 
-*檢視佈景主題上的提示*
+*查看主題提示*
 
-Learning Manager應用程式為其使用者提供五個顏色主題選項：
+學習管理軟體為使用者提供五種色彩主題選項：
 
-* Prime預設
-* 鵝卵石
+* Prime Default
+* 卵石
 * 嘉年華
-* 秋季
-* 冬天
-* 生動
+* 秋天
+* 冬日天空
+* 鮮明
 
 >[!NOTE]
 >
->生動的主題符合協助工具標準。
+>Vivid 主題符合無障礙標準。
 
 
 ![](assets/prime-customize-theme.png)
 
-*自訂佈景主題的色彩*
+*自訂主題的顏色*
 
-您可以自訂「佈景主題」的頂端列色彩、輔色（例如左窗格中的圖示色彩）、主要色彩和側邊欄亮度，但Prime預設佈景主題除外。
+你可以自訂主題的頂層顏色、強調色（例如左側圖示的顏色）、原色和側邊欄亮度，除了 Prime 預設主題外。
 
-在&#x200B;**[!UICONTROL Primary color]**&#x200B;選擇器中，您可以選擇用於沈浸式UI的色彩。
+在 **[!UICONTROL Primary color]** 選擇器中，你可以選擇沉浸式介面所使用的顏色。
 
-若要自訂，請在左窗格中選擇主題型別，然後按一下品牌顏色和側邊欄圖示顏色旁的方塊。 按一下側邊欄亮度中的側邊欄，向前或向後拖曳以調整亮度。 修改這些選項時，請觀察上述影像中的預覽。
+要自訂，請在左側面板選擇主題類型，然後點擊品牌顏色和側邊欄圖示顏色旁邊的方格。 點擊側邊欄的亮度，向前或向後拖曳即可調整亮度。 在修改這些選項時，請觀察上方圖片中的預覽。
 
-按一下&#x200B;**[!UICONTROL Reset Theme]**&#x200B;以還原主題的原始設定。 完成變更後，請按一下&#x200B;**[!UICONTROL Save]**。
+點擊 **[!UICONTROL Reset Theme]** 還原主題的原始設定。 完成變更後點擊 **[!UICONTROL Save]** 。
 
-**即時預覽**
+**現場預覽**
 
-按一下「佈景主題」區段左下角的&#x200B;**[!UICONTROL Live Preview]**。 此時會出現快顯視窗，如下所示：
+點擊 **[!UICONTROL Live Preview]** 主題區的左下角。 以下會顯示一個彈出視窗：
 
 ![](assets/live-theme-preview.png)
 
-*即時預覽快顯視窗*
+*即時預覽彈出視窗*
 
-從下拉式清單中選擇您選擇的主題，調整設定並按一下&#x200B;**[!UICONTROL Preview]**&#x200B;以檢視應用程式中的即時變更。 現在，您可以瀏覽應用程式的所有功能並見證變更。 您也可以在進行即時預覽時變更您的角色。 在您滿意變更後，可以回到即時佈景主題預覽快顯功能並按一下&#x200B;**[!UICONTROL Apply Theme]**。
+從下拉選單選擇你想要的主題，調整設定，然後點擊 **[!UICONTROL Preview]** 查看應用程式中的變更 Live。 現在，你可以瀏覽應用程式的所有功能，並見證這些變化。 你也可以在進行即時預覽時更改角色。 當您對變更感到滿意後，可以回到 Live 主題預覽彈出功能並點擊 **[!UICONTROL Apply Theme]**。
 
-當您以即時方式預覽變更時，即時佈景主題預覽快顯視窗仍會顯示在畫面底部。 您可以選擇將快顯視窗最小化。
+在你預覽 Live 變更時，Live 主題預覽視窗仍然會出現在螢幕底部。 你可以選擇將彈出視窗降到最低。
 
-## 多品牌 {#multiple-branding}
+## 多重品牌 {#multiple-branding}
 
-管理員可以在組織內套用多種品牌樣式。 品牌可以根據活動欄位進行自訂，允許不同的使用者群組體驗根據其設定檔或角色量身打造的品牌化。
+管理者可以在組織內套用多種品牌風格。 品牌可依據活躍欄位自訂，讓不同用戶群能體驗符合其個人檔案或職務的品牌塑造。
 
-以下說明如何實作多個品牌：
+以下是實施多重品牌的方法：
 
-1. 在管理員應用程式上，選取左窗格中的&#x200B;**品牌**。
-1. 在「多重品牌」區段中選取&#x200B;**編輯**。
-1. 選取切換按鈕並加以啟用。
+1. 在管理應用程式中，選擇&#x200B;**左側選區的品牌。**
+1. 在多重品牌區塊選擇 **編輯** 。
+1. 選擇切換按鈕並啟用。
 
 ### 內部使用者
 
-1. 從下拉式清單中選取使用中的欄位。
-1. 您可以根據選取的專案變更組織名稱，並為使用者上傳新的標誌。
+1. 從下拉選單中選擇一個活躍欄位。
+1. 根據選擇，你可以更改組織名稱，並為使用者上傳新的標誌。
 
 ### 外部使用者
 
-1. 從下拉式清單中選取使用中的欄位。
-1. 您可以根據選取的專案變更組織名稱，並為使用者上傳新的標誌。
+1. 從下拉選單中選擇一個活躍欄位。
+1. 根據選擇，你可以更改組織名稱，並為使用者上傳新的標誌。
 
 >[!NOTE]
 >
->內部使用者可以有作用中的欄位，例如外部使用者（例如，管理員必須透過分別選取作用中的欄位值，為內部使用者和外部使用者分別新增多品牌）。
+>內部使用者可以擁有像外部使用者一樣的活躍欄位（例如，管理員必須分別選擇內部使用者與外部使用者的多重品牌值，並選擇活躍欄位值）。
 
 >[!INFO]
 >
->如需詳細資訊，請參閱此[部落格](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/)。
+>想了解更多資訊，請參考這個 [部落格](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/) 。
 
 
-#### 要註記的點
+#### 注意事項
 
-* 管理員可以為此作用中欄位值新增多階層品牌，外部使用者可以使用不同的機制登入(SSO單一（Okta、迷你橙色）、社交登入)，並檢查多品牌是否適用。
-* 外部使用者具有作用中欄位和作用中欄位值，例如內部使用者：即使它是共用的，管理員必須在多品牌中個別指定。 套用後，外部使用者可以使用不同的機制登入(SSO單一（Okta、迷你橙色）、社交登入)，並檢查多品牌推廣是否適用。
-* 外部使用者從某個設定檔移至另一個設定檔：將外部使用者從一個設定檔移至另一個設定檔，不會影響使用者的作用中欄位值，除非管理員或外部使用者在登入或註冊時編輯/刪除作用中欄位值
+* 管理員可以為這個活躍欄位值新增多層品牌，外部使用者則可用不同機制（SSO Single（Okta、Mini orange）、社群登入）登入，並檢查是否適用多品牌。
+* 外部使用者有一個活躍欄位和活躍欄位值，與內部使用者相同：即使共享，管理員必須在多品牌設定中另行指定。 套用後，外部使用者可以使用不同機制（SSO Single（Okta、Mini Orange）、社群登入）登入，並檢查是否適用多品牌。
+* 外部使用者從一個設定檔移動到另一個設定檔：將外部使用者從一個設定檔移到另一個設定檔，不會影響該使用者的活動欄位值，除非管理員或外部使用者在登入或註冊時編輯或刪除該活躍欄位值
 
 >[!NOTE]
 >
->為內部和外部使用者設定多個品牌時，具有相同作用中欄位名稱、相同作用中欄位值但不同設定。 在這種情況下，建議客戶使用相同的組態設定（標誌、主題、組織名稱）以避免不一致。
+>當內部與外部使用者同時設定多個品牌，且使用相同的活躍欄位名稱、相同的活動欄位值，但設定不同時， 在這種情況下，建議客戶使用相同的設定（標誌、主題、組織名稱）以避免差異。
 
 
-## 自訂您的帳戶 {#customize}
+## 自訂您的帳號 {#customize}
 
-Adobe Learning Manager可讓您自訂帳戶，以提供增強的使用者體驗。
+Adobe Learning Manager 允許你自訂帳號，提供更佳的使用者體驗。
 
-下列清單顯示可自訂的元件。 若要自訂帳戶，請連絡Learning Manager [支援](mailto:captivateprimesupport@adobe.com)。
+以下清單顯示可自訂的元件。 如需自訂帳號，請聯絡 Learning Manager  [客服](mailto:captivateprimesupport@adobe.com)。
 
 <table>
  <tbody>
@@ -137,17 +137,17 @@ Adobe Learning Manager可讓您自訂帳戶，以提供增強的使用者體驗�
    <td>
     <p><b>自訂</b></p></td>
    <td>
-    <p><b>建議事項</b></p></td>
+    <p><b>建議內容</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>自訂訓練卡片顏色</p></td>
+    <p>自訂訓練卡顏色</p></td>
    <td>
     <p> </p>
     <ul>
-     <li>最多只能使用12種自訂顏色。 </li>
-     <li>顏色會套用到所有學習物件。 這些顏色會依序套用至所有學習物件（培訓），十六進位顏色代碼是所有顏色(例如#ffffff)的必要格式。</li>
-     <li>如果只提供一個顏色，該顏色會套用至所有學習物件。</li>
+     <li>最多只能有 12 種自訂顏色。 </li>
+     <li>所有學習物件都會被套用顏色。 顏色會依序套用到所有學習對象（訓練），十六進位顏色編碼是所有顏色所需的格式，例如 #ffffff。</li>
+     <li>若只提供一種顏色，該顏色會套用到所有學習物件。</li>
     </ul>
     <p> </p></td>
   </tr>
@@ -155,60 +155,60 @@ Adobe Learning Manager可讓您自訂帳戶，以提供增強的使用者體驗�
    <td>
     <p>游標指標影像</p></td>
    <td>
-    <p>當使用者將滑鼠游標停留在任何學習物件上時，自訂影像就會出現。 </p>
+    <p>當使用者將滑鼠移至任何學習物件時，自訂圖片就會出現。 </p>
     <ul>
-     <li>當使用者在Learning Manager網頁上滑鼠游標覆蓋時，套用的自訂影像就會顯示。<br></li>
-     <li>建議大小 — 16x16或24x24畫素</li>
-     <li>建議的影像格式 — PNG、JPG</li>
+     <li>使用者滑鼠移至學習管理員網頁時，將顯示自訂圖片。<br></li>
+     <li>建議尺寸 - 16x16 或 24x24 像素</li>
+     <li>推薦圖片格式 - PNG、JPG</li>
     </ul></td>
   </tr>
   <tr>
    <td>
-    <p>進度圖示影像</p></td>
-   <td>在頁面之間導覽時顯示。 出現於您看到「4平方」進度Gif的位置。 
+    <p>進度圖示圖片</p></td>
+   <td>在瀏覽頁面時會顯示。 請在看到「4-square」進度動圖的地方出現。 
     <ul>
-     <li>建議大小 — 小於或等於32x32畫素</li>
-     <li>建議的影像格式 — GIF、PNG、JPG</li>
+     <li>建議尺寸 - 小於或等於 32x32 像素</li>
+     <li>推薦圖片格式 - GIF、PNG、JPG</li>
     </ul>
     <p> </p></td>
   </tr>
   <tr>
    <td>
-    <p>字型</p></td>
+    <p>字體</p></td>
    <td>
-    <p>管理員可以透過<a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a>聯絡Adobe Learning Manager支援團隊以變更字型。 若要套用字型，必須有CDN。 此外，您必須共用要套用的字型系列。</p>
-    <p><b>注意：</b>所有瀏覽器都必須支援字型系列。</p></td>
+    <p>管理員可聯絡 Adobe Learning Manager 支援團隊 <a ref="mailto:learningmanagersupport@adobe.com"> ，learningmanagersupport@adobe.com</a> 聯絡他們更改字型。 套用字型時，需要 CDN。 此外，你必須分享要應用的字型家族。</p>
+    <p><b>注意：</b> 字型家族必須在所有瀏覽器上都支援。</p></td>
   </tr>
   <tr>
    <td>
-    <p>背景影像</p></td>
+    <p>背景圖片</p></td>
    <td>
-    <p>背景影像僅會顯示在學習者角色中。 </p>
-    <p>您必須將所需的影像套用至學習者的背景。</p>
+    <p>背景影像僅在學習者角色中可見。 </p>
+    <p>你必須擁有需要應用於學習者背景的形象。</p>
     <ul>
-     <li><b>建議的影像格式：</b> PNG、JPG、JPEG</li>
-     <li><b>建議大小： </b>1400x908畫素</li>
+     <li><b>推薦圖片格式：</b> PNG、JPG、JPEG</li>
+     <li><b>建議尺寸： </b>1400x908 像素</li>
     </ul></td>
   </tr>
    <tr>
    <td>
-    <p>法維孔</p></td>
+    <p>Favicon</p></td>
    <td>
-    <p>管理員無法變更Adobe Learning Manager帳戶的Favicon。 若要更新Favicon，請透過<a href="mailto:learningmanagersupport@adobe.com">learningmanagersupport@adobe.com</a>聯絡支援團隊 </p>
-    <p>您必須將所需的影像套用至學習者的背景。</p>
+    <p>管理員無法更改 Adobe Learning Manager 帳號的收藏夾。 如需更新 favicon，請聯絡客服團隊 learningmanagersupport@adobe.com <a href="mailto:learningmanagersupport@adobe.com"></a> </p>
+    <p>你必須擁有需要應用於學習者背景的形象。</p>
     <ul>
-     <li><b>建議的影像格式：</b>PNG</li>
-     <li><b>建議大小： </b>32x32畫素</li>
+     <li><b>推薦圖片格式：</b>PNG</li>
+     <li><b>建議尺寸： </b>32x32 像素</li>
     </ul></td>
   </tr>
  </tbody>
 </table>
 
-## 設定建議設定 {#configurerecommendationsettings}
+## 設定推薦設定 {#configurerecommendationsettings}
 
-在&#x200B;**品牌** > **一般**&#x200B;上，您可以為內部和外部學習者設定建議範圍，並讓學習者在學習者首頁上選擇技能。
+在 **Branding** > **General** 中，你可以為內部與外部學習者設定推薦範圍，並讓學習者在學習者首頁選擇技能。
 
-在&#x200B;**一般**&#x200B;頁面上，您有以下選項：
+在 **一般** 頁面，你有以下選項：
 
 <table>
  <tbody>
@@ -216,31 +216,31 @@ Adobe Learning Manager可讓您自訂帳戶，以提供增強的使用者體驗�
    <td>
     <p>學習者首頁</p></td>
    <td>
-    <p>選擇<strong>傳統</strong>或<strong>沈浸式</strong>。 如果您選擇「沈浸式」，則會出現其他選項。</p></td>
+    <p>選擇 <strong>經典模式 </strong>或 <strong>沉浸式</strong>模式。 如果你選擇沉浸式，其他選項就會出現。</p></td>
   </tr>
   <tr>
    <td>
-    <p>訓練型別<br></p></td>
+    <p>訓練類型<br></p></td>
    <td>
-    <p>選擇<strong>自訂</strong>或<strong>產業一致</strong>。 如果學習者少於1000名，則整個帳戶會視為單一範圍。 建議會根據所有學習者而定。<br></p></td>
+    <p>請選擇 <strong>客製化 </strong>或 <strong>產業連結</strong>。 若學習者少於1000人，整個帳戶視為單一範圍。 此建議基於所有學習者。<br></p></td>
   </tr>
   <tr>
    <td>
     <p>建議範圍設定<br></p></td>
    <td>
-    <p>選擇一或多個作用中的欄位。 對於<strong>自訂</strong>，您最多可以選擇一個使用中欄位。 對於<strong>產業一致</strong>，您最多可以選擇5個使用中的欄位。<br></p></td>
+    <p>選擇一個或多個活躍領域。 自訂<strong></strong>模式最多只能選擇一個活躍欄位。在 <strong>產業連結</strong>中，你最多只能選擇五個活躍領域。<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>讓學習者能夠探索感興趣的區域</p></td>
+    <p>讓學習者能夠探索感興趣的領域</p></td>
    <td>
-    <p>僅限傳統體驗。 選擇<strong>是</strong>或<strong>否</strong>。<br></p></td>
+    <p>只限經典體驗。 選擇 <strong>是 </strong>或 <strong>否</strong>。<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>提示使用者選取興趣領域（技能） <br></p></td>
+    <p>提示使用者選擇興趣領域（技能） <br></p></td>
    <td>
-    <p>僅限沈浸式體驗。 選擇<strong>是</strong>或<strong>否</strong>。 </p></td>
+    <p>只是為了沉浸式體驗。 選擇 <strong>是</strong> 或 <strong>否</strong>。 </p></td>
   </tr>
  </tbody>
 </table>
