@@ -3,7 +3,7 @@ description: Adobe Learning Manager 支援多種登入方式，透過多種 SSO 
 title: 多重單點登入
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 'null'
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
