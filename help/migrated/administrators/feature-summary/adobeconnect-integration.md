@@ -1,93 +1,93 @@
 ---
 jcr-language: en_us
-title: Adobe Connect整合
-description: 作者可在課程建立過程中使用Adobe Connect建立虛擬教室課程。 若要為您的Learning Manager帳戶啟用Adobe Connect，您必須聯絡組織的管理員。
+title: Adobe Connect 整合
+description: 作者可在課程建立過程中使用 Adobe Connect 建立虛擬教室課程。 要啟用 Adobe Connect 給你的學習管理帳戶，你需要聯絡你組織的管理員。
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
 source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
 
-# Adobe Connect整合
+# Adobe Connect 整合
 
-組織的管理員可以設定Learning Manager帳戶的設定，以啟用Adobe Connect整合。
+組織管理員可以設定學習管理員帳號的設定，以啟用 Adobe Connect 的整合。
 
-## 設定Adobe Connect {#configureadobeconnect}
+## 設定 Adobe Connect {#configureadobeconnect}
 
-1. 在管理員登入中，按一下左窗格中的&#x200B;**[!UICONTROL Settings]**&#x200B;以檢視有關您公司的基本資訊。 按一下左窗格上的&#x200B;**[!UICONTROL Adobe Connect]**。
+1. 在管理員登入中，點擊 **[!UICONTROL Settings]** 左側窗格查看您公司的基本資訊。 點擊 **[!UICONTROL Adobe Connect]** 左側窗格。
 
    ![](assets/left-pane.png)
 
-   *在左窗格中選取Adobe Connect*
+   *在左側窗格選擇 Adobe Connect*
 
-1. 按一下&#x200B;**[!UICONTROL Adobe Connect Configuration]**&#x200B;區段中的&#x200B;**[!UICONTROL Configure Now]**&#x200B;連結。
+1. 點擊 **[!UICONTROL Configure Now]** 該區的 **[!UICONTROL Adobe Connect Configuration]** 連結。
 
    <!--![](assets/configure-now-connect.png)-->
 
-1. 提供您公司的Adobe Connect網域名稱並登入認證。
+1. 提供貴公司的 Adobe Connect 網域名稱及登入憑證。
 
    ![](assets/adobeconnect-config.png)
 
-   *新增網域名稱和認證*
+   *新增網域名稱與憑證*
 
-   Adobe Connect URL範例： mycompany.adobeconnect.com\
-   您需要提供Adobe connect帳戶管理員的電子郵件ID。
+   Adobe Connect 範例網址：mycompany.adobeconnect.com\
+   你需要提供 Adobe Connect 帳號管理員的電子郵件 ID。
 
-   Learning Manager只支援Adobe代管的連線帳戶。 範例； &#39;.adobeconnect.com&#39;。
+   Learning Manager 只支援 Adobe 主機的 Connect 帳號。 舉例來說;「.adobeconnect.com」。
 
-1. 按一下&#x200B;**[!UICONTROL Integrate].**
+1. 點擊 **[!UICONTROL Integrate]。**
 
-   驗證電子郵件ID後，Learning Manager會在Connect成功整合時顯示訊息。 您可以開始使用Adobe Connect自動檢視您的虛擬教室課程。
+   在驗證電子郵件 ID 後，Learning Manager 會顯示訊息，因為 Connect 已成功整合。 你可以開始使用 Adobe Connect 自動瀏覽虛擬教室課程。
 
-   Adobe Connect帳戶管理員應接受使用Adobe Connect的條款與條件。 如果不接受此設定，您的登入驗證可能會失敗。 建立Adobe Connect帳戶後，請登入該帳戶一次。 第一次登入時，條款與條件頁面就會顯示。
+   Adobe Connect 帳號管理員應同意使用 Adobe Connect 的條款與條件。 如果不接受，你的登入認證可能會失敗。 建立 Adobe Connect 帳號後，請登入一次。 首次登入時，會跳出條款與細則頁面。
 
    <!--![](assets/mail-confirmation.png)-->
 
-## 新增虛擬教室工作階段資訊 {#addvirtualclassroomsessioninformation}
+## 新增虛擬教室課程資訊 {#addvirtualclassroomsessioninformation}
 
-如果虛擬教室課程的作者未提供工作階段資訊，則管理員可包含工作階段詳細資訊。
+若虛擬教室課程的作者尚未提供課程資訊，管理員可包含課程細節。
 
-在管理員登入中，按一下VC課程名稱。 按一下左窗格上的&#x200B;**[!UICONTROL Instances]**，然後按一下&#x200B;**[!UICONTROL Session Details]**。  按一下「階段作業詳細資訊」頁面右角的編輯圖示，以新增階段作業資訊。
+在管理員登入時，點選VC課程名稱。 點擊 **[!UICONTROL Instances]** 左側窗格並點選 **[!UICONTROL Session Details]**。  點擊會話詳情頁面右上角的編輯圖示，即可新增會話資訊。
 
 ![](assets/session-creation-admin.png)
 
-*新增虛擬教室工作階段資訊*
+*新增虛擬教室課程資訊*
 
-透過整合Adobe Learning Manager和Adobe Connect來建立虛擬教室模組或工作階段，您的Connect帳戶應可支援會議室，且會議室數量足以提供您使用案例的並行使用者。 這些會議室是用來裝載Learning Manager虛擬教室模組。 Learning Manager會為Learning Manager中的每個虛擬教室模組或工作階段動態建立新的Connect會議室。
+透過整合 Adobe Learning Manager 與 Adobe Connect 來建立虛擬教室模組或會議，您的 Connect 帳號應能支援有足夠數量會議室及同時使用者的會議室，以符合您的使用情境。 這些會議室用於承載學習管理員虛擬教室模組。 Learning Manager 會為 Learning Manager 內的每個虛擬教室模組或會議動態建立一個新的 Connect 會議室。
 
-除了Adobe Learning Manager以外，您還必須另外購買Adobe Connect。
+你必須另外購買 Adobe Connect，Adobe Learning Manager 除外。
 
 ## 學習者出席率 {#learnersattendance}
 
-如果虛擬教室課程的主機未出席工作階段，則出席不會自動為已出席工作階段的學習者註冊。 在這種情況下，管理員可以手動記錄出勤。
+若虛擬教室課程的主辦方未參加該課程，則已參加課程的學習者將不會自動登記出席。 在這種情況下，管理員可以手動記錄出勤情況。
 
-按一下虛擬教室課程，然後按一下下一頁左窗格中的「出勤率」並記錄出勤率。
+點擊虛擬教室課程，在下一頁左側窗格點選「出席」，並記錄出席情況。
 
-## 支援有大量受眾的Adobe Connect研討會
+## 支持 Adobe Connect 與大型聽眾的研討會
 
-Adobe Learning Manager支援從Adobe Connect選取討論室，同時在Connect中設定虛擬教室工作階段。 以前，管理員只能選取會議室型別。 此功能可讓擁有有效研討會授權的管理員，在ALM中排程及管理單次或大型活動（最多1,500名與會者）。
+Adobe Learning Manager 支援在 Connect 中設定虛擬教室時，從 Adobe Connect 選擇研討會教室。 過去，管理員只能選擇會議室類型。 此功能讓持有有效研討會授權的管理員能在 ALM 內排程和管理一次性或大型活動（最多 1,500 名參加者）。
 
-請參閱此[文章](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html)，以取得有關討論室的詳細資訊。
+有關研討會教室的更多資訊，請參閱此 [文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) 。
 
-### 存取工作階段分析的支援
+### 支援會話分析存取
 
-講師可透過工作階段控制面板中提供的新連結，存取其已完成Adobe Connect工作階段的「工作階段分析」。
+講師可透過其課程儀表板中提供的新連結，存取已完成的 Adobe Connect 課程的 Session Analytics。
 
 ![](assets/adobe-connect-session-url.png)
-_選取工作階段URL_
+_選擇會話網址_
 
-此連結會開啟Connect中的工作階段分析控制面板，提供工作階段參與度的詳細深入分析。
-此功能僅適用於透過Adobe Connect進行的工作階段。 工作階段分析包括：
+此連結可開啟 Connect 中的會話分析儀表板，提供詳細的會話互動洞察。
+此功能僅適用於透過 Adobe Connect 進行的會話。 會話分析包括：
 
-* **[!UICONTROL Engagement]**：即時工作階段整體效能的概觀
-* **[!UICONTROL Interactions]**：不同Pod的參與者活動詳細劃分
-* **[!UICONTROL Attendee Activity]**：參與者參與摘要
-* **[!UICONTROL Download Reports]**：下載Pod特定參與資料報表的選項
+* **[!UICONTROL Engagement]**：現場演出整體概覽
+* **[!UICONTROL Interactions]**：參與者在不同小組間的詳細活動分布
+* **[!UICONTROL Attendee Activity]**：參與者參與度摘要
+* **[!UICONTROL Download Reports]**：下載特定艙體交戰數據報告的選項
 
 ![](assets/session-dashboard.png)
-_工作階段儀表板_
+_會話儀表板_
 
-請參閱此[文章](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)，瞭解工作階段分析的詳細資訊。
+請參閱本文[](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以獲取更多關於會話分析的資訊。
