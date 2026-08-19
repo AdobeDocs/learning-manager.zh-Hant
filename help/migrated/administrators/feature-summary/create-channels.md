@@ -1,9 +1,9 @@
 ---
 title: 建立頻道（測試版）
 description: 學習如何在 Adobe Learning Manager 中啟用、建立及編輯頻道，將網頁與 Confluence Cloud 頁面的影片學習內容整合到一個可搜尋的學習平台，方便學習者使用。
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 組織經常將知識分享課程、培訓錄影及其他影片內容儲存在非正式學習內容、精選的網頁及 Confluence Cloud 頁面上。 頻道將 Adobe Learning Manager 與這些內容來源連結，讓影片更容易被發現與觀看，無需學習者在多個系統間切換。 頻道幫助你在單一且可搜尋的地點，整理並分享企業網頁和 Confluence Cloud 頁面的影片學習內容。 學習者不必在多個內部網站間搜尋，而是能直接從 Adobe Learning Manager 發現並存取相關錄影。 請參閱 [「發現」並「互動」](../../learners/feature-summary/discover-and-engage-with-channels.md) 以獲取更多資訊。
 
-作為管理員，你可以建立和管理頻道、設定可見性設定、同步內容與來源，並在讓頻道開放給學習者前確認影片是否可用。 本文將說明如何執行這些通路管理任務。
+作為管理員，你可以建立和管理頻道、設定可見度設定、同步內容與來源，並在讓頻道開放給學習者前確認影片是否可用。 支援的影片格式為 **MP4** 和 **WebM**。
+
+本文將說明如何執行這些通路管理任務。
 
 **主要優點**
 
@@ -37,9 +39,9 @@ ht-degree: 0%
 1. 以管理員身份登入 Adobe Learning Manager。
 
 1. 從左側導覽中選擇 **頻道** 。
-   <br>**&#x200B;**&#x200B;頻道頁面開啟。
+   <br>****&#x200B;頻道頁面開啟。
 
-1. 選擇設定&#x200B;**&#x200B;**&#x200B;標籤。
+1. 選擇設定&#x200B;****&#x200B;標籤。
 
    ![啟用頻道功能](assets/enable-channels-feature.png)
 
@@ -100,7 +102,7 @@ ht-degree: 0%
 
    *在建立頻道前，請使用&#x200B;**「Test Now**」確認影片是否已從來源取得。*
 
-1. 選擇 **建立頻道**。 該頻道會被建立並加入&#x200B;**&#x200B;**&#x200B;頻道列表。
+1. 選擇 **建立頻道**。 該頻道會被建立並加入&#x200B;****&#x200B;頻道列表。
 
 ## 搜尋頻道
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
    ![搜尋頻道](assets/search-channels.png)
 
-   *在&#x200B;**搜尋框輸入頻道名稱以篩選**&#x200B;頻道列表。*
+   *在&#x200B;**搜尋框輸入頻道名稱以篩選**頻道列表。*
 
 ## 管理頻道可見性
 
