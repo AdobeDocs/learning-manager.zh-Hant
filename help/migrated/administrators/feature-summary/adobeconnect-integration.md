@@ -90,4 +90,4 @@ _選擇會話網址_
 ![](assets/session-dashboard.png)
 _會話儀表板_
 
-請參閱本文[](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以獲取更多關於會話分析的資訊。
+請參閱本文[&#128279;](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以獲取更多關於會話分析的資訊。
