@@ -2,8 +2,7 @@
 description: 學習如何在 Content Composer 中產生學習者連結、學習者可透過該連結存取什麼內容，以及為何追蹤交付必須發佈到 Adobe Learning Manager，而非直接分享連結。
 jcr-language: en_us
 title: 與學習者分享課程
-hide: true
-source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%

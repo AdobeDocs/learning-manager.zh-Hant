@@ -2,8 +2,7 @@
 description: 學習如何在內容撰寫者評論面板中查看和管理留言，包括如何回覆、解決、使用 @ 提及評論者、依審核者、時間或狀態篩選，以及標記留言為已解決。
 jcr-language: en_us
 title: 管理並回應留言
-hide: true
-source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
@@ -15,7 +14,7 @@ ht-degree: 0%
 
 如果你是作者，可以使用 **專案中的留言** 面板查看並回覆留言。
 
-1. 從頂端工具列選擇 **「留言** 」。 **&#x200B;**&#x200B;評論欄會打開，顯示所有評論者的留言。
+1. 從頂端工具列選擇 **「留言** 」。 ****&#x200B;評論欄會打開，顯示所有評論者的留言。
 
    ![](../assets/63_owner_in_app_comments_panel_mention_comment.png)
 
