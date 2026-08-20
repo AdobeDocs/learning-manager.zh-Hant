@@ -1,736 +1,734 @@
 ---
-description: 瞭解如何使用聯結器將Salesforce與Learning Manager整合、如何將FTP與Learning Manager整合，以及如何使用FTP聯結器自動上傳CSV。
+description: 學習如何利用連接器將 Salesforce 與 Learning Manager 整合，如何將 FTP 與 Learning Manager 整合，並透過 FTP 連接器自動上傳 CSV。
 jcr-language: en_us
-title: Learning Manager聯結器
+title: 學習管理連結器
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '6264'
+source-wordcount: '6157'
 ht-degree: 0%
 
 ---
 
+# 學習管理連結器
 
+學習如何利用連接器將 Salesforce 與 Learning Manager 整合，如何將 FTP 與 Learning Manager 整合，並透過 FTP 連接器自動上傳 CSV。
 
-# Learning Manager聯結器
+企業還有其他應用程式和系統，可能需要與 Learning Manager 整合。 連接器是協助執行基於資料整合的工具，例如從外部系統將資料匯入 Learning Manager，或從 Learning Manager 匯出資料至外部系統。 在 2016 年 7 月的版本中，連接器僅具備從外部系統批量匯入 Learning Manager 使用者的能力。
 
-瞭解如何使用聯結器將Salesforce與Learning Manager整合、如何將FTP與Learning Manager整合，以及如何使用FTP聯結器自動上傳CSV。
+Learning Manager 提供 Salesforce 和 FTP 連接器。 透過 Salesforce 連接器，整合 組織管理員可以將 Salesforce 應用程式與 Learning Manager 整合。 作為整合商，你也可以使用 FTP 連接器自動匯入一組使用者到你的企業應用程式。
 
-企業有其他應用程式和系統，可能需要與Learning Manager整合。 聯結器是有助於執行資料式整合的公用程式，例如從外部系統將資料匯入Learning Manager，或從Learning Manager將資料匯出至外部系統。 在2016年7月版本中，聯結器僅能從外部系統大量匯入Learning Manager的使用者。
+Learning Manager 也提供 Lynda、getAbstract 及 Harvard Management System 連接器，讓學習者能存取並使用來自 Lynda.com、getAbstract 及 Harvard ManageMentor 的課程。
 
-Learning Manager提供Salesforce和FTP聯結器。 使用Salesforce聯結器，組織的整合管理員可以將其Salesforce應用程式與Learning Manager整合。 身為整合商，您也可以使用FTP聯結器將一組使用者自動匯入您的企業應用程式。
-
-Learning Manager也提供Lynda、getAbstract和Harvard Management System聯結器，讓學習者能夠存取和使用Lynda.com、getAbstract和Harvard ManageMentor的課程。
-
-請閱讀下文，瞭解如何在Learning Manager中設定和使用每個聯結器。
+繼續閱讀，了解如何在 Learning Manager 中配置和使用這些連接器。
 
 ![](assets/connectorslist.jpg)
 
-## Salesforce聯結器 {#sfconnector}
+## Salesforce 連接器 {#sfconnector}
 
-Salesforce聯結器會連線Learning Manager和Salesforce帳戶，以自動化資料同步。 Salesforce聯結器功能如下：
+Salesforce 連接器連接 Learning Manager 與 Salesforce 帳號，以自動化資料同步。 Salesforce 連接器的功能如下：
 
-### 對應屬性
+### 地圖屬性
 
-整合管理員可以選擇Salesforce欄，並將它們對應至對應的Learning Manager群組屬性。 這是單次性的工作。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要為匯入使用者設定不同的對應，則可重新設定此對應。
+整合管理員可以選擇 Salesforce 欄位，並將其映射到對應的學習管理員可分組屬性。 這是一次性的努力。 映射完成後，後續使用者匯入會使用相同的映射。 如果管理員想要不同的匯入映射，也可以重新設定。
 
-### 自動匯入使用者
+### 自動使用者匯入
 
-使用者匯入程式可讓Learning Manager管理員從Salesforce擷取員工詳細資訊，並自動將其匯入Learning Manager。 此自動化可避免建立CSV和上傳至Learning Manager的手動操作。
+使用者匯入流程允許 Learning Manager 管理員從 Salesforce 取得員工資料並自動匯入 Learning Manager。 這種自動化避免了手動建立 CSV 並上傳到 Learning Manager 的繁瑣工作。
 
 ### 自動排程
 
-使用自動排程功能以及自動使用者匯入功能可能很有效。 Learning Manager管理員可以根據組織需求設定排程。 Learning Manager應用程式中的使用者可以根據排程取得最新狀態。 同步可在Learning Manager應用程式中每天執行。
+使用自動排程功能搭配自動使用者匯入功能會很有效。 學習經理管理員可依組織需求設定排程。 學習管理員應用程式中的使用者可依照排程隨時掌握最新資訊。 同步可在 Learning Manager 應用程式中每日執行。
 
 ### 篩選使用者
 
-Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
+Learning Manager 管理員可以在匯入使用者前對使用者套用過濾。 例如，學習管理員管理員可以選擇將階層中所有使用者匯入一個或多個特定管理員。
 
-## 設定Salesforce聯結器 {#configuresalesforceconnector}
+## 配置 Salesforce 連接器 {#configuresalesforceconnector}
 
-瞭解將Learning Manager與Salesforce整合的程式。
+了解整合 Learning Manager 與 Salesforce 的流程。
 
 ### 先決條件 {#prerequisites}
 
-確定您隨身帶著您的Salesforce組織URL。 例如，如果您的組織名稱為&#x200B;**myorg**，則Salesforce URL可以是[https://myorg.salesforce.com](https://myorg.salesforce.com/)。 這是連線Salesforce帳戶與Learning Manager的唯一必要輸入。
+務必攜帶您的 Salesforce 組織網址。 例如，如果你的組織名稱是 **myorg，Salesforce** 網址可以是 [https://myorg.salesforce.com](https://myorg.salesforce.com/)。 這是唯一需要輸入的，才能將 Salesforce 帳號與 Learning Manager 連結。
 
-同時請確定您擁有適當的認證以登入帳戶。
+同時也要確保你有正確的登入帳號憑證。
 
-## 建立連線 {#createaconnection}
+## 建立連結 {#createaconnection}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在Salesforce卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
+1. 在 Learning Manager 首頁，將滑鼠移到 Salesforce 卡片/縮圖上。 選單出現了。 在選單中點選 **[!UICONTROL Connect]** 項目。
 
    ![](assets/mouserover-salesforce.png)
 
-1. 會出現一個對話方塊，提示您輸入org-url。 提供URL後按一下&#x200B;**[!UICONTROL Connect]**。
-1. 成功連線後，就會顯示覆寫頁面。
+1. 會出現一個對話框，提示你輸入組織網址。 提供網址後點擊 **[!UICONTROL Connect]** 。
+1. 成功連線後，會出現上層頁面。
 
-## 對應屬性 {#mapattributes}
+## 地圖屬性 {#mapattributes}
 
-成功建立連線後，您可以將Salesforce欄對應至Learning Manager的對應屬性。 此步驟為必要步驟。
+一旦成功建立連線，你可以將 Salesforce 欄位映射到 Learning Manager 的相應屬性。 此步驟是強制步驟。
 
-1. 在對映頁面中，左側可看到Learning Manager的欄，右側可看到Salesforce欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 在地圖頁面，左側可以看到學習管理員的欄位，右側則是 Salesforce 欄位。 選擇對應學習管理器欄位名稱的適當欄位名稱。
 
    ![](assets/sfdc-map-columns.png)
 
-   左側顯示的Learning Manager欄資料是從作用中欄位擷取。 **管理員**&#x200B;欄位必須對應至電子郵件地址型別的欄位。 必須先對應所有欄，才能使用聯結器。
+   學習管理員左側的欄位資料是從活動欄位擷取的。 **管理器**&#x200B;欄位必須對應到一個欄位，電子郵件地址。在使用連接器之前，必須對所有柱子進行映射。
 
-1. 完成對應後，請按一下&#x200B;**[!UICONTROL Save]**。
-1. 聯結器現已準備就緒，可供使用。 現在已設定的帳戶會在管理員應用程式中顯示為資料來源，供管理員排程匯入或進行隨選同步。
+1. 完成地圖後點擊 **[!UICONTROL Save]** 。
+1. 接頭現在已經準備好可以使用了。 現在已設定的帳號會以管理員應用程式的資料來源形式出現，管理員可以排程匯入或按需同步。
 
-## 使用Salesforce聯結器 {#usingsalesforceconnector}
+## 使用 Salesforce 連接器 {#usingsalesforceconnector}
 
-Salesforce聯結器會連線至Salesforce.com ，擷取設定中的使用者，並將其新增至Learning Manager。
+Salesforce 連接器會連接到 Salesforce.com，取得設定中的使用者並加入學習管理員。
 
-## Learning Manager FTP聯結器 {#ftpconnector}
+## Learning Manager FTP 連接器 {#ftpconnector}
 
-使用FTP聯結器，您可以將Learning Manager與任意外部系統整合，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager FTP帳戶的適當資料夾中。 FTP聯結器功能如下：
+透過 FTP 連接器，你可以將學習管理員與任意外部系統整合，以自動化資料同步。 預期外部系統能以 CSV 格式匯出資料，並將其放入 Learning Manager FTP 帳號的適當資料夾中。 FTP 連接器的功能如下：
 
-您也可以使用Box聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊，請參閱[Box聯結器。](third-party-connectors.md#main-pars_header_302653946)
+你也可以使用 Box 連接器進行資料遷移、使用者匯入和匯出資料。 更多資訊請參見 [盒子連接器。](third-party-connectors.md#main-pars_header_302653946)
 
 ## 資料匯入 {#dataimport}
 
-使用者匯入程式可讓Learning Manager管理員從Learning Manager FTP服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在FTP帳戶的適當資料夾中，以整合多個系統。 Learning Manager會挑選CSV檔案、將其合併，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
+使用者匯入流程允許學習管理員管理員從學習管理員的 FTP 服務中取得員工資料，並自動匯入學習管理員。 利用此功能，您可以將這些系統產生的 CSV 放入 FTP 帳戶的適當資料夾中，整合多個系統。 Learning Manager 會擷取 CSV 檔案，合併後依照排程匯入資料。 請參閱排程功能以獲得更多資訊。
 
-**對應屬性**
+**地圖屬性**
 
-整合管理員可以選擇CSV欄，並將它們對應至Learning Manager的群組屬性。 此對應是一次性工作。 完成對應後，後續的使用者匯入會使用相同的對應。如果管理員想要擁有不同的對應來匯入使用者，可以重新設定對應。
+整合管理員可以選擇 CSV 的欄位，並將其映射到 Learning Manager 可分組的屬性。 這次地圖製作是一次性的努力。 映射完成後，後續的使用者匯入也會使用相同的映射。如果管理員想要不同的匯入使用者映射，也可以重新設定映射。
 
 ## 匯出資料 {#exportdata}
 
-「資料匯出」可讓使用者將使用者技能匯出至FTP位置，以便與任何第三方系統整合。
+資料匯出功能允許使用者將技能匯出至FTP地點，以便整合至任何第三方系統。
 
-## 正在排程 {#scheduling}
+## 排程 {#scheduling}
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
+管理員可依組織需求設定排程任務，且學習管理軟體中的使用者會依照排程保持最新狀態。 同樣地，整合管理員也能及時排程技能匯出，並與外部系統整合。 同步可在 Learning Manager 應用程式中每日執行。
 
-## 設定Learning Manager FTP聯結器 {#configurecaptivateprimeftpconnector}
+## 配置學習管理員 FTP 連接器 {#configurecaptivateprimeftpconnector}
 
-瞭解將Learning Manager與FTP聯結器整合的程式。
+學習整合 Learning Manager 與 FTP 連接器的流程。
 
-### 建立連線 {#Createaconnection-1}
+### 建立連結 {#Createaconnection-1}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在FTP卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
+1. 在 Learning Manager 首頁，將滑鼠移到 FTP 卡片/縮圖上。 選單出現了。 在選單中點選 **[!UICONTROL Connect]** 項目。
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. 系統會顯示一個對話方塊，提示您輸入電子郵件ID。 提供組織內負責管理Learning Manager FTP帳戶人員的電子郵件ID。 提供電子郵件識別碼後，請按一下&#x200B;**[!UICONTROL Connect]**。
-1. Learning Manager會傳送電子郵件給您，提示使用者在首次存取FTP前重設密碼。 使用者必須重設密碼，並使用此密碼存取Learning Manager FTP帳戶。
+1. 會跳出一個對話框，提示你輸入電子郵件 ID。 提供負責管理該組織學習管理 FTP 帳戶的人員的電子郵件 ID。 提供電子郵件後點擊 **[!UICONTROL Connect]** 。
+1. Learning Manager 會寄送電子郵件，提示使用者在首次存取 FTP 前重設密碼。 使用者必須重置密碼，並使用此密碼才能存取 Learning Manager 的 FTP 帳號。
 
-   只能為特定Learning Manager帳戶建立一個Learning Manager FTP帳戶。
+   同一學習管理員帳號只能建立一個 Learning Manager 的 FTP 帳號。
 
-   在總覽頁面中，您可以指定整合的連線名稱。 從下列選項中選擇您要採取的動作：
+   在概覽頁面，你可以指定整合的連線名稱。 從以下選項中選擇您想採取的行動：
 
    * 匯入內部使用者
-   * 匯出使用者技能 — 設定排程
-   * 匯出使用者技能 — 隨選
+   * 匯出使用者技能 - 設定排程
+   * 匯出使用者技能 - 隨選
 
    ![](assets/connectors-overview.png)
 
-## 匯入
+## 進口
 
 +++內部使用者
 
-匯入內部使用者選項可讓您排程自動產生使用者匯入報告。 產生的報表會以.CSV檔案傳送給您。
+匯入內部使用者選項允許你自動排程產生使用者匯入報告。 產生的報告會以 .CSV 檔案的形式傳送給你。
 
 +++
 
-+++對應屬性
++++地圖屬性
 
-成功建立連線後，您可以將放在FTP資料夾中的CSV檔案欄對應至Learning Manager的對應屬性。 此步驟為必要步驟。
+連線成功建立後，你可以將 CSV 檔案欄位映射到 FTP 資料夾中的對應屬性。 此步驟是強制步驟。
 
-1. 在「對應屬性」頁面的左側，您可以看到Learning Manager的預期欄，而右側，您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下&#x200B;**選擇檔案**，匯入任何範本CSV。
-1. 上述步驟會在右側的「選取」下拉式清單中填入所有CSV欄名稱。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 在地圖屬性頁面，左側可以看到學習管理員預期的欄位，右側則可以看到 CSV 欄位名稱。 一開始，在右側你會看到一個空白的選擇框。 透過點選 **檔案**&#x200B;匯入任何範本 CSV。
+1. 上述步驟會將所有 CSV 欄位名稱填滿右側的下拉選單。 選擇對應學習管理器欄位名稱的適當欄位名稱。
 
-   *管理員欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有資料行，才能使用聯結器。*
+   *管理者欄位必須對應到某個欄位，電子郵件地址。 在使用連接器之前，必須對所有柱子進行映射。*
 
-1. 完成對應後，請按一下&#x200B;**[!UICONTROL Save]**。
+1. 完成地圖後點擊 **[!UICONTROL Save]** 。
 
-   聯結器現已準備就緒，可供使用。 剛設定的帳戶現在會在管理員應用程式中顯示為資料來源，供管理員排程匯入或隨選同步。
+   接頭現在已經準備好可以使用了。 剛設定的帳號現在會以資料來源出現在管理員應用程式中，供管理員排程匯入或按需同步。
 
 
 
 +++
 
-+++使用Learning Manager FTP聯結器
++++使用 Learning Manager FTP 連接器
 
-1. 來自外部系統的CSV檔案應放置在下列路徑中：
+1. 外部系統的 CSV 檔案應放在以下路徑：
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **注意：**&#x200B;在2016年7月的發行版本中，只允許匯入使用者。 因此，若要使用FTP聯結器，您必須確保CSV檔案放置在下列資料夾中：
+   **注意：** 在 2016 年 7 月的版本中，僅允許匯入使用者。 因此，使用 FTP 連接器時，必須確保 CSV 檔案放在以下資料夾中：
 
    `code Home/import/user/internal/*.csv`
 
-1. FTP聯結器會擷取CSV檔案中的所有列，因此重要的是，一個CSV中對應到使用者的列不會出現在任何其他CSV中。
-1. 所有CSV都應該包含對應中指定的欄。
-1. 在程式開始之前，所有必要的CSV都應該出現在資料夾中。
+1. FTP 連接器會從 CSV 檔案中擷取所有資料列，因此重要的是，某個 CSV 中對應的使用者資料列不會出現在其他 CSV 檔案中。
+1. 所有 CSV 都應該包含映射中指定的欄位。
+1. 所有必要的 CSV 檔案應該在流程開始前就已在資料夾中。
 
-將使用者匯入Learning Manager時，管理員還需要瞭解如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)。
+在將使用者匯入 Learning Manager 時，管理員也需要了解使用者在 Learning Manager 中如何管理。 請參閱使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)以[獲取更多資訊。
 
 +++
 
-## 匯出
+## 出口
 
-+++Skills
++++技能
 
-匯出使用者技能報告有兩個選項。
+有兩種匯出使用者技能報告的選項。
 
-**[!UICONTROL User Skills - On Demand]**：您可以指定開始日期，並使用選項匯出報表。報表將會從輸入的日期擷取到目前為止。
+**[!UICONTROL User Skills - On Demand]**：你可以指定開始日期並使用選項匯出報告。報告將從輸入日期擷取到現在。
 
 ![](assets/user-skills-on-demand.png)
 
-**[!UICONTROL User Skills - Configure]**：此選項可讓您排程報表的擷取。 選取「啟用排程」核取方塊，並指定開始日期和時間。 您也可以指定產生和傳送報告的間隔。
+**[!UICONTROL User Skills - Configure]**：此選項允許您排程擷取報告。 選擇啟用排程勾選框，並指定開始日期與時間。 你也可以指定想要產生和傳送報告的間隔。
 
 ![](assets/user-skills-configure.png)
 
 +++
 
-若要開啟「匯出」資料夾（匯出的檔案將放置於您的FTP位置），請開啟「使用者技能」頁面中提供的「FTP資料夾」連結，如下所示。
+要開啟匯出檔案將放置於 FTP 位置的匯出資料夾，請如下方所示，開啟使用者技能頁面中提供的 FTP 資料夾連結。
 
 ![](assets/ftp-folder.png)
 
-自動匯出的檔案會出現在位置&#x200B;**Home/export/&#42;FTP_location&#42;**
+自動匯出的檔案會出現在 **Home/export/&#42;FTP_location&#42;**
 
-自動匯出的檔案標題為&#x200B;**skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv**
+自動匯出的檔案會顯示標題為&#x200B;**skill_achievements_&#42;日期&#x200B;_&#42;&#42;_至日期&#42;.csv**
 
 ![](assets/exported-csvs.png)
 
-## Lynda聯結器 {#lyndaconnector}
+## Lynda 連接器 {#lyndaconnector}
 
-Lynda.com的企業客戶可使用琳達聯結器，他們想要讓學習者從Learning Manager中探索及使用Lynda課程。 聯結器可設定為定期使用您的API金鑰從Lynda.com擷取課程。 在Learning Manager中建立課程後，使用者可以搜尋課程並加以使用。 然後可以在Learning Manager中追蹤學習者進度。
+Lynda 連接器可供企業客戶使用 Lynda.com 希望學生能在 Learning Manager 中發現並學習 Lynda 課程。 連接器可以設定成定期用 API 金鑰從 Lynda.com 抓取課程。 課程在學習管理員中建立後，使用者可以搜尋並使用課程。 學習者的進度可以在學習管理員中追蹤。
 
-### 設定Lynda聯結器 {#configurethelyndaconnector}
+### 配置 Lynda 連接器 {#configurethelyndaconnector}
 
-1. 在整合式管理員控制面板中，按一下Lynda 。
+1. 在整合管理儀表板中，點選 Lynda。
 
-   您將會看到包含三個選項的圖磚：快速入門、連線及管理連線。
+   你會看到這個圖塊有三個選項：開始、連接和管理。
 
-1. 如果您是第一次設定Lynda聯結器，請按一下「連線」。
+1. 如果您是第一次設定 Lynda 連接器，請點擊「連接」。
 
-   在設定此聯結器之前，必須先設定Exavault FTP帳戶。
+   你必須先先設定 Exavault FTP 帳號，才能設定這個連接器。
 
-1. 從連線頁面，指定聯結器的名稱。 輸入連線的Appkey和Secret金鑰。
+1. 在連接頁面，指定你的連接器名稱。 輸入 Appkey 和 Secret key，即可連接連線。
 
-   您必須連絡您的廠商以取得Appkey和秘密金鑰。
+   你必須聯絡你的供應商才能取得 Appkey 和 Secret key。
 
-1. 按一下「儲存」。
+1. 點擊儲存。
 
-   已儲存設定並新增您帳戶的Lynda連線。 您現在可以從首頁按一下管理連線，並隨時編輯您的設定。
+   設定會被保存，並且你的帳號會新增 Lynda 連線。 你現在可以從首頁點選「管理連線」，隨時編輯你的設定。
 
-1. 如果已建立連線，請按一下[管理連線]檢視所有連線。
+1. 如果你已經建立了連線，請點選「管理連線」，查看所有連線。
 
-   在您設定此聯結器之前，必須為您的帳戶啟用移轉功能。
+   在設定這個連接器之前，必須先啟用您的帳號遷移功能。
 
-1. 按一下您要編輯的連線。
-1. 從左窗格中，按一下「設定」。 執行下列任一項作業：
+1. 點擊你想編輯的連結。
+1. 從左側窗格點選「設定」。 請做以下其中一項：
 
-   * 從此視窗檢視或編輯您帳戶的詳細資訊以及同步處理排程。 若要啟用此帳戶，您必須選取[啟用連線]核取方塊。
-   * 按一下編輯並編輯您的認證。 按一下「重設」以復原此欄位的更新。
-   * 按一下啟用排程來排程您的同步化。 您可以輸入開始時間與日期，然後輸入同步化排程的頻率（以天為單位）。 例如，每3天啟用一次同步處理。
+   * 在此視窗查看或編輯您的帳戶詳細資訊及同步排程。 如果你想啟用此帳號，必須勾選啟用連線的勾選框。
+   * 點擊編輯並編輯你的帳號。 點擊重置以撤銷你對此欄位的更新。
+   * 點擊啟用排程以排程同步。 你可以輸入開始時間和日期，然後輸入以天為單位的同步頻率。 例如，每三天啟用一次同步。
 
-   按一下「儲存」以儲存變更。
+   點擊儲存以儲存您的更改。
 
    ![](assets/lynda.png)
 
-1. 從左窗格中，按一下「隨選執行」。 此選項可讓您從Lynda匯入使用者摘要和其他相關資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從開始日期起直到現在的所有資料都會匯入。
+1. 從左側窗格點選「隨需執行」。 此選項允許您匯入 Lynda 的用戶動態及其他相關資料。 輸入按需執行的開始日期，並點擊執行以執行同步。 從起始日期到現在的所有資料都會匯入。
 
-   * 在執行期間，您可以按一下「停用對Learning Manager的存取」 ，其中應用程式會在同步期間停機。
-   * 如果您在執行期間按一下「啟用對Learning Manager的存取權」，同步期間服務不會中斷。
+   * 你可以在執行時點選「停用 Learning Manager 存取權」，這樣應用程式在同步期間會有停機。
+   * 如果你在執行時點選「啟用學習管理員存取」，同步過程中服務不會中斷。
 
    ![](assets/lynda-ondemand.png)
 
-1. 您也可以隨時從左側窗格按一下「執行狀態」，以時間順序檢視此聯結器的所有執行摘要。 您可以檢視同步化的開始日期和持續時間、同步化的型別（無論是隨選同步化）以及同步化的狀態（無論是正在進行中還是已完成）。
+1. 你也可以隨時從左側面板點擊「執行狀態」，以時間順序查看此連接器所有運行的摘要。 您可以查看同步的開始日期與持續時間、同步類型（是否為按需同步）以及同步狀態（同步進行中或已完成）。
 
-   當您刪除並重新建立連線時，會再次出現聯結器的先前執行。 您可以在刪除連線之前檢視所有執行。
+   當你刪除並重新建立連線時，之前針對連接器的執行會重新出現。 你可以查看刪除連線前的所有跑動紀錄。
 
-   您只能對最新的同步處理執行重新執行。
+   你只能重播以取得最新的同步。
 
    ![](assets/lynda-executionstatus.png)
 
-## getAbstract聯結器 {#getabstractconnector}
+## getAbstract connector {#getabstractconnector}
 
-getAbstract.com的企業客戶可使用getAbstract聯結器，他們希望學習者探索及使用getAbstract摘要。 聯結器可設定為定期擷取使用資料，根據在Learning Manager中建立的學習者完成記錄而定。 請閱讀下文，瞭解如何在Learning Manager中設定此聯結器。
+getAbstract 連接器可供企業客戶使用 getAbstract.com，他們希望學生能發現並使用 getAbstract 摘要。 連接器可設定為定期擷取使用資料，根據學習管理員中建立的學習者完成紀錄。 繼續閱讀，了解如何在 Learning Manager 中設定這個連接器。
 
-### 設定getAbstract聯結器 {#configurethegetabstractconnector}
+### 設定 getAbstract 連接器 {#configurethegetabstractconnector}
 
-1. 在整合式管理員控制面板中，按一下getAbstract。
+1. 從整合管理儀表板，點選 getAbstract。
 
-   從圖磚中，您會看到三個選項：「快速入門」、「連線」和「管理連線」。
+   從圖塊中，你會看到三個選項：開始使用、連接和管理連接。
 
-1. 如果您是第一次設定getAbstract聯結器，請按一下「連線」。
+1. 如果你是第一次設定 getAbstract 連接器，請點擊 Connect。
 
-   在設定此聯結器之前，必須先設定Exavault FTP帳戶。
+   你必須先先設定 Exavault FTP 帳號，才能設定這個連接器。
 
-   請確定您與內容提供者共用此FTP認證，以存取摘要。
+   請確保你將此 FTP 憑證分享給你的內容提供者，以便存取這些串流。
 
-1. 在連線名稱欄位中輸入連線的名稱。
+1. 在「連線名稱」欄位輸入你的連線名稱。
 
-   在使用者端識別碼和使用者端密碼欄位中輸入適當的金鑰。 您可能需要連絡您的廠商，以取得此聯結器的適當金鑰。
+   請在 Client ID 和 Client Secret 欄位輸入相應的金鑰。 你可能需要聯絡你的供應商，取得這個接頭所需的鑰匙。
 
-   取得使用者端所使用課程的課程中繼資料需要金鑰。
+   這些金鑰是取得客戶端所使用的課程元資料所必需的。
 
-1. 如果已建立連線，請從「首頁」按一下「取得抽象>管理連線」，以檢視並編輯現有的組態。
+1. 如果你已經建立了連線，從首頁點選 getAbstract > 管理連線即可檢視並編輯你現有的設定。
 
-   在您設定此聯結器之前，必須為您的帳戶啟用移轉功能。
+   在設定這個連接器之前，必須先啟用您的帳號遷移功能。
 
-1. 按一下您要檢視或編輯其設定的連線。
+1. 點擊你想查看或編輯設定的連線。
 
    ![](assets/getabstractschedulepage.png)
 
-1. 從左窗格中，按一下「設定」。 執行下列任一項作業：
+1. 從左側窗格點選「設定」。 請做以下其中一項：
 
-   * 從此視窗檢視或編輯您帳戶的詳細資訊以及同步處理排程。 若要啟用此帳戶，您必須選取[啟用連線]核取方塊。
-   * 按一下編輯並編輯您的認證。 按一下「重設」以復原此欄位的更新。
-   * 按一下啟用排程來排程您的同步化。 您可以輸入開始時間與日期，然後輸入同步化排程的頻率（以天為單位）。 例如，每3天啟用一次同步處理。
+   * 在此視窗查看或編輯您的帳戶詳細資訊及同步排程。 如果你想啟用此帳號，必須勾選啟用連線的勾選框。
+   * 點擊編輯並編輯你的帳號。 點擊重置以撤銷你對此欄位的更新。
+   * 點擊啟用排程以排程同步。 你可以輸入開始時間和日期，然後輸入以天為單位的同步頻率。 例如，每三天啟用一次同步。
 
-1. 按一下「儲存」。
+1. 點擊儲存。
 
-   會儲存設定並新增您帳戶的getAbstract連線。
+   設定會被儲存，並新增你的帳號 getAbstract 連線。
 
-1. 從左窗格中，按一下「隨選執行」。 此選項可讓您從getAbstract匯入使用者摘要和其他相關的資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從開始日期起直到現在的所有資料都會匯入。
+1. 從左側窗格點選「隨需執行」。 這個選項允許你匯入 getAbstract 中的用戶訂閱和其他相關資料。 輸入按需執行的開始日期，並點擊執行以執行同步。 從起始日期到現在的所有資料都會匯入。
 
-   * 在執行期間，您可以按一下「停用對Learning Manager的存取」 ，其中應用程式會在同步期間停機。
-   * 如果您在執行期間按一下「啟用對Learning Manager的存取權」，同步期間服務不會中斷。
+   * 你可以在執行時點選「停用 Learning Manager 存取權」，這樣應用程式在同步期間會有停機。
+   * 如果你在執行時點選「啟用學習管理員存取」，同步過程中服務不會中斷。
 
-1. 您也可以隨時從左側窗格按一下「執行狀態」，以時間順序檢視此聯結器的所有執行摘要。 您可以檢視同步化的開始日期和持續時間、同步化的型別（無論是隨選同步化）以及同步化的狀態（無論是正在進行中還是已完成）。
+1. 你也可以隨時從左側面板點擊「執行狀態」，以時間順序查看此連接器所有運行的摘要。 您可以查看同步的開始日期與持續時間、同步類型（是否為按需同步）以及同步狀態（同步進行中或已完成）。
 
-   當您刪除並重新建立連線時，會再次出現聯結器的先前執行。 您可以在刪除連線之前檢視所有執行。
+   當你刪除並重新建立連線時，之前針對連接器的執行會重新出現。 你可以查看刪除連線前的所有跑動紀錄。
 
-   您只能對最新的同步處理執行重新執行。
+   你只能重播以取得最新的同步。
 
-   若要讓任何型別的同步作業運作，您必須確定使用者摘要出現在同步作業指定日期的getAbstract FTP資料夾中。
+   要讓任何類型的同步運作，你必須確保使用者訂閱源存在於 getAbstract FTP 資料夾中，且日期符合同步時指定的日期。
 
-   請參閱下列excel工作表，此工作表是來自getAbstract的使用者摘要檔案範例。 檔案名稱應遵循以下格式：**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx**&#x200B;或&#x200B;**report_export_yyyy_MM_dd.xlsx**。
-   [getAbstract使用者摘要範例Excel工作表](assets/report-export-20170401175342.xlsx)
+   請參考以下 Excel 表格，這是 getAbbtract 的範例用戶資料檔案。 檔案名稱應遵循格式：**report_export_yyyy_MM_dd_HHmmss.xlsx** 或 **report_export_yyyy_MM_dd.xlsx**。
+   [getAbstract 用戶訂閱範例 Excel 表格](assets/report-export-20170401175342.xlsx)
 
-## Harvard ManageMentor聯結器 {#hmmconnector}
+## 哈佛 ManageMentor 連接器 {#hmmconnector}
 
-Harvard ManageMentor聯結器可供Harvard ManageMentor的企業客戶使用，他們想要讓學習者探索及使用Harvard ManageMentor課程。 聯結器可協助在Learning Manager中建立課程，並設定為定期擷取學習者進度資料。 若要配置此聯結器，請執行下列步驟：
+Harvard ManageMentor 連接器可供企業用戶使用 Harvard ManageMentor，他們希望學習者能發現並使用哈佛 ManageMentor 課程。 該連接器有助於在 Learning Manager 內建立課程，並可設定為定期擷取學習者進度資料。 要配置此連接器，請執行以下程序：
 
-### 設定Harvard ManagerMentor聯結器 {#configuretheharvardmanagermentorconnector}
+### 設定 Harvard ManagerMentor 連接器 {#configuretheharvardmanagermentorconnector}
 
-1. 在「整合式管理員」控制面板中，按一下「Harvard管理導師」。
+1. 從整合管理儀表板中，點選 Harvard ManageMentor。
 
-   從圖磚中，您會看到三個選項：「快速入門」、「連線」和「管理連線」。
+   從圖塊中，你會看到三個選項：開始使用、連接和管理連接。
 
-1. 如果您是第一次設定Harvard ManageMentor聯結器，請按一下「連線」。
+1. 如果您是第一次設定 Harvard ManageMentor 連接器，請點擊「連接」。
 
-   您也必須先設定Exavault FTP帳戶，才能設定此聯結器。
+   你也必須先設定 Exavault FTP 帳號，才能設定這個連接器。
 
-   請確定您與內容提供者共用此FTP認證，以存取摘要。
+   請確保你將此 FTP 憑證分享給你的內容提供者，以便存取這些串流。
 
-1. 在「連線名稱」欄位中輸入連線的名稱。 按一下[連線]以儲存此連線。
-1. 如果已建立連線，請從「首頁」按一下「Harvard管理導師」>「管理連線」。 按一下您要編輯的連線以編輯現有的組態。
+1. 在「連線名稱」欄位，輸入你的連線名稱。 點擊連接以儲存此連線。
+1. 如果您已經建立了連結，請在首頁點擊 Harvard ManageMentor > 管理連結。 點擊你想編輯的連線來編輯你現有的設定。
 
-   在您設定此聯結器之前，必須為您的帳戶啟用移轉功能。
+   在設定這個連接器之前，必須先啟用您的帳號遷移功能。
 
    ![](assets/hmm.png)
 
-1. 從左窗格中，按一下「設定」。 執行下列任一項作業：
+1. 從左側窗格點選「設定」。 請做以下其中一項：
 
-   * 從此視窗檢視或編輯您帳戶的詳細資訊以及同步處理排程。 若要啟用此帳戶，您必須選取[啟用連線]核取方塊。
-   * 按一下啟用排程來排程您的同步化。 您可以輸入開始時間與日期，然後輸入同步化排程的頻率（以天為單位）。 例如，每3天啟用一次同步處理。
+   * 在此視窗查看或編輯您的帳戶詳細資訊及同步排程。 如果你想啟用此帳號，必須勾選啟用連線的勾選框。
+   * 點擊啟用排程以排程同步。 你可以輸入開始時間和日期，然後輸入以天為單位的同步頻率。 例如，每三天啟用一次同步。
 
-1. 從左窗格中，按一下「隨選執行」。 此選項可讓您從Harvard ManageMentor匯入使用者摘要及其他相關資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從此連線匯入從開始日期到目前的所有資料。
+1. 從左側窗格點選「隨需執行」。 此選項允許您匯入 Harvard ManageMentor 的用戶訂閱及其他相關資料。 輸入按需執行的開始日期，並點擊執行以執行同步。 從起始日期到現在的所有資料都會匯入此連線。
 
-   * 在執行期間，您可以按一下「停用對Learning Manager的存取」 ，其中應用程式會在同步期間停機。
-   * 如果您在執行期間按一下「啟用對Learning Manager的存取權」，同步期間服務不會中斷。
+   * 你可以在執行時點選「停用 Learning Manager 存取權」，這樣應用程式在同步期間會有停機。
+   * 如果你在執行時點選「啟用學習管理員存取」，同步過程中服務不會中斷。
 
-   如果您要每隔幾天自動執行同步處理，請在「重複天數」欄位中指定天數。 同步可確保您的帳戶更新為Harvard ManageMentor摘要的最新版本。
+   如果你想每隔幾天自動同步一次，請在重複天數欄位中指定天數。 同步確保您的帳戶已更新至哈佛 ManageMentor 的摘要與摘要最新版本。
 
-1. 您也可以隨時從左側窗格按一下「執行狀態」，以時間順序檢視此聯結器的所有執行摘要。 您可以檢視同步化的開始日期和持續時間、同步化的型別（無論是隨選同步化）以及同步化的狀態（無論是正在進行中還是已完成）。
+1. 你也可以隨時從左側面板點擊「執行狀態」，以時間順序查看此連接器所有運行的摘要。 您可以查看同步的開始日期與持續時間、同步類型（是否為按需同步）以及同步狀態（同步進行中或已完成）。
 
-   當您刪除並重新建立連線時，會再次出現聯結器的先前執行。 您可以在刪除連線之前檢視所有執行。
+   當你刪除並重新建立連線時，之前針對連接器的執行會重新出現。 你可以查看刪除連線前的所有跑動紀錄。
 
-   您只能對最新的同步處理執行重新執行。
+   你只能重播以取得最新的同步。
 
-   若要同步成功，您必須確保Harvard ManageMentor FTP資料夾中至少有下列其中一個檔案：
+   為了成功同步，您必須確保 Harvard ManageMentor FTP 資料夾中至少有一個檔案存在：
 
-   hmm12_metadata.xlsx：此檔案提供Harvard ManageMentor聯結器的課程中繼資料。 上傳檔案時，請務必遵循命名慣例。
+   hmm12_metadata.xlsx：此檔案提供哈佛 ManageMentor 連接器的課程元資料。 上傳檔案時，請確保遵循命名規則。
 
-   client_hmm12_20150125.xlsx：這是Harvard ManageMentor聯結器的使用者摘要。 您必須遵循的檔案命名慣例是&#x200B;**client_hmm12_yyyyMMdd.xlsx.**
+   client_hmm12_20150125.xlsx：這是哈佛 ManageMentor 連接器的使用者動態。 你必須遵守的檔案命名規則是 **client_hmm12_yyyyMMdd.xlsx。**
 
-   請參閱此聯結器的以下兩個使用者資訊源範例和課程資訊源檔案：
-   [&#x200B; Harvard ManageMentor聯結器的課程中繼資料檔案](assets/hmm12-metadata.xlsx) [&#x200B; Harvard ManageMentor聯結器的使用者摘要](assets/client-hmm12-20170304.xlsx)
+   請參考以下兩個使用者動態與課程動態範例檔案：
+   [哈佛 ManageMentor 連接器](assets/hmm12-metadata.xlsx)[的課程元資料檔案 哈佛 ManageMentor 連接器的使用者資訊流](assets/client-hmm12-20170304.xlsx)
 
-## Workday聯結器 {#workdayconnector}
+## Workday 連接器 {#workdayconnector}
 
-使用Workday聯結器，您可以整合Learning Manager與Workday租使用者，以自動化資料同步。
+透過 Workday 連接器，你可以將 Learning Manager 與 Workday 租戶整合，自動化資料同步。
 
-### 匯入
+### 進口
 
-#### 對應屬性
+#### 地圖屬性
 
-整合管理員可以選擇Workday欄，並將它們對應至對應的Learning Manager群組屬性。 這是單次性的工作。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要為匯入使用者設定不同的對應，則可重新設定此對應。
+整合管理員可以選擇 Workday 欄位，並將其映射到對應的學習管理器可分組屬性。 這只是一次性的努力。 映射完成後，後續使用者匯入會使用相同的映射。 如果管理員想要不同的匯入映射，也可以重新設定。
 
-#### 自動匯入使用者
+#### 自動使用者匯入
 
-使用者匯入程式可讓Learning Manager管理員從Workday擷取員工詳細資訊，並自動將其匯入Learning Manager。
+使用者匯入流程允許學習經理管理員自動從 Workday 取得員工資料並匯入學習管理員。
 
 #### 篩選使用者
 
-Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
+Learning Manager 管理員可以在匯入使用者前對使用者套用篩選。 例如，學習管理員管理員可以選擇將階層中所有使用者匯入一個或多個特定管理員。
 
-## 匯出
+## 出口
 
-使用者技能匯出可讓使用者自動將使用者技能匯出至Workday。
+使用者技能匯出功能允許使用者自動匯出使用者技能到 Workday。
 
-不能使用同一Workday帳戶同時匯出來自多個Learning Manager帳戶的技能。
+多個 Learning Manager 帳號的技能無法同時用同一個 Workday 帳號匯出。
 
-## 正在排程 {#Scheduling-1}
+## 排程 {#Scheduling-1}
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
+管理員可依組織需求設定排程任務，且學習管理軟體中的使用者會依照排程保持最新狀態。 同樣地，整合管理員也能及時排程技能匯出，並與外部系統整合。 同步可在 Learning Manager 應用程式中每日執行。
 
-## 設定Workday聯結器 {#configureworkdayconnector}
+## 配置 Workday 連接器 {#configureworkdayconnector}
 
-**先決條件**：要求您組織的Workday管理員建立具有ISU_Permissions檔案中定義之許可權的整合系統使用者(ISU)。 從下列連結下載副本。
-[下載整合系統使用者(ISU)安全性的復本。](assets/isu-permissions-v1.pdf)瞭解將Learning Manager與Workday聯結器整合的程式。
+**前置條件**：請您組織的 Workday 管理員建立一個整合系統使用者（ISU），並依照ISU_Permissions文件所定義的權限。 請從下方連結下載副本。
+[下載整合系統使用者（ISU）安全資料。](assets/isu-permissions-v1.pdf) 了解整合 Learning Manager 與 Workday Connector 的流程。
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在Workday圖磚上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;專案。
+1. 在學習管理員首頁，將滑鼠移到Workday圖塊上。 選單出現了。 在選單中點選 **[!UICONTROL Connect]** 項目。
 
    ![](assets/workday-tile.png)
 
-1. 會出現一個對話方塊，提示您輸入新連線的證明資料。 以下是建立連線前需要輸入的欄位。
+1. 會出現一個對話框，提示你輸入新連線的憑證。 以下是你需要在建立連結前輸入的欄位。
 
-   * 連線名稱：根據您的偏好設定提供連線名稱。
-   * 主機URL：整合管理員可以從對應的Workday管理員取得主機URL詳細資訊。
-   * 租使用者：租使用者是您公司的內部使用者。 您的Workday管理員將為您提供租使用者詳細資訊。
-   * 使用者名稱和密碼： Workday管理員會建立具有所需安全性許可權的整合系統使用者(ISU)，並將其與整合管理員共用。
+   * 連接名稱：依照您的偏好提供連接名稱。
+   * 主機網址：整合管理員可以從對應的 Workday 管理員取得主機網址的詳細資訊。
+   * 租戶：租戶是你公司內部的。 你的 Workday 管理員會提供租戶資料。
+   * 使用者名稱與密碼：Workday 管理員建立一個具備必要安全權限的整合系統使用者（ISU），並與整合管理員分享。
 
-   注意： Learning Manager使用Workday API 28.1版。
+   注意：Learning Manager 使用 Workday API 28.1 版本。
 
    ![](assets/configure-connector.png)
 
-1. 在所有相關欄位中輸入資訊後，按一下連線。
+1. 輸入所有相關欄位後，點擊「連結」。
 
-   您也可以將多個Workday連線同步至您的Learning Manager帳戶。
+   你也可以讓多個 Workday 連線同步到你的學習管理員帳號。
 
-在總覽頁面中，您可以指定整合的連線名稱。 從下列選項中選擇您要採取的動作：
+在概覽頁面，你可以指定整合的連線名稱。 從以下選項中選擇您想採取的行動：
 
 * 匯入內部使用者
-* 匯出使用者技能 — 設定排程
-* 匯出使用者技能 — 隨選
+* 匯出使用者技能 - 設定排程
+* 匯出使用者技能 - 隨選
 
 ![](assets/overview.png)
 
-## 匯入
+## 進口
 
-### 對應屬性 {#MapAttributes-1}
+### 地圖屬性 {#MapAttributes-1}
 
-您可以使用Workday聯結器整合Learning Manager和Workday，以自動化資料同步。 您可以將所有作用中的使用者從Workday匯入至Learning Manager。 使用者可從各種資料來源匯入，包括FTP和Salesforce。
+你可以使用 Workday 連接器整合 Learning Manager，並用 Workday 來自動化資料同步。 你可以將所有活躍使用者從 Workday 匯入到 Learning Manager。 使用者可從包括 FTP 和 Salesforce 在內的多種資料來源匯入。
 
-匯入使用者之前，必須先對應Learning Manager和Workday的使用者屬性。 在「概觀」頁面中，使用「匯入」下的「內部使用者」選項來提供對映屬性。
+Learning Manager 和 Workday 的使用者屬性需要先映射，才能匯入使用者。 在概覽頁面，使用匯入下的內部使用者選項提供地圖屬性。
 
-在Adobe Learning Manager欄下輸入Adobe Learning Manager認證。 使用下拉式清單，為Workday下的欄選取正確的認證。
+在 Adobe Learning Manager 欄位輸入 Adobe Learning Manager 憑證。 請使用下拉選單選擇 Workday 欄位的正確憑證。
 
-目前，Learning Manager支援從Workday匯入44個使用者屬性。 使用Learning Manager中的作用中欄位來新增其他屬性。
+目前，Learning Manager 支援從 Workday 匯入 44 個使用者屬性。 使用 Learning Manager 的 Active Fields 新增屬性。
 
 ![](assets/map-attributes.png)
 
-Workday有四個階層，而Learning Manager有兩個階層。 Workday中的四個層級是技能設定檔類別、技能設定檔、技能專案類別和技能專案。 您的技能名稱和Learning Manager層級會一起在Workday的技能專案底下對應。
+Workday 有四層級的階層結構，而 Learning Manager 有兩層。 Workday 的四個等級分別是技能檔案類別、技能檔案、技能物品類別和技能物品。 你的技能名稱和 Learning Manager 的等級會一起映射到 Workday 的技能項目下。
 
-+++支援的Workday屬性清單
++++支援的 Workday 屬性列表
 
-wd：User_ID\
-wd：Worker_ID\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data。@wd：Formatted_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data。@wd：Formatted_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Prefix_Data.wd：Title_Descriptor\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：First_Name\
-wd：Personal_Data.wd：Name_Data.wd：Preferred_Name_Data.wd：Name_Detail_Data.wd：Last_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：First_Name\
-wd：Personal_Data.wd：Name_Data.wd：Legal_Name_Data.wd：Name_Detail_Data.wd：Last_Name\
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0。@wd：Formatted_Address\
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Postal_Code\
-wd：Personal_Data.wd：Contact_Data.wd：Address_Data.0.wd：Country_Region_Descriptor\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0。@wd：Formatted_Phone\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Country_ISO_Code\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：International_Phone_Code\
-wd：Personal_Data.wd：Contact_Data.wd：Phone_Data.0.wd：Phone_Number\
-wd：Personal_Data.wd：Primary_Nationality_Reference.wd：ID.1。$\
-wd：Personal_Data.wd：Gender_Reference.wd：ID.1。$\
-wd：Personal_Data.wd：Identification_Data.wd：National_ID.0.wd：National_ID_Data.wd：ID\
-wd：Personal_Data.wd：Identification_Data.wd：Custom_ID.0.wd：Custom_ID_Data.wd：ID\
-wd：User_Account_Data.wd：Default_Display_Language_Reference.wd：ID.1。$\
-wd：Role_Data.wd：Organization_Role_Data.wd：Organization_Role.0.wd：Organization_Role_Reference.wd：ID.1。$\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Position_Title\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Title\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Name\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Business_Site_Summary_Data.wd：Address_Data。@wd：Formatted_Address\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Classification_Reference.wd：ID.1。$\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Job_Classification_Summary_Data.0.wd：Job_Group_Reference.wd：ID.1。$\
-wd：Employment_Data.wd：Worker_Job_Data.0.wd：Position_Data.wd：Work_Space__Reference.wd：ID.1。$\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Active_Status_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Hire_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Original_Hire_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retired\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Retirement_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Terminated\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Date\
-wd：Employment_Data.wd：Worker_Status_Data.wd：Termination_Last_Day_of_Work\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Code\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Name\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Type_Reference.wd：ID.1。$\
-wd：Organization_Data.wd：Worker_Organization_Data.0.wd：Organization_Data.wd：Organization_Subtype_Reference.wd：ID.1。$\
-wd：Qualification_Data.wd：Education.0.wd：School_Name\
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Job_Title\
-wd：Qualification_Data.wd：External_Job_History.0.wd：Job_History_Data.wd：Company\
-wd：Management_Chain_Data.wd：Worker_Supervisory_Management_Chain_Data.wd：Management_Chain_Data.0.wd：Manager.Employee_ID
+WD:User_ID\
+WD:Worker_ID\
+WDD:Personal_Data。WDD:Name_Data。WDD:Preferred_Name_Data。WD:Name_Detail_Data.@wd:Formatted_Name\
+WDD:Personal_Data。WDD:Name_Data。WDD:Legal_Name_Data。WD:Name_Detail_Data.@wd:Formatted_Name\
+WD.WD.WD.WD.WD.WD.WD:Personal_Data:Name_Data:Legal_Name_Data:Name_Detail_Data:Prefix_Data:Title_Descriptor\
+WD.WD.WD.WD.WD.WD.WD:Personal_Data:Name_Data:Preferred_Name_Data:Name_Detail_Data:Prefix_Data:Title_Descriptor\
+WD.WD.WD.WD.WD.WD:Personal_Data:Name_Data:Preferred_Name_Data:Name_Detail_Data:First_Name\
+WD.WD.WD.WD.WD.WD:Personal_Data:Name_Data:Preferred_Name_Data:Name_Detail_Data:Last_Name\
+WD.WD.WD.WD.WD.WD:Personal_Data:Name_Data:Legal_Name_Data:Name_Detail_Data:First_Name\
+WD.WD.WD.WD.WD.WD:Personal_Data:Name_Data:Legal_Name_Data:Name_Detail_Data:Last_Name\
+WDD:Personal_Data。WDD:Contact_Data。WD:Address_Data.0.@wd:Formatted_Address\
+WD.WD.WD.0.wd:Personal_Data:Contact_Data:Address_Data:Postal_Code\
+WD.WD.WD.0.wd:Personal_Data:Contact_Data:Address_Data:Country_Region_Descriptor\
+WDD:Personal_Data。WDD:Contact_Data。WD:Phone_Data.0.@wd:Formatted_Phone\
+WD.WD.WD.0.wd:Personal_Data:Contact_Data:Phone_Data:Country_ISO_Code\
+WD.WD.WD.0.wd:Personal_Data:Contact_Data:Phone_Data:International_Phone_Code\
+WD.WD.WD.0.wd:Personal_Data:Contact_Data:Phone_Data:Phone_Number\
+WD.WD.WD.1:Personal_Data:Primary_Nationality_Reference:ID.$\
+WD.WD.WD.1:Personal_Data:Gender_Reference:ID.$\
+WDD.WDD.0.WD.WDD:Personal_Data:Identification_Data:National_ID:National_ID_Data:ID\
+WDD.WDD.0.WD.WDD:Personal_Data:Identification_Data:Custom_ID:Custom_ID_Data:ID\
+WD.WD.WD.1:User_Account_Data:Default_Display_Language_Reference:ID.$\
+WD.WDD.WD.0.wd.wd.1:Role_Data:Organization_Role_Reference:Organization_Role_Data:Organization_Role:ID.$\
+WDD.WD.0.WD.WDD:Employment_Data:Worker_Job_Data:Position_Data:Position_Title\
+WDD.WD.0.WD.WDD:Employment_Data:Worker_Job_Data:Position_Data:Business_Title\
+WD.WD.0.wd.wd.wd.wd:Employment_Data:Worker_Job_Data:Position_Data:Business_Site_Summary_Data:Name\
+WD.WD.0.wd.wd.wd.wd:Employment_Data:Address_Data:Worker_Job_Data:Position_Data:Business_Site_Summary_Data.@wd:Formatted_Address\
+WD.WD.0.wd.wd.0.wd.wd.1:Employment_Data:ID:Worker_Job_Data:Position_Data:Job_Classification_Summary_Data:Job_Classification_Reference.$\
+WD.WD.0.wd.wd.0.wd.wd.1:Employment_Data:ID:Worker_Job_Data:Position_Data:Job_Classification_Summary_Data:Job_Group_Reference.$\
+wd.wd.0.wd.wd.wd.1:Employment_Data:Work_Space__Reference:Worker_Job_Data:Position_Data:ID.$\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Active\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Active_Status_Date\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Hire_Date\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Original_Hire_Date\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Retired\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Retirement_Date\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Terminated\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Termination_Date\
+WDD:Employment_Data。WDD:Worker_Status_Data。WDD:Termination_Last_Day_of_Work\
+WDD.WD.0.WD.WDD:Organization_Data:Worker_Organization_Data:Organization_Data:Organization_Code\
+WDD.WD.0.WD.WDD:Organization_Data:Worker_Organization_Data:Organization_Data:Organization_Name\
+wd.wd.0.wd.wd.wd.1:Organization_Data:Organization_Type_Reference:Worker_Organization_Data:Organization_Data:ID.$\
+wd.wd.0.wd.wd.wd.1:Organization_Data:Organization_Subtype_Reference:Worker_Organization_Data:Organization_Data:ID.$\
+WD.WD.0.WDD:Qualification_Data:Education:School_Name\
+WDD.WD.0.WD.WDD:Qualification_Data:External_Job_History:Job_History_Data:Job_Title\
+WDD.WD.0.WD.WDD:Qualification_Data:External_Job_History:Job_History_Data:Company\
+WDD.WDD.WD.0.WD:Management_Chain_Data:Management_Chain_Data:Worker_Supervisory_Management_Chain_Data:Manager。Employee_ID
 
 +++
 
-## 匯出
+## 出口
 
-您可以將使用者從Learning Manager取得的所有技能匯出至Workday。 請注意，系統只會匯出所有作用中的使用者技能，而Learning Manager不會匯出已淘汰的技能。 您也可以將多個Learning Manager帳戶連線至同一個Workday聯結器。 如果兩個Learning Manager帳戶中的技能名稱相同，則會在Workday中將它們對應至相同的技能。 如果兩個Learning Manager帳戶使用相同的Workday帳戶，建議在更新Workday中的技能之前，先更新所有Learning Manager帳戶中的技能名稱。
+你可以將使用者從學習管理器中獲得的所有技能匯出到 Workday。 請注意，只有所有活躍的使用者技能會被匯出，學習管理員不會匯出已退休的技能。 你也可以將多個 Learning Manager 帳號連接到同一個 Workday 連接器。 如果兩個學習管理帳戶的技能名稱相同，則在 Workday 中會對應到相同的技能。 建議在 Workday 更新技能前，先更新所有學習經理帳號的技能名稱，以避免兩個學習經理帳號同時使用同一 Workday 帳號。
 
-+++使用者技能 — 設定
++++使用者技能 - 配置
 
-此選項可讓您排程報表的擷取。 確定已啟用使用此連線啟用使用者技能匯出核取方塊。 選取「啟用排程」核取方塊，並指定開始日期和時間。 您也可以指定產生和傳送報告的間隔。 選取啟用排程核取方塊，並輸入開始日期、時間和&#39;n&#39;天后重複。 完成後，按一下「儲存」。
+這個選項讓你可以排程擷取報告。 請確保啟用「使用此連線啟用使用者技能匯出」勾選框。 選擇啟用排程勾選框，並指定開始日期與時間。 你也可以指定想要產生和傳送報告的間隔。 選擇啟用排程勾選框，輸入開始日期、時間，並在 &#39;n&#39; 天後重複。 完成後，點擊儲存。
 
 ![](assets/configure-schedule.png)
 
 +++
 
-+++使用者技能 — 隨選
++++使用者技能 - 隨選
 
-您可以指定開始日期，並使用選項匯出報表。 報表將會從輸入的日期擷取到目前為止。 輸入您要開始產生報表的日期，然後按一下執行。
+你可以指定開始日期並用這個選項匯出報告。 報告將從輸入日期提取至今。 輸入你想開始產生報告的日期，然後點選執行。
 
 ![](assets/on-demand-report.png)
 
 +++
 
-+++使用者技能 — 執行狀態
++++使用者技能 - 執行狀態
 
-在這裡，您可以檢視所有任務的摘要並取得其狀態報告。 您可以按一下錯誤報告連結來下載錯誤報告。
+在這裡，您可以查看所有任務的摘要並取得狀態報告。 你可以點擊錯誤報告連結下載錯誤報告。
 
 ![](assets/execution-status.png)
 
 +++
 
-## miniOrange聯結器 {#miniorangeconnector}
+## miniOrange 連接器 {#miniorangeconnector}
 
-使用miniOrange聯結器，您可以整合Learning Manager與miniOrange租使用者，以自動化資料同步。
+使用 miniOrange 連接器，你可以將 Learning Manager 與 miniOrange 租戶整合，以自動化資料同步。
 
-### 匯入
+### 進口
 
-#### 對應屬性
+#### 地圖屬性
 
-整合管理員可以選擇miniOrange屬性，並將它們對應至對應的Learning Manager群組屬性。 這是單次性的工作。 完成對應後，後續的使用者匯入會使用相同的對應。 如果管理員想要為匯入使用者設定不同的對應，則可重新設定此對應。
+整合管理員可以選擇 miniOrange 屬性，並將其映射到對應的學習管理器可分組屬性。 這只是一次性的努力。 映射完成後，後續使用者匯入會使用相同的映射。 如果管理員想要不同的匯入映射，也可以重新設定。
 
-#### 自動匯入使用者
+#### 自動使用者匯入
 
-使用者匯入程式可讓Learning Manager管理員從miniOrange擷取員工詳細資訊，並自動將其匯入Learning Manager。
+使用者匯入流程允許學習管理員自動從 miniOrange 取得員工資料並匯入學習管理員。
 
 #### 篩選使用者
 
-Learning Manager管理員可在匯入使用者之前對其套用篩選。 例如，Learning Manager管理員可選擇匯入階層中一或多個特定管理員下的所有使用者。
+Learning Manager 管理員可以在匯入使用者前對使用者套用篩選。 例如，學習管理員管理員可以選擇將階層中所有使用者匯入一個或多個特定管理員。
 
-若要設定   迷你橘色   聯結器，請聯絡Learning Manager CSM團隊。
+如需設定 miniOrange 連接器，請聯絡學習經理 CSM 團隊。
 
-## 設定miniOrange聯結器 {#configureminiorangeconnector}
+## 設定 miniOrange 連接器 {#configureminiorangeconnector}
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在miniOrange卡/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;選項。
+1. 在 Learning Manager 首頁，將滑鼠移到 miniOrange 卡片/縮圖上。 選單出現了。 在選單中點選  **[!UICONTROL Connect]** 選項。
 
    ![](assets/miniorange-tile.png)
 
-1. 按一下「連線」以建立新連線。 出現miniOrange聯結器頁面。 輸入您要對應的帳戶詳細資料。
+1. 點擊連接以建立新的連線。 miniOrange 連接器頁面會出現。 輸入你想要對應的帳號細節。
 
    ![](assets/establish-connection.png)
 
-1. 如果您想要直接將miniOrnage使用者匯入為Learning Manager內部使用者，請使用&#x200B;**[!UICONTROL Import Internal Users]**&#x200B;選項。
+1. 如果你想直接匯入 miniOrnage 使用者作為 Learning Manager 內部使用者，請使用這個 **[!UICONTROL Import Internal Users]** 選項。
 
    ![](assets/import-users.png)
 
-1. 在對映頁面中，左側   在右側，您可以看到Learning Manager的欄和欄   您可以看到miniOrnage欄。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 在映射頁面左側可以看到學習管理器的欄位，右側則可以看到 miniOrnage 欄位。 選擇對應學習管理器欄位名稱的適當欄位名稱。
 
    ![](assets/map-attributes.png)
 
-1. 若要檢視及編輯資料來源，請以管理員身分按一下&#x200B;**[!UICONTROL Settings > Data Source]**。
+1. 作為管理員，若要查看及編輯資料來源，請點擊 **[!UICONTROL Settings > Data Source]**。
 
-   將列出已建立的miniOrange來源。 如果您需要編輯篩選器，請按一下&#x200B;**[!UICONTROL Edit]**。
+   已建立的 miniOrange 來源會被列出。 如果你需要編輯篩選，請點擊 **[!UICONTROL Edit]**。
 
    ![](assets/data-source.png)
 
-1. 匯入完成後，您將會收到通知。 若要檢視或編輯匯入記錄，請按一下&#x200B;**[!UICONTROL Users > Import log.]**
+1. 匯入完成後，您將收到通知。 要查看或編輯匯入日誌，請點擊 **[!UICONTROL Users > Import log.]**
 
 ### 刪除連線 {#deleteaconnection}
 
-請依照下列步驟刪除已建立的miniOrange連線。
+請依照以下步驟刪除已建立的 miniOrange 連線。
 
-## BlueJeans聯結器 {#bluejeansconnector}
+## BlueJeans 連接器 {#bluejeansconnector}
 
-您現在可以將Learning Manager與BlueJeans聯結器整合，並使用BlueJeans來託管課程。 BlueJeans可讓您啟動音訊與視訊電話會議、視訊聊天和網路研討會。
+你現在可以將 Learning Manager 與 BlueJeans 連接器整合，並用 BlueJeans 來主持課程。 BlueJeans 讓你能啟動音訊與視訊會議、視訊聊天及網路研討會。
 
-請依照下列步驟設定並使用聯結器。
+請依照以下步驟設定並使用接頭。
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在BlueJeans卡片/縮圖上。 選單出現。 按一下功能表中的&#x200B;**[!UICONTROL Connect]**&#x200B;選項。
+1. 在 Learning Manager 首頁，將滑鼠移到藍牛仔卡片/縮圖上。 選單出現了。 從選單點選  **[!UICONTROL Connect]** 選項。
 
    ![](assets/miniorange.png)
 
-1. BlueJeans聯結器頁面隨即開啟。 在個別欄位中輸入您帳戶的詳細資料，以便整合Learning Manager和BlueJeans來同步使用者摘要。 您可以向BlueJeans帳戶的系統管理員取得詳細資訊。
+1. BlueJeans 連接頁打開了。 在各自欄位輸入你的帳號資料，以便整合 Learning Manager 和 BlueJeans，以同步用戶動態。 你可以從你的 BlueJeans 帳號管理員那裡取得詳細資訊。
 
    ![](assets/bluejeans-connecotrpage.png)
 
-   作為學習者，在啟用聯結器時，請使用與您的Learning Manager帳戶相同的電子郵件ID來啟用使用者傳回Learning Manager的資訊。
+   作為學習者，啟用連接器時，請使用與 Learning Manager 帳號相同的電子郵件 ID，讓使用者回饋回學習管理員。
 
-1. 建立連線後，以Author身分，建立以BlueJeans作為會議系統的VC課程。
+1. 建立連結後，作為作者，建立一門以 BlueJeans 作為會議系統的 VC 課程。
 
    ![](assets/conferencing-systems.png)
 
-1. 管理員、經理和學習者可將學習者註冊到建立的課程。 註冊後，學習者會收到電子郵件。 學習者可登入其Learning Manager帳戶以檢視方案詳細資料並參加課程。
-1. 完成課程後，完成報告會傳送至Learning Manager。 管理員可檢視完成報告，以檢查學習者的出席情況及分數。
+1. 管理者、經理與學員都可以為學員報名已建立的課程。 註冊後，學習者會收到一封電子郵件。 學習者可登入其學習經理帳號以查看課程詳情並參加課程。
+1. 課程結束後，完成報告會寄送給學習管理員。 管理員可查看完成報告，以檢查學習者的出席情況與成績。
 
    ![](assets/-attendence-and-scoringreport.png)
 
-## 方塊聯結器 {#boxconnector}
+## 盒式連接器 {#boxconnector}
 
-使用BOX聯結器，您可以將Learning Manager與任意外部系統整合，以自動化資料同步。 外部系統應該可以匯出CSV格式的資料，並將其放在Learning Manager Box帳戶的適當資料夾中。 方塊聯結器功能如下：
+透過 BOX 連接器，你可以將 Learning Manager 與任意的外部系統整合，自動化資料同步。 預期外部系統能匯出 CSV 格式的資料，並將其放入學習管理盒帳戶的適當資料夾中。 盒子連接器的功能如下：
 
-您也可以使用FTP聯結器進行資料移轉、使用者匯入和資料匯出。 如需詳細資訊，[Learning Manager FTP聯結器。](third-party-connectors.md#main-pars_header_1427405935)
+你也可以使用 FTP 連接器進行資料遷移、使用者匯入和匯出資料。 欲了解更多資訊，請參考 [Learning Manager FTP 連接器。](third-party-connectors.md#main-pars_header_1427405935)
 
 ## 資料匯入 {#DataImport-1}
 
-使用者匯入程式可讓Learning Manager管理員從Learning Manager Box服務擷取員工詳細資訊，並自動將其匯入Learning Manager。 使用此功能，您可以將這些系統產生的CSV放在Box帳戶的適當資料夾中，以整合多個系統。 Learning Manager會挑選CSV檔案、將其合併，並根據排程匯入資料。 如需詳細資訊，請參閱排程功能。
+使用者匯入流程允許學習經理管理員從學習管理工具服務中取得員工資料，並自動匯入學習管理工具。 利用此功能，你可以將這些系統產生的 CSV 放入 Box 帳戶的適當資料夾，整合多個系統。 Learning Manager 會擷取 CSV 檔案，合併後依照排程匯入資料。 請參閱排程功能以獲得更多資訊。
 
-**對應屬性**
+**地圖屬性**
 
-整合管理員可以選擇CSV欄，並將它們對應至Learning Manager的群組屬性。 此對應是一次性工作。 完成對應後，後續的使用者匯入會使用相同的對應。如果管理員想要擁有不同的對應來匯入使用者，可以重新設定對應。
+整合管理員可以選擇 CSV 的欄位，並將其映射到 Learning Manager 可分組的屬性。 這次地圖製作是一次性的努力。 映射完成後，後續的使用者匯入也會使用相同的映射。如果管理員想要不同的匯入使用者映射，也可以重新設定映射。
 
 ## 資料匯出 {#dataexport}
 
-「資料匯出」可讓使用者將使用者技能匯出至Box位置，以便與任何第三方系統整合。
+資料匯出功能允許使用者將技能匯出到某個 Box 位置，以便整合到任何第三方系統。
 
-## 排程報表 {#schedulereports}
+## 賽程報告 {#schedulereports}
 
-管理員可以根據組織的需求設定排程任務，且Learning Manager應用程式中的使用者會根據排程瞭解最新狀態。 同樣地，整合管理員可以排程技能匯出，以及時與外部系統整合。 同步可在Learning Manager應用程式中每天執行。
+管理員可依組織需求設定排程任務，且學習管理軟體中的使用者會依照排程保持最新狀態。 同樣地，整合管理員也能及時排程技能匯出，並與外部系統整合。 同步可在 Learning Manager 應用程式中每日執行。
 
-## 設定方塊聯結器 {#configureboxconnector}
+## 配置 Box 連接器 {#configureboxconnector}
 
-瞭解將Learning Manager與Box聯結器整合的程式。
+了解整合 Learning Manager 與 Box 連接器的流程。
 
-1. 在Learning Manager首頁中，將滑鼠游標停留在Box卡片/縮圖上。 選單出現。 按一下功能表中的「連線」專案。
+1. 在 Learning Manager 首頁，將滑鼠移到盒子卡片/縮圖上。 選單出現了。 在選單中點擊「連接項目」。
 
    ![](assets/screen-shot-2017-10-25at54426pm.png)
 
-1. 系統會顯示一個對話方塊，提示您輸入電子郵件ID。 提供組織內負責管理Learning Manager Box帳戶人員的電子郵件ID。 提供電子郵件ID後，按一下「連線」 。
+1. 會跳出一個對話框，提示你輸入電子郵件 ID。 提供負責管理該組織學習管理箱帳號的人員的電子郵件碼。 輸入電子郵件後點選 Connect。
 
-1. Learning Manager會傳送電子郵件給您，提醒使用者在第一次存取該方塊前重設密碼。 使用者必須重設密碼，並使用此密碼存取Learning Manager Box帳戶。
+1. Learning Manager 會寄送電子郵件，提示使用者在首次存取 Box 前重置密碼。 使用者必須重設密碼，並用此密碼存取學習管理器盒子帳號。
 
-   只能為特定Learning Manager帳戶建立一個Learning Manager Box帳戶。
+   同一學習經理帳號只能建立一個 Learning Manager Box 帳號。
 
-   在總覽頁面中，您可以指定整合的連線名稱。 從下列選項中選擇您要採取的動作：
+   在概覽頁面，你可以指定整合的連線名稱。 從以下選項中選擇您想採取的行動：
 
    * 匯入內部使用者
-   * 匯出使用者技能 — 設定排程
-   * 匯出使用者技能 — 隨選
+   * 匯出使用者技能 - 設定排程
+   * 匯出使用者技能 - 隨選
 
-## 匯入
+## 進口
 
 +++內部使用者
 
-匯入內部使用者選項可讓您排程自動產生使用者匯入報告。 產生的報表會以.CSV檔案傳送給您。
+匯入內部使用者選項允許你自動排程產生使用者匯入報告。 產生的報告會以 .CSV 檔案的形式傳送給你。
 
 +++
 
-+++對應屬性
++++地圖屬性
 
-成功建立連線後，您可以將放入Box資料夾的CSV檔案欄對應至Learning Manager的對應屬性。 此步驟為必要步驟。
+連線成功建立後，你可以將 Box 資料夾中 CSV 檔案的欄位映射到 Learning Manager 的對應屬性。 此步驟是強制步驟。
 
-1. 在「對應屬性」頁面的左側   在右側，您可以看到Learning Manager的預期欄   您可以看到CSV欄名稱。 最初，您可以在右側看到一個空白的選取方塊。 按一下「選擇檔案」匯入任何範本CSV。
+1. 在地圖屬性頁面，左側可以看到學習管理員預期的欄位，右側則可以看到 CSV 欄位名稱。 一開始，在右側你會看到一個空白的選擇框。 透過點選檔案匯入任何範本 CSV。
 
-1. 上述步驟會在右側的「選取」下拉式清單中填入所有CSV欄名稱。 選取對應至Learning Manager欄名稱的適當欄名稱。
+1. 上述步驟會將所有 CSV 欄位名稱填滿右側的下拉選單。 選擇對應學習管理器欄位名稱的適當欄位名稱。
 
-   *管理員欄位必須對應到電子郵件地址型別的欄位。 必須先對應所有資料行，才能使用聯結器。*
+   *管理者欄位必須對應到某個欄位，電子郵件地址。 在使用連接器之前，必須對所有柱子進行映射。*
 
-1. 完成對應後，按一下「儲存」 。
+1. 完成地圖後點擊儲存。
 
-   聯結器現已準備就緒，可供使用。 剛設定的帳戶現在會在管理員應用程式中顯示為資料來源，供管理員排程匯入或隨選同步。
+   接頭現在已經準備好可以使用了。 剛設定的帳號現在會以資料來源出現在管理員應用程式中，供管理員排程匯入或按需同步。
 
 +++
 
-+++使用Learning Manager方塊聯結器
++++使用 Learning Manager Box 連接器
 
-1. 來自外部系統的CSV檔案應放置在下列路徑中：
+1. 外部系統的 CSV 檔案應放在以下路徑：
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **注意：**&#x200B;在2016年7月的發行版本中，只允許匯入使用者。 因此，若要使用「方塊」聯結器，您必須確定CSV檔案是放置在下列資料夾中：\
+   **注意：** 在 2016 年 7 月的版本中，僅允許匯入使用者。 因此，使用 Box 連接器時，您必須確保 CSV 檔案放在以下資料夾中：\
    `code Home/import/user/internal/*.csv`
 
-1. Box聯結器會擷取CSV檔案中的所有列，因此重要的是，一個CSV中對應到使用者的列不會出現在任何其他CSV中。
-1. 所有CSV都應該包含對應中指定的欄。
-1. 在程式開始之前，所有必要的CSV都應該出現在資料夾中。
+1. Box 連接器會擷取所有 CSV 檔案的列，因此重要的是，對應於某個 CSV 的使用者列不會出現在其他 CSV 檔中。
+1. 所有 CSV 都應該包含映射中指定的欄位。
+1. 所有必要的 CSV 檔案應該在流程開始前就已在資料夾中。
 
-將使用者匯入Learning Manager時，管理員還需要瞭解如何在Learning Manager中管理使用者。 如需詳細資訊，請參閱[使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)。
-
-+++
-
-## 匯出
-
-+++Skills
-
-匯出使用者技能報告有兩個選項。
-
-使用者技能 — 隨選：您可以指定開始日期，並使用選項匯出報表。報表會從輸入的日期擷取到目前為止
-
-**[!UICONTROL User Skills - Configure]**：此選項可讓您排程報表的擷取。 選取「啟用排程」核取方塊，並指定開始日期和時間。 您也可以指定產生和傳送報告的間隔。
+在將使用者匯入 Learning Manager 時，管理員也需要了解使用者在 Learning Manager 中如何管理。 請參閱使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)以[獲取更多資訊。
 
 +++
 
-若要開啟Export資料夾（匯出的檔案將放置在Box位置中），請開啟「使用者技能」頁面中提供的Box資料夾連結，如下所示。
+## 出口
 
-自動匯出的檔案會出現在位置&#x200B;**Home/export/&#42;Box_location&#42;**
++++技能
 
-自動匯出的檔案標題為&#x200B;**skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv**
+有兩種匯出使用者技能報告的選項。
 
-Learning Manager團隊共用的Box資料夾中的存取許可權和內容應由客戶管理。  另請注意，資料夾中的內容將會實際儲存在法蘭克福地區。
+使用者技能 - 隨選：你可以指定開始日期並透過選項匯出報告。報告將從輸入日期起提取至現在
 
-## LinkedInLearning聯結器 {#linkedinlearningconnector}
+**[!UICONTROL User Skills - Configure]**：此選項允許您排程擷取報告。 選擇啟用排程勾選框，並指定開始日期與時間。 你也可以指定想要產生和傳送報告的間隔。
 
-LinkedIn.com的企業客戶可使用LinkedInLearning聯結器，讓他們的學習者從Learning Manager中探索和使用課程。 聯結器可設定為定期使用您的API金鑰擷取課程。 在Learning Manager中建立課程後，使用者可以搜尋課程並加以使用。 然後可以在Learning Manager中追蹤學習者進度。
++++
 
-### 設定LinkedIn聯結器 {#configurelinkedinconnector}
+要開啟匯出檔案會放置於 Box 位置的匯出資料夾，請如下圖所示，開啟使用者技能頁面中提供的 Box 資料夾連結。
 
-1. 在整合式管理員控制面板中，按一下LinkedInLearning。
+自動匯出的檔案會出現在 **Home/export/&#42;Box_location&#42;**
 
-   您將會看到包含三個選項的圖磚：快速入門、連線及管理連線。
+自動匯出的檔案會顯示標題為&#x200B;**skill_achievements_&#42;日期&#x200B;_&#42;&#42;_至日期&#42;.csv**
 
-1. 如果您是第一次設定LinkedInLearning聯結器，請按一下「連線」。
+學習管理團隊共享的 Box 資料夾中的存取權限與內容應由客戶管理。  另外要注意，資料夾裡的內容會實體存放在法蘭克福地區。
 
-   在設定此聯結器之前，必須先設定Exavault FTP帳戶。
+## LinkedInLearning 連接器 {#linkedinlearningconnector}
 
-1. 從連線頁面，指定聯結器的名稱。 輸入連線的Appkey和Secret金鑰。
+LinkedInLearning 連接器可供企業客戶使用 LinkedIn.com，希望學生能在 Learning Manager 中發現並學習課程。 連接器可以設定成定期用 API 金鑰擷取課程。 課程在學習管理員中建立後，使用者可以搜尋並使用課程。 學習者的進度可以在學習管理員中追蹤。
 
-   您必須聯絡您的廠商以取得Appkey和秘密金鑰。
+### 設定 LinkedIn 連接器 {#configurelinkedinconnector}
 
-1. 按一下「儲存」。
+1. 在整合管理儀表板中，點擊 LinkedInLearning。
 
-   會儲存設定並新增您帳戶的LinkedInLearning連線。 您現在可以從首頁按一下管理連線，並隨時編輯您的設定。
+   你會看到這個圖塊有三個選項：開始、連接和管理。
 
-1. 如果已建立連線，請按一下[管理連線]檢視所有連線。
+1. 如果你是第一次設定 LinkedInLearning 連接器，請點擊「連接」。
 
-   在您設定此聯結器之前，必須為您的帳戶啟用移轉功能。
+   你必須先先設定 Exavault FTP 帳號，才能設定這個連接器。
 
-1. 按一下您要編輯的連線。
-1. 從左窗格中，按一下「設定」。 執行下列任一項作業：
+1. 在連接頁面，指定你的連接器名稱。 輸入 Appkey 和 Secret key，即可連接連線。
 
-   * 從此視窗檢視或編輯您帳戶的詳細資訊以及同步處理排程。 若要啟用此帳戶，您必須選取[啟用連線]核取方塊。
-   * 按一下編輯並編輯您的認證。 按一下「重設」以復原此欄位的更新。
-   * 按一下啟用排程來排程您的同步化。 您可以輸入開始時間與日期，然後輸入同步化排程的頻率（以天為單位）。 例如，每3天啟用一次同步處理。
+   你必須聯絡你的供應商才能取得應用程式金鑰和秘密金鑰。
 
-   按一下「儲存」以儲存變更。
+1. 點擊儲存。
 
-1. 從左窗格中，按一下「隨選執行」。 此選項可讓您從LinkedIn匯入使用者摘要和其他相關資料。 輸入隨選執行的「開始日期」，然後按一下「執行」以執行同步化。 從開始日期起直到現在的所有資料都會匯入。
+   設定會被保存，並且你的帳號會新增 LinkedInLearning 連結。 你現在可以從首頁點選「管理連線」，隨時編輯你的設定。
 
-   * 在執行期間，您可以按一下「停用對Learning Manager的存取」 ，其中應用程式會在同步期間停機。
-   * 如果您在執行期間按一下「啟用對Learning Manager的存取權」，同步期間服務不會中斷。
+1. 如果你已經建立了連線，請點選「管理連線」，查看所有連線。
 
-1. 您也可以隨時從左側窗格按一下「執行狀態」，以時間順序檢視此聯結器的所有執行摘要。 您可以檢視同步化的開始日期和持續時間、同步化的型別（無論是隨選同步化）以及同步化的狀態（無論是正在進行中還是已完成）。
+   在設定這個連接器之前，必須先啟用您的帳號遷移功能。
 
-   當您刪除並重新建立連線時，會再次出現聯結器的先前執行。 您可以在刪除連線之前檢視所有執行。
+1. 點擊你想編輯的連結。
+1. 從左側窗格點選「設定」。 請做以下其中一項：
 
-   您只能對最新的同步處理執行重新執行。
+   * 在此視窗查看或編輯您的帳戶詳細資訊及同步排程。 如果你想啟用此帳號，必須勾選啟用連線的勾選框。
+   * 點擊編輯並編輯你的帳號。 點擊重置以撤銷你對此欄位的更新。
+   * 點擊啟用排程以排程同步。 你可以輸入開始時間和日期，然後輸入以天為單位的同步頻率。 例如，每三天啟用一次同步。
 
+   點擊儲存以儲存您的更改。
+
+1. 從左側窗格點選「隨需執行」。 這個選項允許你匯入 LinkedIn 的用戶動態和其他相關資料。 輸入按需執行的開始日期，並點擊執行以執行同步。 從起始日期到現在的所有資料都會匯入。
+
+   * 你可以在執行時點選「停用 Learning Manager 存取權」，這樣應用程式在同步期間會有停機。
+   * 如果你在執行時點選「啟用學習管理員存取」，同步過程中服務不會中斷。
+
+1. 你也可以隨時從左側面板點擊「執行狀態」，以時間順序查看此連接器所有運行的摘要。 您可以查看同步的開始日期與持續時間、同步類型（是否為按需同步）以及同步狀態（同步進行中或已完成）。
+
+   當你刪除並重新建立連線時，之前針對連接器的執行會重新出現。 你可以查看刪除連線前的所有跑動紀錄。
+
+   你只能重播以取得最新的同步。

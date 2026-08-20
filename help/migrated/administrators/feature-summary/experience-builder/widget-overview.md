@@ -1,54 +1,53 @@
 ---
-title: Experience Builder中的Widget
+title: 體驗建構器中的小工具
 jcr-language: en_us
-description: 瞭解Adobe Learning Manager Experience Builder中的Widget如何以模組化、可設定的區塊方式建立自訂學習頁面。 新增、設定和排列內容方塊、目錄和橫幅等Widget，以建立互動式品牌體驗，而不需編碼。
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+description: 了解 Adobe Learning Manager 體驗建構器中的元件如何作為模組化、可配置的區塊來建立自訂學習頁面。 新增、配置並排列內容框、目錄和橫幅等小工具，無需編碼即可創造互動且具品牌特色的體驗。
+exl-id: 5e179d28-d89e-4524-9610-98b22934bca4
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 0%
 
 ---
 
-
 # 概觀
 
-Widget是Adobe Learning Manager的Experience Builder中的模組化、可設定的內容區塊或功能元素。
-它們提供自訂學習頁面的核心建置區塊，讓您輕鬆新增學習內容、互動功能、品牌元素和整合，而不需要程式碼。
+小工具是 Adobe Learning Manager 體驗建構器中模組化、可配置的內容區塊或功能元素。
+它們提供了自訂學習頁面的核心組件，讓你輕鬆加入學習內容、互動功能、品牌元素及整合，無需程式碼即可。
 
-## Widget的使用方式
+## 小工具是如何使用的
 
-**選取Widget**
+**選擇小工具**
 
-選取頁面的版面配置後（例如單欄或雙欄版面配置），您會在每個空白欄中看到&#x200B;**[!UICONTROL Add widget]**&#x200B;按鈕。 選取此選項會開啟可供選擇的可用Widget清單。
+選擇頁面版面（例如單欄或雙欄版面）後，你會在每個空欄看到一個 **[!UICONTROL Add widget]** 按鈕。 選擇此選項會顯示一份可選的小工具清單。
 
-**設定Widget**
+**配置一個小工具**
 
-每個Widget都有自己的一組設定選項。 這通常需要提供強制標題和選擇性說明。 除此之外，您可以設定Widget專屬的設定，例如選取「類別」Widget的目錄，或上傳「內容方塊」Widget的影像。
+每個小工具都有自己的設定選項。 這通常包括提供強制性的標題及可選的描述。 除此之外，你可以設定針對小工具的專屬設定，例如為分類小工具選擇目錄，或為內容框小工具上傳圖片。
 
-**排列Widget**
+**排列小工具**
 
-您可以拖放介面工具集，將介面工具集在不同的欄或列之間移動，輕鬆地將介面工具集重新放置於頁面上。
+你可以輕鬆地拖曳或拖放小工具，將它們移到不同的欄位或列間。
 
 >[!NOTE]
 >
->單一頁面最多可包含25個Widget。 達到此限制時，會出現警告訊息，且&#x200B;**[!UICONTROL Add widget]**&#x200B;按鈕會停用。
+>單一頁面最多可包含 25 個小工具。 當達到這個上限時，會跳出警告訊息，按鈕 **[!UICONTROL Add widget]** 會被禁用。
 
 
-## Widget型別
+## 小工具類型
 
-* 學習型Widget，動態且直接從Adobe Learning Manager提取資料（例如課程與路徑、合規狀態）。
-* 靜態或內容Widget，可協助您建立自訂品牌，以及在頁面中新增彈性內容(例如HTML、內容方塊)
+* 基於學習的小工具，動態且直接從 Adobe Learning Manager 拉取資料（例如課程與路徑、合規狀態）。
+* 靜態或內容小工具，幫助你建立自訂品牌並為頁面添加彈性內容（例如 HTML、內容框）
 
-| Widget | 說明 | 使用案例 |
+| 小工具 | 說明 | 使用情境 |
 |---|---|---|
-| [行事曆](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-calendar-widget) | 以行事曆格式顯示即將到來的活動、訓練課程、到期日或研討會。 | 讓學習者知道排程的學習、即時活動或截止日期。 |
-| [類別](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-category-widget) | 將目錄、產品或角色的學習內容顯示為類別。 | 協助使用者依主題、部門或技能領域瀏覽訓練。 |
-| [法規遵循狀態](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-compliance-status-widget) | 顯示學習者對所指派課程的符合性或認證狀態。 | 監控並傳達遵守強制學習要求的情況。 |
-| [課程與路徑](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-courses-and-paths-widget) | 顯示針對使用者量身打造的建議課程和學習路徑。 | 引導學習者瞭解相關課程和職業發展路徑。 |
-| [內容方塊](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-content-box-widget) | 新增自訂內容，例如文字、影像或公告。 | 在學習頁面上分享重要新聞、提示或促銷訊息。 |
-| [Gamification](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-gamification-widget) | 顯示徽章、點、排行榜或其他gamification元素。 | 透過強調成就和競爭來吸引學習者。 |
-| [HTML](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-html-widget) | 允許內嵌自訂HTML程式碼以新增各種元素或整合。 | 提供彈性的內容整合，例如Widget、表單或協力廠商工具。 |
-| [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | 在介面中內嵌外部網頁或應用程式。 | 顯示外部內容或工具而不離開平台。 |
-| [我的學習](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | 顯示學習者正在進行的課程和進度的個人化檢視。 | 協助學習者追蹤其課程完成情況及學習目標。 |
-| [社交學習](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | 提供論壇、討論、群組或社交共同作業工具的存取權。 | 鼓勵同儕互動、共同作業和知識分享。 |
-
+| [賽程表](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-calendar-widget) | 以行事曆格式顯示即將舉行的活動、培訓課程、截止日期或工作坊。 | 讓學習者隨時掌握課程安排、現場活動或截止日期。 |
+| [分類](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-category-widget) | 將來自目錄、產品或角色的學習內容以類別展示。 | 協助使用者依主題、系所或技能領域瀏覽訓練內容。 |
+| [合規狀態](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-compliance-status-widget) | 顯示學習者對指定課程的合規或認證狀態。 | 監控並溝通強制學習要求的遵守情況。 |
+| [課程與路徑](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-courses-and-paths-widget) | 顯示根據使用者量身打造的推薦課程與學習路徑。 | 引導學習者走向相關課程與職涯發展路徑。 |
+| [內容框](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-content-box-widget) | 新增客製化內容，如文字、圖片或公告。 | 在學習頁面分享重要新聞、技巧或宣傳訊息。 |
+| [遊戲化](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-gamification-widget) | 顯示徽章、積分、排行榜或其他遊戲化元素。 | 透過突顯成就與競爭來吸引學習者。 |
+| [HTML](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-html-widget) | 允許嵌入自訂 HTML 程式碼以加入各種元素或整合。 | 提供彈性的內容整合，如小工具、表單或第三方工具。 |
+| [Iframe](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-iframe-widget) | 將外部網頁或應用程式嵌入介面中。 | 在不離開平台的情況下展示外部內容或工具。 |
+| [我的學習](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-my-learning-widget) | 顯示學習者正在進行的課程與進度的個人化視圖。 | 幫助學習者追蹤課程完成度與學習目標。 |
+| [社會學習](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#add-a-social-learning-widget) | 提供論壇、討論區、群組或社交協作工具的存取。 | 鼓勵同儕互動、合作與知識分享。 |
