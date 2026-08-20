@@ -2,9 +2,9 @@
 description: 學習如何分享內容撰寫者課程，供同事或直接與學習者複習。 了解兩種分享流程、存取控制與追蹤的差異。
 jcr-language: en_us
 title: 分享並合作內容撰寫課程
-source-git-commit: c9c3345c11cae687ec2c1192129bf941e24160f4
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -12,30 +12,24 @@ ht-degree: 0%
 
 # 分享並合作內容撰寫課程
 
->[!AVAILABILITY]
->
->敬請期待！
+在發表前，你可以把課程寄給評審，徵求回饋。 評審可在瀏覽器中開啟共享連結，對任何課程組成部分發表評論，並嘗試測驗以預覽完整的學習體驗。 作者可控制存取權、收集回饋並更新課程，且不更改評論網址。 你可以針對回饋進行回應、更新課程，並根據需要啟動額外的複習週期。
+
+Content Composer 讓你能將課程分發給審查者和學習者，並在整個創作過程中與團隊協作，完全無需離開應用程式。
 
 在發表前，你可以把課程寄給評審，徵求回饋。 評審可在瀏覽器中開啟共享連結，對任何課程組成部分發表評論，並嘗試測驗以預覽完整的學習體驗。 作者可控制存取權、收集回饋並更新課程，且不更改評論網址。 你可以針對回饋進行回應、更新課程，並根據需要啟動額外的複習週期。
 
-<!--
-Content Composer lets you distribute your course to reviewers and learners, and collaborate with your team throughout the authoring process, all without leaving the app.  
+課程準備好後，您可以直接提供給學習者，或發布至 Adobe Learning Manager 進行註冊、追蹤與報告。
 
-Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
+在整個過程中，評論和提及有助於讓大家保持一致。 協作者可以使用@mentions標記隊友、提問並討論課程中的特定部分，確保回饋具有上下文、可見性且可執行。
 
-Once the course is ready, you can make it available to learners directly or publish it to Adobe Learning Manager for enrollment, tracking, and reporting.  
+Adobe Learning Manager 內容撰寫者有兩種分享模式，可從 **上方工具列的分享** 按鈕存取。
 
-Throughout the process, comments and mentions help keep everyone aligned. Collaborators can use @mentions to tag teammates, ask questions, and discuss specific parts of the course, ensuring that feedback remains contextual, visible, and actionable.
+在內容撰寫器中，選擇 **工具列中的分享** 。 **分享專案**&#x200B;面板開啟時有兩個分頁：
 
-Adobe Learning Manager Content Composer has two sharing modes, accessed from the **Share** button in the top toolbar.
+* **審核時**：請透過電子郵件邀請或分享連結寄出專案。
 
-In Content Composer, select **Share** in the toolbar. The **Share project** panel opens with two tabs:
+* **對學習者**&#x200B;來說：提供專案連結——不需要 LMS 連結。
 
-* **For review**: Send the project by email invite or share a link.
-
-* **For learners**: Provide them with a link to the project -- no need of LMS connection.
-
-Both these options give you control and flexibility in sharing your courses.
+這兩種選項都能讓你在分享課程時有更多掌控與彈性。
 
 ![](../assets/52_share_project_for_review_add_names_emails.png)
--->
