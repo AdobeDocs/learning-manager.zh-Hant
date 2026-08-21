@@ -3,9 +3,9 @@ description: 了解 2026 年 8 月版 Adobe Learning Manager 中的新功能與�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: f5a988186fdc44d64389ad850af57bde10b728e9
+source-git-commit: 5820baa285787af20e7257001b4fb35337d5972a
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Adobe Learning Manager 現在包含 Content Composer，一款 AI 原生的課程
 
 Insights Agent 協助管理員透過自然語言查詢分析學習資料。 詢問有關入學趨勢、完成率、學習者參與度及技能缺口的問題。 代理會產生報告與視覺化以回應。
 
-欲了解更多資訊 [，請進一步了解 Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) 。
+了解更多關於 [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) 的資訊。
 
 <!--
 ### Gen AI credits
