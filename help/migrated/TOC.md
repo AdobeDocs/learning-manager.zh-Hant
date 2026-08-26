@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1651'
 ht-degree: 1%
 
 ---
@@ -233,8 +233,6 @@ ht-degree: 1%
       * [編輯或新增圖片](authors/feature-summary/content-composer/edit-add-image.md)
       * [新增內容元件](authors/feature-summary/content-composer/add-content-component.md)
       * [預覽賽道](authors/feature-summary/content-composer/preview-course.md)
-    * 撰寫有效的提示 {#write-effective-prompt}
-      * [在內容撰寫器中撰寫有效的提示](authors/feature-summary/content-composer/write-effective-prompts.md)
     * 分享與協作 {#share}
       * [分享並合作內容撰寫者專案](authors/feature-summary/content-composer/share-collaborate.md)
       * [分享一個專案供審查](authors/feature-summary/content-composer/share-course-review.md)
