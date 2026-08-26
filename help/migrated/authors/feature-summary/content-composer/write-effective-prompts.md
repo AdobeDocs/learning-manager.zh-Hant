@@ -2,7 +2,8 @@
 description: 提示是內容撰寫器中最重要的輸入。 具體提示，例如指定受眾、2至3個主題及範圍信號，能產生更準確的簡報、更強健的大綱，且減少後續編輯。
 jcr-language: en_us
 title: 在內容撰寫器中撰寫有效的提示
-source-git-commit: c58fff50e6ccf6ab45722a0aafb7f4cee73752b5
+hide: true
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
 source-wordcount: '2339'
 ht-degree: 0%
