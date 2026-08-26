@@ -43,16 +43,16 @@ ht-degree: 0%
 
 更多資訊請參閱  [Adobe Learning Manager：Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)影片中的發佈模組。
 
-您也可以參考 Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 以獲得詳細的操作流程。
+您也可以參考 Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/tw/captivate/using/publish-project-to-captivate-prime.html) 以獲得詳細的操作流程。
 
 筆記\
-Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 是 Learning Manager 說明應用程式之外的。
+Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/tw/captivate/using/publish-project-to-captivate-prime.html) 是 Learning Manager 說明應用程式之外的。
 
 +++
 
 +++如何在學習管理中選擇課程模組？
 
-點此[&#128279;](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html)了解如何選擇課程模組。
+點此[&#128279;](https://helpx.adobe.com/content/help/tw/captivate-prime/authors/how-to-choose-modules.html)了解如何選擇課程模組。
 
 +++
 
@@ -163,7 +163,7 @@ Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publ
 
 +++我要如何篩選以查看特定課程組合？
 
-您可以使用「按州篩選課程」選項來篩選課程。 欲了解更多資訊，請參閱  [「我如何搜尋課程？」](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+您可以使用「按州篩選課程」選項來篩選課程。 欲了解更多資訊，請參閱  [「我如何搜尋課程？」](https://helpx.adobe.com/content/help/tw/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
