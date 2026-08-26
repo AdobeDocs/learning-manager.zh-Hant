@@ -52,7 +52,7 @@ Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publ
 
 +++如何在學習管理中選擇課程模組？
 
-點此[](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html)了解如何選擇課程模組。
+點此[&#128279;](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html)了解如何選擇課程模組。
 
 +++
 
@@ -157,7 +157,7 @@ Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publ
 
 +++我可以為任何課程的模組排序嗎？ 怎麼做到的？
 
-作者可以透過拖放方式在其他模組上更改模組的順序。 他也能在課程創建時選擇&#x200B;****&#x200B;模組順序選項，強制學習者依序修習模組。
+作者可以透過拖放方式在其他模組上更改模組的順序。 他也能在課程創建時選擇&#x200B;**&#x200B;**&#x200B;模組順序選項，強制學習者依序修習模組。
 
 +++
 
@@ -180,7 +180,7 @@ Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publ
 1. 使用右上角顯示的搜尋欄位。 請輸入課程名稱或與課程相關的關鍵字，以找到你的課程。
 1. 透過篩選課程清單來篩選。 您可以依州份篩選課程，如 **全部、已發表、選秀** 及 **退休** ，並點擊上述選項。
 
-   你也可以根據技能組合點選&#x200B;****&#x200B;技能組合，選擇每個技能組合來搜尋。
+   你也可以根據技能組合點選&#x200B;**&#x200B;**&#x200B;技能組合，選擇每個技能組合來搜尋。
 
    根據你的選擇，你可以查看篩選過的課程清單並依此選擇。
 
