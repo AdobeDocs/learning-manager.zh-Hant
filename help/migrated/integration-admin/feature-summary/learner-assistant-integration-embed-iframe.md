@@ -32,7 +32,7 @@ Adobe Learning Manager （ALM） 使用者可直接將 **學習者助理** 嵌�
 開始前，請確保你具備：
 
 * 一個啟用學習助理的 ALM 租戶。 請從管理員設定頁面設定所需的目錄。
-* 一個有效的 accessToken 用於驗證學習者（或管理員）會話。 要產生存取權杖，請依照使用 OAuth 2.0[&#128279;](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20) 認證頁面上的指示操作。該頁面包含驗證及產生存取權杖所需的步驟。
+* 一個有效的 accessToken 用於驗證學習者（或管理員）會話。 要產生存取權杖，請依照使用 OAuth 2.0[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20) 認證頁面上的指示操作。該頁面包含驗證及產生存取權杖所需的步驟。
 * 能夠將 嵌入 `<iframe>` 應用程式，並透過瀏覽器的 postMessage API 與之溝通。
 * 前端程式碼擁有父應用程式，因為你的應用程式必須監聽並回應來自嵌入 iFrame 的訊息。
 
