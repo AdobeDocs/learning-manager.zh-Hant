@@ -1,346 +1,398 @@
 ---
-title: 在Experience Builder中新增及設定介面工具集
-description: 瞭解如何在Adobe Learning Manager的Experience Builder中新增、自訂和設定各種Widget。 本指南涵蓋常用的Widget，例如行事曆、類別、合規性狀態、課程與路徑、gamification、HTML內容、IFrames、社交學習等。
+title: 在 Experience Builder 中新增與配置元件
+description: 學習如何在 Adobe Learning Manager 的 Experience Builder 中新增、自訂及配置各種小工具。 本指南涵蓋常用的小工具，如行事曆、分類、合規狀態、課程與路徑、遊戲化、HTML 內容、IFrames、社交學習等。
 jcr-language: en-us
-source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
+source-git-commit: 30372b696921be9e896f947e96683b72587f1323
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2315'
 ht-degree: 0%
 
 ---
 
+# 新增與配置小工具
 
-# 新增和設定Widget
+## 行事曆小工具
 
-## 行事曆Widget
+行事曆小工具會顯示你排定的課程和訓練。 你可以瀏覽行事曆，查看未來幾個月的訓練安排。 它允許按月份查看訓練課程，並可向左或向右捲動。
 
-行事曆Widget會顯示您已排程的課程和訓練。 您可以瀏覽行事曆以檢視為未來幾個月規劃的訓練。 它可讓您依月檢視訓練課程，並可向左或向右捲動。
+管理員可將行事曆小工具加入頁面，以顯示訓練行程。 學習者可以透過滑動月份來與行事曆互動，查看即將到來的課程。 他們可以篩選課程，快速找到相關的訓練。
 
-管理員可將「行事曆」Widget新增至頁面，以顯示培訓排程。 學習者可以捲動月份來檢視即將舉行的課程，與行事曆互動。 他們可以篩選工作階段以快速尋找相關培訓。
+### 新增行事曆小工具
 
-### 新增日曆Widget
+在擁有獨立銷售與客戶成功經理（CSM）團隊的金融公司中，管理員可使用此小工具突顯團隊專屬培訓課程。 例如：
 
-在擁有獨立銷售及客戶成功經理(CSM)團隊的金融公司中，管理員可以使用此小工具來強調特定團隊的培訓課程。 例如：
+* 銷售團隊可以看到即將舉辦的產品更新、合規訓練及簡報工作坊等課程。
+* CSM 團隊可檢視客戶入職工作坊、客戶溝通培訓及卓越服務計畫。
 
-* 銷售團隊可以檢視即將舉行的產品更新、法規遵循培訓和推介工作坊。
-* CSM團隊可以檢視客戶入門研討會、客戶溝通訓練和服務卓越計畫。
+要設定行事曆小工具：
 
-若要設定日曆Widget：
-
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Calendar]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Calendar]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-calendar.png)
-   _Widget選取畫面醒目提示[行事曆]Widget選項，以在行事曆中顯示訓練課程_
+   _選出小工具畫面，重點顯示行事曆小工具選項，以顯示訓練課程_
 
-8. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
+8. A型和&#x200B;**[!UICONTROL Widget title]**&#x200B;**[!UICONTROL Widget description]**。
 
    ![](assets/configure-calendar-widget.png)
-   _行事曆Widget自訂畫面，管理員可以在其中設定Widget標題、說明，並選取目錄_
+   _行事曆小工具自訂畫面，管理員可在此設定小工具標題、描述並選擇目錄_
 
-9. 在&#x200B;**[!UICONTROL Calendar]** Widget中搜尋以顯示其課程和學習路徑，以選取目錄。
-10. 選取&#x200B;**[!UICONTROL Add Widget]**。
+9. 透過搜尋選擇目錄，即可在小工具中 **[!UICONTROL Calendar]** 顯示課程與學習路徑。
+10. 選擇 **[!UICONTROL Add Widget]**。
 
-行事曆Widget將新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+行事曆小工具會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
 
 >[!NOTE]
 >
->如果未選取任何目錄，則會顯示所有目錄中的工作階段。
+>若未選取任何目錄，則會顯示所有目錄的課程內容。
 
-## 類別Widget
+## 分類小工具
 
-類別Widget會將按目錄、產品或角色組織的學習內容顯示為類別。 它可協助學習者輕鬆瀏覽及尋找依主題、部門、技能或其他相關分類分組的培訓課程。
+分類小工具會依目錄、產品或角色分類，顯示學習內容。 它幫助學習者輕鬆瀏覽並找到依主題、部門、技能或其他相關分類分組的訓練內容。
 
-管理員將類別Widget新增到頁面，以顯示分類的學習選項。 學習者使用Widget選取感興趣的類別來探索訓練，接著顯示相關課程或路徑。
+管理員會在頁面上新增分類小工具，以展示分類學習選項。 學習者可透過選擇感興趣的類別來探索培訓內容，進而顯示相關的課程或路徑。
 
-檢視[目錄](/help/migrated/administrators/feature-summary/catalogs.md)和[Recommendations](/help/migrated/recommendations-adobe-learning-manager.md)文章，以進一步瞭解如何設定目錄和建議。
+請參閱 [目錄](/help/migrated/administrators/feature-summary/catalogs.md) 與 [推薦](/help/migrated/recommendations-adobe-learning-manager.md) 文章，了解更多關於如何配置目錄與推薦的內容。
 
-<b>注意</b>：在類別Widget中，選取「目錄」時，清單預設會依建立日期排序。 最近建立的目錄會先出現。
+<b>注意</b>：在分類小工具中，當選擇目錄時，列表預設依建立日期排序。 較近期製作的目錄最先出現。
 
-### 新增類別Widget
+### 新增分類小工具
 
-在金融服務公司，不同的團隊通常需要角色特定培訓的存取權。 類別Widget可將學習內容整理到清晰、可點按的圖磚中，讓銷售和CSM團隊更容易快速找到他們需要的內容。
+在金融服務公司，不同團隊通常需要針對特定職務的訓練。 分類小工具幫助將學習內容組織成清晰且可點擊的磁磚，讓銷售與客戶服務經理團隊更容易快速找到所需內容。
 
-若要設定類別Widget：
+要設定分類小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Categories]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Categories]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-categories-widget.png)
-   _Widget選取畫面會醒目提示「類別」Widget選項，依目錄、產品或角色來組織學習內容，方便瀏覽_
+   _小工具選擇畫面，重點顯示分類小工具選項，可依目錄、產品或角色組織學習內容，方便導航_
 
-8. 選取要顯示在類別卡上的詳細資料：
+8. 選擇詳細資料，顯示在類別卡片上：
 
    * **[!UICONTROL Category Image]**
    * **[!UICONTROL Category Description]**
 
-9. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
-10. 搜尋並從&#x200B;**[!UICONTROL Category source]**&#x200B;選擇目錄。
+9. A型和&#x200B;**[!UICONTROL Widget title]**&#x200B;**[!UICONTROL Widget description]**。
+10. 從 中搜尋並選擇目錄。**[!UICONTROL Category source]**
 
     ![](assets/configure-calendar-widget.png)
-    _設定類別Widget選項以設定Widget標題和說明，並選取類別來源_
+    _設定類別小工具選項以設定小工具標題與描述，並選擇類別來源_
 
-11. 選取&#x200B;**[!UICONTROL Add Widget]**。
+11. 選擇 **[!UICONTROL Add Widget]**。
 
-類別Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+分類小工具將會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
 
-## 合規性Widget
+## 合規小工具
 
-「合規性狀態」Widget會顯示學習者達到合規性或認證要求的進度。 它會顯示指派給使用者的強制培訓狀態，包括已完成、擱置中或逾期課程。
+合規狀態小工具顯示學習者在達成合規或認證要求上的進展。 它顯示分配給使用者的強制訓練狀態，包括已完成、待完成或逾期課程。
 
-管理員可將合規性狀態Widget新增至頁面，以顯示合規性培訓進度。 學習者可用它來快速檢視已完成及仍需注意的必修課程。
+管理員會在頁面新增合規狀態小工具，以提供合規訓練進度的可見性。 學習者利用它快速檢查已完成哪些必修課程，哪些仍需注意。
 
-### 新增合規性狀態Widget
+### 新增合規狀態小工具
 
-在金融服務公司，銷售團隊和客戶成功經理(CSM)團隊都必須按時完成合規培訓。 合規性狀態Widget讓學習者更容易直接從團隊特定頁面追蹤即將到來的截止日期及其培訓進度。
+在金融服務公司，銷售團隊與客戶成功經理（CSM）團隊都必須準時完成合規訓練。 合規狀態小工具讓學習者能直接從團隊專屬頁面追蹤即將到來的截止日期和培訓進度。
 
-若要設定法規遵循Widget：
+要設定合規小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Compliance Status]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Compliance Status]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-compliance-status.png)
-   _Widget選取畫面醒目顯示合規狀態Widget，用於顯示截止日期和狀態指示器的學習者註冊_
+   _小工具選擇畫面，強調用於顯示學習者註冊及截止日期及狀態指標的合規狀態小工具_
 
-8. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
+8. A型和&#x200B;**[!UICONTROL Widget title]**&#x200B;**[!UICONTROL Widget description]**。
 
    ![](assets/configure-compliance.png)
-   _法規遵循狀態Widget畫面，管理員可在此設定Widget標題和說明，以顯示學習者的註冊截止日期和狀態_
+   _合規狀態小工具畫面，管理員可設定小工具標題與描述，以顯示學習者的註冊截止日期與狀態_
 
-9. 選取&#x200B;**[!UICONTROL Add widget]**。
+9. 選擇 **[!UICONTROL Add widget]**。
 
-合規性狀態Widget將新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+合規狀態小工具將會被新增到頁面中。 管理員可以新增其他小工具並發佈頁面。
 
-## 課程與路徑Widget
+## 課程與路徑小工具
 
-課程與路徑Widget會顯示根據學習者的角色、興趣或培訓需求量身打造的建議課程和學習路徑。
+課程與路徑小工具會顯示根據學習者的角色、興趣或訓練需求量身打造的推薦課程與學習路徑。
 
-管理員可將課程與路徑Widget新增至頁面，強調特定對象的重要學習內容。 學習者可使用工具集瀏覽建議的課程或路徑，並可直接註冊參加課程。
+管理員會在頁面上新增課程與路徑小工具，以突顯特定受眾的關鍵學習內容。 學習者可使用小工具瀏覽推薦課程或路徑，並可直接報名課程。
 
-### 新增課程和路徑Widget
+### 新增一個課程與路徑小工具
 
-一家金融公司想要為其兩個團隊建立角色特定培訓頁面：銷售與客戶成功經理(CSM)。 課程與路徑Widget可顯示每個團隊最相關的學習計畫。
+一家金融公司希望為其兩個團隊——銷售經理與客戶成功經理（CSM）——建立專屬職務的培訓頁面。 課程與路徑小工具可用來顯示各團隊最相關的學習計畫。
 
-設定課程與路徑Widget：
+要設定「路徑與路徑」小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Courses & Paths]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Courses & Paths]**。
 
    ![](assets/select-course-path.png)
-   _Widget選取畫面會醒目提示「課程與路徑」Widget，以將課程、學習路徑、認證和工作輔助顯示為學習者的互動式卡片_
+   _小工具選擇畫面，重點顯示課程與路徑小工具，顯示課程、學習路徑、證照及工作輔助工具，作為學習者的互動卡片_
 
-8. 選取&#x200B;**[!UICONTROL Proceed]**。
-9. 型別&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
-10. 選取目錄，或手動選擇最多25個要顯示的課程。
+8. 選擇 **[!UICONTROL Proceed]**。
+9. 類型 **[!UICONTROL Widget title]** 與 **[!UICONTROL Widget description]**。
+10. 選擇課程目錄或手動選擇最多25門課程以顯示。
 
 ![](assets/configure-course-paths.png)
-_管理員可設定課程與路徑Widget標題、說明，並選取要顯示為互動式卡片的課程或學習路徑_
-11.選取&#x200B;**[!UICONTROL Add widget]**。
+_課程與路徑小工具，管理員可設定小工具標題、描述，並選擇課程或學習路徑以互動卡片顯示_
+&#x200B;11. 選擇 **[!UICONTROL Add widget]**。
 
-課程與路徑Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+「課程與路徑」小工具將會新增到頁面上。 管理員可以新增其他小工具並發佈頁面。
 
-## 內容方塊Widget
+## 內容框小工具
 
-「內容方塊」Widget可讓管理員新增自訂內容，例如文字、影像、公告或頁面連結。 它提供彈性的空間，讓您直接在學習環境中分享重要資訊、秘訣、更新或促銷訊息。
+內容框小工具允許管理員新增自訂內容，如文字、圖片、公告或頁面連結。 它提供一個靈活的空間，讓學生能直接在學習環境中分享重要資訊、技巧、更新或宣傳訊息。
 
-### 新增內容方塊Widget
+### 新增內容框小工具
 
-一家金融公司想要為其兩個團隊建立角色特定培訓頁面：銷售與客戶成功經理(CSM)。 內容方塊Widget可用來新增自訂區段，其中包含共用目標資源、更新和激勵訊息的標題、說明、影像和call-to-action按鈕。
+一家金融公司希望為其兩個團隊——銷售經理與客戶成功經理（CSM）——建立專屬職務的培訓頁面。 內容框小工具可用來新增自訂區塊，包含標題、描述、圖片及行動呼籲按鈕，分享目標資源、更新與激勵訊息。
 
-若要設定內容方塊Widget：
+要設定內容盒小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Content Box]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Content Box]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-content-box.png)
-   _Widget選取畫面醒目提示「內容方塊」Widget，以顯示自訂影像、文字和動作按鈕，以增強學習者參與度_
+   _小工具選擇畫面，重點顯示內容框小工具，顯示自訂圖片、文字及動作按鈕，提升學習者參與度_
 
-8. 輸入&#x200B;**[!UICONTROL Title]**&#x200B;和&#x200B;**[!UICONTROL Description]**。
-9. 在&#x200B;**[!UICONTROL Action button label]**&#x200B;中輸入文字並提供連結。
-10. 選取「背景」填色的任何選項：
+8. 輸入 **[!UICONTROL Title]** &amp; **[!UICONTROL Description]**。
+9. 輸入文字 **[!UICONTROL Action button label]** 並附上連結。
+10. 請選擇背景填充的任一選項：
 
-    * **[!UICONTROL Color]**：從檢色器選取色彩，或在文字欄位中輸入色彩代碼。
-    * **[!UICONTROL Image]**：瀏覽並上傳圖片。
+    * **[!UICONTROL Color]**：從色彩選擇器中選擇顏色，或在文字欄位輸入顏色代碼。
+    * **[!UICONTROL Image]**&#x200B;瀏覽並上傳圖片。
 
-11. 使用&#x200B;**[!UICONTROL Content box height]**&#x200B;選項調整方塊高度。
-12. 選取文字格式選項。
+11. 用選項 **[!UICONTROL Content box height]** 調整盒子高度。
+12. 選擇文字格式選項。
 
     ![](assets/configure-content-box.png)
-    _Content Box Widget自訂畫面，管理員可在此輸入標題、說明、動作按鈕標籤和連結_
+    _內容框小工具自訂畫面，管理員可在此輸入標題、描述、動作按鈕標籤及連結_
 
-13. 選取&#x200B;**[!UICONTROL Add widgets]**。
+13. 選擇 **[!UICONTROL Add widgets]**。
 
-內容方塊Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+內容框小工具將會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
 
-## gamification Widget
+## 遊戲化小工具
 
-管理員會將Gamification Widget新增至自訂頁面，以展示學習者的成就，例如獲得的徽章、累積積分和排行榜排名。 學習者可以追蹤其進度並與同業比較結果，藉此促進動機及持續參與。
+管理員會在自訂頁面新增遊戲化小工具，展示學習者的成就，例如已獲得的徽章、累積的積分和排行榜排名。 學習者可以追蹤自己的進展，並與同儕比較結果，這有助於激發動力並持續參與。
 
-### 新增Gamification Widget
+### 新增遊戲化小工具
 
-一家金融公司想要透過其兩個主要團隊(銷售與客戶成功經理(CSM))來提升學習者的參與度和動機。 gamification Widget可用來獎勵獲得點、徽章和排行榜的學習者，獎勵他們完成培訓和主動參與。
+一家金融公司希望提升學習者在兩大團隊——銷售與客戶成功經理（CSM）之間的參與度與動力。 遊戲化小工具可用來獎勵學習者，獎勵完成訓練並積極參與的學習者積分、徽章及排行榜排名。
 
-對於銷售團隊而言，gamification可專注於獎勵與銷售技能、產品知識及客戶參與培訓相關的成就。 對於CSM團隊來說，重點可能在於客戶服務認證、合規培訓以及客戶管理技能。
+對銷售團隊而言，遊戲化可以著重於獎勵與銷售技巧、產品知識及客戶互動培訓相關的成就。 對CSM團隊來說，可能會強調客戶服務認證、合規訓練和客戶管理技能。
 
-若要設定Gamification Widget：
+要設定遊戲化小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Gamification]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Gamification]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-gamification.png)
-   _Widget選取畫面會反白標示用來在排行榜上顯示學習活動和成就的Gamification Widget_
+   _小工具選擇畫面，重點顯示用於顯示學習活動與成就的遊戲化小工具_
 
-8. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
-9. 選取&#x200B;**[!UICONTROL Add widgets]**。
+8. 輸入 **[!UICONTROL Widget title]** &amp; **[!UICONTROL Widget description]**。
+9. 選擇 **[!UICONTROL Add widgets]**。
 
-gamification Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+遊戲化小工具將會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
 
-## HTML Widget
+## HTML 小工具
 
-HTML Widget可讓管理員直接將自訂HTML程式碼內嵌至頁面。 如此可讓您靈活地新增量身打造的內容、整合協力廠商工具，或納入超越標準Widget功能的互動式元素。 它透過HTML、CSS甚至JavaScript支援豐富的自訂功能，在學習平台內啟用獨特設計和外部整合。
+HTML 小工具允許管理員直接將自訂 HTML 程式碼嵌入頁面中。 這讓玩家能靈活加入客製化內容、整合第三方工具，或加入超越標準小工具功能的互動元素。 它支援透過 HTML、CSS 甚至 JavaScript 進行豐富的自訂，實現獨特的設計與學習平台內的外部整合。
 
-### 新增HTML Widget
+### 新增一個 HTML 小工具
 
-一家金融公司想要針對其兩大團隊：銷售與客戶成功經理(CSM)提供量身打造的自訂互動式內容。 HTML Widget可用來將自訂HTML型資源（例如財務儀表板、資料視覺效果、互動式表單或市場分析工具）直接內嵌到其培訓或團隊頁面中。
+一家金融公司希望為其兩大團隊——銷售經理與客戶成功經理（CSM）——提供客製化且互動式的內容。 HTML 小工具可用來將自訂的 HTML 資源，如財務儀表板、資料視覺化、互動表單或市場分析工具，直接嵌入訓練或團隊頁面中。
 
-若要設定HTML Widget：
+要設定 HTML 小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL HTML]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL HTML]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-html.png)
-   _Widget選取畫面會醒目顯示HTML Widget，以便使用HTML、CSS和JavaScript程式碼自訂頁面_
+   _小工具選擇畫面，重點顯示使用 HTML、CSS 和 JavaScript 程式碼自訂頁面的 HTML 小工具_
 
-8. 在個別欄位中輸入您的&#x200B;**[!UICONTROL HTML]**、**[!UICONTROL CSS]**&#x200B;和&#x200B;**[!UICONTROL JavaScript]**&#x200B;程式碼。
-9. 選取&#x200B;**[!UICONTROL Add widget]**。
+8. 在相應欄位輸入你的&#x200B;**[!UICONTROL HTML]**、 和 **[!UICONTROL CSS]**&#x200B;**[!UICONTROL JavaScript]** 程式碼。
+9. 選擇 **[!UICONTROL Add widget]**。
 
-HTML Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+HTML 小工具會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
 
-## IFrame Widget
+## IFrame 小工具
 
-Iframe Widget會直接在學習平台的頁面中顯示外部URL的內容。 它將外部網站、工具或應用程式內嵌在框架中，讓學習者無需離開LMS即可檢視內容並與之互動。
+Iframe 小工具直接在學習平台上的頁面中顯示外部網址的內容。 它將外部網站、工具或應用程式嵌入框架內，讓學習者在不離開 LMS 的情況下就能瀏覽並互動該內容。
 
-### 新增Iframe Widget
+### 新增 Iframe 小工具
 
-一家金融公司想要將外部工具和資源順暢地嵌入其內部培訓和合作頁面，以供其銷售人員和客戶成功經理(CSM)團隊使用。 Iframe Widget可用來直接在LMS介面中顯示第三方財務儀表板、市場分析平台或使用者端管理入口網站。
+一家金融公司希望將外部工具與資源無縫嵌入其內部的銷售與客戶成功經理（CSM）團隊的培訓與協作頁面中。 Iframe 小工具可用於直接在 LMS 介面內顯示第三方財務儀表板、市場分析平台或客戶管理入口網站。
 
-若要設定Iframe Widget：
+要設定 Iframe 小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Iframe]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Iframe]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-iframe.png)
-   _Widget選取畫面會醒目提示Iframe Widget，以便在選取的區段中內嵌外部應用程式或網頁_
+   _Widget 選擇畫面，突出 Iframe Widget，用於嵌入外部應用程式或網頁於所選區段內_
 
-8. 在&#x200B;**[!UICONTROL Page linked to Action button]**&#x200B;選項中輸入URL。
-9. 使用&#x200B;**[!UICONTROL Iframe height]**&#x200B;選項調整Iframe高度。
+8. 在選項中 **[!UICONTROL Page linked to Action button]** 輸入網址。
+9. 用選項 **[!UICONTROL Iframe height]** 調整 Iframe 高度。
 
    ![](assets/configure-iframe.png)
-   _Iframe Widget自訂畫面，管理員可在此輸入頁面URL並指定iframe高度以內嵌外部內容_
+   _iframe 小工具自訂畫面，管理員可輸入頁面網址並指定 iframe 高度以嵌入外部內容_
 
-10. 選取&#x200B;**[!UICONTROL Add widget]**。
+10. 選擇 **[!UICONTROL Add widget]**。
 
-Iframe Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+Iframe 小工具會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
 
-管理員必須在iframe URL中包含存取權杖作為查詢引數，以擷取正確的詳細資料。 例如，若要在iframe內顯示Adobe Learning Manager的資訊，URL應包含下列引數：
+管理員必須將存取權杖作為查詢參數納入 iframe URL 中，才能取得正確資訊。 例如，要在 iframe 中顯示 Adobe Learning Manager 的資訊，URL 應包含以下參數：
 
 * userId：學習者的唯一識別碼
-* accountId：與學習者相關聯的帳戶識別碼
-* 權杖： API呼叫所需的驗證權杖
-* 地區設定：學習者的語言或地區設定偏好設定
+* accountId：與學習者相關的帳號識別碼
+* 令牌：API 呼叫所需的認證令牌
+* 地點：學習者的語言或偏好的地點
 
-## 我的學習Widget
+## 我的學習小工具
 
-「我的學習」Widget可為學習者提供其指派或註冊的所有課程、學習計畫及認證的個人化檢視。 它會依型別和期限組織學習內容，讓學習者輕鬆追蹤進度並存取學習資料。 此Widget可協助學習者專注於所需的培訓，並短暫檢視近期截止日期。
+我的學習小工具為學習者提供個人化的視圖，展示所有由他們指派或註冊的課程、學習計畫及認證。 它依類型與截止日期組織學習內容，讓學習者能輕鬆追蹤進度並取得學習資源。 這個小工具幫助學習者專注於必要的訓練，並快速查看即將到來的截止日期。
 
-### 新增我的學習Widget
+### 新增「我的學習」小工具
 
-一家金融公司想要針對其兩大團隊提供量身打造的個人化學習體驗：銷售與客戶成功經理(CSM)。 「我的學習」Widget可用來向每位團隊成員提供其指派的課程、進行中的學習路徑及認證的整合式檢視。
+一家金融公司希望為其兩大團隊——銷售經理與客戶成功經理（CSM）——量身打造個人化學習體驗。 「我的學習」小工具可讓每位團隊成員整合檢視其分配課程、持續學習路徑及認證。
 
-設定我的學習Widget：
+要設定我的學習小工具：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL My Learning]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL My Learning]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-my-learning.png)
-   _Widget選擇畫面，醒目提示「我的學習」Widget，用於顯示學習者已註冊課程的個人化清單_
+   _小工具選擇畫面，重點顯示「我的學習」小工具，用來顯示學習者個人化的已選課清單_
 
-8. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
-9. 選取&#x200B;**[!UICONTROL Add widget]**。
+8. 輸入 **[!UICONTROL Widget title]** &amp; **[!UICONTROL Widget description]**。
+9. 選擇 **[!UICONTROL Add widget]**。
 
-我的學習Widget將新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+我的學習小工具會被加入到頁面上。 管理員可以新增其他小工具並發佈頁面。
 
-## 社交學習Widget
+<!--
 
-社交學習Widget可讓學習者在學習平台內互動、分享想法及共同作業。 它支援發佈各種型別的內容，例如文字、影片、音訊、熒幕擷圖、問題和投票。 學習者可以發表評論、回覆、投票贊成或投票反對的貼文，促進點對點知識分享和參與。 此Widget可建立非正式的學習空間，鼓勵社互動動和持續學習，藉以補充正式培訓。
+## Saved by me widget {#bookmark-widget}
 
-### 新增社交學習Widget
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
 
-一家金融公司想要在兩個主要團隊之間共同作業和知識分享：銷售與客戶成功經理(CSM)。 社交學習Widget可用於建立互動式空間，團隊成員可在其中張貼問題、分享最佳實務、上傳實用內容並參與討論。
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
 
-設定社交學習Widget：
+Adding this widget to a page can help: 
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Branding]**。
-3. 選取&#x200B;**[!UICONTROL Custom Pages]**。
-4. 選取必要頁面，然後選取&#x200B;**[!UICONTROL Page Design]**。
-5. 選取&#x200B;**[!UICONTROL Edit]**，然後選取配置。
-6. 選取&#x200B;**[!UICONTROL Add Widget]**。
-7. 選取&#x200B;**[!UICONTROL Social Learning]**，然後選取&#x200B;**[!UICONTROL Proceed]**。
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
+
+## 社交學習小工具
+
+社交學習小工具讓學習者能在學習平台上互動、分享想法並協作。 它支援發布各種內容，如文字、影片、音訊、截圖、問題和投票。 學習者可以留言、回覆、按讚或按負票，促進同儕間的知識分享與互動。 此小工具創造一個非正式的學習空間，透過鼓勵社交互動與持續學習，補充正式訓練。
+
+### 新增社交學習小工具
+
+金融公司希望其兩大團隊——銷售經理與客戶成功經理（CSM）——之間能有合作與知識分享。 社交學習小工具可用來創造互動空間，讓團隊成員可以發問、分享最佳實務、上傳有用內容並參與討論。
+
+要設定社交學習小工具：
+
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽窗格選擇 **[!UICONTROL Branding]** 。
+3. 選擇 **[!UICONTROL Custom Pages]**。
+4. 選擇所需頁面，然後選擇 **[!UICONTROL Page Design]**。
+5. 選擇 **[!UICONTROL Edit]** 並選擇版面配置。
+6. 選擇 **[!UICONTROL Add Widget]**。
+7. 選擇 **[!UICONTROL Social Learning]** ，然後選擇 **[!UICONTROL Proceed]**。
 
    ![](assets/select-social-learning.png)
-   _Widget選取畫面會醒目顯示社交學習Widget，以顯示貼文以鼓勵共同作業和參與_
+   _小工具選擇畫面，重點顯示社交學習小工具，以顯示貼文以鼓勵協作與互動_
 
-8. 輸入&#x200B;**[!UICONTROL Widget title]**&#x200B;和&#x200B;**[!UICONTROL Widget description]**。
-9. 選取&#x200B;**[!UICONTROL Add widget]**。
+8. 輸入 **[!UICONTROL Widget title]** &amp; **[!UICONTROL Widget description]**。
+9. 選擇 **[!UICONTROL Add widget]**。
 
-社交學習Widget將會新增至頁面。 管理員可以新增其他Widget並發佈頁面。
+社交學習小工具將會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
 
-## 下一步
+## 接下來的計畫
 
-在頁面上設定Widget後，使用功能表將頁面整理及群組在一起。
+在頁面上設定小工具後，使用選單將頁面組織並分組。
