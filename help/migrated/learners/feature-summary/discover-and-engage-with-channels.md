@@ -1,9 +1,9 @@
 ---
 title: 發掘並參與頻道
 description: 學習如何在 Adobe Learning Manager 的頻道中找到、訂閱、觀看、按讚及加入影片內容的討論。
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,11 @@ ht-degree: 0%
 
 1. 從上方導航欄選擇 **頻道** 。
 
-   <br>**&#x200B;**&#x200B;頻道頁面預設&#x200B;**顯示「全部**」標籤。
+   >[!NOTE]
+   >
+   >若無法在導航列中查看 **頻道** 標籤，請聯絡您的管理員。
+
+   <br>****&#x200B;頻道頁面預設&#x200B;**顯示「全部**」標籤。
 
    ![頻道頁面 全部標籤](assets/channels-page-all-tab.png)
 

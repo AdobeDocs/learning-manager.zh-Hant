@@ -2,9 +2,9 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: 49f7d7db50dc06675c2fb4c4894e80867cc593d7
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1670'
 ht-degree: 1%
 
 ---
@@ -40,6 +40,8 @@ ht-degree: 1%
   * [Adobe Learning Manager 中的 API 棄用與變更](api-deprecations-list.md)
   * [Adobe Learning Manager 中的建議](recommendations-adobe-learning-manager.md)
   * [Adobe Learning Manager 中的白標](white-label.md)
+* 版本中的功能可用性 {#feature-availability}
+  * [功能將於 2026 年 8 月發布](/help/migrated/feature-availability-aug-2026.md)
 * 開始 {#get-started}
   * [使用 OpenID Connect 登入 Adobe Learning Manager](/help/migrated/oidc.md)
   * [開始擔任管理員](administrators/feature-summary/getting-started-admin.md)
@@ -158,7 +160,8 @@ ht-degree: 1%
   * [學習計畫](administrators/feature-summary/learning-programs.md)
   * [產品術語](administrators/feature-summary/product-terminology.md)
 * 整合管理 {#integration}
-  * [應用程式開發手冊](integration-admin/feature-summary/developer-manual.md)
+  * [應用程式開發手冊](/help/migrated/integration-admin/feature-summary/developer-manual.md)
+  * [使用 iFrame 的學習助理整合](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [遷移手冊](integration-admin/feature-summary/migration-manual.md)
   * 學習管理連結器 {#connectors}
     * [連接器概述](integration-admin/feature-summary/connectors.md)
@@ -271,6 +274,7 @@ ht-degree: 1%
   * [設定檔設定](learners/feature-summary/settings.md)
   * [目錄](learners/feature-summary/catalogs.md)
   * [一鍵註冊](learners/feature-summary/learner-one-click-enrollment.md)
+  * {hide-from-toc}[由我拯救的小工具](learners/feature-summary/saved-by-me-widget.md)
   * [我的學習](learners/feature-summary/courses.md)
   * {hide-from-toc}[適應性課程](learners/feature-summary/adaptive-course-learner.md)
   * [流體演奏者](learners/feature-summary/fluidic-player.md)
