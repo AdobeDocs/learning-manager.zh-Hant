@@ -1,7 +1,7 @@
 ---
 title: 開始使用 Live Hub（測試版）
 description: 了解 Adobe Learning Manager 中的 Live Hub 如何讓你能直接在平台上提供由講師主導的即時訓練課程。
-source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
+source-git-commit: 2582109fd8ec0068d1bfe028a0338aa0851f4615
 workflow-type: tm+mt
 source-wordcount: '746'
 ht-degree: 0%
@@ -21,11 +21,13 @@ Adobe Learning Manager 中的 Live Hub 讓組織能直接在平台上提供由�
 
 許多組織依賴獨立工具來管理課程、課程進行與協作。 這可能會帶來以下挑戰：
 
-- 在多個平台間切換訓練
-- 額外設定與設定需求
-- 學習者參與度與參與度有限
+- 在多個平台間切換進行訓練。
+- 額外的設定與設定需求。
+- 對學習者參與度的能見度有限。
 
 Live Hub 透過將課程交付、協作、互動與追蹤整合於 Adobe Learning Manager 內的統一體驗，解決這些挑戰。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502433)
 
 ## 什麼是 Live Hub
 
