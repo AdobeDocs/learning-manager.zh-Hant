@@ -3,9 +3,9 @@ title: 在 Experience Builder 中新增與配置元件
 description: 學習如何在 Adobe Learning Manager 的 Experience Builder 中新增、自訂及配置各種小工具。 本指南涵蓋常用的小工具，如行事曆、分類、合規狀態、課程與路徑、遊戲化、HTML 內容、IFrames、社交學習等。
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 30372b696921be9e896f947e96683b72587f1323
+source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -315,57 +315,53 @@ Iframe 小工具會被加入頁面。 管理員可以新增其他小工具並發
 
 我的學習小工具會被加入到頁面上。 管理員可以新增其他小工具並發佈頁面。
 
-<!--
+## 由我拯救的小工具 {#bookmark-widget}
 
-## Saved by me widget {#bookmark-widget}
+**「Saved by me**」小工具會顯示課程、學習路徑、證照和工作輔助工具，學習者已將這些內容收藏起來以備後續使用。它讓學習者有一個單一的地方，可以找到已標記為已儲存的內容，而無需再次搜尋目錄。
 
-The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+作為管理員，你可以將 **「由我** 儲存」小工具加入頁面，讓學習者快速存取他們已收藏的內容。 學習者可以使用這個小工具重溫瀏覽時儲存的課程，而不必重複原本的搜尋或導航。
 
-As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+將此小工具加入頁面有助於：
 
-Adding this widget to a page can help: 
+* 透過提供一鍵存取常存取內容，簡化學習者的工作流程
 
-* Streamline learner workflows by providing single-click access to frequently accessed content 
+* 減少重複的導航與尋找資源的時間
 
-* Reduce repetitive navigation and time spent searching for resources 
+* 打造更個人化的學習體驗，提升滿意度與參與度
 
-* Create a more personalized learning experience that increases satisfaction and engagement 
+### 新增「已儲存」小工具
 
-### Add a Saved by me widget 
+試想一家金融公司正在向其銷售與客戶成功經理（CSM）團隊推出超過50門新課程。  學習者瀏覽目錄時，會將與自身職務相關的五、六門課程加入書籤。
 
-Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+這些已儲存的課程會自動顯示在學習者個人化首頁的「由我儲存」小工具中。 他們不必再瀏覽目錄，而是直接進入小工具，存取或註冊他們預留的內容。
 
-Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+要設定 **「由我** 儲存」小工具：
 
-To configure the **Saved by me** widget: 
-
-1. Log in to Adobe Learning Manager as an administrator. 
-2. Select **Branding** in the left navigation pane. 
-3. Select **Custom Pages**. 
-4. Select the required page and then select **Page Design**. 
-5. Select the layout. 
-6. Select **Add Widget**. 
-7. Select **Saved by me** and then select **Proceed**. 
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 在左側導覽欄選「**品牌」。**
+3. 選擇 **自訂頁面**。
+4. 選擇所需頁面，然後選擇 **頁面設計**。
+5. 選擇版面配置。
+6. 選擇 **新增小工具**。
+7. 選擇&#x200B;**「由我**&#x200B;儲存」，然後選擇&#x200B;**「繼續」。**
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
 
-8. Type a **Widget title** and **Widget description**.
+8. 輸入 **Widget 標題** 和 **說明**。
 
    ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
 
-9. Select **Add widget**. 
+9. 選擇 **新增小工具**。
 
-The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+**「由我**&#x200B;儲存」小工具會被加入頁面。管理員可以新增其他小工具並發佈頁面。
 
 ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
 
 >[!NOTE]
 >
->If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+>如果學習者沒有加入任何內容書籤，「由我儲存」小工具會在他們的頁面上顯示空白狀態。 當學習者收藏課程、學習路徑、證照或工作輔助工具時，這些項目會自動出現在小工具中。
 
-Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
-
--->
+小工具標題與描述支援本地化，與 Experience Builder 中的其他小工具相同。 如果你的帳號設定了多種語言，請為每種語言提供標題和描述，讓學習者能在他們偏好的地點看到這個小工具。
 
 ## 社交學習小工具
 

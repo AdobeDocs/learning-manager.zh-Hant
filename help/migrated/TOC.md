@@ -2,7 +2,7 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 17b1e6574e031d5dda944c2c2701f9a876057e14
+source-git-commit: f7bc8b49056786751a6ff5517e6a6b0fe424e7c0
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 1%
@@ -276,7 +276,7 @@ ht-degree: 1%
   * [設定檔設定](learners/feature-summary/settings.md)
   * [目錄](learners/feature-summary/catalogs.md)
   * [一鍵註冊](learners/feature-summary/learner-one-click-enrollment.md)
-  * {hide-from-toc}[由我拯救的小工具](learners/feature-summary/saved-by-me-widget.md)
+  * [由我拯救的小工具](learners/feature-summary/saved-by-me-widget.md)
   * [我的學習](learners/feature-summary/courses.md)
   * {hide-from-toc}[適應性課程](learners/feature-summary/adaptive-course-learner.md)
   * [流體演奏者](learners/feature-summary/fluidic-player.md)
