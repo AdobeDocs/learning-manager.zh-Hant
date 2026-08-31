@@ -38,7 +38,7 @@ ht-degree: 0%
    ![](assets/select-calendar.png)
    _選出小工具畫面，重點顯示行事曆小工具選項，以顯示訓練課程_
 
-8. A型和&#x200B;**[!UICONTROL Widget title]****[!UICONTROL Widget description]**。
+8. A型和&#x200B;**[!UICONTROL Widget title]**&#x200B;**[!UICONTROL Widget description]**。
 
    ![](assets/configure-calendar-widget.png)
    _行事曆小工具自訂畫面，管理員可在此設定小工具標題、描述並選擇目錄_
@@ -84,7 +84,7 @@ ht-degree: 0%
    * **[!UICONTROL Category Image]**
    * **[!UICONTROL Category Description]**
 
-9. A型和&#x200B;**[!UICONTROL Widget title]****[!UICONTROL Widget description]**。
+9. A型和&#x200B;**[!UICONTROL Widget title]**&#x200B;**[!UICONTROL Widget description]**。
 10. 從 中搜尋並選擇目錄。**[!UICONTROL Category source]**
 
     ![](assets/configure-calendar-widget.png)
@@ -117,7 +117,7 @@ ht-degree: 0%
    ![](assets/select-compliance-status.png)
    _小工具選擇畫面，強調用於顯示學習者註冊及截止日期及狀態指標的合規狀態小工具_
 
-8. A型和&#x200B;**[!UICONTROL Widget title]****[!UICONTROL Widget description]**。
+8. A型和&#x200B;**[!UICONTROL Widget title]**&#x200B;**[!UICONTROL Widget description]**。
 
    ![](assets/configure-compliance.png)
    _合規狀態小工具畫面，管理員可設定小工具標題與描述，以顯示學習者的註冊截止日期與狀態_
@@ -155,7 +155,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _課程與路徑小工具，管理員可設定小工具標題、描述，並選擇課程或學習路徑以互動卡片顯示_
-11. 選擇 **[!UICONTROL Add widget]**。
+&#x200B;11. 選擇 **[!UICONTROL Add widget]**。
 
 「課程與路徑」小工具將會新增到頁面上。 管理員可以新增其他小工具並發佈頁面。
 
@@ -246,7 +246,7 @@ HTML 小工具允許管理員直接將自訂 HTML 程式碼嵌入頁面中。 �
    ![](assets/select-html.png)
    _小工具選擇畫面，重點顯示使用 HTML、CSS 和 JavaScript 程式碼自訂頁面的 HTML 小工具_
 
-8. 在相應欄位輸入你的&#x200B;**[!UICONTROL HTML]**、 和 **[!UICONTROL CSS]****[!UICONTROL JavaScript]** 程式碼。
+8. 在相應欄位輸入你的&#x200B;**[!UICONTROL HTML]**、 和 **[!UICONTROL CSS]**&#x200B;**[!UICONTROL JavaScript]** 程式碼。
 9. 選擇 **[!UICONTROL Add widget]**。
 
 HTML 小工具會被加入頁面。 管理員可以新增其他小工具並發佈頁面。
