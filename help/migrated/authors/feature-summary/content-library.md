@@ -3,9 +3,9 @@ description: 學習如何創作與課程對齊的內容，作為自學進度的�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '5948'
+source-wordcount: '5949'
 ht-degree: 0%
 
 ---
@@ -323,11 +323,11 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 
 #### 附加資訊
 
-* 支援語言：Adobe Learning Manager 支援的全部 39 種非英語語言。
-* 通知：當 VTT 產生與翻譯完成時，作者會收到通知。
+* **支援語言：** Adobe Learning Manager 支援所有 39 種非英語語言。
+* **通知：** 當 VTT 產生與翻譯完成時，作者會收到通知。
 * 編輯彈性：字幕可在應用程式內或離線編輯後重新上傳。
-* 可擴展性：為企業級在地化與無障礙需求設計。
-* 無需手動上傳 VTT：系統可從零開始使用上傳的影片/音訊產生 VTT 檔案。
+* **可擴展性：** 為企業級在地化與無障礙需求設計。
+* **無需手動上傳 VTT：** 系統可從零開始使用上傳的影片/音訊產生 VTT 檔案。
 
 #### 最佳實務
 
