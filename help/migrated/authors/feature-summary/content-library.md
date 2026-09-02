@@ -3,9 +3,9 @@ description: 學習如何創作與課程對齊的內容，作為自學進度的�
 jcr-language: en_us
 title: 內容庫
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '5960'
+source-wordcount: '5949'
 ht-degree: 0%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 0%
 
 ## 新增靜態內容 {#addstaticcontent}
 
-1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**&#x200B;[!UICONTROL Content Library]&#x200B;**，然後選擇&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**。**
+1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**[!UICONTROL Content Library]**，然後選擇&#x200B;**[!UICONTROL Add]**。**
 
    或者，你也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面中選擇&#x200B;**[!UICONTROL Create Content]**。
 
@@ -195,7 +195,7 @@ _學習者成績完成_
 
 ## 新增互動內容 {#addinteractivecontent}
 
-1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**&#x200B;[!UICONTROL Content Library]&#x200B;**，然後選擇&#x200B;**&#x200B;[!UICONTROL Add]&#x200B;**。**
+1. 登入後以作者&#x200B;**身份在左側窗格選擇&#x200B;**[!UICONTROL Content Library]**，然後選擇&#x200B;**[!UICONTROL Add]**。**
 
    或者，你也可以從&#x200B;**[!UICONTROL Getting Started]**&#x200B;頁面中選擇&#x200B;**[!UICONTROL Create Content]**。
 
@@ -246,7 +246,7 @@ _學習者成績完成_
 
    在播放器上，切換流體播放器的CC按鈕來顯示或隱藏字幕。
 
-   同樣的視圖也存在於&#x200B;**學習器應用程式**&#x200B;**及預覽**&#x200B;學習器中。
+   同樣的視圖也存在於&#x200B;**學習器應用程式****及預覽**&#x200B;學習器中。
 
    當你新增、更新或刪除&#x200B;**VTT 檔案時**，你會收到通知。
    WebVTT 支援不支援以下模式：
@@ -287,7 +287,7 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 #### 主要特色
 
 * 自動生成VTT：上傳影片或音訊檔案，並自動生成原始語言的VTT字幕。
-* 多語言翻譯：將字幕翻譯成10種支援的非英語語言中的任何一種。
+* 多語言翻譯：將字幕翻譯成 39 種支援的非英語語言中的任何一種。
 * 應用程式內審查與編輯：在發佈前，先檢視、編輯並下載VTT檔案。
 * 通知：當 VTT 生成與翻譯完成後，會收到應用程式內通知。
 * 順暢發佈：發布最終完成的說明文字，讓學習者能以自己選擇的語言閱讀。
@@ -298,7 +298,7 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 2. 上傳你的 MP3 或 MP4 檔案。
 3. 在上傳對話框中，選擇「 **產生翻譯**」選項。
 4. 選擇原始內容語言（預設為檔案語言）。
-5. 選擇額外的目標語言進行翻譯（最多支援 10 種）。
+5. 選擇更多目標語言進行翻譯（最多支援 39 種）。
 6. 選擇 [!UICONTROL Save]。 系統開始產生並翻譯 VTT 檔案。
 
 #### 監控進度
@@ -323,7 +323,7 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 
 #### 附加資訊
 
-* **支援語言：** Adobe Learning Manager 支援十種非英語語言（法語、德語、西班牙語、義大利語、葡萄牙語、荷蘭語、瑞典語、印尼語、挪威博克馬爾語及丹麥語）。
+* **支援語言：** Adobe Learning Manager 支援所有 39 種非英語語言。
 * **通知：** 當 VTT 產生與翻譯完成時，作者會收到通知。
 * 編輯彈性：字幕可在應用程式內或離線編輯後重新上傳。
 * **可擴展性：** 為企業級在地化與無障礙需求設計。
@@ -487,7 +487,7 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 移動內容會將其從目前資料夾移除，並放入目標資料夾。 你可以在對話框中選擇多個私人資料夾來移動內容。 不過，你不能同時選擇私人和公開資料夾。 你可以選擇多個私人資料夾，或是一個公開資料夾。
 
 1. 在內容庫&#x200B;**中**，選擇你想移動的每個內容檔案旁的勾選框。
-2. 選擇動作>組織內容&#x200B;**>**&#x200B;將內容移至資料夾&#x200B;**。**&#x200B;**&#x200B;**&#x200B;**「將內容移到資料夾**」面板會打開。
+2. 選擇動作>組織內容&#x200B;**>**&#x200B;將內容移至資料夾&#x200B;**。********「將內容移到資料夾**」面板會打開。
 3. 選擇你想移動內容的目標資料夾。
 4. 選擇 **移動內容**。 內容庫會更新顯示新的資料夾路徑。
 
@@ -701,7 +701,7 @@ Copying a folder means that you'd be adding a tag to the folder. The copy operat
    ![](assets/add-content.PNG)
    _選擇在內容庫中新增內容_
 
-4. 輸入 和&#x200B;**[!UICONTROL Name]**&#x200B;**[!UICONTROL Description]**
+4. 輸入 和&#x200B;**[!UICONTROL Name]****[!UICONTROL Description]**
 
 5. 從選項 **[!UICONTROL Add Content File]** 中選擇內容
 6. 從選項中選擇資料夾， **[!UICONTROL Add to Folder]** 即可將內容加入資料夾。
