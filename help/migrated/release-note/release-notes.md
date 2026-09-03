@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Adobe Learning Manager 發布說明
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 72aa1398a52c5980c3682bd2f2867e1a0cd35979
+source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
 workflow-type: tm+mt
-source-wordcount: '34425'
+source-wordcount: '34476'
 ht-degree: 0%
 
 ---
