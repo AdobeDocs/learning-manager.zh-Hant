@@ -94,4 +94,4 @@ Content Composer 使用 Creative Cloud 儲存空間來儲存課程。 未為 Ado
 
 若 Adobe 管理控制台管理員在指派 Creative Cloud 儲存或除錯存取相關問題時遇到問題，該問題可能需要企業帳號層級支援。 在這種情況下，請透過管理控制台中的支援選項聯絡 Adobe 企業支援。
 
-欲了解更多資訊，請參閱 [Adobe 企業支援選項](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html)
+欲了解更多資訊，請參閱 [Adobe 企業支援選項](https://helpx.adobe.com/tw/business/enterprise/get-help/support-options/support-for-enterprise.html)
