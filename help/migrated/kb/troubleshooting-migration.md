@@ -73,7 +73,7 @@ ht-degree: 0%
 
 請確保 userID 所提供的電子郵件 ID，assignedByUserID 欄位屬於有效的 Learning Manager 使用者。 如果沒有，請新增該使用者，並建立一個新的衝刺並選擇 **同步使用者** 選項。 若使用者不屬於組織，請透過 Add users CSV 規格在 Learning Manager 中將該使用者新增為已刪除的使用者。 以下提供一份用於新增已刪除使用者的 CSV 範例規範供參考。
 
-[Users.csv](assets/users.zip) 請參閱&#x200B;**遷移手冊](../integration-admin/feature-summary/migration-manual.md)中的 [CSV 規格與範例 CSV** 章節，下載完整的 CSV 規格與範例 CSV 檔案。
+[Users.csv](assets/users.zip) 請參閱&#x200B;**遷移手冊[&#128279;](../integration-admin/feature-summary/migration-manual.md)中的 CSV 規格與範例 CSV** 章節，下載完整的 CSV 規格與範例 CSV 檔案。
 
 ### 課程顯示為空白或模組錯誤，為遷移的課程進行 {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
