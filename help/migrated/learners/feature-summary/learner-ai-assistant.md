@@ -3,9 +3,9 @@ description: 透過 Adobe Learning Manager 的 AI 助理，從你的學習內容
 jcr-language: en_us
 title: Adobe Learning Manager 中的學習者 AI 助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
+source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3241'
 ht-degree: 0%
 ---
 # 學習者的 AI 助理
@@ -81,7 +81,7 @@ Adobe 透過可信賴的服務安全地處理您的學習內容。
 
 AI 助理僅使用內部目錄及第三方內容庫的內容。 學習者查詢的答案僅來自他們可存取的目錄。
 
-以下內容來源目前版本不支援：
+以下內容來源不被支援：
 
 - 共享外部目錄
 - 預設目錄
@@ -178,7 +178,7 @@ AI 助理內建提示，幫助你快速開始解答常見問題和情境。 這�
 
    ![管理員主控台左側面板的設定選項](assets/settings-menu.png)
 
-1. 從設定選單選擇&#x200B;**學習者 AI 助理（測試版**&#x200B;**）。**
+1. 從設定選單選擇&#x200B;**學習者 AI 助理（測試版****）。**
 
    ![管理員主控台在左側窗格顯示學習者 AI 助理選項](assets/learner-assistant-ai-beta.png)
 
@@ -354,7 +354,7 @@ Adobe Learning Manager 的學習助理能回答學習者關於學習物件的問
 
 >[!IMPORTANT]
 >
->作為前提，管理員必須將所需目錄加入學習者助理。 詳情請參閱[「配置 AI 助理存取](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權限」。
+>作為前提，管理員必須將所需目錄加入學習者助理。 詳情請參閱[「配置 AI 助理存取](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權限」。
 
 
 當管理員將 Go1 或 LinkedIn Learning 目錄加入 Adobe Learning Manager 時，目錄內容會經過排程的擷取流程。 擷取完成後，該目錄中的學習物件會開放給學習助理查詢。
