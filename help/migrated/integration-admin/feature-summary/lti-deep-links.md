@@ -3,13 +3,11 @@ description: 學習如何將 LinkedIn Learning 連接器與 Adobe Learning Manag
 jcr-language: en_us
 title: 在 ALM 的 LTI 工具中嵌入深層連結
 contentowner: mmanuel
-source-git-commit: ce25b5982c86695352029e22e427b4e85274a1cb
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 LTI 深度連結
 
@@ -87,12 +85,16 @@ LTI 深度連結工作流程包含以下角色：
 
 ## 建立深度連結
 
+>[!IMPORTANT]
+>
+>以下章節及作者區段所述的步驟必須在使用課程的平台上執行，而非在ALM端。
+
 ### 前置條件
 
 1. 你應該以整合管理員身份登入。
-2. 在設定 LTI 整合時，請選擇「支援深度連結」的勾選框。
+2. 在設定 LTI 整合時，請選擇 **「支援深度連結** 」的勾選框。 學習如何設定 [LTI 整合](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)。
 3. 在欄位提供網址，讓使用者或作者直接前往選擇。
-4. 選擇「儲存變更」。
+4. 選擇 **「儲存變更**」。
 
    相同的啟動網址被重複使用，以簡化設定與使用。
 
@@ -100,7 +102,7 @@ LTI 深度連結工作流程包含以下角色：
 
    儲存修改後，選擇「 **選擇內容** 」標籤。 （該 **選擇內容** 標籤只有在勾選此勾選框後才會啟用。）
 
-**以下部分是給作者的。**
+**致作者**
 
 作為作者，你可以從 **「選擇內容** 」視窗中選擇內容。 選擇內容視窗顯示&#x200B;**&#x200B;**&#x200B;課程目錄&#x200B;**、**&#x200B;課程數量&#x200B;**及**&#x200B;匯出日期&#x200B;**。**
 
