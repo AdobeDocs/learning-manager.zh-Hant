@@ -1,238 +1,235 @@
 ---
-description: 瞭解如何在Adobe Learning Manager中建立Go1播放清單並新增至學習路徑。 本指南涵蓋播放清單整合的逐步指示和最佳實務。
+description: 學習如何在 Adobe Learning Manager 的學習路徑中建立並新增 Go1 播放清單。 本指南將介紹播放清單整合的步驟與最佳實務。
 jcr-language: en_us
-title: 組織Go1播放清單至Adobe Learning Manager學習路徑
-source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
+title: Curate Go1 播放清單到 Adobe Learning Manager 學習路徑
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%
-
 ---
+# 策劃Go1課程，打造學習路徑
 
+管理員經常需要從多個資料庫或目錄中策劃課程，這使得辨識最佳方案變得困難。 這在Go1上尤其具有挑戰性，因為有數千種課程可供選擇。 為了簡化流程，我們在學習路徑創建流程中直接提供 AI 驅動的策展功能。 這有助於管理員快速發現並選擇最相關的課程
 
-# 組織Go1課程至學習路徑
-
-管理員通常需要從多個存放庫或目錄策劃課程，因此很難找出最佳選項。 這對Go1來說尤其具有挑戰性，因為有數千個課程可供使用。 為簡化這項作業，我們直接在學習路徑建立流程中提供AI支援的組織功能。 這可幫助管理員快速探索並選取最相關的課程
-
-直接將Go1課程新增至學習路徑與認證。 建立包含Go1課程的學習路徑，讓學習者能夠存取選取的Go1課程作為培訓的一部分。
+直接將 Go1 課程加入學習路徑與認證課程。 建立包含 Go1 課程的學習路徑，讓學習者能在訓練中取得部分 Go1 課程。
 
 >[!INFO]
 >
->您需要有效的Go1授權，才能將Go1課程新增至學習路徑或認證。 檢視此[文章](/help/migrated/administrators/feature-summary/content-marketplace.md)以進一步瞭解Go1授權詳細資料。
+>你需要持有有效的 Go1 執照，才能將 Go1 課程加入學習路徑或認證。 請參閱本文[](/help/migrated/administrators/feature-summary/content-marketplace.md)以了解更多關於 Go1 授權細節的資訊。
 
 ## 建立學習路徑
 
-若要使用Go1課程建立學習路徑：
+要建立 Go1 課程的學習路徑：
 
-1. 以系統管理員身分登入&#x200B;**Adobe Learning Manager**。
-2. 在左側導覽窗格中選取&#x200B;**[!UICONTROL Learning Paths]**。
-3. 選取&#x200B;**[!UICONTROL Add]**。
+1. 以管理員身份登入 **Adobe Learning Manager** 。
+2. 在左側導覽窗格選擇 **[!UICONTROL Learning Paths]** 。
+3. 選擇 **[!UICONTROL Add]**。
 
    ![](assets/select-add-to-lp.png)
-   _選取「學習路徑」區段中的「新增」，為學習者建立及組織新的結構化訓練計畫_
+   _選擇「新增學習路徑」區塊，為學習者建立並組織新的結構化訓練課程_
 
-4. 輸入必要的詳細資料，並選取&#x200B;**[!UICONTROL Save]**。 檢視此[文章](/help/migrated/administrators/feature-summary/learning-paths.md)以取得詳細資訊。
-5. 您可以透過下列方式將課程新增至學習路徑：
+4. 輸入所需資料並選擇 **[!UICONTROL Save]**。 欲了解更多資訊，請參閱本文[](/help/migrated/administrators/feature-summary/learning-paths.md)。
+5. 你可以透過以下方式將課程加入學習路徑：
 
-   * **[!UICONTROL Add Courses or Learning Paths]**：新增Adobe Learning Manager中可用的現有課程或學習路徑。
-   * **[!UICONTROL Curate content from Go1]**：從Go1平台新增課程。
-6. 選取&#x200B;**[!UICONTROL Curate content from Go1]**。
+   * **[!UICONTROL Add Courses or Learning Paths]**： 新增 Adobe Learning Manager 中現有的課程或學習路徑。
+   * **[!UICONTROL Curate content from Go1]**：從 Go1 平台新增課程。
+6. 選擇 **[!UICONTROL Curate content from Go1]**。
 
    ![替代文字](assets/select-go1-courses.png)
-   _將Go1課程新增至您的銷售工程師技能發展播放清單，以透過精選的協力廠商內容擴充學習選項_
-7. 管理員可透過下列方式建立播放清單：
+   _將 Go1 課程加入您的銷售工程師技能發展播放清單，透過精選第三方內容擴展學習選項_
+7. 管理員可以透過以下方式建立播放清單：
 
-   * 使用&#x200B;**[!UICONTROL Go1 AI Assistant]**。 檢視[Go1 AI助理](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant)以取得詳細資訊。
-   * 在&#x200B;**[!UICONTROL Library]**&#x200B;中，選取&#x200B;**[!UICONTROL Create playlist]**&#x200B;並從下列選項中選擇：
-a. **[!UICONTROL with AI]**：藉助AI建立播放清單。 如需詳細資訊，請檢視此[區段](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai)。
-b. **[!UICONTROL by myself]**：手動新增課程以建立播放清單。 如需詳細資訊，請檢視此[區段](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually)。
+   * 使用 **[!UICONTROL Go1 AI Assistant]**。 欲了解更多資訊，請參閱 [Go1 AI 助理](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant) 。
+   * 在 **[!UICONTROL Library]**&#x200B;中，選擇 **[!UICONTROL Create playlist]** 並從以下之一中選擇：a. **[!UICONTROL with AI]**：在 AI 協助下建立播放清單。 請參閱本 [節](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai) 以獲取更多資訊。
+     b. **[!UICONTROL by myself]**： 手動新增課程來建立播放清單。 請參閱本 [節](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually) 以獲取更多資訊。
 
-### Go1 AI助理
+### Go1 AI 助理
 
-Adobe Learning Manager提供AI支援的協助，讓管理員更容易策劃課程。 透過Content Hub頁面上提供的AI助理，管理員可以提出問題、獲得個人化建議，並立即建立播放清單。 此外，AI支援已整合至學習路徑建立流程，協助管理員從大型目錄（例如Go1）中快速找出最相關的課程。 這些功能可簡化組織流程、節省時間，並確保學習者獲得最佳內容。
+Adobe Learning Manager 提供 AI 驅動的協助，讓管理員更容易策劃課程。 透過內容中心頁面上的 AI 助理，管理員可以提問、獲得個人化推薦，並即時建立播放清單。 此外，AI 支援整合進學習路徑創建流程，幫助管理員快速從大型目錄如 Go1 中找出最相關的課程。 這些功能簡化了策展流程，節省時間，並確保學習者獲得最佳內容。
 
-若要使用AI建立播放清單：
+要用 AI 建立播放清單：
 
-1. 在&#x200B;**[!UICONTROL Chat with AI]** Go1 Content Hub **上選取**&#x200B;選項。
+1. 在 Go1 內容中心&#x200B;**選擇&#x200B;**[!UICONTROL Chat with AI]**選項**。
 
    ![](assets/select-chat-with-ai.png)
-   _顯示[與AI聊天]選項的Content Hub畫面，管理員可在此與AI助理互動以提出問題_
+   _內容中心畫面顯示「與 AI 聊天」選項，管理員可與 AI 助理互動提問_
 
-2. 輸入問題並選取&#x200B;**[!UICONTROL Send]**。
+2. 輸入問題並選擇 **[!UICONTROL Send]**。
 
    ![](assets/type-your-questions.png)
-   _AI Assistant熒幕，管理員可在此輸入問題、取得課程建議，並立即建立符合其需求的播放清單_
-3. 選取技能，然後選取&#x200B;**[!UICONTROL Compile into one list]**。
+   _AI 助理畫面，管理員可以在那裡輸入問題、獲得課程推薦，並即時建立符合需求的播放清單_
+3. 選擇技能，然後選擇 **[!UICONTROL Compile into one list]**。
 
    ![](assets/select-the-skills-ai-assistant.png)
-   _AI小幫手畫面，顯示選取並編譯成播放清單的相關技能_
-4. 選取&#x200B;**[!UICONTROL Convert to Playlist]**。
+   _AI 助理畫面顯示可選擇並編譯成播放清單的相關技能_
+4. 選擇 **[!UICONTROL Convert to Playlist]**。
 
    ![](assets/convert-to-playlist.png)
-   _AI助理畫面顯示[轉換為播放清單]選項，可將所有課程編譯成播放清單_
+   _AI 助理畫面顯示「轉換為播放清單」選項，將所有課程彙整成播放清單_
 
-5. 選取&#x200B;**[!UICONTROL View Playlist]**。
+5. 選擇 **[!UICONTROL View Playlist]**。
 
    ![](assets/ai-assistant-view-playlist.png)
-   _AI助理畫面顯示[檢視播放清單]選項，以發佈並匯入播放清單至學習路徑_
+   _AI 助理畫面顯示「檢視播放清單」選項，以便發佈並匯入播放清單到 Learning Path。_
 
-6. 選取&#x200B;**[!UICONTROL Publish]**&#x200B;以建立播放清單。 您可以在Go1中建立其他播放清單，並將其新增至學習路徑。
-7. 在確認提示中選取&#x200B;**是**。
-8. 從&#x200B;**[!UICONTROL Select playlist to import prompt]**&#x200B;選取播放清單。
+6. 選擇 **[!UICONTROL Publish]** 建立播放清單。 你可以在 Go1 裡建立額外的播放清單，並將它們加入學習路徑。
+7. 在確認提示中選擇 **「是** 」。
+8. 從 . 中選擇播放清單 **[!UICONTROL Select playlist to import prompt]**。
 
    ![](assets/add-playlist-to-lp.png)
-   _從Adobe Learning Manager的Go1資料庫中選取並匯入銷售工程師技能增強播放清單_
+   _在 Adobe Learning Manager 的 Go1 函式庫中選取並匯入銷售工程師技能增強播放清單_
 
-9. 選取&#x200B;**[!UICONTROL Add Playlists to Learning Path]**，然後選取&#x200B;**[!UICONTROL Publish]**。
+9. 選擇， **[!UICONTROL Add Playlists to Learning Path]** 然後 **[!UICONTROL Publish]**。
 
-播放清單中的課程將新增至學習路徑。 管理員隨後可註冊學習者，這些學習者可以立即開始參加課程。
+播放清單中的課程將被加入學習路徑。 管理者接著可以註冊學習者，讓他們立即開始修課。
 
-### 使用AI建立播放清單
+### 用 AI 建立播放清單
 
-管理員可以在AI提示中輸入播放清單說明。 AI將會組織相關課程，並根據需求建立播放清單。 AI透過解譯學習目標或使用者提供的提示來產生播放清單。 建立播放清單時，管理員可以選擇使用AI組織內容，讓系統使用大型語言模型來瞭解指定的學習目標和內容偏好設定，例如持續時間和型別。 然後，AI會在內容庫中搜尋符合這些條件的相關學習物件。
+管理員可以在 AI 提示中輸入播放清單描述。 AI 會根據需求策劃相關課程並建立播放清單。 AI 會根據使用者提供的學習目標或提示來生成播放清單。 在建立播放清單時，管理員可以選擇「用 AI 策劃內容」，讓系統能利用大型語言模型來理解指定的學習目標與內容偏好，如時長與類型。 接著，AI 會搜尋符合這些條件的內容庫相關學習對象。
 
-1. 選取&#x200B;**[!UICONTROL Create playlist]**，然後選取&#x200B;**[!UICONTROL with AI]**。
+1. 選擇 **[!UICONTROL Create playlist]** ，然後選擇 **[!UICONTROL with AI]**。
 
    ![](assets/select-by-AI-playlist.png)
-   _使用AI建立已組織的播放清單，如此可啟用根據學習者需求量身打造的自動化課程推薦_
+   _利用 AI 建立精選播放清單，能自動推薦符合學習者需求的課程_
 
-2. 在&#x200B;**[!UICONTROL Enter your learning goal]**&#x200B;文字欄位中輸入有關播放清單的簡短說明。 例如，_建立銷售工程師的精選學習播放清單，著重於增強產品知識、技術通訊、客戶參與和解決方案銷售_。
+2. 在文字欄位輸入關於你的播放清單 **[!UICONTROL Enter your learning goal]** 的簡短說明。 例如，為 _專注於提升產品知識、技術溝通、客戶互動及解決方案銷售_&#x200B;的銷售工程師打造精選學習播放清單。
 
    ![](assets/type-a-prompt.png)
-   _輸入您的學習目標以建立自訂播放清單，協助Adobe Learning Manager根據學習者的需求推薦目標課程_
+   _輸入您的學習目標以建立自訂播放清單，協助 Adobe Learning Manager 推薦符合學習者需求的精準課程_
 
-3. 選取&#x200B;**[!UICONTROL Next]**。 提示會顯示選取所需的技能、課程持續時間及課程型別。
-4. 選取所需技能。
+3. 選擇 **[!UICONTROL Next]**。 提示會顯示所需技能、課程長度及課程類型供選擇。
+4. 選擇所需技能。
 
    ![](assets/select-skills.png)
    _從清單中選擇技能，為銷售工程師策劃課程_
 
-5. 選取課程期間和播放清單型別。
+5. 選擇課程長度與類型，即可選擇播放清單。
    ![](assets/select-duration-type-of-course.png)
-   _選擇要為銷售工程師策劃課程的期間和課程型別_
+   _選擇課程的時長與類型，為銷售工程師策劃課程_
 
-6. 選取&#x200B;**[!UICONTROL Generate playlist]**。 播放清單是以2個頁面上的10個課程所建立，管理員可使用此清單建立學習路徑。
+6. 選擇 **[!UICONTROL Generate playlist]**。 播放清單包含 10 門課程，分布在兩個頁面，管理員可以使用它來建立學習路徑。
 
    ![](assets/created-playlist.png)
-   _檢閱您在Adobe Learning Manager中策劃的銷售工程師技能增強播放清單_
+   _在 Adobe Learning Manager 中檢視您精心策劃的銷售工程師技能提升播放清單_
 
-7. 選取&#x200B;**[!UICONTROL Select Image]**，瀏覽並新增影像至播放清單。
-8. 使用可用的AI選項變更標題：
+7. 瀏覽並透過選擇 **[!UICONTROL Select Image]**&#x200B;將圖片加入播放清單。
+8. 使用可用的 AI 選項更改標題：
 
-   * **[!UICONTROL Improve writing]**：調整現有標題，使其更清楚。
-   * **[!UICONTROL Generate title]**：根據內容或內容自動建立新標題。
+   * **[!UICONTROL Improve writing]**：將現有標題精煉以使其更清楚。
+   * **[!UICONTROL Generate title]**：根據內容或上下文自動建立新標題。
 
    ![](assets/ai-options-for-title.png)
-   _使用AI選項建立Go1播放清單畫面，以增強播放清單標題_
+   _Go1 播放清單建立畫面，搭配 AI 選項以強化播放清單標題_
 
-9. 使用可用的AI選項變更說明：
-   * **[!UICONTROL Improve writing]**：調整現有的說明，使其更清楚。
-   * **[!UICONTROL Generate description]**：根據內容或內容自動建立新描述。
-   * **[!UICONTROL &#x200B; Make it shorter]**：縮短文字或標題，同時保留主要概念。
+9. 利用可用的 AI 選項更改描述：
+   * **[!UICONTROL Improve writing]**：細化現有的描述以使其更清楚。
+   * **[!UICONTROL Generate description]**：根據內容或上下文自動建立新的描述。
+   * **[!UICONTROL  Make it shorter]**：縮短文字或標題，同時保留主要思想。
 
    ![](assets/ai-option-descriptions.png)
-   _使用AI選項建立Go1播放清單畫面，以增強播放清單描述_
+   _Go1 播放清單建立畫面，搭配 AI 選項以強化播放清單描述_
 
-10. 選取&#x200B;**[!UICONTROL Add item]**&#x200B;以新增更多課程至播放清單。
+10. 選擇 **[!UICONTROL Add item]** 新增更多課程到播放清單。
 
-11. 選取&#x200B;**[!UICONTROL Publish]**&#x200B;以建立播放清單。 您可以在Go1中建立其他播放清單，並將其新增至學習路徑。
-12. 在確認提示中選取&#x200B;**是**。
-13. 從&#x200B;**[!UICONTROL Select playlist to import prompt]**&#x200B;選取播放清單。
+11. 選擇 **[!UICONTROL Publish]** 建立播放清單。 你可以在 Go1 裡建立額外的播放清單，並將它們加入學習路徑。
+12. 在確認提示中選擇 **「是** 」。
+13. 從 . 中選擇播放清單 **[!UICONTROL Select playlist to import prompt]**。
 
     ![](assets/add-playlist-to-lp.png)
-    _從Adobe Learning Manager的Go1資料庫中選取並匯入銷售工程師技能增強播放清單_
+    _在 Adobe Learning Manager 的 Go1 函式庫中選取並匯入銷售工程師技能增強播放清單_
 
-14. 選取&#x200B;**[!UICONTROL Add Playlists to Learning Path]**，然後選取&#x200B;**[!UICONTROL Publish]**。
+14. 選擇， **[!UICONTROL Add Playlists to Learning Path]** 然後 **[!UICONTROL Publish]**。
 
-播放清單中的課程將新增至學習路徑。 管理員隨後可註冊學習者，這些學習者可以立即開始參加課程。
+播放清單中的課程將被加入學習路徑。 管理者接著可以註冊學習者，讓他們立即開始修課。
 
 >[!NOTE]
 >
->管理員也可以直接從Content Hub頁面建立播放清單。 檢視[Content Hub](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub)以取得詳細資訊。
+>管理員也可以直接從內容中心頁面建立播放清單。 欲了解更多資訊，請參閱 [內容中心](/help/migrated/administrators/feature-summary/content-marketplace.md#content-hub) 。
 
 ## 手動建立播放清單
 
-手動選取最符合學習者需求的課程，並組織其他相關課程。
+手動選擇最符合學習者需求的課程，並策劃更多相關課程。
 
-若要手動建立播放清單：
+要手動建立播放清單：
 
-1. 選取&#x200B;**[!UICONTROL Create playlist]**，然後選取&#x200B;**[!UICONTROL by myself]**。
+1. 選擇 **[!UICONTROL Create playlist]** ，然後選擇 **[!UICONTROL by myself]**。
 
    ![](assets/select-manual-playlist.png)
-   _手動建立播放清單，讓管理員完全根據特定學習者需求策劃課程_
+   _手動建立播放清單，讓管理員能完全掌控根據特定學習者需求策劃課程_
 
-2. 選取&#x200B;**[!UICONTROL Select Image]**，瀏覽並新增影像至播放清單。
-3. 輸入播放清單的標題和說明。
+2. 瀏覽並透過選擇 **[!UICONTROL Select Image]**&#x200B;將圖片加入播放清單。
+3. 輸入你的播放清單標題和描述。
 
    ![](assets/type-title-and-description.png)
-   _在Adobe Learning Manager中為您的播放清單新增標題和說明，以清楚定義其用途，並幫助引導學習者進行目標性的技能發展_
+   _在 Adobe Learning Manager 的播放清單中新增標題與描述，以明確定義其目的，並引導學習者達成目標技能發展_
 
-4. 選取&#x200B;**[!UICONTROL Create]**。
-5. 選取&#x200B;**[!UICONTROL Add item]**&#x200B;以新增相關課程。
+4. 選擇 **[!UICONTROL Create]**。
+5. 選擇 **[!UICONTROL Add item]** 新增相關課程。
 
    ![](assets/add-items.png)
-   _在Adobe Learning Manager中將專案新增至您的銷售工程師技能發展播放清單，以組織目標課程_
+   _在 Adobe Learning Manager 中將項目加入您的銷售工程師技能發展播放清單，以策劃目標課程_
 
-6. 搜尋並選取所需課程。
-7. 選取&#x200B;**[!UICONTROL Publish]**。 已建立播放清單以及相關課程。
-8. 在確認提示中選取&#x200B;**是**。
-9. 從&#x200B;**[!UICONTROL Select playlist to import prompt]**&#x200B;選取播放清單。
-10. 選取&#x200B;**[!UICONTROL Add Playlists to Learning Path]**，然後選取&#x200B;**[!UICONTROL Publish]**。
+6. 搜尋並選擇必修課程。
+7. 選擇 **[!UICONTROL Publish]**。 播放清單已建立，包含相關課程。
+8. 在確認提示中選擇 **「是** 」。
+9. 從 . 中選擇播放清單 **[!UICONTROL Select playlist to import prompt]**。
+10. 選擇， **[!UICONTROL Add Playlists to Learning Path]** 然後 **[!UICONTROL Publish]**。
 
-播放清單中的課程將新增至學習路徑。 管理員隨後可註冊學習者，這些學習者可以立即開始參加課程。
+播放清單中的課程將被加入學習路徑。 管理者接著可以註冊學習者，讓他們立即開始修課。
 
-## 管理Go1播放清單
+## 管理 Go1 播放清單
 
-管理員可以管理已建立的Go1播放清單，方法是複製、共用或刪除它們。
+管理員可以透過複製、分享或刪除來管理已建立的 Go1 播放清單。
 
-### 復製播放清單
+### 複製播放清單
 
-復製播放清單：
+要複製播放清單：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 選取&#x200B;**[!UICONTROL Content Marketplace]**。
-3. 選取&#x200B;**[!UICONTROL Content Hub]**，然後選取&#x200B;**[!UICONTROL Library]**。
-4. 選取播放清單，然後選取&#x200B;**[!UICONTROL Edit]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 選擇 **[!UICONTROL Content Marketplace]**。
+3. 選擇 **[!UICONTROL Content Hub]** ，然後選擇 **[!UICONTROL Library]**。
+4. 選擇播放清單，然後選擇 **[!UICONTROL Edit]**。
    ![](assets/edit-playlist.png)
-   _Go1播放清單畫面顯示編輯播放清單的選項_
-5. 選取省略符號，然後選取&#x200B;**[!UICONTROL Duplicate]**。
+   _Go1 播放清單畫面顯示編輯播放清單的選項_
+5. 選擇省略號，然後選擇 **[!UICONTROL Duplicate]**。
    ![](assets/duplicate-playlist.png)
-   _播放清單管理畫面，醒目提示[重複]選項_
+   _播放清單管理畫面，重點顯示重複選項_
 
-選取的播放清單會複製並新增至Go1內容庫
+選定的播放清單將被複製並加入 Go1 內容庫
 
 ### 刪除播放清單
 
-若要刪除播放清單：
+刪除播放清單：
 
-1. 以管理員身分登入Adobe Learning Manager。
-2. 選取&#x200B;**[!UICONTROL Content Marketplace]**。
-3. 選取&#x200B;**[!UICONTROL Content Hub]**，然後選取&#x200B;**[!UICONTROL Library]**。
-4. 選取播放清單，然後選取&#x200B;**[!UICONTROL Edit]**。
+1. 以管理員身份登入 Adobe Learning Manager。
+2. 選擇 **[!UICONTROL Content Marketplace]**。
+3. 選擇 **[!UICONTROL Content Hub]** ，然後選擇 **[!UICONTROL Library]**。
+4. 選擇播放清單，然後選擇 **[!UICONTROL Edit]**。
    ![](assets/edit-playlist.png)
-   _Go1播放清單畫面顯示編輯播放清單的選項_
-5. 選取省略符號，然後選取&#x200B;**[!UICONTROL Delete playlist]**。
+   _Go1 播放清單畫面顯示編輯播放清單的選項_
+5. 選擇省略號，然後選擇 **[!UICONTROL Delete playlist]**。
    ![](assets/delete-playlist.png)
-   _播放清單管理畫面，醒目提示[刪除播放清單]選項_
+   _播放清單管理畫面，標示刪除播放清單選項_
 
-選取的播放清單將會從Go1資料庫刪除。
+所選播放清單將從 Go1 資料庫中刪除。
 
-### 共用播放清單
+### 分享播放清單
 
-Go1與Adobe Learning Manager的整合不支援「共用播放清單」選項。 此選項將在下一個版本中從UI移除。
+Go1 與 Adobe Learning Manager 的整合中不支援分享播放清單選項。 這個選項會在下一個版本中從使用者介面中移除。
 
-## 超過課程限制
+## 課程超過限制
 
-將Go1課程新增至學習路徑時，如果新新增的課程尚未同步至Adobe Learning Manager，管理員可能會看到錯誤。 這些課程將在48到72小時內提供。
+當將 Go1 課程加入學習路徑時，若新加入的課程尚未同步至 Adobe Learning Manager，管理員可能會看到錯誤。 這些課程將於48至72小時內開放。
 
-如果您現在新增播放清單，則只會包含已同步的課程。
+如果你現在新增播放清單，只有已經同步的課程會被包含在內。
 
-若要包含所有課程，建議您將播放清單新增至學習路徑前先等到同步處理完成。
+若要包含所有課程，建議等同步完成後再將播放清單加入學習路徑。
 
-## 認證中的Go1課程
+## Go1 認證課程
 
-管理員可以在Adobe Learning Manager的認證方案中新增Go1課程。 建立認證時，管理員可以從Go1內容目錄中搜尋及選取課程。 所有透過Go1計畫匯入的Go1課程都可在認證工作流程中進行選擇。
+管理員可以在 Adobe Learning Manager 的認證課程中新增 Go1 課程。 在建立認證時，管理員可從 Go1 內容目錄中搜尋並選擇課程。 所有透過 Go1 計畫匯入的 Go1 課程，皆可在認證流程中選擇。
 
-包含Go1課程的認證可設定為永久或週期性。 若是循環認證，則認證會在定義的時間間隔後自動更新，讓學習者可重新參加Go1課程並保持其認證狀態。
+包含Go1課程的認證可設定為永久或定期。 對於重複認證，證書會在規定時間後自動更新，讓學習者能重修 Go1 課程並維持認證狀態。
 
-檢視[認證](/help/migrated/administrators/feature-summary/certifications.md)以取得建立憑證的詳細資訊。
+請參閱 [認證以](/help/migrated/administrators/feature-summary/certifications.md) 獲取更多關於建立證書的資訊。

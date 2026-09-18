@@ -3,13 +3,12 @@ description: 設定一個允許學習者開始模組的時間窗口。
 jcr-language: en_us
 title: 模組存取時間控制
 contentowner: mmanuel
-source-git-commit: 6423fd5c0853705a28c6c67b6936d93e68cbca20
+exl-id: b99b1c98-57a0-4201-bf1f-f85bacb0d00e
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '603'
 ht-degree: 0%
-
 ---
-
 # 模組存取時間控制
 
 ## 概觀
@@ -20,7 +19,7 @@ ht-degree: 0%
 
 ## 有什麼新鮮事
 
-作者現在可以在課程模組層級設定開始日期/時間及結束日期/時間，決定學習者何時可以啟動該模組。 在此視窗內，模組行為如常;在開始時間之前或結束時間後，學習者會看到課程大綱中的模組，但無法開始。
+作者現在可以在課程模組層級設定開始日期/時間及結束日期/時間，決定學習者何時可以啟動該模組。 在此期間，模組的行為與平常相同;在開始時間之前或結束時間之後，學習者會在課程大綱中看到模組，但無法開始。
 該設定會以額外排程控制功能出現在課程製作使用者介面中，針對特定模組類型，如自學內容、小考或活動。 管理員可利用這些控制建立分階段開啟的模組，或防止必須在限定時間內消費內容的程式延遲啟動。
 
 ## 主要優點
@@ -33,25 +32,15 @@ ht-degree: 0%
 
 **以世代為基礎的賦能計畫**：此計畫每週開啟一個新模組。 第一週的內容立即開放，而第二週的內容則可見，但必須在指定日期前才能開始。 第三週也遵循相同的門檻流程。 學習者可以看到整個學習路徑，但系統會控制他們何時能開始每一步。
 **限時產品或活動訓練**：行銷或產品團隊可能會設計訓練模組，僅在活動進行中或特定產品版本仍有售時使用。 此指定的開始時段確保學習者不會在指定結束時間後開始討論已停產產品版本的模組。
-**評量或考試環境**：組織可以在短時間內開啟模組（如考試），例如「你可以在指定日期的9:00 點到12:00 點之間任何時間開始考試」。 學員無法在該時間窗口外開始考試，這有助於跨時區與世代公平排程。
+**評量或考試環境**：組織可以開啟一個模組（如考試），在短時間內明確定義（例如：「您可以在指定日期的9：00至12：00之間任何時間開始考試」）。 學員無法在該時間窗口外開始考試，這有助於跨時區與世代公平排程。
 
 ## 設定模組存取時間
 
 1. 以作者身份登入 Adobe Learning Manager。
-2. 請前往 **學習** > **課程**&#x200B;區。 ALM 會顯示課程清單。![替代文本](/help/migrated/administrators/feature-summary/assets/module-access-time1.png)
+2. 請前往 **學習** > **課程**&#x200B;區。 ALM 會顯示課程清單。![alt-text](/help/migrated/administrators/feature-summary/assets/module-access-time1.png)
 3. 選擇你想設定限制的課程。
 4. 選擇 **實**&#x200B;例。 ALM 會顯示一個實例清單。
-5. 在你想設定存取限制的實例區塊中選擇 **模組** 。 **&#x200B;**&#x200B;編輯按鈕會出現。![替代文字](/help/migrated/administrators/feature-summary/assets/module-access-time2.png)![&#x200B;  &#x200B;](/help/migrated/administrators/feature-summary/assets/module-access-time3.png)
-6. 選擇 **編輯**。 與模組相關的章節在頁面底部開啟。![替代文本](/help/migrated/administrators/feature-summary/assets/module-access-time4.png)
+5. 在你想設定存取限制的實例區塊中選擇 **模組** 。 ****&#x200B;編輯按鈕會出現。![替代文字](/help/migrated/administrators/feature-summary/assets/module-access-time2.png)![  ](/help/migrated/administrators/feature-summary/assets/module-access-time3.png)
+6. 選擇 **編輯**。 與模組相關的章節在頁面底部開啟。![替代文字](/help/migrated/administrators/feature-summary/assets/module-access-time4.png)
 7. 每個區塊請選擇「發日期」、「從時間到」、「到日期」和「到時間到」。
 8. 選擇 **儲存**。 ALM 顯示訊息：「映射已成功儲存。」
-
-
-
-
-
-
-
-
-
-

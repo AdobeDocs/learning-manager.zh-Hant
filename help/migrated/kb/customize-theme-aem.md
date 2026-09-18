@@ -1,21 +1,18 @@
 ---
 jcr-language: en_us
-title: 自訂AEM元件的主題
-description: 自訂AEM元件的主題
+title: 為 AEM 元件自訂主題
+description: 為 AEM 元件自訂主題
 contentowner: saghosh
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: 907a305b-423d-4252-8597-a25819178f07
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
 source-wordcount: '24'
 ht-degree: 0%
-
 ---
+# 為 AEM 元件自訂主題
 
-
-
-# 自訂AEM元件的主題
-
-使用下面的JSON來自訂目錄Widget。
+請使用下方的 JSON 來自訂目錄小工具。
 
 ```
 \{ 

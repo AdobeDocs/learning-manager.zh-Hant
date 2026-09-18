@@ -1,68 +1,65 @@
 ---
-description: 閱讀本文章，瞭解如何將流體播放器內嵌在自訂應用程式中。
+description: 閱讀本文，了解如何將流體演奏器嵌入自訂應用程式中。
 jcr-language: en_us
-title: 內嵌式流體播放器
+title: 可嵌入流體播放器
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1655'
+source-wordcount: '1674'
 ht-degree: 0%
-
 ---
+# 可嵌入流體播放器
 
+閱讀本文，了解如何將流體演奏器嵌入自訂應用程式中。
 
+作為企業，你現在甚至可以為學習者提供客製化體驗，甚至在 Learning Manager 之外。 利用公開 API，你可以取得所有與學習物件、學習者註冊及學習進度相關的資訊，並展示在你的網站上。 更重要的是，你甚至可以將 Learning Manager 的流暢播放器嵌入網站，讓學習者能直接在網站上閱讀內容。 流體玩家讓你能遊玩 Learning Manager 支援的任何內容。 當它嵌入在你自己的網站上時，功能與在 Learning Manager 中使用時完全相同。
 
-# 內嵌式流體播放器
+**播放任何電子學習內容[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
-閱讀本文章，瞭解如何將流體播放器內嵌在自訂應用程式中。
-
-企業即使在Learning Manager之外，您現在也可以為學習者提供自訂體驗。 使用公用API，您可以擷取與學習物件、學習者註冊和學習進度相關的所有資訊，並在您的網站上顯示。 更重要的是，您甚至可以在網站中內嵌Learning Manager的流體播放器，讓學習者能在您的網站內直接使用內容。 流體播放器可讓您播放Learning Manager支援的任何內容。 內嵌在您自己的網站上時，其功能與Learning Manager中所使用的完全相同。
-
-**播放任何電子學習內容[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
-
-Fluidic播放器能以一致且直覺的方式播放幾乎任何型別的電子學習內容，無需使用任何外掛程式或下載。 學習者可以啟動內容，而且無論內容檔案型別為何，都會開始播放。
+Fluidic 播放器幾乎能以同樣一致且直覺的方式播放任何類型的電子學習內容，無需任何外掛或下載。 學習者可以啟動內容，無論內容檔案類型為何，都會開始播放。
 
 **筆記與書籤**
 
-您可以記下筆記並將任何內容加入書籤，無論其檔案型別為何。 如果您想從長檔案或視訊中選取特定專案，您可以將找到所需相關資訊的那些點加入書籤。 附註和書籤可以電子郵件形式搜尋或傳送。 按一下註解可將您直接在視訊或檔案頁面所在的位置進入流體播放器。
+你可以做筆記並收藏任何內容，不論其檔案類型。 如果你想從長檔案或影片中挑選某個內容，可以將找到與你需求相關的資訊加入書籤。 筆記和書籤可以搜尋或以電子郵件形式傳送。 點擊它們會讓你進入流體播放器，正好在影片的那個點或文件的那一頁。
 
-如需流體播放器的詳細資訊，請參閱[流體播放器](../../learners/feature-summary/fluidic-player.md)。
+欲了解更多流體球員的資訊，請參見 [流體播放器](../../learners/feature-summary/fluidic-player.md)。
 
-以下是一些使用內嵌式流體播放器的範例。
+以下是一些可以使用可嵌入流體演奏器的範例。
 
-* 您可以使用 **&#x200B; **&#x200B;網站中的內嵌式流體播放器來列出您員工的已註冊課程，並提供在相同頁面上啟動培訓的連結。 這表示您的學習者可在您的內部網路網站上參加培訓。
+* 你可以使用網站上的可嵌入流體化播放器，列出員工已註冊的課程，並提供連結以啟動同一頁面的培訓。 這表示你的學習者可以在你的內聯網網站上接受培訓。
 
-* 如果您從事培訓業務，可能會有客戶購買課程的網站。 您可以將內嵌式播放器整合到相同網站，讓客戶可以使用他們在網站內購買的內容。
+* 如果你從事培訓業務，你可能有一個網站，讓客戶購買課程。 你可以將可嵌入播放器整合到同一網站，讓顧客能在你網站內消費他們購買的內容。
 
-## 將流體播放器內嵌到網站中的步驟 {#stepstoembedfluidicplayerinyourwebsite}
+## 將流體播放器嵌入網站的步驟 {#stepstoembedfluidicplayerinyourwebsite}
 
-建置自訂應用程式以內嵌您的網站流體播放器需要三個基本步驟：
+打造一個將流體球員嵌入網站的客製化應用程式包含三個基本步驟：
 
-1. 在Learning Manager的整合管理應用程式中建立應用程式。
-1. 擷取存取權杖。
-1. 使用存取Token ，使用公用API從Learning Manager擷取資源。
+1. 在 Learning Manager 的整合管理應用程式中建立應用程式。
+1. 取回存取權杖。
+1. 使用存取權杖從 Learning Manager 透過公開 API 取得資源。
 
 ### &#x200B;1. 在整合管理中建立應用程式 {#createanapplicationinintegrationadmin}
 
-此步驟需要建立應用程式/使用者端ID和應用程式/使用者端密碼，用於擷取重新整理權杖和存取權杖。 如需建立應用程式的詳細資訊，請參閱[應用程式開發程式。](developer-manual.md#main-pars_header_994876235)
+此步驟是建立應用程式/用戶端 ID 與應用程式/用戶端秘密，用以取得刷新令牌與存取權杖所必需。 欲了解更多關於建立應用程式的資訊，請參閱  [應用程式開發流程。](developer-manual.md#main-pars_header_994876235)
 
-1. 前往&#x200B;**[!UICONTROL IntegrationAdmin]**&#x200B;應用程式並開啟&#x200B;**[!UICONTROL Applications]**。
+1. 打開&#x200B;**[!UICONTROL IntegrationAdmin]**&#x200B;應用程式。**[!UICONTROL Applications]**
 
-1. 從頁面的右上角選取&#x200B;**[!UICONTROL Register]**。
-1. **[!UICONTROL Register a new application]**&#x200B;視窗隨即開啟。 填寫必填欄位。
-1. 如果自訂應用程式需要跨多個帳戶共用，請在選項欄位&#x200B;**[!UICONTROL For this account only?]**&#x200B;中選取&#x200B;**[!UICONTROL No]**
-1. 若要儲存應用程式並產生您的應用程式ID和密碼，請按一下&#x200B;**[!UICONTROL Save]**。
+1. 請從頁面右上角選擇 **[!UICONTROL Register]** 。
+1. **[!UICONTROL Register a new application]**&#x200B;窗戶打開了。填寫必填欄位。
+1. 如果自訂應用程式需要在多個帳號間共享，請在選項欄位中選擇&#x200B;**[!UICONTROL No]****[!UICONTROL For this account only?]**
+1. 要儲存應用程式並產生你的應用程式 ID 與秘密，請點擊 **[!UICONTROL Save]**。
 
-### &#x200B;2. 正在擷取存取權杖 {#retrievingaccesstoken}
+### &#x200B;2. 取回存取權杖 {#retrievingaccesstoken}
 
-由於Learning Manager使用OAUTH2.0，因此使用公用API擷取資源時需要存取權杖。 存取權杖可使用重新整理權杖、使用者端ID或使用者端密碼來擷取。
+由於 Learning Manager 使用 OAUTH2.0.，存取權杖必須透過公開 API 取得資源。 存取權杖可以透過刷新權杖、客戶端 ID 或客戶端秘密來取得。
 
-**2.1重新整理Token**
+**2.1 刷新標記**
 
-* 擷取OAuth程式碼
+* 取得 OAuth 代碼
 
-需要OAuth程式碼才能擷取重新整理權杖。 使用以下URL登入時，Learning Manager會將使用者重新導向至具有OAuth程式碼的重新導向URL （範例應用程式的「oauthredirect.html」檔案中就範例說明了OAuth程式碼擷取）：
+取得刷新令牌需要 OAuth 程式碼。 Learning Manager 在使用者登入時會以下方網址將使用者重新導向至 OAuth 程式碼（OAuth 程式碼擷取範例在範例應用程式中的「oauthredirect.html」檔案中示範）：
 
 ```
 code https://learningmanager.adobe.com/oauth/o/authorize  
@@ -75,74 +72,74 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-在此，**[!UICONTROL client id]**&#x200B;是在步驟1中取得的應用程式ID。
-**[!UICONTROL redirect_url]** 是在步驟1中設定的redirect_url。
-**[!UICONTROL state]** 是任何虛擬資料，我們需要根據這些資料篩選重新導向URL以取得OAuth程式碼。 範圍是在步驟1中設定的學習者範圍。
-**[!UICONTROL response_typ]**&#x200B;e一律為「代碼」。\
-**[!UICONTROL account]**&#x200B;是選用欄位\
-**[!UICONTROL email]**&#x200B;是選用欄位\
-&#42;如果同時提供帳戶ID和電子郵件，上述URL將允許使用者登入相同的帳戶。 此端點範例在範例應用程式的「index.html」檔案中描述。
+這裡， **[!UICONTROL client id]** 是第一步取得的申請編號。
+**[!UICONTROL redirect_url]** 是步驟1中的redirect_url集合。
+**[!UICONTROL state]** 是任何需要過濾重定向網址以取得 OAuth 程式碼的虛擬資料。 Scope 是第一步中學習者所設定的範圍。
+ 永遠[!UICONTROL response_typ]是「代碼」。\
+**[!UICONTROL account]** 是可選欄位\
+**[!UICONTROL email]** 是一個可選欄位\
+&#42; 如果同時提供帳號 ID 和電子郵件，上述網址就能讓使用者登入同一個帳號。 此端點範例在範例應用程式中的「index.html」檔案中呈現。
 
-* 擷取重新整理Token
+* 取回刷新令牌
 
-收到OAuth代碼後，即可使用從以下端點收到的OAuth代碼、使用者端ID和使用者端密碼來擷取重新整理權杖：
+一旦收到 OAuth 程式碼，即可利用收到的 OAuth 程式碼、用戶端 ID 及用戶端秘密，從以下端點取得刷新權杖：
 
 **https://learningmanager.adobe.com/oauth/token**
 
-在回覆您的post要求時，您將會收到下列內容：
+作為對你發帖請求的回應，你將收到以下資訊：
 
 i. refresh_token\
 二、 access_token\
 三、 user_id\
-iv. expires_in\
+四。 expires_in\
 v. user_role\
-vi. account_id
+Vi。 account_id
 
-**2.2正在從重新整理權杖擷取存取權杖**
+**2.2 從刷新令牌中取回存取權杖**
 
-若要擷取您的存取Token，請使用您的refresh_token、client_id和client_secret將另一個要求作為貼文本文傳送至以下URL：
+要取得您的存取權杖，請以您的 refresh_token、client_id 和 client_secret 作為貼文，發送另一個請求至以下網址：
 
 **https://learningmanager.adobe.com/oauth/token/refresh**
 
-在回覆您的post要求時，您將會收到下列內容：\
+作為對你發帖請求的回應，你將收到以下資訊：\
 i. refresh_token\
 二、 access_token\
 三、 user_id\
-iv. expires_in\
+四。 expires_in\
 v. user_role\
-vi. account_id
+Vi。 account_id
 
-### &#x200B;3. 使用公用api擷取資源 {#retrieveresourcesusingpublicapi}
+### &#x200B;3. 使用公共 API 檢索資源 {#retrieveresourcesusingpublicapi}
 
-作為第三個步驟，您需要使用存取Token ，使用公用API從Learning Manager擷取資源。  發出任何公開api呼叫需要存取權杖，並需要新增到標頭中，如範例應用程式所示。
+第三步，你需要使用存取權杖，利用公開 API 從 Learning Manager 取得資源。  存取權杖是進行任何公開 API 呼叫的必要條件，且必須在標頭中加入，如範例應用程式所示。
 
-## 內嵌式播放器 {#embeddableplayer}
+## 可嵌入播放器 {#embeddableplayer}
 
-協力廠商應用程式可使用內嵌式播放器來播放學習物件的內容。
+第三方應用程式可利用可嵌入播放器播放學習物件的內容。
 
-**在可內嵌的播放器中開啟課程**
+**在可嵌入播放器中開啟課程**
 
-1. 建立可內嵌的URL
+1. 建立一個可嵌入的網址
 
-   若要使用內嵌式播放器開啟課程，您需要建立可內嵌的URL，如下所示：
+   要使用嵌入播放器開啟課程，你需要建立如下所示的可嵌入網址：
 
    `https://learningmanager.adobe.com/app/player?lo_id=<v2-api course id>&access_token=<access_token>`
 
-   在這裡， lo_id必須符合V2 API課程ID格式。
+   在此，lo_id需要遵守 V2 API 課程 ID 格式。
 
    範例： `https://learningmanager.adobe.com/app/player?lo_id=course:123456&access_token=45b269b75ac65d6696d53617f512450f`
 
-   認證、學習計畫和工作輔助也可在內嵌播放器中播放。
+   證書、學習程式和職業輔助工具也能在可嵌入播放器中播放。
 
-   範例： `https://learningmanager.adobe.com/app/player?lo_id=certification:12345&access_token=c1a4847dfbf4007826a027d481b93c1e`
+   舉例： `https://learningmanager.adobe.com/app/player?lo_id=certification:12345&access_token=c1a4847dfbf4007826a027d481b93c1e`
 
    `https://learningmanager.adobe.com/app/player?lo_id=learningProgram:12345&access_token=c1a4847dfbf4007826a027d481b93c1e`
 
    `https://learningmanager.adobe.com/app/player?lo_id=jobAid:1234&access_token=c1a4847dfbf4007826a027d481b93c1e`
 
-1. 在iframe的「src」屬性中設定此URL。
+1. 將這個網址設在 iframe 的「src」屬性中。
 
-**正在關閉內嵌式播放器**
+**閉合可嵌入播放器**
 
 ```
 code window.addEventListener("message", function closePlayer(){  
@@ -152,48 +149,48 @@ code window.addEventListener("message", function closePlayer(){
 });
 ```
 
-## 範例應用程式教學課程 {#sampleapplicationtutorial}
+## 範例應用教學 {#sampleapplicationtutorial}
 
-附加的pdf檔案包含範例應用程式教學課程。
-[內嵌流體播放器的範例教學課程與教學課程來源。](assets/sample-applicationtutorial.zip) 替代內容
+附上的 PDF 文件包含一份範例應用教學。
+[範例教學與教學來源，用於嵌入流體演奏器。](assets/sample-applicationtutorial.zip) 替代內容
 
-如果您是管理員，您可以透過在流體播放器內為學習者提供替代內容的方式來設定課程材料。 例如，如果您的不同地理位置的學習者想使用多種語言，您可以用多種語言建立相同的內容。 流體播放器會向學習者提供設定語言，但學習者也可選擇從播放器內直接切換至替代語言。
+如果你是管理員，你可以設計課程內容，讓學生能在流體遊戲中提供替代內容。 例如，如果你有跨地區的學習者可能想使用多種語言，你可以用多種語言創作相同的內容。 流體玩家會提供學習者可能設定的語言，但學習者也可以選擇在玩家內部切換到其他語言。
 
-視訊專用控制項
+影片專用控制
 
-Learning Manager流體播放器使用的串流技術可為其學習者提供視訊播放體驗，在啟動視訊時不會有任何延遲，並且任何裝置上的磁碟空間皆不需要。 流體播放器也提供智慧型控制功能，例如播放速度(1x、1.5x)和略過+-10秒，這些功能可讓學習者獲得與其學習速度相符所需的精確控制級別。
+Learning Manager 流體播放器所採用的串流技術，為學習者提供影片播放體驗，且不需任何裝置的磁碟空間。 流暢的播放器還提供智慧控制，如播放速度（1倍、1.5倍）及跳過+-10秒，設計用來讓學習者掌握精確的控制力，以匹配學習速度。
 
-這項工作必須由您IT團隊的人員或外部顧問負責進行，他們可建立應用程式，然後託管在您的網站上。
+這是一項需要由 IT 團隊或外部顧問來完成，他們能打造並架設在你網站上的應用程式。
 
-1. 修改Learning Manager內嵌播放器URL，使其包含指向需使用的確切學習物件的引數。
+1. 修改學習管理器中嵌入的玩家網址，並設定參數指向需要取得的精確學習物件。
 
-   URL： [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   網址：  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
-1. 使用下列任一引數啟動課程：
+1. 請使用以下任一參數來啟動課程：
 
-   * course_id ：這是要啟動的課程ID
-   * learning_program_id ：這是要啟動的學習計畫ID
-   * certification_id ：這是要啟動的認證識別碼
-   * lo_id ：要播放的學習物件（課程/學習方案/認證/工作輔助）的識別碼
+   * course_id：這當然是要推出的ID。
+   * learning_program_id：這就是學習的ID（學習之本）計畫即將推出
+   * certification_id：這是發射認證的ID。
+   * lo_id：要遊玩的學習對象（課程/學習程式/認證/工作輔助工具）的 ID
 
 
-1. 使用存取權杖作為必要引數。
+1. 使用存取權杖作為強制參數。
 
-   * access_token ：這是安全性引數，請使用公開API oauth   存取權杖
+   * access_token：這是安全參數，請使用公開的 API OAUTH 存取權杖
 
-   您可以在整合管理員中設定內嵌式流體播放器，取得您的Token。 您可以取得您的驗證Token，將其當作存取權杖使用。
+   你可以在整合管理中設定可嵌入的流體播放器來取得代幣。 你可以取得你的認證令牌，作為你的存取權杖使用。
 
-   已建立的URL範例； `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
+   建立網址範例; `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
 
-   在這裡， lo_id將是課程、學習計畫、認證和工作輔助的識別碼。
+   這裡lo_id課程、學習計畫、認證及就業援助的識別碼。
 
-   lo_id範例 — 課程:21324、學習方案:2143、認證:23432、工作輔助:237
+   lo_id範例-課程：21324，學習課程：2143，認證：23432，職業援助：237
 
-1. 進行Learning Manager API呼叫以擷取上述引數。
+1. 呼叫 Learning Manager API 以取得上述參數。
 
-   這些API呼叫將由您的IT團隊/顧問所撰寫並在您的網站上託管的應用程式進行。
+   這些 API 呼叫是由你的 IT 團隊或顧問撰寫並架設在你網站上的應用程式進行的。
 
-   如需有關使用API的詳細資訊，請參閱此處：
+   關於如何使用 API 的更多細節，請見此處：
 
    Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
 
@@ -201,39 +198,37 @@ Learning Manager流體播放器使用的串流技術可為其學習者提供視�
 
    Learning Manager V2 API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
-   物件的ID與V1和V2 API不同。 內嵌式播放器需要v2格式的ID。 在V2中使用ID對應API從V1 ID轉換為V2 ID。
+   物件的 ID 與 V1 和 V2 API 不同。 可嵌入播放器預期會有 v2 格式的 ID。 使用 V2 中的 ID 映射 API，將 V1 ID 轉換成 V2 ID。
 
-   建構URL後，應用程式將其用於向學習者顯示的一種方式是將其放在iFrame中。 按一下此連結會啟動含有特定課程內容之流體播放器。
+   建構 URL 後，應用程式會用它來顯示給學習者，其中一種方式是將其放入 iFrame 中。 點擊此連結會引導流體玩家啟動，並以該賽道為背景。
 
    ![](assets/salesforce-player.png)
 
-   若要檢查進度和完成報告，請登入Learning Manager。
+   要查看進度與完成報告，請登入學習管理員。
 
-   當學習者關閉播放器時，流體播放器會使用html5 postMessage傳送「關閉」訊息給上層元素。 載入控制器應處理此訊息並繼續。
+   當學習者關閉播放器時，流體播放器會使用 html5 postMessage 向父元素發送「關閉」訊息。 載入控制器應該會處理這個訊息並繼續。
 
-修改Learning Manager內嵌播放器URL，使其包含指向需使用的確切學習物件的引數。
+修改學習管理器中嵌入的玩家網址，並設定參數指向需要取得的精確學習物件。
 
-URL： [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+網址：  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
-下列任一引數都可用來啟動課程：
+以下任何一個參數都可以用來啟動賽道：
 
-* course_id ：這是要啟動的課程ID
-* learning_program_id ：這是要啟動的學習計畫ID
-* certification_id ：這是要啟動的認證識別碼
-* lo_id ：要播放的學習物件（課程/學習方案/認證/工作輔助）的識別碼
+* course_id：這當然是要推出的ID。
+* learning_program_id：這就是學習的ID（學習之本）計畫即將推出
+* certification_id：這是發射認證的ID。
+* lo_id：要遊玩的學習對象（課程/學習程式/認證/工作輔助工具）的 ID
 
-必要引數：
+必備參數：
 
-* access_token ：這是安全性引數，請使用公開API oauth   存取權杖
+* access_token：這是安全參數，請使用公開的 API OAUTH 存取權杖
 
-進行Learning Manager API呼叫以擷取上述引數。 這些API呼叫將由您的IT團隊/顧問所撰寫並在您的網站上託管的應用程式進行。
+呼叫 Learning Manager API 以取得上述參數。 這些 API 呼叫是由你的 IT 團隊或顧問撰寫並架設在你網站上的應用程式進行的。
 
-如需有關使用API的詳細資訊，請參閱此處：
+關於如何使用 API 的更多細節，請見此處：
 
 Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
 
 
 
-Learning Manager V2 API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-
+Learning Manager V2 API -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
