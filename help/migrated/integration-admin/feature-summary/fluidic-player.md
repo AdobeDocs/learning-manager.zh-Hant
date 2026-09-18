@@ -16,7 +16,7 @@ ht-degree: 0%
 
 作為企業，你現在甚至可以為學習者提供客製化體驗，甚至在 Learning Manager 之外。 利用公開 API，你可以取得所有與學習物件、學習者註冊及學習進度相關的資訊，並展示在你的網站上。 更重要的是，你甚至可以將 Learning Manager 的流暢播放器嵌入網站，讓學習者能直接在網站上閱讀內容。 流體玩家讓你能遊玩 Learning Manager 支援的任何內容。 當它嵌入在你自己的網站上時，功能與在 Learning Manager 中使用時完全相同。
 
-**播放任何電子學習內容[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**播放任何電子學習內容[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Fluidic 播放器幾乎能以同樣一致且直覺的方式播放任何類型的電子學習內容，無需任何外掛或下載。 學習者可以啟動內容，無論內容檔案類型為何，都會開始播放。
 
@@ -48,7 +48,7 @@ Fluidic 播放器幾乎能以同樣一致且直覺的方式播放任何類型的
 
 1. 請從頁面右上角選擇 **[!UICONTROL Register]** 。
 1. **[!UICONTROL Register a new application]**&#x200B;窗戶打開了。填寫必填欄位。
-1. 如果自訂應用程式需要在多個帳號間共享，請在選項欄位中選擇&#x200B;**[!UICONTROL No]****[!UICONTROL For this account only?]**
+1. 如果自訂應用程式需要在多個帳號間共享，請在選項欄位中選擇&#x200B;**[!UICONTROL No]**&#x200B;**[!UICONTROL For this account only?]**
 1. 要儲存應用程式並產生你的應用程式 ID 與秘密，請點擊 **[!UICONTROL Save]**。
 
 ### &#x200B;2. 取回存取權杖 {#retrievingaccesstoken}

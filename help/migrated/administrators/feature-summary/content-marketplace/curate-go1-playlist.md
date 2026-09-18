@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->你需要持有有效的 Go1 執照，才能將 Go1 課程加入學習路徑或認證。 請參閱本文[](/help/migrated/administrators/feature-summary/content-marketplace.md)以了解更多關於 Go1 授權細節的資訊。
+>你需要持有有效的 Go1 執照，才能將 Go1 課程加入學習路徑或認證。 請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/content-marketplace.md)以了解更多關於 Go1 授權細節的資訊。
 
 ## 建立學習路徑
 
@@ -29,7 +29,7 @@ ht-degree: 0%
    ![](assets/select-add-to-lp.png)
    _選擇「新增學習路徑」區塊，為學習者建立並組織新的結構化訓練課程_
 
-4. 輸入所需資料並選擇 **[!UICONTROL Save]**。 欲了解更多資訊，請參閱本文[](/help/migrated/administrators/feature-summary/learning-paths.md)。
+4. 輸入所需資料並選擇 **[!UICONTROL Save]**。 欲了解更多資訊，請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/learning-paths.md)。
 5. 你可以透過以下方式將課程加入學習路徑：
 
    * **[!UICONTROL Add Courses or Learning Paths]**： 新增 Adobe Learning Manager 中現有的課程或學習路徑。
@@ -50,7 +50,7 @@ Adobe Learning Manager 提供 AI 驅動的協助，讓管理員更容易策劃�
 
 要用 AI 建立播放清單：
 
-1. 在 Go1 內容中心&#x200B;**選擇&#x200B;**[!UICONTROL Chat with AI]**選項**。
+1. 在 Go1 內容中心&#x200B;**選擇&#x200B;**&#x200B;[!UICONTROL Chat with AI]&#x200B;**選項**。
 
    ![](assets/select-chat-with-ai.png)
    _內容中心畫面顯示「與 AI 聊天」選項，管理員可與 AI 助理互動提問_
@@ -125,7 +125,7 @@ Adobe Learning Manager 提供 AI 驅動的協助，讓管理員更容易策劃�
 9. 利用可用的 AI 選項更改描述：
    * **[!UICONTROL Improve writing]**：細化現有的描述以使其更清楚。
    * **[!UICONTROL Generate description]**：根據內容或上下文自動建立新的描述。
-   * **[!UICONTROL  Make it shorter]**：縮短文字或標題，同時保留主要思想。
+   * **[!UICONTROL &#x200B; Make it shorter]**：縮短文字或標題，同時保留主要思想。
 
    ![](assets/ai-option-descriptions.png)
    _Go1 播放清單建立畫面，搭配 AI 選項以強化播放清單描述_

@@ -76,7 +76,7 @@ a. **[!UICONTROL As Notification]** b. **[!UICONTROL As Masthead]** c. **[!UICON
 
 8. 選擇 **[!UICONTROL Save]**。
 
-只有在自訂管理員權限範圍內的學習者才能查看公告。 請參閱這篇文章[](/help/migrated/administrators/feature-summary/announcements.md)，了解如何製作多種類型的公告。
+只有在自訂管理員權限範圍內的學習者才能查看公告。 請參閱這篇文章[&#128279;](/help/migrated/administrators/feature-summary/announcements.md)，了解如何製作多種類型的公告。
 
 ## 由自訂管理員重設範圍
 

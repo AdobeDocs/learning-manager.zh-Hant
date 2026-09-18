@@ -15,7 +15,7 @@ ht-degree: 0%
 ## 先決條件
 
 1. 管理員必須在設定選單中啟用多項目 SKU 購物車。
-1. 在管理應用程式中，導>**[!UICONTROL Settings]****[!UICONTROL General]**，然後選擇該&#x200B;**[!UICONTROL Enable Multi Item SKU Cart]**&#x200B;選項。
+1. 在管理應用程式中，導>**[!UICONTROL Settings]**&#x200B;**[!UICONTROL General]**，然後選擇該&#x200B;**[!UICONTROL Enable Multi Item SKU Cart]**&#x200B;選項。
 
 此選項允許學習者同時購買多門課程。
 

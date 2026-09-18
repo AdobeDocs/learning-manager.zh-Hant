@@ -67,7 +67,7 @@ Adobe 強烈建議管理員在全組織範圍內執行兩步驟驗證（2FA）�
 >
 >Adobe 建議強制執行雙重驗證，且不讓使用者成為可選。 雙重驗證可能需要長達24小時才能申請。 對於聯邦身份證使用者，請在你的身份提供者處強制執行多重認證（MFA）。
 
-更多資訊](https://helpx.adobe.com/enterprise/using/authentication-settings.html)請參閱[安全使用者驗證。
+更多資訊[&#128279;](https://helpx.adobe.com/enterprise/using/authentication-settings.html)請參閱安全使用者驗證。
 
 
 ## 以管理員身份登入

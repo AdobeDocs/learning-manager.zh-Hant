@@ -24,15 +24,15 @@ ht-degree: 0%
 
 作為管理員，你可能會想將外部使用者（例如合作夥伴組織的員工）加入你的 Learning Manager 帳號。 新增外部使用者：
 
-1. 從 **[!UICONTROL **Administrator**]**login 頁面，點擊左側導覽窗格的 **[!UICONTROL **Users**]**。
+1. 從 **[!UICONTROL **Administrator**]**&#x200B;login 頁面，點擊左側導覽窗格的 **[!UICONTROL **Users**]**。
 1. 在 **[!UICONTROL **Users**]** 頁面，點擊左側導覽窗格的 **[!UICONTROL **External**]**。 系統會顯示外部使用者頁面及外部使用者清單（如適用）。
 1. 點擊頁面右上角的 **[!UICONTROL **Add**]**。
 
    ![](assets/set-up-external-users-step3.png)
 
-1. 在 **[!UICONTROL **新增使用者**]**彈出對話框中，以下欄位為必填：
+1. 在 **[!UICONTROL **新增使用者**]**&#x200B;彈出對話框中，以下欄位為必填：
 
-   * **[!UICONTROL **&#x200B;個人檔案名稱**：]**請指定你正在建立的外部個人檔案名稱。
+   * **[!UICONTROL **&#x200B;個人檔案名稱**：]**&#x200B;請指定你正在建立的外部個人檔案名稱。
    * **[!UICONTROL **&#x200B;管理員電子郵件&#x200B;**：]** 請指定外部使用者經理的電子郵件地址。
    * **[!UICONTROL **&#x200B;分配名額&#x200B;**：]** 指定可報名課程的學習人數。
    * **[!UICONTROL **&#x200B;過期：**]**&#x200B;指定過期日期，超過此期限外，外部使用者無法註冊或使用課程。
@@ -65,11 +65,11 @@ ht-degree: 0%
 
 在 Learning Manager 新增外部使用者群組後，你也可以暫停外部使用者註冊流程。 暫停時，外部用戶註冊流程會被阻擋。 不過，這個流程只有在用戶尚未接受邀請註冊時才有效。
 
-若要暫停外部使用者群組，請從頁面右上角點擊「**[!UICONTROL **Actions**]**，並選擇 **[!UICONTROL Pause]**。
+若要暫停外部使用者群組，請從頁面右上角點擊「**[!UICONTROL **Actions**]&#x200B;**，並選擇 &#x200B;** [!UICONTROL Pause]**。
 
 ## 恢復外部使用者檔案 {#resumeexternaluserprofile}
 
-在任何時候，你都可以選擇「繼續」選項來解除阻塞（暫停）。 點擊頁面右上角的 **[!UICONTROL **Actions**]** 並選擇 **[!UICONTROL Resume]**。
+在任何時候，你都可以選擇「繼續」選項來解除阻塞（暫停）。 點擊頁面右上角的 **[!UICONTROL **Actions**] **&#x200B; 並選擇 &#x200B;** [!UICONTROL Resume]**。
 
 **[!UICONTROL External user states]**
 
@@ -94,7 +94,7 @@ ht-degree: 0%
 如果使用者數量眾多，你可以選擇此方法新增內部使用者。 當你第一次使用 CSV 新增使用者時，必須將 CSV 資料內容映射到應用程式標籤。 之後當你新增使用者或更新使用者資料時，相同的映射會被保留。 要大量新增內部使用者：
 
 1. 在頁面 **[!UICONTROL Administrator Home]** 上，點擊左側導覽窗格中的 **[!UICONTROL **Users**]**。
-1. 點擊 **[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;上傳 CSV **檔。]**
+1. 點擊 **[!UICONTROL **&#x200B;新增&#x200B;**>**&#x200B;上傳 CSV &#x200B;** 檔。]**
 1. 在彈出視窗中，點擊 **[!UICONTROL **&#x200B;匯入&#x200B;**。]**
 1. 瀏覽你儲存 CSV 檔案的位置。 點擊 **[!UICONTROL Open]**。
 1. 匯入 CSV 檔案，並將 CSV 檔案內容與應用程式標籤對應。 此步驟僅適用於您首次上傳 CSV 檔案時。
@@ -156,15 +156,15 @@ ht-degree: 0%
 
 1. 在「新增使用者」彈出視窗中，請為使用者指定以下細節：
 
-   * **[!UICONTROL Name]****[!UICONTROL :]**&#x200B;請指定員工或內部使用者的姓名。這個欄位是必修的。
+   * **[!UICONTROL Name]**&#x200B;**[!UICONTROL :]**&#x200B;請指定員工或內部使用者的姓名。這個欄位是必修的。
 
-   * **[!UICONTROL Email]****[!UICONTROL :]**&#x200B;請指定員工的電子郵件 ID。這個欄位是必修的。
+   * **[!UICONTROL Email]**&#x200B;**[!UICONTROL :]**&#x200B;請指定員工的電子郵件 ID。這個欄位是必修的。
 
-   * **[!UICONTROL Profile]****[!UICONTROL :]**&#x200B;請明確說明員工的職稱或職稱。
+   * **[!UICONTROL Profile]**&#x200B;**[!UICONTROL :]**&#x200B;請明確說明員工的職稱或職稱。
 
    * **[!UICONTROL **&#x200B;經理姓名&#x200B;**：]** 請指定經理的姓名。 管理器應該已經加入了這裡指定的資料庫。
    * **[!UICONTROL **&#x200B;司法部&#x200B;**：]** 請說明員工入職日期。
-   * **[!UICONTROL **&#x200B;地點**：]**請指定員工所在地。 例如，如果您的組織分布在多個地理位置，請指定員工所在的位置。
+   * **[!UICONTROL **&#x200B;地點**：]**&#x200B;請指定員工所在地。 例如，如果您的組織分布在多個地理位置，請指定員工所在的位置。
 
 
 
