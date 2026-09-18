@@ -25,7 +25,7 @@ ht-degree: 0%
 
 Adobe Learning Manager 採用基於角色的存取控制（RBAC）模型來管理管理存取權限。 行政職務僅由授權管理員指派。
 
-更多資訊請參閱 [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) 中的自訂角色
+更多資訊請參閱 [Adobe Learning Manager](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/custom-role) 中的自訂角色
 
 ## 身份類型與推薦的認證方式
 
@@ -39,12 +39,12 @@ Adobe 管理控制台支援三種管理員帳號的身份類型。 身份類型�
 
 更多資訊請參見以下內容：
 
-* [身份類型](https://helpx.adobe.com/enterprise/using/admin-console.html)
-* [安全使用者驗證與密碼](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [身份類型](https://helpx.adobe.com/tw/enterprise/using/admin-console.html)
+* [安全使用者驗證與密碼](https://helpx.adobe.com/tw/enterprise/using/authentication-settings.html)
 
 ## 角色指派與存取控制
 
-Adobe Learning Manager 中對管理員帳號的存取，是透過 [現有管理員明確指派](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) 角色來控制的。 安全管理存取的主要特徵包括：
+Adobe Learning Manager 中對管理員帳號的存取，是透過 [現有管理員明確指派](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/user-management/add-users-user-groups) 角色來控制的。 安全管理存取的主要特徵包括：
 
 * 行政職務僅由授權管理員指派。
 * 存取權限是基於角色的，並依據分配權限來設定範圍。
@@ -67,12 +67,12 @@ Adobe 強烈建議管理員在全組織範圍內執行兩步驟驗證（2FA）�
 >
 >Adobe 建議強制執行雙重驗證，且不讓使用者成為可選。 雙重驗證可能需要長達24小時才能申請。 對於聯邦身份證使用者，請在你的身份提供者處強制執行多重認證（MFA）。
 
-更多資訊[&#128279;](https://helpx.adobe.com/enterprise/using/authentication-settings.html)請參閱安全使用者驗證。
+更多資訊[&#128279;](https://helpx.adobe.com/tw/enterprise/using/authentication-settings.html)請參閱安全使用者驗證。
 
 
 ## 以管理員身份登入
 
-ALM [管理員可](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin) 直接使用管理控制台管理的組織憑證登入 ALM 平台。
+ALM [管理員可](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/get-started/getting-started-admin) 直接使用管理控制台管理的組織憑證登入 ALM 平台。
 
 ### 指派管理員角色
 
@@ -87,7 +87,7 @@ ALM [管理員可](https://experienceleague.adobe.com/en/docs/learning-manager/u
 
 自訂管理角色讓客戶能委派管理任務，同時維持對帳號層級權限的集中控制。 自訂管理員可設定為特定使用者群組或目錄。
 
-更多資訊請參見 [新增使用者與使用者群組](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) 。
+更多資訊請參見 [新增使用者與使用者群組](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/user-management/add-users-user-groups) 。
 
 ## 設定登入方式與單點登入
 
@@ -98,7 +98,7 @@ ALM 管理員透過設定>登入方法控制所有使用者可用的登入方式
 
 Adobe 建議所有內部使用者使用 Federated ID / SAML 2.0 SSO 作為登入方式。 這確保認證由貴組織的身份提供者完全控制，實現集中多重身份驗證（MFA）執行及用戶離開後立即撤銷帳號。
 
-更多資訊請參閱 [設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings) 。
+更多資訊請參閱 [設定](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/settings) 。
 
 ## 推薦的配置安全預設
 
@@ -138,7 +138,7 @@ Adobe 建議所有內部使用者使用 Federated ID / SAML 2.0 SSO 作為登入
 
 管理員在執行行政操作時，預期必須遵守組織內部的存取控制與變更管理政策。
 
-請參閱 [Adobe Learning Manager 管理員常見問題](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
+請參閱 [Adobe Learning Manager 管理員常見問題](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
 
 
 ### 角色階層與委派
@@ -159,7 +159,7 @@ Adobe 管理主控台採用階層式管理架構。 系統管理員可以將責�
 * **最低常駐存取**&#x200B;權：避免使用頂層管理員帳號執行例行任務。 將完整管理員權限保留給特別需要的任務。
 * **會話安全**：在管理控制台>設定>進階設定中設定最大會話壽命與最大閒置時間，以減少無人值守會話的暴露。
 
-更多資訊請參閱 [管理控制台總覽](https://helpx.adobe.com/enterprise/using/admin-console.html) 。
+更多資訊請參閱 [管理控制台總覽](https://helpx.adobe.com/tw/enterprise/using/admin-console.html) 。
 
 ### 管理管理員控制下的使用者帳號
 
@@ -172,8 +172,8 @@ ALM 管理員管理內部及外部使用者帳號。 與安全相關的作業包
 
 更多資訊請參見以下內容：
 
-* [新增使用者及使用者群組](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)
-* [清除使用者](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)
+* [新增使用者及使用者群組](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/user-management/add-users-user-groups)
+* [清除使用者](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/purge-users)
 
 ## 行政帳目解碼
 
@@ -201,8 +201,8 @@ ALM 管理員管理內部及外部使用者帳號。 與安全相關的作業包
 
 更多資訊請參見以下內容：
 
-* [在管理控制台建立、更新或移除使用者帳號](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
-* [如何離開你所屬的組織帳號](https://helpx.adobe.com/enterprise/using/leave-organization.html)
+* [在管理控制台建立、更新或移除使用者帳號](https://helpx.adobe.com/tw/enterprise/using/manage-users-individually.html)
+* [如何離開你所屬的組織帳號](https://helpx.adobe.com/tw/enterprise/using/leave-organization.html)
 
 ### 移除 ALM 管理員角色
 
@@ -215,7 +215,7 @@ ALM 管理員管理內部及外部使用者帳號。 與安全相關的作業包
 
 使用者會回復到學習者角色。 他們的學習歷史與課程註冊紀錄均被保留。
 
-更多資訊請參閱 [新增使用者及使用者群組](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) 。
+更多資訊請參閱 [新增使用者及使用者群組](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/user-management/add-users-user-groups) 。
 
 ### 刪除並清除使用者
 
@@ -224,7 +224,7 @@ ALM 管理員管理內部及外部使用者帳號。 與安全相關的作業包
 * 刪除使用者：使用者>內部>選擇使用者>動作>刪除使用者。 這會讓帳號失效並移除主動存取權限。
 * 清除使用者：刪除後，前往使用者>使用者清理，選擇刪除月份，選擇使用者，並選擇行動>清除使用者。 清除會永久移除所有使用者紀錄。
 
-更多資訊請參閱 [清除用戶](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users) 。
+更多資訊請參閱 [清除用戶](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/purge-users) 。
 
 
 ## 安全與共同責任
@@ -234,7 +234,7 @@ Adobe Learning Manager 採用共同責任模式：
 * Adobe 負責保護底層的 ALM 平台與基礎設施。
 * 客戶需負責管理其 ALM 帳戶中的管理權限、角色指派及使用者生命週期活動。
 
-關於 Adobe Learning Manager 安全實務的更多資訊，請參閱 [Adobe Learning Manager 安全概覽（PDF）](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+關於 Adobe Learning Manager 安全實務的更多資訊，請參閱 [Adobe Learning Manager 安全概覽（PDF）](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=zh-Hant)
 
 ## 文件維護
 
