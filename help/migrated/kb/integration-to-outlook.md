@@ -1,67 +1,63 @@
 ---
-description: 瞭解管理員和講師如何檢視學習者對行事曆邀請的回應。
+description: 了解管理員與講師如何查看學習者對行事曆邀請的回應。
 jcr-language: en_us
-title: 在Learning Manager上檢視學習者對Outlook行事曆邀請的回應
+title: 查看學習者對 Outlook 日曆邀請的回應，該邀請
 contentowner: kuppan
 preview: true
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
+# 查看學習者對 Outlook 日曆邀請的回應 [!DNL Learning Manager]
 
+了解管理員與講師如何查看學習者對行事曆邀請的回應。
 
+在學習管理員中，當學習者註冊課程中的虛擬課程/教室課程時，會收到詳細的 Outlook 行事曆邀請。
 
-# 檢視學習者對[!DNL Learning Manager]上的Outlook行事曆邀請的回應
+學習者對課程邀請的回應會記錄在學習管理員中，管理員與講師可查看詳細資訊。
 
-瞭解管理員和講師如何檢視學習者對行事曆邀請的回應。
-
-在Learning Manager中，當學習者註冊課程中的虛擬課程/教室工作階段時，學習者會獲得詳細的Outlook行事曆邀請。
-
-學習者對工作階段邀請的回應會記錄在Learning Manager中，管理員和講師可以檢視詳情。
-
-如果學習者回應相同邀請多次，則會考量最新回應並覆寫前一個回應。 如果工作階段計時變更，則會清除所有邀請回應，學習者需要再次回應請求。
+如果學習者對同一邀請回覆超過一次，則會考慮最新的回應並覆蓋先前的回覆。 若課程時間改變，所有邀請回應將被清除，學習者需再次回應該請求。
 
 ## 啟用邀請回覆追蹤功能 {#enablingtheinvitereplytrackingfeature}
 
-* 請聯絡Adobe Learning Manager支援以啟用邀請回覆追蹤功能。
-* 為帳戶啟用此功能後，作者建立的所有未來虛擬類別/類別聊天室工作階段都可以記錄學習者對行事曆邀請的回應。
+* 請聯絡 Adobe Learning Manager 支援，啟用邀請回覆追蹤功能。
+* 一旦該功能啟用，所有由作者建立的未來虛擬教室/教室課程都能記錄學習者對行事曆邀請的回應。
 
-如果學習者註冊了在啟用邀請 — 回覆 — 追蹤功能之前建立的虛擬類別/類別會議室工作階段，則不會記錄學習者對行事曆邀請的回應。
+若學習者在啟用邀請回覆追蹤功能前已註冊虛擬課程/教室課程，則學習者對行事曆邀請的回應不會被記錄。
 
-## 以管理員身分檢視邀請回應 {#viewinginviteresponsesasanadmin}
+## 以管理員身份查看邀請回應 {#viewinginviteresponsesasanadmin}
 
-如果虛擬類別/類別聊天室工作階段已啟用邀請回覆追蹤功能，則管理員可檢視學習者對邀請的回應以及其他許可權，如下所示：
+如果虛擬教室/教室課程啟用了邀請-回覆追蹤功能，管理員可以查看學習者對邀請的回應及其他權限，如下：
 
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Course]**，並檢視啟用邀請回覆追蹤功能後建立的課程。
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Attendance & Scoring]**。
-1. 若要顯示下表中包含學習者名稱及其對於行事曆邀請的回應，請在「出席與評分」頁面上選取&#x200B;**執行個體**&#x200B;和&#x200B;**[!UICONTROL Module]**。
-1. 使用&#x200B;**[!UICONTROL Invite]**&#x200B;篩選依據下列選項來檢視學習者：所有回應、已接受、已拒絕、暫定及已傳送
-
-   ![](assets/invite-filter.png)
-
-1. 若要只傳送電子郵件給已選取的學習者，請從「出席與評分」頁面的右上角按一下「**[!UICONTROL Actions]** > **[!UICONTROL Send Email to Selected]**」。
-
-   若要傳送電子郵件給「出席與評分」頁面中顯示的所有學習者，請按一下「**[!UICONTROL Actions]** > **[!UICONTROL Send Email to All]」。**
-
-1. 若要下載學習者工作階段詳細資訊的csv報告（顯示在出席與評分頁面中），請按一下「**[!UICONTROL Actions]** > **[!UICONTROL Export]」。**
-
-## 以講師的身分檢視邀請回應 {#viewinginviteresponsesasaninstructor}
-
-如果帳戶已啟用邀請 — 回覆 — 追蹤功能，請依照下列程式檢視學習者對行事曆邀請的回應：
-
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Upcoming Sessions]**&#x200B;並選取課程。
-1. 按一下左側導覽面板中的&#x200B;**[!UICONTROL Learners]**，以取得已回應行事曆邀請的學習者詳細檢視。
-1. 使用&#x200B;**[!UICONTROL Invite]**&#x200B;篩選器，根據下列選項篩選學習者的名稱：已接受、已拒絕、暫定及已傳送
+1. 從左側導覽面板點擊 **[!UICONTROL Course]** ，查看啟用邀請-回覆追蹤功能後所建立的課程。
+1. 從左側導航面板點擊 **[!UICONTROL Attendance & Scoring]** 。
+1. 若要在下方顯示學習者姓名及其對行事曆邀請的回應，請選擇 **實例** ，並 **[!UICONTROL Module]** 於出席與評分頁面。
+1. 使用 **[!UICONTROL Invite]** 篩選器可根據以下選項查看學習者：所有回應、接受、拒絕、暫定及已送出
 
    ![](assets/invite-filter.png)
 
-1. 您可以根據顯示的學習者資訊傳送電子郵件給學習者。
+1. 若要只向被選中的學習者發送電子郵件，請從出席與評分頁面右上角點擊 **[!UICONTROL Actions]** > **[!UICONTROL Send Email to Selected]** 。
 
-   若要只傳送電子郵件給已選取的學習者，請按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Email to Selected]**。
+   若要將電子郵件寄送給所有顯示於「出席與評分」頁面的學習者，請點擊 **[!UICONTROL Actions]** > **[!UICONTROL Send Email to All]。**
 
-   若要傳送電子郵件給顯示表格中的所有學習者，請按一下「**[!UICONTROL Actions]** > **[!UICONTROL Email to All]**」。
+1. 若要下載學生課程細節的csv報告，該報告顯示於出席與評分頁面，請點擊 **[!UICONTROL Actions]** > **[!UICONTROL Export]。**
+
+## 作為講師查看邀請回覆 {#viewinginviteresponsesasaninstructor}
+
+如果該帳號啟用了邀請-回覆追蹤功能，請依以下程序查看學習者對行事曆邀請的回應：
+
+1. 從左側導覽面板點擊 **[!UICONTROL Upcoming Sessions]** 並選擇課程。
+1. 點擊 **[!UICONTROL Learners]** 左側導覽面板，可詳細查看回覆行事曆邀請的學習者名單。
+1. 使用 **[!UICONTROL Invite]** 篩選器依以下選項篩選學習者姓名：接受、拒絕、暫定及已送出
+
+   ![](assets/invite-filter.png)
+
+1. 根據顯示的學習者資訊，你可以向學習者發送電子郵件。
+
+   若要僅寄送電子郵件給已被選中的學習者，請點擊 **[!UICONTROL Actions]** > **[!UICONTROL Email to Selected]**。
+
+   要向顯示表格中的所有學習者發送電子郵件，請點擊 **[!UICONTROL Actions]** > **[!UICONTROL Email to All]**。
 
    ![](assets/instructor-actions1.png)
-

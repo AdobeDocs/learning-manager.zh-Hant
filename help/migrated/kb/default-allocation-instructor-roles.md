@@ -1,64 +1,61 @@
 ---
 jcr-language: en_us
-title: Learning Manager中講師角色的預設配置給使用者群組
-description: Learning Manager中講師角色的預設配置給使用者群組
+title: Learning Manager 中使用者群組中教師角色的預設分配
+description: Learning Manager 中使用者群組中教師角色的預設分配
 contentowner: nluke
 preview: true
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: a2ceeae5-7ad6-4910-94b5-9ef455129566
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '283'
 ht-degree: 0%
-
 ---
+# Learning Manager 中使用者群組中教師角色的預設分配
 
+## 子嗣
 
-
-# Learning Manager中講師角色的預設配置給使用者群組
-
-## 問題
-
-分配給工作階段的所有使用者都會被指派講師的角色。
+所有被分配到該會話的使用者都會被指派為講師的角色。
 
 ## 說明
 
-在某些情況下，一個工作階段可能需要多個講師，或者管理員/作者將使用者群組指派給一個工作階段。 這會導致使用者群組中的所有使用者被指派為講師的角色。
+有些情境下，一個會話可能需要多位講師，或管理員/作者指派使用者群組到某個會話。 這會導致使用者群組中的所有使用者都被指派為講師的角色。
 
-## 原因
+## 成因
 
-由於角色無法在大量指派使用者群組使用者期間進行分支，因此會指派講師角色給所有使用者。
+由於在使用者群組中大量指派使用者時，角色無法分支，因此講師角色會分配給所有使用者。
 
-## 解決方案
+## 解法
 
-建立自訂使用者群組以篩選指派給工作階段的使用者角色。 若要移除使用者群組中指派的講師角色，請執行下列步驟：
+建立自訂使用者群組以篩選分配給會話的使用者角色。 要移除使用者群組中指定的講師角色，請執行以下步驟：
 
-1. 以管理員身分登入。 在左側面板中，按一下&#x200B;**[!UICONTROL Email Templates]**。
-1. 若要避免電子郵件觸發以進行變更，請按一下&#x200B;**[!UICONTROL Disable All]**。
+1. 以管理員身份登入。 在左側面板，點擊 **[!UICONTROL Email Templates]**。
+1. 為了避免收到電子郵件觸發變更，請點擊 **[!UICONTROL Disable All]**。
 
    ![](assets/instructor-disable-all.png)
 
-1. 瀏覽至&#x200B;**使用者** > **使用者群組**。 按一下&#x200B;**[!UICONTROL Add]**。
+1. 前往 **使用者** > **使用者群組**。 點擊 **[!UICONTROL Add]**。
 
    ![](assets/instructor-usergroups.png)
 
-1. 在「新增使用者群組」視窗中建立自訂使用者群組，如下所示：
+1. 在新增使用者群組視窗中建立自訂使用者群組，如下：
 
-   * 在&#x200B;**[!UICONTROL Name]**&#x200B;欄位中輸入自訂群組的名稱。
-   * 在&#x200B;**[!UICONTROL Include Learners]**&#x200B;欄位下，新增您要篩選其講師的使用者群組。
-   * 在&#x200B;**[!UICONTROL Exclude Learners]**&#x200B;欄位下，新增您要保留講師角色的使用者。
+   * 在欄位 **[!UICONTROL Name]** 中輸入自訂群組的名稱。
+   * 在欄位中 **[!UICONTROL Include Learners]** ，新增你想篩選講師的使用者群組。
+   * 在欄位中 **[!UICONTROL Exclude Learners]** ，新增你想保留講師角色的使用者。
 
    ![](assets/instructor-add-ug.png)
 
-   上述步驟會建立要新增至包含集中的使用者清單，並移除排除集中提及的特定使用者（講師）。
+   上述步驟會建立一個要加入包含集的使用者清單，並移除排除集中提及的特定使用者（講師）。
 
-1. 按一下&#x200B;**[!UICONTROL Save]**&#x200B;所做的變更。
-1. 前往「**[!UICONTROL Users]** > **[!UICONTROL Internal]**」搜尋已建立的自訂使用者群組。
+1. 點擊 **[!UICONTROL Save]** 已更改。
+1. 請 **[!UICONTROL Users]** 前往 > **[!UICONTROL Internal]**&#x200B;搜尋已建立的自訂使用者群組。
 
    ![](assets/instructor-custom-ug.png)
 
-1. 按一下核取方塊以選取群組中的所有使用者。
+1. 點選勾選方塊以選取群組中的所有使用者。
 
    ![](assets/instructor-bulk-ug.png)
 
-1. 按一下&#x200B;**[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **[!UICONTROL Remove Instructor]**。
+1. 點擊 **[!UICONTROL Actions]** > **[!UICONTROL Remove Role]** > **[!UICONTROL Remove Instructor]**。
 
-請確保在步驟2中停用的任何電子郵件觸發程式在完成後都重新啟用。
+確保步驟 2 中被停用的電子郵件觸發器在完成後重新啟用。

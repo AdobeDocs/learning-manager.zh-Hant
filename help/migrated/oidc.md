@@ -2,14 +2,12 @@
 description: 了解 OIDC 登入方式
 jcr-language: en_us
 title: 使用 OpenID Connect 登入 Adobe Learning Manager
-source-git-commit: 7c430e3fbb2716455310f2130d73af10ce2e56c7
+exl-id: 7f85f359-0f4c-428f-a104-c4ae3071793a
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 0%
-
 ---
-
-
 # 使用 OpenID Connect （OIDC） 登入 Adobe Learning Manager。
 
 了解 Adobe Learning Manager 中 OpenID Connect 登入的運作方式，適用於學習者、作者與管理員。 本文介紹的是經驗，而非實際執行。
@@ -54,7 +52,7 @@ OIDC 是您帳戶可能提供的其他登入選項的替代方案，例如 Adobe
 
 ### 返回 Adobe Learning Manager
 
-成功登入後，瀏覽器會將你返回 Adobe Learning Manager。 那麼，產品：
+成功登入後，瀏覽器會將你返回 Adobe Learning Manager。 該產品：
 
 * 根據你組織的設定，透過你的身份提供者提供的電子郵件和個人資料資訊來識別你
 * 套用 Adobe Learning Manager 中的權限（學習者、作者、管理員、整合管理員等）

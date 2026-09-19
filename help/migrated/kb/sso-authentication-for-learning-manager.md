@@ -1,41 +1,37 @@
 ---
-description: 本檔案可協助您設定SSO驗證，以登入您的Learning Manager帳戶。
+description: 本文件協助你設定 SSO 認證，以便登入你的學習管理員帳號。
 jcr-language: en_us
-title: 使用SSO驗證登入Learning Manager
+title: 使用 SSO 認證登入 Learning Manager
 contentowner: dvenkate
-source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '113'
+source-wordcount: '115'
 ht-degree: 0%
-
 ---
+# 使用 SSO 認證登入 Learning Manager
 
+本文件協助你設定 SSO 認證，以便登入你的學習管理員帳號。
 
+要設定 SSO 認證，請執行以下步驟：
 
-# 使用SSO驗證登入Learning Manager
-
-本檔案可協助您設定SSO驗證，以登入您的Learning Manager帳戶。
-
-若要設定SSO驗證，請執行下列步驟：
-
-1. 開啟&#x200B;**[!UICONTROL Settings]** > **[!UICONTROL Login Methods.]**
+1. 開放 **[!UICONTROL Settings]** > **[!UICONTROL Login Methods.]**
 
    ![](assets/login-methods.png)
 
-1. 根據您的需求，選擇&#x200B;**[!UICONTROL Internal Users]**&#x200B;或&#x200B;**[!UICONTROL External Users]**。
-1. 按一下&#x200B;**[!UICONTROL login]**&#x200B;選項旁的下拉式清單，然後選取&#x200B;**[!UICONTROL Single Sign-On]**。
+1. 根據你的需求選擇 **[!UICONTROL Internal Users]** 或 **[!UICONTROL External Users]** 選擇。
+1. 點選選項旁的  **[!UICONTROL login]** 下拉選單並選擇 **[!UICONTROL Single Sign-On]**。
 
    ![](assets/single-sign-on.png)
 
-1. 若要調整單一登入(SSO)設定，請按一下&#x200B;**[!UICONTROL Change.]**
+1. 要調整單一登入（SSO）設定，請點擊  **[!UICONTROL Change.]**
 
    ![](assets/change.png)
 
-1. 輸入服務提供者提供的&#x200B;**[!UICONTROL IDP-initiated Authentication URL]**，並按一下&#x200B;**[!UICONTROL IDP Metadata XML File.]**&#x200B;上傳您的XML檔案
+1. 輸入  **[!UICONTROL IDP-initiated Authentication URL]** 服務提供者提供的資訊，並點擊上傳您的 XML 檔案 **[!UICONTROL IDP Metadata XML File.]**
 
    ![](assets/sso-configuration.png)
 
-   您在Learning Manager中設定的SSO應為SAML 2.0支援。
+   你在 Learning Manager 設定的 SSO 應該是支援 SAML 2.0 的。
 
-   您現在可以使用您的SSO驗證登入Learning Manager。
-
+   你現在可以用你的 SSO 認證登入 Learning Manager。

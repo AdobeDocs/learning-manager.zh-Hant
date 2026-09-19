@@ -2,14 +2,12 @@
 description: 了解更多整合設定如何將 Adobe Learning Manager 與第三方解決方案連結起來
 jcr-language: en_us
 title: Adobe Learning Manager 中的整合設定
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
-
 # Adobe Learning Manager 中的整合設定
 
 ## 登入方式
@@ -84,8 +82,3 @@ Salesforce 整合**：Salesforce 連接器可直接同步使用者資料、課�
 Adobe Learning Manager 中的同儕帳號允許你分享已購買的座位，並查看相關帳號間的報告。 此功能對於需要在不同帳戶間協作或共享資源的組織非常有用。
 
 更多資訊請參閱 [Adobe Learning Manager 中的同儕帳號](/help/migrated/administrators/feature-summary/peer-account.md) 。
-
-
-
-
-

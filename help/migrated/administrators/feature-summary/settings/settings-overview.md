@@ -2,14 +2,12 @@
 description: 了解您可以在 Adobe Learning Manager 中設定管理員設定，以管理使用者、控制存取權限、打造學習環境品牌，並依組織需求量身打造平台。
 jcr-language: en_us
 title: 設定總覽
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
-
 ---
-
-
 # 設定
 
 ## 概觀
@@ -39,4 +37,3 @@ Adobe Learning Manager 提供詳細的管理員設定，讓您能設定並自訂
 * 配置合規與群組成功儀表板。
 
 更多資訊請參閱 Adobe Learning Manager 的設定。
-

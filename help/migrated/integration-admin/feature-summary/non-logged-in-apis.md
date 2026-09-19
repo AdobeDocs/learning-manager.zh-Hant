@@ -1,34 +1,33 @@
 ---
-description: 瞭解用於開發Headless介面的非登入API。
+description: 了解開發無頭介面的非登入 API。
 jcr-language: en_us
-title: 未登入的API
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+title: 非登入 API
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
+# 非登入 API
 
-# 未登入的API
+本文中進一步了解 Adobe Learning Manager API 的資訊，這些 API 為無頭或未登入的使用者提供資料。
+公開搜尋 API
 
-進一步瞭解Adobe Learning Manager API，它為無周邊或未登入的體驗提供本文章中的資料。
-公用搜尋API
+## 公開搜尋 API
 
-## 公用搜尋API
+### 利用 Public ES 過濾資料
 
-### 使用公用ES篩選資料
+公共搜尋 API 允許你取得可用來篩選課程的篩選資料。 此 API 提供搜尋 API 中可使用的所有篩選條件。
 
-公用搜尋API可讓您取得可與基本搜尋API搭配使用的篩選資料，以篩選課程。 此API提供可在搜尋API中使用的所有篩選器。
+**樣本捲度**
 
-**樣本CURL**
-
-使用GET方法提出下列要求。 在下面的curl命令中，將&lt;Base_URL>取代為您的基底URL。 您可以在訓練資料存取聯結器頁面上找到&lt;Base_URL>。
+請使用GET方法提出以下請求。 請 &lt;Base_URL> 在下方的 curl 指令中替換成你的基本網址。 &lt;/Base_URL>你可以 &lt;Base_URL> 在訓練資料存取連接器頁面找到。&lt;/Base_URL>
 
 ```
 curl --location '<Base_URL>/filterableData'
 ```
 
-**範例回應**
+**樣本響應**
 
 ```
 {
@@ -89,32 +88,32 @@ curl --location '<Base_URL>/filterableData'
 }
 ```
 
-**篩選器選項**
+**濾波器選項**
 
 | 選項 | 說明 |
 | --- | --- |
-| `loSkillLevels` | 報名此課程所需的熟練程度等級。 |
-| `catalogNames` | 可用目錄名稱的清單。 |
-| `loType` | 可用的學習物件型別。 |
-| `availability` | 可用名額與輪候表可用性。 |
-| `loSkillNames` | 技能名稱已新增至學習物件。 |
-| `tags` | 與學習物件關聯的標籤。 |
-| `authors` | 學習物件的作者名稱 |
-| `duration` | 學習物件的持續時間。 |
-| `dateCreated` | 學習物件的建立日期。 |
-| `sessionEndTime` | 工作階段結束的時間。 |
-| `averageRating` | 學習物件的平均星級評等。 |
-| `sessionStartTime` | 工作階段開始的時間。 |
-| `publishDate` | 學習物件的發佈日期。 |
-| `ratingsCount` | 學習物件的評等計數。 |
+| `loSkillLevels` | 報名課程所需的熟練程度。 |
+| `catalogNames` | 可用目錄名稱列表。 |
+| `loType` | 可用的學習物件類型。 |
+| `availability` | 座位供應與候補名單可用性。 |
+| `loSkillNames` | 技能名稱會加入學習物件。 |
+| `tags` | 與學習對象相關的標籤。 |
+| `authors` | 學習對象的作者名稱 |
+| `duration` | 學習對象的持續時間。 |
+| `dateCreated` | 學習物件被創建的日期。 |
+| `sessionEndTime` | 會議結束的時間。 |
+| `averageRating` | 學習對象的平均星級評分。 |
+| `sessionStartTime` | 會議開始的時間。 |
+| `publishDate` | 學習對象的發佈日期。 |
+| `ratingsCount` | 學習對象的評分數。 |
 
-### 搜尋API
+### 搜尋 API
 
-公用搜尋API可讓您使用提供的資料取得基本搜尋資料。
+公開搜尋 API 允許你利用提供的資料取得基本搜尋資料。
 
-**範例Curl**
+**樣本捲曲**
 
-使用POST方法提出下列要求。 在下面的curl命令中，將&lt;Base_URL>取代為您的基底URL。 您可以在訓練資料存取聯結器頁面上找到&lt;Base_URL>。
+請使用 POST 方法提出以下請求。 請 &lt;Base_URL> 在下方的 curl 指令中替換成你的基本網址。 &lt;/Base_URL>你可以 &lt;Base_URL> 在訓練資料存取連接器頁面找到。&lt;/Base_URL>
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -166,7 +165,7 @@ curl --location '<Base_URL>/search?size=1000' \
 }'
 ```
 
-**API呼叫的範例回應**
+**API 呼叫的範例回應**
 
 ```
 {
@@ -262,33 +261,33 @@ curl --location '<Base_URL>/search?size=1000' \
 }
 ```
 
-搜尋API上的&#x200B;**排序選項**
+**搜尋 API 上的排序選項**
 
-您可以選取下列要套用至結果的排序選項。
+您可以選擇以下排序選項來套用到結果上。
 
 | 選項 | 說明 |
 | --- | --- |
-| `duration` | 學習物件的持續時間。 |
-| `publishDate` | 學習物件的發佈日期。 |
-| `dateCreated` | 學習物件的建立日期。 |
-| `name_en` | 學習物件的名稱。 |
-| `averageRating` | 學習者提供的平均星級評等。 |
-| `ratingsCount` | 學習物件的評等計數。 |
-| `relevance(default)` | 相關資料是根據搜尋關鍵字。 |
+| `duration` | 學習對象的持續時間。 |
+| `publishDate` | 學習對象的發佈日期。 |
+| `dateCreated` | 學習物件被創建的日期。 |
+| `name_en` | 學習對象的名稱。 |
+| `averageRating` | 學習者提供的平均星級評分。 |
+| `ratingsCount` | 學習對象的評分數。 |
+| `relevance(default)` | 相關資料是根據搜尋關鍵字來判斷的。 |
 
-### 使用公用搜尋API取得學習物件資料
+### 使用公開搜尋 API 取得學習中的物件資料
 
-公用ES學習物件API可讓您取得Headless介面上可用的學習物件型別和ID清單。
+Public ES Learning Object API 讓你取得無頭介面上可用的學習物件類型與 ID 清單。
 
-**樣本CURL**
+**樣本捲度**
 
-使用GET方法提出下列要求。 在下面的curl命令中，將&lt;Base_URL>取代為您的基底URL。 您可以在訓練資料存取聯結器頁面上找到&lt;Base_URL>。
+請使用GET方法提出以下請求。 請 &lt;Base_URL> 在下方的 curl 指令中替換成你的基本網址。 &lt;/Base_URL>你可以 &lt;Base_URL> 在訓練資料存取連接器頁面找到。&lt;/Base_URL>
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
 ```
 
-**API呼叫的範例回應**
+**API 呼叫的範例回應**
 
 ```
 {
@@ -300,19 +299,19 @@ curl --location '<Base_URL>/learningObjectIds'
 }
 ```
 
-## 課程摘要API
+## 課程摘要 API
 
-課程摘要API可讓您擷取特定課程的詳細資訊。
+課程摘要 API 允許您取得特定課程的詳細資訊。
 
-**樣本CURL**
+**樣本捲度**
 
-使用GET方法提出下列要求。 在下面的curl命令中，將&lt;Base_URL>取代為您的基底URL。 您可以在訓練資料存取聯結器頁面上找到&lt;Base_URL>。 以特定課程ID取代&lt;Course_ID>。
+請使用GET方法提出以下請求。 請 &lt;Base_URL> 在下方的 curl 指令中替換成你的基本網址。 &lt;/Base_URL>你可以 &lt;Base_URL> 在訓練資料存取連接器頁面找到。 &lt;/Base_URL>請 &lt;Course_ID> 替換成特定的課程編號。&lt;/Course_ID>
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 ```
 
-**API呼叫的範例回應**
+**API 呼叫的範例回應**
 
 ```
 {
@@ -335,21 +334,21 @@ curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 
 >[!NOTE]
 >
->如果課程有多個執行個體，您將會取得所有執行個體的詳細資訊。
+>如果一個課程有多個實例，你會得到所有實例的詳細資料。
 
-## 課程詳細資料的CDN JSON API
+## CDN JSON API 用於課程詳情
 
-CDN JSON API可讓您擷取有關特定課程的完整課程資訊。
+CDN JSON API 允許你取得特定課程的完整資訊。
 
-**課程**&#x200B;的CURL範例
+**球場彎曲範例**
 
-使用GET方法提出下列要求。 在下面的curl命令中，以您的基底URL取代&lt;CDN_path>。 您可以在訓練資料存取聯結器頁面上找到&lt;CDN_path>。 以特定課程ID取代&lt;Course_ID>。
+請使用GET方法提出以下請求。 請 &lt;CDN_path> 在下方的 curl 指令中替換成你的基本網址。 &lt;/CDN_path>你可以 &lt;CDN_path> 在訓練資料存取連接器頁面找到。 &lt;/CDN_path>請 &lt;Course_ID> 替換成特定的課程編號。&lt;/Course_ID>
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
 ```
 
-**學習路徑與認證的範例CURL**
+**學習路徑與認證範例彎舉**
 
 ```
 curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
@@ -359,7 +358,7 @@ curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'
 curl --location '<CDN_path_URL>/ certification /<Certification_ID>.json'
 ```
 
-**API呼叫的範例回應**
+**API 呼叫的範例回應**
 
 ```
 {
