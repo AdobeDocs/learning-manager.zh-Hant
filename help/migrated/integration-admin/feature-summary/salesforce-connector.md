@@ -3,13 +3,11 @@ description: 學習如何將 Salesforce 連接器與 Adobe Learning Manager 整�
 jcr-language: en_us
 title: Salesforce 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
 workflow-type: tm+mt
 source-wordcount: '2251'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 的 Salesforce 連接器
 
@@ -164,9 +162,9 @@ Salesforce 連接器讓 Adobe Learning Manager 能連結你的 Salesforce 帳號
 
 Adobe 提供預先建置的套件，可建立必要的自訂物件：
 
-- [套件 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ)：核心學習物件與欄位
-- [套件 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT)：擴展學習分析物件
-- [套件 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi)：額外報告與整合物件
+- [套件 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)：核心學習物件與欄位
+- [套件 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)：擴展學習分析物件
+- [套件 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)：額外報告與整合物件
 
 >[!IMPORTANT]
 >
