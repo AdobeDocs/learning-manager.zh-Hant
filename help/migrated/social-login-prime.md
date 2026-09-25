@@ -1,37 +1,35 @@
 ---
 jcr-language: en_us
-title: Learning Manager中的社交登入
-description: Learning Manager中的社交登入
+title: Learning Manager 中的社交登入
+description: Learning Manager 中的社交登入
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
-
 ---
 
 
+# Learning Manager 中的社交登入
 
-# Learning Manager中的社交登入
+你可以使用Facebook、LinkedIn或Twitter的帳號登入學習管理員。
 
-您可以使用您的Facebook、LinkedIn或Twitter憑證登入Learning Manager。
+## 建立社群登入 {#setupsociallogin}
 
-## 設定社交登入 {#setupsociallogin}
+1. 如果你想讓客戶成功經理幫你設立帳號，可以聯絡他/她。
 
-1. 如果您希望客戶成功經理設定帳戶，請洽詢他/她。
+   否則，請依照以下步驟操作。
 
-   否則，請遵循以下步驟。
-
-1. 搜尋您要設定社交登入的帳戶。
-1. 將登入變更為SSO。
-1. 按一下「進階」。 指定下列JSON。
+1. 搜尋你想設定社群登入的帳號。
+1. 把登入資料改成 SSO。
+1. 點選進階。 請指定以下 JSON。
 
    ```
    \{"linkedIn":true,"microsoft":true,"twitter":true,"facebook":true,"editingAllowed":true
    ```
 
-   如果JSON不正確，則會出現例外狀況。
+   如果是錯誤的 JSON，會有例外。
 
-   此社交登入功能僅適用於INTERNAL使用者。
+   此社交登入功能僅用於內部使用者。
 
