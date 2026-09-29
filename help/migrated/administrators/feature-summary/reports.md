@@ -465,7 +465,7 @@ Adobe Learning Manager 讓組織的管理員能夠產生與學習者相關的成
 要下載報告，請遵循以下任一步驟：
 
 1. 打開 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**。 **[!UICONTROL Generating Report Request]**&#x200B;對話框打開了。點擊確定。
-1. [!UICONTROL **出口報告**]>[!UICONTROL **行動**]**]公告>[!UICONTROL **&#x200B;報告。
+1. [!UICONTROL **出口報告**]>[!UICONTROL **行動**]&#x200B;**公告>**&#x200B;報告。
 
    ![](assets/announcements.png)
    *公告報告*
@@ -1024,7 +1024,7 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
    * 年份
    * QTD（過去90天）
    * 今年至今（過去365天）
-   * 日期範圍。 在日期&#x200B;**[!UICONTROL From]****[!UICONTROL To]**&#x200B;欄位中提供數值。
+   * 日期範圍。 在日期&#x200B;**[!UICONTROL From]**&#x200B;**[!UICONTROL To]**&#x200B;欄位中提供數值。
 
    ![](assets/time-filter-for-report.png)
 
