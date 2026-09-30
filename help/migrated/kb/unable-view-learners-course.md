@@ -1,43 +1,41 @@
 ---
 jcr-language: en_us
-title: 無法檢視課程中的學習者
-description: 課程的學習者索引標籤未顯示任何已註冊Adobe Learning Manager的學習者。 不過，如果您產生報表，則可以在報表中檢視已註冊的學習者。
+title: 無法查看課程中的學習者
+description: 課程的學習者標籤不會顯示任何已註冊於 Adobe Learning Manager 的學習者。 不過，如果你產生報告，可以在報告中查看已註冊的學習者。
 contentowner: saghosh
 exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
-
 ---
+# 無法查看課程中的學習者
 
-# 無法檢視課程中的學習者
+## 子嗣
 
-## 問題
-
-您無法檢視已註冊課程的學習者。
+您無法查看已註冊課程的學習者。
 
 ## 說明
 
-課程的學習者索引標籤未顯示任何已註冊的學習者。 不過，如果您產生報表，則可以在報表中檢視已註冊的學習者。
+課程的學習者標籤不會顯示任何已註冊的學習者。 不過，如果你產生報告，可以在報告中查看已註冊的學習者。
 
 ![](assets/no-learners.png)
 
 *未顯示學習者*
 
-## 原因
+## 成因
 
-如果學習者已透過高等學習物件註冊（學習計畫或認證），則學習者會顯示在高等學習物件的「學習者」標籤上。 在課程的「學習者」標籤下無法搜尋學習者。
+若學習者是透過較高等級的學習對象（學習計畫或認證）註冊，則該學習者會在該高級學習對象的學習者標籤中可見。 學習者將無法在課程的學習者標籤下被搜尋。
 
-**如何檢視學習者已註冊的高等學習物件？**
+**如何查看學習者所註冊的高等教育對象？**
 
-您可以在學習成績單報告中檢視此資訊。 若要產生學習者成績單，請遵循下列步驟：
+您可以在學習成績單報告中查詢此資訊。 要產生學習者成績單，請依照以下步驟操作：
 
-1. 以管理員身分登入。
-1. 按一下&#x200B;**[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Learner Transcript]**。
+1. 以管理員身份登入。
+1. 點擊 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Learner Transcript]**。
 
-1. 輸入&#x200B;**[!UICONTROL Learner]**&#x200B;的名稱並指定&#x200B;**[!UICONTROL Date]**&#x200B;範圍。
-1. 展開區段&#x200B;**[!UICONTROL Advanced Options]**&#x200B;並選取選項&#x200B;**[!UICONTROL Enable module level information]**。
-1. 按一下&#x200B;**[!UICONTROL Generate]**。
+1. 輸入名稱&#x200B;**[!UICONTROL Learner]**&#x200B;並指定範圍。**[!UICONTROL Date]**
+1. 展開該區塊 **[!UICONTROL Advanced Options]** 並選擇選項 **[!UICONTROL Enable module level information]**。
+1. 點擊 **[!UICONTROL Generate]**。
 
-   在學習者成績單上，您可以檢視學習者註冊的高等學習物件。
+   在學習者成績單中，您可以查看學習者所註冊的更高階學習對象。

@@ -1,52 +1,50 @@
 ---
 jcr-language: en_us
-title: 棄用學習計畫的問題
-description: 在Adobe Learning Manager中棄用學習計畫時發生問題
+title: 退休學習計畫的問題
+description: 在 Adobe Learning Manager 中退休學習程式的問題
 contentowner: nluke
 exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 0%
-
 ---
+# 退休學習計畫的問題
 
-# 棄用學習計畫的問題
+## 子嗣
 
-## 問題
+學習計畫會自動退休。
 
-學習計畫會自動淘汰。
+## 成因
 
-## 原因
+有些情況是學習計畫在沒有管理員或作者明確退休的情況下退休。
 
-在某些情況下，學習計畫已淘汰，而管理員/作者未明確淘汰LP。
-
-發生此問題是因為學習計畫是課程的集合。 如果其中有任何課程包含已淘汰執行環境，或課程執行環境已淘汰，則會淘汰較高階的培訓。
+這個問題是因為學習計畫是由一系列課程組成的集合。 若其中任何課程包含已退休的實例，或該課程實例退役，則高階訓練會退役。
 
 ## 解決方法
 
-若要檢查包含已淘汰執行個體的課程，請遵循下列步驟：
+要檢查包含已退休實例的課程，請遵循以下步驟：
 
-1. 以管理員身分登入並啟動相關的學習計畫。
+1. 以管理員身份登入並啟動相關的學習程式。
 
-1. 按一下&#x200B;**[!UICONTROL Instances]** > **C課程**。 此頁面會列出屬於此學習計畫的所有課程。 您將能夠檢視包含已淘汰執行個體的課程。
+1. 點擊&#x200B;**[!UICONTROL Instances]**> **我們的**。該頁面列出了本學習計畫中所有的課程。 你可以看到包含已退休實例的課程。
 
    ![](assets/retired-instance.png)
 
-   *檢視所有課程清單*
+   *查看所有課程列表*
 
-1. 在您找出已淘汰的課程執行個體後，請按一下「**[!UICONTROL Courses]** > **[!UICONTROL Open the course]**」。
+1. 一旦你確定了已退休的課程實例，點擊 **[!UICONTROL Courses]** > **[!UICONTROL Open the course]**。
 
-1. 按一下&#x200B;**[!UICONTROL Instances]**。 在淘汰的執行個體上，按一下&#x200B;**[!UICONTROL Edit]**，然後將完成日期編輯為您希望執行個體淘汰的未來日期。
+1. 點擊 **[!UICONTROL Instances]**。 在已退休的實例上，點擊 **[!UICONTROL Edit]** 並編輯完成日期，改成你希望實例退休的未來日期。
 
    ![](assets/completion-date.png)
 
-   *編輯課程的完成日期*
+   *編輯課程完成日期*
 
-1. 完成後，請按一下下拉式清單（如下圖所示）。 然後按一下&#x200B;**[!UICONTROL Reopen Instance]**。
+1. 完成之後，請點擊下拉選單，如下圖所示。 然後點擊 **[!UICONTROL Reopen Instance]**。
 
    ![](assets/re-open-instance.png)
 
-   *重新顯示課程的執行個體*
+   *回贈課程實例*
 
-1. 造訪相關的學習計畫。 按一下&#x200B;**[!UICONTROL Instances]**&#x200B;並執行上一個步驟以重新開啟學習計畫的執行個體。
+1. 請造訪相關的學習計畫。 點擊 **[!UICONTROL Instances]** 並執行前一步驟以重新開啟學習程式的實例。

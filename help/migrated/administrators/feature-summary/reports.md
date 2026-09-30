@@ -4,13 +4,11 @@ jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 10d3de1a5a537bd6132f4d350ddd7a8612689bde
 workflow-type: tm+mt
 source-wordcount: '7321'
 ht-degree: 0%
-
 ---
-
 # 報表 {#reports}
 
 了解學習管理器應用程式中與管理員角色相關的報告。
@@ -70,7 +68,7 @@ Adobe Learning Manager 支援四種主要類型的報告，如完成度、時間
 
 本報告顯示一天或一個月內總共存取系統的學習人數。 瀏覽學習平台而不使用任何學習內容，也被視為「存取」學習平台。 這有助於管理員了解所有存取系統的使用者。 每月一號，Learning Manager 會建立上個月總用戶存取平台的紀錄。 它也會擷取這些使用者的群組資訊。
 
-只有管理員設定的使用者群組會被記錄。 這讓管理員也能對使用者群組套用篩選功能，以取得歷史的月度資料。 請注意，若使用者群組設定被修改，且學習管理員在先前幾個月未記錄該使用者群組的資料，則學習管理員無法顯示該新設定使用者群組過去幾個月的資料。
+只有管理員設定的使用者群組會被記錄。 這讓管理員也能對使用者群組套用篩選功能，以取得歷史的月度資料。 請注意，若使用者群組設定被修改，且學習管理員在先前幾個月未記錄該使用者群組的資料，則學習管理員無法顯示該新組使用者群組過去幾個月的資料。
 
 本報告包含用戶使用各種平台平台，如網頁、行動應用程式、無頭自訂解決方案等。 裝置應用程式使用圖表明確提到的是使用 Learning Manager 裝置應用程式存取平台的用戶。 這有助於管理員辨識帳戶中行動應用程式的使用情況。
 
@@ -443,7 +441,7 @@ _合規儀表板-管理員檢視_
 
 >[!INFO]
 >
->在本次培訓中，您將學習如何匯出課程報告並設定這些報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+>在本次訓練中，您將學習如何匯出課程報告並設定這些報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
 
 
 如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
@@ -513,7 +511,7 @@ Adobe Learning Manager 讓組織的管理員能夠產生與學習者相關的成
 ![職業輔助報告](assets/job-aids-new.png)
 *下載就業輔助工具 USer 註冊報告*
 
-**所有工作輔助**&#x200B;工具：若帳戶中的工作輔助工具數量少於1,000萬，產生的報告將包含所有工作輔助工具的註冊資訊。 這將成為預設的選擇。 若資料列數超過 1,000 萬，將顯示錯誤，您必須手動選擇所需的工作輔助工具。
+**所有工作輔助**&#x200B;工具：若帳戶中工作輔助工具數量少於1,000萬，產生的報告將包含所有工作輔助工具的註冊資訊。 這將成為預設的選擇。 若資料列數超過 1,000 萬，將顯示錯誤，您必須手動選擇所需的工作輔助工具。
 
 **選擇工作輔助**&#x200B;工具：選擇此選項後，您可以輸入想要產生報告的工作輔助工具。 你最多只能選擇10種工作輔助工具。 Adobe Learning Manager 會檢查職缺輔助工具數量是否超過 1,000 萬筆。
 
@@ -915,7 +913,7 @@ Learning Manager 支援培訓報告，允許管理員下載培訓細節及其相
 
 >[!INFO]
 >
->在本次培訓中，您將學習如何設定儀表板報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
+>在本次訓練中，您將學習如何設定儀表板報告的電子郵件訂閱。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
 如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
