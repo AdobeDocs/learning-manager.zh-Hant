@@ -3,9 +3,9 @@ title: Adobe Learning Manager 中的 Experience Builder 指引與限制
 description: Experience Builder 的指引與限制，透過 AI 驅動的演算法，為學習者提供個人化的課程與內容建議。
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '815'
 ht-degree: 0%
 ---
 # 體驗建構者的指引與限制
@@ -79,7 +79,7 @@ Experience Builder 是一款強大的工具，旨在幫助使用者輕鬆建立�
 
 ### 免責聲明
 
-* 自訂程式碼在未來版本中可能無法如預期運作，需要調整。 每次更新後都要準備好更新他們的程式碼。
+* 支援自訂 HTML、CSS 與 JavaScript 自訂;不過平台更新有時可能需要對自訂程式碼做些微調整。 我們建議在主要版本發布後，作為例行維護的一部分進行客製化測試。
 
 ## 一般建議
 

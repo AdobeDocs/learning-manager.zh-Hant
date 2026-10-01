@@ -2,17 +2,17 @@
 user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
-source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
+nudge: true
+source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1786'
 ht-degree: 1%
-
 ---
 
-
-# 學習經理指南 {#using}
+# Adobe Learning Manager 使用者指南 {#using}
 
 * [Adobe Learning Manager 使用者指南](user-guide.md)
+* {hide-from-toc}[Adobe Learning Manager 使用者指南](user-guide-redesign.md)
 * 簡介 {#introduction}
   * [新功能摘要 2026 年 8 月](whats-new.md)
   * [2026年4月新功能摘要](whats-new-april-2026.md)
@@ -114,7 +114,11 @@ ht-degree: 1%
   * [替代與等價](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
   * [學習計畫](administrators/feature-summary/learning-plans.md)
   * [管理學習管理經理的訂單與帳單](administrators/feature-summary/billing-management.md)
+  * [Adobe Learning Manager 中的座位共享與帳號計畫](administrators/feature-summary/tiering-seat-sharing.md)
   * [工作輔助工具](administrators/feature-summary/job-aids.md)
+  * 維特爾馬車 {#virtualcoachadmin}
+    * [管理虛擬教練使用與帳單](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
+    * [虛擬教練報告](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
   * [建立頻道（測試版）](administrators/feature-summary/create-channels.md)
   * [認證](administrators/feature-summary/certifications.md)
   * [建立並自訂憑證](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
@@ -207,6 +211,15 @@ ht-degree: 1%
   * [建立、修改及發布課程](authors/feature-summary/courses.md)
   * [目錄](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[適應性課程](authors/feature-summary/adaptive-course-author.md)
+  * 虛擬教練 {#virtual-coach}
+    * [什麼是虛擬教練](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+    * [蒐集虛擬教練角色扮演的材料](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
+    * [設計虛擬教練](authors/feature-summary/virtual-coach/role-play-design.md)
+    * 建立虛擬教練 {#create-virtual-coach}
+      * [使用虛擬教練範本創建角色扮演](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+      * [創建並發佈虛擬教練角色扮演](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)
+    * [在課程中新增虛擬教練角色扮演](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)
+    * [虛擬教練常見問題](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
   * [工作輔助工具](authors/feature-summary/job-aids.md)
   * [成績簿](authors/feature-summary/alm-author-gradebook.md)
   * [iPad 與 Android 平板用戶](authors/feature-summary/ipad-android-tablet-users.md)
@@ -276,6 +289,9 @@ ht-degree: 1%
   * [登入](learners/feature-summary/user-login.md)
   * [設定檔設定](learners/feature-summary/settings.md)
   * [目錄](learners/feature-summary/catalogs.md)
+  * [虛擬教練] {#virtualcoach}
+    * [用虛擬教練練習角色扮演](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
+    * [了解您的虛擬教練績效報告](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [一鍵註冊](learners/feature-summary/learner-one-click-enrollment.md)
   * [由我拯救的小工具](learners/feature-summary/saved-by-me-widget.md)
   * [我的學習](learners/feature-summary/courses.md)
@@ -389,6 +405,7 @@ ht-degree: 1%
   * [在 Adobe Learning Manager 建立試用帳號](/help/migrated/create-trial-account.md)
 * API 變更 {#api-changes}
   * [增量使用者報告（工作 API）](/help/migrated/incremental-user-report.md)
+  * [2026 年 9 月版本中的 API 變更](/help/migrated/api-changes-sep-2026.md)
   * [2026 年 8 月版本的 API 變更](/help/migrated/api-changes-august-2026.md)
   * [2026 年 4 月版本中的 API 變更](/help/migrated/api-changes-alm.md)
   * [2026 年 5 月版本的 API 變更](/help/migrated/api-changes-alm-may.md)

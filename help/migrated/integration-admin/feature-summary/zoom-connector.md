@@ -3,13 +3,11 @@ description: 學習如何將 Zoom 連接器與 Adobe Learning Manager 整合
 jcr-language: en_us
 title: Zoom 連接器
 contentowner: mmanuel
-source-git-commit: 481eed24a5ac72329228c8d27b625d443bd637ce
+source-git-commit: 289bd299abdf6ff25d6bbb7bc4dbcaaf057e591e
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 0%
-
+source-wordcount: '412'
+ht-degree: 1%
 ---
-
 
 # Adobe Learning Manager 中的 Zoom 連接器
 
@@ -30,7 +28,7 @@ Adobe Learning Manager 中的 Zoom 連接器可無縫整合 Zoom 進行線上虛
 3. 選擇 **「連接**」。 Zoom 連接器設定頁面打開了。
 4. 在相關欄位輸入以下帳戶詳情。 你可以從你的 Zoom 帳號管理員那裡取得這些憑證：
 
-   * 連接名稱
+   * 連線名稱
    * Zoom 帳號 ID
    * 客戶識別碼
    * 客戶秘密
@@ -70,16 +68,15 @@ Adobe Learning Manager 中的 Zoom 連接器可無縫整合 Zoom 進行線上虛
 
 在 Zoom 中建立應用程式時，請確保選取以下範圍：
 
-```
-| Scope Description | Zoom Scope |
-|---|---|
-| View all user meetings | meeting:read:admin |
-| View and manage all user meetings | meeting:write:admin |
-| View report data | report:read:admin |
-| View all user information | user:read:admin |
-| Manage users | user:write:admin |
-| Add a meeting registrant | meeting:write:registrant:admin |
-| List all meeting registrants | meeting:read:list_registrants:admin |
-| Manage sub-account meetings | meeting:write:meeting:master |
-| View meeting participants report | report:read:list_meeting_participants:admin |
-```
+| 你想要什麼 | 搜尋此關鍵字 | 然後選擇 |
+|---|---|---|
+| 查看所有用戶會議 | 會議 | `meeting:read:meeting:admin, meeting:read:list_meetings:admin` |
+| 查看/管理所有使用者會議 | 會議 | `meeting:update:meeting:admin, meeting:delete:meeting:admin, meeting:write:meeting:admin` |
+| 查看報告資料 | 報導 | `report:read:meeting:admin, report:read:user:admin` （選擇與你端點相符的那個。） |
+| 查看所有使用者資訊 | 使用者 | `user:read:user:admin, user:read:list_users:admin` |
+| 管理使用者 | 使用者 | `user:update:user:admin, user:write:user:admin` |
+| 新增會議登記人 | 登記人 | `meeting:write:registrant:admin` |
+| 列出所有會議報名者 | 登記人 | `meeting:read:list_registrants:admin` |
+| 子帳戶會議 | 會議 + 尋找 :master | `meeting:write:meeting:master` |
+| 會議參與者報告 | 參賽者 | `report:read:list_meeting_participants:admin` |
+

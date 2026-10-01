@@ -2,15 +2,13 @@
 description: Insights Agent 是 Adobe Learning Manager 中的一項 AI 驅動功能，讓管理員能使用自然語言查詢學習者資料。
 jcr-language: en_us
 title: Adobe Learning Manager 中的 Insights Agent（beta）
-source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
+source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2929'
 ht-degree: 0%
-
 ---
 
-
-# 什麼是 Insights Agent
+# 什麼是 Insights Agent？
 
 Insights Agent 是 Adobe Learning Manager 中的一項 AI 驅動功能，讓管理員能使用自然語言查詢學習資料。 你不用下載報告或操作試算表，而是打個問題，例如「過去三個月帳戶創建了多少門課？ 給我每月報告。」，Insights Agent 直接取得並呈現資料。 你可以以文字、項目符號或表格形式查看結果，或下載為 CSV 檔案。
 
@@ -28,7 +26,7 @@ Insights Agent 的設計目的是縮短從提出資料問題到獲得答案之�
 
 ## Insights Agent 不支援的資料
 
-以下資料類型不在本版本範圍內：
+以下資料類型目前不在 Insights Agent 的範圍範圍內：
 
 - 回饋與調查數據
 - 遊戲化點數與徽章
@@ -61,6 +59,7 @@ Insights Agent 可透過學習管理員的 AI 助理面板存取。 面板可以
 當 **預設選擇「獲取洞察** 」模式時，你可以立即開始查詢學習資料，無需每次存取助理都調整模式。 不過，如果你在教學問題時切換到 **Learn** 模式，請務必在提交查詢前重新選擇 **「獲取洞察** 」。
 
 1. 在學習管理員中選擇 AI 助理圖示以開啟助理面板。 **「獲取洞察**」選項預設已被選中。
+
    ![](assets/ask-question.png)
 
 2. 在文字欄輸入你的問題。 用淺顯的語言。 例如： **過去三個月內創建了多少門課程？**
@@ -71,13 +70,16 @@ Insights Agent 可透過學習管理員的 AI 助理面板存取。 面板可以
 
 提交問題後，Insights Agent 會處理您的請求並回覆最多包含四個部分：
 
-1. **釐清（如有需要）：** 如果你的問題包含歧義詞彙，如「學習活動」、「表現」或「提供過去三個月的績效資料」，助理會顯示一串選項，並請你選擇一個選項後再進行。 選擇最符合你需求的選項。 在最初的問題之後，你就不能再輸入更多指令。 在你用查詢介面開始新查詢之前，唯一可用的互動方式是從提供的選項中選擇。 你只能透過從提供的選項中選擇來回應消歧義;本版本不提供自由文字後續。
+1. **消歧義（如有需要）：** 如果你的問題包含歧義用語，如「學習活動」、「表現」或「提供過去三個月的表現資料」，助理會顯示一串選項，並請你選擇其中一項，然後才繼續進行。 選擇最符合你需求的選項。 在最初的問題之後，你就不能再輸入更多指令。 在你用查詢介面開始新查詢之前，唯一可用的互動方式是從提供的選項中選擇。 你只能透過從提供的選項中選擇來回應消歧義;本版本不提供自由文字後續。
+
    ![](assets/disambiguation.png)
 
-2. **方法：**&#x200B;**方法**&#x200B;部分描述代理人取得資料所採取的步驟。它以可捲動的面板形式出現在問題下方。 選擇展開圖示以查看完整方法。 檢視此部分有助於確認邏輯是否符合你的意圖，尤其是對複雜查詢而言。 例如，如果您要求「所有在過去一年內註冊的學習者」，客服人員可能會回傳每位學習者最近的一次註冊紀錄，而非所有註冊紀錄。 **「方法」**&#x200B;部分說明代理人在取回您資料時所做的決策。如果邏輯與你的意圖不符，就用更具體的詞彙重新查詢。
+2. **方法：****方法**&#x200B;部分描述代理人取得資料所採取的步驟。它以可捲動的面板形式出現在問題下方。 選擇展開圖示以查看完整方法。 檢視此部分有助於確認邏輯是否符合你的意圖，尤其是對複雜查詢而言。 例如，如果您要求「所有在過去一年內註冊的學習者」，客服人員可能會回傳每位學習者最近的一次註冊紀錄，而非所有註冊紀錄。 **「方法」**&#x200B;部分說明代理人在取回您資料時所做的決策。如果邏輯與你的意圖不符，就用更具體的詞彙重新查詢。
+
    ![](assets/approach.png)
 
 3. **結果：** 洞察代理以文字或表格形式產生結果。 對於最適合以表格形式解讀的資料點，Insights Agent 會回傳一個表格。 Insights 代理不會產生圖表或圖表。 要視覺化資料，請下載 CSV 並用你偏好的工具開啟。 結果附有淺顯的摘要。 當結果包含50列或以下時，摘要會包含對資料的分析見解。 當結果超過50列時，摘要會提供欄位層級的統計資料。 例如，「哪些課程在過去一年內新增的報名人數不少於5人？作者是誰？」
+
    ![](assets/results.png)
 
 回應內容包含以下摘要：
@@ -95,11 +97,9 @@ Insights Agent 可透過學習管理員的 AI 助理面板存取。 面板可以
 >
 >摘要格式會依資料性質而異。 以下是摘要回應的一個範例。 你的實際摘要會依查詢內容而異。
 
-
 >[!NOTE]
 >
 >Insights Agent 是機率性的。 如果你重複執行同一個查詢，回應的措辭或結果排序可能會有些微差異。
-
 
 ### 下載報告
 
@@ -108,7 +108,8 @@ Insights Agent 可透過學習管理員的 AI 助理面板存取。 面板可以
 ## 開始一個新查詢
 
 每個 Insights Agent 會話一次處理一個問題。 檢視結果後，選擇 **新問題** 來問另一個問題。 你也可以在任何時候選擇 **新聊天** ，包括在收到回覆之前，如果你想放棄目前的查詢，重新開始。 你不能在同一場次打後續問題，也不能要求客服細化或擴充回傳的結果。
-![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -117,7 +118,8 @@ Insights Agent 可透過學習管理員的 AI 助理面板存取。 面板可以
 ## 提供回饋
 
 每回答後，選擇豎起大拇指或踩的圖示來評分結果。 你也可以指定輸出是否不準確、難以理解，或是回傳時間過長。 這些回饋有助於隨著時間提升經紀人。
-![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## 最佳實務
 
@@ -125,9 +127,11 @@ Insights Agent 可透過學習管理員的 AI 助理面板存取。 面板可以
 - 在命名內容和學習者群組時，請使用精確的 Adobe Learning Manager 術語。 查詢寫作指南列出了正確的術語。
 - 如果客服問澄清問題，就當作下次要修正原始查詢的信號。 你的問題越具體，所需的說明就越少。
 - 在採取行動前，請先檢視 **「方法** 」部分，以確認代理人的邏輯是否符合你的意圖。
-- **明確說明是否包含或排除候補學習者**。 預設情況下，註冊人數查詢會包含等待名單上的學習者與已確認的有效註冊者。 如果你只需要積極參與者，請在查詢中明確排除候補學習者。 例如：「安全訓練課程直接註冊的學員有多少人，不包括候補者？」 代理人會在接近條款中揭露該排除條款已被適用。 若無此指示，註冊總數中可能包含相當比例尚未開始課程的候補學習者。
+- **明確說明是否要包含候補學習者。** 預設情況下，註冊人數查詢只會回傳已確認註冊的學習者——候補名單上的學習者則被排除，這與課程或學習路徑頁面提供的已註冊學習者名單一致。 如果你想把候補名單的學員也算進統計，請在查詢中明確說明。 例如：「有多少學員直接註冊安全訓練課程，包括候補者？」 方法部分將顯示候補名單學習者是否包含在結果中。
+<!--
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **直接與間接註冊計數**：當您查詢課程或學習路徑的註冊或完成資料時，Insights Agent 會區分直接註冊（專門註冊該課程或學習路徑的學習者）與間接註冊（學習者在學習路徑或認證中存取相同內容）。 如果你特別要求直接或間接登記，代理人會回傳每種登記的正確數量。 若查詢未指定直接或間接，代理人可能會回傳合併計數。 要獲得分開的計數，請在查詢中明確標明差異。 例如：「有多少學員是直接註冊的，有多少是間接註冊的安全訓練課程？」
-
 
 ## Insights Agent 與報表建置器的不同
 
@@ -176,6 +180,36 @@ Insights Agent 會將您的查詢與 Adobe Learning Manager 的資料模型進�
 | **目錄標籤** | 類別/標籤組 |
 
 Insights Agent 不區分大小寫，但精確詞彙匹配能提升準確度。
+
+### 使用貴組織的自訂術語查詢
+
+如果您的管理員在「設定>一般&#x200B;**」中使用產品術語**&#x200B;重新命名標準術語，Insights 代理會辨識您組織的自訂術語，取代上述預設值。舉例來說，如果你的組織把課程&#x200B;****&#x200B;改名為&#x200B;**分會**，你可以問「上個月完成了多少分會？」而 Insights Agent 則理解問題，並透過 **回應及欄位標題中的章節** 來標示結果。
+
+自訂術語適用於 Insights Agent 聊天視窗的每個角落，包括查詢的解讀方式、方法說明、結果摘要，以及聊天中顯示的表格或欄標題。 **下載的 CSV 檔案不反映自訂術語。** 匯出檔案中的欄目和內容都使用預設的 Adobe Learning Manager 術語，無論你的組織如何自訂。
+
+- Insights Agent 能辨識自訂詞彙的單數與複數形式，並依據產品術語 CSV 檔案的配置。
+- 即使你的組織已經自訂了，你仍然可以在查詢中使用預設的 Adobe Learning Manager 術語。 Insights Agent 會辨識預設詞彙，並以您組織的自訂術語回應。 舉例來說，如果你的組織把課程&#x200B;**名稱改**&#x200B;為&#x200B;**分會**，你仍然可以問「上個月完成了多少章節？」使用原始術語。 Insights Agent 理解問題，並以您組織自訂的詞 **彙「章節**」回應。
+- 如果您的查詢包含拼寫錯誤或未辨識的術語，Insights Agent 會提出澄清性問題，並建議您帳戶中最接近的相關詞彙。
+- 若管理員重設自訂術語，Insights Agent 將不再辨識先前自訂的術語，並回復為預設術語。
+
+>[!NOTE]
+>
+>自訂術語支援不延伸至Insights Agent目前未查詢的模組與分頁，如社交學習、工作輔助、討論區、遊戲化及公告。
+
+<!--
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+-->
 
 ### 錨定你的內容
 
@@ -237,7 +271,7 @@ Insights Agent 不區分大小寫，但精確詞彙匹配能提升準確度。
 
 **課程與進度**
 
-- 「領導力發展學習路徑的完成狀態分布如何？顯示已完成、進行中、尚未開始的計數。」
+- 「領導力發展學習路徑的完成狀態分布如何？ 節目已完成、進行中且尚未開始計數。」
 - 「上個月有多少學員完成了資料隱私課程？」
 
 **組織觀點**
@@ -260,4 +294,4 @@ Insights Agent 不區分大小寫，但精確詞彙匹配能提升準確度。
 
 **不支援非拉丁字母提交的查詢**
 
-Insights Agent 支援以英語及拉丁字母語言（如法語和西班牙語）撰寫的查詢。 使用非拉丁字母（包括日文、中文、阿拉伯文、韓文、印地文和俄文）提交的查詢無法處理，客服會顯示無法完成查詢的訊息。 如果你用這些語言提交查詢，請重新開始一個查詢並改寫成英文。
+Insights Agent 支援以英語及拉丁字母語言（如法語和西班牙語）撰寫的查詢。 使用非拉丁字母（包括日文、中文、阿拉伯文、韓文、印地文及俄文）提交的查詢不予處理。 代理會顯示訊息，表示查詢無法完成。 如果你用這些語言提交查詢，請重新開始一個查詢並改寫成英文。
