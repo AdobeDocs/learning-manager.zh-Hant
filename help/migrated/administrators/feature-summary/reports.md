@@ -465,7 +465,7 @@ Adobe Learning Manager 讓組織的管理員能夠產生與學習者相關的成
 要下載報告，請遵循以下任一步驟：
 
 1. 打開 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**。 **[!UICONTROL Generating Report Request]**&#x200B;對話框打開了。點擊確定。
-1. [!UICONTROL **出口報告**]>[!UICONTROL **行動**]**]公告>[!UICONTROL **&#x200B;報告。
+1. [!UICONTROL **出口報告**]>[!UICONTROL **行動**]&#x200B;**公告>**&#x200B;報告。
 
    ![](assets/announcements.png)
    *公告報告*
@@ -1024,7 +1024,7 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
    * 年份
    * QTD（過去90天）
    * 今年至今（過去365天）
-   * 日期範圍。 在日期&#x200B;**[!UICONTROL From]****[!UICONTROL To]**&#x200B;欄位中提供數值。
+   * 日期範圍。 在日期&#x200B;**[!UICONTROL From]**&#x200B;**[!UICONTROL To]**&#x200B;欄位中提供數值。
 
    ![](assets/time-filter-for-report.png)
 
@@ -1275,7 +1275,7 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
    ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report2.png)
 
 4. **選擇範圍**：選擇要報告的期間—— **過去一週**、 **過去一個月**&#x200B;或 **選擇日期**。 選擇 **「選擇日期**」時，請輸入 **「發件** 日期」和「 **到日期** 」。
-5. **選擇設定類型**：選擇&#x200B;**全部**、**基礎、****整合或****進階**。當你選擇 **「全部**」時， **「所有值** 」會出現在「選擇設定類型」欄位中。
+5. **選擇設定類型**：選擇&#x200B;**全部**、**基礎、**&#x200B;**整合或**&#x200B;**進階**。當你選擇 **「全部**」時， **「所有值** 」會出現在「選擇設定類型」欄位中。
 
    若要查看本報告追蹤的基礎、整合及進階完整設定清單，請選擇 **「下載設定**&#x200B;清單」。
 

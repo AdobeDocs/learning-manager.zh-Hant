@@ -113,7 +113,7 @@ Authorization: oauth <access-token>
 | 內容類型 | `application/vnd.api+json;charset=UTF-8`（JSON）:API |
 | Authentication | 持有人 OAuth 代幣，範圍限定給帳戶管理員 |
 | 帳號背景 | `x-acap-account` 標頭識別呼叫管理員的帳號 |
-| 民調 | 不強制執行固定間隔;輪詢取得工作狀態端點直到`status`不再或`QUEUED``IN_PROGRESS` |
+| 民調 | 不強制執行固定間隔;輪詢取得工作狀態端點直到`status`不再或`QUEUED`&#x200B;`IN_PROGRESS` |
 
 ### 身分證
 
@@ -249,7 +249,7 @@ Authorization: oauth <access-token>
 | `jobType` | 字串 | `generateConfigChangeAuditReport` 本報告 |
 | `status` | 字串 | `QUEUED`、、 `IN_PROGRESS`、 `COMPLETED`或 `FAILED` |
 | `dateCreated` | 字串（ISO-8601） | 職位創立時 |
-| `dateCompleted` | 字串（ISO-8601） | 當工作完成時;出現一次`status`即為`COMPLETED``FAILED` |
+| `dateCompleted` | 字串（ISO-8601） | 當工作完成時;出現一次`status`即為`COMPLETED`&#x200B;`FAILED` |
 | `payload` | 目的 | 工作所建立的請求參數（嵌入 – 見下文） |
 | `result` | 目的 | 完成報告下載地點;僅在 `status` 時 `COMPLETED` 呈現（嵌入 – 見下文） |
 | `error` | 目的 | 失效細節;僅在 `status` 時才出現 `FAILED` |
