@@ -4,9 +4,9 @@ jcr-language: en_us
 title: 報表
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: d8c811bdfc4f41ef354a8563ab59070db436bd1d
+source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
 workflow-type: tm+mt
-source-wordcount: '8390'
+source-wordcount: '8437'
 ht-degree: 0%
 ---
 # 報表 {#reports}
@@ -465,7 +465,7 @@ Adobe Learning Manager 讓組織的管理員能夠產生與學習者相關的成
 要下載報告，請遵循以下任一步驟：
 
 1. 打開 **[!UICONTROL Reports]** > **[!UICONTROL Custom Reports]** > **[!UICONTROL Excel Reports]** > **[!UICONTROL Announcements Report]**。 **[!UICONTROL Generating Report Request]**&#x200B;對話框打開了。點擊確定。
-1. [!UICONTROL **出口報告**]>[!UICONTROL **行動**]&#x200B;**公告>**&#x200B;報告。
+1. [!UICONTROL **出口報告**]>[!UICONTROL **行動**]**]公告>[!UICONTROL **&#x200B;報告。
 
    ![](assets/announcements.png)
    *公告報告*
@@ -1024,7 +1024,7 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
    * 年份
    * QTD（過去90天）
    * 今年至今（過去365天）
-   * 日期範圍。 在日期&#x200B;**[!UICONTROL From]**&#x200B;**[!UICONTROL To]**&#x200B;欄位中提供數值。
+   * 日期範圍。 在日期&#x200B;**[!UICONTROL From]****[!UICONTROL To]**&#x200B;欄位中提供數值。
 
    ![](assets/time-filter-for-report.png)
 
@@ -1251,9 +1251,10 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
 
 該報告對任何擁有檢舉權限的使用者開放——包括已授權檢舉權限的正式管理員及自訂管理員，而非僅限帳號擁有者。
 
->[!NOTE]
->
->紀錄自 2026 年 9 月第 112 次更新開始可查閱。 本次更新前所做的變更未包含在報告中。 詳見 [發行說明](/help/migrated/release-note/release-notes.md) Update 112。
+## 紀錄與變動 {#recordschanges}
+
+* 紀錄自 2026 年 9 月第 112 次更新開始可查閱。 本次更新前所做的變更未包含在報告中。 詳見 [發行說明](/help/migrated/release-note/release-notes.md) Update 112。
+* 對任何設定所做的變更，報告中可能需耗時長達一小時。
 
 ## 為何本報告對合規至關重要
 
@@ -1275,7 +1276,7 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
    ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report2.png)
 
 4. **選擇範圍**：選擇要報告的期間—— **過去一週**、 **過去一個月**&#x200B;或 **選擇日期**。 選擇 **「選擇日期**」時，請輸入 **「發件** 日期」和「 **到日期** 」。
-5. **選擇設定類型**：選擇&#x200B;**全部**、**基礎、**&#x200B;**整合或**&#x200B;**進階**。當你選擇 **「全部**」時， **「所有值** 」會出現在「選擇設定類型」欄位中。
+5. **選擇設定類型**：選擇&#x200B;**全部**、**基礎、****整合或****進階**。當你選擇 **「全部**」時， **「所有值** 」會出現在「選擇設定類型」欄位中。
 
    若要查看本報告追蹤的基礎、整合及進階完整設定清單，請選擇 **「下載設定**&#x200B;清單」。
 
@@ -1326,7 +1327,7 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
 
 ## 以程式化方式存取本報告
 
-你可以透過 Jobs API 程式化取得管理員稽核追蹤報告，而不必從 Admin 應用程式手動產生。 如果你想排程定期匯出或將報告輸入下游監控或警示系統，這很有用。 了解更多關於 [Jobs API 用於管理員稽核追蹤報告的資訊](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)
+你可以透過 Jobs API 程式化取得管理員稽核追蹤報告，而不必從 Admin 應用程式手動產生。 如果你想排程定期匯出或將報告輸入下游監控或警示系統，這很有用。 了解更多關於 [行政審計追蹤報告](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report)的職務 API。
 
 ## 限制
 
@@ -1344,6 +1345,8 @@ Adobe Learning Manager（ALM）中的歷史報告指的是記錄學習平台內�
 ## 疑難排解
 
 **我沒看到任何在某個日期之前的紀錄**&#x200B;紀錄僅自第 112 次更新（2026 年 9 月）起提供。 更新前所做的變更不包含在報告中。 詳見 [發行說明](/help/migrated/release-note/release-notes.md)
+
+**我沒看到我幾分鐘前做的修改反映在報告裡**&#x200B;請參考上方「紀錄與變更](#recordschanges)」下的[第二個項目符號。
 
 **UUID 欄位對部分或全部紀錄為空**&#x200B;只有當帳號層級啟用 UUID 時，UUID 欄位才會被填入。 若未啟用，該欄位將不存在。
 
