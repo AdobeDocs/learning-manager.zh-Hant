@@ -3,13 +3,11 @@ title: 歡迎來到 Adobe Learning Manager 使用者指南
 description: 學習 Adobe Learning Manager（前稱 Adobe Captivate Prime）的最新服務。 從頭開始，逐區造訪，或與社群連結，逐步完成專案。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
+source-git-commit: 3d72e5ad28f5d57090d40914a983b5c665a2e7df
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 0%
-
 ---
-
 # 歡迎來到 Adobe Learning Manager 使用者指南
 
 繼續閱讀，了解 Adobe Learning Manager（前身為 Adobe Captivate Prime）的最新功能。 從頭開始，依照自己的步調探索每個區塊，或在專案過程中與社群連結。

@@ -3,9 +3,9 @@ description: 透過 Adobe Learning Manager 的 AI 助理，從你的學習內容
 jcr-language: en_us
 title: Adobe Learning Manager 中的學習者 AI 助理
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # 學習者的 AI 助理
@@ -81,7 +81,7 @@ Adobe 透過可信賴的服務安全地處理您的學習內容。
 
 AI 助理僅使用內部目錄及第三方內容庫的內容。 學習者查詢的答案僅來自他們可存取的目錄。
 
-以下內容來源不被支援：
+以下內容來源目前版本不支援：
 
 - 共享外部目錄
 - 預設目錄
