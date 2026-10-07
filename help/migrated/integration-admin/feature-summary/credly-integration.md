@@ -46,7 +46,7 @@ Adobe Learning Manager 的badge.csv允許你從現有的 LMS 或外部系統遷�
 * externalBadgeId
 * externalBadgeProvider
 
-外部徽章 ID 指的是 Credly 平台中的徽章範本 ID，而外部徽章提供者則是 Credly。 在badge.csv中加入這些數值，並依照遷移手冊](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中[提到的步驟遷移 csv。
+外部徽章 ID 指的是 Credly 平台中的徽章範本 ID，而外部徽章提供者則是 Credly。 在badge.csv中加入這些數值，並依照遷移手冊[&#128279;](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中提到的步驟遷移 csv。
 
 ## 創建一項技能 - 管理員
 

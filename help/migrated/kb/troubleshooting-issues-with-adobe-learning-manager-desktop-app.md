@@ -112,9 +112,9 @@ ht-degree: 0%
 
 ### 窗戶 {#Windows-1}
 
-1. 要開啟執行對話框，請按 **Windows 鍵 + R**。****
-1. 輸入「**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**」（不加引號），然後按下 Enter。****
-1. 先備份檔案 **preferences.json**，然後用文字編輯器打開。****
+1. 要開啟執行對話框，請按 **Windows 鍵 + R**。**&#x200B;**
+1. 輸入「**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**」（不加引號），然後按下 Enter。**&#x200B;**
+1. 先備份檔案 **preferences.json**，然後用文字編輯器打開。**&#x200B;**
 1. 搜尋 **debugMode** 鍵，並將此鍵的值屬性改為「**true**」（不加引號）。
 
 ### Mac OS X {#MacOSX-2}

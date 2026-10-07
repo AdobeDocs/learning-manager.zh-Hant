@@ -58,7 +58,7 @@ Adobe Learning Manager 採用基於角色的存取控制（RBAC）模型。 下�
 
 **地點：** Adobe 管理控制台 > 隱私與安全設定> >認證設定
 
-Adobe ID 與企業識別&#x200B;**碼使用者的多重驗證強制執行**&#x200B;由系統管理員&#x200B;**在 Adobe 管理控制台中設定**，而非在 ALM 應用程式本身。****&#x200B;對於 **聯邦身份證/SSO** 使用者，MFA 會在組織的身份提供者處強制執行。
+Adobe ID 與企業識別&#x200B;**碼使用者的多重驗證強制執行**&#x200B;由系統管理員&#x200B;**在 Adobe 管理控制台中設定**，而非在 ALM 應用程式本身。**&#x200B;**&#x200B;對於 **聯邦身份證/SSO** 使用者，MFA 會在組織的身份提供者處強制執行。
 
 - **強制雙重驗證：** 使用者無法關閉兩步驟驗證。 提供強力防範憑證盜竊與網路釣魚的防護。
 - **可選的雙重驗證：** 使用者可選擇是否啟用兩步驟驗證。 安全防護明顯較弱。
@@ -169,7 +169,7 @@ Adobe Learning Manager 中的管理設定可由客戶配置，並屬於 Adobe �
 
 關於 Adobe Learning Manager 安全措施的更多資訊，請參閱：
 
-**參考資料：**[Adobe Learning Manager 安全概述（PDF）](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+**參考資料：**&#x200B;[Adobe Learning Manager 安全概述（PDF）](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## 文件維護
 

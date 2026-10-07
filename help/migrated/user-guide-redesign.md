@@ -150,7 +150,7 @@ ht-degree: 0%
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" title="課程與內容管理" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="課程與內容管理" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="課程與內容管理"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -159,11 +159,11 @@ ht-degree: 0%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" target="_blank" rel="referrer" title="課程與內容管理">課程與內容管理</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" title="課程與內容管理">課程與內容管理</a>
                     </p>
                     <p class="is-size-6">透過這段學習旅程，學習如何有效創作、組織和管理學習內容。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開放式學習路徑</span>
                 </a>
             </div>
@@ -171,7 +171,7 @@ ht-degree: 0%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" title="入口與體驗" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" title="入口與體驗" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-portal-new.png" alt="入口與體驗"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -180,11 +180,11 @@ ht-degree: 0%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" target="_blank" rel="referrer" title="入口與體驗">入口與體驗</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" title="入口與體驗">入口與體驗</a>
                     </p>
                     <p class="is-size-6">學習如何使用 Experience Builder 建立客製化品牌入口網站和吸引人的公開首頁。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開放式學習路徑</span>
                 </a>
             </div>
@@ -192,7 +192,7 @@ ht-degree: 0%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" title="管理與存取" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" title="管理與存取" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-admin-new.png" alt="管理與存取"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -201,11 +201,11 @@ ht-degree: 0%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" target="_blank" rel="referrer" title="管理與存取">管理與存取</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" title="管理與存取">管理與存取</a>
                     </p>
                     <p class="is-size-6">學習如何設計角色、管理權限及建立治理架構。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開放式學習路徑</span>
                 </a>
             </div>
@@ -213,7 +213,7 @@ ht-degree: 0%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" title="認可與合規" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" title="認可與合規" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition-new.png" alt="認可與合規"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -222,11 +222,11 @@ ht-degree: 0%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" target="_blank" rel="referrer" title="認可與合規">認可與合規</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" title="認可與合規">認可與合規</a>
                     </p>
                     <p class="is-size-6">學習如何設立合規認證、設計客製化證書與徽章，以慶祝學習者的成就。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開放式學習路徑</span>
                 </a>
             </div>
@@ -234,7 +234,7 @@ ht-degree: 0%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" title="學習經驗之旅" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" title="學習經驗之旅" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-journey-new.png" alt="學習經驗之旅"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -243,11 +243,11 @@ ht-degree: 0%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" target="_blank" rel="referrer" title="學習經驗之旅">學習經驗之旅</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" title="學習經驗之旅">學習經驗之旅</a>
                     </p>
                     <p class="is-size-6">學習如何將課程安排成結構化路徑，並透過學習計畫自動化註冊。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開放式學習路徑</span>
                 </a>
             </div>
@@ -255,7 +255,7 @@ ht-degree: 0%
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" title="報告與分析" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" title="報告與分析" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-reporting-new.png" alt="報告與分析"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -264,11 +264,11 @@ ht-degree: 0%
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" target="_blank" rel="referrer" title="報告與分析">報告與分析</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" title="報告與分析">報告與分析</a>
                     </p>
                     <p class="is-size-6">學習如何將儀表板與報告轉化為領導層有意義的決策。</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">開放式學習路徑</span>
                 </a>
             </div>
@@ -279,7 +279,7 @@ ht-degree: 0%
 選擇針對關鍵能力的專精課程，或遵循指導式學習路徑。 學院連結會在新分頁開啟，可能需要登入。
 
 <div style="margin-top: 1rem;">
-    <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&amp;mv=partner"
+    <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
@@ -318,17 +318,17 @@ ht-degree: 0%
 
 <p>
                     <strong>Insights 代理程式（測試版）</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MQH8RTM8&amp;mv=partner#/course/17286964">課程</a>
+                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">課程</a>
 </p>
 <p>
                     <strong>學習路徑代理（測試版）</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MLR7RYC9&amp;mv=partner#/course/17286956">課程</a>
+                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">課程</a>
 
 </p>
 
 <p>
                     <strong>Live Hub（測試版）</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MV79RPW7&amp;mv=partner#/course/17286962">課程</a>
+                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">課程</a>
 
 </p>
 
@@ -343,11 +343,11 @@ ht-degree: 0%
     </p>
     <p>
                     <strong>報表建置器</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MYYBRL56&amp;mv=partner#/course/17286960">課程</a>
+                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">課程</a>
     </p>
 <p>
                     <strong>電子郵件建構器</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N3PCRGF5&amp;mv=partner#/course/17286967">課程</a>
+                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">了解更多</a> 與關閉啟動 <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">課程</a>
     </p>
     </td>
   </tr>
@@ -358,7 +358,7 @@ ht-degree: 0%
 了解 ALM 如何協助您創造、管理並提供引人入勝的學習體驗。 立即報名參加個人化示範。
 
 <div>
-    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&amp;mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">

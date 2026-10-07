@@ -49,7 +49,7 @@ ht-degree: 0%
 >
 >新的學習者介面將分階段發布。
 
-**學習者介面**&#x200B;已更新，設計更優雅且現代化。**[!UICONTROL Learner Home]****[!UICONTROL My Learning]**、 、 **[!UICONTROL Catalog]**&#x200B;和 **[!UICONTROL Course Overview]** 著陸頁都煥然一新，變得現代化。課程卡也採用新設計，以現代化的方式展示細節。 滑鼠移至課程卡片上即可顯示課程說明及出版日期。
+**學習者介面**&#x200B;已更新，設計更優雅且現代化。**[!UICONTROL Learner Home]**&#x200B;**[!UICONTROL My Learning]**、 、 **[!UICONTROL Catalog]**&#x200B;和 **[!UICONTROL Course Overview]** 著陸頁都煥然一新，變得現代化。課程卡也採用新設計，以現代化的方式展示細節。 滑鼠移至課程卡片上即可顯示課程說明及出版日期。
 
 >[!NOTE]
 >
@@ -124,7 +124,7 @@ _完成標準選項-活動模組_
 
 搜尋 API 包含以下變更：
 
-學習者可利用 `GET /search` API 在目錄篩選器中搜尋標籤。 學習者可透過選擇`tag``filter.loTypes`參數值來搜尋標籤。
+學習者可利用 `GET /search` API 在目錄篩選器中搜尋標籤。 學習者可透過選擇`tag`&#x200B;`filter.loTypes`參數值來搜尋標籤。
 
 **樣本捲度**
 
@@ -144,7 +144,7 @@ API 中新增`GET /account`了欄位 `custom_injections`、 `showComplianceLabel
 
 以下是本次更新對學習物件 API 所做的變更：
 
-新的回應、舊有作者 ID 以及 API 下`authorDetails``GET /learningObjects`新增的其他細節。此外，新增了一個篩選 `filter.authors`器 ，用來篩選舊有作者及其課程。
+新的回應、舊有作者 ID 以及 API 下`authorDetails`&#x200B;`GET /learningObjects`新增的其他細節。此外，新增了一個篩選 `filter.authors`器 ，用來篩選舊有作者及其課程。
 
 這個新屬性 `effectivenessIndex` 會幫助你取得課程效能數據。
 
@@ -168,7 +168,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 
 新增的回應 `count` 顯示學習物件總數，已被加入 API `GET/ learningObjects` 和 `POST/ learningObjects/query`。
 
-新的回應， `catalogFieldId` `fieldValueId`已經在 API 裡`catalogLabels``GET/ learningObjects`新增了。
+新的回應， `catalogFieldId` `fieldValueId`已經在 API 裡`catalogLabels`&#x200B;`GET/ learningObjects`新增了。
 
 學習者可以在 API `GET /preview/learningObjects`中取得目錄標籤值。
 
@@ -241,7 +241,7 @@ RPM 是你在一分鐘內能發送給 API 伺服器的請求數量。 突發限�
 
 ### 已棄用的 API
 
-在 Adobe Learning Manager](/help/migrated/api-deprecations-list.md) 中查看 [API 棄用列表，以累積所有產品中已棄用的 API。
+在 Adobe Learning Manager[&#128279;](/help/migrated/api-deprecations-list.md) 中查看 API 棄用列表，以累積所有產品中已棄用的 API。
 
 ## 報告變更
 
@@ -265,7 +265,7 @@ RPM 是你在一分鐘內能發送給 API 伺服器的請求數量。 突發限�
 
 ### 訓練報告
 
-Admin > Reports > Custom Reports **和** Jobs API **的**&#x200B;訓練報告過去都有稱為&#x200B;**技能（Skill**））和&#x200B;**標籤（Tag（s））**&#x200B;的欄位。 **** ****&#x200B;這些欄位現在已改名為 **技能** 與 **標籤**。
+Admin > Reports > Custom Reports **和** Jobs API **的**&#x200B;訓練報告過去都有稱為&#x200B;**技能（Skill**））和&#x200B;**標籤（Tag（s））**&#x200B;的欄位。 **&#x200B;**&#x200B;**&#x200B;**&#x200B;這些欄位現在已改名為 **技能** 與 **標籤**。
 
 ### 內容審核報告
 

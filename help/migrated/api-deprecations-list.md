@@ -156,5 +156,5 @@ Adobe Learning Manager 改善了客戶與合作夥伴啟用帳號的建議。 �
 
 ### GET /users 端點中高偏移值的棄用
 
-為了提升系統效能並更有效管理資源利用率，Adobe 已棄用 GET /users 端&#x200B;**點中 ADMIN 與** LEARNER **** 範圍的高偏移值。我們建議使用 **Jobs API** 來取得帶有偏移值的紀錄。
+為了提升系統效能並更有效管理資源利用率，Adobe 已棄用 GET /users 端&#x200B;**點中 ADMIN 與** LEARNER **&#x200B;**&#x200B;範圍的高偏移值。我們建議使用 **Jobs API** 來取得帶有偏移值的紀錄。
 

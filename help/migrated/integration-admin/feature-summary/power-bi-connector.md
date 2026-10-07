@@ -61,10 +61,10 @@ Power BI 連接器允許你將 Adobe Learning Manager 與 Microsoft Power BI（�
 1. 前往 [註冊 Power BI 應用程式](https://app.powerbi.com/embedsetup)。
 2. 為您的組織&#x200B;**選擇**&#x200B;嵌入，並登入您的 Microsoft 帳號。
 3. 輸入你的應用程式名稱。
-4. 在應用程式類型中選擇&#x200B;**伺服器端網頁應用程式**。****
+4. 在應用程式類型中選擇&#x200B;**伺服器端網頁應用程式**。**&#x200B;**
 5. 在重 **定向網址** 區塊，選擇 **使用自訂網址** ，並輸入 [此網址](https://learningmanager.adobe.com/ctr/app/azure/_callback)：（如需，依照您的環境替換網域。）
 6. 在「主頁網址&#x200B;**」**&#x200B;欄位輸入[此網址](https://learningmanager.adobe.com/)。
-7. 在&#x200B;**權限區塊中，選擇**「Read All Data set **」及**「Read and Write all Data set ****」。
+7. 在&#x200B;**權限區塊中，選擇**「Read All Data set **」及**「Read and Write all Data set **&#x200B;**」。
 8. 聯絡你的 Power BI 管理員取得 **租戶名稱**。
 9. 如果你沒有工作區 ID，請在 Power BI 建立一個工作區（需要 Power BI Pro），並從 URL 複製 ID。
 10. 選擇 **註冊應用程式** ，並儲存 **用戶端 ID** 和 **用戶端秘密** 以便日後使用。

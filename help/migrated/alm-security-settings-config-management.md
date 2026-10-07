@@ -153,7 +153,7 @@ Adobe Learning Manager 提供完整的 REST API v2，允許透過 OAuth 2.0 認�
 
 +++Adobe Learning Manager 是否會以機器可讀格式（如 OSCAL、JSON 或 YAML）發佈其安全設定指引？
 
-Adobe Learning Manager 目前尚未以機器可讀格式發佈其安全設定指南。 FRR-RSC-01](/help/migrated/alm-administrative-lifecycle.md) 與 [FRR-RSC-02](/help/migrated/alm-secure-administration-guide.md) 中的[指引以 HTML 及可下載文件格式發佈於 Adobe Experience League 上，提供人文易讀文件。
+Adobe Learning Manager 目前尚未以機器可讀格式發佈其安全設定指南。 FRR-RSC-01[&#128279;](/help/migrated/alm-administrative-lifecycle.md) 與 [FRR-RSC-02](/help/migrated/alm-secure-administration-guide.md) 中的指引以 HTML 及可下載文件格式發佈於 Adobe Experience League 上，提供人文易讀文件。
 
 目前沒有公開可用的 OSCAL 元件定義、YAML 基線或 JSON 政策檔來編碼 Adobe Learning Manager 推薦的安全預設值。
 
