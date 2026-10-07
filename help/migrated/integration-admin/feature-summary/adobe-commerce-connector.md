@@ -28,8 +28,8 @@ Adobe Learning Manager 與 Adobe Commerce 整合，後者是一個可擴充且�
 
 在設定 Adobe Commerce 連接器前，請先確認以下事項：
 
-- 啟用 [RabbitMQ](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview) 或其他任何訊息代理。
-- 啟用 [CRON](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview#cron_consumers_runner) 職缺。
+- 啟用 [RabbitMQ](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/start/overview) 或其他任何訊息代理。
+- 啟用 [CRON](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/start/overview#cron_consumers_runner) 職缺。
 
 要啟用這些檔案，請編輯以下檔案：
 
@@ -43,8 +43,8 @@ Adobe Learning Manager 與 Adobe Commerce 整合，後者是一個可擴充且�
 - 啟用所有 **非同步 API**。 大型訓練資料集則以非同步方式匯出。 當 Learning Manager 呼叫 Adobe Commerce API 時，請求會被排隊並由在商務端建立產品的消費者處理。 非同步處理必須啟用，因為 Adobe Commerce 預設不支援非同步處理。
 - 在 Adobe Commerce 的付款成功頁面新增 **Learning Manager 的退貨連結** 。
   - 請使用此 [回傳網址](https://learningmanager.adobe.com/app/learner#/postPayment)：
-- 將索引&#x200B;**從**&#x200B;**「**&#x200B;儲存中」改為&#x200B;**「排程」。**&#x200B;更多資訊請參閱 [知識庫](https://experienceleague.adobe.com/en/support?support-tab=home#home) 。
-- 套用必要的 **補丁**。 請參閱 [「套用補丁」文件](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview) 中的說明。
+- 將索引&#x200B;**從**&#x200B;**「**&#x200B;儲存中」改為&#x200B;**「排程」。**&#x200B;更多資訊請參閱 [知識庫](https://experienceleague.adobe.com/zh-hant/support?support-tab=home#home) 。
+- 套用必要的 **補丁**。 請參閱 [「套用補丁」文件](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/start/overview) 中的說明。
 - 在雲端基礎架構（暫存與生產環境）上設定 **Fastly** for Adobe Commerce。 更多資訊請參見[「設定快速」。](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)
 
 ## 設定連接器

@@ -53,7 +53,7 @@ Adobe Learning Manager （ALM） 可與 Adobe Experience Manager （AEM） 網�
 
 >[!NOTE]
 >
->關於安裝套件的資訊，請參閱  [***「如何操作套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)」。
+>關於安裝套件的資訊，請參閱  [***「如何操作套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#how-to-work-with-packages)」。
 
 1. 以 AEM 作者身份，開啟 AEM 套件管理器。
 1. 點擊按鈕 **[!UICONTROL Upload Package]**。

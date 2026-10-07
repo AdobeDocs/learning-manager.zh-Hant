@@ -179,7 +179,7 @@ FileZilla 是一款免費、開源的 FTP 用戶端，提供使用者友善的�
 3. 在 **地圖屬性** 頁面：
    - **左側**&#x200B;顯示 Adobe Learning Manager 的必填欄位。
    - **右側**&#x200B;顯示 CSV 欄位名稱。一開始，這一側會顯示空白的下拉選單。
-   - 選擇 **選擇 CSV** 以上傳範例 CSV 檔案。 這會顯示右側下拉選單，顯示你 CSV 的欄位名稱。 請參考 [這篇文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)。
+   - 選擇 **選擇 CSV** 以上傳範例 CSV 檔案。 這會顯示右側下拉選單，顯示你 CSV 的欄位名稱。 請參考 [這篇文章](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/migration-manual#csv)。
    - 將每個 Adobe Learning Manager 欄位與對應的 CSV 欄位對應。
 
    ![](assets/ftp-connector6.png)
