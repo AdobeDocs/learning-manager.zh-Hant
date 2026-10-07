@@ -4,13 +4,14 @@ title: 透過 CSV 檔案管理自訂角色
 description: 整合管理員可以透過 CSV 批量新增多個自訂角色到他的帳戶，並且可以將這些角色指派給不同使用者。 此方法自動化了自訂角色的建立過程。
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 0%
-
 ---
-
 # 透過 CSV 檔案管理自訂角色
 
 整合管理員可以透過 CSV 批量新增多個自訂角色到他的帳戶，並且可以將這些角色指派給不同使用者。 此方法自動化了自訂角色的建立過程。
@@ -149,7 +150,7 @@ ht-degree: 0%
 
 在你的 Box 帳號中，選擇 **匯入>使用者>內部檔案**，並上傳檔案——role.csv 和 user_role.csv。
 
-* role.csv和user_role.csv必須複製到「匯入>使用者」資料夾&#x200B;**>**&#x200B;**內部**>**user_role**。**&#x200B;**
+* role.csv和user_role.csv必須複製到「匯入>使用者」資料夾&#x200B;**>****內部**>**user_role**。****
 * user.csv必須複製到「匯入&#x200B;**>**&#x200B;使用者&#x200B;**>**&#x200B;內部&#x200B;**」資料夾**&#x200B;中。
 
 這兩個 CSV 都必須只能透過 Box 上傳，且無法透過 UI 上傳。

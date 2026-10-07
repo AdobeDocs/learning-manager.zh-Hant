@@ -3,13 +3,14 @@ description: 了解如何將 Training Data Access 連接器整合到 Adobe Learn
 jcr-language: en_us
 title: 訓練資料存取連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的訓練資料存取連接器
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 ## 設定訓練資料存取連接器
 
-你可以將 Adobe Learning Manager 整合到資料儲存與搜尋系統，將訓練中繼資料推送到 AEM 網站或其他無頭體驗。
+你可以將 Adobe Learning Manager 與資料儲存與搜尋系統整合，將訓練中繼資料推送到 AEM 網站或其他無頭體驗。
 
 要設定連接器：
 
@@ -79,11 +80,11 @@ ht-degree: 0%
 
 要在無頭或基於 AEM Sites 的網站上顯示訓練資料：
 
-1. **從 Adobe 的 GitHub 倉庫[&#128279;](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)安裝 AEM 套件**（前置條件）。
+1. **從 Adobe 的 GitHub 倉庫](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0)安裝 AEM 套件**[（前置條件）。
 2. 在 AEM 中，請使用 **基礎 URL**、 **CDN URL**、 **用戶端 ID**、 **用戶端秘密**&#x200B;和 **管理員刷新令牌** 來建立設定。
 3. 使用 AEM 元件來建置網站。
 4. 為學習者發布網站。
-5. 完整設定細節請參閱 [本文](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) 及 [本文](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)。
+5. 完整設定細節請參閱 [本文](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) 及 [本文](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager)。
 
 ### 學習者體驗
 
@@ -91,7 +92,7 @@ ht-degree: 0%
 
 - 網站會顯示所有 **透過搜尋系統從 Adobe Learning Manager 取得的課程**、 **學習路徑**&#x200B;與 **證書** 。
 - 未登入&#x200B;**的學習者**&#x200B;可瀏覽並查看課程詳情。
-- 當學習者點擊註冊課程、學習路徑或證書時，系統會提示他們登入&#x200B;**&#x200B;**&#x200B;以完成註冊並開始訓練。
+- 當學習者點擊註冊課程、學習路徑或證書時，系統會提示他們登入&#x200B;****&#x200B;以完成註冊並開始訓練。
 
 ## 未登入體驗
 
@@ -108,7 +109,7 @@ Adobe Learning Manager 中的未登入體驗可透過 **訓練資料存取** 連
 
 ### 高級服務
 
-此高級方案協助使用者建立無頭介面，該介面由 **訓練資料存取** 連接器設定。 這讓使用者能即時取得課程與學習路徑的詳細資訊，如名稱、描述、作者、技能、時長等。在混合式學習情境中，你還會看到即時的名額限制、已佔名額、候補名單限制和候補名單數量。 客戶可利用這些 API 建立搜尋與篩選功能，並為未登入學習者提供完整的課程摘要。
+此高級方案協助使用者建立無頭介面，該介面由 **訓練資料存取** 連接器設定。 這讓使用者能即時取得課程與學習路徑的詳細資訊，如名稱、描述、作者、技能、時長等。在混合式學習情境中，你還能即時獲得名額限制、已佔名額、候補名單限制及候補名單數量。 客戶可利用這些 API 建立搜尋與篩選功能，並為未登入學習者提供完整的課程摘要。
 
 客戶可以購買高級方案，打造這種高度可擴展的非登入體驗。
 

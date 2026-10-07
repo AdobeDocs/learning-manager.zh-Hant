@@ -2,13 +2,14 @@
 description: 學習如何編輯內容撰寫者課程大綱——透過聊天面板重新命名、新增、移除、分割或合併課程與主題。
 jcr-language: en_us
 title: 編輯課程大綱
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '237'
 ht-degree: 0%
-
 ---
-
 
 # 編輯課程大綱
 

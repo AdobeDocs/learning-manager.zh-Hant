@@ -3,13 +3,14 @@ description: 學習如何在學習管理員中根據使用者、學習物件或�
 jcr-language: en_us
 title: 學習者成績單
 exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
-
 ---
-
 # 學習者成績單
 
 學習如何在學習管理員中根據使用者、學習物件或技能下載學習者成績單。

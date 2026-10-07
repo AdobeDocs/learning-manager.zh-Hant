@@ -1,43 +1,44 @@
 ---
 jcr-language: en_us
-title: 在Adobe Learning Manager中設定試用、沙箱或測試帳戶
-description: 瞭解如何在Adobe Learning Manager中建立免費的30天試用版或沙箱帳戶。 請依照簡單的步驟設定測試環境，並快速上手。
+title: 在 Adobe Learning Manager 中建立試用、沙盒或測試帳號
+description: 學習如何在 Adobe Learning Manager 中建立免費的 30 天試用或沙盒帳號。 請依照簡單步驟設置測試環境，並迅速開始。
 exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
-source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '163'
 ht-degree: 0%
-
 ---
+# 在 Adobe Learning Manager 建立試用帳號
 
-# 在Adobe Learning Manager中建立試用帳戶
+你可以輕鬆地在 Adobe Learning Manager 中設定免費 30 天試用帳號，探索功能並測試學習流程。 本指南說明從哪裡開始、如何註冊，以及設定好後如何找到你的帳號資料。
 
-您可以在Adobe Learning Manager中輕鬆設定免費的30天試用帳戶，以探索功能並測試學習工作流程。 本指南說明從何處開始、如何註冊，以及如何在設定後尋找您的帳戶詳細資料。
+要建立試用帳號：
 
-若要建立試用帳戶：
-
-1. 移至[Adobe Learning Manager](https://business.adobe.com/tw/products/learning-manager/adobe-learning-manager.html)。
-2. 選取&#x200B;**[!UICONTROL Free 30-day trial]**。
+1. 去 [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html) 看看。
+2. 選擇 **[!UICONTROL Free 30-day trial]**。
 
    ![](assets/free-trial.png)
 
-3. 在登入頁面上選取&#x200B;**[!UICONTROL Create an account]**。
+3. 在登入頁面選擇 **[!UICONTROL Create an account]** 。
 
    ![](assets/create-trial-account.png)
 
-4. 輸入您的&#x200B;**[!UICONTROL Email address]**&#x200B;和&#x200B;**[!UICONTROL Password]**。
+4. 輸入你的 **[!UICONTROL Email address]** 和 **[!UICONTROL Password]**。
 
    ![](assets/type-email.png)
 
-5. 輸入下列詳細資料，並選取&#x200B;**[!UICONTROL Create account]**：
+5. 輸入以下資訊並選擇 **[!UICONTROL Create account]**：
    * 名字
    * 姓氏
    * 出生日期
 
    ![](assets/more-details.png)
 
-6. 輸入並完成表單，其中包含設定試用帳戶所需的詳細資料。
-7. 設定完成後，請在Adobe Learning Manager URL的URL中找到您的帳戶ID。
+6. 請輸入並填寫所需資料以建立試用帳號。
+7. 設定完成後，在你的 Adobe Learning Manager URL 中找到你的帳號 ID。
 
    ![](assets/account-id-trial.png)
 

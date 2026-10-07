@@ -2,13 +2,14 @@
 description: 學習如何在內容撰寫器中上傳原始檔案、限制 AI 輸出至內容，以及在內容變動時更新原始檔案。
 jcr-language: en_us
 title: 管理原始碼檔案
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
-
 ---
-
 
 # 管理原始碼檔案
 
@@ -22,7 +23,7 @@ ht-degree: 0%
 2. 將檔案拖曳到對話框中，或選擇 **+ 新增原始檔案** 以瀏覽。 你可以新增多個原始檔案。
    ![](../assets/6_manage_sources_no_files_added_updated.png)
 
-3. 選擇 **限制輸出為檔案**&#x200B;中的內容。 這讓內容撰寫者能僅使用原始內容來生成課程。 若未勾選此選項，Content Composer 也會使用網頁來建立課程。
+3. 選擇 **限制輸出為檔案**中的內容。 這讓內容撰寫者能僅使用原始內容來生成課程。 若未勾選此選項，Content Composer 也會使用網頁來建立課程。
    ![](../assets/7_manage_sources_file_uploading_restrict_output_updated.png)
 
 支援的格式：

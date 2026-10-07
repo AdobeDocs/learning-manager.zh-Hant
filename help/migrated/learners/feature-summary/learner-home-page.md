@@ -4,13 +4,14 @@ title: 學習者首頁
 description: 管理員啟用沉浸式版面後，學習者登入應用程式後，會看到全新設計的使用者介面。
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 0%
-
 ---
-
 # 學習者首頁
 
 ## 概觀 {#overview}
@@ -27,7 +28,7 @@ ht-degree: 0%
 >
 >我們將分階段釋出新的學習者介面。
 
-我們已更新學習者介面，設計更流暢且更新。 新的使用者介面旨在提供跨越&#x200B;**[!UICONTROL Learner Home]**、、**[!UICONTROL My Learning]**&#x200B;**[!UICONTROL Catalog]**&#x200B;**[!UICONTROL Course Overview]**&#x200B;及著陸頁的一致使用者體驗。新的視覺元素遵循現有設計風格，使產品看起來更易使用且更具吸引力。 這次更新包括新的桅杆頭、側邊面板和現代化的小工具。
+我們已更新學習者介面，設計更流暢且更新。 新的使用者介面旨在提供跨越&#x200B;**[!UICONTROL Learner Home]**、、**[!UICONTROL My Learning]****[!UICONTROL Catalog]****[!UICONTROL Course Overview]**&#x200B;及著陸頁的一致使用者體驗。新的視覺元素遵循現有設計風格，使產品看起來更易使用且更具吸引力。 這次更新包括新的桅杆頭、側邊面板和現代化的小工具。
 
 >[!NOTE]
 >
@@ -70,7 +71,7 @@ _舊課程卡_
 ![](assets/new-course-card.jpg)
 _新課程卡_
 
-對於從 LinkedIn 和 Go1 **平台匯入的課程，課程卡片會顯示 LinkedIn** 和 **Go1** 的原始出版日期&#x200B;**。**&#x200B;**&#x200B;**&#x200B;您也可以在使用者介面上查看這些特定的出版日期。
+對於從 LinkedIn 和 Go1 **平台匯入的課程，課程卡片會顯示 LinkedIn** 和 **Go1** 的原始出版日期&#x200B;**。******&#x200B;您也可以在使用者介面上查看這些特定的出版日期。
 
 ### 側邊欄與搜尋欄
 
@@ -99,11 +100,11 @@ _側邊欄與搜尋欄_
 
 要繼續賽道，點擊 **[!UICONTROL Continue]** 卡片，玩家就會啟動。
 
-每張訓練卡上的圖示顯示由管理員透過管理員應用程式&#x200B;**（設定**> **&#x200B;**&#x200B;一般 >**啟用訓練卡圖示**）來啟用或停用。
+每張訓練卡上的圖示顯示由管理員透過管理員應用程式&#x200B;**（設定**> **** 一般 >**啟用訓練卡圖示**）來啟用或停用。
 
 **加入我的學習清單**
 
-如果你在「推薦課程卡片」（根據興趣&#x200B;**&#x200B;**&#x200B;領域）和「推薦課程卡片（根據同儕活動清單&#x200B;**推薦）中移動，**&#x200B;可以看到將課程&#x200B;**加入「我的學習清單**」的選項。點擊 **[!UICONTROL +]** 課程卡片，該課程將被加入 **我的學習清單**。
+如果你在「推薦課程卡片」（根據興趣&#x200B;****&#x200B;領域）和「推薦課程卡片（根據同儕活動清單&#x200B;**推薦）中移動，**&#x200B;可以看到將課程&#x200B;**加入「我的學習清單**」的選項。點擊 **[!UICONTROL +]** 課程卡片，該課程將被加入 **我的學習清單**。
 
 ![](assets/add-my-learning.png)
 

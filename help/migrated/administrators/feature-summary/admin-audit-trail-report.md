@@ -3,7 +3,10 @@ description: 了解管理員稽核追蹤報告如何追蹤設定變更，顯示�
 jcr-language: en_us
 title: 管理員稽核追蹤報告
 exl-id: 71b2ee42-ef1c-47fb-95ad-c339562e227d
-source-git-commit: 500a467395fc8ada89cd6ea7e3783b73cc43045d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -56,7 +59,7 @@ ht-degree: 0%
    ![](/help/migrated/administrators/feature-summary/assets/audit-trail-report2.png)
 
 4. **選擇範圍**：選擇要報告的期間—— **過去一週**、 **過去一個月**&#x200B;或 **選擇日期**。 選擇 **「選擇日期**」時，請輸入 **「發件** 日期」和「 **到日期** 」。
-5. **選擇設定類型**：選擇&#x200B;**全部**、**基礎、**&#x200B;**整合或**&#x200B;**進階**。
+5. **選擇設定類型**：選擇&#x200B;**全部**、**基礎、****整合或****進階**。
 
    若要查看本報告追蹤的基礎、整合及進階完整設定清單，請選擇 **「下載設定**&#x200B;清單」。
 

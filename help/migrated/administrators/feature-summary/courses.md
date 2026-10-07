@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 建立課程實例與學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '5908'
+source-wordcount: '5918'
 ht-degree: 0%
-
 ---
-
 # 建立課程實例與學習路徑
 
 本文件包含協助建立管理員角色的課程模組、實例與課程。
@@ -94,7 +95,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->在這套訓練中，你將學習如何編輯實例細節與實例屬性。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>在本次訓練中，您將學習如何編輯實例細節與實例屬性。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
 
@@ -507,7 +508,7 @@ Learning Manager 目前支援 13 種介面語言及 32 種內容語言的學習�
 
 你可以設定 L1 和 L3 的回饋問卷，也可以在帳號層級設定提醒。
 
-1. 登入管理員後點選&#x200B;**[!UICONTROL Settings]**&#x200B;**[!UICONTROL Feedback]**&#x200B;左窗格。\
+1. 登入管理員後點選&#x200B;**[!UICONTROL Settings]****[!UICONTROL Feedback]**&#x200B;左窗格。\
    回饋設定頁面會出現兩個分頁： **[!UICONTROL L1 Feedback]** 和 **[!UICONTROL L3 Feedback]**。\
    **[!UICONTROL L1 Feedback]** 分頁包含課堂與自學課程的預設 **[!UICONTROL L1 feedback]** 問卷清單及提醒設定。 在分頁中 **[!UICONTROL L3 Feedback]** ，你可以查看 L3 反饋的預設語句和提醒設定。
 
@@ -606,8 +607,8 @@ CSV 報告包含以下欄位：
 * **[!UICONTROL Badge]**：從下拉選單選擇預設徽章。
 * **[!UICONTROL Gamification]**：配置遊戲化設定，包括完成點數、提前完成點數及及時完成點數。 管理員可以選擇帳號層級設定或自訂此事件的遊戲化點數。
 * **[!UICONTROL L1 Reaction Feedback]**：啟用預定義問題，供課程結束後的學習者回饋，並可選擇將問題設為必修。
-***[!UICONTROL &#x200B; L3 Behaviour Change Feedback]**：課程結束後，啟用學習者經理的回饋問題。
-***[!UICONTROL &#x200B; Reminder Settings]**：設定並管理截止日期提醒，並提供升級選項。
+***[!UICONTROL  L3 Behaviour Change Feedback]**：課程結束後，啟用學習者經理的回饋問題。
+***[!UICONTROL  Reminder Settings]**：設定並管理截止日期提醒，並提供升級選項。
 
 ### 設定升級等級 {#escalation}
 
@@ -643,7 +644,7 @@ CSV 報告包含以下欄位：
 ![](assets/learning-path.png)
 _選擇多門課程完成_
 
-這些評論會在學習者成績單[&#128279;](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)報告中顯示。
+這些評論會在學習者成績單](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts)報告中顯示[。
 
 ## 預覽課程 {#previewcourses}
 
@@ -744,7 +745,7 @@ Adobe Learning Manager 讓你更容易快速找到心儀的課程和學習程式
 
 作為管理員或經理，您可以在為學習者報名課程時新增評論。 你可以補充即將註冊的用戶群的額外資訊。 這些資料會匯出到課程報告中。
 
-該評論不會&#x200B;**&#x200B;**&#x200B;顯示給學習者。
+該評論不會&#x200B;****&#x200B;顯示給學習者。
 
 當管理員產生學習者的課程報告時，任何新增的評論都會出現在報告中。 摘要對話框顯示包含、排除設定及已註冊課程實例的使用者數量。
 

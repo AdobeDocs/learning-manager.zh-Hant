@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 管理參加者面板
 description: 了解講師如何在 Live Hub 課程中查看參加者面板、設定參加者設定，以及管理個別學習者。
-source-git-commit: 6ac69b3622489f87a3022618ac6ff95f8c230866
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
-
 ---
-
 
 # 管理與會者座談會
 
@@ -28,7 +29,7 @@ ht-degree: 0%
 
 | **選擇權** | **描述** |
 |----|----|
-| **搜尋** | 輸入搜尋&#x200B;**&#x200B;**&#x200B;欄位即可找到參與者。你一打字，清單就會篩選。 |
+| **搜尋** | 輸入搜尋&#x200B;****&#x200B;欄位即可找到參與者。你一打字，清單就會篩選。 |
 | **現況** | 顯示目前正在課程中的學習者，以及他們的角色（例如講師）和麥克風狀態。 括號內的數字表示存在的數量。 |
 | **未加入** | 顯示已註冊但尚未加入的學習者。 選擇箭頭展開列表。 |
 

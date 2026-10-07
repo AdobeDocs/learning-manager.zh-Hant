@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 在 Adobe Learning Manager 提交外部學習
 description: 經理可審查團隊成員提交的外部學習申請，核實細節及完成證明，並以自願評論批准或拒絕每項申請。 核通過的提交會被加入學習者成績單。
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
-
 ---
-
 
 # 以經理的身份檢視外部學習請求
 
@@ -101,7 +102,7 @@ ht-degree: 0%
 
 - 在 **行政學習者成績單**&#x200B;中，外部學習標題會放在現有 **的 LP/Certification/Course** 欄位中，並保持欄位結構與其他學習活動類型一致。
 
-- 在&#x200B;**學習者成績單**（學習者生成）中，模組欄位後&#x200B;**&#x200B;**&#x200B;立即新增一個稱為&#x200B;**外部學習名稱**&#x200B;的欄位。
+- 在&#x200B;**學習者成績單**（學習者生成）中，模組欄位後&#x200B;****&#x200B;立即新增一個稱為&#x200B;**外部學習名稱**&#x200B;的欄位。
 
 管理員設定的自訂欄位會在提交通過後，以動態欄位形式出現在兩次逐字稿匯出的末尾。
 

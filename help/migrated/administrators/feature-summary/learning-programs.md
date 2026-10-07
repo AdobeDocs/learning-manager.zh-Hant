@@ -5,13 +5,14 @@ title: 學習計畫
 contentowner: manochan
 preview: true
 exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1468'
 ht-degree: 0%
-
 ---
-
 # 學習計畫
 
 >[!WARNING]
@@ -59,7 +60,7 @@ ht-degree: 0%
 
 ## 啟用學習程式的完整目錄控制 {#catalog}
 
-就像授予學習或模組[&#128279;](shared-catalog-full-control.md)的完整目錄控制權一樣，你也可以啟用學習程式的完整目錄控制。
+就像授予學習或模組](shared-catalog-full-control.md)的完整[目錄控制權一樣，你也可以啟用學習程式的完整目錄控制。
 
 ## 重設航向
 

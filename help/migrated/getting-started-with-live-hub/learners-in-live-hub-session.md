@@ -1,13 +1,14 @@
 ---
 title: 以學習者身份參與 Live Hub 課程
 description: 了解學習者如何加入 Live Hub 課程，透過聊天、投票、測驗和分組討論參與，並在結束後檢視錄影。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
-
 ---
-
 
 # 以學習者身份參與 Live Hub 課程
 
@@ -37,7 +38,7 @@ ht-degree: 0%
 
 * 回答 [講師發起的投票](./respond-to-a-poll.md) 與 [測驗](./attempt-a-quiz.md) 。
 
-* 如果講師啟用了螢幕共享和白板存取，你可以[分享螢幕](./share-your-screen-as-a-learner.md)並與其他參與者在白板[&#128279;](./use-whiteboard-as-a-learner.md)上協作。
+* 如果講師啟用了螢幕共享和白板存取，你可以[分享螢幕](./share-your-screen-as-a-learner.md)並與其他參與者在白板](./use-whiteboard-as-a-learner.md)上協作[。
 
 * 加入分組討論室參加團體活動，並在需要指導老師時選擇 **「尋求幫助** 」。 你也可以查看 AI 生成的報告，總結你房間的討論內容。 查看 [參加分組討論以](./participate-in-a-breakout-session.md) 獲取更多資訊。
 

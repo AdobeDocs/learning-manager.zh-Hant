@@ -1,13 +1,14 @@
 ---
 title: 了解 Live Hub（測試版）的版面配置
 description: 了解組成 Live Hub 會議室的面板與控制項，包括控制欄、與會者面板、聊天面板及分組討論面板。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 0%
-
 ---
-
 
 # 了解 Live Hub（測試版）的版面配置
 

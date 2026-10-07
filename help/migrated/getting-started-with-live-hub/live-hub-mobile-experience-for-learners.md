@@ -1,13 +1,14 @@
 ---
 title: 以學習者身份在行動裝置上使用 Live Hub（測試版）
 description: 了解 Adobe Learning Manager 行動應用程式中學習者可用的 Live Hub 功能，從加入課程到離開課程。
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
-
 ---
-
 
 # 以學習者身份在行動裝置上使用 Live Hub（測試版）
 

@@ -4,13 +4,14 @@ title: Adobe Connect 整合
 description: 作者可在課程建立過程中使用 Adobe Connect 建立虛擬教室課程。 要啟用 Adobe Connect 給你的學習管理帳戶，你需要聯絡你組織的管理員。
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '600'
 ht-degree: 0%
-
 ---
-
 # Adobe Connect 整合
 
 組織管理員可以設定學習管理員帳號的設定，以啟用 Adobe Connect 的整合。
@@ -70,7 +71,7 @@ ht-degree: 0%
 
 Adobe Learning Manager 支援在 Connect 中設定虛擬教室時，從 Adobe Connect 選擇研討會教室。 過去，管理員只能選擇會議室類型。 此功能讓持有有效研討會授權的管理員能在 ALM 內排程和管理一次性或大型活動（最多 1,500 名參加者）。
 
-有關研討會教室的更多資訊，請參閱此 [文章](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html) 。
+有關研討會教室的更多資訊，請參閱此 [文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) 。
 
 ### 支援會話分析存取
 
@@ -90,4 +91,4 @@ _選擇會話網址_
 ![](assets/session-dashboard.png)
 _會話儀表板_
 
-請參閱本文[&#128279;](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以獲取更多關於會話分析的資訊。
+請參閱本文[](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以獲取更多關於會話分析的資訊。

@@ -2,13 +2,14 @@
 description: ALM 中的 API 變更
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的 API 變更
-source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3357'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 2026 年 8 月版本的 API 變更
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 這些端點僅能與自訂使用者群組合作。 系統管理群組，如 All Users 群組與自動產生的使用者群組，API 回應中為 readOnly： 為真，且無法透過這些端點修改或刪除。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 使用者群組 API 端點
 
@@ -204,7 +205,7 @@ X-acap-caller-role: ROLE_ADMIN
 
 五個端點皆為學習者範圍。 學習者只能存取自己的提交資料——若學習者嘗試存取其他學習者的資料，API 會回傳錯誤。
 
-關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
+關於 API 認證要求，請參見 [Adobe Learning Manager API 認證](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20)。
 
 ### 外部學習 API 端點
 

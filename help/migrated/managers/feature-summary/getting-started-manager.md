@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 經理人入門指南
 contentowner: manochan
 exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
-
 ---
-
 # 經理人入門指南
 
 開始頁面幫助你瀏覽應用程式的主要功能。

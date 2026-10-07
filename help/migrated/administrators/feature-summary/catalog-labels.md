@@ -4,7 +4,10 @@ title: 目錄標籤
 description: 目錄標籤允許你用特定欄位標記學習對象，並套用一個或多個值。 若啟用，管理員與作者可設定目錄標籤與值，並將其連結至學習物件。
 contentowner: dvenkate
 exl-id: 966d163d-7878-44f4-afdc-38eb95996229
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%

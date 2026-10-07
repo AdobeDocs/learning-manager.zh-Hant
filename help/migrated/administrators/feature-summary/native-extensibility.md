@@ -2,13 +2,14 @@
 title: 原生可擴充性
 description: 在原生版本的 Adobe Learning Manager 中設定自訂體驗，這樣你就不用在較簡單的案例中使用 headless。
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 0%
-
 ---
-
 # 原生可擴充性
 
 你可以在 Adobe Learning Manager 原生版本中設定自訂體驗，這樣就不用在較簡單的案件中使用 headless。 你也可以建立自訂應用程式，並將它們放在學習者、管理者、管理員、作者或講師工作流程的原生版本中的不同位置。

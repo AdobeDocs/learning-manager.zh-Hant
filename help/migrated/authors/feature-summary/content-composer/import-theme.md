@@ -2,13 +2,14 @@
 description: 學習如何將自訂主題的 JSON 檔案匯入 Content Composer，以及如何將其儲存為課程主題面板中的新自訂主題。
 jcr-language: en_us
 title: 匯入主題
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 0%
-
 ---
-
 
 # 匯入主題
 
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 1. 從工具列選擇 **主題** 。
 
-2. 從課程主題選項中選擇&#x200B;**匯入**&#x200B;**。**
+2. 從課程主題選項中選擇&#x200B;**匯入****。**
    ![](../assets/48_course_themes_import_button_updated.png)
 
 3. 從你的電腦選擇自訂的 JSON 檔案。

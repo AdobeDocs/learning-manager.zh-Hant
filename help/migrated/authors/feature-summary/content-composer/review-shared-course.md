@@ -2,13 +2,14 @@
 description: 學習如何開啟並評論分享給回饋的內容撰寫者課程，包括如何瀏覽課程、新增評論、回覆其他評審，以及標記其他評審。
 jcr-language: en_us
 title: 檢視共用專案
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
-
 ---
-
 
 # 對共同專案進行檢視與評論
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
    ![](../assets/61_all_screen_comments_toggle.png)
 
-   * 請依&#x200B;**審核者**、**時間**&#x200B;**及已解決**&#x200B;狀態篩選留言。
+   * 請依&#x200B;**審核者**、**時間****及已解決**&#x200B;狀態篩選留言。
 
    ![](../assets/62_comments_filter_reviewers_time_status.png)
 

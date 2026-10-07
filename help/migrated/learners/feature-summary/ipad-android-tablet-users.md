@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 適用於行動裝置與平板電腦的學習者應用程式
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 0%
-
 ---
-
 # 適用於行動裝置與平板電腦的學習者應用程式
 
 閱讀本文了解如何下載 Learning Manager Learner 應用程式，適用於智慧型手機和平板電腦。 學習如何使用手機或平板學習課程。
@@ -126,7 +127,7 @@ _下載 ALM 應用程式_
 | 董事會 | 看板建立、看板編輯、複製網址、刪除、舉報、排序、篩選 |
 | 後續 | 投票類型 貼文建立、編輯、多重附件、複製網址、釘選至頂端 |
 | 留言/回覆 | 編輯，標記為正確答案，並在留言或回覆中上傳圖片/影片/音訊 |
-| 媒體 | 錄音;僅上傳音訊檔案 |
+| 媒體 | 擷取音訊;僅上傳音訊檔案 |
 | 其他 | 通知、貼文檢視、社群排行榜、我追蹤的人、使用者個人檔案 |
 
 ## 讓學習者能夠下載 Job Aid（工作援助） {#download-job-aid}
@@ -338,7 +339,7 @@ Social Learning 是 Learning Manager 行動應用程式中的一個平台，讓�
 
 建立文章後，點擊「發佈」並發表你的留言，讓其他學習者查看你的文章。
 
-在行動應用程式中，你無法建立看板。 要建立看板，你必須以學習者身份登入網頁應用程式。 欲了解更多建立看板的資訊，請參閱學習管理工具[&#128279;](/help/migrated/learners/feature-summary/social-learning-web-user.md)中的社會學習。
+在行動應用程式中，你無法建立看板。 要建立看板，你必須以學習者身份登入網頁應用程式。 欲了解更多建立看板的資訊，請參閱學習管理工具](/help/migrated/learners/feature-summary/social-learning-web-user.md)中的[社會學習。
 
 ## 可以在貼文上執行的動作 {#actionsthatcanbeperformedonapost}
 
@@ -353,7 +354,7 @@ Social Learning 是 Learning Manager 行動應用程式中的一個平台，讓�
 
 你也可以在其他論壇發文。
 
-點擊 **「所有看板」** ，你可以查看其他學習者在看板上執行的活動。
+點擊 **「所有看板** 」，你可以查看其他學習者在看板上執行的活動。
 
 ![](assets/all-boards-1.png)
 
@@ -496,7 +497,7 @@ LinkedIn Learning 課程中所花費的學習時間會透過 LinkedIn 內容/平
 
 ## 提交的批准或拒絕 {#approvalorrejectionofsubmission}
 
-上傳檔案後，狀態會變成&#x200B;**待審核......**&#x200B;講師會查看待提交[&#128279;](/help/migrated/instructors/feature-summary/learners.md)清單，並透過講師網頁應用程式批准或拒絕提交。
+上傳檔案後，狀態會變成&#x200B;**待審核。**&#x200B;講師會查看待提交](/help/migrated/instructors/feature-summary/learners.md)清單[，並透過講師網頁應用程式批准或拒絕提交。
 
 當講師核准提交時，學習者行動應用程式的狀態會變 **為「已**&#x200B;批准」。
 

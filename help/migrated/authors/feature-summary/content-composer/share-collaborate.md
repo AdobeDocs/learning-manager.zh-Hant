@@ -2,13 +2,14 @@
 description: 學習如何分享內容撰寫者課程，供同事或直接與學習者複習。 了解兩種分享流程、存取控制與追蹤的差異。
 jcr-language: en_us
 title: 分享並合作內容撰寫課程
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # 分享並合作內容撰寫課程
 

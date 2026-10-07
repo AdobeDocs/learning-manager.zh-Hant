@@ -3,13 +3,14 @@ description: 在 2026 年 4 月版本的 Adobe Learning Manager 中，了解新�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 4 月發布的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 87edde0d142a151322869fd967a8b17d9871fdc2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 2026 年 4 月發布的新內容
 
 **給學習者：** 流體玩家現在會顯示下一個模組名稱和一個清晰的退出按鈕。
@@ -144,7 +145,7 @@ Adobe Learning Manager 的多語言影片文字軌（VTT）支援，讓作者能
 
 提供無阻礙的學習體驗，並消除ALM中等價與替代課程的重複訓練。 這項新功能允許管理員設定單向（替代）或雙向（等效）規則，完成一個訓練會自動授予另一個訓練的替代完成。 此功能旨在簡化大型學習生態系統，確保學習者繞過已掌握的內容，組織大幅減少管理員支援工單，消除手動覆蓋，並維持更乾淨且準確的學習者紀錄。
 
-欲了解更多資訊，請參閱[&#128279;](/help/migrated/administrators/feature-summary/alternates-equivalence.md)等效與替代。
+欲了解更多資訊，請參閱[](/help/migrated/administrators/feature-summary/alternates-equivalence.md)等效與替代。
 
 ## 講師的 QR 碼，例如報名和參加課程
 

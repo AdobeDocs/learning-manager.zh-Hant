@@ -4,13 +4,14 @@ title: L1 反饋自動彈出視窗不會出現
 description: 如何解決「L1 反饋自動彈出視窗未出現」錯誤
 contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 # L1 反饋自動彈出視窗不會出現
 
 ## 子嗣
@@ -33,7 +34,8 @@ ht-degree: 0%
 
 ## 解決方法
 
-1. 請確保在課程&#x200B;**>**&#x200B;實例&#x200B;**>** L1回饋&#x200B;**中啟用**「立即顯示問卷」選項。   <!--![](assets/l1-feedback.png)-->
+1. 請確保在課程&#x200B;**>**&#x200B;實例&#x200B;**>** L1回饋&#x200B;**中啟用**「立即顯示問卷」選項。
+   <!--![](assets/l1-feedback.png)-->
 1. 作為管理員，請前往 **設定>回饋**。 確認提醒時間安排。 若排定在 **課程** 完成後，請將選項改為 **課程完成後** 。
 1. 啟用以下電子郵件範本： **電子郵件範本>提醒與更新>請求學習者對課程**&#x200B;的回饋。 如果選項被停用，請啟用它，然後再測試。
 1. 如果上述步驟無效，請刪除管理員 **>設定>回饋**&#x200B;中的提醒。 建立一個「在航線完成」的選項，並依需求設定重複出現。

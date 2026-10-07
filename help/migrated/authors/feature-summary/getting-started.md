@@ -1,41 +1,42 @@
 ---
 jcr-language: en_us
-title: 作者快速入門
-description: 使用快速入門頁面來周遊Adobe Learning Manager的主要製作功能。
+title: 成為作家的起步
+description: 使用開始頁面，瀏覽 Adobe Learning Manager 的主要創作功能。
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '166'
 ht-degree: 0%
-
 ---
 
 
+# 成為作家的起步
 
-# 作者快速入門
+## 開始 {#gettingstarted}
 
-## 快速入門 {#gettingstarted}
+開始頁面幫助你瀏覽應用程式的主要功能。
 
-快速入門頁面可協助您逐一瀏覽應用程式的主要功能。
+登入後，你可以看到彈出的影片清單。
 
-您以作者身分登入後，即可檢視快顯視窗和影片清單。
+## 觀看範例影片 {#viewsamplevideos}
 
-## 檢視範例影片 {#viewsamplevideos}
+瀏覽範例影片教學，了解你作為作者角色的主要特點。 如果你不想讓這個彈出視窗在登入時出現，可以點擊彈出視窗右下角的「登入時不顯示」選項來停用它。
 
-瀏覽範例影片教學課程，以瞭解您作為作者的角色的主要功能。 如果您不想在登入期間顯示此快顯視窗，您可以按一下快顯視窗右下角的「登入時不要顯示」選項來停用它。
-
-按一下「關閉視窗」以關閉快顯視窗。
+點擊「關閉視窗」即可關閉彈出視窗。
 
 ![](assets/welcome-videos.png)
 
-## 快速入門頁面 {#gettingstartedpage}
+## 開始頁面 {#gettingstartedpage}
 
-從快速入門頁面，您可以執行下列活動：
+從開始頁面，你可以執行以下操作：
 
 * 建立模組
 * 建立課程
 
-您也可以選擇檢視教學課程影片、說明內容並瞭解不同角色，以進一步瞭解Learning Manager應用程式。
+你也可以透過觀看教學影片、說明內容及了解不同角色來進一步了解學習經理應用程式。
 
 ![](assets/author-experienceprime.png)
 

@@ -4,13 +4,14 @@ title: 內容市集
 description: Learning Manager 現在提供內容市集，供你探索並購買培訓。 探索涵蓋多元主題的70,000+課程，並提供多種格式。 從精心挑選的播放清單中挑選，滿足各種職務需求，滿足你的學習與技能提升需求。
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # 內容市集
 
 學習管理員經常面臨尋找與上傳高品質內容的挑戰。 Adobe Learning Manager 的內容市集透過允許從可信賴的供應商授權優質課程，簡化此過程，實現更快速且可擴展的學習交付。 透過內容市集，管理員可以瀏覽、預覽並從供應商那裡取得廣告授權的第三方課程。
@@ -63,7 +64,7 @@ Select the plan that best meets your organization's learning goals and budget.
    ![](assets/purchase-plans.png)
    _請在內容市集頁面查看購買計畫_
 
-2. 管理員可以預覽並探索內容中心的兩項&#x200B;**[!UICONTROL Premium Essentials]**&#x200B;**[!UICONTROL Premium Essentials Plus]**&#x200B;計畫。
+2. 管理員可以預覽並探索內容中心的兩項&#x200B;**[!UICONTROL Premium Essentials]****[!UICONTROL Premium Essentials Plus]**&#x200B;計畫。
 
 內容提供者負責移除過時內容，確保沒有學習材料在未經通知的情況下被停用。
 

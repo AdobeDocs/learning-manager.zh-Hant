@@ -4,13 +4,14 @@ title: 行政人員常見問題
 description: Adobe Learning Manager 管理員常見問題
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2493'
 ht-degree: 0%
-
 ---
-
 # 行政人員常見問題
 
 <table>
@@ -25,7 +26,7 @@ ht-degree: 0%
 
 +++我可以批量新增使用者嗎？ 怎麼做到的？
 
-是的，你可以透過 CSV 上傳功能批量新增使用者。 更多資訊請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)。
+是的，你可以透過 CSV 上傳功能批量新增使用者。 更多資訊請參閱本文[](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users)。
 
 +++
 
@@ -176,7 +177,7 @@ Adobe Learning Manager 不提供課程證書。 不過，管理員可透過點�
 
 +++我該如何修改課程、學習計畫和公司檔案？
 
-即使你已經發佈課程或學習程式，你仍然可以編輯它們。 欲了解更多資訊，請參閱[&#128279;](/help/migrated/administrators/feature-summary/courses.md)課程與[學習計畫](/help/migrated/administrators/feature-summary/learning-programs.md)協助內容。
+即使你已經發佈課程或學習程式，你仍然可以編輯它們。 欲了解更多資訊，請參閱[](/help/migrated/administrators/feature-summary/courses.md)課程與[學習計畫](/help/migrated/administrators/feature-summary/learning-programs.md)協助內容。
 
 要修改公司個人檔案，請點擊 **[!UICONTROL Settings]** 左側窗格，然後點擊 **[!UICONTROL Change]** 頁面右上角。
 
@@ -384,7 +385,7 @@ Adobe Learning Manager 提供您將外部部門成員或組織外部員工註冊
 請依照以下步驟下載桌面版：
 
 1. 以管理員身份登入。
-2. 點擊>**[!UICONTROL Social Learning]**&#x200B;**[!UICONTROL Settings]**。
+2. 點擊>**[!UICONTROL Social Learning]****[!UICONTROL Settings]**。
 3. 在下方 **[!UICONTROL Download Configuration]**，根據你的作業系統點選超連結。
 
 +++

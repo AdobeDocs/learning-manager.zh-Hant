@@ -4,13 +4,14 @@ title: Adobe Learning Manager 行動應用程式中的白標
 description: 白標是指將應用程式或服務重新包裝成自己的品牌，並像你是原始創作者一樣進行客製化。 在 Adobe Learning Manager 中，你可以對行動應用程式套用白標，這樣你就能重新品牌化應用程式，並以你自己的品牌讓使用者使用該應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 行動應用程式中的白標
 
 Adobe Learning Manager 行動應用程式現在支援白標，這表示你可以以自己的品牌發佈應用程式。
@@ -45,214 +46,110 @@ ALM 將依照以下時間表提供更新的白標二進位檔案：
 
 ### 欄位
 
-<table>
-
- <tbody>
-
-  <tr>
-
-   <td>
-
-    <p>帳號ID</p>
-
-   </td>
-
-   <td>
-
-    <p>你的帳號ID。 請注意，白標應用程式將無法對擁有其他帳號的學習者開放。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>附加帳號 ID</p>
-
-   </td>
-
-   <td>
-
-    <p>如果想的話，可以新增多個帳號（子網域）。 將子域以逗號分隔且無空格的方式加入。 例如 acc01、acc02、acc03 等等。<br> <b>注意：</b> 在指定子網域時，你需要填寫帳號 ID。</br> </p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>應用程式名稱</p></td>
-
-   <td>
-
-    <p>你想用來命名應用程式名稱。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>應用程式簡稱</p>
-
-   </td>
-
-   <td>
-
-    <p>若應用程式名稱較長，請為裝置上顯示的簡短名稱。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>內部應用程式名稱</p></td>
-
-   <td>
-
-    <p>作業系統用來識別該應用程式的名稱。 通常使用的格式為：com.company-name.product-name。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>內部應用程式名稱-iOS</p>
-
-   </td>
-
-   <td>
-
-    <p>如果你的用戶是 iOS，應用程式名稱會有所不同。 我們建議 iOS 和 Android 都使用相同名稱。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>應用程式圖示</p>
-
-   </td>
-
-   <td>
-
-    <p>應用程式圖示是 png。 這個圖示會顯示在你的應用程式上。 名稱格式為account-id_appIcon.png。 應用程式圖示的尺寸是 512 × 512 像素。<div>請注意，蘋果不允許在應用程式圖示中使用 Alpha 頻道。 所以，提交前務必先移除 Alpha 頻道。</div></p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>應用程式啟動畫面</p></td>
-
-   <td>
-
-    <p>在應用程式的啟動畫面中，提供一張圖片（png），當使用者啟動應用程式時會顯示。 命名格式為account-id_splashIcon.png。 方形開機畫面的尺寸為 1052 × 1052 像素，圓形開機畫面則為 768 x 768 像素。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>用戶端 ID 與用戶端秘密</p>
-
-   </td>
-
-   <td>
-
-    <p>你帳號的整合管理員會在註冊應用程式時提供詳細資訊。 整合管理員必須使用以下工具：<ul><li>學習者：閱讀，學習者：以角色形式寫作</li><li>內部應用程式 name://redirect 作為重定向網址</li></ul></p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>帳戶標誌</p>
-
-   </td>
-
-   <td>
-
-    <p>你組織標誌所在的網址。 請提供 cpcontents 連結作為帳號標誌。 網址必須是網頁編碼的。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>應用程式的 App Store ID（iOS）</p>
-
-   </td>
-
-   <td>
-
-    <p>這是實施部隊更新所需的ID。 應用程式需要知道學習者應該被導向到 App Store，才能更新應用程式。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>Google Play 應用程式的商店 ID（Android）</p>
-
-   </td>
-
-   <td>
-
-    <p>這是實施部隊更新所需的ID。</p>
-
-   </td>
-
-  </tr>
-
-  <tr>
-
-   <td>
-
-    <p>深連結主機名稱</p>
-
-   </td>
-
-   <td>
-
-    <p>要架設深度連結，請使用 learningmanager。 如果你想使用另一個主機名稱 URL 作為深度連結，請提供主機的網址。 例如，learningmanager.adobe.com。</p>
-
-   </td>
-
-  </tr>
-
- </tbody>
-
+<table>
+ <tbody>
+  <tr>
+   <td>
+    <p>帳號ID</p>
+   </td>
+   <td>
+    <p>你的帳號ID。 請注意，白標應用程式將無法對擁有其他帳號的學習者開放。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>附加帳號 ID</p>
+   </td>
+   <td>
+    <p>如果想的話，可以新增多個帳號（子網域）。 將子域以逗號分隔且無空格的方式加入。 例如 acc01、acc02、acc03 等等。<br> <b>注意：</b> 在指定子網域時，你需要填寫帳號 ID。</br> </p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>應用程式名稱</p></td>
+   <td>
+    <p>你想用來命名應用程式名稱。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>應用程式簡稱</p>
+   </td>
+   <td>
+    <p>若應用程式名稱較長，請為裝置上顯示的簡短名稱。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>內部應用程式名稱</p></td>
+   <td>
+    <p>作業系統用來識別該應用程式的名稱。 通常使用的格式為：com.company-name.product-name。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>內部應用程式名稱-iOS</p>
+   </td>
+   <td>
+    <p>如果你的用戶是 iOS，應用程式名稱會有所不同。 我們建議 iOS 和 Android 都使用相同名稱。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>應用程式圖示</p>
+   </td>
+   <td>
+    <p>應用程式圖示是 png。 這個圖示會顯示在你的應用程式上。 名稱格式為account-id_appIcon.png。 應用程式圖示的尺寸是 512 × 512 像素。<div>請注意，蘋果不允許在應用程式圖示中使用 Alpha 頻道。 所以，提交前務必先移除 Alpha 頻道。</div></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>應用程式啟動畫面</p></td>
+   <td>
+    <p>在應用程式的啟動畫面中，提供一張圖片（png），當使用者啟動應用程式時會顯示。 命名格式為account-id_splashIcon.png。 方形開機畫面的尺寸為 1052 × 1052 像素，圓形開機畫面則為 768 x 768 像素。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>用戶端 ID 與用戶端秘密</p>
+   </td>
+   <td>
+    <p>你帳號的整合管理員會在註冊應用程式時提供詳細資訊。 整合管理員必須使用以下工具：<ul><li>學習者：閱讀，學習者：以角色形式寫作</li><li>內部應用程式 name://redirect 作為重定向網址</li></ul></p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>帳戶標誌</p>
+   </td>
+   <td>
+    <p>你組織標誌所在的網址。 請提供 cpcontents 連結作為帳號標誌。 網址必須是網頁編碼的。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>應用程式的 App Store ID（iOS）</p>
+   </td>
+   <td>
+    <p>這是實施部隊更新所需的ID。 應用程式需要知道學習者應該被導向到 App Store，才能更新應用程式。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>Google Play 應用程式的商店 ID（Android）</p>
+   </td>
+   <td>
+    <p>這是實施部隊更新所需的ID。</p>
+   </td>
+  </tr>
+  <tr>
+   <td>
+    <p>深連結主機名稱</p>
+   </td>
+   <td>
+    <p>要架設深度連結，請使用 learningmanager。 如果你想使用另一個主機名稱 URL 作為深度連結，請提供主機的網址。 例如，learningmanager.adobe.com。</p>
+   </td>
+  </tr>
+ </tbody>
 </table>
 
 >[!NOTE]
@@ -295,7 +192,7 @@ ALM 將依照以下時間表提供更新的白標二進位檔案：
 keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
 ```
 
-在輸出中，找到憑證指紋，然後複製 SHA-256 的值。 根據需要，分享此指紋以便深度連結設定。
+在輸出中，找到憑證指紋，然後複製 SHA-256 的值。 根據需要，分享此指紋，以配合你的深度連結設定。
 
 ## 產生推播通知
 
@@ -338,9 +235,9 @@ Android 和 iOS 都使用 Firebase Cloud Messaging （FCM） 作為向裝置發�
 
 ### Android 上的推播通知
 
-對於 Android，使用者需要提供 Firebase 專案中的 services.json 檔案，以便在 SNS 服務中新增條目。
+對於 Android，使用者需要提供 Firebase 專案中的 services.json 檔案，以便在 SNS 服務中加入條目。
 
-在 Firebase 建立專案，並將 services.json 檔案分享給 CSM 團隊。 此檔案用於 SNS 中基於標記的輸入。 請注意，伺服器金鑰已不再使用。 請參見 [Firebase](#create-project-in-firebase) 中的 Create 專案。
+在 Firebase 建立專案，並將 services.json 檔案分享給 CSM 團隊。 此檔案用於在 SNS 中基於標記的輸入。 請注意，伺服器金鑰已不再使用。 請參見 [Firebase](#create-project-in-firebase) 中的 Create 專案。
 
 要下載services.json檔案，請依照以下步驟操作：
 
@@ -549,7 +446,7 @@ unzip my_app.apks -d output_dir
 
 ## 我該如何套用這些變更
 
-將所需的資產和檔案傳送給CSM團隊。 CSM 團隊接著填寫[&#128279;](https://forms.office.com/r/bJRRaRBvSh)表格，填寫所需變更並附加所需資產。團隊將審查並通知工程團隊這些變更。 工程團隊會生成一個建置版本並與 CSM 團隊分享。
+將所需的資產和檔案傳送給CSM團隊。 CSM 團隊接著填寫[](https://forms.office.com/r/bJRRaRBvSh)表格，填寫所需變更並附加所需資產。團隊將審查並通知工程團隊這些變更。 工程團隊會生成一個建置版本並與 CSM 團隊分享。
 
 CSM 團隊會與客戶分享組裝版本。
 

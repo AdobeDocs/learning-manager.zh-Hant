@@ -4,13 +4,14 @@ title: Webhooks 使用指南
 description: 了解 Webhook 的使用、最佳實務與限制
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3412'
 ht-degree: 0%
-
 ---
-
 # Webhooks 使用指南
 
 Webhook 是一種讓網頁應用程式能自動且即時地彼此通訊的方式。
@@ -31,7 +32,7 @@ Webhook 是一種讓網頁應用程式能自動且即時地彼此通訊的方式
 
 #### 更新
 
-一旦學習對象被發佈，其狀態會從&#x200B;**草稿（Draft）變**&#x200B;為已發佈（Published **&#x200B;**）。在此轉換期間，Webhook 會&#x200B;**產生 LEARNING_OBJECT_MODIFICATION** 事件，因為學習物件正從草稿（Draft **）被修改**&#x200B;為&#x200B;**發佈（Published**）。所有後續對 LO 的修改與更新也會觸發 **LEARNING_OBJECT_MODIFICATION** 事件。
+一旦學習對象被發佈，其狀態會從&#x200B;**草稿（Draft）變**&#x200B;為已發佈（Published ****）。在此轉換期間，Webhook 會&#x200B;**產生 LEARNING_OBJECT_MODIFICATION** 事件，因為學習物件正從草稿（Draft **）被修改**&#x200B;為&#x200B;**發佈（Published**）。所有後續對 LO 的修改與更新也會觸發 **LEARNING_OBJECT_MODIFICATION** 事件。
 
 **當學習對象被退休時，LEARNING_OBJECT_MODIFICATION**&#x200B;事件也會被觸發。此退休操作標記底層實例為已更新，因為當父學習物件處於退休狀態時，這些實例會被退休。
 
@@ -192,7 +193,8 @@ Adobe Learning Manager 確保每個帳號的事件順序皆有排序。 然而�
 
 ### 從學習物件事件建立資料庫
 
-學習物件事件會揭 `loId` 露並 `loType` 識別一個實體。 然而，僅憑這些屬性不足以建立外部學習物件資料庫。 客戶需要額外欄位來進一步描述學習物件。取得額外資料有兩種方法：
+學習物件事件會揭 `loId` 露並 `loType` 識別一個實體。 然而，僅憑這些屬性不足以建立外部學習物件資料庫。 客戶需要額外欄位來進一步描述學習物件。
+取得額外資料有兩種方法：
 
 #### 產生一個訓練資料報告來擷取所有資料
 
@@ -204,7 +206,7 @@ Adobe Learning Manager 確保每個帳號的事件順序皆有排序。 然而�
 
 ### 從學習物件實例與CI_STATS事件建立資料庫
 
-學習物件實例事件會 `loInstanceId`為課程與學習路徑發出 、 `loId`、 `loType` 及屬性。 同樣地，**CI_STATS**&#x200B;事件僅適用於課程，因為 `seatLimit`、 `waitListLimit`&#x200B;`seatAvailability`、 、 `waitlistAvailability`等 僅適用於課程。
+學習物件實例事件會 `loInstanceId`為課程與學習路徑發出 、 `loId`、 `loType` 及屬性。 同樣地，**CI_STATS**&#x200B;事件僅適用於課程，因為 `seatLimit`、 `waitListLimit``seatAvailability`、 、 `waitlistAvailability`等 僅適用於課程。
 
 在某些使用情境中，需要額外的實例資料，如實例名稱、狀態等。 要取得額外的實例資料，應遵循以下方法：
 
@@ -224,7 +226,7 @@ Adobe Learning Manager 確保每個帳號的事件順序皆有排序。 然而�
 
 #### 從管理員或連接器匯出使用者報告
 
-當涉及大量登記工作流程時，如大量註冊、大量退團等，都應遵循此方法。Adobe Learning Manager 的使用者報告包含所有與使用者相關的資訊。 透過將 webhook 事件所得的資訊 `userId` 關聯起來，客戶可以查詢這個報告（可能在客戶端以資料庫、快取或 API 端點的形式呈現），以取得更多細節，如名稱、電子郵件、UUID 等。這種方法可以用來每週或每日同步使用者。
+當涉及大量工作流程時，如大量註冊、大量退役等，應遵循此方法。Adobe Learning Manager 的使用者報告包含所有與使用者相關的資訊。 透過將 webhook 事件所得的 `userId` 資訊關聯起來，客戶可以查詢此報告（客戶端可能以資料庫、快取或 API 端點形式公開），取得更多細節，如名稱、電子郵件、UUID 等。此方法可用於每週或每日同步使用者。
 
 #### 來自公開 API 的查詢資訊 GET /users - 管理員範圍
 
@@ -238,7 +240,8 @@ ALM 將連線逾時設定為 10 秒，socket 逾時為 5 秒。 預期客戶端�
 
 ### 資料保留
 
-活動持續7天。 如果在這段時間內沒有被處理，這些資料就會永久遺失。 如果恢復發生在最後一天，且需要更多時間，系統不會延長保留期。如果事件產生速度快於消費速度，有些事件可能會遺失。 雖然這種情況不常見，但訂閱者應持續關注，避免成為長期問題。
+活動持續7天。 如果在這段時間內沒有被處理，這些資料就會永久遺失。 如果恢復發生在最後一天，且需要更多時間，系統不會延長保留期。
+如果事件產生速度快於消費速度，有些事件可能會遺失。 雖然這種情況不常見，但訂閱者應持續關注，避免成為長期問題。
 
 ### Webhook 會使 Webhook 失效
 

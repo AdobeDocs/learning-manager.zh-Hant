@@ -4,7 +4,10 @@ title: 設定
 description: 查看您的個人檔案資訊、新增/更改個人照片，以及修改關於我的內容。
 contentowner: manochan
 exl-id: 30a571de-22fc-4ce7-99c0-08e17665c340
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 2%

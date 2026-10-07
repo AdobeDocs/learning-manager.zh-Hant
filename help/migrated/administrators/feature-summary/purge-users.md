@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 清除使用者
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1414'
 ht-degree: 0%
-
 ---
-
 # 清除使用者
 
 了解更多關於在 Learning Manager 中清除使用者資料的資訊。
@@ -258,7 +259,7 @@ Adobe Learning Manager 允許管理員永久移除已從平台刪除的使用者
 ### 啟用自動清除選項
 
 1. 以管理員身份登入 Adobe Learning Manager。
-2. 請導航至&#x200B;**設定**&#x200B;區段>**&#x200B;**&#x200B;設定>**基礎**&#x200B;區塊>**一般**。
+2. 請導航至&#x200B;**設定**&#x200B;區段>****&#x200B;設定>**基礎**&#x200B;區塊>**一般**。
 3. 往下捲動頁面到 **自動清除已刪除的使用者**。
    ![](assets/auto-purge1.png)
    *自動清除選項*

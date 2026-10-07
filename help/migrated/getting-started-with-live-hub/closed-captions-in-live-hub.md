@@ -1,13 +1,14 @@
 ---
 title: Live Hub 會議中的隱藏字幕
 description: 了解隱藏字幕如何即時顯示語音內容，讓教師與學習者能在 Live Hub 課程中跟上。
-source-git-commit: e5c05e030c1254b41d8a3197a168b6cd1aafb18b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 
 隱藏字幕會在 Live Hub 會話中即時轉錄語音內容。 參與者在對話進行時會看到螢幕上的語音文字。 當音訊不清楚時，例如在嘈雜環境或參與者偏好跟著閱讀時，字幕非常有用。 隱藏字幕在音訊不清晰的場合特別有用，例如嘈雜環境或參與者偏好邊閱讀邊討論。
 

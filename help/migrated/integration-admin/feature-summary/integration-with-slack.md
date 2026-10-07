@@ -3,18 +3,19 @@ jcr-language: en_us
 title: Learning Manager 與 Slack 的整合
 description: Learning Manager 與 Slack 的整合
 contentowner: dvenkate
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
-
 ---
-
 
 
 # Learning Manager 與 Slack 的整合
 
-我們已經&#x200B;**移除**&#x200B;**了 Slack** 作為 Learning Manager 連接器的功能。你將無法再使用 Slack 連接器。
+我們已經&#x200B;**移除****了 Slack** 作為 Learning Manager 連接器的功能。你將無法再使用 Slack 連接器。
 
 作為 Slack 使用者，你可以將 Adobe Learning Manager 應用程式從 Slack 應用程式目錄安裝到你的 Slack 團隊中，並直接在 Slack 內探索學習管理員的內容。 你可以與 Primebot 互動，搜尋新課程、查看推薦，並在學習管理員中接收即將到來的截止日期通知。 你也可以直接註冊，直接從 Slack 裡面開始學習。
 

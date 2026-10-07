@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 中以學習者身份使用白板
 description: 學習學習者如何在 Live Hub 課程中繪製、添加形狀與文字，以及在共享白板上刪除內容。
-source-git-commit: 8752d9ef9c0d6bfdae134e5e8d3386ae555850bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 0%
-
 ---
-
 
 # 作為學習者使用白板
 

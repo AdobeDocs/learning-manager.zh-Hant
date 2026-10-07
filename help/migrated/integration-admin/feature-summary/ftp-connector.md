@@ -3,13 +3,14 @@ description: 學習如何將 FTP 連接器整合到 Adobe Learning Manager
 jcr-language: en_us
 title: FTP 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 FTP 連接器
 
@@ -149,7 +150,7 @@ FileZilla 是一款免費、開源的 FTP 用戶端，提供使用者友善的�
 
 要將你的 FTP 連接到 FileZilla：
 
-1. 從官方網站[&#128279;](https://filezilla-project.org/)下載並安裝 FileZilla。
+1. 從官方網站](https://filezilla-project.org/)下載並安裝 FileZilla[。
 2. 打開 **FileZilla**。
 3. 選擇 **檔案** ，然後選擇 **網站管理員**。
 4. 選擇 **新網站**。
@@ -178,7 +179,7 @@ FileZilla 是一款免費、開源的 FTP 用戶端，提供使用者友善的�
 3. 在 **地圖屬性** 頁面：
    - **左側**&#x200B;顯示 Adobe Learning Manager 的必填欄位。
    - **右側**&#x200B;顯示 CSV 欄位名稱。一開始，這一側會顯示空白的下拉選單。
-   - 選擇 **選擇 CSV** 以上傳範例 CSV 檔案。 這會顯示右側下拉選單，顯示你 CSV 的欄位名稱。 請參考 [這篇文章](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/migration-manual#csv)。
+   - 選擇 **選擇 CSV** 以上傳範例 CSV 檔案。 這會顯示右側下拉選單，顯示你 CSV 的欄位名稱。 請參考 [這篇文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv)。
    - 將每個 Adobe Learning Manager 欄位與對應的 CSV 欄位對應。
 
    ![](assets/ftp-connector6.png)
@@ -233,7 +234,7 @@ _新增篩選器（可選）_
    _篩選器建立對話框顯示名稱欄位與條件_
 
 4. 選擇 **新增過濾器** 以新增更多過濾器。
-5. 在「動作」欄位下選擇&#x200B;**「儲存**&#x200B;或&#x200B;**刪除**」。**&#x200B;**
+5. 在「動作」欄位下選擇&#x200B;**「儲存**&#x200B;或&#x200B;**刪除**」。****
 6. 新增篩選器後，選擇 **儲存**。
 
 _地圖欄位_
@@ -304,9 +305,9 @@ _地圖欄位_
    - **時間：** 處理所需總時間。
    - **進口類型：** 是預定還是按需匯入。
    - **目前狀態：** 即時狀態資訊。
-      - **進行中：** 目前正在進行的匯入
-      - **完成：** 成功完成並有紀錄計數
-      - **失敗：** 診斷資訊發生錯誤
+     - **進行中：** 目前正在進行的匯入
+     - **完成：** 成功完成並有紀錄計數
+     - **失敗：** 診斷資訊發生錯誤
 
 ## 故障排除匯入失敗
 

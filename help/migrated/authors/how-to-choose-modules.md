@@ -4,13 +4,14 @@ title: 如何選擇課程模組？
 description: Adobe Learning Manager 支援四種課程模組。 如果您負責設計培訓課程，您可能會想知道應該選擇哪種類型的模組以符合組織的需求。 根據貴組織的預算與受眾需求，您可以選擇課程模組。 以下說明了每種模組類型的典型使用案例，供參考。
 contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
-source-git-commit: fcbe70fb0eef5aae891f6a222112804707dfe626
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
-
 ---
-
 # 如何選擇課程模組？
 
 學習管理軟體支援四種課程模組。 如果您負責設計培訓課程，您可能會想知道應該選擇哪種類型的模組以符合組織的需求。 根據貴組織的預算與受眾需求，您可以選擇課程模組。 以下說明了每種模組類型的典型使用案例，供參考。

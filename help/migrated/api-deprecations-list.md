@@ -4,13 +4,14 @@ title: Adobe Learning Manager 中的 API 棄用
 description: 隨著 Adobe Learning Manager 的 API 演進，API 會定期重組或升級。 當 API 演進時，舊的 API 會被棄用並最終移除。 本頁包含你在從棄用 API 版本遷移到更新且更穩定 API 版本時需要知道的資訊。
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 中的 API 棄用與變更
 
 ## 2024 年 3 月 Adobe Learning Manager 版本中的 API 棄用
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 以下路徑已被棄用：
 
 * /learningObjects
-   * 已棄用路徑：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 新路線：
-      * enrollment.loInstance.loResources
-      * instances.loResources
+  * 已棄用路徑：
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 新路線：
+    * enrollment.loInstance.loResources
+    * instances.loResources
 
 * /learningObjects/{id}
-   * 已棄用路徑：
-      * enrollment.instances.subLoInstances.learningObject
-   * 新路線：
-      * enrollment.instances.subLoInstances
+  * 已棄用路徑：
+    * enrollment.instances.subLoInstances.learningObject
+  * 新路線：
+    * enrollment.instances.subLoInstances
 
 * /註冊人數
-   * 已棄用路徑：
-      * loInstance.learningObject.enrollment
-   * 新路線：
-      * loInstance.learningObject
+  * 已棄用路徑：
+    * loInstance.learningObject.enrollment
+  * 新路線：
+    * loInstance.learningObject
 
 * /learningObjects/{id}
-   * 已棄用路徑：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 新路線：
-      * instance.subLoInstances
+  * 已棄用路徑：
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * 新路線：
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 
@@ -117,7 +118,7 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 ### 依名稱排序
 
-在 Adobe Learning Manager 的下一版本中，以下 API 的排序欄位中已不再使用 name 和 –name：
+在 Adobe Learning Manager 的下一版本中，以下 API 的排序欄位中已棄用 name 與 –name：
 
 * 取得 /userGroups/{userGroupId}/users
 * 取得 /users
@@ -155,5 +156,5 @@ Adobe Learning Manager 改善了客戶與合作夥伴啟用帳號的建議。 �
 
 ### GET /users 端點中高偏移值的棄用
 
-為了提升系統效能並更有效管理資源利用率，Adobe 已棄用 GET /users 端&#x200B;**點中 ADMIN 與** LEARNER **&#x200B;**&#x200B;範圍的高偏移值。我們建議使用 **Jobs API** 來取得帶有偏移值的紀錄。
+為了提升系統效能並更有效管理資源利用率，Adobe 已棄用 GET /users 端&#x200B;**點中 ADMIN 與** LEARNER **** 範圍的高偏移值。我們建議使用 **Jobs API** 來取得帶有偏移值的紀錄。
 

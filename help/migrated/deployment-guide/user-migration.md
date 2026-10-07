@@ -5,13 +5,14 @@ title: 學習經理部署指南 - 第二節
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2230'
 ht-degree: 0%
-
 ---
-
 # 學習經理部署指南 - 第二節
 
 ## 技術架構 {#technicalsetup}
@@ -22,15 +23,15 @@ Learning Manager 帳號的技術設定主要是企業用戶需要的。 本文�
 
 作為管理控制台的系統管理員，您的首要任務之一是定義並設定一個身份系統，讓您的最終使用者能被驗證。 當您的組織購買 Learning Manager 的授權時，您需要將這些授權提供給最終使用者。 為此，你需要一種方法來驗證這些使用者。 請執行以下程序為您的使用者設定 SSO。
 
-1. 從學習管理員首頁，點擊&#x200B;**[!UICONTROL **>登入方式&#x200B;**&#x200B;的設定&#x200B;**&#x200B;**。]**
+1. 從學習管理員首頁，點擊&#x200B;**[!UICONTROL **>登入方式&#x200B;**的設定****。]**
 
    ![](assets/configure-sso-step1.png)
 
-1. 根據你的使用者類型，選擇 **[!UICONTROL **「內部使用者&#x200B;**」或&#x200B;**「外部使用者&#x200B;**」。]**
+1. 根據你的使用者類型，選擇 **[!UICONTROL **「內部使用者&#x200B;**」或**「外部使用者&#x200B;**」。]**
 
 
 
-1. 從&#x200B;**[!UICONTROL **&#x200B;登入&#x200B;**]**&#x200B;下拉選單欄位，選擇&#x200B;**[!UICONTROL **單一登入**。]**
+1. 從&#x200B;**[!UICONTROL **&#x200B;登入&#x200B;**]**下拉選單欄位，選擇&#x200B;**[!UICONTROL **單一登入**。]**
 
    ![](assets/configure-sso-step3.png)
 
@@ -38,13 +39,13 @@ Learning Manager 帳號的技術設定主要是企業用戶需要的。 本文�
 
    ![](assets/configure-sso-step4.png)
 
-1. 在欄位 **&#x200B;**&#x200B;[!UICONTROL IDP-Initiated Authentication URL]&#x200B;**&#x200B;** 輸入服務提供者提供的認證網址。
+1. 在欄位 ****[!UICONTROL IDP-Initiated Authentication URL]**** 輸入服務提供者提供的認證網址。
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. 點選 **[!UICONTROL **上傳&#x200B;**]&#x200B;**IDP 元資料 XML 檔案&#x200B;**&#x200B;**&#x200B;**&#x200B;**欄位旁&#x200B;** **的上傳，然後上傳你的 XML 檔案。
+1. 點選 **[!UICONTROL **上傳&#x200B;**]**IDP 元資料 XML 檔案&#x200B;**]******欄位旁&#x200B;**[!UICONTROL  **的上傳，然後上傳你的 XML 檔案。
 1. 點擊 **[!UICONTROL **&#x200B;儲存&#x200B;**。]**
 1. SSO 認證已成功為你的帳號設定。 你應該可以用 SSO 登入你的 Learning Manager 帳號。
 
@@ -122,7 +123,7 @@ Learning Manager 允許你透過逐步精靈，從現有的 LMS 遷移，進行�
    <th width="7%" valign="top"><p><strong>不。</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Excel 工作表名稱</strong></p></th> 
    <th width="31%" valign="top"><p><strong>內容說明</strong></p></th> 
-   <th width="31%" valign="top"><p><strong>註釋</strong></p></th> 
+   <th width="31%" valign="top"><p><strong>筆記</strong></p></th> 
   </tr> 
   <tr> 
    <td><p>1</p></td> 
@@ -291,7 +292,7 @@ Learning Manager 允許你透過逐步精靈，從現有的 LMS 遷移，進行�
 
 ![](assets/set-up-a-box-account.png)
 
-在欄位 **&#x200B;**&#x200B;[!UICONTROL Enter Email]&#x200B;**&#x200B;** 輸入你希望接收登入 Box 登入指示的電子郵件 ID。
+在欄位 ****[!UICONTROL Enter Email]**** 輸入你希望接收登入 Box 登入指示的電子郵件 ID。
 
 點擊 **[!UICONTROL **「連結&#x200B;**」。]**
 
@@ -318,7 +319,7 @@ Learning Manager 允許你透過逐步精靈，從現有的 LMS 遷移，進行�
 
 如果你還沒建立 FTP 資料夾，系統會提示你建立 Exavault 帳戶的 FTP 資料夾。 這是你開始建立遷移專案前必須做的步驟。 ***
 
-在頁面 **&#x200B;**&#x200B;[!UICONTROL Create a New Migration Project]&#x200B;**&#x200B;** 中，請指定你的專案名稱。
+在頁面 ****[!UICONTROL Create a New Migration Project]**** 中，請指定你的專案名稱。
 
 ![](assets/migrating-the-content-1.png)
 
@@ -332,17 +333,17 @@ Learning Manager 允許你透過逐步精靈，從現有的 LMS 遷移，進行�
 
 指定衝刺的名稱，並提供衝刺的描述。
 
-選擇 **&#x200B;**&#x200B;[!UICONTROL Users have been added or modified since the last run check box]&#x200B;**&#x200B;**，以同步使用者清單與學習管理員應用程式。 如果你是將內容和資料遷移到 Learning Manager 應用程式，這可能就不是必需的。 但如果你之前的 sprint 遷移與最新的 sprint 遷移之間有時間延遲，建議你選擇同步使用者清單。 此步驟可讓學習管理工具資料庫與你的 LMS 使用者同步。
+選擇 ****[!UICONTROL Users have been added or modified since the last run check box]****，以同步使用者清單與學習管理員應用程式。 如果你是將內容和資料遷移到 Learning Manager 應用程式，這可能就不是必需的。 但如果你之前的 sprint 遷移與最新的 sprint 遷移之間有時間延遲，建議你選擇同步使用者清單。 此步驟可讓學習管理工具資料庫與你的 LMS 使用者同步。
 
 ***同步步驟建議在遷移enrollment.csv與user_course_grade.csv時使用。 此步驟使學習管理資料庫能與您的遷移資料庫同步，並確保所有在 Sprint 中需遷移的使用者都能在遷移資料庫中使用。***
 
 點擊 **[!UICONTROL **&#x200B;下一步&#x200B;**。]**
 
-點擊 **[!UICONTROL **Start**] **&#x200B; 以啟動您上傳的資料與內容的 Sprint 遷移。 在開始 Sprint Run 前點擊 &#x200B;**&#x200B;**[!UICONTROL Refresh]**&#x200B;** ，將 FTP 和 Content 資料夾與 Learning Manager 同步。
+點擊 **[!UICONTROL **Start**]** 以啟動您上傳的資料與內容的 Sprint 遷移。 在開始 Sprint Run 前點擊 ****[!UICONTROL Refresh]**** ，將 FTP 和 Content 資料夾與 Learning Manager 同步。
 
 ![](assets/migrating-the-content-3.png)
 
-你可以在 Sprint 遷移過程中的任何時候點擊 **&#x200B;**&#x200B;[!UICONTROL Stop] 來中止遷移。
+你可以在 Sprint 遷移過程中的任何時候點擊 ****[!UICONTROL Stop] 來中止遷移。
 
 系統會顯示每個 sprint 資料項目與內容的遷移狀態。 檢查遷移衝刺執行中成功與失敗項目的數量。
 

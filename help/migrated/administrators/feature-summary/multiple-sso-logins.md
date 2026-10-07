@@ -3,13 +3,14 @@ description: Adobe Learning Manager 支援多種登入方式，透過多種 SSO 
 title: 多重單點登入
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 0%
-
 ---
-
 # 多重單點登入 {#multiple-sso-logins}
 
 管理員可以為內部及外部使用者設定多種登入方式。 Adobe Learning Manager 支援多種 SSO 登入，協助管理員根據需求與使用情境設定登入方式。

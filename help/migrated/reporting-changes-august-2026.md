@@ -2,13 +2,14 @@
 description: 本文件總結了 2026 年 8 月在 Adobe Learning Manager 報告變更的情況。 它涵蓋了學習者成績單、培訓、註冊、候補名單、出席、內容審核及使用者報告等新更新欄位。 它還解釋了自適應課程行為、成績簿評分、外部學習紀錄、Gen AI 信用報告、根認證追蹤、時間戳標準化以及 API 作者更新。
 jcr-language: en_us
 title: 2026 年 8 月 Adobe Learning Manager 版本中的報告變更
-source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 
 # 2026 年 8 月 Adobe Learning Manager 版本中的報告變更
 
@@ -150,7 +151,7 @@ The **Learner status** column now distinguishes between confirmed and waitlisted
 | 完整出口 | 回傳帳號中的所有使用者 |
 | 增量出口 | 僅返回指定日期範圍內變更的使用者 |
 
-要使用增量匯出，請依&#x200B;**日期與**&#x200B;**日期**&#x200B;篩選以定義變更視窗。使用者回報現在透過資料平台管道產生，輸出則以區塊形式回傳，以支援大型帳號。
+要使用增量匯出，請依&#x200B;**日期與****日期**&#x200B;篩選以定義變更視窗。使用者回報現在透過資料平台管道產生，輸出則以區塊形式回傳，以支援大型帳號。
 
 ## Gen AI 信用報告
 

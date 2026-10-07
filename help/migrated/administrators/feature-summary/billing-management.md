@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 管理學習管理經理的訂單與帳單
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
-
 ---
-
 
 # 管理學習管理經理的訂單與帳單
 
@@ -102,7 +103,7 @@ Adobe Learning Manager 擁有靈活、友善且價格優良的方案之一，能
 
 ### 解除連結你的帳號
 
-解除連結後，所有學習者都會停用生成式 AI 功能，且&#x200B;**&#x200B;**&#x200B;在帳號重新連結前，信用分頁也無法使用。
+解除連結後，所有學習者都會停用生成式 AI 功能，且&#x200B;****&#x200B;在帳號重新連結前，信用分頁也無法使用。
 
 1. 選擇 **[!UICONTROL Billing]**，然後選擇分 **[!UICONTROL Subscription]** 頁。
 2. 在帳戶 **詳情** 卡中，選擇 **[!UICONTROL Unlink IMS Org]**。
@@ -400,7 +401,7 @@ When you receive a 90% warning, contact your Adobe account team to purchase addi
 
 要更新帳單資訊，請依照以下步驟操作：
 
-1. 以管理員身份登入&#x200B;**並點擊&#x200B;**&#x200B;[!UICONTROL Billing]&#x200B;**。**
+1. 以管理員身份登入&#x200B;**並點擊&#x200B;**[!UICONTROL Billing]**。**
 1. 在訂單列表中，點擊 **[!UICONTROL Edit]**。
 1. 在訂閱詳情頁面，點擊 **[!UICONTROL Edit Subscription]**。
 

@@ -3,13 +3,14 @@ description: 學習如何在 Adobe Learning Manager 中使用 Active Fields，�
 jcr-language: en_us
 title: 在 Adobe Learning Manager 中設定活動欄位
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # 活躍場域
 
 Adobe Learning Manager 中的活動欄位是自訂的使用者屬性，幫助管理員有效組織和管理使用者。 它們讓你能捕捉更多使用者資訊，例如部門、地點或職稱。 管理員可以利用這些資料建立使用者群組、個人化學習內容，並更有效地過濾報告。
@@ -72,7 +73,7 @@ Active 欄位適用於內部與外部學習者，讓組織能為所有使用者�
 
 要設定活動欄位的設定：
 
-1. 選擇設定&#x200B;**&#x200B;**&#x200B;標籤，然後導向&#x200B;**使用者顯示**&#x200B;區塊。
+1. 選擇設定&#x200B;****&#x200B;標籤，然後導向&#x200B;**使用者顯示**&#x200B;區塊。
 
    ![](assets/settings-active-field.png)
    _選擇設定標籤以自訂活動欄位_
@@ -122,10 +123,10 @@ _在 CSV 上傳時啟用值限制的勾選框_
 
 ## 管理使用者 CSV 匯入中缺少的活動欄位
 
-在某些情況下，管理員希望學習者在登入 Adobe Learning Manager 時手動填寫某些活躍欄位。 此功能支援透過 CSV 檔案匯入的使用者。 請參閱這篇文章[&#128279;](/help/migrated/administrators/feature-summary/add-users-user-groups.md)了解如何大量新增用戶。使用者會根據 Box FTP 欄位值自動加入活躍欄位或基於角色的群組。 它們無法加入自訂群組。
+在某些情況下，管理員希望學習者在登入 Adobe Learning Manager 時手動填寫某些活躍欄位。 此功能支援透過 CSV 檔案匯入的使用者。 請參閱這篇文章[](/help/migrated/administrators/feature-summary/add-users-user-groups.md)了解如何大量新增用戶。使用者會根據 Box FTP 欄位值自動加入活躍欄位或基於角色的群組。 它們無法加入自訂群組。
 
 若 CSV 檔案未包含所有活動欄位，管理員必須在匯入後手動輸入缺失值。
 
-預設情況下，每個活躍欄位必須映射到來源 CSV 中的對應欄位。 不過，如果你不想將特定活躍欄位對應到 CSV 中的任何欄位，可以在 Box 和 FTP 匯入過程中，從下拉選單選擇 DontImportFromSource **這個值**。此選項適用於透過 FTP 或 Box 連接器匯入使用者。 有關連接器的更多資訊，請參閱本文[&#128279;](/help/migrated/integration-admin/feature-summary/connectors.md)。
+預設情況下，每個活躍欄位必須映射到來源 CSV 中的對應欄位。 不過，如果你不想將特定活躍欄位對應到 CSV 中的任何欄位，可以在 Box 和 FTP 匯入過程中，從下拉選單選擇 DontImportFromSource **這個值**。此選項適用於透過 FTP 或 Box 連接器匯入使用者。 有關連接器的更多資訊，請參閱本文[](/help/migrated/integration-admin/feature-summary/connectors.md)。
 
 

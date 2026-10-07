@@ -4,13 +4,14 @@ title: 將 Adobe Learning Manager 與 AEM 整合
 description: 學習管理系統是內建學習內容管理系統的學習管理系統。 使用者透過上傳至 Learning Manager 來管理學習內容，讓 Learning Manager 執行版本調整、課程分配、定義學習者可見性、追蹤使用情況並回報給管理員。
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3742'
 ht-degree: 0%
-
 ---
-
 
 # 將 Adobe Learning Manager 與 AEM 整合
 
@@ -52,7 +53,7 @@ Adobe Learning Manager （ALM） 可與 Adobe Experience Manager （AEM） 網�
 
 >[!NOTE]
 >
->關於安裝套件的資訊，請參閱  [***「如何操作套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#how-to-work-with-packages)」。
+>關於安裝套件的資訊，請參閱  [***「如何操作套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)」。
 
 1. 以 AEM 作者身份，開啟 AEM 套件管理器。
 1. 點擊按鈕 **[!UICONTROL Upload Package]**。
@@ -248,7 +249,7 @@ Adobe Learning Manager Widget 在 2.0.0 版本及以上 **版本的學習-內容
 
 * 目錄、產品、職務與課程皆可從對話框內的可搜尋下拉選單中選擇。
 * 多重選擇欄位支援最多 25 個項目，並具備拖曳重排序及標籤顯示功能。
-* 帳戶層級的術語（例如目錄或&#x200B;**角色**&#x200B;的自訂名稱&#x200B;**&#x200B;**）會自動反映在對話標籤中。
+* 帳戶層級的術語（例如目錄或&#x200B;**角色**&#x200B;的自訂名稱&#x200B;****）會自動反映在對話標籤中。
 
 ### 球場圖塊自訂
 
@@ -340,7 +341,7 @@ ALM 參考網站套件提供「學習網站藍圖」，讓您能為學習平台�
 1. 確保你已經將設定映射到網頁專案。
 1. 打開 **你想匯入學習管理員元件的 AEM Sites** 範本。
 1. 在範本頁面編輯器中，導覽到 **允許元件** 容器並選擇 **政策**。
-1. 在&#x200B;**政策頁面中，導覽至**「Properties **>** Allowed Components」**，並選擇以下元件「** Learning - Content」、「**&#x200B;** Learning - Form **」及「** Learning - Structure **&#x200B;**」。
+1. 在&#x200B;**政策頁面中，導覽至**「Properties **>** Allowed Components」**，並選擇以下元件「** Learning - Content」、「**** Learning - Form **」及「** Learning - Structure ****」。
 
 以下程序使範本能滿足匯入學習管理器元件的客戶端函式庫相依性。
 
@@ -374,13 +375,13 @@ AEM 作者必須先將元件加入 AEM 範本中
 
 AEM 作者就能拖放 Adobe Learning Manager 元件並相應配置。
 
-學習管理元件要求上述步驟建立的設定必須映射到頁面&#x200B;**&#x200B;**。作者可以透過編輯頁面屬性>**[!UICONTROL Advanced]**&#x200B;**[!UICONTROL Cloud Configuration]**> **[!UICONTROL Configuration]** 來映射設定，並提供設定路徑。透過這種方式，作者可以為多個 Learning Manager 帳號建立設定，並將每個帳號對應到不同的網站頁面。 如果設定未映射到頁面，元件會從父頁面反覆讀取該設定，直到找到設定為止。
+學習管理元件要求上述步驟建立的設定必須映射到頁面&#x200B;****。作者可以透過編輯頁面屬性>**[!UICONTROL Advanced]****[!UICONTROL Cloud Configuration]**> **[!UICONTROL Configuration]** 來映射設定，並提供設定路徑。透過這種方式，作者可以為多個 Learning Manager 帳號建立設定，並將每個帳號對應到不同的網站頁面。 如果設定未映射到頁面，元件會從父頁面反覆讀取該設定，直到找到設定為止。
 
 ## 學習者 {#learner}
 
 學習者可以在頁面內修讀課程。
 
-要存取 Learning Manager 元件，Learner 必須是已登入的 AEM 使用者。 此外，學&#x200B;**員代表:User節點的「/profile」節點中應該有屬性電子郵件**。這個電子郵件應該和 Learning Manager 帳戶裡的郵件完全一樣。
+要存取 Learning Manager 元件，Learner 必須是已登入的 AEM 使用者。 此外，學&#x200B;**員代表:User節點的「/profile」節點中應該有屬性電子郵件**。這個電子郵件應該和 Learning Manager 帳號裡的郵件完全一樣。
 
 學習者可以在頁面內修讀課程。
 
@@ -405,7 +406,7 @@ Skyline 是 AEM 的雲端版本。 你必須先從套件管理器安裝 Skyline�
 
 ### 部署 Skyline
 
-設定 Skyline 的步驟在 GitHub 倉庫[&#128279;](https://github.com/adobe/captivate-prime-aem-components)中有說明。
+設定 Skyline 的步驟在 GitHub 倉庫](https://github.com/adobe/captivate-prime-aem-components)中有說明[。
 
 ## 我的學習小工具
 
@@ -419,19 +420,19 @@ Skyline 是 AEM 的雲端版本。 你必須先從套件管理器安裝 Skyline�
 
 * **[!UICONTROL Catalog ids]：** 需顯示訓練內容的逗號分隔目錄ID。
 * **[!UICONTROL Sort]：** 訓練順序。 以下是排序選項：
-   * 名稱：依字母順序從 A 到 Z 排序學習物件。
-   * -名稱：將學習對象按字母順序從 Z 排序到 A。
-   * 日期：依日期由高至低排序。
-   * -日期：依日期由多到低排序（最新先行）。
-   * dateCreated：依學習物件的建立日期排序（最早的）。
-   * -dateCreated：依創建日期排序（最新先）。
-   * 日期已註冊：依學習者註冊日期排序（最早者）。
-   * -日期已註冊：依註冊日期排序（最近日期排第一）。
-   * 評分：依學習者評分排序（由低到高）。
-   * -評分：依評分排序（由高到低）。
-   * dueDate：依課程截止日期排序（最早截止日期先）。
-   * 效能：根據學習者回饋依效能分數排序。
-   * 進度：依學習者進度排序（對大多數人而言，進步最少）。
+  * 名稱：依字母順序從 A 到 Z 排序學習物件。
+  * -名稱：將學習對象按字母順序從 Z 排序到 A。
+  * 日期：依日期由高至低排序。
+  * -日期：依日期由多到低排序（最新先行）。
+  * dateCreated：依學習物件的建立日期排序（最早的）。
+  * -dateCreated：依創建日期排序（最新先）。
+  * 日期已註冊：依學習者註冊日期排序（最早者）。
+  * -日期已註冊：依註冊日期排序（最近日期排第一）。
+  * 評分：依學習者評分排序（由低到高）。
+  * -評分：依評分排序（由高到低）。
+  * dueDate：依課程截止日期排序（最早截止日期先）。
+  * 效能：根據學習者回饋依效能分數排序。
+  * 進度：依學習者進度排序（對大多數人而言，進步最少）。
 * **[!UICONTROL Learner State]：** 回傳所有使用以下篩選條件的訓練——已註冊、已開始、完成及未註冊。 若排序選項為 dateEnrolled、dueDate 或 dateEnrolled，搜尋結果將不顯示。
 * **[!UICONTROL Skill name]：** 用來篩選精確訓練的技能。
 * **[!UICONTROL Tag name]：** 用來篩選精確結果的標籤。

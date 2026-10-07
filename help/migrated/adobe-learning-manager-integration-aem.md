@@ -4,7 +4,10 @@ title: Adobe Learning Manager 參考網站（ALM 參考網站）AEM 網站套件
 description: Adobe Learning Manager （ALM） 可與 Adobe Experience Manager （AEM） 網站整合。 這讓你能以最少的程式碼工作量，為 Adobe Learning Manager 建立自己的網站和響應式行動介面。 透過此整合，您可以為使用者打造客製化的學習體驗。
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 0%

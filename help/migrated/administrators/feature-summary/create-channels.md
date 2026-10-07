@@ -1,13 +1,14 @@
 ---
 title: 建立頻道（測試版）
 description: 學習如何在 Adobe Learning Manager 中啟用、建立及編輯頻道，將網頁與 Confluence Cloud 頁面的影片學習內容整合到一個可搜尋的學習平台，方便學習者使用。
-source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1307'
 ht-degree: 0%
-
 ---
-
 
 # 建立頻道（測試版）
 
@@ -43,9 +44,9 @@ ht-degree: 0%
 1. 以管理員身份登入 Adobe Learning Manager。
 
 1. 從左側導覽中選擇 **頻道** 。
-   <br>**&#x200B;**&#x200B;頻道頁面開啟。
+   <br>****&#x200B;頻道頁面開啟。
 
-1. 選擇設定&#x200B;**&#x200B;**&#x200B;標籤。
+1. 選擇設定&#x200B;****&#x200B;標籤。
 
    ![啟用頻道功能](assets/enable-channels-feature.png)
 
@@ -110,7 +111,7 @@ ht-degree: 0%
 
    *在建立頻道前，請使用&#x200B;**「Test Now**」確認影片是否已從來源取得。*
 
-1. 選擇 **建立頻道**。 該頻道會被建立並加入&#x200B;**&#x200B;**&#x200B;頻道列表。
+1. 選擇 **建立頻道**。 該頻道會被建立並加入&#x200B;****&#x200B;頻道列表。
 
 ## 搜尋頻道
 
@@ -123,7 +124,7 @@ ht-degree: 0%
 
    ![搜尋頻道](assets/search-channels.png)
 
-   *在&#x200B;**搜尋框輸入頻道名稱以篩選**&#x200B;頻道列表。*
+   *在&#x200B;**搜尋框輸入頻道名稱以篩選**頻道列表。*
 
 ## 管理頻道可見性
 

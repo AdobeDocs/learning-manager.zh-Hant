@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 徽章
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 0%
-
 ---
-
 # 徽章
 
 學習如何使用學習管理員學習者應用程式查看及下載徽章。
@@ -58,7 +59,7 @@ Learning Manager 支援學習者採用開放徽章的概念。 你可以把下�
 >
 >此功能在 FedRAMP 授權的環境中無法使用。 詳情請參閱 [FedRAMP 環境](/help/migrated/feature-availability-in-fedramp-authorized-environment.md) 的功能可用性。
 
-開放徽章是指在徽章映像中嵌入部分元資料的徽章。 這些元資料提供關於發證人、收件人、完成任務、徽章有效性等資訊。Badgr 背包將可直接從 Learning Manager 存取，提供一個集中存放與共享所有徽章的場所。 學習者可以登入他們的 Badgr 帳號並建立整合。 從此之後，在 Learning Manager 中取得的徽章會自動上傳到 Badgr 帳號。
+開放徽章是指在徽章映像中嵌入部分元資料的徽章。 這些元資料提供關於發證人、收件人、完成任務、徽章有效性等資訊。Badgr 背包將直接從 Learning Manager 存取，提供一個集中存放與分享所有徽章的地方。 學習者可以登入他們的 Badgr 帳號並建立整合。 從此之後，在 Learning Manager 中取得的徽章會自動上傳到 Badgr 帳號。
 
 一旦管理員啟用 Badgr 整合&#x200B;**選項**，學習者即可整合 Badgr 並設定其徽章。要整合，學習者需從學習管理員登入 Badgr 帳號。
 

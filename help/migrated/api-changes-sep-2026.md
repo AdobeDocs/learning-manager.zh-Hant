@@ -2,7 +2,10 @@
 description: 公開且面向學習者的 API 端點，用於在 Adobe Learning Manager 中列出、檢索、註冊及刪除個人化學習路徑，以及 API 端點，用以檢查是否透過指派給學習者的目錄直接存取一個或多個學習物件。
 jcr-language: en_us
 title: 2026 年 9 月的 API 變更
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 1%
@@ -113,7 +116,7 @@ Authorization: oauth <access-token>
 | 內容類型 | `application/vnd.api+json;charset=UTF-8`（JSON）:API |
 | Authentication | 持有人 OAuth 代幣，範圍限定給帳戶管理員 |
 | 帳號背景 | `x-acap-account` 標頭識別呼叫管理員的帳號 |
-| 民調 | 不強制執行固定間隔;輪詢取得工作狀態端點直到`status`不再或`QUEUED`&#x200B;`IN_PROGRESS` |
+| 民調 | 不強制執行固定間隔;輪詢取得工作狀態端點直到`status`不再或`QUEUED``IN_PROGRESS` |
 
 ### 身分證
 
@@ -249,7 +252,7 @@ Authorization: oauth <access-token>
 | `jobType` | 字串 | `generateConfigChangeAuditReport` 本報告 |
 | `status` | 字串 | `QUEUED`、、 `IN_PROGRESS`、 `COMPLETED`或 `FAILED` |
 | `dateCreated` | 字串（ISO-8601） | 職位創立時 |
-| `dateCompleted` | 字串（ISO-8601） | 當工作完成時;出現一次`status`即為`COMPLETED`&#x200B;`FAILED` |
+| `dateCompleted` | 字串（ISO-8601） | 當工作完成時;出現一次`status`即為`COMPLETED``FAILED` |
 | `payload` | 目的 | 工作所建立的請求參數（嵌入 – 見下文） |
 | `result` | 目的 | 完成報告下載地點;僅在 `status` 時 `COMPLETED` 呈現（嵌入 – 見下文） |
 | `error` | 目的 | 失效細節;僅在 `status` 時才出現 `FAILED` |

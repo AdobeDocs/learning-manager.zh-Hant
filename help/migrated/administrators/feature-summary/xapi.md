@@ -4,13 +4,14 @@ title: 學習管理器中的 xAPI
 description: 體驗 API（xAPI）是一項電子學習軟體規範，允許學習內容與學習系統以方式相互溝通，並記錄並追蹤各類學習經驗。 學習經驗會被記錄在學習記錄庫（Learning Record Store，簡稱LRS）中。 LRS可以存在於傳統學習管理系統（LMS）中，也可以獨立存在。
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '789'
 ht-degree: 0%
-
 ---
-
 
 
 # 學習管理器中的 xAPI

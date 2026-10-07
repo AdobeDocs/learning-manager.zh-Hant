@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 我的學習
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3318'
 ht-degree: 0%
-
 ---
-
 # 我的學習
 
 閱讀本文了解如何在學習管理中瀏覽及使用課程。 參與討論並提供回饋。
@@ -83,7 +84,7 @@ Adobe Learning Manager 讓您能更快找到心儀的課程。 您可以以下�
 1. 學習者可直接報名課程/學習計畫：
 
    1. 如果課程/學習計畫是自我報名型，學習者會立即註冊。
-   1. 如果課程/學習計畫屬於經理核准類型，學習者則進入&#x200B;**&#x200B;**&#x200B;審核等待狀態。經經理批准後，學習者即被註冊參加課程。
+   1. 如果課程/學習計畫屬於經理核准類型，學習者則進入&#x200B;****&#x200B;審核等待狀態。經經理批准後，學習者即被註冊參加課程。
    1. 如果學習者報名了已經在等候名單上的課程（以班級為例），他們必須等到有人退選或行政批准他們。
 
 學習者可依自身選擇選修多種課程。 課程分頁顯示你已註冊/分配的所有課程。

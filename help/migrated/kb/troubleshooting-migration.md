@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 遷移問題故障排除
 contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
-
 ---
-
 # 遷移問題故障排除
 
 本文件包含基本的故障排除建議，幫助你解決在將資料與內容從現有學習管理系統遷移到學習管理員時可能遇到的一些典型問題。
@@ -73,7 +74,7 @@ ht-degree: 0%
 
 請確保 userID 所提供的電子郵件 ID，assignedByUserID 欄位屬於有效的 Learning Manager 使用者。 如果沒有，請新增該使用者，並建立一個新的衝刺並選擇 **同步使用者** 選項。 若使用者不屬於組織，請透過 Add users CSV 規格在 Learning Manager 中將該使用者新增為已刪除的使用者。 以下提供一份用於新增已刪除使用者的 CSV 範例規範供參考。
 
-[Users.csv](assets/users.zip) 請參閱&#x200B;**遷移手冊[&#128279;](../integration-admin/feature-summary/migration-manual.md)中的 CSV 規格與範例 CSV** 章節，下載完整的 CSV 規格與範例 CSV 檔案。
+[Users.csv](assets/users.zip) 請參閱&#x200B;**遷移手冊](../integration-admin/feature-summary/migration-manual.md)中的 [CSV 規格與範例 CSV** 章節，下載完整的 CSV 規格與範例 CSV 檔案。
 
 ### 課程顯示為空白或模組錯誤，為遷移的課程進行 {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 

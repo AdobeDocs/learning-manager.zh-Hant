@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 在報表建構器中建立自訂報告
 description: 在 Adobe Learning Manager 報表建構器中，透過選擇您自己的欄位、篩選器、依設定分組，並從空白畫布中排序，建立完全自訂的報告。
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 0%
-
 ---
-
 
 # 在報表建構器中建立自訂報告
 
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 1. 以管理員身份登入 Adobe Learning Manager。
 2. 選擇報表&#x200B;**，然後選擇**&#x200B;報表建置器&#x200B;**。**
-3. 選擇「**報告」標籤，然後選擇**「建立報告&#x200B;**&#x200B;**」。
+3. 選擇「**報告」標籤，然後選擇**「建立報告&#x200B;****」。
 4. 輸入報告名稱。 需要一個名字。 可選擇性地輸入描述。
 
    ![](assets/report-builder-0013.png)

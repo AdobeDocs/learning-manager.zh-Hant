@@ -5,13 +5,14 @@ description: 學習管理系統（Learning Manager）是一種學習管理系統
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3186'
 ht-degree: 0%
-
 ---
-
 # 學習經理部署指南
 
 ## 簡介 {#introduction}
@@ -55,11 +56,11 @@ ht-degree: 0%
 
 * 以管理員身份登入你的學習管理員帳號。
 * 從左側窗格點選 **「品牌」**。
-* 在品牌頁面，您可以點擊&#x200B;**&#x200B;**&#x200B;想要修改的選項編輯，來設定以下選項：
+* 在品牌頁面，您可以點擊&#x200B;****&#x200B;想要修改的選項編輯，來設定以下選項：
 
-   * **組織名稱** ：您在此指定的數值將決定您網站每頁橫幅上的名稱。
-   * **子網域**：此值決定您網站的網址。
-   * **標誌樣式**：此欄位中的圖片會以標誌形式出現在每頁右上角。 在這裡，你可以選擇只顯示標誌，或是你組織名稱，或是標誌加組織名稱。
+  * **組織名稱** ：您在此指定的數值將決定您網站每頁橫幅上的名稱。
+  * **子網域**：此值決定您網站的網址。
+  * **標誌樣式**：此欄位中的圖片會以標誌形式出現在每頁右上角。 在這裡，你可以選擇只顯示標誌，或是你組織名稱，或是標誌加組織名稱。
 
 ![](assets/setting-the-themesforyoursite.png)
 
@@ -92,14 +93,14 @@ ht-degree: 0%
 
    ![](assets/setting-the-themesforyoursite-step5.png)
 
-   請注意主題區有一張包含多張圖片&#x200B;**&#x200B;**&#x200B;的幻燈片。這個投影片讓你能立即預覽主題或配色方案。 你可以立即預覽選定的頁面，如首頁、學習者儀表板等。
+   請注意主題區有一張包含多張圖片&#x200B;****&#x200B;的幻燈片。這個投影片讓你能立即預覽主題或配色方案。 你可以立即預覽選定的頁面，如首頁、學習者儀表板等。
 
 1. 如果你想在瀏覽器中預覽變更，請點擊 **[!UICONTROL Live Preview]**。 會跳出即時主題預覽視窗，你可以選擇修改配色方案，或繼續使用預設選項。 要在瀏覽器預覽選項，請點擊 **[!UICONTROL Preview]** 此彈出視窗。
 
    ![](assets/setting-the-themesforyoursite-step6.png)
 
 1. 所選選項會暫時套用到你的網站。 如果你想儲存所選主題和色彩設定，請點擊 **[!UICONTROL Apply]**。
-1. 選擇並套用主題後，點擊 **&#x200B;**&#x200B;[!UICONTROL Save]&#x200B;**&#x200B;** 儲存你的選擇。
+1. 選擇並套用主題後，點擊 ****[!UICONTROL Save]**** 儲存你的選擇。
 
 ## 設定電子郵件範本 {#configureemailtemplates}
 
@@ -112,14 +113,14 @@ ht-degree: 0%
 你可以從管理員儀表板啟用並設定這些電子郵件通知。 要學習如何設定電子郵件範本，請執行以下步驟：
 
 1. 在左側導覽窗格，點選 **[!UICONTROL **&#x200B;電子郵件範本&#x200B;**。]**
-1. 請點擊以下其中一個分頁：一般/學習活動&#x200B;**/**&#x200B;提醒與更新&#x200B;**。**&#x200B;**&#x200B;**&#x200B;**&#x200B;** 舉例來說，假設你點選 **[!UICONTROL **&#x200B;了學習活動&#x200B;**。]**
-1. 點擊你想觸發郵件的切換按鈕。 在這個例子中，假設你點選 **[!UICONTROL **&#x200B;了「學習計畫 - 由管理員/經理&#x200B;**&#x200B;註冊」。]**
+1. 請點擊以下其中一個分頁：一般/學習活動&#x200B;**/**&#x200B;提醒與更新&#x200B;**。]********[!UICONTROL ** 舉例來說，假設你點選 **[!UICONTROL **&#x200B;了學習活動&#x200B;**。]**
+1. 點擊你想觸發郵件的切換按鈕。 在這個例子中，假設你點選 **[!UICONTROL **&#x200B;了「學習計畫 - 由管理員/經理&#x200B;**註冊」。]**
 
    ![](assets/configure-email-templates-step3.png)
 
    系統會顯示「成功啟用」的彈出訊息。 現在，每當經理或管理員為學習者報名課程時，學習者會收到來自該學習管理員帳號的電子郵件。
 
-1. 你可以修改預設的電子郵件範本。 點擊事件即可。 在這個例子中，點擊 **[!UICONTROL &#x200B; Learning Program - Enrolled by Admin/Manager.]**
+1. 你可以修改預設的電子郵件範本。 點擊事件即可。 在這個例子中，點擊 **[!UICONTROL  Learning Program - Enrolled by Admin/Manager.]**
 1. 在 **[!UICONTROL Template Preview]** 彈出視窗中，請注意有兩個分頁： [!UICONTROL Learner] 和 [!UICONTROL Manager]。
 
    ![](assets/configure-email-templates-step5.png)
@@ -130,11 +131,11 @@ ht-degree: 0%
 
    ***注意：這些修改僅適用於與所選活動相關的電子郵件範本。***
 
-1. 請注意，您無法修改電子郵件範本中的帳戶網址或簽名。 要修改或&#x200B;**[!UICONTROL Account URL]**&#x200B;**[!UICONTROL Signature]**，請點擊分&#x200B;**[!UICONTROL Settings]**&#x200B;頁。在這個分頁中，你可以修改電子郵件橫幅、電子郵件簽名、帳號網址。
+1. 請注意，您無法修改電子郵件範本中的帳戶網址或簽名。 要修改或&#x200B;**[!UICONTROL Account URL]****[!UICONTROL Signature]**，請點擊分&#x200B;**[!UICONTROL Settings]**&#x200B;頁。在這個分頁中，你可以修改電子郵件橫幅、電子郵件簽名、帳號網址。
 
    所有電子郵件中都會顯示帳號網址連結，就在簽名前。 輸入你偏好的網址並點擊 **[!UICONTROL Save]**。 這個網址僅對內部使用者可見。
 
-   對於電子郵件橫幅，你可以選擇  **[!UICONTROL **&#x200B;橫幅&#x200B;**&#x200B;背景來更改橫幅的顏色。] **&#x200B; 你也可以選擇 &#x200B;** [!UICONTROL Custom Image] **&#x200B; 自訂圖片作為橫幅。 更改後點擊  &#x200B;** [!UICONTROL Save]** 。
+   對於電子郵件橫幅，你可以選擇  **[!UICONTROL **&#x200B;橫幅&#x200B;**背景來更改橫幅的顏色。]** 你也可以選擇 **[!UICONTROL Custom Image]** 自訂圖片作為橫幅。 更改後點擊  **[!UICONTROL Save]** 。
 
    ***注意：電子郵件橫幅的自訂圖片尺寸必須是 1240x200px。 超過建議尺寸的圖片會被裁切。***
 
@@ -155,13 +156,13 @@ ht-degree: 0%
 要為學習物件設定電子郵件範本：
 
 1. 點擊你想設定電子郵件範本的課程、學習計畫或認證。
-1. 從左側窗格點選&#x200B;**[!UICONTROL **「電子郵件範本」。**] **&#x200B; 系統會顯示 &#x200B;**&#x200B;**[!UICONTROL Template Preview]**&#x200B;** 彈出視窗。
-1. 修改電子郵件範本的主旨或正文，並點擊&#x200B;**[!UICONTROL **儲存**]**&#x200B;以套用變更。
+1. 從左側窗格點選&#x200B;**[!UICONTROL **「電子郵件範本」。**]** 系統會顯示 ****[!UICONTROL Template Preview]**** 彈出視窗。
+1. 修改電子郵件範本的主旨或正文，並點擊**[!UICONTROL **儲存**]**以套用變更。
 1. 要取消變更，請點擊&#x200B;**[!UICONTROL **「還原為原始」。**]**
 
 ### 限制使用者接收電子郵件 {#restrictusersfromreceivingemails}
 
-作為管理員，您可以選擇誰會收到學習管理員的電子郵件，誰不會。 你可以透過 **&#x200B;**&#x200B;[!UICONTROL Restricted User]&#x200B;**&#x200B;** **&#x200B;**&#x200B;[!UICONTROL Settings] **&#x200B; ** 標籤下的選項來達成這個功能。 使用者可透過姓名、電子郵件 ID 或唯一使用者 ID 加入此名單。 此選項下的使用者將被限制無法接收來自 Learning Manager 的任何電子郵件通知。
+作為管理員，您可以選擇誰會收到學習管理員的電子郵件，誰不會。 你可以透過 ****[!UICONTROL Restricted User]**** ****[!UICONTROL Settings]** ** 標籤下的選項來達成這個功能。 使用者可透過姓名、電子郵件 ID 或唯一使用者 ID 加入此名單。 此選項下的使用者將被限制無法接收來自 Learning Manager 的任何電子郵件通知。
 
 ## 設定你的帳號設定 {#configureyouraccountsettings}
 
@@ -169,8 +170,8 @@ ht-degree: 0%
 
 ### 設定基本設定 {#configurebasicsettings}
 
-1. 在學習管理員首頁，點擊 **&#x200B;**&#x200B;[!UICONTROL Settings]&#x200B;**&#x200B;**。 預設情況下，系統會顯示基本資訊頁面，並顯示預設語言和地點欄位。
-1. 點擊 **&#x200B;**&#x200B;[!UICONTROL Change]&#x200B;**&#x200B;** 頁面右上角以編輯基本資訊。
+1. 在學習管理員首頁，點擊 ****[!UICONTROL Settings]****。 預設情況下，系統會顯示基本資訊頁面，並顯示預設語言和地點欄位。
+1. 點擊 ****[!UICONTROL Change]**** 頁面右上角以編輯基本資訊。
 1. 請設定以下選項：
 
    * **國家**：從下拉選單中選擇國家。
@@ -200,7 +201,7 @@ L3 回饋是經理對學習者的回饋。 你可以利用這種回饋來追蹤�
 
    ![](assets/configure-feedbacksettings-step3.png)
 
-1. 若要設定回饋問卷的其他問題，請點擊 、 或 **&#x200B;**&#x200B;[!UICONTROL Classroom Courses]&#x200B;**&#x200B;**&#x200B;中的問題&#x200B;**&#x200B;**&#x200B;[!UICONTROL Self-Paced Courses]&#x200B;**&#x200B;**。當你點擊問題時，系統允許你編輯預設問題。
+1. 若要設定回饋問卷的其他問題，請點擊 、 或 ****[!UICONTROL Classroom Courses]****&#x200B;中的問題&#x200B;****[!UICONTROL Self-Paced Courses]****。當你點擊問題時，系統允許你編輯預設問題。
 
 
 
@@ -214,7 +215,7 @@ L3 回饋是經理對學習者的回饋。 你可以利用這種回饋來追蹤�
 1. 請透過以下選項設定提醒事項：
 
    * **何時發送**：請明確表示您希望在課程結束時或課程結束後發送回饋請求。
-   * **完成**&#x200B;後天數：指定你想在幾天後寄送回饋請求。 此欄位僅在選擇 **&#x200B;**&#x200B;[!UICONTROL After course completion]&#x200B;**&#x200B;**&#x200B;時可見。
+   * **完成**&#x200B;後天數：指定你想在幾天後寄送回饋請求。 此欄位僅在選擇 ****[!UICONTROL After course completion]****&#x200B;時可見。
 
    * **重複**&#x200B;性：請指定你是想每天、每週或每月發送回饋提醒。 你也可以指定要發送提醒的週數。
 
@@ -223,13 +224,13 @@ L3 回饋是經理對學習者的回饋。 你可以利用這種回饋來追蹤�
 
 ## 設定 L3 回饋： {#configurel3feedback}
 
-L3 回饋包含學習者完成課程後，會送達給其主管的問題。 L3 回饋讓管理員能追蹤學習者行為或技能隨時間的變化。 要設定此回饋，請在回饋頁面點擊分 **&#x200B;**&#x200B;[!UICONTROL L3 Feedback]&#x200B;**&#x200B;** 頁。 你看到一個預設問題。 經理必須用五分評分量表來回答這個問題。
+L3 回饋包含學習者完成課程後，會送達給其主管的問題。 L3 回饋讓管理員能追蹤學習者行為或技能隨時間的變化。 要設定此回饋，請在回饋頁面點擊分 ****[!UICONTROL L3 Feedback]**** 頁。 你看到一個預設問題。 經理必須用五分評分量表來回答這個問題。
 
 ![](assets/configure-l3-feedback.png)
 
 類似於 L1 回饋，你可以設定 L3 回饋的提醒。 你可以修改現有的提醒，或新增新的回饋提醒。
 
-完成回饋問題和提醒設定後，點選 **&#x200B;**&#x200B;[!UICONTROL Save]&#x200B;**&#x200B;** 套用設定。
+完成回饋問題和提醒設定後，點選 ****[!UICONTROL Save]**** 套用設定。
 
 ## 在實例層級配置回饋 {#configurefeedbackataninstancelevel}
 
@@ -250,10 +251,10 @@ L3 回饋包含學習者完成課程後，會送達給其主管的問題。 L3 �
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. 若要在實例層級設定 L3 行為變更回饋，稱為 **&#x200B;**&#x200B;[!UICONTROL Enable]&#x200B;**&#x200B;** L3 回饋。 應用程式會顯示一個預設的必填問題，以及一個空白問題，你可以輸入你想要的問題。
+1. 若要在實例層級設定 L3 行為變更回饋，稱為 ****[!UICONTROL Enable]**** L3 回饋。 應用程式會顯示一個預設的必填問題，以及一個空白問題，你可以輸入你想要的問題。
 1. 對於學習者修完課程後的成長問題，答案是李克特量表格式。 也就是說，經理必須在「強烈同意與強烈不同意」的尺度上選擇一個選項。
 1. 請向經理說明第二個問題。 經理可以給出描述性的回答。
-1. 如果你想讓第二個問題成為強制性，請勾 **&#x200B;**&#x200B;[!UICONTROL Make Mandatory]&#x200B;**&#x200B;** 選勾選方塊。
+1. 如果你想讓第二個問題成為強制性，請勾 ****[!UICONTROL Make Mandatory]**** 選勾選方塊。
 
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
@@ -266,8 +267,8 @@ L3 回饋包含學習者完成課程後，會送達給其主管的問題。 L3 �
 
 Learning Manager 中的一般設定允許管理員設定影響應用程式其他功能的通用設定。 例如，你可以使用一般設定來指定課程成效是否能讓學習者看見。 要設定一般設定：
 
-1. 在學習管理員首頁，點擊 **&#x200B;**&#x200B;[!UICONTROL Settings]&#x200B;**&#x200B;**。
-1. 在左側窗格，點擊 **&#x200B;**&#x200B;[!UICONTROL General]&#x200B;**&#x200B;**。
+1. 在學習管理員首頁，點擊 ****[!UICONTROL Settings]****。
+1. 在左側窗格，點擊 ****[!UICONTROL General]****。
 1. 在一般設定頁面，您可以設定以下選項：
 
    對於這些選項，每個選項影響的功能都各有不同。 如有需要，我們可以提供每個詳細功能的交叉連結。
@@ -292,7 +293,7 @@ Learning Manager 中的一般設定允許管理員設定影響應用程式其他
 1. 在學習管理員首頁，點擊 **[!UICONTROL Settings]**。
 1. 在左側導覽窗格，點選 **[!UICONTROL **&#x200B;學習者儀表板&#x200B;**。]**
 1. 選擇你想啟用的小工具。 如果你取消選取小工具，該小工具會立即從預覽中移除。 學習者無法在儀表板中看到這個小工具。
-1. 點擊 **&#x200B;**&#x200B;[!UICONTROL Save]&#x200B;**&#x200B;** 套用設定。
+1. 點擊 ****[!UICONTROL Save]**** 套用設定。
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 

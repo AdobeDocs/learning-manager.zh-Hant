@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub（測試版）設定加入前畫面
 description: 了解 Live Hub 的預加入畫面運作方式、如何允許瀏覽器權限，以及在加入會話前如何設定音訊和攝影機控制。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
-
 ---
-
 
 # 設置加入前的畫面
 
@@ -34,7 +35,7 @@ Adobe Learning Manager 中的 Live Hub 課程是一種由講師主導的即時�
 
 測試麥克風和喇叭：
 
-1. 從預先加入畫面選擇 **麥克風** 。 **&#x200B;**&#x200B;麥克風下拉選單會出現。
+1. 從預先加入畫面選擇 **麥克風** 。 ****&#x200B;麥克風下拉選單會出現。
 
    ![麥克風下拉選單預覽](assets/microphone-dropdown-preview.png)
    *選擇麥克風下拉選單切換裝置或測試麥克風與喇叭。*

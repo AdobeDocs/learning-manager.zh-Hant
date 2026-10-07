@@ -4,13 +4,14 @@ title: 使用者在學習管理員中會自動刪除
 description: 使用者會從學習管理員中刪除，但管理員從未執行過任何此類操作。
 contentowner: nluke
 exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
-source-git-commit: dafb4c35d868e44c022a0d96919792b5a41f62b0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
-
 ---
-
 # 使用者在學習管理員中會自動刪除 {#user-gets-auto-deleted-in-learning-manager}
 
 ## 子嗣

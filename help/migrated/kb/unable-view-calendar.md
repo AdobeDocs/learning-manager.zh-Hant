@@ -4,7 +4,10 @@ title: 無法查看行事曆
 description: 當管理員嘗試編輯外部登記資料的到期日並點擊行事曆編輯到期日時，該行事曆不會顯示。
 contentowner: saghosh
 exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 1%

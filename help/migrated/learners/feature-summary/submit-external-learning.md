@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 在 Adobe Learning Manager 提交外部學習
 description: 利用外部學習記錄你在 Adobe Learning Manager 之外完成的訓練，例如工作坊、研討會、證照或線上課程。 提交資料供主管審核後，核准的活動會被加入你的學習者成績單。
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '604'
 ht-degree: 0%
-
 ---
-
 
 # 以學習者的身份提交外部學習
 
@@ -43,7 +44,8 @@ ht-degree: 0%
 
 2. 選擇 **外部學習** 選項。
 
-3. 選擇 **新增外部學習**。   ![](assets/submit-external-learning-request.png)
+3. 選擇 **新增外部學習**。
+   ![](assets/submit-external-learning-request.png)
 
 
 4. 請填寫提交表格：
@@ -60,13 +62,15 @@ ht-degree: 0%
 
    6. **分數：** 若訓練包含評量，請輸入您的分數。
 
-   7. **附件：** 上傳證書、逐字稿或其他文件作為證據。支援的檔案格式有 PDF、DOC、DOCX、PNG、JPEG 及 JPG。最大檔案大小為 50 MB。      ![](assets/add-external-learning.png)
+   7. **附件：** 上傳證書、成績單或其他文件作為證據。 支援的檔案格式有 PDF、DOC、DOCX、PNG、JPEG 和 JPG。 最大檔案大小為 50 MB。
+      ![](assets/add-external-learning.png)
 
    8. 請填寫管理員設定的額外自訂欄位。
 
 5. 選擇 **提交**。
 
-你的主管會收到應用程式內通知，告知有新的外部學習請求正在等待審核。你的提交會出現 **在外部學習** 清單中，狀態為 **「待審核**」。<!--![](assets/submission-external-learning-list.png)-->
+你的主管會收到應用程式內通知，表示有一個新的外部學習請求正在等待審核。 您的提交資料會顯示在您的 **外部學習** 清單中，狀態為 **「待審核**」。
+<!--![](assets/submission-external-learning-list.png)-->
 
 >[!NOTE]
 >

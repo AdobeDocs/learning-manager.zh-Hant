@@ -3,13 +3,14 @@ description: 學習如何將 Harvard ManageMentor 與 Adobe Learning Manager 整
 jcr-language: en_us
 title: 哈佛 ManageMentor 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Harvard ManageMentor 連接器
 
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 ## 前置條件
 
-在設定連接器前，請確保&#x200B;**&#x200B;**&#x200B;您的帳戶已啟用遷移功能。
+在設定連接器前，請確保&#x200B;****&#x200B;您的帳戶已啟用遷移功能。
 
 ## 設定連接器
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
 建立新的連結：
 
-1. 在哈佛管理導師圖塊中選擇&#x200B;**「連接**&#x200B;**」。**
+1. 在哈佛管理導師圖塊中選擇&#x200B;**「連接****」。**
 
    ![](assets/harvard-managementor-connector2.png)
    _選擇 Connect 以建立新的 Harvard ManageMentor 連線_
@@ -64,7 +65,7 @@ ht-degree: 0%
 
 啟用連線：
 
-1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結**&#x200B;**」。**
+1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結****」。**
 
    ![](assets/harvard-managementor-connector4.png)
    _管理連線以設定和排程資料匯入_
@@ -80,10 +81,10 @@ ht-degree: 0%
 
 要排程同步：
 
-1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結**&#x200B;**」。**
+1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結****」。**
 2. 選擇連線。
 3. 從左側導覽窗格選擇 **「配置** 」。
-4. 在排程同步區塊中選擇&#x200B;**啟用排程**&#x200B;**。**
+4. 在排程同步區塊中選擇&#x200B;**啟用排程****。**
 
    ![](assets/harvard-managementor-connector6.png)
    _排程將資料匯入 Harvard ManageMentor 至 Adobe Learning Manager_
@@ -100,7 +101,7 @@ ht-degree: 0%
 
 要執行隨選資料匯入：
 
-1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結**&#x200B;**」。**
+1. 在哈佛 ManageMentor 圖塊上選擇&#x200B;**「管理連結****」。**
 2. 選擇連線。
 3. 從左側窗格選擇 **「隨選執行** 」。
 4. 選擇 **開始日期**。
@@ -144,5 +145,5 @@ ht-degree: 0%
 
 **範例檔案**
 
-- [哈佛 ManageMentor 連接器的課程元資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=zh-Hant)
-- [哈佛 ManageMentor 連接器的使用者資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=zh-Hant)
+- [哈佛 ManageMentor 連接器的課程元資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
+- [哈佛 ManageMentor 連接器的使用者資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)

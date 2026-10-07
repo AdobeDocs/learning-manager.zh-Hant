@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 作為管理員監控與管理社會學習
 contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 0%
-
 ---
-
 # 作為管理員監控與管理社會學習
 
 作為管理員，你可以啟用、停用並監控社會學習中執行的活動。 一旦啟用社交學習功能，學習者即可查看並開始參與社交學習。
@@ -147,7 +148,7 @@ Enterprise Server URL 必須是公開架設的。
 
 使用者群組可以是自動產生的，也可以是自訂的。
 
-獲得此權限的使用者可存取所有看板，唯獨私人看板除外&#x200B;**&#x200B;**。
+獲得此權限的使用者可存取所有看板，唯獨私人看板除外&#x200B;****。
 
 ![](assets/special-users.png)
 
@@ -263,7 +264,7 @@ Enterprise Server URL 必須是公開架設的。
 
 若一天內未達50%，則會送交下一批專家，過期前一輪未回覆的策展請求。
 
-例如，第一天，策展請求會寄給三家中小企業;其中一個人同意了，兩個人沒回應。 隔天，策展請求會送給下一組三位主題專家;目前這個階段，總共有四家活躍的中小企業。 至少需要兩個SEM批准，才能獲得策展批准。（若2人通過、2人拒絕，則達到前50%者將被取走。）
+舉例來說，第一天，策展請求會寄給三家專家;其中一家批准了，另外兩家卻沒有回應。 隔天，策展請求會交給下一組三家專家;目前這個層級共有四家活躍的專家。 至少必須有兩個SEM批准，才能讓策展獲得批准。（如果兩個通過、兩個拒絕，則將取走前50%的部分。）
 
 +++
 
@@ -484,7 +485,7 @@ SME資格僅能透過透過社交學習活動累積SME積分來取得。 管理�
 
 ## 每月活躍用戶計費計畫的社交活動 {#socialactivitiesformonthlyactiveusersbillingplan}
 
-每當用戶建立新的社群板、社群貼文或社群留言時，若帳號採用 MAU 計費模式，該活動將被視為有效活動，並計入 **每月啟用用戶**（MAU）計畫。 欲了解更多資訊，請參閱帳單管理[&#128279;](billing-management.md)。
+每當用戶建立新的社群板、社群貼文或社群留言時，若帳號採用 MAU 計費模式，該活動將被視為有效活動，並計入 **每月啟用用戶**（MAU）計畫。 欲了解更多資訊，請參閱帳單管理](billing-management.md)。[
 
 ## 常見問題 {#frequentlyaskedquestions}
 

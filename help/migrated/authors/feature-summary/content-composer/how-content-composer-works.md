@@ -2,13 +2,14 @@
 description: 內容撰寫者會經歷四個階段——提示、簡報、大綱和課程。 對話式 AI 會引導每個階段，生成內容，供你審查與編輯，然後直接發佈到 Adobe Learning Manager。
 jcr-language: en_us
 title: 內容編輯器的運作方式
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
-
 ---
-
 
 # 內容編輯器的運作方式
 

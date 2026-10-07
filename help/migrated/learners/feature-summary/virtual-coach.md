@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager 中的虛擬教練
 description: 虛擬教練是 Adobe Learning Manager 中的一項變革性功能，旨在彌合理論知識與實際應用之間的關鍵落差。 與其僅依賴被動學習方法，不如透過影片、測驗和閱讀材料。 Virtual Coach 為學習者提供互動式、沉浸式的環境，讓他們練習高風險對話並學習軟實力。
 contentowner: saghosh
-source-git-commit: e81a6ab40f996a2a6013cafe80fb377d51fbef13
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 0%
-
 ---
-
 
 # 簡介
 

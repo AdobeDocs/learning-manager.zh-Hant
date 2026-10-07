@@ -2,13 +2,14 @@
 description: 學習如何在 Content Composer 中使用進階主題屬性，自訂標題和文字元素的字體、顏色、間距與版面配置。
 jcr-language: en_us
 title: 進階主題自訂
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # 內容作曲家中的進階主題自訂
 
@@ -21,7 +22,7 @@ ht-degree: 0%
 
 2. 在字型屬性面板中，設定 **課程的字型配對** ：
 
-   - 選擇&#x200B;**&#x200B;**&#x200B;標題下拉選單，並為所有標題選擇字型。
+   - 選擇&#x200B;****&#x200B;標題下拉選單，並為所有標題選擇字型。
 
    - 選擇 **「正文** 」下拉選單，並選擇正文字型。
      ![進階主題屬性的字型屬性標籤，顯示字型配對選項](../assets/42_advanced_theme_properties_font_pairing_updated.png)
@@ -46,7 +47,7 @@ ht-degree: 0%
 
    - 選擇 **字型，**&#x200B;例如大寫字母。
 
-   - 用 + 和 - 控制鍵設定&#x200B;**字型大小**。**&#x200B;**&#x200B;**&#x200B;**
+   - 用 + 和 - 控制鍵設定&#x200B;**字型大小**。********
 
    - 選擇字 **體顏色**。
 
@@ -57,4 +58,4 @@ ht-degree: 0%
 6. 在右側畫布預覽你的變更。 使用 **「目前課程** 」和 **「測驗課程** 」分頁，查看你的變更在不同課程中的表現。
    ![進階主題屬性中的測試課程預覽](../assets/43_advanced_theme_test_lesson_preview_updated.png)
 
-7. 選擇&#x200B;**另存為新或**&#x200B;**另存**。
+7. 選擇&#x200B;**另存為新或****另存**。

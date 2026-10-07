@@ -3,7 +3,10 @@ description: 學習如何設計真實且可衡量的虛擬教練角色扮演，�
 jcr-language: en_us
 title: 設計一個角色扮演
 exl-id: a9eb5303-df1f-4f1d-9e21-0cf3eff5f199
-source-git-commit: 9a266f83af039c8ee4e842051090036e64d74fcb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '4120'
 ht-degree: 1%

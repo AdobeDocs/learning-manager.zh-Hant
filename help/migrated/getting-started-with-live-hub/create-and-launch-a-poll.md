@@ -1,17 +1,18 @@
 ---
 title: 在 Live Hub 建立並啟動投票
 description: 學習如何手動或使用 AI 建立投票，在 Live Hub 會議中啟動，監控回應，並與學習者分享結果。
-source-git-commit: f805b9963608584aebf624de287f348e33ffbdc8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 0%
-
 ---
-
 
 # 建立並發起投票
 
-利用投票讓你的 Live Hub 會議更具互動性和吸引力。 在&#x200B;**投票與測驗**&#x200B;面板中，你可以手動選擇題型（如選擇題或簡答題）來建立投票，或使用AI搭配&#x200B;**破冰**&#x200B;**與知識檢查**&#x200B;選項來生成。
+利用投票讓你的 Live Hub 會議更具互動性和吸引力。 在&#x200B;**投票與測驗**&#x200B;面板中，你可以手動選擇題型（如選擇題或簡答題）來建立投票，或使用AI搭配&#x200B;**破冰****與知識檢查**&#x200B;選項來生成。
 
 在直播課程中，您可以啟動與關閉投票、即時監控回應、檢視參與者回答，並選擇是否與學習者分享結果。 本文說明如何在 Live Hub 會議中建立、管理及分享投票。
 

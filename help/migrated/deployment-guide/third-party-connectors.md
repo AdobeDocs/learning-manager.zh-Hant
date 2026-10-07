@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 學習管理連結器
 preview: true
 exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '6157'
 ht-degree: 0%
-
 ---
-
 # 學習管理連結器
 
 學習如何利用連接器將 Salesforce 與 Learning Manager 整合，如何將 FTP 與 Learning Manager 整合，並透過 FTP 連接器自動上傳 CSV。
@@ -165,7 +166,7 @@ Salesforce 連接器會連接到 Salesforce.com，取得設定中的使用者並
 1. 所有 CSV 都應該包含映射中指定的欄位。
 1. 所有必要的 CSV 檔案應該在流程開始前就已在資料夾中。
 
-在將使用者匯入 Learning Manager 時，管理員也需要了解使用者在 Learning Manager 中如何管理。 請參閱使用者管理說明[&#128279;](../integration-admin/feature-summary/migration-manual.md#usermanagement)以獲取更多資訊。
+在將使用者匯入 Learning Manager 時，管理員也需要了解使用者在 Learning Manager 中如何管理。 請參閱使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)以[獲取更多資訊。
 
 +++
 
@@ -351,7 +352,7 @@ Harvard ManageMentor 連接器可供企業用戶使用 Harvard ManageMentor，�
    client_hmm12_20150125.xlsx：這是哈佛 ManageMentor 連接器的使用者動態。 你必須遵守的檔案命名規則是 **client_hmm12_yyyyMMdd.xlsx。**
 
    請參考以下兩個使用者動態與課程動態範例檔案：
-   [哈佛 ManageMentor 連接器](assets/hmm12-metadata.xlsx) [的課程元資料檔案 哈佛 ManageMentor 連接器的使用者資訊流](assets/client-hmm12-20170304.xlsx)
+   [哈佛 ManageMentor 連接器](assets/hmm12-metadata.xlsx)[的課程元資料檔案 哈佛 ManageMentor 連接器的使用者資訊流](assets/client-hmm12-20170304.xlsx)
 
 ## Workday 連接器 {#workdayconnector}
 
@@ -663,7 +664,7 @@ Learning Manager 管理員可以在匯入使用者前對使用者套用篩選。
 1. 所有 CSV 都應該包含映射中指定的欄位。
 1. 所有必要的 CSV 檔案應該在流程開始前就已在資料夾中。
 
-在將使用者匯入 Learning Manager 時，管理員也需要了解使用者在 Learning Manager 中如何管理。 請參閱使用者管理說明[&#128279;](../integration-admin/feature-summary/migration-manual.md#usermanagement)以獲取更多資訊。
+在將使用者匯入 Learning Manager 時，管理員也需要了解使用者在 Learning Manager 中如何管理。 請參閱使用者管理說明](../integration-admin/feature-summary/migration-manual.md#usermanagement)以[獲取更多資訊。
 
 +++
 

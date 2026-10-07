@@ -1,13 +1,14 @@
 ---
 title: 建立一個即時中樞（測試版）會話
 description: 學習如何建立 Live Hub 課程、新增課程實例、使用 Instructor Finder 指派講師、註冊學習者，以及自訂教室品牌。
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 0%
-
 ---
-
 
 # 建立一個即時中樞（測試版）會話
 
@@ -48,11 +49,11 @@ ht-degree: 0%
    ![新增課程名稱說明](assets/add-course-name-description.png)
    *在新增模組前，請輸入課程名稱和簡短說明。*
 
-1. 在模組區段選擇&#x200B;**內容**>**新增模組**。 <br>**&#x200B;** 會跳 **出「選擇模組類型** 」視窗。
+1. 在模組區段選擇&#x200B;**內容**>**新增模組**。 <br>**** 會跳 **出「選擇模組類型** 」視窗。
 
 1. 選擇 **虛擬教室** ，輸入課程細節，包括標題、說明、時區、開始與結束日期，以及開始與結束時間。
 
-1. 在 Live Virtual Training Tools 中選擇 **Live Hub**。**&#x200B;**
+1. 在 Live Virtual Training Tools 中選擇 **Live Hub**。****
 
    ![選擇 Live Hub 工具](assets/select-live-hub-tool.png)
    *選擇 Live Hub 以啟用 AI 驅動的講師推薦。*
@@ -138,9 +139,9 @@ ht-degree: 0%
 
 學習者可透過以下兩種方式報名 Live Hub 課程：
 
-1. **管理員**&#x200B;會根據組織需求為學習者報名課程。請參閱 [「建立課程實例與學習路徑](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/courses) 」以獲取更多資訊。
+1. **管理員**&#x200B;會根據組織需求為學習者報名課程。請參閱 [「建立課程實例與學習路徑](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) 」以獲取更多資訊。
 
-1. 學習者可直接從 **課程目錄** 頁面報名。 若課程設定為自助報名，學習者會立即註冊，並可從 **My Learning** 存取課程。 [欲了解更多資訊，請參閱我的學習。](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/learner/courses)
+1. 學習者可直接從 **課程目錄** 頁面報名。 若課程設定為自助報名，學習者會立即註冊，並可從 **My Learning** 存取課程。 [欲了解更多資訊，請參閱我的學習。](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses)
 
 註冊後，學習者會被加入課程，並在他們的 Adobe Learning Manager 帳號中收到通知。 根據帳號的電子郵件通知設定，學習者也可能收到電子郵件邀請加入課程。
 

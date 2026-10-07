@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 遊戲化
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1633'
 ht-degree: 0%
-
 ---
-
 # 遊戲化
 
 遊戲化是指在非遊戲情境中運用遊戲思維與遊戲機制，讓使用者在學習過程中獲得積分。
@@ -130,7 +131,7 @@ A sample illustration is provided below that shows all the tasks and points.
 
 >[!NOTE]
 >
->此任務不適用於時間範圍。 若學習者達到較高水準後，能力等級降低，則僅因較高等級獲得點數。
+>此任務不適用於時間範圍。 若學習者達到較高水準後，能力等級降低，則僅因較高等級獲得分數。
 
 **供參考**
 

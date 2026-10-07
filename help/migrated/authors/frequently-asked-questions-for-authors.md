@@ -4,13 +4,14 @@ title: 作者常見問題
 description: Adobe Learning Manager 作者常見問題
 contentowner: admin
 exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1723'
 ht-degree: 0%
-
 ---
-
 # 作者常見問題
 
 <table>
@@ -43,16 +44,16 @@ ht-degree: 0%
 
 更多資訊請參閱  [Adobe Learning Manager：Adobe Captivate 9](http://primehelp.adobe.com/publish-modules-from-adobe-captivate9/)影片中的發佈模組。
 
-您也可以參考 Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/tw/captivate/using/publish-project-to-captivate-prime.html) 以獲得詳細的操作流程。
+您也可以參考 Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 以獲得詳細的操作流程。
 
 筆記\
-Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/tw/captivate/using/publish-project-to-captivate-prime.html) 是 Learning Manager 說明應用程式之外的。
+Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/captivate/using/publish-project-to-captivate-prime.html) 是 Learning Manager 說明應用程式之外的。
 
 +++
 
 +++如何在學習管理中選擇課程模組？
 
-點此[&#128279;](https://helpx.adobe.com/content/help/tw/captivate-prime/authors/how-to-choose-modules.html)了解如何選擇課程模組。
+點此[](https://helpx.adobe.com/content/help/en/captivate-prime/authors/how-to-choose-modules.html)了解如何選擇課程模組。
 
 +++
 
@@ -157,13 +158,13 @@ Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/tw/captivate/using/p
 
 +++我可以為任何課程的模組排序嗎？ 怎麼做到的？
 
-作者可以透過拖放方式在其他模組上更改模組的順序。 他也能在課程創建時選擇&#x200B;**&#x200B;**&#x200B;模組順序選項，強制學習者依序修習模組。
+作者可以透過拖放方式在其他模組上更改模組的順序。 他也能在課程創建時選擇&#x200B;****&#x200B;模組順序選項，強制學習者依序修習模組。
 
 +++
 
 +++我要如何篩選以查看特定課程組合？
 
-您可以使用「按州篩選課程」選項來篩選課程。 欲了解更多資訊，請參閱  [「我如何搜尋課程？」](https://helpx.adobe.com/content/help/tw/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+您可以使用「按州篩選課程」選項來篩選課程。 欲了解更多資訊，請參閱  [「我如何搜尋課程？」](https://helpx.adobe.com/content/help/en/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
@@ -180,7 +181,7 @@ Adobe Captivate 9  [的說明內容](http://helpx.adobe.com/tw/captivate/using/p
 1. 使用右上角顯示的搜尋欄位。 請輸入課程名稱或與課程相關的關鍵字，以找到你的課程。
 1. 透過篩選課程清單來篩選。 您可以依州份篩選課程，如 **全部、已發表、選秀** 及 **退休** ，並點擊上述選項。
 
-   你也可以根據技能組合點選&#x200B;**&#x200B;**&#x200B;技能組合，選擇每個技能組合來搜尋。
+   你也可以根據技能組合點選&#x200B;****&#x200B;技能組合，選擇每個技能組合來搜尋。
 
    根據你的選擇，你可以查看篩選過的課程清單並依此選擇。
 

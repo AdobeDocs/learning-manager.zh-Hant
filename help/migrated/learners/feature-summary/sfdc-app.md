@@ -1,61 +1,62 @@
 ---
 jcr-language: en_us
-title: Salesforce的Learning Manager應用程式
-description: Salesforce&amp；trade；是銷售和行銷團隊中最受歡迎的CRM解決方案。 使用Salesforce中的Adobe Learning Manager應用程式時，學習者可以從其Salesforce介面存取其所有學習內容。 學習者可以從Salesforce存取其指派的學習內容，例如課程、學習方案及工作輔助。 使用者也可以從管理員接收有關其註冊和公告的通知。
+title: Salesforce 學習管理應用程式
+description: Salesforce™ 是銷售與行銷團隊中最受歡迎的 CRM 解決方案。 使用 Salesforce 中的 Adobe Learning Manager 應用程式，學習者可以在 Salesforce 介面中存取所有學習內容。 學習者可以在 Salesforce 內存取分配的學習內容，如課程、學習計畫及工作輔助工具。 使用者也能收到管理員提供的註冊通知及公告。
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
-
 ---
-
-# Salesforce的Learning Manager應用程式
+# Salesforce 學習管理應用程式
 
 ## 概觀 {#overview}
 
-Salesforce™是銷售和行銷團隊中最受歡迎的CRM解決方案。 使用Salesforce中的Adobe Learning Manager應用程式時，學習者可以從其Salesforce介面存取其所有學習內容。 學習者可以從Salesforce存取其指派的學習內容，例如課程、學習方案及工作輔助。 使用者也可以從管理員接收有關其註冊和公告的通知。
+Salesforce™ 是銷售與行銷團隊中最受歡迎的 CRM 解決方案。 使用 Salesforce 中的 Adobe Learning Manager 應用程式，學習者可以在 Salesforce 介面中存取所有學習內容。 學習者可以在 Salesforce 內存取分配的學習內容，如課程、學習計畫及工作輔助工具。 使用者也能收到管理員提供的註冊通知及公告。
 
-只有在Salesforce帳戶管理員完成所需的設定活動後，您才能在Learning Manager中使用此應用程式。 如需詳細資訊，請參閱[適用於Salesforce的Learning Manager應用程式](../../integration-admin/feature-summary/sfdc-app.md)，並要求您的管理員安裝適用於Salesforce的Learning Manager應用程式。
+這個應用程式只有在你的 Learning Manager 帳號管理員完成所需的設定活動後，才會在 Salesforce 中開放。 欲了解更多細節，請參閱 [Salesforce](../../integration-admin/feature-summary/sfdc-app.md) 學習管理應用程式，並請求管理員安裝 Salesforce 學習管理應用程式。
 
-## 在Salesforce中尋找應用程式 {#locateappinsalesforce}
+## 在 Salesforce 中尋找應用程式 {#locateappinsalesforce}
 
-身為學習者，您可以按一下頁面右角的&#x200B;**應用程式**&#x200B;下拉式清單，然後選取Adobe Learning Manager。
+作為學習者，你可以點擊頁面右角的 **應用程式** 下拉選單，選擇 Adobe 學習管理員。
 
-如果您在下拉式清單中找不到應用程式，請聯絡您的Salesforce管理員。
+如果你在下拉選單找不到該應用程式，請聯絡你的 Salesforce 管理員。
 
-選取應用程式後，您可以切換至Adobe Learning Manager應用程式，如下面的快照所示。
+選擇應用程式後，你可以切換到下方快照所示的 Adobe Learning Manager 應用程式。
 
 <!--![](assets/connect-to-prime.png)-->
 
-## 登入和使用說明 {#loginandusageinstructions}
+## 登入與使用說明 {#loginandusageinstructions}
 
-如上述快照所示，按一下Adobe Learning Manager中的&#x200B;**[!UICONTROL Connect to Learning Manager]**，並使用您的Learning Manager帳戶認證登入。
+如上圖所示，點入 **[!UICONTROL Connect to Learning Manager]** Adobe Learning Manager，並以您的 Learning Manager 帳號憑證登入。
 
-您可以連線至Learning Manager應用程式，並在Salesforce中使用。
+你可以連接 Learning Manager 應用程式，並在 Salesforce 內使用它。
 
-或者，您也可以使用首頁左側窗格的Learning Manager通知元件，登入Salesforce中的Adobe Learning Manager帳戶。 只有當管理員在Salesforce中設定Adobe Learning Manager通知元件時，學習者才能看到此元件。
+或者，你也可以在 Salesforce 的首頁左側窗格中，透過 Adobe Learning Manager 通知元件登入 Learning Manager 帳號。 學習者只有在管理員在 Salesforce 中設定 Adobe Learning Manager 通知元件時，才能看到此元件。
 
-Adobe Learning Manager應用程式學習者檢視的代表性快照如下所示，以供您參考。
+以下展示了 Adobe Learning Manager 應用程式學習者視圖的代表性快照，供您參考。
 
 ![](assets/learners-view.png)
 
-*檢視Adobe Learning Manager應用程式*
+*Adobe Learning Manager 應用程式的檢視*
 
-## 中斷與應用程式的連線 {#disconnectfromtheapp}
+## 從應用程式中斷開 {#disconnectfromtheapp}
 
-您可以按一下學習者頁面底部的「中斷連線」連結（如上述快照中所標示），以&#x200B;**中斷與Adobe Learning Manager應用程式的連線**。 中斷連線後，系統會將您重新導向至Adobe Learning Manager應用程式的歡迎頁面。
+你可以點擊學習者頁面底部的「斷線連結」，如上方快照所示，從 **Adobe Learning Manager 應用程式中斷開連結** 。 一旦你斷線，就會被導向 Adobe Learning Manager 應用程式的歡迎頁面。
 
-您可以不限次數地連線或中斷與應用程式的連線。
+你可以無限次連接或斷開應用程式。
 
-## 在Salesforce應用程式中重設建議
+## 在 Salesforce 應用程式中重設建議
 
-學習者無需離開Salesforce或登入原生Adobe Learning Manager應用程式，即可重設角色和學習偏好設定。 Adobe Learning Manager Salesforce應用程式現在包含&#x200B;**[!UICONTROL Reset Interests]**&#x200B;按鈕。
+學習者可以重置角色與學習偏好，無需離開 Salesforce 或登入原生 Adobe Learning Manager 應用程式。 Adobe Learning Manager 的 Salesforce 應用程式現在包含了一個 **[!UICONTROL Reset Interests]** 按鈕。
 
-若要從Salesforce應用程式重設興趣和建議：
+要重設 Salesforce 應用程式中的興趣與推薦：
 
-1. 以學習者身分登入適用於Salesforce的Adobe Learning Manager應用程式。
-2. 選取底部的&#x200B;**[!UICONTROL Reset Interests]**&#x200B;選項。
+1. 以學習者身份登入 Adobe Learning Manager 的 Salesforce 應用程式。
+2. 選擇 **[!UICONTROL Reset Interests]** 底部的選項。
 
-系統會從Adobe Learning Manager Salesforce應用程式重設學習者的建議或興趣。
+學習者的推薦或興趣將從 Adobe Learning Manager Salesforce 應用程式中重置。

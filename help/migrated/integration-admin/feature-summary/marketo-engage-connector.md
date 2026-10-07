@@ -3,13 +3,14 @@ description: 學習如何將 Marketo Engage 連接器與 Adobe Learning Manager 
 jcr-language: en_us
 title: Marketo Engage 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Marketo Engage 連接器
 
@@ -25,7 +26,7 @@ Marketo Engage 連接器允許您：
 - 將使用者學習行為（如課程註冊、完成、技能指派及技能完成）同步為 Marketo 中的自訂物件。
 - 利用這些數據在 Marketo 中建立動態廣告活動，並善用智慧清單等&#x200B;**功能**。
 
-此整合幫助行銷人員根據 Adobe Learning Manager 中的學習歷程來精準鎖定目標受眾。
+此整合幫助行銷人員根據 Adobe Learning Manager 中的學習歷程來精準鎖定受眾。
 
 ## 主要特色
 
@@ -33,9 +34,9 @@ Marketo Engage 連接器允許您：
 - 將學習活動（報名、完成、技能成就）匯出為自訂物件到 Marketo。
 - 按需排程或觸發出口。
 - 支援統一報告，包括：
-   - 使用者報告
-   - 學習成績單
-   - 使用者技能報告
+  - 使用者報告
+  - 學習成績單
+  - 使用者技能報告
 
 ## 先決條件
 
@@ -64,7 +65,7 @@ Marketo Engage 連接器允許您：
 
 3. 請輸入所需的證件
 
-   - 連接名稱
+   - 連線名稱
    - 客戶識別碼
    - 客戶秘密
    - Marketo Engage 網域
@@ -84,7 +85,7 @@ Marketo Engage 連接器允許您：
 - 使用者註冊了一項技能。
 - 使用者完成一項技能。
 
-這些活動可以按需&#x200B;**&#x200B;**&#x200B;或預定&#x200B;**進行**&#x200B;輸出。
+這些活動可以按需&#x200B;****&#x200B;或預定&#x200B;**進行**&#x200B;輸出。
 
 ## 柱映射
 

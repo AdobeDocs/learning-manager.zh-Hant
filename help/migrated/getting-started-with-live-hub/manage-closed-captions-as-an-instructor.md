@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 中管理授課老師的隱藏字幕
 description: 了解講師如何在 Live Hub 課程中啟用、顯示及自訂隱藏式字幕的字體大小與說明風格。
-source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 0%
-
 ---
-
 
 # 作為講師管理隱藏字幕
 
@@ -43,7 +44,7 @@ ht-degree: 0%
 
    1. **字體大小**：請選擇隱藏字幕文字的大小。 可選的選項有 **小型**、 **中**&#x200B;型和 **大型**。
 
-   1. **說明文字風格**：選擇顏色組合。 可用的組合包括&#x200B;**黑底白字**、**黃底黑字**、**白底黑字**、**暗**&#x200B;**黑底及黃底藍字**。
+   1. **說明文字風格**：選擇顏色組合。 可用的組合包括&#x200B;**黑底白字**、**黃底黑字**、**白底黑字**、**暗****黑底及黃底藍字**。
 
    ![隱藏字幕 露面指導](assets/closed-captions-appearance-instructor.png)
    *選擇字型大小以更改說明文字的大小。*

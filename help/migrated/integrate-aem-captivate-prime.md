@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 將 Adobe Learning Manager 與 AEM 整合
 description: 學習如何整合 Adobe Learning Manager 與 Adobe Experience Manager （AEM）
 contentowner: saghosh
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1008'
 ht-degree: 0%
-
 ---
-
 
 
 # 將學習管理工具整合進 AEM
@@ -34,7 +35,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->關於安裝套件的資訊，請參閱  [***「如何處理套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=zh-Hant#how-to-work-with-packages)」。
+>關於安裝套件的資訊，請參閱  [***「如何處理套件***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages)」。
 
 1. 以 AEM 作者身份，開啟 AEM 套件管理器。
 
@@ -91,7 +92,7 @@ AEM 作者必須先將元件加入 AEM 範本中
 
 AEM 作者就能拖放 Adobe Learning Manager 元件並相應配置。
 
-Learning Manager 元件要求上述步驟建立的設定必須映射到頁面。  作者可以透過編輯頁面屬性>**[!UICONTROL Advanced]**&#x200B;**[!UICONTROL Cloud Configuration]**> **[!UICONTROL Configuration]** 來映射設定，並提供設定路徑。透過這種方式，Author 可以為多個 Learning Manager 帳號建立設定，並將每個帳號對應到不同的網站頁面。 如果設定未映射到頁面，元件會從父頁面反覆讀取該設定，直到找到設定為止。
+Learning Manager 元件要求上述步驟建立的設定必須映射到頁面。  作者可以透過編輯頁面屬性>**[!UICONTROL Advanced]****[!UICONTROL Cloud Configuration]**> **[!UICONTROL Configuration]** 來映射設定，並提供設定路徑。透過這種方式，Author 可以為多個 Learning Manager 帳號建立設定，並將每個帳號對應到不同的網站頁面。 如果設定未映射到頁面，元件會從父頁面反覆讀取該設定，直到找到設定為止。
 
 ## 學習者 {#learner}
 
@@ -122,7 +123,7 @@ Skyline 是 AEM 的雲端版本。 你必須先從套件管理器安裝 Skyline�
 
 ## 部署 Skyline
 
-設定 Skyline 的步驟在 GitHub 倉庫[&#128279;](https://github.com/adobe/captivate-prime-aem-components)中有說明。
+設定 Skyline 的步驟在 GitHub 倉庫](https://github.com/adobe/captivate-prime-aem-components)中有說明[。
 
 ## 目錄小工具
 

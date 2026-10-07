@@ -4,13 +4,14 @@ title: 通知
 description: 通知功能適用於所有 Adobe Learning Manager 使用者。 但每個使用者根據其角色在不同情境下會收到不同類型的通知。
 contentowner: manochan
 exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 0%
-
 ---
-
 # 通知
 
 通知功能適用於所有 Adobe Learning Manager 使用者。 但每個使用者根據其角色在不同情境下會收到不同類型的通知。 所有通知與通知都會透過通知彈出視窗顯示。
@@ -58,7 +59,7 @@ ht-degree: 0%
 
    *選擇「查看課程」選項*
 
-1. 點擊>**[!UICONTROL Instances]**&#x200B;**[!UICONTROL Notification Alerts]**。
+1. 點擊>**[!UICONTROL Instances]****[!UICONTROL Notification Alerts]**。
 
    ![](assets/notification-alert.png)
 

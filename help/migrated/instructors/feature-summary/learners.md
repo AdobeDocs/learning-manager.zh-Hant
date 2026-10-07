@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 管理學習者
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1864'
 ht-degree: 0%
-
 ---
-
 # 管理學習者
 
 閱讀本文了解如何管理與會者、發送課程相關電子郵件及課程提醒。
@@ -123,8 +124,8 @@ QR 碼會以 PDF 格式下載，並可在課程中數位分享或顯示。
 * 學習者需使用行動裝置掃描 QR 碼。
 * Adobe Learning Manager 會驗證學習者和課程內容。
 * 根據 QR 碼類型：
-   * 學習者註冊於課程實例，或
-   * 會議的出席與完成情況會被記錄
+  * 學習者註冊於課程實例，或
+  * 會議的出席與完成情況會被記錄
 
 所有更新都會自動反映在學習者紀錄、成績單及報告中。
 
@@ -147,9 +148,9 @@ QR 碼會以 PDF 格式下載，並可在課程中數位分享或顯示。
 * 當學習者或教師註冊參加教室或虛擬課程時，學習經理會發送行事曆邀請（ICS 檔案）。
 * 行事曆邀請函包括：
 
-   * 會議日期與時間
-   * 場次詳情
-   * **行事曆說明中的直接會議加入連結**
+  * 會議日期與時間
+  * 場次詳情
+  * **行事曆說明中的直接會議加入連結**
 
   ![](assets/calendar-invite-session.png)
 
@@ -211,7 +212,7 @@ QR 碼會以 PDF 格式下載，並可在課程中數位分享或顯示。
 
 ## 捕捉邀請回覆
 
-教師僅 **[!UICONTROL Invite Reply]** 能在 ACAP 管理員啟用邀請選項時擷取學習者的回覆。 要啟用此功能，管理員需聯絡 learningmanagersupport@adobe.com [&#128279;](mailto:learningmanagersupport@adobe.com)的支援團隊。
+教師僅 **[!UICONTROL Invite Reply]** 能在 ACAP 管理員啟用邀請選項時擷取學習者的回覆。 要啟用此功能，管理員需聯絡 learningmanagersupport@adobe.com [](mailto:learningmanagersupport@adobe.com)的支援團隊。
 
 完成後，你可以在該 **[!UICONTROL Learners]** 區塊查看邀請回覆。 進入任一場次，選擇 **[!UICONTROL Learners]**，然後從下拉選單中選擇邀請回覆。
 

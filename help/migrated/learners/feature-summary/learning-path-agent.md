@@ -2,7 +2,10 @@
 description: Adobe Learning Manager 中的 Learning Path 代理是一個由 AI 驅動的助理，會根據你的目標、背景和可用時間，自動生成客製化且有序的學習計畫。
 jcr-language: en_us
 title: Adobe Learning Manager 中的學習路徑代理（測試版）
-source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2201'
 ht-degree: 0%

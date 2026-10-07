@@ -3,13 +3,14 @@ description: 學習如何在 Adobe Learning Manager 中建立和管理使用者�
 jcr-language: en_us
 title: 在 Adobe Learning Manager 管理使用者群組 |組織並指派學習者
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 中的使用者群組
 
 Adobe Learning Manager 中的使用者群組能幫助你根據共通屬性（如部門、地點或角色）組織學習者。 將使用者分組讓分配課程、管理權限以及同時追蹤多位使用者的學習進度變得更容易。
@@ -184,7 +185,7 @@ _使用者群組報告包含所有欄位_
 
 ## 建立自訂使用者群組的包含與排除規則
 
-當透過新增自動產生或現有的使用者群組建立&#x200B;**自訂使用者群組**&#x200B;時，Adobe Learning Manager 會根據 AND/OR 邏輯&#x200B;**套用特定的**&#x200B;包含與排除規則&#x200B;**&#x200B;**。這些規則取決於包含與排除集合中使用者群組的組合方式。
+當透過新增自動產生或現有的使用者群組建立&#x200B;**自訂使用者群組**&#x200B;時，Adobe Learning Manager 會根據 AND/OR 邏輯&#x200B;**套用特定的**&#x200B;包含與排除規則&#x200B;****。這些規則取決於包含與排除集合中使用者群組的組合方式。
 
 你可以將一個或多個自動產生的使用者群組加入包含集。 所採用的邏輯取決於你如何選擇這些群組：
 

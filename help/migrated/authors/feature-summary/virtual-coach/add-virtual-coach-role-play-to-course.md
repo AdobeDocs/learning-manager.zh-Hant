@@ -3,7 +3,10 @@ description: 學習如何將虛擬教練角色扮演作為工作輔助發布，�
 jcr-language: en_us
 title: 在課程中新增虛擬教練角色扮演
 exl-id: c33ec5e4-0e96-4452-ada7-d48f9c71a123
-source-git-commit: 8bde6827835a7f8cd8cc28f3d2c4014527e4a96c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%
@@ -71,7 +74,7 @@ ht-degree: 0%
 
 - **新進員工入職與升級**&#x200B;階段，角色扮演會跟隨入職內容，確認新進員工已準備好進行首次即時對話。
 - **銷售認證與強化**，角色扮演是銷售賦能課程結束時的認證檢查點。
-- **產品上市準備**，角色扮演在發表訓練後進行，確認業務代表能在產品上市前定位產品——例如虛擬教練[&#128279;](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)中描述的產品上市準備情境，代表必須在多角色採購委員會中調整推銷方案。
+- **產品上市準備**，角色扮演在發表訓練後進行，確認業務代表能在產品上市前定位產品——例如虛擬教練](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)中描述[的產品上市準備情境，代表必須在多角色採購委員會中調整推銷方案。
 - **領導與經理教練**，角色扮演遵循管理技能課程，並在真正的績效對話前進行。
 - **合作夥伴準備計畫**，角色扮演確認外部合作夥伴能在認證前正確代表你的產品。
 - **變革管理與溝通訓練**，角色扮演在員工完成相關內容後強化新流程或重組訊息。

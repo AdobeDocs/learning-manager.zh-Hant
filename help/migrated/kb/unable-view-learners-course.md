@@ -4,7 +4,10 @@ title: 無法查看課程中的學習者
 description: 課程的學習者標籤不會顯示任何已註冊於 Adobe Learning Manager 的學習者。 不過，如果你產生報告，可以在報告中查看已註冊的學習者。
 contentowner: saghosh
 exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%

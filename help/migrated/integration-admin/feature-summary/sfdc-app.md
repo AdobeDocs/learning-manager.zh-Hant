@@ -4,13 +4,14 @@ title: Salesforce 學習管理應用程式
 description: Salesforce 是銷售與行銷團隊中最受歡迎的 CRM 解決方案之一。 在 Salesforce 上使用 Adobe Learning Manager 應用程式，你可以讓使用者直接從 Salesforce 介面存取所有學習內容。 使用者可以在 Salesforce 內部存取他們分配的學習內容，如課程、學習計畫、工作輔助工具等。 使用者也能收到管理員提供的註冊通知及公告。
 contentowner: jayakarr
 exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 0%
-
 ---
-
 # Salesforce 學習管理應用程式
 
 ## 概觀 {#overview}

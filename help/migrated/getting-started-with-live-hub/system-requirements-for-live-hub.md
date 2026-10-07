@@ -1,13 +1,14 @@
 ---
 title: Live Hub 的系統需求
 description: 在 Adobe Learning Manager 中設定及執行 Live Hub 會話的系統需求，包括支援的瀏覽器、作業系統、螢幕解析度及硬體。
-source-git-commit: 577448e876bc7ba56c6191705c7c894fc5991770
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 0%
-
 ---
-
 
 # 系統需求
 

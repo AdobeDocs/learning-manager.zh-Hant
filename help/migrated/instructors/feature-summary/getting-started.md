@@ -1,36 +1,37 @@
 ---
-description: 閱讀本文以瞭解如何開始使用Learning Manager的講師。
+description: 閱讀本文，了解如何開始成為學習管理的講師。
 jcr-language: en_us
-title: Learning Manager講師入門
+title: 開始擔任學習管理講師
 exl-id: d0540886-3e0d-4a88-8f4e-040dd8a6bde0
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 0%
-
 ---
+# 開始擔任學習管理講師
 
-# Learning Manager講師入門
+閱讀本文，了解如何開始成為學習管理的講師。
 
-閱讀本文以瞭解如何開始使用Learning Manager的講師。
+## 以講師身份登入 {#loginasaninstructor}
 
-## 以講師身分登入 {#loginasaninstructor}
+當作者將你加為課程模組的講師時，你會收到一封電子郵件寄到你註冊的電子郵件。 電子郵件中包含一個教師應用程式的連結。 點擊連結前往學習管理員的登入頁面。
 
-當作者將您新增為課程模組的講師時，您會收到註冊電子郵件中的電子郵件。 電子郵件包含指向講師應用程式的連結。 按一下連結，前往Learning Manager登入頁面。
+1. 登入學習管理員。
 
-1. 登入Learning Manager。
-
-   畫面會顯示「講師應用程式首頁」。 您可以檢視近期工作階段的詳細資料。
+   螢幕顯示教官應用程式首頁。 您可以查看即將進行的課程詳情。
 
    ![](assets/instructor-upcomingsession.png)
 
-   *檢視講師應用程式首頁*
+   *查看講師應用程式首頁*
 
-管理員新增課程執行個體的工作階段資料時，也可以將使用者作為作者新增至模組。
+管理員也可以在新增課程實例的會話資料時，將使用者新增為模組的作者。
 
-## 以講師身分管理模組 {#managingmodulesasaninstructor}
+## 作為講師管理模組 {#managingmodulesasaninstructor}
 
-請參閱下圖，瞭解Learning Manager的講師工作流程：
+請參考下圖以了解學習管理工具中的講師工作流程：
 
 ![](assets/instructor.jpg)
 

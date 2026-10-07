@@ -2,13 +2,14 @@
 description: 學習如何在內容撰寫者課程中新增頁首與頁尾、上傳標誌、啟用切換功能，以及在畫布中即時預覽主題變更。
 jcr-language: en_us
 title: 新增頁首和頁尾
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
-
 ---
-
 
 # 新增頁首和頁尾
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 1. 從工具列選擇 **主題** ，然後將滑鼠移到套用主題上，選擇 **編輯**。
 
 2. 開啟 **新增標題** 切換，即可在課程中新增標題。
-   ![&#x200B; 新增標題和新增頁尾的切換功能，在編輯主題面板中](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![ 新增標題和新增頁尾的切換功能，在編輯主題面板中](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. 在「標誌」**中**，選擇&#x200B;**「新增**」以上傳標頭的標誌。
 

@@ -3,13 +3,14 @@ description: Adobe Learning Manager 中的 Box 連接器
 jcr-language: en_us
 title: 盒式連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Box 連接器
 
@@ -30,7 +31,7 @@ ht-degree: 0%
 要在 Adobe Learning Manager 中設定 Box 連接器：
 
 1. 以整合管理員身份登入 Adobe Learning Manager。
-2. 將滑鼠移到 **盒子** 格子上。
+2. 將滑鼠移到盒子&#x200B;**格**&#x200B;子上。
 3. 選擇 **「連接**」。
 
    ![](assets/box-connector1.png)
@@ -75,7 +76,7 @@ ht-degree: 0%
 3. 在 **地圖屬性** 頁面：
    - 左側顯示 Adobe Learning Manager 的必填欄位。
    - 右側顯示 CSV 欄位名稱。 一開始，這一側會顯示空白的下拉選單。
-   - 選擇 **選擇 CSV** 以上傳範例 CSV 檔案。 這會顯示右側下拉選單，顯示你 CSV 的欄位名稱。 請參閱 [這篇文章](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/migration-manual#csv) 取得範例CSV。
+   - 選擇 **選擇 CSV** 以上傳範例 CSV 檔案。 這會顯示右側下拉選單，顯示你 CSV 的欄位名稱。 請參閱 [這篇文章](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv) 取得範例CSV。
    - 將每個 Adobe Learning Manager 欄位與對應的 CSV 欄位對應。
 
    ![](assets/box-connector2.png)
@@ -122,7 +123,7 @@ _新增篩選器（可選）_
    _篩選器建立對話框，顯示名稱與條件欄位_
 
 4. 選擇 **新增過濾器** 以新增更多過濾器。
-5. 在「動作」欄位下選擇&#x200B;**「儲存**&#x200B;或&#x200B;**刪除**」。**&#x200B;**
+5. 在「動作」欄位下選擇&#x200B;**「儲存**&#x200B;或&#x200B;**刪除**」。****
 6. 新增篩選條件後，選擇 **儲存**。
 
 ## 排程匯入
@@ -174,6 +175,6 @@ _新增篩選器（可選）_
    - **持續時間：** 處理所需總時間
    - **進口類型：** 進口是排程還是按需進行
    - **目前狀態：** 即時狀態資訊
-      - **進行中：** 目前正在進行的匯入
-      - **完成：** 成功完成並有紀錄計數
-      - **失敗：** 診斷資訊發生錯誤
+     - **進行中：** 目前正在進行的匯入
+     - **完成：** 成功完成並有紀錄計數
+     - **失敗：** 診斷資訊發生錯誤

@@ -1,13 +1,14 @@
 ---
 title: 以講師身份參加 Live Hub（測試版）課程
 description: 了解講師如何在預定開始時間前加入 Live Hub 課程，準備教室並在學習者抵達前設定好。
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 0%
-
 ---
-
 
 # 以講師身份參加 Live Hub（測試版）課程
 

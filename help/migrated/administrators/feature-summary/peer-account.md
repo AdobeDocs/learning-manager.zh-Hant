@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 同儕帳號
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '886'
 ht-degree: 0%
-
 ---
-
 # 同儕帳號
 
 閱讀本文了解如何在學習管理員中建立和管理同儕帳號。
@@ -110,8 +111,8 @@ Adobe Learning Manager 顯示 **透過同儕帳號分享或取得的課程原作
 
 * 當課程從同儕帳號分享時，Learning Manager 現在會解析並顯示 **來源帳號的實際作者名稱** 。
 * 這種行為適用於：
-   * 新共享課程
-   * 在這項強化導入前已修習的課程
+  * 新共享課程
+  * 在這項強化導入前已修習的課程
 
 ### 事後行為
 

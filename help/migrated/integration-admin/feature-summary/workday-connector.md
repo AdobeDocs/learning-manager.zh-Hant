@@ -3,13 +3,14 @@ description: 學習如何將 Workday 連接器與 Adobe Learning Manager 整合
 jcr-language: en_us
 title: Workday 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Workday 連接器
 
@@ -17,7 +18,7 @@ ht-degree: 0%
 
 **Workday** 是一個雲端系統，協助組織管理員工與財務資料。 它主要用於人力資源工作，如招聘、薪資和績效追蹤。 連接 Adobe Learning Manager 後，能自動同步兩個平台間的使用者與技能資料。
 
-Workday 連接器讓您能無縫整合 Adobe Learning Manager 與您組織的 Workday 租戶。 此整合使使用者資料與技能能在兩個系統間自動同步，提升資料準確性並減少人工工作量。
+Workday Connector 讓您能無縫整合 Adobe Learning Manager 與組織的 Workday 租戶。 此整合使使用者資料與技能能在兩個系統間自動同步，提升資料準確性並減少人工工作量。
 
 ## 主要優點
 

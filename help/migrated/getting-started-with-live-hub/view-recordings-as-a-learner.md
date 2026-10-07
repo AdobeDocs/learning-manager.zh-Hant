@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 中以學習者身份觀看課程錄影
 description: 學習者如何存取 Live Hub 課程錄影、使用播放控制、導航 AI 生成主題，以及查看時間戳記的逐字稿。
-source-git-commit: a674dd6e6ce34adbb7b756e151f6a0dc0437dc94
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 0%
-
 ---
-
 
 # 以學習者身份觀看課程錄影
 
@@ -25,7 +26,7 @@ Live Hub 課程結束後，課程頁面會提供錄影。 作為學習者，你�
 
 1. 打開課程頁面。
 
-1. 選擇模組&#x200B;**&#x200B;**&#x200B;標籤。課程詳情頁面會出現。
+1. 選擇模組&#x200B;****&#x200B;標籤。課程詳情頁面會出現。
 
    ![錄音課程頁面](../getting-started-with-live-hub/assets/session-recordings-course-page-learners.png)
    *課程錄音可在課程頁面*&#x200B;上。
@@ -52,7 +53,7 @@ Live Hub 課程結束後，課程頁面會提供錄影。 作為學習者，你�
 
 AI 生成的主題讓你更容易檢視錄影，因為它會標示關鍵討論區域，並讓你能直接跳到相關章節。
 
-對於三十&#x200B;**&#x200B;**&#x200B;分鐘以上的錄影，Live Hub 會自動產生 AI 主題，將場次劃分為有意義的段落。
+對於三十&#x200B;****&#x200B;分鐘以上的錄影，Live Hub 會自動產生 AI 主題，將場次劃分為有意義的段落。
 
 >[!NOTE]
 >

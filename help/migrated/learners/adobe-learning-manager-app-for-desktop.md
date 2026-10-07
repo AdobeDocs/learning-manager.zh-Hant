@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager 桌面應用程式
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 桌面應用程式
 
 學習如何使用 Adobe Learning Manager 的桌面應用程式來創作並豐富可在 Social Learning 分享的內容。
@@ -45,12 +46,12 @@ Adobe Learning Manager 桌面應用程式主要針對使用 Learning Manager Soc
 1. 要從 Social Learning 開始錄影，請選擇影片錄影（網頁、螢幕、兩者）圖示，這會開啟 Learning Manager 桌面應用程式。 在桌面應用程式中，使用者登入後可以建立內容，然後發布。
 1. 要從桌面應用程式開始錄音，請以學習者身份使用你的學習管理員憑證登入該應用程式。
 1. 首頁會出現。
-1. 要建立文章，你可以在首頁提供的三個選項中選擇其中一個。 要啟動錄影視窗，請點擊「錄影」圖示。
+1. 要建立文章，你可以選擇首頁提供的三個選項之一。 要啟動錄影視窗，請點擊「錄影」圖示。
 1. 依需求，你可以選擇網路攝影機、螢幕或兩者兼具。
 
    **網路攝影機** 網路攝影機捕捉敘述者示範或展示專案或應用程式（包括音訊）的畫面。 從上述選項中選擇網路攝影機圖示，即時視窗就會顯示。
 
-   **&#x200B;**&#x200B;螢幕錄影操作在螢幕上執行。選擇螢幕圖示後，畫面中央會顯示錄影對話框。
+   ****&#x200B;螢幕錄影操作在螢幕上執行。選擇螢幕圖示後，畫面中央會顯示錄影對話框。
 
    **兩者** 同時記錄旁白與螢幕上的動作。 選擇最後一個圖示後，畫面會被高亮，使用者也會看到一個即時視窗。
 
@@ -111,10 +112,10 @@ Adobe Learning Manager 桌面應用程式主要針對使用 Learning Manager Soc
 >
 >對於影片，使用者只能在螢幕上方註解。
 
-* 可選擇的不同註解包括&#x200B;**橢圓**、**直線**、**箭頭**、**螢光**&#x200B;**和文字**。
+* 可選擇的不同註解包括&#x200B;**橢圓**、**直線**、**箭頭**、**螢光****和文字**。
 
 * 在註解屬性面板的顏色面板中，為每個註解選擇一種顏色。
-* 文字設定&#x200B;**&#x200B;**，請選擇以下屬性：字體、粗體、斜體、標題、對齊、顏色和背景色。
+* 文字設定&#x200B;****，請選擇以下屬性：字體、粗體、斜體、標題、對齊、顏色和背景色。
 
 >[!NOTE]
 >
@@ -126,7 +127,7 @@ Adobe Learning Manager 桌面應用程式主要針對使用 Learning Manager Soc
 
 要修剪，請點擊 **[!UICONTROL Start Trim]** 按鈕或點擊時間軸上的加號圖示開始修剪。 然後點擊播放器上的暫停鍵停止修剪。 點擊按鈕 **[!UICONTROL Confirm]** 完成修剪。
 
-啟用後&#x200B;**[!UICONTROL Change Timing]**，可在輸入欄位輸入時間&#x200B;**[!UICONTROL Start time]**&#x200B;**[!UICONTROL End time]**&#x200B;來修剪錄影。
+啟用後&#x200B;**[!UICONTROL Change Timing]**，可在輸入欄位輸入時間&#x200B;**[!UICONTROL Start time]****[!UICONTROL End time]**&#x200B;來修剪錄影。
 
 ![](assets/start-trim-05.png)
 *開始修剪*
@@ -148,7 +149,7 @@ Adobe Learning Manager 桌面應用程式主要針對使用 Learning Manager Soc
 要為影片加入品牌或主題，請執行以下步驟：
 
 1. 在編輯視窗左側導覽面板點擊品牌圖示。
-1. 從給定選項中選擇&#x200B;**主題**，或使用者可自訂&#x200B;**系統的開頭**、**背景**&#x200B;**和結尾**&#x200B;影片。
+1. 從給定選項中選擇&#x200B;**主題**，或使用者可自訂&#x200B;**系統的開頭**、**背景****和結尾**&#x200B;影片。
 
    >[!NOTE]
    >
@@ -199,7 +200,7 @@ Adobe Learning Manager 桌面應用程式主要針對使用 Learning Manager Soc
 
 無論學習者是否登入 Learning Manager 網頁應用程式，通知視窗都會顯示通知。 通知包括用戶已創建、追蹤或參與的貼文或討論區。 點擊通知後，使用者會進入學習管理員社交學習網頁。
 
-要靜音通知，請點擊 * >*[!UICONTROL Profile menu*]* **&#x200B; >[!UICONTROL Settings]**&#x200B;[!UICONTROL Mute notifications]**。
+要靜音通知，請點擊 * >*[!UICONTROL Profile menu*]* ** >[!UICONTROL Settings]**[!UICONTROL Mute notifications]**。
 
 ## Adobe Learning Manager 桌面應用程式的設定 {#settingsinadobecaptivateprimedesktopapplication}
 

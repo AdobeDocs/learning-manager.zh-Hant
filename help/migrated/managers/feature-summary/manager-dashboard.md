@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 經理儀表板
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 0%
-
 ---
-
 # 經理儀表板
 
 學習如何從經理儀表板查看與追蹤學習成果。
@@ -61,7 +62,7 @@ ht-degree: 0%
 
 *查看課程與學習摘要*
 
-進一步點擊每項學習的註冊次數、進度或完成次數，您可以查看以下細節：人員、註冊/完成日期、截止日期及進度。
+進一步點擊每項學習的註冊數、進度或完成次數，您可以查看以下細節：人員、註冊/完成日期、截止日期及進度。
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
@@ -106,7 +107,7 @@ _Compliance dashboard-Manager 應用程式_
 
 **管理多支團隊**
 
-如果您管理多個團隊，您可以透過區塊中選項&#x200B;**[!UICONTROL Email Managers]**&#x200B;**[!UICONTROL Team view]**&#x200B;通知經理團隊成員的學習狀態。
+如果您管理多個團隊，您可以透過區塊中選項&#x200B;**[!UICONTROL Email Managers]****[!UICONTROL Team view]**&#x200B;通知經理團隊成員的學習狀態。
 
 ![](assets/email-managers.png)
 _電子郵件管理員_
@@ -118,7 +119,7 @@ _電子郵件管理員_
 
 **管理單一球隊**
 
-如果您管理單一團隊，您可以透過區塊中提供的&#x200B;**[!UICONTROL Email Learners]**&#x200B;**[!UICONTROL Team view]**&#x200B;選項通知學習者他們的學習狀態。
+如果您管理單一團隊，您可以透過區塊中提供的&#x200B;**[!UICONTROL Email Learners]****[!UICONTROL Team view]**&#x200B;選項通知學習者他們的學習狀態。
 
 ![](assets/email-learners.png)
 _電子郵件學習者_
@@ -234,7 +235,7 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
    *選擇「配置」超連結*
 
-1. 在「設定」對話框中，針對你想設定的技能，在目標完成百分比&#x200B;**欄位輸入百分比**&#x200B;值，目標日期&#x200B;**欄位輸入你想達成目標完成百分比**&#x200B;的日期。**&#x200B;**
+1. 在「設定」對話框中，針對你想設定的技能，在目標完成百分比&#x200B;**欄位輸入百分比**&#x200B;值，目標日期&#x200B;**欄位輸入你想達成目標完成百分比**&#x200B;的日期。****
 
    ![](assets/configure-tracker.png)
 
