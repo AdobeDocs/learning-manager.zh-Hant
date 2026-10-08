@@ -4,13 +4,14 @@ title: iPad 與 Android 平板用戶
 description: iPad 與 Android 平板用戶設定
 contentowner: manochan
 exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
-
 ---
-
 # iPad 與 Android 平板用戶
 
 在 iPad 或 Google Nexus 9 Android 平板的學習管理應用程式中，登入學習者後，你可以看到以下 **首頁** 畫面：

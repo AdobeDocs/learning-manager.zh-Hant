@@ -2,13 +2,14 @@
 description: ALM 中的 API 變更
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 8 月版本的 API 變更
-source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3357'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 2026 年 8 月版本的 API 變更
 

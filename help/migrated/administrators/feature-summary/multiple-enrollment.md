@@ -2,13 +2,14 @@
 title: Adobe Learning Manager 的多次註冊
 description: 作為帳戶管理員，您的主要職責之一是跨時區建立不同的 VILT 會話實例，並可能為特定使用者群組建立會話。
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 的多次註冊
 
 在 Adobe Learning Manager 中，每門課程可以有不同的實例。 作為帳戶管理員，您的主要職責之一是跨時區建立不同的 VILT 會話實例，並可能為特定使用者群組建立會話。

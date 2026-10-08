@@ -3,7 +3,10 @@ description: 學習如何將虛擬教練角色扮演作為工作輔助發布，�
 jcr-language: en_us
 title: 在課程中新增虛擬教練角色扮演
 exl-id: c33ec5e4-0e96-4452-ada7-d48f9c71a123
-source-git-commit: 8bde6827835a7f8cd8cc28f3d2c4014527e4a96c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 0%

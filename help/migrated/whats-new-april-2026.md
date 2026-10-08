@@ -3,13 +3,14 @@ description: 在 2026 年 4 月版本的 Adobe Learning Manager 中，了解新�
 jcr-language: en_us
 title: Adobe Learning Manager 2026 年 4 月發布的新內容
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 87edde0d142a151322869fd967a8b17d9871fdc2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 2026 年 4 月發布的新內容
 
 **給學習者：** 流體玩家現在會顯示下一個模組名稱和一個清晰的退出按鈕。

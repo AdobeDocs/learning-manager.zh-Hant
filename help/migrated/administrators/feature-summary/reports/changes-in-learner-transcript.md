@@ -3,13 +3,14 @@ description: 了解學習者成績單
 jcr-language: en_us
 title: 學習者成績單變更
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # 四月發布中學習者成績單的變更
 
 ## 補全方法欄位
@@ -24,7 +25,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此欄在學習者的LT中無法顯示;它僅在行政LT中提供，用於報告和追蹤。
+>此欄位在學員的LT中無法顯示;它僅在行政LT中用於報告與追蹤。
 
 **影響**：讓管理者能有清晰的稽核追蹤、合規追蹤，以及課程完成過程的透明度。
 

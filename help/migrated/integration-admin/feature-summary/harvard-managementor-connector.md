@@ -3,13 +3,14 @@ description: 學習如何將 Harvard ManageMentor 與 Adobe Learning Manager 整
 jcr-language: en_us
 title: 哈佛 ManageMentor 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '737'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Harvard ManageMentor 連接器
 
@@ -144,5 +145,5 @@ ht-degree: 0%
 
 **範例檔案**
 
-- [哈佛 ManageMentor 連接器的課程元資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=zh-Hant)
-- [哈佛 ManageMentor 連接器的使用者資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=zh-Hant)
+- [哈佛 ManageMentor 連接器的課程元資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
+- [哈佛 ManageMentor 連接器的使用者資料檔案](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)

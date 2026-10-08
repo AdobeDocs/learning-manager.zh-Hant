@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 新功能摘要
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 0%
-
 ---
-
 # 新功能摘要 {#new-features-summary}
 
 了解 2024 年 3 月版本 Adobe Learning Manager 中的新功能與增強功能。
@@ -60,7 +61,7 @@ ht-degree: 0%
 
 #### 內部使用者
 
-例如，若用戶數超過 50,000 人，系統會提示下載資料以便日後進行更詳細分析。 搜尋欄現在變得顯眼，並以以下格式 *顯示使用者，格式為 姓名、電子郵件 |UUID*。
+例如，若用戶數超過 50,000 人，系統會提示下載資料以便日後進行更詳細分析。 搜尋欄現在顯眼，並以以下格式 *顯示使用者：姓名、電子郵件 |UUID*。
 
 >[!NOTE]
 >
@@ -68,7 +69,7 @@ ht-degree: 0%
 
 #### 外部使用者
 
-對外部使用者來說，行為同樣適用。 若使用者數量眾多，您可以下載使用者資料，並透過搜尋 *格式取得使用者資料，格式為 Name， email |UUID*。
+對外部使用者來說，行為同樣適用。 如果使用者數量眾多，你可以下載使用者資料，並透過格式搜尋後取得使用者資料，格式為 *Name， email |UUID*。
 
 #### 使用者清理頁面
 
@@ -133,7 +134,7 @@ ht-degree: 0%
             </ul>
             <td>
                 <ul>
-                    <li>若報名人數超過預設門檻，ALM 將不會顯示報名人數;它會將計數換成一個圖示，點擊後會顯示實際學習人數及連結，帶你前往學習者頁面。</li>
+                    <li>若註冊人數超過預設門檻，ALM 不會顯示人數;它會以圖示取代計數，點擊後會顯示實際學習人數及導向學習者頁面的連結。</li>
                     <li>報名人數將以大致格式顯示。 例如，若數值超過50,000，則在賽道層級會顯示為50K+。</li>
                 </ul>
             </td>
@@ -175,7 +176,7 @@ ht-degree: 0%
             <td>
                 <ul>
                     <li>搜尋使用者時，會關閉實例選擇功能。</li>
-                    <li>如果用戶數超過 50,000 人，會有額外訊息要求下載資料以便日後進行更詳細分析。 搜尋欄現在變得顯眼，並以以下格式顯示使用者，格式為 姓名、電子郵件 |UUID。</li>
+                    <li>如果用戶數超過 50,000 人，會有額外訊息要求下載資料以便日後進行更詳細分析。 搜尋欄現在變得顯眼，並以以下格式顯示使用者，姓名、電子郵件 |UUID。</li>
                     <li>如果使用者群組的使用者數量少於 10,000，無論是否註冊，你可以同時執行個別的使用者層級操作以及批量層級的操作。 在這種情況下，使用者列表並未被停用。</li>
                 </ul>
             </td>
@@ -202,7 +203,7 @@ ht-degree: 0%
             </td>
             <td>
                 <ul>
-                    <li>如果用戶數超過例如 50,000 人，則會額外提示，要求下載資料以便日後進行更詳細的分析。 搜尋欄現在變得顯眼，並以以下格式顯示使用者，格式為 姓名、電子郵件 |UUID。</li>
+                    <li>如果用戶數超過例如 50,000 人，則會額外提示，要求下載資料以便日後進行更詳細的分析。 搜尋欄現在變得顯眼，並以以下格式顯示使用者，姓名、電子郵件 |UUID。</li>
                     <li>在用戶清理頁面，針對已刪除使用者，我們移除了「刪除日期」的排序功能。 你只能在 UUID 上排序。</li>
                 </ul>
             </td>
@@ -265,7 +266,9 @@ ht-degree: 0%
 
 * 訓練報告中的標籤與技能欄位改為標籤與技能。
 * 新增了遊戲化審計追蹤[&#128279;](administrators/feature-summary/reports.md#gamification-audit-trail)報告。
-* 若帳號包含超過 280,000 名被分配到某項技能的學習者，則技能學習者報告會以壓縮 CSV 格式下載。如果帳號學習者少於 250,000 人，該報告會被下載為 CSV。在管理員頁面，選擇&#x200B;**管理員**>**技能**> **&#x200B;**&#x200B;技能>**學習者**。報告會以 CSV 格式下載。
+* 若帳號包含超過 280,000 名被分配到某項技能的學習者，則技能學習者報告會以壓縮 CSV 格式下載。
+如果帳號學習者少於 250,000 人，該報告會被下載為 CSV。
+在管理員頁面，選擇&#x200B;**管理員**>**技能**> **&#x200B;**&#x200B;技能>**學習者**。報告會以 CSV 格式下載。
 * [會議摘要報告](administrators/feature-summary/reports.md#session-summary-report)新增兩個欄位——地點資訊與地點區域。
 
 ## 教室設置的變革
@@ -280,7 +283,8 @@ ht-degree: 0%
 
 ## 彈性學習路徑的變更
 
-所有新舊帳號都會在學習者應用程式中開始包含「註冊截止日」、「退選截止日期」及「名額限制」，以提供彈性學習路徑。學習者現在可以註冊彈性學習路徑，而無需選擇任何課程實例。
+所有新舊帳號都會在學習者應用程式中開始包含「註冊截止日」、「退選截止日期」及「名額限制」，以提供彈性學習路徑。
+學習者現在可以註冊彈性學習路徑，而無需選擇任何課程實例。
 
 ## 學習計畫的新觸發器
 
@@ -338,9 +342,9 @@ ht-degree: 0%
 在 2024 年 3 月發布的 Adobe Learning Manager 中，以下是新的變更：
 
 * 課程詳情已更新及課程邀請（針對學習者與講師）
-   * 未來課程中，課程詳情更新&#x200B;**、**&#x200B;已註冊學習者及現有講師的課程邀請&#x200B;**電子郵件**&#x200B;將被取消。過去的課程，已更新&#x200B;**的課程詳情及**&#x200B;已註冊學習者與現任講師的課程邀請&#x200B;**電郵**&#x200B;將維持原狀。
+  * 未來課程中，課程詳情更新&#x200B;**、**&#x200B;已註冊學習者及現有講師的課程邀請&#x200B;**電子郵件**&#x200B;將被取消。過去的課程，已更新&#x200B;**的課程詳情及**&#x200B;已註冊學習者與現任講師的課程邀請&#x200B;**電郵**&#x200B;將維持原狀。
 * 提醒郵件（給管理員與學習者）
-   * 未來的課程將僅 **發送會議提醒** 郵件。
+  * 未來的課程將僅 **發送會議提醒** 郵件。
 
 >[!NOTE]
 >
@@ -368,7 +372,8 @@ ht-degree: 0%
 * 三天後再提醒我一次
 * 一週後再提醒我一次
 
-在 Android 上：點擊推播通知會導向 **課程概覽** 頁面。在 iOS 上：點擊推播通知會導向應用程式的首頁。 這是 iOS 已知的限制。
+在 Android 上：點擊推播通知會導向 **課程概覽** 頁面。
+在 iOS 上：點擊推播通知會導向應用程式的首頁。 這是 iOS 已知的限制。
 
 ### Salesforce 學習器應用程式的檢查清單變更
 
@@ -451,8 +456,8 @@ learningObjectResource 新增了一個屬性 isExpiredSubmission，用來顯示�
 
 * GET /account API：回傳新屬性 **expireSubmissionDuration** X，其中 X 是設定的天數。 若未設定，則返回 0
 * GET /LO API 與資源包含新屬性 **isExpiredSubmission**」，真或假。
-   * 沒錯，如果投稿已過期且沒有顯示「submissionUrl」。
-   * 若為 False，則該提交尚未過期，並會取得「submissionUrl」。
+  * 沒錯，如果投稿已過期且沒有顯示「submissionUrl」。
+  * 若為 False，則該提交尚未過期，並會取得「submissionUrl」。
 
 ### 檢查清單中的 API 變更
 
@@ -485,27 +490,27 @@ learningObjectResource 新增了一個屬性 isExpiredSubmission，用來顯示�
 以下路徑已被棄用：
 
 * /learningObjects
-   * 已棄用路徑：
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * 現有路徑：
-      * enrollment.loInstance
-      * instances.loResources
+  * 已棄用路徑：
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * 現有路徑：
+    * enrollment.loInstance
+    * instances.loResources
 * /learningObjects/{id}
-   * 已棄用路徑：
-      * enrollment.instances.subLoInstances.learningObject
-   * 現有路徑：
-      * enrollment.instances.subLoInstances
+  * 已棄用路徑：
+    * enrollment.instances.subLoInstances.learningObject
+  * 現有路徑：
+    * enrollment.instances.subLoInstances
 * /註冊人數
-   * 已棄用路徑：
-      * loInstance.learningObject.enrollment
-   * 新路線：
-      * loInstance.learningObject
+  * 已棄用路徑：
+    * loInstance.learningObject.enrollment
+  * 新路線：
+    * loInstance.learningObject
 * /learningObjects/{id}
-   * 已棄用路徑：
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * 新路線：
-      * instance.subLoInstances
+  * 已棄用路徑：
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * 新路線：
+    * instance.subLoInstances
 
 ### 登入存取與使用者稽核報告 工作 API 的檔案變更
 

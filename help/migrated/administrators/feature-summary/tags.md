@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 標記
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 0%
-
 ---
-
 # 標記
 
 管理員現在可以在 Learning Manager 中管理標籤。 使用更好的標籤與易於管理的資料庫，幫助學習者更有效地搜尋並快速找到合適的搜尋結果。 你可以利用這個功能管理冗餘、拼寫錯誤或無關標籤。 你也可以新增、編輯、刪除、附加或替換標籤。

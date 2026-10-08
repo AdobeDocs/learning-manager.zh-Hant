@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 中分享你的螢幕，成為學習者
 description: 了解學習者如何在 Live Hub 課程中，當講師允許時，查看共享內容並分享自己的螢幕。
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
-
 ---
-
 
 # 以學習者的身份分享你的螢幕
 

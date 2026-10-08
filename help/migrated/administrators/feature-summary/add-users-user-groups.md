@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 在 Adobe Learning Manager 新增使用者
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 0%
-
 ---
-
 
 # 在 Adobe Learning Manager 新增使用者
 
@@ -57,7 +58,8 @@ Adobe Learning Manager 的使用者可依據分配角色承擔不同職責並管
    ![](assets/add-a-user-prompt.png)
    _輸入新使用者姓名、電子郵件、唯一識別碼及個人資料欄位_
 5. 搜尋使用者的管理員，並從管理員列表中選擇該名稱。
-6. 選擇 **新增**。使用者會收到一封包含登入網址的歡迎電子郵件。
+6. 選擇 **新增**。
+使用者會收到一封包含登入網址的歡迎電子郵件。
 
 
 ### 允許內部使用者自行註冊

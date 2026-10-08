@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 學習工具互通性（LTI）
 description: 了解LTI整合ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 0%
-
 ---
-
 # LTI 整合
 
 ## 什麼是長期性情（LTI）？
@@ -120,7 +121,8 @@ LTI 工具允許您將訓練目錄中導出為可下載的學習內容套件，�
 
 ## Adobe Learning Manager 作為 LTI 消費者 - 管理工作流程
 
-作為 LTI 消費者，Adobe Learning Manager 允許你使用外部 LTI 供應商的活動、工具、內容與小工具。要將 Adobe Learning Manager 新增為 LTI 使用者，您需要從外部 LTI 提供者提供以下憑證：
+作為 LTI 消費者，Adobe Learning Manager 允許你使用外部 LTI 供應商的活動、工具、內容與小工具。
+要將 Adobe Learning Manager 新增為 LTI 使用者，您需要從外部 LTI 提供者提供以下憑證：
 
 * 啟動登入網址
 * 目標連結網址
@@ -164,7 +166,8 @@ LTI 提供者會提供啟動連結或 IMSCC 檔案，讓你將其課程加入 Ad
 4. 輸入 **[!UICONTROL Launch Link]** LTI **[!UICONTROL Custom Parameters]** 提供者的 和 。
 5. 從&#x200B;**[!UICONTROL Tool Provider]**&#x200B;下拉選單選擇你的[!UICONTROL LTI provider]。
 6. 搜尋並在選項中&#x200B;**[!UICONTROL Add to Folder]**&#x200B;選擇。**[!UICONTROL Public]**&#x200B;這讓所有作者都能修讀這些課程。
-7. 選擇 **[!UICONTROL Save]**。內容建立完成後，你可以在課程創建時加入這些內容。
+7. 選擇 **[!UICONTROL Save]**。
+內容建立完成後，你可以在課程創建時加入這些內容。
 
 ### 建立包含 LTI 內容的課程 - 作者工作流程
 

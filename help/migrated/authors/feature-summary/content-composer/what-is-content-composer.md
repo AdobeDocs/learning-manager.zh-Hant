@@ -2,13 +2,14 @@
 description: Adobe Learning Manager 內容撰寫器是一款 AI 課程創作工具，能將一個簡單的語言提示轉化為結構化、準備發佈的課程，包含課程、評量與媒體內容，無需先前的教學設計經驗。
 jcr-language: en_us
 title: 什麼是內容撰寫者
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
-
 ---
-
 
 # 什麼是 Adobe Learning Manager 內容撰寫器
 

@@ -2,13 +2,14 @@
 description: 學習如何在 Content Composer 中新增內容區塊——段落、圖片、影片、翻頁卡、手風琴、時間軸、分頁、旋轉木馬、選擇題與真假題。
 jcr-language: en_us
 title: 新增內容元件
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
-
 ---
-
 
 # 新增內容元件
 

@@ -2,13 +2,14 @@
 description: 了解內容撰寫器中完成標準與成功標準的差異、如何設定，以及為何這種區分對於 Adobe Learning Manager 中準確的學習者追蹤與報告很重要。
 jcr-language: en_us
 title: 設定完成與成功標準
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 
 # 設定完成與成功標準
 

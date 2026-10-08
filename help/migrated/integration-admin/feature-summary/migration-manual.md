@@ -3,13 +3,14 @@ description: 這是給想要將現有 LMS 遷移到 Adobe Learning Manager LMS �
 jcr-language: en_us
 title: 遷移手冊
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '8309'
+source-wordcount: '8314'
 ht-degree: 0%
-
 ---
-
 # 遷移手冊
 
 為想要將現有 LMS 遷移至 Learning Manager LMS 的整合管理員參考手冊

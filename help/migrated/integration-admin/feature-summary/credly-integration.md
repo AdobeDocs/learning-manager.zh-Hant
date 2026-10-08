@@ -1,58 +1,59 @@
 ---
 jcr-language: en_us
-title: 可信
-description: 瞭解Credly與ALM的整合，以便跨各種社群媒體頻道管理和共用平台的外部徽章
+title: Credly
+description: 了解 Credly 與 ALM 的整合，以便在各種社群媒體管道上管理並分享平台的外部徽章
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '369'
 ht-degree: 0%
-
 ---
+# Credly
 
-# 可信
-
-[Credly](https://info.credly.com/)是數位認證平台，可讓學習者和組織贏取、分享及驗證專業成就，例如徽章或認證。 學習者可以透過其在社群媒體和其他位置的Credly設定檔管理和分享徽章。
+[Credly](https://info.credly.com/) 是一個數位認證平台，讓學習者和組織能夠獲得、分享並驗證專業成就，例如徽章或證照。 學習者可以透過 Credly 個人檔案在社群媒體及其他平台管理並分享徽章。
 
 ## 先決條件
 
-為您的組織設定Credly帳戶。 在Adobe Learning Manager中使用學習者的電子郵件ID將學習者新增至Credly。 這可讓學習者檢視Credly和Adobe Learning Manager上的徽章。
+為您的組織設立一個 Credly 帳號。 在 Adobe Learning Manager 中使用學習者的電子郵件 ID 將學習者加入 Credly。 這將讓學習者能在 Credly 和 Adobe Learning Manager 上看到徽章。
 
-## 將Credly聯結器新增至Adobe Learning Manager
+## 將 Credly 連接器加入 Adobe Learning Manager
 
-請依照下列步驟，將Credly Connector新增至Adobe Learning Manager：
+請依照以下步驟將 Credly Connector 加入 Adobe Learning Manager：
 
-1. 以&#x200B;**[!UICONTROL Integration Admin]**&#x200B;登入。
-2. 選取「**[!UICONTROL Credly]** > **連線**」，將&#x200B;**[!UICONTROL Credly]**&#x200B;聯結器新增至Adobe Learning Manager。
+1. 登入為 **[!UICONTROL Integration Admin]**。
+2. 選擇 **[!UICONTROL Credly]** > **連接** 以將連接器加入 **[!UICONTROL Credly]** Adobe Learning Manager。
 
    ![](assets/connector-credly.png)
-   _新增Credly聯結器_
+   _新增 Credly 連接器_
 
-3. 輸入&#x200B;**[!UICONTROL Connection Name]**。
-4. 輸入&#x200B;**[!UICONTROL Organization ID]**&#x200B;和&#x200B;**[!UICONTROL Authorization token]**。
+3. 輸入 **[!UICONTROL Connection Name]**.。
+4. 輸入 **[!UICONTROL Organization ID]** &amp; **[!UICONTROL Authorization token]**。
 
    >[!NOTE]
    >
-   >Credly中的每個徽章都隨附組織ID和授權權杖。 從Credly複製這些值。
+   >Credly 中的每個徽章都附有一個組織識別碼和授權憑證。 從 Credly 複製這些數值。
 
-5. 輸入&#x200B;**[!UICONTROL Hostname]**&#x200B;並選取&#x200B;**[!UICONTROL Connect]**。
+5. 輸入 並 **[!UICONTROL Hostname]** 選擇 **[!UICONTROL Connect]**。
 
-## 從Credly移轉預算
+## 從 Credly 遷移徽章
 
-Adobe Learning Manager中的badge.csv可讓您從現有的LMS或外部系統移轉徽章。 badge.csv已更新為兩個新欄：
+Adobe Learning Manager 的badge.csv允許你從現有的 LMS 或外部系統遷移徽章。 badge.csv已更新，新增了兩個專欄：
 
 * externalBadgeId
 * externalBadgeProvider
 
-外部徽章ID代表Credly平台中的徽章範本ID，而外部徽章提供者為Credly。 在badge.csv中新增這些值，並依照[移轉手冊](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中所述的步驟來移轉csv。
+外部徽章 ID 指的是 Credly 平台中的徽章範本 ID，而外部徽章提供者則是 Credly。 在badge.csv中加入這些數值，並依照遷移手冊[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/migration-manual#migrationprocedure)中提到的步驟遷移 csv。
 
-## 建立技能 — 管理員
+## 創建一項技能 - 管理員
 
-將徽章匯入Adobe Learning Manager後，管理員就可以建立此徽章為技能。 若要瞭解如何建立技能，請參閱[建立和修改技能](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/skills-levels)。
+一旦徽章匯入 Adobe Learning Manager，管理員即可將此徽章建立為技能。 想了解如何創建技能，請參閱 [「創建與修改技能](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/skills-levels)」。
 
-### 將技能/徽章指派給學習物件 — 作者
+### 將技能/徽章分配給學習對象- 作者
 
-作者/管理員可以將這些Credly匯入的ALM徽章指派給課程、學習路徑或認證（不僅僅是技能），而且在這些學習物件的消耗上，此徽章將會完成並可在Credly和ALM應用程式上檢視。
+作者/管理員可以將這些 Credly 匯入的 ALM 徽章分配到課程、學習路徑或認證（不僅限於技能），並利用這些學習物件後，徽章即被授予，並可在 Credly 及 ALM App 上查看。
 
-學習者可以登入Credly並在Credly平台上檢視徽章。 來自Credly，他們可以在LinkedIn和其他社群媒體等外部平台上分享徽章。
+學習者可以登入 Credly，查看 Credly 平台的徽章。 透過 Credly，他們可以在 LinkedIn 等外部平台及其他社群媒體分享徽章。

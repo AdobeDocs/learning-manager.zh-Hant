@@ -4,13 +4,14 @@ title: 安裝 Salesforce 套件
 description: Learning Manager 提供 Salesforce 應用程式套件。 安裝並設定後，銷售人員可在SFDC入口網站內執行訓練活動。 此應用程式讓 SFDC 用戶能探索新培訓、查看推薦，並直接在 SFDC 入口網站內即時閱讀。 用戶也能直接在 SFDC 入口網站內，收到管理員以報頭形式發送的公告。
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 0%
-
 ---
-
 # 安裝 Salesforce 套件
 
 ## 概觀
@@ -50,7 +51,7 @@ Learning Manager 提供 Salesforce 應用程式套件。 安裝並設定後，�
 1. 啟動  [Learning Manager 套件的網址](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2)。
 1. 在 **登入** 頁面，點擊 **[!UICONTROL Use Custom Domain]**。
 1. 輸入套件網址並點擊 **[!UICONTROL Continue]**。 安裝頁面必須選擇「僅限管理員安裝」。 不要更改這個選項。
-1. 點擊 **[!UICONTROL Install]**。 套件安裝完成後，點擊 **[!UICONTROL Done]**。 你會被導向已安裝套件頁面，並可以看到 Adobe Learning Manager 已安裝的套件。
+1. 點擊 **[!UICONTROL Install]**。 套件安裝完成後，點擊 **[!UICONTROL Done]**。 你會被導向已安裝套件頁面，可以看到 Adobe Learning Manager 已安裝的套件。
 
 1. 到應用程式啟動器（設定旁邊）搜尋 Adobe Learning Manager。
 1. 要設定應用程式，請點擊 **[!UICONTROL Configure]**。

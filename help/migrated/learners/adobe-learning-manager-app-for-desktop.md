@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager 桌面應用程式
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1672'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 桌面應用程式
 
 學習如何使用 Adobe Learning Manager 的桌面應用程式來創作並豐富可在 Social Learning 分享的內容。
@@ -45,7 +46,7 @@ Adobe Learning Manager 桌面應用程式主要針對使用 Learning Manager Soc
 1. 要從 Social Learning 開始錄影，請選擇影片錄影（網頁、螢幕、兩者）圖示，這會開啟 Learning Manager 桌面應用程式。 在桌面應用程式中，使用者登入後可以建立內容，然後發布。
 1. 要從桌面應用程式開始錄音，請以學習者身份使用你的學習管理員憑證登入該應用程式。
 1. 首頁會出現。
-1. 要建立文章，你可以在首頁提供的三個選項中選擇其中一個。 要啟動錄影視窗，請點擊「錄影」圖示。
+1. 要建立文章，你可以選擇首頁提供的三個選項之一。 要啟動錄影視窗，請點擊「錄影」圖示。
 1. 依需求，你可以選擇網路攝影機、螢幕或兩者兼具。
 
    **網路攝影機** 網路攝影機捕捉敘述者示範或展示專案或應用程式（包括音訊）的畫面。 從上述選項中選擇網路攝影機圖示，即時視窗就會顯示。

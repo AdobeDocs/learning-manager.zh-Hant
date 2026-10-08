@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 會議中使用反應和舉手
 description: 學習者如何利用反應與舉手參與 Live Hub 課程，而不打斷講師。
-source-git-commit: 6d62c8aaf23db075cdf2a97aeaf3053742145313
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
-
 ---
-
 
 # 使用反應和舉手
 

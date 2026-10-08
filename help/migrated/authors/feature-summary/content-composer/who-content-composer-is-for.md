@@ -2,13 +2,14 @@
 description: 內容撰寫器專為作者、學習與發展管理員及管理者設計，無論是從現有文件中工作、轉換主題專業知識，或是針對特定受眾優化 AI 生成內容。
 jcr-language: en_us
 title: 內容撰寫者是為誰而設
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 內容撰寫者適合誰
 

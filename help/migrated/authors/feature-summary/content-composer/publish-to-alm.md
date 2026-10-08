@@ -2,13 +2,14 @@
 description: 學習如何將完成的內容撰寫者課程發佈到 Adobe Learning Manager 內容庫，包括如何設定專案名稱、新增描述，以及如何將課程作為模組提交，供作業使用。
 jcr-language: en_us
 title: 發佈到 Adobe Learning Manager
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 
 # 從內容撰寫器發佈課程到 Adobe Learning Manager
 

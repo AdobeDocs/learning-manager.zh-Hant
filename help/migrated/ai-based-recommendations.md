@@ -4,13 +4,14 @@ title: 基於 AI 的推薦
 description: 學習管理員包含全新學習者首頁，內容更現代化，並依學習者偏好個人化。 基於 AI 的學習建議旨在提升學習者的參與度，並識別及彌補學習上的缺口。
 contentowner: saghosh
 exl-id: 41d6576a-1b5e-40e2-9ab3-ffff5ebfb372
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
-
 ---
-
 # 基於 AI 的推薦
 
 ## 概觀 {#overview}

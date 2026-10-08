@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 團體成功儀表板
 description: 了解更多關於 Adobe Learning Manager 中的團體成功儀表板
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 0%
-
 ---
-
 # 團體成功儀表板
 
 ## 簡介
@@ -26,9 +27,9 @@ Adobe Learning Manager 中的群組成功儀表板（GSD）讓管理員與經理
 
 * **簡化學習進度追蹤**：團體成功儀表板提供使用者友善且即時的學習者資料視圖，減少對 Excel 成績單的需求。 管理者與管理者能快速查看學習者註冊與課程進度，以支援以下關鍵情境：
 
-   * **績效評估準備度**：經理可在評核週期前評估團隊成員的課程進度。
-   * **合規監控**：識別尚未完成強制訓練的學習者。
-   * **團隊層級追蹤**：加盟店、門市或區域經理能確保團隊按時完成必要的學習。
+  * **績效評估準備度**：經理可在評核週期前評估團隊成員的課程進度。
+  * **合規監控**：識別尚未完成強制訓練的學習者。
+  * **團隊層級追蹤**：加盟店、門市或區域經理能確保團隊按時完成必要的學習。
 
 * **促進團隊管理**：Group Success Dashboard 對於擁有小團隊（少於 50 人）的經理非常有用，例如門市經理、加盟經理、經銷商經理或內部團隊。 它提供團隊視圖，讓經理能快速檢查團隊是否完成了達成業務目標所需的課程。
 

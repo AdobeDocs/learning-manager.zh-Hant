@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 為 Adobe Learning Manager 內容撰寫器配置 Creative Cloud 儲存
 description: 學習如何為 Adobe Learning Manager 內容撰寫器設定 Creative Cloud 儲存。 本指南說明為何需要 Creative Cloud 儲存，管理員如何在 Adobe 管理控制台中指定免費會員，以及如何排解儲存相關存取問題。
 contentowner: saghosh
-source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '728'
 ht-degree: 0%
-
 ---
-
 
 # 為 Adobe Learning Manager 內容撰寫器配置 Creative Cloud 儲存
 

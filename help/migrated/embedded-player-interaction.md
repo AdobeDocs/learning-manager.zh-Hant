@@ -1,51 +1,52 @@
 ---
 jcr-language: en_us
-title: 內嵌式播放器互動API檔案
-description: 瞭解各種API，用於監聽Adobe Learning Manager內嵌播放器中的事件和觸發動作
+title: 嵌入式玩家互動 API 文件
+description: 了解各種 API 來聆聽 Adobe Learning Manager 內建播放器中的事件並觸發動作
 contentowner: chandrum
 exl-id: 4734ecc1-cc8a-40b0-8997-32a31ec661ec
-source-git-commit: 06fdb3aa12af664ba87bbb26b9926991763e3ce9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 5%
-
 ---
+# 嵌入式玩家互動 API 文件
 
-# 內嵌式播放器互動API檔案
+Adobe Learning Manager 提供一個函式庫，可整合進應用程式中。 此函式庫提供多種 API，用於監聽事件並觸發嵌入播放器中的動作。
 
-Adobe Learning Manager提供程式庫，可整合至應用程式。 此程式庫提供各種API，監聽內嵌播放器中的事件並觸發動作。
+利用提供的 API，你可以播放、暫停，並對玩家執行其他操作。
 
-使用提供的API，您可以在播放器上播放、暫停及執行其他動作。
+## 載入函式庫
 
-## 載入程式庫
+圖書館可在此 [地點](https://cpcontents.adobe.com/public/publiccdn/playerInteractionLib.min.js)使用。
 
-資料庫可在此[位置](https://cpcontents.adobe.com/public/publiccdn/playerInteractionLib.min.js)使用。
+要載入資料庫，請依照以下步驟操作：
 
-若要載入程式庫，請遵循下列步驟：
-
-1. 在消費者應用程式中載入js檔案。
-2. 載入程式庫時，將會填入window.cpPlayerLib。
+1. 在消費者應用程式中載入 js 檔案。
+2. 載入函式庫時，會自動填充 window.cpPlayerLib。
 
 >[!NOTE]
 >
->如果您未使用prod US，請根據您的環境設定params cpPlayerLib.env和cpPlayerLib.sourceOrigin。
+>如果你沒有使用 prod US，請根據你的環境設定參數 cpPlayerLib.env 和 cpPlayerLib.sourceOrigin。
 
-預設值為：
+預設值如下：
 
-* window.cpPlayerLib.env = [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)；
-* window.cpPlayerLib.sourceOrigin = &quot;[https://cpcontents.adobe.com](https://cpcontents.adobe.com/)&quot;；
+* window.cpPlayerLib.env = [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player);
+* window.cpPlayerLib.sourceOrigin = “[https://cpcontents.adobe.com](https://cpcontents.adobe.com/)”;
 
 ### 可用方法
 
-cpPlayerLib程式庫包含下列函式：
+cpPlayerLib 函式庫包含以下函式：
 
-**startPlayer**
+**startPlayer（開始球員）**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>startPlayer</td>
+<td>startPlayer（開始球員）</td>
 </tr>
 <tr>
 <td>說明</td>
@@ -53,19 +54,19 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>參數</td>
-<td><li>loId ：學習物件ID。</li><li>accountId ：ALM帳戶的帳戶ID。</li><li>userId ：使用者ID。</li><li>accessToken ：存取權杖。</li><li>domRefId：必須轉譯播放器的div容器ID。</li><li>onModuleLoaded：載入具有下列詳細資訊的模組時，將會叫用此函式。</li><br><li>contenttype</li><li>loId</li><li>moduleId</li><li>已完成</li><li>currentlanguage</li><li>availablelanguages</li><li>isCCAvailable</li><li>已啟用</li></br></td>
+<td><li>loId：學習物件識別碼。</li><li>accountId：ALM 帳戶的帳戶 ID。</li><li>用戶ID：使用者ID。</li><li>accessToken：存取權杖。</li><li>domRefId：玩家必須被渲染的 div 容器的 ID。</li><li>onModuleLoaded：當載入包含以下細節的模組時，此函式會被呼叫。</li><br><li>內容類型</li><li>低音</li><li>moduleID</li><li>完工</li><li>當前語言</li><li>可用語言</li><li>isCCAvailable</li><li>ccEnabled</li></br></td>
 </tr>
 <tr>
-<td>傳回</td>
-<td>傳回Promise。 在Promise解析時，將會傳遞playerObj。</td>
+<td>回歸</td>
+<td>回報承諾。 當承諾被解決時，玩家會被通過。</td>
 </tr>
 <tr>
 <td>例外</td>
-<td>Promise會產生例外狀況。</td>
+<td>該承諾將導致例外。</td>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>cpPlayerLib.startPlayer(loId、accountId、userId、accessToken、domRefId、onModuleLoaded)。then((playerObj) =&gt; {//playerObj具有與播放器互動的api}) &gt;</td>
+<td>範例程式碼</td>
+<td>cpPlayerLib.startPlayer（loId， accountId， userId， accessToken， domRefId， onModuleLoaded）.then（（playerObj） =&gt; {//playerObj 擁有與玩家互動的 API}） &gt;</td>
 </tr>
 </tbody>
 </table>
@@ -80,16 +81,16 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>傳回目前頁面上的所有播放器物件。</td>
+<td>回傳目前頁面上的所有玩家物件。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td>無</td>
+<td>沒有</td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>cpPlayerLib.getAllPlayers()</td>
+<td>範例程式碼</td>
+<td>cpPlayerLib.getAllPlayers（）</td>
 </tr>
 </tbody>
 </table>
@@ -105,16 +106,16 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>傳回具有指定學習物件ID的播放器物件。</td>
+<td>回傳一個玩家物件，並指定為學習物件 ID。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>loId ：學習物件ID。</li></td>
+<td><li>loId：學習物件識別碼。</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>cpPlayerLib.getPlayer(loId)</td>
+<td>範例程式碼</td>
+<td>cpPlayerLib.getPlayer（loId）</td>
 </tr>
 </tbody>
 </table>
@@ -129,64 +130,64 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>導覽至下一個模組。</td>
+<td>切換到下一個模組。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>moduleId：模組識別碼。</li></td>
+<td><li>moduleId：模組 ID。</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.navigateToModule(moduleID)</td>
+<td>範例程式碼</td>
+<td>playerObj.navigateToModule（moduleID）</td>
 </tr>
 </tbody>
 </table>
 
-**下一個**
+**下一篇**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>下一個</td>
+<td>下一篇</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>導覽至下一個模組。</td>
+<td>切換到下一個模組。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.next()</td>
+<td>範例程式碼</td>
+<td>playerObj.next（）</td>
 </tr>
 </tbody>
 </table>
 
-**上一個**
+**先前**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>上一個</td>
+<td>先前</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>導覽至上一個模組。</td>
+<td>前往前一個模組。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.previous()</td>
+<td>範例程式碼</td>
+<td>playerObj.previous（）</td>
 </tr>
 </tbody>
 </table>
@@ -197,7 +198,7 @@ cpPlayerLib程式庫包含下列函式：
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>toggleToc</td>
+<td>toggleTOC</td>
 </tr>
 <tr>
 <td>說明</td>
@@ -205,132 +206,132 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.toggleTOC()</td>
+<td>範例程式碼</td>
+<td>playerObj.toggleTOC（）</td>
 </tr>
 </tbody>
 </table>
 
-**toggleNotes**
+**切換備註**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>toggleNotes</td>
+<td>切換備註</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>切換播放器上的附註面板。</td>
+<td>切換播放器的筆記面板。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.toggleNotes()</td>
+<td>範例程式碼</td>
+<td>playerObj.toggleNotes（）</td>
 </tr>
 </tbody>
 </table>
 
-**toggleClosedCaption**
+**切換關閉字幕**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>toggleClosedCaption</td>
+<td>切換關閉字幕</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>切換隱藏式字幕在播放器上的顯示。</td>
+<td>切換播放器的隱藏字幕顯示。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.toggleClosedCaption()</td>
+<td>範例程式碼</td>
+<td>playerObj.toggleClosedCaption（）</td>
 </tr>
 </tbody>
 </table>
 
-**changeLanguage**
+**變化語言**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>changeLanguage</td>
+<td>變化語言</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>變更播放器上的內容語言。</td>
+<td>更改播放器的內容語言。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>language：要指定的語言代碼。</li></td>
+<td><li>語言：待指定的語言代碼。</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.changeLanguage("es")</td>
+<td>範例程式碼</td>
+<td>playerObj.changeLanguage（“es”）</td>
 </tr>
 </tbody>
 </table>
 
-**closePlayer**
+**近距離球員**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>closePlay</td>
+<td>近距離球員</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>關閉播放器，並從頁面中移除播放器。 </td>
+<td>關閉播放器並將該播放器從頁面中移除。 </td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.closePlayer()</td>
+<td>範例程式碼</td>
+<td>playerObj.closePlayer（）</td>
 </tr>
 </tbody>
 </table>
 
-**togglePlayPause**
+**切換播放暫停**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>togglePlayPause</td>
+<td>切換播放暫停</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>在播放器上的播放和暫停內容之間切換。</td>
+<td>在播放器上切換播放與暫停內容。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.togglePlayPause()</td>
+<td>範例程式碼</td>
+<td>playerObj.togglePlayPause（）</td>
 </tr>
 </tbody>
 </table>
@@ -345,127 +346,127 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>設定播放器的音量。 值必須介於0到1之間。</td>
+<td>設定播放器的音量。 數值必須介於0到1之間。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>volume：磁碟區的值。 有效範圍為0至1。 </li></td>
+<td><li>體積：該體積的價值。 有效範圍是 0-1。 </li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.setVolume(0.5)</td>
+<td>範例程式碼</td>
+<td>playerObj.setVolume（0.5）</td>
 </tr>
 </tbody>
 </table>
 
-**setPlayBackSpeed**
+**set播放速度**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>setPlayBackSpeed</td>
+<td>set播放速度</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>設定播放器中的播放速度。</td>
+<td>在播放器中設定播放速度。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>speed：要指定的速度值。 有效值為。25、.5、.75、1、1.25、1.5、1.75、2。</li></td>
+<td><li>速度：指待指定的速度值。 有效數值為 .25、0.5、0.75、1、1.25、1.5、1.75、2。</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.setPlayBackSpeed(1.25)</td>
+<td>範例程式碼</td>
+<td>playerObj.setPlayBackSpeed（1.25）</td>
 </tr>
 </tbody>
 </table>
 
-**搜尋**
+**尋找**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>搜尋</td>
+<td>尋找</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>跳至視訊上的任何時間。</td>
+<td>跳到影片中的任何時間點。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>時間：跳至的時間。 時間以秒為單位。</li></td>
+<td><li>時間：跳躍的時機。 時間是秒數。</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.seek(50)</td>
+<td>範例程式碼</td>
+<td>playerObj.seek（50）</td>
 </tr>
 </tbody>
 </table>
 
-**轉寄**
+**前進**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>轉寄</td>
+<td>前進</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>在視訊中往前跳10秒。</td>
+<td>影片快轉10秒。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.forward()</td>
+<td>範例程式碼</td>
+<td>playerObj.前鋒（）</td>
 </tr>
 </tbody>
 </table>
 
-**向後**
+**倒退**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>後退</td>
+<td>倒退</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>在視訊中向後跳轉10秒。</td>
+<td>在影片中往後跳10秒。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.backward()</td>
+<td>範例程式碼</td>
+<td>playerObj.backward（）</td>
 </tr>
 </tbody>
 </table>
 
-**navigateToPage**
+**導航至頁面**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>navigateToPage</td>
+<td>導航至頁面</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>跳至PPT/PDF上的指定頁面。</td>
+<td>跳到PPT/PDF指定的頁面。</td>
 </tr>
 <tr>
 <td>參數</td>
@@ -473,8 +474,8 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.navigateToPage (5)</td>
+<td>範例程式碼</td>
+<td>playerObj.navigateToPage （5）</td>
 </tr>
 </tbody>
 </table>
@@ -489,64 +490,64 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>跳至PPT/PDF上的下一頁。</td>
+<td>跳到PPT/PDF的下一頁。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.nextPage()</td>
+<td>範例程式碼</td>
+<td>playerObj.nextPage（）</td>
 </tr>
 </tbody>
 </table>
 
-**previousPage**
+**前一頁**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>上一頁</td>
+<td>前一頁</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>跳至PPT/PDF的上一頁。</td>
+<td>跳到PPT/PDF的上一頁。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.previousPage()</td>
+<td>範例程式碼</td>
+<td>playerObj.previousPage（）</td>
 </tr>
 </tbody>
 </table>
 
-**zoomIn**
+**放大**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>zoomIn</td>
+<td>放大</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>在PPT/PDF上放大內容。</td>
+<td>放大PPT/PDF內容。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.zoomIn()</td>
+<td>範例程式碼</td>
+<td>playerObj.zoomIn（）</td>
 </tr>
 </tbody>
 </table>
@@ -561,40 +562,40 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>縮小PPT/PDF上的內容。</td>
+<td>在PPT/PDF上放大內容。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.zoomOut()</td>
+<td>範例程式碼</td>
+<td>playerObj.zoomOut（）</td>
 </tr>
 </tbody>
 </table>
 
-**下載工作輔助**
+**下載工作援助**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>downloadJobAid</td>
+<td>下載工作援助</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>從課程下載工作輔助。</td>
+<td>從課程下載就業輔助工具。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.downloadJobAid()</td>
+<td>範例程式碼</td>
+<td>playerObj.downloadJobAid（）</td>
 </tr>
 </tbody>
 </table>
@@ -609,61 +610,61 @@ cpPlayerLib程式庫包含下列函式：
 </tr>
 <tr>
 <td>說明</td>
-<td>您是否要下載工作輔助。</td>
+<td>無論你是否想下載工作輔助工具。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.toggleJobAidPullout()</td>
+<td>範例程式碼</td>
+<td>playerObj.toggleJobAid Pullout（）</td>
 </tr>
 </tbody>
 </table>
 
-**全熒幕**
+**全螢幕**
 
 <table>
 <tbody>
 <tr>
 <td>方法名稱</td>
-<td>全熒幕</td>
+<td>全螢幕</td>
 </tr>
 <tr>
 <td>說明</td>
-<td>將播放器設為全熒幕模式。</td>
+<td>將玩家設定為全螢幕模式。</td>
 </tr>
 <tr>
 <td>參數</td>
-<td><li>無</li></td>
+<td><li>沒有</li></td>
 </tr>
 </tr>
 <tr>
-<td>程式碼範例</td>
-<td>playerObj.fullScreen()</td>
+<td>範例程式碼</td>
+<td>playerObj.fullScreen（）</td>
 </tr>
 </tbody>
 </table>
 
-## 事件清單
+## 活動列表
 
-**onPlayerEvents(callBack)**
+**onPlayerEvents（回調）**
 
-註冊時，將會在所有播放器事件上叫用回呼函式。 事件名稱如下：
+註冊時，所有玩家事件都會啟動回調函式。 活動名稱如下：
 
-* 播放（視訊/音訊/CP）
-* 暫停（視訊/音訊/CP）
-* TIMEUPDATE （視訊/音訊/CP）
-* PAGECHANGE (PPT/ PDF)
-* NOTEADDED （所有內容）
+* 播放（影片/音訊/電腦）
+* 暫停（影片/音訊/CP）
+* TIMEUPDATE（影片/音訊/CP）
+* 頁面變更（PPT/PDF）
+* 備註新增（所有內容）
 * 已啟動（所有內容）
-* 已開始（所有內容）
+* START（所有內容）
 * 已完成（所有內容）
-* 通過（所有內容）
+* 已通過（所有內容）
 * 失敗（所有內容）
 
-**onStreamingEvents(callBack)**
+**onStreamingEvents（回撥）**
 
-註冊時，將會在為了追蹤使用者活動而傳送的所有播放器陳述式上叫用回呼函式。
+註冊時，所有用於追蹤用戶活動的玩家語句都會啟動回調功能。

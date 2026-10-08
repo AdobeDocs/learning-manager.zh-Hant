@@ -2,13 +2,14 @@
 description: 學習如何在 Content Composer 中編輯圖片——調整大小、亮度和飽和度，或用上傳、Adobe Stock 或 AI 取代圖片。
 jcr-language: en_us
 title: 編輯或新增圖片
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '110'
 ht-degree: 0%
-
 ---
-
 
 # 編輯或新增圖片
 

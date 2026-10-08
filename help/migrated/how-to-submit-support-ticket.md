@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 如何在 Experience League 提交支援工單
 description: 了解如何在 Experience League 提交支援請求
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '609'
 ht-degree: 0%
-
 ---
-
 # 如何在 Experience League 提交支援工單
 
 Adobe Learning Manager 支援工單的提交流程現在已直接整合至 Experience League 支援平台。 這是一個自助入口網站，最近重新設計，為有特權感的顧客提供更多個人化與易用性。 請參考以下指南，了解如何進入體驗聯盟支援入口網站並登錄工單。
@@ -43,7 +44,7 @@ Adobe Learning Manager 支援工單的提交流程現在已直接整合至 Exper
    ![](assets/ticket-form.png)
    _票券表格_
 
-4. 點擊 **[!UICONTROL Submit case]**&#x200B;後，您將被導往該 **[!UICONTROL My cases]** 頁面，您可以查看您組織提交的所有案件。 你也可以點擊 **[!UICONTROL My cases]** 側邊欄選單上的按鈕來瀏覽此頁面。 在此頁面，您可以查看所有已開啟及已關閉的支援案件。 利用頁面頂端的選項，您可以依案件狀態（開啟或已結）或 Adobe CX 企業解決方案篩選。 您也可以使用搜尋欄搜尋與您的支援問題相關的關鍵字。
+4. 點擊 **[!UICONTROL Submit case]**&#x200B;後，您將被導往該 **[!UICONTROL My cases]** 頁面，您可以查看貴組織提交的所有案件。 你也可以點擊 **[!UICONTROL My cases]** 側邊欄選單上的按鈕進入此頁面。 在此頁面，您可以查看所有已開啟及已關閉的支援案件。 利用頁面頂端的選項，您可以依案件狀態（開啟或已結）或 Adobe CX 企業解決方案篩選。 您也可以使用搜尋欄搜尋與您的支援問題相關的關鍵字。
 
    ![](assets/open-cases.png)
    _未結案件_

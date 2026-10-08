@@ -3,13 +3,14 @@ description: 學習如何整合 Adobe Commerce 連接器
 jcr-language: en_us
 title: Adobe Commerce 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Adobe Commerce 連接器
 
@@ -41,7 +42,7 @@ Adobe Learning Manager 與 Adobe Commerce 整合，後者是一個可擴充且�
 - 自訂模組的覆蓋選項限制。 此步驟為可選，但建議用於大型資料集。
 - 啟用所有 **非同步 API**。 大型訓練資料集則以非同步方式匯出。 當 Learning Manager 呼叫 Adobe Commerce API 時，請求會被排隊並由在商務端建立產品的消費者處理。 非同步處理必須啟用，因為 Adobe Commerce 預設不支援非同步處理。
 - 在 Adobe Commerce 的付款成功頁面新增 **Learning Manager 的退貨連結** 。
-   - 請使用此 [回傳網址](https://learningmanager.adobe.com/app/learner#/postPayment)：
+  - 請使用此 [回傳網址](https://learningmanager.adobe.com/app/learner#/postPayment)：
 - 將索引&#x200B;**從**&#x200B;**「**&#x200B;儲存中」改為&#x200B;**「排程」。**&#x200B;更多資訊請參閱 [知識庫](https://experienceleague.adobe.com/zh-hant/support?support-tab=home#home) 。
 - 套用必要的 **補丁**。 請參閱 [「套用補丁」文件](https://experienceleague.adobe.com/zh-hant/docs/commerce-cloud-service/start/overview) 中的說明。
 - 在雲端基礎架構（暫存與生產環境）上設定 **Fastly** for Adobe Commerce。 更多資訊請參見[「設定快速」。](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)
@@ -58,7 +59,7 @@ Adobe Learning Manager 與 Adobe Commerce 整合，後者是一個可擴充且�
 
 3. 請輸入以下細節：
 
-   - 連接名稱
+   - 連線名稱
    - 存取令牌
    - Adobe Commerce 網址
    - 商店代碼

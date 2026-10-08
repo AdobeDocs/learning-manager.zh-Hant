@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 遷移問題故障排除
 contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 0%
-
 ---
-
 # 遷移問題故障排除
 
 本文件包含基本的故障排除建議，幫助你解決在將資料與內容從現有學習管理系統遷移到學習管理員時可能遇到的一些典型問題。

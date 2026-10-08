@@ -1,15 +1,16 @@
 ---
 title: 本次發布（2023年4月）有什麼新內容
 description: 了解 Adobe Learning Manager 的新功能與改進
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3230'
 ht-degree: 0%
-
 ---
-
 # 本次發布（2023年4月）有什麼新內容
 
 ## Microsoft Teams 的 Adobe Learning Manager 應用程式
@@ -112,7 +113,7 @@ Adobe Learning Manager 現在支援一種更直覺的掃描方式，利用原生
 
 ![推薦條學習者](assets/recommendation-strip-learner.png)
 
-當學習者點擊連結或「前往目錄」按鈕時，學習者會被導向課程目錄頁面。 學習者接著查看目錄和「我的學習」頁面中使用者群組的篩選功能。
+當學習者點擊連結或「前往目錄」按鈕時，學習者會被導向課程目錄頁面。 學習者接著查看目錄和「我的學習」頁面中使用者群組的篩選清單。
 
 ![搜尋結果](assets/search-results.png)
 
@@ -287,7 +288,7 @@ _切換實例提示_
 
 對於管理員，新增了一種公告類型——「作為電子郵件」。 這可以用來向特定使用者群的學習者或已參加特定訓練的學習者發送針對性的臨時郵件。
 
-自訂管理員和作者若有必要的權限，也可以在實例層級查看此選項。
+自訂管理員和作者若有必要的權限，也能在實例層級查看此選項。
 
 更多資訊請參閱 [公告](/help/migrated/administrators/feature-summary/announcements.md#as-email)。
 

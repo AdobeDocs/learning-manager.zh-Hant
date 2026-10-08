@@ -1,54 +1,55 @@
 ---
 jcr-language: en_us
-title: 完成課程後無法習得技能
-description: 學習者即使完成課程仍無法習得技能。 已指派給該課程的技能對學習者保持為「進行中」。
+title: 完成課程後無法達成某項技能
+description: 即使完成課程，學習者也不會獲得技能。 該課程所分配的技能對學習者而言仍為「進行中」狀態。
 contentowner: nluke
 exl-id: d9c1e2a2-351d-4d6f-b2e6-f9e9278e6523
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 0%
-
 ---
+# 完成課程後無法達成某項技能
 
-# 完成課程後無法習得技能
+## 子嗣
 
-## 問題
+即使完成課程，學習者也不會獲得技能。 該課程所分配的技能對學習者而言仍為 **「進行中** 」狀態。
 
-學習者即使完成課程仍無法習得技能。 學習者指派給該課程的技能仍為&#x200B;**進行中**。
+## 成因
 
-## 原因
+若 **達成此技能所需的** 學分超過 **完成課程後所獲得** 的學分，則會出現此問題。
 
-如果完成此技能所需的&#x200B;**積分**&#x200B;大於學習者完成課程後獲得的&#x200B;**積分**，就會發生此問題。
+## 解法
 
-## 解決方案
+請檢查目前 **的技能點數** 和 **達成技能所需的點數** 資訊。 請依照以下步驟操作：
 
-檢查目前的&#x200B;**技能積分**&#x200B;和&#x200B;**點**&#x200B;取得技能所需的資訊。 請遵循下列步驟：
-
-1. 針對學習者，產生&#x200B;**學習者成績單**&#x200B;報告。
-1. 產生學習者成績單時，按一下「**[!UICONTROL Advanced Options]**」並核取選項&#x200B;**[!UICONTROL Include Skills data and summary sheets]**。
+1. 對學習者而言，產生 **一份學習者成績單** 報告。
+1. 在產生學習者成績單時，點擊 **[!UICONTROL Advanced Options]**，並勾選選項 **[!UICONTROL Include Skills data and summary sheets]**。
 
    ![](assets/advanced-options.png)
 
-   *選取[包含技能資料與摘要表]選項*
+   *選擇「包含技能資料與摘要表」選項*
 
-1. 開啟下載的學習者成績單報表。
-1. 導覽至&#x200B;**[!UICONTROL Skills transcript]**&#x200B;工作表。 在這裡，您可以由學習者檢視&#x200B;**[!UICONTROL Credits Required]**&#x200B;和&#x200B;**[!UICONTROL Credits Earned]**。
+1. 打開下載的學習者成績單報告。
+1. 切換到 **[!UICONTROL Skills transcript]** 工作表。 在這裡，你可以查看 **[!UICONTROL Credits Required]** 學習 **[!UICONTROL Credits Earned]** 者和
 
-   例如，在以下範例中，完成課程的技能所需的學分為50。 但學習者僅獲得一個學分。
+   例如，在下面的例子中，達成該技能所需的學分是50學分。 但學習者僅取得一學分。
 
    ![](assets/skill-transcript.png)
 
-   *檢視必要的積分*
+   *查看所需製作人員*
 
-1. 若要檢查指派給特定技能的學分，請以管理員身分登入，並導覽至&#x200B;**技能**&#x200B;標籤，如下所示：
+1. 要查看分配給特定技能的積分，請以管理員身份登入，並如 **下所示進入技能** 標籤：
 
    ![](assets/skill.png)
 
-   *啟動技能標籤*
+   *發射技巧標籤*
 
-1. 若要檢查指派給課程的學分數，請以作者身分登入，然後開啟課程。 按一下&#x200B;**[!UICONTROL Settings]** > **課程技能**，如下所示：
+1. 要查看課程分配的學分數，請以作者身份登入並開啟課程。 請點擊 **[!UICONTROL Settings]** > **課程技能** ，如下所示：
 
    ![](assets/course-skills.png)
 
-   *檢視課程技能*
+   *查看課程技能*

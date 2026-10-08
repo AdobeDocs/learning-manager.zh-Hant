@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Adobe Learning Manager 中的管理 AI 助理（測試版）
 description: 了解更多關於 Adobe Learning Manager 管理 AI 助理（測試版）
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 中的管理 AI 助理（測試版）
 
 ## 簡介
@@ -86,19 +87,19 @@ Admin AI 助理（Beta）設計重點在於安全與資料隱私。 以下是你
 以下是管理員可用來有效使用管理員 AI 助理（測試版）的一些範例提示：
 
 * **將課程指派給使用者**
-   * **提示**：「我該如何指派課程給使用者？」
+  * **提示**：「我該如何指派課程給使用者？」
 
   ![](assets/prompt-1.png)
   _針對「我如何將課程指派給使用者」的回應_
 
 * **最新入學報告**
-   * **提示：請**&#x200B;給我最新的入學報告。
+  * **提示：請**&#x200B;給我最新的入學報告。
 
   ![](assets/prompt-2.png)
   _回應題目「Show me the recent enrollment report」_
 
 * **刪除使用者**
-   * **提示**：「我該如何刪除使用者？」
+  * **提示**：「我該如何刪除使用者？」
 
   ![](assets/prompt-3.png)
   _針對提示「我該如何刪除使用者」的回應_

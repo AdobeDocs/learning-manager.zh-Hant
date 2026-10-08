@@ -2,13 +2,14 @@
 description: 在開始 Content Composer 之前，先了解你需要什麼——一個 Creative Cloud 帳號、Google Chrome，以及可選的原始文件來指導 AI。
 jcr-language: en_us
 title: 開始前你需要什麼
-source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # 開始之前
 

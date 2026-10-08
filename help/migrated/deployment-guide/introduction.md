@@ -5,13 +5,14 @@ description: 學習管理系統（Learning Manager）是一種學習管理系統
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3186'
 ht-degree: 0%
-
 ---
-
 # 學習經理部署指南
 
 ## 簡介 {#introduction}
@@ -57,9 +58,9 @@ ht-degree: 0%
 * 從左側窗格點選 **「品牌」**。
 * 在品牌頁面，您可以點擊&#x200B;**&#x200B;**&#x200B;想要修改的選項編輯，來設定以下選項：
 
-   * **組織名稱** ：您在此指定的數值將決定您網站每頁橫幅上的名稱。
-   * **子網域**：此值決定您網站的網址。
-   * **標誌樣式**：此欄位中的圖片會以標誌形式出現在每頁右上角。 在這裡，你可以選擇只顯示標誌，或是你組織名稱，或是標誌加組織名稱。
+  * **組織名稱** ：您在此指定的數值將決定您網站每頁橫幅上的名稱。
+  * **子網域**：此值決定您網站的網址。
+  * **標誌樣式**：此欄位中的圖片會以標誌形式出現在每頁右上角。 在這裡，你可以選擇只顯示標誌，或是你組織名稱，或是標誌加組織名稱。
 
 ![](assets/setting-the-themesforyoursite.png)
 

@@ -4,13 +4,14 @@ title: 行政人員常見問題
 description: Adobe Learning Manager 管理員常見問題
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2493'
 ht-degree: 0%
-
 ---
-
 # 行政人員常見問題
 
 <table>

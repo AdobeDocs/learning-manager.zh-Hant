@@ -3,13 +3,14 @@ description: 學習如何將 Power BI 連接器與 Adobe Learning Manager 整合
 jcr-language: en_us
 title: Power BI 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Power BI 連接器
 
@@ -136,7 +137,7 @@ Power BI 連接器允許你將 Adobe Learning Manager 與 Microsoft Power BI（�
 #### 排程匯出
 
 1. 選擇 **設定排程**。
-2. 選擇 **啟用 xAPI 語句匯出，使用此連線**。
+2. 選擇 **啟用 xAPI 語句，並使用此連線**&#x200B;匯出。
 3. 設定 **開始日期**、 **時間**&#x200B;和 **間隔**。
 4. 選擇 **儲存**。
 
@@ -153,7 +154,7 @@ Power BI 連接器允許你將 Adobe Learning Manager 與 Microsoft Power BI（�
 #### 查看執行狀態
 
 - 使用 **執行狀態** 查看匯出歷史，包括開始時間、持續時間及狀態。
-- 警告圖示表示失敗的跑動。 點擊連結下載錯誤報告。CSV。
+- 警告圖示表示失敗的跑動。 點擊連結下載錯誤報告，格式為CSV 格式。
 
 ### 統一報告
 
@@ -183,7 +184,7 @@ Power BI 連接器允許你將 Adobe Learning Manager 與 Microsoft Power BI（�
    - 回饋報告
    - 使用者報告
 4. 使用「 **新增使用者群組篩選」** 欄位，選擇你想匯出哪些使用者群組的資料。 預設情況下， **選擇「所有使用者** 」。
-5. 請使用 **新增內容目錄篩選** 欄位，依內容目錄篩選報告。
+5. 請使用 **新增內容目錄篩選** 欄位，依照內容目錄篩選報告。
 6. 篩選表顯示哪些報告支援 **使用者群組**、 **目錄**&#x200B;或 **時間** 篩選器。
 
    ![](assets/power-bi-connector5.png)
@@ -212,18 +213,18 @@ Adobe 提供現成的 Power BI 範本，幫助你快速開始。
 
 - **現有連結：**
 
-   - 若 **關閉學習路徑** ，則不會包含相關的列或欄。
-   - 若啟用，報告中包含已註冊學習者的學習路徑（高階階段）。
+  - 若 **關閉學習路徑** ，則不會包含相關的列或欄。
+  - 若啟用，報告中包含已註冊學習者的學習路徑（高階階段）。
 
 - **新連結：**
 
-   - 若關閉學習路徑，欄位會顯示：
+  - 若關閉學習路徑，欄位會顯示：
 
-      - **嵌入式路徑：** 學習計畫名稱。
-      - **嵌入路徑 ID：** 學習計畫的 ID。
-      - **嵌入式課程 ID：** 學習路徑內課程的 ID。
-   - 若啟用 **，類型** 欄位在相關時會使用學習路徑（高階）。
-   - 新連線則在30天後生效。
+    - **嵌入式路徑：** 學習計畫名稱。
+    - **嵌入路徑 ID：** 學習計畫的 ID。
+    - **嵌入式課程 ID：** 學習路徑內課程的 ID。
+  - 若啟用 **，類型** 欄位在相關時會使用學習路徑（高階）。
+  - 新連線則在30天後生效。
 
 ### 在哪裡查看你的資料**
 

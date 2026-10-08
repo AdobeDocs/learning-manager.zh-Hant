@@ -3,13 +3,14 @@ description: 了解更多基本設定如何幫助你根據組織架構與學習�
 jcr-language: en_us
 title: 基本設定
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6314'
+source-wordcount: '6254'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 的基本設定
 
 ## 概觀

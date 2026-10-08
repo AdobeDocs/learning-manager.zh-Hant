@@ -3,13 +3,14 @@ description: 學習如何在 Adobe Learning Manager 中使用 Active Fields，�
 jcr-language: en_us
 title: 在 Adobe Learning Manager 中設定活動欄位
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # 活躍場域
 
 Adobe Learning Manager 中的活動欄位是自訂的使用者屬性，幫助管理員有效組織和管理使用者。 它們讓你能捕捉更多使用者資訊，例如部門、地點或職稱。 管理員可以利用這些資料建立使用者群組、個人化學習內容，並更有效地過濾報告。

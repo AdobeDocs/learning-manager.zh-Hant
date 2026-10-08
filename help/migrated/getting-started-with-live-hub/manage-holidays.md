@@ -1,13 +1,14 @@
 ---
 title: 在 Adobe Learning Manager 管理假期
 description: 了解管理員如何定義影響講師在 Live Hub 課程中可用時間的全組織假日，無論是個別還是透過 CSV 匯入。
-source-git-commit: 4c16d16205302542d2b2c5cfc10940cb4e7e7e98
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
-
 ---
-
 
 # 管理假期
 

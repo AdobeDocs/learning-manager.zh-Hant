@@ -3,13 +3,14 @@ description: 學習如何將 Adobe Connect 連接器與 Adobe Learning Manager �
 jcr-language: en_us
 title: Adobe Connect 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Adobe Connect 連接器
 
@@ -117,5 +118,5 @@ Adobe Learning Manager 可以從 Adobe Connect 會議中匯入測驗資料，並
 
 - **出席人數與計分：** 查看最終測驗分數與出席人數。
 - **L2 測驗分數：**
-   - **使用者說明：** 以點數和百分比顯示個人分數。
-   - **題目：** 以報告表顯示測驗結果。
+  - **使用者說明：** 以點數和百分比顯示個人分數。
+  - **題目：** 以報告表顯示測驗結果。

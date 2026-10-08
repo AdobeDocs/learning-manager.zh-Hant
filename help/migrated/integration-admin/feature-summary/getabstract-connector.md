@@ -3,13 +3,14 @@ description: Adobe Learning Manager 中的 getAbstract connector
 jcr-language: en_us
 title: getAbstract connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 0%
-
 ---
-
 
 # getAbstract connector for Adobe Learning Manager
 
@@ -162,7 +163,7 @@ getAbstract 連接器讓 Adobe Learning Manager 管理員能透過整合 getAbst
 
 - 有效的使用者訂閱檔案必須位於 getAbstract FTP 資料夾中，以符合指定的同步日期。
 - 檔案應遵循以下命名格式：
-   - report_export_yyyy_MM_dd_HHmmss.xlsx或，
-   - report_export_yyyy_MM_dd.xlsx
+  - report_export_yyyy_MM_dd_HHmmss.xlsx或，
+  - report_export_yyyy_MM_dd.xlsx
 
-下載 [範例 getAbstract 用戶訂閱檔](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=zh-Hant) 以了解格式。
+下載 [範例 getAbstract 用戶訂閱檔](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en) 以了解格式。

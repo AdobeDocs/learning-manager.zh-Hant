@@ -4,7 +4,10 @@ title: 故障排除 Salesforce （SFDC） 與 Adobe Learning Manager 的整合�
 description: 排除常見的 Salesforce （SFDC） 與 Adobe Learning Manager （ALM） 整合問題，包括匯出失敗、SFDC 自訂物件中的欄位權限問題，以及重要的 SFDC–ALM 相容性說明。
 contentowner: saghosh
 exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%

@@ -3,13 +3,14 @@ description: 了解 2025 年 10 月版本 Adobe Learning Manager 中的新功能
 jcr-language: en_us
 title: Adobe Learning Manager 2025 年 10 月版本的新內容
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5610'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 2025 年 10 月版本的新內容
 

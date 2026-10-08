@@ -3,13 +3,14 @@ description: 了解更多關於如何在 Adobe Learning Manager 中設定進階�
 jcr-language: en_us
 title: Adobe Learning Manager 的進階設定
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 的進階設定
 
 ## 目錄標籤
@@ -301,17 +302,17 @@ To add a content folder, follow the steps:
 
 假日是一組在帳戶層級維持的非工作日，具有以下特性：
 
-&#x200B;- 只有管理員有權新增、編輯或刪除假日。
+- 只有管理員有權新增、編輯或刪除假日。
 
-&#x200B;- 假日適用於整個組織，並會在每位講師的行事曆上顯示為非工作日。
+- 假日適用於整個組織，並會在每位講師的行事曆上顯示為非工作日。
 
-&#x200B;- 由於假日會將講師標示為無法上班，Live Hub 課程無法安排在這些日期。
+- 由於假日會將講師標示為無法上班，Live Hub 課程無法安排在這些日期。
 
-&#x200B;- 每個節日都需要日期和名字;描述是可選的。
+- 每個節日都需要日期和名字;描述是可選的。
 
-&#x200B;- 你可以一次新增一個假日，或用 CSV 檔案一次匯入多個假日。
+- 你可以一次新增一個假日，或用 CSV 檔案一次匯入多個假日。
 
-&#x200B;- 新增後，假日會顯示在 **假** 日頁面，您可以查看、搜尋和管理。
+- 新增後，假日會顯示在 **假** 日頁面，您可以查看、搜尋和管理。
 
 請參閱 [「管理假期](../../../getting-started-with-live-hub/manage-holidays.md) 」以獲取更多資訊。
 

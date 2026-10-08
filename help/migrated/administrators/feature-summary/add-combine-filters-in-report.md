@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 在報告中新增與合併篩選器
 description: 在 Adobe Learning Manager 報表建構器中，使用單一篩選器、AND/OR 邏輯及巢狀篩選群組來限制報告資料。
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '620'
 ht-degree: 0%
-
 ---
-
 
 # 在報告中新增與合併篩選器
 

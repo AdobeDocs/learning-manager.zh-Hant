@@ -3,13 +3,14 @@ description: 了解 2024 年 7 月版本 Adobe Learning Manager 的新功能與�
 jcr-language: en_us
 title: 新功能摘要
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2314'
+source-wordcount: '2370'
 ht-degree: 0%
-
 ---
-
 # 2024年7月新功能摘要 {#new-features-summary-july-2024}
 
 了解 2024 年 7 月版本 Adobe Learning Manager 的新功能與增強功能。
@@ -28,7 +29,8 @@ ht-degree: 0%
 
 ### 這次發布會有什麼變化
 
-透過強化的合規儀表板，管理員與經理可查看與其特定類別相關的合規課程、學習路徑或認證（例如銷售、行銷與法律）。管理員可以將客製化合規課程分類到特定類別。客製化合規類別由目錄標籤驅動。 管理員可以建立課程儀表板並與經理分享。管理者接著可以在各自的實例上查看相同的儀表板。合規儀表板的使用者介面及合規電子郵件通知也進行了改進。![](assets/compliance-dashboard-admin.png)
+透過強化的合規儀表板，管理員與經理可查看與其特定類別相關的合規課程、學習路徑或認證（例如銷售、行銷與法律）。 管理員可以將客製化合規課程分類到特定類別。 客製化合規類別由目錄標籤驅動。  管理員可以建立課程儀表板並與經理分享。 管理者接著可以在各自的實例上查看相同的儀表板。 合規儀表板的使用者介面及合規電子郵件通知也進行了改進。
+![](assets/compliance-dashboard-admin.png)
 
 #### 工作流程
 
@@ -122,7 +124,7 @@ _完成標準選項-活動模組_
 
 搜尋 API 包含以下變更：
 
-學習者可利用 `GET /search` API 在目錄篩選器中搜尋標籤。 學習者可透過選擇`tag` `filter.loTypes`參數值來搜尋標籤。
+學習者可利用 `GET /search` API 在目錄篩選器中搜尋標籤。 學習者可透過選擇`tag`&#x200B;`filter.loTypes`參數值來搜尋標籤。
 
 **樣本捲度**
 
@@ -142,7 +144,7 @@ API 中新增`GET /account`了欄位 `custom_injections`、 `showComplianceLabel
 
 以下是本次更新對學習物件 API 所做的變更：
 
-新的回應、舊有作者 ID 以及 API 下`authorDetails` `GET /learningObjects`新增的其他細節。此外，新增了一個篩選 `filter.authors`器 ，用來篩選舊有作者及其課程。
+新的回應、舊有作者 ID 以及 API 下`authorDetails`&#x200B;`GET /learningObjects`新增的其他細節。此外，新增了一個篩選 `filter.authors`器 ，用來篩選舊有作者及其課程。
 
 這個新屬性 `effectivenessIndex` 會幫助你取得課程效能數據。
 
@@ -166,7 +168,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization:
 
 新增的回應 `count` 顯示學習物件總數，已被加入 API `GET/ learningObjects` 和 `POST/ learningObjects/query`。
 
-新的回應， `catalogFieldId` `fieldValueId`已經在 API 裡`catalogLabels` `GET/ learningObjects`新增了。
+新的回應， `catalogFieldId` `fieldValueId`已經在 API 裡`catalogLabels`&#x200B;`GET/ learningObjects`新增了。
 
 學習者可以在 API `GET /preview/learningObjects`中取得目錄標籤值。
 

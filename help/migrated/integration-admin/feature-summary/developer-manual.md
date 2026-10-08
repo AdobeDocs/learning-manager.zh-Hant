@@ -4,13 +4,14 @@ title: 應用程式開發手冊
 description: 學習如何使用 RESTful API 整合與自訂應用程式，涵蓋 OAuth 2.0 認證、API 使用情境及資料模型等重要主題。 透過課程創建、學習進度追蹤、技能映射、認證、遊戲化等功能，強化您的企業應用程式。 本指南提供逐步指引與實務範例，協助開發者打造無縫且高效的工作流程。 非常適合希望利用 Adobe Learning Manager 功能來打造以學習者為中心應用程式的開發者。
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4376'
+source-wordcount: '4538'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 開發者手冊
 
@@ -54,14 +55,14 @@ Adobe Learning Manager 提供 RESTful API，讓開發者能有效整合與客製
    * **[!UICONTROL Description]**：應用程式的功能簡要說明。
    * **[!UICONTROL Scopes]**：從六個可用選項中選擇一個來定義您的申請範圍。 根據你在這裡提到的選擇，Learning Manager API 端點對你的應用程式是可存取的。 例如，如果你選擇了學習者角色讀取權限，那麼所有學習管理工具的學習者 API 端點對你的應用程式來說都是唯讀存取。
 
-      * 管理員角色讀寫存取權限：允許應用程式以管理員身份存取或修改資料。
-      * 學習者角色讀寫存取權：允許應用程式存取或修改學習者的資料。
-      * xAPI 讀寫存取：使應用程式能夠存取並傳送 Experience API（xAPI）語句。
+     * 管理員角色讀寫存取權限：允許應用程式以管理員身份存取或修改資料。
+     * 學習者角色讀寫存取權：允許應用程式存取或修改學習者的資料。
+     * xAPI 讀寫存取：使應用程式能夠存取並傳送 Experience API（xAPI）語句。
 
    * **[!UICONTROL For this account only?]**
 
-      * **[!UICONTROL Yes]** - 若選擇「是」，則該應用程式對其他帳號管理員不見。
-      * **[!UICONTROL No]** - 如果你選擇「否」，其他帳號管理員也可以存取此應用程式，但他們必須使用應用程式 ID 才能存取此應用程式。 應用程式 ID 會在學習管理員應用程式編輯模式中產生並顯示。
+     * **[!UICONTROL Yes]** - 若選擇「是」，則該應用程式對其他帳號管理員不見。
+     * **[!UICONTROL No]** - 如果你選擇「否」，其他帳號管理員也可以存取此應用程式，但他們必須使用應用程式 ID 才能存取此應用程式。 應用程式 ID 會在學習管理員應用程式編輯模式中產生並顯示。
 
      ![替代文字](assets/register-an-app.png)
 
@@ -262,8 +263,8 @@ Adobe Learning Manager 的管理 API 允許管理員自動化並大規模管理�
 
 ### 包括
 
-Adobe Learning Manager API 可用於在建置自訂應用程式或無頭學習管理系統（LMS）時擷取有用資訊。API 端點還可以加入額外的「include」參數，以擷取預設接收資料相關的額外資訊。這些關係是資料模型關係，例如在撥打查詢使用者資料的通話時，你會收到使用者資訊以及管理者 ID 與 Adobe Learning Manager 帳號 ID 的關聯。透過 include 參數，你可以詳細擷取使用者資料，例如他們的經理資料和 Adobe Learning Manager 的帳號資料。
-簡言之， **include** 參數用於 API 呼叫中，在單一回應中擷取相關（連結）資源與主要資源。當你想存取巢狀或相依資料，例如課程模組或映射給學習者的技能，而不必另行呼叫 API 時，它非常有用。
+Adobe Learning Manager API 可用於在建置自訂應用程式或無頭學習管理系統（LMS）時擷取有用資訊。 API 端點還可以加入額外的「include」參數，以擷取預設接收資料相關的額外資訊。 這些關係是資料模型關係，例如在撥打查詢使用者資料的通話時，你會收到使用者資訊以及管理者 ID 與 Adobe Learning Manager 帳號 ID 的關聯。 透過 include 參數，你可以詳細擷取使用者資料，例如他們的經理資料和 Adobe Learning Manager 的帳號資料。
+簡言之， **include** 參數用於 API 呼叫中，在單一回應中擷取相關（連結）資源與主要資源。 當你想存取巢狀或相依資料，例如課程模組或映射給學習者的技能，而不必另行呼叫 API 時，它非常有用。
 
 主要好處：
 
@@ -912,7 +913,7 @@ PATCH https://learningmanager.adobe.com/primeapi/v2/users/<userID>
    ```
 
 5. 複製回覆中的 S3 網址。
-6. 把網址貼到瀏覽器裡。瀏覽器會提示你儲存或開啟 CSV 檔案。把檔案存到你的電腦裡。
+6. 把網址貼到瀏覽器裡。 瀏覽器會提示你儲存或開啟 CSV 檔案。 把檔案存到你的電腦裡。
 下載的檔案包含以下欄位：
 
 internalUserID、userEmail、customerDefinedUniqueUserId、name、managerEmail、userType、state、excludedFromGamification、pointsEarned、profile、roles、dateCreated、lastLoginDate、dateDeleted、uiLocale、contentLocale、timeZoneCode、userSource、群組、活動欄位、元資料，以及lastSocialActivityDate。

@@ -3,7 +3,10 @@ jcr-language: en_us
 title: Adobe Learning Manager 的無障礙功能
 description: 本文件概述了學習經理學習管理系統為身心障礙學習者所提供的無障礙支援。 同時也為使用者提供平台的導航選項與無障礙功能。
 contentowner: saghosh
-source-git-commit: c4d06af2eee167677fef050a3f2885dfd4c91446
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%

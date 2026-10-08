@@ -2,18 +2,19 @@
 title: 這次發布有什麼新意
 description: 了解 Adobe Learning Manager 2023 年 11 月版本中的新功能與增強功能。
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2367'
+source-wordcount: '2364'
 ht-degree: 0%
-
 ---
-
 # 這次發布有什麼新意
 
 ## 全新設計的使用者介面
 
-Adobe Learning Manager 使用者介面經過幾次更新，以提供更乾淨且更現代的使用體驗。 管理員和作者角色的登陸頁面已經重新設計，所有角色的 UI 主題也都已更新。 不過，選單、按鈕或連結的位置並未做任何更改，你仍能在原有位置找到它們。
+Adobe Learning Manager 使用者介面經過幾次更新，以提供更乾淨且更現代的使用體驗。 管理員和作者角色的登陸頁面已經重新設計，所有角色的 UI 主題也都已更新。 不過，選單、按鈕或連結的位置並未做任何更改，你仍能在原有位置找到這些。
 
 主題更新會自動套用到使用預設主題的帳號。 UI 主題更新不會影響已修改以使用自訂主題的帳號。 這類帳號需要切回預設主題才能獲得新主題更新。
 
@@ -40,7 +41,7 @@ Adobe Learning Manager 使用者介面經過幾次更新，以提供更乾淨且
 **我們有什麼建議？**
 
 * 調整畫面大小，保持畫面比例不變。 建議的最大標誌尺寸為 42 px（垂直）x 210 px（水平）。
-* 對許多帳戶來說，這條規則會自動適用;不需要任何變更。
+* 對許多帳戶來說，這會自動生效;不需要做任何更改。
 
 ## 原生可擴充性
 

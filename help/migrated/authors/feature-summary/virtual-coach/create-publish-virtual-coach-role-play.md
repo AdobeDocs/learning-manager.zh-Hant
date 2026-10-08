@@ -3,7 +3,10 @@ description: 學習如何創建、配置並發布虛擬教練角色扮演，從�
 jcr-language: en_us
 title: 創建並發佈虛擬教練角色扮演
 exl-id: f37e93ef-6d76-4b7c-b4c3-f3f8c57b143c
-source-git-commit: 449f25df93867bf4d5ec11af057f8da7c405a09f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '4850'
 ht-degree: 0%

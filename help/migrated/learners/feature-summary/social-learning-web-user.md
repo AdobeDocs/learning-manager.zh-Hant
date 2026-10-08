@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 學習管理中的社會學習
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3424'
 ht-degree: 0%
-
 ---
-
 # 學習管理中的社會學習
 
 學習如何作為學習者使用社交學習網路
@@ -161,7 +162,7 @@ Social Learning 是 Learning Manager 中的一個平台，讓使用者在非正�
    >
    >在 Social Learner 應用程式中，只有 **管理員** 有能力建立包含使用者群組（內部/外部）的私人看板。
    >
-   >除了管理員、作者、學習者、經理、講師等以外的其他使用者。 **無法** 建立包含使用者群組的私人看板。 他們無法在建立私人板時看到使用者群組&#x200B;**的區塊**。
+   >除了管理員、作者、學習者、經理、講師等以外的其他使用者， **都無法** 建立包含使用者群組的私人看板。 他們無法在建立私人板時看到使用者群組&#x200B;**的區塊**。
 
    僅管理員——當你選擇 **私人**&#x200B;時，你會看到兩個選項—— **使用者** 和 **使用者群組**。 選擇 **「使用者群組**」選項，然後將使用者群組加入你想要共享的私人看板。
 
@@ -245,7 +246,8 @@ Social Learning 是 Learning Manager 中的一個平台，讓使用者在非正�
 
 ### 在社群板貼文中標註使用者
 
-你可以在貼文或留言中標註特定董事會成員，使用@username。 標籤僅限於有該公告板存取權限的會員。要在社群論壇中標記用戶：
+你可以在貼文或留言中標註特定董事會成員，使用@username。 標籤僅限於有該公告板存取權限的會員。
+要在社群論壇中標記用戶：
 
 1. 以學習者身份登入 Adobe Learning Manager。
 2. 在左側導覽窗格選擇 **[!UICONTROL Social Learning]** 。

@@ -2,13 +2,14 @@
 title: Adobe Learning Manager 中的建議
 description: 推薦引擎的核心由 Learning Manager 全新的課程排名演算法驅動。 該演算法利用五千萬個數據點及五年累積的數百萬用戶學習數據，根據選課的可能性進行排名。 此排名確保大多數可選修課程會直接顯示給學習者。
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1490'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 中的建議
 
 ## 簡介
@@ -97,7 +98,7 @@ Adobe Learning Manager 的新推薦引擎簡化了管理員設定個人化推薦
 
 **上傳資料選項**
 
-推薦功能是可設定的。 所以你可以選擇主題/角色/等級，或選擇以下任一選項：僅產品/主題、僅角色、產品/主題與角色僅、僅角色層級或僅產品層級。
+推薦功能是可設定的。 所以你可以選擇主題/角色/等級，或選擇以下任一選項：僅產品/主題、僅角色、產品/主題與角色、僅角色層級或僅產品層級。
 
 根據你選擇的建議配置，相應地修改你的資料表。
 
@@ -143,7 +144,7 @@ Adobe Learning Manager 的新推薦引擎簡化了管理員設定個人化推薦
 | 111 | 河道 | Python 101 | 資料科學 | 分析師 | 分析師：中級 | 資料 | 一般 |
 | 222 | 河道 | 茱莉亞101 | 資料科學 | 分析師 | 分析師：進階 | 資料 | 一般 |
 
-請填寫這些 CSV，並聯絡您的客戶成功團隊，下載格式並上傳這些 CSV。
+請填寫這些 CSV，並聯絡您的客戶成功團隊下載格式並上傳這些 CSV。
 
 ## 讓推薦內容即時發布
 

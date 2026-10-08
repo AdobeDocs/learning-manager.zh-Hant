@@ -4,13 +4,14 @@ title: Adobe Learning Manager 行動應用程式中的白標
 description: 白標是指將應用程式或服務重新包裝成自己的品牌，並像你是原始創作者一樣進行客製化。 在 Adobe Learning Manager 中，你可以對行動應用程式套用白標，這樣你就能重新品牌化應用程式，並以你自己的品牌讓使用者使用該應用程式。
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 0%
-
 ---
-
 # Adobe Learning Manager 行動應用程式中的白標
 
 Adobe Learning Manager 行動應用程式現在支援白標，這表示你可以以自己的品牌發佈應用程式。
@@ -295,7 +296,7 @@ ALM 將依照以下時間表提供更新的白標二進位檔案：
 keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
 ```
 
-在輸出中，找到憑證指紋，然後複製 SHA-256 的值。 根據需要，分享此指紋以便深度連結設定。
+在輸出中，找到憑證指紋，然後複製 SHA-256 的值。 根據需要，分享此指紋，以配合你的深度連結設定。
 
 ## 產生推播通知
 
@@ -338,9 +339,9 @@ Android 和 iOS 都使用 Firebase Cloud Messaging （FCM） 作為向裝置發�
 
 ### Android 上的推播通知
 
-對於 Android，使用者需要提供 Firebase 專案中的 services.json 檔案，以便在 SNS 服務中新增條目。
+對於 Android，使用者需要提供 Firebase 專案中的 services.json 檔案，以便在 SNS 服務中加入條目。
 
-在 Firebase 建立專案，並將 services.json 檔案分享給 CSM 團隊。 此檔案用於 SNS 中基於標記的輸入。 請注意，伺服器金鑰已不再使用。 請參見 [Firebase](#create-project-in-firebase) 中的 Create 專案。
+在 Firebase 建立專案，並將 services.json 檔案分享給 CSM 團隊。 此檔案用於在 SNS 中基於標記的輸入。 請注意，伺服器金鑰已不再使用。 請參見 [Firebase](#create-project-in-firebase) 中的 Create 專案。
 
 要下載services.json檔案，請依照以下步驟操作：
 

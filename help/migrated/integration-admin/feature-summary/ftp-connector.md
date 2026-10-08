@@ -3,13 +3,14 @@ description: 學習如何將 FTP 連接器整合到 Adobe Learning Manager
 jcr-language: en_us
 title: FTP 連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 FTP 連接器
 
@@ -304,9 +305,9 @@ _地圖欄位_
    - **時間：** 處理所需總時間。
    - **進口類型：** 是預定還是按需匯入。
    - **目前狀態：** 即時狀態資訊。
-      - **進行中：** 目前正在進行的匯入
-      - **完成：** 成功完成並有紀錄計數
-      - **失敗：** 診斷資訊發生錯誤
+     - **進行中：** 目前正在進行的匯入
+     - **完成：** 成功完成並有紀錄計數
+     - **失敗：** 診斷資訊發生錯誤
 
 ## 故障排除匯入失敗
 

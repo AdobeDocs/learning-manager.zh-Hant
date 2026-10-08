@@ -3,7 +3,10 @@ title: Adobe Learning Manager 管理帳號生命週期
 description: 本文件提供全面指引，說明如何在 Adobe Learning Manager （ALM） 中安全管理頂層管理帳戶，以符合 FedRAMP 合規及最佳安全實務。
 jcr-language: en-us
 exl-id: 79049f3d-8ebe-47e7-9895-9a7aaee504b3
-source-git-commit: 88298726a8cd4622e412200b3318e18890817ae8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 0%
@@ -234,7 +237,7 @@ Adobe Learning Manager 採用共同責任模式：
 * Adobe 負責保護底層的 ALM 平台與基礎設施。
 * 客戶需負責管理其 ALM 帳戶中的管理權限、角色指派及使用者生命週期活動。
 
-關於 Adobe Learning Manager 安全實務的更多資訊，請參閱 [Adobe Learning Manager 安全概覽（PDF）](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=zh-Hant)
+關於 Adobe Learning Manager 安全實務的更多資訊，請參閱 [Adobe Learning Manager 安全概覽（PDF）](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## 文件維護
 

@@ -3,13 +3,14 @@ title: Adobe Learning Manager - 安全設定與組態管理
 description: 本文件說明 Adobe Learning Manager 的管理帳號類型、安全相關設定、建議的安全預設、API 功能、匯出功能、設定比較方法、發佈慣例及版本歷史。 它詳細說明了特權帳號的運作方式、其安全影響，以及整個平台如何支援配置管理。
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
-
 ---
-
 # 安全設定與組態管理
 
 本指南提供對 Adobe Learning Manager（ALM）FedRAMP 建議（FRR-RSC-03 至 FRR-RSC-08）的詳細回應。 它概述了安全最佳實務、建議的安全預設值，以及用於審核、匯出和管理特權帳號設定的工具。 本文件旨在為管理員及合規團隊設計，以確保 ALM 帳戶的安全配置與管理。

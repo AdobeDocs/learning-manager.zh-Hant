@@ -3,13 +3,14 @@ description: 了解如何將 Training Data Access 連接器整合到 Adobe Learn
 jcr-language: en_us
 title: 訓練資料存取連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的訓練資料存取連接器
 
@@ -29,7 +30,7 @@ ht-degree: 0%
 
 ## 設定訓練資料存取連接器
 
-你可以將 Adobe Learning Manager 整合到資料儲存與搜尋系統，將訓練中繼資料推送到 AEM 網站或其他無頭體驗。
+你可以將 Adobe Learning Manager 與資料儲存與搜尋系統整合，將訓練中繼資料推送到 AEM 網站或其他無頭體驗。
 
 要設定連接器：
 
@@ -108,7 +109,7 @@ Adobe Learning Manager 中的未登入體驗可透過 **訓練資料存取** 連
 
 ### 高級服務
 
-此高級方案協助使用者建立無頭介面，該介面由 **訓練資料存取** 連接器設定。 這讓使用者能即時取得課程與學習路徑的詳細資訊，如名稱、描述、作者、技能、時長等。在混合式學習情境中，你還會看到即時的名額限制、已佔名額、候補名單限制和候補名單數量。 客戶可利用這些 API 建立搜尋與篩選功能，並為未登入學習者提供完整的課程摘要。
+此高級方案協助使用者建立無頭介面，該介面由 **訓練資料存取** 連接器設定。 這讓使用者能即時取得課程與學習路徑的詳細資訊，如名稱、描述、作者、技能、時長等。在混合式學習情境中，你還能即時獲得名額限制、已佔名額、候補名單限制及候補名單數量。 客戶可利用這些 API 建立搜尋與篩選功能，並為未登入學習者提供完整的課程摘要。
 
 客戶可以購買高級方案，打造這種高度可擴展的非登入體驗。
 

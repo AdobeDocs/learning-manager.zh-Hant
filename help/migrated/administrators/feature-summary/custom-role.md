@@ -4,13 +4,14 @@ title: 自訂角色
 description: 學習路徑功能幫助你定義自訂角色，並指派特定職責給一組使用者。 此功能允許您指派個人現有職務範圍之外的職責。
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: a45822a6aa320440243fd93855fff88766391372
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5416'
 ht-degree: 0%
-
 ---
-
 # 自訂角色
 
 此功能幫助您定義自訂角色，並將特定職責指派給一組使用者。 此功能允許您指派個人現有職務範圍之外的職責。

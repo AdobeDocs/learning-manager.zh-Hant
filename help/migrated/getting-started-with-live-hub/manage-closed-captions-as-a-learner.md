@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 中管理學習者的隱藏字幕
 description: 學習學習者如何在 Live Hub 課程中顯示隱藏字幕，並自訂字體大小與說明風格。
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 0%
-
 ---
-
 
 # 學習者管理隱藏字幕
 

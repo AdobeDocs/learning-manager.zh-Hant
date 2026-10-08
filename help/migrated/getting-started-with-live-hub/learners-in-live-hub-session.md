@@ -1,13 +1,14 @@
 ---
 title: 以學習者身份參與 Live Hub 課程
 description: 了解學習者如何加入 Live Hub 課程，透過聊天、投票、測驗和分組討論參與，並在結束後檢視錄影。
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
-
 ---
-
 
 # 以學習者身份參與 Live Hub 課程
 

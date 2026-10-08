@@ -1,36 +1,37 @@
 ---
 jcr-language: en_us
 title: 使用者登入
-description: 第一次使用Adobe Learning Manager時，您需要建立帳戶。
+description: 當你第一次使用 Adobe Learning Manager 時，你需要建立你的帳號。
 contentowner: manochan
 exl-id: f8f0ac74-606e-40ac-81c7-1c3d2fa9a0bf
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '136'
+source-wordcount: '138'
 ht-degree: 0%
-
 ---
-
 # 使用者登入
 
-第一次使用Adobe Learning Manager時，您需要依照下列步驟建立帳戶：
+當您首次使用 Adobe Learning Manager 時，需依照以下步驟建立帳號：
 
-1. 使用您透過歡迎電子郵件從管理員那裡收到的安全連結來啟動Adobe Learning Manager。
+1. 請使用管理員收到的歡迎電子郵件安全連結啟動 Adobe Learning Manager。
 
-   登入畫面隨即顯示。
+   登入畫面出現。
 
-1. 按一下「登入」。
+1. 點擊登入。
 
 ![](assets/adobeid-signin.png)
 
-*登入Adobe Learning Manager*
+*登入 Adobe Learning Manager*
 
-1. 輸入Adobe ID、密碼並按一下&#x200B;**[!UICONTROL Sign in]**。
+1. 輸入 Adobe ID、密碼並點擊 **[!UICONTROL Sign in]**。
 
-   如果您忘記密碼，請按一下「**[!UICONTROL Forgot password?]**」連結，並提供您用來建立Adobe ID的電子郵件ID。
+   如果你忘記密碼，請點擊 **[!UICONTROL Forgot password?]** 連結並提供你用來建立 Adobe ID 的電子郵件 ID。
 
-1. 或者，您也可以按一下&#x200B;**[!UICONTROL Sign in with an Enterprise ID link]**&#x200B;來使用Enterprise ID。
+1. 或者，你也可以點擊 **[!UICONTROL Sign in with an Enterprise ID link]** Enterprise ID 來使用。
 
 >[!NOTE]
 >
->第一次登入後，您的Adobe ID就會與公司帳戶建立關聯。 對於任何後續的登入，您可以將您在歡迎郵件中收到的帳戶URL （第二個URL）加入書籤。
+>當你第一次登入時，你的 Adobe ID 會與你的公司帳號綁定。 在後續登入時，你可以將你在歡迎信中收到的帳號網址（第二個網址）加入書籤。

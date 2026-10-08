@@ -4,13 +4,14 @@ title: Preview as learner
 description: Fluidic Player 是一個讓學習者能以不間斷且混合式學習體驗的方式消費內容的平台。 所有支援的格式在此播放器中都能穩定播放。 作者與管理員可透過播放器預覽內容。
 contentowner: manochan
 exl-id: 68d43f50-f2ad-4c7e-8e5b-62ddd8097770
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 1%
-
 ---
-
 # Preview as learner
 
 ## 流體演奏者 {#fluidicplayer}

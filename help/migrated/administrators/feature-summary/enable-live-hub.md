@@ -1,13 +1,14 @@
 ---
 title: 在 Adobe Learning Manager 啟用 Live Hub（測試版）
 description: 了解如何讓管理員為帳號啟用 Live Hub，將其設為預設虛擬教室服務提供者，並啟用 AI 驅動的 Live Hub 助理。
-source-git-commit: 552ecc22af6d59d80bda48a05ed8b950a500ee0a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 0%
-
 ---
-
 
 # 在 Adobe Learning Manager 啟用 Live Hub（測試版）
 

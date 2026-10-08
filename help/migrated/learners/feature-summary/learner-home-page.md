@@ -4,13 +4,14 @@ title: 學習者首頁
 description: 管理員啟用沉浸式版面後，學習者登入應用程式後，會看到全新設計的使用者介面。
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 0%
-
 ---
-
 # 學習者首頁
 
 ## 概觀 {#overview}

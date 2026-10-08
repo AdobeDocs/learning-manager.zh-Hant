@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 報表建構器中的可用資料集
 description: 在 Adobe Learning Manager 報告建器中產生、與其他管理員分享，並排程報告的交付。
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 0%
-
 ---
-
 
 # 下載、分享並訂閱報告
 

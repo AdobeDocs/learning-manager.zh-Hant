@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 建立課程實例與學習路徑
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '5908'
+source-wordcount: '5918'
 ht-degree: 0%
-
 ---
-
 # 建立課程實例與學習路徑
 
 本文件包含協助建立管理員角色的課程模組、實例與課程。
@@ -94,7 +95,7 @@ ht-degree: 0%
 
 >[!INFO]
 >
->在這套訓練中，你將學習如何編輯實例細節與實例屬性。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>在本次訓練中，您將學習如何編輯實例細節與實例屬性。<br><br>[![按鈕](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 如果你無法啟動訓練，請寫信至 <almacademy@adobe.com>。
 

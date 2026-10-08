@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 在 Adobe Learning Manager 提交外部學習
 description: 經理可審查團隊成員提交的外部學習申請，核實細節及完成證明，並以自願評論批准或拒絕每項申請。 核通過的提交會被加入學習者成績單。
 contentowner: saghosh
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 0%
-
 ---
-
 
 # 以經理的身份檢視外部學習請求
 

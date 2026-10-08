@@ -2,13 +2,14 @@
 description: 內容撰寫者主題 JSON 架構中所有屬性的完整參考——包括調色盤標記、字型堆疊、半徑與間距標記、文字角色值、元件屬性及評估樣式。
 jcr-language: en_us
 title: Adobe Learning Manager 內容作曲家主題 JSON 屬性參考
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 2%
-
 ---
-
 
 # Adobe Learning Manager 內容作曲家主題 JSON 屬性參考
 

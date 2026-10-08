@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 監控虛擬教練的使用情況
 description: 監控你的帳號如何使用虛擬教練。
 contentowner: mmanuel
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '733'
 ht-degree: 1%
-
 ---
-
 
 # 監控虛擬教練的使用情況
 
@@ -22,7 +23,8 @@ ht-degree: 1%
 1. 以管理員身份登入 Adobe Learning Manager。
 2. 從 **左側導覽窗格進入帳單** 頁面。
 3. 在 **虛擬教練** 區，輸入你收到的啟動金鑰。
-4. 選擇 **「申請」**。虛擬教練已啟用於你的帳號。   ![](assets/virtual-coach-037.png)
+4. 選擇 **「申請」**。 虛擬教練已啟用於你的帳號。
+   ![](assets/virtual-coach-037.png)
 
 啟用後，你會收到應用程式內通知，確認該功能已上線。 四個範例角色扮演情境會自動加入內容庫，讓作者能立即開始。
 
@@ -36,7 +38,8 @@ ht-degree: 1%
 
 1. 請前往 **帳單** 頁面。
 2. 在 **虛擬教練** 區塊中，選擇 **查看使用詳情**。
-3. 使用 **「選擇期間** 」下拉選單，選擇你想檢視的日期範圍。   ![](assets/virtual-coach-038.png)
+3. 使用 **「選擇期間** 」下拉選單，選擇你想檢視的日期範圍。
+   ![](assets/virtual-coach-038.png)
 
    **整體使用**&#x200B;量表顯示：
 
@@ -117,6 +120,7 @@ AI 報告&#x200B;**頁面>>**&#x200B;**「管理**」報告&#x200B;**區塊提�
 1. 以管理員身份登入 Adobe Learning Manager。
 2. 在左側導覽欄選出 **「報告** 」。
 3. 選擇 **AI 報告**。
-4. 在 **虛擬教練** 區塊中，選擇你想下載的報告—— **學習者使用摘要** 或 **課程詳情**。   ![](assets/virtual-coach-039.png)
+4. 在 **虛擬教練** 區塊中，選擇你想下載的報告—— **學習者使用摘要** 或 **課程詳情**。
+   ![](assets/virtual-coach-039.png)
 5. 當提示時選擇日期範圍，然後選擇 **繼續**。
 6. 報告會自動下載為 CSV 檔案。

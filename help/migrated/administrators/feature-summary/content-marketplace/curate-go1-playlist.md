@@ -3,7 +3,10 @@ description: 學習如何在 Adobe Learning Manager 的學習路徑中建立並�
 jcr-language: en_us
 title: Curate Go1 播放清單到 Adobe Learning Manager 學習路徑
 exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 0%

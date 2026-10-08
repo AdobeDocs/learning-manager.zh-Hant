@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 管理學習管理經理的訂單與帳單
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2413'
 ht-degree: 0%
-
 ---
-
 
 # 管理學習管理經理的訂單與帳單
 

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: 工作輔助工具
 description: 工作輔助工具是一個培訓內容的資料庫，學習者無需註冊或完成標準即可取得。 學習者可以參考這些工作輔助工具，協助執行組織中的任何活動或任務。
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1076'
 ht-degree: 0%
-
 ---
-
 # 工作輔助工具
 
 **工作輔助** 工具是一個培訓內容的資料庫，學習者無需註冊或完成標準即可取得。 學習者可以參考這些工作輔助工具，協助執行組織中的任何活動或任務。

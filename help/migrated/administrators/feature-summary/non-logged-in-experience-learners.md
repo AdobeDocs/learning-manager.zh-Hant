@@ -2,13 +2,14 @@
 title: 學習者未登入的經驗
 description: Adobe Learning Manager 原生入口網站將支援無需登入的方式存取培訓網站。 啟用此模式後，學習者可以發現並存取培訓網站，並瀏覽各種課程與內容。 未登入體驗讓學習者無需登入入口網站即可瀏覽課程。
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
-
 ---
-
 # 學習者未登入的經驗
 
 Adobe Learning Manager 原生入口網站將支援無需登入的方式存取培訓網站。 啟用此模式後，學習者可以發現並存取培訓網站，並瀏覽各種課程與內容。

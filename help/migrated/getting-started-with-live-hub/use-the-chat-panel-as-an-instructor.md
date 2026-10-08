@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 裡以講師身份使用聊天面板
 description: 了解講師如何在 Live Hub 課程中存取、管理及自訂聊天面板，包括回覆、反應、提及、私人聊天及 AI 輔助回應。
-source-git-commit: 96d6f198b012e7a449fdc17a24f0655e7fa122cb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1195'
 ht-degree: 0%
-
 ---
-
 
 # 以講師身份使用聊天面板
 

@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 中建立並管理測驗
 description: 學習講師如何在 Live Hub 課程中建立、編輯、啟動及管理多題測驗並計分，並與學習者分享成果。
-source-git-commit: 40728879f022d9504f6a0013c8da86365afc7709
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
-
 ---
-
 
 # 建立並管理測驗
 

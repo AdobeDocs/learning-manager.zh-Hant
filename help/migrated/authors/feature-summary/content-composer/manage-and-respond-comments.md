@@ -2,13 +2,14 @@
 description: 學習如何在內容撰寫者評論面板中查看和管理留言，包括如何回覆、解決、使用 @ 提及評論者、依審核者、時間或狀態篩選，以及標記留言為已解決。
 jcr-language: en_us
 title: 管理並回應留言
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%
-
 ---
-
 
 # 管理並回應留言
 

@@ -2,13 +2,14 @@
 title: 從 Adobe FTP Manager 轉換
 description: Adobe Learning Manager 支援使用 AWS Transfer 家族 SFTP 協定的新連接器。 你可以用 Adobe FTP Manager 取代任何開源 FTP 用戶端。
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
-
 ---
-
 # 從 Adobe FTP Manager 轉換
 
 Adobe Learning Manager 支援使用 AWS Transfer 家族 SFTP 協定的新連接器。
@@ -124,7 +125,7 @@ Adobe Learning Manager 支援使用 AWS Transfer 家族 SFTP 協定的新連接�
    ![密碼](assets/password.png)
    *輸入密碼*
 
-   （可選）選擇 **[!UICONTROL Always trust this host]** 勾選方塊以信任主機。
+   （可選）選擇 **[!UICONTROL Always trust this host]** 信任主機的勾選框。
 
 1. 點擊確定。
 

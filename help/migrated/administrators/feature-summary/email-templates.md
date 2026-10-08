@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 電子郵件範本
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1692'
 ht-degree: 0%
-
 ---
-
 # 電子郵件範本
 
 你訓練活動中的事件會觸發發送給學習者的電子郵件。 作為管理員，你可以輕鬆啟用、停用或修改這些電子郵件範本。

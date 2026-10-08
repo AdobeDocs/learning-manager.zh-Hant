@@ -2,13 +2,14 @@
 description: 從學習者的角度看，關於成績簿的一切
 jcr-language: en_us
 title: 學習者成績簿
-source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 0%
-
 ---
-
 
 # 學習者成績簿
 

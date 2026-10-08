@@ -3,13 +3,14 @@ description: ALM 中的 API 變更
 jcr-language: en_us
 title: 四月發布時的 API 變更
 exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4093'
+source-wordcount: '4106'
 ht-degree: 0%
-
 ---
-
 # 2026 年 4 月版本中的 API 變更
 
 2026 年 4 月的 Adobe Learning Manager 版本針對公開 API 進行了針對替代方案與等效功能的專注強化，包括內容時窗存取、內容導向測驗嘗試、非登入體驗，以及職業輔助處理。 這些變更設計上大致向下相容，同時允許更精確的整合。
@@ -83,8 +84,8 @@ GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit
 - 當 isAlternateComplete == false：\
   把這張唱片當作 __LO 的直接完成__，就像現在一樣。
 - 當 isAlternateComplete == 真：
-   - 在報告中標記該紀錄為&#x200B;__替代完成__（例如，「完成方法」欄位，值為 DIRECT 與 ALTERNATE）。
-   - 使用 relationships.alternateCompletions.data[*].id 來記錄&#x200B;__哪個來源 LO__ 給予了這個完成（例如：「Course B completed via alternate course A」）。
+  - 在報告中標記該紀錄為&#x200B;__替代完成__（例如，「完成方法」欄位，值為 DIRECT 與 ALTERNATE）。
+  - 使用 relationships.alternateCompletions.data[*].id 來記錄&#x200B;__哪個來源 LO__ 給予了這個完成（例如：「Course B completed via alternate course A」）。
 
 典型使用案例：
 
@@ -120,8 +121,8 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
   例如，審閱者對學習者留下的自由文字評論：\
   「checklistComment」：「表現優異！ 所有安全規範都正確遵守。」\
   此屬性僅&#x200B;_在以下情況下被_&#x200B;填入：
-   - showChecklistComment 為真，且
-   - 清單設定已啟用enable_reviewer_remarks。
+  - showChecklistComment 為真，且
+  - 清單設定已啟用enable_reviewer_remarks。
 - attributes.showchecklistComment\
   一個布林旗標示是否應該向學習者展示審稿人意見：\
   “showChecklistComment”： true\
@@ -171,30 +172,30 @@ GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources
 ```
 
 - 回應如下：
-   - 使用 mainingObject 中的 relationships.instances 來找到包含中相關的 learningObjectInstance 條目。
-   - 從每個 learningObjectInstance 中，依照 relationships.loResources 尋找 learningObjectResource 條目。
-   - 篩選 learningObjectResource 條目，其中：
-      - attributes.resourceSubType == “CHECKLIST”（用於檢查清單資源），以及
-      - 可選擇性地 attributes.showChecklistComment == true 來尋找有學習者可見註解的檢查清單。
+  - 使用 mainingObject 中的 relationships.instances 來找到包含中相關的 learningObjectInstance 條目。
+  - 從每個 learningObjectInstance 中，依照 relationships.loResources 尋找 learningObjectResource 條目。
+  - 篩選 learningObjectResource 條目，其中：
+    - attributes.resourceSubType == “CHECKLIST”（用於檢查清單資源），以及
+    - 可選擇性地 attributes.showChecklistComment == true 來尋找有學習者可見註解的檢查清單。
 
 - 對於每個檢查清單 learningObjectResource，請消耗：
-   - attributes.checklistComment（如果存在且 showChecklistComment 為真）
-   - attributes.checklistEvaluationStatus（例如：「PASSED」）
-   - attributes.showReviewerNameToLearner
-   - relationships.checklistReviewedBy （在存在時）用以識別審查者。
+  - attributes.checklistComment（如果存在且 showChecklistComment 為真）
+  - attributes.checklistEvaluationStatus（例如：「PASSED」）
+  - attributes.showReviewerNameToLearner
+  - relationships.checklistReviewedBy （在存在時）用以識別審查者。
 
 此模式允許無頭或自訂客戶端直接從 Prime API 呈現完整的檢查清單體驗，包括狀態、強制/可選標誌，以及審核者回饋。
 
 ### 報告與使用者體驗考量
 
 - _報告與分析_&#x200B;追蹤學習者在清單上的表現的整合可以包含：
-   - checklistEvaluationStatus，用於通過/不通過或其他狀態指標。
-   - isCheckList 必須區分必需與可選的檢查清單活動。
-   - 檢視回饋覆蓋度的檢查清單與顯示清單評論。
+  - checklistEvaluationStatus，用於通過/不通過或其他狀態指標。
+  - isCheckList 必須區分必需與可選的檢查清單活動。
+  - 檢視回饋覆蓋度的檢查清單與顯示清單評論。
 - _學習者體驗_&#x200B;使用者介面實作應：
-   - 在顯示評論前請尊重 showChecklistComment。
-   - 請使用 showReviewerNameToLearner 和 checklistReviewedBy 來決定是否顯示評論者姓名或保持匿名。
-   - 當評論被停用或不存在時，請優雅地退回，仍顯示評估狀態和提交資訊。
+  - 在顯示評論前請尊重 showChecklistComment。
+  - 請使用 showReviewerNameToLearner 和 checklistReviewedBy 來決定是否顯示評論者姓名或保持匿名。
+  - 當評論被停用或不存在時，請優雅地退回，仍顯示評估狀態和提交資訊。
 
 ## 多語言就業援助支援
 
@@ -219,21 +220,21 @@ GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources
 多語言工作輔助工具的用途：
 
 - _learningObject（類型：learningObject）_
-   - 包含多條目（例如en-us、fr-fr）的在地化元資料，讓客戶能以適當語言呈現工作協助標題/描述。
+  - 包含多條目（例如en-us、fr-fr）的在地化元資料，讓客戶能以適當語言呈現工作協助標題/描述。
 - _learningObjectInstance（類型：learningObjectInstance）_
-   - 指的是透過 relationships.loResources 的一個或多個 learningObjectResource 條目。
+  - 指的是透過 relationships.loResources 的一個或多個 learningObjectResource 條目。
 - _learningObjectResource（類型：learningObjectResource）_
-   - 包含常見設定（內容類型、版本等） 以及多地點在地元資料。
-   - 透過 relationships.resources 連結到一個或多個資源實體。
+  - 包含常見設定（內容類型、版本等） 以及多地點在地元資料。
+  - 透過 relationships.resources 連結到一個或多個資源實體。
 - _資源（類型：資源）_
-   - *每個地區*&#x200B;有一個，每個區域都有自己的 ID、地點、名稱和網址（位置/下載網址）。
+  - *每個地區*&#x200B;有一個，每個區域都有自己的 ID、地點、名稱和網址（位置/下載網址）。
 
 對於多語言工作輔助工具，典型的模式是：
 
 - learningObjectResource 提供 en-US 與 fr-FR 的 localizedMetadata
 - 指向：
-   - 資源附地點：「en-us」
-   - 資源附帶地點：「FR-FR」
+  - 資源附地點：「en-us」
+  - 資源附帶地點：「FR-FR」
 
 用戶端可透過將學習者的所在地與 resource.attributes.locale 欄位匹配來選擇合適的資源。
 
@@ -245,7 +246,7 @@ _舊的（舊有）資源 ID 格式_
 
 過去，工作協助資源使用的是不透明的識別格式，例如：
 
-jobAid:131032_-1_-1_2_resource
+jobAid：131032_-1_-1_2_resource
 
 此格式不編碼區域，API 實際上只會暴露單一資源（通常是美國）。
 
@@ -259,9 +260,9 @@ jobAid:<jobAidId>_<version>_<localeCode>
 
 舉例：
 
-- jobAid:131032_2_en-US
-- jobAid:131032_2_fr_FR
-- jobAid:131032_2_es_ES
+- jobAid：131032_2_en-US
+- jobAid：131032_2_fr_FR
+- jobAid：131032_2_es_ES
 
 視覺解析：
 
@@ -296,24 +297,24 @@ jobAid:131032_2_fr_FR
 
 它現在&#x200B;_同時向下相容_&#x200B;舊有與新 ID 格式：
 
-- _舊的身分證格式_（例如，jobAid:131032_-1_-1_2_resource）
-   - 持續有效。
-   - 回傳&#x200B;_與該舊有識別碼相關的第一個建立資源_（通常是原始的美國資源）。
-- _新的 ID 格式_（例如 jobAid:131032_2_fr_FR）
-   - 回傳&#x200B;_與該 ID 對應的精確區域資源_。
-   - 這使得能精確檢索並操作局部工作輔助變體。
+- _舊的ID格式_（例如，jobAid：131032_-1_-1_2_resource）
+  - 持續有效。
+  - 回傳&#x200B;_與該舊有識別碼相關的第一個建立資源_（通常是原始的美國資源）。
+- _新的身分證格式_（例如，jobAid：131032_2_fr_FR）
+  - 回傳&#x200B;_與該 ID 對應的精確區域資源_。
+  - 這使得能精確檢索並操作局部工作輔助變體。
 
 目前儲存或參考舊資源 ID 的整合系統可繼續運作且不需更改，而較新的實作則鼓勵採用新的 ID 格式以執行區域特定操作。
 
 ### 整合與使用者體驗考量
 
 - _學習者/管理員使用者介面_
-   - 請使用 learningObject.localizedMetadata 和 learningObjectResource.localizedMetadata，以適當語言呈現標題與描述。
-   - 使用 resource.attributes.locale 選擇學習者所在位置的正確網址（location/downloadUrl）。
-   - 如果無法取得學習者的確切所在地，請實作備援行為（例如退回 en-US）。
+  - 請使用 learningObject.localizedMetadata 和 learningObjectResource.localizedMetadata，以適當語言呈現標題與描述。
+  - 使用 resource.attributes.locale 選擇學習者所在位置的正確網址（location/downloadUrl）。
+  - 如果無法取得學習者的確切所在地，請實作備援行為（例如退回 en-US）。
 - _API 與儲存_
-   - 對於新的整合，請儲存&#x200B;_新格式的資源 ID（_`jobAid:<jobAidId>_<version>_<localeCode>`），以實現明確的區域特定檢索。
-   - 舊有 ID 仍可搭配 /resources/{resourceId} 使用，但無法區分不同地區。
+  - 對於新的整合，請儲存&#x200B;_新格式的資源 ID（_`jobAid:<jobAidId>_<version>_<localeCode>`），以實現明確的區域特定檢索。
+  - 舊有 ID 仍可搭配 /resources/{resourceId} 使用，但無法區分不同地區。
 
 ## 起始模組的時間槽限制
 
@@ -359,7 +360,7 @@ jobAid:131032_2_fr_FR
 
 例如：
 
-jobAid:131032_2_fr_FR
+jobAid：131032_2_fr_FR
 
 組成部分包括：
 
@@ -421,8 +422,8 @@ id,courseName,courseCreationDate,state,author,thumbnailUrl,bannerUrl
 
 - _透過遷移建立的新課程_&#x200B;當賽道首次從course.csv建立且橫幅欄被填滿時，該橫幅會立即設定。
 - _現有課程（改裝/修正）_&#x200B;如果你用相同的課程 ID 和新的橫幅值重新執行遷移：
-   - 學習經理會找到現有課程。
-   - 橫幅映像會 _更新_ 為 CSV 中指定的新圖片。
+  - 學習經理會找到現有課程。
+  - 橫幅映像會 _更新_ 為 CSV 中指定的新圖片。
 
 您的實際欄位名稱和路徑必須與下載的 CSV 規格&#x200B;_及內容庫配置相符_。
 
@@ -445,10 +446,10 @@ Adobe Learning Manager 現在支援在遷移過程中，學習路徑（學習程
 
 - 遷移期間，不要依賴命令來控制學習計畫中的課程順序。
 - 如果你還有舊模板的訂單欄位：
-   - 學習管理器會忽略它來處理訂單。
-   - 你可以安全地隨著時間從 CSV 中移除，以簡化遷移檔案。
+  - 學習管理器會忽略它來處理訂單。
+  - 你可以安全地隨著時間從 CSV 中移除，以簡化遷移檔案。
 - 核心所需的映射仍為：
-   - 學習程式識別碼↔課程識別碼（以及其他仍被記錄的欄位，如 id、learningProgramId、courseId、日期）。
+  - 學習程式識別碼↔課程識別碼（以及其他仍被記錄的欄位，如 id、learningProgramId、courseId、日期）。
 
 請務必參考 Learning Manager 帳號（透過 csv _specifications.zip）最新的[_ CSV 規格_](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/migration-manual) ，以確認目前的標頭集和需求。
 
@@ -552,9 +553,9 @@ Adobe Learning Manager 提供兩個 _管理非同步 API_ 來管理使用者群�
 - [基礎網址（生產環境）](https://learningmanager.adobe.com/docs/primeapi/v2/)
 - 認證：OAuth 2.0 存取權杖，具有 `admin:write` 範圍
 - 必填標頭：
-   - 授權：持有者 &lt;access_token>
-   - Content-Type： application/json
-   - Accept： application/json
+  - 授權：持有者 &lt;access_token>
+  - Content-Type： application/json
+  - Accept： application/json
 
 關於一般的管理員 API 行為與範圍，請參見：
 
@@ -611,7 +612,7 @@ Adobe Learning Manager 提供兩個 _管理非同步 API_ 來管理使用者群�
 
 限制條件：
 
-- 選修;可完全省略。
+- 可選;可完全省略。
 - 所有鍵與值的總長度不得超過 1000 字元。
 
 ### 回應格式
@@ -696,4 +697,4 @@ ID 格式從以下數值變更：
 
 `jobAid:<jobAidId>_<version>_<localeCode>`
 
-例如JobAid:131032_2_fr_FR。 任何儲存或解析 Job Aid 資源 ID 的系統都必須更新，且你應計劃在升級至 2026 年 4 月版本後重建以這些 ID 為關鍵的本地索引。
+例如jobAid：131032_2_fr_FR。 任何儲存或解析 Job Aid 資源 ID 的系統都必須更新，且你應計劃在升級至 2026 年 4 月版本後重建以這些 ID 為關鍵的本地索引。

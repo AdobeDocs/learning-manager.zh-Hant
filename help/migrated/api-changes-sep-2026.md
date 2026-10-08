@@ -2,7 +2,10 @@
 description: 公開且面向學習者的 API 端點，用於在 Adobe Learning Manager 中列出、檢索、註冊及刪除個人化學習路徑，以及 API 端點，用以檢查是否透過指派給學習者的目錄直接存取一個或多個學習物件。
 jcr-language: en_us
 title: 2026 年 9 月的 API 變更
-source-git-commit: 328d899c05384ff522f7f6413d2a451139f066ee
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1374'
 ht-degree: 1%

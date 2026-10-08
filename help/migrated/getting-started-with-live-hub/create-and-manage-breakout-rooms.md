@@ -1,13 +1,14 @@
 ---
 title: 在 Live Hub 建立並管理分組討論
 description: 學習講師如何在 Live Hub 課程中建立、設定、啟動、監控及管理分組討論室，包括 AI 生成的會議摘要與報告。
-source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 0%
-
 ---
-
 
 # 創建並管理分組討論
 

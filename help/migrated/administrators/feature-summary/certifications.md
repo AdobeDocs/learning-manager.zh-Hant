@@ -4,13 +4,14 @@ jcr-language: en_us
 title: 認證
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
-
 ---
-
 # 認證
 
 學習如何建立認證、招募學習者，以及編輯已發表的認證。

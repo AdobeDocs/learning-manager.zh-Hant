@@ -3,13 +3,14 @@ description: Adobe Learning Manager 中的 Box 連接器
 jcr-language: en_us
 title: 盒式連接器
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 中的 Box 連接器
 
@@ -30,7 +31,7 @@ ht-degree: 0%
 要在 Adobe Learning Manager 中設定 Box 連接器：
 
 1. 以整合管理員身份登入 Adobe Learning Manager。
-2. 將滑鼠移到 **盒子** 格子上。
+2. 將滑鼠移到盒子&#x200B;**格**&#x200B;子上。
 3. 選擇 **「連接**」。
 
    ![](assets/box-connector1.png)
@@ -174,6 +175,6 @@ _新增篩選器（可選）_
    - **持續時間：** 處理所需總時間
    - **進口類型：** 進口是排程還是按需進行
    - **目前狀態：** 即時狀態資訊
-      - **進行中：** 目前正在進行的匯入
-      - **完成：** 成功完成並有紀錄計數
-      - **失敗：** 診斷資訊發生錯誤
+     - **進行中：** 目前正在進行的匯入
+     - **完成：** 成功完成並有紀錄計數
+     - **失敗：** 診斷資訊發生錯誤

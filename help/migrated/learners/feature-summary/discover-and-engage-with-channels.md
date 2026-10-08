@@ -1,13 +1,14 @@
 ---
 title: 發掘並參與頻道
 description: 學習如何在 Adobe Learning Manager 的頻道中找到、訂閱、觀看、按讚及加入影片內容的討論。
-source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 0%
-
 ---
-
 
 # 發掘並參與頻道（測試版）
 

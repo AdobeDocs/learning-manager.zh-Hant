@@ -2,13 +2,14 @@
 title: Adobe Learning Manager 內容撰寫器（測試版）幫助
 description: Adobe Learning Manager 內容撰寫器將一個簡單的語言提示轉化為可發布的課程，包含課程、評量與 AI 媒介。
 contentowner: saghosh
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
-
 ---
-
 
 # Adobe Learning Manager 內容撰寫器（測試版）幫助
 
