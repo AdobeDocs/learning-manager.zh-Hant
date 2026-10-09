@@ -3,13 +3,11 @@ description: 了解更多關於Experience Builder的資訊，這是Adobe Learnin
 jcr-language: en_us
 title: Adobe Learning Manager 中的體驗建構器
 exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: a32d8ccf872aa77202bc1660b76e66c12466f8e6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '942'
 ht-degree: 0%
-
 ---
-
 # 概觀
 
 Experience Builder 是 Adobe Learning Manager 中的一個無程式碼/低程式碼工具，幫助你建立客製化的學習入口網站。 它讓你能設計出品牌化、使用者友善的學習入口網站，無需具備技術能力或豐富的程式設計知識。
@@ -17,8 +15,6 @@ Experience Builder 是 Adobe Learning Manager 中的一個無程式碼/低程式
 透過體驗建構器，管理員可以輕鬆建立頁面、選單和小工具，提供符合受眾需求的個人化學習體驗
 
 許多組織在沒有技術協助或昂貴的系統整合商的情況下，難以自訂他們的學習入口網站。 他們希望入口網站能與品牌相符、提供精準內容，並能適應不同學習族群，同時又能快速且容易建置。
-
-Experience Builder 是 Adobe Learning Manager 中的一個無程式碼/低程式碼工具，幫助你建立客製化的學習入口網站。 它讓你能設計出品牌化、使用者友善的學習入口網站，無需具備技術能力或豐富的程式設計知識。透過體驗建構器，您可以建立新的頁面、選單和小工具，快速且輕鬆地為受眾提供個人化的學習體驗。 透過體驗建構器，您可以快速建立新頁面、選單和小工具，為受眾提供個人化的學習體驗。
 
 ## 經驗建構器解決的問題
 
