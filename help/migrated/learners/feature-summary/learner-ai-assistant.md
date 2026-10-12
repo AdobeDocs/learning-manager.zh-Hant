@@ -181,7 +181,7 @@ AI 助理內建提示，幫助你快速開始解答常見問題和情境。 這�
 
    ![管理員主控台左側面板的設定選項](assets/settings-menu.png)
 
-1. 從設定選單選擇&#x200B;**學習者 AI 助理（測試版**&#x200B;**）。**
+1. 從設定選單選擇&#x200B;**學習者 AI 助理（測試版****）。**
 
    ![管理員主控台在左側窗格顯示學習者 AI 助理選項](assets/learner-assistant-ai-beta.png)
 
@@ -357,7 +357,7 @@ Adobe Learning Manager 的學習助理能回答學習者關於學習物件的問
 
 >[!IMPORTANT]
 >
->作為前提，管理員必須將所需目錄加入學習者助理。 詳情請參閱[「配置 AI 助理存取](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權限」。
+>作為前提，管理員必須將所需目錄加入學習者助理。 詳情請參閱[「配置 AI 助理存取](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權限」。
 
 
 當管理員將 Go1 或 LinkedIn Learning 目錄加入 Adobe Learning Manager 時，目錄內容會經過排程的擷取流程。 擷取完成後，該目錄中的學習物件會開放給學習助理查詢。

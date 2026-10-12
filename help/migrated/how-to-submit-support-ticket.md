@@ -17,7 +17,7 @@ Adobe Learning Manager 支援工單的提交流程現在已直接整合至 Exper
 
 請注意，提交支援單僅限授權客服聯絡人使用。 對於您的支援問題，請持續透過電子郵件向 Adobe Learning Manager 提交支援工單，直到 2025 年 5 月 11 日。 在此日期之後，你可以透過以下說明的 Experience League 支援入口網站提交支援工單，此外還有現有的電子郵件管道。
 
-1. 要進入支援入口網站，請造訪 **[!UICONTROL Experience League]** 網站並選擇 **[!UICONTROL Support]** 頁面頂端的分頁。 或者，你也可以造訪直接 [連結](https://experienceleague.adobe.com/home?lang=zh-Hant#support)。
+1. 要進入支援入口網站，請造訪 **[!UICONTROL Experience League]** 網站並選擇 **[!UICONTROL Support]** 頁面頂端的分頁。 或者，你也可以造訪直接 [連結](https://experienceleague.adobe.com/home#support)。
 
    ![](assets/support.png)
    _支援首頁_
@@ -27,7 +27,7 @@ Adobe Learning Manager 支援工單的提交流程現在已直接整合至 Exper
    ![](assets/open-ticket.png)
    _開放票_
 
-3. 要提交案件，請選擇選項 **[!UICONTROL Open a support case]**。 你也可以在側邊欄選單中選擇這個 **[!UICONTROL Open Tickets]** 選項。 您將被導向案件建立頁面，輸入產品名稱（Adobe Learning Manager、Audience Manager、Campaign、Target 等）、 **[!UICONTROL Case title]**&#x200B;**[!UICONTROL Case description]**&#x200B;以及 。為了加快故障排除流程，請在描述你遇到的問題時盡可能詳細描述。
+3. 要提交案件，請選擇選項 **[!UICONTROL Open a support case]**。 你也可以在側邊欄選單中選擇這個 **[!UICONTROL Open Tickets]** 選項。 您將被導向案件建立頁面，輸入產品名稱（Adobe Learning Manager、Audience Manager、Campaign、Target 等）、 **[!UICONTROL Case title]****[!UICONTROL Case description]**&#x200B;以及 。為了加快故障排除流程，請在描述你遇到的問題時盡可能詳細描述。
 
    在表格結尾，請填寫以下欄位，以便提供更具體的資訊，幫助我們排除問題：
 

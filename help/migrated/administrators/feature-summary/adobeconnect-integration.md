@@ -71,7 +71,7 @@ ht-degree: 0%
 
 Adobe Learning Manager 支援在 Connect 中設定虛擬教室時，從 Adobe Connect 選擇研討會教室。 過去，管理員只能選擇會議室類型。 此功能讓持有有效研討會授權的管理員能在 ALM 內排程和管理一次性或大型活動（最多 1,500 名參加者）。
 
-有關研討會教室的更多資訊，請參閱此 [文章](https://helpx.adobe.com/tw/adobe-connect/using/creating-seminars.html) 。
+有關研討會教室的更多資訊，請參閱此 [文章](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html) 。
 
 ### 支援會話分析存取
 
@@ -91,4 +91,4 @@ _選擇會話網址_
 ![](assets/session-dashboard.png)
 _會話儀表板_
 
-請參閱本文[&#128279;](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以獲取更多關於會話分析的資訊。
+請參閱本文[](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html)以獲取更多關於會話分析的資訊。

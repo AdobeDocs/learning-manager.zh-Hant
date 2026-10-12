@@ -250,7 +250,7 @@ Adobe Learning Manager 支援透過外部註冊設定檔註冊此類使用者。
 啟用外部設定檔：
 
 1. 在外部設定檔列表中找到新建立的個人檔案。
-2. 選擇&#x200B;**&#x200B;**&#x200B;狀態切換按鈕來啟用它。
+2. 選擇&#x200B;****&#x200B;狀態切換按鈕來啟用它。
 
 管理員可以將此網址分享給外部合作夥伴，讓他們能註冊並登入 Adobe Learning Manager。
 
@@ -271,7 +271,7 @@ _複製外部設定檔的註冊網址_
 | 內部使用者 | 外部使用者 |
 |---|---|
 | 可以使用 Adobe ID 或 SSO 憑證登入。 | 可以用任何電子郵件 ID 登入。 |
-| 遊戲化功能也已提供。 | 遊戲化功能也已提供。 管理員必須在 [遊戲化設定](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/gamification)中啟用外部學習者的遊戲化功能。 |
+| 遊戲化功能也已提供。 | 遊戲化功能也已提供。 管理員必須在 [遊戲化設定](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification)中啟用外部學習者的遊戲化功能。 |
 
 ### 暫停外部註冊設定檔
 
@@ -370,7 +370,7 @@ Adobe Learning Manager 支援以下使用者角色：
 * **作者**：創建並管理內容，包括模組與課程。
 * **經理**：監督團隊學習活動，提名團隊成員參加課程，核准申請並提供回饋。
 * **整合管理員**：管理系統整合與資料連接，連接 ALM 與外部平台。
-* **自訂角色**：管理員可以建立自訂角色，根據使用者的職責提供客製化的存取權限。 有關自訂角色的更多資訊，請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/custom-role.md)。
+* **自訂角色**：管理員可以建立自訂角色，根據使用者的職責提供客製化的存取權限。 有關自訂角色的更多資訊，請參閱本文[](/help/migrated/administrators/feature-summary/custom-role.md)。
 
 要將角色分配給使用者：
 

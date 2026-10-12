@@ -46,7 +46,7 @@ Learning Manager 應用程式會根據事件向多個使用者角色發送電子
 
 **檢查清單通過/檢查清單未通過：** 這些範本的目的是告知學習者它們已被審查者評估。 學習者每次評估都會收到這封電子郵件，方便他們前往平台查詢是否需要採取任何行動。
 
-1. 要存取範本，請點擊 **[!UICONTROL Email Templates]** 左側窗格。 在此頁面上，你可以看到三種不同類別的範本，分別為 **[!UICONTROL General]**、 、 **[!UICONTROL Learning Activity]**&#x200B;**[!UICONTROL Reminders and Updates]**&#x200B;和 。還有第四個分頁，可以 **[!UICONTROL Settings]**&#x200B;設定範本。
+1. 要存取範本，請點擊 **[!UICONTROL Email Templates]** 左側窗格。 在此頁面上，你可以看到三種不同類別的範本，分別為 **[!UICONTROL General]**、 、 **[!UICONTROL Learning Activity]****[!UICONTROL Reminders and Updates]**&#x200B;和 。還有第四個分頁，可以 **[!UICONTROL Settings]**&#x200B;設定範本。
 
    ![](assets/categories-of-emailtemplates.png)
 
@@ -85,7 +85,7 @@ Learning Manager 應用程式會根據事件向多個使用者角色發送電子
 1. 要開啟設定頁面，請點擊 **[!UICONTROL Settings]**。 你現在可以自訂你的電子郵件範本。
 1. 若要自訂學習者收到電子郵件的名稱與電子郵件 ID，請編輯 **[!UICONTROL Sender Name and Address]。**
 
-   請聯絡 [***Adobe 支援***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager) 以設定或更改這些細節。
+   請聯絡 [***Adobe 支援***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) 以設定或更改這些細節。
 
 1. 從選項 **[!UICONTROL Email Banner]** 中自訂你的電子郵件橫幅。 選擇 來更改橫幅 **[!UICONTROL Banner Background]**&#x200B;顏色。
 
@@ -174,7 +174,7 @@ DND 名單中的學習者無法看到摘要郵件的使用者設定。 該選項
 
 ## 自訂電子郵件網域 {#customizeemaildomain}
 
-若要自訂電子郵件網域及學習者接收通知的電子郵件 ID，請聯絡 [***學習經理客服***](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager) ，並提供你想新增的網域資訊及新電子郵件 ID。
+若要自訂電子郵件網域及學習者接收通知的電子郵件 ID，請聯絡 [***學習經理客服***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) ，並提供你想新增的網域資訊及新電子郵件 ID。
 
 你的申請會被處理，並會寄送一封包含確認連結的電子郵件，寄到你指定的新電子郵件地址。 請點擊電子郵件中提供的驗證連結以確認並完成驗證流程。
 
@@ -271,6 +271,6 @@ Learning Manager 使用者現在會收到線上電子郵件邀請。 ICS 附件�
 
 +++如何更改範本中的寄件人姓名和地址？
 
-如需更改寄件人姓名及電子郵件地址，請聯絡 [Adobe Learning Manager 客服](https://helpx.adobe.com/tw/contact/enterprise-support.other.html#learning-manager)。
+如需更改寄件人姓名及電子郵件地址，請聯絡 [Adobe Learning Manager 客服](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager)。
 
 +++
