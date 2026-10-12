@@ -16,7 +16,7 @@ Adobe Learning Manager 支援使用 AWS Transfer 家族 SFTP 協定的新連接�
 
 你可以用 Adobe FTP Manager 取代任何開源 FTP 用戶端。
 
-以下是](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)部分 AWS 推薦的 FTP 用戶端[：
+以下是[&#128279;](https://docs.aws.amazon.com/transfer/latest/userguide/transfer-file.html)部分 AWS 推薦的 FTP 用戶端：
 
 * FileZilla（Windows、macOS 及 Linux）
 * OpenSSH（macOS 與 Linux）- 注意：此用戶端僅支援啟用安全殼層（SSH）檔案傳輸協定（SFTP）的伺服器。

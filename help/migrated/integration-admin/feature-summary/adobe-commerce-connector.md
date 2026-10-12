@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->此功能僅在 Adobe Learning Manager 作為 **Adobe Experience Manager 的附加元件** 銷售時使用。 連接器也可啟用試用&#x200B;****&#x200B;帳號。
+>此功能僅在 Adobe Learning Manager 作為 **Adobe Experience Manager 的附加元件** 銷售時使用。 連接器也可啟用試用&#x200B;**&#x200B;**&#x200B;帳號。
 
 Adobe Learning Manager 與 Adobe Commerce 整合，後者是一個可擴充且可擴展的電子商務解決方案，讓您能為 B2B 及 B2C 客戶提供多通路商務體驗。 使用 Adobe Commerce 連接器將 Adobe Learning Manager 與 Adobe Commerce 連接，讓您的學習平台啟用付費培訓與電子商務功能。
 
@@ -43,7 +43,7 @@ Adobe Learning Manager 與 Adobe Commerce 整合，後者是一個可擴充且�
 - 啟用所有 **非同步 API**。 大型訓練資料集則以非同步方式匯出。 當 Learning Manager 呼叫 Adobe Commerce API 時，請求會被排隊並由在商務端建立產品的消費者處理。 非同步處理必須啟用，因為 Adobe Commerce 預設不支援非同步處理。
 - 在 Adobe Commerce 的付款成功頁面新增 **Learning Manager 的退貨連結** 。
   - 請使用此 [回傳網址](https://learningmanager.adobe.com/app/learner#/postPayment)：
-- 將索引&#x200B;**從****「**&#x200B;儲存中」改為&#x200B;**「排程」。**&#x200B;更多資訊請參閱 [知識庫](https://experienceleague.adobe.com/en/support?support-tab=home#home) 。
+- 將索引&#x200B;**從**&#x200B;**「**&#x200B;儲存中」改為&#x200B;**「排程」。**&#x200B;更多資訊請參閱 [知識庫](https://experienceleague.adobe.com/en/support?support-tab=home#home) 。
 - 套用必要的 **補丁**。 請參閱 [「套用補丁」文件](https://experienceleague.adobe.com/en/docs/commerce-cloud-service/start/overview) 中的說明。
 - 在雲端基礎架構（暫存與生產環境）上設定 **Fastly** for Adobe Commerce。 更多資訊請參見[「設定快速」。](https://devdocs.magento.com/cloud/cdn/configure-fastly.html)
 

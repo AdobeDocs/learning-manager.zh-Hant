@@ -249,7 +249,7 @@ Adobe Learning Manager Widget 在 2.0.0 版本及以上 **版本的學習-內容
 
 * 目錄、產品、職務與課程皆可從對話框內的可搜尋下拉選單中選擇。
 * 多重選擇欄位支援最多 25 個項目，並具備拖曳重排序及標籤顯示功能。
-* 帳戶層級的術語（例如目錄或&#x200B;**角色**&#x200B;的自訂名稱&#x200B;****）會自動反映在對話標籤中。
+* 帳戶層級的術語（例如目錄或&#x200B;**角色**&#x200B;的自訂名稱&#x200B;**&#x200B;**）會自動反映在對話標籤中。
 
 ### 球場圖塊自訂
 
@@ -341,7 +341,7 @@ ALM 參考網站套件提供「學習網站藍圖」，讓您能為學習平台�
 1. 確保你已經將設定映射到網頁專案。
 1. 打開 **你想匯入學習管理員元件的 AEM Sites** 範本。
 1. 在範本頁面編輯器中，導覽到 **允許元件** 容器並選擇 **政策**。
-1. 在&#x200B;**政策頁面中，導覽至**「Properties **>** Allowed Components」**，並選擇以下元件「** Learning - Content」、「**** Learning - Form **」及「** Learning - Structure ****」。
+1. 在&#x200B;**政策頁面中，導覽至**「Properties **>** Allowed Components」**，並選擇以下元件「** Learning - Content」、「**&#x200B;** Learning - Form **」及「** Learning - Structure **&#x200B;**」。
 
 以下程序使範本能滿足匯入學習管理器元件的客戶端函式庫相依性。
 
@@ -375,7 +375,7 @@ AEM 作者必須先將元件加入 AEM 範本中
 
 AEM 作者就能拖放 Adobe Learning Manager 元件並相應配置。
 
-學習管理元件要求上述步驟建立的設定必須映射到頁面&#x200B;****。作者可以透過編輯頁面屬性>**[!UICONTROL Advanced]****[!UICONTROL Cloud Configuration]**> **[!UICONTROL Configuration]** 來映射設定，並提供設定路徑。透過這種方式，作者可以為多個 Learning Manager 帳號建立設定，並將每個帳號對應到不同的網站頁面。 如果設定未映射到頁面，元件會從父頁面反覆讀取該設定，直到找到設定為止。
+學習管理元件要求上述步驟建立的設定必須映射到頁面&#x200B;**&#x200B;**。作者可以透過編輯頁面屬性>**[!UICONTROL Advanced]**&#x200B;**[!UICONTROL Cloud Configuration]**> **[!UICONTROL Configuration]** 來映射設定，並提供設定路徑。透過這種方式，作者可以為多個 Learning Manager 帳號建立設定，並將每個帳號對應到不同的網站頁面。 如果設定未映射到頁面，元件會從父頁面反覆讀取該設定，直到找到設定為止。
 
 ## 學習者 {#learner}
 
@@ -406,7 +406,7 @@ Skyline 是 AEM 的雲端版本。 你必須先從套件管理器安裝 Skyline�
 
 ### 部署 Skyline
 
-設定 Skyline 的步驟在 GitHub 倉庫](https://github.com/adobe/captivate-prime-aem-components)中有說明[。
+設定 Skyline 的步驟在 GitHub 倉庫[&#128279;](https://github.com/adobe/captivate-prime-aem-components)中有說明。
 
 ## 我的學習小工具
 

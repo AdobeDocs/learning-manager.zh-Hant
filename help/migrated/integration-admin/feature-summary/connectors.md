@@ -28,7 +28,7 @@ Adobe Learning Manager （ALM） 提供一套完整的連接器，使得與第�
 
 >[!NOTE]
 >
->隨著 2022 年 11 月 Adobe Learning Manager 的發布，Zoom 已於 2023](https://developers.zoom.us/docs/internal-apps/s2s-oauth/) 年 6 月停止使用 [JWT 認證。因此，與 JWT 的 Zoom 連接器將持續使用直到指定日期，但我們建議用戶建立伺服器對伺服器的 OAuth 應用程式，以取代帳號中的此功能。 任何新連線預設都會有 Zoom OAuth 認證。
+>隨著 2022 年 11 月 Adobe Learning Manager 的發布，Zoom 已於 2023[&#128279;](https://developers.zoom.us/docs/internal-apps/s2s-oauth/) 年 6 月停止使用 JWT 認證。因此，與 JWT 的 Zoom 連接器將持續使用直到指定日期，但我們建議用戶建立伺服器對伺服器的 OAuth 應用程式，以取代帳號中的此功能。 任何新連線預設都會有 Zoom OAuth 認證。
 
 ## 連接器類別
 

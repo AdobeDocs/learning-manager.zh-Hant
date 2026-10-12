@@ -33,9 +33,9 @@ ht-degree: 0%
 2. 在左側導覽欄選出 **課程** 。
    ![](assets/one-click-enroll1.png)
 3. 選擇課程
-4. 選擇 **實**例。
+4. 選擇 **實**&#x200B;例。
    ![](assets/one-click-enroll2.png)
-5. 選擇&#x200B;****你想複製的模組深層連結的模組區塊。模組細節會顯示在實例底部的展開區塊中。
+5. 選擇&#x200B;**&#x200B;**&#x200B;你想複製的模組深層連結的模組區塊。模組細節會顯示在實例底部的展開區塊中。
    ![](assets/one-click-enroll3.png)
 6. 請前往你想複製連結的模組。
    ![](assets/one-click-enroll4.png)

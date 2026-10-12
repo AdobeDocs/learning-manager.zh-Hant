@@ -339,7 +339,7 @@ Social Learning 是 Learning Manager 行動應用程式中的一個平台，讓�
 
 建立文章後，點擊「發佈」並發表你的留言，讓其他學習者查看你的文章。
 
-在行動應用程式中，你無法建立看板。 要建立看板，你必須以學習者身份登入網頁應用程式。 欲了解更多建立看板的資訊，請參閱學習管理工具](/help/migrated/learners/feature-summary/social-learning-web-user.md)中的[社會學習。
+在行動應用程式中，你無法建立看板。 要建立看板，你必須以學習者身份登入網頁應用程式。 欲了解更多建立看板的資訊，請參閱學習管理工具[&#128279;](/help/migrated/learners/feature-summary/social-learning-web-user.md)中的社會學習。
 
 ## 可以在貼文上執行的動作 {#actionsthatcanbeperformedonapost}
 
@@ -497,7 +497,7 @@ LinkedIn Learning 課程中所花費的學習時間會透過 LinkedIn 內容/平
 
 ## 提交的批准或拒絕 {#approvalorrejectionofsubmission}
 
-上傳檔案後，狀態會變成&#x200B;**待審核。**&#x200B;講師會查看待提交](/help/migrated/instructors/feature-summary/learners.md)清單[，並透過講師網頁應用程式批准或拒絕提交。
+上傳檔案後，狀態會變成&#x200B;**待審核。**&#x200B;講師會查看待提交[&#128279;](/help/migrated/instructors/feature-summary/learners.md)清單，並透過講師網頁應用程式批准或拒絕提交。
 
 當講師核准提交時，學習者行動應用程式的狀態會變 **為「已**&#x200B;批准」。
 

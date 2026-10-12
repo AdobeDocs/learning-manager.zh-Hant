@@ -99,13 +99,13 @@ ht-degree: 0%
 
 ### 管理員-認證頁面
 
-在目前版本的 Adobe Learning Manager 中，如果有大量使用者註冊認證，你無法查看未註冊的學習者，因為&#x200B;****&#x200B;狀態下拉選單是被停用的。
+在目前版本的 Adobe Learning Manager 中，如果有大量使用者註冊認證，你無法查看未註冊的學習者，因為&#x200B;**&#x200B;**&#x200B;狀態下拉選單是被停用的。
 
 在本版本的 Adobe Learning Manager 中，如果註冊用戶數量較多， **狀態** 下拉選單只會顯示兩個選項—— **已** 註冊與 **未註冊**。 **預設選項為已**&#x200B;註冊。如果你選擇 **未**&#x200B;註冊，會顯示未註冊學習者名單。
 
 #### 使用者群組變更
 
-若使用者群組的使用者數量少於例如 50,000 人，狀態下拉選單會&#x200B;****&#x200B;顯示所有選項——認證、指派及過期。
+若使用者群組的使用者數量少於例如 50,000 人，狀態下拉選單會&#x200B;**&#x200B;**&#x200B;顯示所有選項——認證、指派及過期。
 
 如果使用者群組中的使用者數量較多， **狀態** 下拉選單只會顯示兩個選項—— **根據新設計，已註冊** 與 **未註冊**。
 
@@ -260,15 +260,15 @@ ht-degree: 0%
 
 #### 管理員：學習者頁面
 
-搜尋任何使用者時，下載 **學習器** 與 **匯出** 選項會下載相同的報告。 同時，在搜尋使用者群組時，你現在可以下載該使用者群組中篩選過的使用者。 搜尋使用者群組時，**下載學習者名單**&#x200B;會切換為&#x200B;**下載使用者群組****的學習者清單。匯出**&#x200B;選項再次下載整個清單。
+搜尋任何使用者時，下載 **學習器** 與 **匯出** 選項會下載相同的報告。 同時，在搜尋使用者群組時，你現在可以下載該使用者群組中篩選過的使用者。 搜尋使用者群組時，**下載學習者名單**&#x200B;會切換為&#x200B;**下載使用者群組**&#x200B;**的學習者清單。匯出**&#x200B;選項再次下載整個清單。
 
 ## 報告變更
 
 * 訓練報告中的標籤與技能欄位改為標籤與技能。
-* 新增了遊戲化審計追蹤](administrators/feature-summary/reports.md#gamification-audit-trail)報告[。
+* 新增了遊戲化審計追蹤[&#128279;](administrators/feature-summary/reports.md#gamification-audit-trail)報告。
 * 若帳號包含超過 280,000 名被分配到某項技能的學習者，則技能學習者報告會以壓縮 CSV 格式下載。
 如果帳號學習者少於 250,000 人，該報告會被下載為 CSV。
-在管理員頁面，選擇**管理員**>**技能**> **** 技能>**學習者**。報告會以 CSV 格式下載。
+在管理員頁面，選擇&#x200B;**管理員**>**技能**> **&#x200B;**&#x200B;技能>**學習者**。報告會以 CSV 格式下載。
 * [會議摘要報告](administrators/feature-summary/reports.md#session-summary-report)新增兩個欄位——地點資訊與地點區域。
 
 ## 教室設置的變革
@@ -391,7 +391,7 @@ ht-degree: 0%
 
 Adobe Learning Manager 行動應用程式現在支援白標功能——這表示你現在可以用自己的品牌發佈應用程式。
 
-欲了解更多資訊，請參閱 Adobe Learning Manager 行動應用程式](white-label.md)中的[白標。
+欲了解更多資訊，請參閱 Adobe Learning Manager 行動應用程式[&#128279;](white-label.md)中的白標。
 
 ### 遷移 CSV 新欄位
 
@@ -421,7 +421,7 @@ Adobe Learning Manager 行動應用程式現在支援白標功能——這表示
 >
 >欄位值必須在帳戶中唯一。 你無法用同樣的價值來搭配課程或證照。
 
-從遷移手冊](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs)下載 CSV [文件。
+從遷移手冊[&#128279;](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs)下載 CSV 文件。
 
 
 ### App 評分
@@ -432,7 +432,7 @@ Adobe Learning Manager 行動應用程式現在支援白標功能——這表示
 
 我們想通知您，Bluejeans 將於 2024 年 2 月結束生命週期（EOL）。 2024 年 2 月後，Bluejeans 將不再收到更新或支援。 我們的CSAM及支援團隊將在過渡期間協助您解答任何問題或疑慮。
 
-在 Adobe Learning Manager](integration-admin/feature-summary/connectors.md) 中查看[連接器，以了解更多關於配置連接器的資訊。
+在 Adobe Learning Manager[&#128279;](integration-admin/feature-summary/connectors.md) 中查看連接器，以了解更多關於配置連接器的資訊。
 
 ### 登入存取報告變更
 
@@ -540,7 +540,7 @@ learningObjectResource 新增了一個屬性 isExpiredSubmission，用來顯示�
 
 ### 已棄用的 API
 
-在 Adobe Learning Manager](api-deprecations-list.md) 中查看 [API 棄用列表，以累積所有產品中已棄用的 API。
+在 Adobe Learning Manager[&#128279;](api-deprecations-list.md) 中查看 API 棄用列表，以累積所有產品中已棄用的 API。
 
 ## 本次更新修正的錯誤 {#bug-fixes}
 

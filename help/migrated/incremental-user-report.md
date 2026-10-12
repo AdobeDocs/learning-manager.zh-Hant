@@ -308,7 +308,7 @@ Adobe Learning Manager 維護一個最後修改的時間戳，當使用者追蹤
 
 >[!NOTE]
 >
->確保你`startDateTime``endDateTime`在所有分頁請求中保持相同，針對單一匯出執行。在分頁中途更改日期視窗會產生不一致的結果。
+>確保你`startDateTime`&#x200B;`endDateTime`在所有分頁請求中保持相同，針對單一匯出執行。在分頁中途更改日期視窗會產生不一致的結果。
 
 ## 限制
 

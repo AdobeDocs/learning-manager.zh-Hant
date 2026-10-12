@@ -148,7 +148,7 @@ Enterprise Server URL 必須是公開架設的。
 
 使用者群組可以是自動產生的，也可以是自訂的。
 
-獲得此權限的使用者可存取所有看板，唯獨私人看板除外&#x200B;****。
+獲得此權限的使用者可存取所有看板，唯獨私人看板除外&#x200B;**&#x200B;**。
 
 ![](assets/special-users.png)
 
@@ -485,7 +485,7 @@ SME資格僅能透過透過社交學習活動累積SME積分來取得。 管理�
 
 ## 每月活躍用戶計費計畫的社交活動 {#socialactivitiesformonthlyactiveusersbillingplan}
 
-每當用戶建立新的社群板、社群貼文或社群留言時，若帳號採用 MAU 計費模式，該活動將被視為有效活動，並計入 **每月啟用用戶**（MAU）計畫。 欲了解更多資訊，請參閱帳單管理](billing-management.md)。[
+每當用戶建立新的社群板、社群貼文或社群留言時，若帳號採用 MAU 計費模式，該活動將被視為有效活動，並計入 **每月啟用用戶**（MAU）計畫。 欲了解更多資訊，請參閱帳單管理[&#128279;](billing-management.md)。
 
 ## 常見問題 {#frequentlyaskedquestions}
 

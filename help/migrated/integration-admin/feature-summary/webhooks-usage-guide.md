@@ -32,7 +32,7 @@ Webhook 是一種讓網頁應用程式能自動且即時地彼此通訊的方式
 
 #### 更新
 
-一旦學習對象被發佈，其狀態會從&#x200B;**草稿（Draft）變**&#x200B;為已發佈（Published ****）。在此轉換期間，Webhook 會&#x200B;**產生 LEARNING_OBJECT_MODIFICATION** 事件，因為學習物件正從草稿（Draft **）被修改**&#x200B;為&#x200B;**發佈（Published**）。所有後續對 LO 的修改與更新也會觸發 **LEARNING_OBJECT_MODIFICATION** 事件。
+一旦學習對象被發佈，其狀態會從&#x200B;**草稿（Draft）變**&#x200B;為已發佈（Published **&#x200B;**）。在此轉換期間，Webhook 會&#x200B;**產生 LEARNING_OBJECT_MODIFICATION** 事件，因為學習物件正從草稿（Draft **）被修改**&#x200B;為&#x200B;**發佈（Published**）。所有後續對 LO 的修改與更新也會觸發 **LEARNING_OBJECT_MODIFICATION** 事件。
 
 **當學習對象被退休時，LEARNING_OBJECT_MODIFICATION**&#x200B;事件也會被觸發。此退休操作標記底層實例為已更新，因為當父學習物件處於退休狀態時，這些實例會被退休。
 
@@ -206,7 +206,7 @@ Adobe Learning Manager 確保每個帳號的事件順序皆有排序。 然而�
 
 ### 從學習物件實例與CI_STATS事件建立資料庫
 
-學習物件實例事件會 `loInstanceId`為課程與學習路徑發出 、 `loId`、 `loType` 及屬性。 同樣地，**CI_STATS**&#x200B;事件僅適用於課程，因為 `seatLimit`、 `waitListLimit``seatAvailability`、 、 `waitlistAvailability`等 僅適用於課程。
+學習物件實例事件會 `loInstanceId`為課程與學習路徑發出 、 `loId`、 `loType` 及屬性。 同樣地，**CI_STATS**&#x200B;事件僅適用於課程，因為 `seatLimit`、 `waitListLimit`&#x200B;`seatAvailability`、 、 `waitlistAvailability`等 僅適用於課程。
 
 在某些使用情境中，需要額外的實例資料，如實例名稱、狀態等。 要取得額外的實例資料，應遵循以下方法：
 

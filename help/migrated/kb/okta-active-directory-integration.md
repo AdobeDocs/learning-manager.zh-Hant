@@ -101,7 +101,7 @@ Adobe Learning Manager 支援由身份提供者（IdP）和服務提供者（SP�
 要查看由 IdP/SP 發起的 URL 與元資料檔案，請執行以下步驟：
 
 1. 打開你已建立的應用程式。
-1. 在單一登入標籤下&#x200B;**，點擊&#x200B;**[!UICONTROL View Instructions]**。**
+1. 在單一登入標籤下&#x200B;**，點擊&#x200B;**&#x200B;[!UICONTROL View Instructions]&#x200B;**。**
 
    ![](assets/cp-prime-sso.png)
 
