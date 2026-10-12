@@ -95,7 +95,7 @@ Adobe Learning Manager 支援透過多種機制匯出與安全相關的設定資
 
 * ALM Jobs API 支援按需產生使用者報告（包括角色指派），以 CSV 格式呈現。 這些資料可以被排程並由外部合規或 SIEM 工具使用。
 
-更多資訊請參閱 [Adobe Learning Manager - 應用程式開發手冊](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) 。
+更多資訊請參閱 [Adobe Learning Manager - 應用程式開發手冊](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/integration/developer-manual) 。
 
 ## Adobe Learning Manager 是否提供一個 API，讓安全相關設定可以程式化地查看和調整？
 

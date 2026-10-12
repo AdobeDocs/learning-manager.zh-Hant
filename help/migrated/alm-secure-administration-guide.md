@@ -52,7 +52,7 @@ Adobe Learning Manager 採用基於角色的存取控制（RBAC）模型。 下�
 >
 >若內部使用者登入方式設為 Adobe ID，組織將失去強制多重身份驗證、控制密碼複雜度或在使用者離開時立即撤銷存取權限的能力。 這大幅增加了未經授權存取的風險。
 
-更多資訊請參見 [自訂角色](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role) 。
+更多資訊請參見 [自訂角色](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/custom-role) 。
 
 ### 多重身份驗證（MFA）
 
