@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ## 舉報冒犯性內容
 
-如果您在審查共享的內容撰寫者課程時遇到違反 Adobe [使用](https://www.adobe.com/legal/terms.html) 條款的內容，您可以舉報。
+如果您在審查共享的內容撰寫者課程時遇到違反 Adobe [使用](https://www.adobe.com/tw/legal/terms.html) 條款的內容，您可以舉報。
 
 從右上角選擇 **「舉報** 」並填寫表單。 或者，你也可以透過電子郵件 [向 abuse@adobe.com](mailto:abuse@adobe.com) 舉報虐待。
 
