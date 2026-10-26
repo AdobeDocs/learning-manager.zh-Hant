@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
 workflow-type: tm+mt
-source-wordcount: '35191'
+source-wordcount: '35262'
 ht-degree: 0%
 ---
 # Adobe Learning Manager 發布說明
@@ -70,6 +70,10 @@ Insights Agent 進行了兩項改進。 它們是：
 * **課程註冊（預設排除候補名單）：** 對於沒有篩選條件的直接及間接選課查詢，直接註冊人數會包含處於等待狀態的學習者，即使他們是候補名單且未積極參與。 預設情況下，Approach面板不會顯示候補名單的學習者被計入統計。 只有當管理員明確要求排除時，候補學習者才會被排除，屆時會揭露所適用的規則。
 
 [了解更多](/help/migrated/administrators/feature-summary/insights-agent.md)。
+
+### 自訂憑證 - 憑證設計者
+
+當徽章加入證書設計時，證書產生系統僅支援基於文字的徽章欄位。 結果，學員的徽章圖片在產生的PDF中缺失或顯示錯誤。 此修正後，系統現在能辨識徽章影像的佔位符，並以學習者獲得的徽章影像取代，同時保留證書設計器中設定的位置與大小。
 
 ## API
 
