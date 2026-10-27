@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: d3f02c23826e56305a160eab428a50406a837184
 workflow-type: tm+mt
-source-wordcount: '35262'
+source-wordcount: '35491'
 ht-degree: 0%
 ---
 # Adobe Learning Manager 發布說明
@@ -26,6 +26,22 @@ ht-degree: 0%
 </table>
 
 -->
+
++++更新 113：2026 年 10 月 27 日 Adobe Learning Manager 發布
+
+## 本版本的增強
+
+**Go1 整合：** Adobe Learning Manager 中的 Go1 整合已增強，使課程完成追蹤更可靠。 即使學員在Go1完成賽後立即離開球場，也都能被準確記錄。 此修正有助於確保學習者成績單與管理員報告完整且最新。 無需設定，現有的 Go1 課程仍能正常運作。 [了解更多](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)。
+
+## 錯誤已修正
+
+**行動裝置：** 在使用 iOS Safari 的 iPhone 上，從目錄或搜尋中以直向方式啟動課程時，CTA 會顯示「請旋轉您的裝置」提示。 即使轉為橫向，提示仍持續，導致賽道無法開始。 這個問題已經修正，玩家現在能在旋轉時恢復，並如預期地發射賽道。
+
+**學習者：** 學習者無法在檔案提交模組中提交 Excel、PowerPoint、影片、ZIP 及其他檔案類型，因此收到通用錯誤。 此問題已修復，學習者現在可依預期上傳並提交這些檔案類型。
+
+**電子郵件範本：** 當會議範本從全域版面解連結時，行事曆邀請郵件顯示空白正文和空.ics活動描述。 這個問題已經修正，現在未連結的範本會在電子郵件和行事曆事件描述中正常顯示已設定的會話細節和版面內容。
+
++++
 
 +++更新 112：2026 年 9 月 30 日 Adobe Learning Manager 發布
 

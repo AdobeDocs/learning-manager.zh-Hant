@@ -3,9 +3,9 @@ user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
 nudge: true
-source-git-commit: 29900b65ff6bf5b598bbba27d2691f75f544211f
+source-git-commit: add4cde9d61b2ad004f8092a1ad7172a8da997fe
 workflow-type: tm+mt
-source-wordcount: '1786'
+source-wordcount: '1791'
 ht-degree: 2%
 ---
 
@@ -188,6 +188,7 @@ ht-degree: 2%
   * [非登入 API](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhook {#webhooks}
     * [Webhook](/help/migrated/integration-admin/feature-summary/webhooks.md)
+    * [Go1 完成追蹤與 webhook](/help/migrated/integration-admin/feature-summary/go1-webhooks.md)
     * [Webhooks 使用指南](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md)
   * [Credly](integration-admin/feature-summary/credly-integration.md)
   * [學習工具互通性](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md)
