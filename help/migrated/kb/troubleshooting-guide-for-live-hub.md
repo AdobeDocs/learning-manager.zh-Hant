@@ -4,7 +4,7 @@ description: 您在 Live Hub 工作階段中常見的錯誤訊息與通知、原
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 在 Live Hub 課程中，講師可能會遇到錯誤訊息或通知，導致某些動作無法如預期完成。 本文將說明常見的教師面臨錯誤、可能的原因，以及你可以採取的解決步驟。
 
-## 連線問題
+## 連線問題 {#connection-issues}
 
 | 錯誤訊息 | 劇本 | 克服錯誤的建議 |
 |---|---|---|
@@ -61,7 +61,7 @@ ht-degree: 0%
 | 「FileName.pdf」超過了 1 MB 的限制。 | 講師上傳的 PDF 檔案超過了 1 MB 的檔案大小限制。 | 將 PDF 檔案壓縮或縮小到低於 1 MB，然後重新上傳。 |
 | 「FileName.pptx」超過了 3 MB 的限制。 | 講師上傳的PPT檔案超過3 MB的檔案大小限制。 | 將 PPT 檔案壓縮或縮小到低於 3 MB，然後重新上傳。 |
 
-## 分組討論議題
+## 分組討論議題 {#breakout-issues}
 
 以下訊息會在講師嘗試開始分組討論時出現。
 
