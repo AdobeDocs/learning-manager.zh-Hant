@@ -4,7 +4,7 @@ description: 了解 Live Hub 的預加入畫面運作方式、如何允許瀏覽
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Adobe Learning Manager 中的 Live Hub 課程是一種由講師主導的即時�
 ![允許瀏覽器權限提示](assets/allow-browser-permissions-prompt.png)
 *當瀏覽器提示使用麥克風和相機時，選擇允許。*
 
-### 設定音訊控制
+### 設定音訊控制 {#audio-controls}
 
 你的麥克風和喇叭會自動被選中。 用加入前畫面的音訊控制確認它們是否正常，或切換到其他裝置。
 
