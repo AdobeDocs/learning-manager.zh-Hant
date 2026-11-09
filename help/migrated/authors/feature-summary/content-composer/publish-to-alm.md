@@ -5,9 +5,9 @@ title: 發佈到 Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9941036e5221aa8cc1deb4d5d05d1fd76bd4e66b
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '437'
 ht-degree: 0%
 ---
 
@@ -48,3 +48,23 @@ ht-degree: 0%
 - 介紹&#x200B;**&#x200B;**&#x200B;說明——課程的簡短摘要，與課程並列於ALM內容庫中，幫助學習者與管理者理解其目的。
 
 - 選擇 **「發佈** 」以將課程作為模組傳送至 ALM 內容庫。
+
+## 已出版內容撰寫者課程中的學習者導航
+
+學習學習者如何瀏覽內容撰寫者課程，無論是發佈到 Adobe Learning Manager 或匯出為 SCORM 套件，包括可摺疊目錄與行動導覽。
+
+## 可摺疊目錄
+
+發佈至 Adobe Learning Manager 或匯出為 SCORM 套件的課程包含可摺疊課程與主題導覽面板。
+
+學習者可以：
+
+- **展開** 導覽面板以瀏覽課程和主題，並跳到任一區塊。
+- **將** 導航面板收摺，聚焦於課程內容，且不會佔用螢幕空間。
+面板狀態會隨著學習者逐步完成課程而保留。
+
+## 行動導航
+
+在行動裝置上，課程與主題導覽以全螢幕覆蓋方式開啟，而非側邊面板。 學習者選擇導覽圖示開啟覆蓋層，瀏覽他們想要的課程或主題，然後選擇它來導航。
+
+學習者選擇目的地後，覆蓋層會自動關閉，返回課程內容。
