@@ -1,23 +1,23 @@
 ---
 title: 歡迎來到 Adobe Learning Manager 使用者指南
-description: 學習 Adobe Learning Manager（前稱 Adobe Captivate Prime）的最新服務。 從頭開始，逐區造訪，或與社群連結，逐步完成專案。
+description: 了解 Adobe Learning Manager（前稱 Adobe Captivate Prime）的最新服務。 可以從頭開始，逐個章節造訪，或與社群連結，逐步完成專案。
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 6ab6944dd7ecdce7f7185da9f36bd88cbfc288b9
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '150'
 ht-degree: 0%
 ---
 # 歡迎來到 Adobe Learning Manager 使用者指南
 
-繼續閱讀，了解 Adobe Learning Manager（前身為 Adobe Captivate Prime）的最新功能。 從頭開始，依照自己的步調探索每個區塊，或在專案過程中與社群連結。
+繼續閱讀，了解 Adobe Learning Manager（前稱 Adobe Captivate Prime）的最新功能。 從頭開始，依照自己的步調探索每個章節，或在專案進行過程中與社群建立連結。
 
 ## 加入討論 {#jointheconversation}
 
-歡迎造訪 [Adobe Learning Manager 使用者社群](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) ，獲得靈感並解答熱門問題。
+造訪 [Adobe Learning Manager 使用者社群](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&sort=latest_replies&lang=all&tabid=all) ，獲得靈感並解答熱門問題。
 
 ## 熱門主題 {#populartopics}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
     <img alt="連接器" src="assets/learning-manager-connectors.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="integration-admin/feature-summary/connectors.md"><strong>學習管理連結器</strong></a>
+    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager 連接器</strong></a>
     </div>
    </td>
    <td style="width:25%; text-align:left; vertical-align:top;">
@@ -53,7 +53,7 @@ ht-degree: 0%
     <img alt="開始使用 Live Hub" src="assets/getting-started-live-hub.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>開始使用 Live Hub（測試版）</strong></a>
+    <a href="../migrated/getting-started-with-live-hub/getting-started-live-hub.md"><strong>開始使用 Live Hub</strong></a>
     </div>
    </td>
   </tr>
