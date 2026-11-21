@@ -1497,7 +1497,7 @@ Adobe Learning Manager 讓您更容易快速找到心儀的課程。 您可以�
 1. 使用 Adobe 憑證登入。 如果您沒有 Adobe ID，請點擊 **[!UICONTROL Create Account]**。 授權後，您將被導向模組發佈頁面。
 1. 提供模組的所有基本資訊，然後點擊「發佈」。
 
-您可以在 Learning Manager 模組頁面上看到已發佈的模組。 欲了解更多資訊，請參閱 [「發佈專案至 Adobe Learning Manager](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html)」。
+您可以在 Learning Manager 模組頁面上看到已發佈的模組。 欲了解更多資訊，請參閱 [「發佈專案至 Adobe Learning Manager](https://helpx.adobe.com/tw/captivate/classic/publish-project-to-captivate-prime.html)」。
 
 ## 課程效能 {#courseeffectiveness}
 

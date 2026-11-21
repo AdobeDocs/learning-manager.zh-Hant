@@ -179,9 +179,9 @@ Live Hub 支援最多 5,000 名參加者的大型場次。 當您建立具有此
 
 學習者可透過以下兩種方式報名Live Hub課程：
 
-1. **管理員**&#x200B;會根據組織需求為學習者報名課程。請參閱 [「建立課程實例與學習路徑](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses) 」以取得更多資訊。
+1. **管理員**&#x200B;會根據組織需求為學習者報名課程。請參閱 [「建立課程實例與學習路徑](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/admin/courses) 」以取得更多資訊。
 
-1. 學習者可直接從 **目錄** 頁面報名課程。 若課程設定為自我報名，學習者會立即註冊，並可從 **「我的學習」**&#x200B;存取課程。 查看 [「我的學習」](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses) 以取得更多資訊。
+1. 學習者可直接從 **目錄** 頁面報名課程。 若課程設定為自我報名，學習者會立即註冊，並可從 **「我的學習」**&#x200B;存取課程。 查看 [「我的學習」](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/learner/courses) 以取得更多資訊。
 
 報名後，學習者會被加入課程，並在其 Adobe Learning Manager 帳戶中收到通知。 根據帳號的電子郵件通知設定，學習者也可能透過電子郵件收到加入課程的邀請。
 
