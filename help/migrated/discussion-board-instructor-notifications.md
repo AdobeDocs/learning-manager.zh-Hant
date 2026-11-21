@@ -22,7 +22,7 @@ ht-degree: 0%
 ## 主要功能
 
 * 您可以透過訂閱者 API（[`POST /boards/{id}/subscribers`](api-changes-dec-2026.md#api-subscribe-users)範圍 `admin:write`）訂閱活躍的 Adobe Learning Manager 使用者到指定的討論區。 當收到通知時，使用者必須能存取看板。
-* 使用者會即時收到啟用事件類型的應用程式內通知，並依板塊分組的電子郵件摘要。 事件類型由 API](api-changes-dec-2026.md#api-sequence) 中的帳戶層級設定`notifyNewPost`（、、 `notifyComment`及 `notifyReply`）[`boardSubscriptionSettings`控制。
+* 使用者會即時收到啟用事件類型的應用程式內通知，並依板塊分組的電子郵件摘要。 事件類型由 API[&#128279;](api-changes-dec-2026.md#api-sequence) 中的帳戶層級設定`notifyNewPost`（、、 `notifyComment`及 `notifyReply`）`boardSubscriptionSettings`控制。
 * 摘要視窗是將活動收集到單一摘要郵件中的期間。 你可以在帳戶層級設定，並搭配 `digestFrequencyHours` 屬性，從 1 到 168 小時（例如每日摘要為 24 小時）。 此規則適用於帳戶內所有使用者。
 * 您可以依使用者 ID 或電子郵件地址訂閱使用者，也可以在同一次請求中新增多個使用者（[批量](api-changes-dec-2026.md#bulk-subscriptions)訂閱）。 使用者會先以一般方式在 Learning Manager 中建立。
 * 摘要電子郵件會列出啟用事件類型的每篇新貼文、留言和回覆，並附上討論區名稱、作者姓名與電子郵件地址，以及直接連結。 它也會顯示自摘要期開始以來的更新統計。
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 * 當通知被發送時，使用者必須能夠存取看板。 存取權會在交付時再次檢查，而非僅在使用者訂閱時。 如果訂閱者失去對某個看板的存取權，訂閱會保留，但該看板的通知會被跳過。
 * 摘要會以一封電子郵件形式發送，因此如果董事會忙碌，內容會變得非常長。 例如，約40名學習者的小組可在六小時內發表數百則留言。
-* 如果你的討論區非常活躍，建議使用較短的摘要頻率，例如每六小時一次，這樣每封郵件都能輕鬆管理。 在 API](api-changes-dec-2026.md#api-create-settings) 中[`boardSubscriptionSettings`設定頻率`digestFrequencyHours`。
+* 如果你的討論區非常活躍，建議使用較短的摘要頻率，例如每六小時一次，這樣每封郵件都能輕鬆管理。 在 API[&#128279;](api-changes-dec-2026.md#api-create-settings) 中`boardSubscriptionSettings`設定頻率`digestFrequencyHours`。
 * 電子郵件摘要中的文章數量限制為每個摘要版每個版塊 20 篇。 同樣的上限也適用於每個版塊的留言（20）和回覆（20）數量。 只有顯示的清單會被截斷;標題/副標題的計數總是反映該視窗真實且未截斷的活動。
 * 訂閱人數上限為每塊板 200 人。
 * 由於內容是直接在電子郵件中傳送，而非附件，因此電子郵件內容也有大小限制。
@@ -59,11 +59,11 @@ ht-degree: 0%
 
 ### 包含的活動
 
-摘要包含在 API](api-changes-dec-2026.md#api-create-settings)`notifyReply``notifyNewPost``notifyComment` 中符合匹配`true`[`boardSubscriptionSettings`設定時的新貼文、留言與回覆：、、 。你用 或 `PATCH /boardSubscriptionSettings`來設定這些。`POST`所有設定都是 `false` 預設的。
+摘要包含在 API[&#128279;](api-changes-dec-2026.md#api-create-settings)`notifyReply`&#x200B;`notifyNewPost`&#x200B;`notifyComment` 中符合匹配`true``boardSubscriptionSettings`設定時的新貼文、留言與回覆：、、 。你用 或 `PATCH /boardSubscriptionSettings`來設定這些。`POST`所有設定都是 `false` 預設的。
 
 ### 排除的事件
 
-摘要會排除在 API](api-changes-dec-2026.md#api-create-settings) 中[`boardSubscriptionSettings`匹配設定為 `false`（例如 `notifyComment`）的事件。如果沒有符合資格的活動，則不會發送摘要。
+摘要會排除在 API[&#128279;](api-changes-dec-2026.md#api-create-settings) 中`boardSubscriptionSettings`匹配設定為 `false`（例如 `notifyComment`）的事件。如果沒有符合資格的活動，則不會發送摘要。
 
 ### 摘要電子郵件版面範例
 
@@ -96,6 +96,6 @@ ht-degree: 0%
 
 ### 啟用此功能
 
-若要啟用講師通知，請建立帳戶層級設定，然後依 2026](api-changes-dec-2026.md) 年 11 月 API 變更中所述[，訂閱使用者至看板。之後，系統會收集在設定間隔內新建立的貼文、留言和回覆。 在該區間結束時，訂閱者會收到一份摘要通知，內容涵蓋已訂閱版面上符合資格的活動。
+若要啟用講師通知，請建立帳戶層級設定，然後依 2026[&#128279;](api-changes-dec-2026.md) 年 11 月 API 變更中所述，訂閱使用者至看板。之後，系統會收集在設定間隔內新建立的貼文、留言和回覆。 在該區間結束時，訂閱者會收到一份摘要通知，內容涵蓋已訂閱版面上符合資格的活動。
 
-了解更多關於 2026](api-changes-dec-2026.md) 年 12 月的 API 變更[資訊。
+了解更多關於 2026[&#128279;](api-changes-dec-2026.md) 年 12 月的 API 變更資訊。

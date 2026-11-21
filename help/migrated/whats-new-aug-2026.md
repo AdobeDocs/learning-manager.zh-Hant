@@ -66,7 +66,7 @@ Adobe Learning Manager 中的成績簿為課程新增加權分數，讓作者能
 
 進一步了解 [階層式內容資料夾——管理員層級的功能](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder)。 進一步了解 [階層式內容資料夾——作者](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder)層級的功能。
 
-如果您正將學習內容從其他平台遷移至 Adobe Learning Manager，並希望保留現有的資料夾組織，您可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與適當的資料夾關聯。 在「遷移內容資料夾階層](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)」中了解更多關於遷移[的資訊。
+如果您正將學習內容從其他平台遷移至 Adobe Learning Manager，並希望保留現有的資料夾組織，您可以使用 CSV 檔案建立階層式資料夾結構，並將內容檔案與適當的資料夾關聯。 在「遷移內容資料夾階層[&#128279;](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)」中了解更多關於遷移的資訊。
 
 ## Live Hub（測試版）
 
@@ -153,13 +153,13 @@ Adobe Learning Manager 現在內建 Content Composer，這是一款原生 AI 課
 * 學習者首頁最多顯示 10 條個人化學習路徑
 * 完成的路徑可以與同事分享
 
-了解更多關於 Learning Path Agent 的資訊[](/help/migrated/learners/feature-summary/learning-path-agent.md)。
+了解更多關於 Learning Path Agent 的資訊[&#128279;](/help/migrated/learners/feature-summary/learning-path-agent.md)。
 
 ### Insights 代理程式
 
 Insights Agent 協助管理員透過自然語言查詢分析學習資料。 請詢問有關招生趨勢、完成率、學習者參與度及技能缺口的問題。 代理程式會根據此產生報告與視覺化。
 
-了解更多關於 Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md) 的資訊[。
+了解更多關於 Insights Agent[&#128279;](/help/migrated/administrators/feature-summary/insights-agent.md) 的資訊。
 
 <!--
 ### Gen AI credits
@@ -173,7 +173,7 @@ View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-mana
 
 頻道提供集中式方式，協助組織、發布及發現來自網頁及 Confluence 頁面的影片內容。 管理員可以透過連接支援的網頁或 Confluence 頁面來建立和管理頻道，設定頻道設定、控制可見性，並同步來自來源的內容。 學習者可以瀏覽可用頻道、訂閱感興趣的頻道，並從單一地點觀看精選影片內容。
 
-了解更多關於建立頻道](/help/migrated/administrators/feature-summary/create-channels.md)的資訊[。
+了解更多關於建立頻道[&#128279;](/help/migrated/administrators/feature-summary/create-channels.md)的資訊。
 
 ## 報告建構器
 
@@ -181,7 +181,7 @@ Report Builder 為管理員提供一個彈性且自助式的報告工具，超�
 
 報告只建立一次，並儲存以供重複使用。 每次下載都不需要重新建立篩選器、重新套用分組或重新加入資料集。 儲存的報告可隨時下載、與其他管理員共享，或透過訂閱設定，讓收件人能定期自動收到更新報告。
 
-了解更多關於報告建構器的](/help/migrated/administrators/feature-summary/alm-report-builder.md)資訊[。
+了解更多關於報告建構器的[&#128279;](/help/migrated/administrators/feature-summary/alm-report-builder.md)資訊。
 
 ## 自訂角色變更
 
@@ -206,13 +206,13 @@ Report Builder 為管理員提供一個彈性且自助式的報告工具，超�
 
 啟用後，作者會在外部 LMS 活動設定中看到 **「選擇內容** 」按鈕。 他們可以瀏覽核准的課程目錄、選擇課程並確認選擇——所有欄位都會自動填入。
 
-了解更多關於 LTI 深度連結的](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)資訊[。
+了解更多關於 LTI 深度連結的[&#128279;](/help/migrated/integration-admin/feature-summary/lti-deep-links.md)資訊。
 
 ## 教室地點
 
 教室地點現支援結構化 **的四場地點格式**，包括國家、州/省/地區、城市及地點名稱，讓跨區域的訓練地點管理與組織變得更方便。 本次更新包含從舊有單一欄位格式的一次性遷移，並新增對「位置名稱&#x200B;**」與**「位置資訊&#x200B;**」欄位的多語言支援**，讓學習者能使用本地化的教室資訊。
 
-了解更多關於教室地點的](/help/migrated/administrators/feature-summary/classroom.md)資訊[。
+了解更多關於教室地點的[&#128279;](/help/migrated/administrators/feature-summary/classroom.md)資訊。
 
 ## 報告版本變更
 
@@ -228,11 +228,11 @@ Report Builder 為管理員提供一個彈性且自助式的報告工具，超�
 |---|---|
 | **MQA：最新分數與最高分數比較** | 對於多次嘗試的模組，作者現在可以選擇在學習者成績單中記錄最新或最高嘗試分數，並用於成績簿計算。 「最新」是現有的預設值，且在未設定時仍維持不變。 欲了解更多資訊，請參閱 [Gradebook for Authors](/help/migrated/authors/feature-summary/alm-author-gradebook.md#configurescoresettingsmultipleattempts)。 |
 | **內容庫中的內容預覽** | 作者現在可以在內容庫中直接預覽已上傳的內容檔案，然後再將它們加入課程。 了解更多關於 [預覽內容庫](/help/migrated/authors/feature-summary/content-library.md#previewcontentlibrary)的資訊。 |
-| **增量使用者報告** | 新的基於 API 的使用者報告僅回傳自上次請求以來建立或修改的使用者，藉此減少使用自動化使用者同步工作流程的大型帳戶資料傳輸。 了解更多關於增量使用者報告的資訊[](/help/migrated/incremental-user-report.md)。 |
-| **Fluidic Player 新增 11 種語言** | 流體播放器現在支援 11 種額外語言，包括由右到左（RTL）腳本的支援。 了解更多關於 Fluidic Player](/help/migrated/learners/feature-summary/fluidic-player.md) 的資訊[。 |
+| **增量使用者報告** | 新的基於 API 的使用者報告僅回傳自上次請求以來建立或修改的使用者，藉此減少使用自動化使用者同步工作流程的大型帳戶資料傳輸。 了解更多關於增量使用者報告的資訊[&#128279;](/help/migrated/incremental-user-report.md)。 |
+| **Fluidic Player 新增 11 種語言** | 流體播放器現在支援 11 種額外語言，包括由右到左（RTL）腳本的支援。 了解更多關於 Fluidic Player[&#128279;](/help/migrated/learners/feature-summary/fluidic-player.md) 的資訊。 |
 | **LTI 模組遷移** | 現有的 LTI 1.1 模組現在可透過遷移工具遷移至 LTI 1.3。 了解更多關於 [模組](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofltimodules) LTI 遷移的資訊。 |
-| **電子郵件建構器：支援富文本編輯器** | Adobe Learning Manager 中的電子郵件範本現在支援富文字格式、附件及自訂自動化。 了解更多關於 Email Builder](/help/migrated/administrators/feature-summary/email-builder.md) 的資訊[。 |
-| **電子郵件建構器：預覽功能** | 您可以使用預覽選項檢查撰寫好的電子郵件，看看收件人端的樣貌。 了解更多關於 Email Builder](/help/migrated/administrators/feature-summary/email-builder.md) 的資訊[。 |
+| **電子郵件建構器：支援富文本編輯器** | Adobe Learning Manager 中的電子郵件範本現在支援富文字格式、附件及自訂自動化。 了解更多關於 Email Builder[&#128279;](/help/migrated/administrators/feature-summary/email-builder.md) 的資訊。 |
+| **電子郵件建構器：預覽功能** | 您可以使用預覽選項檢查撰寫好的電子郵件，看看收件人端的樣貌。 了解更多關於 Email Builder[&#128279;](/help/migrated/administrators/feature-summary/email-builder.md) 的資訊。 |
 | **Webhook 時間戳標準化** | Webhook 有效載荷物件中 `data` 的所有日期與時間欄位現在都設定 `00`為秒數，提供與學員成績單報告一致的分鐘級精確度。 |
 | **連線增強功能** | Azure Data Lake Storage （ADLS） 連接器更新;持續支援重複虛擬教室課程的教室名稱;基於錄影檢視的出席追蹤。 |
 | **球員表現提升** | 流暢的賽道玩家經過優化，以加快載入時間與模組間更流暢的轉換。 |

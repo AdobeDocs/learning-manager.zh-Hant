@@ -212,7 +212,7 @@ QR 碼會以 PDF 格式下載，並可在課程中數位分享或顯示。
 
 ## 擷取邀請回應
 
-講師僅 **[!UICONTROL Invite Reply]** 在 ACAP 管理員啟用此選項時，才能擷取學習者的邀請回應。 要啟用此功能，管理員需聯絡 learningmanagersupport@adobe.com [](mailto:learningmanagersupport@adobe.com)支援團隊。
+講師僅 **[!UICONTROL Invite Reply]** 在 ACAP 管理員啟用此選項時，才能擷取學習者的邀請回應。 要啟用此功能，管理員需聯絡 learningmanagersupport@adobe.com [&#128279;](mailto:learningmanagersupport@adobe.com)支援團隊。
 
 完成後，您可以在該 **[!UICONTROL Learners]** 區塊查看邀請回覆。 前往任一會議，選擇 **[!UICONTROL Learners]**，並從下拉選單中選擇邀請回覆。
 
@@ -323,7 +323,7 @@ QR 碼會以 PDF 格式下載，並可在課程中數位分享或顯示。
 
 1. 選擇未指派的學習者，以納入團隊。
 
-1. 選擇&#x200B;**動作>****組成單一團隊**。會以指定人數的學習者組成一個團隊。
+1. 選擇&#x200B;**動作>**&#x200B;**組成單一團隊**。會以指定人數的學習者組成一個團隊。
 
    ![組成單一團隊選項](assets/Group-Team-submission-and-rubric-based-assessments-image24.png "組成單一團隊")
 
@@ -456,7 +456,7 @@ QR 碼會以 PDF 格式下載，並可在課程中數位分享或顯示。
 
    **可選**：透過選擇 **「在分數** 中新增私人筆記」切換，以輸入私人筆記。 私人筆記僅對被指派至該實例的講師可見。 即使您選擇 **「顯示留言**」，學習者也無法查看。
 
-1. 提交評估報告。 選擇「****&#x200B;提交」。提交狀態會變更為 **「**&#x200B;已核准」。
+1. 提交評估報告。 選擇「**&#x200B;**&#x200B;提交」。提交狀態會變更為 **「**&#x200B;已核准」。
 
    ![提交評估](assets/Group-Team-submission-and-rubric-based-assessments-image40.png "選項提交評估")
 

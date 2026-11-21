@@ -38,7 +38,7 @@ ht-degree: 0%
 
 ### 關於工作階段分析 PDF 中的 C2PA 簽章 {#c2pa-signatures}
 
-AI 會生成虛擬教練課程分析。 為了讓其他人信任已下載的副本，Learning Manager 會以 C2PA](https://c2pa.org/) 簽名在 PDF [上簽名。
+AI 會生成虛擬教練課程分析。 為了讓其他人信任已下載的副本，Learning Manager 會以 C2PA[&#128279;](https://c2pa.org/) 簽名在 PDF 上簽名。
 
 C2PA 是開放的產業標準，用於內容真實性。 Adobe Learning Manager 使用與其他 Adobe 產品相同的 Adobe 簽署服務。
 
