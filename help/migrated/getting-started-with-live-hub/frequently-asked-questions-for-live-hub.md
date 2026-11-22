@@ -4,9 +4,9 @@ description: 關於 Adobe Learning Manager 中 Live Hub 的常見問題，依管
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
+source-git-commit: bf1aebd9c505dd632c5f31a3bc71e03462ec5e16
 workflow-type: tm+mt
-source-wordcount: '4471'
+source-wordcount: '4470'
 ht-degree: 0%
 ---
 
@@ -54,7 +54,8 @@ Live Hub 包含管理員、作者、講師與學習者等角色，各自負責�
 
 +++我的帳戶可以使用 Live Hub 嗎？
 
-Live Hub（測試版）將於 2026 年 8 月起上線。 管理員可以為您的 Adobe Learning Manager 帳戶啟用或停用 Live Hub。 如果啟用了 Live Hub，作者在建立虛擬教室模組時可以選擇它作為即時訓練提供者。 如果 Live Hub 選項不可用，請聯絡您的管理員以啟用此功能。
+Live Hub 將於 2026 年 8 月起提供。 管理員可以為您的 Adobe Learning Manager 帳戶啟用或停用 Live Hub。 如果啟用了 Live Hub，作者在建立虛擬教室模組時可以選擇它作為即時訓練提供者。 如果 Live Hub 選項不可用，請聯絡您的管理員以啟用此功能。
+
 
 +++
 
