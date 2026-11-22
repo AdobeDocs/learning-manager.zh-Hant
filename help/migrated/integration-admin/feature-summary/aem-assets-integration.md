@@ -428,5 +428,5 @@ Adobe Learning Manager 接著驗證您的 IMS 組織管理員角色及實例存�
 **相關連結：**
 
 * [管理內容庫中的內容](/help/migrated/authors/feature-summary/content-library.md)
-* [Adobe 管理主控台文件](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Adobe Experience Manager 資產文件](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Adobe 管理主控台文件](https://experienceleague.adobe.com/zh-hant/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager 資產文件](https://experienceleague.adobe.com/zh-hant/docs/experience-manager-learn/assets/overview)
