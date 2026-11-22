@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 確認學習路徑與問題相關，且在目錄中對學習者可見。 學習者助理不會顯示對學習者隱藏的內容。
 
-## 設定學習助理代理程式
+## 設定學習助理代理程式 {#configure-la-agents}
 
 開啟或關閉個別學習助理代理程式，以控制學習者在 Adobe Learning Manager 中可以使用哪些 AI 功能。
 
@@ -221,7 +221,7 @@ AI 助理內建提示，幫助你快速開始處理常見問題與情境。 這�
 
 >[!IMPORTANT]
 >
->僅 **支援內部** 目錄。 如果&#x200B;**選取了「共享**」、「**取得**&#x200B;**」、「外部」**&#x200B;或其他非內部目錄，即使其內容出現在&#x200B;**「合格目錄**」清單中，AI 助理也不會顯示該目錄。
+>僅 **支援內部** 目錄。 如果&#x200B;**選取了「共享**」、「**取得****」、「外部」**&#x200B;或其他非內部目錄，即使其內容出現在&#x200B;**「合格目錄**」清單中，AI 助理也不會顯示該目錄。
 
 ## 啟動 AI 助理（學習者）
 
@@ -381,7 +381,7 @@ Adobe Learning Manager 的學習助理可以回答學習者關於平台上任何
 
 >[!IMPORTANT]
 >
->作為先決條件，管理員必須將所需的目錄新增至學習者助理。 更多詳情請參閱[「設定 AI 助理存取](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權」。
+>作為先決條件，管理員必須將所需的目錄新增至學習者助理。 更多詳情請參閱[「設定 AI 助理存取](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access) 權」。
 
 
 當管理員將 Go1 或 LinkedIn Learning 目錄新增至 Adobe Learning Manager 時，目錄內容會經過排程的擷取流程。 匯入完成後，該目錄中的學習物件將可供學習助理查詢。
