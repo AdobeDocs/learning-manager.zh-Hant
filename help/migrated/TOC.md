@@ -3,9 +3,9 @@ user-guide-title: Adobe Learning Manager 指南
 breadcrumb-title: Learning Manager
 user-guide-description: Adobe Learning Manager 文件
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1946'
 ht-degree: 1%
 ---
 
@@ -305,7 +305,6 @@ ht-degree: 1%
   * [設定](authors/feature-summary/settings.md)
 * 講師 {#instructor}
   * [模組](/help/migrated/instructors/feature-summary/modules.md)
-  * [評估並撤回團隊提交](/help/migrated/instructors/feature-summary/learners.md)
   * [為您的課程管理學習者](instructors/feature-summary/learners.md)
   * [重新傳送工作階段邀請](instructors/feature-summary/resend-session-invite.md)
 * 學習者 {#learner}
@@ -443,7 +442,7 @@ ht-degree: 1%
 * 報告變更 {#reporting-changes}
   * [2026 年 8 月版本中的變更報告](/help/migrated/reporting-changes-august-2026.md)
 * 知識庫 {#knowledge-base}
-  * [Live Hub（測試版）疑難排解指南](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Live Hub 疑難排解指南](./kb/troubleshooting-guide-for-live-hub.md)
   * [無法登入 Learning Manager](kb/unable-log-in-learning-manager.md)
   * [學習摘要不會顯示目前資料](kb/learning-summary-not-display-data.md)
   * [無法上傳 CSV](kb/unable-to-upload-csv.md)
