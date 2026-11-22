@@ -3,9 +3,9 @@ description: 讓學習者在 Claude、ChatGPT Enterprise 及自訂代理程式�
 jcr-language: en_us
 title: Adobe Learning Manager 模型情境協定伺服器
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ AI 用戶端呼叫 MCP 伺服器，MCP 會將每個請求導向匹配的學習�
 
 客戶與合作夥伴教育是 MCP 伺服器的主要用途之一。 自行打造企業 AI 代理的組織，可以將這些代理程式與 Adobe Learning Manager 學習者工具連結。 他們的客戶與合作夥伴則可在他們已使用的助理中學習，無需切換到獨立的學習助理。
 
-例如，Acme Inc. 自行打造企業級 AI 助理。 Acme Inc. 的一位合作夥伴造訪 Lenovo 的環境，以了解 Lenovo 的產品。 Acme 的助理透過 MCP 伺服器連接其 Adobe Learning Manager 帳戶並回傳與學習相關的回應，確保合作夥伴永遠不會離開 Acme 體驗。
+例如，Acme Inc. 自行打造企業級 AI 助理。 Acme Inc. 的一位合作夥伴造訪 Tech Corp 的環境，以了解 Tech Corp 的產品。 Acme 的助理透過 MCP 伺服器連接其 Adobe Learning Manager 帳戶並回傳與學習相關的回應，確保合作夥伴永遠不會離開 Acme 體驗。
 
 這種方法讓組織能夠：
 

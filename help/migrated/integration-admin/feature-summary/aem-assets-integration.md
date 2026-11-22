@@ -3,9 +3,9 @@ description: 將 Adobe Experience Manager 資產中的學習內容與影像匯�
 jcr-language: en_us
 title: AEM 資產整合
 exl-id: cd33c0f2-59df-4f35-a7d9-d7bff6b9ffba
-source-git-commit: 3c0f45721777421361401cf836a21b88cee3a259
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3447'
 ht-degree: 0%
 ---
 
@@ -166,7 +166,7 @@ Adobe Learning Manager 接著驗證您的 IMS 組織管理員角色及實例存�
 
 1. 請等待上述設定延遲結束。
 1. 以擁有實例存取權的作者身分登入。
-1. 在內容庫中&#x200B;**，選擇**&#x200B;**瀏覽**，並確認 **AEM 資產**&#x200B;出現在裝置&#x200B;**旁**。
+1. 在內容庫中&#x200B;**，選擇****瀏覽**，並確認 **AEM 資產**&#x200B;出現在裝置&#x200B;**旁**。
 1. 匯入資產並確認其是否已匯入。
 1. 如果資產被替換、是新版本或重新處理，大多數情況下會在幾分鐘內更新，少數情況下可能需要長達一小時。 如果需要超過一小時，您可以在 AEM Assets 中重新處理該資產。
 
@@ -424,3 +424,9 @@ Adobe Learning Manager 接著驗證您的 IMS 組織管理員角色及實例存�
 **Q.ALM 會產生公開預覽連結嗎？**
 
 **答：** 是的，僅限於 SCORM 1.2、SCORM 2004 及 HTML 檔案。 這僅在整合管理員啟用公開預覽功能時才可行。
+
+**相關連結：**
+
+* [管理內容庫中的內容](/help/migrated/authors/feature-summary/content-library.md)
+* [Adobe 管理主控台文件](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager 資產文件](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
