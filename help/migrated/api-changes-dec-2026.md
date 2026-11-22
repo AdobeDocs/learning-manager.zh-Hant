@@ -3,7 +3,7 @@ description: 了解如何使用論壇訂閱設定與訂閱者 API 來設定摘�
 jcr-language: en_us
 title: 2026 年 11 月的 API 變更
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 1%
@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # 2026 年 12 月的 API 變更
 
-## 討論區講師通知的 API
+## 討論區講師通知的 API {#api-discussion-board-instructors}
 
 本文說明支援討論區講師通知的新 API。 利用這些資訊訂閱講師和班長討論區，並控制哪些活動出現在他們的摘要郵件中。
 
@@ -149,7 +149,7 @@ PATCH /primeapi/v2/boardSubscriptionSettings
 
 ### 請求機構 {#request-body-update-settings}
 
-請以與建立 API 相同的格式傳送您想要變更的屬性：`notifyNewPost`、 `notifyComment`&#x200B;`notifyReply`&#x200B;`digestFrequencyHours`和 。您未傳送的屬性會保留其目前的值。 關於每個屬性的說明，請參閱 [「建立帳戶層級設定](#api-create-settings)的 API」。
+請以與建立 API 相同的格式傳送您想要變更的屬性：`notifyNewPost`、 `notifyComment``notifyReply``digestFrequencyHours`和 。您未傳送的屬性會保留其目前的值。 關於每個屬性的說明，請參閱 [「建立帳戶層級設定](#api-create-settings)的 API」。
 
 ### 範例請求 {#example-request-update-settings}
 
@@ -493,7 +493,7 @@ curl -X POST \
 
 | 現況 | 意義 |
 |---|---|
-| 207 | 多重狀態。 請求已處理，回應中列出每位使用者`added`&#x200B;`failed`的結果。 |
+| 207 | 多重狀態。 請求已處理，回應中列出每位使用者`added``failed`的結果。 |
 | 400 | 一個一般的錯誤請求錯誤。 |
 | 401 | 請求缺少有效憑證，或因憑證無效而被拒絕存取。 |
 | 404 | 所要求的資源，例如黑板，卻找不到。 |
@@ -531,7 +531,7 @@ curl -X POST \
 
 #### 回應格式
 
-批量訂閱會回傳 HTTP 207 多重狀態，並對每個使用者都有`added`&#x200B;`failed`結果，如範例[回應](#example-response-subscribe-users)所示。
+批量訂閱會回傳 HTTP 207 多重狀態，並對每個使用者都有`added``failed`結果，如範例[回應](#example-response-subscribe-users)所示。
 
 #### 常見的驗證失敗
 
@@ -585,7 +585,7 @@ curl -X DELETE \
 | 401 | 請求缺少有效憑證，或因憑證無效而被拒絕存取。 |
 | 404 | 所請求的資源，例如看板或訂閱，都找不到。 |
 
-## 書籤 API 排序與已退休的內容處理
+## 書籤 API 排序與已退休的內容處理 {#bookmark-api-ordering-retired-content}
 
 ### API 的目的
 
@@ -721,7 +721,7 @@ Authorization: oauth <access-token>
 3. 移除您作為變通方法所新增的任何用戶端排序或已退休內容篩選功能。
 4. 根據回應中的項目數量顯示書籤數量。 已退休學習物件的書籤不再包含在內。
 
-### 學習者應用程式中 Leaner Compliance Widget 中多註冊實例的 API 支援
+### 學習者應用程式中 Leaner Compliance Widget 中多註冊實例的 API 支援 {#api-multienrolled-instances-lc-widget}
 
 公開 API 透過現有註冊端點上的可選查詢參數來支援此行為。 如果你省略這個參數，API 會回傳與先前相同的結果，因此現有的整合系統，包括無頭實作，仍能維持不變的運作方式。
 
@@ -743,25 +743,25 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 **回應機構**
 
-&lbrace;
+{
 
-「連結」：&lbrace;
+「連結」：{
 
 “self”： “[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true)”，
 
 “next”： “[https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10&amp;filter.loTypes=course&amp;sort=dateEnrolled&amp;includeHierarchicalEnrollments=false&amp;includeMultiInstanceEnrollments=true&amp;page\[cursor\]=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9](https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page%5blimit%5d=10&filter.loTypes=course&sort=dateEnrolled&includeHierarchicalEnrollments=false&includeMultiInstanceEnrollments=true&page%5bcursor%5d=eyJjb3Vyc2VNdWx0aSI6MCwiam9iQWlkIjowLCJjb3Vyc2UiOjEwLCJsZWFybmluZ1Byb2dyYW0iOjAsImNlcnRpZmljYXRpb24iOjB9)”
 
-&rbrace;,
+},
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：15067_30122_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “完成截止日期”：「2026-02-24T10:50:45.000Z」，
 
@@ -775,73 +775,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：15067”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：15067_30122”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：15067_30122_41715_1_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：1108800_1997400_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “enrollmentSource”： “SELF_ENROLL”，
 
@@ -853,73 +853,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “ID”：「course：1108800」，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：1108800_1997400”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：1108800_1997400_2174574_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：2027668_3707328_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “enrollmentSource”： “MGR_APPROVAL”，
 
@@ -931,73 +931,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2027668”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2027668_3707328”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：2027668_3707328_2665897_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：2030067_3709862_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “enrollmentSource”： “MGR_APPROVAL”，
 
@@ -1009,73 +1009,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2030067”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2030067_3709862”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：2030067_3709862_2668467_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：3081896_5749155_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “enrollmentSource”： “MGR_APPROVAL”，
 
@@ -1087,81 +1087,81 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：3081896”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：3081896_5749155”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：3081896_5749155_3737554_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：3081896_5749155_3737555_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：2037893_3717940_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “enrollmentSource”： “MGR_APPROVAL”，
 
@@ -1173,73 +1173,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2037893”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2037893_3717940”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：2037893_3717940_3676856_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：3049434_5713130_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “完成截止日期”：「2020-05-05T18:29:59.000Z」，
 
@@ -1253,73 +1253,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：3049434”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：3049434_5713130”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：3049434_5713130_3693595_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：2001397_3679403_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “enrollmentSource”： “MGR_APPROVAL”，
 
@@ -1331,73 +1331,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2001397”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2001397_3679403”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：2001397_3679403_2635974_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：2037862_3717900_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “enrollmentSource”： “MGR_APPROVAL”，
 
@@ -1409,73 +1409,73 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 「state」：「PENDING_APPROVAL」
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2037862”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2037862_3717900”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：2037862_3717900_3676816_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-&lbrace;
+{
 
 “id”： “course：2037837_3717863_3400468”，
 
 “type”： “learningObjectInstanceEnrollment”，
 
-“屬性”： &lbrace;
+“屬性”： {
 
 “完成截止日期”：「2020-02-29T18:29:59.000Z」，
 
@@ -1489,71 +1489,71 @@ https://learningmanagerstage1.adobe.com/primeapi/v2/enrollments?page\[limit\]=10
 
 “state”： “其他”
 
-&rbrace;,
+},
 
-「關係」：&lbrace;
+「關係」：{
 
-「學習者」：&lbrace;
+「學習者」：{
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “3400468”，
 
 “type”： “user”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“learningObject”： &lbrace;
+“learningObject”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2037837”，
 
 “type”： “learningObject”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loInstance”： &lbrace;
+“loInstance”： {
 
-“data”： &lbrace;
+“data”： {
 
 “id”： “course：2037837_3717863”，
 
 “type”： “learningObjectInstance”
 
-&rbrace;
+}
 
-&rbrace;,
+},
 
-“loResourceGrades”： &lbrace;
+“loResourceGrades”： {
 
-“data”： \&lbrack;
+“data”： \[
 
-&lbrace;
+{
 
 “id”： “course：2037837_3717863_3597363_0_3400468”，
 
 “type”： “learningObjectResourceGrade”
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-&rbrace;
+}
 
-\&rbrack;
+\]
 
-&rbrace;
+}
 
-## 學習路徑註冊的最後存取日期 {#last-access-date-lp-enrollment}
+## 學習路徑註冊的最後存取日期 {#api-last-access-date-lp-enrollment}
 
 Adobe Learning Manager 允許您在學習路徑註冊時儲存自訂的元資料，例如最後存取日期。 你透過 API 設定並讀取這些元資料。 這有助於您追蹤對所指派學習路徑的限時存取情況。
 
@@ -1638,7 +1638,7 @@ POST /primeapi/v2/users/{userId}/enrollments?loId=<lpId>&loInstanceId=<instanceI
 * **在入口網站顯示值：** 從上方表格中發送 GET 請求，針對您的令牌類型，並從回應中讀取物件 `metadata` 。
 * **從外部系統（例如商務平台）更新值：** 使用管理員權杖傳送 PATCH 請求。
 
-## 作業 API：使用 generateCustomReport 匯出報告建構器報告
+## 作業 API：使用 generateCustomReport 匯出報告建構器報告 {#api-job-report-builder-exports}
 
 Adobe Learning Manager 2026 年 12 月版本在 Job API 中新增了一種新的 `generateCustomReport`工作類型 。 使用它以自動方式匯出您在 Report Builder 中建立的任何報告，方法是傳遞報告 ID。
 
@@ -2064,7 +2064,7 @@ curl -X POST 'https://learningmanagerstage1.adobe.com/ctr/xtsas/<connectionId>/e
 2. 用 Zoom 帳號登入資料打電話 `POST /ctr/authcred/uuid/20012` 。
 3. 使用連接器名稱、相同的憑證字串以及同步排程進行呼叫 `POST /ctr/app/esconnect` 。 從回應中讀取連線 ID。
 4. 以可以使用該連線的使用者群組和自訂角色進行通話 `PUT /ctr/xtsa/{connectionId}/access` 。
-5. 撥打時設定`POST /ctr/xtsas/{connectionId}/enable`&#x200B;`val`為 `true` 或`false`，以啟用或停用連線。接著打電話 `GET /ctr/xtsas` 確認 `enabled` 旗標，確認州份。
+5. 撥打時設定`POST /ctr/xtsas/{connectionId}/enable``val`為 `true` 或`false`，以啟用或停用連線。接著打電話 `GET /ctr/xtsas` 確認 `enabled` 旗標，確認州份。
 6. 若要稍後更改認證，請使用連線 ID 重複步驟 2 和 3。
 
 

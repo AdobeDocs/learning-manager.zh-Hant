@@ -6,10 +6,10 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 9f214ebfdf686375a53896b186deac31bbe1658c
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '4884'
-ht-degree: 0%
+source-wordcount: '4846'
+ht-degree: 1%
 ---
 
 >[!IMPORTANT]
@@ -70,6 +70,8 @@ Adobe Learning Manager 現已與 Adobe Experience Manager 資產整合，讓作�
 
 講師可在新的 **Teams 管理** 頁面管理團隊，並在團隊提交頁面上檢視工作。 當需要變更時，例如團隊成員離職，講師也可以取消已核准的提交，以解鎖團隊。 一個團隊最多可容納 100 名成員。 學習者可以查看自己的團隊、成員以及評估結果。 課程發佈後，團隊模組無法新增或刪除。
 
+[了解更多](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 ### 以評分標準為基礎的評量（評估計畫）
 
 作者現在可以為檔案提交模組定義一個評分標準，稱為評估計畫。 評分標準支持有評分選項的客觀題目，以及以書面複習為主觀題目。
@@ -80,6 +82,8 @@ Adobe Learning Manager 現已與 Adobe Experience Manager 資產整合，讓作�
 * 無論評分是整體總分，還是每個標準的分數
 
 每個問題都可以標記為必答，並設定以允許審查者發表評論。 以評分標準為基礎的評量最多可包含 100 題，作者需針對每個地區分別輸入問題。 課程發佈後，只有題目文本可以變更。
+
+[了解更多](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
 ### 講師核准或自動完成
 
@@ -123,25 +127,37 @@ Virtual Coach 支援九種語言，可作為獨立工作輔助工具使用，或
 
 學習助理現在會引用包含原始課程的學習路徑，以及課程本身。 學習者可從引用中開啟課程概覽或學習路徑頁面。 從工作輔助工具中擷取的答案包含下載連結。 這有助於學習者找到能解答他們問題的訓練內容。
 
+[了解更多](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+
 ## AI 助理配置
 
 管理員助理提供兩個代理程式：Insights 代理程式與知識代理程式。 它們可以單獨設定。 學習助理提供三種代理：知識代理、回應代理與學習路徑代理。 它們可以與目錄設定一併設定。
+
+[了解更多](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
 
 ## Webhook 用於講師對學習物件實例的編輯
 
 學習物件實例修改 webhook 現在會在講師編輯虛擬教室課程時觸發，除了管理員與作者變更外。 如課程時間、場地及報名人數限制等變動會觸發此現象。 無頭客戶可透過公開 API 取得課程詳細資訊，並將更新傳遞給學習者。
 
+[了解更多](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
 ## 合規小工具中的多重報名課程
 
 合規小工具現在會列出學習者必須完成的每一個多重報名課程的實例。 每個項目都會顯示實例名稱。 如果某個實例有截止日期，任何沒有截止日期的實例都會被隱藏。 公開 API 的註冊端點透過一個可選參數支援相同的行為。
+
+[了解更多](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ## 重新寄送虛擬教室課程邀請
 
 擁有課程編輯權限的管理員現在可以從實例頁面重新發送會話邀請。 選擇 **「重新寄出**」，搜尋「學習者」，然後傳送。 此選項適用於目前及未來的虛擬教室課程。 對於多個實例中的學習者，邀請只會發送到所選實例。 未註冊課程的學習者會被跳過並附警告。
 
+[了解更多](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
 ## Adobe Connect 錄影檢視自動出勤
 
 Adobe Learning Manager 現在會在學習者播放錯過的虛擬教室課程錄影時，自動標記出席紀錄。 排程整合會從 Adobe Connect 擷取檢視器資料，並將播放時間與帳戶設定的完成條件進行比較。 管理員可在整合管理應用程式中設定排程。 Adobe Learning Manager 在判定出席時僅考慮實際觀看時間，因此跳過錄影不計入完成標準。
+
+[了解更多](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 ## 適用於課程與實例的電子郵件建構器
 
@@ -160,8 +176,6 @@ Adobe Learning Manager 中的電子郵件建構器讓管理員與作者能建立
 橫幅與簽名設定已移動。 先前這些設定會出現在獨立 **的設定** 標籤中。 該標籤已被移除， **橫幅** 與 **簽名** 現在會顯示在 **全域版面配置**&#x200B;中。
 
 使用 Email Builder，您可以使用標題變數新增電子郵件標題。
-
-[了解更多](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
 
 ### 電子郵件建構器階層結構如何運作
 
@@ -202,17 +216,25 @@ Email Builder 採用階層結構。 每個層級都繼承自其父層級，並�
 
 如果您的帳戶已啟用電子郵件建構器，您將自動收到新的變更，無需採取任何行動。 現有的電子郵件功能仍可獨立於 Email Builder 的遷移活動運作。
 
+[了解更多](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
 ## 學習工具互通性中的自訂學習者屬性
 
 Adobe Learning Manager 現在可以透過 Learning Tools Interoperability 的選用名稱與角色配置服務端點讀取自訂學習者屬性。 它也會讀取發射請求中的訊息。 像國家或城市這類屬性會儲存在可分組的個人檔案欄位中。 啟動參數需要前綴，以便 Adobe Learning Manager 能辨識它們。 有些學習系統，例如 Moodle，並不支援這個端點。
+
+[了解更多](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
 ## 討論區講師通知
 
 無頭客戶現在可以寄送討論區活動摘要給講師與班級經理。 透過 API，你將訂閱者加入看板。 他們會以您設定的間隔，在一封電子郵件中收到新貼文、留言和回覆。 喜歡與不喜歡的資訊不包含在內。 你透過 API 開啟這個功能。
 
+[了解更多](/help/migrated/discussion-board-instructor-notifications.md)
+
 ## 管理員目錄搜尋中的相關性排名
 
 在管理檢視中的目錄搜尋現在會依相關性排序結果，使用與 Learner 相同的搜尋服務，其他地方則可在管理員搜尋中使用。 先出現完全匹配的版本，例如帶有特定日期的目錄名稱，接著是部分匹配。 輸入時的建議清單順序相同。
+
+[了解更多](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
 ## 從 Adobe Workfront 同步工作階段取消
 
@@ -224,6 +246,8 @@ Adobe Learning Manager 現在可以透過 Learning Tools Interoperability 的選
 * 將狀態設為「啟用」會重新啟動會話，接著您可以更新其詳細資訊或再次取消。
 
 會話更新仍維持原有運作。
+
+[了解更多](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
 
 ## 名字字元限制
 
@@ -253,9 +277,13 @@ Adobe Learning Manager 現在接受最多 255 個字元的名字，原為 63 個
 
 若要查看完整名稱，請將滑鼠移至縮短後的名稱上。
 
+[了解更多](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+
 ## 課程與學習路徑的徽章資訊
 
 當作者新增課程或學習路徑時，視窗會列出現有課程與學習路徑及徽章資訊。 視窗會顯示名稱、類型（課程或學習路徑）、出版狀態及課程格式，例如自學進度、虛擬、教室或混合式。
+
+[了解更多](/help/migrated/authors/feature-summary/create-learning-path.md)
 
 ## 非登入功能增強功能
 
@@ -277,7 +305,6 @@ Learning Manager 現在能在不需要使用者登入的情況下，受控地存
 
 管理員現在可以選擇在公共學院中出現的特定目錄。 只有這些目錄才能被匿名訪客瀏覽，並被搜尋引擎和 AI 助理索引，因此測試課程或內部內容保持隱私。
  
-
 ### 在搜尋引擎與 AI 助理中被找到（測試版）
 
 Adobe Learning Manager 現在能讓你的公開學院被 Google 等搜尋引擎以及 ChatGPT 、Claude 和 Gemini 等 AI 助理發現。 你的課程隨後會出現在搜尋結果和 AI 生成的答案中，這些答案會歸屬於你的學院。
@@ -292,9 +319,15 @@ Adobe Learning Manager 現在能讓你的公開學院被 Google 等搜尋引擎�
 >
 >在原生 Adobe Learning Manager 上進行 AI 與搜尋發現，需要自訂網域。 無頭部署需要在自身環境中實作部分設定。
 
+>[!NOTE]
+>
+>本專題的文件將很快公開。
+
 ## 在不讓學習路徑無法取得的情況下退役課程
 
 已退休的課程或巢狀學習路徑會從較高階的學習物件中移除，該物件仍會持續開放，供新報名使用。 退休課程不再讓學習路徑變得無法取得。
+
+[了解更多](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
 
 ## 自我註冊個人檔案的未登入頁面 URL
 
@@ -302,22 +335,15 @@ Adobe Learning Manager 現在能讓你的公開學院被 Google 等搜尋引擎�
 
 當使用者從透過該 URL 到達的頁面選擇 **「註冊」** 時，他們會被加入該 URL 所屬的個人檔案中。 這會讓來自不同組織的使用者，例如不同機構或合作夥伴公司，分別存在不同的個人檔案。
 
+[了解更多](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+
 ## 儲存學習路徑註冊的最後存取日期
 
 Adobe Learning Manager 現在允許您將自訂的元資料（例如最後存取日期）附加到學習路徑的報名中。 你透過 API 設定並閱讀，API 幫助你追蹤對所指派學習路徑的時限存取。
 
 課程報名已透過 API 支援最後存取日期，該 API 控制學習者存取課程的時間長短。 學習路徑註冊現在提供通用的中繼資料欄位，讓您能儲存最後存取日期或其他想要追蹤的值。
 
-## 使用 Job API 匯出報表建構器報表
-
-此版本的 Adobe Learning Manager 新增了新的 Job API 工作類型。 `generateCustomReport`傳遞報告 ID，即可自動匯出您在 Report Builder 中建立的任何報告。
-
-結合報告建構器中的新 L2 測驗資料集，您現在可以：
-
-* 將跨多門課程與模組的題目層級（L2）測驗資料匯出於單一報告，而非每門課程只執行 `generateQuizReport` 一次。
-* 自動化定期匯出，例如每日增量匯出至您的資料倉儲或商業智慧工具。
-
-現有的工作類型（包括 `generateQuizReport`）保持不變。
+[了解更多](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## 下載報告中的欄位標題變更
 
@@ -329,7 +355,7 @@ Adobe Learning Manager 現在允許您將自訂的元資料（例如最後存取
 
 Live Hub 現已正式開放給 Ultimate 客戶，對 Prime 客戶仍處於測試階段。
 
-[了解更多](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
+[了解更多](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
 
 ## Live Hub 中對隱藏字幕的多語言支援
 
@@ -360,7 +386,7 @@ Live Hub 現在支援最多可容納 5000 名參加者的大型課程，讓組�
 
 這讓組織能在同一平台上舉辦大型訓練課程，並設定可設定為預期受眾規模的教室。
 
-[了解更多](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+[了解更多](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
 ## 管道
 
@@ -427,13 +453,19 @@ Live Hub 中的無障礙修正改善了輔助技術與鍵盤導航使用者的�
 
 不會新增端點、參數或回應屬性，因此現有整合會持續運作，無需變更。
 
+[了解更多](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 ### 討論區講師通知的 API
 
 本次版本新增支援討論區講師通知的新 API。 利用這些資源訂閱講師和班級經理的討論區，並控制哪些活動出現在他們的摘要郵件中。
 
+[了解更多](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 ### 在 Learner 應用程式中支援多註冊實例的 API
 
 註冊 API 現在支援 Learner 應用程式中的多重註冊實例。 新增可選 `includeMultiInstanceEnrollments=true` 參數以 `GET /enrollments` 包含它們。 預設為 `false`，因此現有的整合，包括無頭實作，都能維持不變的運作方式。
+
+[了解更多](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
 ### 學習路徑註冊的最後存取日期
 
@@ -444,11 +476,15 @@ Live Hub 中的無障礙修正改善了輔助技術與鍵盤導航使用者的�
 
 這些元資料是用來追蹤你的。 它不控制存取，也不會套用在路徑上的課程上。
 
+[了解更多](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 ### 報告建構器匯出作業 API 工作類型
 
 Job API 新增了工作類型，當您 `generateCustomReport`傳遞報告 ID 時，會匯出任何已儲存的 Report Builder 報告。 透過全新的 L2 測驗資料集，你可以將跨多個課程的題級測驗資料匯出成一份報告，並自動化重複匯出。
 
 現有的工作類型（包括 `generateQuizReport`）保持不變。
+
+[了解更多](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
 
 ### Zoom 連接器的 API
 

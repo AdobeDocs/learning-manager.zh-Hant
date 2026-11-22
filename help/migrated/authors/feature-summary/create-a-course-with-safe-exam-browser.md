@@ -1,9 +1,9 @@
 ---
 title: 使用 Safe Exam Browser 建立課程
 description: 使用安全考試瀏覽器模式製作小測驗，並將其作為自學模組加入課程，在 Adobe Learning Manager 中提供受限的評量環境。
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
 
    >[!NOTE]
    >
-   > 如果管理員啟用此選項，您可以為課程測驗模組啟用或停用安全考試瀏覽器（SEB）的需求。 如果管理員停用此選項，測驗時必須使用SEB，且無法更改此要求。
+   > 如果管理員啟用此選項，您可以為課程測驗模組啟用或停用安全考試瀏覽器（SEB）的需求。 如果管理員停用此選項，測驗時必須使用SEB，且無法更改此要求。 請參閱 [「啟用安全考試瀏覽器整合](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration) 」以取得更多資訊。
 
 1. 選擇 **「發佈**」。
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 將測驗加入課程的方法如下：
 
 1. 選擇 **「建立課程** 」，並輸入課程名稱與描述。
-1. 從模組頁面選擇&#x200B;**「新增模組**」。**&#x200B;**
+1. 從模組頁面選擇&#x200B;**「新增模組**」。****
 
    「模組」彈出視窗會出現。
 
@@ -68,3 +68,5 @@ ht-degree: 0%
 1. 選擇 **「儲存** > **發佈**」。
 
    課程現在包含一項評估，要求學習者使用安全考試瀏覽器。
+
+查看 [「在安全考試瀏覽器](../../learners/feature-summary/launch-safe-exam-browser.md) 中啟動測驗」，了解學習者如何使用安全考試瀏覽器存取並完成測驗。

@@ -1,9 +1,9 @@
 ---
 title: 安全檢查瀏覽器
 description: 在 Adobe Learning Manager 的帳戶層級啟用安全考試瀏覽器整合，讓作者能要求為原生測驗提供安全的瀏覽器環境。
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 0%
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ## 啟用安全考試瀏覽器整合
 
-啟用安全考試瀏覽器整合，讓作者在設定測驗時能使用此選項。 開始之前，請確認您已擁有帳戶的安全考試瀏覽器檔案。
+設定安全考試瀏覽器整合，讓作者在設定測驗時提供此選項。 開始之前，請確認您已擁有帳戶的安全考試瀏覽器檔案。
 
 啟用安全考試瀏覽器整合的方法：
 
@@ -36,6 +36,8 @@ ht-degree: 0%
 1. 選擇「 **儲存**」。
 
    現已開放「安全考試瀏覽器」，供作者在設定支援測驗時啟用。
+
+請參閱[「使用 SEB](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md) 建立課程」以取得更多關於以作者&#x200B;**身分設定安全考試瀏覽器**&#x200B;的資訊。
 
 ### 為 macOS 設定 .seb 檔案 {#configure-the-seb-file-for-macos}
 

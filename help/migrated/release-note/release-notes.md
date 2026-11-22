@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 078d9e7c6d0422027818541965135865cc761c20
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '39529'
+source-wordcount: '39544'
 ht-degree: 0%
 ---
 # Adobe Learning Manager 發行說明
@@ -20,7 +20,7 @@ ht-degree: 0%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/tw/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -37,25 +37,41 @@ Live Hub 現支援最多 5,000 名與會者的場次、多語言隱藏字幕及�
 
 ## 本版本的功能
 
-**報告建立器圖表與儀表板：** 管理員現在可以在報告建立器中視覺化報告資料。 從報表欄位建立大型數字圖、折線圖、圓餅圖及樞紐分析表，並在每個圖表中提供彙總與篩選功能。 報告儀表板會儲存由單一報告建立的圖表。 自訂儀表板可整合多個報表的圖表，並支援最多 20 個小工具。 屬於報告的圖表會在您分享報告時共享。 儀表板無法匯出。 [了解更多](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+**報告建立器圖表與儀表板：** 管理員現在可以在報告建立器中視覺化報告資料。 從報表欄位建立大型數字圖、折線圖、圓餅圖及樞紐分析表，並在每個圖表中提供彙總與篩選功能。 報告儀表板會儲存由單一報告建立的圖表。 自訂儀表板可整合多個報表的圖表，並支援最多 20 個小工具。 屬於報告的圖表會在您分享報告時共享。 儀表板無法匯出。
 
-**報告建立器中的 Insights Agent 報告：** 管理員可以開啟、檢視、編輯並將 Insights Agent 回答儲存為報告建構器報告，然後使用報表建構器功能，例如訂閱。 如果問題的一部分無法用 Report Builder 欄位表達，報告會將該部分列為空白。[了解更多](/help/migrated/administrators/feature-summary/insights-agent.md##create-report-insights-agent)
+[了解更多](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
 
-**Adobe Experience Manager 資產整合：** 作者可在不離開 Adobe Learning Manager 的情況下，瀏覽並選擇 Experience Manager 資產中核准的學習內容與影像資產。 當數位資產管理器中的資產變更時，更新內容可以流向使用該資產的課程。 作者只會看到他們在 Experience Manager 資產中已擁有存取權的資產。[了解更多](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+**報告建立器中的 Insights Agent 報告：** 管理員可以開啟、檢視、編輯並將 Insights Agent 回答儲存為報告建構器報告，然後使用報表建構器功能，例如訂閱。 如果問題的一部分無法用 Report Builder 欄位表達，報告會將該部分列為空白。
+
+[了解更多](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
+
+**Adobe Experience Manager 資產整合：** 作者可在不離開 Adobe Learning Manager 的情況下，瀏覽並選擇 Experience Manager 資產中核准的學習內容與影像資產。 當數位資產管理器中的資產變更時，更新內容可以流向使用該資產的課程。 作者只會看到他們在 Experience Manager 資產中已擁有存取權的資產。
+
+[了解更多](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
 
 **檔案提交功能增強：** 檔案提交模組現支援以下功能：
 
 * **團隊提交：** 講師組成最多 100 人組成的團隊。 每隊提交一份檔案，講師的評估適用於每位成員。 講師在新的 **Teams 管理** 頁面上管理團隊。
+
+  [了解更多](/help/migrated/learners/feature-summary/submit-assignment-as-team.md)
+
 * **評估計畫評量：** 作者定義評估計畫，包含已評分選項的客觀問題與經過書面審查的主觀問題。 評估計畫最多可包含100題。
+
 * **講師核准或自動完成：** 作者可選擇提交是否需講師核准或自動完成。 此設定與評估計畫無關。
 
-[了解更多]
+[了解更多](/help/migrated/administrators/feature-summary/team-submissions-and-rubrics.md)
 
-**學習者助理模型情境協議伺服器：** 學習者可透過模型情境協議（MCP）伺服器，從他們已使用的工具（如 ChatGPT、Claude 及自訂代理程式）存取 Learning Manager。 管理員會在整合管理員應用程式中設定伺服器。 它提供搜尋、列出報名、取得學習物件、取得使用者資料、回答學習內容問題，以及個人化學習路徑功能。 [了解更多](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+**學習者助理模型情境協議伺服器：** 學習者可透過模型情境協議（MCP）伺服器，從他們已使用的工具（如 ChatGPT、Claude 及自訂代理程式）存取 Learning Manager。 管理員會在整合管理員應用程式中設定伺服器。 它提供搜尋、列出報名、取得學習物件、取得使用者資料、回答學習內容問題，以及個人化學習路徑功能。
 
-**適用於課程與實例的電子郵件建構器：** 完整的電子郵件建構器體驗現已適用於課程層級及實例層級的電子郵件。 管理員定義帳戶版型與範本，作者則自訂課程與實例電子郵件，同時繼承版面配置與格式。 範本會連結到最近的可用版面配置，您可以解除連結以獨立編輯。 **橫幅與簽名設定已從**&#x200B;已移除的「設定&#x200B;**」標籤移至**「全域版面配置&#x200B;**」。** **&#x200B;**&#x200B;如果您的帳戶已啟用電子郵件建構器，您將自動收到這些變更。 [了解更多](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+[了解更多](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-**小考的安全考試瀏覽器整合：** 管理員可在帳戶層級啟用整合，並上傳安全考試瀏覽器設定檔（.seb）以定義評量限制。 作者可選擇哪些測驗需要使用安全考試瀏覽器。 嘗試此類測驗的學習者會被提示啟動或下載安全考試瀏覽器。 [了解更多](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
+**適用於課程與實例的電子郵件建構器：** 完整的電子郵件建構器體驗現已適用於課程層級及實例層級的電子郵件。 管理員定義帳戶版型與範本，作者則自訂課程與實例電子郵件，同時繼承版面配置與格式。 範本會連結到最近的可用版面配置，您可以解除連結以獨立編輯。 **橫幅與簽名設定已從**&#x200B;已移除的「設定&#x200B;**」標籤移至**「全域版面配置&#x200B;**」。** ****&#x200B;如果您的帳戶已啟用電子郵件建構器，您將自動收到這些變更。
+
+[了解更多](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+**小考的安全考試瀏覽器整合：** 管理員可在帳戶層級啟用整合，並上傳安全考試瀏覽器設定檔（.seb）以定義評量限制。 作者可選擇哪些測驗需要使用安全考試瀏覽器。 嘗試此類測驗的學習者會被提示啟動或下載安全考試瀏覽器。
+
+[了解更多](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 **非登入功能增強功能：** Learning Manager 現在可在不要求使用者登入的情況下，受控地存取學習內容。
 
@@ -67,66 +83,129 @@ Live Hub 現支援最多 5,000 名與會者的場次、多語言隱藏字幕及�
 >
 >本專題的文件將很快公開。
 
-**虛擬教練：** Virtual Coach 是一款由 AI 驅動的角色扮演與教練解決方案，讓學習者能練習逼真的職場對話。 它支援九種語言，可以作為獨立的作業輔助工具使用，也可以嵌入課程中。 [了解更多](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+**虛擬教練：** Virtual Coach 是一款由 AI 驅動的角色扮演與教練解決方案，讓學習者能練習逼真的職場對話。 它支援九種語言，可以作為獨立的作業輔助工具使用，也可以嵌入課程中。
 
-**Live Hub：** Live Hub 現已對 Ultimate 客戶開放，Prime 客戶仍處於測試階段。 [了解更多](../administrators/feature-summary/billing-management.md)
+[了解更多](../authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
-**Live Hub** 支援最多 5,000 名與會者：作者新增虛擬教室模組時，現在可選擇最多 5,000 名與會者的容量。 在大型課程中，攝影機存取、螢幕共享及白板功能僅限講師使用。 這些場次不設分組討論室。 [了解更多](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+**Live Hub：** Live Hub 現已對 Ultimate 客戶開放，Prime 客戶仍處於測試階段。
 
-**Live Hub** 中的多語言隱藏字幕：講師現在可以在教室設定&#x200B;**中**&#x200B;選擇隱藏字幕語言。所有參與者皆以講師所選語言觀看字幕。 [了解更多](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+[了解更多](../administrators/feature-summary/billing-management.md)
 
-**群組報名預約與候補名單管理：** 作者可以將教室與虛擬教室課程中的名額分配給特定使用者群組，為這些群組及所有其他學習者設定獨立的報名開放日期，並啟用自動候補名單升級及截止日期。 [了解更多](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+**Live Hub** 支援最多 5,000 名與會者：作者新增虛擬教室模組時，現在可選擇最多 5,000 名與會者的容量。 在大型課程中，攝影機存取、螢幕共享及白板功能僅限講師使用。 這些場次不設分組討論室。
 
-**支援多個 Zoom 連線：** 整合管理員可以在單一帳戶中設定多個 Zoom 連線，並將其指派給特定角色或使用者群組。 作者在建立或編輯工作階段時，可從可用的連線中選擇。 [了解更多](../integration-admin/feature-summary/zoom-connector.md)
+[了解更多](../getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
 
-**通路：** 通路通常對所有客戶開放。 [了解更多](../administrators/feature-summary/create-channels.md)
+**Live Hub** 中的多語言隱藏字幕：講師現在可以在教室設定&#x200B;**中**&#x200B;選擇隱藏字幕語言。所有參與者皆以講師所選語言觀看字幕。
+
+[了解更多](../getting-started-with-live-hub/closed-captions-in-live-hub.md)
+
+**群組報名預約與候補名單管理：** 作者可以將教室與虛擬教室課程中的名額分配給特定使用者群組，為這些群組及所有其他學習者設定獨立的報名開放日期，並啟用自動候補名單升級及截止日期。
+
+[了解更多](../authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
+
+**支援多個 Zoom 連線：** 整合管理員可以在單一帳戶中設定多個 Zoom 連線，並將其指派給特定角色或使用者群組。 作者在建立或編輯工作階段時，可從可用的連線中選擇。
+
+[了解更多](../integration-admin/feature-summary/zoom-connector.md)
+
+**通路：** 通路通常對所有客戶開放。
+
+[了解更多](../administrators/feature-summary/create-channels.md)
 
 ## 本版本的增強功能
 
-**個人化學習路徑編輯與品牌標籤：** 學習者可一次移除建議主題或課程。 管理員可以透過品牌頁面&#x200B;**重新定位學習者首頁**&#x200B;上的個人化學習路徑條。[了解更多](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
+**個人化學習路徑編輯與品牌標籤：** 學習者可一次移除建議主題或課程。 管理員可以透過品牌頁面&#x200B;**重新定位學習者首頁**&#x200B;上的個人化學習路徑條。
 
-**學習者助理中的學習路徑引用：** 答案現在會引用包含來源課程的學習路徑，並附上課程本身。 從工作輔助工具中擷取的答案包含下載連結。 [了解更多](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
+[了解更多](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
-**AI 助理配置：** 管理員助理提供兩個代理程式，分別是 Insights 代理與知識代理。 學習助理提供三種代理：知識代理、回應代理與學習路徑代理。 您可以分別設定每個代理程式。 [了解更多](/help/migrated/learners/feature-summary/learner-ai-assistant.md)
+**學習者助理中的學習路徑引用：** 答案現在會引用包含來源課程的學習路徑，並附上課程本身。 從工作輔助工具中擷取的答案包含下載連結。
 
-**重新寄送虛擬教室課程邀請：** 具有課程編輯權限的管理員可從實例頁面重新寄送課程邀請。 此選項適用於當前及未來的場次。 [了解更多](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+[了解更多](/help/migrated/learners/feature-summary/learner-ai-assistant.md#learning-path-citations)
 
-**從 Adobe Connect 錄影檢視自動出席：** 當學習者播放錯過的虛擬教室錄音時，Learning Manager 會標記出席。 排程整合會將實際檢視時間與帳戶設定的完成條件進行比較。 [了解更多](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
+**AI 助理配置：** 管理員助理提供兩個代理程式，分別是 Insights 代理與知識代理。 學習助理提供三種代理：知識代理、回應代理與學習路徑代理。 您可以分別設定每個代理程式。
+
+[了解更多](/help/migrated/learners/feature-summary/learner-ai-assistant.md#configure-la-agents)
+
+**重新寄送虛擬教室課程邀請：** 具有課程編輯權限的管理員可從實例頁面重新寄送課程邀請。 此選項適用於當前及未來的場次。
+
+[了解更多](/help/migrated/instructors/feature-summary/resend-session-invite.md)
+
+**從 Adobe Connect 錄影檢視自動出席：** 當學習者播放錯過的虛擬教室錄音時，Learning Manager 會標記出席。 排程整合會將實際檢視時間與帳戶設定的完成條件進行比較。
+
+[了解更多](/help/migrated/integration-admin/feature-summary/track-attendance-through-adobe-connect.md)
 
 **下載的報告建構器報告中的欄位標題變更：** 已下載的報告建立器報告中的預設欄位標題現在會包含資料集名稱。 例如，Learning Object 資料集中的 **Name** 會顯示為 **Learning Object - Name**。 對於彙總欄位，標題也會包含功能，例如 **學習物件數量 - ID**。 在別名&#x200B;**欄位中使用自訂名稱**&#x200B;的標題不會變更。
 
-**合規元件中的多重報名課程：** 合規小工具列出學習者必須完成的所有多選課課程實例。 如果某個實例有截止日期，沒有截止日期的實例會被隱藏。 [了解更多](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
+**合規元件中的多重報名課程：** 合規小工具列出學習者必須完成的所有多選課課程實例。 如果某個實例有截止日期，沒有截止日期的實例會被隱藏。
 
-**管理員目錄搜尋中的相關性排名：** 管理員檢視中的目錄搜尋會依相關性排序結果。 最先顯示完全匹配的部分匹配，接著是部分匹配。 [了解更多](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
+[了解更多](/help/migrated/learners/feature-summary/multi-enrolled-learner-compliance-widget.md)
 
-**退休課程而不使學習路徑無法存取：** 已退休課程或巢狀學習路徑會從較高階的學習物件中移除，該物件仍會持續開放以接受新報名。  [了解更多](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+**管理員目錄搜尋中的相關性排名：** 管理員檢視中的目錄搜尋會依相關性排序結果。 最先顯示完全匹配的部分匹配，接著是部分匹配。
 
-**Adobe Workfront 的課程取消同步：** 在 Adobe Workfront 取消的課程可透過遷移轉移至 Learning Manager。 移轉會新增一個可選的狀態&#x200B;**欄位，可接受**「啟用&#x200B;**」或**「已取消&#x200B;**」。**&#x200B;[了解更多](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+[了解更多](/help/migrated/administrators/feature-summary/catalogs.md#search-catalogs)
 
-**名字字元限制：** 名字欄位現在最多可容納 255 個字元，原為 63 個。 此限制適用於介面新增的使用者、透過 CSV 匯入、自我註冊以及外部使用者身分新增的使用者。 現有使用者不會受到影響。 在表格儲存格、下拉清單項目及搜尋結果中，長名稱會被縮短。 將滑鼠移到縮短名稱上即可完整查看。 [了解更多](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
+**退休課程而不使學習路徑無法存取：** 已退休課程或巢狀學習路徑會從較高階的學習物件中移除，該物件仍會持續開放以接受新報名。
+
+[了解更多](/help/migrated/administrators/feature-summary/settings/basic-settings.md#retiral-impact-ho-lo)
+
+**Adobe Workfront 的課程取消同步：** 在 Adobe Workfront 取消的課程可透過遷移轉移至 Learning Manager。 移轉會新增一個可選的狀態&#x200B;**欄位，可接受**「啟用&#x200B;**」或**「已取消&#x200B;**」。**
+
+[了解更多](/help/migrated/integration-admin/feature-summary/alm-workfront-cancellation.md)
+
+**名字字元限制：** 名字欄位現在最多可容納 255 個字元，原為 63 個。 此限制適用於介面新增的使用者、透過 CSV 匯入、自我註冊以及外部使用者身分新增的使用者。 現有使用者不會受到影響。 在表格儲存格、下拉清單項目及搜尋結果中，長名稱會被縮短。 將滑鼠移到縮短名稱上即可完整查看。
+
+[了解更多](/help/migrated/deployment-guide/user-setup.md#character-limit-username)
 
 **本地化的 Live Hub 介面與錄製播放器**：Live Hub 現在以 Adobe Learning Manager 所選語言顯示介面，支援相同的 18 種語言。 錄影播放器會根據球場語言進行本地化。
 
-**課程與學習路徑的徽章資訊：** 當作者新增課程或學習路徑時，視窗會列出現有課程與學習路徑，並附有徽章資訊、出版狀態及課程格式。 [了解更多](/help/migrated/authors/feature-summary/create-learning-path.md)
+**課程與學習路徑的徽章資訊：** 當作者新增課程或學習路徑時，視窗會列出現有課程與學習路徑，並附有徽章資訊、出版狀態及課程格式。
 
-**自我註冊個人檔案的未登入頁面 URL：** 每個自我註冊個人檔案都可以擁有其可分享的未登入選單 URL，內建於 Experience Builder 中。 從該網址選擇 **「註冊」** 的使用者會被加入該網址所屬的個人檔案。 [了解更多](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
+[了解更多](/help/migrated/authors/feature-summary/create-learning-path.md)
+
+**自我註冊個人檔案的未登入頁面 URL：** 每個自我註冊個人檔案都可以擁有其可分享的未登入選單 URL，內建於 Experience Builder 中。 從該網址選擇 **「註冊」** 的使用者會被加入該網址所屬的個人檔案。
+
+[了解更多](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
 **Learning Tools 互通性中的自訂學習者屬性：** Learning Manager 透過選用的名稱與角色配置服務端點以及啟動請求讀取自訂學習者屬性。 有些學習系統，例如 Moodle，並不支援這個端點。
 
-**討論區講師通知：** 無頭用戶可透過 API 將討論區活動摘要寄送給講師及班長。 [了解更多](/help/migrated/discussion-board-instructor-notifications.md)
+[了解更多](/help/migrated/integration-admin/feature-summary/lti-support-for-nrps.md)
 
-**教師對學習物件實例的 Webhook 編輯：** 學習物件實例修改 webhook 現在也會在講師編輯虛擬教室課程時觸發。 [了解更多](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+**討論區講師通知：** 無頭用戶可透過 API 將討論區活動摘要寄送給講師及班長。
 
-**Learning Path 註冊的最後存取日期：** 您可以透過 API 為 Learning Path 註冊附加自訂的中繼資料，例如最後存取日期。 [了解更多](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
+[了解更多](/help/migrated/discussion-board-instructor-notifications.md)
+
+**教師對學習物件實例的 Webhook 編輯：** 學習物件實例修改 webhook 現在也會在講師編輯虛擬教室課程時觸發。
+
+[了解更多](/help/migrated/integration-admin/feature-summary/webhook-instructor-edits.md)
+
+**Learning Path 註冊的最後存取日期：** 您可以透過 API 為 Learning Path 註冊附加自訂的中繼資料，例如最後存取日期。
+
+[了解更多](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
 
 ## API 變更
 
 * **書籤 API 排序與已退役內容處理：** 書籤現在會優先回傳最新的，而已退役學習物件的書籤則不再回傳。 不會新增端點、參數或回應屬性。
+
+  [了解更多](/help/migrated/api-changes-dec-2026.md#bookmark-api-ordering-retired-content)
+
 * **討論區講師通知的 API：** 新 API 讓講師與班級經理訂閱討論區，並控制哪些活動出現在摘要郵件中。
+
+  [了解更多](/help/migrated/api-changes-dec-2026.md#api-discussion-board-instructors)
+
 * **在 Learner 應用程式中支援多重註冊實例的 API：** 新增可選 `includeMultiInstanceEnrollments=true` 參數以 `GET /enrollments` 包含多重註冊實例。 預設值為 `false`。
+
+  [了解更多](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
+
 * **Learning Paths 註冊的最後存取日期：** 使用管理權杖在 Learning Path 註冊上設定自訂的中繼資料。 用管理員或學習者憑證閱讀。
+
+  [了解更多](/help/migrated/api-changes-dec-2026.md#api-last-access-date-lp-enrollment)
+
 * **報告建立器匯出的作業 API 工作類型：** 新的 `generateCustomReport` 工作類型會依報告 ID 匯出已儲存的報告建構器報告。 現有的工作類型（包括 `generateQuizReport`）保持不變。
-* **Zoom 連接器的 API：** 新增 API 可擷取並管理 Zoom 連線、儲存 Zoom 認證，並設定可使用連線的使用者群組與自訂角色。 API 採用基於會話的驗證，並需要整合管理員登入。 [了解更多](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
+
+  [了解更多](/help/migrated/api-changes-dec-2026.md#api-job-report-builder-exports)
+
+* **Zoom 連接器的 API：** 新增 API 可擷取並管理 Zoom 連線、儲存 Zoom 認證，並設定可使用連線的使用者群組與自訂角色。 API 採用基於會話的驗證，並需要整合管理員登入。
+
+  [了解更多](../api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
 
 ## 本版本的重大變更
 
@@ -335,15 +414,15 @@ Insights Agent 進行了兩項強化。 它們是：
 
 **由我儲存的小工具**
 
-* **管理員：** 管理員可以在頁面上放置「由我儲存」小工具，讓學習者能輕鬆找到他們已加入書籤的內容。 這讓學習者可以回到先前儲存的課程，而不必再次搜尋或瀏覽。 了解更多關於「由我儲存」小工具[&#128279;](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#bookmark-widget)的資訊。
+* **管理員：** 管理員可以在頁面上放置「由我儲存」小工具，讓學習者能輕鬆找到他們已加入書籤的內容。 這讓學習者可以回到先前儲存的課程，而不必再次搜尋或瀏覽。 了解更多關於「由我儲存」小工具](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md#bookmark-widget)的資訊[。
 
-* **學習者：**&#x200B;**「由我**&#x200B;儲存」小工具會顯示您已加入書籤以供日後使用的課程、學習路徑、認證及工作輔助工具。使用此小工具快速在同一處存取已儲存的內容，無需再次搜尋目錄。 了解更多關於「由我儲存」小工具[&#128279;](/help/migrated/learners/feature-summary/saved-by-me-widget.md)的資訊。
+* **學習者：****「由我**&#x200B;儲存」小工具會顯示您已加入書籤以供日後使用的課程、學習路徑、認證及工作輔助工具。使用此小工具快速在同一處存取已儲存的內容，無需再次搜尋目錄。 了解更多關於「由我儲存」小工具](/help/migrated/learners/feature-summary/saved-by-me-widget.md)的資訊[。
 
 **頻道主題色彩：** 建立頻道時，您可以從更多頻道主題顏色中選擇。 主題色會在你選取後依情境套用，以凸顯對比。 當您為頻道選擇主題顏色時，所選顏色會套用到頻道介面，並設計用來與頻道縮圖及文字保持對比。 建立頻道時會自動指定預設顏色，但您可以隨時從可用選項中選擇其他顏色。
 
 **影片縮圖：** 學習者現在能快速透過影片的磁貼辨識影片，而磁貼會顯示縮圖，幫助一眼辨識內容。 如果來源影片沒有提供自己的縮圖，Adobe Learning Manager 會自動根據頻道主題顏色、抽象圖案和影片標題生成縮圖。
 
-**頻道：** 只有當至少建立一個頻道、包含至少一支來源影片，且標示為「對學習者可見」時，「頻道導覽」選項才會對學習者顯示。 了解更多關於頻道的[&#128279;](/help/migrated/administrators/feature-summary/create-channels.md)資訊。
+**頻道：** 只有當至少建立一個頻道、包含至少一支來源影片，且標示為「對學習者可見」時，「頻道導覽」選項才會對學習者顯示。 了解更多關於頻道的](/help/migrated/administrators/feature-summary/create-channels.md)資訊[。
 
 ## 修正的錯誤
 
@@ -374,25 +453,25 @@ Adobe Learning Manager 於 2026 年 8 月發布，在個人化學習、AI、報�
 
 這些欄位會在 LT 報告中新增帳戶專屬的外部學習自訂欄位。 在 Admin LT 中，新的自訂欄位欄位會附加在最後;在 Learner LT 中，外部學習名稱與完成評論會插入在相關模組與審查欄位附近，其餘自訂欄位則在最後新增。
 
-了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的資訊。
+了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的[資訊。
 
 ### 學員成績單中認證的根訓練識別碼
 
 這會在 Admin LT 與 Learner LT 中新增一個新的根訓練 ID 欄位。 此欄位會出現在報告的末尾，有助於識別學習者紀錄的父級認證上下文。
 
-了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的資訊。
+了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的[資訊。
 
 ### Webhook 日期-時間格式與學習者成績單的對齊
 
 這會將 webhook 資料物件的日期-時間值標準化為分鐘精確度。 秒數總是以 00 發出，使 webhook 的時間戳與 LT 報告格式對齊。
 
-了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的資訊。
+了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的[資訊。
 
 ### 學習者成績單中的權重欄位
 
 對於啟用成績簿的課程模組，LT 報告中會新增權重欄位。 這會直接在報表輸出中顯示模組權重。
 
-了解更多關於 Adobe Learning Manager[&#128279;](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的資訊。
+了解更多關於 Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md) 2026 年 8 月版本中報告變更的[資訊。
 
 ### learningObjects API 中的共用課程作者詳細資訊
 
@@ -426,7 +505,7 @@ AI Orchestrator 代理程式將單一查詢請求的意圖偵測移入 orchestra
 
 **學習者：** 設定為影片的主頁公告僅在學習者首頁顯示初始影片畫面，且播放未如預期自動開始。 影片播放行為已更新，以確保在載入公告時，支援的主播影片能正確自動播放。 學習者現在可以在不需手動播放的情況下觀看以影片為主的報頭公告，提供更具吸引力的體驗。
 
-**學習者：**&#x200B;**您的網路**&#x200B;趨勢小工具錯誤地在兩側橫列顯示&#x200B;**空白的開始學習**&#x200B;卡片。此問題已透過為每一列繪製適當的空狀態卡片而獲得修正。 第一列現在會顯示 **「前往目錄** 」連結，而第二列則依預期繼續顯示 **「開始學習** 」卡片。
+**學習者：****您的網路**&#x200B;趨勢小工具錯誤地在兩側橫列顯示&#x200B;**空白的開始學習**&#x200B;卡片。此問題已透過為每一列繪製適當的空狀態卡片而獲得修正。 第一列現在會顯示 **「前往目錄** 」連結，而第二列則依預期繼續顯示 **「開始學習** 」卡片。
 
 **API：** 當學習者依名稱（A–Z）排序目錄時，公開 API 以區分大小寫排序回傳結果，導致課程名稱（AA、BB、CC）出現在小寫名稱（aa、bb）之前，而非遵循標準字母順序。 排序邏輯已更新，可使用不區分大小寫的比較。 課程成績現依預期字母順序顯示，無論字母大小寫為何，確保課程名稱順序一致。
 
@@ -562,7 +641,7 @@ Adobe Learning Manager 使用單一共享虛擬教室作為課程實例。 當�
 4. 在左側導覽面板中導覽至「學習者」。
    ![](assets/instructor-send-email1.png)
 5. 從學習者清單中選擇一位學習者。
-6. 在右上角， **開啟「動作** 」下拉選單，顯示更多選項（包括灰色顯示的選項）。 **「向所有人**&#x200B;發送電子郵件」是其中一個選項。
+6. 在右上角， **開啟「動作** 」下拉選單，顯示更多選項（包括灰色顯示的選項）。 **「向所有人**發送電子郵件」是其中一個選項。
    ![](assets/instructor-send-email2.png)
 
 **自動清除已刪除使用者：** 自動清除刪除使用者設定為刪除所需的最短一年期間。 這功能也被強化，能以「天」為單位容納多個數字。 管理員現在可以透過聯絡客戶成功經理，從後端申請變更。
@@ -859,7 +938,7 @@ L1 回饋只能在個別學習物件中設定，這限制了彈性，也防止�
 * 針對特定角色進行批量啟用/停用。
 * 可視化每個範本的角色。
 
-請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level)以獲取更多資訊。
+請參閱本文[](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level)以獲取更多資訊。
 
 ## 為已完成課程的學習者提供更佳的內容版本控制
 
@@ -911,7 +990,7 @@ Adobe Learning Manager 現在為作者提供更清晰的選項來管理內容更
 _Content update options_
 -->
 
-有關內容庫的更多資訊，請參閱本文[&#128279;](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course)。
+有關內容庫的更多資訊，請參閱本文[](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course)。
 
 ## 流體播放器的改良
 
@@ -927,13 +1006,13 @@ _Content update options_
 >
 >此增強功能僅適用於靜態內容。
 
-有關流體播放器的更多資訊，請參閱這篇文章[&#128279;](/help/migrated/learners/feature-summary/fluidic-player.md)。
+有關流體播放器的更多資訊，請參閱這篇文章[](/help/migrated/learners/feature-summary/fluidic-player.md)。
 
 ## 本次版本修正的錯誤
 
 * 修正已完成課程的學習者在內容模組更新至新版本後，重溫時出現白畫面的問題。
 
-此外，有關 Adobe Learning Manager 即將進行的變更詳情，請參閱本文[&#128279;](https://experienceleague.adobe.com/zh-hant/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
+此外，有關 Adobe Learning Manager 即將進行的變更詳情，請參閱本文[](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager)。
 
 +++
 
@@ -952,7 +1031,7 @@ _Content update options_
 
 Adobe Learning Manager （ALM） 現在接受語言的 SAML 屬性。 此屬性隨後會映射到使用者介面與內容語言設定，確保以偏好語言與 LMS 順暢互動。 這些語言設定的設定透過身份與存取管理（IAM）平台管理，並利用 SAML 進行單一登入（SSO）。 這支援由服務提供者（SP）發起的登入，以及由身份提供者（IdP）發起的登入，讓使用者能以所選語言查看介面與內容。
 
-請參閱本文[&#128279;](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)以取得更多資訊。
+請參閱本文[](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)以取得更多資訊。
 
 ## 遷移 API 強化
 
@@ -962,7 +1041,7 @@ Adobe Learning Manager （ALM） 現在接受語言的 SAML 屬性。 此屬性�
 
 學習者應用程式中的排序功能會根據內容與介面語言提供個人化課程推薦。 這項改進簡化了學習者尋找偏好語言課程並使用更智慧排序選項的過程。
 
-請參閱本文[&#128279;](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)以取得更多資訊。
+請參閱本文[](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app)以取得更多資訊。
 
 +++
 
@@ -1348,7 +1427,7 @@ Adobe Learning Manager 2022 年 11 月版本包含以下內容：
 * 玩家自訂
 * 學習者與管理者的模仿
 
-**注意：**&#x200B;隨著 Adobe Learning Manager 2022 年 11 月版本的發佈，Zoom 將於 2023[&#128279;](https://marketplace.zoom.us/docs/guides/auth/jwt/) 年 6 月停用 JWT 驗證。因此，搭配 JWT 的 Zoom 連接器將持續運作至上述日期，但我們建議使用者建立伺服器對伺服器的 OAuth 應用程式，以取代帳戶中的此功能。 任何新連線預設都會啟用 Zoom OAuth 驗證。
+**注意：**&#x200B;隨著 Adobe Learning Manager 2022 年 11 月版本的發佈，Zoom 將於 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/) 年 6 月停用 [JWT 驗證。因此，搭配 JWT 的 Zoom 連接器將持續運作至上述日期，但我們建議使用者建立伺服器對伺服器的 OAuth 應用程式，以取代帳戶中的此功能。 任何新連線預設都會啟用 Zoom OAuth 驗證。
 
 ### 本次更新修正的錯誤
 
@@ -1739,7 +1818,7 @@ Learning Manager 為所有管理員與管理者提供合規儀表板。 管理�
 
 +++Learning Manager 更新 66 - 2021 年 8 月 版本
 
-**2021**&#x200B;**年 8 月發布的 Adobe Learning Manager** 著重於改善學習者體驗、報告與行政工作流程。其中一些亮點包括：
+**2021****年 8 月發布的 Adobe Learning Manager** 著重於改善學習者體驗、報告與行政工作流程。其中一些亮點包括：
 
 * **內容市場：** Learning Manager 現提供超過 70,000 門來自不同領域的課程，如科技、管理、領導力等。
 * **強化無障礙支援：** 學習者角色的無障礙支援透過強化鍵盤導覽、螢幕閱讀器功能及對比度相容性。
@@ -1960,7 +2039,7 @@ Captivate Learning Manager 行動應用程式更新 3.3 引入全新首頁，支
 * 從 Salesforce 聯絡人匯入使用者。
 * ...以及更多。
 
-欲了解更多資訊，請參閱 Learning Manager[&#128279;](../whats-new.md) 2021 年 2 月更新中的新功能。
+欲了解更多資訊，請參閱 Learning Manager](../whats-new.md) 2021 年 2 月更新中的新功能[。
 
 ### 本次更新修正的錯誤 {#bug-fixes}
 
@@ -2173,7 +2252,7 @@ BlueJeans Events 連接器連接 Learning Manager 與 BlueJeans 系統，以自�
 
 Learning Manager 已支援學習平台內的 LinkedIn Learning 課程。 現在學習者可以在 Learning Manager 行動應用程式中修習這類 LinkedIn Learning 課程。 在裝置應用程式中搜尋課程，然後開始課程。
 
-欲了解更多資訊，請參閱「從 LinkedIn Learning ***[&#128279;](../learners/feature-summary/ipad-android-tablet-users.md#linkedin)修課***」。
+欲了解更多資訊，請參閱「從 LinkedIn Learning ***](../learners/feature-summary/ipad-android-tablet-users.md#linkedin)修課[***」。
 
 ### 管理員註冊的推播通知 {#pushnotificationforadminenrollments}
 
@@ -2413,7 +2492,7 @@ Learning Manager 現在只要點擊支援的 Learning Manager 連結/網址，�
 
 學習者可以開啟外部憑證並上傳資產，例如 PDF、文字或圖片檔案。
 
-如需更多資訊，請參閱  [***「將資產上傳至外部憑證***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)」。**&#x200B;**
+如需更多資訊，請參閱  [***「將資產上傳至外部憑證***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert)」。****
 
 ### 本次版本修正的問題 {#issuesfixedinthisrelease}
 
@@ -2568,7 +2647,7 @@ Adobe Learning Manager 現在允許您自訂帳戶，為使用者提供更豐富
 
 ![](assets/choose-learning-objects.png)
 
-當學習者使用瀏覽器返回按鈕返回&#x200B;**&#x200B;**&#x200B;目錄或&#x200B;**我的學習**&#x200B;頁面時，篩選器仍會保留。學習者先前套用的篩選條件不再被重置。
+當學習者使用瀏覽器返回按鈕返回&#x200B;****&#x200B;目錄或&#x200B;**我的學習**&#x200B;頁面時，篩選器仍會保留。學習者先前套用的篩選條件不再被重置。
 
 ### 控制搜尋篩選器的可見性 {#controlvisibilityofsearchfilters}
 
@@ -2732,7 +2811,7 @@ Learning Manager 現在也允許學習者使用 SSO 驗證進入虛擬課程的�
 
 ### 新功能與強化功能 {#Newandenhancedfeatures-5}
 
-**社會學習中內部與外部使用者**&#x200B;的範圍分離 管理員可以為內部與外部學習者定義不同的範圍。 新增了兩個內部與外部使用者區塊。 在這兩個區段中，您可以定義學習者群組的範圍。 對於內部使用者，您可以定義使用者特徵的數值。 對於外部使用者，您可以定義外部個人檔案，讓學習者共享相同的社交空間。 如需更多資訊，請參閱 [***「範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)」。  **社交-限制社交看板**&#x200B;的建立 為了限制所有學習者建立看板並有效管理看板，管理員可授予特定用戶群組建立看板的權限。 管理員可限制只建立特定群組，而非所有參與社交學習的學習者。 如需更多資訊，請參閱 [***「建立看板權限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)」。  **僅向學習者**&#x200B;顯示空白的啟用欄位管理員可選擇在數值填完後顯示啟用欄位或隱藏欄位。 更多資訊請參閱 [***「使用者顯示***](../administrators/feature-summary/add-users-user-groups.md#activefields)」。  **內部使用者在指定非活動**&#x200B;期間會被刪除管理員，可以設定若內部學習者在指定期間內保持非活動狀態，該期間會被刪除。 如需更多資訊，請參閱 ***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)。  &#x200B;** 在頁尾&#x200B;**&#x200B;自訂連結 管理員可以在頁尾新增並自訂連結。 連結也可以針對不同地區進行客製化。 在頁尾新增聯絡人管理員連結的現有方法也可在頁尾連結&#x200B;**&#x200B;區段中使用&#x200B;**。如需更多資訊，請參閱 [***「自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)」。
+**社會學習中內部與外部使用者**&#x200B;的範圍分離 管理員可以為內部與外部學習者定義不同的範圍。 新增了兩個內部與外部使用者區塊。 在這兩個區段中，您可以定義學習者群組的範圍。 對於內部使用者，您可以定義使用者特徵的數值。 對於外部使用者，您可以定義外部個人檔案，讓學習者共享相同的社交空間。 如需更多資訊，請參閱 [***「範圍設定***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#scopesettings)」。  **社交-限制社交看板**&#x200B;的建立 為了限制所有學習者建立看板並有效管理看板，管理員可授予特定用戶群組建立看板的權限。 管理員可限制只建立特定群組，而非所有參與社交學習的學習者。 如需更多資訊，請參閱 [***「建立看板權限***](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#permission)」。  **僅向學習者**&#x200B;顯示空白的啟用欄位管理員可選擇在數值填完後顯示啟用欄位或隱藏欄位。 更多資訊請參閱 [***「使用者顯示***](../administrators/feature-summary/add-users-user-groups.md#activefields)」。  **內部使用者在指定非活動**&#x200B;期間會被刪除管理員，可以設定若內部學習者在指定期間內保持非活動狀態，該期間會被刪除。 如需更多資訊，請參閱 ***[自動刪除使用者](../administrators/feature-summary/settings.md#autodelete)。  **在頁尾**&#x200B;自訂連結 管理員可以在頁尾新增並自訂連結。 連結也可以針對不同地區進行客製化。 在頁尾新增聯絡人管理員連結的現有方法也可在頁尾連結&#x200B;**區段中使用**。如需更多資訊，請參閱 [***「自訂頁尾連結***](../administrators/feature-summary/settings.md#footer)」。
 
 ### 本次版本已知問題 {#Knownissuesinthisrelease-2}
 
@@ -2748,7 +2827,7 @@ Learning Manager 現在也允許學習者使用 SSO 驗證進入虛擬課程的�
 
 Android 使用者：
 
-此更新也支援必要的變更，以符合 Google 修訂後的建議，實施推播通知。 因此，如果您使用的是 2.7.4 或更早版本，您將不再收到&#x200B;**&#x200B;**&#x200B;通知。
+此更新也支援必要的變更，以符合 Google 修訂後的建議，實施推播通知。 因此，如果您使用的是 2.7.4 或更早版本，您將不再收到&#x200B;****&#x200B;通知。
 
 若要接收通知，我們建議升級至 2.8 版本。
 
@@ -3516,7 +3595,7 @@ Fluidic Player 的增強功能僅適用於影片。
 
 **課程效能**
 
-* 在學習者角色中，即使系統管理員停用課程效能，課程效能仍會以&#x200B;**&#x200B;**&#x200B;排序方式篩選選項之一顯示。這個問題已經修復。
+* 在學習者角色中，即使系統管理員停用課程效能，課程效能仍會以&#x200B;****&#x200B;排序方式篩選選項之一顯示。這個問題已經修復。
 
 **認證**
 
@@ -3927,7 +4006,7 @@ Learning Manager 允許您將徽章匯出為 PDF 檔案。 如需更多資訊，
 
 **電子郵件範本**
 
-* 用來代表外部群組的「partners」一詞&#x200B;**，已** **&#x200B;**&#x200B;**從電子郵件範本的主體與標題中移除。**&#x200B;外部團體不一定被稱為合作夥伴。\
+* 用來代表外部群組的「partners」一詞&#x200B;**，已** **** **從電子郵件範本的主體與標題中移除。**&#x200B;外部團體不一定被稱為合作夥伴。\
   **注意：** 如果預設範本已被修改，此更新範本將不會出現。 若要檢視更新後的範本，請在範本預覽&#x200B;**對話框中**&#x200B;點選&#x200B;**「還原為原始」。**
 
 * 當 **編輯「建立檔案（自我註冊）**」及&#x200B;**「建立檔案（外部/合作夥伴）** 」電子郵件範本時，管理員收到的電子郵件中無法點擊該 URL。 這個問題已經修復。
@@ -4254,7 +4333,7 @@ Learning Manager 現有功能有顯著的增強。 主要的增強功能如下�
 
 **為使用者群組建立自訂目錄**
 
-* 在管理員角色中使用 **「新增學習物件** 」對話框時，您可以篩選課程、選擇課程，並使用 **對話框底部的「新增** 」按鈕進行新增。 在某些情況下，**&#x200B;**&#x200B;部分使用者的新增按鈕未出現。
+* 在管理員角色中使用 **「新增學習物件** 」對話框時，您可以篩選課程、選擇課程，並使用 **對話框底部的「新增** 」按鈕進行新增。 在某些情況下，****&#x200B;部分使用者的新增按鈕未出現。
 
 +++
 
