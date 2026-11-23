@@ -153,7 +153,7 @@ ht-degree: 0%
 
 ![](assets/configure-course-paths.png)
 _課程與路徑元件，管理員可設定元件標題、描述，並選擇課程或學習路徑以互動卡片顯示_
-11. 選擇 **[!UICONTROL Add widget]**。
+&#x200B;11. 選擇 **[!UICONTROL Add widget]**。
 
 「課程與路徑」小工具將會新增至頁面。 管理員可以新增其他小工具並發佈頁面。
 
