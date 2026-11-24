@@ -23,7 +23,7 @@ Adobe Learning Manager 擁有彈性、客戶友善且最佳的定價模式，能
 
 只有您組織的管理員可以管理帳單。
 
-如果您想聯絡 Adobe 以取得更多關於 Learning Manager 訂閱與帳單的資訊，請寫信至 learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com) 與我們[聯繫。
+如果您想聯絡 Adobe 以取得更多關於 Learning Manager 訂閱與帳單的資訊，請寫信至 learningmanagersales@adobe.com[&#128279;](mailto:learningmanagersales@adobe.com) 與我們聯繫。
 
 ## 帳單頁面
 
@@ -40,7 +40,7 @@ Adobe Learning Manager 擁有彈性、客戶友善且最佳的定價模式，能
 
 **帳戶詳情**
 
-**訂閱標籤頂端****的帳戶詳細資料**&#x200B;卡片會顯示您帳戶的四個唯讀識別碼。
+**訂閱標籤頂端**&#x200B;**的帳戶詳細資料**&#x200B;卡片會顯示您帳戶的四個唯讀識別碼。
 
 | 場地 | 說明 |
 |---|---|
@@ -329,7 +329,7 @@ Live Hub 包含在 Ultimate 訂閱方案中，且不需要另行購買 Live Hub 
 
 1. 以管理員身份登入 Adobe Learning Manager。
 1. 選擇&#x200B;**「帳單」。**
-1. 在訂閱標籤中導覽至&#x200B;**授權****。**
+1. 在訂閱標籤中導覽至&#x200B;**授權**&#x200B;**。**
 1. 選擇 **「檢視使用詳情**」。
 
    **「使用詳情**」區段會出現。
@@ -491,7 +491,7 @@ When you receive a 90% warning, contact your Adobe account team to purchase addi
 
 若要更新帳單資訊，請依照以下步驟操作：
 
-1. 以管理員身份登入&#x200B;**並點擊&#x200B;**[!UICONTROL Billing]**。**
+1. 以管理員身份登入&#x200B;**並點擊&#x200B;**&#x200B;[!UICONTROL Billing]&#x200B;**。**
 1. 在訂單清單中，按一下 **[!UICONTROL Edit]**。
 1. 在訂閱詳細資料頁面，按一下 **[!UICONTROL Edit Subscription]**。
 
