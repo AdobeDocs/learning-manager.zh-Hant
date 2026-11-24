@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 1%
 ---
 
@@ -102,11 +102,11 @@ ALM 讓學習者能透過模型情境協定（MCP）伺服器，存取他們既�
 * 回答學習內容問題
 * 取得個人化學習路徑
 
-管理員可以編輯每個工具描述，以新增組織特定的範例。 用戶端會從伺服器的元資料讀取授權細節，因此安裝只需要用戶端 ID 和用戶端密鑰。
+管理員可以編輯每個工具描述，以新增組織特定的範例。 用戶端會從伺服器的元資料讀取授權詳細資訊，因此安裝只需要用戶端 ID 和用戶端密鑰。
 
 [了解更多](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
 
-## 個人化學習路徑編輯與品牌條
+## 個人化學習路徑編輯與品牌標籤條
 
 * 學習者現在除了現有透過聊天細化主題與課程清單的選項外，還能在單一步驟中移除建議主題或課程。
 * 管理員現在可以透過品牌頁面重新定位學習者首頁上的個人化學習路徑條。
@@ -121,7 +121,7 @@ Adobe Learning Manager 現提供 Virtual Coach，一套由 AI 驅動的角色扮
 
 Virtual Coach 支援九種語言，可作為獨立工作輔助工具使用，或嵌入課程中。
 
-[了解更多](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[了解更多](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## 學習者助理中的學習路徑引用
 
@@ -161,7 +161,7 @@ Adobe Learning Manager 現在會在學習者播放錯過的虛擬教室課程錄
 
 ## 適用於課程與實例的電子郵件建構器
 
-Adobe Learning Manager 中的電子郵件建構器讓管理員與作者能建立品牌化的學習者溝通範本。 在 2026 年 12 月版本的 ALM 中，完整的電子郵件建構器體驗適用於課程層級及實例層級的電子郵件。 作者可以在繼承管理員定義的版面配置與格式的同時，自訂這些電子郵件。
+Adobe Learning Manager 中的電子郵件建構器允許管理員與作者建立品牌化的學習者溝通範本。 在 2026 年 12 月版本的 ALM 中，完整的電子郵件建構器體驗適用於課程層級及實例層級的電子郵件。 作者可以在繼承管理員定義的版面配置與格式的同時，自訂這些電子郵件。
 
 使用 Email Builder，您可以：
 
@@ -305,7 +305,6 @@ Learning Manager 現在能在不需要使用者登入的情況下，受控地存
 
 管理員現在可以選擇在公共學院中出現的特定目錄。 只有這些目錄才能被匿名訪客瀏覽，並被搜尋引擎和 AI 助理索引，因此測試課程或內部內容保持隱私。
  
-
 ### 在搜尋引擎與 AI 助理中被找到（測試版）
 
 Adobe Learning Manager 現在能讓你的公開學院被 Google 等搜尋引擎以及 ChatGPT 、Claude 和 Gemini 等 AI 助理發現。 你的課程隨後會出現在搜尋結果和 AI 生成的答案中，這些答案會歸屬於你的學院。
@@ -338,14 +337,6 @@ Adobe Learning Manager 現在能讓你的公開學院被 Google 等搜尋引擎�
 
 [了解更多](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## 儲存學習路徑註冊的最後存取日期
-
-Adobe Learning Manager 現在允許您將自訂的元資料（例如最後存取日期）附加到學習路徑的報名中。 你透過 API 設定並閱讀，API 幫助你追蹤對所指派學習路徑的時限存取。
-
-課程報名已透過 API 支援最後存取日期，該 API 控制學習者存取課程的時間長短。 學習路徑註冊現在提供通用的中繼資料欄位，讓您能儲存最後存取日期或其他想要追蹤的值。
-
-[了解更多](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## 下載報告中的欄位標題變更
 
 報表建構器現在會在下載報表的預設欄位標題中包含資料集名稱，因此學習物件資料集中的名稱會顯示為 **學習物件 - 名稱** ，而非 **名稱**。 對於彙總欄位，標題也會包含功能，例如「**學習物件數量 - ID**」。 如果您在欄位 **的別名** 欄位中輸入自訂名稱，該別名將被用作標題，且保持不變。
@@ -356,7 +347,7 @@ Adobe Learning Manager 現在允許您將自訂的元資料（例如最後存取
 
 Live Hub 現已正式開放給 Ultimate 客戶，對 Prime 客戶仍處於測試階段。
 
-[了解更多](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[了解更多](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Live Hub 中對隱藏字幕的多語言支援
 
@@ -387,7 +378,7 @@ Live Hub 現在支援最多可容納 5000 名參加者的大型課程，讓組�
 
 這讓組織能在同一平台上舉辦大型訓練課程，並設定可設定為預期受眾規模的教室。
 
-[了解更多](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[了解更多](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## 管道
 
@@ -468,7 +459,7 @@ Live Hub 中的無障礙修正改善了輔助技術與鍵盤導航使用者的�
 
 [了解更多](/help/migrated/api-changes-dec-2026.md#api-multienrolled-instances-lc-widget)
 
-### 學習路徑註冊的最後存取日期
+### Learning Path 註冊的最後存取日期
 
 您現在可以在學習路徑註冊時儲存自訂的元資料，例如最後存取日期，並透過 API 設定與讀取。 這有助於你追蹤對所指派學習路徑的限時存取情況。
 
