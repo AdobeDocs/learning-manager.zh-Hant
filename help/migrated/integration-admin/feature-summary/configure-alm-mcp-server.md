@@ -48,7 +48,7 @@ MCP 伺服器始終具有學習者範圍，因此沒有可選擇的範圍。
 | Claude | [https://claude.ai](https://claude.ai/) 和 [https://claude.com](https://claude.com/) | <https://claude.ai/api/mcp/auth_callback> |
 | ChatGPT | [https://chatgpt.com](https://chatgpt.com/) | <https://chatgpt.com/connector/oauth/&lt;id>\>（ChatGPT 在設定時顯示 ID） |
 
-註冊精確網域，例如 [https://chatgpt.com](https://chatgpt.com/)。 不要使用部分通配符，例如 [https://*chatgpt.com*](https://chatgpt.com)*，因為它們可能會匹配到無關的網域。 若要允許子網域，請使用全標籤通配符，例如* [*https://*.example.com](https：//.example.com)。
+註冊精確網域，例如 [https://chatgpt.com](https://chatgpt.com/)。 不要使用部分通配符，例如 [https://*chatgpt.com*](https://chatgpt.com)*，因為它們可能會匹配到無關的網域。 若要允許子網域，請使用全標籤通配符，例如* [*https://*.example.com](https://.example.com)。
 
 如果你列出所有 MCP 的轉址網域，一個 MCP 伺服器可以服務多個 AI 助理。 若要撤銷某位助理的存取權而不影響其他助理，請為每位助理建立獨立的 MCP 伺服器。 所有伺服器使用相同的 MCP 伺服器 URL。
 
