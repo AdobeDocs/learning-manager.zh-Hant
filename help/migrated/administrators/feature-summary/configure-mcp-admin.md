@@ -23,7 +23,7 @@ ht-degree: 0%
    * **伺服器名稱：** 輸入最多 50 個字元的名稱。
    * **說明：** 輸入最多 150 個字元的簡短描述。
    * **URL：** 輸入您的公司或應用程式 URL。
-   * **重新導向網域：** 輸入每個將連線的 AI 用戶端網域，例如 [http://\*.chatgpt.com](https：//encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/http%3a%2f%2f*.chatgpt.com) 或 [http://\*.claude.ai](https：//encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/http%3a%2f%2f*.claude.ai)。 此欄位為必填欄位。
+   * **重新導向網域：** 輸入每個將連線的 AI 用戶端網域，例如 [http://\*.chatgpt.com](https://encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/http%3a%2f%2f*.chatgpt.com) 或 [http://\*.claude.ai](https://encoded-592c9deb-987b-4562-aa3c-9fa3d37d83e9.uri/http%3a%2f%2f*.claude.ai)。 此欄位為必填欄位。
 
      ![](/help/migrated/administrators/feature-summary/assets/configure-mcp-admin1.png)
 
